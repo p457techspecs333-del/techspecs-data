@@ -10,8 +10,8 @@
 - **43** use the common section-preserving shape with an `extraction` object.
 - **4** use the section-preserving shape with `extraction_note` instead (`iphone-17e`, `iphone-18-pro`, `iphone-18-pro-max`, `iphone-duo`).
 - **1** uses the older field-level `specifications` shape (`iphone-6-plus`).
-- **3** records (`iphone-16`, `iphone-17`, `iphone-17-pro`) have been migrated to schema v2 and contain pilot sets of normalized fields; the other 45 records remain unmigrated.
-- The iPhone 16 and iPhone 17 pilots have official Apple Support Ireland source pages checked on 5 November 2026; the iPhone 17 Pro pilot uses Apple's Ireland product specifications page, checked on the same date. The iPhone 17e record still has an inferred URL that has not been independently checked.
+- **4** records (`iphone-16`, `iphone-17`, `iphone-17-pro`, `iphone-17-pro-max`) have been migrated to schema v2 and contain pilot sets of normalized fields; the other 44 records remain unmigrated.
+- The iPhone 16 and iPhone 17 pilots have official Apple Support Ireland source pages checked on 5 November 2026; the iPhone 17 Pro and iPhone 17 Pro Max pilots use Apple's Ireland product specifications page, checked on the same date. The iPhone 17e record still has an inferred URL that has not been independently checked.
 - Several records have blank verification status metadata. Other records explicitly say they were transcribed from supplied documents and the source page URL was not independently verified.
 
 **Meaning:** The archive is useful source material, but it is not yet a field-normalized, independently verified comparison database. A passing structural validator does not change that assessment.
@@ -63,7 +63,7 @@
 | `iphone-air` | iPhone Air | 2025 | 36 | Section archive | URL absent; supplied document | Provenance review |
 | `iphone-17` | iPhone 17 | 2025 | 30 | **v2 pilot migrated** | Official Apple Support Ireland page checked 2026-11-05; original sections preserved | Pilot fields normalized; continue field-by-field review |
 | `iphone-17-pro` | iPhone 17 Pro | 2025 | 37 | **v2 pilot migrated** | Official Apple Ireland specifications page checked 2026-11-05; original sections preserved | Pilot fields normalized; continue field-by-field review |
-| `iphone-17-pro-max` | iPhone 17 Pro Max | 2025 | 37 | Section archive | URL absent; supplied document | Provenance review |
+| `iphone-17-pro-max` | iPhone 17 Pro Max | 2025 | 37 | **v2 pilot migrated** | Official Apple Ireland specifications page checked 2026-11-05; original sections preserved | Pilot fields normalized; continue field-by-field review |
 | `iphone-17e` | iPhone 17e | 2026 | 37 | Section archive | Apple UK URL inferred; not independently checked | Verify URL first |
 | `iphone-18-pro` | iPhone 18 Pro | 2026 | 37 | Section archive (extraction_note) | URL absent; verification status blank | Source/claim review before normalization |
 | `iphone-18-pro-max` | iPhone 18 Pro Max | 2026 | 37 | Section archive (extraction_note) | URL absent; verification status blank | Source/claim review before normalization |
