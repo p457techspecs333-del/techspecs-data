@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0",
+  "product": {
+    "brand": "Apple",
+    "product_name": "iPhone 11",
+    "model": "iPhone 11",
+    "year_introduced": 2019
+  },
+  "source": {
+    "publisher": "Apple",
+    "document_title": "iPhone 11 - Technical Specifications",
+    "source_type": "user_supplied_document",
+    "source_url": null,
+    "verification_status": "Transcribed from supplied document; source page URL not independently verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Sections preserve the supplied source text. This is not a fully normalized field-by-field specification; no missing values have been inferred."
+  },
+  "sections": [
+    {
+      "heading": "Finish",
+      "source_text": "- Black\n- Green\n- Yellow\n- Purple\n- (PRODUCT)RED™\n- White"
+    },
+    {
+      "heading": "Capacity1",
+      "source_text": "- 64GB\n- 128GB\n- 256GB"
+    },
+    {
+      "heading": "Size and Weight2",
+      "source_text": "- Width: 2.98 inches (75.7 mm)\n- Height: 5.94 inches (150.9 mm)\n- Depth: 0.33 inch (8.3 mm)\n- Weight: 6.84 ounces (194 grams)"
+    },
+    {
+      "heading": "Display",
+      "source_text": "- Liquid Retina HD display\n- 6.1-inch (diagonal) all-screen LCD Multi-Touch display with IPS technology\n- 1792-by-828-pixel resolution at 326 ppi\n- 1400:1 contrast ratio (typical)\n- True Tone display\n- Wide color display (P3)\n- Haptic Touch\n- 625 nits max brightness (typical)\n- Fingerprint-resistant oleophobic coating\n- Support for display of multiple languages and characters simultaneously\n\n*The iPhone 11 display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.06 inches diagonally (actual viewable area is less).*"
+    },
+    {
+      "heading": "Splash, Water, and Dust Resistant3",
+      "source_text": "- Rated IP68 (maximum depth of 2 meters up to 30 minutes) under IEC standard 60529"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "- A13 Bionic chip\n- 6-core CPU with 2 performance and 4 efficiency cores\n- 4-core GPU\n- 8-core Neural Engine"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "- Dual 12MP Wide and Ultra Wide cameras\n- Wide: ƒ/1.8 aperture\n- Ultra Wide: ƒ/2.4 aperture and 120° field of view\n- 2x optical zoom out\n- Digital zoom up to 5x\n- Portrait mode with advanced bokeh and Depth Control\n- Portrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High-Key Mono)\n- Optical image stabilization (Wide)\n- Six‑element lens (Wide); five‑element lens (Ultra Wide)\n- True Tone flash with Slow Sync\n- Panorama (up to 63MP)\n- Sapphire crystal lens cover\n- 100% Focus Pixels (Wide)\n- Night mode (Wide)\n- Deep Fusion (Wide)\n- Next-generation Smart HDR for photos\n- Wide color capture for photos and Live Photos\n- Advanced red‑eye correction\n- Auto image stabilization\n- Burst mode\n- Photo geotagging\n- Image formats captured: HEIF and JPEG"
+    },
+    {
+      "heading": "Video Recording",
+      "source_text": "- 4K video recording at 24 fps, 25 fps, 30 fps, or 60 fps\n- 1080p HD video recording at 25 fps, 30 fps, or 60 fps\n- 720p HD video recording at 30 fps\n- Extended dynamic range for video up to 60 fps\n- Optical image stabilization for video (Wide)\n- 2x optical zoom out\n- Digital zoom up to 3x\n- Audio zoom\n- True Tone flash\n- QuickTake video\n- Slo‑mo video support for 1080p at 120 fps or 240 fps\n- Time‑lapse video with stabilization\n- Cinematic video stabilization (4K, 1080p, and 720p)\n- Continuous autofocus video\n- Take 8MP still photos while recording 4K video\n- Playback zoom\n- Video formats recorded: HEVC and H.264\n- Stereo recording"
+    },
+    {
+      "heading": "TrueDepth Camera",
+      "source_text": "- 12MP camera\n- ƒ/2.2 aperture\n- Portrait mode with advanced bokeh and Depth Control\n- Portrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High-Key Mono)\n- Animoji and Memoji\n- 4K video recording at 24 fps, 25 fps, 30 fps, or 60 fps\n- 1080p HD video recording at 25 fps, 30 fps, or 60 fps\n- Slo‑mo video support for 1080p at 120 fps\n- Next‑generation Smart HDR for photos\n- Extended dynamic range for video at 30 fps\n- Cinematic video stabilization (4K, 1080p, and 720p)\n- QuickTake video\n- Wide color capture for photos and Live Photos\n- Retina Flash\n- Auto image stabilization\n- Burst mode"
+    },
+    {
+      "heading": "Face ID",
+      "source_text": "- Enabled by TrueDepth camera for facial recognition"
+    },
+    {
+      "heading": "Apple Pay",
+      "source_text": "- Pay with your iPhone using Face ID in stores, within apps, and on the web\n- Send and receive money in Messages with Apple Cash4\n- Complete purchases made with Apple Pay on your Mac\n- Pay for your ride using Express Transit5\n\n[Learn more about Apple Pay](https://www.apple.com/uk/apple-pay/)\n\n[Learn more about Apple Cash](https://www.apple.com/apple-cash/)"
+    },
+    {
+      "heading": "Cellular and Wireless",
+      "source_text": "- **Model A2111\\***\n  - FDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 29, 30, 66, 71)\n  - TD‑LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48)\n  - CDMA EV‑DO Rev. A (800, 1900 MHz)\n  - UMTS/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\n  - GSM/EDGE (850, 900, 1800, 1900 MHz)\n- **All models**\n  - Gigabit-class LTE with 2x2 MIMO and LAA6\n  - 802.11ax Wi‑Fi 6 with 2x2 MIMO\n  - Bluetooth 5.0 wireless technology\n  - Ultra Wideband chip for spatial awareness7\n  - NFC with reader mode\n  - Express Cards with power reserve\n\nFor details on LTE support, contact your carrier and see [apple.com/uk/iphone/LTE](https://www.apple.com/uk/iphone/LTE/)."
+    },
+    {
+      "heading": "Location",
+      "source_text": "- Built-in GPS/GNSS\n- Digital compass\n- Wi‑Fi\n- Cellular\n- iBeacon microlocation"
+    },
+    {
+      "heading": "Video Calling8",
+      "source_text": "- FaceTime video calling over cellular or Wi‑Fi\n- FaceTime HD (1080p) video calling over Wi‑Fi\n- Share experiences like movies, TV, music, and other apps in a FaceTime call with SharePlay\n- Screen sharing\n- Portrait mode in FaceTime video\n- Spatial audio\n- Voice Isolation and Wide Spectrum microphone modes\n- Zoom with rear‑facing camera"
+    },
+    {
+      "heading": "Audio Calling8",
+      "source_text": "- FaceTime audio\n- Voice over LTE (VoLTE)6\n- Wi‑Fi calling6\n- Share experiences like movies, TV, music, and other apps in a FaceTime call with SharePlay\n- Screen sharing\n- Spatial audio\n- Voice Isolation and Wide Spectrum microphone modes"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "- Supported formats include AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus, and Dolby Atmos\n- Spatial audio playback\n- User‑configurable maximum volume limit"
+    },
+    {
+      "heading": "Video Playback",
+      "source_text": "- Supported formats include HEVC and H.264\n- Supports Dolby Vision, HDR10, and HLG\n- Up to 4K HDR AirPlay for mirroring, photos, and video out to Apple TV (2nd generation or later) or AirPlay 2‑enabled smart TV\n- Video mirroring and video out support: Up to 1080p through Lightning Digital AV Adapter and Lightning to VGA Adapter (adapters sold separately)9"
+    },
+    {
+      "heading": "Siri10",
+      "source_text": "- Use your voice to send messages, set reminders, and more\n- Activate hands‑free with only your voice using “Hey Siri”\n- Use your voice to run shortcuts from your favorite apps\n\n[Learn more about Siri](https://www.apple.com/uk/ios/siri/)"
+    },
+    {
+      "heading": "External Buttons and Connectors",
+      "source_text": "- Volume up/down\n- Ring/Silent\n- Side button\n- Built-in stereo speakers\n- Lightning connector\n- Built-in microphones"
+    },
+    {
+      "heading": "Power and Battery11",
+      "source_text": "- Video playback: Up to 17 hours\n- Video playback (streamed): Up to 10 hours\n- Audio playback: Up to 65 hours\n- Fast‑charge capable: Up to 50% charge in 30 minutes12 with 20W adapter or higher (sold separately)\n- Built-in rechargeable lithium‑ion battery\n- Wireless charging (works with Qi chargers13)\n- Charging via USB to computer system or power adapter"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "- Face ID\n- Barometer\n- Three‑axis gyro\n- Accelerometer\n- Proximity sensor\n- Ambient light sensor"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "**iOS**\n\niOS is the world’s most personal and secure mobile operating system, packed with powerful features and designed to protect your privacy.\n\n[See what’s new in iOS](https://www.apple.com/uk/ios/)"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Built-in accessibility features supporting vision, mobility, hearing, and cognitive disabilities help you get the most out of your iPhone. [Learn more about Accessibility](http://www.apple.com/uk/accessibility/iphone/)\n\nFeatures include:\n\n- Voice Control\n- VoiceOver\n- Zoom\n- Magnifier\n- RTT and TTY support\n- Siri and Dictation\n- Type to Siri\n- Switch Control\n- Closed Captions\n- AssistiveTouch\n- Spoken Content\n- Back Tap"
+    },
+    {
+      "heading": "Built-in Apps",
+      "source_text": "- Camera\n- Photos\n- Health\n- Messages\n- Phone\n- FaceTime\n- Mail\n- Music\n- Wallet\n- Safari\n- Maps\n- Siri\n- Calendar\n- iTunes Store\n- App Store\n- Notes\n- News\n- Contacts\n- Books\n- Home\n- Weather\n- Reminders\n- Clock\n- TV\n- Stocks\n- Calculator\n- Voice Memos\n- Compass\n- Podcasts\n- Watch\n- Tips\n- Find My\n- Settings\n- Files\n- Measure\n- Magnifier\n- Shortcuts\n- Translate"
+    },
+    {
+      "heading": "Free Apps from Apple",
+      "source_text": "*Pages, Numbers, Keynote, iMovie, GarageBand, Clips, and Apple Store app are preinstalled.*\n\n- iMovie\n- Pages\n- Numbers\n- Keynote\n- GarageBand\n- Apple Store\n- Trailers\n- iTunes Remote\n- Clips\n- Support"
+    },
+    {
+      "heading": "SIM Card",
+      "source_text": "- Dual SIM (nano-SIM and eSIM)14\n- iPhone 11 is not compatible with existing micro-SIM cards.\n\neSIM not supported in all regions. [Learn more about eSIM on iPhone](https://support.apple.com/en-gb/HT212780)."
+    },
+    {
+      "heading": "Rating for Hearing Aids",
+      "source_text": "- M3, T4"
+    },
+    {
+      "heading": "Mail Attachment Support",
+      "source_text": "- **Viewable document types**\n  - .jpg, .tiff, .gif (images); .doc and .docx (Microsoft Word); .htm and .html (web pages); .key (Keynote); .numbers (Numbers); .pages (Pages); .pdf (Preview and Adobe Acrobat); .ppt and .pptx (Microsoft PowerPoint); .txt (text); .rtf (rich text format); .vcf (contact information); .xls and .xlsx (Microsoft Excel); .zip; .ics; .usdz (USDZ Universal)"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "- Apple ID (required for some features)\n- Internet access15\n- Syncing to a Mac or PC requires:\n  - macOS Catalina 10.15 or later using the Finder\n  - macOS El Capitan 10.11.6 through macOS Mojave 10.14.6 using iTunes 12.8 or later\n  - Windows 7 or later using iTunes 12.10.10 or later (free download from [itunes.com/uk/download](https://www.apple.com/uk/itunes/download/))"
+    },
+    {
+      "heading": "Environmental Requirements",
+      "source_text": "- Operating ambient temperature: 32° to 95° F (0° to 35° C)\n- Non-operating temperature: −4° to 113° F (−20° to 45° C)\n- Relative humidity: 5% to 95% noncondensing\n- Operating altitude: tested up to 10,000 feet (3000 m)"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "- **Language support**\n  - English (Australia, Canada, India, Singapore, UK, U.S.), Chinese (Simplified, Traditional, Traditional Hong Kong), French (Canada, France), German, Italian, Japanese, Korean, Spanish (Latin America, Mexico, Spain), Arabic, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hindi, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\n- **QuickType keyboard support**\n  - English (Australia, Canada, India, Singapore, UK, U.S.), Chinese - Simplified (Handwriting, Pinyin QWERTY, Pinyin 10 Key, Shuangpin, Stroke), Chinese - Traditional (Cangjie, Handwriting, Pinyin QWERTY, Pinyin 10 Key, Shuangpin, Stroke, Sucheng, Zhuyin), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese (Kana, Romaji), Korean (2-Set, 10 Key), Spanish (Latin America, Mexico, Spain), Ainu, Albanian, Amharic, Arabic (Modern Standard, Najdi), Armenian, Assamese, Assyrian, Azerbaijani, Bangla, Belarusian, Bodo, Bulgarian, Burmese, Cantonese - Traditional (Cangjie, Handwriting, Stroke, Sucheng), Catalan, Cherokee, Croatian, Czech, Danish, Dhivehi, Dogri, Dutch, Emoji, Estonian, Faroese, Filipino, Finnish, Flemish, Fula (Adlam), Georgian, Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari, Latin, Transliteration), Hungarian, Icelandic, Igbo, Indonesian, Irish Gaelic, Kannada, Kashmiri (Arabic, Devanagari), Kazakh, Khmer, Konkani (Devanagari), Kurdish (Arabic, Latin), Kyrgyz, Lao, Latvian, Lithuanian, Macedonian, Maithili, Malay (Arabic, Latin), Malayalam, Maltese, Manipuri (Bangla, Meetei Mayek), Maori, Marathi, Mongolian, Navajo, Nepali, Norwegian (Bokmål, Nynorsk), Odia, Pashto, Persian, Persian (Afghanistan), Polish, Portuguese (Brazil, Portugal), Punjabi, Rohingya, Romanian, Russian, Sanskrit, Santali (Devanagari, Ol Chiki), Serbian (Cyrillic, Latin), Sindhi (Arabic, Devanagari), Sinhala, Slovak, Slovenian, Swahili, Swedish, Tajik, Tamil (Anjal, Tamil 99), Telugu, Thai, Tibetan, Tongan, Turkish, Turkmen, Ukrainian, Urdu, Uyghur, Uzbek (Arabic, Cyrillic, Latin), Vietnamese, Welsh\n- **QuickType keyboard support with autocorrection**\n  - Arabic (Modern Standard), Arabic (Najdi), Bangla, Bulgarian, Catalan, Cherokee, Chinese - Simplified (Pinyin QWERTY), Chinese - Traditional (Pinyin QWERTY), Chinese - Traditional (Zhuyin), Croatian, Czech, Danish, Dutch, English (Australia), English (Canada), English (India), English (Japan), English (Singapore), English (UK), English (U.S.), Estonian, Filipino, Finnish, Dutch (Belgium), French (Belgium), French (Canada), French (France), French (Switzerland), German (Austria), German (Germany), German (Switzerland), Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari), Hindi (Transliteration), Hungarian, Icelandic, Indonesian, Irish Gaelic, Italian, Japanese (Kana), Japanese (Romaji), Korean (2-set), Latvian, Lithuanian, Macedonian, Malay, Marathi, Norwegian (Bokmål), Norwegian (Nynorsk), Persian, Persian (Afghanistan), Polish, Portuguese (Brazil), Portuguese (Portugal), Punjabi, Romanian, Russian, Serbian (Cyrillic), Serbian (Latin), Slovak, Slovenian, Spanish (Latin America), Spanish (Mexico), Spanish (Spain), Swedish, Tamil (Anjal), Tamil (Tamil 99), Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese\n- **QuickType keyboard support with predictive input**\n  - English (Australia, Canada, India, Singapore, UK, U.S.), Chinese (Simplified, Traditional), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese, Korean, Spanish (Latin America, Mexico, Spain), Arabic (Modern Standard, Najdi), Cantonese (Traditional), Dutch, Hindi (Devanagari, Latin), Portuguese (Brazil, Portugal), Russian, Swedish, Thai, Turkish, Vietnamese\n- **QuickType keyboard support with multilingual input**\n  - English (U.S.), English (Australia), English (Canada), English (India), English (Singapore), English (UK), Chinese - Simplified (Pinyin), Chinese - Traditional (Pinyin), French (France), French (Belgium), French (Canada), French (Switzerland), German (Germany), German (Austria), German (Switzerland), Italian, Japanese (Romaji), Portuguese (Brazil), Portuguese (Portugal), Spanish (Spain), Spanish (Latin America), Spanish (Mexico), Dutch (Belgium), Dutch (Netherlands), Hindi (Latin)\n- **QuickType keyboard support with contextual suggestions**\n  - English (U.S.), English (Australia), English (Canada), English (India), English (Singapore), English (UK), Chinese (Simplified), French (Belgium), French (Canada), French (France), French (Switzerland), German (Austria), German (Germany), German (Switzerland), Italian, Spanish (Latin America), Spanish (Mexico), Spanish (Spain), Arabic (Modern Standard), Arabic (Najdi), Dutch (Belgium), Dutch (Netherlands), Hindi (Devanagari), Hindi (Latin), Russian, Swedish, Portuguese (Brazil), Turkish, Vietnamese\n- **QuickPath keyboard support**\n  - English (U.S.), English (Australia), English (Canada), English (India), English (Singapore), English (UK), Chinese (Simplified), French (Canada), French (France), French (Switzerland), German (Austria), German (Germany), German (Switzerland), Italian, Spanish (Latin America), Spanish (Mexico), Spanish (Spain), Portuguese (Brazil), Portuguese (Portugal), Dutch (Belgium), Dutch (Netherlands), Swedish, Vietnamese\n- **Siri languages**\n  - English (Australia, Canada, India, Ireland, New Zealand, Singapore, South Africa, UK, U.S.), Spanish (Chile, Mexico, Spain, U.S.), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese (Japan), Korean (Republic of Korea), Mandarin Chinese (China mainland, Taiwan), Cantonese (China mainland, Hong Kong), Arabic (Saudi Arabia, United Arab Emirates), Danish (Denmark), Dutch (Belgium, Netherlands), Finnish (Finland), Hebrew (Israel), Malay (Malaysia), Norwegian (Norway), Portuguese (Brazil), Russian (Russia), Swedish (Sweden), Thai (Thailand), Turkish (Türkiye)\n- **Dictation languages**\n  - English (Australia, Canada, India, Indonesia, Ireland, Malaysia, New Zealand, Philippines, Saudi Arabia, Singapore, South Africa, United Arab Emirates, UK, U.S.), Spanish (Argentina, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Panama, Paraguay, Peru, Spain, Uruguay, U.S.), French (Belgium, Canada, France, Luxembourg, Switzerland), German (Austria, Germany, Luxembourg, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (China mainland, Hong Kong, Macao), Arabic (Kuwait, Qatar, Saudi Arabia, United Arab Emirates), Catalan, Croatian, Czech, Danish, Dutch (Belgium, Netherlands), Finnish, Greek, Hebrew, Hindi (India), Hungarian, Indonesian, Malaysian, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Shanghainese (China mainland), Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\n- **Definition dictionary support**\n  - English (UK, U.S.), Chinese (Simplified, Traditional), Danish, Dutch, French, German, Hebrew, Hindi, Italian, Japanese, Korean, Norwegian, Portuguese, Russian, Spanish, Swedish, Thai, Turkish\n- **Bilingual dictionary support**\n  - Arabic – English, Chinese (Simplified) – English, Chinese (Traditional) – English, Dutch – English, French – English, French – German, German – English, Gujarati – English, Hindi – English, Indonesian – English, Italian – English, Japanese – English, Japanese – Chinese (Simplified), Korean – English, Polish – English, Portuguese – English, Russian – English, Spanish – English, Tamil – English, Telugu – English, Thai – English, Urdu – English, Vietnamese – English\n- **Thesaurus**\n  - English (UK, U.S.), Chinese (Simplified)\n- **Spell check**\n  - English, French, German, Italian, Spanish, Arabic, Arabic Najdi, Danish, Dutch, Finnish, Korean, Norwegian, Polish, Portuguese, Russian, Swedish, Turkish\n- **Apple Pay supported regions**\n  - Armenia, Australia, Austria, Azerbaijan, Bahrain, Belarus, Belgium, Brazil, Bulgaria, Canada, China mainland,16 Colombia, Costa Rica, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Faroe Islands, Finland, France, Georgia, Germany, Greece, Greenland, Guernsey, Hong Kong, Hungary, Iceland, Ireland, Isle of Man, Israel, Italy, Japan, Jersey, Kazakhstan, Latvia, Liechtenstein, Lithuania, Luxembourg, Macao, Malta, Mexico, Monaco, Montenegro, Netherlands, New Zealand, Norway, Palestine, Poland, Portugal, Qatar, Romania, San Marino, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, Switzerland, Taiwan, UK, Ukraine, United Arab Emirates, U.S., Vatican City"
+    },
+    {
+      "heading": "**In the Box**",
+      "source_text": "- iPhone 11\n- USB-C to Lightning Cable\n- Documentation\n\n*As part of our efforts to reach [our environmental goals](https://www.apple.com/uk/environment/), iPhone 11 does not include a power adapter or EarPods. Included in the box is a USB‑C to Lightning cable that supports fast charging and is compatible with USB‑C power adapters and computer ports.*\n\n*We encourage you to re‑use your current power adapters and headphones that are compatible with this iPhone. But if you need any new Apple power adapters or headphones, they are available for purchase.*"
+    },
+    {
+      "heading": "**iPhone and the Environment**",
+      "source_text": "iPhone 11 is designed with the following features to reduce its environmental impact:17\n\n[See the iPhone 11 Product Environmental Reports](https://www.apple.com/uk/environment/#reports-product)\n\n**Made with better materials**\n\n- 100% recycled rare earth elements in the Taptic Engine18\n- 100% recycled tin in the solder of the main logic board\n- 35% or more recycled plastic in multiple components\n\n**Energy efficient**\n\n- Meets U.S. Department of Energy requirements for battery charger systems19\n\n**Smarter chemistry20**\n\n- Arsenic-free display glass\n- Mercury-, BFR-, PVC-, and beryllium‑free\n\n**Green manufacturing**\n\n- Apple’s Zero Waste Program helps suppliers eliminate waste sent to landfill\n- All final assembly supplier sites are transitioning to 100% renewable energy for Apple production\n\n**Responsible packaging**\n\n- 100% of virgin wood fiber comes from responsibly managed forests\n- 90% or more fiber-based packaging\n\n**Apple and the Environment**\n\nWe’re committed to making our products without taking from the earth, and to become carbon neutral across our entire business, including products, by 2030.\n\n[See Apple’s commitment](https://www.apple.com/uk/environment/)\n\n\\* To identify your iPhone model number, see [https://support.apple.com/en-gb/HT3939](https://support.apple.com/en-gb/HT3939). For details on LTE support, contact your carrier and see [apple.com/uk/iphone/cellular](https://www.apple.com/uk/iphone/cellular/). Cellular technology support is based on iPhone model number and configuration for either CDMA or GSM networks.\n\n1. Available space is less and varies due to many factors. A standard configuration uses approximately 12GB to 17GB of space, including iOS 15 with its latest features and Apple apps that can be deleted. Apple apps that can be deleted use about 4.5GB of space, and you can download them back from the App Store. Storage capacity subject to change based on software version, settings, and iPhone model.\n2. Size and weight vary by configuration and manufacturing process.\n3. iPhone 11 is splash, water, and dust resistant and was tested under controlled laboratory conditions with a rating of IP68 under IEC standard 60529 (maximum depth of 2 meters up to 30 minutes). Splash, water, and dust resistance are not permanent conditions. Resistance might decrease as a result of normal wear. Do not attempt to charge a wet iPhone; refer to the user guide for cleaning and drying instructions. Liquid damage not covered under warranty.\n4. To send and receive money with Apple Pay, you must be at least 18 years old and a resident of the United States. If you’re under 18 years old in the United States, your family organizer can set up Apple Cash for you as part of Apple Cash Family. Then you can send and receive money with Apple Pay. Sending and receiving money with Apple Pay and the Apple Cash card are services provided by Green Dot Bank, Member FDIC. Learn more about the [Terms and Conditions](https://applecash.greendot.com/termsconditions/).\n5. Available only in select cities and transit systems. Requires eligible device and OS version. [See here for details](https://support.apple.com/en-gb/HT209495).\n6. Data plan required. Gigabit‑class LTE, VoLTE, and Wi‑Fi calling are available in select markets and through select carriers. Speeds are based on theoretical throughput and vary based on site conditions and carrier. For details on LTE support, contact your carrier and see [apple.com/uk/iphone/cellular](https://www.apple.com/uk/iphone/cellular/).\n7. Ultra Wideband availability varies by region.\n8. FaceTime calling requires a FaceTime‑enabled device for the caller and recipient and a Wi‑Fi connection. Availability over a cellular network depends on carrier policies; data charges may apply.\n9. Standard Dynamic Range video content only.\n10. Siri may not be available in all languages or in all areas, and features may vary by area. Internet access required. Cellular data charges may apply.\n11. All battery claims depend on network configuration and many other factors; actual results will vary. Battery has limited recharge cycles and may eventually need to be replaced. Battery life and charge cycles vary by use and settings. See [apple.com/uk/batteries](https://www.apple.com/uk/batteries/) and [apple.com/uk/iphone/battery.html](https://www.apple.com/uk/iphone/battery.html) for more information.\n12. Testing conducted by Apple in August 2019 using preproduction iPhone 11, iPhone 11 Pro, and iPhone 11 Pro Max units and software and accessory Apple USB‑C Power Adapters (18W Model A1720, 29W Model A1540, 30W Model A1882, 61W Model A1947 and 87W Model A1719). Fast‑charge testing conducted with drained iPhone units. Charge time varies with environmental factors; actual results will vary.\n13. Qi wireless chargers sold separately.\n14. Use of eSIM requires a wireless service plan (which may include restrictions on switching service providers and roaming, even after contract expiration). Not all carriers support eSIM. Use of eSIM in iPhone may be disabled when purchased from some carriers. See your carrier for details. To learn more, visit [https://support.apple.com/en-gb/HT212780](https://support.apple.com/en-gb/HT212780).\n15. Wireless broadband recommended; fees may apply.\n16. In China mainland, you can use Apple Pay on the web in Safari only on compatible iPhone and iPad models using iOS 11.2 or later.\n17. Data accurate as of product launch.\n18. The Taptic Engine represents about 25% of the total rare earth elements used in the product.\n19. Efficiency performance is based on the U.S. Department of Energy [Federal Energy Conservation Standards for Battery Chargers](https://www.regulations.gov/document/EERE-2008-BT-STD-0005-0256).\n20. Apple defines its restrictions on harmful substances, including definitions for what Apple considers to be “free of,” in the [Apple Regulated Substances Specification](https://www.apple.com/environment/pdf/Apple_Regulated_Substances_Specification_Sept2018.pdf). Every Apple product is free of PVC and phthalates with the exception of AC power cords in India, Thailand (for two-prong AC power cords), and South Korea, where we continue to seek government approval for our PVC and phthalates replacement."
+    }
+  ]
+}
