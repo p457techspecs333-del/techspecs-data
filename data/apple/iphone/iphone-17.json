@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0",
+  "product": {
+    "brand": "Apple",
+    "category": "smartphone",
+    "family": "iPhone",
+    "model": "iPhone 17",
+    "year_introduced": 2025
+  },
+  "source": {
+    "source_type": "user_supplied_source_document",
+    "source_url": null,
+    "source_file": "sources/apple/iphone/iphone-17-generation/iphone-17-source.md",
+    "verification_status": "Transcribed from supplied document; source URL not independently verified."
+  },
+  "extraction": {
+    "status": "section_preserving_archive",
+    "note": "Original source wording is retained in section source_text fields. This is an archival extraction, not a fully normalized specification schema."
+  },
+  "sections": [
+    {
+      "heading": "Document introduction",
+      "source_text": "iPhone 17 - Tech Specs\nYear introduced: 2025"
+    },
+    {
+      "heading": "Finish",
+      "source_text": "Black\n\nWhite\n\nMist Blue\n\nSage\n\nLavender\n\nAluminium design, Ceramic Shield 2 front, Colour‑infused glass back (Black, Mist Blue, Sage, Lavender)\n\nCapacity1\n256GB\n\n512GB\n\nSize and Weight2\nWidth: 71.5 mm (2.81 inches)\n\nHeight: 149.6 mm (5.89 inches)\n\nDepth: 7.95 mm (0.31 inches)\n\nWeight: 177 grams (6.24 ounces)"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Super Retina XDR display\n\n6.3‑inch (diagonal) all‑screen OLED display\n\n2622x1206-pixel resolution at 460 ppi\n\nDynamic Island\n\nAlways-On display\n\nProMotion technology with adaptive refresh rates up to 120Hz\n\nHDR display\n\nTrue Tone\n\nWide colour (P3)\n\nHaptic Touch\n\n2,000,000:1 contrast ratio (typical)\n\n1,000 nits max brightness (typical); 1,600 nits peak brightness (HDR); 3,000 nits peak brightness (outdoor); 1 nit minimum brightness\n\nFingerprint-resistant oleophobic coating\n\nAnti-reflective coating\n\nSupport for display of multiple languages and characters simultaneously\n\nThe iPhone 17 display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.27 inches diagonally (actual viewable area is less).\n\nSplash, Water and Dust Resistant3\nRated IP68 (maximum depth of 6 metres up to 30 minutes) under IEC standard 60529"
+    },
+    {
+      "heading": "Apple Intelligence",
+      "source_text": "Apple Intelligence is integrated across your apps and experiences to help you communicate, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.4\n\nLearn more about Apple Intelligence"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "A19 chip\n\n6‑core CPU with 2 performance and 4 efficiency cores\n\n5‑core GPU with Neural Accelerators\n\n16‑core Neural Engine\n\nHardware-accelerated ray tracing"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "48MP Dual Fusion camera system\n\n48MP Fusion Main: 26mm, ƒ/1.6 aperture, sensor-shift optical image stabilisation, 100% Focus Pixels, support for super-high-resolution photos (24MP and 48MP)\n\nAlso enables 12MP optical-quality 2x Telephoto: 52mm, ƒ/1.6 aperture, sensor-shift optical image stabilisation, 100% Focus Pixels\n\n48MP Fusion Ultra Wide: 13mm, ƒ/2.2 aperture and 120° field of view, Hybrid Focus Pixels, support for super-high-resolution photos (24MP and 48MP)\n\n2x optical zoom in, 2x optical zoom out; 4x optical zoom range\n\nDigital zoom up to 10x\n\nSapphire crystal lens cover\n\nTrue Tone flash\n\nPhotonic Engine\n\nDeep Fusion\n\nSmart HDR 5\n\nNext-generation portraits with Focus and Depth Control\n\nPortrait Lighting with six effects\n\nNight mode\n\nPanorama (up to 63MP)\n\nLatest-generation Photo­graphic Styles\n\nSpatial photos\n\n48MP macro photography\n\nWide colour capture for photos and Live Photos\n\nLens correction (Fusion Ultra Wide)\n\nAdvanced red-eye correction\n\nAuto image stabilisation\n\nBurst mode\n\nPhoto geotagging\n\nImage formats captured: HEIF and JPEG"
+    },
+    {
+      "heading": "Video Recording",
+      "source_text": "4K Dolby Vision video recording at 24 fps, 25 fps, 30 fps or 60 fps\n\n1080p Dolby Vision video recording at 25 fps, 30 fps or 60 fps\n\n720p Dolby Vision video recording at 30 fps\n\nCinematic mode up to 4K Dolby Vision at 30 fps\n\nAction mode up to 2.8K Dolby Vision at 60 fps\n\nMacro video recording, including slo-mo and time-lapse\n\nSlo‑mo video support for 1080p at 120 fps or 240 fps\n\nSpatial video recording at 1080p at 30 fps\n\nDual Capture up to 4K Dolby Vision at 30 fps\n\nTime‑lapse video with stabilisation\n\nNight mode Time-lapse\n\nQuickTake video up to 4K Dolby Vision at 60 fps\n\nSensor-shift optical image stabilisation for video (Fusion Main)\n\nDigital zoom up to 6x\n\nAudio zoom\n\nTrue Tone flash\n\nCinematic video stabilisation (4K, 1080p and 720p)\n\nContinuous autofocus video\n\nTake 8MP still photos while recording 4K video\n\nPlayback zoom\n\nVideo formats recorded: HEVC and H.264\n\nSpatial Audio and stereo recording\n\nWind noise reduction\n\nAudio Mix"
+    },
+    {
+      "heading": "Front Camera",
+      "source_text": "18MP Center Stage camera\n\nƒ/1.9 aperture\n\nAutofocus with Focus Pixels\n\nRetina Flash\n\nTap to zoom and rotate\n\nCentre Stage for photos\n\nUltra‑stabilised video\n\nDual Capture\n\nCentre Stage for video calls\n\nPhotonic Engine\n\nDeep Fusion\n\nSmart HDR 5\n\nNext-generation portraits with Focus and Depth Control\n\nPortrait Lighting with six effects\n\nAnimoji and Memoji\n\nNight mode\n\nLatest-generation Photo­graphic Styles\n\nWide colour capture for photos and Live Photos\n\nLens correction\n\nAuto image stabilisation\n\nBurst mode\n\n4K Dolby Vision video recording at 24 fps, 25 fps, 30 fps or 60 fps\n\n1080p Dolby Vision video recording at 25 fps, 30 fps or 60 fps\n\nCinematic mode up to 4K Dolby Vision at 30 fps\n\nSlo-mo video support for 1080p at 120 fps\n\nTime‑lapse video with stabilisation\n\nNight mode Time-lapse\n\nQuickTake video up to 4K at 60 fps in Dolby Vision\n\nCinematic video stabilisation (4K, 1080p and 720p)\n\nSpatial Audio and stereo recording\n\nWind noise reduction\n\nAudio Mix\n\nPower and Battery5\nVideo playback: Up to 30 hours\n\nVideo playback (streamed): Up to 27 hours\n\nBuilt‑in rechargeable lithium‑ion battery\n\nFast‑charge capable:\n\nUp to 50% charge in 20 minutes6 with 40W adapter or higher (available separately) paired with USB‑C charging cableUp to 50% charge in 30 minutes6 with 30W adapter or higher paired with MagSafe Charger (both available separately)"
+    },
+    {
+      "heading": "Face ID",
+      "source_text": "Enabled by True­Depth technology in the Center Stage front camera"
+    },
+    {
+      "heading": "Peace of Mind",
+      "source_text": "Emergency SOS via satellite7\n\nCrash Detection8\n\nRoadside Assistance via satellite7"
+    },
+    {
+      "heading": "Mobile and Wireless",
+      "source_text": "Model A3520*\n\nFDD‑5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n20, n25, n26, n28, n30, n66, n70, n75)\n\nTDD‑5G NR (Bands n38, n40, n41, n48, n53, n77, n78, n79)\n\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 66)\n\nTDD‑LTE (Bands 34, 38, 39, 40, 41, 42, 48, 53)\n\nUMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\n\nGSM/EDGE (850, 900, 1800, 1900 MHz)\n\n5G (sub-6GHz) with 4x4 MIMO9\n\nGigabit LTE with 4x4 MIMO9\n\nApple N1 wireless networking chip\n\nWi‑Fi 7 (802.11be) with 2x2 MIMO10\n\nBluetooth 6\n\nThread networking technology\n\nApple second-generation Ultra Wideband chip11\n\nNFC with reader mode\n\nExpress Cards with Power Reserve\n\nFor details on 5G and LTE support, contact your provider and see apple.com/uk/iphone/cellular."
+    },
+    {
+      "heading": "Location",
+      "source_text": "Precision dual-frequency GPS (GPS, GLONASS, Galileo, QZSS, BeiDou and NavIC)\n\nDigital compass\n\nWi‑Fi\n\nMobile data\n\niBeacon micro-location"
+    },
+    {
+      "heading": "External Buttons and Connectors",
+      "source_text": "Volume up/down\n\nAction button\n\nCamera Control\n\nSide button\n\nUSB-C connector\n\nBuilt‑in microphones\n\nBuilt‑in stereo speaker\n\nAction button features\n\nSilent Mode, Focus, Camera, Visual Intelligence,12 Torch, Voice Memo, Recognise Music, Translate, Magnifier, Controls, Shortcut or Accessi­bility\n\nCamera controls\n\nExposure, Depth, Zoom, Cameras, Styles, Tone"
+    },
+    {
+      "heading": "Char­ging and Expan­sion",
+      "source_text": "USB-C connector with support for:\n\nChar­ging\n\nDisplayPort\n\nUSB 2 (up to 480Mb/s)\n\nMagSafe and Wireless Char­ging\nMagSafe wireless charging up to 25W6\n\nQi2 wireless charging up to 25W6\n\nMagnet array\n\nAlignment magnet\n\nAccessory Identification NFC\n\nMagnetometer"
+    },
+    {
+      "heading": "Face ID",
+      "source_text": "Barometer\n\nHigh dynamic range gyro\n\nHigh-g accelerometer\n\nProximity sensor\n\nDual ambient light sensors"
+    },
+    {
+      "heading": "SIM Card",
+      "source_text": "Dual SIM (nano-SIM and eSIM)13\n\nDual eSIM support\n\nLearn more about eSIM\n\nLearn more about travelling with eSIM"
+    },
+    {
+      "heading": "Apple Pay",
+      "source_text": "Pay with your iPhone using Face ID in shops, within apps and on the web\n\nComplete purchases made with Apple Pay on your Mac\n\nPay for your journey using Express Travel14\n\nLearn more about Apple Pay\n\nVideo Calling15\nFaceTime video calling over a mobile network or Wi‑Fi\n\nFaceTime HD (1080p) video calling over 5G or Wi‑Fi\n\nCentre Stage for video calling\n\nSharePlay\n\nScreen sharing\n\nPortrait mode in FaceTime video\n\nSpatial Audio\n\nVoice Isolation and Wide Spectrum microphone modes\n\nZoom with rear-facing camera\n\nAudio Calling15\nFaceTime audio\n\nVoice over LTE (VoLTE)9\n\nWi‑Fi calling9\n\nSharePlay\n\nScreen sharing\n\nSpatial Audio\n\nVoice Isolation and Wide Spectrum microphone modes"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "Supported formats include AAC, APAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus and Dolby Atmos\n\nSpatial Audio playback\n\nUser‑configurable maximum volume limit"
+    },
+    {
+      "heading": "Video Playback",
+      "source_text": "Supported formats include HEVC, H.264 and AV1\n\nHDR with Dolby Vision, HDR10+/HDR10 and HLG\n\nUp to 4K HDR AirPlay for mirroring, photos and video out to Apple TV (2nd generation or later) or AirPlay‑enabled smart TV\n\nVideo mirroring and video out support: Up to 4K HDR through native DisplayPort output over USB‑C or USB‑C Digital AV Adapter (model A2119; adapter sold separately)16\n\nSiri17\nGet help with everyday tasks like sending messages, setting reminders and more\n\nActivate hands‑free with only your voice using “Siri” or “Hey Siri”, or use Type to Siri\n\nProtected by the strongest privacy of any intelligent assistant\n\nPowered by Apple Intelligence, Siri is more natural and helpful4\n\nLearn more about Siri"
+    },
+    {
+      "heading": "Oper­at­ing System",
+      "source_text": "iOS\n\nOur most personal and secure mobile operating system yet, iOS is packed with powerful features and designed to protect your privacy."
+    },
+    {
+      "heading": "Privacy",
+      "source_text": "iPhone is built from the ground up to protect your personal information. Every iPhone has secure facial authentication. Apps need your permission to track your activity across other companies’ apps or websites. Your iMessages and FaceTime video calls are encrypted end‑to‑end. And much more.\n\nLearn more about privacy features"
+    },
+    {
+      "heading": "Accessi­bility",
+      "source_text": "Built-in accessibility features supporting vision, mobility, hearing, speech and cognitive needs help you get the most out of your iPhone — in the ways that work best for you.\n\nLearn more about Accessi­bility\n\nFeatures include:\n\nVoiceOver\n\nZoom\n\nMagnifier\n\nVoice Control\n\nSwitch Control\n\nAssistiveTouch\n\nEye Tracking\n\nRTT and Textphone support\n\nClosed Captions\n\nPersonal Voice\n\nLive Speech\n\nType to Siri\n\nVocal Shortcuts\n\nSpoken Content"
+    },
+    {
+      "heading": "Built-in Apps",
+      "source_text": "Apple Store\n\nApp Store\n\nBooks\n\nCalculator\n\nCalendar"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "Clips\n\nClock\n\nCompass\n\nContacts\n\nFaceTime\n\nFiles\n\nFind My\n\nFitness\n\nFreeform\n\nGarageBand\n\nHealth\n\nHome\n\niMovie\n\niTunes Store\n\nJournal\n\nKeynote\n\nMagnifier\n\nMail\n\nMaps\n\nMeasure\n\nMessages\n\nMusic\n\nNews\n\nNotes\n\nNumbers\n\nPages\n\nPasswords\n\nPhone\n\nPhotos\n\nPodcasts\n\nReminders\n\nSafari\n\nSettings\n\nShortcuts\n\nStocks\n\nTips\n\nTranslate\n\nTV\n\nVoice Memos\n\nWallet\n\nWatch\n\nWeather\n\nFor a complete list of Apple apps available on iPhone, see apple.com/uk/apps."
+    },
+    {
+      "heading": "Rating for Hearing Aids",
+      "source_text": "Hearing Aid Compatible"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "Apple Account (required for some features)\n\nInternet access18\n\nSyncing to a Mac or PC requires:\n\nmacOS Catalina 10.15 or later using the Finder\n\nmacOS High Sierra 10.13 to macOS Mojave 10.14.6 using iTunes 12.8 or later\n\nWindows 10 or later using iTunes 12.12.10 or later (free download from apple.com/uk/itunes/download)"
+    },
+    {
+      "heading": "En­viron­men­tal Require­ments",
+      "source_text": "Ambient operating temperature: 0° to 35° C (32° to 95° F)\n\nNon-operating temperature: −20° to 45° C (−4° to 113° F)\n\nRelative humidity: 5% to 95% non-condensing\n\nOper­at­ing altitude: tested up to 3,000 metres (10,000 feet)"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "Language support\n\nEnglish (Australia, UK, US), Chinese (Simplified, Traditional, Traditional – Hong Kong), French (Canada, France), German, Italian, Japanese, Korean, Spanish (Latin America, Spain), Arabic, Bulgarian, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hindi, Hungarian, Indonesian, Kazakh, Malay, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\n\nLearn more about feature availability"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "iPhone 17\n\nUSB-C Charge Cable (1m)\n\nDocumentation\n\nAs part of our efforts to reach carbon neutrality by 2030, iPhone 17 does not include a power adapter or EarPods. Included in the box is a USB‑C Charge Cable that supports fast charging and is compatible with USB‑C power adapters and computer ports.\n\nWe encourage you to use any compatible USB‑C power adapter. If you need a new Apple power adapter or headphones, they are available for purchase."
+    },
+    {
+      "heading": "iPhone and the Environment",
+      "source_text": "iPhone 17 is designed to reduce environmental impact:19\n\nSee the iPhone 17 Product En­viron­men­tal Report (PDF)\n\nProgress towards Apple 2030\n\nApple 2030 is our commitment to be carbon neutral for our entire carbon footprint. Our plan to decarbonise products is rigorous and focuses on transitioning to low‑carbon electricity, designing with recycled and low‑carbon materials, and prioritising lower‑carbon ways of shipping products, like sea freight.\n\nSee Apple’s commitment\n\nMaterials\n\niPhone 17 is made with 30% recycled content,20 including:\n\n85% recycled aluminium in the enclosure\n\n100% recycled cobalt and 95% recycled lithium in the battery\n\n100% recycled gold plating and tin solder in all Apple‑designed printed circuit boards\n\n100% recycled gold wire in all cameras and gold plating in all connectors\n\n100% recycled tungsten and copper wire in the Taptic Engine\n\n100% recycled rare earth elements in all magnets\n\n80% recycled plastic in the antenna lines made from textile waste\n\nEnergy\n\n35% of manufacturing electricity for iPhone 17 is sourced from renewable electricity21\n\nExceeds US Department of Energy requirements for battery charger systems22\n\nPackaging\n\n100% fibre-based packaging23\n\niPhone 17 packaging is designed to be more efficient than iPhone 16 boxes, enabling us to ship 35% more units per trip24\n\nWaste\n\nNo established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme25\n\nSmarter chemistry26\n\nAll the materials used in Apple products, accessories and packaging are covered by the requirements of our Regulated Substances Specification, which was one of the first in industry to restrict the use of key substances of concern. See the latest En­viron­men­tal Progress Report to understand Apple’s recent efforts in phasing out these chemistries.\n\n*To identify your iPhone model number, see support.apple.com/en-gb/108044. For details on 5G and LTE support, contact your provider and see apple.com/uk/iphone/cellular. Mobile data technology support is based on iPhone model number and configuration for GSM networks.\n\nAvailable space is less and varies due to many factors. A standard configuration uses approximately 12GB to 24GB of space, including iOS 27 with its latest features and Apple apps that can be deleted. Apple Intelligence on‑device models use approximately 7GB of space and can be deleted if Apple Intelligence is turned off. Turning on Apple Intelligence will download the models again. Apple apps that can be deleted use about 4.5GB of space, and you can re‑download them from the App Store. Storage capacity subject to change based on software version, settings and iPhone model.\n\nSize and weight vary by configuration and manufacturing process.\n\niPhone 17 is splash, water and dust resistant and was tested under controlled laboratory conditions with a rating of IP68 under IEC standard 60529 (maximum depth of 6 metres up to 30 minutes). Splash, water and dust resistance are not permanent conditions. Resistance might decrease as a result of normal wear. Do not attempt to charge a wet iPhone; refer to the user guide for cleaning and drying instructions. Liquid damage not covered under warranty.\n\nApple Intelligence is available with Siri and device language set to Chinese (Simplified), Chinese (Traditional), Danish, Dutch, English, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Spanish, Swedish, Turkish or Vietnamese. Some features may not be available in all regions or languages. Some devices may not be available in all regions. Siri AI is available in beta in iOS 27 and requires an Apple Intelligence–enabled device set to a supported language. Available in English to start. Siri AI will not be initially available in the EU on iOS. Certain Apple Intelligence features that rely on server-side models are subject to daily usage limits, including but not limited to Siri AI, Intelligent Photo Editing Tools, Image Playground, and AFM 3 Cloud models in Shortcuts. Daily limits may vary by feature, request complexity, system demand, system policies and other factors. Expanded access to such features will be available for a fee in the future. Use of these features is subject to the Apple Intelligence Terms and Conditions. Learn more at apple.com/uk/apple-intelligence.\n\nAll battery claims depend on network configuration and many other factors; actual results will vary. Battery has limited recharge cycles and may eventually need to be replaced. Battery life and charge cycles vary by use and settings. See apple.com/uk/batteries and apple.com/uk/iphone/battery.html for more information.\n\nMagSafe wireless charging up to 25W with 30W power adapter or higher. Testing conducted by Apple in July 2025 using pre‑production iPhone 17 units and software, USB‑C Charge Cable with Apple 40W Dynamic Power Adapter with 60W Max (Model A3351) and Apple MagSafe Chargers (1‑metre Model A3502 and 2‑metre Model A3503) with Apple 30W USB‑C Power Adapter (Model A2164) or Apple 40W Dynamic Power Adapter with 60W Max (Model A3351). Fast‑charge testing conducted with drained iPhone units. Times measured from the appearance of the Apple logo as the unit started up. Charge time varies with adapter, settings, usage and environmental factors; actual results will vary.\n\nService is included free for two years with the activation of any iPhone 14 or later model. Connection and response times vary based on location, site conditions and other factors. See support.apple.com/en-gb/105097 for more information.\n\niPhone 17e, iPhone 17, iPhone Air and iPhone 17 Pro can detect a serious car crash and call for help. Requires a mobile data connection or Wi-Fi calling.\n\nData plan required. 5G, Gigabit LTE, VoLTE and Wi‑Fi calling are available in selected markets and through selected network providers. Speeds are based on theoretical throughput and vary based on site conditions and network. For details on 5G and LTE support, contact your provider and see apple.com/uk/iphone/cellular.\n\nWi‑Fi 7 available in countries and regions where supported.\n\nUltra Wideband availability varies by region.\n\nVisual Intelligence is available on any Apple Intelligence–enabled iPhone. Some capabilities may not be available in all languages and regions. For more details, see support.apple.com/en-gb/121115#visual-intelligence.\n\nUse of eSIM requires a wireless service plan (which may include restrictions on switching service providers and roaming, even after contract expires). Not all network providers support eSIM. Use of eSIM in iPhone may be disabled when purchased from some providers. See your provider for details. To learn more, visit apple.com/uk/esim.\n\nAvailable only in selected cities and public transport systems. Requires eligible device and OS version. See here for details.\n\nFaceTime calling requires a FaceTime‑enabled device for the caller and recipient and a Wi‑Fi connection. Availability over a mobile network depends on provider policies; data charges may apply.\n\nStandard dynamic range video content only.\n\nSiri may not be available in all languages or in all areas, and features may vary by area. Internet access required. Mobile data charges may apply.\n\nWireless broadband recommended; fees may apply.\n\nData accurate as of product launch.\n\nProduct recycled or renewable content is the mass of certified recycled material relative to the overall mass of the device, not including packaging or in-box accessories. Recycled and renewable plastic content calculation includes mass balance allocation.\n\nWe estimate the percentage of electricity-related emissions in our manufacturing that is sourced from low-carbon electricity by attributing to our carbon model low-carbon energy procured by our suppliers in the prior fiscal year, based on the supplier manufacturing allocations at time of product launch. This calculation assesses the suppliers for iPhone 17. Included in this number is only low-carbon electricity that Apple or its suppliers have procured as part of Apple’s Supplier Clean Energy Programme.\n\nEfficiency performance is based on the US Department of Energy Federal Energy Conservation Standards for Battery Chargers.\n\nBreakdown of US retail packaging by weight. Adhesives, inks and coatings are excluded from our calculations of plastic content and packaging weight. Fibre sourcing requirements are defined in Apple’s Responsible Fibre Specification. We consider wood fibres to include bamboo.\n\nBased on the number of 10-unit boxes that fit onto a pallet compared to iPhone 16. The following locations have different savings based on various pallet configurations: Andorra, Canada, Cyprus, Greece, Italy, Portugal, South Korea, Spain, Switzerland and US.\n\nAll established final assembly supplier sites — those that have been Apple suppliers for more than one year — for iPhone 17 are third-party verified as Zero Waste by UL LLC (UL 2799 Standard). UL requires at least 90 per cent diversion through methods other than waste to energy to achieve Zero Waste to Landfill (Silver 90–94%, Gold 95–99% and Platinum 100%) designations.\n\nApple’s Regulated Substances Specification describes Apple’s restrictions on the use of certain chemical substances in materials in Apple products, accessories, manufacturing processes and packaging used for shipping products to Apple’s end customers. Restrictions are derived from international laws or directives, regulatory agencies, eco‑label requirements, environmental standards and Apple policies. Every Apple product is free of PVC and phthalates except for AC power leads in India, Thailand (for two‑pin AC power leads) and South Korea, where we continue to seek government approval for our PVC and phthalates replacement. Apple products comply with the European Union Directive 2011/65/EU and its amendments, including exemptions for the use of lead such as high‑temperature solder. Apple is working to phase out the use of these exempted substances for new products where technically possible.\n\nFeatures are subject to change. Some features, applications and services may not be available in all regions or all languages and may require specific hardware and software. For more information, see Feature Availability.\n\nHelpful?Yes No"
+    }
+  ]
+}
