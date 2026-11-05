@@ -1,22 +1,38 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "product": {
     "brand": "Apple",
-    "product_name": "iPhone XS",
+    "category": "smartphone",
+    "family": "iPhone",
     "model": "iPhone XS",
-    "year_introduced": 2018
+    "model_slug": "iphone-xs",
+    "model_year": 2018,
+    "year_introduced": 2018,
+    "finishes": [
+      "Gold",
+      "Space Gray",
+      "Silver"
+    ],
+    "storage_options": [
+      "64GB",
+      "256GB",
+      "512GB"
+    ]
   },
   "source": {
-    "publisher": "Apple",
-    "document_title": "iPhone XS - Technical Specifications",
     "source_type": "user_supplied_document",
     "source_url": null,
-    "verification_status": "Transcribed from supplied document; source page URL not independently verified."
+    "verification_status": "not_checked",
+    "checked_at": null,
+    "source_title": "iPhone XS - Technical Specifications",
+    "publisher": "Apple (as named in supplied document)",
+    "verification_notes": "Transcribed from the supplied technical-specifications document. The corresponding official source page and its current content have not been independently checked."
   },
   "extraction": {
     "method": "section_preserving",
-    "normalization_status": "archival_first_pass",
-    "note": "Sections preserve the supplied source text. This is not a fully normalized field-by-field specification; no missing values have been inferred."
+    "normalization_status": "partially_normalized",
+    "extracted_at": "2026-11-05",
+    "note": "Original source sections are preserved verbatim. The normalized fields below are a limited transcription of explicitly stated values; they are not independently fact-checked."
   },
   "sections": [
     {
@@ -155,5 +171,105 @@
       "heading": "iPhone and the Environment",
       "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact. [Learn more about iPhone and the Environment](http://www.apple.com/uk/environment/)\n\niPhone XS and iPhone XS Max embody Apple’s continuing environmental progress. They are designed with the following features to reduce environmental impact:\n\n- Arsenic-free display glass\n- Mercury-free display\n- Brominated flame retardant–free\n- PVC-free\n- Beryllium-free\n- Recyclable stainless steel\n\n**Apple and the Environment**\n\nRead our [Product Environmental Reports](https://www.apple.com/uk/environment/our-approach/#reports-product) for detailed information on the environmental performance of every Apple product.\n\n\\* To identify your iPhone model number, see [https://support.apple.com/en-gb/HT3939](https://support.apple.com/en-gb/HT3939). For details on LTE support, contact your carrier and see [www.apple.com/uk/iphone/LTE](https://www.apple.com/uk/iphone/LTE/). Cellular technology support is based on iPhone model number and configuration for either CDMA or GSM networks.\n\n1. Available space is less and varies due to many factors. A standard configuration uses approximately 10GB to 12GB of space (including iOS and preinstalled apps) depending on the model and settings. Preinstalled apps use about 4GB, and you can delete these apps and restore them.\n2. Size and weight vary by configuration and manufacturing process.\n3. iPhone XS and iPhone XS Max are splash, water, and dust resistant and were tested under controlled laboratory conditions with a rating of IP68 under IEC standard 60529 (maximum depth of 2 meters up to 30 minutes). Splash, water, and dust resistance are not permanent conditions and resistance might decrease as a result of normal wear. Do not attempt to charge a wet iPhone; refer to the user guide for cleaning and drying instructions. Liquid damage not covered under warranty.\n4. Data plan required. Gigabit-class LTE, LTE Advanced, LTE, VoLTE, and Wi-Fi calling are available in select markets and through select carriers. Speeds are based on theoretical throughput and vary based on site conditions and carrier. For details on LTE support, contact your carrier and see [www.apple.com/uk/iphone/LTE](https://www.apple.com/uk/iphone/LTE/).\n5. FaceTime calling requires a FaceTime-enabled device for the caller and recipient and a Wi-Fi connection. Availability over a cellular network depends on carrier policies; data charges may apply.\n6. Standard Dynamic Range video content only.\n7. Siri may not be available in all languages or in all areas, and features may vary by area. Internet access required. Cellular data charges may apply.\n8. All battery claims depend on network configuration and many other factors; actual results will vary. Battery has limited recharge cycles and may eventually need to be replaced by Apple service provider. Battery life and charge cycles vary by use and settings. See [www.apple.com/uk/batteries](https://www.apple.com/uk/batteries/) and [www.apple.com/uk/iphone/battery.html](https://www.apple.com/uk/iphone/battery.html) for more information.\n9. Testing conducted by Apple in August 2018 using preproduction iPhone XS and iPhone XS Max units and software and accessory Apple USB-C Power Adapters (18W Model A1720, 29W Model A1540, 30W Model A1882, 61W Model A1718, 87W Model A1719). Fast-charge testing conducted with drained iPhone units. Charge time varies with environmental factors; actual results will vary.\n10. Qi wireless chargers sold separately.\n11. Use of eSIM requires a wireless service plan (which may include restrictions on switching service providers and roaming, even after contract expiration). Not all carriers support eSIM. Use of eSIM in iPhone may be disabled when purchased from some carriers. See your carrier for details. To learn more, visit [https://support.apple.com/en-gb/HT209044](https://support.apple.com/en-gb/HT209044).\n12. Wireless broadband recommended; fees may apply."
     }
-  ]
+  ],
+  "normalized_specifications": {
+    "dimensions": {
+      "width": {
+        "value": 70.9,
+        "unit": "mm",
+        "source_section": "Size and Weight2",
+        "verification_status": "source_transcribed"
+      },
+      "height": {
+        "value": 143.6,
+        "unit": "mm",
+        "source_section": "Size and Weight2",
+        "verification_status": "source_transcribed"
+      },
+      "depth": {
+        "value": 7.7,
+        "unit": "mm",
+        "source_section": "Size and Weight2",
+        "verification_status": "source_transcribed"
+      },
+      "weight": {
+        "value": 177,
+        "unit": "g",
+        "source_section": "Size and Weight2",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "display": {
+      "display_type": {
+        "value": "Super Retina HD OLED",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "diagonal": {
+        "value": 5.8,
+        "unit": "in",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "resolution": {
+        "value": "2436 × 1125",
+        "unit": "pixels",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "pixel_density": {
+        "value": 458,
+        "unit": "ppi",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "typical_brightness": {
+        "value": 625,
+        "unit": "cd/m²",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "contrast_ratio": {
+        "value": "1,000,000:1",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "processor": {
+      "chip": {
+        "value": "A12 Bionic",
+        "unit": null,
+        "source_section": "Chip",
+        "verification_status": "source_transcribed"
+      },
+      "neural_engine": {
+        "value": "Next-generation Neural Engine",
+        "unit": null,
+        "source_section": "Chip",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "durability": {
+      "ingress_protection": {
+        "value": "IP68",
+        "unit": null,
+        "source_section": "Splash, Water, and Dust Resistant3",
+        "verification_status": "source_transcribed"
+      },
+      "maximum_water_depth": {
+        "value": 2,
+        "unit": "m",
+        "source_section": "Splash, Water, and Dust Resistant3",
+        "verification_status": "source_transcribed"
+      },
+      "maximum_duration": {
+        "value": 30,
+        "unit": "min",
+        "source_section": "Splash, Water, and Dust Resistant3",
+        "verification_status": "source_transcribed"
+      }
+    }
+  }
 }
