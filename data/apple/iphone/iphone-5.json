@@ -1,22 +1,28 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "product": {
     "brand": "Apple",
-    "product_name": "iPhone 5",
+    "category": "smartphone",
+    "family": "iPhone",
     "model": "iPhone 5",
+    "model_slug": "iphone-5",
+    "model_year": 2012,
     "year_introduced": 2012
   },
   "source": {
-    "publisher": "Apple",
-    "document_title": "iPhone 5 - Technical Specifications",
     "source_type": "user_supplied_document",
     "source_url": null,
-    "verification_status": "Transcribed from supplied document; source page URL not independently verified."
+    "verification_status": "not_checked",
+    "checked_at": null,
+    "source_title": "iPhone 5 - Technical Specifications",
+    "publisher": "Apple (as named in supplied document)",
+    "verification_notes": "Original specification page URL has not been independently verified. Normalized fields are transcribed from preserved sections."
   },
   "extraction": {
     "method": "section_preserving",
-    "normalization_status": "archival_first_pass",
-    "note": "Sections preserve the supplied source text. This is not a fully normalized field-by-field specification; no missing values have been inferred."
+    "normalization_status": "partially_normalized",
+    "extracted_at": "2026-11-05",
+    "note": "Original sections are preserved verbatim. Selected normalized fields are transcribed only from their named source sections; no absent fields have been inferred."
   },
   "sections": [
     {
@@ -103,5 +109,71 @@
       "heading": "iPhone and the Environment",
       "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact. [Learn more](http://www.apple.com/uk/environment/)\n\n**iPhone embodies Apple’s continuing environmental progress. It is designed with the following features to reduce environmental impact:**\n\n- Mercury-free LED-backlit display\n- Arsenic-free display glass\n- Brominated flame retardant-free\n- PVC-free\n- Recyclable aluminum enclosure\n- Power adapter outperforms strictest global energy efficiency standards\n\n**Apple and the Environment**\n\n[Learn more](http://www.apple.com/uk/environment/) about Apple’s dedication to reducing the environmental impact of our products and process. [Apple Product Environmental Reports](http://www.apple.com/uk/environment/reports/) detail the environmental attributes of our products.\n\n**Recycling**\n\nApple takes a holistic view of materials management and waste minimization. [Learn more](http://www.apple.com/uk/recycling/) about how to recycle your iPhone.\n\n*To identify your iPhone 5 model number, see [http://support.apple.com/en-gb/HT3939](http://support.apple.com/en-gb/HT3939). For details on LTE support, contact your carrier and see [http://www.apple.com/iphone/LTE](http://www.apple.com/iphone/LTE).\n\n1. 1GB = 1 billion bytes; actual formatted capacity less.\n2. Actual size and weight vary by configuration and manufacturing process.\n3. All battery claims depend on network configuration and many other factors; actual results will vary. Battery has limited recharge cycles and may eventually need to be replaced by Apple service provider. Battery life and charge cycles vary by use and settings. See [www.apple.com/uk/batteries](http://www.apple.com/uk/batteries) and [www.apple.com/uk/batteries/iphone.html](http://www.apple.com/uk/batteries/iphone.html) for more information.\n4. Wireless broadband recommended; fees may apply.\n\nSome features may not be available for all countries or all areas. [Click here to see complete list](http://www.apple.com/uk/ios/feature-availability/).\n\nSome features, applications, and services are not available in all areas. See your carrier for details. Application availability and pricing are subject to change."
     }
-  ]
+  ],
+  "normalized_specifications": {
+    "dimensions": {
+      "width": {
+        "value": 58.6,
+        "unit": "mm",
+        "source_section": "Size and Weight2",
+        "verification_status": "source_transcribed"
+      },
+      "height": {
+        "value": 123.8,
+        "unit": "mm",
+        "source_section": "Size and Weight2",
+        "verification_status": "source_transcribed"
+      },
+      "depth": {
+        "value": 7.6,
+        "unit": "mm",
+        "source_section": "Size and Weight2",
+        "verification_status": "source_transcribed"
+      },
+      "weight": {
+        "value": 112,
+        "unit": "g",
+        "source_section": "Size and Weight2",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "display": {
+      "technology": {
+        "value": "Retina LCD",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "diagonal": {
+        "value": 4,
+        "unit": "in",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "resolution": {
+        "value": "1136 × 640",
+        "unit": "pixels",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "pixel_density": {
+        "value": 326,
+        "unit": "ppi",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "contrast_ratio": {
+        "value": "800:1",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "brightness": {
+        "value": 500,
+        "unit": "cd/m² (typical)",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      }
+    }
+  }
 }
