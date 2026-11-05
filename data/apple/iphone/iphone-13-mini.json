@@ -18,5 +18,158 @@
     "normalization_status": "archival_first_pass",
     "note": "Sections preserve supplied source text, including footnotes and links. This is not a fully normalized field-by-field specification; no missing values have been inferred."
   },
-  "sections": []
+  "sections": [
+    {
+      "heading": "Identify your iPhone model",
+      "source_text": ""
+    },
+    {
+      "heading": "Finish",
+      "source_text": "(PRODUCT)RED\n\nStarlight\n\nMidnight\n\nBlue\n\nPink\n\nGreen\n\nCeramic Shield front, Glass back and aluminium design\n"
+    },
+    {
+      "heading": "Capacity1",
+      "source_text": "128GB\n\n256GB\n\n512GB\n"
+    },
+    {
+      "heading": "Size and Weight2",
+      "source_text": "Width: 64.2 mm (2.53 inches)\n\nHeight: 131.5 mm (5.18 inches)\n\nDepth: 7.65 mm (0.30 inches)\n\nWeight: 140 grams (4.94 ounces)\n"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Super Retina XDR display\n\n5.4‑inch (diagonal) all‑screen OLED display\n\n2340x1080-pixel resolution at 476 ppi\n\nHDR display\n\nTrue Tone\n\nWide colour (P3)\n\nHaptic Touch\n\n2,000,000:1 contrast ratio (typical)\n\n800 nits max brightness (typical); 1,200 nits max brightness (HDR)\n\nFingerprint-resistant oleophobic coating\n\nSupport for display of multiple languages and characters simultaneously\n\nThe iPhone 13 mini display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 5.42 inches diagonally (actual viewable area is less).\n"
+    },
+    {
+      "heading": "Splash, Water and Dust Resistant3",
+      "source_text": "Rated IP68 (maximum depth of 6 metres up to 30 minutes) under IEC standard 60529\n"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "A15 Bionic chip\n\n6‑core CPU with 2 performance and 4 efficiency cores\n\n4‑core GPU\n\n16‑core Neural Engine\n"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "Dual 12MP camera system: Main and Ultra Wide cameras\n\nMain: ƒ/1.6 aperture\n\nUltra Wide: ƒ/2.4 aperture and 120° field of view\n\n2x optical zoom out\n\nDigital zoom up to 5x\n\nPortrait mode with advanced bokeh and Depth Control\n\nPortrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High‑Key Mono)\n\nSensor-shift optical image stabilisation (Main)\n\nSeven‑element lens (Main); five‑element lens (Ultra Wide)\n\nTrue Tone flash with slow sync\n\nPanorama (up to 63MP)\n\nSapphire crystal lens cover\n\n100% Focus Pixels (Main)\n\nNight mode\n\nDeep Fusion\n\nSmart HDR 4\n\nPhotographic Styles\n\nWide colour capture for photos and Live Photos\n\nLens correction (Ultra Wide)\n\nAdvanced red‑eye correction\n\nAuto image stabilisation\n\nBurst mode\n\nPhoto geotagging\n\nImage formats captured: HEIF and JPEG\n"
+    },
+    {
+      "heading": "Video Recording",
+      "source_text": "Cinematic mode (1080p at 30 fps)\n\nHDR video recording with Dolby Vision up to 4K at 60 fps\n\n4K video recording at 24 fps, 25 fps, 30 fps or 60 fps\n\n1080p HD video recording at 25 fps, 30 fps or 60 fps\n\n720p HD video recording at 30 fps\n\nSensor-shift optical image stabilisation for video (Main)\n\n2x optical zoom out\n\nDigital zoom up to 3x\n\nAudio zoom\n\nTrue Tone flash\n\nQuickTake video\n\nSlo‑mo video support for 1080p at 120 fps or 240 fps\n\nTime-lapse video with stabilisation\n\nNight mode Time-lapse\n\nCinematic video stabilisation (4K, 1080p and 720p)\n\nContinuous autofocus video\n\nTake 8MP still photos while recording 4K video\n\nPlayback zoom\n\nVideo formats recorded: HEVC and H.264\n\nStereo recording\n"
+    },
+    {
+      "heading": "TrueDepth Camera",
+      "source_text": "12MP camera\n\nƒ/2.2 aperture\n\nPortrait mode with advanced bokeh and Depth Control\n\nPortrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High‑Key Mono)\n\nAnimoji and Memoji\n\nNight mode\n\nDeep Fusion\n\nSmart HDR 4\n\nPhotographic Styles\n\nCinematic mode (1080p at 30 fps)\n\nHDR video recording with Dolby Vision up to 4K at 60 fps\n\n4K video recording at 24 fps, 25 fps, 30 fps or 60 fps\n\n1080p HD video recording at 25 fps, 30 fps or 60 fps\n\nSlo-mo video support for 1080p at 120 fps\n\nTime-lapse video with stabilisation\n\nNight mode Time-lapse\n\nCinematic video stabilisation (4K, 1080p and 720p)\n\nQuickTake video\n\nWide colour capture for photos and Live Photos\n\nLens correction\n\nRetina Flash\n\nAuto image stabilisation\n\nBurst mode\n"
+    },
+    {
+      "heading": "Face ID",
+      "source_text": "Enabled by TrueDepth camera for facial recognition\n"
+    },
+    {
+      "heading": "Apple Pay",
+      "source_text": "Pay with your iPhone using Face ID in shops, within apps and on the web\n\nComplete purchases made with Apple Pay on your Mac\n\nPay for your journey using Express Travel4\n\nLearn more about Apple Pay\n"
+    },
+    {
+      "heading": "Mobile and Wireless",
+      "source_text": "Model A2628*\n\n5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n20, n25, n28, n30, n38, n40, n41, n48, n66, n77, n78, n79)\n\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 66)\n\nTD‑LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48)\n\nUMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\n\nGSM/EDGE (850, 900, 1800, 1900 MHz)\n\nModel A2633*\n\n5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n20, n25, n28, n30, n38, n40, n41, n48, n66, n77, n78, n79)\n\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 66)\n\nTD‑LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48)\n\nUMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\n\nGSM/EDGE (850, 900, 1800, 1900 MHz)\n\nAll models\n\n5G (sub‑6 GHz) with 4x4 MIMO5\n\nGigabit LTE with 4x4 MIMO and LAA5\n\nWi‑Fi 6 (802.11ax) with 2x2 MIMO\n\nBluetooth 5.0 wireless technology\n\nUltra Wideband chip for spatial awareness6\n\nNFC with reader mode\n\nExpress Cards with Power Reserve\n\nFor details on 5G and LTE support, contact your provider and see apple.com/uk/iphone/cellular\n"
+    },
+    {
+      "heading": "Location",
+      "source_text": "GPS, GLONASS, Galileo, QZSS and BeiDou\n\nDigital compass\n\nWi‑Fi\n\nMobile data\n\niBeacon micro-location\n"
+    },
+    {
+      "heading": "Video Calling7",
+      "source_text": "FaceTime video calling over Wi‑Fi or a mobile network\n\nFaceTime HD (1080p) video calling over 5G or Wi‑Fi\n\nShare experiences like movies, TV, music and other apps in a FaceTime call with SharePlay\n\nScreen sharing\n\nPortrait mode in FaceTime video\n\nSpatial audio\n\nVoice Isolation and Wide Spectrum microphone modes\n\nZoom with rear-facing camera\n"
+    },
+    {
+      "heading": "Audio Calling7",
+      "source_text": "FaceTime audio\n\nVoice over LTE (VoLTE)5\n\nWi‑Fi calling5\n\nShare experiences like movies, TV, music and other apps in a FaceTime call with SharePlay\n\nScreen sharing\n\nSpatial audio\n\nVoice Isolation and Wide Spectrum microphone modes\n"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "Supported formats include AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus and Dolby Atmos\n\nSpatial audio playback\n\nUser‑configurable maximum volume limit\n"
+    },
+    {
+      "heading": "Video Playback",
+      "source_text": "Supported formats include HEVC, H.264 and ProRes\n\nHDR with Dolby Vision, HDR10 and HLG\n\nUp to 4K HDR AirPlay for mirroring, photos and video out to Apple TV (2nd generation or later) or AirPlay-enabled smart TV\n\nVideo mirroring and video out support: up to 1080p through Lightning Digital AV Adapter and Lightning to VGA Adapter (adapters sold separately)8\n"
+    },
+    {
+      "heading": "Siri9",
+      "source_text": "Use your voice to send messages, set reminders and more\n\nActivate hands‑free with only your voice using “Hey Siri”\n\nUse your voice to run shortcuts from your favourite apps\n\nLearn more about Siri\n"
+    },
+    {
+      "heading": "External Buttons and Connectors",
+      "source_text": "No alt supplied for Image\nFront camera\n\nSide button\n\nLightning connector\n\nSIM tray\n\nVolume buttons\n\nRing/Silent switch\n\nRear cameras\n\nFlash\n"
+    },
+    {
+      "heading": "Power and Battery10",
+      "source_text": "Video playback: Up to 17 hours\n\nVideo playback (streamed): Up to 13 hours\n\nAudio playback: Up to 55 hours\n\nBuilt-in rechargeable lithium-ion battery\n\nMagSafe wireless charging up to 15W11\n\nQi wireless charging up to 7.5W11\n\nCharging via USB to computer system or power adapter\n\nFast-charge capable: up to 50% charge in 30 minutes12 with 20W adapter or higher (available separately)\n"
+    },
+    {
+      "heading": "MagSafe",
+      "source_text": "Wireless charging up to 15W11\n\nMagnet array\n\nAlignment magnet\n\nAccessory Identification NFC\n\nMagnetometer\n"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": ""
+    },
+    {
+      "heading": "Face ID",
+      "source_text": "Barometer\n\nThree‑axis gyro\n\nAccelerometer\n\nProximity sensor\n\nAmbient light sensor\n"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "iOS\n\nOur most personal and secure mobile operating system yet, iOS 16 is packed with powerful features and designed to protect your privacy.\n\nSee what’s new in iOS\n\niPhone User Guide\n"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Built-in accessibility features supporting vision, mobility, hearing and cognitive disabilities help you get the most out of your iPhone.\n\nLearn more about Accessibility\n\nFeatures include:\n\nVoice Control\n\nVoiceOver\n\nZoom\n\nMagnifier\n\nRTT and Textphone support\n\nSiri and Dictation\n\nType to Siri\n\nSwitch Control\n\nClosed Captions\n\nAssistiveTouch\n\nSpoken Content\n\nBack Tap\n"
+    },
+    {
+      "heading": "Built-in Apps",
+      "source_text": "App Store\n\nBooks\n\nCalculator\n\nCalendar\n"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "Clock\n\nCompass\n\nContacts\n\nFaceTime\n\nFiles\n\nFind My\n\nFitness\n\nFreeform\n\nHealth\n\nHome\n\niTunes Store\n\nMagnifier\n\nMail\n\nMaps\n\nMeasure\n\nMessages\n\nMusic\n\nNews\n\nNotes\n\nPhone\n\nPhotos\n\nPodcasts\n\nReminders\n\nSafari\n\nSettings\n\nShortcuts\n"
+    },
+    {
+      "heading": "Siri",
+      "source_text": "Stocks\n\nTips\n\nTranslate\n\nTV\n\nVoice Memos\n\nWallet\n\nWatch\n\nWeather\n"
+    },
+    {
+      "heading": "Free Apps from Apple",
+      "source_text": "Pages, Numbers, Keynote, iMovie, GarageBand, Clips and Apple Store app are pre-installed.\n\niMovie\n\nPages\n\nKeynote\n\nNumbers\n\nGarageBand\n\nApple Store\n\niTunes Remote\n\nClips\n\nSupport\n"
+    },
+    {
+      "heading": "SIM Card",
+      "source_text": "Dual SIM (nano‑SIM and eSIM)13\n\nDual eSIM support13\n"
+    },
+    {
+      "heading": "Rating for Hearing Aids",
+      "source_text": "M3, T4\n"
+    },
+    {
+      "heading": "Mail Attachment Support",
+      "source_text": "Viewable document types\n\n.jpg, .tiff, .gif (images); .doc and .docx (Microsoft Word); .htm and .html (web pages); .key (Keynote); .numbers (Numbers); .pages (Pages); .pdf (Preview and Adobe Acrobat); .ppt and .pptx (Microsoft PowerPoint); .txt (text); .rtf (rich text format); .vcf (contact information); .xls and .xlsx (Microsoft Excel); .zip; .ics; .usdz (USDZ Universal)\n"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "Apple ID (required for some features)\n\nInternet access14\n\nSyncing to a Mac or PC requires:\n\nmacOS Catalina 10.15 or later using the Finder\n\nmacOS El Capitan 10.11.6 to macOS Mojave 10.14.6 using iTunes 12.8 or later\n\nWindows 7 or later using iTunes 12.10.10 or later (free download from itunes.com/uk/download)\n"
+    },
+    {
+      "heading": "Environmental Requirements",
+      "source_text": "Ambient operating temperature: 0° to 35° C (32° to 95° F)\n\nNon-operating temperature: −20° to 45° C (−4° to 113° F)\n\nRelative humidity: 5% to 95% non-condensing\n\nOperating altitude: tested up to 3,000 metres (10,000 feet)\n"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "Language support\n\nEnglish (Australia, UK, US), Chinese (Simplified, Traditional, Traditional – Hong Kong), French (Canada, France), German, Italian, Japanese, Korean, Spanish (Latin America, Spain), Arabic, Bulgarian, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hindi, Hungarian, Indonesian, Kazakh, Malay, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\n"
+    },
+    {
+      "heading": "QuickType keyboard support",
+      "source_text": "English (Australia, Canada, India, Japan, New Zealand, Singapore, South Africa, UK, US), Chinese – Simplified (Handwriting, Pinyin QWERTY, Pinyin 10-Key, Shuangpin, Stroke), Chinese – Traditional (Cangjie, Handwriting, Pinyin QWERTY, Pinyin 10-Key, Shuangpin, Stroke, Sucheng, Zhuyin), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese (Kana, Romaji), Korean (2-Set, 10-Key), Spanish (Latin America, Mexico, Spain), Ainu, Albanian, Amharic, Apache (Western), Arabic, Arabic (Najdi), Armenian, Assamese, Assyrian, Azerbaijani, Bangla, Belarusian, Bodo, Bulgarian, Burmese, Cantonese – Traditional (Cangjie, Handwriting, Phonetic, Stroke, Sucheng), Catalan, Cherokee, Croatian, Czech, Danish, Dhivehi, Dogri, Dutch, Dzongkha, Emoji, Estonian, Faroese, Filipino, Finnish, Flemish, Fula (Adlam), Georgian, Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari, Latin, Transliteration), Hungarian, Icelandic, Igbo, Indonesian, Irish Gaelic, Kannada, Kashmiri (Arabic, Devanagari), Kazakh, Khmer, Konkani (Devanagari), Kurdish (Arabic, Latin), Kyrgyz, Lao, Latvian, Lithuanian, Macedonian, Maithili, Malay (Arabic, Latin), Malayalam, Maltese, Manipuri (Bengali, Meetei Mayek), Māori, Marathi, Mongolian, Navajo, Nepali, Norwegian (Bokmål, Nynorsk), Odia, Pashto, Persian, Persian (Afghanistan), Polish, Portuguese (Brazil, Portugal), Punjabi, Rohingya, Romanian, Russian, Samoan, Sanskrit, Santali (Devanagari, Ol Chiki), Serbian (Cyrillic, Latin), Sindhi (Arabic, Devanagari), Sinhala, Slovak, Slovenian, Swahili, Swedish, Tajik, Tamil (Anjal, Tamil 99), Telugu, Thai, Tibetan, Tongan, Turkish, Turkmen, Ukrainian, Urdu, Uyghur, Uzbek (Arabic, Cyrillic, Latin), Vietnamese (Telex, VIQR, VNI), Welsh, Yiddish\n\nQuickType keyboard support with auto-correction\n\nArabic, Arabic (Najdi), Bangla, Bulgarian, Catalan, Cherokee, Chinese – Simplified (Pinyin QWERTY), Chinese – Traditional (Pinyin QWERTY), Chinese – Traditional (Zhuyin), Croatian, Czech, Danish, Dutch, English (Australia, Canada, India, Japan, New Zealand, Singapore, South Africa, UK, US), Estonian, Filipino, Finnish, Dutch (Belgium), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari, Latin, Transliteration), Hungarian, Icelandic, Indonesian, Irish Gaelic, Italian, Japanese (Kana, Romaji), Korean (2-Set, 10-Key), Latvian, Lithuanian, Macedonian, Malay, Marathi, Norwegian (Bokmål, Nynorsk), Persian, Persian (Afghanistan), Polish, Portuguese (Brazil, Portugal), Punjabi, Romanian, Russian, Serbian (Cyrillic, Latin), Slovak, Slovenian, Spanish (Latin America, Mexico, Spain), Swedish, Tamil (Anjal, Tamil 99), Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese (Telex)\n\nQuickType keyboard support with predictive input\n\nEnglish (Australia, Canada, India, Japan, Singapore, South Africa, UK, US), Chinese (Simplified, Traditional), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese, Korean, Spanish (Latin America, Mexico, Spain), Arabic, Arabic (Najdi), Cantonese (Traditional), Dutch, Hindi (Devanagari, Latin), Portuguese (Brazil, Portugal), Russian, Swedish, Thai, Turkish, Vietnamese\n\nQuickType keyboard support with multilingual input\n\nEnglish (Australia, Canada, India, Japan, New Zealand, Singapore, South Africa, UK, US), Chinese – Simplified (Pinyin), Chinese – Traditional (Pinyin), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese (Romaji), Portuguese (Brazil, Portugal), Spanish (Latin America, Mexico, Spain), Dutch (Belgium, Netherlands), Hindi (Latin), Vietnamese\n\nQuickType keyboard support with contextual suggestions\n\nEnglish (Australia, Canada, India, Japan, New Zealand, Singapore, South Africa, UK, US), Chinese (Simplified), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Spanish (Latin America, Mexico, Spain), Arabic, Arabic (Najdi), Dutch (Belgium, Netherlands), Hindi (Devanagari, Latin), Russian, Swedish, Portuguese (Brazil), Turkish, Vietnamese\n\nQuickPath keyboard support\n\nEnglish (Australia, Canada, India, Japan, New Zealand, Singapore, South Africa, UK, US), Chinese (Simplified Pinyin QWERTY), Chinese (Traditional Pinyin QWERTY), French (Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Spanish (Latin America, Mexico, Spain), Portuguese (Brazil, Portugal), Dutch (Belgium, Netherlands), Swedish, Vietnamese\n\nSiri languages\n\nEnglish (Australia, Canada, India, Ireland, New Zealand, Singapore, South Africa, UK, US), Spanish (Chile, Mexico, Spain, US), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese (Japan), Korean (Republic of Korea), Mandarin Chinese (China mainland, Taiwan), Cantonese (China mainland, Hong Kong), Arabic (Saudi Arabia, United Arab Emirates), Danish (Denmark), Dutch (Belgium, Netherlands), Finnish (Finland), Hebrew (Israel), Malay (Malaysia), Norwegian (Norway), Portuguese (Brazil), Russian (Russia), Swedish (Sweden), Thai (Thailand), Turkish (Türkiye)\n\nDictation languages\n\nEnglish (Australia, Canada, India, Ireland, Malaysia, New Zealand, Philippines, Saudi Arabia, Singapore, South Africa, United Arab Emirates, UK, US), Cantonese (China mainland, Hong Kong), Mandarin Chinese (China mainland, Taiwan), French (Belgium, Canada, France, Luxembourg, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Spanish (Chile, Colombia, Mexico, Spain, US), Portuguese (Brazil, Portugal), Arabic (Kuwait, Qatar, Saudi Arabia, United Arab Emirates), Catalan, Croatian, Czech, Danish, Dutch (Belgium, Netherlands), Finnish, Greek, Hebrew, Hindi, Hungarian, Indonesian, Malay, Norwegian (Bokmål), Polish, Romanian, Russian, Shanghainese (China mainland), Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\n\nMonolingual dictionary support\n\nEnglish (UK, US), Chinese (Simplified, Traditional, Traditional – Hong Kong), Danish, Dutch, French, German, Hebrew, Hindi, Italian, Japanese, Korean, Norwegian, Portuguese, Russian, Spanish, Swedish, Thai, Turkish\n\nIdiom dictionary support\n\nSimplified Chinese, Traditional Chinese–English, Cantonese–English\n\nBilingual dictionary support\n\nArabic–English, Bangla–English, Chinese (Simplified)–English, Chinese (Traditional)–English, Czech–English, Dutch–English, Finnish–English, French–English, French–German, German–English, Gujarati–English, Hindi–English, Hungarian–English, Indonesian–English, Italian–English, Japanese–English, Japanese–Chinese (Simplified), Korean–English, Polish–English, Portuguese–English, Russian–English, Spanish–English, Tamil–English, Telugu–English, Thai–English, Urdu–English, Vietnamese–English\n\nThesaurus\n\nEnglish (UK, US), Chinese (Simplified)\n\nSpellcheck\n\nEnglish (Australia, Canada, India, Japan, New Zealand, Singapore, South Africa, UK, US), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Spanish (Latin America, Mexico, Spain), Arabic, Arabic (Najdi), Bulgarian, Czech, Danish, Dutch (Belgium, Netherlands), Finnish, Greek, Hindi (Devanagari), Hungarian, Irish Gaelic, Norwegian (Bokmål, Nynorsk), Polish, Portuguese (Brazil, Portugal), Punjabi, Romanian, Russian, Swedish, Telugu, Turkish, Vietnamese\n\nApple Pay–supported regions\n\nArgentina, Armenia, Australia, Austria, Azerbaijan, Bahrain, Belarus, Belgium, Brazil, Bulgaria, Canada, China mainland,15 Croatia, Cyprus, Czech Republic, Denmark, Estonia, Faroe Islands, Finland, France, Georgia, Germany, Greece, Greenland, Guernsey, Hong Kong, Hungary, Iceland, Ireland, Isle of Man, Israel, Italy, Japan, Jersey, Kazakhstan, Latvia, Liechtenstein, Lithuania, Luxembourg, Macao, Malta, Mexico, Monaco, Montenegro, Netherlands, New Zealand, Norway, Poland, Portugal, Qatar, Romania, San Marino, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, Switzerland, Taiwan, UK, Ukraine, United Arab Emirates, US, Vatican City\n"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "iPhone 13 mini\n\nUSB‑C to Lightning Cable\n\nDocumentation\n\nAs part of our efforts to reach carbon neutrality by 2030, iPhone 13 mini do not include a power adapter or EarPods. Included in the box is a USB‑C to Lightning Cable that supports fast charging and is compatible with USB‑C power adapters and computer ports.\n\nWe encourage you to re‑use your current USB‑A to Lightning cables, power adapters and headphones that are compatible with these iPhone models. But if you need any new Apple power adapters or headphones, they are available for purchase.\n\niPhone and the Environment\niPhone 13 and iPhone 13 mini are designed with the following features to reduce their environmental impact:16\n\nSee the iPhone 13 and iPhone 13 mini Product Environmental Reports\n\nMade with better materials\n\n100% recycled tungsten in the Taptic Engine, representing 99% of the tungsten in the device\n\n100% recycled rare earth elements in all magnets, representing 98% of the rare earth elements in the device\n\n100% recycled gold in the plating of the main logic board\n\n100% recycled gold in the wire in the front camera and the rear cameras\n\n100% recycled tin in the solder of the main logic board and the battery management unit\n\n35% or more recycled plastic in multiple components\n\nEnergy efficient\n\nMeets US Department of Energy requirements for battery charger systems17\n\nSmarter chemistry18\n\nArsenic-free display glass\n\nMercury-, BFR-, PVC- and beryllium-free\n\nGreen manufacturing\n\nApple’s Zero Waste Programme helps suppliers eliminate waste sent to landfill\n\nAll final assembly supplier sites are transitioning to 100% renewable energy for Apple production\n\nResponsible packaging\n\n100% of virgin wood fibre comes from responsibly managed forests\n\n90% or more fibre-based packaging\n\nApple and the Environment\n\nWe’re committed to making our products without taking from the earth, and to become carbon neutral across our entire business, including products, by 2030.\n\nSee Apple’s commitment\n\n* To identify your iPhone model number, see support.apple.com/en‑gb/HT3939. For details on 5G and LTE support, contact your network provider and see apple.com/uk/iphone/cellular. Mobile data technology support is based on iPhone model number and configuration for either CDMA or GSM networks.\n\nAvailable space is less and varies due to many factors. A standard configuration uses approximately 12GB to 17GB of space, including iOS 16 with its latest features and Apple apps that can be deleted. Apple apps that can be deleted use about 4.5GB of space, and you can re-download them from the App Store. Storage capacity subject to change based on software version, settings and iPhone model.\n\nSize and weight vary by configuration and manufacturing process.\n\niPhone 13 and iPhone 13 mini are splash, water and dust resistant and were tested under controlled laboratory conditions with a rating of IP68 under IEC standard 60529 (maximum depth of 6 metres up to 30 minutes). Splash, water and dust resistance are not permanent conditions. Resistance might decrease as a result of normal wear. Do not attempt to charge a wet iPhone; refer to the user guide for cleaning and drying instructions. Liquid damage not covered under warranty.\n\nAvailable only in selected cities and on selected public transport systems. Requires eligible device and OS version. See here for details.\n\nData plan required. 5G, Gigabit LTE, VoLTE and Wi‑Fi calling are available in selected markets and through selected network providers. Speeds are based on theoretical throughput and vary based on site conditions and network. For details on 5G and LTE support, contact your provider and see apple.com/uk/iphone/cellular.\n\nUltra Wideband availability varies by region.\n\nFaceTime calling requires a FaceTime‑enabled device for the caller and recipient and a Wi‑Fi connection. Availability over a mobile network depends on network provider policies; data charges may apply.\n\nStandard dynamic range video content only.\n\nSiri may not be available in all languages or in all areas, and features may vary by area. Internet access required. Mobile data charges may apply.\n\nAll battery claims depend on network configuration and many other factors; actual results will vary. Battery has limited recharge cycles and may eventually need to be replaced. Battery life and charge cycles vary by use and settings. See apple.com/uk/batteries and apple.com/uk/iphone/battery.html for more information.\n\nWireless chargers sold separately.\n\nTesting conducted by Apple in August 2021 using pre-production iPhone 13 mini, iPhone 13, iPhone 13 Pro and iPhone 13 Pro Max units and software and accessory Apple USB‑C Power Adapter (20W Model A2305). Fast-charge testing conducted with drained iPhone units. Charge time varies with settings and environmental factors; actual results will vary.\n\nUse of eSIM requires a wireless service plan (which may include restrictions on switching service providers and roaming, even after contract expires). Not all providers support eSIM. Use of eSIM in iPhone may be disabled when purchased from some providers. See your provider for details. To learn more, visit support.apple.com/en‑gb/HT209044.\n\nWireless broadband recommended; fees may apply.\n\nIn China mainland, you can use Apple Pay on the web in Safari only on compatible iPhone and iPad models using iOS 11.2 or later.\n\nData accurate as of product launch.\n\nEfficiency performance is based on the US Department of Energy Federal Energy Conservation Standards for Battery Chargers.\n\nApple defines its restrictions on harmful substances, including definitions for what Apple considers to be “free of”, in the Apple Regulated Substances Specification. Every Apple product is free of PVC and phthalates with the exception of AC power leads in India, Thailand (for two-pin AC power leads) and the Republic of Korea, where we continue to seek government approval for our PVC and phthalates replacement.\n\nSome features may not be available in all countries or all areas. View complete list.\n\nHelpful?Yes No\nApple Footer\n\nApple\n Support iPhone 13 mini - Technical Specifications\nIreland\nCopyright © 2026 Apple Inc. All rights reserved.Privacy Policy Terms of Use Sales and Refunds Site Map Use of Cookies"
+    }
+  ]
 }
