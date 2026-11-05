@@ -18,7 +18,6 @@
     "publisher": "Apple (as named in supplied document)",
     "verification_notes": "Supplied source URL is absent; content has not been independently verified."
   },
-  "extraction_note": "Section-preserving archival JSON. The original section wording, links, and numbered footnotes are retained in source_text; individual specification values have not yet been fully normalized into dedicated fields.",
   "sections": [
     {
       "heading": "Introduction",
