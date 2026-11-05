@@ -1,21 +1,45 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "product": {
     "brand": "Apple",
     "category": "smartphone",
     "family": "iPhone",
     "model": "iPhone 17",
-    "year_introduced": 2025
+    "model_slug": "iphone-17",
+    "model_year": 2025,
+    "year_introduced": 2025,
+    "finishes": [
+      "Black",
+      "White",
+      "Mist Blue",
+      "Sage",
+      "Lavender"
+    ],
+    "storage_options": [
+      "256GB",
+      "512GB"
+    ]
   },
   "source": {
-    "source_type": "user_supplied_source_document",
-    "source_url": null,
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/125089",
     "source_file": "sources/apple/iphone/iphone-17-generation/iphone-17-source.md",
-    "verification_status": "Transcribed from supplied document; source URL not independently verified."
+    "source_title": "iPhone 17 - Tech Specs",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-05",
+    "verification_status": "content_verified",
+    "verification_notes": "The official Apple Support Ireland specifications page was checked on 5 November 2026. Only the normalized fields listed in this record were independently compared with the page; the full archived source document has not been audited line by line.",
+    "notes": [
+      "Official Apple Ireland specifications page used for the normalized fields."
+    ]
   },
   "extraction": {
-    "status": "section_preserving_archive",
-    "note": "Original source wording is retained in section source_text fields. This is an archival extraction, not a fully normalized specification schema."
+    "method": "section_preserving",
+    "normalization_status": "partially_normalized",
+    "note": "Original source sections are retained unchanged from the prior archival record. A small set of high-value fields has been normalized and checked against Apple's official Ireland specifications page; this is not full-record verification.",
+    "extracted_at": "2026-11-05",
+    "reviewed_at": "2026-11-05"
   },
   "sections": [
     {
@@ -138,5 +162,101 @@
       "heading": "iPhone and the Environment",
       "source_text": "iPhone 17 is designed to reduce environmental impact:19\n\nSee the iPhone 17 Product En­viron­men­tal Report (PDF)\n\nProgress towards Apple 2030\n\nApple 2030 is our commitment to be carbon neutral for our entire carbon footprint. Our plan to decarbonise products is rigorous and focuses on transitioning to low‑carbon electricity, designing with recycled and low‑carbon materials, and prioritising lower‑carbon ways of shipping products, like sea freight.\n\nSee Apple’s commitment\n\nMaterials\n\niPhone 17 is made with 30% recycled content,20 including:\n\n85% recycled aluminium in the enclosure\n\n100% recycled cobalt and 95% recycled lithium in the battery\n\n100% recycled gold plating and tin solder in all Apple‑designed printed circuit boards\n\n100% recycled gold wire in all cameras and gold plating in all connectors\n\n100% recycled tungsten and copper wire in the Taptic Engine\n\n100% recycled rare earth elements in all magnets\n\n80% recycled plastic in the antenna lines made from textile waste\n\nEnergy\n\n35% of manufacturing electricity for iPhone 17 is sourced from renewable electricity21\n\nExceeds US Department of Energy requirements for battery charger systems22\n\nPackaging\n\n100% fibre-based packaging23\n\niPhone 17 packaging is designed to be more efficient than iPhone 16 boxes, enabling us to ship 35% more units per trip24\n\nWaste\n\nNo established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme25\n\nSmarter chemistry26\n\nAll the materials used in Apple products, accessories and packaging are covered by the requirements of our Regulated Substances Specification, which was one of the first in industry to restrict the use of key substances of concern. See the latest En­viron­men­tal Progress Report to understand Apple’s recent efforts in phasing out these chemistries.\n\n*To identify your iPhone model number, see support.apple.com/en-gb/108044. For details on 5G and LTE support, contact your provider and see apple.com/uk/iphone/cellular. Mobile data technology support is based on iPhone model number and configuration for GSM networks.\n\nAvailable space is less and varies due to many factors. A standard configuration uses approximately 12GB to 24GB of space, including iOS 27 with its latest features and Apple apps that can be deleted. Apple Intelligence on‑device models use approximately 7GB of space and can be deleted if Apple Intelligence is turned off. Turning on Apple Intelligence will download the models again. Apple apps that can be deleted use about 4.5GB of space, and you can re‑download them from the App Store. Storage capacity subject to change based on software version, settings and iPhone model.\n\nSize and weight vary by configuration and manufacturing process.\n\niPhone 17 is splash, water and dust resistant and was tested under controlled laboratory conditions with a rating of IP68 under IEC standard 60529 (maximum depth of 6 metres up to 30 minutes). Splash, water and dust resistance are not permanent conditions. Resistance might decrease as a result of normal wear. Do not attempt to charge a wet iPhone; refer to the user guide for cleaning and drying instructions. Liquid damage not covered under warranty.\n\nApple Intelligence is available with Siri and device language set to Chinese (Simplified), Chinese (Traditional), Danish, Dutch, English, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Spanish, Swedish, Turkish or Vietnamese. Some features may not be available in all regions or languages. Some devices may not be available in all regions. Siri AI is available in beta in iOS 27 and requires an Apple Intelligence–enabled device set to a supported language. Available in English to start. Siri AI will not be initially available in the EU on iOS. Certain Apple Intelligence features that rely on server-side models are subject to daily usage limits, including but not limited to Siri AI, Intelligent Photo Editing Tools, Image Playground, and AFM 3 Cloud models in Shortcuts. Daily limits may vary by feature, request complexity, system demand, system policies and other factors. Expanded access to such features will be available for a fee in the future. Use of these features is subject to the Apple Intelligence Terms and Conditions. Learn more at apple.com/uk/apple-intelligence.\n\nAll battery claims depend on network configuration and many other factors; actual results will vary. Battery has limited recharge cycles and may eventually need to be replaced. Battery life and charge cycles vary by use and settings. See apple.com/uk/batteries and apple.com/uk/iphone/battery.html for more information.\n\nMagSafe wireless charging up to 25W with 30W power adapter or higher. Testing conducted by Apple in July 2025 using pre‑production iPhone 17 units and software, USB‑C Charge Cable with Apple 40W Dynamic Power Adapter with 60W Max (Model A3351) and Apple MagSafe Chargers (1‑metre Model A3502 and 2‑metre Model A3503) with Apple 30W USB‑C Power Adapter (Model A2164) or Apple 40W Dynamic Power Adapter with 60W Max (Model A3351). Fast‑charge testing conducted with drained iPhone units. Times measured from the appearance of the Apple logo as the unit started up. Charge time varies with adapter, settings, usage and environmental factors; actual results will vary.\n\nService is included free for two years with the activation of any iPhone 14 or later model. Connection and response times vary based on location, site conditions and other factors. See support.apple.com/en-gb/105097 for more information.\n\niPhone 17e, iPhone 17, iPhone Air and iPhone 17 Pro can detect a serious car crash and call for help. Requires a mobile data connection or Wi-Fi calling.\n\nData plan required. 5G, Gigabit LTE, VoLTE and Wi‑Fi calling are available in selected markets and through selected network providers. Speeds are based on theoretical throughput and vary based on site conditions and network. For details on 5G and LTE support, contact your provider and see apple.com/uk/iphone/cellular.\n\nWi‑Fi 7 available in countries and regions where supported.\n\nUltra Wideband availability varies by region.\n\nVisual Intelligence is available on any Apple Intelligence–enabled iPhone. Some capabilities may not be available in all languages and regions. For more details, see support.apple.com/en-gb/121115#visual-intelligence.\n\nUse of eSIM requires a wireless service plan (which may include restrictions on switching service providers and roaming, even after contract expires). Not all network providers support eSIM. Use of eSIM in iPhone may be disabled when purchased from some providers. See your provider for details. To learn more, visit apple.com/uk/esim.\n\nAvailable only in selected cities and public transport systems. Requires eligible device and OS version. See here for details.\n\nFaceTime calling requires a FaceTime‑enabled device for the caller and recipient and a Wi‑Fi connection. Availability over a mobile network depends on provider policies; data charges may apply.\n\nStandard dynamic range video content only.\n\nSiri may not be available in all languages or in all areas, and features may vary by area. Internet access required. Mobile data charges may apply.\n\nWireless broadband recommended; fees may apply.\n\nData accurate as of product launch.\n\nProduct recycled or renewable content is the mass of certified recycled material relative to the overall mass of the device, not including packaging or in-box accessories. Recycled and renewable plastic content calculation includes mass balance allocation.\n\nWe estimate the percentage of electricity-related emissions in our manufacturing that is sourced from low-carbon electricity by attributing to our carbon model low-carbon energy procured by our suppliers in the prior fiscal year, based on the supplier manufacturing allocations at time of product launch. This calculation assesses the suppliers for iPhone 17. Included in this number is only low-carbon electricity that Apple or its suppliers have procured as part of Apple’s Supplier Clean Energy Programme.\n\nEfficiency performance is based on the US Department of Energy Federal Energy Conservation Standards for Battery Chargers.\n\nBreakdown of US retail packaging by weight. Adhesives, inks and coatings are excluded from our calculations of plastic content and packaging weight. Fibre sourcing requirements are defined in Apple’s Responsible Fibre Specification. We consider wood fibres to include bamboo.\n\nBased on the number of 10-unit boxes that fit onto a pallet compared to iPhone 16. The following locations have different savings based on various pallet configurations: Andorra, Canada, Cyprus, Greece, Italy, Portugal, South Korea, Spain, Switzerland and US.\n\nAll established final assembly supplier sites — those that have been Apple suppliers for more than one year — for iPhone 17 are third-party verified as Zero Waste by UL LLC (UL 2799 Standard). UL requires at least 90 per cent diversion through methods other than waste to energy to achieve Zero Waste to Landfill (Silver 90–94%, Gold 95–99% and Platinum 100%) designations.\n\nApple’s Regulated Substances Specification describes Apple’s restrictions on the use of certain chemical substances in materials in Apple products, accessories, manufacturing processes and packaging used for shipping products to Apple’s end customers. Restrictions are derived from international laws or directives, regulatory agencies, eco‑label requirements, environmental standards and Apple policies. Every Apple product is free of PVC and phthalates except for AC power leads in India, Thailand (for two‑pin AC power leads) and South Korea, where we continue to seek government approval for our PVC and phthalates replacement. Apple products comply with the European Union Directive 2011/65/EU and its amendments, including exemptions for the use of lead such as high‑temperature solder. Apple is working to phase out the use of these exempted substances for new products where technically possible.\n\nFeatures are subject to change. Some features, applications and services may not be available in all regions or all languages and may require specific hardware and software. For more information, see Feature Availability.\n\nHelpful?Yes No"
     }
+  ],
+  "normalized_specifications": {
+    "dimensions": {
+      "width": {
+        "value": 71.5,
+        "unit": "mm",
+        "source_section": "Finish",
+        "verification_status": "content_verified"
+      },
+      "height": {
+        "value": 149.6,
+        "unit": "mm",
+        "source_section": "Finish",
+        "verification_status": "content_verified"
+      },
+      "depth": {
+        "value": 7.95,
+        "unit": "mm",
+        "source_section": "Finish",
+        "verification_status": "content_verified"
+      },
+      "weight": {
+        "value": 177,
+        "unit": "g",
+        "source_section": "Finish",
+        "verification_status": "content_verified"
+      }
+    },
+    "display": {
+      "type": {
+        "value": "Super Retina XDR OLED",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      },
+      "diagonal": {
+        "value": 6.3,
+        "unit": "inches",
+        "source_section": "Display",
+        "verification_status": "content_verified",
+        "notes": "Diagonal measurement; Apple notes actual viewable area is smaller."
+      },
+      "resolution": {
+        "value": "2622 × 1206",
+        "unit": "pixels",
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      },
+      "pixel_density": {
+        "value": 460,
+        "unit": "ppi",
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      },
+      "refresh_rate_max": {
+        "value": 120,
+        "unit": "Hz",
+        "source_section": "Display",
+        "verification_status": "content_verified",
+        "notes": "ProMotion adaptive refresh rate up to 120 Hz."
+      }
+    },
+    "processor": {
+      "chipset": {
+        "value": "Apple A19",
+        "unit": null,
+        "source_section": "Chip",
+        "verification_status": "content_verified"
+      }
+    },
+    "durability": {
+      "ingress_protection_rating": {
+        "value": "IP68",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "content_verified",
+        "notes": "Apple states maximum depth of 6 metres for up to 30 minutes under IEC standard 60529."
+      },
+      "rated_immersion_depth": {
+        "value": 6,
+        "unit": "m",
+        "source_section": "Display",
+        "verification_status": "content_verified",
+        "notes": "Maximum depth and duration are laboratory rating conditions; water resistance can diminish over time."
+      },
+      "rated_immersion_duration": {
+        "value": 30,
+        "unit": "minutes",
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      }
+    }
+  },
+  "record_notes": [
+    "Pilot migration to schema v2. Original archived sections preserved unchanged.",
+    "Only explicitly listed normalized fields have been checked against the official Apple source; remaining source text is not certified as fully fact-checked."
   ]
 }
