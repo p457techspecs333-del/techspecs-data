@@ -1,0 +1,37 @@
+name: Validate product records
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**/*.json"
+      - "schemas/**"
+      - "scripts/validate_product_records.py"
+      - "requirements.txt"
+      - ".github/workflows/validate-product-records.yml"
+  pull_request:
+    paths:
+      - "data/**/*.json"
+      - "schemas/**"
+      - "scripts/validate_product_records.py"
+      - "requirements.txt"
+      - ".github/workflows/validate-product-records.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install validator dependency
+        run: python -m pip install -r requirements.txt
+      - name: Audit product records
+        run: python scripts/validate_product_records.py
