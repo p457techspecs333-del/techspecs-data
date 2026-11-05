@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "product": {
+    "brand": "Apple",
+    "product_name": "iPhone 13 mini",
+    "model": "iPhone 13 mini",
+    "year_introduced": 2021
+  },
+  "source": {
+    "publisher": "Apple",
+    "document_title": "iPhone 13 mini - Technical Specifications",
+    "source_type": "user_supplied_document",
+    "source_url": null,
+    "verification_status": "Transcribed from supplied document; source URL not independently verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Sections preserve supplied source text, including footnotes and links. This is not a fully normalized field-by-field specification; no missing values have been inferred."
+  },
+  "sections": []
+}
