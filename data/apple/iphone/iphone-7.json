@@ -1,22 +1,41 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "product": {
     "brand": "Apple",
-    "product_name": "iPhone 7",
+    "category": "smartphone",
+    "family": "iPhone",
     "model": "iPhone 7",
-    "year_introduced": 2016
+    "model_slug": "iphone-7",
+    "model_year": 2016,
+    "year_introduced": 2016,
+    "finishes": [
+      "Rose Gold",
+      "Gold",
+      "Silver",
+      "Black",
+      "Jet Black",
+      "(PRODUCT)RED"
+    ],
+    "storage_options": [
+      "32GB",
+      "128GB",
+      "256GB"
+    ]
   },
   "source": {
-    "publisher": "Apple",
-    "document_title": "iPhone 7 - Technical Specifications",
     "source_type": "user_supplied_document",
     "source_url": null,
-    "verification_status": "Transcribed from supplied document; source page URL not independently verified."
+    "verification_status": "not_checked",
+    "checked_at": null,
+    "source_title": "iPhone 7 - Technical Specifications",
+    "publisher": "Apple (as named in supplied document)",
+    "verification_notes": "Transcribed from the supplied technical-specifications document. The corresponding official source page and its current content have not been independently checked."
   },
   "extraction": {
     "method": "section_preserving",
-    "normalization_status": "archival_first_pass",
-    "note": "Sections preserve the supplied source text. This is not a fully normalized field-by-field specification; no missing values have been inferred."
+    "normalization_status": "partially_normalized",
+    "extracted_at": "2026-11-05",
+    "note": "Original source sections are preserved verbatim. The normalized fields below are a limited transcription of explicitly stated values; they are not independently fact-checked."
   },
   "sections": [
     {
@@ -155,5 +174,99 @@
       "heading": "iPhone and the Environment",
       "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact. [Learn more about iPhone and the Environment](https://www.apple.com/uk/environment/)\n\niPhone 7 and iPhone 7 Plus embody Apple’s continuing environmental progress. They are designed with the following features to reduce environmental impact:\n\n- Arsenic-free display glass\n- Mercury-free LED-backlit display\n- Brominated flame retardant‑free\n- PVC-free\n- Recyclable aluminum enclosure\n\n**Apple and the Environment**\n\n[Learn more about Apple’s dedication to reducing the environmental impact of our products and process](https://www.apple.com/uk/environment/). Or read our [Product Environmental Reports](https://www.apple.com/uk/environment/reports/) for detailed information on the environmental performance of every Apple product.\n\n**Apple GiveBack**\n\nIf you’re ready for your next iPhone, Apple GiveBack is a great way to let go of your old one. If it’s in good shape, you can trade it in for Apple Store credit. If it’s not eligible for credit, we’ll recycle it responsibly at no cost to you. Good for you. Good for the planet.\n\n[See how it works](https://www.apple.com/uk/shop/trade-in)\n\n\\* To identify your iPhone model number, see [https://support.apple.com/en-gb/HT3939](https://support.apple.com/en-gb/HT201296). For details on LTE support, contact your carrier and see [www.apple.com/uk/iphone/LTE](https://www.apple.com/uk/iphone/cellular/). Cellular technology support is based on iPhone model number and configuration for either CDMA or GSM networks.\n\n1. The high-gloss finish of the jet black iPhone 7 is achieved through a precision nine-step anodization and polishing process. Its surface is equally as hard as other anodized Apple products; however, its high shine may show fine micro-abrasions with use. If you are concerned about this, we suggest you use one of the many cases available to protect your iPhone.\n2. Available space is less and varies due to many factors. A standard configuration uses approximately 10GB to 12GB of space (including iOS and preinstalled apps) depending on the model and settings. Preinstalled apps use about 4GB, and you can delete these apps and restore them.\n3. Size and weight vary by configuration and manufacturing process.\n4. iPhone 7 and iPhone 7 Plus are splash, water, and dust resistant and were tested under controlled laboratory conditions with a rating of IP67 under IEC standard 60529 (maximum depth of 1 meter up to 30 minutes). Splash, water, and dust resistance are not permanent conditions and resistance might decrease as a result of normal wear. Do not attempt to charge a wet iPhone; refer to the user guide for cleaning and drying instructions. Liquid damage not covered under warranty.\n5. FaceTime calling requires a FaceTime-enabled device for the caller and recipient and a Wi-Fi connection. Availability over a cellular network depends on carrier policies; data charges may apply.\n6. Data plan required. LTE Advanced, LTE, VoLTE, and Wi-Fi calling are available in select markets and through select carriers. Speeds are based on theoretical throughput and vary based on site conditions and carrier. For details on LTE support, contact your carrier and see [www.apple.com/uk/iphone/LTE](https://www.apple.com/uk/iphone/cellular/).\n7. Standard Dynamic Range video content only.\n8. Siri may not be available in all languages or in all areas, and features may vary by area. Internet access required. Cellular data charges may apply.\n9. All battery claims depend on network configuration and many other factors; actual results will vary. Battery has limited recharge cycles and may eventually need to be replaced by Apple service provider. Battery life and charge cycles vary by use and settings. See [www.apple.com/uk/batteries](https://www.apple.com/uk/batteries/) and [www.apple.com/uk/iphone/battery.html](https://www.apple.com/uk/iphone/battery.html) for more information.\n10. Wireless broadband recommended; fees may apply."
     }
-  ]
+  ],
+  "normalized_specifications": {
+    "dimensions": {
+      "width": {
+        "value": 67.1,
+        "unit": "mm",
+        "source_section": "Size and Weight3",
+        "verification_status": "source_transcribed"
+      },
+      "height": {
+        "value": 138.3,
+        "unit": "mm",
+        "source_section": "Size and Weight3",
+        "verification_status": "source_transcribed"
+      },
+      "depth": {
+        "value": 7.1,
+        "unit": "mm",
+        "source_section": "Size and Weight3",
+        "verification_status": "source_transcribed"
+      },
+      "weight": {
+        "value": 138,
+        "unit": "g",
+        "source_section": "Size and Weight3",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "display": {
+      "display_type": {
+        "value": "Retina HD LCD with IPS technology",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "diagonal": {
+        "value": 4.7,
+        "unit": "in",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "resolution": {
+        "value": "1334 × 750",
+        "unit": "pixels",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "pixel_density": {
+        "value": 326,
+        "unit": "ppi",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "typical_brightness": {
+        "value": 625,
+        "unit": "cd/m²",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "contrast_ratio": {
+        "value": "1400:1",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "processor": {
+      "chip": {
+        "value": "A10 Fusion",
+        "unit": null,
+        "source_section": "Chip",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "durability": {
+      "ingress_protection": {
+        "value": "IP67",
+        "unit": null,
+        "source_section": "Splash, Water, and Dust Resistant4",
+        "verification_status": "source_transcribed"
+      },
+      "maximum_water_depth": {
+        "value": 1,
+        "unit": "m",
+        "source_section": "Splash, Water, and Dust Resistant4",
+        "verification_status": "source_transcribed"
+      },
+      "maximum_duration": {
+        "value": 30,
+        "unit": "min",
+        "source_section": "Splash, Water, and Dust Resistant4",
+        "verification_status": "source_transcribed"
+      }
+    }
+  }
 }
