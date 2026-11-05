@@ -55,7 +55,7 @@
 | `iphone-15` | iPhone 15 | 2023 | 36 | Section archive | URL absent; verification status blank | Provenance review |
 | `iphone-15-plus` | iPhone 15 Plus | 2023 | 35 | Section archive | URL absent; supplied document | Provenance review |
 | `iphone-15-pro` | iPhone 15 Pro | 2023 | 36 | Section archive | URL absent; supplied document | Provenance review |
-| `iphone-15-pro-max` | iPhone 15 Pro Max | 2023 | 36 | Section archive | URL absent; supplied document | Provenance review |
+| `iphone-15-pro-max` | iPhone 15 Pro Max | 2023 | 36 | **v2 pilot migrated** | Apple Support specifications page checked 2026-11-05; original sections preserved | Pilot fields normalized; continue field-by-field review |
 | `iphone-16` | iPhone 16 | 2024 | 37 | **v2 pilot migrated** | Official Apple Support Ireland page checked 2026-11-05; original sections preserved | Pilot fields normalized; continue field-by-field review |
 | `iphone-16-plus` | iPhone 16 Plus | 2024 | 37 | **v2 pilot migrated** | Apple Support specifications page checked 2026-11-05; original sections preserved | Pilot fields normalized; continue field-by-field review |
 | `iphone-16-pro` | iPhone 16 Pro | 2024 | 37 | **v2 pilot migrated** | Apple Support specifications page checked 2026-11-05; original sections preserved | Pilot fields normalized; continue field-by-field review |
