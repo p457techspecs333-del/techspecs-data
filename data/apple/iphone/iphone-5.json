@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "product": {
+    "brand": "Apple",
+    "product_name": "iPhone 5",
+    "model": "iPhone 5",
+    "year_introduced": 2012
+  },
+  "source": {
+    "publisher": "Apple",
+    "document_title": "iPhone 5 - Technical Specifications",
+    "source_type": "user_supplied_document",
+    "source_url": null,
+    "verification_status": "Transcribed from supplied document; source page URL not independently verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Sections preserve the supplied source text. This is not a fully normalized field-by-field specification; no missing values have been inferred."
+  },
+  "sections": [
+    {
+      "heading": "Color",
+      "source_text": "[black and slate, white and silver](https://cdsassets.apple.com/live/SZLF0YNV/images/sp/112016_sp655_iphone5_color.jpg)\n\nBlack & Slate\n\nWhite & Silver"
+    },
+    {
+      "heading": "Capacity1",
+      "source_text": "- 16GB\n- 32GB\n- 64GB"
+    },
+    {
+      "heading": "Size and Weight2",
+      "source_text": "- **Height:** 4.87 inches (123.8 mm)\n- **Width:** 2.31 inches (58.6 mm)\n- **Depth:** 0.30 inch (7.6 mm)\n- **Weight:** 3.95 ounces (112 grams)"
+    },
+    {
+      "heading": "Cellular and Wireless",
+      "source_text": "- GSM model A1428*: UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz); LTE (Bands 4 and 17)\n- CDMA model A1429*: CDMA EV-DO Rev. A and Rev. B (800, 1900, 2100 MHz); UMTS/HSPA+/DC-HSDPA (850, 900, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz); LTE (Bands 1, 3, 5, 13, 25)\n- GSM model A1429*: UMTS/HSPA+/DC-HSDPA (850, 900, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz); LTE (Bands 1, 3, 5)\n- 802.11a/b/g/n Wi-Fi (802.11n 2.4GHz and 5GHz)\n- Bluetooth 4.0 wireless technology"
+    },
+    {
+      "heading": "Location",
+      "source_text": "- Assisted GPS and GLONASS\n- Digital compass\n- Wi-Fi\n- Cellular"
+    },
+    {
+      "heading": "Display",
+      "source_text": "- Retina display\n- 4-inch (diagonal) widescreen Multi-Touch display\n- 1136-by-640-pixel resolution at 326 ppi\n- 800:1 contrast ratio (typical)\n- 500 cd/m2 max brightness (typical)\n- Fingerprint-resistant oleophobic coating on front\n- Support for display of multiple languages and characters simultaneously"
+    },
+    {
+      "heading": "Camera, Photos, and Video",
+      "source_text": "- 8-megapixel iSight camera\n- Panorama\n- Video recording, HD (1080p) up to 30 frames per second with audio\n- FaceTime HD camera with 1.2MP photos and HD video (720p) up to 30 frames per second\n- Autofocus\n- Tap to focus video or still images\n- Face detection in video or still images\n- LED flash\n- Improved video stabilization\n- Photo and video geotagging"
+    },
+    {
+      "heading": "External Buttons and Connectors",
+      "source_text": "[buttons and controls](https://cdsassets.apple.com/live/SZLF0YNV/images/sp/112016_sp655_iphone5_connectors.jpg)\n\nExternal Buttons and Controls Connectors and Input/Output"
+    },
+    {
+      "heading": "Power and Battery3",
+      "source_text": "- Built-in rechargeable lithium-ion battery\n- Charging via USB to computer system or power adapter\n- Talk time: Up to 8 hours on 3G\n- Standby time: Up to 225 hours\n- Internet use: Up to 8 hours on 3G, up to 8 hours on LTE, up to 10 hours on Wi-Fi\n- Video playback: Up to 10 hours\n- Audio playback: Up to 40 hours"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "- Audio formats supported: AAC (8 to 320 Kbps), Protected AAC (from iTunes Store), HE-AAC, MP3 (8 to 320 Kbps), MP3 VBR, Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+), Apple Lossless, AIFF, and WAV\n- User-configurable maximum volume limit"
+    },
+    {
+      "heading": "TV and Video",
+      "source_text": "- AirPlay mirroring and video out to Apple TV (2nd and 3rd generation)\n- Video mirroring and video out support: Up to 1080p through Lightning Digital AV Adapter and Lightning to VGA Adapter (adapters sold separately)\n- Video formats supported: H.264 video up to 1080p, 30 frames per second, High Profile level 4.1 with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats; MPEG-4 video up to 2.5 Mbps, 640 by 480 pixels, 30 frames per second, Simple Profile with AAC-LC audio up to 160 Kbps per channel, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats; Motion JPEG (M-JPEG) up to 35 Mbps, 1280 by 720 pixels, 30 frames per second, audio in ulaw, PCM stereo audio in .avi file format"
+    },
+    {
+      "heading": "Headphones",
+      "source_text": "- Apple EarPods with Remote and Mic\n- Storage and travel case"
+    },
+    {
+      "heading": "Rating for Hearing Aids",
+      "source_text": "- iPhone 5 (Model A1428): M3, T4\n- iPhone 5 (Model A1429): M4, T4"
+    },
+    {
+      "heading": "Mail Attachment Support",
+      "source_text": "- **Viewable Document Types**\n\n  .jpg, .tiff, .gif (images); .doc and .docx (Microsoft Word); .htm and .html (web pages); .key (Keynote); .numbers (Numbers); .pages (Pages); .pdf (Preview and Adobe Acrobat); .ppt and .pptx (Microsoft PowerPoint); .txt (text); .rtf (rich text format); .vcf (contact information); .xls and .xlsx (Microsoft Excel)"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "- Three-axis gyro\n- Accelerometer\n- Proximity sensor\n- Ambient light sensor"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "- Apple ID (required for some features)\n- Internet access4\n- Syncing with iTunes on a Mac or PC requires:\n  - Mac: OS X v10.6.8 or later\n  - PC: Windows 7; Windows Vista; or Windows XP Home or Professional with Service Pack 3 or later\n  - iTunes 10.7 or later (free download from [www.itunes.com/uk/download](http://www.itunes.com/uk/download))"
+    },
+    {
+      "heading": "Environmental Requirements",
+      "source_text": "- Operating ambient temperature: 32° to 95° F (0° to 35° C)\n- Nonoperating temperature: −4° to 113° F (−20° to 45° C)\n- Relative humidity: 5% to 95% noncondensing\n- Maximum operating altitude: 10,000 feet (3000 m)"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "- **Language Support**\n\n  English (U.S.), English (UK), Chinese (Simplified), Chinese (Traditional), French, German, Italian, Japanese, Korean, Spanish, Arabic, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\n- **Keyboard Support**\n\n  English (U.S.), English (UK), Chinese - Simplified (Handwriting, Pinyin, Stroke), Chinese - Traditional (Handwriting, Pinyin, Zhuyin, Cangjie, Stroke), French, French (Canadian), French (Switzerland), German (Germany), German (Switzerland), Italian, Japanese (Romaji, Kana), Korean, Spanish, Arabic, Bulgarian, Catalan, Cherokee, Croatian, Czech, Danish, Dutch, Emoji, Estonian, Finnish, Flemish, Greek, Hawaiian, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Latvian, Lithuanian, Macedonian, Malay, Norwegian, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian (Cyrillic/Latin), Slovak, Swedish, Thai, Tibetan, Turkish, Ukrainian, Vietnamese\n- **Dictionary Support (enables predictive text and autocorrect)**\n\n  English (U.S.), English (UK), Chinese (Simplified), Chinese (Traditional), French, French (Canadian), French (Switzerland), German, Italian, Japanese (Romaji, Kana), Korean, Spanish, Arabic, Catalan, Cherokee, Croatian, Czech, Danish, Dutch, Estonian, Finnish, Flemish, Greek, Hawaiian, Hebrew, Hindi, Hungarian, Indonesian, Latvian, Lithuanian, Malay, Norwegian, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\n- **Siri Languages**\n\n  English (U.S., UK, Canada, Australia), Spanish (U.S., Mexico, Spain), French (France, Canada, Switzerland), German (Germany, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (Hong Kong)"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "- iPhone 5\n- Apple EarPods with Remote and Mic\n- Lightning to USB Cable\n- USB Power Adapter\n- Documentation"
+    },
+    {
+      "heading": "Accessories",
+      "source_text": "**Lightning to 30-pin Adapter**\n\nConnect your current accessories to iPhone 5 using this adapter.\n\n**Apple World Travel Adapter Kit**\n\nPlug your Apple power adapter into most electrical outlets around the world.\n\n**Other Accessories**\n\n- Lightning to 30-pin Adapter (0.2 m)\n- Lightning to USB Cable\n- Apple USB Power Adapter\n- Apple EarPods\n\nSee more accessories in the [Apple Online Store](http://store.apple.com/uk/browse/home/shop_iphone/iphone_accessories)"
+    },
+    {
+      "heading": "iPhone and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact. [Learn more](http://www.apple.com/uk/environment/)\n\n**iPhone embodies Apple’s continuing environmental progress. It is designed with the following features to reduce environmental impact:**\n\n- Mercury-free LED-backlit display\n- Arsenic-free display glass\n- Brominated flame retardant-free\n- PVC-free\n- Recyclable aluminum enclosure\n- Power adapter outperforms strictest global energy efficiency standards\n\n**Apple and the Environment**\n\n[Learn more](http://www.apple.com/uk/environment/) about Apple’s dedication to reducing the environmental impact of our products and process. [Apple Product Environmental Reports](http://www.apple.com/uk/environment/reports/) detail the environmental attributes of our products.\n\n**Recycling**\n\nApple takes a holistic view of materials management and waste minimization. [Learn more](http://www.apple.com/uk/recycling/) about how to recycle your iPhone.\n\n*To identify your iPhone 5 model number, see [http://support.apple.com/en-gb/HT3939](http://support.apple.com/en-gb/HT3939). For details on LTE support, contact your carrier and see [http://www.apple.com/iphone/LTE](http://www.apple.com/iphone/LTE).\n\n1. 1GB = 1 billion bytes; actual formatted capacity less.\n2. Actual size and weight vary by configuration and manufacturing process.\n3. All battery claims depend on network configuration and many other factors; actual results will vary. Battery has limited recharge cycles and may eventually need to be replaced by Apple service provider. Battery life and charge cycles vary by use and settings. See [www.apple.com/uk/batteries](http://www.apple.com/uk/batteries) and [www.apple.com/uk/batteries/iphone.html](http://www.apple.com/uk/batteries/iphone.html) for more information.\n4. Wireless broadband recommended; fees may apply.\n\nSome features may not be available for all countries or all areas. [Click here to see complete list](http://www.apple.com/uk/ios/feature-availability/).\n\nSome features, applications, and services are not available in all areas. See your carrier for details. Application availability and pricing are subject to change."
+    }
+  ]
+}
