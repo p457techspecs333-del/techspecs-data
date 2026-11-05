@@ -7,9 +7,9 @@
 ## Overall assessment
 
 - **48 records** inventoried; all 48 had matching source Markdown in the repository inventory audit.
-- **43** use the common section-preserving shape with an `extraction` object.
-- **4** use the section-preserving shape with `extraction_note` instead (`iphone-17e`, `iphone-18-pro`, `iphone-18-pro-max`, `iphone-duo`).
-- **1** uses the older field-level `specifications` shape (`iphone-6-plus`).
+- **35** unmigrated records use the common section-preserving shape with an `extraction` object.
+- **4** unmigrated records use the section-preserving shape with `extraction_note` instead (`iphone-17e`, `iphone-18-pro`, `iphone-18-pro-max`, `iphone-duo`).
+- **1** unmigrated record uses the older field-level `specifications` shape (`iphone-6-plus`).
 - **8** records have been migrated to schema v2 with pilot normalized fields; the other 40 records remain unmigrated.
 - The iPhone 16 and iPhone 17 pilots have official Apple Support Ireland source pages checked on 5 November 2026; the iPhone 17 Pro and iPhone 17 Pro Max pilots use Apple's Ireland product specifications page, checked on the same date. The iPhone 17e record still has an inferred URL that has not been independently checked.
 - Several records have blank verification status metadata. Other records explicitly say they were transcribed from supplied documents and the source page URL was not independently verified.
@@ -105,4 +105,4 @@ The standard **iPhone 6** record is absent from the current inventory, while iPh
 
 ## Change control
 
-This register tracks migration progress; it does not alter source Markdown. The iPhone 16 JSON record was migrated to schema v2 as a pilot on 5 November 2026, and its 37 preserved sections remain intact. Only its listed normalized pilot fields were checked against the official Apple page. Update a row only when a source check, migration, or review has actually been completed. Never label a record verified solely because it passes JSON Schema validation.
+This register tracks migration progress; it does not alter source Markdown. The iPhone 16, iPhone 17, iPhone 17 Pro, iPhone 17 Pro Max, iPhone Air, iPhone 16 Pro and iPhone 16 Pro Max and iPhone 16 Plus JSON records have been migrated to schema v2 as pilots by 5 November 2026, with original source sections preserved. Only listed normalized fields were checked against official Apple pages. Update a row only when a source check, migration, or review has actually been completed. Never label a record verified solely because it passes JSON Schema validation.
