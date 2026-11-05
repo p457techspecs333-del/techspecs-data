@@ -57,10 +57,10 @@
 | `iphone-15-pro` | iPhone 15 Pro | 2023 | 36 | Section archive | URL absent; supplied document | Provenance review |
 | `iphone-15-pro-max` | iPhone 15 Pro Max | 2023 | 36 | Section archive | URL absent; supplied document | Provenance review |
 | `iphone-16` | iPhone 16 | 2024 | 37 | **v2 pilot migrated** | Official Apple Support Ireland page checked 2026-11-05; original sections preserved | Pilot fields normalized; continue field-by-field review |
-| `iphone-16-plus` | iPhone 16 Plus | 2024 | 37 | Section archive | URL absent; supplied document | Provenance review |
-| `iphone-16-pro` | iPhone 16 Pro | 2024 | 37 | Section archive | URL absent; supplied document | Provenance review |
-| `iphone-16-pro-max` | iPhone 16 Pro Max | 2024 | 37 | Section archive | URL absent; supplied document | Provenance review |
-| `iphone-air` | iPhone Air | 2025 | 36 | Section archive | URL absent; supplied document | Provenance review |
+| `iphone-16-plus` | iPhone 16 Plus | 2024 | 37 | **v2 pilot migrated** | Apple Support specifications page checked 2026-11-05; original sections preserved | Pilot fields normalized; continue field-by-field review |
+| `iphone-16-pro` | iPhone 16 Pro | 2024 | 37 | **v2 pilot migrated** | Apple Support specifications page checked 2026-11-05; original sections preserved | Pilot fields normalized; continue field-by-field review |
+| `iphone-16-pro-max` | iPhone 16 Pro Max | 2024 | 37 | **v2 pilot migrated** | Apple Support Ireland specifications page checked 2026-11-05; original sections preserved | Pilot fields normalized; continue field-by-field review |
+| `iphone-air` | iPhone Air | 2025 | 36 | **v2 pilot migrated** | Official Apple Ireland specifications page checked 2026-11-05; original sections preserved | Pilot fields normalized; continue field-by-field review |
 | `iphone-17` | iPhone 17 | 2025 | 30 | **v2 pilot migrated** | Official Apple Support Ireland page checked 2026-11-05; original sections preserved | Pilot fields normalized; continue field-by-field review |
 | `iphone-17-pro` | iPhone 17 Pro | 2025 | 37 | **v2 pilot migrated** | Official Apple Ireland specifications page checked 2026-11-05; original sections preserved | Pilot fields normalized; continue field-by-field review |
 | `iphone-17-pro-max` | iPhone 17 Pro Max | 2025 | 37 | **v2 pilot migrated** | Official Apple Ireland specifications page checked 2026-11-05; original sections preserved | Pilot fields normalized; continue field-by-field review |
