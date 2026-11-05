@@ -1,22 +1,41 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "product": {
     "brand": "Apple",
-    "product_name": "iPhone 11",
+    "category": "smartphone",
+    "family": "iPhone",
     "model": "iPhone 11",
-    "year_introduced": 2019
+    "model_slug": "iphone-11",
+    "model_year": 2019,
+    "year_introduced": 2019,
+    "finishes": [
+      "Black",
+      "Green",
+      "Yellow",
+      "Purple",
+      "(PRODUCT)RED",
+      "White"
+    ],
+    "storage_options": [
+      "64GB",
+      "128GB",
+      "256GB"
+    ]
   },
   "source": {
-    "publisher": "Apple",
-    "document_title": "iPhone 11 - Technical Specifications",
     "source_type": "user_supplied_document",
     "source_url": null,
-    "verification_status": "Transcribed from supplied document; source page URL not independently verified."
+    "verification_status": "not_checked",
+    "checked_at": null,
+    "source_title": "iPhone 11 - Technical Specifications",
+    "publisher": "Apple (as named in supplied document)",
+    "verification_notes": "Transcribed from the supplied technical-specifications document. The corresponding official source page and its current content have not been independently checked."
   },
   "extraction": {
     "method": "section_preserving",
-    "normalization_status": "archival_first_pass",
-    "note": "Sections preserve the supplied source text. This is not a fully normalized field-by-field specification; no missing values have been inferred."
+    "normalization_status": "partially_normalized",
+    "extracted_at": "2026-11-05",
+    "note": "Original source sections are preserved verbatim. The normalized fields below are a limited transcription of explicitly stated values; they are not independently fact-checked."
   },
   "sections": [
     {
@@ -151,5 +170,117 @@
       "heading": "**iPhone and the Environment**",
       "source_text": "iPhone 11 is designed with the following features to reduce its environmental impact:17\n\n[See the iPhone 11 Product Environmental Reports](https://www.apple.com/uk/environment/#reports-product)\n\n**Made with better materials**\n\n- 100% recycled rare earth elements in the Taptic Engine18\n- 100% recycled tin in the solder of the main logic board\n- 35% or more recycled plastic in multiple components\n\n**Energy efficient**\n\n- Meets U.S. Department of Energy requirements for battery charger systems19\n\n**Smarter chemistry20**\n\n- Arsenic-free display glass\n- Mercury-, BFR-, PVC-, and beryllium‑free\n\n**Green manufacturing**\n\n- Apple’s Zero Waste Program helps suppliers eliminate waste sent to landfill\n- All final assembly supplier sites are transitioning to 100% renewable energy for Apple production\n\n**Responsible packaging**\n\n- 100% of virgin wood fiber comes from responsibly managed forests\n- 90% or more fiber-based packaging\n\n**Apple and the Environment**\n\nWe’re committed to making our products without taking from the earth, and to become carbon neutral across our entire business, including products, by 2030.\n\n[See Apple’s commitment](https://www.apple.com/uk/environment/)\n\n\\* To identify your iPhone model number, see [https://support.apple.com/en-gb/HT3939](https://support.apple.com/en-gb/HT3939). For details on LTE support, contact your carrier and see [apple.com/uk/iphone/cellular](https://www.apple.com/uk/iphone/cellular/). Cellular technology support is based on iPhone model number and configuration for either CDMA or GSM networks.\n\n1. Available space is less and varies due to many factors. A standard configuration uses approximately 12GB to 17GB of space, including iOS 15 with its latest features and Apple apps that can be deleted. Apple apps that can be deleted use about 4.5GB of space, and you can download them back from the App Store. Storage capacity subject to change based on software version, settings, and iPhone model.\n2. Size and weight vary by configuration and manufacturing process.\n3. iPhone 11 is splash, water, and dust resistant and was tested under controlled laboratory conditions with a rating of IP68 under IEC standard 60529 (maximum depth of 2 meters up to 30 minutes). Splash, water, and dust resistance are not permanent conditions. Resistance might decrease as a result of normal wear. Do not attempt to charge a wet iPhone; refer to the user guide for cleaning and drying instructions. Liquid damage not covered under warranty.\n4. To send and receive money with Apple Pay, you must be at least 18 years old and a resident of the United States. If you’re under 18 years old in the United States, your family organizer can set up Apple Cash for you as part of Apple Cash Family. Then you can send and receive money with Apple Pay. Sending and receiving money with Apple Pay and the Apple Cash card are services provided by Green Dot Bank, Member FDIC. Learn more about the [Terms and Conditions](https://applecash.greendot.com/termsconditions/).\n5. Available only in select cities and transit systems. Requires eligible device and OS version. [See here for details](https://support.apple.com/en-gb/HT209495).\n6. Data plan required. Gigabit‑class LTE, VoLTE, and Wi‑Fi calling are available in select markets and through select carriers. Speeds are based on theoretical throughput and vary based on site conditions and carrier. For details on LTE support, contact your carrier and see [apple.com/uk/iphone/cellular](https://www.apple.com/uk/iphone/cellular/).\n7. Ultra Wideband availability varies by region.\n8. FaceTime calling requires a FaceTime‑enabled device for the caller and recipient and a Wi‑Fi connection. Availability over a cellular network depends on carrier policies; data charges may apply.\n9. Standard Dynamic Range video content only.\n10. Siri may not be available in all languages or in all areas, and features may vary by area. Internet access required. Cellular data charges may apply.\n11. All battery claims depend on network configuration and many other factors; actual results will vary. Battery has limited recharge cycles and may eventually need to be replaced. Battery life and charge cycles vary by use and settings. See [apple.com/uk/batteries](https://www.apple.com/uk/batteries/) and [apple.com/uk/iphone/battery.html](https://www.apple.com/uk/iphone/battery.html) for more information.\n12. Testing conducted by Apple in August 2019 using preproduction iPhone 11, iPhone 11 Pro, and iPhone 11 Pro Max units and software and accessory Apple USB‑C Power Adapters (18W Model A1720, 29W Model A1540, 30W Model A1882, 61W Model A1947 and 87W Model A1719). Fast‑charge testing conducted with drained iPhone units. Charge time varies with environmental factors; actual results will vary.\n13. Qi wireless chargers sold separately.\n14. Use of eSIM requires a wireless service plan (which may include restrictions on switching service providers and roaming, even after contract expiration). Not all carriers support eSIM. Use of eSIM in iPhone may be disabled when purchased from some carriers. See your carrier for details. To learn more, visit [https://support.apple.com/en-gb/HT212780](https://support.apple.com/en-gb/HT212780).\n15. Wireless broadband recommended; fees may apply.\n16. In China mainland, you can use Apple Pay on the web in Safari only on compatible iPhone and iPad models using iOS 11.2 or later.\n17. Data accurate as of product launch.\n18. The Taptic Engine represents about 25% of the total rare earth elements used in the product.\n19. Efficiency performance is based on the U.S. Department of Energy [Federal Energy Conservation Standards for Battery Chargers](https://www.regulations.gov/document/EERE-2008-BT-STD-0005-0256).\n20. Apple defines its restrictions on harmful substances, including definitions for what Apple considers to be “free of,” in the [Apple Regulated Substances Specification](https://www.apple.com/environment/pdf/Apple_Regulated_Substances_Specification_Sept2018.pdf). Every Apple product is free of PVC and phthalates with the exception of AC power cords in India, Thailand (for two-prong AC power cords), and South Korea, where we continue to seek government approval for our PVC and phthalates replacement."
     }
-  ]
+  ],
+  "normalized_specifications": {
+    "dimensions": {
+      "width": {
+        "value": 75.7,
+        "unit": "mm",
+        "source_section": "Size and Weight2",
+        "verification_status": "source_transcribed"
+      },
+      "height": {
+        "value": 150.9,
+        "unit": "mm",
+        "source_section": "Size and Weight2",
+        "verification_status": "source_transcribed"
+      },
+      "depth": {
+        "value": 8.3,
+        "unit": "mm",
+        "source_section": "Size and Weight2",
+        "verification_status": "source_transcribed"
+      },
+      "weight": {
+        "value": 194,
+        "unit": "g",
+        "source_section": "Size and Weight2",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "display": {
+      "display_type": {
+        "value": "Liquid Retina HD LCD with IPS technology",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "diagonal": {
+        "value": 6.1,
+        "unit": "in",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "resolution": {
+        "value": "1792 × 828",
+        "unit": "pixels",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "pixel_density": {
+        "value": 326,
+        "unit": "ppi",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "typical_brightness": {
+        "value": 625,
+        "unit": "nits",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "contrast_ratio": {
+        "value": "1400:1",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "processor": {
+      "chip": {
+        "value": "A13 Bionic",
+        "unit": null,
+        "source_section": "Chip",
+        "verification_status": "source_transcribed"
+      },
+      "cpu_cores": {
+        "value": 6,
+        "unit": "cores",
+        "source_section": "Chip",
+        "verification_status": "source_transcribed"
+      },
+      "gpu_cores": {
+        "value": 4,
+        "unit": "cores",
+        "source_section": "Chip",
+        "verification_status": "source_transcribed"
+      },
+      "neural_engine_cores": {
+        "value": 8,
+        "unit": "cores",
+        "source_section": "Chip",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "durability": {
+      "ingress_protection": {
+        "value": "IP68",
+        "unit": null,
+        "source_section": "Splash, Water, and Dust Resistant3",
+        "verification_status": "source_transcribed"
+      },
+      "maximum_water_depth": {
+        "value": 2,
+        "unit": "m",
+        "source_section": "Splash, Water, and Dust Resistant3",
+        "verification_status": "source_transcribed"
+      },
+      "maximum_duration": {
+        "value": 30,
+        "unit": "min",
+        "source_section": "Splash, Water, and Dust Resistant3",
+        "verification_status": "source_transcribed"
+      }
+    }
+  }
 }
