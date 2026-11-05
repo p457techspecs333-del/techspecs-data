@@ -10,8 +10,8 @@
 - **43** use the common section-preserving shape with an `extraction` object.
 - **4** use the section-preserving shape with `extraction_note` instead (`iphone-17e`, `iphone-18-pro`, `iphone-18-pro-max`, `iphone-duo`).
 - **1** uses the older field-level `specifications` shape (`iphone-6-plus`).
-- **0** of the section-preserving records currently contain `normalized_specifications`.
-- Only the iPhone 17e record contains a top-level source URL; its own metadata says the URL was inferred and not independently checked.
+- **1** record (`iphone-16`) has been migrated to schema v2 and contains a pilot set of normalized fields; the other 47 records remain unmigrated.
+- The iPhone 16 pilot now has an official Apple Support Ireland source URL checked on 5 November 2026. The iPhone 17e record still has an inferred URL that has not been independently checked.
 - Several records have blank verification status metadata. Other records explicitly say they were transcribed from supplied documents and the source page URL was not independently verified.
 
 **Meaning:** The archive is useful source material, but it is not yet a field-normalized, independently verified comparison database. A passing structural validator does not change that assessment.
@@ -56,7 +56,7 @@
 | `iphone-15-plus` | iPhone 15 Plus | 2023 | 35 | Section archive | URL absent; supplied document | Provenance review |
 | `iphone-15-pro` | iPhone 15 Pro | 2023 | 36 | Section archive | URL absent; supplied document | Provenance review |
 | `iphone-15-pro-max` | iPhone 15 Pro Max | 2023 | 36 | Section archive | URL absent; supplied document | Provenance review |
-| `iphone-16` | iPhone 16 | 2024 | 37 | Section archive | URL absent; supplied document | Provenance review |
+| `iphone-16` | iPhone 16 | 2024 | 37 | **v2 pilot migrated** | Official Apple Support Ireland page checked 2026-11-05; original sections preserved | Pilot fields normalized; continue field-by-field review |
 | `iphone-16-plus` | iPhone 16 Plus | 2024 | 37 | Section archive | URL absent; supplied document | Provenance review |
 | `iphone-16-pro` | iPhone 16 Pro | 2024 | 37 | Section archive | URL absent; supplied document | Provenance review |
 | `iphone-16-pro-max` | iPhone 16 Pro Max | 2024 | 37 | Section archive | URL absent; supplied document | Provenance review |
@@ -105,4 +105,4 @@ The standard **iPhone 6** record is absent from the current inventory, while iPh
 
 ## Change control
 
-This register is an inventory and work plan only. It does not alter any JSON record or source Markdown. Update a row only when a source check, migration, or review has actually been completed. Never label a record verified solely because it passes JSON Schema validation.
+This register tracks migration progress; it does not alter source Markdown. The iPhone 16 JSON record was migrated to schema v2 as a pilot on 5 November 2026, and its 37 preserved sections remain intact. Only its listed normalized pilot fields were checked against the official Apple page. Update a row only when a source check, migration, or review has actually been completed. Never label a record verified solely because it passes JSON Schema validation.
