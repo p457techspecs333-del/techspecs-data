@@ -1,22 +1,42 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "product": {
     "brand": "Apple",
-    "product_name": "iPhone 15 Plus",
+    "category": "smartphone",
+    "family": "iPhone",
     "model": "iPhone 15 Plus",
-    "year_introduced": 2023
+    "model_slug": "iphone-15-plus",
+    "model_year": 2023,
+    "year_introduced": 2023,
+    "finishes": [
+      "Black",
+      "Blue",
+      "Green",
+      "Yellow",
+      "Pink"
+    ],
+    "storage_options": [
+      "128GB",
+      "256GB",
+      "512GB"
+    ]
   },
   "source": {
-    "publisher": "Apple",
-    "document_title": "iPhone 15 Plus - Tech Specs",
-    "source_type": "user_supplied_document",
-    "source_url": null,
-    "verification_status": "Transcribed from supplied document; source URL not independently verified."
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111830",
+    "source_title": "iPhone 15 Plus - Tech Specs",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-05",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple Support Ireland technical specifications page checked. Only the normalized fields listed here were compared; the full archived source text has not been audited line by line."
   },
   "extraction": {
     "method": "section_preserving",
-    "normalization_status": "archival_first_pass",
-    "note": "Sections preserve the supplied source text. This is not a fully normalized field-by-field specification; no missing values have been inferred."
+    "normalization_status": "partially_normalized",
+    "note": "Original source sections retained. Only a limited set of normalized fields was checked against official specifications; this is not full-record verification.",
+    "extracted_at": "2026-11-05",
+    "reviewed_at": "2026-11-05"
   },
   "sections": [
     {
@@ -159,5 +179,76 @@
       "heading": "iPhone and the Environment",
       "source_text": "iPhone 15 and iPhone 15 Plus are designed with the following features to reduce their environmental impact:18\n\n[See the iPhone 15 and iPhone 15 Plus Product Environmental Reports](https://apple.com/uk/environment/#reports-product)\n\n**Progress towards Apple’s 2030 carbon-neutral goal**\n\n- 23% recycled or renewable content19\n- 25% emissions reduction against baseline20\n- Over 30% of manufacturing electricity is sourced from supplier clean energy projects21\n\n**Made with better materials**\n\n- 75% recycled aluminium in the enclosure\n- 100% recycled cobalt in the battery22 — a first for Apple\n- 100% recycled copper foil in the main logic board and — in a first for Apple — the MagSafe inductive charger\n- 100% recycled copper wire and 100% recycled tungsten in the Taptic Engine\n- 100% recycled gold in the wire of all cameras, the plating of multiple printed circuit boards and the USB‑C connector\n- 100% recycled rare earth elements in all magnets, representing 100% of the rare earth elements in the device23\n- 100% recycled tin in the solder of multiple printed circuit boards\n- 35% or more recycled plastic in multiple components\n\n**Energy efficient**\n\n- Exceeds US Department of Energy requirements for battery charger systems24\n\n**Smarter chemistry25**\n\n- Arsenic-free glass\n- Mercury-, BFR-, PVC- and beryllium-free\n\n**Green manufacturing**\n\n- No established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme\n- All final assembly supplier sites are transitioning to 100% renewable energy for Apple production\n\n**Responsible packaging**\n\n- 99% or more fibre-based packaging26\n- 100% of virgin wood fibre comes from responsibly managed forests27\n\n**Apple and the Environment**\n\nWe’re committed to making our products without taking from the earth, and to become carbon neutral across our entire business, including products, by 2030.\n\n[See Apple’s commitment](https://apple.com/uk/environment/)\n\n\\* To identify your iPhone model number, see [support.apple.com/en-gb/HT3939](https://support.apple.com/en-gb/HT3939). For details on 5G and LTE support, contact your provider and see [apple.com/uk/iphone/cellular](https://apple.com/uk/iphone/cellular/). Mobile data technology support is based on iPhone model number and configuration for GSM networks.\n\n1. Available space is less and varies due to many factors. A standard configuration uses approximately 12GB to 17GB of space, including iOS 18 with its latest features and Apple apps that can be deleted. Apple apps that can be deleted use about 4.5GB of space, and you can re-download them from the App Store. Storage capacity subject to change based on software version, settings and iPhone model.\n2. Size and weight vary by configuration and manufacturing process.\n3. iPhone 15 and iPhone 15 Plus are splash, water and dust resistant and were tested under controlled laboratory conditions with a rating of IP68 under IEC standard 60529 (maximum depth of 6 metres up to 30 minutes). Splash, water and dust resistance are not permanent conditions. Resistance might decrease as a result of normal wear. Do not attempt to charge a wet iPhone; refer to the user guide for cleaning and drying instructions. Liquid damage not covered under warranty.\n4. Available only in selected cities and public transport systems. Requires eligible device and OS version. [See here for details](https://support.apple.com/en-gb/HT209495).\n5. Roadside Assistance and Emergency SOS via satellite are included free for two years with the activation of any iPhone 15 model. Connection and response times vary based on location, site conditions and other factors. See support.apple.com/en-gb/HT213885 for more information.\n6. iPhone 15 and iPhone 15 Pro can detect a serious car crash and call for help. Requires a cellular connection or Wi‑Fi calling.\n7. Data plan required. 5G, Gigabit LTE, 4G LTE, VoLTE and Wi‑Fi calling are available in selected markets and through selected network providers. Speeds are based on theoretical throughput and vary based on site conditions and network. For details on 5G and LTE support, contact your provider and see [apple.com/uk/iphone/cellular](https://apple.com/uk/iphone/cellular/).\n8. Ultra Wideband availability varies by region.\n9. FaceTime calling requires a FaceTime‑enabled device for the caller and recipient and a Wi‑Fi connection. Availability over a mobile network depends on network provider policies; data charges may apply.\n10. Standard dynamic range video content only.\n11. Siri may not be available in all languages or in all areas, and features may vary by area. Internet access required. Mobile data charges may apply.\n12. All battery claims depend on network configuration and many other factors; actual results will vary. Battery has limited recharge cycles and may eventually need to be replaced. Battery life and charge cycles vary by use and settings. See [apple.com/uk/batteries](https://apple.com/uk/batteries/) and [apple.com/uk/iphone/battery.html](https://apple.com/uk/iphone/battery.html) for more information.\n13. Wireless chargers sold separately.\n14. Testing conducted by Apple in August 2023 using pre‑production iPhone 15 and iPhone 15 Plus units and software and accessory Apple USB‑C Power Adapter (20W Model A2305). Fast‑charge testing conducted with drained iPhone units. Charge time varies with settings and environmental factors; actual results will vary.\n15. Use of eSIM requires a wireless service plan (which may include restrictions on switching service providers and roaming, even after contract expires). Not all providers support eSIM. Use of eSIM in iPhone may be disabled when purchased from some providers. See your provider for details. To learn more, visit [support.apple.com/en‑gb/HT212780](https://support.apple.com/en-gb/HT212780).\n16. Wireless broadband recommended; fees may apply.\n17. In China mainland, you can use Apple Pay on the web in Safari only on compatible iPhone and iPad models using iOS 11.2 or later.\n18. Data accurate as of product launch.\n19. Product recycled or renewable content is the mass of certified recycled material relative to the overall mass of the device, not including packaging or in-box accessories.\n20. Carbon reductions are calculated against a baseline scenario: 1) No use of clean electricity for manufacturing or product use, beyond what is already available on the grid (based on regional emissions factors). 2) Apple’s carbon intensity of key materials as of 2015 (our baseline year for our 2030 product carbon-neutrality goal). Carbon intensity of materials reflects use of recycled content and production technology. 3) Apple’s average mix of transport modes (air, rail, sea, land) by product line across three years (fiscal years 2017 to 2019) to best capture the baseline transportation emissions of our products.\n21. We estimate the percentage of electricity-related emissions in our manufacturing that is sourced from clean electricity by attributing to our carbon model clean energy procured by our suppliers in the prior fiscal year, based on the supplier manufacturing allocations at time of product launch. Included in this number is only clean electricity that Apple or its suppliers have procured as part of Apple’s Supplier Clean Energy Programme.\n22. On a mass balance allocation.\n23. Excludes trace amount of rare earth elements found outside the magnets.\n24. Efficiency performance is based on the US Department of Energy [Federal Energy Conservation Standards for Battery Chargers](https://www.regulations.gov/document/EERE-2008-BT-STD-0005-0256).\n25. Apple’s Regulated Substances Specification describes Apple’s restrictions on the use of certain chemical substances in materials in Apple products, accessories, manufacturing processes, and packaging used for shipping products to Apple’s end‑customers. Restrictions are derived from international laws or directives, regulatory agencies, eco‑label requirements, environmental standards and Apple policies. Every Apple product is free of PVC and phthalates except for AC power leads in India, Thailand (for two‑pin AC power leads) and the Republic of Korea, where we continue to seek government approval for our PVC and phthalates replacement. Apple products comply with the European Union Directive 2011/65/EU and its amendments, including exemptions for the use of lead such as high-temperature solder. Apple is working to phase out the use of these exempted substances for new products where technically possible.\n26. Breakdown of US retail packaging by weight. Adhesives, inks and coatings are excluded from our calculations of plastic content and packaging weight.\n27. Responsible sourcing of wood fibre is defined in [Apple’s Responsible Fibre Specification](https://apple.com/environment/pdf/Apple_Responsible_Fiber_Specification_June2023.pdf). We consider wood fibres to include bamboo."
     }
-  ]
+  ],
+  "normalized_specifications": {
+    "dimensions": {
+      "width": {
+        "value": 77.8,
+        "unit": "mm",
+        "source_section": "Size and Weight2",
+        "verification_status": "content_verified"
+      },
+      "height": {
+        "value": 160.9,
+        "unit": "mm",
+        "source_section": "Size and Weight2",
+        "verification_status": "content_verified"
+      },
+      "depth": {
+        "value": 7.8,
+        "unit": "mm",
+        "source_section": "Size and Weight2",
+        "verification_status": "content_verified"
+      },
+      "weight": {
+        "value": 201,
+        "unit": "g",
+        "source_section": "Size and Weight2",
+        "verification_status": "content_verified"
+      }
+    },
+    "display": {
+      "diagonal": {
+        "value": 6.7,
+        "unit": "in",
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      },
+      "resolution": {
+        "value": "2796 × 1290",
+        "unit": "pixels",
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      },
+      "pixel_density": {
+        "value": 460,
+        "unit": "ppi",
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      }
+    },
+    "processor": {
+      "chip": {
+        "value": "A16 Bionic",
+        "unit": null,
+        "source_section": "Chip",
+        "verification_status": "content_verified"
+      }
+    },
+    "durability": {
+      "ip_rating": {
+        "value": "IP68",
+        "unit": null,
+        "source_section": "Splash, Water and Dust Resistant3",
+        "verification_status": "content_verified"
+      },
+      "water_depth_max": {
+        "value": 6,
+        "unit": "m",
+        "source_section": "Splash, Water and Dust Resistant3",
+        "verification_status": "content_verified",
+        "notes": "Up to 30 minutes under IEC standard 60529."
+      }
+    }
+  }
 }
