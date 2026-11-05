@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.0",
+  "product": {
+    "brand": "Apple",
+    "category": "smartphone",
+    "model": "iPhone 6s Plus",
+    "model_year": 2015
+  },
+  "source": {
+    "source_type": "user_supplied_document",
+    "source_url": null,
+    "source_title": "iPhone 6s Plus - Technical Specifications",
+    "verification_status": "Source URL not supplied or independently verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Sections preserve the supplied source text. This is not a fully normalized field-by-field specification; no missing values have been inferred."
+  },
+  "sections": [
+    {
+      "heading": "Finish",
+      "source_text": "- Rose Gold\n- Gold\n- Silver\n- Space Gray"
+    },
+    {
+      "heading": "Capacity1",
+      "source_text": "- 16GB\n- 32GB\n- 64GB\n- 128GB"
+    },
+    {
+      "heading": "Size and Weight2",
+      "source_text": "- Height: 6.23 inches (158.2 mm)\n- Width: 3.07 inches (77.9 mm)\n- Depth: 0.29 inch (7.3 mm)\n- Weight: 6.77 ounces (192 grams)"
+    },
+    {
+      "heading": "Display",
+      "source_text": "- Retina HD display with 3D Touch\n- 5.5-inch (diagonal) widescreen LCD Multi-Touch display with IPS technology\n- 1920-by-1080-pixel resolution at 401 ppi\n- 1300:1 contrast ratio (typical)\n- 500 cd/m2 max brightness (typical)\n- Full sRGB standard\n- Dual-domain pixels for wide viewing angles\n- Fingerprint-resistant oleophobic coating on front\n- Support for display of multiple languages and characters simultaneously\n- Display Zoom\n- Reachability"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "- A9 chip with 64-bit architecture\n- Embedded M9 motion coprocessor"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "- 12-megapixel camera\n- Live Photos with stabilization\n- Autofocus with Focus Pixels\n- Optical image stabilization (iPhone 6s Plus only)\n- True Tone flash\n- Panorama (up to 63 megapixels)\n- Auto HDR for photos\n- Exposure control\n- Burst mode\n- Timer mode\n- ƒ/2.2 aperture\n- Five-element lens\n- 5x digital zoom\n- Hybrid IR filter\n- Backside illumination sensor\n- Sapphire crystal lens cover\n- Auto image stabilization\n- Local tone mapping\n- Noise reduction\n- Face detection\n- Photo geotagging"
+    },
+    {
+      "heading": "Video Recording",
+      "source_text": "- 4K video recording at 30 fps\n- 1080p HD video recording at 30 fps or 60 fps\n- 720p HD video recording at 30 fps\n- Optical image stabilization for video (iPhone 6s Plus only)\n- True Tone flash\n- Slo-mo video support for 1080p at 120 fps and 720p at 240 fps\n- Time-lapse video with stabilization\n- Cinematic video stabilization (1080p and 720p)\n- Continuous autofocus video\n- Noise reduction\n- Take 8-megapixel still photos while recording 4K video\n- Playback zoom\n- 3x digital zoom\n- Face detection\n- Video geotagging"
+    },
+    {
+      "heading": "FaceTime HD Camera",
+      "source_text": "- 5-megapixel photos\n- 720p HD video recording\n- Retina Flash\n- ƒ/2.2 aperture\n- Auto HDR for photos and videos\n- Backside illumination sensor\n- Exposure control\n- Burst mode\n- Timer mode\n- Face detection"
+    },
+    {
+      "heading": "Touch ID",
+      "source_text": "- Fingerprint sensor built into the Home button"
+    },
+    {
+      "heading": "Apple Pay",
+      "source_text": "- Pay with your iPhone using Touch ID in stores, within apps, and on the web\n- Complete purchases made with Apple Pay on your Mac\n- Receive and redeem rewards using rewards cards\n\n[Learn more about Apple Pay](https://www.apple.com/uk/apple-pay/)"
+    },
+    {
+      "heading": "Cellular and Wireless",
+      "source_text": "- **Model A1634\\***\n  - LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30)\n  - TD-LTE (Bands 38, 39, 40, 41)\n  - TD-SCDMA 1900 (F), 2000 (A)\n  - UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\n  - CDMA EV-DO Rev. A (800, 1700/2100, 1900, 2100 MHz)\n  - GSM/EDGE (850, 900, 1800, 1900 MHz)\n- **Model A1687\\***\n  - LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 27, 28, 29)\n  - TD-LTE (Bands 38, 39, 40, 41)\n  - TD-SCDMA 1900 (F), 2000 (A)\n  - CDMA EV-DO Rev. A (800, 1700/2100, 1900, 2100 MHz)\n  - UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\n  - GSM/EDGE (850, 900, 1800, 1900 MHz)\n- **All models**\n  - 802.11ac Wi‑Fi with MIMO\n  - Bluetooth 4.2 wireless technology\n  - NFC"
+    },
+    {
+      "heading": "Location",
+      "source_text": "- Assisted GPS, GLONASS, Galileo, and QZSS\n- Digital compass\n- Wi‑Fi\n- Cellular\n- iBeacon microlocation"
+    },
+    {
+      "heading": "Video Calling3",
+      "source_text": "- FaceTime video calling over Wi‑Fi or cellular"
+    },
+    {
+      "heading": "Audio Calling3",
+      "source_text": "- FaceTime audio\n- Voice over LTE (VoLTE)4\n- Wi‑Fi calling4"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "- Audio formats supported: AAC (8 to 320 Kbps), Protected AAC (from iTunes Store), HE-AAC, MP3 (8 to 320 Kbps), MP3 VBR, Dolby Digital (AC-3), Dolby Digital Plus (E-AC-3), Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+), Apple Lossless, AIFF, and WAV\n- User-configurable maximum volume limit"
+    },
+    {
+      "heading": "TV and Video",
+      "source_text": "- AirPlay Mirroring, photos, audio, and video out to Apple TV (2nd generation or later)\n- Video mirroring and video out support: Up to 1080p through Lightning Digital AV Adapter and Lightning to VGA Adapter (adapters sold separately)\n- Video formats supported: H.264 video up to 4K, 30 frames per second, High Profile level 4.2 with AAC‑LC audio up to 160 Kbps, 48kHz, stereo audio or Dolby Audio up to 1008 Kbps, 48kHz, stereo or multichannel audio, in .m4v, .mp4, and .mov file formats; MPEG‑4 video up to 2.5 Mbps, 640 by 480 pixels, 30 frames per second, Simple Profile with AAC‑LC audio up to 160 Kbps per channel, 48kHz, stereo audio or Dolby Audio up to 1008 Kbps, 48kHz, stereo or multichannel audio, in .m4v, .mp4, and .mov file formats; Motion JPEG (M‑JPEG) up to 35 Mbps, 1280 by 720 pixels, 30 frames per second, audio in ulaw, PCM stereo audio in .avi file format"
+    },
+    {
+      "heading": "Siri5",
+      "source_text": "- Use your voice to send messages, set reminders, and more\n- Get intelligent suggestions in Messages, Mail, QuickType, and more\n- Activate with only your voice using “Hey Siri”\n- Listen and identify songs\n\n[Learn more about Siri](https://www.apple.com/uk/ios/siri/)"
+    },
+    {
+      "heading": "External Buttons and Connectors",
+      "source_text": "- Touch ID sensor\n- Volume up/down\n- Ring/Silent\n- On/Off - Sleep/Wake\n- 3.5 mm headphone jack\n- Lightning connector\n- Microphones\n- Built‑in speaker"
+    },
+    {
+      "heading": "Power and Battery6",
+      "source_text": "- Talk time: Up to 24 hours on 3G\n- Internet use: Up to 12 hours on 3G, up to 12 hours on LTE, up to 12 hours on Wi‑Fi\n- HD video playback: Up to 14 hours\n- Audio playback: Up to 80 hours\n- Standby time: Up to 16 days\n- Built-in rechargeable lithium-ion battery\n- Charging via USB to computer system or power adapter"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "- Touch ID fingerprint sensor\n- Barometer\n- Three-axis gyro\n- Accelerometer\n- Proximity sensor\n- Ambient light sensor"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "**iOS 11**\n\nWith new features and capabilities that let you get more done quickly and easily, iOS 11 makes iPhone more powerful, personal, and intelligent than ever.\n\n[See what’s new in iOS](https://www.apple.com/uk/ios/)"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new iPhone 6s. With built-in support for vision, hearing, physical and motor skills, and learning and literacy, you can fully enjoy the world’s most personal device. [Learn more about Accessibility](http://www.apple.com/uk/accessibility/iphone/)\n\nFeatures include:\n\n- VoiceOver\n- Zoom\n- Magnifier\n- Software TTY\n- Siri and Dictation\n- Type to Siri\n- Switch Control\n- Closed Captions\n- AssistiveTouch\n- Speak Screen"
+    },
+    {
+      "heading": "Built-in Apps",
+      "source_text": "- Camera\n- Photos\n- Health\n- Messages\n- Phone\n- FaceTime\n- Mail\n- Music\n- Wallet\n- Safari\n- Maps\n- Siri\n- Calendar\n- iTunes Store\n- App Store\n- Notes\n- News\n- Contacts\n- iBooks\n- Home\n- Weather\n- Reminders\n- Clock\n- TV\n- Stocks\n- Calculator\n- Voice Memos\n- Compass\n- Podcasts\n- Watch\n- Tips\n- Files\n- Find My iPhone\n- Find My Friends\n- Settings"
+    },
+    {
+      "heading": "Free Apps from Apple",
+      "source_text": "*Pages, Numbers, Keynote, iMovie, GarageBand, iTunes U, Clips, and Apple Store app are preinstalled.*\n\n- iMovie\n- Pages\n- Numbers\n- Keynote\n- iTunes U\n- GarageBand\n- Apple Store\n- Trailers\n- Apple TV Remote\n- iTunes Remote\n- Music Memos\n- Clips"
+    },
+    {
+      "heading": "Headphones",
+      "source_text": "- EarPods with 3.5 mm Headphone Plug\n- Storage and travel case"
+    },
+    {
+      "heading": "SIM Card",
+      "source_text": "- Nano-SIM\n  - *iPhone 6s and iPhone 6s Plus are not compatible with existing micro-SIM cards.*"
+    },
+    {
+      "heading": "Rating for Hearing Aids",
+      "source_text": "- iPhone 6s Plus (Model A1634, A1687): M3, T4"
+    },
+    {
+      "heading": "Mail Attachment Support",
+      "source_text": "- **Viewable document types**\n  - .jpg, .tiff, .gif (images); .doc and .docx (Microsoft Word); .htm and .html (web pages); .key (Keynote); .numbers (Numbers); .pages (Pages); .pdf (Preview and Adobe Acrobat); .ppt and .pptx (Microsoft PowerPoint); .txt (text); .rtf (rich text format); .vcf (contact information); .xls and .xlsx (Microsoft Excel); .zip; .ics"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "- Apple ID (required for some features)\n- Internet access7\n\nSyncing with iTunes on a Mac or PC requires:\n\n- Mac: OS X 10.9.5 or later\n- PC: Windows 7 or later\n- iTunes 12.5 or later (free download from [www.itunes.com/uk/download](https://www.apple.com/uk/itunes/download/))"
+    },
+    {
+      "heading": "Environmental Requirements",
+      "source_text": "- Operating ambient temperature: 32° to 95° F (0° to 35° C)\n- Nonoperating temperature: ‑4° to 113° F (‑20° to 45° C)\n- Relative humidity: 5% to 95% noncondensing\n- Operating altitude: tested up to 10,000 feet (3000 m)"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "- **Language support**\n  - English (Australia, UK, U.S.), Chinese (Simplified, Traditional, Traditional Hong Kong), French (Canada, France), German, Italian, Japanese, Korean, Spanish (Latin America, Mexico, Spain), Arabic, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hindi, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\n- **QuickType keyboard support**\n  - English (Australia, Canada, India, Singapore, UK, U.S.), Chinese - Simplified (Handwriting, Pinyin, Stroke), Chinese - Traditional (Cangjie, Handwriting, Pinyin, Stroke, Sucheng, Zhuyin), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese (Kana, Romaji), Korean, Spanish (Latin America, Mexico, Spain), Arabic (Modern Standard, Najdi), Armenian, Azerbaijani, Belarusian, Bengali, Bulgarian, Catalan, Cherokee, Croatian, Czech, Danish, Dutch, Emoji, Estonian, Filipino, Finnish, Flemish, Georgian, Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari, Transliteration), Hinglish, Hungarian, Icelandic, Indonesian, Irish, Kannada, Latvian, Lithuanian, Macedonian, Malay, Malayalam, Maori, Marathi, Norwegian, Odia, Persian, Polish, Portuguese (Brazil, Portugal), Punjabi, Romanian, Russian, Serbian (Cyrillic, Latin), Slovak, Slovenian, Swahili, Swedish, Tamil (Script, Transliteration), Telugu, Thai, Tibetan, Turkish, Ukrainian, Urdu, Vietnamese, Welsh\n- **QuickType keyboard support with predictive input**\n  - English (Australia, Canada, India, Singapore, UK, U.S.), Chinese (Simplified, Traditional), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese, Korean, Russian, Spanish (Latin America, Mexico, Spain), Portuguese (Brazil, Portugal), Thai, Turkish\n- **Siri languages**\n  - English (Australia, Canada, India, Ireland, New Zealand, Singapore, South Africa, UK, U.S.), Spanish (Chile, Mexico, Spain, U.S.), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (China mainland, Hong Kong, Macao), Arabic (Saudi Arabia, United Arab Emirates), Danish (Denmark), Dutch (Belgium, Netherlands), Finnish (Finland), Hebrew (Israel), Malay (Malaysia), Norwegian (Norway), Portuguese (Brazil), Russian (Russia), Swedish (Sweden), Thai (Thailand), Turkish (Türkiye)\n- **Dictation languages**\n  - English (Australia, Canada, India, Indonesia, Ireland, Malaysia, New Zealand, Philippines, Saudi Arabia, Singapore, South Africa, United Arab Emirates, UK, U.S.), Spanish (Argentina, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Panama, Paraguay, Peru, Spain, Uruguay, U.S.), French (Belgium, Canada, France, Luxembourg, Switzerland), German (Austria, Germany, Luxembourg, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (China mainland, Hong Kong, Macao), Arabic (Kuwait, Qatar, Saudi Arabia, United Arab Emirates), Catalan, Croatian, Czech, Danish, Dutch (Belgium, Netherlands), Finnish, Greek, Hebrew, Hindi (India), Hungarian, Indonesian, Malaysian, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Shanghainese (China mainland), Slovakian, Swedish, Thai, Turkish, Ukrainian, Vietnamese\n- **Definition dictionary support**\n  - English, Chinese (Simplified, Traditional), Danish, Dutch, French, German, Hindi, Italian, Japanese, Korean, Norwegian, Portuguese, Russian, Spanish, Swedish, Thai, Turkish\n- **Bilingual dictionary support**\n  - Chinese (Simplified), Dutch, French, German, Italian, Japanese, Korean, Portuguese, Russian, Spanish\n- **Spell check**\n  - English, French, German, Italian, Spanish, Danish, Dutch, Finnish, Korean, Norwegian, Polish, Portuguese, Russian, Swedish, Turkish"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "- iPhone with iOS 11\n- EarPods with 3.5 mm Headphone Plug\n- Lightning to USB Cable\n- USB Power Adapter\n- Documentation"
+    },
+    {
+      "heading": "iPhone and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact. [Learn more about iPhone and the Environment](http://www.apple.com/uk/environment/)\n\niPhone 6s and iPhone 6s Plus embody Apple’s continuing environmental progress. They are designed with the following features to reduce environmental impact:\n\n- Mercury-free LED-backlit display\n- Arsenic-free display glass\n- Brominated flame retardant–free\n- PVC-free\n- Beryllium-free\n- Recyclable aluminum enclosure\n- Power adapter outperforms strictest global energy efficiency standards\n- Speaker enclosure with 30 percent post‑consumer recycled plastic\n\n**Apple and the Environment**\n\n[Learn more about Apple’s dedication to reducing the environmental impact of our products and process](http://www.apple.com/uk/environment/). Or read our [Product Environmental Reports](https://www.apple.com/uk/environment/reports/) for detailed information on the environmental performance of every Apple product.\n\n\\* To identify your iPhone model number, see [https://support.apple.com/en-gb/HT3939](https://support.apple.com/en-gb/HT3939). For details on LTE support, contact your carrier and see [www.apple.com/uk/iphone/LTE](https://www.apple.com/uk/iphone/LTE). Cellular technology support is based on iPhone model number and configuration for either CDMA or GSM networks.\n\n1. Available space is less and varies due to many factors. A standard configuration uses approximately 8GB to 11GB of space (including iOS and preinstalled apps) depending on the model and settings. Preinstalled apps use about 4GB, and you can delete these apps and restore them.\n2. Size and weight vary by configuration and manufacturing process.\n3. FaceTime calling requires a FaceTime-enabled device for the caller and recipient and a Wi-Fi connection. Availability over a cellular network depends on carrier policies; data charges may apply.\n4. Data plan required. LTE Advanced, LTE, VoLTE, and Wi-Fi calling are available in select markets and through select carriers. Speeds are based on theoretical throughput and vary based on site conditions and carrier. For details on LTE support, contact your carrier and see [www.apple.com/uk/iphone/LTE](https://www.apple.com/uk/iphone/LTE).\n5. Siri may not be available in all languages or in all areas, and features may vary by area. Internet access required. Cellular data charges may apply.\n6. All battery claims depend on network configuration and many other factors; actual results will vary. Battery has limited recharge cycles and may eventually need to be replaced by Apple service provider. Battery life and charge cycles vary by use and settings. See [www.apple.com/uk/batteries](https://www.apple.com/uk/batteries) and [www.apple.com/uk/iphone/battery](https://www.apple.com/uk/iphone/battery.html).html for more information.\n7. Wireless broadband recommended; fees may apply."
+    }
+  ]
+}
