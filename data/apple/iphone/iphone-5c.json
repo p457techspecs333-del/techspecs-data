@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0",
+  "product": {
+    "brand": "Apple",
+    "category": "smartphone",
+    "family": "iPhone",
+    "model": "iPhone 5c",
+    "model_year": 2013
+  },
+  "source": {
+    "source_type": "user_supplied_document",
+    "source_url": null,
+    "source_title": "iPhone 5c - Technical Specifications",
+    "verification_status": "Source URL not supplied or independently verified; content preserved from user-supplied document."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Sections preserve the supplied source text. This is not a fully normalized field-by-field specification; no missing values have been inferred."
+  },
+  "sections": [
+    {
+      "heading": "Color",
+      "source_text": "- White\n- Pink\n- Yellow\n- Blue\n- Green"
+    },
+    {
+      "heading": "Capacity1",
+      "source_text": "- 16GB\n- 32GB"
+    },
+    {
+      "heading": "Weight & Dimensions2",
+      "source_text": "- Height: 4.90 inches (124.4 mm)\n- Width: 2.33 inches (59.2 mm)\n- Depth: 0.35 inch (8.97 mm)\n- Weight: 4.65 ounces (132 grams)"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "- A6 chip"
+    },
+    {
+      "heading": "Cellular and Wireless",
+      "source_text": "- Model A1532 (GSM)\\*: UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz); LTE (Bands 1, 2, 3, 4, 5, 8, 13, 17, 19, 20, 25)\n- Model A1532 (CDMA)\\*: CDMA EV-DO Rev. A and Rev. B (800, 1700/2100, 1900, 2100 MHz); UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz); LTE (Bands 1, 2, 3, 4, 5, 8, 13, 17, 19, 20, 25)\n- Model A1456\\*: CDMA EV-DO Rev. A and Rev B. (800, 1700/2100, 1900, 2100 MHz); UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz); LTE (Bands 1, 2, 3, 4, 5, 8, 13, 17, 18, 19, 20, 25, 26)\n- Model A1507\\*: UMTS/HSPA+/DC-HSDPA (850, 900, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz); LTE (Bands 1, 2, 3, 5, 7, 8, 20)\n- Model A1529\\*: UMTS/HSPA+/DC-HSDPA (850, 900, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz); FDD-LTE (Bands 1, 2, 3, 5, 7, 8, 20); TD-LTE (Bands 38, 39, 40)\n- 802.11a/b/g/n Wi-Fi (802.11n 2.4GHz and 5GHz)\n- Bluetooth 4.0 wireless technology"
+    },
+    {
+      "heading": "Location",
+      "source_text": "- Assisted GPS and GLONASS\n- Digital compass\n- Wi-Fi\n- Cellular"
+    },
+    {
+      "heading": "Display",
+      "source_text": "- Retina display\n- 4-inch (diagonal) widescreen Multi-Touch display\n- 1136-by-640-pixel resolution at 326 ppi\n- 800:1 contrast ratio (typical)\n- 500 cd/m2 max brightness (typical)\n- Fingerprint-resistant oleophobic coating on front\n- Support for display of multiple languages and characters simultaneously"
+    },
+    {
+      "heading": "iSight Camera",
+      "source_text": "- 8 megapixels\n- ƒ/2.4 aperture\n- LED flash\n- Backside illumination sensor\n- Five-element lens\n- Hybrid IR filter\n- Autofocus\n- Tap to focus\n- Face detection\n- Panorama\n- Photo geotagging"
+    },
+    {
+      "heading": "Video Recording",
+      "source_text": "- 1080p HD video recording\n- 30 fps\n- LED light\n- Video stabilization\n- Take still photo while recording video\n- Face detection\n- 3x zoom\n- Video geotagging"
+    },
+    {
+      "heading": "Facetime Camera",
+      "source_text": "- 1.2MP photos (1280 by 960)\n- 720p HD video recording\n- Backside illumination sensor"
+    },
+    {
+      "heading": "Video Calling3",
+      "source_text": "- FaceTime\n- iPhone 5c to any FaceTime-enabled device over Wi-Fi or cellular\n- Initiate video calls over LTE, DC-HSDPA, HSPA+, 3G, and 2G\n- HVGA-resolution (480 by 368) calls over Wi-Fi"
+    },
+    {
+      "heading": "Audio Calling3",
+      "source_text": "- FaceTime\n- iPhone 5c to any FaceTime-enabled device over Wi-Fi or cellular"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "- Audio formats supported: AAC (8 to 320 Kbps), Protected AAC (from iTunes Store), HE-AAC, MP3 (8 to 320 Kbps), MP3 VBR, Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+), Apple Lossless, AIFF, and WAV\n- User-configurable maximum volume limit"
+    },
+    {
+      "heading": "TV and Video",
+      "source_text": "- AirPlay mirroring and video out to Apple TV (2nd and 3rd generation)\n- Video mirroring and video out support: Up to 1080p through Lightning Digital AV Adapter and Lightning to VGA Adapter (adapters sold separately)\n- Video formats supported: H.264 video up to 1080p, 30 frames per second, High Profile level 4.1 with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats; MPEG-4 video up to 2.5 Mbps, 640 by 480 pixels, 30 frames per second, Simple Profile with AAC-LC audio up to 160 Kbps per channel, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats; Motion JPEG (M-JPEG) up to 35 Mbps, 1280 by 720 pixels, 30 frames per second, audio in ulaw, PCM stereo audio in .avi file format"
+    },
+    {
+      "heading": "Intelligent Assistant4",
+      "source_text": "- [Siri](https://www.apple.com/uk/siri/)\n  - Use your voice to send messages, set reminders, and more."
+    },
+    {
+      "heading": "External Buttons and Connectors",
+      "source_text": "- On/off - Sleep/wake\n- Volume up/down\n- Ring/silent\n- Home\n- 3.5-mm stereo headphone minijack\n- Microphone\n- Built-in speaker\n- Lightning connector"
+    },
+    {
+      "heading": "Power and Battery5",
+      "source_text": "- Built-in rechargeable lithium-ion battery\n- Charging via USB to computer system or power adapter\n- Talk time: Up to 10 hours on 3G\n- Standby time: Up to 250 hours\n- Internet use: Up to 8 hours on 3G, up to 10 hours on LTE, up to 10 hours on Wi-Fi\n- Video playback: Up to 10 hours\n- Audio playback: Up to 40 hours"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "- Three-axis gyro\n- Accelerometer\n- Proximity sensor\n- Ambient light sensor"
+    },
+    {
+      "heading": "Built-in Apps",
+      "source_text": "- Maps\n- Messages\n- Passbook\n- Camera\n- Reminders\n- Notes\n- Phone\n- Videos\n- Weather\n- FaceTime\n- iTunes Store\n- Stocks\n- Music\n- Game Center\n- Calculator\n- Safari\n- Calendar\n- Voice Memos\n- App Store\n- Contacts\n- Mail\n- Newsstand"
+    },
+    {
+      "heading": "Free Apps from Apple6",
+      "source_text": "- iPhoto\n- iMovie\n- Keynote\n- Pages\n- Numbers\n- iBooks\n- iTunes U\n- iTunes Festival\n- Podcasts\n- Trailers\n- Find My iPhone\n- Remote\n- Find My Friends"
+    },
+    {
+      "heading": "Headphones",
+      "source_text": "- Apple EarPods with Remote and Mic\n- Storage and travel case"
+    },
+    {
+      "heading": "SIM Card",
+      "source_text": "- Nano-SIM\n- iPhone 5c is not compatible with existing micro-SIM cards."
+    },
+    {
+      "heading": "Connector",
+      "source_text": "- Lightning"
+    },
+    {
+      "heading": "Rating for Hearing Aids",
+      "source_text": "- iPhone 5c (Model A1532, A1456): M3, T4\n- iPhone 5c (Model A1507, A1529): M3, T4"
+    },
+    {
+      "heading": "Mail Attachment Support",
+      "source_text": "- **Viewable document types**\n  - .jpg, .tiff, .gif (images); .doc and .docx (Microsoft Word); .htm and .html (web pages); .key (Keynote); .numbers (Numbers); .pages (Pages); .pdf (Preview and Adobe Acrobat); .ppt and .pptx (Microsoft PowerPoint); .txt (text); .rtf (rich text format); .vcf (contact information); .xls and .xlsx (Microsoft Excel); .zip; .ics"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "- Apple ID (required for some features)\n- Internet access7\n- Syncing with iTunes on a Mac or PC requires:\n  - Mac: OS X v10.6.8 or later\n  - PC: Windows 8; Windows 7; Windows Vista; or Windows XP Home or Professional with Service Pack 3 or later\n  - iTunes 11.1 or later (free download from [www.itunes.com/uk/download](https://www.apple.com/uk/itunes/download/))"
+    },
+    {
+      "heading": "Environmental Requirements",
+      "source_text": "- Operating ambient temperature: 32° to 95° F (0° to 35° C)\n- Nonoperating temperature: -4° to 113° F (-20° to 45° C)\n- Relative humidity: 5% to 95% noncondensing\n- Operating altitude: tested up to 10,000 feet (3000 m)"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "- **Language support**\n  - English (U.S.), English (UK), Chinese (Simplified), Chinese (Traditional), French, German, Italian, Japanese, Korean, Spanish, Arabic, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\n- **Keyboard support**\n  - English (U.S.), English (Canadian), English (UK), English (Australian), Chinese - Simplified (Handwriting, Pinyin, Stroke), Chinese - Traditional (Handwriting, Pinyin, Zhuyin, Cangjie, Stroke), French, French (Canadian), French (Switzerland), German (Germany), German (Switzerland), Italian, Japanese (Romaji, Kana), Korean, Spanish, Arabic, Bulgarian, Catalan, Cherokee, Croatian, Czech, Danish, Dutch, Emoji, Estonian, Finnish, Flemish, Greek, Hawaiian, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Latvian, Lithuanian, Macedonian, Malay, Norwegian, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian (Cyrillic/Latin), Slovak, Swedish, Tamil, Thai, Tibetan, Turkish, Ukrainian, Vietnamese\n- **Dictionary support (enables predictive text and autocorrect)**\n  - English (U.S.), English (Canadian), English (UK), English (Australian), Chinese (Simplified), Chinese (Traditional), French, French (Canadian), French (Switzerland), German, Italian, Japanese (Romaji, Kana), Korean, Spanish, Arabic, Catalan, Cherokee, Croatian, Czech, Danish, Dutch, Estonian, Finnish, Flemish, Greek, Hawaiian, Hebrew, Hindi, Hungarian, Indonesian, Latvian, Lithuanian, Malay, Norwegian, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Slovak, Swedish, Tamil, Thai, Turkish, Ukrainian, Vietnamese\n- **Siri languages**\n  - English (U.S., UK, Canada, Australia), Spanish (U.S., Mexico, Spain), French (France, Canada, Switzerland), German (Germany, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (Hong Kong)"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "- iPhone 5c with iOS 7\n- Apple EarPods with Remote and Mic\n- Lightning to USB Cable\n- USB Power Adapter\n- Documentation"
+    },
+    {
+      "heading": "iPhone and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact. [Learn more](http://www.apple.com/uk/environment/)\n\n**iPhone 5c embodies Apple’s continuing environmental progress. It is designed with the following features to reduce environmental impact:**\n\n- Mercury-free LED-backlit display\n- Arsenic-free display glass\n- Brominated flame retardant-free\n- PVC-free\n- Power adapter outperforms strictest global energy efficiency standards\n\n**Apple and the Environment**\n\n[Learn more](http://www.apple.com/uk/environment/) about Apple’s dedication to reducing the environmental impact of our products and process. [Apple Product Environmental Reports](http://www.apple.com/uk/environment/reports/) detail the environmental attributes of our products.\n\n**Recycling**\n\nApple takes a holistic view of materials management and waste minimization. [Learn more](http://www.apple.com/uk/recycling/) about how to recycle your iPhone.\n\n\\*To identify your iPhone model number, see [http://support.apple.com/en-gb/HT3939](http://support.apple.com/en-gb/HT3939). For details on LTE support, contact your carrier and see [www.apple.com/uk/iphone/LTE](http://www.apple.com/uk/iphone/LTE).\n\n1. 1GB = 1 billion bytes; actual formatted capacity less. Requires a plan (which may include restrictions on switching service providers and roaming, even after contract expiration); sold separately to qualified customers. Credit check required; must be 18 or older. Wireless service is provided by and is the sole responsibility of your wireless service provider. Some capabilities are not available in all areas and depend on your wireless plan and service provider network. Service may not be available in all areas or at the signal strength, rates, speeds, or bandwidth as demonstrated. Some features may require added fees. Contact your wireless service provider for more details. Customers who want to upgrade from another phone or replace a previous-generation iPhone should check with their wireless service provider for pricing options. For those who are not qualified customers, are not eligible for an early upgrade, are purchasing an unlocked iPhone, or wish to buy an iPhone as a gift, see your carrier, an Apple Retail Store Specialist, the Apple Online Store, or an Apple Authorized Reseller for pricing. In CA and RI, sales tax is collected on the unbundled price of iPhone. Wi-Fi Internet access required for some features; fees may apply. Use constitutes acceptance of Apple’s software license agreement. Warranty information is also available at [www.apple.com/uk/legal/warranty](https://www.apple.com/uk/legal/warranty/). Unauthorized modification of your iPhone software violates the software license agreement. Inability to use an iPhone due to unauthorized modifications is not covered under your warranty.\n2. Size and weight vary by configuration and manufacturing process.\n3. FaceTime calling requires a FaceTime-enabled device for the caller and recipient and a Wi-Fi connection. Availability over a cellular network depends on carrier policies; data charges may apply.\n4. Siri may not be available in all languages or in all areas, and features may vary by area. Internet access required. Cellular data charges may apply.\n5. All battery claims depend on network configuration and many other factors; actual results will vary. Battery has limited recharge cycles and may eventually need to be replaced by Apple service provider. Battery life and charge cycles vary by use and settings. See [www.apple.com/uk/batteries](http://www.apple.com/uk/batteries) and [www.apple.com/uk/iphone/battery.html](http://www.apple.com/uk/iphone/battery.html) for more information.\n6. iPhoto, iMovie, Keynote, Pages, and Numbers are free on the App Store for qualifying iOS 7 compatible devices activated after September 1, 2013. See [www.apple.com/uk/ios/whats-new/](http://www.apple.com/uk/ios/whats-new/) for iOS 7 compatible devices. Downloading apps requires an Apple ID.\n7. Wireless broadband recommended; fees may apply.\n\nSome features may not be available for all countries or all areas. [Click here to see complete list](http://www.apple.com/uk/ios/feature-availability/).\n\nApplication and service availability and pricing are subject to change."
+    }
+  ]
+}
