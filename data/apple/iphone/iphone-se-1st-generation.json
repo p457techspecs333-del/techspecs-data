@@ -1,22 +1,28 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "product": {
     "brand": "Apple",
-    "product_name": "iPhone SE (1st generation)",
-    "model": "iPhone SE",
+    "category": "smartphone",
+    "family": "iPhone",
+    "model": "iPhone SE (1st generation)",
+    "model_slug": "iphone-se-1st-generation",
+    "model_year": 2016,
     "year_introduced": 2016
   },
   "source": {
-    "publisher": "Apple",
-    "document_title": "iPhone SE - Technical Specifications",
     "source_type": "user_supplied_document",
     "source_url": null,
-    "verification_status": "Transcribed from supplied document; source page URL not independently verified."
+    "verification_status": "not_checked",
+    "checked_at": null,
+    "source_title": "iPhone SE - Technical Specifications",
+    "publisher": "Apple (as named in supplied document)",
+    "verification_notes": "Original specification page URL has not been independently verified. Normalized fields are transcribed from preserved sections."
   },
   "extraction": {
     "method": "section_preserving",
-    "normalization_status": "archival_first_pass",
-    "note": "Sections preserve the supplied source text. This is not a fully normalized field-by-field specification; no missing values have been inferred."
+    "normalization_status": "partially_normalized",
+    "extracted_at": "2026-11-05",
+    "note": "Original sections are preserved verbatim. Selected normalized fields are transcribed only from their named source sections; no absent fields have been inferred."
   },
   "sections": [
     {
@@ -151,5 +157,85 @@
       "heading": "iPhone and the Environment",
       "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact. [Learn more](https://www.apple.com/uk/environment/)\n\niPhone SE embodies Apple’s continuing environmental progress. It is designed with the following features to reduce environmental impact:\n\n- Mercury‑free LED‑backlit display\n- Arsenic‑free display glass\n- Brominated flame retardant–free\n- PVC‑free\n- Beryllium‑free\n- Recyclable aluminum enclosure\n\n**Apple and the Environment**\n\nApple is dedicated to reducing the environmental impact of our products and process. [Learn more](https://www.apple.com/uk/environment/). Or read our detailed information on the environmental performance of every Apple product. Read our [Product Environmental Reports](https://www.apple.com/uk/environment/reports/).\n\n**Apple GiveBack**\n\nIf you’re ready for your next iPhone, Apple GiveBack is a great way to let go of your old one. If it’s in good shape, you can trade it in for Apple Store credit. If it’s not eligible for credit, we’ll recycle it responsibly at no cost to you. Good for you. Good for the planet.\n\n[See how it works](https://www.apple.com/uk/shop/goto/trade_in)\n\n\\* To identify your iPhone model number, see [https://support.apple.com/en-gb/HT3939](https://support.apple.com/en-gb/HT3939). For details on LTE support, contact your carrier and see [www.apple.com/uk/iphone/LTE](https://www.apple.com/uk/iphone/LTE/). Cellular technology support is based on iPhone model number and configuration for either CDMA or GSM networks.\n\n1. Available space is less and varies due to many factors. A standard configuration uses approximately 8GB to 11GB of space (including iOS and preinstalled apps) depending on the model and settings. Preinstalled apps use about 4GB, and you can delete these apps and restore them.\n2. Size and weight vary by configuration and manufacturing process.\n3. FaceTime calling requires a FaceTime-enabled device for the caller and recipient and a Wi-Fi connection. Availability over a cellular network depends on carrier policies; data charges may apply.\n4. Data plan required. LTE, VoLTE, and Wi-Fi calling are available in select markets and through select carriers. Speeds are based on theoretical throughput and vary based on site conditions and carrier. For details on LTE support, contact your carrier and see [www.apple.com/uk/iphone/LTE](https://www.apple.com/uk/iphone/LTE/).\n5. Siri may not be available in all languages or in all areas, and features may vary by area. Internet access required. Cellular data charges may apply.\n6. All battery claims depend on network configuration and many other factors; actual results will vary. Battery has limited recharge cycles and may eventually need to be replaced by Apple service provider. Battery life and charge cycles vary by use and settings. See [www.apple.com/uk/batteries](https://www.apple.com/uk/batteries/) and [www.apple.com/uk/iphone/battery.html](https://www.apple.com/uk/iphone/battery.html) for more information.\n7. Wireless broadband recommended; fees may apply."
     }
-  ]
+  ],
+  "normalized_specifications": {
+    "dimensions": {
+      "width": {
+        "value": 58.6,
+        "unit": "mm",
+        "source_section": "Size and Weight2",
+        "verification_status": "source_transcribed"
+      },
+      "height": {
+        "value": 123.8,
+        "unit": "mm",
+        "source_section": "Size and Weight2",
+        "verification_status": "source_transcribed"
+      },
+      "depth": {
+        "value": 7.6,
+        "unit": "mm",
+        "source_section": "Size and Weight2",
+        "verification_status": "source_transcribed"
+      },
+      "weight": {
+        "value": 113,
+        "unit": "g",
+        "source_section": "Size and Weight2",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "display": {
+      "technology": {
+        "value": "Retina LCD with IPS",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "diagonal": {
+        "value": 4,
+        "unit": "in",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "resolution": {
+        "value": "1136 × 640",
+        "unit": "pixels",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "pixel_density": {
+        "value": 326,
+        "unit": "ppi",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "contrast_ratio": {
+        "value": "800:1",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "brightness": {
+        "value": 500,
+        "unit": "cd/m² (typical)",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "processor": {
+      "chip": {
+        "value": "A9",
+        "unit": null,
+        "source_section": "Chip",
+        "verification_status": "source_transcribed"
+      },
+      "motion_coprocessor": {
+        "value": "M9 motion coprocessor",
+        "unit": null,
+        "source_section": "Chip",
+        "verification_status": "source_transcribed"
+      }
+    }
+  }
 }
