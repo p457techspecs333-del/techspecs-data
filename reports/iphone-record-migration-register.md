@@ -10,7 +10,7 @@
 - **43** use the common section-preserving shape with an `extraction` object.
 - **4** use the section-preserving shape with `extraction_note` instead (`iphone-17e`, `iphone-18-pro`, `iphone-18-pro-max`, `iphone-duo`).
 - **1** uses the older field-level `specifications` shape (`iphone-6-plus`).
-- **4** records (`iphone-16`, `iphone-17`, `iphone-17-pro`, `iphone-17-pro-max`) have been migrated to schema v2 and contain pilot sets of normalized fields; the other 44 records remain unmigrated.
+- **8** records have been migrated to schema v2 with pilot normalized fields; the other 40 records remain unmigrated.
 - The iPhone 16 and iPhone 17 pilots have official Apple Support Ireland source pages checked on 5 November 2026; the iPhone 17 Pro and iPhone 17 Pro Max pilots use Apple's Ireland product specifications page, checked on the same date. The iPhone 17e record still has an inferred URL that has not been independently checked.
 - Several records have blank verification status metadata. Other records explicitly say they were transcribed from supplied documents and the source page URL was not independently verified.
 
