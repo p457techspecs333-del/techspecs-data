@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "product": {
+    "brand": "Apple",
+    "family": "iPhone",
+    "model": "iPhone 6 Plus",
+    "generation": "iPhone 6 generation",
+    "finishes": [
+      "Silver",
+      "Gold",
+      "Space Gray"
+    ],
+    "storage_options": [
+      "16GB",
+      "64GB",
+      "128GB"
+    ],
+    "model_numbers": [
+      "A1522 GSM",
+      "A1522 CDMA",
+      "A1524"
+    ]
+  },
+  "specifications": {
+    "dimensions": {
+      "height_mm": 158.1,
+      "width_mm": 77.8,
+      "depth_mm": 7.1,
+      "weight_g": 172
+    },
+    "display": {
+      "name": "Retina HD",
+      "diagonal_inches": 5.5,
+      "resolution": {
+        "width_px": 1920,
+        "height_px": 1080
+      },
+      "pixel_density_ppi": 401,
+      "typical_contrast_ratio": "1300:1",
+      "typical_max_brightness_cd_m2": 500,
+      "colour_gamut": "Full sRGB",
+      "features": [
+        "Dual-domain pixels",
+        "Oleophobic coating",
+        "Display Zoom",
+        "Reachability"
+      ]
+    },
+    "processor": {
+      "chip": "Apple A8",
+      "architecture": "64-bit",
+      "motion_coprocessor": "M8"
+    },
+    "rear_camera": {
+      "resolution_mp": 8,
+      "pixel_size_microns": 1.5,
+      "aperture": "f/2.2",
+      "optical_image_stabilisation": true,
+      "features": [
+        "True Tone flash",
+        "Focus Pixels"
+      ]
+    },
+    "front_camera": {
+      "resolution_mp": 1.2,
+      "aperture": "f/2.2",
+      "video_resolution": "720p HD"
+    },
+    "video_recording": {
+      "standard": [
+        "1080p at 30 fps",
+        "1080p at 60 fps"
+      ],
+      "slow_motion_fps": [
+        120,
+        240
+      ]
+    },
+    "wireless": {
+      "wifi": "802.11a/b/g/n/ac",
+      "bluetooth": "4.2",
+      "nfc": true
+    },
+    "location": [
+      "Assisted GPS",
+      "GLONASS",
+      "Digital compass",
+      "Wi-Fi",
+      "Cellular",
+      "iBeacon microlocation"
+    ],
+    "battery": {
+      "type": "Lithium-ion",
+      "talk_time_3g_hours_up_to": 24,
+      "internet_use_hours_up_to": {
+        "3G": 12,
+        "LTE": 12,
+        "Wi-Fi": 12
+      },
+      "HD_video_playback_hours_up_to": 14,
+      "audio_playback_hours_up_to": 80,
+      "standby_days_up_to": 16
+    },
+    "sensors": [
+      "Touch ID",
+      "Barometer",
+      "3-axis gyroscope",
+      "Accelerometer",
+      "Proximity sensor",
+      "Ambient light sensor"
+    ],
+    "connectors": [
+      "Lightning connector",
+      "3.5 mm headphone jack"
+    ],
+    "sim": "Nano-SIM"
+  },
+  "source": {
+    "source_file": "sources/apple/iphone/iphone-6-generation/iphone-6-plus-source.md",
+    "source_type": "User-supplied source document",
+    "source_url": null,
+    "verification_status": "Not independently verified against Apple's website",
+    "notes": [
+      "This record is specifically for iPhone 6 Plus. Standard iPhone 6 must have its own separate record.",
+      "Some source sections refer to iPhone 6 and iPhone 6 Plus together; check applicability before using them in the standard iPhone 6 record.",
+      "This is an initial structured extraction, not yet a complete transcription of every source section. Consult the preserved Markdown for all cellular bands, audio/video formats, language lists, environmental details and footnotes."
+    ]
+  }
+}
