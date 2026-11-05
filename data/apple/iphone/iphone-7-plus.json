@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.0",
+  "product": {
+    "brand": "Apple",
+    "product_name": "iPhone 7 Plus",
+    "model": "iPhone 7 Plus",
+    "year_introduced": 2016
+  },
+  "source": {
+    "publisher": "Apple",
+    "document_title": "iPhone 7 Plus - Technical Specifications",
+    "source_type": "user_supplied_document",
+    "source_url": null,
+    "verification_status": "Transcribed from supplied document; source page URL not independently verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Sections preserve the supplied source text. This is not a fully normalized field-by-field specification; no missing values have been inferred."
+  },
+  "sections": [
+    {
+      "heading": "Finish",
+      "source_text": "- Rose Gold\n- Gold\n- Silver\n- Black\n- Jet Black1\n- (PRODUCT)RED™"
+    },
+    {
+      "heading": "Capacity2",
+      "source_text": "- 32GB\n- 128GB\n- 256GB\n\n*(PRODUCT)RED™ is exclusively available in 128GB and 256GB models.*"
+    },
+    {
+      "heading": "Size and Weight3",
+      "source_text": "- Height: 6.23 inches (158.2 mm)\n- Width: 3.07 inches (77.9 mm)\n- Depth: 0.29 inch (7.3 mm)\n- Weight: 6.63 ounces (188 grams)"
+    },
+    {
+      "heading": "Display",
+      "source_text": "- Retina HD display\n- 5.5-inch (diagonal) widescreen LCD\n- Multi-Touch display with IPS technology\n- 1920-by-1080-pixel resolution at 401 ppi\n- 1300:1 contrast ratio (typical)\n- Wide color display (P3)\n- 625 cd/m2 max brightness (typical)\n- Dual-domain pixels for wide viewing angles\n- Fingerprint-resistant oleophobic coating\n- Support for display of multiple languages and characters simultaneously\n- Display Zoom\n- Reachability"
+    },
+    {
+      "heading": "Splash, Water, and Dust Resistant4",
+      "source_text": "- Rated IP67 (maximum depth of 1 meter up to 30 minutes) under IEC standard 60529"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "- A10 Fusion chip"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "- Dual 12MP wide-angle and telephoto cameras\n- Wide-angle: ƒ/1.8 aperture\n- Telephoto: ƒ/2.8 aperture\n- 2x optical zoom; digital zoom up to 10x\n- Portrait mode\n- Optical image stabilization\n- Six‑element lens\n- Quad-LED True Tone flash\n- Panorama (up to 63MP)\n- Sapphire crystal lens cover\n- Backside illumination sensor\n- Hybrid IR filter\n- Autofocus with Focus Pixels\n- Tap to focus with Focus Pixels\n- Live Photos with stabilization\n- Wide color capture for photos and Live Photos\n- Improved local tone mapping\n- Exposure control\n- HDR for photos\n- Auto image stabilization\n- Burst mode\n- Timer mode\n- Photo geotagging\n- Image formats captured: HEIF and JPEG"
+    },
+    {
+      "heading": "Video Recording",
+      "source_text": "- 4K video recording at 30 fps\n- 1080p HD video recording at 30 fps or 60 fps\n- 720p HD video recording at 30 fps\n- Optical image stabilization for video\n- 2x optical zoom; digital zoom up to 6x (iPhone 7 Plus only)\n- Quad-LED True Tone flash\n- Slo‑mo video support for 1080p at 120 fps and 720p at 240 fps\n- Time‑lapse video with stabilization\n- Cinematic video stabilization (1080p and 720p)\n- Continuous autofocus video\n- Take 8MP still photos while recording 4K video\n- Playback zoom\n- Video geotagging\n- Video formats recorded: HEVC and H.264"
+    },
+    {
+      "heading": "FaceTime HD Camera",
+      "source_text": "- 7MP camera\n- 1080p HD video recording\n- Retina Flash\n- ƒ/2.2 aperture\n- Wide color capture for photos and Live Photos\n- HDR for photos\n- Backside illumination sensor\n- Auto image stabilization\n- Burst mode\n- Exposure control\n- Timer mode"
+    },
+    {
+      "heading": "Touch ID",
+      "source_text": "- Fingerprint sensor built into the Home button"
+    },
+    {
+      "heading": "Apple Pay",
+      "source_text": "- Pay with your iPhone using Touch ID in stores, within apps, and on the web\n- Send and receive money in Messages\n- Complete purchases made with Apple Pay on your Mac\n\n[Learn more about Apple Pay](https://www.apple.com/uk/apple-pay/)"
+    },
+    {
+      "heading": "Cellular and Wireless",
+      "source_text": "- **Model A1661\\***\n  - FDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30)\n  - TD-LTE (Bands 38, 39, 40, 41)\n  - TD-SCDMA 1900 (F), 2000 (A)\n  - CDMA EV-DO Rev. A (800, 1900, 2100 MHz)\n  - UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\n  - GSM/EDGE (850, 900, 1800, 1900 MHz)\n- **Model A1784\\***\n  - FDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30)\n  - TD-LTE (Bands 38, 39, 40, 41)\n  - UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\n  - GSM/EDGE (850, 900, 1800, 1900 MHz)\n- **All models**\n  - 802.11ac Wi‑Fi with MIMO\n  - Bluetooth 4.2 wireless technology\n  - NFC with reader mode\n  - Express Cards"
+    },
+    {
+      "heading": "Location",
+      "source_text": "- Assisted GPS, GLONASS, Galileo, and QZSS\n- Digital compass\n- Wi-Fi\n- Cellular\n- iBeacon microlocation"
+    },
+    {
+      "heading": "Video Calling5",
+      "source_text": "- FaceTime video calling over Wi‑Fi or cellular"
+    },
+    {
+      "heading": "Audio Calling5",
+      "source_text": "- FaceTime audio\n- Voice over LTE (VoLTE)6\n- Wi‑Fi calling6"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "- Audio formats supported: AAC-LC, HE-AAC, HE-AAC v2, Protected AAC, MP3, Linear PCM, Apple Lossless, FLAC, Dolby Digital (AC-3), Dolby Digital Plus (E-AC-3), and Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+)\n- User-configurable maximum volume limit"
+    },
+    {
+      "heading": "Video Playback",
+      "source_text": "- Video formats supported: HEVC, H.264, MPEG-4 Part 2, and Motion JPEG\n- AirPlay Mirroring, photos, and video out to Apple TV (2nd generation or later)7\n- Video mirroring and video out support: Up to 1080p through Lightning Digital AV Adapter and Lightning to VGA Adapter (adapters sold separately)7"
+    },
+    {
+      "heading": "Siri8",
+      "source_text": "- Use your voice to send messages, set reminders, and more\n- Get intelligent suggestions on your Lock screen and in Messages, Mail, QuickType, and more\n- Activate hands-free with only your voice using “Hey Siri”\n- Use your voice to run shortcuts from your favorite apps\n\n[Learn more about Siri](https://www.apple.com/uk/ios/siri/)"
+    },
+    {
+      "heading": "External Buttons and Connectors",
+      "source_text": "- Home/Touch ID sensor\n- Volume up/down\n- Ring/Silent switch\n- Side button\n- Built-in stereo speaker\n- Built-in microphone\n- Lightning connector"
+    },
+    {
+      "heading": "Power and Battery9",
+      "source_text": "Lasts up to 1 hour longer than iPhone 6s Plus\n\n- Talk time (wireless): Up to 21 hours on 3G\n- Standby: Up to 16 days\n- Internet use: Up to 13 hours on 3G, Up to 13 hours on LTE, Up to 15 hours on Wi-Fi\n- Wireless video playback: Up to 14 hours\n- Wireless audio playback: Up to 60 hours\n- Built-in rechargeable lithium-ion battery\n- Charging via USB to computer system or power adapter"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "- Touch ID fingerprint sensor\n- Barometer\n- Three-axis gyro\n- Accelerometer\n- Proximity sensor\n- Ambient light sensor"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "**iOS 12**\n\niOS is the world’s most personal and secure mobile operating system, packed with powerful features that help you get the most out of every day.\n\n[See what’s new in iOS](https://www.apple.com/uk/ios/ios-16/)"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new iPhone 7. With built-in support for vision, hearing, physical and motor skills, and learning and literacy, you can fully enjoy the world’s most personal device. [Learn more about Accessibility](https://www.apple.com/uk/accessibility/)\n\nFeatures include:\n\n- VoiceOver\n- Zoom\n- Magnifier\n- RTT and TTY support\n- Siri and Dictation\n- Type to Siri\n- Switch Control\n- Closed Captions\n- AssistiveTouch\n- Speak Screen"
+    },
+    {
+      "heading": "Built-in Apps",
+      "source_text": "- Camera\n- Photos\n- Health\n- Messages\n- Phone\n- FaceTime\n- Mail\n- Music\n- Wallet\n- Safari\n- Maps\n- Siri\n- Calendar\n- iTunes Store\n- App Store\n- Notes\n- News\n- Contacts\n- Books\n- Home\n- Weather\n- Reminders\n- Clock\n- TV\n- Stocks\n- Calculator\n- Voice Memos\n- Compass\n- Podcasts\n- Watch\n- Tips\n- Find My iPhone\n- Find My Friends\n- Settings\n- Files\n- Measure"
+    },
+    {
+      "heading": "Free Apps from Apple",
+      "source_text": "Pages, Numbers, Keynote, iMovie, GarageBand, iTunes U, Clips, and Apple Store app are preinstalled.\n\n- iMovie\n- Pages\n- Keynote\n- Numbers\n- iTunes U\n- GarageBand\n- Apple Store\n- Trailers\n- Apple TV Remote\n- iTunes Remote\n- Music Memos\n- Clips\n- Shortcuts"
+    },
+    {
+      "heading": "Headphones",
+      "source_text": "- EarPods with Lightning Connector"
+    },
+    {
+      "heading": "SIM Card",
+      "source_text": "- Nano-SIM\n  - *iPhone 7 and iPhone 7 Plus are not compatible with existing micro-SIM cards.*"
+    },
+    {
+      "heading": "Rating for Hearing Aids",
+      "source_text": "- iPhone 7 Plus (Model A1661, A1784): M3, T4"
+    },
+    {
+      "heading": "Mail Attachment Support",
+      "source_text": "- **Viewable document types**\n  - .jpg, .tiff, .gif (images); .doc and .docx (Microsoft Word); .htm and .html (web pages); .key (Keynote); .numbers (Numbers); .pages (Pages); .pdf (Preview and Adobe Acrobat); .ppt and .pptx (Microsoft PowerPoint); .txt (text); .rtf (rich text format); .vcf (contact information); .xls and .xlsx (Microsoft Excel); .zip; .ics; .usdz (USDZ Universal)"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "- Apple ID (required for some features)\n- Internet access10\n\nSyncing with iTunes on a Mac or PC requires:\n\n- Mac: OS X 10.11.6 or later\n- PC: Windows 7 or later\n- iTunes 12.8 or later on Mac and iTunes 12.9 or later on PC (free download from [www.itunes.com/uk/download](https://www.apple.com/uk/itunes/download/))"
+    },
+    {
+      "heading": "Environmental Requirements",
+      "source_text": "- Operating ambient temperature: 32° to 95° F (0° to 35° C)\n- Nonoperating temperature: ‑4° to 113° F (‑20° to 45° C)\n- Relative humidity: 5% to 95% noncondensing\n- Operating altitude: tested up to 10,000 feet (3000 m)"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "- **Language support**\n  - English (Australia, UK, U.S.), Chinese (Simplified, Traditional, Traditional Hong Kong), French (Canada, France), German, Italian, Japanese, Korean, Spanish (Latin America, Mexico, Spain), Arabic, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hindi, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\n- **QuickType keyboard support**\n  - English (Australia, Canada, India, Singapore, UK, U.S.), Chinese - Simplified (Handwriting, Pinyin, Stroke), Chinese - Traditional (Cangjie, Handwriting, Pinyin, Stroke, Sucheng, Zhuyin), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese (Kana, Romaji), Korean, Spanish (Latin America, Mexico, Spain), Arabic (Modern Standard, Najdi), Armenian, Azerbaijani, Belarusian, Bengali, Bulgarian, Catalan, Cherokee, Croatian, Czech, Danish, Dutch, Emoji, Estonian, Filipino, Finnish, Flemish, Georgian, Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari, Transliteration), Hinglish, Hungarian, Icelandic, Indonesian, Irish, Kannada, Latvian, Lithuanian, Macedonian, Malay, Malayalam, Maori, Marathi, Norwegian, Odia, Persian, Polish, Portuguese (Brazil, Portugal), Punjabi, Romanian, Russian, Serbian (Cyrillic, Latin), Slovak, Slovenian, Swahili, Swedish, Tamil (Script, Transliteration), Telugu, Thai, Tibetan, Turkish, Ukrainian, Urdu, Vietnamese, Welsh\n- **QuickType keyboard support with predictive input**\n  - English (Australia, Canada, India, Singapore, UK, U.S.), Chinese (Simplified, Traditional), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese, Korean, Russian, Spanish (Latin America, Mexico, Spain), Portuguese (Brazil, Portugal), Thai, Turkish\n- **Siri languages**\n  - English (Australia, Canada, India, Ireland, New Zealand, Singapore, South Africa, UK, U.S.), Spanish (Chile, Mexico, Spain, U.S.), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (China mainland, Hong Kong), Arabic (Saudi Arabia, United Arab Emirates), Danish (Denmark), Dutch (Belgium, Netherlands), Finnish (Finland), Hebrew (Israel), Malay (Malaysia), Norwegian (Norway), Portuguese (Brazil), Russian (Russia), Swedish (Sweden), Thai (Thailand), Turkish (Türkiye)\n- **Dictation languages**\n  - English (Australia, Canada, India, Indonesia, Ireland, Malaysia, New Zealand, Philippines, Saudi Arabia, Singapore, South Africa, United Arab Emirates, UK, U.S.), Spanish (Argentina, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Panama, Paraguay, Peru, Spain, Uruguay, U.S.), French (Belgium, Canada, France, Luxembourg, Switzerland), German (Austria, Germany, Luxembourg, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (China mainland, Hong Kong, Macao), Arabic (Kuwait, Qatar, Saudi Arabia, United Arab Emirates), Catalan, Croatian, Czech, Danish, Dutch (Belgium, Netherlands), Finnish, Greek, Hebrew, Hindi (India), Hungarian, Indonesian, Malaysian, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Shanghainese (China mainland), Slovakian, Swedish, Thai, Turkish, Ukrainian, Vietnamese\n- **Definition dictionary support**\n  - English, Chinese (Simplified, Traditional), Danish, Dutch, French, German, Hebrew, Hindi, Italian, Japanese, Korean, Norwegian, Portuguese, Russian, Spanish, Swedish, Thai, Turkish\n- **Thesaurus**\n  - English (UK, U.S.)\n- **Bilingual dictionary support with English**\n  - Arabic, Chinese (Simplified, Traditional), Dutch, French, German, Hindi, Italian, Japanese, Korean, Portuguese, Russian, Spanish\n- **Spell check**\n  - English, French, German, Italian, Spanish, Danish, Dutch, Finnish, Korean, Norwegian, Polish, Portuguese, Russian, Swedish, Turkish"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "- iPhone with iOS 12\n- EarPods with Lightning Connector\n- Lightning to USB Cable\n- USB Power Adapter\n- Documentation"
+    },
+    {
+      "heading": "iPhone and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact. [Learn more about iPhone and the Environment](http://www.apple.com/uk/environment/)\n\niPhone 7 and iPhone 7 Plus embody Apple’s continuing environmental progress. They are designed with the following features to reduce environmental impact:\n\n- Arsenic-free display glass\n- Mercury-free LED-backlit display\n- Brominated flame retardant‑free\n- PVC-free\n- Recyclable aluminum enclosure\n\n**Apple and the Environment**\n\n[Learn more about Apple’s dedication to reducing the environmental impact of our products and process](http://www.apple.com/uk/environment/). Or read our [Product Environmental Reports](https://www.apple.com/uk/environment/reports/) for detailed information on the environmental performance of every Apple product.\n\n**Apple GiveBack**\n\nIf you’re ready for your next iPhone, Apple GiveBack is a great way to let go of your old one. If it’s in good shape, you can trade it in for Apple Store credit. If it’s not eligible for credit, we’ll recycle it responsibly at no cost to you. Good for you. Good for the planet.\n\n[See how it works](https://www.apple.com/uk/shop/goto/trade_in)\n\n\\* To identify your iPhone model number, see [http://support.apple.com/en-gb/HT3939](https://support.apple.com/en-gb/HT201296). For details on LTE support, contact your carrier and see [www.apple.com/uk/iphone/LTE](https://www.apple.com/uk/iphone/LTE/). Cellular technology support is based on iPhone model number and configuration for either CDMA or GSM networks.\n\n1. The high-gloss finish of the jet black iPhone 7 is achieved through a precision nine-step anodization and polishing process. Its surface is equally as hard as other anodized Apple products; however, its high shine may show fine micro-abrasions with use. If you are concerned about this, we suggest you use one of the many cases available to protect your iPhone.\n2. Available space is less and varies due to many factors. A standard configuration uses approximately 10GB to 12GB of space (including iOS and preinstalled apps) depending on the model and settings. Preinstalled apps use about 4GB, and you can delete these apps and restore them.\n3. Size and weight vary by configuration and manufacturing process.\n4. iPhone 7 and iPhone 7 Plus are splash, water, and dust resistant and were tested under controlled laboratory conditions with a rating of IP67 under IEC standard 60529 (maximum depth of 1 meter up to 30 minutes). Splash, water, and dust resistance are not permanent conditions and resistance might decrease as a result of normal wear. Do not attempt to charge a wet iPhone; refer to the user guide for cleaning and drying instructions. Liquid damage not covered under warranty.\n5. FaceTime calling requires a FaceTime-enabled device for the caller and recipient and a Wi-Fi connection. Availability over a cellular network depends on carrier policies; data charges may apply.\n6. Data plan required. LTE Advanced, LTE, VoLTE, and Wi-Fi calling are available in select markets and through select carriers. Speeds are based on theoretical throughput and vary based on site conditions and carrier. For details on LTE support, contact your carrier and see [www.apple.com/uk/iphone/LTE](https://www.apple.com/uk/iphone/LTE/).\n7. Standard Dynamic Range video content only.\n8. Siri may not be available in all languages or in all areas, and features may vary by area. Internet access required. Cellular data charges may apply.\n9. All battery claims depend on network configuration and many other factors; actual results will vary. Battery has limited recharge cycles and may eventually need to be replaced by Apple service provider. Battery life and charge cycles vary by use and settings. See [www.apple.com/uk/batteries](https://www.apple.com/uk/batteries/) and [www.apple.com/uk/iphone/battery.html](https://www.apple.com/uk/iphone/battery.html) for more information.\n10. Wireless broadband recommended; fees may apply."
+    }
+  ]
+}
