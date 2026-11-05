@@ -1,22 +1,43 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "product": {
     "brand": "Apple",
-    "product_name": "iPhone 12 mini",
+    "category": "smartphone",
+    "family": "iPhone",
     "model": "iPhone 12 mini",
-    "year_introduced": 2020
+    "model_slug": "iphone-12-mini",
+    "model_year": 2020,
+    "year_introduced": 2020,
+    "finishes": [
+      "Black",
+      "White",
+      "(PRODUCT)RED",
+      "Green",
+      "Blue",
+      "Purple"
+    ],
+    "storage_options": [
+      "64GB",
+      "128GB",
+      "256GB"
+    ]
   },
   "source": {
-    "publisher": "Apple",
-    "document_title": "iPhone 12 mini - Technical Specifications",
     "source_type": "user_supplied_document",
     "source_url": null,
-    "verification_status": "Transcribed from supplied document; source URL not independently verified."
+    "source_title": "iPhone 12 mini - Technical Specifications",
+    "publisher": "Apple (as named in supplied document)",
+    "published_at": null,
+    "checked_at": null,
+    "verification_status": "not_checked",
+    "verification_notes": "Original supplied document retained. Canonical Apple source URL and full content have not been independently checked."
   },
   "extraction": {
     "method": "section_preserving",
-    "normalization_status": "archival_first_pass",
-    "note": "Sections preserve supplied source text and footnotes. This is not a fully normalized field-by-field specification; no missing values have been inferred."
+    "normalization_status": "partially_normalized",
+    "note": "Original source sections retained. Limited normalized fields are transcribed from archived source text and are not independently verified.",
+    "extracted_at": "2026-11-05",
+    "reviewed_at": null
   },
   "sections": [
     {
@@ -155,5 +176,76 @@
       "heading": "**iPhone and the Environment**",
       "source_text": "iPhone 12 and iPhone 12 mini are designed with the following features to reduce their environmental impact.17[See the iPhone 12 and iPhone 12 mini Product Environmental Reports](https://www.apple.com/uk/environment/#reports-product)\n\n**Made with better materials**\n\n- 100% recycled tungsten in the Taptic Engine, representing 99% of the tungsten in the device\n- 100% recycled rare earth elements in all magnets, representing 98% of the rare earth elements in the device\n- 100% recycled tin in the solder of the main logic board\n- 35% or more recycled plastic in multiple components\n\n**Energy efficient**\n\n- Meets U.S. Department of Energy requirements for battery charger systems18\n\n**Smarter chemistry19**\n\n- Arsenic-free display glass\n- Mercury-, BFR-, PVC-, and beryllium‑free\n\n**Green manufacturing**\n\n- Apple’s Zero Waste Program helps suppliers eliminate waste sent to landfill\n- All final assembly supplier sites are transitioning to 100% renewable energy for Apple production\n\n**Responsible packaging**\n\n- 100% of virgin wood fiber comes from responsibly managed forests\n- 90% or more fiber‑based packaging\n\n**Apple and the Environment**\n\nWe’re committed to making our products without taking from the earth, and to become carbon neutral across our entire business, including products, by 2030. [See Apple’s commitment](https://www.apple.com/uk/environment/)\n\n\\* To identify your iPhone model number, see [support.apple.com/en-gb/HT3939](https://support.apple.com/en-gb/HT3939). For details on 5G and LTE support, contact your carrier and see [apple.com/uk/iphone/cellular](https://www.apple.com/uk/iphone/cellular/). Cellular technology support is based on iPhone model number and configuration for either CDMA or GSM networks.\n\n1. Available space is less and varies due to many factors. A standard configuration uses approximately 12GB to 17GB of space, including iOS 15 with its latest features and Apple apps that can be deleted. Apple apps that can be deleted use about 4.5GB of space, and you can download them back from the App Store. Storage capacity subject to change based on software version, settings, and iPhone model.\n2. Size and weight vary by configuration and manufacturing process.\n3. iPhone 12 and iPhone 12 mini are splash, water, and dust resistant and were tested under controlled laboratory conditions with a rating of IP68 under IEC standard 60529 (maximum depth of 6 meters up to 30 minutes). Splash, water, and dust resistance are not permanent conditions. Resistance might decrease as a result of normal wear. Do not attempt to charge a wet iPhone; refer to the user guide for cleaning and drying instructions. Liquid damage not covered under warranty.\n4. Sending and receiving money with Apple Pay and the Apple Cash card are services provided by Green Dot Bank, Member FDIC. Learn more about the Terms and Conditions.\n5. Available only in select cities and transit systems. Requires eligible device and OS version. See [https://support.apple.com/en-gb/HT209495](https://support.apple.com/en-gb/HT209495) for details.\n6. Data plan required. 5G, Gigabit LTE, LTE, VoLTE, and Wi-Fi calling are available in select markets and through select carriers. Speeds are based on theoretical throughput and vary based on site conditions and carrier. For details on 5G and LTE support, contact your carrier and see [apple.com](https://www.apple.com/uk/iphone/cellular/)[/uk/](http://www.apple.com/uk/iphone/cellular/)[iphone/cellular.](https://www.apple.com/uk/iphone/cellular/)\n7. Ultra Wideband availability varies by region.\n8. FaceTime calling requires a FaceTime‑enabled device for the caller and recipient and a Wi‑Fi connection. Availability over a cellular network depends on carrier policies; data charges may apply.\n9. Standard Dynamic Range video content only.\n10. Siri may not be available in all languages or in all areas, and features may vary by area. Internet access required. Cellular data charges may apply.\n11. All battery claims depend on network configuration and many other factors; actual results will vary. Battery has limited recharge cycles and may eventually need to be replaced. Battery life and charge cycles vary by use and settings. See [apple.com/uk/batteries](https://www.apple.com/uk/batteries/) and [apple.com/uk/iphone/battery.html](https://www.apple.com/uk/iphone/battery.html) for more information.\n12. Wireless chargers sold separately.\n13. Testing conducted by Apple in September 2020 using preproduction iPhone 12 mini and iPhone 12 units and software and accessory Apple USB-C Power Adapter (20W Model A2305). Fast-charge testing conducted with drained iPhone units. Charge time varies with settings and environmental factors; actual results will vary.\n14. Use of eSIM requires a wireless service plan (which may include restrictions on switching service providers and roaming, even after contract expiration). Not all carriers support eSIM. Use of eSIM in iPhone may be disabled when purchased from some carriers. See your carrier for details. To learn more, visit [https://support.apple.com/en-gb/HT212780](https://support.apple.com/en-gb/HT212780).\n15. Wireless broadband recommended; fees may apply.\n16. In China mainland, you can use Apple Pay on the web in Safari only on compatible iPhone and iPad models using iOS 11.2 or later.\n17. Data accurate as of product launch.\n18. Efficiency performance is based on the U.S. Department of Energy Federal Energy Conservation Standards for Battery Chargers.\n19. Apple defines its restrictions on harmful substances, including definitions for what Apple considers to be “free of,” in the [Apple Regulated Substances Specification.](https://www.apple.com/environment/pdf/Apple_Regulated_Substances_Specification_Sept2018.pdf) Every Apple product is free of PVC and phthalates with the exception of AC power cords in India, Thailand (for two-prong AC power cords), and South Korea, where we continue to seek government approval for our PVC and phthalates replacement."
     }
-  ]
+  ],
+  "normalized_specifications": {
+    "dimensions": {
+      "width": {
+        "value": 64.2,
+        "unit": "mm",
+        "source_section": "Size and Weight2",
+        "verification_status": "source_transcribed"
+      },
+      "height": {
+        "value": 131.5,
+        "unit": "mm",
+        "source_section": "Size and Weight2",
+        "verification_status": "source_transcribed"
+      },
+      "depth": {
+        "value": 7.4,
+        "unit": "mm",
+        "source_section": "Size and Weight2",
+        "verification_status": "source_transcribed"
+      },
+      "weight": {
+        "value": 135,
+        "unit": "g",
+        "source_section": "Size and Weight2",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "display": {
+      "diagonal": {
+        "value": 5.4,
+        "unit": "in",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "resolution": {
+        "value": "2340 × 1080",
+        "unit": "pixels",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "pixel_density": {
+        "value": 476,
+        "unit": "ppi",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "processor": {
+      "chip": {
+        "value": "A14 Bionic",
+        "unit": null,
+        "source_section": "Chip",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "durability": {
+      "ip_rating": {
+        "value": "IP68",
+        "unit": null,
+        "source_section": "Splash, Water and Dust Resistant3",
+        "verification_status": "source_transcribed"
+      },
+      "water_depth_max": {
+        "value": 6,
+        "unit": "m",
+        "source_section": "Splash, Water and Dust Resistant3",
+        "verification_status": "source_transcribed",
+        "notes": "Up to 30 minutes under IEC standard 60529."
+      }
+    }
+  }
 }
