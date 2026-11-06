@@ -269,3 +269,8 @@ Completed section-level source and footnote reviews for iPhone 14, iPhone 14 Plu
 ### Addendum — 6 November 2026: iPhone 12 mini/Pro family and iPhone 13/Pro Max
 
 Reviewed the full specification pages and footnotes for iPhone 12 mini, iPhone 12 Pro, iPhone 12 Pro Max, iPhone 13 and iPhone 13 Pro Max. Rebuilt section arrays from archived Markdown, checked existing normalized fields, and added battery, wireless and connector fields. Regional model numbers are noted as displayed on the page without assuming that every listed variant is sold in Ireland. Embedded outbound link destinations remain pending.
+
+
+### Addendum — 6 November 2026: iPhone 11 family, XR and XS family
+
+Completed source-section and footnote reviews for iPhone 11, iPhone 11 Pro, iPhone 11 Pro Max, iPhone XR, iPhone XS and iPhone XS Max. Rebuilt section arrays from the retained Markdown, checked existing core specifications, and added battery-life, wireless, charging-connector, and in-box adapter fields with source-section references. Model numbers shown on Apple’s page are recorded with notes where they are regional variants rather than Irish retail SKU mappings. Embedded outbound links remain pending.
