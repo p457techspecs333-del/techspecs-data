@@ -73,7 +73,7 @@ This register tracks verification of the 50 product JSON records in `data/apple/
 | iPhone Air | `url_checked` | https://support.apple.com/en-ie/125092 | pending |
 | iPhone 18 Pro | `partially_verified` | https://www.apple.com/ie/iphone-18-pro/specs/ | 30 core normalized fields added as partial; direct page/footnote audit pending |
 | iPhone 18 Pro Max | `partially_verified` | https://www.apple.com/ie/iphone-18-pro/specs/ | 30 core normalized fields added as partial; direct page/footnote audit pending |
-| iPhone Duo | `url_checked` | https://images.apple.com/ie/iphone-duo/specs/ | official spec page surfaced; full model-specific audit pending |
+| iPhone Duo | `partially_verified` | https://images.apple.com/ie/iphone-duo/specs/ | 46 core normalized fields added as partial; direct page/footnote audit pending |
 
 ## Repository integrity issues already identified
 
@@ -115,3 +115,8 @@ The official [iPhone 13 Pro technical specifications page](https://support.apple
 ## Addendum — 6 November 2026: iPhone 18 Pro model-specific fields
 
 The official Apple Ireland specifications page was found in search-indexed content, but direct page retrieval returned a cache miss. Added 30 core normalized fields to each of the iPhone 18 Pro and iPhone 18 Pro Max records, including separate model numbers (A3714 and A3717), dimensions, display, chip, camera, battery and connectivity. These values are marked `partially_verified` because the direct page and full source-text/footnote comparison remain outstanding. The shared source page is valid as a reference, but each model's values must remain separate.
+
+
+## Addendum — 6 November 2026: iPhone Duo
+
+Added 46 core normalized fields across eight groups, including open/closed dimensions, inner/outer displays, chip, cameras, battery, charging and connectivity. The official Apple specifications content is available in search-indexed results, but direct retrieval returned a cache miss. The fields are therefore marked `partially_verified`; full source text, footnotes and links still need direct review.
