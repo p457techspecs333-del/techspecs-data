@@ -23,14 +23,14 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-ie/121029",
+    "source_url": "https://www.apple.com/ie/iphone-16/specs/",
     "source_file": "sources/apple/iphone/iphone-16-generation/iphone-16-source.md",
-    "source_title": "iPhone 16 - Tech Specs",
-    "publisher": "Apple Support (Ireland)",
+    "source_title": "iPhone 16 - Technical Specifications",
+    "publisher": "Apple",
     "published_at": null,
-    "checked_at": "2026-11-05",
-    "verification_status": "content_verified",
-    "verification_notes": "The official Apple Support technical-specifications page was located and checked for the normalized fields listed below. This does not certify every item in the preserved source sections; the source archive remains a transcription and has not been line-by-line audited.",
+    "checked_at": "2026-11-06",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple product technical-specifications page located and checked for model match on 2026-11-06. Individual normalized specifications have not yet been fully audited against the page.",
     "notes": [
       "Source Markdown is preserved verbatim in the sections array. URL is the official Apple Support Ireland technical-specifications page."
     ]
