@@ -92,3 +92,11 @@ This register tracks verification of the 50 product JSON records in `data/apple/
 - [ ] `source_url`, `source_file`, publisher, checked date, and verification notes are accurate.
 - [ ] Verification status updated conservatively; unresolved conflicts documented.
 - [ ] CI schema validation passes (structural validation only; not factual verification).
+
+
+## Addendum — 6 November 2026: repository integrity pass
+
+- Corrected the source archive references for iPhone SE (2nd generation) and iPhone SE (3rd generation) to point to the existing Markdown files under `sources/apple/iphone/iphone-se-generation/`.
+- Latest validator run [#133](https://github.com/p457techspecs333-del/techspecs-data/actions/runs/42206257660) passed for all 50 records with **0 schema errors and 0 warnings**.
+- This CI result confirms structural validation and source-file path integrity only; it does not certify the factual accuracy of the other 48 records.
+- iPhone 6 and iPhone 16e source sections and footnotes have now been reviewed against their official pages; their source text still needs the embedded outbound-link audit and no normalized specification fields have been added yet.
