@@ -12,3 +12,36 @@ This register tracks every distinct external URL embedded in the 50 iPhone JSON 
 
 ## Link inventory
 
+
+| URL | Occurrences | Status | Notes |
+|---|---:|---|---|
+| https://www.apple.com/uk/apple-pay/ | 6 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| https://www.apple.com/apple-cash/ | 2 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| https://www.apple.com/uk/iphone/LTE/ | 7 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| https://www.apple.com/uk/ios/siri/ | 3 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| https://www.apple.com/uk/ios/ | 1 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| http://www.apple.com/uk/accessibility/iphone/ | 5 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| https://support.apple.com/en-gb/HT212780 | 10 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| https://www.apple.com/uk/itunes/download/ | 1 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| https://www.apple.com/uk/environment/ | 9 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| https://www.apple.com/uk/environment/#reports-product | 4 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| https://support.apple.com/en-gb/HT3939 | 9 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| https://www.apple.com/uk/iphone/cellular/ | 10 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| https://applecash.greendot.com/termsconditions/ | 1 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| https://support.apple.com/en-gb/HT209495 | 3 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| https://www.apple.com/uk/batteries/ | 6 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| https://www.apple.com/uk/iphone/battery.html | 6 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| https://www.regulations.gov/document/EERE-2008-BT-STD-0005-0256 | 1 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| https://www.apple.com/environment/pdf/Apple_Regulated_Substances_Specification_Sept2018.pdf | 2 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| https://www.apple.com/uk/ios/ios-12-preview/ | 2 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| http://www.itunes.com/uk/download | 2 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| http://www.apple.com/uk/environment/ | 1 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| https://www.apple.com/uk/environment/our-approach/#reports-product | 2 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| https://www.apple.com/uk/ios/feature-availability/ | 2 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| https://support.apple.com/en-gb/HT209044 | 6 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| https://www.apple.com/uk/accessibility/iphone/ | 1 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| https://www.apple.com/uk/siri/ | 3 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| https://www.apple.com/uk/ios/ios-15/ | 1 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| https://www.apple.com/uk/itunes/?ref=http://itunes.com | 3 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| http://www.apple.com/uk/iphone/cellular/ | 1 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
+| https://www.apple.com/uk/ios/ios-14/ | 2 | pending | First seen in batch iphone-11, iphone-11-pro, iphone-11-pro-max, iphone-12, iphone-12-mini, iphone-12-pro, iphone-12-pro-max |
