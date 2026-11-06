@@ -1,0 +1,59 @@
+{
+  "interface_version": "1.0",
+  "name": "TechSpecs Machine Retrieval Interface",
+  "purpose": "machine_readability",
+  "access": {
+    "mode": "read_only",
+    "allowed_methods": [
+      "GET"
+    ],
+    "authentication_required": false
+  },
+  "canonical_data_host": "https://data.techspecs.dev",
+  "discovery_order": [
+    "https://data.techspecs.dev/api-manifest.json",
+    "https://data.techspecs.dev/catalogue.json",
+    "https://data.techspecs.dev/schemas/product-record-v2.schema.json"
+  ],
+  "resources": {
+    "catalogue": {
+      "url": "https://data.techspecs.dev/catalogue.json",
+      "format": "application/json",
+      "description": "Authoritative index of published product records and their canonical URLs."
+    },
+    "product_record_schema": {
+      "url": "https://data.techspecs.dev/schemas/product-record-v2.schema.json",
+      "format": "application/schema+json",
+      "description": "JSON Schema describing the product record structure."
+    },
+    "machine_reading_instructions": {
+      "url": "https://data.techspecs.dev/llms.txt",
+      "format": "text/plain",
+      "description": "Instructions for AI systems and other automated readers."
+    },
+    "sitemap": {
+      "url": "https://data.techspecs.dev/sitemap.xml",
+      "format": "application/xml",
+      "description": "Published machine-readable resource URLs."
+    }
+  },
+  "record_retrieval": {
+    "method": "GET",
+    "discovery_source": "catalogue.records[].url",
+    "rule": "Retrieve the exact URL supplied by the catalogue. Do not infer record URLs or assume an unlisted product exists.",
+    "response_format": "application/json",
+    "record_schema": "https://data.techspecs.dev/schemas/product-record-v2.schema.json"
+  },
+  "interpretation": {
+    "provenance": "Use each record's source object and retained sections to distinguish source evidence from normalized fields.",
+    "verification": "Verification status describes the checks recorded for a field or source; it is not a blanket guarantee.",
+    "missing_values": "Do not infer values for missing, null, unknown, unverified or not-applicable fields.",
+    "derived_values": "Treat derived values as derived only where the record explicitly identifies their method and inputs."
+  },
+  "limitations": [
+    "This is a static, read-only data interface, not a dynamic query API.",
+    "Search and filtering are performed by retrieving and processing the catalogue and records.",
+    "No write, submission, update or deletion operations are exposed."
+  ],
+  "canonical_repository": "https://github.com/p457techspecs333-del/techspecs-data"
+}
