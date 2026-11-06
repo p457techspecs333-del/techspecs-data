@@ -21,14 +21,14 @@
     ]
   },
   "source": {
-    "source_type": "user_supplied_document",
-    "source_url": null,
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111874",
     "source_title": "iPhone 12 Pro Max - Technical Specifications",
-    "publisher": "Apple (as named in supplied document)",
+    "publisher": "Apple Support",
     "published_at": null,
-    "checked_at": null,
-    "verification_status": "not_checked",
-    "verification_notes": "Original supplied document retained. Canonical Apple source URL and full content have not been independently checked."
+    "checked_at": "2026-11-06",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple technical-specifications page located and checked for model match on 2026-11-06. Individual normalized specifications have not yet been fully audited against the page."
   },
   "extraction": {
     "method": "section_preserving",
