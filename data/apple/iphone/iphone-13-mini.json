@@ -23,14 +23,14 @@
     ]
   },
   "source": {
-    "source_type": "user_supplied_document",
-    "source_url": null,
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111873",
     "source_title": "iPhone 13 mini - Technical Specifications",
-    "publisher": "Apple (as named in supplied document)",
+    "publisher": "Apple Support",
     "published_at": null,
-    "checked_at": null,
-    "verification_status": "not_checked",
-    "verification_notes": "The archived document identifies Apple as publisher, but its canonical source URL has not been independently checked. The Apple support URL previously inferred from the model sequence has therefore not been retained as a verified source."
+    "checked_at": "2026-11-06",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple technical-specifications page located and checked for model match on 2026-11-06. Individual normalized specifications have not yet been fully audited against the page."
   },
   "extraction": {
     "method": "section_preserving",
