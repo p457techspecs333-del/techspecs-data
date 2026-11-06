@@ -210,3 +210,12 @@ The JSON records use the v2 archival-first structure, point to the preserved Mar
 The Ireland Apple Support pages for [iPhone 6](https://support.apple.com/en-ie/111954) and [iPhone 16e](https://support.apple.com/en-ie/122208) were opened and their titles/model identities confirmed. Core specifications were compared against the live pages: finish, capacities, dimensions and weight, display, processor, camera/video capabilities, connectivity, battery/charging, and major hardware features. No discrepancy was found in the core fields reviewed.
 
 Both records now use `partially_verified`, with the check date and scope recorded in their provenance metadata. This is **not** a claim that every section, footnote, link, or normalized field has been verified. Full long-form transcription and normalized-field audits remain open.
+
+
+### Addendum — 6 November 2026: verification register and clean CI
+
+Created `reports/iphone-verification-register-2026-11-06.md` to track the full 50-record iPhone catalogue separately from comparison work. The register distinguishes URL checks, section-level source-content checks, normalized-field verification, embedded-link checks, and provenance integrity.
+
+The iPhone 6 and iPhone 16e records have completed a full section/footnote content review against their official Apple Support Ireland pages. Their JSON section headings and source text match their archived Markdown exactly. Embedded outbound links have not all been individually checked, and neither record yet has a normalized specification object; those tasks remain open.
+
+The source-file references for iPhone SE (2nd generation) and iPhone SE (3rd generation) were corrected. GitHub Actions run [#133](https://github.com/p457techspecs333-del/techspecs-data/actions/runs/42206257660) validates all 50 JSON records with zero schema errors and zero warnings. This is a structural result, not a claim that the remaining records are factually verified.
