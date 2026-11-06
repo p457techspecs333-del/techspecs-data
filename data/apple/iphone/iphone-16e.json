@@ -25,7 +25,7 @@
   },
   "extraction": {
     "method": "section_preserving",
-    "normalization_status": "archival_first_pass_partially_source_checked",
+    "normalization_status": "archival_first_pass",
     "note": "Section-preserving archival transcription from the user-supplied Markdown file. On 2026-11-06, the Ireland Apple Support URL and core specifications were checked against the live page; no discrepancy was found in the reviewed core fields. Full section-by-section, footnote, link, and normalized-field verification remains pending.",
     "extracted_at": "2026-11-06",
     "reviewed_at": "2026-11-06"
