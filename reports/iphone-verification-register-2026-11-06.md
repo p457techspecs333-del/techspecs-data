@@ -14,7 +14,7 @@ This register tracks verification of the 50 product JSON records in `data/apple/
 ## Current snapshot
 
 - Catalogue size: **50 JSON records**.
-- Full section-level content reviewed in this pass: **10** — iPhone 6 (33 sections), iPhone 12 (35 sections), iPhone 13 mini (36 sections), iPhone 13 Pro (34 sections), iPhone 16e (35 sections), iPhone 17 (37 sections after correcting a malformed section split), iPhone 17e (37 sections), iPhone 17 Pro (37 sections), iPhone 17 Pro Max (37 sections), and iPhone Air (36 sections), including long-form environmental/language sections and footnotes. In both cases, the JSON section headings and source text match the archived Markdown exactly.
+- Full section-level content reviewed in this pass: **13** — iPhone 6 (33 sections), iPhone 12 (35 sections), iPhone 13 mini (36 sections), iPhone 13 Pro (34 sections), iPhone 16 (37 sections), iPhone 16 Pro (37 sections), iPhone 16 Pro Max (37 sections), iPhone 16e (35 sections), iPhone 17 (37 sections after correcting a malformed section split), iPhone 17e (37 sections), iPhone 17 Pro (37 sections), iPhone 17 Pro Max (37 sections), and iPhone Air (36 sections), including long-form environmental/language sections and footnotes. In both cases, the JSON section headings and source text match the archived Markdown exactly.
 - iPhone 13 Pro has now been re-audited against its official Ireland Apple Support page; its previously normalized fields and full archived sections were checked.
 - Other records remain pending field-by-field content review even if their URLs have previously been checked.
 - Core normalized fields have been added to iPhone 6 and iPhone 16e with per-field `content_verified` statuses and source-section references. This is partial normalization; remaining fields and embedded links still need audit.
@@ -61,10 +61,10 @@ This register tracks verification of the 50 product JSON records in `data/apple/
 | iPhone 15 Plus | `url_checked` | https://support.apple.com/en-ie/111830 | pending |
 | iPhone 15 Pro | `url_checked` | https://support.apple.com/en-ie/111829 | pending |
 | iPhone 15 Pro Max | `url_checked` | https://support.apple.com/en-ie/111828 | pending |
-| iPhone 16 | `url_checked` | https://support.apple.com/en-ie/121029 | pending |
+| iPhone 16 | `content_verified` | https://support.apple.com/en-ie/121029 | 24 normalized fields; section archive cleaned; battery/connectivity/charging checked |
 | iPhone 16 Plus | `url_checked` | https://support.apple.com/en-ie/121030 | pending |
-| iPhone 16 Pro | `url_checked` | https://support.apple.com/en-ie/121031 | pending |
-| iPhone 16 Pro Max | `url_checked` | https://support.apple.com/en-ie/121032 | pending |
+| iPhone 16 Pro | `content_verified` | https://support.apple.com/en-ie/121031 | 24 normalized fields; battery/connectivity/charging checked |
+| iPhone 16 Pro Max | `content_verified` | https://support.apple.com/en-ie/121032 | 24 normalized fields; battery/connectivity/charging checked |
 | iPhone 16e | `content_verified` | https://support.apple.com/en-ie/122208 | source sections and footnotes checked; embedded links pending |
 | iPhone 17 | `content_verified` | https://support.apple.com/en-ie/125089 | source re-segmented into 37 correct sections; core fields checked; outbound links pending |
 | iPhone 17 Pro | `content_verified` | https://support.apple.com/en-ie/125090 | 24 normalized fields; battery and wireless core fields checked; embedded links pending |
@@ -139,3 +139,8 @@ Reviewed the full official Ireland technical-specification pages and footnotes f
 Reviewed the full official Ireland specification pages and footnotes for all three models. For iPhone 17 Pro and Pro Max, the archived Markdown headings and every JSON section's source text match exactly. Checked the model-specific dimensions, display, chip, cameras, battery, durability, and wireless details. The shared Apple wireless section lists models A3523 and A3526; these are recorded as listed model numbers without assigning them to specific size variants. Added battery and wireless fields for the Pro models.
 
 For iPhone Air, reviewed all 36 sections and footnotes, checked the existing normalized fields, and added the A3517 model number, chip-core details, modem/wireless details, MagSafe/Qi2 charging and battery-with-accessory fields. Embedded outbound link destinations have not all been individually opened and remain a separate audit task.
+
+
+## Addendum — 6 November 2026: iPhone 16 family
+
+Reviewed the full official Apple Support Ireland pages and footnotes for iPhone 16, iPhone 16 Pro and iPhone 16 Pro Max. Rebuilt their JSON sections from the retained Markdown archives so the page title/introduction is held in Overview and each specification section's `source_text` contains only that section's content. Core normalized fields were checked; battery, wireless and charging fields were added with source-section references. Model numbers listed in shared wireless sections are recorded as listed, without guessing a mapping to device size variants. Embedded outbound link destinations remain a separate audit task.
