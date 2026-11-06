@@ -28,15 +28,15 @@
     "publisher": "Apple",
     "published_at": null,
     "checked_at": "2026-11-06",
-    "verification_status": "url_checked",
-    "verification_notes": "Official Apple product technical-specifications page located and checked for model match on 2026-11-06. Individual normalized specifications have not yet been fully audited against the page."
+    "verification_status": "content_verified",
+    "verification_notes": "Full specification-section and footnote review completed against the official Apple Support Ireland page on 2026-11-06. JSON sections were rebuilt from the retained Markdown archive into 36 sections, with the page title/year in Overview and each section's text separated cleanly. Core normalized fields were checked; battery, connectivity and charging fields were added with source-section references. Embedded outbound link destinations have not all been individually opened."
   },
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
-    "note": "Original source sections retained. Only a limited set of normalized fields was checked against official specifications; this is not full-record verification.",
+    "note": "Source section structure rebuilt from retained Markdown to avoid duplicated heading markup. Core normalized fields and footnotes checked against the official Apple Support Ireland page; added battery, connectivity and charging fields with source-section references. Embedded outbound links remain a separate audit task.",
     "extracted_at": "2026-11-05",
-    "reviewed_at": "2026-11-05"
+    "reviewed_at": "2026-11-06"
   },
   "sections": [
     {
@@ -253,6 +253,88 @@
         "verification_status": "content_verified",
         "notes": "Up to 30 minutes under IEC standard 60529."
       }
+    },
+    "battery": {
+      "video_playback_max": {
+        "value": 20,
+        "unit": "hours",
+        "source_section": "Power and Battery12",
+        "verification_status": "content_verified"
+      },
+      "streamed_video_playback_max": {
+        "value": 16,
+        "unit": "hours",
+        "source_section": "Power and Battery12",
+        "verification_status": "content_verified"
+      },
+      "audio_playback_max": {
+        "value": 80,
+        "unit": "hours",
+        "source_section": "Power and Battery12",
+        "verification_status": "content_verified"
+      },
+      "magsafe_max": {
+        "value": 15,
+        "unit": "W",
+        "source_section": "Power and Battery12",
+        "verification_status": "content_verified"
+      },
+      "qi_max": {
+        "value": 7.5,
+        "unit": "W",
+        "source_section": "Power and Battery12",
+        "verification_status": "content_verified"
+      }
+    },
+    "connectivity": {
+      "models_listed": {
+        "value": "A3090 and A3094",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified",
+        "notes": "The page lists both model numbers; no region-specific mapping is inferred."
+      },
+      "wifi": {
+        "value": "Wi‑Fi 6 (802.11ax) with 2×2 MIMO",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      },
+      "bluetooth": {
+        "value": "5.3",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      },
+      "ultra_wideband": {
+        "value": "Second-generation Ultra Wideband chip",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      },
+      "nfc_reader_mode": {
+        "value": true,
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      }
+    },
+    "charging": {
+      "usb_connector": {
+        "value": "USB-C",
+        "unit": null,
+        "source_section": "Charging and Expansion",
+        "verification_status": "content_verified"
+      },
+      "usb_speed": {
+        "value": "USB 2 up to 480Mb/s",
+        "unit": null,
+        "source_section": "Charging and Expansion",
+        "verification_status": "content_verified"
+      }
     }
-  }
+  },
+  "record_notes": [
+    "2026-11-06 audit: reviewed all source sections and footnotes, rebuilt section structure from the archived Markdown, and added core battery/connectivity/charging fields. Embedded outbound links remain pending."
+  ]
 }
