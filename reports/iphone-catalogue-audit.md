@@ -179,3 +179,17 @@ iphone-xs-max.json
 
 ---
 **Status:** Inventory and syntax audit complete. Canonical schema design and factual source verification remain outstanding.
+
+## Addendum — 6 November 2026 source URL intake
+
+This addendum supersedes the provenance findings above where they describe source URLs as absent; the original inventory and schema findings remain a 5 November snapshot.
+
+- The project owner supplied **47 Apple Support URLs**. The intake register is `reports/apple-iphone-source-url-intake-2026-11-06.md`.
+- **19 existing JSON records were updated** to use the supplied Ireland URLs where the existing URL was missing, used another locale, pointed to the wrong variant, or was a product page instead of the supplied Support page.
+- The other supplied URLs that already matched existing records were retained as assigned.
+- Three 1485xx URLs appear to correspond to iPhone 18 Pro, iPhone 18 Pro Max and iPhone Duo, but direct page retrieval did not complete during this check; their final URL verification remains pending.
+- Two supplied pages point to models missing from the repository: **standard iPhone 6** (the existing iPhone 6 Plus record is not a substitute) and **iPhone 16e**. Their URLs are preserved in the intake register; records and source Markdown still need to be created from attributable source material.
+- URL assignment is not specification verification. Field-by-field comparison, normalized-field review, and a fresh catalogue-wide provenance audit remain outstanding.
+
+The most recent JSON-source update triggered GitHub Actions validation successfully. See [the workflow run](https://github.com/p457techspecs333-del/techspecs-data/actions/runs/42202854143).
+
