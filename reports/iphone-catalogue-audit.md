@@ -249,3 +249,8 @@ Reviewed both official Apple Support Ireland specification pages and their footn
 ### Addendum — 6 November 2026: iPhone 17 Pro, Pro Max and Air
 
 Completed section-level source and footnote reviews for the iPhone 17 Pro, iPhone 17 Pro Max and iPhone Air official Ireland pages. The Pro and Pro Max archived Markdown section text matches the JSON sections exactly. Core normalized fields were checked and supplemented with battery/wireless values for the Pro pair. The Apple page lists A3523 and A3526 together, so the register records them as listed model numbers without assuming which maps to which size. For iPhone Air, added A3517, processor-core, modem/wireless, charging and battery-with-accessory fields. Embedded outbound links remain to be audited individually.
+
+
+### Addendum — 6 November 2026: iPhone 16, iPhone 16 Pro and iPhone 16 Pro Max
+
+Reviewed all specification sections and footnotes on the official Apple Support Ireland pages. Rebuilt the JSON section arrays from the retained Markdown archives to keep the page introduction separate from section text and remove duplicated heading markup. Checked core normalized values and added battery, connectivity and charging fields with source-section references. Where the Apple page lists multiple model numbers in a shared wireless section, they are recorded as listed without inferring size-specific assignments. Embedded outbound links remain to be audited individually.
