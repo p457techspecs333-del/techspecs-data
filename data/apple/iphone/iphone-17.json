@@ -25,11 +25,11 @@
     "source_url": "https://support.apple.com/en-ie/125089",
     "source_file": "sources/apple/iphone/iphone-17-generation/iphone-17-source.md",
     "source_title": "iPhone 17 - Tech Specs",
-    "publisher": "Apple Support (Ireland)",
+    "publisher": "Apple",
     "published_at": null,
-    "checked_at": "2026-11-05",
-    "verification_status": "content_verified",
-    "verification_notes": "The official Apple Support Ireland specifications page was checked on 5 November 2026. Only the normalized fields listed in this record were independently compared with the page; the full archived source document has not been audited line by line.",
+    "checked_at": "2026-11-06",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple product technical-specifications page located and checked for model match on 2026-11-06. Individual normalized specifications have not yet been fully audited against the page.",
     "notes": [
       "Official Apple Ireland specifications page used for the normalized fields."
     ]
