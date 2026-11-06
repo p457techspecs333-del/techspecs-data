@@ -31,11 +31,14 @@ def build_entry(path: Path) -> dict[str, Any]:
     source = record.get("source") if isinstance(record.get("source"), dict) else {}
     relative_path = path.relative_to(DATA_ROOT).as_posix()
     record_path = relative_path
+    legacy_url = f"{BASE_URL}/{record_path}"
+    api_url = f"{BASE_URL}/api/v1/products/{path.name}"
 
     entry: dict[str, Any] = {
         "record_id": record_path.removesuffix(".json"),
         "path": record_path,
-        "url": f"{BASE_URL}/{record_path}",
+        "url": api_url,
+        "legacy_url": legacy_url,
         "schema_version": text_value(record.get("schema_version")),
         "brand": text_value(product.get("brand")),
         "category": text_value(product.get("category")),
@@ -107,6 +110,7 @@ def main() -> int:
         f"{BASE_URL}/llms.txt",
         f"{BASE_URL}/schemas/product-record-v2.schema.json",
         *(entry["url"] for entry in entries),
+        *(entry["legacy_url"] for entry in entries),
     ]
     sitemap_body = [
         '<?xml version="1.0" encoding="UTF-8"?>',
