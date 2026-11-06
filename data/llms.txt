@@ -2,24 +2,29 @@
 
 > TechSpecs is an independent, machine-readable technical knowledge repository. Manufacturer documentation is used as evidence; TechSpecs maintains its own identifiers, taxonomy, normalized data model, provenance and relationships.
 
-## Canonical data resources
+## Machine interface
 
+- [Machine retrieval manifest](https://data.techspecs.dev/api-manifest.json): authoritative description of the read-only machine interface, its resources and retrieval rules.
 - [Product catalogue](https://data.techspecs.dev/catalogue.json): machine-readable index of published product records.
 - [Product record schema v2](https://data.techspecs.dev/schemas/product-record-v2.schema.json): JSON Schema for archival-first product records with optional normalized specifications.
 - [Independent knowledge model](https://github.com/p457techspecs333-del/techspecs-data/blob/main/docs/TECHSPECS-INDEPENDENT-KNOWLEDGE-MODEL.md): design principles for evidence, normalization, provenance and cross-brand interoperability.
 
-## Apple iPhone collection
+## Current product collection
 
-The current published product collection includes Apple iPhone records across multiple generations and variants. Use the catalogue to discover the exact available records, rather than relying on a guessed model list.
+The current published product collection includes Apple iPhone records across multiple generations and variants. The catalogue is the authoritative list of records currently published. The interface is designed to support additional brands and product categories without requiring a separate machine interface for each category.
 
-## Product record URL pattern
+## Product record retrieval
 
-Product records are served as JSON using their repository-relative path under `data/`.
+1. Retrieve the catalogue.
+2. Identify the exact record using its record_id, product identity and category.
+3. Fetch the exact URL in that catalogue entry.
+4. Interpret the record using the published JSON Schema.
+5. Preserve the distinction between source text, normalized values, derived values and verification status.
 
-Example:
-- `https://data.techspecs.dev/apple/iphone/iphone-17.json`
+Example record:
+- https://data.techspecs.dev/apple/iphone/iphone-17.json
 
-The catalogue provides the authoritative list of available record URLs. Do not infer that a product exists solely from a guessed filename.
+Do not guess a record URL or assume a product exists solely from a guessed filename.
 
 ## Data interpretation
 
@@ -33,14 +38,11 @@ The catalogue provides the authoritative list of available record URLs. Do not i
 
 This host is designed for machine retrieval by AI systems, search and retrieval systems, data integrators and software applications. It is not the consumer-facing TechSpecs website.
 
-## Discovery and retrieval
+## Discovery
 
-- Begin with the catalogue to identify records and their canonical URLs.
-- Fetch the individual JSON record for the evidence and specifications relevant to a question.
-- Use the retained source sections and official source URL to distinguish manufacturer wording from TechSpecs-normalized fields.
-- Treat verification status as a description of recorded checks, not a guarantee beyond those checks.
+- Machine retrieval manifest: https://data.techspecs.dev/api-manifest.json
 - Sitemap: https://data.techspecs.dev/sitemap.xml
 
 ## Canonical source
 
-- [GitHub repository](https://github.com/p457techspecs333-del/techspecs-data)
+- GitHub repository: https://github.com/p457techspecs333-del/techspecs-data
