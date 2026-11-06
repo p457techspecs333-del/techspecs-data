@@ -227,3 +227,8 @@ A subsequent normalization pass added 26 core normalized fields across seven gro
 ### Addendum — 6 November 2026: iPhone 18 Pro records
 
 Added 30 model-specific core normalized fields to each of the iPhone 18 Pro and iPhone 18 Pro Max records, including distinct model numbers, dimensions, display, chip, camera, battery and connectivity. The official Apple Ireland page is present in search-indexed content, but direct retrieval returned a cache miss; these new values are conservatively marked `partially_verified`. Full source-section, footnote and link verification remains open. This is data validation work only; no comparison features are being built.
+
+
+### Addendum — 6 November 2026: iPhone Duo
+
+Added 46 core normalized fields to the iPhone Duo record across dimensions, displays, durability, processor, camera, battery, connectivity and charging. Values remain `partially_verified` because the official Apple specification content was available only through indexed results during this pass and direct retrieval returned a cache miss. Full source text, footnotes and embedded links remain pending.
