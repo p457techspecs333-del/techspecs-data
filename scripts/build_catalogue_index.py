@@ -14,6 +14,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 DATA_ROOT = ROOT / "data"
 OUTPUT = DATA_ROOT / "catalogue.json"
+SITEMAP_OUTPUT = DATA_ROOT / "sitemap.xml"
 BASE_URL = "https://data.techspecs.dev"
 
 
@@ -97,7 +98,24 @@ def main() -> int:
         json.dumps(catalogue, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+    # Publish a sitemap alongside the catalogue so crawlers can discover every record.
+    sitemap_urls = [
+        f"{BASE_URL}/catalogue.json",
+        f"{BASE_URL}/llms.txt",
+        f"{BASE_URL}/schemas/product-record-v2.schema.json",
+        *(entry["url"] for entry in entries),
+    ]
+    sitemap_body = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+        *(f"  <url><loc>{url}</loc></url>" for url in sitemap_urls),
+        '</urlset>',
+        '',
+    ]
+    SITEMAP_OUTPUT.write_text("\\n".join(sitemap_body), encoding="utf-8")
+
     print(f"Generated {OUTPUT.relative_to(ROOT)} with {len(entries)} product records.")
+    print(f"Generated {SITEMAP_OUTPUT.relative_to(ROOT)} with {len(sitemap_urls)} URLs.")
     return 0
 
 
