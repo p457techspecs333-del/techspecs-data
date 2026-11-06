@@ -28,13 +28,13 @@ This register tracks verification of the 50 product JSON records in `data/apple/
 | iPhone 5c | `url_checked` | https://support.apple.com/en-by/111917 | pending |
 | iPhone 5s | `url_checked` | https://support.apple.com/en-ie/111973 | pending |
 | iPhone 6 | `content_verified` | https://support.apple.com/en-ie/111954 | source sections and footnotes checked; embedded links pending |
-| iPhone 6 Plus | `url_checked` | https://support.apple.com/en-ie/111940 | pending |
-| iPhone 6s | `url_checked` | https://support.apple.com/en-ie/111952 | pending |
-| iPhone 6s Plus | `url_checked` | https://support.apple.com/en-ie/111996 | pending |
-| iPhone 7 | `url_checked` | https://support.apple.com/en-ie/111943 | pending |
-| iPhone 7 Plus | `url_checked` | https://support.apple.com/en-ie/111953 | pending |
-| iPhone 8 | `url_checked` | https://support.apple.com/en-ie/111976 | pending |
-| iPhone 8 Plus | `url_checked` | https://support.apple.com/en-ie/111950 | pending |
+| iPhone 6 Plus | `content_verified` | https://support.apple.com/en-ie/111940 | 50 normalized fields; battery, wireless, connector and in-box checked |
+| iPhone 6s | `content_verified` | https://support.apple.com/en-ie/111952 | 24 normalized fields; battery, wireless and connector checked |
+| iPhone 6s Plus | `content_verified` | https://support.apple.com/en-ie/111996 | 24 normalized fields; battery, wireless and connector checked |
+| iPhone 7 | `content_verified` | https://support.apple.com/en-ie/111943 | 28 normalized fields; battery, wireless, connector and in-box checked |
+| iPhone 7 Plus | `content_verified` | https://support.apple.com/en-ie/111953 | 28 normalized fields; battery, wireless, connector and in-box checked |
+| iPhone 8 | `content_verified` | https://support.apple.com/en-ie/111976 | 30 normalized fields; battery, wireless, connector and in-box checked |
+| iPhone 8 Plus | `content_verified` | https://support.apple.com/en-ie/111950 | 30 normalized fields; battery, wireless, connector and in-box checked |
 | iPhone X | `url_checked` | https://support.apple.com/en-ie/111864 | pending |
 | iPhone XR | `content_verified` | https://support.apple.com/en-ie/111868 | 27 normalized fields; battery/wireless/connector/in-box checked |
 | iPhone XS | `content_verified` | https://support.apple.com/en-ie/111881 | 27 normalized fields; battery/wireless/connector/in-box checked |
@@ -164,3 +164,8 @@ Reviewed all specification sections and footnotes for iPhone 12 mini, iPhone 12 
 ## Addendum — 6 November 2026: iPhone 11 family, XR and XS family
 
 Reviewed all specification sections and footnotes on the official Ireland pages for iPhone 11, iPhone 11 Pro, iPhone 11 Pro Max, iPhone XR, iPhone XS and iPhone XS Max. Rebuilt each JSON section array from its retained Markdown archive and checked dimensions, display, chip, camera and water-resistance fields. Added battery-life figures, charging connector/standard, wireless capabilities, model numbers as displayed on Apple pages, and in-box adapter details. Model identifiers are annotated as regional variants where appropriate. Embedded outbound link destinations remain a separate audit task.
+
+
+## Addendum — 6 November 2026: iPhone 6 Plus through iPhone 8 Plus
+
+Reviewed all specification sections and footnotes for iPhone 6 Plus, iPhone 6s, iPhone 6s Plus, iPhone 7, iPhone 7 Plus, iPhone 8 and iPhone 8 Plus against their official Apple Support Ireland pages. Rebuilt JSON sections from archived Markdown, checked existing dimensions/display/chip fields, and added battery, wireless, connector and in-box fields. Where Apple lists US/regional model numbers, the register notes that these are page-listed variants rather than assertions about Irish retail SKUs. Embedded outbound link destinations remain a separate audit task.
