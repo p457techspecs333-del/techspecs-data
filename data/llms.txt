@@ -1,0 +1,34 @@
+# TechSpecs Machine-Readable Data
+
+> TechSpecs is an independent, machine-readable technical knowledge repository. Manufacturer documentation is used as evidence; TechSpecs maintains its own identifiers, taxonomy, normalized data model, provenance and relationships.
+
+## Canonical data resources
+
+- [Product catalogue](https://data.techspecs.dev/catalogue.json): machine-readable index of published product records.
+- [Product record schema v2](https://techspecs.dev/schemas/product-record-v2.schema.json): JSON Schema for archival-first product records with optional normalized specifications.
+- [Independent knowledge model](https://github.com/p457techspecs333-del/techspecs-data/blob/main/docs/TECHSPECS-INDEPENDENT-KNOWLEDGE-MODEL.md): design principles for evidence, normalization, provenance and cross-brand interoperability.
+
+## Product record URL pattern
+
+Product records are served as JSON using their repository-relative path under `data/`.
+
+Example:
+- `https://data.techspecs.dev/apple/iphone/iphone-17.json`
+
+The catalogue provides the authoritative list of available record URLs. Do not infer that a product exists solely from a guessed filename.
+
+## Data interpretation
+
+- Manufacturer statements and source transcriptions are evidence, not TechSpecs-authored conclusions.
+- Normalized values should be read with their units, source-section references and verification status.
+- Derived values must be distinguishable from source-stated values and must document their method and inputs.
+- Missing, unknown, not applicable and unverified values must not be treated as zero or inferred facts.
+- Verification status describes the checks performed; it is not a guarantee that every source is complete or universally applicable.
+
+## Intended use
+
+This host is designed for machine retrieval by AI systems, search and retrieval systems, data integrators and software applications. It is not the consumer-facing TechSpecs website.
+
+## Canonical source
+
+- [GitHub repository](https://github.com/p457techspecs333-del/techspecs-data)
