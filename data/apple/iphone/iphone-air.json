@@ -18,6 +18,9 @@
       "256GB",
       "512GB",
       "1TB"
+    ],
+    "model_numbers": [
+      "A3517"
     ]
   },
   "source": {
@@ -28,8 +31,8 @@
     "publisher": "Apple Support (Ireland)",
     "published_at": null,
     "checked_at": "2026-11-06",
-    "verification_status": "url_checked",
-    "verification_notes": "Official Apple Support Ireland technical-specifications URL supplied by the project owner and matched to this model. URL-level source identification only; normalized specifications have not all been compared field by field.",
+    "verification_status": "content_verified",
+    "verification_notes": "Full section-level content check completed against the official Apple Support Ireland page on 2026-11-06. All 36 specification sections and footnotes were reviewed; archived Markdown headings and JSON source_text match exactly. Existing normalized dimensions, display, A19 Pro chip, camera system, front camera, battery playback, IP68 and connectivity fields were checked against the live page. Added model number and further core connectivity/charging fields. Embedded outbound link destinations have not all been individually opened.",
     "notes": [
       "Official Apple Ireland technical specifications page for iPhone Air."
     ]
@@ -37,9 +40,9 @@
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
-    "note": "Original source sections are retained unchanged from the prior archival record. A limited set of specifications has been normalized and checked against Apple's official Ireland page; this is not full-record verification.",
+    "note": "Full source-section and footnote review completed against the official Apple Support Ireland page on 2026-11-06. Core normalized fields are linked to the exact source section and checked; embedded outbound link destinations remain a separate audit task.",
     "extracted_at": "2026-11-05",
-    "reviewed_at": "2026-11-05"
+    "reviewed_at": "2026-11-06"
   },
   "sections": [
     {
@@ -253,6 +256,26 @@
         "unit": null,
         "source_section": "Chip",
         "verification_status": "content_verified"
+      },
+      "cpu_cores": {
+        "value": 6,
+        "unit": "cores",
+        "source_section": "Chip",
+        "verification_status": "content_verified",
+        "notes": "2 performance and 4 efficiency cores."
+      },
+      "gpu_cores": {
+        "value": 5,
+        "unit": "cores",
+        "source_section": "Chip",
+        "verification_status": "content_verified",
+        "notes": "With Neural Accelerators."
+      },
+      "neural_engine_cores": {
+        "value": 16,
+        "unit": "cores",
+        "source_section": "Chip",
+        "verification_status": "content_verified"
       }
     },
     "camera": {
@@ -281,6 +304,27 @@
         "unit": "hours",
         "source_section": "Power and Battery5",
         "verification_status": "content_verified"
+      },
+      "video_playback_with_magsafe_battery_max": {
+        "value": 40,
+        "unit": "hours",
+        "source_section": "Power and Battery5",
+        "verification_status": "content_verified",
+        "notes": "Requires separately sold iPhone Air MagSafe Battery."
+      },
+      "streamed_video_playback_with_magsafe_battery_max": {
+        "value": 35,
+        "unit": "hours",
+        "source_section": "Power and Battery5",
+        "verification_status": "content_verified",
+        "notes": "Requires separately sold iPhone Air MagSafe Battery."
+      },
+      "fast_charge_50_percent_time": {
+        "value": 30,
+        "unit": "minutes",
+        "source_section": "Power and Battery5",
+        "verification_status": "content_verified",
+        "notes": "With 20W adapter or higher and USB-C cable, or 30W adapter or higher with MagSafe Charger."
       }
     },
     "durability": {
@@ -316,10 +360,73 @@
         "unit": null,
         "source_section": "Mobile and Wireless",
         "verification_status": "content_verified"
+      },
+      "model_number": {
+        "value": "A3517",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      },
+      "cellular_modem": {
+        "value": "Apple C1X",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      },
+      "wireless_chip": {
+        "value": "Apple N1",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      },
+      "thread": {
+        "value": true,
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      },
+      "ultra_wideband": {
+        "value": "Second-generation Apple Ultra Wideband chip",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      },
+      "nfc_reader_mode": {
+        "value": true,
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      }
+    },
+    "charging": {
+      "usb_connector": {
+        "value": "USB-C",
+        "unit": null,
+        "source_section": "Char­ging and Expan­sion",
+        "verification_status": "content_verified"
+      },
+      "usb_speed": {
+        "value": "USB 2 up to 480Mb/s",
+        "unit": null,
+        "source_section": "Char­ging and Expan­sion",
+        "verification_status": "content_verified"
+      },
+      "magsafe_max": {
+        "value": 20,
+        "unit": "W",
+        "source_section": "MagSafe and Wireless Charging",
+        "verification_status": "content_verified"
+      },
+      "qi2_max": {
+        "value": 20,
+        "unit": "W",
+        "source_section": "MagSafe and Wireless Charging",
+        "verification_status": "content_verified"
       }
     }
   },
   "record_notes": [
-    "Pilot migration to schema v2 on 2026-11-05. Original archival sections preserved; only listed normalized fields were checked against Apple's official Ireland specifications page."
+    "Pilot migration to schema v2 on 2026-11-05. Original archival sections preserved; only listed normalized fields were checked against Apple's official Ireland specifications page.",
+    "2026-11-06: full specification-section and footnote audit completed. Core normalized fields checked; embedded outbound link destinations remain pending."
   ]
 }
