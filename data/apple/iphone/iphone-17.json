@@ -28,8 +28,8 @@
     "publisher": "Apple",
     "published_at": null,
     "checked_at": "2026-11-06",
-    "verification_status": "url_checked",
-    "verification_notes": "Official Apple product technical-specifications page located and checked for model match on 2026-11-06. Individual normalized specifications have not yet been fully audited against the page.",
+    "verification_status": "content_verified",
+    "verification_notes": "Full official Apple Support Ireland page reviewed on 2026-11-06 against the archived source transcription. The section structure was corrected to 37 sections (Overview plus 36 page sections); the previous JSON had merged multiple headings into neighbouring sections and mislabelled the Sensors and Built-in Apps entries. Core normalized fields were checked against the page; dimensions now point to Size and Weight2, and water resistance points to Splash, Water and Dust Resistant3. Embedded outbound link destinations were not individually opened.",
     "notes": [
       "Official Apple Ireland specifications page used for the normalized fields."
     ]
@@ -37,22 +37,34 @@
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
-    "note": "Original source sections are retained unchanged from the prior archival record. A small set of high-value fields has been normalized and checked against Apple's official Ireland specifications page; this is not full-record verification.",
+    "note": "Archived source text was re-segmented into 37 correctly headed sections on 2026-11-06. Existing normalized core values were rechecked against the official Apple Support Ireland page and their source_section references corrected. Full source text is retained; outbound link destinations remain a separate audit task.",
     "extracted_at": "2026-11-05",
-    "reviewed_at": "2026-11-05"
+    "reviewed_at": "2026-11-06"
   },
   "sections": [
     {
-      "heading": "Document introduction",
+      "heading": "Overview",
       "source_text": "iPhone 17 - Tech Specs\nYear introduced: 2025"
     },
     {
       "heading": "Finish",
-      "source_text": "Black\n\nWhite\n\nMist Blue\n\nSage\n\nLavender\n\nAluminium design, Ceramic Shield 2 front, Colour‑infused glass back (Black, Mist Blue, Sage, Lavender)\n\nCapacity1\n256GB\n\n512GB\n\nSize and Weight2\nWidth: 71.5 mm (2.81 inches)\n\nHeight: 149.6 mm (5.89 inches)\n\nDepth: 7.95 mm (0.31 inches)\n\nWeight: 177 grams (6.24 ounces)"
+      "source_text": "Black\n\nWhite\n\nMist Blue\n\nSage\n\nLavender\n\nAluminium design, Ceramic Shield 2 front, Colour‑infused glass back (Black, Mist Blue, Sage, Lavender)"
+    },
+    {
+      "heading": "Capacity1",
+      "source_text": "256GB\n\n512GB"
+    },
+    {
+      "heading": "Size and Weight2",
+      "source_text": "Width: 71.5 mm (2.81 inches)\n\nHeight: 149.6 mm (5.89 inches)\n\nDepth: 7.95 mm (0.31 inches)\n\nWeight: 177 grams (6.24 ounces)"
     },
     {
       "heading": "Display",
-      "source_text": "Super Retina XDR display\n\n6.3‑inch (diagonal) all‑screen OLED display\n\n2622x1206-pixel resolution at 460 ppi\n\nDynamic Island\n\nAlways-On display\n\nProMotion technology with adaptive refresh rates up to 120Hz\n\nHDR display\n\nTrue Tone\n\nWide colour (P3)\n\nHaptic Touch\n\n2,000,000:1 contrast ratio (typical)\n\n1,000 nits max brightness (typical); 1,600 nits peak brightness (HDR); 3,000 nits peak brightness (outdoor); 1 nit minimum brightness\n\nFingerprint-resistant oleophobic coating\n\nAnti-reflective coating\n\nSupport for display of multiple languages and characters simultaneously\n\nThe iPhone 17 display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.27 inches diagonally (actual viewable area is less).\n\nSplash, Water and Dust Resistant3\nRated IP68 (maximum depth of 6 metres up to 30 minutes) under IEC standard 60529"
+      "source_text": "Super Retina XDR display\n\n6.3‑inch (diagonal) all‑screen OLED display\n\n2622x1206-pixel resolution at 460 ppi\n\nDynamic Island\n\nAlways-On display\n\nProMotion technology with adaptive refresh rates up to 120Hz\n\nHDR display\n\nTrue Tone\n\nWide colour (P3)\n\nHaptic Touch\n\n2,000,000:1 contrast ratio (typical)\n\n1,000 nits max brightness (typical); 1,600 nits peak brightness (HDR); 3,000 nits peak brightness (outdoor); 1 nit minimum brightness\n\nFingerprint-resistant oleophobic coating\n\nAnti-reflective coating\n\nSupport for display of multiple languages and characters simultaneously\n\nThe iPhone 17 display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.27 inches diagonally (actual viewable area is less)."
+    },
+    {
+      "heading": "Splash, Water and Dust Resistant3",
+      "source_text": "Rated IP68 (maximum depth of 6 metres up to 30 minutes) under IEC standard 60529"
     },
     {
       "heading": "Apple Intelligence",
@@ -72,7 +84,11 @@
     },
     {
       "heading": "Front Camera",
-      "source_text": "18MP Center Stage camera\n\nƒ/1.9 aperture\n\nAutofocus with Focus Pixels\n\nRetina Flash\n\nTap to zoom and rotate\n\nCentre Stage for photos\n\nUltra‑stabilised video\n\nDual Capture\n\nCentre Stage for video calls\n\nPhotonic Engine\n\nDeep Fusion\n\nSmart HDR 5\n\nNext-generation portraits with Focus and Depth Control\n\nPortrait Lighting with six effects\n\nAnimoji and Memoji\n\nNight mode\n\nLatest-generation Photo­graphic Styles\n\nWide colour capture for photos and Live Photos\n\nLens correction\n\nAuto image stabilisation\n\nBurst mode\n\n4K Dolby Vision video recording at 24 fps, 25 fps, 30 fps or 60 fps\n\n1080p Dolby Vision video recording at 25 fps, 30 fps or 60 fps\n\nCinematic mode up to 4K Dolby Vision at 30 fps\n\nSlo-mo video support for 1080p at 120 fps\n\nTime‑lapse video with stabilisation\n\nNight mode Time-lapse\n\nQuickTake video up to 4K at 60 fps in Dolby Vision\n\nCinematic video stabilisation (4K, 1080p and 720p)\n\nSpatial Audio and stereo recording\n\nWind noise reduction\n\nAudio Mix\n\nPower and Battery5\nVideo playback: Up to 30 hours\n\nVideo playback (streamed): Up to 27 hours\n\nBuilt‑in rechargeable lithium‑ion battery\n\nFast‑charge capable:\n\nUp to 50% charge in 20 minutes6 with 40W adapter or higher (available separately) paired with USB‑C charging cableUp to 50% charge in 30 minutes6 with 30W adapter or higher paired with MagSafe Charger (both available separately)"
+      "source_text": "18MP Center Stage camera\n\nƒ/1.9 aperture\n\nAutofocus with Focus Pixels\n\nRetina Flash\n\nTap to zoom and rotate\n\nCentre Stage for photos\n\nUltra‑stabilised video\n\nDual Capture\n\nCentre Stage for video calls\n\nPhotonic Engine\n\nDeep Fusion\n\nSmart HDR 5\n\nNext-generation portraits with Focus and Depth Control\n\nPortrait Lighting with six effects\n\nAnimoji and Memoji\n\nNight mode\n\nLatest-generation Photo­graphic Styles\n\nWide colour capture for photos and Live Photos\n\nLens correction\n\nAuto image stabilisation\n\nBurst mode\n\n4K Dolby Vision video recording at 24 fps, 25 fps, 30 fps or 60 fps\n\n1080p Dolby Vision video recording at 25 fps, 30 fps or 60 fps\n\nCinematic mode up to 4K Dolby Vision at 30 fps\n\nSlo-mo video support for 1080p at 120 fps\n\nTime‑lapse video with stabilisation\n\nNight mode Time-lapse\n\nQuickTake video up to 4K at 60 fps in Dolby Vision\n\nCinematic video stabilisation (4K, 1080p and 720p)\n\nSpatial Audio and stereo recording\n\nWind noise reduction\n\nAudio Mix"
+    },
+    {
+      "heading": "Power and Battery5",
+      "source_text": "Video playback: Up to 30 hours\n\nVideo playback (streamed): Up to 27 hours\n\nBuilt‑in rechargeable lithium‑ion battery\n\nFast‑charge capable:\n\nUp to 50% charge in 20 minutes6 with 40W adapter or higher (available separately) paired with USB‑C charging cableUp to 50% charge in 30 minutes6 with 30W adapter or higher paired with MagSafe Charger (both available separately)"
     },
     {
       "heading": "Face ID",
@@ -96,11 +112,15 @@
     },
     {
       "heading": "Char­ging and Expan­sion",
-      "source_text": "USB-C connector with support for:\n\nChar­ging\n\nDisplayPort\n\nUSB 2 (up to 480Mb/s)\n\nMagSafe and Wireless Char­ging\nMagSafe wireless charging up to 25W6\n\nQi2 wireless charging up to 25W6\n\nMagnet array\n\nAlignment magnet\n\nAccessory Identification NFC\n\nMagnetometer"
+      "source_text": "USB-C connector with support for:\n\nChar­ging\n\nDisplayPort\n\nUSB 2 (up to 480Mb/s)"
     },
     {
-      "heading": "Face ID",
-      "source_text": "Barometer\n\nHigh dynamic range gyro\n\nHigh-g accelerometer\n\nProximity sensor\n\nDual ambient light sensors"
+      "heading": "MagSafe and Wireless Char­ging",
+      "source_text": "MagSafe wireless charging up to 25W6\n\nQi2 wireless charging up to 25W6\n\nMagnet array\n\nAlignment magnet\n\nAccessory Identification NFC\n\nMagnetometer"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Face ID\n\nBarometer\n\nHigh dynamic range gyro\n\nHigh-g accelerometer\n\nProximity sensor\n\nDual ambient light sensors"
     },
     {
       "heading": "SIM Card",
@@ -108,7 +128,15 @@
     },
     {
       "heading": "Apple Pay",
-      "source_text": "Pay with your iPhone using Face ID in shops, within apps and on the web\n\nComplete purchases made with Apple Pay on your Mac\n\nPay for your journey using Express Travel14\n\nLearn more about Apple Pay\n\nVideo Calling15\nFaceTime video calling over a mobile network or Wi‑Fi\n\nFaceTime HD (1080p) video calling over 5G or Wi‑Fi\n\nCentre Stage for video calling\n\nSharePlay\n\nScreen sharing\n\nPortrait mode in FaceTime video\n\nSpatial Audio\n\nVoice Isolation and Wide Spectrum microphone modes\n\nZoom with rear-facing camera\n\nAudio Calling15\nFaceTime audio\n\nVoice over LTE (VoLTE)9\n\nWi‑Fi calling9\n\nSharePlay\n\nScreen sharing\n\nSpatial Audio\n\nVoice Isolation and Wide Spectrum microphone modes"
+      "source_text": "Pay with your iPhone using Face ID in shops, within apps and on the web\n\nComplete purchases made with Apple Pay on your Mac\n\nPay for your journey using Express Travel14\n\nLearn more about Apple Pay"
+    },
+    {
+      "heading": "Video Calling15",
+      "source_text": "FaceTime video calling over a mobile network or Wi‑Fi\n\nFaceTime HD (1080p) video calling over 5G or Wi‑Fi\n\nCentre Stage for video calling\n\nSharePlay\n\nScreen sharing\n\nPortrait mode in FaceTime video\n\nSpatial Audio\n\nVoice Isolation and Wide Spectrum microphone modes\n\nZoom with rear-facing camera"
+    },
+    {
+      "heading": "Audio Calling15",
+      "source_text": "FaceTime audio\n\nVoice over LTE (VoLTE)9\n\nWi‑Fi calling9\n\nSharePlay\n\nScreen sharing\n\nSpatial Audio\n\nVoice Isolation and Wide Spectrum microphone modes"
     },
     {
       "heading": "Audio Playback",
@@ -116,7 +144,11 @@
     },
     {
       "heading": "Video Playback",
-      "source_text": "Supported formats include HEVC, H.264 and AV1\n\nHDR with Dolby Vision, HDR10+/HDR10 and HLG\n\nUp to 4K HDR AirPlay for mirroring, photos and video out to Apple TV (2nd generation or later) or AirPlay‑enabled smart TV\n\nVideo mirroring and video out support: Up to 4K HDR through native DisplayPort output over USB‑C or USB‑C Digital AV Adapter (model A2119; adapter sold separately)16\n\nSiri17\nGet help with everyday tasks like sending messages, setting reminders and more\n\nActivate hands‑free with only your voice using “Siri” or “Hey Siri”, or use Type to Siri\n\nProtected by the strongest privacy of any intelligent assistant\n\nPowered by Apple Intelligence, Siri is more natural and helpful4\n\nLearn more about Siri"
+      "source_text": "Supported formats include HEVC, H.264 and AV1\n\nHDR with Dolby Vision, HDR10+/HDR10 and HLG\n\nUp to 4K HDR AirPlay for mirroring, photos and video out to Apple TV (2nd generation or later) or AirPlay‑enabled smart TV\n\nVideo mirroring and video out support: Up to 4K HDR through native DisplayPort output over USB‑C or USB‑C Digital AV Adapter (model A2119; adapter sold separately)16"
+    },
+    {
+      "heading": "Siri17",
+      "source_text": "Get help with everyday tasks like sending messages, setting reminders and more\n\nActivate hands‑free with only your voice using “Siri” or “Hey Siri”, or use Type to Siri\n\nProtected by the strongest privacy of any intelligent assistant\n\nPowered by Apple Intelligence, Siri is more natural and helpful4\n\nLearn more about Siri"
     },
     {
       "heading": "Oper­at­ing System",
@@ -132,11 +164,7 @@
     },
     {
       "heading": "Built-in Apps",
-      "source_text": "Apple Store\n\nApp Store\n\nBooks\n\nCalculator\n\nCalendar"
-    },
-    {
-      "heading": "Camera",
-      "source_text": "Clips\n\nClock\n\nCompass\n\nContacts\n\nFaceTime\n\nFiles\n\nFind My\n\nFitness\n\nFreeform\n\nGarageBand\n\nHealth\n\nHome\n\niMovie\n\niTunes Store\n\nJournal\n\nKeynote\n\nMagnifier\n\nMail\n\nMaps\n\nMeasure\n\nMessages\n\nMusic\n\nNews\n\nNotes\n\nNumbers\n\nPages\n\nPasswords\n\nPhone\n\nPhotos\n\nPodcasts\n\nReminders\n\nSafari\n\nSettings\n\nShortcuts\n\nStocks\n\nTips\n\nTranslate\n\nTV\n\nVoice Memos\n\nWallet\n\nWatch\n\nWeather\n\nFor a complete list of Apple apps available on iPhone, see apple.com/uk/apps."
+      "source_text": "Apple Store\n\nApp Store\n\nBooks\n\nCalculator\n\nCalendar\n\nCamera\n\nClips\n\nClock\n\nCompass\n\nContacts\n\nFaceTime\n\nFiles\n\nFind My\n\nFitness\n\nFreeform\n\nGarageBand\n\nHealth\n\nHome\n\niMovie\n\niTunes Store\n\nJournal\n\nKeynote\n\nMagnifier\n\nMail\n\nMaps\n\nMeasure\n\nMessages\n\nMusic\n\nNews\n\nNotes\n\nNumbers\n\nPages\n\nPasswords\n\nPhone\n\nPhotos\n\nPodcasts\n\nReminders\n\nSafari\n\nSettings\n\nShortcuts\n\nStocks\n\nTips\n\nTranslate\n\nTV\n\nVoice Memos\n\nWallet\n\nWatch\n\nWeather\n\nFor a complete list of Apple apps available on iPhone, see apple.com/uk/apps."
     },
     {
       "heading": "Rating for Hearing Aids",
@@ -168,25 +196,25 @@
       "width": {
         "value": 71.5,
         "unit": "mm",
-        "source_section": "Finish",
+        "source_section": "Size and Weight2",
         "verification_status": "content_verified"
       },
       "height": {
         "value": 149.6,
         "unit": "mm",
-        "source_section": "Finish",
+        "source_section": "Size and Weight2",
         "verification_status": "content_verified"
       },
       "depth": {
         "value": 7.95,
         "unit": "mm",
-        "source_section": "Finish",
+        "source_section": "Size and Weight2",
         "verification_status": "content_verified"
       },
       "weight": {
         "value": 177,
         "unit": "g",
-        "source_section": "Finish",
+        "source_section": "Size and Weight2",
         "verification_status": "content_verified"
       }
     },
@@ -236,27 +264,28 @@
       "ingress_protection_rating": {
         "value": "IP68",
         "unit": null,
-        "source_section": "Display",
+        "source_section": "Splash, Water and Dust Resistant3",
         "verification_status": "content_verified",
         "notes": "Apple states maximum depth of 6 metres for up to 30 minutes under IEC standard 60529."
       },
       "rated_immersion_depth": {
         "value": 6,
         "unit": "m",
-        "source_section": "Display",
+        "source_section": "Splash, Water and Dust Resistant3",
         "verification_status": "content_verified",
         "notes": "Maximum depth and duration are laboratory rating conditions; water resistance can diminish over time."
       },
       "rated_immersion_duration": {
         "value": 30,
         "unit": "minutes",
-        "source_section": "Display",
+        "source_section": "Splash, Water and Dust Resistant3",
         "verification_status": "content_verified"
       }
     }
   },
   "record_notes": [
     "Pilot migration to schema v2. Original archived sections preserved unchanged.",
-    "Only explicitly listed normalized fields have been checked against the official Apple source; remaining source text is not certified as fully fact-checked."
+    "Only explicitly listed normalized fields have been checked against the official Apple source; remaining source text is not certified as fully fact-checked.",
+    "2026-11-06 audit: fixed source section segmentation from 30 malformed sections to 37 correctly headed sections; corrected normalized source_section references for dimensions and water-resistance fields."
   ]
 }
