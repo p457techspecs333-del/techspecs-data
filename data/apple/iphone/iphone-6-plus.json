@@ -433,12 +433,12 @@
         "verification_status": "source_transcribed"
       },
       "internet_use": {
-        "value": {
-          "3G": 12,
-          "LTE": 12,
-          "Wi-Fi": 12
-        },
-        "unit": "hours (up to)",
+        "value": [
+          "3G: up to 12 hours",
+          "LTE: up to 12 hours",
+          "Wi‑Fi: up to 12 hours"
+        ],
+        "unit": null,
         "source_section": "Power and Battery6",
         "verification_status": "source_transcribed"
       },
