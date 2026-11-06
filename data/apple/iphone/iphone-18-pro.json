@@ -10,13 +10,13 @@
     "year_introduced": 2026
   },
   "source": {
-    "source_type": "user_supplied_document",
-    "source_url": null,
-    "verification_status": "not_checked",
-    "checked_at": null,
-    "source_title": "iPhone 18 Pro - Tech Specs",
-    "publisher": "Apple (as named in supplied document)",
-    "verification_notes": "Supplied source URL is absent; content has not been independently verified."
+    "source_type": "manufacturer",
+    "source_url": "https://www.apple.com/ie/iphone-18-pro/specs/",
+    "verification_status": "url_checked",
+    "checked_at": "2026-11-06",
+    "source_title": "iPhone 18 Pro - Technical Specifications",
+    "publisher": "Apple",
+    "verification_notes": "Official Apple product technical-specifications page located and checked for model match on 2026-11-06. Individual normalized specifications have not yet been fully audited against the page."
   },
   "sections": [
     {
