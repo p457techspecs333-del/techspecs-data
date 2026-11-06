@@ -264,3 +264,8 @@ Reviewed the full official Ireland specifications pages and footnotes for iPhone
 ### Addendum — 6 November 2026: iPhone 14 family and iPhone 15 Plus
 
 Completed section-level source and footnote reviews for iPhone 14, iPhone 14 Plus, iPhone 14 Pro, iPhone 14 Pro Max and iPhone 15 Plus. Rebuilt each JSON section array from the retained Markdown, checked existing normalized dimensions/display/chip/camera/durability fields, and added battery, wireless and charging fields with source-section references. Shared page model numbers remain recorded as listed rather than mapped to a particular size variant without evidence. Embedded outbound link destinations remain pending.
+
+
+### Addendum — 6 November 2026: iPhone 12 mini/Pro family and iPhone 13/Pro Max
+
+Reviewed the full specification pages and footnotes for iPhone 12 mini, iPhone 12 Pro, iPhone 12 Pro Max, iPhone 13 and iPhone 13 Pro Max. Rebuilt section arrays from archived Markdown, checked existing normalized fields, and added battery, wireless and connector fields. Regional model numbers are noted as displayed on the page without assuming that every listed variant is sold in Ireland. Embedded outbound link destinations remain pending.
