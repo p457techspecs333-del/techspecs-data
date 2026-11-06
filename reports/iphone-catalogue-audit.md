@@ -232,3 +232,10 @@ Added 30 model-specific core normalized fields to each of the iPhone 18 Pro and 
 ### Addendum — 6 November 2026: iPhone Duo
 
 Added 46 core normalized fields to the iPhone Duo record across dimensions, displays, durability, processor, camera, battery, connectivity and charging. Values remain `partially_verified` because the official Apple specification content was available only through indexed results during this pass and direct retrieval returned a cache miss. Full source text, footnotes and embedded links remain pending.
+
+
+### Addendum — 6 November 2026: iPhone 17 and iPhone 17e
+
+The iPhone 17 JSON archive contained a section segmentation defect: its content was mostly retained, but several headings were merged into adjacent sections and two list entries were mislabelled as section headings. Rebuilt it as 37 correctly headed sections from the retained source transcription and corrected the `source_section` references for normalized dimensions and water resistance. Reviewed the official page and checked its existing core normalized values.
+
+Reviewed the full official Ireland iPhone 17e specifications page and footnotes. Added 38 core normalized fields across nine groups, with source-section references and per-field `content_verified` status. Remaining fields and embedded outbound links still need audit.
