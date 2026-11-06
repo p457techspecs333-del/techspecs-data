@@ -4,7 +4,7 @@
   "description": "An independently structured index of product records. Manufacturer and other primary sources are cited as evidence; TechSpecs defines the record identifiers, normalized data model and discovery interface.",
   "purpose": "machine_reading",
   "canonical_host": "https://data.techspecs.dev",
-  "record_count": 50,
+  "record_count": 51,
   "records": [
     {
       "record_id": "apple/iphone/iphone-11-pro-max",
@@ -1054,6 +1054,27 @@
         "source_url": "https://support.apple.com/en-ie/111881",
         "verification_status": "content_verified",
         "checked_at": "2026-11-06"
+      }
+    },
+    {
+      "record_id": "schemas/product-record-v2.schema",
+      "path": "schemas/product-record-v2.schema.json",
+      "url": "https://data.techspecs.dev/schemas/product-record-v2.schema.json",
+      "schema_version": null,
+      "brand": null,
+      "category": null,
+      "family": null,
+      "model": null,
+      "model_slug": null,
+      "model_year": null,
+      "year_introduced": null,
+      "variant": null,
+      "source": {
+        "source_type": null,
+        "publisher": null,
+        "source_url": null,
+        "verification_status": null,
+        "checked_at": null
       }
     }
   ]
