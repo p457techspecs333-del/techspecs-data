@@ -12,9 +12,9 @@
       "A1524"
     ],
     "finishes": [
+      "Space Gray",
       "Silver",
-      "Gold",
-      "Space Gray"
+      "Gold"
     ],
     "storage_options": [
       "16GB",
@@ -27,19 +27,24 @@
     "source_url": "https://support.apple.com/en-ie/111940",
     "source_file": "sources/apple/iphone/iphone-6-generation/iphone-6-plus-source.md",
     "source_title": "iPhone 6 Plus - Technical Specifications",
-    "publisher": "Apple Support",
+    "publisher": "Apple Support (Ireland)",
     "published_at": null,
     "checked_at": "2026-11-06",
-    "verification_status": "url_checked",
-    "verification_notes": "Official Apple technical-specifications page located and checked for model match on 2026-11-06. Individual normalized specifications have not yet been fully audited against the page."
+    "verification_status": "content_verified",
+    "verification_notes": "Full specification-section and footnote review completed against the official Apple Support Ireland page on 2026-11-06. The retained Markdown archive was re-parsed into 34 clean sections. Existing normalized dimensions, display, chip and durability fields were checked; battery, wireless, connector and in-box fields were added with source-section references. Embedded outbound link destinations have not all been individually opened."
   },
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
     "extracted_at": "2026-11-06",
-    "note": "All original Markdown sections are preserved as section text. Existing structured fields have been mapped into field-level normalized specifications where their source sections are identifiable. Values are source-transcribed, not independently verified."
+    "note": "Source section structure rebuilt from retained Markdown. Core normalized fields and footnotes checked against the official Apple Support Ireland page; battery, wireless, connector and in-box fields added with source-section references. Embedded outbound links remain a separate audit task.",
+    "reviewed_at": "2026-11-06"
   },
   "sections": [
+    {
+      "heading": "Overview",
+      "source_text": "# iPhone 6 Plus - Technical Specifications"
+    },
     {
       "heading": "Finish",
       "source_text": "- Silver\n- Gold\n- Space Gray"
@@ -179,25 +184,25 @@
         "value": 158.1,
         "unit": "mm",
         "source_section": "Weight and Dimensions2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "width": {
         "value": 77.8,
         "unit": "mm",
         "source_section": "Weight and Dimensions2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "depth": {
         "value": 7.1,
         "unit": "mm",
         "source_section": "Weight and Dimensions2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "weight": {
         "value": 172,
         "unit": "g",
         "source_section": "Weight and Dimensions2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       }
     },
     "display": {
@@ -205,43 +210,43 @@
         "value": "Retina HD",
         "unit": null,
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "diagonal": {
         "value": 5.5,
         "unit": "in",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "resolution": {
         "value": "1920 × 1080",
         "unit": "pixels",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "pixel_density": {
         "value": 401,
         "unit": "ppi",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "contrast_ratio": {
         "value": "1300:1",
         "unit": null,
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "brightness": {
         "value": 500,
         "unit": "cd/m² (typical)",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "colour_gamut": {
         "value": "Full sRGB",
         "unit": null,
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "features": {
         "value": [
@@ -252,7 +257,7 @@
         ],
         "unit": null,
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       }
     },
     "processor": {
@@ -260,19 +265,19 @@
         "value": "Apple A8",
         "unit": null,
         "source_section": "Chips",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "architecture": {
         "value": "64-bit",
         "unit": null,
         "source_section": "Chips",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "motion_coprocessor": {
         "value": "M8",
         "unit": null,
         "source_section": "Chips",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       }
     },
     "rear_camera": {
@@ -280,25 +285,25 @@
         "value": 8,
         "unit": "MP",
         "source_section": "iSight Camera",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "pixel_size": {
         "value": 1.5,
         "unit": "µm",
         "source_section": "iSight Camera",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "aperture": {
         "value": "f/2.2",
         "unit": null,
         "source_section": "iSight Camera",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "optical_image_stabilisation": {
         "value": true,
         "unit": null,
         "source_section": "iSight Camera",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "features": {
         "value": [
@@ -320,7 +325,7 @@
         ],
         "unit": null,
         "source_section": "iSight Camera",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       }
     },
     "front_camera": {
@@ -328,19 +333,19 @@
         "value": 1.2,
         "unit": "MP",
         "source_section": "FaceTime HD Camera",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "aperture": {
         "value": "f/2.2",
         "unit": null,
         "source_section": "FaceTime HD Camera",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "video_resolution": {
         "value": "720p HD",
         "unit": null,
         "source_section": "FaceTime HD Camera",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       }
     },
     "video_recording": {
@@ -351,7 +356,7 @@
         ],
         "unit": null,
         "source_section": "Video Recording",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "slow_motion": {
         "value": [
@@ -360,7 +365,7 @@
         ],
         "unit": "fps",
         "source_section": "Video Recording",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "additional_features": {
         "value": [
@@ -375,7 +380,7 @@
         ],
         "unit": null,
         "source_section": "Video Recording",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       }
     },
     "wireless": {
@@ -383,25 +388,25 @@
         "value": "802.11a/b/g/n/ac",
         "unit": null,
         "source_section": "Cellular and Wireless",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "bluetooth": {
         "value": "4.2",
         "unit": null,
         "source_section": "Cellular and Wireless",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "nfc": {
         "value": true,
         "unit": null,
         "source_section": "Cellular and Wireless",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "cellular_model_bands": {
         "value": "See preserved Cellular and Wireless section for model-specific UMTS, GSM, CDMA, FDD-LTE and TD-LTE bands.",
         "unit": null,
         "source_section": "Cellular and Wireless",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       }
     },
     "location": {
@@ -416,7 +421,7 @@
         ],
         "unit": null,
         "source_section": "Location",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       }
     },
     "battery": {
@@ -424,41 +429,55 @@
         "value": "Lithium-ion",
         "unit": null,
         "source_section": "Power and Battery6",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "talk_time_3g": {
         "value": 24,
-        "unit": "hours (up to)",
+        "unit": "hours",
         "source_section": "Power and Battery6",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "internet_use": {
-        "value": [
-          "3G: up to 12 hours",
-          "LTE: up to 12 hours",
-          "Wi‑Fi: up to 12 hours"
-        ],
+        "value": "3G/LTE/Wi‑Fi: up to 12 hours",
         "unit": null,
         "source_section": "Power and Battery6",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "hd_video_playback": {
         "value": 14,
         "unit": "hours (up to)",
         "source_section": "Power and Battery6",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "audio_playback": {
         "value": 80,
         "unit": "hours (up to)",
         "source_section": "Power and Battery6",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "standby": {
         "value": 16,
         "unit": "days (up to)",
         "source_section": "Power and Battery6",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
+      },
+      "video_playback_max": {
+        "value": 14,
+        "unit": "hours",
+        "source_section": "Power and Battery6",
+        "verification_status": "content_verified"
+      },
+      "audio_playback_max": {
+        "value": 80,
+        "unit": "hours",
+        "source_section": "Power and Battery6",
+        "verification_status": "content_verified"
+      },
+      "standby_max": {
+        "value": 16,
+        "unit": "days",
+        "source_section": "Power and Battery6",
+        "verification_status": "content_verified"
       }
     },
     "sensors": {
@@ -473,7 +492,7 @@
         ],
         "unit": null,
         "source_section": "Sensors",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       }
     },
     "connectors": {
@@ -484,7 +503,7 @@
         ],
         "unit": null,
         "source_section": "External Buttons and Connectors",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       }
     },
     "sim": {
@@ -492,7 +511,56 @@
         "value": "Nano-SIM",
         "unit": null,
         "source_section": "SIM Card",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
+      }
+    },
+    "connectivity": {
+      "models_listed": {
+        "value": "A1549/A1522 and A1586/A1524",
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified",
+        "notes": "Apple lists paired iPhone 6/iPhone 6 Plus regional model numbers."
+      },
+      "wifi": {
+        "value": "802.11a/b/g/n/ac",
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified"
+      },
+      "bluetooth": {
+        "value": "4.2",
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified"
+      },
+      "nfc": {
+        "value": true,
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified"
+      }
+    },
+    "charging": {
+      "connector": {
+        "value": "Lightning",
+        "unit": null,
+        "source_section": "External Buttons and Connectors",
+        "verification_status": "content_verified"
+      },
+      "headphone_jack": {
+        "value": true,
+        "unit": null,
+        "source_section": "External Buttons and Connectors",
+        "verification_status": "content_verified"
+      }
+    },
+    "in_box": {
+      "power_adapter_included": {
+        "value": true,
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "content_verified"
       }
     }
   },
@@ -500,6 +568,7 @@
     "This record is specifically for iPhone 6 Plus; standard iPhone 6 requires its own separate record.",
     "Some source sections explicitly refer to iPhone 6 and iPhone 6 Plus together. Do not assume every shared statement applies identically without checking.",
     "Cellular capabilities differ by model number; consult the preserved Cellular and Wireless section before comparing regional variants.",
-    "The source document's footnotes, historical operating-system statements, links, language lists, media formats and environmental requirements are preserved in the sections array."
+    "The source document's footnotes, historical operating-system statements, links, language lists, media formats and environmental requirements are preserved in the sections array.",
+    "2026-11-06 audit: full source-section and footnote review completed, sections rebuilt from retained Markdown, and core battery/wireless/connector/in-box fields added. Embedded outbound links remain pending."
   ]
 }
