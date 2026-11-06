@@ -569,6 +569,7 @@
     "Some source sections explicitly refer to iPhone 6 and iPhone 6 Plus together. Do not assume every shared statement applies identically without checking.",
     "Cellular capabilities differ by model number; consult the preserved Cellular and Wireless section before comparing regional variants.",
     "The source document's footnotes, historical operating-system statements, links, language lists, media formats and environmental requirements are preserved in the sections array.",
+    "2026-11-06 audit: full source-section and footnote review completed, sections rebuilt from retained Markdown, and core battery/wireless/connector/in-box fields added. Embedded outbound links remain pending.",
     "2026-11-06 audit: full source-section and footnote review completed, sections rebuilt from retained Markdown, and core battery/wireless/connector/in-box fields added. Embedded outbound links remain pending."
   ]
 }
