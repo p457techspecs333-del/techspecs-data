@@ -25,19 +25,24 @@
   "source": {
     "source_type": "manufacturer",
     "source_url": "https://support.apple.com/en-ie/111865",
-    "verification_status": "url_checked",
+    "verification_status": "content_verified",
     "checked_at": "2026-11-06",
     "source_title": "iPhone 11 - Technical Specifications",
-    "publisher": "Apple Support",
-    "verification_notes": "Official Apple technical-specifications page located and checked for model match on 2026-11-06. Individual normalized specifications have not yet been fully audited against the page."
+    "publisher": "Apple Support (Ireland)",
+    "verification_notes": "Full specification-section and footnote review completed against the official Apple Support Ireland page on 2026-11-06. The retained Markdown archive was re-parsed into 34 clean sections. Existing normalized dimensions, display, chip, camera and durability fields were checked; battery, wireless, connector and in-box details were added with source-section references. Embedded outbound link destinations have not all been individually opened."
   },
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
     "extracted_at": "2026-11-05",
-    "note": "Original source sections are preserved verbatim. The normalized fields below are a limited transcription of explicitly stated values; they are not independently fact-checked."
+    "note": "Source section structure rebuilt from retained Markdown. Core normalized fields and footnotes checked against the official Apple Support Ireland page; battery, wireless, connector and in-box fields added with source-section references. Embedded outbound links remain a separate audit task.",
+    "reviewed_at": "2026-11-06"
   },
   "sections": [
+    {
+      "heading": "Overview",
+      "source_text": "# iPhone 11 - Technical Specifications"
+    },
     {
       "heading": "Finish",
       "source_text": "- Black\n- Green\n- Yellow\n- Purple\n- (PRODUCT)RED™\n- White"
@@ -163,11 +168,11 @@
       "source_text": "- **Language support**\n  - English (Australia, Canada, India, Singapore, UK, U.S.), Chinese (Simplified, Traditional, Traditional Hong Kong), French (Canada, France), German, Italian, Japanese, Korean, Spanish (Latin America, Mexico, Spain), Arabic, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hindi, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\n- **QuickType keyboard support**\n  - English (Australia, Canada, India, Singapore, UK, U.S.), Chinese - Simplified (Handwriting, Pinyin QWERTY, Pinyin 10 Key, Shuangpin, Stroke), Chinese - Traditional (Cangjie, Handwriting, Pinyin QWERTY, Pinyin 10 Key, Shuangpin, Stroke, Sucheng, Zhuyin), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese (Kana, Romaji), Korean (2-Set, 10 Key), Spanish (Latin America, Mexico, Spain), Ainu, Albanian, Amharic, Arabic (Modern Standard, Najdi), Armenian, Assamese, Assyrian, Azerbaijani, Bangla, Belarusian, Bodo, Bulgarian, Burmese, Cantonese - Traditional (Cangjie, Handwriting, Stroke, Sucheng), Catalan, Cherokee, Croatian, Czech, Danish, Dhivehi, Dogri, Dutch, Emoji, Estonian, Faroese, Filipino, Finnish, Flemish, Fula (Adlam), Georgian, Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari, Latin, Transliteration), Hungarian, Icelandic, Igbo, Indonesian, Irish Gaelic, Kannada, Kashmiri (Arabic, Devanagari), Kazakh, Khmer, Konkani (Devanagari), Kurdish (Arabic, Latin), Kyrgyz, Lao, Latvian, Lithuanian, Macedonian, Maithili, Malay (Arabic, Latin), Malayalam, Maltese, Manipuri (Bangla, Meetei Mayek), Maori, Marathi, Mongolian, Navajo, Nepali, Norwegian (Bokmål, Nynorsk), Odia, Pashto, Persian, Persian (Afghanistan), Polish, Portuguese (Brazil, Portugal), Punjabi, Rohingya, Romanian, Russian, Sanskrit, Santali (Devanagari, Ol Chiki), Serbian (Cyrillic, Latin), Sindhi (Arabic, Devanagari), Sinhala, Slovak, Slovenian, Swahili, Swedish, Tajik, Tamil (Anjal, Tamil 99), Telugu, Thai, Tibetan, Tongan, Turkish, Turkmen, Ukrainian, Urdu, Uyghur, Uzbek (Arabic, Cyrillic, Latin), Vietnamese, Welsh\n- **QuickType keyboard support with autocorrection**\n  - Arabic (Modern Standard), Arabic (Najdi), Bangla, Bulgarian, Catalan, Cherokee, Chinese - Simplified (Pinyin QWERTY), Chinese - Traditional (Pinyin QWERTY), Chinese - Traditional (Zhuyin), Croatian, Czech, Danish, Dutch, English (Australia), English (Canada), English (India), English (Japan), English (Singapore), English (UK), English (U.S.), Estonian, Filipino, Finnish, Dutch (Belgium), French (Belgium), French (Canada), French (France), French (Switzerland), German (Austria), German (Germany), German (Switzerland), Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari), Hindi (Transliteration), Hungarian, Icelandic, Indonesian, Irish Gaelic, Italian, Japanese (Kana), Japanese (Romaji), Korean (2-set), Latvian, Lithuanian, Macedonian, Malay, Marathi, Norwegian (Bokmål), Norwegian (Nynorsk), Persian, Persian (Afghanistan), Polish, Portuguese (Brazil), Portuguese (Portugal), Punjabi, Romanian, Russian, Serbian (Cyrillic), Serbian (Latin), Slovak, Slovenian, Spanish (Latin America), Spanish (Mexico), Spanish (Spain), Swedish, Tamil (Anjal), Tamil (Tamil 99), Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese\n- **QuickType keyboard support with predictive input**\n  - English (Australia, Canada, India, Singapore, UK, U.S.), Chinese (Simplified, Traditional), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese, Korean, Spanish (Latin America, Mexico, Spain), Arabic (Modern Standard, Najdi), Cantonese (Traditional), Dutch, Hindi (Devanagari, Latin), Portuguese (Brazil, Portugal), Russian, Swedish, Thai, Turkish, Vietnamese\n- **QuickType keyboard support with multilingual input**\n  - English (U.S.), English (Australia), English (Canada), English (India), English (Singapore), English (UK), Chinese - Simplified (Pinyin), Chinese - Traditional (Pinyin), French (France), French (Belgium), French (Canada), French (Switzerland), German (Germany), German (Austria), German (Switzerland), Italian, Japanese (Romaji), Portuguese (Brazil), Portuguese (Portugal), Spanish (Spain), Spanish (Latin America), Spanish (Mexico), Dutch (Belgium), Dutch (Netherlands), Hindi (Latin)\n- **QuickType keyboard support with contextual suggestions**\n  - English (U.S.), English (Australia), English (Canada), English (India), English (Singapore), English (UK), Chinese (Simplified), French (Belgium), French (Canada), French (France), French (Switzerland), German (Austria), German (Germany), German (Switzerland), Italian, Spanish (Latin America), Spanish (Mexico), Spanish (Spain), Arabic (Modern Standard), Arabic (Najdi), Dutch (Belgium), Dutch (Netherlands), Hindi (Devanagari), Hindi (Latin), Russian, Swedish, Portuguese (Brazil), Turkish, Vietnamese\n- **QuickPath keyboard support**\n  - English (U.S.), English (Australia), English (Canada), English (India), English (Singapore), English (UK), Chinese (Simplified), French (Canada), French (France), French (Switzerland), German (Austria), German (Germany), German (Switzerland), Italian, Spanish (Latin America), Spanish (Mexico), Spanish (Spain), Portuguese (Brazil), Portuguese (Portugal), Dutch (Belgium), Dutch (Netherlands), Swedish, Vietnamese\n- **Siri languages**\n  - English (Australia, Canada, India, Ireland, New Zealand, Singapore, South Africa, UK, U.S.), Spanish (Chile, Mexico, Spain, U.S.), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese (Japan), Korean (Republic of Korea), Mandarin Chinese (China mainland, Taiwan), Cantonese (China mainland, Hong Kong), Arabic (Saudi Arabia, United Arab Emirates), Danish (Denmark), Dutch (Belgium, Netherlands), Finnish (Finland), Hebrew (Israel), Malay (Malaysia), Norwegian (Norway), Portuguese (Brazil), Russian (Russia), Swedish (Sweden), Thai (Thailand), Turkish (Türkiye)\n- **Dictation languages**\n  - English (Australia, Canada, India, Indonesia, Ireland, Malaysia, New Zealand, Philippines, Saudi Arabia, Singapore, South Africa, United Arab Emirates, UK, U.S.), Spanish (Argentina, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Panama, Paraguay, Peru, Spain, Uruguay, U.S.), French (Belgium, Canada, France, Luxembourg, Switzerland), German (Austria, Germany, Luxembourg, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (China mainland, Hong Kong, Macao), Arabic (Kuwait, Qatar, Saudi Arabia, United Arab Emirates), Catalan, Croatian, Czech, Danish, Dutch (Belgium, Netherlands), Finnish, Greek, Hebrew, Hindi (India), Hungarian, Indonesian, Malaysian, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Shanghainese (China mainland), Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\n- **Definition dictionary support**\n  - English (UK, U.S.), Chinese (Simplified, Traditional), Danish, Dutch, French, German, Hebrew, Hindi, Italian, Japanese, Korean, Norwegian, Portuguese, Russian, Spanish, Swedish, Thai, Turkish\n- **Bilingual dictionary support**\n  - Arabic – English, Chinese (Simplified) – English, Chinese (Traditional) – English, Dutch – English, French – English, French – German, German – English, Gujarati – English, Hindi – English, Indonesian – English, Italian – English, Japanese – English, Japanese – Chinese (Simplified), Korean – English, Polish – English, Portuguese – English, Russian – English, Spanish – English, Tamil – English, Telugu – English, Thai – English, Urdu – English, Vietnamese – English\n- **Thesaurus**\n  - English (UK, U.S.), Chinese (Simplified)\n- **Spell check**\n  - English, French, German, Italian, Spanish, Arabic, Arabic Najdi, Danish, Dutch, Finnish, Korean, Norwegian, Polish, Portuguese, Russian, Swedish, Turkish\n- **Apple Pay supported regions**\n  - Armenia, Australia, Austria, Azerbaijan, Bahrain, Belarus, Belgium, Brazil, Bulgaria, Canada, China mainland,16 Colombia, Costa Rica, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Faroe Islands, Finland, France, Georgia, Germany, Greece, Greenland, Guernsey, Hong Kong, Hungary, Iceland, Ireland, Isle of Man, Israel, Italy, Japan, Jersey, Kazakhstan, Latvia, Liechtenstein, Lithuania, Luxembourg, Macao, Malta, Mexico, Monaco, Montenegro, Netherlands, New Zealand, Norway, Palestine, Poland, Portugal, Qatar, Romania, San Marino, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, Switzerland, Taiwan, UK, Ukraine, United Arab Emirates, U.S., Vatican City"
     },
     {
-      "heading": "**In the Box**",
+      "heading": "In the Box",
       "source_text": "- iPhone 11\n- USB-C to Lightning Cable\n- Documentation\n\n*As part of our efforts to reach [our environmental goals](https://www.apple.com/uk/environment/), iPhone 11 does not include a power adapter or EarPods. Included in the box is a USB‑C to Lightning cable that supports fast charging and is compatible with USB‑C power adapters and computer ports.*\n\n*We encourage you to re‑use your current power adapters and headphones that are compatible with this iPhone. But if you need any new Apple power adapters or headphones, they are available for purchase.*"
     },
     {
-      "heading": "**iPhone and the Environment**",
+      "heading": "iPhone and the Environment",
       "source_text": "iPhone 11 is designed with the following features to reduce its environmental impact:17\n\n[See the iPhone 11 Product Environmental Reports](https://www.apple.com/uk/environment/#reports-product)\n\n**Made with better materials**\n\n- 100% recycled rare earth elements in the Taptic Engine18\n- 100% recycled tin in the solder of the main logic board\n- 35% or more recycled plastic in multiple components\n\n**Energy efficient**\n\n- Meets U.S. Department of Energy requirements for battery charger systems19\n\n**Smarter chemistry20**\n\n- Arsenic-free display glass\n- Mercury-, BFR-, PVC-, and beryllium‑free\n\n**Green manufacturing**\n\n- Apple’s Zero Waste Program helps suppliers eliminate waste sent to landfill\n- All final assembly supplier sites are transitioning to 100% renewable energy for Apple production\n\n**Responsible packaging**\n\n- 100% of virgin wood fiber comes from responsibly managed forests\n- 90% or more fiber-based packaging\n\n**Apple and the Environment**\n\nWe’re committed to making our products without taking from the earth, and to become carbon neutral across our entire business, including products, by 2030.\n\n[See Apple’s commitment](https://www.apple.com/uk/environment/)\n\n\\* To identify your iPhone model number, see [https://support.apple.com/en-gb/HT3939](https://support.apple.com/en-gb/HT3939). For details on LTE support, contact your carrier and see [apple.com/uk/iphone/cellular](https://www.apple.com/uk/iphone/cellular/). Cellular technology support is based on iPhone model number and configuration for either CDMA or GSM networks.\n\n1. Available space is less and varies due to many factors. A standard configuration uses approximately 12GB to 17GB of space, including iOS 15 with its latest features and Apple apps that can be deleted. Apple apps that can be deleted use about 4.5GB of space, and you can download them back from the App Store. Storage capacity subject to change based on software version, settings, and iPhone model.\n2. Size and weight vary by configuration and manufacturing process.\n3. iPhone 11 is splash, water, and dust resistant and was tested under controlled laboratory conditions with a rating of IP68 under IEC standard 60529 (maximum depth of 2 meters up to 30 minutes). Splash, water, and dust resistance are not permanent conditions. Resistance might decrease as a result of normal wear. Do not attempt to charge a wet iPhone; refer to the user guide for cleaning and drying instructions. Liquid damage not covered under warranty.\n4. To send and receive money with Apple Pay, you must be at least 18 years old and a resident of the United States. If you’re under 18 years old in the United States, your family organizer can set up Apple Cash for you as part of Apple Cash Family. Then you can send and receive money with Apple Pay. Sending and receiving money with Apple Pay and the Apple Cash card are services provided by Green Dot Bank, Member FDIC. Learn more about the [Terms and Conditions](https://applecash.greendot.com/termsconditions/).\n5. Available only in select cities and transit systems. Requires eligible device and OS version. [See here for details](https://support.apple.com/en-gb/HT209495).\n6. Data plan required. Gigabit‑class LTE, VoLTE, and Wi‑Fi calling are available in select markets and through select carriers. Speeds are based on theoretical throughput and vary based on site conditions and carrier. For details on LTE support, contact your carrier and see [apple.com/uk/iphone/cellular](https://www.apple.com/uk/iphone/cellular/).\n7. Ultra Wideband availability varies by region.\n8. FaceTime calling requires a FaceTime‑enabled device for the caller and recipient and a Wi‑Fi connection. Availability over a cellular network depends on carrier policies; data charges may apply.\n9. Standard Dynamic Range video content only.\n10. Siri may not be available in all languages or in all areas, and features may vary by area. Internet access required. Cellular data charges may apply.\n11. All battery claims depend on network configuration and many other factors; actual results will vary. Battery has limited recharge cycles and may eventually need to be replaced. Battery life and charge cycles vary by use and settings. See [apple.com/uk/batteries](https://www.apple.com/uk/batteries/) and [apple.com/uk/iphone/battery.html](https://www.apple.com/uk/iphone/battery.html) for more information.\n12. Testing conducted by Apple in August 2019 using preproduction iPhone 11, iPhone 11 Pro, and iPhone 11 Pro Max units and software and accessory Apple USB‑C Power Adapters (18W Model A1720, 29W Model A1540, 30W Model A1882, 61W Model A1947 and 87W Model A1719). Fast‑charge testing conducted with drained iPhone units. Charge time varies with environmental factors; actual results will vary.\n13. Qi wireless chargers sold separately.\n14. Use of eSIM requires a wireless service plan (which may include restrictions on switching service providers and roaming, even after contract expiration). Not all carriers support eSIM. Use of eSIM in iPhone may be disabled when purchased from some carriers. See your carrier for details. To learn more, visit [https://support.apple.com/en-gb/HT212780](https://support.apple.com/en-gb/HT212780).\n15. Wireless broadband recommended; fees may apply.\n16. In China mainland, you can use Apple Pay on the web in Safari only on compatible iPhone and iPad models using iOS 11.2 or later.\n17. Data accurate as of product launch.\n18. The Taptic Engine represents about 25% of the total rare earth elements used in the product.\n19. Efficiency performance is based on the U.S. Department of Energy [Federal Energy Conservation Standards for Battery Chargers](https://www.regulations.gov/document/EERE-2008-BT-STD-0005-0256).\n20. Apple defines its restrictions on harmful substances, including definitions for what Apple considers to be “free of,” in the [Apple Regulated Substances Specification](https://www.apple.com/environment/pdf/Apple_Regulated_Substances_Specification_Sept2018.pdf). Every Apple product is free of PVC and phthalates with the exception of AC power cords in India, Thailand (for two-prong AC power cords), and South Korea, where we continue to seek government approval for our PVC and phthalates replacement."
     }
   ],
@@ -177,25 +182,25 @@
         "value": 75.7,
         "unit": "mm",
         "source_section": "Size and Weight2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "height": {
         "value": 150.9,
         "unit": "mm",
         "source_section": "Size and Weight2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "depth": {
         "value": 8.3,
         "unit": "mm",
         "source_section": "Size and Weight2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "weight": {
         "value": 194,
         "unit": "g",
         "source_section": "Size and Weight2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       }
     },
     "display": {
@@ -203,37 +208,37 @@
         "value": "Liquid Retina HD LCD with IPS technology",
         "unit": null,
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "diagonal": {
         "value": 6.1,
         "unit": "in",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "resolution": {
         "value": "1792 × 828",
         "unit": "pixels",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "pixel_density": {
         "value": 326,
         "unit": "ppi",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "typical_brightness": {
         "value": 625,
         "unit": "nits",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "contrast_ratio": {
         "value": "1400:1",
         "unit": null,
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       }
     },
     "processor": {
@@ -241,25 +246,25 @@
         "value": "A13 Bionic",
         "unit": null,
         "source_section": "Chip",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "cpu_cores": {
         "value": 6,
         "unit": "cores",
         "source_section": "Chip",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "gpu_cores": {
         "value": 4,
         "unit": "cores",
         "source_section": "Chip",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "neural_engine_cores": {
         "value": 8,
         "unit": "cores",
         "source_section": "Chip",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       }
     },
     "durability": {
@@ -267,20 +272,106 @@
         "value": "IP68",
         "unit": null,
         "source_section": "Splash, Water, and Dust Resistant3",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "maximum_water_depth": {
         "value": 2,
         "unit": "m",
         "source_section": "Splash, Water, and Dust Resistant3",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "maximum_duration": {
         "value": 30,
         "unit": "min",
         "source_section": "Splash, Water, and Dust Resistant3",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
+      }
+    },
+    "battery": {
+      "video_playback_max": {
+        "value": 17,
+        "unit": "hours",
+        "source_section": "Power and Battery11",
+        "verification_status": "content_verified"
+      },
+      "streamed_video_playback_max": {
+        "value": 10,
+        "unit": "hours",
+        "source_section": "Power and Battery11",
+        "verification_status": "content_verified"
+      },
+      "audio_playback_max": {
+        "value": 65,
+        "unit": "hours",
+        "source_section": "Power and Battery11",
+        "verification_status": "content_verified"
+      },
+      "fast_charge_50_percent_time": {
+        "value": 30,
+        "unit": "minutes",
+        "source_section": "Power and Battery11",
+        "verification_status": "content_verified",
+        "notes": "With a 20W adapter or higher, sold separately."
+      },
+      "wireless_charging_standard": {
+        "value": "Qi",
+        "unit": null,
+        "source_section": "Power and Battery11",
+        "verification_status": "content_verified"
+      }
+    },
+    "connectivity": {
+      "models_listed": {
+        "value": "A2111",
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified",
+        "notes": "Model number shown on Apple’s page; regional configuration, not an assertion of Irish retail SKU."
+      },
+      "wifi": {
+        "value": "Wi‑Fi 6 (802.11ax) with 2×2 MIMO",
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified"
+      },
+      "bluetooth": {
+        "value": "5.0",
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified"
+      },
+      "ultra_wideband": {
+        "value": "Ultra Wideband chip for spatial awareness",
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified"
+      },
+      "nfc_reader_mode": {
+        "value": true,
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified"
+      }
+    },
+    "charging": {
+      "connector": {
+        "value": "Lightning",
+        "unit": null,
+        "source_section": "External Buttons and Connectors",
+        "verification_status": "content_verified"
+      }
+    },
+    "in_box": {
+      "power_adapter_included": {
+        "value": false,
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "content_verified",
+        "notes": "Apple says the box does not include a power adapter or EarPods."
       }
     }
-  }
+  },
+  "record_notes": [
+    "2026-11-06 audit: full source-section and footnote review completed, sections rebuilt from retained Markdown, and core battery/wireless/connector/in-box fields added. Embedded outbound links remain pending."
+  ]
 }
