@@ -63,7 +63,9 @@ def main() -> int:
 
     files = sorted(
         path for path in DATA_ROOT.rglob("*.json")
-        if path != OUTPUT and path.name != "catalogue.json" and "schemas" not in path.relative_to(DATA_ROOT).parts
+        if path != OUTPUT
+        and path.name not in {"catalogue.json", "api-manifest.json"}
+        and "schemas" not in path.relative_to(DATA_ROOT).parts
     )
     entries: list[dict[str, Any]] = []
 
@@ -100,6 +102,7 @@ def main() -> int:
     )
     # Publish a sitemap alongside the catalogue so crawlers can discover every record.
     sitemap_urls = [
+        f"{BASE_URL}/api-manifest.json",
         f"{BASE_URL}/catalogue.json",
         f"{BASE_URL}/llms.txt",
         f"{BASE_URL}/schemas/product-record-v2.schema.json",
