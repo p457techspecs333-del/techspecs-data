@@ -14,10 +14,10 @@
     "source_url": "https://support.apple.com/en-ie/111866",
     "verification_status": "url_checked",
     "checked_at": "2026-11-06",
-    "source_file": "iphone-se-3rd-generation.md",
+    "source_file": "sources/apple/iphone/iphone-se-generation/iphone-se-3rd-generation-source.md",
     "source_title": "iPhone SE (3rd generation) - Technical Specifications",
     "publisher": "Apple Support (Ireland)",
-    "verification_notes": "Official Apple Support Ireland technical-specifications URL supplied by the project owner and matched to this model. URL-level source identification only; normalized specifications have not all been compared field by field."
+    "verification_notes": "Official Apple Support Ireland technical-specifications URL supplied by the project owner and matched to this model. URL-level source identification only; normalized specifications have not all been compared field by field. 2026-11-06 repository integrity check corrected the source_file reference to the existing archived Markdown path. This fixes provenance linkage only; field-by-field factual verification remains pending."
   },
   "extraction": {
     "method": "section_preserving",
