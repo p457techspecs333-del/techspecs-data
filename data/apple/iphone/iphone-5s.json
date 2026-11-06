@@ -26,7 +26,7 @@
     "checked_at": "2026-11-06",
     "source_title": "iPhone 5s - Technical Specifications",
     "publisher": "Apple Support (Ireland)",
-    "verification_notes": "Full specification-section and footnote review completed against the official Apple Support Ireland page on 2026-11-06. The retained Markdown archive was re-parsed into 31 clean sections. The source URL was standardized to the confirmed Ireland page. Existing normalized dimensions, display and chip fields were checked; battery, wireless, connector and in-box fields were added with source-section references. Embedded outbound link destinations have not all been individually opened."
+    "verification_notes": "Full specification-section and footnote review completed against the official Apple Support Ireland page on 2026-11-06. The retained Markdown archive was re-parsed into 31 clean sections. Source URL standardized to the confirmed Ireland page. Existing normalized dimensions, display and chip fields were checked; battery, wireless, connector and in-box fields were added with source-section references. Embedded outbound link destinations have not all been individually opened."
   },
   "extraction": {
     "method": "section_preserving",
@@ -248,8 +248,8 @@
         "verification_status": "content_verified"
       },
       "standby_max": {
-        "value": 10,
-        "unit": "days",
+        "value": 250,
+        "unit": "hours",
         "source_section": "Power and Battery5",
         "verification_status": "content_verified"
       },
@@ -278,7 +278,7 @@
         "unit": null,
         "source_section": "Cellular and Wireless",
         "verification_status": "content_verified",
-        "notes": "Model numbers shown on the Apple page; regional configurations."
+        "notes": "Model numbers shown on Apple’s page; regional configurations."
       },
       "wifi": {
         "value": "802.11a/b/g/n",
@@ -329,6 +329,7 @@
     }
   },
   "record_notes": [
+    "2026-11-06 audit: full source-section and footnote review completed, source URL standardized to the Ireland page, sections rebuilt from retained Markdown, and core battery/wireless/connector/in-box fields added. Embedded outbound links remain pending.",
     "2026-11-06 audit: full source-section and footnote review completed, source URL standardized to the Ireland page, sections rebuilt from retained Markdown, and core battery/wireless/connector/in-box fields added. Embedded outbound links remain pending."
   ]
 }
