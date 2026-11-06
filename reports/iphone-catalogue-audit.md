@@ -222,3 +222,8 @@ The source-file references for iPhone SE (2nd generation) and iPhone SE (3rd gen
 
 
 A subsequent normalization pass added 26 core normalized fields across seven groups for iPhone 6 and 34 fields across eight groups for iPhone 16e. The work is intentionally partial; it does not imply that every specification or embedded link has been audited.
+
+
+### Addendum — 6 November 2026: iPhone 18 Pro records
+
+Added 30 model-specific core normalized fields to each of the iPhone 18 Pro and iPhone 18 Pro Max records, including distinct model numbers, dimensions, display, chip, camera, battery and connectivity. The official Apple Ireland page is present in search-indexed content, but direct retrieval returned a cache miss; these new values are conservatively marked `partially_verified`. Full source-section, footnote and link verification remains open. This is data validation work only; no comparison features are being built.
