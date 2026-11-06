@@ -7,7 +7,22 @@
     "model": "iPhone 6",
     "model_slug": "iphone-6",
     "model_year": 2014,
-    "year_introduced": 2014
+    "year_introduced": 2014,
+    "finishes": [
+      "Silver",
+      "Gold",
+      "Space Gray"
+    ],
+    "storage_options": [
+      "16GB",
+      "32GB",
+      "64GB",
+      "128GB"
+    ],
+    "model_numbers": [
+      "A1549",
+      "A1586"
+    ]
   },
   "source": {
     "source_type": "user_supplied_document",
@@ -25,8 +40,8 @@
   },
   "extraction": {
     "method": "section_preserving",
-    "normalization_status": "archival_first_pass",
-    "note": "Section-preserving archival transcription. Full specification-section and footnote content reviewed against the official Ireland Apple Support page on 2026-11-06; JSON sections match the archived Markdown headings and text exactly. No normalized_specifications object is present. Embedded outbound links still require a separate link audit.",
+    "normalization_status": "partially_normalized",
+    "note": "Section-preserving archival transcription. Full specification-section and footnote content reviewed against the official Ireland Apple Support page on 2026-11-06; JSON sections match the archived Markdown headings and text exactly. No normalized_specifications object is present. Embedded outbound links still require a separate link audit. Core structured fields were added on 2026-11-06 from sections reviewed against the official Ireland Apple Support page. This is intentionally partial normalization; remaining fields and embedded outbound links are still pending audit.",
     "extracted_at": "2026-11-06",
     "reviewed_at": "2026-11-06"
   },
@@ -171,6 +186,181 @@
   "record_notes": [
     "Created from user-supplied Markdown after the repository audit incorrectly classified this product record as blocked by missing source text.",
     "Original section headings and source wording are retained. Any transcription errors, legacy page wording, or source-page differences remain unverified.",
-    "2026-11-06: full section-level specification and footnote content checked against the official Ireland Apple Support page; source transcription matches archival Markdown exactly. Embedded outbound links are not yet individually verified."
-  ]
+    "2026-11-06: full section-level specification and footnote content checked against the official Ireland Apple Support page; source transcription matches archival Markdown exactly. Embedded outbound links are not yet individually verified.",
+    "2026-11-06: added a first set of normalized fields with per-field content_verified status, each linked to its source section. This is partial normalization, not a claim that every possible field or embedded link has been checked."
+  ],
+  "normalized_specifications": {
+    "dimensions": {
+      "height": {
+        "value": 138.1,
+        "unit": "mm",
+        "source_section": "Weight and Dimensions2",
+        "verification_status": "content_verified"
+      },
+      "width": {
+        "value": 67,
+        "unit": "mm",
+        "source_section": "Weight and Dimensions2",
+        "verification_status": "content_verified"
+      },
+      "depth": {
+        "value": 6.9,
+        "unit": "mm",
+        "source_section": "Weight and Dimensions2",
+        "verification_status": "content_verified"
+      },
+      "weight": {
+        "value": 129,
+        "unit": "g",
+        "source_section": "Weight and Dimensions2",
+        "verification_status": "content_verified"
+      }
+    },
+    "display": {
+      "type": {
+        "value": "Retina HD, LED-backlit widescreen Multi-Touch display with IPS technology",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      },
+      "diagonal": {
+        "value": 4.7,
+        "unit": "in",
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      },
+      "resolution": {
+        "value": "1334 × 750",
+        "unit": "pixels",
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      },
+      "pixel_density": {
+        "value": 326,
+        "unit": "ppi",
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      },
+      "brightness_max": {
+        "value": 500,
+        "unit": "cd/m²",
+        "source_section": "Display",
+        "verification_status": "content_verified",
+        "notes": "Typical maximum brightness as stated by Apple."
+      },
+      "contrast_ratio": {
+        "value": "1400:1",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "content_verified",
+        "notes": "Typical."
+      }
+    },
+    "processor": {
+      "chip": {
+        "value": "A8",
+        "unit": null,
+        "source_section": "Chips",
+        "verification_status": "content_verified"
+      },
+      "motion_coprocessor": {
+        "value": "M8",
+        "unit": null,
+        "source_section": "Chips",
+        "verification_status": "content_verified"
+      }
+    },
+    "camera": {
+      "rear_resolution": {
+        "value": 8,
+        "unit": "MP",
+        "source_section": "iSight Camera",
+        "verification_status": "content_verified"
+      },
+      "rear_aperture": {
+        "value": "ƒ/2.2",
+        "unit": null,
+        "source_section": "iSight Camera",
+        "verification_status": "content_verified"
+      },
+      "front_resolution": {
+        "value": 1.2,
+        "unit": "MP",
+        "source_section": "FaceTime HD Camera",
+        "verification_status": "content_verified"
+      },
+      "front_video_max": {
+        "value": "720p HD",
+        "unit": null,
+        "source_section": "FaceTime HD Camera",
+        "verification_status": "content_verified"
+      }
+    },
+    "video": {
+      "rear_recording_max": {
+        "value": "1080p HD at 60 fps",
+        "unit": null,
+        "source_section": "Video Recording",
+        "verification_status": "content_verified"
+      },
+      "slow_motion": {
+        "value": "120 fps or 240 fps",
+        "unit": null,
+        "source_section": "Video Recording",
+        "verification_status": "content_verified"
+      }
+    },
+    "connectivity": {
+      "wifi": {
+        "value": "802.11a/b/g/n/ac",
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified"
+      },
+      "bluetooth": {
+        "value": "4.2",
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified"
+      },
+      "nfc": {
+        "value": true,
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified"
+      }
+    },
+    "battery": {
+      "talk_time_3g_max": {
+        "value": 14,
+        "unit": "hours",
+        "source_section": "Power and Battery6",
+        "verification_status": "content_verified"
+      },
+      "internet_use_wifi_max": {
+        "value": 11,
+        "unit": "hours",
+        "source_section": "Power and Battery6",
+        "verification_status": "content_verified"
+      },
+      "video_playback_hd_max": {
+        "value": 11,
+        "unit": "hours",
+        "source_section": "Power and Battery6",
+        "verification_status": "content_verified"
+      },
+      "audio_playback_max": {
+        "value": 50,
+        "unit": "hours",
+        "source_section": "Power and Battery6",
+        "verification_status": "content_verified"
+      },
+      "standby_max": {
+        "value": 10,
+        "unit": "days",
+        "source_section": "Power and Battery6",
+        "verification_status": "content_verified"
+      }
+    }
+  }
 }
