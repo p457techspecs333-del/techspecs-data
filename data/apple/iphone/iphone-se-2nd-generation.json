@@ -7,152 +7,167 @@
     "model": "iPhone SE (2nd generation)",
     "model_slug": "iphone-se-2nd-generation",
     "model_year": 2020,
-    "year_introduced": 2020
+    "year_introduced": 2020,
+    "finishes": [
+      "Black",
+      "White",
+      "(PRODUCT)RED"
+    ],
+    "storage_options": [
+      "64GB",
+      "128GB",
+      "256GB"
+    ]
   },
   "source": {
     "source_type": "manufacturer",
     "source_url": "https://support.apple.com/en-ie/111882",
-    "verification_status": "url_checked",
+    "verification_status": "content_verified",
     "checked_at": "2026-11-06",
     "source_file": "sources/apple/iphone/iphone-se-generation/iphone-se-2nd-generation-source.md",
     "source_title": "iPhone SE (2nd generation) - Technical Specifications",
-    "publisher": "Apple Support",
-    "verification_notes": "Official Apple technical-specifications page located and checked for model match on 2026-11-06. Individual normalized specifications have not yet been fully audited against the page. 2026-11-06 repository integrity check corrected the source_file reference to the existing archived Markdown path. This fixes provenance linkage only; field-by-field factual verification remains pending."
+    "publisher": "Apple Support (Ireland)",
+    "verification_notes": "Full specification-section and footnote review completed against the official Apple Support Ireland page on 2026-11-06. The retained Markdown archive was re-parsed into 34 clean sections. Existing normalized dimensions, display, chip and durability fields were checked; battery, wireless, connector and in-box fields were added with source-section references. Embedded outbound link destinations have not all been individually opened."
   },
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
     "extracted_at": "2026-11-05",
-    "note": "Original sections are preserved verbatim. Selected fields are normalized from those sections only; source transcription is not independent factual verification."
+    "note": "Source section structure rebuilt from retained Markdown. Core normalized fields and footnotes checked against the official Apple Support Ireland page; battery, wireless, connector and in-box fields added with source-section references. Embedded outbound links remain a separate audit task.",
+    "reviewed_at": "2026-11-06"
   },
   "sections": [
     {
+      "heading": "Overview",
+      "source_text": "# iPhone SE (2nd generation) - Tech Specs\n\nYear introduced: 2020"
+    },
+    {
       "heading": "Finish",
-      "source_text": "- Black\n- White\n- (PRODUCT)RED\n"
+      "source_text": "- Black\n- White\n- (PRODUCT)RED"
     },
     {
       "heading": "Capacity1",
-      "source_text": "- 64GB\n- 128GB\n- 256GB\n"
+      "source_text": "- 64GB\n- 128GB\n- 256GB"
     },
     {
       "heading": "Size and Weight2",
-      "source_text": "- **Width:&#x20;**&#x32;.65 inches (67.3 mm)\n- **Height:&#x20;**&#x35;.45 inches (138.4 mm)\n- **Depth:&#x20;**&#x30;.29 inch (7.3 mm)\n- **Weight:** 5.22 ounces (148 grams)\n"
+      "source_text": "- **Width:&#x20;**&#x32;.65 inches (67.3 mm)\n- **Height:&#x20;**&#x35;.45 inches (138.4 mm)\n- **Depth:&#x20;**&#x30;.29 inch (7.3 mm)\n- **Weight:** 5.22 ounces (148 grams)"
     },
     {
       "heading": "Display",
-      "source_text": "- Retina HD display\n- 4.7-inch (diagonal) widescreen LCD Multi‑Touch display with IPS technology\n- 1334-by-750-pixel resolution at 326 ppi\n- 1400:1 contrast ratio (typical)\n- True Tone display\n- Wide color display (P3)\n- Haptic Touch\n- 625 nits max brightness (typical)\n- Fingerprint-resistant oleophobic coating\n- Display Zoom\n- Reachability\n"
+      "source_text": "- Retina HD display\n- 4.7-inch (diagonal) widescreen LCD Multi‑Touch display with IPS technology\n- 1334-by-750-pixel resolution at 326 ppi\n- 1400:1 contrast ratio (typical)\n- True Tone display\n- Wide color display (P3)\n- Haptic Touch\n- 625 nits max brightness (typical)\n- Fingerprint-resistant oleophobic coating\n- Display Zoom\n- Reachability"
     },
     {
       "heading": "Chip",
-      "source_text": "- A13 Bionic chip\n- 6-core CPU with 2 performance and 4 efficiency cores\n- 4-core GPU\n- 8-core Neural Engine\n"
+      "source_text": "- A13 Bionic chip\n- 6-core CPU with 2 performance and 4 efficiency cores\n- 4-core GPU\n- 8-core Neural Engine"
     },
     {
       "heading": "Splash, Water, and Dust Resistant3",
-      "source_text": "- Rated IP67 (maximum depth of 1 meter up to 30 minutes) under IEC standard 60529\n"
+      "source_text": "- Rated IP67 (maximum depth of 1 meter up to 30 minutes) under IEC standard 60529"
     },
     {
       "heading": "Camera",
-      "source_text": "- 12MP Wide camera\n- ƒ/1.8 aperture\n- Digital zoom up to 5x\n- Portrait mode with advanced bokeh and Depth Control\n- Portrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High-Key Mono)\n- Optical image stabilization\n- Six‑element lens\n- LED True Tone flash with Slow Sync\n- Panorama (up to 63MP)\n- Sapphire crystal lens cover\n- Autofocus with Focus Pixels\n- Wide color capture for photos and Live Photos\n- Next-generation Smart HDR for photos\n- Advanced red-eye correction\n- Auto image stabilization\n- Burst mode\n- Photo geotagging\n- Image formats captured: HEIF and JPEG\n"
+      "source_text": "- 12MP Wide camera\n- ƒ/1.8 aperture\n- Digital zoom up to 5x\n- Portrait mode with advanced bokeh and Depth Control\n- Portrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High-Key Mono)\n- Optical image stabilization\n- Six‑element lens\n- LED True Tone flash with Slow Sync\n- Panorama (up to 63MP)\n- Sapphire crystal lens cover\n- Autofocus with Focus Pixels\n- Wide color capture for photos and Live Photos\n- Next-generation Smart HDR for photos\n- Advanced red-eye correction\n- Auto image stabilization\n- Burst mode\n- Photo geotagging\n- Image formats captured: HEIF and JPEG"
     },
     {
       "heading": "Video Recording",
-      "source_text": "- 4K video recording at 24 fps, 25 fps, 30 fps, or 60 fps\n- 1080p HD video recording at 25 fps, 30 fps, or 60 fps\n- 720p HD video recording at 30 fps\n- Extended dynamic range for video up to 30 fps\n- Optical image stabilization for video\n- Digital zoom up to 3x\n- LED True Tone flash\n- QuickTake video\n- Slo‑mo video support for 1080p at 120 fps or 240 fps\n- Time‑lapse video with stabilization\n- Cinematic video stabilization (4K, 1080p, and 720p)\n- Continuous autofocus video\n- Take 8MP still photos while recording 4K video\n- Playback zoom\n- Video formats recorded: HEVC and H.264\n- Stereo recording\n"
+      "source_text": "- 4K video recording at 24 fps, 25 fps, 30 fps, or 60 fps\n- 1080p HD video recording at 25 fps, 30 fps, or 60 fps\n- 720p HD video recording at 30 fps\n- Extended dynamic range for video up to 30 fps\n- Optical image stabilization for video\n- Digital zoom up to 3x\n- LED True Tone flash\n- QuickTake video\n- Slo‑mo video support for 1080p at 120 fps or 240 fps\n- Time‑lapse video with stabilization\n- Cinematic video stabilization (4K, 1080p, and 720p)\n- Continuous autofocus video\n- Take 8MP still photos while recording 4K video\n- Playback zoom\n- Video formats recorded: HEVC and H.264\n- Stereo recording"
     },
     {
       "heading": "Front Camera",
-      "source_text": "- 7MP camera\n- ƒ/2.2 aperture\n- Portrait mode with advanced bokeh and Depth Control\n- Portrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High-Key Mono)\n- 1080p HD video recording at 25 fps or 30 fps\n- Retina Flash\n- QuickTake video\n- Wide color capture for photos and Live Photos\n- Auto HDR for photos\n- Auto image stabilization\n- Burst mode\n- Cinematic video stabilization (1080p and 720p)\n"
+      "source_text": "- 7MP camera\n- ƒ/2.2 aperture\n- Portrait mode with advanced bokeh and Depth Control\n- Portrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High-Key Mono)\n- 1080p HD video recording at 25 fps or 30 fps\n- Retina Flash\n- QuickTake video\n- Wide color capture for photos and Live Photos\n- Auto HDR for photos\n- Auto image stabilization\n- Burst mode\n- Cinematic video stabilization (1080p and 720p)"
     },
     {
       "heading": "Touch ID",
-      "source_text": "- Fingerprint sensor built into the Home button\n"
+      "source_text": "- Fingerprint sensor built into the Home button"
     },
     {
       "heading": "Apple Pay",
-      "source_text": "- Pay with your iPhone using Touch ID in stores, within apps, and on the web\n- Send and receive money in Messages with Apple Cash4\n- Complete purchases made with Apple Pay on your Mac\n- Pay for your ride using Express Transit5\n\n[Learn more about Apple Pay](https://www.apple.com/uk/apple-pay/)\n\n[Learn more about Apple Cash](https://www.apple.com/apple-cash/)\n"
+      "source_text": "- Pay with your iPhone using Touch ID in stores, within apps, and on the web\n- Send and receive money in Messages with Apple Cash4\n- Complete purchases made with Apple Pay on your Mac\n- Pay for your ride using Express Transit5\n\n[Learn more about Apple Pay](https://www.apple.com/uk/apple-pay/)\n\n[Learn more about Apple Cash](https://www.apple.com/apple-cash/)"
     },
     {
       "heading": "Cellular and Wireless",
-      "source_text": "**Model A2275\\***\n\n- FDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 29, 30, 66, 71)\n- TD‑LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48)\n- CDMA EV‑DO Rev. A (800, 1900 MHz)\n- UMTS/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\n- GSM/EDGE (850, 900, 1800, 1900 MHz)\n\n**All models**\n\n- Gigabit-class LTE with 2x2 MIMO and LAA6\n- 802.11ax Wi‑Fi 6 with 2x2 MIMO\n- Bluetooth 5.0 wireless technology\n- NFC with reader mode\n- Express Cards with power reserve\n\nFor details on LTE support, contact your carrier and see [apple.com/uk/iphone/LTE](https://www.apple.com/uk/iphone/LTE/).\n"
+      "source_text": "**Model A2275\\***\n\n- FDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 29, 30, 66, 71)\n- TD‑LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48)\n- CDMA EV‑DO Rev. A (800, 1900 MHz)\n- UMTS/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\n- GSM/EDGE (850, 900, 1800, 1900 MHz)\n\n**All models**\n\n- Gigabit-class LTE with 2x2 MIMO and LAA6\n- 802.11ax Wi‑Fi 6 with 2x2 MIMO\n- Bluetooth 5.0 wireless technology\n- NFC with reader mode\n- Express Cards with power reserve\n\nFor details on LTE support, contact your carrier and see [apple.com/uk/iphone/LTE](https://www.apple.com/uk/iphone/LTE/)."
     },
     {
       "heading": "Location",
-      "source_text": "- Built-in GPS/GNSS\n- Digital compass\n- Wi‑Fi\n- Cellular\n- iBeacon microlocation\n"
+      "source_text": "- Built-in GPS/GNSS\n- Digital compass\n- Wi‑Fi\n- Cellular\n- iBeacon microlocation"
     },
     {
       "heading": "Video Calling7",
-      "source_text": "- FaceTime video calling over cellular or Wi‑Fi\n- FaceTime HD (1080p) video calling over Wi‑Fi\n- Share experiences like movies, TV, music, and other apps in a FaceTime call with SharePlay\n- Screen sharing\n- Portrait mode in FaceTime video\n- Spatial audio\n- Voice Isolation and Wide Spectrum microphone modes\n- Zoom with rear‑facing camera\n"
+      "source_text": "- FaceTime video calling over cellular or Wi‑Fi\n- FaceTime HD (1080p) video calling over Wi‑Fi\n- Share experiences like movies, TV, music, and other apps in a FaceTime call with SharePlay\n- Screen sharing\n- Portrait mode in FaceTime video\n- Spatial audio\n- Voice Isolation and Wide Spectrum microphone modes\n- Zoom with rear‑facing camera"
     },
     {
       "heading": "Audio Calling7",
-      "source_text": "- FaceTime audio\n- Voice over LTE (VoLTE)6\n- Wi‑Fi calling6\n- Share experiences like movies, TV, music, and other apps in a FaceTime call with SharePlay\n- Screen sharing\n- Spatial audio\n- Voice Isolation and Wide Spectrum microphone modes\n"
+      "source_text": "- FaceTime audio\n- Voice over LTE (VoLTE)6\n- Wi‑Fi calling6\n- Share experiences like movies, TV, music, and other apps in a FaceTime call with SharePlay\n- Screen sharing\n- Spatial audio\n- Voice Isolation and Wide Spectrum microphone modes"
     },
     {
       "heading": "Audio Playback",
-      "source_text": "- Audio formats supported: AAC-LC, HE‑AAC, HE‑AAC v2, Protected AAC, MP3, Linear PCM,Apple Lossless, FLAC, Dolby Digital (AC‑3), Dolby Digital Plus (E‑AC‑3), and Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+)\n- Stereo playback\n- User‑configurable maximum volume limit\n"
+      "source_text": "- Audio formats supported: AAC-LC, HE‑AAC, HE‑AAC v2, Protected AAC, MP3, Linear PCM,Apple Lossless, FLAC, Dolby Digital (AC‑3), Dolby Digital Plus (E‑AC‑3), and Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+)\n- Stereo playback\n- User‑configurable maximum volume limit"
     },
     {
       "heading": "Video Playback",
-      "source_text": "- Video formats supported: HEVC, H.264, MPEG‑4 Part 2, and Motion JPEG\n- Supports Dolby Vision and HDR10, and HLG\n- Up to 4K HDR AirPlay for mirroring, photos, and video out to Apple TV (2nd generation or later) or AirPlay 2‑enabled smart TV\n- Video mirroring and video out support: Up to 1080p through Lightning Digital AV Adapter and Lightning to VGA Adapter (adapters sold separately)8\n"
+      "source_text": "- Video formats supported: HEVC, H.264, MPEG‑4 Part 2, and Motion JPEG\n- Supports Dolby Vision and HDR10, and HLG\n- Up to 4K HDR AirPlay for mirroring, photos, and video out to Apple TV (2nd generation or later) or AirPlay 2‑enabled smart TV\n- Video mirroring and video out support: Up to 1080p through Lightning Digital AV Adapter and Lightning to VGA Adapter (adapters sold separately)8"
     },
     {
       "heading": "Siri9",
-      "source_text": "- Use your voice to send messages, set reminders, and more\n- Activate hands‑free with only your voice using “Hey Siri”\n- Use your voice to run shortcuts from your favorite apps\n\n[Learn more about Siri](https://www.apple.com/uk/siri/)\n"
+      "source_text": "- Use your voice to send messages, set reminders, and more\n- Activate hands‑free with only your voice using “Hey Siri”\n- Use your voice to run shortcuts from your favorite apps\n\n[Learn more about Siri](https://www.apple.com/uk/siri/)"
     },
     {
       "heading": "External Buttons and Connectors",
-      "source_text": "- Home/Touch ID sensor\n- Volume up/down\n- Ring/Silent\n- Side button\n- Built‑in stereo speaker\n- Lightning connector\n- Built‑in microphone\n"
+      "source_text": "- Home/Touch ID sensor\n- Volume up/down\n- Ring/Silent\n- Side button\n- Built‑in stereo speaker\n- Lightning connector\n- Built‑in microphone"
     },
     {
       "heading": "Power and Battery10",
-      "source_text": "- **Video playback:**\n- Up to 13 hours\n- **Video playback (streamed):**\n- Up to 8 hours\n- **Audio playback:**\n- Up to 40 hours\n- **Fast‑charge capable:**\n- Up to 50% charge in 30 minutes11 with 18W adapter or higher (sold separately)\n- Built-in rechargeable lithium‑ion battery\n- Wireless charging (works with Qi chargers12)\n- Charging via USB to computer system or power adapter\n"
+      "source_text": "- **Video playback:**\n- Up to 13 hours\n- **Video playback (streamed):**\n- Up to 8 hours\n- **Audio playback:**\n- Up to 40 hours\n- **Fast‑charge capable:**\n- Up to 50% charge in 30 minutes11 with 18W adapter or higher (sold separately)\n- Built-in rechargeable lithium‑ion battery\n- Wireless charging (works with Qi chargers12)\n- Charging via USB to computer system or power adapter"
     },
     {
       "heading": "Sensors",
-      "source_text": "- Touch ID fingerprint sensor\n- Barometer\n- Three‑axis gyro\n- Accelerometer\n- Proximity sensor\n- Ambient light sensor\n"
+      "source_text": "- Touch ID fingerprint sensor\n- Barometer\n- Three‑axis gyro\n- Accelerometer\n- Proximity sensor\n- Ambient light sensor"
     },
     {
       "heading": "Operating System",
-      "source_text": "**iOS**\n\niOS is the world’s most personal and secure mobile operating system, packed with powerful features and designed to protect your privacy.\n\n[See what’s new in iOS](http://www.apple.com/uk/ios/)\n"
+      "source_text": "**iOS**\n\niOS is the world’s most personal and secure mobile operating system, packed with powerful features and designed to protect your privacy.\n\n[See what’s new in iOS](http://www.apple.com/uk/ios/)"
     },
     {
       "heading": "Accessibility",
-      "source_text": "Built‑in accessibility features supporting vision, mobility, hearing, and cognitive disabilities help you get the most out of your iPhone.\n\n[Learn more about Accessibility](http://www.apple.com/uk/accessibility/iphone/)\n\nFeatures include:\n\n- Voice Control\n- VoiceOver\n- Zoom\n- Magnifier\n- RTT and TTY support\n- Siri and Dictation\n- Type to Siri\n- Switch Control\n- Closed Captions\n- AssistiveTouch\n- Spoken Content\n- Back Tap\n"
+      "source_text": "Built‑in accessibility features supporting vision, mobility, hearing, and cognitive disabilities help you get the most out of your iPhone.\n\n[Learn more about Accessibility](http://www.apple.com/uk/accessibility/iphone/)\n\nFeatures include:\n\n- Voice Control\n- VoiceOver\n- Zoom\n- Magnifier\n- RTT and TTY support\n- Siri and Dictation\n- Type to Siri\n- Switch Control\n- Closed Captions\n- AssistiveTouch\n- Spoken Content\n- Back Tap"
     },
     {
       "heading": "Built-in Apps",
-      "source_text": "- App Store\n- Books\n- Calculator\n- Calendar\n- Camera\n- Clock\n- Compass\n- Contacts\n- FaceTime\n- Files\n- Find My\n- Health\n- Home\n- iTunes Store\n- Magnifier\n- Mail\n- Maps\n- Measure\n- Messages\n- Music\n- News\n- Notes\n- Phone\n- Photos\n- Podcasts\n- Reminders\n- Safari\n- Settings\n- Shortcuts\n- Siri\n- Stocks\n- Tips\n- TV\n- Voice Memos\n- Wallet\n- Watch\n- Weather\n- Translate\n"
+      "source_text": "- App Store\n- Books\n- Calculator\n- Calendar\n- Camera\n- Clock\n- Compass\n- Contacts\n- FaceTime\n- Files\n- Find My\n- Health\n- Home\n- iTunes Store\n- Magnifier\n- Mail\n- Maps\n- Measure\n- Messages\n- Music\n- News\n- Notes\n- Phone\n- Photos\n- Podcasts\n- Reminders\n- Safari\n- Settings\n- Shortcuts\n- Siri\n- Stocks\n- Tips\n- TV\n- Voice Memos\n- Wallet\n- Watch\n- Weather\n- Translate"
     },
     {
       "heading": "Free Apps from Apple",
-      "source_text": "Apple Store, Clips, GarageBand, iMovie, Keynote, Numbers, and Pages apps are preinstalled.\n\n- Apple Store\n- Clips\n- GarageBand\n- iMovie\n- Keynote\n- Numbers\n- Pages\n- Support\n- Trailers\n"
+      "source_text": "Apple Store, Clips, GarageBand, iMovie, Keynote, Numbers, and Pages apps are preinstalled.\n\n- Apple Store\n- Clips\n- GarageBand\n- iMovie\n- Keynote\n- Numbers\n- Pages\n- Support\n- Trailers"
     },
     {
       "heading": "SIM Card",
-      "source_text": "- Dual SIM (nano-SIM and eSIM)13\n- iPhone SE is not compatible with existing micro-SIM cards.\n- eSIM not supported in all regions.\n\n[Learn more about eSIM on iPhone](https://support.apple.com/en-gb/HT212780).\n"
+      "source_text": "- Dual SIM (nano-SIM and eSIM)13\n- iPhone SE is not compatible with existing micro-SIM cards.\n- eSIM not supported in all regions.\n\n[Learn more about eSIM on iPhone](https://support.apple.com/en-gb/HT212780)."
     },
     {
       "heading": "Rating for Hearing Aids",
-      "source_text": "- M3, T4\n"
+      "source_text": "- M3, T4"
     },
     {
       "heading": "Mail Attachment Support",
-      "source_text": "**Viewable document types**\n\n.jpg, .tiff, .gif (images); .doc and .docx (Microsoft Word); .htm and .html (web pages); .key (Keynote); .numbers (Numbers); .pages (Pages); .pdf (Preview and Adobe Acrobat); .ppt and .pptx (Microsoft PowerPoint); .txt (text); .rtf (rich text format); .vcf (contact information); .xls and .xlsx (Microsoft Excel); .zip; .ics; .usdz (USDZ Universal)\n"
+      "source_text": "**Viewable document types**\n\n.jpg, .tiff, .gif (images); .doc and .docx (Microsoft Word); .htm and .html (web pages); .key (Keynote); .numbers (Numbers); .pages (Pages); .pdf (Preview and Adobe Acrobat); .ppt and .pptx (Microsoft PowerPoint); .txt (text); .rtf (rich text format); .vcf (contact information); .xls and .xlsx (Microsoft Excel); .zip; .ics; .usdz (USDZ Universal)"
     },
     {
       "heading": "System Requirements",
-      "source_text": "- Apple ID (required for some features)\n- Internet access14\n\nSyncing to a Mac or PC requires:\n\n- macOS Catalina 10.15 using the Finder\n- macOS El Capitan 10.11.6 through macOS Mojave 10.14.6 using iTunes 12.8 or later\n- Windows 7 or later using iTunes 12.10 or later (free download from [www.itunes.com/uk/download](https://www.apple.com/uk/itunes/download/))\n"
+      "source_text": "- Apple ID (required for some features)\n- Internet access14\n\nSyncing to a Mac or PC requires:\n\n- macOS Catalina 10.15 using the Finder\n- macOS El Capitan 10.11.6 through macOS Mojave 10.14.6 using iTunes 12.8 or later\n- Windows 7 or later using iTunes 12.10 or later (free download from [www.itunes.com/uk/download](https://www.apple.com/uk/itunes/download/))"
     },
     {
       "heading": "Environmental Requirements",
-      "source_text": "- Operating ambient temperature: 32° to 95° F (0° to 35° C)\n- Nonoperating temperature: ‑4° to 113° F (‑20° to 45° C)\n- Relative humidity: 5% to 95% noncondensing\n- Operating altitude: tested up to 10,000 feet (3000 m)\n"
+      "source_text": "- Operating ambient temperature: 32° to 95° F (0° to 35° C)\n- Nonoperating temperature: ‑4° to 113° F (‑20° to 45° C)\n- Relative humidity: 5% to 95% noncondensing\n- Operating altitude: tested up to 10,000 feet (3000 m)"
     },
     {
       "heading": "Languages",
-      "source_text": "**Language support**\n\n- English (Australia, UK, U.S.), Chinese (Simplified, Traditional, Traditional Hong Kong), French (Canada, France), German, Italian, Japanese, Korean, Spanish (Latin America, Spain), Arabic, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hindi, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\n\n**QuickType keyboard support**\n\n- English (Australia, Canada, India, Singapore, UK, U.S.), Chinese - Simplified (Handwriting, Pinyin QWERTY, Pinyin 10 Key, Shuangpin, Stroke), Chinese - Traditional (Cangjie, Handwriting, Pinyin QWERTY, Pinyin 10 Key, Shuangpin, Stroke, Sucheng, Zhuyin), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese (Kana, Romaji), Korean (2-Set, 10 Key), Spanish (Latin America, Mexico, Spain), Ainu, Albanian, Amharic, Arabic (Modern Standard, Najdi), Armenian, Assamese, Assyrian, Azerbaijani, Bangla, Belarusian, Bodo, Bulgarian, Burmese, Cantonese - Traditional (Cangjie, Handwriting, Stroke, Sucheng), Catalan, Cherokee, Croatian, Czech, Danish, Dhivehi, Dogri, Dutch, Emoji, Estonian, Faroese, Filipino, Finnish, Flemish, Fula (Adlam), Georgian, Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari, Latin, Transliteration), Hungarian, Icelandic, Igbo, Indonesian, Irish Gaelic, Kannada, Kashmiri (Arabic, Devanagari), Kazakh, Khmer, Konkani (Devanagari), Kurdish (Arabic, Latin), Kyrgyz, Lao, Latvian, Lithuanian, Macedonian, Maithili, Malay (Arabic, Latin), Malayalam, Maltese, Manipuri (Bangla, Meetei Mayek), Maori, Marathi, Mongolian, Navajo, Nepali, Norwegian (Bokmål, Nynorsk), Odia, Pashto, Persian, Persian (Afghanistan), Polish, Portuguese (Brazil, Portugal), Punjabi, Rohingya, Romanian, Russian, Sanskrit, Santali (Devanagari, Ol Chiki), Serbian (Cyrillic, Latin), Sindhi (Arabic, Devanagari), Sinhala, Slovak, Slovenian, Swahili, Swedish, Tajik, Tamil (Anjal, Tamil 99), Telugu, Thai, Tibetan, Tongan, Turkish, Turkmen, Ukrainian, Urdu, Uyghur, Uzbek (Arabic, Cyrillic, Latin), Vietnamese, Welsh\n\n**QuickType keyboard support with autocorrection**\n\n- Arabic (Modern Standard), Arabic (Najdi), Bangla, Bulgarian, Catalan, Cherokee, Chinese - Simplified (Pinyin QWERTY), Chinese - Traditional (Pinyin QWERTY), Chinese - Traditional (Zhuyin), Croatian, Czech, Danish, Dutch, English (Australia), English (Canada), English (India), English (Japan), English (Singapore), English (UK), English (U.S.), Estonian, Filipino, Finnish, Dutch (Belgium), French (Belgium), French (Canada), French (France), French (Switzerland), German (Austria), German (Germany), German (Switzerland), Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari), Hindi (Transliteration), Hungarian, Icelandic, Indonesian, Irish Gaelic, Italian, Japanese (Kana), Japanese (Romaji), Korean (2-set), Latvian, Lithuanian, Macedonian, Malay, Marathi, Norwegian (Bokmål), Norwegian (Nynorsk), Persian, Persian (Afghanistan), Polish, Portuguese (Brazil), Portuguese (Portugal), Punjabi, Romanian, Russian, Serbian (Cyrillic), Serbian (Latin), Slovak, Slovenian, Spanish (Latin America), Spanish (Mexico), Spanish (Spain), Swedish, Tamil (Anjal), Tamil (Tamil 99), Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese\n\n**QuickType keyboard support with predictive input**\n\n- English (Australia, Canada, India, Singapore, UK, U.S.), Chinese (Simplified, Traditional), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese, Korean, Spanish (Latin America, Mexico, Spain), Arabic (Modern Standard, Najdi), Cantonese (Traditional), Dutch, Hindi (Devanagari, Latin), Portuguese (Brazil, Portugal), Russian, Swedish, Thai, Turkish, Vietnamese\n\n**QuickType keyboard support with multilingual input**\n\n- English (U.S.), English (Australia), English (Canada), English (India), English (Singapore), English (UK), Chinese - Simplified (Pinyin), Chinese - Traditional (Pinyin), French (France), French (Belgium), French (Canada), French (Switzerland), German (Germany), German (Austria), German (Switzerland), Italian, Japanese (Romaji), Portuguese (Brazil), Portuguese (Portugal), Spanish (Spain), Spanish (Latin America), Spanish (Mexico), Dutch (Belgium), Dutch (Netherlands), Hindi (Latin)\n\n**QuickType keyboard support with contextual suggestions**\n\n- English (U.S.), English (Australia), English (Canada), English (India), English (Singapore), English (UK), Chinese (Simplified), French (Belgium), French (Canada), French (France), French (Switzerland), German (Austria), German (Germany), German (Switzerland), Italian, Spanish (Latin America), Spanish (Mexico), Spanish (Spain), Arabic (Modern Standard), Arabic (Najdi), Dutch (Belgium), Dutch (Netherlands), Hindi (Devanagari), Hindi (Latin), Russian, Swedish, Portuguese (Brazil), Turkish, Vietnamese\n\n**QuickPath keyboard support**\n\n- English (U.S.), English (Australia), English (Canada), English (India), English (Singapore), English (UK), Chinese (Simplified), French (Canada), French (France), French (Switzerland), German (Austria), German (Germany), German (Switzerland), Italian, Spanish (Latin America), Spanish (Mexico), Spanish (Spain), Portuguese (Brazil), Portuguese (Portugal), Dutch (Belgium), Dutch (Netherlands), Swedish, Vietnamese\n\n**Siri languages**\n\n- English (Australia, Canada, India, Ireland, New Zealand, Singapore, South Africa, UK, U.S.), Spanish (Chile, Mexico, Spain, U.S.), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese (Japan), Korean (Republic of Korea), Mandarin Chinese (China mainland, Taiwan), Cantonese (China mainland, Hong Kong), Arabic (Saudi Arabia, United Arab Emirates), Danish (Denmark), Dutch (Belgium, Netherlands), Finnish (Finland), Hebrew (Israel), Malay (Malaysia), Norwegian (Norway), Portuguese (Brazil), Russian (Russia), Swedish (Sweden), Thai (Thailand), Turkish (Türkiye)\n\n**Dictation languages**\n\n- English (Australia, Canada, India, Indonesia, Ireland, Malaysia, New Zealand, Philippines, Saudi Arabia, Singapore, South Africa, United Arab Emirates, UK, U.S.), Spanish (Argentina, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Panama, Paraguay, Peru, Spain, Uruguay, U.S.), French (Belgium, Canada, France, Luxembourg, Switzerland), German (Austria, Germany, Luxembourg, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (China mainland, Hong Kong, Macao), Arabic (Kuwait, Qatar, Saudi Arabia, United Arab Emirates), Catalan, Croatian, Czech, Danish, Dutch (Belgium, Netherlands), Finnish, Greek, Hebrew, Hindi (India), Hungarian, Indonesian, Malaysian, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Shanghainese (China mainland), Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\n\n**Definition dictionary support**\n\n- English (UK, U.S.), Chinese (Simplified, Traditional), Danish, Dutch, French, German, Hebrew, Hindi, Italian, Japanese, Korean, Norwegian, Portuguese, Russian, Spanish, Swedish, Thai, Turkish\n\n**Bilingual dictionary support**\n\n- Arabic – English, Chinese (Simplified) – English, Chinese (Traditional) – English, Dutch – English, French – English, French – German, German – English, Gujarati – English, Hindi – English, Indonesian – English, Italian – English, Japanese – English, Japanese – Chinese (Simplified), Korean – English, Polish – English, Portuguese – English, Russian – English, Spanish – English, Tamil – English, Telugu – English, Thai – English, Urdu – English, Vietnamese – English\n\n**Thesaurus**\n\n- English (UK, U.S.), Chinese (Simplified)\n\n**Spell check**\n\n- English, French, German, Italian, Spanish, Arabic, Arabic Najdi, Danish, Dutch, Finnish, Korean, Norwegian, Polish, Portuguese, Russian, Swedish, Turkish\n\n**Apple Pay supported regions**\n\n- Australia, Austria, Belarus, Belgium, Brazil, Bulgaria, Canada, China mainland,15 Croatia, Cyprus, Czech Republic, Denmark, Estonia, Faroe Islands, Finland, France, Georgia, Germany, Greece, Greenland, Guernsey, Hong Kong, Hungary, Iceland, Ireland, Isle of Man, Israel, Italy, Japan, Jersey, Kazakhstan, Latvia, Liechtenstein, Lithuania, Luxembourg, Macao, Malta, Mexico, Monaco, Montenegro, Netherlands, New Zealand, Norway, Poland, Portugal, Qatar, Romania, San Marino, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, Switzerland, Taiwan, UK, Ukraine, United Arab Emirates, U.S., Vatican City\n"
+      "source_text": "**Language support**\n\n- English (Australia, UK, U.S.), Chinese (Simplified, Traditional, Traditional Hong Kong), French (Canada, France), German, Italian, Japanese, Korean, Spanish (Latin America, Spain), Arabic, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hindi, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\n\n**QuickType keyboard support**\n\n- English (Australia, Canada, India, Singapore, UK, U.S.), Chinese - Simplified (Handwriting, Pinyin QWERTY, Pinyin 10 Key, Shuangpin, Stroke), Chinese - Traditional (Cangjie, Handwriting, Pinyin QWERTY, Pinyin 10 Key, Shuangpin, Stroke, Sucheng, Zhuyin), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese (Kana, Romaji), Korean (2-Set, 10 Key), Spanish (Latin America, Mexico, Spain), Ainu, Albanian, Amharic, Arabic (Modern Standard, Najdi), Armenian, Assamese, Assyrian, Azerbaijani, Bangla, Belarusian, Bodo, Bulgarian, Burmese, Cantonese - Traditional (Cangjie, Handwriting, Stroke, Sucheng), Catalan, Cherokee, Croatian, Czech, Danish, Dhivehi, Dogri, Dutch, Emoji, Estonian, Faroese, Filipino, Finnish, Flemish, Fula (Adlam), Georgian, Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari, Latin, Transliteration), Hungarian, Icelandic, Igbo, Indonesian, Irish Gaelic, Kannada, Kashmiri (Arabic, Devanagari), Kazakh, Khmer, Konkani (Devanagari), Kurdish (Arabic, Latin), Kyrgyz, Lao, Latvian, Lithuanian, Macedonian, Maithili, Malay (Arabic, Latin), Malayalam, Maltese, Manipuri (Bangla, Meetei Mayek), Maori, Marathi, Mongolian, Navajo, Nepali, Norwegian (Bokmål, Nynorsk), Odia, Pashto, Persian, Persian (Afghanistan), Polish, Portuguese (Brazil, Portugal), Punjabi, Rohingya, Romanian, Russian, Sanskrit, Santali (Devanagari, Ol Chiki), Serbian (Cyrillic, Latin), Sindhi (Arabic, Devanagari), Sinhala, Slovak, Slovenian, Swahili, Swedish, Tajik, Tamil (Anjal, Tamil 99), Telugu, Thai, Tibetan, Tongan, Turkish, Turkmen, Ukrainian, Urdu, Uyghur, Uzbek (Arabic, Cyrillic, Latin), Vietnamese, Welsh\n\n**QuickType keyboard support with autocorrection**\n\n- Arabic (Modern Standard), Arabic (Najdi), Bangla, Bulgarian, Catalan, Cherokee, Chinese - Simplified (Pinyin QWERTY), Chinese - Traditional (Pinyin QWERTY), Chinese - Traditional (Zhuyin), Croatian, Czech, Danish, Dutch, English (Australia), English (Canada), English (India), English (Japan), English (Singapore), English (UK), English (U.S.), Estonian, Filipino, Finnish, Dutch (Belgium), French (Belgium), French (Canada), French (France), French (Switzerland), German (Austria), German (Germany), German (Switzerland), Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari), Hindi (Transliteration), Hungarian, Icelandic, Indonesian, Irish Gaelic, Italian, Japanese (Kana), Japanese (Romaji), Korean (2-set), Latvian, Lithuanian, Macedonian, Malay, Marathi, Norwegian (Bokmål), Norwegian (Nynorsk), Persian, Persian (Afghanistan), Polish, Portuguese (Brazil), Portuguese (Portugal), Punjabi, Romanian, Russian, Serbian (Cyrillic), Serbian (Latin), Slovak, Slovenian, Spanish (Latin America), Spanish (Mexico), Spanish (Spain), Swedish, Tamil (Anjal), Tamil (Tamil 99), Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese\n\n**QuickType keyboard support with predictive input**\n\n- English (Australia, Canada, India, Singapore, UK, U.S.), Chinese (Simplified, Traditional), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese, Korean, Spanish (Latin America, Mexico, Spain), Arabic (Modern Standard, Najdi), Cantonese (Traditional), Dutch, Hindi (Devanagari, Latin), Portuguese (Brazil, Portugal), Russian, Swedish, Thai, Turkish, Vietnamese\n\n**QuickType keyboard support with multilingual input**\n\n- English (U.S.), English (Australia), English (Canada), English (India), English (Singapore), English (UK), Chinese - Simplified (Pinyin), Chinese - Traditional (Pinyin), French (France), French (Belgium), French (Canada), French (Switzerland), German (Germany), German (Austria), German (Switzerland), Italian, Japanese (Romaji), Portuguese (Brazil), Portuguese (Portugal), Spanish (Spain), Spanish (Latin America), Spanish (Mexico), Dutch (Belgium), Dutch (Netherlands), Hindi (Latin)\n\n**QuickType keyboard support with contextual suggestions**\n\n- English (U.S.), English (Australia), English (Canada), English (India), English (Singapore), English (UK), Chinese (Simplified), French (Belgium), French (Canada), French (France), French (Switzerland), German (Austria), German (Germany), German (Switzerland), Italian, Spanish (Latin America), Spanish (Mexico), Spanish (Spain), Arabic (Modern Standard), Arabic (Najdi), Dutch (Belgium), Dutch (Netherlands), Hindi (Devanagari), Hindi (Latin), Russian, Swedish, Portuguese (Brazil), Turkish, Vietnamese\n\n**QuickPath keyboard support**\n\n- English (U.S.), English (Australia), English (Canada), English (India), English (Singapore), English (UK), Chinese (Simplified), French (Canada), French (France), French (Switzerland), German (Austria), German (Germany), German (Switzerland), Italian, Spanish (Latin America), Spanish (Mexico), Spanish (Spain), Portuguese (Brazil), Portuguese (Portugal), Dutch (Belgium), Dutch (Netherlands), Swedish, Vietnamese\n\n**Siri languages**\n\n- English (Australia, Canada, India, Ireland, New Zealand, Singapore, South Africa, UK, U.S.), Spanish (Chile, Mexico, Spain, U.S.), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese (Japan), Korean (Republic of Korea), Mandarin Chinese (China mainland, Taiwan), Cantonese (China mainland, Hong Kong), Arabic (Saudi Arabia, United Arab Emirates), Danish (Denmark), Dutch (Belgium, Netherlands), Finnish (Finland), Hebrew (Israel), Malay (Malaysia), Norwegian (Norway), Portuguese (Brazil), Russian (Russia), Swedish (Sweden), Thai (Thailand), Turkish (Türkiye)\n\n**Dictation languages**\n\n- English (Australia, Canada, India, Indonesia, Ireland, Malaysia, New Zealand, Philippines, Saudi Arabia, Singapore, South Africa, United Arab Emirates, UK, U.S.), Spanish (Argentina, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Panama, Paraguay, Peru, Spain, Uruguay, U.S.), French (Belgium, Canada, France, Luxembourg, Switzerland), German (Austria, Germany, Luxembourg, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (China mainland, Hong Kong, Macao), Arabic (Kuwait, Qatar, Saudi Arabia, United Arab Emirates), Catalan, Croatian, Czech, Danish, Dutch (Belgium, Netherlands), Finnish, Greek, Hebrew, Hindi (India), Hungarian, Indonesian, Malaysian, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Shanghainese (China mainland), Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\n\n**Definition dictionary support**\n\n- English (UK, U.S.), Chinese (Simplified, Traditional), Danish, Dutch, French, German, Hebrew, Hindi, Italian, Japanese, Korean, Norwegian, Portuguese, Russian, Spanish, Swedish, Thai, Turkish\n\n**Bilingual dictionary support**\n\n- Arabic – English, Chinese (Simplified) – English, Chinese (Traditional) – English, Dutch – English, French – English, French – German, German – English, Gujarati – English, Hindi – English, Indonesian – English, Italian – English, Japanese – English, Japanese – Chinese (Simplified), Korean – English, Polish – English, Portuguese – English, Russian – English, Spanish – English, Tamil – English, Telugu – English, Thai – English, Urdu – English, Vietnamese – English\n\n**Thesaurus**\n\n- English (UK, U.S.), Chinese (Simplified)\n\n**Spell check**\n\n- English, French, German, Italian, Spanish, Arabic, Arabic Najdi, Danish, Dutch, Finnish, Korean, Norwegian, Polish, Portuguese, Russian, Swedish, Turkish\n\n**Apple Pay supported regions**\n\n- Australia, Austria, Belarus, Belgium, Brazil, Bulgaria, Canada, China mainland,15 Croatia, Cyprus, Czech Republic, Denmark, Estonia, Faroe Islands, Finland, France, Georgia, Germany, Greece, Greenland, Guernsey, Hong Kong, Hungary, Iceland, Ireland, Isle of Man, Israel, Italy, Japan, Jersey, Kazakhstan, Latvia, Liechtenstein, Lithuania, Luxembourg, Macao, Malta, Mexico, Monaco, Montenegro, Netherlands, New Zealand, Norway, Poland, Portugal, Qatar, Romania, San Marino, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, Switzerland, Taiwan, UK, Ukraine, United Arab Emirates, U.S., Vatican City"
     },
     {
       "heading": "In the Box",
-      "source_text": "- iPhone SE\n- USB-C to Lightning Cable\n- Documentation\n\nAs part of our efforts to reach [our environmental goals](https://www.apple.com/uk/environment/), iPhone SE (2nd generation) does not include a power adapter or EarPods. Included in the box is a USB‑C to Lightning cable that supports fast charging and is compatible with USB‑C power adapters and computer ports.\n\nWe encourage you to re‑use your current USB‑A to Lightning cables, power adapters, and headphones which are compatible with this iPhone. But if you need any new Apple power adapters or headphones, they are available for purchase.\n"
+      "source_text": "- iPhone SE\n- USB-C to Lightning Cable\n- Documentation\n\nAs part of our efforts to reach [our environmental goals](https://www.apple.com/uk/environment/), iPhone SE (2nd generation) does not include a power adapter or EarPods. Included in the box is a USB‑C to Lightning cable that supports fast charging and is compatible with USB‑C power adapters and computer ports.\n\nWe encourage you to re‑use your current USB‑A to Lightning cables, power adapters, and headphones which are compatible with this iPhone. But if you need any new Apple power adapters or headphones, they are available for purchase."
     },
     {
       "heading": "iPhone and the Environment",
@@ -165,25 +180,25 @@
         "value": 67.3,
         "unit": "mm",
         "source_section": "Size and Weight2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "height": {
         "value": 138.4,
         "unit": "mm",
         "source_section": "Size and Weight2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "depth": {
         "value": 7.3,
         "unit": "mm",
         "source_section": "Size and Weight2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "weight": {
         "value": 148,
         "unit": "g",
         "source_section": "Size and Weight2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       }
     },
     "display": {
@@ -191,37 +206,37 @@
         "value": "Retina HD LCD with IPS",
         "unit": null,
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "diagonal": {
         "value": 4.7,
         "unit": "in",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "resolution": {
         "value": "1334 × 750",
         "unit": "pixels",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "pixel_density": {
         "value": 326,
         "unit": "ppi",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "contrast_ratio": {
         "value": "1400:1",
         "unit": null,
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "brightness": {
         "value": 625,
         "unit": "nits (typical)",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       }
     },
     "processor": {
@@ -229,25 +244,25 @@
         "value": "A13 Bionic",
         "unit": null,
         "source_section": "Chip",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "cpu_cores": {
         "value": 6,
         "unit": "cores",
         "source_section": "Chip",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "gpu_cores": {
         "value": 4,
         "unit": "cores",
         "source_section": "Chip",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "neural_engine_cores": {
         "value": 8,
         "unit": "cores",
         "source_section": "Chip",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       }
     },
     "durability": {
@@ -255,20 +270,111 @@
         "value": "IP67",
         "unit": null,
         "source_section": "Splash, Water, and Dust Resistant3",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "depth": {
         "value": 1,
         "unit": "m",
         "source_section": "Splash, Water, and Dust Resistant3",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "duration": {
         "value": 30,
         "unit": "minutes",
         "source_section": "Splash, Water, and Dust Resistant3",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
+      }
+    },
+    "battery": {
+      "video_playback_max": {
+        "value": 13,
+        "unit": "hours",
+        "source_section": "Power and Battery10",
+        "verification_status": "content_verified"
+      },
+      "streamed_video_playback_max": {
+        "value": 8,
+        "unit": "hours",
+        "source_section": "Power and Battery10",
+        "verification_status": "content_verified"
+      },
+      "audio_playback_max": {
+        "value": 40,
+        "unit": "hours",
+        "source_section": "Power and Battery10",
+        "verification_status": "content_verified"
+      },
+      "fast_charge_50_percent_time": {
+        "value": 30,
+        "unit": "minutes",
+        "source_section": "Power and Battery10",
+        "verification_status": "content_verified",
+        "notes": "With 18W adapter or higher, sold separately."
+      },
+      "wireless_charging_standard": {
+        "value": "Qi",
+        "unit": null,
+        "source_section": "Power and Battery10",
+        "verification_status": "content_verified"
+      }
+    },
+    "connectivity": {
+      "models_listed": {
+        "value": "A2275",
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified",
+        "notes": "Model number shown on Apple’s page; regional configuration."
+      },
+      "wifi": {
+        "value": "Wi‑Fi 6 (802.11ax) with 2×2 MIMO",
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified"
+      },
+      "bluetooth": {
+        "value": "5.0",
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified"
+      },
+      "nfc_reader_mode": {
+        "value": true,
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified"
+      },
+      "express_cards_with_power_reserve": {
+        "value": true,
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified"
+      }
+    },
+    "charging": {
+      "connector": {
+        "value": "Lightning",
+        "unit": null,
+        "source_section": "External Buttons and Connectors",
+        "verification_status": "content_verified"
+      },
+      "headphone_jack": {
+        "value": false,
+        "unit": null,
+        "source_section": "External Buttons and Connectors",
+        "verification_status": "content_verified"
+      }
+    },
+    "in_box": {
+      "power_adapter_included": {
+        "value": false,
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "content_verified"
       }
     }
-  }
+  },
+  "record_notes": [
+    "2026-11-06 audit: full source-section and footnote review completed, sections rebuilt from retained Markdown, and core battery/wireless/connector/in-box fields added. Embedded outbound links remain pending."
+  ]
 }
