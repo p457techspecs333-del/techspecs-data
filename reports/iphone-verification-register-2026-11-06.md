@@ -71,8 +71,8 @@ This register tracks verification of the 50 product JSON records in `data/apple/
 | iPhone 17 Pro Max | `url_checked` | https://support.apple.com/en-ie/125091 | pending |
 | iPhone 17e | `url_checked` | https://support.apple.com/en-ie/126470 | pending |
 | iPhone Air | `url_checked` | https://support.apple.com/en-ie/125092 | pending |
-| iPhone 18 Pro | `url_checked` | https://www.apple.com/ie/iphone-18-pro/specs/ | shared page; model-specific fields and locale values need review |
-| iPhone 18 Pro Max | `url_checked` | https://www.apple.com/ie/iphone-18-pro/specs/ | shared page; model-specific fields and locale values need review |
+| iPhone 18 Pro | `partially_verified` | https://www.apple.com/ie/iphone-18-pro/specs/ | 30 core normalized fields added as partial; direct page/footnote audit pending |
+| iPhone 18 Pro Max | `partially_verified` | https://www.apple.com/ie/iphone-18-pro/specs/ | 30 core normalized fields added as partial; direct page/footnote audit pending |
 | iPhone Duo | `url_checked` | https://images.apple.com/ie/iphone-duo/specs/ | official spec page surfaced; full model-specific audit pending |
 
 ## Repository integrity issues already identified
@@ -110,3 +110,8 @@ The iPhone 6 record now contains 26 normalized fields across seven groups; the i
 ## Addendum — 6 November 2026: iPhone 13 Pro content audit
 
 The official [iPhone 13 Pro technical specifications page](https://support.apple.com/en-ie/111871) was reviewed through all specification sections and footnotes. Its 34 retained JSON sections were checked against the live page. The existing normalized dimensions, display, A15 Bionic chip, and IP68 fields match the cited sections. The record remains `content_verified`; embedded outbound links have not all been individually opened.
+
+
+## Addendum — 6 November 2026: iPhone 18 Pro model-specific fields
+
+The official Apple Ireland specifications page was found in search-indexed content, but direct page retrieval returned a cache miss. Added 30 core normalized fields to each of the iPhone 18 Pro and iPhone 18 Pro Max records, including separate model numbers (A3714 and A3717), dimensions, display, chip, camera, battery and connectivity. These values are marked `partially_verified` because the direct page and full source-text/footnote comparison remain outstanding. The shared source page is valid as a reference, but each model's values must remain separate.
