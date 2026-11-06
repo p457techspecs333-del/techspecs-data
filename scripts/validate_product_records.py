@@ -16,6 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA_ROOT = ROOT / "data"
 SCHEMA_PATH = ROOT / "schemas" / "product-record-v2.schema.json"
+CATALOGUE_PATH = DATA_ROOT / "catalogue.json"
 
 
 def main() -> int:
@@ -45,7 +46,11 @@ def main() -> int:
         print(f"ERROR: schema is invalid: {exc}")
         return 2
 
-    files = sorted(DATA_ROOT.rglob("*.json")) if DATA_ROOT.exists() else []
+    # catalogue.json is a discovery document, not a product record.
+    files = sorted(
+        path for path in DATA_ROOT.rglob("*.json")
+        if path != CATALOGUE_PATH and path.name != "catalogue.json"
+    ) if DATA_ROOT.exists() else []
     if not files:
         print("ERROR: no product JSON files found under data/")
         return 1
