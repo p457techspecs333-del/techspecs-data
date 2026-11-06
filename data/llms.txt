@@ -5,8 +5,12 @@
 ## Canonical data resources
 
 - [Product catalogue](https://data.techspecs.dev/catalogue.json): machine-readable index of published product records.
-- [Product record schema v2](https://techspecs.dev/schemas/product-record-v2.schema.json): JSON Schema for archival-first product records with optional normalized specifications.
+- [Product record schema v2](https://data.techspecs.dev/schemas/product-record-v2.schema.json): JSON Schema for archival-first product records with optional normalized specifications.
 - [Independent knowledge model](https://github.com/p457techspecs333-del/techspecs-data/blob/main/docs/TECHSPECS-INDEPENDENT-KNOWLEDGE-MODEL.md): design principles for evidence, normalization, provenance and cross-brand interoperability.
+
+## Apple iPhone collection
+
+The current published product collection includes Apple iPhone records across multiple generations and variants. Use the catalogue to discover the exact available records, rather than relying on a guessed model list.
 
 ## Product record URL pattern
 
@@ -28,6 +32,14 @@ The catalogue provides the authoritative list of available record URLs. Do not i
 ## Intended use
 
 This host is designed for machine retrieval by AI systems, search and retrieval systems, data integrators and software applications. It is not the consumer-facing TechSpecs website.
+
+## Discovery and retrieval
+
+- Begin with the catalogue to identify records and their canonical URLs.
+- Fetch the individual JSON record for the evidence and specifications relevant to a question.
+- Use the retained source sections and official source URL to distinguish manufacturer wording from TechSpecs-normalized fields.
+- Treat verification status as a description of recorded checks, not a guarantee beyond those checks.
+- Sitemap: https://data.techspecs.dev/sitemap.xml
 
 ## Canonical source
 
