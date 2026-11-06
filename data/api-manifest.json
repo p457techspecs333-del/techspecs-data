@@ -35,14 +35,22 @@
       "url": "https://data.techspecs.dev/sitemap.xml",
       "format": "application/xml",
       "description": "Published machine-readable resource URLs."
+    },
+    "versioned_product_endpoint": {
+      "url": "https://data.techspecs.dev/api/v1/products/{product-id}.json",
+      "method": "GET",
+      "format": "application/json",
+      "description": "Versioned static product record route. Replace {product-id} with the exact record filename stem supplied by the catalogue."
     }
   },
   "record_retrieval": {
     "method": "GET",
     "discovery_source": "catalogue.records[].url",
-    "rule": "Retrieve the exact URL supplied by the catalogue. Do not infer record URLs or assume an unlisted product exists.",
+    "url_pattern": "https://data.techspecs.dev/api/v1/products/{product-id}.json",
+    "rule": "Use the exact URL supplied by the catalogue. The versioned route is a static rewrite to the published source record. Do not infer record URLs or assume an unlisted product exists.",
     "response_format": "application/json",
-    "record_schema": "https://data.techspecs.dev/schemas/product-record-v2.schema.json"
+    "record_schema": "https://data.techspecs.dev/schemas/product-record-v2.schema.json",
+    "legacy_url_field": "catalogue.records[].legacy_url"
   },
   "interpretation": {
     "provenance": "Use each record's source object and retained sections to distinguish source evidence from normalized fields.",
