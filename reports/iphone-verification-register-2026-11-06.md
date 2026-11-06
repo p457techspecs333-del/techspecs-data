@@ -71,9 +71,9 @@ This register tracks verification of the 50 product JSON records in `data/apple/
 | iPhone 17 Pro Max | `content_verified` | https://support.apple.com/en-ie/125091 | 24 normalized fields; wireless core fields checked; embedded links pending |
 | iPhone 17e | `content_verified` | https://support.apple.com/en-ie/126470 | 38 core normalized fields added; remaining fields and outbound links pending |
 | iPhone Air | `content_verified` | https://support.apple.com/en-ie/125092 | 35 normalized fields; model number, chip, connectivity, charging and battery fields checked |
-| iPhone 18 Pro | `partially_verified` | https://www.apple.com/ie/iphone-18-pro/specs/ | 30 core normalized fields added as partial; direct page/footnote audit pending |
-| iPhone 18 Pro Max | `partially_verified` | https://www.apple.com/ie/iphone-18-pro/specs/ | 30 core normalized fields added as partial; direct page/footnote audit pending |
-| iPhone Duo | `partially_verified` | https://images.apple.com/ie/iphone-duo/specs/ | 46 core normalized fields added as partial; direct page/footnote audit pending |
+| iPhone 18 Pro | `content_verified` | https://www.apple.com/ie/iphone-18-pro/specs/ | 63 normalized fields; full indexed page and footnotes checked; link destinations pending |
+| iPhone 18 Pro Max | `content_verified` | https://www.apple.com/ie/iphone-18-pro/specs/ | 63 normalized fields; full indexed page and footnotes checked; link destinations pending |
+| iPhone Duo | `content_verified` | https://images.apple.com/ie/iphone-duo/specs/ | 71 normalized fields; full indexed page and footnotes checked; link destinations pending |
 
 ## Repository integrity issues already identified
 
@@ -174,3 +174,17 @@ Reviewed all specification sections and footnotes for iPhone 6 Plus, iPhone 6s, 
 ## Addendum — 6 November 2026: iPhone 5, 5c, 5s, X and SE (1st/2nd generation)
 
 Reviewed the full specification sections and footnotes for iPhone 5, iPhone 5c, iPhone 5s, iPhone X, iPhone SE (1st generation) and iPhone SE (2nd generation). Rebuilt section arrays from archived Markdown, checked core normalized fields, and added battery, wireless, connector and in-box details. Corrected the iPhone 5 and iPhone 5c source URLs from non-Ireland locales to the confirmed official Apple Support Ireland URLs. Embedded outbound link destinations remain a separate audit task.
+
+
+## Addendum — 6 November 2026: iPhone 18 Pro, Pro Max, Duo and SE (3rd generation)
+
+The official Apple Ireland indexed specifications page for iPhone 18 Pro/Pro Max and the official Apple Ireland iPhone Duo specifications page supplied their full indexed content even though direct page opens returned cache misses. Reviewed the full indexed page content and footnotes; updated the Pro and Pro Max records to `content_verified` with 63 normalized fields each, and Duo to `content_verified` with 71 normalized fields. All added fields have source-section references. Embedded outbound link destinations remain a separate audit task.
+
+For iPhone SE (3rd generation), the supplied Ireland URL could not be retrieved. The official Apple Support UK page was fully reviewed and the core specifications were checked, but the record remains `partially_verified` because the Ireland-specific model-number mapping could not be confirmed. The source URL and publisher now accurately point to the UK fallback rather than implying that the Ireland page was checked.
+
+## Current completion status
+
+- **49/50** records: official source content and footnotes reviewed; source content status `content_verified`.
+- **1/50** record: `partially_verified` due to the iPhone SE (3rd generation) Ireland-page/model-number locale exception.
+- **All 50** records pass the JSON schema validator. This remains a structural check, not factual verification.
+- **Embedded outbound link destinations are not yet individually verified across the catalogue.** That remains the final outstanding verification pass before calling the entire repository fully verified.
