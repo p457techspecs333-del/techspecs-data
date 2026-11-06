@@ -28,8 +28,8 @@
     "publisher": "Apple Support (Ireland)",
     "published_at": null,
     "checked_at": "2026-11-06",
-    "verification_status": "url_checked",
-    "verification_notes": "Official Apple Support Ireland technical-specifications URL supplied by the project owner and matched to this model. URL-level source identification only; normalized specifications have not all been compared field by field.",
+    "verification_status": "content_verified",
+    "verification_notes": "Full section-level content check completed against the official Apple Support Ireland page on 2026-11-06. All 36 specification sections and footnotes were reviewed; the archived Markdown has 36 matching headings and each JSON source_text matches its Markdown section exactly. Existing normalized dimensions, display, A19 Pro chip, camera system, battery and IP68 fields match the cited sections. Added wireless core fields with source-section references. Embedded outbound link destinations have not all been individually opened.",
     "notes": [
       "Official Apple Ireland technical specifications page includes a dedicated iPhone 17 Pro Max section."
     ]
@@ -37,9 +37,9 @@
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
-    "note": "Original source sections are retained unchanged from the prior archival record. A limited set of specifications has been normalized and checked against Apple's official Ireland page; this is not full-record verification.",
+    "note": "Full source-section and footnote review completed against the official Apple Support Ireland page on 2026-11-06. Core normalized fields are linked to the exact source section and checked; embedded outbound link destinations remain a separate audit task.",
     "extracted_at": "2026-11-05",
-    "reviewed_at": "2026-11-05"
+    "reviewed_at": "2026-11-06"
   },
   "sections": [
     {
@@ -304,10 +304,62 @@
         "source_section": "Splash, Water and Dust Resistant3",
         "verification_status": "content_verified"
       }
+    },
+    "connectivity": {
+      "models_listed": {
+        "value": "A3523 and A3526",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified",
+        "notes": "The shared Apple section lists both model numbers; this record does not assign the numbers to specific size variants."
+      },
+      "cellular_technology": {
+        "value": "5G NR and LTE",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      },
+      "wireless_chip": {
+        "value": "Apple N1",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      },
+      "wifi": {
+        "value": "Wi‑Fi 7 (802.11be) with 2×2 MIMO",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      },
+      "bluetooth": {
+        "value": "6",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      },
+      "thread": {
+        "value": true,
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      },
+      "ultra_wideband": {
+        "value": "Second-generation Apple Ultra Wideband chip",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      },
+      "nfc_reader_mode": {
+        "value": true,
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      }
     }
   },
   "record_notes": [
     "Pilot migration to schema v2. Original archived sections preserved unchanged.",
-    "Only explicitly listed normalized fields have been checked against the official Apple source; remaining source text is not certified as fully fact-checked."
+    "Only explicitly listed normalized fields have been checked against the official Apple source; remaining source text is not certified as fully fact-checked.",
+    "2026-11-06: full specification-section and footnote audit completed. Core normalized fields checked; embedded outbound link destinations remain pending."
   ]
 }
