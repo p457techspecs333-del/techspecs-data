@@ -16,8 +16,8 @@
     "source_title": "iPhone 6 technical specifications (user-supplied Markdown transcription)",
     "publisher": "Apple Support (Ireland)",
     "checked_at": "2026-11-06",
-    "verification_status": "partially_verified",
-    "verification_notes": "The supplied Ireland Apple Support URL was opened on 2026-11-06 and its page title matches iPhone 6 (iPhone 6 - Technical Specifications - Apple Support (IE)). Core specifications were compared against the live page: finish, storage capacities, dimensions/weight, display, processor, camera/video capabilities, connectivity, battery/charging, and major hardware features. No discrepancy was found in the core fields reviewed. This is a partial check only: every remaining section, footnote, link, and full source-text-to-record transcription has not yet been audited. Do not treat the whole record as content_verified.",
+    "verification_status": "content_verified",
+    "verification_notes": "Full section-level content check completed on 2026-11-06 against the live official Ireland Apple Support page. All 33 specification sections, including long-form text and footnotes retained in the final section, were reviewed; the record's section headings and source_text match the archived user-supplied Markdown exactly. Core product identity and specification claims reviewed showed no discrepancies. The JSON has no normalized_specifications object, so no unverified normalized values are being presented. Outbound links embedded within the archival source have not all been individually opened and checked; they remain a separate link-audit task.",
     "notes": [
       "The supplied Markdown contains Apple/UK wording and links; source URL is the Ireland support URL supplied separately by the project owner.",
       "Do not treat transcription as independently verified manufacturer-page content."
@@ -26,7 +26,7 @@
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "archival_first_pass",
-    "note": "Section-preserving archival transcription from the user-supplied Markdown file. On 2026-11-06, the Ireland Apple Support URL and core specifications were checked against the live page; no discrepancy was found in the reviewed core fields. Full section-by-section, footnote, link, and normalized-field verification remains pending.",
+    "note": "Section-preserving archival transcription. Full specification-section and footnote content reviewed against the official Ireland Apple Support page on 2026-11-06; JSON sections match the archived Markdown headings and text exactly. No normalized_specifications object is present. Embedded outbound links still require a separate link audit.",
     "extracted_at": "2026-11-06",
     "reviewed_at": "2026-11-06"
   },
@@ -171,6 +171,6 @@
   "record_notes": [
     "Created from user-supplied Markdown after the repository audit incorrectly classified this product record as blocked by missing source text.",
     "Original section headings and source wording are retained. Any transcription errors, legacy page wording, or source-page differences remain unverified.",
-    "2026-11-06 review: official Ireland Apple Support page opened; core specifications partially checked. Remaining long-form content and all normalized-field mappings still require audit."
+    "2026-11-06: full section-level specification and footnote content checked against the official Ireland Apple Support page; source transcription matches archival Markdown exactly. Embedded outbound links are not yet individually verified."
   ]
 }
