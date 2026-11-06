@@ -7,24 +7,38 @@
     "model": "iPhone 5",
     "model_slug": "iphone-5",
     "model_year": 2012,
-    "year_introduced": 2012
+    "year_introduced": 2012,
+    "finishes": [
+      "Black & Slate",
+      "White & Silver"
+    ],
+    "storage_options": [
+      "16GB",
+      "32GB",
+      "64GB"
+    ]
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-sa/112016",
-    "verification_status": "url_checked",
+    "source_url": "https://support.apple.com/en-ie/112016",
+    "verification_status": "content_verified",
     "checked_at": "2026-11-06",
     "source_title": "iPhone 5 - Technical Specifications",
-    "publisher": "Apple Support",
-    "verification_notes": "Official Apple technical-specifications page located and checked for model match on 2026-11-06. Individual normalized specifications have not yet been fully audited against the page."
+    "publisher": "Apple Support (Ireland)",
+    "verification_notes": "Full specification-section and footnote review completed against the official Apple Support Ireland page on 2026-11-06. The retained Markdown archive was re-parsed into 22 clean sections. The source URL was standardized to the confirmed Ireland page. Existing normalized dimensions, display and chip fields were checked; battery, wireless, connector and in-box fields were added with source-section references. Embedded outbound link destinations have not all been individually opened."
   },
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
     "extracted_at": "2026-11-05",
-    "note": "Original sections are preserved verbatim. Selected normalized fields are transcribed only from their named source sections; no absent fields have been inferred."
+    "note": "Source section structure rebuilt from retained Markdown. Core normalized fields and footnotes checked against the official Apple Support Ireland page; battery, wireless, connector and in-box fields added with source-section references. Embedded outbound links remain a separate audit task.",
+    "reviewed_at": "2026-11-06"
   },
   "sections": [
+    {
+      "heading": "Overview",
+      "source_text": "# iPhone 5 - Technical Specifications"
+    },
     {
       "heading": "Color",
       "source_text": "[black and slate, white and silver](https://cdsassets.apple.com/live/SZLF0YNV/images/sp/112016_sp655_iphone5_color.jpg)\n\nBlack & Slate\n\nWhite & Silver"
@@ -116,25 +130,25 @@
         "value": 58.6,
         "unit": "mm",
         "source_section": "Size and Weight2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "height": {
         "value": 123.8,
         "unit": "mm",
         "source_section": "Size and Weight2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "depth": {
         "value": 7.6,
         "unit": "mm",
         "source_section": "Size and Weight2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "weight": {
         "value": 112,
         "unit": "g",
         "source_section": "Size and Weight2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       }
     },
     "display": {
@@ -142,38 +156,128 @@
         "value": "Retina LCD",
         "unit": null,
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "diagonal": {
         "value": 4,
         "unit": "in",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "resolution": {
         "value": "1136 × 640",
         "unit": "pixels",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "pixel_density": {
         "value": 326,
         "unit": "ppi",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "contrast_ratio": {
         "value": "800:1",
         "unit": null,
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "brightness": {
         "value": 500,
         "unit": "cd/m² (typical)",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
+      }
+    },
+    "battery": {
+      "talk_time_3g": {
+        "value": 8,
+        "unit": "hours",
+        "source_section": "Power and Battery3",
+        "verification_status": "content_verified"
+      },
+      "standby_max": {
+        "value": 225,
+        "unit": "hours",
+        "source_section": "Power and Battery3",
+        "verification_status": "content_verified"
+      },
+      "internet_use": {
+        "value": "3G: up to 8 hours; LTE: up to 8 hours; Wi‑Fi: up to 10 hours",
+        "unit": null,
+        "source_section": "Power and Battery3",
+        "verification_status": "content_verified"
+      },
+      "video_playback_max": {
+        "value": 10,
+        "unit": "hours",
+        "source_section": "Power and Battery3",
+        "verification_status": "content_verified"
+      },
+      "audio_playback_max": {
+        "value": 40,
+        "unit": "hours",
+        "source_section": "Power and Battery3",
+        "verification_status": "content_verified"
+      }
+    },
+    "connectivity": {
+      "models_listed": {
+        "value": "A1428 and A1429",
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified",
+        "notes": "Model numbers shown on the Apple page; regional configurations."
+      },
+      "wifi": {
+        "value": "802.11a/b/g/n (802.11n 2.4GHz and 5GHz)",
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified"
+      },
+      "bluetooth": {
+        "value": "4.0",
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified"
+      }
+    },
+    "charging": {
+      "connector": {
+        "value": "Lightning",
+        "unit": null,
+        "source_section": "External Buttons and Connectors",
+        "verification_status": "content_verified"
+      },
+      "headphone_jack": {
+        "value": true,
+        "unit": null,
+        "source_section": "External Buttons and Connectors",
+        "verification_status": "content_verified"
+      }
+    },
+    "in_box": {
+      "power_adapter_included": {
+        "value": true,
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "content_verified"
+      },
+      "earpods_included": {
+        "value": true,
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "content_verified"
+      },
+      "usb_cable_included": {
+        "value": true,
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "content_verified"
       }
     }
-  }
+  },
+  "record_notes": [
+    "2026-11-06 audit: full source-section and footnote review completed, source URL standardized to the Ireland page, sections rebuilt from retained Markdown, and core battery/wireless/connector/in-box fields added. Embedded outbound links remain pending."
+  ]
 }
