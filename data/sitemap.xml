@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://data.techspecs.dev/api-manifest.json</loc></url>
   <url><loc>https://data.techspecs.dev/catalogue.json</loc></url>
   <url><loc>https://data.techspecs.dev/llms.txt</loc></url>
   <url><loc>https://data.techspecs.dev/schemas/product-record-v2.schema.json</loc></url>
