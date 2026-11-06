@@ -17,7 +17,7 @@ This register tracks verification of the 50 product JSON records in `data/apple/
 - Full section-level content reviewed in this pass: **2** — iPhone 6 (33 sections) and iPhone 16e (35 sections), including the long final environmental/footnote sections. In both cases, the JSON section headings and source text match the archived Markdown exactly.
 - Existing record already marked `content_verified` but not yet re-audited in this pass: **1** — iPhone 13 Pro.
 - Other records remain pending field-by-field content review even if their URLs have previously been checked.
-- The iPhone 6 and iPhone 16e records have no `normalized_specifications` object, so no normalized values are being treated as verified.
+- Core normalized fields have been added to iPhone 6 and iPhone 16e with per-field `content_verified` statuses and source-section references. This is partial normalization; remaining fields and embedded links still need audit.
 - Embedded outbound links for iPhone 6 and iPhone 16e have not all been opened individually.
 
 ## Record-by-record register
@@ -100,3 +100,8 @@ This register tracks verification of the 50 product JSON records in `data/apple/
 - Latest validator run [#133](https://github.com/p457techspecs333-del/techspecs-data/actions/runs/42206257660) passed for all 50 records with **0 schema errors and 0 warnings**.
 - This CI result confirms structural validation and source-file path integrity only; it does not certify the factual accuracy of the other 48 records.
 - iPhone 6 and iPhone 16e source sections and footnotes have now been reviewed against their official pages; their source text still needs the embedded outbound-link audit and no normalized specification fields have been added yet.
+
+
+## Addendum — 6 November 2026: first normalized fields added
+
+The iPhone 6 record now contains 26 normalized fields across seven groups; the iPhone 16e record contains 34 normalized fields across eight groups. These fields cover core dimensions, display, processor, camera/video, connectivity, durability where applicable, and battery. Each field records a source section and `content_verified` status. This is a first normalization pass, not exhaustive extraction of every specification in the source. Additional fields and embedded links remain to be audited.
