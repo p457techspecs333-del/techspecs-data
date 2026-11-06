@@ -14,7 +14,7 @@ This register tracks verification of the 50 product JSON records in `data/apple/
 ## Current snapshot
 
 - Catalogue size: **50 JSON records**.
-- Full section-level content reviewed in this pass: **7** — iPhone 6 (33 sections), iPhone 12 (35 sections), iPhone 13 mini (36 sections), iPhone 13 Pro (34 sections), iPhone 16e (35 sections), iPhone 17 (37 sections after correcting a malformed section split), and iPhone 17e (37 sections), including long-form environmental/language sections and footnotes. In both cases, the JSON section headings and source text match the archived Markdown exactly.
+- Full section-level content reviewed in this pass: **10** — iPhone 6 (33 sections), iPhone 12 (35 sections), iPhone 13 mini (36 sections), iPhone 13 Pro (34 sections), iPhone 16e (35 sections), iPhone 17 (37 sections after correcting a malformed section split), iPhone 17e (37 sections), iPhone 17 Pro (37 sections), iPhone 17 Pro Max (37 sections), and iPhone Air (36 sections), including long-form environmental/language sections and footnotes. In both cases, the JSON section headings and source text match the archived Markdown exactly.
 - iPhone 13 Pro has now been re-audited against its official Ireland Apple Support page; its previously normalized fields and full archived sections were checked.
 - Other records remain pending field-by-field content review even if their URLs have previously been checked.
 - Core normalized fields have been added to iPhone 6 and iPhone 16e with per-field `content_verified` statuses and source-section references. This is partial normalization; remaining fields and embedded links still need audit.
@@ -67,10 +67,10 @@ This register tracks verification of the 50 product JSON records in `data/apple/
 | iPhone 16 Pro Max | `url_checked` | https://support.apple.com/en-ie/121032 | pending |
 | iPhone 16e | `content_verified` | https://support.apple.com/en-ie/122208 | source sections and footnotes checked; embedded links pending |
 | iPhone 17 | `content_verified` | https://support.apple.com/en-ie/125089 | source re-segmented into 37 correct sections; core fields checked; outbound links pending |
-| iPhone 17 Pro | `url_checked` | https://support.apple.com/en-ie/125090 | pending |
-| iPhone 17 Pro Max | `url_checked` | https://support.apple.com/en-ie/125091 | pending |
+| iPhone 17 Pro | `content_verified` | https://support.apple.com/en-ie/125090 | 24 normalized fields; battery and wireless core fields checked; embedded links pending |
+| iPhone 17 Pro Max | `content_verified` | https://support.apple.com/en-ie/125091 | 24 normalized fields; wireless core fields checked; embedded links pending |
 | iPhone 17e | `content_verified` | https://support.apple.com/en-ie/126470 | 38 core normalized fields added; remaining fields and outbound links pending |
-| iPhone Air | `url_checked` | https://support.apple.com/en-ie/125092 | pending |
+| iPhone Air | `content_verified` | https://support.apple.com/en-ie/125092 | 35 normalized fields; model number, chip, connectivity, charging and battery fields checked |
 | iPhone 18 Pro | `partially_verified` | https://www.apple.com/ie/iphone-18-pro/specs/ | 30 core normalized fields added as partial; direct page/footnote audit pending |
 | iPhone 18 Pro Max | `partially_verified` | https://www.apple.com/ie/iphone-18-pro/specs/ | 30 core normalized fields added as partial; direct page/footnote audit pending |
 | iPhone Duo | `partially_verified` | https://images.apple.com/ie/iphone-duo/specs/ | 46 core normalized fields added as partial; direct page/footnote audit pending |
@@ -132,3 +132,10 @@ The iPhone 17e official Ireland page was reviewed through its full source conten
 ## Addendum — 6 November 2026: iPhone 12 and iPhone 13 mini
 
 Reviewed the full official Ireland technical-specification pages and footnotes for both models. Corrected section segmentation defects caused by list entries being mislabelled as headings: `Face ID` under Sensors and `Camera`/`Siri` under Built-in Apps are now retained as list items within their parent sections. The iPhone 13 mini environmental section was separated from In the Box. Core normalized dimensions, display, chip and water-resistance values were rechecked and marked `content_verified`; finishes, storage options and model numbers were also recorded from the official pages. Embedded outbound links remain a separate audit task.
+
+
+## Addendum — 6 November 2026: iPhone 17 Pro, iPhone 17 Pro Max and iPhone Air
+
+Reviewed the full official Ireland specification pages and footnotes for all three models. For iPhone 17 Pro and Pro Max, the archived Markdown headings and every JSON section's source text match exactly. Checked the model-specific dimensions, display, chip, cameras, battery, durability, and wireless details. The shared Apple wireless section lists models A3523 and A3526; these are recorded as listed model numbers without assigning them to specific size variants. Added battery and wireless fields for the Pro models.
+
+For iPhone Air, reviewed all 36 sections and footnotes, checked the existing normalized fields, and added the A3517 model number, chip-core details, modem/wireless details, MagSafe/Qi2 charging and battery-with-accessory fields. Embedded outbound link destinations have not all been individually opened and remain a separate audit task.
