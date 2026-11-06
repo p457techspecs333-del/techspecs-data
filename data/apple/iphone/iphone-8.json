@@ -27,7 +27,7 @@
     "checked_at": "2026-11-06",
     "source_title": "iPhone 8 - Technical Specifications",
     "publisher": "Apple Support (Ireland)",
-    "verification_notes": "Full specification-section and footnote review completed against the official Apple Support Ireland page on 2026-11-06. The retained Markdown archive was re-parsed into 35 clean sections. Existing normalized dimensions, display, chip and durability fields were checked; battery, wireless, connector and in-box fields were added with source-section references. Embedded outbound link destinations have not all been individually opened."
+    "verification_notes": "Full specification-section and footnote review completed against the official Apple Support Ireland page on 2026-11-06. The retained Markdown archive was re-parsed into 35 clean sections. Existing normalized dimensions, display, chip and durability fields were checked; battery, wireless, connector and in-box details were added with source-section references. Embedded outbound link destinations have not all been individually opened."
   },
   "extraction": {
     "method": "section_preserving",
@@ -378,6 +378,7 @@
     }
   },
   "record_notes": [
+    "2026-11-06 audit: full source-section and footnote review completed, sections rebuilt from retained Markdown, and core battery/wireless/connector/in-box fields added. Embedded outbound links remain pending.",
     "2026-11-06 audit: full source-section and footnote review completed, sections rebuilt from retained Markdown, and core battery/wireless/connector/in-box fields added. Embedded outbound links remain pending."
   ]
 }
