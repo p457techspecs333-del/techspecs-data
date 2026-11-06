@@ -239,3 +239,8 @@ Added 46 core normalized fields to the iPhone Duo record across dimensions, disp
 The iPhone 17 JSON archive contained a section segmentation defect: its content was mostly retained, but several headings were merged into adjacent sections and two list entries were mislabelled as section headings. Rebuilt it as 37 correctly headed sections from the retained source transcription and corrected the `source_section` references for normalized dimensions and water resistance. Reviewed the official page and checked its existing core normalized values.
 
 Reviewed the full official Ireland iPhone 17e specifications page and footnotes. Added 38 core normalized fields across nine groups, with source-section references and per-field `content_verified` status. Remaining fields and embedded outbound links still need audit.
+
+
+### Addendum — 6 November 2026: iPhone 12 and iPhone 13 mini
+
+Reviewed both official Apple Support Ireland specification pages and their footnotes. Corrected malformed section structure: `Face ID` under Sensors and `Camera`/`Siri` under Built-in Apps are now preserved as list items rather than section headings. The iPhone 13 mini environmental section was separated from In the Box. Core normalized dimensions, display, chip and water-resistance values were rechecked, and finishes, storage options and model numbers were recorded. Embedded outbound link destinations remain to be checked individually.
