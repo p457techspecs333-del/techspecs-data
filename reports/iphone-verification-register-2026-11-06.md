@@ -14,7 +14,7 @@ This register tracks verification of the 50 product JSON records in `data/apple/
 ## Current snapshot
 
 - Catalogue size: **50 JSON records**.
-- Full section-level content reviewed in this pass: **5** — iPhone 6 (33 sections), iPhone 16e (35 sections), iPhone 13 Pro (34 sections), iPhone 17 (37 sections after correcting a malformed section split), and iPhone 17e (37 sections), including long-form environmental/language sections and footnotes. In both cases, the JSON section headings and source text match the archived Markdown exactly.
+- Full section-level content reviewed in this pass: **7** — iPhone 6 (33 sections), iPhone 12 (35 sections), iPhone 13 mini (36 sections), iPhone 13 Pro (34 sections), iPhone 16e (35 sections), iPhone 17 (37 sections after correcting a malformed section split), and iPhone 17e (37 sections), including long-form environmental/language sections and footnotes. In both cases, the JSON section headings and source text match the archived Markdown exactly.
 - iPhone 13 Pro has now been re-audited against its official Ireland Apple Support page; its previously normalized fields and full archived sections were checked.
 - Other records remain pending field-by-field content review even if their URLs have previously been checked.
 - Core normalized fields have been added to iPhone 6 and iPhone 16e with per-field `content_verified` statuses and source-section references. This is partial normalization; remaining fields and embedded links still need audit.
@@ -43,13 +43,13 @@ This register tracks verification of the 50 product JSON records in `data/apple/
 | iPhone 11 Pro | `url_checked` | https://support.apple.com/en-ie/111879 | pending |
 | iPhone 11 Pro Max | `url_checked` | https://support.apple.com/en-ie/111878 | pending |
 | iPhone SE (1st generation) | `url_checked` | https://support.apple.com/en-ie/112005 | pending |
-| iPhone 12 | `url_checked` | https://support.apple.com/en-ie/111876 | pending |
+| iPhone 12 | `content_verified` | https://support.apple.com/en-ie/111876 | corrected false Face ID/Camera headings; core fields checked; outbound links pending |
 | iPhone 12 mini | `url_checked` | https://support.apple.com/en-ie/111877 | pending |
 | iPhone 12 Pro | `url_checked` | https://support.apple.com/en-ie/111875 | pending |
 | iPhone 12 Pro Max | `url_checked` | https://support.apple.com/en-ie/111874 | pending |
 | iPhone SE (2nd generation) | `url_checked` | https://support.apple.com/en-ie/111882 | source-file reference warning; content audit pending |
 | iPhone 13 | `url_checked` | https://support.apple.com/en-ie/111872 | pending |
-| iPhone 13 mini | `url_checked` | https://support.apple.com/en-ie/111873 | pending |
+| iPhone 13 mini | `content_verified` | https://support.apple.com/en-ie/111873 | corrected false Face ID/Camera/Siri headings and separated environment section; core fields checked |
 | iPhone 13 Pro | `content_verified` | https://support.apple.com/en-ie/111871 | source content and existing normalized fields checked; embedded links pending |
 | iPhone 13 Pro Max | `url_checked` | https://support.apple.com/en-ie/111870 | pending |
 | iPhone SE (3rd generation) | `url_checked` | https://support.apple.com/en-ie/111866 | source-file reference warning; content audit pending |
@@ -127,3 +127,8 @@ Added 46 core normalized fields across eight groups, including open/closed dimen
 The iPhone 17 JSON had a section-structure defect: the archival content was largely present, but multiple source headings had been merged into neighbouring sections and two list items were mislabelled as headings. Rebuilt its section array from the retained source transcription into 37 correctly headed sections and corrected normalized `source_section` references for dimensions and water resistance. Its core normalized fields were checked against the official page.
 
 The iPhone 17e official Ireland page was reviewed through its full source content and footnotes. Added 38 core normalized fields across nine groups with source-section references and per-field `content_verified` status. Both records' embedded outbound links still require a separate link audit.
+
+
+## Addendum — 6 November 2026: iPhone 12 and iPhone 13 mini
+
+Reviewed the full official Ireland technical-specification pages and footnotes for both models. Corrected section segmentation defects caused by list entries being mislabelled as headings: `Face ID` under Sensors and `Camera`/`Siri` under Built-in Apps are now retained as list items within their parent sections. The iPhone 13 mini environmental section was separated from In the Box. Core normalized dimensions, display, chip and water-resistance values were rechecked and marked `content_verified`; finishes, storage options and model numbers were also recorded from the official pages. Embedded outbound links remain a separate audit task.
