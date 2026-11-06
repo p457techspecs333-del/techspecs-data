@@ -12,7 +12,7 @@
 - **48** model source Markdown files found.
 - **48/48 JSON files parsed successfully** (no JSON syntax failures encountered).
 - **48/48 JSON records have a matching source Markdown file reference/name** based on model slug.
-- **One catalogue gap:** standard iPhone 6 has no JSON record and no source Markdown file. iPhone 6 Plus exists and is a separate model.
+- **Two additional model records have since been added:** standard iPhone 6 and iPhone 16e, using newly preserved user-supplied source Markdown. See the 6 November addendum below. The original 5 November inventory snapshot remains unchanged.
 - **Schema inconsistency:** records use three materially different top-level shapes. The iPhone 6 Plus record is a legacy field-level extraction; most others are section-preserving archives.
 - **Provenance is incomplete:** nearly all records have no populated source URL. One record (iPhone 17e) contains an Apple URL but explicitly says it was inferred and not independently checked.
 - **The newer supplied iPhone 17e, iPhone 18 Pro/Pro Max and iPhone Duo records are not independently verified.** Their presence in the repository is not evidence that the supplied specifications are official or accurate.
@@ -45,7 +45,7 @@ This audit establishes repository structure, JSON syntax validity, and basic sou
 
 ### Identified catalogue gap
 
-- **iPhone 6 (standard):** absent from both `data/apple/iphone/` and the source Markdown collection.
+- **iPhone 6 (standard):** absent at the time of the 5 November audit; added on 6 November from user-supplied Markdown. See addendum.
 - **iPhone 6 Plus:** present, but its own source metadata explicitly warns that some sections cover iPhone 6 and iPhone 6 Plus together and must be checked for model applicability before any future standard iPhone 6 record is created.
 
 No other missing model is asserted by this audit. The inventory describes what is in this repository, not every iPhone Apple has ever released.
@@ -188,8 +188,18 @@ This addendum supersedes the provenance findings above where they describe sourc
 - **19 existing JSON records were updated** to use the supplied Ireland URLs where the existing URL was missing, used another locale, pointed to the wrong variant, or was a product page instead of the supplied Support page.
 - The other supplied URLs that already matched existing records were retained as assigned.
 - Three 1485xx URLs appear to correspond to iPhone 18 Pro, iPhone 18 Pro Max and iPhone Duo, but direct page retrieval did not complete during this check; their final URL verification remains pending.
-- Two supplied pages point to models missing from the repository: **standard iPhone 6** (the existing iPhone 6 Plus record is not a substitute) and **iPhone 16e**. Their URLs are preserved in the intake register; records and source Markdown still need to be created from attributable source material.
+- Two supplied pages pointed to models missing from the repository: **standard iPhone 6** (the existing iPhone 6 Plus record is not a substitute) and **iPhone 16e**. Both records and source Markdown have now been created from the owner's supplied transcriptions. Their contents remain unverified against the live Apple pages.
 - URL assignment is not specification verification. Field-by-field comparison, normalized-field review, and a fresh catalogue-wide provenance audit remain outstanding.
 
 The most recent JSON-source update triggered GitHub Actions validation successfully. See [the workflow run](https://github.com/p457techspecs333-del/techspecs-data/actions/runs/42202854143).
 
+
+
+### Addendum — supplied source Markdown received and archived
+
+The project owner supplied the previously missing Markdown transcriptions. The repository now contains:
+
+- `sources/apple/iphone/iphone-6-source.md` and `data/apple/iphone/iphone-6.json` (34 preserved sections).
+- `sources/apple/iphone/iphone-16e-source.md` and `data/apple/iphone/iphone-16e.json` (36 preserved sections).
+
+The JSON records use the v2 archival-first structure, point to the preserved Markdown files, and retain the supplied Ireland URLs (iPhone 6: `https://support.apple.com/en-ie/111954`; iPhone 16e: `https://support.apple.com/en-ie/122208`). Their source verification status is `not_checked`: the transcriptions were supplied by the project owner, and neither live-page matching nor field-by-field verification is claimed. The source Markdown is preserved verbatim as supplied.
