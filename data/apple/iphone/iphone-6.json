@@ -32,7 +32,7 @@
     "publisher": "Apple Support (Ireland)",
     "checked_at": "2026-11-06",
     "verification_status": "content_verified",
-    "verification_notes": "Full section-level content check completed on 2026-11-06 against the live official Ireland Apple Support page. All 33 specification sections, including long-form text and footnotes retained in the final section, were reviewed; the record's section headings and source_text match the archived user-supplied Markdown exactly. Core product identity and specification claims reviewed showed no discrepancies. The JSON has no normalized_specifications object, so no unverified normalized values are being presented. Outbound links embedded within the archival source have not all been individually opened and checked; they remain a separate link-audit task.",
+    "verification_notes": "Full section-level content check completed on 2026-11-06 against the live official Ireland Apple Support page. All 33 specification sections, including long-form text and footnotes retained in the final section, were reviewed; the record's section headings and source_text match the archived user-supplied Markdown exactly. Core product identity and specification claims reviewed showed no discrepancies. Core normalized fields have now been added with per-field content_verified statuses and source-section references; remaining specification fields and embedded outbound links still require audit. Outbound links embedded within the archival source have not all been individually opened and checked; they remain a separate link-audit task.",
     "notes": [
       "The supplied Markdown contains Apple/UK wording and links; source URL is the Ireland support URL supplied separately by the project owner.",
       "Do not treat transcription as independently verified manufacturer-page content."
@@ -41,7 +41,7 @@
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
-    "note": "Section-preserving archival transcription. Full specification-section and footnote content reviewed against the official Ireland Apple Support page on 2026-11-06; JSON sections match the archived Markdown headings and text exactly. No normalized_specifications object is present. Embedded outbound links still require a separate link audit. Core structured fields were added on 2026-11-06 from sections reviewed against the official Ireland Apple Support page. This is intentionally partial normalization; remaining fields and embedded outbound links are still pending audit.",
+    "note": "Section-preserving archival transcription. Full specification-section and footnote content reviewed against the official Ireland Apple Support page on 2026-11-06; JSON sections match the archived Markdown headings and text exactly. A partial normalized_specifications object now contains core fields with source-section references and per-field content_verified statuses. Remaining fields and embedded outbound links still require audit. Core structured fields were added on 2026-11-06 from sections reviewed against the official Ireland Apple Support page. This is intentionally partial normalization; remaining fields and embedded outbound links are still pending audit.",
     "extracted_at": "2026-11-06",
     "reviewed_at": "2026-11-06"
   },
