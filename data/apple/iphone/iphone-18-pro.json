@@ -7,16 +7,31 @@
     "model": "iPhone 18 Pro",
     "model_slug": "iphone-18-pro",
     "model_year": 2026,
-    "year_introduced": 2026
+    "year_introduced": 2026,
+    "finishes": [
+      "Black",
+      "Silver",
+      "Glacier",
+      "Burgundy"
+    ],
+    "storage_options": [
+      "256GB",
+      "512GB",
+      "1TB",
+      "2TB"
+    ],
+    "model_numbers": [
+      "A3714"
+    ]
   },
   "source": {
     "source_type": "manufacturer",
     "source_url": "https://www.apple.com/ie/iphone-18-pro/specs/",
-    "verification_status": "url_checked",
+    "verification_status": "partially_verified",
     "checked_at": "2026-11-06",
     "source_title": "iPhone 18 Pro - Technical Specifications",
     "publisher": "Apple",
-    "verification_notes": "Official Apple product technical-specifications page located and checked for model match on 2026-11-06. Individual normalized specifications have not yet been fully audited against the page."
+    "verification_notes": "Official Apple Ireland shared technical-specifications page confirmed in Apple search results on 2026-11-06. Model-specific finishes, storage, dimensions, display, chip, camera, battery and connectivity fields were transcribed from the official indexed content with per-field partially_verified status. Direct page open returned a cache miss, so full line-by-line section, footnote and embedded-link audit remains pending."
   },
   "sections": [
     {
@@ -170,8 +185,211 @@
   ],
   "extraction": {
     "method": "section_preserving",
-    "normalization_status": "archival_first_pass",
+    "normalization_status": "partially_normalized",
     "extracted_at": "2026-11-05",
-    "note": "Supplied source sections, wording, links and footnotes are preserved. No normalized field-by-field specifications have been added, and no claims have been independently verified."
-  }
+    "note": "Partial normalized fields added from the official Apple Ireland indexed technical-specifications page. Direct page retrieval was unavailable in this pass; all newly added values remain partially_verified until the full page and source text can be compared line by line.",
+    "reviewed_at": "2026-11-06"
+  },
+  "normalized_specifications": {
+    "dimensions": {
+      "width": {
+        "value": 71.9,
+        "unit": "mm",
+        "source_section": "Size and Weight2",
+        "verification_status": "partially_verified"
+      },
+      "height": {
+        "value": 150,
+        "unit": "mm",
+        "source_section": "Size and Weight2",
+        "verification_status": "partially_verified"
+      },
+      "depth": {
+        "value": 8.75,
+        "unit": "mm",
+        "source_section": "Size and Weight2",
+        "verification_status": "partially_verified"
+      },
+      "weight": {
+        "value": 211,
+        "unit": "g",
+        "source_section": "Size and Weight2",
+        "verification_status": "partially_verified"
+      }
+    },
+    "display": {
+      "type": {
+        "value": "Super Retina XDR all-screen OLED",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "partially_verified"
+      },
+      "diagonal": {
+        "value": 6.3,
+        "unit": "in",
+        "source_section": "Display",
+        "verification_status": "partially_verified"
+      },
+      "resolution": {
+        "value": "2622 × 1206",
+        "unit": "pixels",
+        "source_section": "Display",
+        "verification_status": "partially_verified"
+      },
+      "pixel_density": {
+        "value": 460,
+        "unit": "ppi",
+        "source_section": "Display",
+        "verification_status": "partially_verified"
+      },
+      "brightness_max_typical": {
+        "value": 1000,
+        "unit": "nits",
+        "source_section": "Display",
+        "verification_status": "partially_verified"
+      },
+      "brightness_peak_hdr": {
+        "value": 1600,
+        "unit": "nits",
+        "source_section": "Display",
+        "verification_status": "partially_verified"
+      },
+      "brightness_peak_outdoor": {
+        "value": 3000,
+        "unit": "nits",
+        "source_section": "Display",
+        "verification_status": "partially_verified"
+      },
+      "brightness_min": {
+        "value": 1,
+        "unit": "nit",
+        "source_section": "Display",
+        "verification_status": "partially_verified"
+      }
+    },
+    "durability": {
+      "ip_rating": {
+        "value": "IP68",
+        "unit": null,
+        "source_section": "Splash, Water and Dust Resistant3",
+        "verification_status": "partially_verified"
+      },
+      "water_depth_max": {
+        "value": 6,
+        "unit": "m",
+        "source_section": "Splash, Water and Dust Resistant3",
+        "verification_status": "partially_verified",
+        "notes": "Up to 30 minutes under IEC standard 60529."
+      }
+    },
+    "processor": {
+      "chip": {
+        "value": "A20 Pro",
+        "unit": null,
+        "source_section": "Chip",
+        "verification_status": "partially_verified"
+      },
+      "cpu_cores": {
+        "value": 6,
+        "unit": "cores",
+        "source_section": "Chip",
+        "verification_status": "partially_verified",
+        "notes": "2 super cores and 4 efficiency cores."
+      },
+      "gpu_cores": {
+        "value": 7,
+        "unit": "cores",
+        "source_section": "Chip",
+        "verification_status": "partially_verified",
+        "notes": "GPU with Neural Accelerators."
+      },
+      "neural_engine": {
+        "value": "Dual 16-core Neural Engine",
+        "unit": null,
+        "source_section": "Chip",
+        "verification_status": "partially_verified"
+      }
+    },
+    "camera": {
+      "rear_system": {
+        "value": "48MP Pro Fusion camera system",
+        "unit": null,
+        "source_section": "Camera",
+        "verification_status": "partially_verified"
+      },
+      "main_resolution": {
+        "value": 48,
+        "unit": "MP",
+        "source_section": "Camera",
+        "verification_status": "partially_verified"
+      },
+      "ultra_wide_resolution": {
+        "value": 48,
+        "unit": "MP",
+        "source_section": "Camera",
+        "verification_status": "partially_verified"
+      },
+      "telephoto_resolution": {
+        "value": 48,
+        "unit": "MP",
+        "source_section": "Camera",
+        "verification_status": "partially_verified"
+      },
+      "front_resolution": {
+        "value": 18,
+        "unit": "MP",
+        "source_section": "Front Camera",
+        "verification_status": "partially_verified"
+      }
+    },
+    "battery": {
+      "typical_use_max": {
+        "value": 23,
+        "unit": "hours",
+        "source_section": "Power and Battery7",
+        "verification_status": "partially_verified"
+      },
+      "video_playback_max": {
+        "value": 34,
+        "unit": "hours",
+        "source_section": "Power and Battery7",
+        "verification_status": "partially_verified"
+      },
+      "video_playback_streamed_max": {
+        "value": 31,
+        "unit": "hours",
+        "source_section": "Power and Battery7",
+        "verification_status": "partially_verified"
+      }
+    },
+    "connectivity": {
+      "model_number": {
+        "value": "A3714",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "partially_verified"
+      },
+      "wifi": {
+        "value": "Wi‑Fi 7 (802.11be) with 2×2 MIMO",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "partially_verified"
+      },
+      "bluetooth": {
+        "value": "6",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "partially_verified"
+      },
+      "cellular_modem": {
+        "value": "Apple C2",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "partially_verified"
+      }
+    }
+  },
+  "record_notes": [
+    "2026-11-06: added model-specific core normalized fields from official Apple Ireland indexed content. Full direct-page, footnote, source-text and embedded-link audit remains open."
+  ]
 }
