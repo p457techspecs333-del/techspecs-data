@@ -284,3 +284,12 @@ Completed source-section and footnote reviews for iPhone 6 Plus, iPhone 6s, iPho
 ### Addendum — 6 November 2026: iPhone 5, 5c, 5s, X and SE (1st/2nd generation)
 
 Completed source-section and footnote reviews for iPhone 5, iPhone 5c, iPhone 5s, iPhone X, and iPhone SE (1st and 2nd generations). Rebuilt sections from archived Markdown, checked core normalized fields, and added battery, wireless, connector and in-box details. Corrected iPhone 5 and iPhone 5c source URLs to their confirmed Apple Support Ireland pages. Embedded outbound links remain pending.
+
+
+### Addendum — 6 November 2026: final model pages and current status
+
+The official Apple Ireland indexed specifications content for iPhone 18 Pro/Pro Max and iPhone Duo provided the full page text and footnotes despite direct page-open cache misses. These records are now `content_verified`, with 63 normalized fields each for Pro/Pro Max and 71 for Duo. Embedded outbound link destinations remain pending.
+
+The iPhone SE (3rd generation) Ireland URL could not be retrieved. Its official Apple Support UK page was reviewed in full and core specifications checked; the record uses that UK URL explicitly and remains `partially_verified` until Ireland-specific model-number mapping can be confirmed.
+
+Current content-verification status: **49 of 50 records are content_verified; iPhone SE (3rd generation) remains partially_verified** for the locale/model-number reason above. All 50 records pass schema validation. The remaining catalogue-wide task is individual checking of embedded outbound links; the repository should not be called fully verified until that link audit is complete.
