@@ -279,3 +279,8 @@ Completed source-section and footnote reviews for iPhone 11, iPhone 11 Pro, iPho
 ### Addendum — 6 November 2026: iPhone 6 Plus through iPhone 8 Plus
 
 Completed source-section and footnote reviews for iPhone 6 Plus, iPhone 6s, iPhone 6s Plus, iPhone 7, iPhone 7 Plus, iPhone 8 and iPhone 8 Plus. Rebuilt JSON section arrays from archived Markdown, checked existing dimensions/display/chip fields, and added battery, wireless, connector and in-box fields with source-section references. Model identifiers shown on Apple pages are noted as regional configurations where appropriate. Embedded outbound links remain pending.
+
+
+### Addendum — 6 November 2026: iPhone 5, 5c, 5s, X and SE (1st/2nd generation)
+
+Completed source-section and footnote reviews for iPhone 5, iPhone 5c, iPhone 5s, iPhone X, and iPhone SE (1st and 2nd generations). Rebuilt sections from archived Markdown, checked core normalized fields, and added battery, wireless, connector and in-box details. Corrected iPhone 5 and iPhone 5c source URLs to their confirmed Apple Support Ireland pages. Embedded outbound links remain pending.
