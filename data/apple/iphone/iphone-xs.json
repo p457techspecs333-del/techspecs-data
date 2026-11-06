@@ -22,19 +22,24 @@
   "source": {
     "source_type": "manufacturer",
     "source_url": "https://support.apple.com/en-ie/111881",
-    "verification_status": "url_checked",
+    "verification_status": "content_verified",
     "checked_at": "2026-11-06",
     "source_title": "iPhone XS - Technical Specifications",
     "publisher": "Apple Support (Ireland)",
-    "verification_notes": "Official Apple Support Ireland technical-specifications URL supplied by the project owner and matched to this model. URL-level source identification only; normalized specifications have not all been compared field by field."
+    "verification_notes": "Full specification-section and footnote review completed against the official Apple Support Ireland page on 2026-11-06. The retained Markdown archive was re-parsed into 35 clean sections. Existing normalized dimensions, display, chip, camera and durability fields were checked; battery, wireless, connector and in-box details were added with source-section references. Embedded outbound link destinations have not all been individually opened."
   },
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
     "extracted_at": "2026-11-05",
-    "note": "Original source sections are preserved verbatim. The normalized fields below are a limited transcription of explicitly stated values; they are not independently fact-checked."
+    "note": "Source section structure rebuilt from retained Markdown. Core normalized fields and footnotes checked against the official Apple Support Ireland page; battery, wireless, connector and in-box fields added with source-section references. Embedded outbound links remain a separate audit task.",
+    "reviewed_at": "2026-11-06"
   },
   "sections": [
+    {
+      "heading": "Overview",
+      "source_text": "# iPhone XS - Technical Specifications"
+    },
     {
       "heading": "Finish",
       "source_text": "- Gold\n- Space Gray\n- Silver"
@@ -178,25 +183,25 @@
         "value": 70.9,
         "unit": "mm",
         "source_section": "Size and Weight2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "height": {
         "value": 143.6,
         "unit": "mm",
         "source_section": "Size and Weight2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "depth": {
         "value": 7.7,
         "unit": "mm",
         "source_section": "Size and Weight2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "weight": {
         "value": 177,
         "unit": "g",
         "source_section": "Size and Weight2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       }
     },
     "display": {
@@ -204,37 +209,37 @@
         "value": "Super Retina HD OLED",
         "unit": null,
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "diagonal": {
         "value": 5.8,
         "unit": "in",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "resolution": {
         "value": "2436 × 1125",
         "unit": "pixels",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "pixel_density": {
         "value": 458,
         "unit": "ppi",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "typical_brightness": {
         "value": 625,
         "unit": "cd/m²",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "contrast_ratio": {
         "value": "1,000,000:1",
         "unit": null,
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       }
     },
     "processor": {
@@ -242,13 +247,13 @@
         "value": "A12 Bionic",
         "unit": null,
         "source_section": "Chip",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "neural_engine": {
         "value": "Next-generation Neural Engine",
         "unit": null,
         "source_section": "Chip",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       }
     },
     "durability": {
@@ -256,20 +261,105 @@
         "value": "IP68",
         "unit": null,
         "source_section": "Splash, Water, and Dust Resistant3",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "maximum_water_depth": {
         "value": 2,
         "unit": "m",
         "source_section": "Splash, Water, and Dust Resistant3",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "maximum_duration": {
         "value": 30,
         "unit": "min",
         "source_section": "Splash, Water, and Dust Resistant3",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
+      }
+    },
+    "battery": {
+      "talk_time_max": {
+        "value": 20,
+        "unit": "hours",
+        "source_section": "Power and Battery8",
+        "verification_status": "content_verified"
+      },
+      "internet_use_max": {
+        "value": 12,
+        "unit": "hours",
+        "source_section": "Power and Battery8",
+        "verification_status": "content_verified"
+      },
+      "video_playback_max": {
+        "value": 14,
+        "unit": "hours",
+        "source_section": "Power and Battery8",
+        "verification_status": "content_verified"
+      },
+      "audio_playback_max": {
+        "value": 60,
+        "unit": "hours",
+        "source_section": "Power and Battery8",
+        "verification_status": "content_verified"
+      },
+      "fast_charge_50_percent_time": {
+        "value": 30,
+        "unit": "minutes",
+        "source_section": "Power and Battery8",
+        "verification_status": "content_verified",
+        "notes": "With 18W adapter or higher, available separately."
+      },
+      "wireless_charging_standard": {
+        "value": "Qi",
+        "unit": null,
+        "source_section": "Power and Battery8",
+        "verification_status": "content_verified"
+      }
+    },
+    "connectivity": {
+      "models_listed": {
+        "value": "A1920 and A1921",
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified",
+        "notes": "Model numbers shown on Apple’s page; regional configurations, not an assertion of Irish retail SKUs."
+      },
+      "wifi": {
+        "value": "802.11ac Wi‑Fi with 2×2 MIMO",
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified"
+      },
+      "bluetooth": {
+        "value": "5.0",
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified"
+      },
+      "nfc_reader_mode": {
+        "value": true,
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified"
+      }
+    },
+    "charging": {
+      "connector": {
+        "value": "Lightning",
+        "unit": null,
+        "source_section": "External Buttons and Connectors",
+        "verification_status": "content_verified"
+      }
+    },
+    "in_box": {
+      "power_adapter": {
+        "value": "USB Power Adapter",
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "content_verified"
       }
     }
-  }
+  },
+  "record_notes": [
+    "2026-11-06 audit: full source-section and footnote review completed, sections rebuilt from retained Markdown, and core battery/wireless/connector/in-box fields added. Embedded outbound links remain pending."
+  ]
 }
