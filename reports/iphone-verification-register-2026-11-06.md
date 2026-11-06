@@ -14,8 +14,8 @@ This register tracks verification of the 50 product JSON records in `data/apple/
 ## Current snapshot
 
 - Catalogue size: **50 JSON records**.
-- Full section-level content reviewed in this pass: **2** — iPhone 6 (33 sections) and iPhone 16e (35 sections), including the long final environmental/footnote sections. In both cases, the JSON section headings and source text match the archived Markdown exactly.
-- Existing record already marked `content_verified` but not yet re-audited in this pass: **1** — iPhone 13 Pro.
+- Full section-level content reviewed in this pass: **3** — iPhone 6 (33 sections), iPhone 16e (35 sections), and iPhone 13 Pro (34 sections), including long-form environmental/language sections and footnotes. In both cases, the JSON section headings and source text match the archived Markdown exactly.
+- iPhone 13 Pro has now been re-audited against its official Ireland Apple Support page; its previously normalized fields and full archived sections were checked.
 - Other records remain pending field-by-field content review even if their URLs have previously been checked.
 - Core normalized fields have been added to iPhone 6 and iPhone 16e with per-field `content_verified` statuses and source-section references. This is partial normalization; remaining fields and embedded links still need audit.
 - Embedded outbound links for iPhone 6 and iPhone 16e have not all been opened individually.
@@ -50,7 +50,7 @@ This register tracks verification of the 50 product JSON records in `data/apple/
 | iPhone SE (2nd generation) | `url_checked` | https://support.apple.com/en-ie/111882 | source-file reference warning; content audit pending |
 | iPhone 13 | `url_checked` | https://support.apple.com/en-ie/111872 | pending |
 | iPhone 13 mini | `url_checked` | https://support.apple.com/en-ie/111873 | pending |
-| iPhone 13 Pro | `content_verified (recorded)` | https://support.apple.com/en-ie/111871 | re-audit needed; existing status not accepted without current review |
+| iPhone 13 Pro | `content_verified` | https://support.apple.com/en-ie/111871 | source content and existing normalized fields checked; embedded links pending |
 | iPhone 13 Pro Max | `url_checked` | https://support.apple.com/en-ie/111870 | pending |
 | iPhone SE (3rd generation) | `url_checked` | https://support.apple.com/en-ie/111866 | source-file reference warning; content audit pending |
 | iPhone 14 | `url_checked` | https://support.apple.com/en-ie/111850 | pending |
@@ -105,3 +105,8 @@ This register tracks verification of the 50 product JSON records in `data/apple/
 ## Addendum — 6 November 2026: first normalized fields added
 
 The iPhone 6 record now contains 26 normalized fields across seven groups; the iPhone 16e record contains 34 normalized fields across eight groups. These fields cover core dimensions, display, processor, camera/video, connectivity, durability where applicable, and battery. Each field records a source section and `content_verified` status. This is a first normalization pass, not exhaustive extraction of every specification in the source. Additional fields and embedded links remain to be audited.
+
+
+## Addendum — 6 November 2026: iPhone 13 Pro content audit
+
+The official [iPhone 13 Pro technical specifications page](https://support.apple.com/en-ie/111871) was reviewed through all specification sections and footnotes. Its 34 retained JSON sections were checked against the live page. The existing normalized dimensions, display, A15 Bionic chip, and IP68 fields match the cited sections. The record remains `content_verified`; embedded outbound links have not all been individually opened.
