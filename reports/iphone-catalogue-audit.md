@@ -254,3 +254,8 @@ Completed section-level source and footnote reviews for the iPhone 17 Pro, iPhon
 ### Addendum — 6 November 2026: iPhone 16, iPhone 16 Pro and iPhone 16 Pro Max
 
 Reviewed all specification sections and footnotes on the official Apple Support Ireland pages. Rebuilt the JSON section arrays from the retained Markdown archives to keep the page introduction separate from section text and remove duplicated heading markup. Checked core normalized values and added battery, connectivity and charging fields with source-section references. Where the Apple page lists multiple model numbers in a shared wireless section, they are recorded as listed without inferring size-specific assignments. Embedded outbound links remain to be audited individually.
+
+
+### Addendum — 6 November 2026: iPhone 15 family and iPhone 16 Plus
+
+Reviewed the full official Ireland specifications pages and footnotes for iPhone 15, iPhone 15 Pro, iPhone 15 Pro Max and iPhone 16 Plus. Rebuilt their JSON section arrays from the archived Markdown, checked existing core normalized fields, and added battery, wireless and charging fields with source-section references. Model numbers listed together in a shared wireless section are retained as listed without inferring variant mapping. Embedded outbound links remain to be audited individually.
