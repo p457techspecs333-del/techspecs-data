@@ -28,156 +28,160 @@
     "publisher": "Apple Support (Ireland)",
     "published_at": null,
     "checked_at": "2026-11-06",
-    "verification_status": "url_checked",
-    "verification_notes": "Official Apple Support Ireland technical-specifications URL supplied by the project owner and matched to this model. URL-level source identification only; normalized specifications have not all been compared field by field."
+    "verification_status": "content_verified",
+    "verification_notes": "Full specification-section and footnote review completed against the official Apple Support Ireland page on 2026-11-06. JSON sections were rebuilt from the retained Markdown archive into 37 sections, with the page title/year in Overview and each section's text separated cleanly. Core normalized fields were checked; battery, connectivity and charging fields were added with source-section references. Embedded outbound link destinations have not all been individually opened."
   },
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
-    "note": "Original source sections retained. Only a limited set of normalized fields was checked against Apple's official specifications; this is not full-record verification.",
+    "note": "Source section structure rebuilt from retained Markdown to avoid duplicated heading markup. Core normalized fields and footnotes checked against the official Apple Support Ireland page; added battery, connectivity and charging fields with source-section references. Embedded outbound links remain a separate audit task.",
     "extracted_at": "2026-11-05",
-    "reviewed_at": "2026-11-05"
+    "reviewed_at": "2026-11-06"
   },
   "sections": [
     {
+      "heading": "Overview",
+      "source_text": "# iPhone 15 Pro Max - Tech Specs\n\nYear introduced : 2023\n\n[Identify your iPhone model](https://support.apple.com/en-gb/108044)"
+    },
+    {
       "heading": "Finish",
-      "source_text": "- Black Titanium\n- White Titanium\n- Blue Titanium\n- Natural Titanium\n\nTitanium design, Ceramic Shield front, Textured matt glass back\n"
+      "source_text": "- Black Titanium\n- White Titanium\n- Blue Titanium\n- Natural Titanium\n\nTitanium design, Ceramic Shield front, Textured matt glass back"
     },
     {
       "heading": "Capacity1",
-      "source_text": "- 256GB\n- 512GB\n- 1TB\n"
+      "source_text": "- 256GB\n- 512GB\n- 1TB"
     },
     {
       "heading": "Size and Weight2",
-      "source_text": "- **Width:** 76.7 mm (3.02 inches)\n- **Height:** 159.9 mm (6.29 inches)\n- **Depth:** 8.25 mm (0.32 inches)\n- **Weight:** 221 grams (7.81 ounces)\n"
+      "source_text": "- **Width:** 76.7 mm (3.02 inches)\n- **Height:** 159.9 mm (6.29 inches)\n- **Depth:** 8.25 mm (0.32 inches)\n- **Weight:** 221 grams (7.81 ounces)"
     },
     {
       "heading": "Display",
-      "source_text": "- Super Retina XDR display\n- 6.7‑inch (diagonal) all‑screen OLED display\n- 2796x1290-pixel resolution at 460 ppi\n- Dynamic Island\n- Always-On display\n- ProMotion technology with adaptive refresh rates up to 120Hz\n- HDR display\n- True Tone\n- Wide colour (P3)\n- Haptic Touch\n- 2,000,000:1 contrast ratio (typical)\n- 1,000 nits max brightness (typical); 1,600 nits peak brightness (HDR); 2,000 nits peak brightness (outdoor)\n- Fingerprint-resistant oleophobic coating\n- Support for display of multiple languages and characters simultaneously\n\nThe iPhone 15 Pro Max display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.69 inches diagonally (actual viewable area is less).\n"
+      "source_text": "- Super Retina XDR display\n- 6.7‑inch (diagonal) all‑screen OLED display\n- 2796x1290-pixel resolution at 460 ppi\n- Dynamic Island\n- Always-On display\n- ProMotion technology with adaptive refresh rates up to 120Hz\n- HDR display\n- True Tone\n- Wide colour (P3)\n- Haptic Touch\n- 2,000,000:1 contrast ratio (typical)\n- 1,000 nits max brightness (typical); 1,600 nits peak brightness (HDR); 2,000 nits peak brightness (outdoor)\n- Fingerprint-resistant oleophobic coating\n- Support for display of multiple languages and characters simultaneously\n\nThe iPhone 15 Pro Max display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.69 inches diagonally (actual viewable area is less)."
     },
     {
       "heading": "Splash, Water and Dust Resistant3",
-      "source_text": "Rated IP68 (maximum depth of 6 metres up to 30 minutes) under IEC standard 60529\n"
+      "source_text": "Rated IP68 (maximum depth of 6 metres up to 30 minutes) under IEC standard 60529"
     },
     {
       "heading": "Apple Intelligence",
-      "source_text": "Built into your iPhone, Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.30\n\n[Learn more about Apple In­telli­gence](https://www.apple.com/uk/apple-intelligence/)\n"
+      "source_text": "Built into your iPhone, Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.30\n\n[Learn more about Apple In­telli­gence](https://www.apple.com/uk/apple-intelligence/)"
     },
     {
       "heading": "Chip",
-      "source_text": "- A17 Pro chip\n- New 6‑core CPU with 2 performance and 4 efficiency cores\n- New 6‑core GPU\n- New 16‑core Neural Engine\n"
+      "source_text": "- A17 Pro chip\n- New 6‑core CPU with 2 performance and 4 efficiency cores\n- New 6‑core GPU\n- New 16‑core Neural Engine"
     },
     {
       "heading": "Camera",
-      "source_text": "**Pro camera system**\n\n- 48MP Main: 24mm, ƒ/1.78 aperture, second‑generation sensor‑shift optical image stabilisation, 100% Focus Pixels, support for super‑high‑resolution photos (24MP and 48MP)\n- 12MP Ultra Wide: 13mm, ƒ/2.2 aperture and 120° field of view, 100% Focus Pixels\n- 12MP 2x Telephoto (enabled by quad‑pixel sensor): 48mm, ƒ/1.78 aperture, second‑generation sensor‑shift optical image stabilisation, 100% Focus Pixels\n- 12MP 5x Telephoto: 120mm, ƒ/2.8 aperture, 3D sensor‑shift optical image stabilisation and autofocus, tetraprism design\n- 5x optical zoom in, 2x optical zoom out; 10x optical zoom range\n- Digital zoom up to 25x\n- Customisable default lens (Main)\n- Sapphire crystal lens cover\n- Adaptive True Tone flash\n- Photonic Engine\n- Deep Fusion\n- Smart HDR 5\n- Next-generation portraits with Focus and Depth Control\n- Portrait Lighting with six effects\n- Night mode\n- Night mode portraits enabled by LiDAR scanner\n- Panorama (up to 63MP)\n- Photographic Styles\n- Macro photography\n- Apple ProRAW\n- Wide colour capture for photos and Live Photos\n- Lens correction (Ultra Wide)\n- Advanced red-eye correction\n- Auto image stabilisation\n- Burst mode\n- Photo geotagging\n- Image formats captured: HEIF, JPEG and DNG\n"
+      "source_text": "**Pro camera system**\n\n- 48MP Main: 24mm, ƒ/1.78 aperture, second‑generation sensor‑shift optical image stabilisation, 100% Focus Pixels, support for super‑high‑resolution photos (24MP and 48MP)\n- 12MP Ultra Wide: 13mm, ƒ/2.2 aperture and 120° field of view, 100% Focus Pixels\n- 12MP 2x Telephoto (enabled by quad‑pixel sensor): 48mm, ƒ/1.78 aperture, second‑generation sensor‑shift optical image stabilisation, 100% Focus Pixels\n- 12MP 5x Telephoto: 120mm, ƒ/2.8 aperture, 3D sensor‑shift optical image stabilisation and autofocus, tetraprism design\n- 5x optical zoom in, 2x optical zoom out; 10x optical zoom range\n- Digital zoom up to 25x\n- Customisable default lens (Main)\n- Sapphire crystal lens cover\n- Adaptive True Tone flash\n- Photonic Engine\n- Deep Fusion\n- Smart HDR 5\n- Next-generation portraits with Focus and Depth Control\n- Portrait Lighting with six effects\n- Night mode\n- Night mode portraits enabled by LiDAR scanner\n- Panorama (up to 63MP)\n- Photographic Styles\n- Macro photography\n- Apple ProRAW\n- Wide colour capture for photos and Live Photos\n- Lens correction (Ultra Wide)\n- Advanced red-eye correction\n- Auto image stabilisation\n- Burst mode\n- Photo geotagging\n- Image formats captured: HEIF, JPEG and DNG"
     },
     {
       "heading": "Video Recording",
-      "source_text": "- 4K video recording at 24 fps, 25 fps, 30 fps or 60 fps\n- 1080p HD video recording at 25 fps, 30 fps or 60 fps\n- 720p HD video recording at 30 fps\n- Cinematic mode up to 4K HDR at 30 fps\n- Action mode up to 2.8K at 60 fps\n- HDR video recording with Dolby Vision up to 4K at 60 fps\n- ProRes video recording up to 4K at 60 fps with external recording\n- Log video recording\n- Academy Color Encoding System\n- Macro video recording, including slo‑mo and time‑lapse\n- Slo‑mo video support for 1080p at 120 fps or 240 fps\n- Time-lapse video with stabilisation\n- Night mode Time‑lapse\n- QuickTake video\n- Second‑generation sensor‑shift optical image stabilisation for video (Main)\n- Optical image stabilisation for video (3x Telephoto)\n- 3D sensor‑shift optical image stabilisation and autofocus for video (5x Telephoto)\n- Digital zoom up to 9x (iPhone 15 Pro) and 15x (iPhone 15 Pro Max)\n- Audio zoom\n- True Tone flash\n- Cinematic video stabilisation (4K, 1080p and 720p)\n- Continuous autofocus video\n- Take 8MP still photos while recording 4K video\n- Playback zoom\n- Video formats recorded: HEVC, H.264, AV1 and ProRes\n- Stereo recording\n"
+      "source_text": "- 4K video recording at 24 fps, 25 fps, 30 fps or 60 fps\n- 1080p HD video recording at 25 fps, 30 fps or 60 fps\n- 720p HD video recording at 30 fps\n- Cinematic mode up to 4K HDR at 30 fps\n- Action mode up to 2.8K at 60 fps\n- HDR video recording with Dolby Vision up to 4K at 60 fps\n- ProRes video recording up to 4K at 60 fps with external recording\n- Log video recording\n- Academy Color Encoding System\n- Macro video recording, including slo‑mo and time‑lapse\n- Slo‑mo video support for 1080p at 120 fps or 240 fps\n- Time-lapse video with stabilisation\n- Night mode Time‑lapse\n- QuickTake video\n- Second‑generation sensor‑shift optical image stabilisation for video (Main)\n- Optical image stabilisation for video (3x Telephoto)\n- 3D sensor‑shift optical image stabilisation and autofocus for video (5x Telephoto)\n- Digital zoom up to 9x (iPhone 15 Pro) and 15x (iPhone 15 Pro Max)\n- Audio zoom\n- True Tone flash\n- Cinematic video stabilisation (4K, 1080p and 720p)\n- Continuous autofocus video\n- Take 8MP still photos while recording 4K video\n- Playback zoom\n- Video formats recorded: HEVC, H.264, AV1 and ProRes\n- Stereo recording"
     },
     {
       "heading": "TrueDepth Camera",
-      "source_text": "- 12MP camera\n- ƒ/1.9 aperture\n- Autofocus with Focus Pixels\n- Retina Flash\n- Photonic Engine\n- Deep Fusion\n- Smart HDR 5\n- Next-generation portraits with Focus and Depth Control\n- Portrait Lighting with six effects\n- Animoji and Memoji\n- Night mode\n- Photographic Styles\n- Apple ProRAW\n- Wide colour capture for photos and Live Photos\n- Lens correction\n- Auto image stabilisation\n- Burst mode\n- 4K video recording at 24 fps, 25 fps, 30 fps or 60 fps\n- 1080p HD video recording at 25 fps, 30 fps or 60 fps\n- Cinematic mode up to 4K HDR at 30 fps\n- HDR video recording with Dolby Vision up to 4K at 60 fps\n- ProRes video recording up to 4K at 60 fps with external recording\n- Log video recording\n- Academy Color Encoding System\n- Slo-mo video support for 1080p at 120 fps\n- Time-lapse video with stabilisation\n- Night mode Time-lapse\n- QuickTake video\n- Cinematic video stabilisation (4K, 1080p and 720p)\n"
+      "source_text": "- 12MP camera\n- ƒ/1.9 aperture\n- Autofocus with Focus Pixels\n- Retina Flash\n- Photonic Engine\n- Deep Fusion\n- Smart HDR 5\n- Next-generation portraits with Focus and Depth Control\n- Portrait Lighting with six effects\n- Animoji and Memoji\n- Night mode\n- Photographic Styles\n- Apple ProRAW\n- Wide colour capture for photos and Live Photos\n- Lens correction\n- Auto image stabilisation\n- Burst mode\n- 4K video recording at 24 fps, 25 fps, 30 fps or 60 fps\n- 1080p HD video recording at 25 fps, 30 fps or 60 fps\n- Cinematic mode up to 4K HDR at 30 fps\n- HDR video recording with Dolby Vision up to 4K at 60 fps\n- ProRes video recording up to 4K at 60 fps with external recording\n- Log video recording\n- Academy Color Encoding System\n- Slo-mo video support for 1080p at 120 fps\n- Time-lapse video with stabilisation\n- Night mode Time-lapse\n- QuickTake video\n- Cinematic video stabilisation (4K, 1080p and 720p)"
     },
     {
       "heading": "Face ID",
-      "source_text": "Enabled by TrueDepth camera for facial recognition\n"
+      "source_text": "Enabled by TrueDepth camera for facial recognition"
     },
     {
       "heading": "Apple Pay",
-      "source_text": "- Pay with your iPhone using Face ID in shops, within apps and on the web\n- Complete purchases made with Apple Pay on your Mac\n- Pay for your journey using Express Travel4\n\n[Learn more about Apple Pay](https://apple.com/uk/apple-pay/)\n"
+      "source_text": "- Pay with your iPhone using Face ID in shops, within apps and on the web\n- Complete purchases made with Apple Pay on your Mac\n- Pay for your journey using Express Travel4\n\n[Learn more about Apple Pay](https://apple.com/uk/apple-pay/)"
     },
     {
       "heading": "Safety",
-      "source_text": "- Emergency SOS via satellite5\n- Crash Detection6\n"
+      "source_text": "- Emergency SOS via satellite5\n- Crash Detection6"
     },
     {
       "heading": "Mobile and Wireless",
-      "source_text": "**Model A3102\\* Model A3106\\***\n\n- 5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n20, n25, n26, n28, n30, n38, n40, n41, n48, n53, n66, n70, n75, n76, n77, n78, n79)\n- FDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 66)\n- TD-LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48, 53)\n- UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\n- GSM/EDGE (850, 900, 1800, 1900 MHz)\n\n**All models**\n\n- 5G (sub‑6 GHz) with 4x4 MIMO7\n- Gigabit LTE with 4x4 MIMO and LAA7\n- Wi‑Fi 6E (802.11ax) with 2x2 MIMO8\n- Bluetooth 5.3\n- Second-generation Ultra Wideband chip9\n- Thread networking technology\n- NFC with reader mode\n- Express Cards with Power Reserve\n\nFor details on 5G and LTE support, contact your provider and see [apple.com/uk/iphone/cellular](https://apple.com/uk/iphone/cellular/).\n"
+      "source_text": "**Model A3102\\* Model A3106\\***\n\n- 5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n20, n25, n26, n28, n30, n38, n40, n41, n48, n53, n66, n70, n75, n76, n77, n78, n79)\n- FDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 66)\n- TD-LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48, 53)\n- UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\n- GSM/EDGE (850, 900, 1800, 1900 MHz)\n\n**All models**\n\n- 5G (sub‑6 GHz) with 4x4 MIMO7\n- Gigabit LTE with 4x4 MIMO and LAA7\n- Wi‑Fi 6E (802.11ax) with 2x2 MIMO8\n- Bluetooth 5.3\n- Second-generation Ultra Wideband chip9\n- Thread networking technology\n- NFC with reader mode\n- Express Cards with Power Reserve\n\nFor details on 5G and LTE support, contact your provider and see [apple.com/uk/iphone/cellular](https://apple.com/uk/iphone/cellular/)."
     },
     {
       "heading": "Location",
-      "source_text": "- Precision dual-frequency GPS (GPS, GLONASS, Galileo, QZSS, BeiDou and NavIC)\n- Digital compass\n- Wi‑Fi\n- Mobile Data\n- iBeacon micro-location\n"
+      "source_text": "- Precision dual-frequency GPS (GPS, GLONASS, Galileo, QZSS, BeiDou and NavIC)\n- Digital compass\n- Wi‑Fi\n- Mobile Data\n- iBeacon micro-location"
     },
     {
       "heading": "Video Calling10",
-      "source_text": "- FaceTime video calling over Wi‑Fi or a mobile network\n- FaceTime HD (1080p) video calling over 5G or Wi‑Fi\n- Share experiences like movies, TV, music and other apps in a FaceTime call with SharePlay\n- Screen sharing\n- Portrait mode in FaceTime video\n- Spatial Audio\n- Voice Isolation and Wide Spectrum microphone modes\n- Optical zoom with rear‑facing camera\n"
+      "source_text": "- FaceTime video calling over Wi‑Fi or a mobile network\n- FaceTime HD (1080p) video calling over 5G or Wi‑Fi\n- Share experiences like movies, TV, music and other apps in a FaceTime call with SharePlay\n- Screen sharing\n- Portrait mode in FaceTime video\n- Spatial Audio\n- Voice Isolation and Wide Spectrum microphone modes\n- Optical zoom with rear‑facing camera"
     },
     {
       "heading": "Audio Calling10",
-      "source_text": "- FaceTime audio\n- Voice over LTE (VoLTE)7\n- Wi‑Fi calling7\n- Share experiences like movies, TV, music and other apps in a FaceTime call with SharePlay\n- Screen sharing\n- Spatial Audio\n- Voice Isolation and Wide Spectrum microphone modes\n"
+      "source_text": "- FaceTime audio\n- Voice over LTE (VoLTE)7\n- Wi‑Fi calling7\n- Share experiences like movies, TV, music and other apps in a FaceTime call with SharePlay\n- Screen sharing\n- Spatial Audio\n- Voice Isolation and Wide Spectrum microphone modes"
     },
     {
       "heading": "Audio Playback",
-      "source_text": "- Supported formats include AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus and Dolby Atmos\n- Spatial Audio playback\n- User‑configurable maximum volume limit\n"
+      "source_text": "- Supported formats include AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus and Dolby Atmos\n- Spatial Audio playback\n- User‑configurable maximum volume limit"
     },
     {
       "heading": "Video Playback",
-      "source_text": "- Supported formats include HEVC, H.264 and ProRes\n- HDR with Dolby Vision, HDR10 and HLG\n- Up to 4K HDR AirPlay for mirroring, photos and video out to Apple TV (2nd generation or later) or AirPlay–enabled smart TV\n- Video mirroring and video out support: up to 4K HDR through native DisplayPort output over USB‑C or USB‑C Digital AV Adapter (model A2119; adapter sold separately)11\n"
+      "source_text": "- Supported formats include HEVC, H.264 and ProRes\n- HDR with Dolby Vision, HDR10 and HLG\n- Up to 4K HDR AirPlay for mirroring, photos and video out to Apple TV (2nd generation or later) or AirPlay–enabled smart TV\n- Video mirroring and video out support: up to 4K HDR through native DisplayPort output over USB‑C or USB‑C Digital AV Adapter (model A2119; adapter sold separately)11"
     },
     {
       "heading": "Siri12",
-      "source_text": "- Use your voice to send messages, set reminders and more\n- Activate hands‑free with only your voice using “Siri” or “Hey Siri”\n- Use your voice to run shortcuts from your favourite apps\n\n[Learn more about Siri](https://apple.com/uk/siri/)\n"
+      "source_text": "- Use your voice to send messages, set reminders and more\n- Activate hands‑free with only your voice using “Siri” or “Hey Siri”\n- Use your voice to run shortcuts from your favourite apps\n\n[Learn more about Siri](https://apple.com/uk/siri/)"
     },
     {
       "heading": "External Buttons and Connectors",
-      "source_text": "[111828-iphone-15-pro-max-portimage-1](https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/111828-iphone-15-pro-max-portimage-1.png)[111828-iphone-15-pro-max-portimage-2](https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/111828-iphone-15-pro-max-portimage-2.png)\n\n1. Front camera\n2. Side button\n3. USB-C connector\n4. SIM tray (available on models purchased outside the U.S.)\n5. Volume buttons\n6. Action button\n7. Rear cameras\n8. Flash\n9. LiDAR Scanner\n\n**Action button features**\n\n- Silent mode, Focus, Camera, Flashlight, Voice Memo, Translate, Magnifier, Shortcut or Accessibility\n"
+      "source_text": "[111828-iphone-15-pro-max-portimage-1](https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/111828-iphone-15-pro-max-portimage-1.png)[111828-iphone-15-pro-max-portimage-2](https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/111828-iphone-15-pro-max-portimage-2.png)\n\n1. Front camera\n2. Side button\n3. USB-C connector\n4. SIM tray (available on models purchased outside the U.S.)\n5. Volume buttons\n6. Action button\n7. Rear cameras\n8. Flash\n9. LiDAR Scanner\n\n**Action button features**\n\n- Silent mode, Focus, Camera, Flashlight, Voice Memo, Translate, Magnifier, Shortcut or Accessibility"
     },
     {
       "heading": "Charging and Expansion",
-      "source_text": "- **USB‑C connector with support for:**\n- Charging\n- DisplayPort\n- USB 3 (up to 10Gb/s)13\n"
+      "source_text": "- **USB‑C connector with support for:**\n- Charging\n- DisplayPort\n- USB 3 (up to 10Gb/s)13"
     },
     {
       "heading": "Power and Battery14",
-      "source_text": "- **Video playback:** Up to 29 hours\n- **Video playback (streamed):** Up to 25 hours\n- **Audio playback:** Up to 95 hours\n- Built‑in rechargeable lithium‑ion battery\n- MagSafe wireless charging up to 15W15\n- Qi2 wireless charging up to 15W15\n- Qi wireless charging up to 7.5W15\n- Fast-charge capable: Up to 50% charge in around 30 minutes16 with [20W adapter](https://www.apple.com/uk/shop/product/MHJF3B/A/20w-usb-c-power-adapter) or higher (available separately)\n"
+      "source_text": "- **Video playback:** Up to 29 hours\n- **Video playback (streamed):** Up to 25 hours\n- **Audio playback:** Up to 95 hours\n- Built‑in rechargeable lithium‑ion battery\n- MagSafe wireless charging up to 15W15\n- Qi2 wireless charging up to 15W15\n- Qi wireless charging up to 7.5W15\n- Fast-charge capable: Up to 50% charge in around 30 minutes16 with [20W adapter](https://www.apple.com/uk/shop/product/MHJF3B/A/20w-usb-c-power-adapter) or higher (available separately)"
     },
     {
       "heading": "MagSafe",
-      "source_text": "- Wireless charging up to 15W14\n- Magnet array\n- Alignment magnet\n- Accessory Identification NFC\n- Magnetometer\n"
+      "source_text": "- Wireless charging up to 15W14\n- Magnet array\n- Alignment magnet\n- Accessory Identification NFC\n- Magnetometer"
     },
     {
       "heading": "Sensors",
-      "source_text": "- Face ID\n- LiDAR scanner\n- Barometer\n- High dynamic range gyro\n- High-g accelerometer\n- Proximity sensor\n- Dual ambient light sensors\n"
+      "source_text": "- Face ID\n- LiDAR scanner\n- Barometer\n- High dynamic range gyro\n- High-g accelerometer\n- Proximity sensor\n- Dual ambient light sensors"
     },
     {
       "heading": "Operating System",
-      "source_text": "**iOS**\n\niOS is the world’s most personal and secure mobile operating system, packed with powerful features and designed to protect your privacy.\n\n[See what’s new in iOS](https://apple.com/uk/ios/ios-17/)\n\n[iPhone User Guide](https://support.apple.com/en-gb/guide/iphone/welcome/ios)\n"
+      "source_text": "**iOS**\n\niOS is the world’s most personal and secure mobile operating system, packed with powerful features and designed to protect your privacy.\n\n[See what’s new in iOS](https://apple.com/uk/ios/ios-17/)\n\n[iPhone User Guide](https://support.apple.com/en-gb/guide/iphone/welcome/ios)"
     },
     {
       "heading": "Accessibility",
-      "source_text": "Built-in accessibility features supporting vision, mobility, hearing and cognitive disabilities help you get the most out of your iPhone.\n\n[Learn more about Accessibility](https://apple.com/uk/accessibility/)\n\n**Features include:**\n\n- VoiceOver\n- Zoom\n- Magnifier\n- Voice Control\n- Switch Control\n- AssistiveTouch\n- RTT and Textphone support\n- Closed Captions\n- Live Captions\n- Personal Voice\n- Live Speech\n- Type to Siri\n- Spoken Content\n"
+      "source_text": "Built-in accessibility features supporting vision, mobility, hearing and cognitive disabilities help you get the most out of your iPhone.\n\n[Learn more about Accessibility](https://apple.com/uk/accessibility/)\n\n**Features include:**\n\n- VoiceOver\n- Zoom\n- Magnifier\n- Voice Control\n- Switch Control\n- AssistiveTouch\n- RTT and Textphone support\n- Closed Captions\n- Live Captions\n- Personal Voice\n- Live Speech\n- Type to Siri\n- Spoken Content"
     },
     {
       "heading": "Built-in Apps",
-      "source_text": "- Apple Store\n- App Store\n- Books\n- Calculator\n- Calendar\n- Camera\n- Clips\n- Clock\n- Compass\n- Contacts\n- FaceTime\n- Files\n- Find My\n- Fitness\n- Freeform\n- GarageBand\n- Health\n- Home\n- iMovie\n- iTunes Store\n- Keynote\n- Magnifier\n- Mail\n- Maps\n- Measure\n- Messages\n- Music\n- News\n- Notes\n- Numbers\n- Pages\n- Phone\n- Photos\n- Podcasts\n- Reminders\n- Safari\n- Settings\n- Shortcuts\n- Siri\n- Stocks\n- Tips\n- Translate\n- TV\n- Voice Memos\n- Wallet\n- Watch\n- Weather\n\nFor a complete list of Apple apps available on iPhone, see [apple.com/uk/apps](https://www.apple.com/uk/apps/).\n"
+      "source_text": "- Apple Store\n- App Store\n- Books\n- Calculator\n- Calendar\n- Camera\n- Clips\n- Clock\n- Compass\n- Contacts\n- FaceTime\n- Files\n- Find My\n- Fitness\n- Freeform\n- GarageBand\n- Health\n- Home\n- iMovie\n- iTunes Store\n- Keynote\n- Magnifier\n- Mail\n- Maps\n- Measure\n- Messages\n- Music\n- News\n- Notes\n- Numbers\n- Pages\n- Phone\n- Photos\n- Podcasts\n- Reminders\n- Safari\n- Settings\n- Shortcuts\n- Siri\n- Stocks\n- Tips\n- Translate\n- TV\n- Voice Memos\n- Wallet\n- Watch\n- Weather\n\nFor a complete list of Apple apps available on iPhone, see [apple.com/uk/apps](https://www.apple.com/uk/apps/)."
     },
     {
       "heading": "SIM Card",
-      "source_text": "- Dual SIM (nano-SIM and eSIM)17\n- Dual eSIM support17\n\n[Learn more about eSIM](https://support.apple.com/en-gb/HT212780)\n\n[Learn more about travelling with eSIM](https://support.apple.com/en-gb/HT213448)\n"
+      "source_text": "- Dual SIM (nano-SIM and eSIM)17\n- Dual eSIM support17\n\n[Learn more about eSIM](https://support.apple.com/en-gb/HT212780)\n\n[Learn more about travelling with eSIM](https://support.apple.com/en-gb/HT213448)"
     },
     {
       "heading": "Rating for Hearing Aids",
-      "source_text": "M3, T4\n"
+      "source_text": "M3, T4"
     },
     {
       "heading": "Mail Attachment Support",
-      "source_text": "**Viewable document types**\n\n- .jpg, .tiff, .gif (images); .doc and .docx (Microsoft Word); .htm and .html (web pages); .key (Keynote); .numbers (Numbers); .pages (Pages); .pdf (Preview and Adobe Acrobat); .ppt and .pptx (Microsoft PowerPoint); .txt (text); .rtf (rich text format); .vcf (contact information); .xls and .xlsx (Microsoft Excel); .zip; .ics; .usdz (USDZ Universal)\n"
+      "source_text": "**Viewable document types**\n\n- .jpg, .tiff, .gif (images); .doc and .docx (Microsoft Word); .htm and .html (web pages); .key (Keynote); .numbers (Numbers); .pages (Pages); .pdf (Preview and Adobe Acrobat); .ppt and .pptx (Microsoft PowerPoint); .txt (text); .rtf (rich text format); .vcf (contact information); .xls and .xlsx (Microsoft Excel); .zip; .ics; .usdz (USDZ Universal)"
     },
     {
       "heading": "System Requirements",
-      "source_text": "- Apple ID (required for some features)\n- Internet access18\n- **Syncing to a Mac or PC requires:**\n- macOS Catalina 10.15 or later using the Finder\n- macOS High Sierra 10.13 to macOS Mojave 10.14.6 using iTunes 12.9 or later\n- Windows 10 or later using iTunes 12.12.10 or later (free download from [apple.com/uk/itunes/download](https://www.apple.com/uk/itunes/download/))\n"
+      "source_text": "- Apple ID (required for some features)\n- Internet access18\n- **Syncing to a Mac or PC requires:**\n- macOS Catalina 10.15 or later using the Finder\n- macOS High Sierra 10.13 to macOS Mojave 10.14.6 using iTunes 12.9 or later\n- Windows 10 or later using iTunes 12.12.10 or later (free download from [apple.com/uk/itunes/download](https://www.apple.com/uk/itunes/download/))"
     },
     {
       "heading": "Environmental Requirements",
-      "source_text": "- **Ambient operating temperature:** 0° to 35° C (32° to 95° F)\n- **Non-operating temperature:** −20° to 45° C (−4° to 113° F)\n- **Relative humidity:** 5% to 95% non-condensing\n- **Operating altitude:** tested up to 3,000 metres (10,000 feet)\n"
+      "source_text": "- **Ambient operating temperature:** 0° to 35° C (32° to 95° F)\n- **Non-operating temperature:** −20° to 45° C (−4° to 113° F)\n- **Relative humidity:** 5% to 95% non-condensing\n- **Operating altitude:** tested up to 3,000 metres (10,000 feet)"
     },
     {
       "heading": "Languages",
-      "source_text": "**Language support**\n\nEnglish (Australia, UK, US), Chinese (Simplified, Traditional, Traditional – Hong Kong), French (Canada, France), German, Italian, Japanese, Korean, Spanish (Latin America, Spain), Arabic, Bulgarian, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hindi, Hungarian, Indonesian, Kazakh, Malay, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\n\n**QuickType keyboard support**\n\nEnglish (Australia, Canada, India, Japan, New Zealand, Singapore, South Africa, UK, US), Chinese – Simplified (Handwriting, Pinyin QWERTY, Pinyin 10-Key, Shuangpin, Stroke), Chinese – Traditional (Cangjie, Handwriting, Pinyin QWERTY, Pinyin 10-Key, Shuangpin, Stroke, Sucheng, Zhuyin), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese (Kana, Romaji), Korean (2-Set, 10-Key), Spanish (Latin America, Mexico, Spain), Ainu, Albanian, Amharic, Apache (Western), Arabic, Arabic (Najdi), Armenian, Assamese, Assyrian, Azerbaijani, Bangla, Belarusian, Bodo, Bulgarian, Burmese, Cantonese – Traditional (Cangjie, Handwriting, Phonetic, Stroke, Sucheng), Catalan, Cherokee, Croatian, Czech, Danish, Dhivehi, Dogri, Dutch, Dzongkha, Emoji, Estonian, Faroese, Filipino, Finnish, Flemish, Fula (Adlam), Georgian, Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari, Latin, Transliteration), Hungarian, Icelandic, Igbo, Indonesian, Irish Gaelic, Kannada, Kashmiri (Arabic, Devanagari), Kazakh, Khmer, Konkani (Devanagari), Kurdish (Arabic, Latin), Kyrgyz, Lao, Latvian, Lithuanian, Macedonian, Maithili, Malay (Arabic, Latin), Malayalam, Maltese, Manipuri (Bengali, Meetei Mayek), Māori, Marathi, Mongolian, Navajo, Nepali, Norwegian (Bokmål, Nynorsk), Odia, Pashto, Persian, Persian (Afghanistan), Polish, Portuguese (Brazil, Portugal), Punjabi, Rohingya, Romanian, Russian, Samoan, Sanskrit, Santali (Devanagari, Ol Chiki), Serbian (Cyrillic, Latin), Sindhi (Arabic, Devanagari), Sinhala, Slovak, Slovenian, Swahili, Swedish, Tajik, Tamil (Anjal, Tamil 99), Telugu, Thai, Tibetan, Tongan, Turkish, Turkmen, Ukrainian, Urdu, Uyghur, Uzbek (Arabic, Cyrillic, Latin), Vietnamese (Telex, VIQR, VNI), Welsh, Yiddish, Akan, Bangla (Transliteration), Chickasaw, Choctaw, Chuvash, Gujarati (Transliteration), Hausa, Hmong (Pahawh), Ingush, Japanese (Handwriting), Kabyle, Kannada (Transliteration), Liangshan Yi, Malayalam (Transliteration), Mandaic, Marathi (Transliteration), Mi’kmaw, N’Ko, Osage, Punjabi (Transliteration), Rejang, Tamazight (Standard Moroccan), Tamil (Transliteration), Telugu (Transliteration), Urdu (Transliteration), Wancho, Wolastoqey, Yoruba\n\n**QuickType keyboard support with auto-correction**\n\nArabic, Arabic (Najdi), Bangla, Bulgarian, Catalan, Cherokee, Chinese – Simplified (Pinyin QWERTY), Chinese – Traditional (Pinyin QWERTY), Chinese – Traditional (Zhuyin), Croatian, Czech, Danish, Dutch, English (Australia, Canada, India, Japan, New Zealand, Singapore, South Africa, UK, US), Estonian, Filipino, Finnish, Dutch (Belgium), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari, Latin, Transliteration), Hungarian, Icelandic, Indonesian, Irish Gaelic, Italian, Japanese (Kana, Romaji), Korean (2-Set, 10-Key), Latvian, Lithuanian, Macedonian, Malay, Marathi, Norwegian (Bokmål, Nynorsk), Persian, Persian (Afghanistan), Polish, Portuguese (Brazil, Portugal), Punjabi, Romanian, Russian, Serbian (Cyrillic, Latin), Slovak, Slovenian, Spanish (Latin America, Mexico, Spain), Swedish, Tamil (Anjal, Tamil 99), Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese (Telex)\n\n**QuickType keyboard support with predictive typing**\n\nEnglish (Australia, Canada, India, Japan, Singapore, South Africa, UK, US), Chinese (Simplified, Traditional), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese, Korean, Spanish (Latin America, Mexico, Spain), Arabic, Arabic (Najdi), Cantonese (Traditional), Dutch, Hindi (Devanagari, Latin), Portuguese (Brazil, Portugal), Russian, Swedish, Thai, Turkish, Vietnamese, Hebrew, Polish, Romanian\n\n**QuickType keyboard support with multilingual typing**\n\nEnglish (Australia, Canada, India, Japan, New Zealand, Singapore, South Africa, UK, US), Chinese – Simplified (Pinyin), Chinese – Traditional (Pinyin), French (Belgium, Canada, France, Switzerland), German (Germany, Austria, Switzerland), Italian, Japanese (Romaji), Portuguese (Brazil, Portugal), Spanish (Latin America, Mexico, Spain), Dutch (Belgium, Netherlands), Hindi (Latin), Vietnamese, Polish, Romanian, Turkish\n\n**QuickType keyboard support with contextual suggestions**\n\nEnglish (Australia, Canada, India, Japan, New Zealand, Singapore, South Africa, UK, US), Chinese (Simplified), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Spanish (Latin America, Mexico, Spain), Arabic, Arabic (Najdi), Dutch (Belgium, Netherlands), Hindi (Devanagari, Latin), Russian, Swedish, Portuguese (Brazil), Turkish, Vietnamese\n\n**QuickType keyboard support with QuickPath**\n\nEnglish (Australia, Canada, India, Japan, New Zealand, Singapore, South Africa, UK, US), Chinese (Simplified Pinyin QWERTY), Chinese (Traditional Pinyin QWERTY), French (Canada, France, Switzerland), German (Germany, Austria, Switzerland), Italian, Spanish (Latin America, Mexico, Spain), Portuguese (Brazil, Portugal), Dutch (Belgium, Netherlands), Swedish, Vietnamese, Arabic, Hebrew, Korean, Polish, Romanian\n\n**Siri languages**\n\nEnglish (Australia, Canada, India, Ireland, New Zealand, Singapore, South Africa, UK, US), Spanish (Chile, Mexico, Spain, US), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese (Japan), Korean (Republic of Korea), Mandarin Chinese (China mainland, Taiwan), Cantonese (China mainland, Hong Kong), Arabic (Saudi Arabia, United Arab Emirates), Danish (Denmark), Dutch (Belgium, Netherlands), Finnish (Finland), Hebrew (Israel), Malay (Malaysia), Norwegian (Norway), Portuguese (Brazil), Russian (Russia), Swedish (Sweden), Thai (Thailand), Turkish (Türkiye)\n\n**Dictation languages**\n\nEnglish (Australia, Canada, India, Ireland, Malaysia, New Zealand, Philippines, Saudi Arabia, Singapore, South Africa, United Arab Emirates, UK, US), Cantonese (China mainland, Hong Kong), Mandarin Chinese (China mainland, Taiwan), French (Belgium, Canada, France, Luxembourg, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Spanish (Chile, Colombia, Mexico, Spain, US), Portuguese (Brazil, Portugal), Arabic (Kuwait, Qatar, Saudi Arabia, United Arab Emirates), Catalan, Croatian, Czech, Danish, Dutch (Belgium, Netherlands), Finnish, Greek, Hebrew, Hindi, Hungarian, Indonesian, Malay, Norwegian (Bokmål), Polish, Romanian, Russian, Shanghainese (China mainland), Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\n\n**Monolingual dictionary support**\n\nEnglish (UK, US), Chinese (Simplified, Traditional, Traditional – Hong Kong), Danish, Dutch, French, German, Hebrew, Hindi, Italian, Japanese, Korean, Norwegian, Portuguese, Russian, Spanish, Swedish, Thai, Turkish, Bulgarian, Catalan, Greek, Malay, Polish, Punjabi, Romanian\n\n**Idiom dictionary support**\n\nSimplified Chinese, Traditional Chinese–English, Cantonese–English\n\n**Bilingual dictionary support**\n\nArabic–English, Bangla–English, Chinese (Simplified)–English, Chinese (Traditional)–English, Czech–English, Dutch–English, Finnish–English, French–English, French–German, German–English, Gujarati–English, Hindi–English, Hungarian–English, Indonesian–English, Italian–English, Japanese–English, Japanese–Chinese (Simplified), Korean–English, Polish–English, Portuguese–English, Russian–English, Spanish–English, Tamil–English, Telugu–English, Thai–English, Urdu–English, Vietnamese–English, English–Greek, English–Malay, English–Swedish\n\n**Thesaurus**\n\nEnglish (UK, US), Chinese (Simplified)\n\n**Spellcheck**\n\nEnglish (Australia, Canada, India, Japan, New Zealand, Singapore, South Africa, UK, US), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Spanish (Latin America, Mexico, Spain), Arabic, Arabic (Najdi), Bulgarian, Czech, Danish, Dutch (Belgium, Netherlands), Finnish, Greek, Hindi (Devanagari), Hungarian, Irish Gaelic, Norwegian (Bokmål, Nynorsk), Polish, Portuguese (Brazil, Portugal), Punjabi, Romanian, Russian, Swedish, Telugu, Turkish, Vietnamese\n\n**Apple Pay–supported regions**\n\nArgentina, Armenia, Australia, Austria, Azerbaijan, Bahrain, Belarus, Belgium, Brazil, Bulgaria, Canada, Chile, China mainland,19 Colombia, Costa Rica, Croatia, Cyprus, Czech Republic, Denmark, El Salvador, Estonia, Faroe Islands, Finland, France, Georgia, Germany, Greece, Greenland, Guatemala, Guernsey, Honduras, Hong Kong, Hungary, Iceland, Ireland, Isle of Man, Israel, Italy, Japan, Jersey, Jordan, Kazakhstan, Korea (Republic of), Kuwait, Latvia, Liechtenstein, Lithuania, Luxembourg, Macao, Malaysia, Malta, Mexico, Moldova, Monaco, Montenegro, Morocco, Netherlands, New Zealand, Norway, Palestinian Territories, Panama, Peru, Poland, Portugal, Qatar, Romania, San Marino, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, Switzerland, Taiwan, UK, Ukraine, United Arab Emirates, US, Vatican City, Vietnam\n"
+      "source_text": "**Language support**\n\nEnglish (Australia, UK, US), Chinese (Simplified, Traditional, Traditional – Hong Kong), French (Canada, France), German, Italian, Japanese, Korean, Spanish (Latin America, Spain), Arabic, Bulgarian, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hindi, Hungarian, Indonesian, Kazakh, Malay, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\n\n**QuickType keyboard support**\n\nEnglish (Australia, Canada, India, Japan, New Zealand, Singapore, South Africa, UK, US), Chinese – Simplified (Handwriting, Pinyin QWERTY, Pinyin 10-Key, Shuangpin, Stroke), Chinese – Traditional (Cangjie, Handwriting, Pinyin QWERTY, Pinyin 10-Key, Shuangpin, Stroke, Sucheng, Zhuyin), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese (Kana, Romaji), Korean (2-Set, 10-Key), Spanish (Latin America, Mexico, Spain), Ainu, Albanian, Amharic, Apache (Western), Arabic, Arabic (Najdi), Armenian, Assamese, Assyrian, Azerbaijani, Bangla, Belarusian, Bodo, Bulgarian, Burmese, Cantonese – Traditional (Cangjie, Handwriting, Phonetic, Stroke, Sucheng), Catalan, Cherokee, Croatian, Czech, Danish, Dhivehi, Dogri, Dutch, Dzongkha, Emoji, Estonian, Faroese, Filipino, Finnish, Flemish, Fula (Adlam), Georgian, Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari, Latin, Transliteration), Hungarian, Icelandic, Igbo, Indonesian, Irish Gaelic, Kannada, Kashmiri (Arabic, Devanagari), Kazakh, Khmer, Konkani (Devanagari), Kurdish (Arabic, Latin), Kyrgyz, Lao, Latvian, Lithuanian, Macedonian, Maithili, Malay (Arabic, Latin), Malayalam, Maltese, Manipuri (Bengali, Meetei Mayek), Māori, Marathi, Mongolian, Navajo, Nepali, Norwegian (Bokmål, Nynorsk), Odia, Pashto, Persian, Persian (Afghanistan), Polish, Portuguese (Brazil, Portugal), Punjabi, Rohingya, Romanian, Russian, Samoan, Sanskrit, Santali (Devanagari, Ol Chiki), Serbian (Cyrillic, Latin), Sindhi (Arabic, Devanagari), Sinhala, Slovak, Slovenian, Swahili, Swedish, Tajik, Tamil (Anjal, Tamil 99), Telugu, Thai, Tibetan, Tongan, Turkish, Turkmen, Ukrainian, Urdu, Uyghur, Uzbek (Arabic, Cyrillic, Latin), Vietnamese (Telex, VIQR, VNI), Welsh, Yiddish, Akan, Bangla (Transliteration), Chickasaw, Choctaw, Chuvash, Gujarati (Transliteration), Hausa, Hmong (Pahawh), Ingush, Japanese (Handwriting), Kabyle, Kannada (Transliteration), Liangshan Yi, Malayalam (Transliteration), Mandaic, Marathi (Transliteration), Mi’kmaw, N’Ko, Osage, Punjabi (Transliteration), Rejang, Tamazight (Standard Moroccan), Tamil (Transliteration), Telugu (Transliteration), Urdu (Transliteration), Wancho, Wolastoqey, Yoruba\n\n**QuickType keyboard support with auto-correction**\n\nArabic, Arabic (Najdi), Bangla, Bulgarian, Catalan, Cherokee, Chinese – Simplified (Pinyin QWERTY), Chinese – Traditional (Pinyin QWERTY), Chinese – Traditional (Zhuyin), Croatian, Czech, Danish, Dutch, English (Australia, Canada, India, Japan, New Zealand, Singapore, South Africa, UK, US), Estonian, Filipino, Finnish, Dutch (Belgium), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari, Latin, Transliteration), Hungarian, Icelandic, Indonesian, Irish Gaelic, Italian, Japanese (Kana, Romaji), Korean (2-Set, 10-Key), Latvian, Lithuanian, Macedonian, Malay, Marathi, Norwegian (Bokmål, Nynorsk), Persian, Persian (Afghanistan), Polish, Portuguese (Brazil, Portugal), Punjabi, Romanian, Russian, Serbian (Cyrillic, Latin), Slovak, Slovenian, Spanish (Latin America, Mexico, Spain), Swedish, Tamil (Anjal, Tamil 99), Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese (Telex)\n\n**QuickType keyboard support with predictive typing**\n\nEnglish (Australia, Canada, India, Japan, Singapore, South Africa, UK, US), Chinese (Simplified, Traditional), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese, Korean, Spanish (Latin America, Mexico, Spain), Arabic, Arabic (Najdi), Cantonese (Traditional), Dutch, Hindi (Devanagari, Latin), Portuguese (Brazil, Portugal), Russian, Swedish, Thai, Turkish, Vietnamese, Hebrew, Polish, Romanian\n\n**QuickType keyboard support with multilingual typing**\n\nEnglish (Australia, Canada, India, Japan, New Zealand, Singapore, South Africa, UK, US), Chinese – Simplified (Pinyin), Chinese – Traditional (Pinyin), French (Belgium, Canada, France, Switzerland), German (Germany, Austria, Switzerland), Italian, Japanese (Romaji), Portuguese (Brazil, Portugal), Spanish (Latin America, Mexico, Spain), Dutch (Belgium, Netherlands), Hindi (Latin), Vietnamese, Polish, Romanian, Turkish\n\n**QuickType keyboard support with contextual suggestions**\n\nEnglish (Australia, Canada, India, Japan, New Zealand, Singapore, South Africa, UK, US), Chinese (Simplified), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Spanish (Latin America, Mexico, Spain), Arabic, Arabic (Najdi), Dutch (Belgium, Netherlands), Hindi (Devanagari, Latin), Russian, Swedish, Portuguese (Brazil), Turkish, Vietnamese\n\n**QuickType keyboard support with QuickPath**\n\nEnglish (Australia, Canada, India, Japan, New Zealand, Singapore, South Africa, UK, US), Chinese (Simplified Pinyin QWERTY), Chinese (Traditional Pinyin QWERTY), French (Canada, France, Switzerland), German (Germany, Austria, Switzerland), Italian, Spanish (Latin America, Mexico, Spain), Portuguese (Brazil, Portugal), Dutch (Belgium, Netherlands), Swedish, Vietnamese, Arabic, Hebrew, Korean, Polish, Romanian\n\n**Siri languages**\n\nEnglish (Australia, Canada, India, Ireland, New Zealand, Singapore, South Africa, UK, US), Spanish (Chile, Mexico, Spain, US), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese (Japan), Korean (Republic of Korea), Mandarin Chinese (China mainland, Taiwan), Cantonese (China mainland, Hong Kong), Arabic (Saudi Arabia, United Arab Emirates), Danish (Denmark), Dutch (Belgium, Netherlands), Finnish (Finland), Hebrew (Israel), Malay (Malaysia), Norwegian (Norway), Portuguese (Brazil), Russian (Russia), Swedish (Sweden), Thai (Thailand), Turkish (Türkiye)\n\n**Dictation languages**\n\nEnglish (Australia, Canada, India, Ireland, Malaysia, New Zealand, Philippines, Saudi Arabia, Singapore, South Africa, United Arab Emirates, UK, US), Cantonese (China mainland, Hong Kong), Mandarin Chinese (China mainland, Taiwan), French (Belgium, Canada, France, Luxembourg, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Spanish (Chile, Colombia, Mexico, Spain, US), Portuguese (Brazil, Portugal), Arabic (Kuwait, Qatar, Saudi Arabia, United Arab Emirates), Catalan, Croatian, Czech, Danish, Dutch (Belgium, Netherlands), Finnish, Greek, Hebrew, Hindi, Hungarian, Indonesian, Malay, Norwegian (Bokmål), Polish, Romanian, Russian, Shanghainese (China mainland), Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\n\n**Monolingual dictionary support**\n\nEnglish (UK, US), Chinese (Simplified, Traditional, Traditional – Hong Kong), Danish, Dutch, French, German, Hebrew, Hindi, Italian, Japanese, Korean, Norwegian, Portuguese, Russian, Spanish, Swedish, Thai, Turkish, Bulgarian, Catalan, Greek, Malay, Polish, Punjabi, Romanian\n\n**Idiom dictionary support**\n\nSimplified Chinese, Traditional Chinese–English, Cantonese–English\n\n**Bilingual dictionary support**\n\nArabic–English, Bangla–English, Chinese (Simplified)–English, Chinese (Traditional)–English, Czech–English, Dutch–English, Finnish–English, French–English, French–German, German–English, Gujarati–English, Hindi–English, Hungarian–English, Indonesian–English, Italian–English, Japanese–English, Japanese–Chinese (Simplified), Korean–English, Polish–English, Portuguese–English, Russian–English, Spanish–English, Tamil–English, Telugu–English, Thai–English, Urdu–English, Vietnamese–English, English–Greek, English–Malay, English–Swedish\n\n**Thesaurus**\n\nEnglish (UK, US), Chinese (Simplified)\n\n**Spellcheck**\n\nEnglish (Australia, Canada, India, Japan, New Zealand, Singapore, South Africa, UK, US), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Spanish (Latin America, Mexico, Spain), Arabic, Arabic (Najdi), Bulgarian, Czech, Danish, Dutch (Belgium, Netherlands), Finnish, Greek, Hindi (Devanagari), Hungarian, Irish Gaelic, Norwegian (Bokmål, Nynorsk), Polish, Portuguese (Brazil, Portugal), Punjabi, Romanian, Russian, Swedish, Telugu, Turkish, Vietnamese\n\n**Apple Pay–supported regions**\n\nArgentina, Armenia, Australia, Austria, Azerbaijan, Bahrain, Belarus, Belgium, Brazil, Bulgaria, Canada, Chile, China mainland,19 Colombia, Costa Rica, Croatia, Cyprus, Czech Republic, Denmark, El Salvador, Estonia, Faroe Islands, Finland, France, Georgia, Germany, Greece, Greenland, Guatemala, Guernsey, Honduras, Hong Kong, Hungary, Iceland, Ireland, Isle of Man, Israel, Italy, Japan, Jersey, Jordan, Kazakhstan, Korea (Republic of), Kuwait, Latvia, Liechtenstein, Lithuania, Luxembourg, Macao, Malaysia, Malta, Mexico, Moldova, Monaco, Montenegro, Morocco, Netherlands, New Zealand, Norway, Palestinian Territories, Panama, Peru, Poland, Portugal, Qatar, Romania, San Marino, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, Switzerland, Taiwan, UK, Ukraine, United Arab Emirates, US, Vatican City, Vietnam"
     },
     {
       "heading": "In the Box",
-      "source_text": "- **iPhone 15 Pro Max**\n- **USB‑C Charge Cable (1m)**\n- **Documentation**\n\nAs part of our efforts to reach [carbon neutrality by 2030](https://www.apple.com/uk/environment), iPhone 15 Pro and iPhone 15 Pro Max do not include a power adapter or EarPods. Included in the box is a USB‑C Charge Cable that supports fast charging and is compatible with USB‑C power adapters and computer ports.\n\nWe encourage you to use any compatible USB‑C power adapter. If you need a new Apple power adapter or headphones, they are available for purchase.\n"
+      "source_text": "- **iPhone 15 Pro Max**\n- **USB‑C Charge Cable (1m)**\n- **Documentation**\n\nAs part of our efforts to reach [carbon neutrality by 2030](https://www.apple.com/uk/environment), iPhone 15 Pro and iPhone 15 Pro Max do not include a power adapter or EarPods. Included in the box is a USB‑C Charge Cable that supports fast charging and is compatible with USB‑C power adapters and computer ports.\n\nWe encourage you to use any compatible USB‑C power adapter. If you need a new Apple power adapter or headphones, they are available for purchase."
     },
     {
       "heading": "iPhone and the Environment",
@@ -259,9 +263,101 @@
         "verification_status": "content_verified",
         "notes": "Up to 30 minutes under IEC standard 60529."
       }
+    },
+    "battery": {
+      "video_playback_max": {
+        "value": 29,
+        "unit": "hours",
+        "source_section": "Power and Battery14",
+        "verification_status": "content_verified"
+      },
+      "streamed_video_playback_max": {
+        "value": 25,
+        "unit": "hours",
+        "source_section": "Power and Battery14",
+        "verification_status": "content_verified"
+      },
+      "audio_playback_max": {
+        "value": 95,
+        "unit": "hours",
+        "source_section": "Power and Battery14",
+        "verification_status": "content_verified"
+      },
+      "magsafe_max": {
+        "value": 15,
+        "unit": "W",
+        "source_section": "Power and Battery14",
+        "verification_status": "content_verified"
+      },
+      "qi2_max": {
+        "value": 15,
+        "unit": "W",
+        "source_section": "Power and Battery14",
+        "verification_status": "content_verified"
+      },
+      "qi_max": {
+        "value": 7.5,
+        "unit": "W",
+        "source_section": "Power and Battery14",
+        "verification_status": "content_verified"
+      }
+    },
+    "connectivity": {
+      "models_listed": {
+        "value": "A3102 and A3106",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified",
+        "notes": "The page lists both model numbers; no size-variant mapping is inferred."
+      },
+      "wifi": {
+        "value": "Wi‑Fi 6E (802.11ax) with 2×2 MIMO",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      },
+      "bluetooth": {
+        "value": "5.3",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      },
+      "ultra_wideband": {
+        "value": "Second-generation Ultra Wideband chip",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      },
+      "thread": {
+        "value": true,
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      },
+      "nfc_reader_mode": {
+        "value": true,
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      }
+    },
+    "charging": {
+      "usb_connector": {
+        "value": "USB-C",
+        "unit": null,
+        "source_section": "Charging and Expansion",
+        "verification_status": "content_verified"
+      },
+      "usb_speed": {
+        "value": "USB 3 up to 10Gb/s",
+        "unit": null,
+        "source_section": "Charging and Expansion",
+        "verification_status": "content_verified"
+      }
     }
   },
   "record_notes": [
-    "Pilot migration to schema v2 on 2026-11-05. Original source sections preserved; only listed normalized fields were checked against Apple's official specifications."
+    "Pilot migration to schema v2 on 2026-11-05. Original source sections preserved; only listed normalized fields were checked against Apple's official specifications.",
+    "2026-11-06 audit: reviewed all source sections and footnotes, rebuilt section structure from the archived Markdown, and added core battery/connectivity/charging fields. Embedded outbound links remain pending."
   ]
 }
