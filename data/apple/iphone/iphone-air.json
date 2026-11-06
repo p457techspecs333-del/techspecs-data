@@ -22,14 +22,14 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://www.apple.com/ie/iphone-air/specs/",
+    "source_url": "https://support.apple.com/en-ie/125092",
     "source_file": "sources/apple/iphone/iphone-air-generation/iphone-air-source.md",
-    "source_title": "iPhone Air - Technical Specifications",
-    "publisher": "Apple",
+    "source_title": "iPhone Air - Tech Specs",
+    "publisher": "Apple Support (Ireland)",
     "published_at": null,
     "checked_at": "2026-11-06",
     "verification_status": "url_checked",
-    "verification_notes": "Official Apple product technical-specifications page located and checked for model match on 2026-11-06. Individual normalized specifications have not yet been fully audited against the page.",
+    "verification_notes": "Official Apple Support Ireland technical-specifications URL supplied by the project owner and matched to this model. URL-level source identification only; normalized specifications have not all been compared field by field.",
     "notes": [
       "Official Apple Ireland technical specifications page for iPhone Air."
     ]
