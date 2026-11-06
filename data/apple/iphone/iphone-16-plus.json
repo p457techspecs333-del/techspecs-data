@@ -23,14 +23,14 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-gb/121030",
+    "source_url": "https://support.apple.com/en-ie/121030",
     "source_file": "sources/apple/iphone/iphone-16-generation/iphone-16-plus-source.md",
-    "source_title": "iPhone 16 Plus - Tech Specs",
-    "publisher": "Apple",
+    "source_title": "iPhone 16 Plus - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
     "published_at": null,
     "checked_at": "2026-11-06",
     "verification_status": "url_checked",
-    "verification_notes": "Official Apple product technical-specifications page located and checked for model match on 2026-11-06. Individual normalized specifications have not yet been fully audited against the page."
+    "verification_notes": "Official Apple Support Ireland technical-specifications URL supplied by the project owner and matched to this model. URL-level source identification only; normalized specifications have not all been compared field by field."
   },
   "extraction": {
     "method": "section_preserving",
