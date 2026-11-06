@@ -3,6 +3,7 @@
   <url><loc>https://data.techspecs.dev/catalogue.json</loc></url>
   <url><loc>https://data.techspecs.dev/llms.txt</loc></url>
   <url><loc>https://data.techspecs.dev/schemas/product-record-v2.schema.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api-manifest.json</loc></url>
   <url><loc>https://data.techspecs.dev/apple/iphone/iphone-11-pro-max.json</loc></url>
   <url><loc>https://data.techspecs.dev/apple/iphone/iphone-11-pro.json</loc></url>
   <url><loc>https://data.techspecs.dev/apple/iphone/iphone-11.json</loc></url>
