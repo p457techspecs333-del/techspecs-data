@@ -14,7 +14,7 @@ This register tracks verification of the 50 product JSON records in `data/apple/
 ## Current snapshot
 
 - Catalogue size: **50 JSON records**.
-- Full section-level content reviewed in this pass: **3** — iPhone 6 (33 sections), iPhone 16e (35 sections), and iPhone 13 Pro (34 sections), including long-form environmental/language sections and footnotes. In both cases, the JSON section headings and source text match the archived Markdown exactly.
+- Full section-level content reviewed in this pass: **5** — iPhone 6 (33 sections), iPhone 16e (35 sections), iPhone 13 Pro (34 sections), iPhone 17 (37 sections after correcting a malformed section split), and iPhone 17e (37 sections), including long-form environmental/language sections and footnotes. In both cases, the JSON section headings and source text match the archived Markdown exactly.
 - iPhone 13 Pro has now been re-audited against its official Ireland Apple Support page; its previously normalized fields and full archived sections were checked.
 - Other records remain pending field-by-field content review even if their URLs have previously been checked.
 - Core normalized fields have been added to iPhone 6 and iPhone 16e with per-field `content_verified` statuses and source-section references. This is partial normalization; remaining fields and embedded links still need audit.
@@ -66,10 +66,10 @@ This register tracks verification of the 50 product JSON records in `data/apple/
 | iPhone 16 Pro | `url_checked` | https://support.apple.com/en-ie/121031 | pending |
 | iPhone 16 Pro Max | `url_checked` | https://support.apple.com/en-ie/121032 | pending |
 | iPhone 16e | `content_verified` | https://support.apple.com/en-ie/122208 | source sections and footnotes checked; embedded links pending |
-| iPhone 17 | `url_checked` | https://support.apple.com/en-ie/125089 | pending |
+| iPhone 17 | `content_verified` | https://support.apple.com/en-ie/125089 | source re-segmented into 37 correct sections; core fields checked; outbound links pending |
 | iPhone 17 Pro | `url_checked` | https://support.apple.com/en-ie/125090 | pending |
 | iPhone 17 Pro Max | `url_checked` | https://support.apple.com/en-ie/125091 | pending |
-| iPhone 17e | `url_checked` | https://support.apple.com/en-ie/126470 | pending |
+| iPhone 17e | `content_verified` | https://support.apple.com/en-ie/126470 | 38 core normalized fields added; remaining fields and outbound links pending |
 | iPhone Air | `url_checked` | https://support.apple.com/en-ie/125092 | pending |
 | iPhone 18 Pro | `partially_verified` | https://www.apple.com/ie/iphone-18-pro/specs/ | 30 core normalized fields added as partial; direct page/footnote audit pending |
 | iPhone 18 Pro Max | `partially_verified` | https://www.apple.com/ie/iphone-18-pro/specs/ | 30 core normalized fields added as partial; direct page/footnote audit pending |
@@ -120,3 +120,10 @@ The official Apple Ireland specifications page was found in search-indexed conte
 ## Addendum — 6 November 2026: iPhone Duo
 
 Added 46 core normalized fields across eight groups, including open/closed dimensions, inner/outer displays, chip, cameras, battery, charging and connectivity. The official Apple specifications content is available in search-indexed results, but direct retrieval returned a cache miss. The fields are therefore marked `partially_verified`; full source text, footnotes and links still need direct review.
+
+
+## Addendum — 6 November 2026: iPhone 17 source structure and iPhone 17e
+
+The iPhone 17 JSON had a section-structure defect: the archival content was largely present, but multiple source headings had been merged into neighbouring sections and two list items were mislabelled as headings. Rebuilt its section array from the retained source transcription into 37 correctly headed sections and corrected normalized `source_section` references for dimensions and water resistance. Its core normalized fields were checked against the official page.
+
+The iPhone 17e official Ireland page was reviewed through its full source content and footnotes. Added 38 core normalized fields across nine groups with source-section references and per-field `content_verified` status. Both records' embedded outbound links still require a separate link audit.
