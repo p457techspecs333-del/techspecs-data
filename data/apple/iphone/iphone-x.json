@@ -19,12 +19,12 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-eg/111864",
+    "source_url": "https://support.apple.com/en-ie/111864",
     "verification_status": "url_checked",
     "checked_at": "2026-11-06",
     "source_title": "iPhone X - Technical Specifications",
-    "publisher": "Apple Support",
-    "verification_notes": "Official Apple technical-specifications page located and checked for model match on 2026-11-06. Individual normalized specifications have not yet been fully audited against the page."
+    "publisher": "Apple Support (Ireland)",
+    "verification_notes": "Official Apple Support Ireland technical-specifications URL supplied by the project owner and matched to this model. URL-level source identification only; normalized specifications have not all been compared field by field."
   },
   "extraction": {
     "method": "section_preserving",
