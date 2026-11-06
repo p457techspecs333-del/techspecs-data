@@ -23,13 +23,13 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-gb/111829",
-    "source_title": "iPhone 15 Pro - Tech Specs",
-    "publisher": "Apple",
+    "source_url": "https://support.apple.com/en-ie/111829",
+    "source_title": "iPhone 15 Pro - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
     "published_at": null,
     "checked_at": "2026-11-06",
     "verification_status": "url_checked",
-    "verification_notes": "Official Apple product technical-specifications page located and checked for model match on 2026-11-06. Individual normalized specifications have not yet been fully audited against the page."
+    "verification_notes": "Official Apple Support Ireland technical-specifications URL supplied by the project owner and matched to this model. URL-level source identification only; normalized specifications have not all been compared field by field."
   },
   "extraction": {
     "method": "section_preserving",
