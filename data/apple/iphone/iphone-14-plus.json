@@ -26,18 +26,18 @@
     "source_type": "manufacturer",
     "source_url": "https://support.apple.com/en-ie/111854",
     "source_title": "iPhone 14 Plus - Tech Specs",
-    "publisher": "Apple",
+    "publisher": "Apple Support (Ireland)",
     "published_at": null,
     "checked_at": "2026-11-06",
-    "verification_status": "url_checked",
-    "verification_notes": "Official Apple product technical-specifications page located and checked for model match on 2026-11-06. Individual normalized specifications have not yet been fully audited against the page."
+    "verification_status": "content_verified",
+    "verification_notes": "Full section-level content and footnote review completed against the official Apple Support Ireland page on 2026-11-06. The archived Markdown was re-parsed into 35 clean sections. Existing normalized dimensions, display, chip, camera and durability fields were checked; battery, connectivity and charging fields were added with source-section references. Embedded outbound link destinations have not all been individually opened."
   },
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
-    "note": "Original source sections retained. Only a limited set of normalized fields was checked against official specifications; this is not full-record verification.",
+    "note": "Source section structure rebuilt from retained Markdown. Core normalized fields and footnotes checked against the official Apple Support Ireland page; battery/connectivity/charging fields added with source-section references. Embedded outbound links remain a separate audit task.",
     "extracted_at": "2026-11-05",
-    "reviewed_at": "2026-11-05"
+    "reviewed_at": "2026-11-06"
   },
   "sections": [
     {
@@ -250,6 +250,88 @@
         "verification_status": "content_verified",
         "notes": "Up to 30 minutes under IEC standard 60529."
       }
+    },
+    "battery": {
+      "video_playback_max": {
+        "value": 26,
+        "unit": "hours",
+        "source_section": "Power and Battery12",
+        "verification_status": "content_verified"
+      },
+      "streamed_video_playback_max": {
+        "value": 20,
+        "unit": "hours",
+        "source_section": "Power and Battery12",
+        "verification_status": "content_verified"
+      },
+      "audio_playback_max": {
+        "value": 100,
+        "unit": "hours",
+        "source_section": "Power and Battery12",
+        "verification_status": "content_verified"
+      },
+      "magsafe_max": {
+        "value": 15,
+        "unit": "W",
+        "source_section": "Power and Battery12",
+        "verification_status": "content_verified"
+      },
+      "qi_max": {
+        "value": 7.5,
+        "unit": "W",
+        "source_section": "Power and Battery12",
+        "verification_status": "content_verified"
+      },
+      "fast_charge_50_percent_time": {
+        "value": 30,
+        "unit": "minutes",
+        "source_section": "Power and Battery12",
+        "verification_status": "content_verified"
+      }
+    },
+    "connectivity": {
+      "models_listed": {
+        "value": "A2882 and A2886",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified",
+        "notes": "Both model numbers are listed on the shared Apple page; no size-variant mapping is inferred."
+      },
+      "wifi": {
+        "value": "Wi‑Fi 6 (802.11ax) with 2×2 MIMO",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      },
+      "bluetooth": {
+        "value": "5.3",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      },
+      "ultra_wideband": {
+        "value": "Ultra Wideband chip for spatial awareness",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      },
+      "nfc_reader_mode": {
+        "value": true,
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      }
+    },
+    "charging": {
+      "connector": {
+        "value": "Lightning",
+        "unit": null,
+        "source_section": "External Buttons and Connectors",
+        "verification_status": "content_verified"
+      }
     }
-  }
+  },
+  "record_notes": [
+    "2026-11-06 audit: full specification and footnote review completed, sections rebuilt from retained Markdown, and core battery/connectivity/charging fields added. Embedded outbound links remain pending."
+  ]
 }
