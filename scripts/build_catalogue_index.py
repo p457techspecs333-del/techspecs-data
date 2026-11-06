@@ -63,7 +63,7 @@ def main() -> int:
 
     files = sorted(
         path for path in DATA_ROOT.rglob("*.json")
-        if path != OUTPUT and path.name != "catalogue.json"
+        if path != OUTPUT and path.name != "catalogue.json" and "schemas" not in path.relative_to(DATA_ROOT).parts
     )
     entries: list[dict[str, Any]] = []
 
@@ -112,7 +112,7 @@ def main() -> int:
         '</urlset>',
         '',
     ]
-    SITEMAP_OUTPUT.write_text("\\n".join(sitemap_body), encoding="utf-8")
+    SITEMAP_OUTPUT.write_text("\n".join(sitemap_body), encoding="utf-8")
 
     print(f"Generated {OUTPUT.relative_to(ROOT)} with {len(entries)} product records.")
     print(f"Generated {SITEMAP_OUTPUT.relative_to(ROOT)} with {len(sitemap_urls)} URLs.")
