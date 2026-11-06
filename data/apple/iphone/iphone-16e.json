@@ -7,7 +7,19 @@
     "model": "iPhone 16e",
     "model_slug": "iphone-16e",
     "model_year": 2025,
-    "year_introduced": 2025
+    "year_introduced": 2025,
+    "finishes": [
+      "Black",
+      "White"
+    ],
+    "storage_options": [
+      "128GB",
+      "256GB",
+      "512GB"
+    ],
+    "model_numbers": [
+      "A3409"
+    ]
   },
   "source": {
     "source_type": "user_supplied_document",
@@ -25,8 +37,8 @@
   },
   "extraction": {
     "method": "section_preserving",
-    "normalization_status": "archival_first_pass",
-    "note": "Section-preserving archival transcription. Full specification-section and footnote content reviewed against the official Ireland Apple Support page on 2026-11-06; JSON sections match the archived Markdown headings and text exactly. No normalized_specifications object is present. Embedded outbound links still require a separate link audit.",
+    "normalization_status": "partially_normalized",
+    "note": "Section-preserving archival transcription. Full specification-section and footnote content reviewed against the official Ireland Apple Support page on 2026-11-06; JSON sections match the archived Markdown headings and text exactly. No normalized_specifications object is present. Embedded outbound links still require a separate link audit. Core structured fields were added on 2026-11-06 from sections reviewed against the official Ireland Apple Support page. This is intentionally partial normalization; remaining fields and embedded outbound links are still pending audit.",
     "extracted_at": "2026-11-06",
     "reviewed_at": "2026-11-06"
   },
@@ -179,6 +191,233 @@
   "record_notes": [
     "Created from user-supplied Markdown after the repository audit incorrectly classified this product record as blocked by missing source text.",
     "Original section headings and source wording are retained. Any transcription errors, legacy page wording, or source-page differences remain unverified.",
-    "2026-11-06: full section-level specification and footnote content checked against the official Ireland Apple Support page; source transcription matches archival Markdown exactly. Embedded outbound links are not yet individually verified."
-  ]
+    "2026-11-06: full section-level specification and footnote content checked against the official Ireland Apple Support page; source transcription matches archival Markdown exactly. Embedded outbound links are not yet individually verified.",
+    "2026-11-06: added a first set of normalized fields with per-field content_verified status, each linked to its source section. This is partial normalization, not a claim that every possible field or embedded link has been checked."
+  ],
+  "normalized_specifications": {
+    "dimensions": {
+      "width": {
+        "value": 71.5,
+        "unit": "mm",
+        "source_section": "Size and Weight2",
+        "verification_status": "content_verified"
+      },
+      "height": {
+        "value": 146.7,
+        "unit": "mm",
+        "source_section": "Size and Weight2",
+        "verification_status": "content_verified"
+      },
+      "depth": {
+        "value": 7.8,
+        "unit": "mm",
+        "source_section": "Size and Weight2",
+        "verification_status": "content_verified"
+      },
+      "weight": {
+        "value": 167,
+        "unit": "g",
+        "source_section": "Size and Weight2",
+        "verification_status": "content_verified"
+      }
+    },
+    "display": {
+      "type": {
+        "value": "Super Retina XDR, all-screen OLED",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      },
+      "diagonal": {
+        "value": 6.1,
+        "unit": "in",
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      },
+      "resolution": {
+        "value": "2532 × 1170",
+        "unit": "pixels",
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      },
+      "pixel_density": {
+        "value": 460,
+        "unit": "ppi",
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      },
+      "brightness_max_typical": {
+        "value": 800,
+        "unit": "nits",
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      },
+      "brightness_peak_hdr": {
+        "value": 1200,
+        "unit": "nits",
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      },
+      "contrast_ratio": {
+        "value": "2,000,000:1",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "content_verified",
+        "notes": "Typical."
+      }
+    },
+    "durability": {
+      "ip_rating": {
+        "value": "IP68",
+        "unit": null,
+        "source_section": "Splash, Water and Dust Resistant3",
+        "verification_status": "content_verified"
+      },
+      "water_depth_max": {
+        "value": 6,
+        "unit": "m",
+        "source_section": "Splash, Water and Dust Resistant3",
+        "verification_status": "content_verified",
+        "notes": "Up to 30 minutes under IEC standard 60529."
+      }
+    },
+    "processor": {
+      "chip": {
+        "value": "A18",
+        "unit": null,
+        "source_section": "Chip",
+        "verification_status": "content_verified"
+      },
+      "cpu_cores": {
+        "value": 6,
+        "unit": "cores",
+        "source_section": "Chip",
+        "verification_status": "content_verified",
+        "notes": "2 performance and 4 efficiency cores."
+      },
+      "gpu_cores": {
+        "value": 4,
+        "unit": "cores",
+        "source_section": "Chip",
+        "verification_status": "content_verified"
+      },
+      "neural_engine_cores": {
+        "value": 16,
+        "unit": "cores",
+        "source_section": "Chip",
+        "verification_status": "content_verified"
+      }
+    },
+    "camera": {
+      "rear_main_resolution": {
+        "value": 48,
+        "unit": "MP",
+        "source_section": "Camera",
+        "verification_status": "content_verified"
+      },
+      "rear_main_focal_length": {
+        "value": 26,
+        "unit": "mm",
+        "source_section": "Camera",
+        "verification_status": "content_verified"
+      },
+      "rear_main_aperture": {
+        "value": "ƒ/1.6",
+        "unit": null,
+        "source_section": "Camera",
+        "verification_status": "content_verified"
+      },
+      "rear_2x_telephoto_resolution": {
+        "value": 12,
+        "unit": "MP",
+        "source_section": "Camera",
+        "verification_status": "content_verified"
+      },
+      "front_resolution": {
+        "value": 12,
+        "unit": "MP",
+        "source_section": "True­Depth Camera",
+        "verification_status": "content_verified"
+      },
+      "front_aperture": {
+        "value": "ƒ/1.9",
+        "unit": null,
+        "source_section": "True­Depth Camera",
+        "verification_status": "content_verified"
+      }
+    },
+    "video": {
+      "rear_4k_dolby_vision_max_fps": {
+        "value": 60,
+        "unit": "fps",
+        "source_section": "Video Recording",
+        "verification_status": "content_verified"
+      },
+      "front_4k_dolby_vision_max_fps": {
+        "value": 60,
+        "unit": "fps",
+        "source_section": "True­Depth Camera",
+        "verification_status": "content_verified"
+      }
+    },
+    "connectivity": {
+      "cellular_modem": {
+        "value": "Apple C1",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      },
+      "wifi": {
+        "value": "Wi‑Fi 6 (802.11ax) with 2×2 MIMO",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      },
+      "bluetooth": {
+        "value": "5.3",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      },
+      "nfc_reader_mode": {
+        "value": true,
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      }
+    },
+    "battery": {
+      "video_playback_max": {
+        "value": 26,
+        "unit": "hours",
+        "source_section": "Power and Battery5",
+        "verification_status": "content_verified"
+      },
+      "video_playback_streamed_max": {
+        "value": 21,
+        "unit": "hours",
+        "source_section": "Power and Battery5",
+        "verification_status": "content_verified"
+      },
+      "audio_playback_max": {
+        "value": 90,
+        "unit": "hours",
+        "source_section": "Power and Battery5",
+        "verification_status": "content_verified"
+      },
+      "fast_charge_50_percent_time": {
+        "value": 30,
+        "unit": "minutes",
+        "source_section": "Power and Battery5",
+        "verification_status": "content_verified",
+        "notes": "With 20W adapter or higher and USB-C charging cable; adapter sold separately."
+      },
+      "wireless_charging": {
+        "value": "Qi",
+        "unit": null,
+        "source_section": "Power and Battery5",
+        "verification_status": "content_verified"
+      }
+    }
+  }
 }
