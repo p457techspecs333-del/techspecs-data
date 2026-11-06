@@ -9,10 +9,10 @@
     "model_year": 2015,
     "year_introduced": 2015,
     "finishes": [
-      "Rose Gold",
-      "Gold",
+      "Space Gray",
       "Silver",
-      "Space Gray"
+      "Gold",
+      "Rose Gold"
     ],
     "storage_options": [
       "16GB",
@@ -24,19 +24,24 @@
   "source": {
     "source_type": "manufacturer",
     "source_url": "https://support.apple.com/en-ie/111952",
-    "verification_status": "url_checked",
+    "verification_status": "content_verified",
     "checked_at": "2026-11-06",
     "source_title": "iPhone 6s - Technical Specifications",
     "publisher": "Apple Support (Ireland)",
-    "verification_notes": "Official Apple Support Ireland technical-specifications URL supplied by the project owner and matched to this model. URL-level source identification only; normalized specifications have not all been compared field by field."
+    "verification_notes": "Full specification-section and footnote review completed against the official Apple Support Ireland page on 2026-11-06. The retained Markdown archive was re-parsed into 34 clean sections. Existing normalized dimensions, display, chip and durability fields were checked; battery, wireless, connector and in-box fields were added with source-section references. Embedded outbound link destinations have not all been individually opened."
   },
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
     "extracted_at": "2026-11-05",
-    "note": "Original source sections are preserved verbatim. The normalized fields below are a limited transcription of explicitly stated values; they are not independently fact-checked."
+    "note": "Source section structure rebuilt from retained Markdown. Core normalized fields and footnotes checked against the official Apple Support Ireland page; battery, wireless, connector and in-box fields added with source-section references. Embedded outbound links remain a separate audit task.",
+    "reviewed_at": "2026-11-06"
   },
   "sections": [
+    {
+      "heading": "Overview",
+      "source_text": "# iPhone 6s - Technical Specifications"
+    },
     {
       "heading": "Finish",
       "source_text": "- Rose Gold\n- Gold\n- Silver\n- Space Gray"
@@ -176,25 +181,25 @@
         "value": 67.1,
         "unit": "mm",
         "source_section": "Size and Weight2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "height": {
         "value": 138.3,
         "unit": "mm",
         "source_section": "Size and Weight2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "depth": {
         "value": 7.1,
         "unit": "mm",
         "source_section": "Size and Weight2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "weight": {
         "value": 143,
         "unit": "g",
         "source_section": "Size and Weight2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       }
     },
     "display": {
@@ -202,37 +207,37 @@
         "value": "Retina HD LCD with IPS technology and 3D Touch",
         "unit": null,
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "diagonal": {
         "value": 4.7,
         "unit": "in",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "resolution": {
         "value": "1334 × 750",
         "unit": "pixels",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "pixel_density": {
         "value": 326,
         "unit": "ppi",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "typical_brightness": {
         "value": 500,
         "unit": "cd/m²",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "contrast_ratio": {
         "value": "1400:1",
         "unit": null,
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       }
     },
     "processor": {
@@ -240,14 +245,98 @@
         "value": "A9 chip with 64-bit architecture",
         "unit": null,
         "source_section": "Chip",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "motion_coprocessor": {
         "value": "Embedded M9 motion coprocessor",
         "unit": null,
         "source_section": "Chip",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
+      }
+    },
+    "battery": {
+      "talk_time_3g": {
+        "value": 14,
+        "unit": "hours",
+        "source_section": "Power and Battery6",
+        "verification_status": "content_verified"
+      },
+      "internet_use": {
+        "value": "3G/LTE: up to 10 hours; Wi‑Fi: up to 11 hours",
+        "unit": null,
+        "source_section": "Power and Battery6",
+        "verification_status": "content_verified"
+      },
+      "video_playback_max": {
+        "value": 11,
+        "unit": "hours",
+        "source_section": "Power and Battery6",
+        "verification_status": "content_verified"
+      },
+      "audio_playback_max": {
+        "value": 50,
+        "unit": "hours",
+        "source_section": "Power and Battery6",
+        "verification_status": "content_verified"
+      },
+      "standby_max": {
+        "value": 10,
+        "unit": "days",
+        "source_section": "Power and Battery6",
+        "verification_status": "content_verified"
+      }
+    },
+    "connectivity": {
+      "models_listed": {
+        "value": "A1633 and A1688",
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified",
+        "notes": "Model numbers listed on Apple’s page; regional configurations."
+      },
+      "wifi": {
+        "value": "802.11ac Wi‑Fi with MIMO",
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified"
+      },
+      "bluetooth": {
+        "value": "4.2",
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified"
+      },
+      "nfc": {
+        "value": true,
+        "unit": null,
+        "source_section": "Cellular and Wireless",
+        "verification_status": "content_verified"
+      }
+    },
+    "charging": {
+      "connector": {
+        "value": "Lightning",
+        "unit": null,
+        "source_section": "External Buttons and Connectors",
+        "verification_status": "content_verified"
+      },
+      "headphone_jack": {
+        "value": true,
+        "unit": null,
+        "source_section": "External Buttons and Connectors",
+        "verification_status": "content_verified"
+      }
+    },
+    "in_box": {
+      "power_adapter_included": {
+        "value": true,
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "content_verified"
       }
     }
-  }
+  },
+  "record_notes": [
+    "2026-11-06 audit: full source-section and footnote review completed, sections rebuilt from retained Markdown, and core battery/wireless/connector/in-box fields added. Embedded outbound links remain pending."
+  ]
 }
