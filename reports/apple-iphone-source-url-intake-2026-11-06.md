@@ -102,3 +102,10 @@ Some records previously used a different Apple locale (such as en-gb, en-by, en-
 ## Addendum — 6 November 2026: missing source Markdown supplied
 
 The project owner supplied the iPhone 6 and iPhone 16e Markdown transcriptions. Both have been committed unchanged under `sources/apple/iphone/`, and matching v2 archival JSON records have been added under `data/apple/iphone/`. Both JSON records retain the supplied Ireland Support URLs and are explicitly marked `not_checked`; this is source intake, not factual verification.
+
+
+## Addendum — 6 November 2026: initial live-page checks completed
+
+The supplied Ireland Support URLs for iPhone 6 (`https://support.apple.com/en-ie/111954`) and iPhone 16e (`https://support.apple.com/en-ie/122208`) were opened. Both page titles match the expected model. Core specifications (finish, capacities, dimensions/weight, display, chip, camera/video, connectivity, battery/charging, and major hardware features) were compared with the live pages; no discrepancy was found in the fields reviewed.
+
+The records `data/apple/iphone/iphone-6.json` and `data/apple/iphone/iphone-16e.json` have been updated to `partially_verified` with the check date and scope recorded. Full section-by-section transcription, footnote/link, and normalized-field verification is still pending. Do not interpret this partial check as `content_verified`.
