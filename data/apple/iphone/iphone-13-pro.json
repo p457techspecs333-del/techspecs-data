@@ -28,16 +28,16 @@
     "source_title": "iPhone 13 Pro - Technical Specifications",
     "publisher": "Apple Support (Ireland)",
     "published_at": null,
-    "checked_at": "2026-11-05",
+    "checked_at": "2026-11-06",
     "verification_status": "content_verified",
-    "verification_notes": "Official Apple Support Ireland technical specifications page checked. Only the normalized fields listed here were compared; the full archived source text has not been audited line by line."
+    "verification_notes": "Full section-level content check completed against the official Ireland Apple Support page on 2026-11-06. All 34 archived specification sections, including the long Languages and iPhone and the Environment sections and footnotes, were reviewed against the live page. The previously normalized dimensions, display, chip and water-resistance fields were checked and match the cited sections. The archival record has no separate source_file Markdown; its retained section text is in this JSON. Embedded outbound links have not all been individually opened and checked."
   },
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
-    "note": "Original source sections retained. Only a limited set of normalized fields was checked against official specifications; this is not full-record verification.",
+    "note": "Original section-preserving content retained in this JSON. Full source-section and footnote review against the official Ireland Apple Support page completed on 2026-11-06. Existing normalized fields were rechecked against their named source sections and match. Embedded outbound links remain a separate audit task.",
     "extracted_at": "2026-11-05",
-    "reviewed_at": "2026-11-05"
+    "reviewed_at": "2026-11-06"
   },
   "sections": [
     {
@@ -253,5 +253,8 @@
         "notes": "Up to 30 minutes under IEC standard 60529."
       }
     }
-  }
+  },
+  "record_notes": [
+    "2026-11-06: completed full source-content and footnote review against the official Ireland Apple Support page. Existing normalized dimensions, display, chip, and water-resistance fields were rechecked; embedded outbound links remain pending."
+  ]
 }
