@@ -244,3 +244,8 @@ Reviewed the full official Ireland iPhone 17e specifications page and footnotes.
 ### Addendum — 6 November 2026: iPhone 12 and iPhone 13 mini
 
 Reviewed both official Apple Support Ireland specification pages and their footnotes. Corrected malformed section structure: `Face ID` under Sensors and `Camera`/`Siri` under Built-in Apps are now preserved as list items rather than section headings. The iPhone 13 mini environmental section was separated from In the Box. Core normalized dimensions, display, chip and water-resistance values were rechecked, and finishes, storage options and model numbers were recorded. Embedded outbound link destinations remain to be checked individually.
+
+
+### Addendum — 6 November 2026: iPhone 17 Pro, Pro Max and Air
+
+Completed section-level source and footnote reviews for the iPhone 17 Pro, iPhone 17 Pro Max and iPhone Air official Ireland pages. The Pro and Pro Max archived Markdown section text matches the JSON sections exactly. Core normalized fields were checked and supplemented with battery/wireless values for the Pro pair. The Apple page lists A3523 and A3526 together, so the register records them as listed model numbers without assuming which maps to which size. For iPhone Air, added A3517, processor-core, modem/wireless, charging and battery-with-accessory fields. Embedded outbound links remain to be audited individually.
