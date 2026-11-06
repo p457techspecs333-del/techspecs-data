@@ -5,7 +5,8 @@
 ## Machine interface
 
 - [Machine retrieval manifest](https://data.techspecs.dev/api-manifest.json): authoritative description of the read-only machine interface, its resources and retrieval rules.
-- [Product catalogue](https://data.techspecs.dev/catalogue.json): machine-readable index of published product records.
+- [Product catalogue](https://data.techspecs.dev/catalogue.json): machine-readable index of published product records and their canonical versioned retrieval URLs.
+- [Versioned product records](https://data.techspecs.dev/api/v1/products/): static, read-only `/api/v1/` product retrieval route.
 - [Product record schema v2](https://data.techspecs.dev/schemas/product-record-v2.schema.json): JSON Schema for archival-first product records with optional normalized specifications.
 - [Independent knowledge model](https://github.com/p457techspecs333-del/techspecs-data/blob/main/docs/TECHSPECS-INDEPENDENT-KNOWLEDGE-MODEL.md): design principles for evidence, normalization, provenance and cross-brand interoperability.
 
@@ -17,14 +18,14 @@ The current published product collection includes Apple iPhone records across mu
 
 1. Retrieve the catalogue.
 2. Identify the exact record using its record_id, product identity and category.
-3. Fetch the exact URL in that catalogue entry.
+3. Fetch the exact versioned URL in that catalogue entry (`/api/v1/products/{product-id}.json`).
 4. Interpret the record using the published JSON Schema.
 5. Preserve the distinction between source text, normalized values, derived values and verification status.
 
 Example record:
-- https://data.techspecs.dev/apple/iphone/iphone-17.json
+- https://data.techspecs.dev/api/v1/products/iphone-17.json
 
-Do not guess a record URL or assume a product exists solely from a guessed filename.
+The catalogue also retains each record's legacy URL for backwards compatibility. Do not guess a record URL or assume a product exists solely from a guessed filename.
 
 ## Data interpretation
 
