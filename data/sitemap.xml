@@ -4,6 +4,56 @@
   <url><loc>https://data.techspecs.dev/catalogue.json</loc></url>
   <url><loc>https://data.techspecs.dev/llms.txt</loc></url>
   <url><loc>https://data.techspecs.dev/schemas/product-record-v2.schema.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-11-pro-max.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-11-pro.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-11.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-12-mini.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-12-pro-max.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-12-pro.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-12.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-13-mini.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-13-pro-max.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-13-pro.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-13.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-14-plus.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-14-pro-max.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-14-pro.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-14.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-15-plus.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-15-pro-max.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-15-pro.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-15.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-16-plus.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-16-pro-max.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-16-pro.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-16.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-16e.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-17-pro-max.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-17-pro.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-17.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-17e.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-18-pro-max.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-18-pro.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-5.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-5c.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-5s.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-6-plus.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-6.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-6s-plus.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-6s.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-7-plus.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-7.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-8-plus.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-8.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-air.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-duo.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-se-1st-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-se-2nd-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-se-3rd-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-x.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-xr.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-xs-max.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/iphone-xs.json</loc></url>
   <url><loc>https://data.techspecs.dev/apple/iphone/iphone-11-pro-max.json</loc></url>
   <url><loc>https://data.techspecs.dev/apple/iphone/iphone-11-pro.json</loc></url>
   <url><loc>https://data.techspecs.dev/apple/iphone/iphone-11.json</loc></url>

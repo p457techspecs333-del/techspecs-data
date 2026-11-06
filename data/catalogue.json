@@ -9,7 +9,8 @@
     {
       "record_id": "apple/iphone/iphone-11-pro-max",
       "path": "apple/iphone/iphone-11-pro-max.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-11-pro-max.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-11-pro-max.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-11-pro-max.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -30,7 +31,8 @@
     {
       "record_id": "apple/iphone/iphone-11-pro",
       "path": "apple/iphone/iphone-11-pro.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-11-pro.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-11-pro.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-11-pro.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -51,7 +53,8 @@
     {
       "record_id": "apple/iphone/iphone-11",
       "path": "apple/iphone/iphone-11.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-11.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-11.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-11.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -72,7 +75,8 @@
     {
       "record_id": "apple/iphone/iphone-12-mini",
       "path": "apple/iphone/iphone-12-mini.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-12-mini.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-12-mini.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-12-mini.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -93,7 +97,8 @@
     {
       "record_id": "apple/iphone/iphone-12-pro-max",
       "path": "apple/iphone/iphone-12-pro-max.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-12-pro-max.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-12-pro-max.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-12-pro-max.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -114,7 +119,8 @@
     {
       "record_id": "apple/iphone/iphone-12-pro",
       "path": "apple/iphone/iphone-12-pro.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-12-pro.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-12-pro.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-12-pro.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -135,7 +141,8 @@
     {
       "record_id": "apple/iphone/iphone-12",
       "path": "apple/iphone/iphone-12.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-12.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-12.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-12.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -156,7 +163,8 @@
     {
       "record_id": "apple/iphone/iphone-13-mini",
       "path": "apple/iphone/iphone-13-mini.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-13-mini.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-13-mini.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-13-mini.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -177,7 +185,8 @@
     {
       "record_id": "apple/iphone/iphone-13-pro-max",
       "path": "apple/iphone/iphone-13-pro-max.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-13-pro-max.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-13-pro-max.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-13-pro-max.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -198,7 +207,8 @@
     {
       "record_id": "apple/iphone/iphone-13-pro",
       "path": "apple/iphone/iphone-13-pro.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-13-pro.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-13-pro.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-13-pro.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -219,7 +229,8 @@
     {
       "record_id": "apple/iphone/iphone-13",
       "path": "apple/iphone/iphone-13.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-13.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-13.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-13.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -240,7 +251,8 @@
     {
       "record_id": "apple/iphone/iphone-14-plus",
       "path": "apple/iphone/iphone-14-plus.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-14-plus.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-14-plus.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-14-plus.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -261,7 +273,8 @@
     {
       "record_id": "apple/iphone/iphone-14-pro-max",
       "path": "apple/iphone/iphone-14-pro-max.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-14-pro-max.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-14-pro-max.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-14-pro-max.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -282,7 +295,8 @@
     {
       "record_id": "apple/iphone/iphone-14-pro",
       "path": "apple/iphone/iphone-14-pro.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-14-pro.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-14-pro.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-14-pro.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -303,7 +317,8 @@
     {
       "record_id": "apple/iphone/iphone-14",
       "path": "apple/iphone/iphone-14.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-14.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-14.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-14.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -324,7 +339,8 @@
     {
       "record_id": "apple/iphone/iphone-15-plus",
       "path": "apple/iphone/iphone-15-plus.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-15-plus.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-15-plus.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-15-plus.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -345,7 +361,8 @@
     {
       "record_id": "apple/iphone/iphone-15-pro-max",
       "path": "apple/iphone/iphone-15-pro-max.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-15-pro-max.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-15-pro-max.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-15-pro-max.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -366,7 +383,8 @@
     {
       "record_id": "apple/iphone/iphone-15-pro",
       "path": "apple/iphone/iphone-15-pro.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-15-pro.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-15-pro.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-15-pro.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -387,7 +405,8 @@
     {
       "record_id": "apple/iphone/iphone-15",
       "path": "apple/iphone/iphone-15.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-15.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-15.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-15.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -408,7 +427,8 @@
     {
       "record_id": "apple/iphone/iphone-16-plus",
       "path": "apple/iphone/iphone-16-plus.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-16-plus.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-16-plus.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-16-plus.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -429,7 +449,8 @@
     {
       "record_id": "apple/iphone/iphone-16-pro-max",
       "path": "apple/iphone/iphone-16-pro-max.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-16-pro-max.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-16-pro-max.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-16-pro-max.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -450,7 +471,8 @@
     {
       "record_id": "apple/iphone/iphone-16-pro",
       "path": "apple/iphone/iphone-16-pro.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-16-pro.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-16-pro.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-16-pro.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -471,7 +493,8 @@
     {
       "record_id": "apple/iphone/iphone-16",
       "path": "apple/iphone/iphone-16.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-16.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-16.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-16.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -492,7 +515,8 @@
     {
       "record_id": "apple/iphone/iphone-16e",
       "path": "apple/iphone/iphone-16e.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-16e.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-16e.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-16e.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -513,7 +537,8 @@
     {
       "record_id": "apple/iphone/iphone-17-pro-max",
       "path": "apple/iphone/iphone-17-pro-max.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-17-pro-max.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-17-pro-max.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-17-pro-max.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -534,7 +559,8 @@
     {
       "record_id": "apple/iphone/iphone-17-pro",
       "path": "apple/iphone/iphone-17-pro.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-17-pro.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-17-pro.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-17-pro.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -555,7 +581,8 @@
     {
       "record_id": "apple/iphone/iphone-17",
       "path": "apple/iphone/iphone-17.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-17.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-17.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-17.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -576,7 +603,8 @@
     {
       "record_id": "apple/iphone/iphone-17e",
       "path": "apple/iphone/iphone-17e.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-17e.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-17e.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-17e.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -597,7 +625,8 @@
     {
       "record_id": "apple/iphone/iphone-18-pro-max",
       "path": "apple/iphone/iphone-18-pro-max.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-18-pro-max.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-18-pro-max.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-18-pro-max.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -618,7 +647,8 @@
     {
       "record_id": "apple/iphone/iphone-18-pro",
       "path": "apple/iphone/iphone-18-pro.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-18-pro.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-18-pro.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-18-pro.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -639,7 +669,8 @@
     {
       "record_id": "apple/iphone/iphone-5",
       "path": "apple/iphone/iphone-5.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-5.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-5.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-5.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -660,7 +691,8 @@
     {
       "record_id": "apple/iphone/iphone-5c",
       "path": "apple/iphone/iphone-5c.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-5c.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-5c.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-5c.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -681,7 +713,8 @@
     {
       "record_id": "apple/iphone/iphone-5s",
       "path": "apple/iphone/iphone-5s.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-5s.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-5s.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-5s.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -702,7 +735,8 @@
     {
       "record_id": "apple/iphone/iphone-6-plus",
       "path": "apple/iphone/iphone-6-plus.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-6-plus.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-6-plus.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-6-plus.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -723,7 +757,8 @@
     {
       "record_id": "apple/iphone/iphone-6",
       "path": "apple/iphone/iphone-6.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-6.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-6.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-6.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -744,7 +779,8 @@
     {
       "record_id": "apple/iphone/iphone-6s-plus",
       "path": "apple/iphone/iphone-6s-plus.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-6s-plus.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-6s-plus.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-6s-plus.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -765,7 +801,8 @@
     {
       "record_id": "apple/iphone/iphone-6s",
       "path": "apple/iphone/iphone-6s.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-6s.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-6s.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-6s.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -786,7 +823,8 @@
     {
       "record_id": "apple/iphone/iphone-7-plus",
       "path": "apple/iphone/iphone-7-plus.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-7-plus.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-7-plus.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-7-plus.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -807,7 +845,8 @@
     {
       "record_id": "apple/iphone/iphone-7",
       "path": "apple/iphone/iphone-7.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-7.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-7.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-7.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -828,7 +867,8 @@
     {
       "record_id": "apple/iphone/iphone-8-plus",
       "path": "apple/iphone/iphone-8-plus.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-8-plus.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-8-plus.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-8-plus.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -849,7 +889,8 @@
     {
       "record_id": "apple/iphone/iphone-8",
       "path": "apple/iphone/iphone-8.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-8.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-8.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-8.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -870,7 +911,8 @@
     {
       "record_id": "apple/iphone/iphone-air",
       "path": "apple/iphone/iphone-air.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-air.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-air.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-air.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -891,7 +933,8 @@
     {
       "record_id": "apple/iphone/iphone-duo",
       "path": "apple/iphone/iphone-duo.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-duo.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-duo.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-duo.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -912,7 +955,8 @@
     {
       "record_id": "apple/iphone/iphone-se-1st-generation",
       "path": "apple/iphone/iphone-se-1st-generation.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-se-1st-generation.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-se-1st-generation.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-se-1st-generation.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -933,7 +977,8 @@
     {
       "record_id": "apple/iphone/iphone-se-2nd-generation",
       "path": "apple/iphone/iphone-se-2nd-generation.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-se-2nd-generation.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-se-2nd-generation.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-se-2nd-generation.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -954,7 +999,8 @@
     {
       "record_id": "apple/iphone/iphone-se-3rd-generation",
       "path": "apple/iphone/iphone-se-3rd-generation.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-se-3rd-generation.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-se-3rd-generation.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-se-3rd-generation.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -975,7 +1021,8 @@
     {
       "record_id": "apple/iphone/iphone-x",
       "path": "apple/iphone/iphone-x.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-x.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-x.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-x.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -996,7 +1043,8 @@
     {
       "record_id": "apple/iphone/iphone-xr",
       "path": "apple/iphone/iphone-xr.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-xr.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-xr.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-xr.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -1017,7 +1065,8 @@
     {
       "record_id": "apple/iphone/iphone-xs-max",
       "path": "apple/iphone/iphone-xs-max.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-xs-max.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-xs-max.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-xs-max.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
@@ -1038,7 +1087,8 @@
     {
       "record_id": "apple/iphone/iphone-xs",
       "path": "apple/iphone/iphone-xs.json",
-      "url": "https://data.techspecs.dev/apple/iphone/iphone-xs.json",
+      "url": "https://data.techspecs.dev/api/v1/products/iphone-xs.json",
+      "legacy_url": "https://data.techspecs.dev/apple/iphone/iphone-xs.json",
       "schema_version": "2.0",
       "brand": "Apple",
       "category": "smartphone",
