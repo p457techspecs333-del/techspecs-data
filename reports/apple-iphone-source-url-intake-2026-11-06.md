@@ -10,7 +10,7 @@
 - URLs for existing records have been added or corrected where the exact Ireland URL was supplied and the model match was established.
 - `url_checked` means the source page was identified as the matching model; it does **not** mean every specification has been compared.
 - Three newer source IDs (148590, 148591, 148588) were associated with likely model names by search results, but the direct Apple page retrieval did not complete in this session. Keep these as pending direct URL checks.
-- Two supplied URLs point to products without records in the current data directory: **iPhone 6** and **iPhone 16e**. Preserve the URLs here; do not invent product records from the links alone.
+- The previously missing **iPhone 6** and **iPhone 16e** records and source Markdown have now been added from user-supplied transcriptions. Their URLs remain recorded, but their live pages and individual fields are not yet verified.
 - Specification-level review remains separate from URL assignment.
 
 ## URL register
@@ -21,7 +21,7 @@
 | 2 | https://support.apple.com/en-ie/148590 | iPhone 18 Pro (candidate match) | Pending direct Apple page retrieval; existing record source requires review |
 | 3 | https://support.apple.com/en-ie/148591 | iPhone 18 Pro Max (candidate match) | Pending direct Apple page retrieval; existing record source requires review |
 | 4 | https://support.apple.com/en-ie/148588 | iPhone Duo (candidate match) | Pending direct Apple page retrieval; existing record source requires review |
-| 5 | https://support.apple.com/en-ie/122208 | iPhone 16e | Apple page identified, but no iPhone 16e JSON/source Markdown record exists yet |
+| 5 | https://support.apple.com/en-ie/122208 | iPhone 16e | Added `data/apple/iphone/iphone-16e.json` and `sources/apple/iphone/iphone-16e-source.md` from supplied transcription; not independently verified |
 | 6 | https://support.apple.com/en-ie/125089 | iPhone 17 | Existing record already has this source URL |
 | 7 | https://support.apple.com/en-ie/125090 | iPhone 17 Pro | Assigned to `data/apple/iphone/iphone-17-pro.json` |
 | 8 | https://support.apple.com/en-ie/125091 | iPhone 17 Pro Max | Assigned to `data/apple/iphone/iphone-17-pro-max.json`; corrected previous URL that pointed to the Pro page |
@@ -62,7 +62,7 @@
 | 43 | https://support.apple.com/en-ie/112005 | iPhone SE (1st generation) | Assigned to `data/apple/iphone/iphone-se-1st-generation.json` |
 | 44 | https://support.apple.com/en-ie/111952 | iPhone 6s | Assigned to `data/apple/iphone/iphone-6s.json` |
 | 45 | https://support.apple.com/en-ie/111996 | iPhone 6s Plus | Assigned to `data/apple/iphone/iphone-6s-plus.json` |
-| 46 | https://support.apple.com/en-ie/111954 | iPhone 6 | Apple page identified, but no standard iPhone 6 JSON/source Markdown record exists yet |
+| 46 | https://support.apple.com/en-ie/111954 | iPhone 6 | Added `data/apple/iphone/iphone-6.json` and `sources/apple/iphone/iphone-6-source.md` from supplied transcription; not independently verified |
 | 47 | https://support.apple.com/en-ie/111940 | iPhone 6 Plus | Existing record already has this source URL |
 
 ## Changes committed to product records
@@ -93,7 +93,12 @@ Some records previously used a different Apple locale (such as en-gb, en-by, en-
 ## What is still missing
 
 1. **Direct URL checks** for the three 1485xx URLs. Search results suggest iPhone 18 Pro, iPhone 18 Pro Max and iPhone Duo respectively, but the direct page fetch did not complete; do not promote these to verified until checked.
-2. **Two product records and their source Markdown:** standard iPhone 6 and iPhone 16e. Their URLs are captured above, but the current repository does not contain those product records.
+2. **Source verification for iPhone 6 and iPhone 16e:** archival JSON records and source Markdown are now present. Verify the supplied URLs and compare fields against the live pages before changing their status.
 3. **Specification comparison:** compare each source page against the record, field by field, and mark only the fields actually checked. A source URL alone does not make a record content-verified.
 4. **Audit and validation refresh:** regenerate the catalogue audit after these source updates and ensure the validation workflow passes.
 
+
+
+## Addendum — 6 November 2026: missing source Markdown supplied
+
+The project owner supplied the iPhone 6 and iPhone 16e Markdown transcriptions. Both have been committed unchanged under `sources/apple/iphone/`, and matching v2 archival JSON records have been added under `data/apple/iphone/`. Both JSON records retain the supplied Ireland Support URLs and are explicitly marked `not_checked`; this is source intake, not factual verification.
