@@ -14,7 +14,7 @@ This register tracks verification of the 50 product JSON records in `data/apple/
 ## Current snapshot
 
 - Catalogue size: **50 JSON records**.
-- Full section-level content reviewed in this pass: **22** — iPhone 6 (33 sections), iPhone 12 (35 sections), iPhone 13 mini (36 sections), iPhone 13 Pro (34 sections), iPhone 14 (35 sections), iPhone 14 Plus (35 sections), iPhone 14 Pro (36 sections), iPhone 14 Pro Max (36 sections), iPhone 15 (36 sections), iPhone 15 Plus (36 sections), iPhone 15 Pro (37 sections), iPhone 15 Pro Max (37 sections), iPhone 16 (37 sections), iPhone 16 Plus (37 sections), iPhone 16 Pro (37 sections), iPhone 16 Pro Max (37 sections), iPhone 16e (35 sections), iPhone 17 (37 sections after correcting a malformed section split), iPhone 17e (37 sections), iPhone 17 Pro (37 sections), iPhone 17 Pro Max (37 sections), and iPhone Air (36 sections), including long-form environmental/language sections and footnotes. In both cases, the JSON section headings and source text match the archived Markdown exactly.
+- Full section-level content reviewed in this pass: **27** — iPhone 6 (33 sections), iPhone 12 (35 sections), iPhone 12 mini (35 sections), iPhone 12 Pro (35 sections), iPhone 12 Pro Max (35 sections), iPhone 13 (34 sections), iPhone 13 mini (36 sections), iPhone 13 Pro (34 sections), iPhone 13 Pro Max (35 sections), iPhone 14 (35 sections), iPhone 14 Plus (35 sections), iPhone 14 Pro (36 sections), iPhone 14 Pro Max (36 sections), iPhone 15 (36 sections), iPhone 15 Plus (36 sections), iPhone 15 Pro (37 sections), iPhone 15 Pro Max (37 sections), iPhone 16 (37 sections), iPhone 16 Plus (37 sections), iPhone 16 Pro (37 sections), iPhone 16 Pro Max (37 sections), iPhone 16e (35 sections), iPhone 17 (37 sections after correcting a malformed section split), iPhone 17e (37 sections), iPhone 17 Pro (37 sections), iPhone 17 Pro Max (37 sections), and iPhone Air (36 sections), including long-form environmental/language sections and footnotes. In both cases, the JSON section headings and source text match the archived Markdown exactly.
 - iPhone 13 Pro has now been re-audited against its official Ireland Apple Support page; its previously normalized fields and full archived sections were checked.
 - Other records remain pending field-by-field content review even if their URLs have previously been checked.
 - Core normalized fields have been added to iPhone 6 and iPhone 16e with per-field `content_verified` statuses and source-section references. This is partial normalization; remaining fields and embedded links still need audit.
@@ -44,14 +44,14 @@ This register tracks verification of the 50 product JSON records in `data/apple/
 | iPhone 11 Pro Max | `url_checked` | https://support.apple.com/en-ie/111878 | pending |
 | iPhone SE (1st generation) | `url_checked` | https://support.apple.com/en-ie/112005 | pending |
 | iPhone 12 | `content_verified` | https://support.apple.com/en-ie/111876 | corrected false Face ID/Camera headings; core fields checked; outbound links pending |
-| iPhone 12 mini | `url_checked` | https://support.apple.com/en-ie/111877 | pending |
-| iPhone 12 Pro | `url_checked` | https://support.apple.com/en-ie/111875 | pending |
-| iPhone 12 Pro Max | `url_checked` | https://support.apple.com/en-ie/111874 | pending |
+| iPhone 12 mini | `content_verified` | https://support.apple.com/en-ie/111877 | 22 normalized fields; battery/connectivity/charging checked |
+| iPhone 12 Pro | `content_verified` | https://support.apple.com/en-ie/111875 | 22 normalized fields; battery/connectivity/charging checked |
+| iPhone 12 Pro Max | `content_verified` | https://support.apple.com/en-ie/111874 | 22 normalized fields; battery/connectivity/charging checked |
 | iPhone SE (2nd generation) | `url_checked` | https://support.apple.com/en-ie/111882 | source-file reference warning; content audit pending |
-| iPhone 13 | `url_checked` | https://support.apple.com/en-ie/111872 | pending |
+| iPhone 13 | `content_verified` | https://support.apple.com/en-ie/111872 | 22 normalized fields; battery/connectivity/charging checked |
 | iPhone 13 mini | `content_verified` | https://support.apple.com/en-ie/111873 | corrected false Face ID/Camera/Siri headings and separated environment section; core fields checked |
 | iPhone 13 Pro | `content_verified` | https://support.apple.com/en-ie/111871 | source content and existing normalized fields checked; embedded links pending |
-| iPhone 13 Pro Max | `url_checked` | https://support.apple.com/en-ie/111870 | pending |
+| iPhone 13 Pro Max | `content_verified` | https://support.apple.com/en-ie/111870 | 23 normalized fields; battery/connectivity/charging checked |
 | iPhone SE (3rd generation) | `url_checked` | https://support.apple.com/en-ie/111866 | source-file reference warning; content audit pending |
 | iPhone 14 | `content_verified` | https://support.apple.com/en-ie/111850 | 22 normalized fields; battery/connectivity/charging checked |
 | iPhone 14 Plus | `content_verified` | https://support.apple.com/en-ie/111854 | 22 normalized fields; battery/connectivity/charging checked |
@@ -154,3 +154,8 @@ Reviewed the full official Apple Support Ireland specifications pages and footno
 ## Addendum — 6 November 2026: iPhone 14 family and iPhone 15 Plus
 
 Reviewed the full official Apple Support Ireland specification pages and footnotes for iPhone 14, iPhone 14 Plus, iPhone 14 Pro, iPhone 14 Pro Max and iPhone 15 Plus. Rebuilt JSON sections from the retained Markdown archives, checked the existing dimensions/display/chip/camera/durability values, and added battery, connectivity, model numbers listed, and charging fields. Shared wireless sections list model numbers for both size variants; these are retained as listed without assigning a specific number to a specific size. Embedded outbound link destinations remain to be audited individually.
+
+
+## Addendum — 6 November 2026: iPhone 12 mini/Pro family and iPhone 13/Pro Max
+
+Reviewed all specification sections and footnotes for iPhone 12 mini, iPhone 12 Pro, iPhone 12 Pro Max, iPhone 13 and iPhone 13 Pro Max against their official Apple Support Ireland pages. Rebuilt each JSON section array from the archived Markdown, cleaned heading markup, and checked existing dimensions, display, chip, camera and durability values. Added battery, wireless and connector fields with exact source-section references. Model numbers are recorded as displayed by Apple with notes where the listed identifiers are regional variants, not necessarily Irish retail configurations. Embedded outbound link destinations remain a separate audit task.
