@@ -28,9 +28,9 @@
     "source_title": "iPhone 14 - Tech Specs",
     "publisher": "Apple Support (Ireland)",
     "published_at": null,
-    "checked_at": "2026-11-05",
-    "verification_status": "content_verified",
-    "verification_notes": "Official Apple Support Ireland technical specifications page checked. Only the normalized fields listed here were compared; the full archived source text has not been audited line by line."
+    "checked_at": "2026-11-06",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple technical-specifications page located and checked for model match on 2026-11-06. Individual normalized specifications have not yet been fully audited against the page."
   },
   "extraction": {
     "method": "section_preserving",
