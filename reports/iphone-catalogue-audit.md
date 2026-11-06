@@ -203,3 +203,10 @@ The project owner supplied the previously missing Markdown transcriptions. The r
 - `sources/apple/iphone/iphone-16e-source.md` and `data/apple/iphone/iphone-16e.json` (36 preserved sections).
 
 The JSON records use the v2 archival-first structure, point to the preserved Markdown files, and retain the supplied Ireland URLs (iPhone 6: `https://support.apple.com/en-ie/111954`; iPhone 16e: `https://support.apple.com/en-ie/122208`). Their source verification status is `not_checked`: the transcriptions were supplied by the project owner, and neither live-page matching nor field-by-field verification is claimed. The source Markdown is preserved verbatim as supplied.
+
+
+### Addendum — 6 November 2026: initial live-source checks
+
+The Ireland Apple Support pages for [iPhone 6](https://support.apple.com/en-ie/111954) and [iPhone 16e](https://support.apple.com/en-ie/122208) were opened and their titles/model identities confirmed. Core specifications were compared against the live pages: finish, capacities, dimensions and weight, display, processor, camera/video capabilities, connectivity, battery/charging, and major hardware features. No discrepancy was found in the core fields reviewed.
+
+Both records now use `partially_verified`, with the check date and scope recorded in their provenance metadata. This is **not** a claim that every section, footnote, link, or normalized field has been verified. Full long-form transcription and normalized-field audits remain open.
