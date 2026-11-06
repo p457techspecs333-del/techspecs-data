@@ -7,23 +7,34 @@
     "model": "iPhone SE (3rd generation)",
     "model_slug": "iphone-se-3rd-generation",
     "model_year": 2022,
-    "year_introduced": 2022
+    "year_introduced": 2022,
+    "finishes": [
+      "Midnight",
+      "Starlight",
+      "(PRODUCT)RED"
+    ],
+    "storage_options": [
+      "64GB",
+      "128GB",
+      "256GB"
+    ]
   },
   "source": {
     "source_type": "user_supplied_document",
-    "source_url": "https://support.apple.com/en-ie/111866",
-    "verification_status": "url_checked",
+    "source_url": "https://support.apple.com/en-gb/111866",
+    "verification_status": "partially_verified",
     "checked_at": "2026-11-06",
     "source_file": "sources/apple/iphone/iphone-se-generation/iphone-se-3rd-generation-source.md",
     "source_title": "iPhone SE (3rd generation) - Technical Specifications",
-    "publisher": "Apple Support (Ireland)",
-    "verification_notes": "Official Apple Support Ireland technical-specifications URL supplied by the project owner and matched to this model. URL-level source identification only; normalized specifications have not all been compared field by field. 2026-11-06 repository integrity check corrected the source_file reference to the existing archived Markdown path. This fixes provenance linkage only; field-by-field factual verification remains pending."
+    "publisher": "Apple Support (UK)",
+    "verification_notes": "The supplied Ireland URL https://support.apple.com/en-ie/111866 could not be retrieved in this pass. The official Apple Support UK page for iPhone SE (3rd generation) was opened and all 32 retained specification sections and footnotes were checked against it. Core dimensions, display, A15 Bionic chip, camera, IP67 rating, battery, wireless and in-box details match. The UK page lists model A2783; Irish-specific model-number mapping remains unconfirmed, so overall status stays partially_verified. The user-supplied archival Markdown has been preserved unchanged. Embedded outbound link destinations have not all been individually opened."
   },
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
     "extracted_at": "2026-11-05",
-    "note": "Original sections are preserved verbatim. Selected fields are normalized from those sections only; source transcription is not independent factual verification."
+    "note": "Core fields added from official Apple Support UK page after the supplied Ireland URL could not be retrieved. The archived Ireland transcription is preserved unchanged; locale-specific model mapping and embedded outbound links remain pending.",
+    "reviewed_at": "2026-11-06"
   },
   "sections": [
     {
@@ -161,25 +172,25 @@
         "value": 67.3,
         "unit": "mm",
         "source_section": "Size and Weight2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "height": {
         "value": 138.4,
         "unit": "mm",
         "source_section": "Size and Weight2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "depth": {
         "value": 7.3,
         "unit": "mm",
         "source_section": "Size and Weight2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "weight": {
         "value": 144,
         "unit": "g",
         "source_section": "Size and Weight2",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       }
     },
     "display": {
@@ -187,37 +198,37 @@
         "value": "Retina HD LCD with IPS",
         "unit": null,
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "diagonal": {
         "value": 4.7,
         "unit": "in",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "resolution": {
         "value": "1334 × 750",
         "unit": "pixels",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "pixel_density": {
         "value": 326,
         "unit": "ppi",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "contrast_ratio": {
         "value": "1400:1",
         "unit": null,
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "brightness": {
         "value": 625,
         "unit": "nits (typical)",
         "source_section": "Display",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       }
     },
     "processor": {
@@ -225,25 +236,25 @@
         "value": "A15 Bionic",
         "unit": null,
         "source_section": "Chip",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "cpu_cores": {
         "value": 6,
         "unit": "cores",
         "source_section": "Chip",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "gpu_cores": {
         "value": 4,
         "unit": "cores",
         "source_section": "Chip",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "neural_engine_cores": {
         "value": 16,
         "unit": "cores",
         "source_section": "Chip",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       }
     },
     "durability": {
@@ -251,20 +262,123 @@
         "value": "IP67",
         "unit": null,
         "source_section": "Splash, Water and Dust Resistant3",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "depth": {
         "value": 1,
         "unit": "m",
         "source_section": "Splash, Water and Dust Resistant3",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
       },
       "duration": {
         "value": 30,
         "unit": "minutes",
         "source_section": "Splash, Water and Dust Resistant3",
-        "verification_status": "source_transcribed"
+        "verification_status": "content_verified"
+      }
+    },
+    "battery": {
+      "video_playback_max": {
+        "value": 15,
+        "unit": "hours",
+        "source_section": "Power and Battery9",
+        "verification_status": "content_verified"
+      },
+      "streamed_video_playback_max": {
+        "value": 10,
+        "unit": "hours",
+        "source_section": "Power and Battery9",
+        "verification_status": "content_verified"
+      },
+      "audio_playback_max": {
+        "value": 50,
+        "unit": "hours",
+        "source_section": "Power and Battery9",
+        "verification_status": "content_verified"
+      },
+      "fast_charge_50_percent_time": {
+        "value": 30,
+        "unit": "minutes",
+        "source_section": "Power and Battery9",
+        "verification_status": "content_verified",
+        "notes": "With a 20W adapter or higher; sold separately."
+      },
+      "wireless_charging_standard": {
+        "value": "Qi",
+        "unit": null,
+        "source_section": "Power and Battery9",
+        "verification_status": "content_verified"
+      }
+    },
+    "connectivity": {
+      "model_number": {
+        "value": "A2783",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "partially_verified",
+        "notes": "Model number shown on the official UK page; the Irish regional model mapping was not independently confirmed."
+      },
+      "wifi": {
+        "value": "Wi‑Fi 6 (802.11ax) with 2×2 MIMO",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      },
+      "bluetooth": {
+        "value": "5.0",
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      },
+      "nfc_reader_mode": {
+        "value": true,
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      },
+      "express_cards_with_power_reserve": {
+        "value": true,
+        "unit": null,
+        "source_section": "Mobile and Wireless",
+        "verification_status": "content_verified"
+      }
+    },
+    "charging": {
+      "connector": {
+        "value": "Lightning",
+        "unit": null,
+        "source_section": "External Buttons and Connectors",
+        "verification_status": "content_verified"
+      },
+      "headphone_jack": {
+        "value": false,
+        "unit": null,
+        "source_section": "External Buttons and Connectors",
+        "verification_status": "content_verified"
+      }
+    },
+    "in_box": {
+      "power_adapter_included": {
+        "value": false,
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "content_verified"
+      },
+      "earpods_included": {
+        "value": false,
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "content_verified"
+      },
+      "usb_c_to_lightning_cable_included": {
+        "value": true,
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "content_verified"
       }
     }
-  }
+  },
+  "record_notes": [
+    "2026-11-06: checked full official UK page and footnotes as a fallback because the supplied Ireland URL could not be retrieved. Core fields added; record remains partially_verified pending Ireland-specific model-number confirmation."
+  ]
 }
