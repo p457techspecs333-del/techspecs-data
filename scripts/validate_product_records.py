@@ -49,7 +49,7 @@ def main() -> int:
     # catalogue.json is a discovery document, not a product record.
     files = sorted(
         path for path in DATA_ROOT.rglob("*.json")
-        if path != CATALOGUE_PATH and path.name != "catalogue.json"
+        if path != CATALOGUE_PATH and path.name != "catalogue.json" and "schemas" not in path.relative_to(DATA_ROOT).parts
     ) if DATA_ROOT.exists() else []
     if not files:
         print("ERROR: no product JSON files found under data/")
