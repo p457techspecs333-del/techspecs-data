@@ -14,10 +14,10 @@
     "source_url": "https://support.apple.com/en-ie/111882",
     "verification_status": "url_checked",
     "checked_at": "2026-11-06",
-    "source_file": "iphone-se-2nd-generation.md",
+    "source_file": "sources/apple/iphone/iphone-se-generation/iphone-se-2nd-generation-source.md",
     "source_title": "iPhone SE (2nd generation) - Technical Specifications",
     "publisher": "Apple Support",
-    "verification_notes": "Official Apple technical-specifications page located and checked for model match on 2026-11-06. Individual normalized specifications have not yet been fully audited against the page."
+    "verification_notes": "Official Apple technical-specifications page located and checked for model match on 2026-11-06. Individual normalized specifications have not yet been fully audited against the page. 2026-11-06 repository integrity check corrected the source_file reference to the existing archived Markdown path. This fixes provenance linkage only; field-by-field factual verification remains pending."
   },
   "extraction": {
     "method": "section_preserving",
