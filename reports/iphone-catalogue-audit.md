@@ -216,6 +216,9 @@ Both records now use `partially_verified`, with the check date and scope recorde
 
 Created `reports/iphone-verification-register-2026-11-06.md` to track the full 50-record iPhone catalogue separately from comparison work. The register distinguishes URL checks, section-level source-content checks, normalized-field verification, embedded-link checks, and provenance integrity.
 
-The iPhone 6 and iPhone 16e records have completed a full section/footnote content review against their official Apple Support Ireland pages. Their JSON section headings and source text match their archived Markdown exactly. Embedded outbound links have not all been individually checked, and neither record yet has a normalized specification object; those tasks remain open.
+The iPhone 6 and iPhone 16e records have completed a full section/footnote content review against their official Apple Support Ireland pages. Their JSON section headings and source text match their archived Markdown exactly. Core normalized fields have now been added to both records with per-field verification statuses and source-section references. Embedded outbound links and remaining unnormalized fields have not all been checked and remain open.
 
 The source-file references for iPhone SE (2nd generation) and iPhone SE (3rd generation) were corrected. GitHub Actions run [#133](https://github.com/p457techspecs333-del/techspecs-data/actions/runs/42206257660) validates all 50 JSON records with zero schema errors and zero warnings. This is a structural result, not a claim that the remaining records are factually verified.
+
+
+A subsequent normalization pass added 26 core normalized fields across seven groups for iPhone 6 and 34 fields across eight groups for iPhone 16e. The work is intentionally partial; it does not imply that every specification or embedded link has been audited.
