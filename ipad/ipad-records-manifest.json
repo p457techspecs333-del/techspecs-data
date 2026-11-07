@@ -1,0 +1,166 @@
+{
+  "record_count": 40,
+  "records": [
+    {
+      "file": "ipad-10th-generation.json",
+      "sha256": "8f9868ae50acafec9d05b93a98a03ca545b322d90e6f70f26bb8ebb4fadc4048"
+    },
+    {
+      "file": "ipad-1st-generation.json",
+      "sha256": "14bfd76668b48cfad0ca4350d1c986760ba7e8d241992187f7d24128f280207e"
+    },
+    {
+      "file": "ipad-2.json",
+      "sha256": "56fc479c4b075083899611b8f253c87180198a5cfe460ba7cc9b460c882451f0"
+    },
+    {
+      "file": "ipad-3rd-generation.json",
+      "sha256": "bd28d1a87dfbc980f052bf92dea1b5a24a954f6de9f26a56f15758951e654f58"
+    },
+    {
+      "file": "ipad-5th-generation.json",
+      "sha256": "019533d88110633ffe06b1e6b73cf41c2cde21b2781bd2bae29119da1564211e"
+    },
+    {
+      "file": "ipad-6th-generation.json",
+      "sha256": "27528ae82f1229dda35a625e707eeb928343ba2b93c84ab922aa3e27bc6d07c2"
+    },
+    {
+      "file": "ipad-7th-generation.json",
+      "sha256": "e52bccb00c10895faf15a33da9352617579e90dfff3eccdca84f4e76d5b70c7e"
+    },
+    {
+      "file": "ipad-8th-generation.json",
+      "sha256": "c52de0361c3f36a013cbe49f9e091124d4ba39b768478830274a4b47ae2fe208"
+    },
+    {
+      "file": "ipad-9th-generation.json",
+      "sha256": "941d84efc8029076fabeabe694660dd824a19c04c303bb86cae8e10757e05795"
+    },
+    {
+      "file": "ipad-a16.json",
+      "sha256": "e94b0ef39886f225fd1499d15564366ddceb7e2f160fa94403e97d560b8d8b1c"
+    },
+    {
+      "file": "ipad-air-11-inch-m2.json",
+      "sha256": "24754692d0ef9d3aadddc7d348fb3b910f555a763ba1e9fdf847e795fb74c4d0"
+    },
+    {
+      "file": "ipad-air-11-inch-m3.json",
+      "sha256": "739d81b02aa541a9036ba5fb88dacbe546f86a38a7d09568e3b5169f2f4646d1"
+    },
+    {
+      "file": "ipad-air-11-inch-m4.json",
+      "sha256": "2c698d89f8f77bc5378e1ceba9eb4e873dbb95763ea6976245979a80c799bee1"
+    },
+    {
+      "file": "ipad-air-13-inch-m2.json",
+      "sha256": "6e80a60e678e797394059aed38c7f4d14c113c8764eb4c1354e2d832d46225f9"
+    },
+    {
+      "file": "ipad-air-13-inch-m3.json",
+      "sha256": "c8827bd4e8a7702f08ab5efe56c4b314f4e36a1339bc74b68df4a6a09180f58e"
+    },
+    {
+      "file": "ipad-air-13-inch-m4.json",
+      "sha256": "f78725f2f5196dd013c199df588d4bc103eabed012ea52b5d5028d1b86219904"
+    },
+    {
+      "file": "ipad-air-1st-generation.json",
+      "sha256": "b2fd4d7dddc1282b3a02a0b42068fb351081a4977fd791051c9d4e1bd75d68fb"
+    },
+    {
+      "file": "ipad-air-4th-generation.json",
+      "sha256": "f44f05bf5baac343763e91e73b64fd7f53ac52857a839c9e40aa020a3e8b5858"
+    },
+    {
+      "file": "ipad-air-5th-generation.json",
+      "sha256": "fdda7c0e801dadde28d33f3d83ef9b6d8c1aaa9ee6db1090e1ef04e7fe185b87"
+    },
+    {
+      "file": "ipad-mini-1st-generation.json",
+      "sha256": "9656b4c05c377791eef6eb085abdf52797a283595a300458ad5d475761019662"
+    },
+    {
+      "file": "ipad-mini-4.json",
+      "sha256": "161c38b83ed9701d8925cef39cdfc38251b80b4e4917cb52839fa5d427b934aa"
+    },
+    {
+      "file": "ipad-mini-5th-generation.json",
+      "sha256": "7b4cb91df317e0f28e3f963d3ab07e356bc43870dc5c7c7a90f996bbc12cfa5b"
+    },
+    {
+      "file": "ipad-mini-6th-generation.json",
+      "sha256": "89cc126e2d71b9105c80834ded900d6837327ce6f3cedab00fb4c7b7a4eb9780"
+    },
+    {
+      "file": "ipad-mini-a17-pro.json",
+      "sha256": "1ad4bf774e8f301d58bb50ef704de40608723aebf34d38064e916c77be5046eb"
+    },
+    {
+      "file": "ipad-mini-a20-pro.json",
+      "sha256": "cb1e53d1045175ec4391469ff88be505bc93d82ab592bea7585f6f770a9761a8"
+    },
+    {
+      "file": "ipad-pro-10-5-inch.json",
+      "sha256": "0ff615e1b64dc3e04027730263def1a524f0fc0b33d989fa8b8a0018428adc82"
+    },
+    {
+      "file": "ipad-pro-11-inch-1st-generation.json",
+      "sha256": "077fee23dc214dd61fd63ed974733ad296293f76c3385dd78ae551a1329566ab"
+    },
+    {
+      "file": "ipad-pro-11-inch-2nd-generation.json",
+      "sha256": "0982d9c7afd441a57aea14d888b2f3effe690499f5f2b850be6f3ceef4fbb0df"
+    },
+    {
+      "file": "ipad-pro-11-inch-3rd-generation.json",
+      "sha256": "56e200e3254baff5aa18bb9a4e98c7b411867b27c065ffa5ded0f85fb6d7fba2"
+    },
+    {
+      "file": "ipad-pro-11-inch-4th-generation.json",
+      "sha256": "932f60bf2b4d460b9fa604e6f4fb1b2af566d56947c8c3ae57c2b4c8d6b75bc1"
+    },
+    {
+      "file": "ipad-pro-11-inch-m4.json",
+      "sha256": "b6ab21f03f8559cb549c73a5279d223a7041e0c9070504b545dc94eb224a2c70"
+    },
+    {
+      "file": "ipad-pro-11-inch-m5.json",
+      "sha256": "5a0a0c2e6c3b00cdd2a005905d883699790d71c57082ffa92c6c705ad539a78f"
+    },
+    {
+      "file": "ipad-pro-12-9-inch-2nd-generation.json",
+      "sha256": "9e733c5d20d69959d578fded5e66f7ae79ca15ad8f23b69ca7a11f0758b3a295"
+    },
+    {
+      "file": "ipad-pro-12-9-inch-3rd-generation.json",
+      "sha256": "468a248f0b8857deb4152dfb20b6f86cc4d9e10e2a0f82658b7790a7cfb220a8"
+    },
+    {
+      "file": "ipad-pro-12-9-inch-4th-generation.json",
+      "sha256": "dc61f62061d039dd4f7dcd7c698ab7a400840ed8d2a863e9edc482d48437df01"
+    },
+    {
+      "file": "ipad-pro-12-9-inch-5th-generation.json",
+      "sha256": "d4b71aeabfc8c75f588efba3915d2cea28435b90c8af0297d01d75b08c6a86aa"
+    },
+    {
+      "file": "ipad-pro-12-9-inch-6th-generation.json",
+      "sha256": "d72ede4a88c3c5175640ab5f0aa1a97c83cbb660514551cec32ee6ff858cb714"
+    },
+    {
+      "file": "ipad-pro-13-inch-m4.json",
+      "sha256": "397e5fd2908df0c3aad2bd48b3aebdc26d2f291854b8cd5c137d7a3ad6dbcffd"
+    },
+    {
+      "file": "ipad-pro-13-inch-m5.json",
+      "sha256": "aad2976ddb45f919b4bf9372652a4e3ed53d227a78c63c60faeb8ea3cef3c9f7"
+    },
+    {
+      "file": "ipad-pro-9-7-inch.json",
+      "sha256": "05b6ef833d5b4fd89a4397e8ec86b62884c907993addbf7a025095fe8ecd85e1"
+    }
+  ],
+  "validation": "structural checks passed"
+}
