@@ -12,6 +12,7 @@ import json
 import sys
 from collections import Counter
 from pathlib import Path
+from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_ROOT = ROOT / "data"
@@ -98,8 +99,24 @@ def main() -> int:
             if expected not in source_files:
                 warnings.append(f"{rel}: no matching {expected} found under sources/")
 
-        if not source.get("source_url"):
+        source_url = str(source.get("source_url") or "").strip()
+        if not source_url:
             warnings.append(f"{rel}: source URL is blank/null; provenance needs review")
+        else:
+            parsed_source_url = urlparse(source_url)
+            host = (parsed_source_url.hostname or "").lower()
+            path_part = parsed_source_url.path.lower()
+            is_ireland_apple_source = (
+                (host == "support.apple.com" and path_part.startswith("/en-ie/"))
+                or (host in {"apple.com", "www.apple.com"} and path_part.startswith("/ie/"))
+                or (host == "images.apple.com" and path_part.startswith("/ie/"))
+            )
+            if not is_ireland_apple_source:
+                errors.append(
+                    f"{rel}: source URL must be an official Apple Ireland URL "
+                    f"(support.apple.com/en-ie/, apple.com/ie/, or images.apple.com/ie/); "
+                    f"found {source_url!r}"
+                )
         if source.get("verification_status") in (None, "", "not_checked"):
             warnings.append(f"{rel}: source verification status is absent or not_checked")
 
