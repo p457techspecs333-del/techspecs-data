@@ -110,7 +110,6 @@ def main() -> int:
         f"{BASE_URL}/llms.txt",
         f"{BASE_URL}/schemas/product-record-v2.schema.json",
         *(entry["url"] for entry in entries),
-        *(entry["legacy_url"] for entry in entries),
     ]
     sitemap_body = [
         '<?xml version="1.0" encoding="UTF-8"?>',
