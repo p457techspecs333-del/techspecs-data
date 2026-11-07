@@ -1,0 +1,148 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "tablet",
+    "family": "iPad",
+    "model": "iPad Air (1st generation)",
+    "model_slug": "ipad-air-1st-generation",
+    "model_year": 2013,
+    "year_introduced": 2013
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/112020",
+    "source_file": "Pasted text(20261107-173404).txt",
+    "source_title": "iPad Air - Technical Specifications - Apple Support (IE)",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-07",
+    "verification_status": "url_checked",
+    "verification_notes": "Source URL and archived Apple Ireland page captured. Original section text retained; normalized specifications have not been independently extracted."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple Ireland source headings and section text retained as an archival-first-pass record. Connectivity variants and their differences remain within the same model record.",
+    "extracted_at": "2026-11-07",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Finish",
+      "source_text": "Space Gray\nSilver"
+    },
+    {
+      "heading": "Models",
+      "source_text": "Wi-Fi\nWi-Fi + Cellular"
+    },
+    {
+      "heading": "Capacity 1",
+      "source_text": "16GB\n32GB\n64GB\n128GB"
+    },
+    {
+      "heading": "Size and Weight 2",
+      "source_text": "Wi-Fi\nHeight: 9.4 inches (240 mm)\nWidth: 6.6 inches (169.5 mm)\nDepth: 0.29 inch (7.5 mm)\nWeight: 1 pounds (469 g)\nWi-Fi + Cellular\nHeight: 9.4 inches (240 mm)\nWidth: 6.6 inches (169.5 mm)\nDepth: 0.29 inch (7.5 mm)\nWeight: 1.05 pounds (478 g)"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Retina display\n9.7-inch (diagonal) LED-backlit Multi-Touch display with IPS technology\n2048-by-1536 resolution at 264 pixels per inch (ppi)\nFingerprint-resistant oleophobic coating"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "A7 chip with 64-bit architecture and M7 motion coprocessor"
+    },
+    {
+      "heading": "Wireless and Cellular",
+      "source_text": "Wi-Fi\nWi-Fi (802.11a/b/g/n); dual channel (2.4GHz and 5GHz) and MIMO\nBluetooth 4.0 technology\nWi-Fi + Cellular\nWi-Fi (802.11a/b/g/n); dual channel (2.4GHz and 5GHz) and MIMO\nBluetooth 4.0 technology\nUMTS/HSPA/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz)\nCDMA EV-DO Rev. A and Rev. B (800, 1900 MHz)\nLTE (Bands 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26)\n3\nData only\n4"
+    },
+    {
+      "heading": "Cameras, Photos, and Video Recording",
+      "source_text": "FaceTime HD Camera\n1.2MP photos\n720p HD video\nFaceTime video calling over Wi-Fi or cellular\n5\nFace detection\nBackside illumination\nTap to control exposure for video or still images\nPhoto and video geotagging\nVideo Recording\n1080p HD video recording\nVideo stabilization\nFace detection\nTap to focus while recording\nBackside illumination\n3x video zoom\niSight Camera\n5MP photos\nAutofocus\nFace detection\nBackside illumination\nFive-element lens\nHybrid IR filter\nƒ/2.4 aperture\nTap to focus video or still images\nTap to control exposure for video or still images\nPhoto and video geotagging\nHDR photos"
+    },
+    {
+      "heading": "External Buttons and Connectors",
+      "source_text": "External Buttons and Controls\nHome\nOn/Off; Sleep/Wake\nSilent/Screen rotation lock\nVolume up/down\nConnectors and Input/Output\nDual Microphones\n3.5-mm stereo headphone minijack\nLightning connector\nBuilt-in speakers"
+    },
+    {
+      "heading": "Power and Battery 6",
+      "source_text": "Wi-Fi\nBuilt-in 32.4-watt-hour rechargeable lithium-polymer battery\nUp to 10 hours of surfing the web on Wi-Fi, watching video, or listening to music\nCharging via power adapter or USB to computer system\nWi-Fi + Cellular\nBuilt-in 32.4-watt-hour rechargeable lithium-polymer battery\nUp to 10 hours of surfing the web on Wi-Fi, watching video, or listening to music\nUp to 9 hours of surfing the web using cellular data network\nCharging via power adapter or USB to computer system"
+    },
+    {
+      "heading": "Input/Output",
+      "source_text": "Wi-Fi\n3.5-mm stereo headphone minijack\nBuilt-in speakers\nDual microphones\nWi-Fi + Cellular\n3.5-mm stereo headphone minijack\nBuilt-in speakers\nDual microphones\nNano-SIM card tray"
+    },
+    {
+      "heading": "Connector",
+      "source_text": "Lightning"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Three-axis gyro\nAccelerometer\nAmbient light sensor"
+    },
+    {
+      "heading": "Operating system",
+      "source_text": "iOS 9\nWith an all-new design and all-new features, iOS 9 is the world’s most advanced mobile OS. In its most advanced form.\nLearn more about iOS 9\niOS 9 includes\n:\nAirDrop\nAirPlay\nAirPrint\nControl Center\nNotification Center\nSiri\nSpotlight Search\nApple Music\nFamily Sharing\niCloud Drive\nMultitasking\nQuickType Keyboard"
+    },
+    {
+      "heading": "Built-in Apps",
+      "source_text": "Camera\nPhotos\nMessages\nFaceTime\nMail\nMusic\nSafari\nMaps\nSiri\nCalendar\niTunes Store\nApp Store\nNotes\nContacts\niBooks\nGame Center\nReminders\nClock\nVideos\nPhoto Booth\nPodcasts\nNews\nFind My iPhone\nFind My Friends\niCloud Drive"
+    },
+    {
+      "heading": "Free Apps from Apple 7",
+      "source_text": "Pages\nNumbers\nKeynote\niMovie\nGarageBand\niTunes U\nApple Store\nTrailers\nRemote"
+    },
+    {
+      "heading": "Location",
+      "source_text": "Wi-Fi\nWi-Fi\nDigital compass\nWi-Fi + Cellular\nWi-Fi\nDigital compass\nAssisted GPS and GLONASS\nCellular"
+    },
+    {
+      "heading": "Video Calling 5",
+      "source_text": "Wi-Fi\nFaceTime\niPad Air to any FaceTime-enabled device over Wi-Fi\nWi-Fi + Cellular\nFaceTime\niPad Air to any FaceTime-enabled device over Wi-Fi or cellular"
+    },
+    {
+      "heading": "Audio Calling 5",
+      "source_text": "Wi-Fi\nFaceTime\niPad Air to any FaceTime-enabled device over Wi-Fi\nWi-Fi + Cellular\nFaceTime\niPad Air to any FaceTime-enabled device over Wi-Fi or cellular"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "Frequency response: 20Hz to 20,000Hz\nAudio formats supported: AAC (8 to 320 Kbps), Protected AAC (from iTunes Store), HE-AAC, MP3 (8 to 320 Kbps), MP3 VBR, Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+), Apple Lossless, AIFF, and WAV\nUser-configurable maximum volume limit"
+    },
+    {
+      "heading": "TV and Video",
+      "source_text": "AirPlay Mirroring, photos, audio, and video out to Apple TV (2nd generation or later)\nVideo mirroring and video out support: Up to 1080p through Lightning Digital AV Adapter and Lightning to VGA Adapter (adapters sold separately)\nVideo formats supported: H.264 video up to 1080p, 60 frames per second, High Profile level 4.2 with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats; MPEG-4 video up to 2.5 Mbps, 640 by 480 pixels, 30 frames per second, Simple Profile with AAC-LC audio up to 160 Kbps per channel, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats; Motion JPEG (M-JPEG) up to 35 Mbps, 1280 by 720 pixels, 30 frames per second, audio in ulaw, PCM stereo audio in .avi file format"
+    },
+    {
+      "heading": "Mail Attachment Support",
+      "source_text": "Viewable document types:\n.jpg, .tiff, .gif (images); .doc and .docx (Microsoft Word); .htm and .html (web pages); .key (Keynote); .numbers (Numbers); .pages (Pages); .pdf (Preview and Adobe Acrobat); .ppt and .pptx (Microsoft PowerPoint); .txt (text); .rtf (rich text format); .vcf (contact information); .xls and .xlsx (Microsoft Excel); .zip; .ics"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "Language support\nEnglish (U.S.), English (UK), Chinese (Simplified), Chinese (Traditional), French, German, Italian, Japanese, Korean, Spanish, Arabic, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nKeyboard support\nEnglish (U.S.), English (Canadian), English (UK), English (Australian), Chinese - Simplified (Handwriting, Pinyin, Stroke), Chinese - Traditional (Handwriting, Pinyin, Zhuyin, Cangjie, Stroke), French, French (Canadian), French (Switzerland), German (Germany), German (Switzerland), Italian, Japanese (Romaji, Kana), Korean, Spanish, Arabic, Bulgarian, Catalan, Cherokee, Croatian, Czech, Danish, Dutch, Emoji, Estonian, Finnish, Flemish, Greek, Hawaiian, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Latvian, Lithuanian, Macedonian, Malay, Norwegian, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian (Cyrillic/Latin), Slovak, Swedish, Tamil, Thai, Tibetan, Turkish, Ukrainian, Vietnamese\nDictionary support (enables predictive text and autocorrect)\nEnglish (U.S.), English (Canadian), English (UK), English (Australian), Chinese (Simplified), Chinese (Traditional), French, French (Canadian), French (Switzerland), German, Italian, Japanese (Romaji, Kana), Korean, Spanish, Arabic, Catalan, Cherokee, Croatian, Czech, Danish, Dutch, Estonian, Finnish, Flemish, Greek, Hawaiian, Hebrew, Hindi, Hungarian, Indonesian, Latvian, Lithuanian, Malay, Norwegian, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Slovak, Swedish, Tamil, Thai, Turkish, Ukrainian, Vietnamese\nSiri languages\nEnglish (U.S., UK, Canada, Australia), Spanish (U.S., Mexico, Spain), French (France, Canada, Switzerland), German (Germany, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (Hong Kong)"
+    },
+    {
+      "heading": "Intelligent Assistant 8",
+      "source_text": "Siri\nUse your voice to send messages, set reminders, and more."
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "VoiceOver screen reader\nGuided Access\nSwitch Control\nSupport for playback of closed-captioned content\nAssistiveTouch\nFull-screen zoom magnification\nLarger type\nBold text\nIncrease contrast\nReduce motion\nOn/Off labels\nInvert colors\nLeft/right volume adjustment"
+    },
+    {
+      "heading": "Environmental Requirements",
+      "source_text": "Operating temperature: 32° to 95° F (0° to 35° C)\nNonoperating temperature: -4° to 113° F (-20° to 45° C)\nRelative humidity: 5% to 95% noncondensing\nOperating altitude: tested up to 10,000 feet (3000 m)"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "Apple ID (required for some features)\nInternet access\n9\nSyncing with iTunes on a Mac or PC requires:\nMac: OS X v10.6.8 or later\nPC: Windows 8; Windows 7; Windows Vista; or Windows XP Home or Professional with Service Pack 3 or later\niTunes (free download from\nwww.itunes.com/uk/download\n)"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "iPad Air\nLightning to USB Cable\nUSB Power Adapter"
+    },
+    {
+      "heading": "Apple Footer",
+      "source_text": "\nApple\nSupport\niPad Air - Technical Specifications\nIreland\nCopyright © 2026 Apple Inc. All rights reserved.\nPrivacy Policy\nTerms of Use\nSales and Refunds\nSite Map\nUse of Cookies"
+    }
+  ]
+}

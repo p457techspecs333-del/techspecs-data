@@ -1,0 +1,176 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "tablet",
+    "family": "iPad",
+    "model": "iPad mini (A20 Pro)",
+    "model_slug": "ipad-mini-a20-pro",
+    "model_year": 2026,
+    "year_introduced": 2026
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/149482",
+    "source_file": "Pasted text(20261107-162752).txt",
+    "source_title": "iPad mini (A20 Pro) - Tech Specs - Apple Support (IE)",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-07",
+    "verification_status": "url_checked",
+    "verification_notes": "Source URL and archived Apple Ireland page captured. Original section text retained; normalized specifications have not been independently extracted."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple Ireland source headings and section text retained as an archival-first-pass record. Connectivity variants and their differences remain within the same model record.",
+    "extracted_at": "2026-11-07",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Finish",
+      "source_text": "Midnight\nStarlight"
+    },
+    {
+      "heading": "Capacity 1",
+      "source_text": "128GB\n256GB\n512GB"
+    },
+    {
+      "heading": "Size and Weight 2",
+      "source_text": "Wi‑Fi models\nHeight:\n195.3 mm (7.69 inches)\nWidth:\n132.6 mm (5.22 inches)\nDepth:\n5.4 mm (0.21 inches)\nWeight:\n255 grams (0.56 pounds)\nWi‑Fi + Cellular models\nHeight:\n195.3 mm (7.69 inches)\nWidth:\n132.6 mm (5.22 inches)\nDepth:\n5.4 mm (0.21 inches)\nWeight:\n263 grams (0.58 pounds)"
+    },
+    {
+      "heading": "Buttons and Connectors",
+      "source_text": "Volume buttons\nTop button / Touch ID sensor\nMicrophones\nCamera\nMagnetic connector\nStereo audio using Acoustic Display\nUSB‑C connector"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "iPad mini (A20 Pro)\nUSB‑C Charge Cable (1 metre)\nPolishing cloth in nano‑texture display glass option"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Super Retina XDR display\nOLED\n2316x1512 resolution at 326 ppi\nWide colour (P3)\nTrue Tone\nFingerprint-resistant oleophobic coating\nFully laminated\nAnti‑reflective coating\nNano‑texture display glass option on 256GB and 512GB models\nSDR brightness: 600 nits max\nXDR brightness: 600 nits max full screen, 1,200 nits peak (HDR content only)\n1 nit minimum brightness\n2,000,000:1 contrast ratio\nSupports Apple Pencil Pro\nSupports Apple Pencil (USB‑C)\nApple Pencil hover\nThe iPad mini display has rounded corners. When measured diagonally as a rectangle, the screen is 8.5 inches. Actual viewable area is less."
+    },
+    {
+      "heading": "Splash, Water and Dust Resistant 3",
+      "source_text": "Rated IP67 (maximum depth of 1 metre up to 30 minutes) under IEC standard 60529"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "A20 Pro chip\nModels with 128GB or 256GB storage:\n5‑core CPU with 2 super cores and 3 efficiency cores\n7‑core GPU\nNeural Accelerators\nHardware-accelerated ray tracing\n16‑core Neural Engine\nModels with 512GB storage:\n6‑core CPU with 2 super cores and 4 efficiency cores\n7‑core GPU\nNeural Accelerators\nHardware-accelerated ray tracing\nDual 16‑core Neural Engine"
+    },
+    {
+      "heading": "Apple Intelligence and Siri AI 4",
+      "source_text": "The next generation of Apple Intelligence is centred around you, integrated into your apps and built with privacy. Apple Intelligence powers Siri AI — an entirely new version of Siri that’s more personal, conversational and powerful, along with helpful features across apps.\nLearn more about Apple Intelligence and Siri AI"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "12MP Wide camera, ƒ/1.8 aperture\nDigital zoom up to 5x\nFive-element lens\nAdaptive True Tone flash\nAutofocus with Focus Pixels\nPanorama (up to 63MP)\nSmart HDR 4\nWide colour capture for photos and Live Photos\nAdvanced red‑eye correction\nPhoto geotagging\nAuto image stabilisation\nBurst mode\nImage formats captured: HEIF and JPEG"
+    },
+    {
+      "heading": "Video Recording",
+      "source_text": "4K video recording at 24 fps, 25 fps, 30 fps or 60 fps\n1080p HD video recording at 25 fps, 30 fps or 60 fps\n720p HD video recording at 30 fps\nAdaptive True Tone flash\nSlo‑mo video support for 1080p at 120 fps or 240 fps\nTime‑lapse video with stabilisation\nExtended dynamic range for video up to 30 fps\nCinematic video stabilisation (4K, 1080p and 720p)\nContinuous autofocus video\nPlayback zoom\nVideo formats recorded: HEVC and H.264"
+    },
+    {
+      "heading": "Front Camera",
+      "source_text": "Landscape 12MP Center Stage camera\nƒ/2.0 aperture\nSmart HDR 4\n1080p HD video recording at 25 fps, 30 fps or 60 fps\nTime‑lapse video with stabilisation\nExtended dynamic range for video up to 30 fps\nCinematic video stabilisation (1080p and 720p)\nWide colour capture for photos and Live Photos\nLens correction\nRetina Flash with True Tone\nAuto image stabilisation\nBurst mode"
+    },
+    {
+      "heading": "Video Calling 5",
+      "source_text": "FaceTime video\nCentre Stage\niPad to any FaceTime-enabled device over Wi‑Fi or a mobile network"
+    },
+    {
+      "heading": "Audio Calling 5",
+      "source_text": "FaceTime audio\nRelay calls from your nearby iPhone with the Phone app"
+    },
+    {
+      "heading": "Speakers",
+      "source_text": "Stereo audio using Acoustic Display"
+    },
+    {
+      "heading": "Microphones",
+      "source_text": "Dual microphones for calls, video recording and audio recording"
+    },
+    {
+      "heading": "Mobile and Wireless",
+      "source_text": "All models\nApple N1 wireless networking chip\nWi‑Fi 7 (802.11be) with 2x2 MIMO\n6\nSimultaneous dual band\nBluetooth 6\nThread networking technology\nWi‑Fi + Cellular models\nApple C2 cellular modem\n5G (sub-6GHz) with 4x4 MIMO\n6\nGigabit LTE with 4x4 MIMO\nModel A3596:\n5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n38, n40, n41, n48, n66, n70, n71, n75, n77, n78, n79)\n6\nFDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 66, 71, 106)\nTD-LTE (Bands 34, 38, 39, 40, 41, 42, 48)\nUMTS/HSPA/HSPA+ (850, 900, 1700/2100, 1900, 2100 MHz)\nData only\n7\nWi‑Fi calling\n6\neSIM\n8\nLearn more about mobile data"
+    },
+    {
+      "heading": "SIM Card",
+      "source_text": "eSIM\n8\niPad mini uses advanced eSIM technology for more convenience and security (not compatible with physical SIM cards)\nLearn more about eSIM\nLearn more about travelling with eSIM"
+    },
+    {
+      "heading": "Location",
+      "source_text": "All models\nDigital compass\nWi‑Fi\niBeacon micro-location\nWi‑Fi + Cellular models\nGPS/GNSS\nMobile data"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Touch ID\nThree‑axis gyro\nAccelerometer\nBarometer\nAmbient light sensor"
+    },
+    {
+      "heading": "Touch ID",
+      "source_text": "Unlock iPad\nSecure personal data within apps\nMake purchases from the iTunes Store, the App Store and Apple Books"
+    },
+    {
+      "heading": "Apple Pay",
+      "source_text": "Pay with your iPad using Touch ID within apps and on the web\nLearn more about Apple Pay"
+    },
+    {
+      "heading": "Siri 9",
+      "source_text": "Get help with everyday tasks like sending messages, setting reminders and more\nActivate hands‑free with only your voice using “Siri” or “Hey Siri”, or use Type to Siri\nProtected by the strongest privacy of any intelligent assistant\nPowered by Apple Intelligence, Siri is more natural and helpful\nLearn more about Siri"
+    },
+    {
+      "heading": "Charging and Expansion",
+      "source_text": "USB‑C port with support for:\nCharging\nDisplayPort\nUSB 3 (up to 10Gb/s)"
+    },
+    {
+      "heading": "Display Support",
+      "source_text": "Supports full native resolution on the built‑in display at millions of colours\nSupports one external display with up to 4K resolution at 60Hz\nDigital video output\nNative DisplayPort output over USB‑C\nVGA, HDMI and DVI output supported using adapters (sold separately)\nVideo mirroring\nUp to 4K AirPlay for mirroring, photos and video out to Apple TV (2nd generation or later) or AirPlay‑enabled smart TV\nVideo mirroring and video out support through USB‑C Digital AV Multiport Adapter and USB‑C VGA Multiport Adapter (adapters sold separately)"
+    },
+    {
+      "heading": "Power and Battery 10",
+      "source_text": "All models\nBuilt-in 18.9‑watt‑hour rechargeable lithium-polymer battery\nUp to 10 hours of surﬁng the web on Wi‑Fi or watching video\nChar­ging via power adapter or USB‑C to computer system\nFast‑charge capable: Up to 50% charge in around 30 minutes with\nUSB‑C power adapters\ncapable of providing 35W or higher (adapters sold separately)\n11\nWi‑Fi + Cellular models\nUp to 9 hours of surﬁng the web using a mobile data network"
+    },
+    {
+      "heading": "Oper­at­ing System",
+      "source_text": "iPadOS\niPadOS comes with powerful features and built‑in apps designed to take advantage of the unique capabilities of iPad."
+    },
+    {
+      "heading": "Accessi­bility",
+      "source_text": "Built-in accessibility features supporting vision, mobility, hearing and cognitive disabilities help you get the most out of your iPad.\nLearn more about Accessi­bility\nFeatures include:\nVoiceOver\nZoom\nMagnifier\nAccessi­bility Reader\nMotion, display and text settings\nLive Captions\nSubtitles and Captions\nVoice Control\nSwitch Control\nAssistiveTouch\nLive Speech"
+    },
+    {
+      "heading": "Built‑in Apps",
+      "source_text": "Apple Store\nApp Store\nBooks\nCalculator\nCalendar\nCamera\nClock\nContacts\nFaceTime\nFiles\nFind My\nFreeform\nGames\nGarageBand\nHealth\nHome\niMovie\niTunes Store\nJournal\nKeynote\nMagnifier\nMail\nMaps\nMeasure\nMessages\nMusic\nNews\nNotes\nNumbers\nPages\nPasswords\nPhone\nPhotos\nPodcasts\nPreview\nReminders\nSafari\nSettings\nShortcuts\nStocks\nTips\nTranslate\nTV\nVoice Memos\nWeather\nFor a complete list of Apple apps available on iPad, see\napple.com/uk/apps\n."
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "Apple Account (required for some features)\nInternet access\n12\nSyncing to a Mac or PC requires:\nmacOS Catalina 10.15 or later using the Finder\nmacOS High Sierra 10.13 to macOS Mojave 10.14.6 using iTunes 12.9 or later\nWindows 10 or later using iTunes 12.12.10 or later (free download from\napple.com/uk/itunes/download\n)"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "Language support\nArabic, Bangla, Bulgarian, Catalan, Chinese (Simplified, Traditional – Hong Kong, Traditional – Taiwan), Croatian, Czech, Danish, Dutch, English (Australia, India, UK, US), Finnish, French (Canada, France), German, Greek, Gujarati, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kannada, Kazakh, Korean, Lithuanian, Malayalam, Malay, Marathi, Norwegian, Odia, Polish, Portuguese (Brazil, Portugal), Punjabi, Romanian, Russian, Slovak, Slovenian, Spanish (Latin America, Spain, US), Swedish, Tamil, Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese\nLearn more about feature availability"
+    },
+    {
+      "heading": "Video Playback",
+      "source_text": "Supported formats include HEVC, H.264, AV1 and ProRes\nHDR with Dolby Vision, HDR10+/HDR10 and HLG"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "Supported formats include AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus and Dolby Atmos\nSpatial Audio playback\nUser-conﬁgurable maximum volume limit"
+    },
+    {
+      "heading": "En­viron­men­tal Require­ments",
+      "source_text": "Oper­at­ing ambient temperature:\n0° to 35° C (32° to 95° F)\nNon-operating temperature:\n−20° to 45° C (−4° to 113° F)\nRelative humidity:\n5% to 95% non‑condensing\nOper­at­ing altitude:\ntested up to 3,000 metres (10,000 feet)"
+    },
+    {
+      "heading": "iPad mini and the Environment",
+      "source_text": "iPad mini is designed to reduce environmental impact:\n13\nSee the iPad mini Product En­viron­men­tal Report (PDF)\nProgress towards Apple 2030\nApple 2030 is our goal to be carbon neutral across our value chain. We design our products to be less carbon intensive by prioritising the use of recycled and renewable content and low‑carbon materials while focusing on the energy efficiency of our software and hardware.\nSee Apple’s commitment\nMaterials\niPad mini is made with 35% recycled content,\n13\nincluding:\n100% recycled aluminium in the enclosure\n100% recycled cobalt in the battery\n100% recycled gold plating and tin solder in all Apple‑designed printed circuit boards\n95% recycled lithium in the battery\n100% recycled rare earth elements in all magnets\n80% recycled steel in multiple components including the logo and speaker components\nEnergy\nENERGY STAR® certified\n14\nPackaging\n100% fibre-based packaging\n15\nWaste\nNo established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme\nSmarter chemistry\n16\nAll the materials used in Apple products, accessories and packaging are covered by the requirements of our\nRegulated Substances Specification (PDF)\n, which was one of the first in industry to restrict the use of key substances of concern. See the latest\nEn­viron­men­tal Progress Report (PDF)\nto understand Apple’s recent efforts in phasing out these chemistries."
+    },
+    {
+      "heading": "Apple Footer",
+      "source_text": "\nApple\nSupport\niPad mini (A20 Pro) - Tech Specs\nIreland\nCopyright © 2026 Apple Inc. All rights reserved.\nPrivacy Policy\nTerms of Use\nSales and Refunds\nSite Map\nUse of Cookies"
+    }
+  ]
+}

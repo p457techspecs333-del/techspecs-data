@@ -1,0 +1,128 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "tablet",
+    "family": "iPad",
+    "model": "iPad mini (1st generation)",
+    "model_slug": "ipad-mini-1st-generation",
+    "model_year": 2012,
+    "year_introduced": 2012
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111978",
+    "source_file": "Pasted text (6)(4).txt",
+    "source_title": "iPad mini - Technical Specifications - Apple Support (IE)",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-07",
+    "verification_status": "url_checked",
+    "verification_notes": "Source URL and archived Apple Ireland page captured. Original section text retained; normalized specifications have not been independently extracted."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple Ireland source headings and section text retained as an archival-first-pass record. Connectivity variants and their differences remain within the same model record.",
+    "extracted_at": "2026-11-07",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Color",
+      "source_text": "Black & Slate\nWhite & Silver"
+    },
+    {
+      "heading": "Models",
+      "source_text": "Wi-Fi\nWi-Fi + Cellular"
+    },
+    {
+      "heading": "Size and Weight 1",
+      "source_text": "Wi-Fi\nHeight: 7.87 inches (200 mm)\nWidth: 5.3 inches (134.7 mm)\nDepth: 0.28 inch (7.2 mm)\nWeight: 0.68 pound (308 g)\nWi-Fi + Cellular\nHeight: 7.87 inches (200 mm)\nWidth: 5.3 inches (134.7 mm)\nDepth: 0.28 inch (7.2 mm)\nWeight: 0.69 pound (312 g)"
+    },
+    {
+      "heading": "Storage 2",
+      "source_text": "16GB\n32GB\n64GB"
+    },
+    {
+      "heading": "Wireless and Cellular",
+      "source_text": "Wi-Fi\n802.11a/b/g/n Wi-Fi (802.11n 2.4GHz and 5GHz)\nBluetooth 4.0 wireless technology\nWi-Fi + Cellular\nModel A1454*\nGSM/EDGE (850, 900, 1800, 1900 MHz)\nUMTS/HSPA+/DC-HSDPA (850, 900, 1900, 2100 MHz)\nLTE (Bands 4 and 17)\nModel A1455*\nCDMA EV-DO Rev. A and Rev. B (800, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)\nUMTS/HSPA+/DC-HSDPA (850, 900, 1900, 2100 MHz)\nLTE (Bands 1, 3, 5, 13, 25)\nData only3\n802.11a/b/g/n Wi-Fi (802.11n 2.4GHz and 5GHz)\nBluetooth 4.0 wireless technology"
+    },
+    {
+      "heading": "Display",
+      "source_text": "7.9-inch (diagonal) LED-backlit Multi-Touch\ndisplay with IPS technology\n1024-by-768 resolution at 163 pixels per inch (ppi)\nFingerprint-resistant oleophobic coating"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "Dual-core A5"
+    },
+    {
+      "heading": "Cameras, Photos, and Video Recording",
+      "source_text": "FaceTime HD Camera\n1.2MP photos\n720p HD video\nFaceTime video calling over Wi-Fi or cellular4\nFace detection\nBackside illumination\nTap to control exposure for video or still images\nPhoto and video geotagging\niSight Camera\n5MP photos\nAutofocus\nFace detection\nBackside illumination\nFive-element lens\nHybrid IR filter\nƒ/2.4 aperture\nTap to focus video or still images\nTap to control exposure for video or still images\nPhoto and video geotagging\nVideo Recording\n1080p HD video recording\nVideo stabilization\nFace detection\nTap to focus while recording\nBackside illumination"
+    },
+    {
+      "heading": "External Buttons and Connectors",
+      "source_text": "External Buttons and Controls\nHome\nOn/Off; Sleep/Wake\nSilent/Screen rotation lock\nVolume up/down\nConnectors and Input/Output\nMicrophone\n3.5-mm stereo headphone minijack\nLightning connector\nBuilt-in speaker"
+    },
+    {
+      "heading": "Power and Battery 5",
+      "source_text": "Wi-Fi\nBuilt-in 16.3-watt-hour rechargeable lithium-polymer battery\nUp to 10 hours of surfing the web on Wi-Fi, watching video, or listening to music\nCharging via power adapter or USB to computer system\nWi-Fi + Cellular\nBuilt-in 16.3-watt-hour rechargeable lithium-polymer battery\nUp to 10 hours of surfing the web on Wi-Fi, watching video, or listening to music\nUp to 9 hours of surfing the web using cellular data network\nCharging via power adapter or USB to computer system"
+    },
+    {
+      "heading": "Input/Output",
+      "source_text": "Wi-Fi\nLightning connector\n3.5-mm stereo headphone minijack\nBuilt-in speaker\nMicrophone\nWi-Fi + Cellular\nLightning connector\n3.5-mm stereo headphone minijack\nBuilt-in speaker\nMicrophone\nNano-SIM card tray"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Three-axis gyro\nAccelerometer\nAmbient light sensor"
+    },
+    {
+      "heading": "Location",
+      "source_text": "Wi-Fi\nWi-Fi\nDigital compass\nWi-Fi + Cellular\nWi-Fi\nDigital compass\nAssisted GPS and GLONASS\nCellular"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "Frequency response: 20Hz to 20,000Hz\nAudio formats supported: AAC (8 to 320 Kbps), Protected AAC (from iTunes Store), HE-AAC, MP3 (8 to 320 Kbps), MP3 VBR, Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+), Apple Lossless, AIFF, and WAV\nUser-configurable maximum volume limit"
+    },
+    {
+      "heading": "TV and Video",
+      "source_text": "AirPlay Mirroring to Apple TV (2nd and 3rd generation) at 720p\nAirPlay video streaming to Apple TV (3rd generation) at up to 1080p and Apple TV (2nd generation) at up to 720p\nVideo mirroring and video out support: Up to 720p through Lightning Digital AV Adapter and Lightning to VGA Adapter; video playback up to 1080p (sold separately)\nVideo formats supported: H.264 video up to 1080p, 30 frames per second, High Profile level 4.1 with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats; MPEG-4 video up to 2.5 Mbps, 640 by 480 pixels, 30 frames per second, Simple Profile with AAC-LC audio up to 160 Kbps per channel, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats; Motion JPEG (M-JPEG) up to 35 Mbps, 1280 by 720 pixels, 30 frames per second, audio in ulaw, PCM stereo audio in .avi file format"
+    },
+    {
+      "heading": "Mail Attachment Support",
+      "source_text": "Viewable document types: .jpg, .tiff, .gif (images); .doc and .docx (Microsoft Word); .htm and .html (web pages); .key (Keynote); .numbers (Numbers); .pages (Pages); .pdf (Preview and Adobe Acrobat); .ppt and .pptx (Microsoft PowerPoint); .txt (text); .rtf (rich text format); .vcf (contact information); .xls and .xlsx (Microsoft Excel)"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "Language support for English (U.S.), English (UK), Chinese (Simplified), Chinese (Traditional), French, German, Italian, Japanese, Korean, Spanish, Arabic, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nKeyboard support for English (U.S.), English (Australian), English (Canadian), English (UK), Chinese - Simplified (Handwriting, Pinyin, Stroke), Chinese - Traditional (Handwriting, Pinyin, Zhuyin, Cangjie, Stroke), French, French (Canadian), French (Switzerland), German (Germany), German (Switzerland), Italian, Japanese (Romaji, Kana), Korean, Spanish, Arabic, Bulgarian, Catalan, Cherokee, Croatian, Czech, Danish, Dutch, Emoji, Estonian, Finnish, Flemish, Greek, Hawaiian, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Latvian, Lithuanian, Macedonian, Malay, Norwegian, Polish, Portuguese (Portugal), Portuguese (Brazil), Romanian, Russian, Serbian (Cyrillic/Latin), Slovak, Swedish, Thai, Tibetan, Turkish, Ukrainian, Vietnamese\nDictionary support (enables predictive text and autocorrect) for English (U.S.), English (Australian), English (Canadian), English (UK), Chinese - Simplified (Handwriting, Pinyin, Stroke), Chinese - Traditional (Handwriting, Pinyin, Zhuyin, Cangjie, Stroke), French, French (Canadian), French (Switzerland), German (Germany), German (Switzerland), Italian, Japanese (Romaji, Kana), Korean, Spanish, Arabic, Bulgarian, Catalan, Cherokee, Croatian, Czech, Danish, Dutch, Estonian, Finnish, Flemish, Greek, Hawaiian, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Latvian, Lithuanian, Macedonian, Malay, Norwegian, Polish, Portuguese (Portugal), Portuguese (Brazil), Romanian, Russian, Serbian (Cyrillic/Latin), Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nSiri language support for English (U.S., UK, Canada, Australia), Spanish (U.S., Mexico, Spain), French (France, Canada, Switzerland), German (Germany, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (Hong Kong)"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "VoiceOver screen reader\nGuided Access\nSupport for playback of closed-captioned content\nAssistiveTouch interface for adaptive accessories\nFull-screen zoom magnification\nLarge text\nOption to invert colors\nLeft/right volume adjustment"
+    },
+    {
+      "heading": "Environmental Requirements",
+      "source_text": "Operating ambient temperature: 32° to 95° F (0° to 35° C)\nNonoperating temperature: -4° to 113° F (-20° to 45° C)\nRelative humidity: 5% to 95% noncondensing\nMaximum operating altitude: 10,000 feet (3000 m)"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "Apple ID (required for some features)\nInternet access\n6\nSyncing with iTunes on a Mac or PC requires:\nMac: OS X v10.6.8 or later\nPC: Windows 7; Windows Vista; or Windows XP Home or Professional with Service Pack 2 or later\nDownload iTunes at\nwww.itunes.com/uk/download"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "iPad mini\nLightning to USB Cable\nUSB Power Adapter"
+    },
+    {
+      "heading": "Built-in Apps",
+      "source_text": "Safari\nPhotos\nApp Store\nMaps\nPhoto Booth\nReminders\nCamera\nMail\nFaceTime\niTunes\nMusic\nClock\nCalendar\nMessages\nNewsstand\nVideos\nGame Center\nContacts\nNotes"
+    },
+    {
+      "heading": "iPad mini and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more about iPad mini and the Environment\niPad mini embodies Apple’s continuing environmental progress. It is designed with the following features to reduce environmental impact:\nMercury-free LCD display\nArsenic-free display glass\nBFR-free\nPVC-free\nRecyclable aluminum enclosure\nApple and the Environment\nLearn more about Apple’s dedication to reducing the environmental impact of our products and process\n.\nApple Product Environmental Reports\ndetail the environmental attributes of our products.\nRecycling\nApple takes a holistic view of materials management and waste minimization.\nLearn more about how to recycle your iPad mini\n."
+    },
+    {
+      "heading": "Apple Footer",
+      "source_text": "\nApple\nSupport\niPad mini - Technical Specifications\nIreland\nCopyright © 2026 Apple Inc. All rights reserved.\nPrivacy Policy\nTerms of Use\nSales and Refunds\nSite Map\nUse of Cookies"
+    }
+  ]
+}

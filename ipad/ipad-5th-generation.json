@@ -1,0 +1,160 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "tablet",
+    "family": "iPad",
+    "model": "iPad (5th generation)",
+    "model_slug": "ipad-5th-generation",
+    "model_year": 2017,
+    "year_introduced": 2017
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111960",
+    "source_file": "Pasted text (3)(6).txt",
+    "source_title": "iPad (5th generation) - Technical Specifications - Apple Support (IE)",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-07",
+    "verification_status": "url_checked",
+    "verification_notes": "Source URL and archived Apple Ireland page captured. Original section text retained; normalized specifications have not been independently extracted."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple Ireland source headings and section text retained as an archival-first-pass record. Connectivity variants and their differences remain within the same model record.",
+    "extracted_at": "2026-11-07",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Finish",
+      "source_text": "Silver\nGold\nSpace Gray"
+    },
+    {
+      "heading": "Capacity 1",
+      "source_text": "Wi-Fi\n32GB\n128GB\nWi-Fi + Cellular\n32GB\n128GB"
+    },
+    {
+      "heading": "Size and Weight 2",
+      "source_text": "Wi-Fi\nHeight: 9.4 inches (240 mm)\nWidth: 6.6 inches (169.5 mm)\nDepth: 0.29 inch (7.5 mm)\nWeight: 1.03 pounds (469 g)\nWi-Fi + Cellular\nHeight: 9.4 inches (240 mm)\nWidth: 6.6 inches (169.5 mm)\nDepth: 0.29 inch (7.5 mm)\nWeight: 1.05 pounds (478 g)"
+    },
+    {
+      "heading": "Buttons and Connectors",
+      "source_text": "Home/​Touch ID sensor\nBuilt‑in stereo speakers\nLightning connector\n3.5 mm headphone jack\nOn/Off - Sleep/Wake\nVolume up/down\nNano-SIM tray (cellular models)"
+    },
+    {
+      "heading": "Connector",
+      "source_text": "Lightning"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "iPad\nLightning to USB Cable\nUSB Power Adapter"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Retina display\n9.7-inch (diagonal) LED-backlit Multi-Touch display with IPS technology\n2048-by-1536-pixel resolution at 264 ppi\nFingerprint-resistant oleophobic coating"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "A9 chip with 64-bit architecture\nEmbedded M9 coprocessor"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "8-megapixel camera\nLive Photos\nAutofocus\nPanorama (up to 43 megapixels)\nHDR for photos\nExposure control\nBurst mode\nTap to focus\nTimer mode\nƒ/2.4 aperture\nFive-element lens\nHybrid IR ﬁlter\nBackside illumination\nAuto image stabilization\nFace detection\nPhoto geotagging"
+    },
+    {
+      "heading": "Video Recording",
+      "source_text": "1080p HD video recording (30 fps)\nSlo‑mo (120 fps)\nTime-lapse video with stabilization\nVideo image stabilization\nFace detection\n3x video zoom\nVideo geotagging"
+    },
+    {
+      "heading": "FaceTime HD Camera",
+      "source_text": "1.2-megapixel photos\nLive Photos\nƒ/2.2 aperture\nRetina Flash\n720p HD video recording\nBackside illumination\nHDR for photos and videos\nFace detection\nBurst mode\nExposure control\nTimer mode"
+    },
+    {
+      "heading": "Video Calling 3",
+      "source_text": "Wi-Fi\nFaceTime video\niPad to any FaceTime-enabled device over Wi-Fi\nWi-Fi + Cellular\nFaceTime video\niPad to any FaceTime-enabled device over Wi-Fi or cellular"
+    },
+    {
+      "heading": "Audio Calling 3",
+      "source_text": "Wi-Fi\nFaceTime audio\niPad to any FaceTime-enabled device over Wi-Fi\nWi-Fi + Cellular\nFaceTime audio\niPad to any FaceTime-enabled device over Wi-Fi or cellular"
+    },
+    {
+      "heading": "Cellular and Wireless",
+      "source_text": "Wi-Fi model\nWi‑Fi (802.11a/b/g/n/ac); dual band (2.4GHz and 5GHz); HT80 with MIMO\nBluetooth 4.2 technology\nWi-Fi + Cellular model\nWi‑Fi (802.11a/b/g/n/ac); dual band (2.4GHz and 5GHz); HT80 with MIMO\nBluetooth 4.2 technology\nUMTS/HSPA/HSPA+/​DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz)\nCDMA EV-DO Rev. A and Rev. B (800, 1900 MHz)\nLTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 29, 38, 39, 40, 41)\n4\nData only\n5\nWi-Fi calling\n4\nIncludes Apple SIM\nLearn more about Apple SIM"
+    },
+    {
+      "heading": "SIM Card",
+      "source_text": "Nano‑SIM (supports Apple SIM)"
+    },
+    {
+      "heading": "Location",
+      "source_text": "Wi-Fi\nDigital compass\nWi-Fi\niBeacon microlocation\nWi-Fi + Cellular model\nDigital compass\nWi-Fi\nAssisted GPS and GLONASS\nCellular\niBeacon microlocation"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Touch ID\nThree-axis gyro\nAccelerometer\nBarometer\nAmbient light sensor"
+    },
+    {
+      "heading": "Touch ID",
+      "source_text": "Fingerprint identity sensor built into the Home button"
+    },
+    {
+      "heading": "Apple Pay",
+      "source_text": "Pay with your iPad using Touch ID within apps and on the web\nSend and receive money in Messages\nLearn more about Apple Pay"
+    },
+    {
+      "heading": "Siri 6",
+      "source_text": "Use your voice to send messages, set reminders, and more\nUse hands-free\nListen and identify songs\nLearn more about Siri"
+    },
+    {
+      "heading": "Power and Battery 7",
+      "source_text": "Wi-Fi\nBuilt-in 32.4-watt-hour rechargeable lithium-polymer battery\nUp to 10 hours of surfing the web on Wi-Fi, watching video, or listening to music\nCharging via power adapter or USB to computer system\nWi-Fi + Cellular model\nBuilt-in 32.4-watt-hour rechargeable lithium-polymer battery\nUp to 10 hours of surfing the web on Wi-Fi, watching video, or listening to music\nUp to 9 hours of surfing the web using cellular data network\nCharging via power adapter or USB to computer system"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "iOS 11\nWith new features and capabilities that let you get more done quickly and easily, iOS 11 makes iPad more powerful, personal, and intelligent than ever.\nSee what’s new in iOS"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new iPad. With built-in support for vision, hearing, physical and motor skills, and learning and literacy, you can create and do amazing things.\nLearn more about Accessibility\nFeatures include:\nVoiceOver\nZoom\nMagnifier\nSiri and Dictation\nSwitch Control\nClosed Captions\nAssistiveTouch\nSpeak Screen"
+    },
+    {
+      "heading": "Built-in Apps",
+      "source_text": "Camera\nPhotos\nMessages\nFaceTime\nMail\nMusic\nSafari\nMaps\nSiri\nCalendar\niTunes Store\nApp Store\nNotes\nContacts\niBooks\nHome\nReminders\nClock\nTV\nNews\nPhoto Booth\nPodcasts\nFind My iPhone\nFind My Friends\nFiles"
+    },
+    {
+      "heading": "Free Apps from Apple 8",
+      "source_text": "Pages, Numbers, Keynote, iMovie, GarageBand, and iTunes U are preinstalled on iPad.\nPages\nNumbers\nKeynote\niMovie\nGarageBand\niTunes U\nApple Store\nTrailers\nRemote\nMusic Memos\nClips\nSwift Playgrounds"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "Apple ID (required for some features)\nInternet access\n9\nSyncing with iTunes on a Mac or PC requires:\nMac: OS X 10.9.5 or later\nPC: Windows 7 or later\niTunes 12.5 or later (free download from\nwww.itunes.com/uk/download\n)"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "Language support\nEnglish (Australia, UK, U.S.), Chinese (Simplified, Traditional, Traditional Hong Kong), French (Canada, France), German, Italian, Japanese, Korean, Spanish (Latin America, Mexico, Spain), Arabic, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hindi, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nQuickType keyboard support\nEnglish (Australia, Canada, India, Singapore, UK, U.S.), Chinese - Simplified (Handwriting, Pinyin, Stroke), Chinese - Traditional (Cangjie, Handwriting, Pinyin, Stroke, Sucheng, Zhuyin), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese (Kana, Romaji), Korean, Spanish (Latin America, Mexico, Spain), Arabic (Modern Standard, Najdi), Armenian, Azerbaijani, Belarusian, Bengali, Bulgarian, Catalan, Cherokee, Croatian, Czech, Danish, Dutch, Emoji, Estonian, Filipino, Finnish, Flemish, Georgian, Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari, Transliteration), Hinglish, Hungarian, Icelandic, Indonesian, Irish, Kannada, Latvian, Lithuanian, Macedonian, Malay, Malayalam, Maori, Marathi, Norwegian, Odia, Persian, Polish, Portuguese (Brazil, Portugal), Punjabi, Romanian, Russian, Serbian (Cyrillic, Latin), Slovak, Slovenian, Swahili, Swedish, Tamil (Script, Transliteration), Telugu, Thai, Tibetan, Turkish, Ukrainian, Urdu, Vietnamese, Welsh\nQuickType keyboard support with predictive input\nEnglish (Australia, Canada, India, Singapore, UK, U.S.), Chinese (Simplified, Traditional), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese, Korean, Russian, Spanish (Latin America, Mexico, Spain), Portuguese (Brazil, Portugal), Thai, Turkish\nSiri languages\nEnglish (Australia, Canada, India, Ireland, New Zealand, Singapore, South Africa, UK, U.S.), Spanish (Chile, Mexico, Spain, U.S.), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (China mainland, Hong Kong), Arabic (Saudi Arabia, United Arab Emirates), Danish (Denmark), Dutch (Belgium, Netherlands), Finnish (Finland), Hebrew (Israel), Malay (Malaysia), Norwegian (Norway), Portuguese (Brazil), Russian (Russia), Swedish (Sweden), Thai (Thailand), Turkish (Türkiye)\nDictation languages\nEnglish (Australia, Canada, India, Indonesia, Ireland, Malaysia, New Zealand, Philippines, Saudi Arabia, Singapore, South Africa, United Arab Emirates, UK, U.S.), Spanish (Argentina, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Panama, Paraguay, Peru, Spain, Uruguay, U.S.), French (Belgium, Canada, France, Luxembourg, Switzerland), German (Austria, Germany, Luxembourg, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (China mainland, Hong Kong, Macao), Arabic (Kuwait, Qatar, Saudi Arabia, United Arab Emirates), Catalan, Croatian, Czech, Danish, Dutch (Belgium, Netherlands), Finnish, Greek, Hebrew, Hindi (India), Hungarian, Indonesian, Malaysian, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Shanghainese (China mainland), Slovakian, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nDeﬁnition dictionary support\nEnglish, Chinese (Simplified, Traditional), Danish, Dutch, French, German, Hindi, Italian, Japanese, Korean, Norwegian, Portuguese, Russian, Spanish, Swedish, Thai, Turkish\nBilingual dictionary support\nChinese (Simplified), Dutch, French, German, Italian, Japanese, Korean, Portuguese, Russian, Spanish\nSpell check\nEnglish, French, German, Italian, Spanish, Danish, Dutch, Finnish, Korean, Norwegian, Polish, Portuguese, Russian, Swedish, Turkish"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "Frequency response: 20Hz to 20,000Hz\nAudio formats supported: AAC (8 to 320 Kbps), Protected AAC (from iTunes Store), HE-AAC, MP3 (8 to 320 Kbps), MP3 VBR, Dolby Digital (AC-3), Dolby Digital Plus (E-AC-3), Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+), Apple Lossless, AIFF, and WAV\nUser-configurable maximum volume limit"
+    },
+    {
+      "heading": "TV and Video",
+      "source_text": "AirPlay Mirroring, photos, audio, and video out to Apple TV (2nd generation or later)\nVideo mirroring and video out support: Up to 1080p through Lightning Digital AV Adapter and Lightning to VGA Adapter (adapters sold separately)\nVideo formats supported: H.264 video up to 4K, 30 frames per second, High Profile level 4.2 with AAC‑LC audio up to 160 Kbps, 48kHz, stereo audio or Dolby Audio up to 1008 Kbps, 48kHz, stereo or multichannel audio, in .m4v, .mp4, and .mov file formats; MPEG‑4 video up to 2.5 Mbps, 640 by 480 pixels, 30 frames per second, Simple Profile with AAC‑LC audio up to 160 Kbps per channel, 48kHz, stereo audio or Dolby Audio up to 1008 Kbps, 48kHz, stereo or multichannel audio, in .m4v, .mp4, and .mov file formats; Motion JPEG (M‑JPEG) up to 35 Mbps, 1280 by 720 pixels, 30 frames per second, audio in ulaw, PCM stereo audio in .avi file format"
+    },
+    {
+      "heading": "Mail Attachment Support",
+      "source_text": "Viewable document types\n.jpg, .tiﬀ, .gif (images); .doc and .docx (Microsoft Word); .htm and .html (web pages); .key (Keynote); .numbers (Numbers); .pages (Pages); .pdf (Preview and Adobe Acrobat); .ppt and .pptx (Microsoft PowerPoint); .txt (text); .rtf (rich text format); .vcf (contact information); .xls and .xlsx (Microsoft Excel); .zip; .ics"
+    },
+    {
+      "heading": "Environmental Requirements",
+      "source_text": "Operating ambient temperature: 32° to 95° F (0° to 35° C)\nNonoperating temperature: -4° to 113° F (-20° to 45° C)\nRelative humidity: 5% to 95% noncondensing\nOperating altitude: tested up to 10,000 feet (3000 m)"
+    },
+    {
+      "heading": "Apple Footer",
+      "source_text": "\nApple\nSupport\niPad (5th generation) - Technical Specifications\nIreland\nCopyright © 2026 Apple Inc. All rights reserved.\nPrivacy Policy\nTerms of Use\nSales and Refunds\nSite Map\nUse of Cookies"
+    }
+  ]
+}

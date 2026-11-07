@@ -1,0 +1,168 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "tablet",
+    "family": "iPad",
+    "model": "iPad (A16)",
+    "model_slug": "ipad-a16",
+    "model_year": 2025,
+    "year_introduced": 2025
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/122240",
+    "source_file": "Pasted text (2)(1).txt",
+    "source_title": "iPad (A16) - Tech Specs - Apple Support (IE)",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-07",
+    "verification_status": "url_checked",
+    "verification_notes": "Source URL and archived Apple Ireland page captured. Original section text retained; normalized specifications have not been independently extracted."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple Ireland source headings and section text retained as an archival-first-pass record. Connectivity variants and their differences remain within the same model record.",
+    "extracted_at": "2026-11-07",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Finish",
+      "source_text": "Silver\nBlue\nPink\nYellow"
+    },
+    {
+      "heading": "Capacity 1",
+      "source_text": "128GB\n256GB\n512GB"
+    },
+    {
+      "heading": "Size and Weight 2",
+      "source_text": "Wi‑Fi models\nHeight:\n248.6 mm (9.79 inches)\nWidth:\n179.5 mm (7.07 inches)\nDepth:\n7 mm (0.28 inches)\nWeight:\n477 grams (1.05 pounds)\nWi‑Fi + Cellular models\nHeight:\n248.6 mm (9.79 inches)\nWidth:\n179.5 mm (7.07 inches)\nDepth:\n7 mm (0.28 inches)\nWeight:\n481 grams (1.06 pounds)"
+    },
+    {
+      "heading": "Buttons and Connectors",
+      "source_text": "Speaker\nTop button/Touch ID sensor\nSmart Connector\nCamera\nMicrophone\nVolume up/down\nUSB-C connector"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "iPad\nUSB‑C Charge Cable (1 metre)"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Liquid Retina display\nLED backlit Multi‑Touch display with IPS technology\n2360x1640-pixel resolution at 264 pixels per inch (ppi)\nTrue Tone display\n500 nits brightness\nFingerprint-resistant oleophobic coating\nSupports\nApple Pencil (USB-C)\n,\nApple Pencil (1st generation)\n◆\nThe iPad display has rounded corners. When measured diagonally as a rectangle, the screen is 10.86 inches. Actual viewable area is less.\n◆\nPair and charge Apple Pencil (1st generation) using USB‑C to Apple Pencil Adapter."
+    },
+    {
+      "heading": "Chip",
+      "source_text": "A16 chip\n5-core CPU\n4-core GPU\n16-core Neural Engine"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "12MP Wide camera, ƒ/1.8 aperture\nDigital zoom up to 5x\nFive-element lens\nAutofocus with Focus Pixels\nPanorama (up to 63MP)\nSmart HDR 4\nPhoto geotagging\nAuto image stabilisation\nBurst mode\nImage formats captured: HEIF and JPEG"
+    },
+    {
+      "heading": "Video Recording",
+      "source_text": "4K video recording at 24 fps, 25 fps, 30 fps or 60 fps\n1080p HD video recording at 25 fps, 30 fps or 60 fps\n720p HD video recording at 30 fps or 60 fps\nSlo‑mo video support for 1080p at 120 fps or 240 fps\nTime-lapse video with stabilisation\nExtended dynamic range for video up to 30 fps\nVideo image stabilisation\nCinematic video stabilisation (1080p and 720p)\nContinuous autofocus video\nPlayback zoom\nVideo formats captured: HEVC and H.264"
+    },
+    {
+      "heading": "Front Camera",
+      "source_text": "Landscape 12MP Center Stage camera\nƒ/2.4 aperture\nSmart HDR 4\n1080p HD video recording at 25 fps, 30 fps or 60 fps\nTime-lapse video with stabilisation\nExtended dynamic range for video up to 30 fps\nCinematic video stabilisation (1080p and 720p)\nLens correction\nRetina Flash\nAuto image stabilisation\nBurst mode"
+    },
+    {
+      "heading": "Video Calling 3",
+      "source_text": "FaceTime video\nCentre Stage\niPad to any FaceTime-enabled device over Wi‑Fi or a mobile network"
+    },
+    {
+      "heading": "Audio Calling 3",
+      "source_text": "FaceTime audio\niPad to any FaceTime-enabled device over Wi‑Fi or a mobile network"
+    },
+    {
+      "heading": "Speakers",
+      "source_text": "Landscape stereo speakers"
+    },
+    {
+      "heading": "Microphones",
+      "source_text": "Dual microphones for calls, video recording and audio recording"
+    },
+    {
+      "heading": "Mobile and Wireless",
+      "source_text": "All models\nWi‑Fi 6 (802.11ax) with 2x2 MIMO\nSimultaneous dual band\nBluetooth 5.3\nWi-Fi + Cellular models\n5G (sub-6GHz) with 4x4 MIMO\nGigabit LTE with 4x4 MIMO\nModel A3355:\n5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n38, n40, n41, n48, n66, n70, n71, n75, n76, n77, n78, n79)\n4\nFDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 66, 71)\nTD-LTE (Bands 34, 38, 39, 40, 41, 42, 48)\nUMTS/HSPA/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nData only\n5\nWi‑Fi calling\n4\neSIM\n6\nLearn more about mobile data\nFor details on 5G and LTE support, contact your provider and see\napple.com/uk/ipad/cellular\n."
+    },
+    {
+      "heading": "SIM Card",
+      "source_text": "eSIM\n6\niPad uses advanced eSIM technology for more convenience and security (not compatible with physical SIM cards)\nLearn more about eSIM\nLearn more about travelling with eSIM"
+    },
+    {
+      "heading": "Location",
+      "source_text": "All models\nDigital compass\nWi‑Fi\niBeacon micro-location\nWi‑Fi + Cellular models\nGPS/GNSS\nMobile data"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Touch ID\nThree‐axis gyro\nAccelerometer\nBarometer\nAmbient light sensor"
+    },
+    {
+      "heading": "Touch ID",
+      "source_text": "Unlock iPad\nSecure personal data within apps\nMake purchases from the iTunes Store, App Store and Apple Books"
+    },
+    {
+      "heading": "Apple Pay",
+      "source_text": "Pay with your iPad using Touch ID within apps and on the web\nLearn more about Apple Pay"
+    },
+    {
+      "heading": "Siri 7",
+      "source_text": "Get help with everyday tasks like sending messages, setting reminders and more\nActivate hands‑free with only your voice using “Siri” or “Hey Siri”, or use Type to Siri\nProtected by the strongest privacy of any intelligent assistant\nLearn more about Siri"
+    },
+    {
+      "heading": "Charging and Expansion",
+      "source_text": "USB-C port with support for:\nCharging\nDisplayPort\nUSB 2.0 (up to 480Mb/s)"
+    },
+    {
+      "heading": "Display Support",
+      "source_text": "Supports full native resolution on the built‑in display at millions of colours\nSupports one external display with up to 4K resolution at 60Hz\nDigital video output\nNative DisplayPort output over USB‑C\nVGA, HDMI and DVI output supported using adapters (sold separately)\nVideo mirroring\nUp to 4K AirPlay for mirroring, photos and video out to Apple TV (2nd generation or later) or AirPlay‑enabled smart TV\nVideo mirroring and video out support through USB‑C Digital AV Multiport Adapter and USB‑C VGA Multiport Adapter (adapters sold separately)"
+    },
+    {
+      "heading": "Power and Battery 8",
+      "source_text": "All models\nBuilt‐in 28.93‐watt‐hour rechargeable lithium‑polymer battery\nUp to 10 hours of surfing the web on Wi‐Fi or watching video\nCharging via power adapter or USB‑C to computer system\nWi‑Fi + Cellular models\nUp to 9 hours of surfing the web using a mobile data network"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "iPadOS\niPadOS comes with powerful features and built-in apps designed to take advantage of the unique capabilities of iPad."
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Built-in accessibility features supporting vision, mobility, hearing and cognitive disabilities help you get the most out of your iPad.\nLearn more about Accessibility\nFeatures include:\nVoiceOver\nZoom\nMagnifier\nSpoken Content\nVoice Control\nSwitch Control\nAssistiveTouch\nSiri and Dictation\nType to Siri\nReal-Time Text\nAudio Descriptions\nSubtitles and Closed Captioning"
+    },
+    {
+      "heading": "Built-in Apps 9",
+      "source_text": "Apple Store\nApp Store\nBooks\nCalculator\nCalendar\nCamera\nClock\nContacts\nFaceTime\nFiles\nFind My\nFreeform\nGames\nGarageBand\nHealth\nHome\niMovie\nInvites\niTunes Store\nJournal\nKeynote\nMagnifier\nMail\nMaps\nMeasure\nMessages\nMusic\nNews\nNotes\nNumbers\nPages\nPasswords\nPhone\nPhoto Booth\nPhotos\nPodcasts\nPreview\nReminders\nSafari\nSettings\nShortcuts\nStocks\nSupport\nSwift Playgrounds\nTips\nTranslate\nTV\nVoice Memos\nWeather\nFor a complete list of Apple apps available on iPad, see\napple.com/uk/apps\n."
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "Apple Account (required for some features)\nInternet access\n10\nSyncing to a Mac or PC requires:\nmacOS Catalina 10.15 or later using the Finder\nmacOS High Sierra 10.13 to macOS Mojave 10.14.6 using iTunes 12.9 or later\nWindows 10 or later using iTunes 12.12.10 or later (free download from\napple.com/uk/itunes/download\n)"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "Language support\nArabic, Bangla, Bulgarian, Catalan, Chinese (Simplified, Traditional – Hong Kong, Traditional – Taiwan), Croatian, Czech, Danish, Dutch, English (Australia, India, UK, US), Finnish, French (Canada, France), German, Greek, Gujarati, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kannada, Kazakh, Korean, Lithuanian, Malayalam, Malay, Marathi, Norwegian, Odia, Polish, Portuguese (Brazil, Portugal), Punjabi, Romanian, Russian, Slovak, Slovenian, Spanish (Latin America, Spain, US), Swedish, Tamil, Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese\nLearn more about feature availability"
+    },
+    {
+      "heading": "Video Playback",
+      "source_text": "Supported formats include HEVC and H.264\nSupports Dolby Vision and HDR10 content"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "Supported formats include AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus and Dolby Atmos\nUser-conﬁgurable maximum volume limit"
+    },
+    {
+      "heading": "Environmental Requirements",
+      "source_text": "Ambient operating temperature:\n0° to 35° C (32° to 95° F)\nNon-operating temperature:\n−20° to 45° C (−4° to 113° F)\nRelative humidity:\n5% to 95% non-condensing\nOperating altitude:\ntested up to 3,000 metres (10,000 feet)"
+    },
+    {
+      "heading": "iPad and the Environment",
+      "source_text": "iPad is designed to reduce environmental impact:\n11\nSee the iPad Product En­viron­men­tal Report (PDF)\nProgress towards Apple 2030\n40% recycled content\n12\nOver 30% of manufacturing electricity sourced from renewable electricity\n13\nOver 40% emissions reduction against business-as-usual scenario as modelled by Apple\n14\nSee Apple’s commitment\nMaterials\n100% recycled aluminium in the enclosure and metal chassis\n100% recycled cobalt and over 95% recycled lithium in the battery\n100% recycled copper in multiple printed circuit boards\n100% recycled gold wire in all cameras\n100% recycled gold in the plating of all Apple-designed printed circuit boards and all connectors\n100% recycled rare earth elements in all magnets\n100% recycled tin in the solder of multiple printed circuit boards\n80% recycled steel in the logo\n15% recycled glass in the cover glass\nAt least 50% recycled plastic in 11 components\n100% fibre-based packaging\n15\n41% recycled content in fibre-based packaging\nEnergy\nOver 30% of manufacturing electricity for iPad is sourced from renewable electricity\nENERGY STAR® certified\n16\nWaste\nNo established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme\nSmarter chemistry\n17\nArsenic-free glass\nMercury-, BFR- and PVC‑free"
+    },
+    {
+      "heading": "Apple Footer",
+      "source_text": "\nApple\nSupport\niPad (A16) - Tech Specs\nIreland\nCopyright © 2026 Apple Inc. All rights reserved.\nPrivacy Policy\nTerms of Use\nSales and Refunds\nSite Map\nUse of Cookies"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "tablet",
+    "family": "iPad",
+    "model": "iPad Pro 12.9-inch (4th generation)",
+    "model_slug": "ipad-pro-12-9-inch-4th-generation",
+    "model_year": 2020,
+    "year_introduced": 2020
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111977",
+    "source_file": "Pasted text (4)(5).txt",
+    "source_title": "iPad Pro 12.9-inch (4th generation) - Technical Specifications - Apple Support (IE)",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-07",
+    "verification_status": "url_checked",
+    "verification_notes": "Source URL and archived Apple Ireland page captured. Original section text retained; normalized specifications have not been independently extracted."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple Ireland source headings and section text retained as an archival-first-pass record. Connectivity variants and their differences remain within the same model record.",
+    "extracted_at": "2026-11-07",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Finish",
+      "source_text": "Silver\nSpace Gray"
+    },
+    {
+      "heading": "Capacity 1",
+      "source_text": "128GB\n256GB\n512GB\n1TB"
+    },
+    {
+      "heading": "Size and Weight 2",
+      "source_text": "Wi-Fi models\nWidth: 8.46 inches (214.9 mm)\nHeight: 11.04 inches (280.6 mm)\nDepth: 0.23 inch (5.9 mm)\nWeight: 1.41 pounds (641 grams)\nWi-Fi + Cellular models\nWidth: 8.46 inches (214.9 mm)\nHeight: 11.04 inches (280.6 mm)\nDepth: 0.23 inch (5.9 mm)\nWeight: 1.42 pounds (643 grams)"
+    },
+    {
+      "heading": "Buttons and Connectors",
+      "source_text": "Five microphones\nFour speakers\nOn/Off - Sleep/Wake\nVolume up/down\nUSB-C connector\nSmart Connector\nNano-SIM tray\nMagnetic connector"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "iPad Pro\nUSB-C Charge Cable (1 meter)\n18W USB-C Power Adapter"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Liquid Retina display\n12.9-inch (diagonal) LED-backlit Multi‑Touch display with IPS technology\n2732-by-2048-pixel resolution at 264 pixels per inch (ppi)\nProMotion technology\nWide color display (P3)\nTrue Tone display\nFingerprint-resistant oleophobic coating\nFully laminated display\nAntireflective coating\n1.8% reflectivity\n600 nits brightness\nSupports\nApple Pencil (2nd generation), Apple Pencil (USB-C)\nThe 12.9-inch iPad Pro display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 12.9 inches diagonally (actual viewable area is less)."
+    },
+    {
+      "heading": "Chip",
+      "source_text": "A12Z Bionic chip with 64-bit architecture\nNeural Engine"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "Wide: 12MP, ƒ/1.8 aperture\nUltra Wide: 10MP, ƒ/2.4 aperture, and 125° field of view\n2x optical zoom out; digital zoom up to 5x\nFive‑element lens (Wide and Ultra Wide)\nBrighter True Tone flash\nPanorama (up to 63MP)\nSapphire crystal lens cover\nBackside illumination sensor\nHybrid IR filter\nAutofocus with Focus Pixels (Wide)\nTap to focus with Focus Pixels (Wide)\nWide color capture for photos and Live Photos\nExposure control\nNoise reduction\nSmart HDR for photos\nAuto image stabilization\nBurst mode\nTimer mode\nPhoto geotagging\nImage formats captured: HEIF and JPEG"
+    },
+    {
+      "heading": "Video Recording",
+      "source_text": "4K video recording at 24 fps, 30 fps, or 60 fps (Wide); 60 fps (Ultra Wide)\n1080p HD video recording at 30 fps or 60 fps\n720p HD video recording at 30 fps\nBrighter True Tone flash\nSlo‑mo video support for 1080p at 120 fps or 240 fps (Wide); 240 fps (Ultra Wide)\nTime‑lapse video with stabilization\nCinematic video stabilization (1080p and 720p)\nContinuous autofocus video\nNoise reduction\nPlayback zoom\nVideo geotagging\nVideo formats captured: HEVC and H.264"
+    },
+    {
+      "heading": "TrueDepth Camera",
+      "source_text": "7MP photos\nPortrait mode\nPortrait Lighting\nAnimoji and Memoji\n1080p HD video recording at 30 fps or 60 fps\nRetina Flash\nƒ/2.2 aperture\nWide color capture for photos and Live Photos\nSmart HDR\nBackside illumination sensor\nAuto image stabilization\nBurst mode\nExposure control\nTimer mode"
+    },
+    {
+      "heading": "Video Calling 3",
+      "source_text": "FaceTime video\niPad to any FaceTime-enabled device over Wi-Fi or cellular"
+    },
+    {
+      "heading": "Audio Calling 3",
+      "source_text": "FaceTime audio\niPad to any FaceTime-enabled device over Wi-Fi or cellular"
+    },
+    {
+      "heading": "Speakers",
+      "source_text": "Four speaker audio"
+    },
+    {
+      "heading": "Microphones",
+      "source_text": "Five studio-quality microphones for calls, video recording, and audio recording"
+    },
+    {
+      "heading": "Cellular and Wireless",
+      "source_text": "All models\n802.11ax Wi-Fi 6; simultaneous dual band (2.4GHz and 5GHz); HT80 with MIMO\nBluetooth 5.0 technology\nWi-Fi + Cellular models\nUMTS/HSPA/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz)\nGigabit-class LTE (Models A2068 and A2069: bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 29, 30, 34, 38, 39, 40, 41, 42, 46, 48, 66, 71)\n4\nData only\n5\nWi-Fi calling\n4\neSIM\n6\nLearn more about Cellular"
+    },
+    {
+      "heading": "SIM Card",
+      "source_text": "Nano‑SIM (supports Apple SIM\n6\n)\neSIM\n6"
+    },
+    {
+      "heading": "Location",
+      "source_text": "All models\nDigital compass\nWi-Fi\niBeacon microlocation\nWi-Fi + Cellular models\nBuilt‑in GPS/GNSS\nCellular"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Face ID\nLiDAR Scanner\nThree-axis gyro\nAccelerometer\nBarometer\nAmbient light sensor"
+    },
+    {
+      "heading": "Face ID",
+      "source_text": "Enabled by TrueDepth camera for facial recognition\nUnlock iPad\nSecure personal data within apps\nMake purchases from the iTunes Store, App Store, and Apple Books"
+    },
+    {
+      "heading": "Apple Pay",
+      "source_text": "Pay with your iPad using Face ID within apps and on the web\nSend and receive money in Messages\nLearn more about Apple Pay"
+    },
+    {
+      "heading": "Siri 7",
+      "source_text": "Use your voice to send messages, set reminders, and more\nGet proactive suggestions\nUse hands-free\nListen and identify songs\nLearn more about Siri"
+    },
+    {
+      "heading": "Charging and Expansion",
+      "source_text": "USB-C"
+    },
+    {
+      "heading": "Power and Battery 8",
+      "source_text": "iPad Pro 12.9-inch\nBuilt-in 36.71-watt-hour rechargeable lithium-polymer battery\nAll models\nUp to 10 hours of surfing the web on Wi-Fi or watching video\nCharging via power adapter or USB-C to computer system\nWi-Fi + Cellular models\nUp to 9 hours of surfing the web using cellular data network"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "iPadOS\niPadOS comes with powerful features and built-in apps designed to take advantage of the unique capabilities of iPad.\nSee what’s new in iPadOS"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new iPad Pro. With built-in support for vision, hearing, mobility, and learning, you can create and do amazing things.\nLearn more about Accessibility\nFeatures include:\nVoiceOver\nVoice Control\nZoom\nMagnifier\nSiri and Dictation\nSwitch Control\nClosed Captions\nAssistiveTouch\nSpeak Screen"
+    },
+    {
+      "heading": "Built-in Apps",
+      "source_text": "App Store\nBooks\nCalendar\nCamera\nClock\nContacts\nFaceTime\nFiles\nFind My\nHome\niTunes Store\nMail\nMaps\nMeasure\nMessages\nMusic\nNews\nNotes\nPhoto Booth\nPhotos\nPodcasts\nReminders\nSafari\nSettings\nShortcuts\nSiri\nStocks\nTips\nTV\nVoice Memos"
+    },
+    {
+      "heading": "Free Apps from Apple",
+      "source_text": "Pages, Numbers, Keynote, iMovie, GarageBand, iTunes U, Clips, and Apple Store app are preinstalled on iPad.\nPages\nNumbers\nKeynote\niMovie\nGarageBand\nApple Store\nTrailers\nMusic Memos\nClips\nSwift Playgrounds\nSupport"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "Apple ID (required for some features)\nInternet access\n9\nSyncing to a Mac or PC requires:\nmacOS Catalina 10.15 using the Finder\nmacOS El Capitan 10.11.6 through macOS Mojave 10.14.6 using iTunes 12.8 or later\nWindows 7 or later using iTunes 12.10 or later (free download from\nitunes.com/uk/download\n)"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "Language support\nEnglish (Australia, UK, U.S.), Chinese (Simplified, Traditional, Traditional Hong Kong), French (Canada, France), German, Italian, Japanese, Korean, Spanish (Latin America, Spain), Arabic, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hindi, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nQuickType keyboard support\nEnglish (Australia, Canada, India, Singapore, UK, U.S.), Chinese - Simplified (Handwriting, Pinyin QWERTY, Pinyin 10 Key, Shuangpin, Stroke), Chinese - Traditional (Cangjie, Handwriting, Pinyin QWERTY, Pinyin 10 Key, Shuangpin, Stroke, Sucheng, Zhuyin), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese (Kana, Romaji), Korean (2-Set, 10 Key), Spanish (Latin America, Mexico, Spain), Albanian, Arabic (Modern Standard, Najdi), Armenian, Assamese, Azerbaijani, Bangla, Belarusian, Bodo, Bulgarian, Burmese, Cantonese - Traditional (Cangjie, Handwriting, Stroke, Sucheng), Catalan, Cherokee, Croatian, Czech, Danish, Dhivehi, Dogri, Dutch, Emoji, Estonian, Faroese, Filipino, Finnish, Flemish, Georgian, Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari, Latin, Transliteration), Hungarian, Icelandic, Indonesian, Irish, Kannada, Kashmiri (Arabic, Devanagari), Kazakh, Khmer, Konkani (Devanagari), Kurdish (Arabic, Latin), Kyrgyz, Lao, Latvian, Lithuanian, Macedonian, Maithili (Bangla), Malay (Arabic, Latin), Malayalam, Maltese, Manipuri (Bangla, Meetei Mayek), Maori, Marathi, Mongolian, Nepali, Norwegian, Odia, Pashto, Persian, Polish, Portuguese (Brazil, Portugal), Punjabi, Romanian, Russian, Sanskrit, Santali (Devanagari, Ol Chiki), Serbian (Cyrillic, Latin), Sindhi (Arabic, Devanagari), Sinhala, Slovak, Slovenian, Swahili, Swedish, Tajik, Tamil (Anjal, Tamil 99), Telugu, Thai, Tibetan, Tongan, Turkish, Turkmen, Ukrainian, Urdu, Uyghur, Uzbek (Arabic, Cyrillic, Latin), Vietnamese, Welsh\nQuickType keyboard support with predictive input\nEnglish (Australia, Canada, India, Singapore, UK, U.S.), Chinese (Simplified, Traditional), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese, Korean, Spanish (Latin America, Mexico, Spain), Arabic (Najdi and MSA), Cantonese (Traditional), Dutch, Hindi (Devanagari, Latin), Portuguese (Brazil, Portugal), Russian, Swedish, Thai, Turkish, Vietnamese\nSiri languages\nEnglish (Australia, Canada, India, Ireland, New Zealand, Singapore, South Africa, UK, U.S.), Spanish (Chile, Mexico, Spain, U.S.), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (China mainland, Hong Kong), Arabic (Saudi Arabia, United Arab Emirates), Danish (Denmark), Dutch (Belgium, Netherlands), Finnish (Finland), Hebrew (Israel), Malay (Malaysia), Norwegian (Norway), Portuguese (Brazil), Russian (Russia), Swedish (Sweden), Thai (Thailand), Turkish (Türkiye)\nDictation languages\nEnglish (Australia, Canada, India, Indonesia, Ireland, Malaysia, New Zealand, Philippines, Saudi Arabia, Singapore, South Africa, United Arab Emirates, UK, U.S.), Spanish (Argentina, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Panama, Paraguay, Peru, Spain, Uruguay, U.S.), French (Belgium, Canada, France, Luxembourg, Switzerland), German (Austria, Germany, Luxembourg, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (China mainland, Hong Kong, Macao), Arabic (Kuwait, Qatar, Saudi Arabia, United Arab Emirates), Catalan, Croatian, Czech, Danish, Dutch (Belgium, Netherlands), Finnish, Greek, Hebrew, Hindi (India), Hungarian, Indonesian, Malaysian, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Shanghainese (China mainland), Slovakian, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nDefinition dictionary support\nEnglish, Chinese (Simplified, Traditional), Danish, Dutch, French, German, Hebrew, Hindi, Italian, Japanese, Korean, Norwegian, Portuguese, Russian, Spanish, Swedish, Thai, Turkish\nThesaurus\nEnglish (UK, U.S.)\nBilingual dictionary support with English\nArabic, Chinese (Simplified, Traditional), French, German, Italian, Japanese, Spanish, Korean, Dutch, Hindi, Portuguese, Russian, Thai, Vietnamese\nSpell check\nEnglish, French, German, Italian, Spanish, Arabic, Arabic Najdi, Danish, Dutch, Finnish, Korean, Norwegian, Polish, Portuguese, Russian, Swedish, Turkish"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "Audio formats supported: AAC (8 to 320 Kbps), Protected AAC (from iTunes Store), HE-AAC, MP3 (8 to 320 Kbps), MP3 VBR, Dolby Digital (AC-3), Dolby Digital Plus (E-AC-3), Dolby Atmos, Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+), Apple Lossless, AIFF, and WAV\nUser-conﬁgurable maximum volume limit"
+    },
+    {
+      "heading": "TV and Video",
+      "source_text": "AirPlay Mirroring, photos, audio, and video out to Apple TV (2nd generation or later)\nSupports Dolby Vision and HDR10 content\nVideo mirroring and video out support: Up to 4K through USB-C Digital AV Multiport Adapter and USB-C VGA Multiport Adapter (adapters sold separately)\nVideo formats supported: H.264 video up to 4K, 30 frames per second, High Profile level 4.2 with AAC‑LC audio up to 160 Kbps, 48kHz, stereo audio or Dolby Audio up to 1008 Kbps, 48kHz, stereo or multichannel audio, in .m4v, .mp4, and .mov file formats; MPEG‑4 video up to 2.5 Mbps, 640 by 480 pixels, 30 frames per second, Simple Profile with AAC‑LC audio up to 160 Kbps per channel, 48kHz, stereo audio or Dolby Audio up to 1008 Kbps, 48kHz, stereo or multichannel audio, in .m4v, .mp4, and .mov file formats; Motion JPEG (M‑JPEG) up to 35 Mbps, 1280 by 720 pixels, 30 frames per second, audio in ulaw, PCM stereo audio in .avi file format"
+    },
+    {
+      "heading": "Mail Attachment Support",
+      "source_text": "Viewable document types\n.jpg, .tiﬀ, .gif (images); .doc and .docx (Microsoft Word); .htm and .html (web pages); .key (Keynote); .numbers (Numbers); .pages (Pages); .pdf (Preview and Adobe Acrobat); .ppt and .pptx (Microsoft PowerPoint); .txt (text); .rtf (rich text format); .vcf (contact information); .xls and .xlsx (Microsoft Excel); .zip; .ics"
+    },
+    {
+      "heading": "Environmental Requirements",
+      "source_text": "Operating ambient temperature: 32° to 95° F (0° to 35° C)\nNonoperating temperature: −4° to 113° F (−20° to 45° C)\nRelative humidity: 5% to 95% noncondensing\nOperating altitude: tested up to 10,000 feet (3000 m)"
+    },
+    {
+      "heading": "iPad and the Environment",
+      "source_text": "We take responsibility for the environmental footprint of our products throughout their life cycle.\nLearn more about iPad and the Environment\niPad Pro is designed with the following features to reduce its environmental impact:\n10\nMade with better materials\n100% recycled tin in the solder of the main logic board, True Tone flash, and wireless charger for Apple Pencil\nEnclosure made with recyclable, low-carbon aluminum\n35% or more recycled plastic in multiple components\nSmarter chemistry\nArsenic-free display glass\nMercury-free display\nBFR-, PVC-, and beryllium-free\nGreen manufacturing\nFinal assembly supplier sites do not generate any waste sent to landfill\n11\nAll final assembly suppliers are transitioning to 100% renewable energy for Apple production\nResponsible packaging\n100% of virgin wood fiber comes from responsibly managed forests\nRecyclable, majority-fiber packaging\nEnergy efficient\nMeets ENERGY STAR requirements"
+    },
+    {
+      "heading": "Apple Footer",
+      "source_text": "\nApple\nSupport\niPad Pro 12.9-inch (4th generation) - Technical Specifications\nIreland\nCopyright © 2026 Apple Inc. All rights reserved.\nPrivacy Policy\nTerms of Use\nSales and Refunds\nSite Map\nUse of Cookies"
+    }
+  ]
+}

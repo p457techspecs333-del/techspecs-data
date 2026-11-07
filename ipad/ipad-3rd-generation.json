@@ -1,0 +1,124 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "tablet",
+    "family": "iPad",
+    "model": "iPad (3rd generation)",
+    "model_slug": "ipad-3rd-generation",
+    "model_year": 2012,
+    "year_introduced": 2012
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111992",
+    "source_file": "Pasted text (4)(7).txt",
+    "source_title": "iPad (3rd generation) - Technical Specifications - Apple Support (IE)",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-07",
+    "verification_status": "url_checked",
+    "verification_notes": "Source URL and archived Apple Ireland page captured. Original section text retained; normalized specifications have not been independently extracted."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple Ireland source headings and section text retained as an archival-first-pass record. Connectivity variants and their differences remain within the same model record.",
+    "extracted_at": "2026-11-07",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Models",
+      "source_text": "Wi-Fi\nWi-Fi + Cellular"
+    },
+    {
+      "heading": "Size and Weight 1",
+      "source_text": "Wi-Fi\nHeight: 9.50 inches (241.2 mm)\nWidth: 7.31 inches (185.7 mm)\nDepth: 0.37 inch (9.4 mm)\nWeight: 1.44 pounds (652 g)\nWi-Fi + Cellular\nHeight: 9.50 inches (241.2 mm)\nWidth: 7.31 inches (185.7 mm)\nDepth: 0.37 inch (9.4 mm)\nWeight: 1.46 pounds (662 g)"
+    },
+    {
+      "heading": "Storage 2",
+      "source_text": "16GB\n32GB\n64GB"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Retina display\n9.7-inch (diagonal) LED-backlit glossy widescreen Multi-Touch display with IPS technology\n2048-by-1536-pixel resolution at 264 pixels per inch (ppi)\nFingerprint-resistant oleophobic coating\nSupport for display of multiple languages and characters simultaneously"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "Dual-core Apple A5X custom-designed, high-performance, low-power system-on-a-chip with quad-core graphics"
+    },
+    {
+      "heading": "Wireless and Cellular",
+      "source_text": "Wi-Fi\nWi-Fi (802.11a/b/g/n)\nBluetooth 4.0 technology\nWi-Fi + Cellular\nWi-Fi (802.11a/b/g/n)\nBluetooth 4.0 technology\nModel for AT&T: 4G LTE (700, 2100 MHz)\n3\n; UMTS/HSPA/HSPA+/DC-HSDPA (850, 900, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz)\nModel for Verizon: 4G LTE (700 MHz)\n3\n; CDMA EV-DO Rev. A (800, 1900 MHz); UMTS/HSPA/HSPA+/DC-HSDPA (850, 900, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz)\nData only\n4"
+    },
+    {
+      "heading": "Carriers",
+      "source_text": "AT&T\nVerizon"
+    },
+    {
+      "heading": "Cameras, Photos, and Video Recording",
+      "source_text": "5-megapixel iSight camera\nAutofocus\nTap to focus\nFace detection in still images\nVideo recording, HD (1080p) up to 30 frames per second with audio\nVideo stabilization\nFaceTime camera with VGA-quality photos and video at up to 30 frames per second\nPhoto and video geotagging"
+    },
+    {
+      "heading": "Battery and Power 5",
+      "source_text": "Wi-Fi\nBuilt-in 42.5-watt-hour rechargeable lithium-polymer battery\nUp to 10 hours of surfing the web on Wi-Fi, watching video, or listening to music\nCharging via power adapter or USB to computer system\nWi-Fi + Cellular\nBuilt-in 42.5-watt-hour rechargeable lithium-polymer battery\nUp to 10 hours of surfing the web on Wi-Fi, watching video, or listening to music\nUp to 9 hours of surfing the web using cellular data network\nCharging via power adapter or USB to computer system"
+    },
+    {
+      "heading": "Input and Output",
+      "source_text": "Wi-Fi\n30-pin dock connector port\n3.5-mm stereo headphone minijack\nBuilt-in speaker\nMicrophone\nWi-Fi + Cellular\n30-pin dock connector port\n3.5-mm stereo headphone minijack\nBuilt-in speaker\nMicrophone\nMicro-SIM card tray"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Accelerometer\nAmbient light sensor\nGyroscope"
+    },
+    {
+      "heading": "Location",
+      "source_text": "Wi-Fi\nWi-Fi\nDigital compass\nWi-Fi + Cellular\nWi-Fi\nDigital compass\nAssisted GPS and GLONASS\nCellular"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "Frequency response: 20Hz to 20,000Hz\nAudio formats supported: HE-AAC (V1 and V2), AAC (8 to 320 Kbps), Protected AAC (from iTunes Store), MP3 (8 to 320 Kbps), MP3 VBR, Audible (formats 2, 3, and 4, Audible Enhanced Audio, AAX, and AAX+), Apple Lossless, AIFF, and WAV\nUser-configurable maximum volume limit\nDolby Digital 5.1 surround sound pass-through with Apple Digital AV Adapter (sold separately)"
+    },
+    {
+      "heading": "TV and Video",
+      "source_text": "AirPlay Mirroring to Apple TV (2nd and 3rd generation) at 720p\nAirPlay video streaming to Apple TV (3rd generation) at up to 1080p and Apple TV (2nd generation) at up to 720p\nVideo mirroring and video out support: Up to 1080p with Apple Digital AV Adapter or Apple VGA Adapter (adapters sold separately)\nVideo out support at 576i and 480i with Apple Composite AV Cable (cable sold separately)\nVideo formats supported: H.264 video up to 1080p, 30 frames per second, High Profile level 4.1 with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats; MPEG-4 video up to 2.5 Mbps, 640 by 480 pixels, 30 frames per second, Simple Profile with AAC-LC audio up to 160 Kbps per channel, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats; Motion JPEG (M-JPEG) up to 35 Mbps, 1280 by 720 pixels, 30 frames per second, audio in ulaw, PCM stereo audio in .avi file format"
+    },
+    {
+      "heading": "Mail Attachment Support",
+      "source_text": "Viewable document types:\n.jpg, .tiff, .gif (images); .doc and .docx (Microsoft Word); .htm and .html (web pages); .key (Keynote); .numbers (Numbers); .pages (Pages); .pdf (Preview and Adobe Acrobat); .ppt and .pptx (Microsoft PowerPoint); .txt (text); .rtf (rich text format); .vcf (contact information); .xls and .xlsx (Microsoft Excel)"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "Language support for English (U.S.), English (UK), Chinese (Simplified), Chinese (Traditional), French, German, Italian, Japanese, Korean, Spanish, Arabic, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nKeyboard support for English (U.S.), English (UK), Chinese - Simplified (Handwriting, Pinyin, Stroke), Chinese - Traditional (Handwriting, Pinyin, Zhuyin, Cangjie, Stroke), French, French (Canadian), French (Switzerland), German (Germany), German (Switzerland), Italian, Japanese (Romaji, Kana), Korean, Spanish, Arabic, Bulgarian, Catalan, Cherokee, Croatian, Czech, Danish, Dutch, Emoji, Estonian, Finnish, Flemish, Greek, Hawaiian, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Latvian, Lithuanian, Macedonian, Malay, Norwegian, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian (Cyrillic/Latin), Slovak, Swedish, Thai, Tibetan, Turkish, Ukrainian, Vietnamese\nDictionary support (enables predictive text and autocorrect) for English (U.S.), English (UK), Chinese (Simplified), Chinese (Traditional), French, French (Canadian), French (Switzerland), German, Italian, Japanese (Romaji, Kana), Korean, Spanish, Arabic, Catalan, Cherokee, Croatian, Czech, Danish, Dutch, Estonian, Finnish, Flemish, Greek, Hawaiian, Hebrew, Hindi, Hungarian, Indonesian, Latvian, Lithuanian, Malay, Norwegian, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nDictation support for English (U.S., UK, and Australian), French, German, Japanese"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "VoiceOver screen reader\nSupport for playback of closed-captioned content\nAssistiveTouch interface for adaptive accessories\nFull-screen zoom magnification\nLarge fonts\nWhite on black display\nLeft/right volume adjustment"
+    },
+    {
+      "heading": "Environmental Requirements",
+      "source_text": "Operating temperature: 32° to 95° F (0° to 35° C)\nNonoperating temperature: -4° to 113° F (-20° to 45° C)\nRelative humidity: 5% to 95% noncondensing\nMaximum operating altitude: 10,000 feet (3000 m)"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "Apple ID (required for some features)\nInternet access\n6\nSyncing with iTunes on a Mac or PC requires:\nMac: OS X v10.5.8 or later\nPC: Windows 7; Windows Vista; or Windows XP Home or Professional with Service Pack 3 or later\niTunes 10.6 or later (free download from\nwww.itunes.com/uk/download\n)"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "iPad\nDock Connector to USB Cable\n10W USB Power Adapter\nDocumentation"
+    },
+    {
+      "heading": "Built-in Apps",
+      "source_text": "Safari\nPhotos\nApp Store\nMaps\nPhoto Booth\nReminders\nCamera\nMail\nFaceTime\niTunes\nMusic\nYouTube\nCalendar\nMessages\nNewsstand\nVideos\nGame Center\nContacts\nNotes"
+    },
+    {
+      "heading": "iPad and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more about iPad and the Environment\niPad embodies Apple’s continuing environmental progress. It is designed with the following features to reduce environmental impact:\nMercury-free LCD display\nArsenic-free display glass\nBFR-free\nPVC-free\nRecyclable aluminum and glass enclosure\nApple and the Environment\nLearn more about Apple’s dedication to reducing the environmental impact of our products and process\n.\nApple Product Environmental Reports\n. detail the environmental attributes of our products.\nRecycling\nApple takes a holistic view of materials management and waste minimization.\nLearn more about how to recycle your iPad."
+    },
+    {
+      "heading": "Apple Footer",
+      "source_text": "\nApple\nSupport\niPad (3rd generation) - Technical Specifications\nIreland\nCopyright © 2026 Apple Inc. All rights reserved.\nPrivacy Policy\nTerms of Use\nSales and Refunds\nSite Map\nUse of Cookies"
+    }
+  ]
+}

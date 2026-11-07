@@ -1,0 +1,180 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "tablet",
+    "family": "iPad",
+    "model": "iPad Air (5th generation)",
+    "model_slug": "ipad-air-5th-generation",
+    "model_year": 2022,
+    "year_introduced": 2022
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111887",
+    "source_file": "Pasted text (2)(5).txt",
+    "source_title": "iPad Air (5th generation) - Tech Specs - Apple Support (IE)",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-07",
+    "verification_status": "url_checked",
+    "verification_notes": "Source URL and archived Apple Ireland page captured. Original section text retained; normalized specifications have not been independently extracted."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple Ireland source headings and section text retained as an archival-first-pass record. Connectivity variants and their differences remain within the same model record.",
+    "extracted_at": "2026-11-07",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Finish",
+      "source_text": "Space Grey\nStarlight\nPink\nPurple\nBlue"
+    },
+    {
+      "heading": "Capacity 1",
+      "source_text": "64GB\n256GB"
+    },
+    {
+      "heading": "Size and Weight 2",
+      "source_text": "Wi-Fi models\nHeight:\n247.6 mm (9.74 inches)\nWidth:\n178.5 mm (7.02 inches)\nDepth:\n6.1 mm (0.24 inches)\nWeight:\n461 grams (1.02 pounds)\nWi-Fi + Cellular models\nHeight:\n247.6 mm (9.74 inches)\nWidth:\n178.5 mm (7.02 inches)\nDepth:\n6.1 mm (0.24 inches)\nWeight:\n462 grams (1.02 pounds)"
+    },
+    {
+      "heading": "Buttons and Connectors",
+      "source_text": "Front camera\nTop button/Touch ID\nVolume buttons\nRear camera\nSmart Connector\nUSB-C connector\nSIM tray (Wi-Fi + Cellular)\nMagnetic connector for Apple Pencil"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "iPad Air (5th generation)\nUSB‑C Charge Cable (1 metre)\n20W USB‑C Power Adapter"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Liquid Retina display\n10.9-inch (diagonal) LED‑backlit Multi‑Touch display with IPS technology\n2360x1640-pixel resolution at 264 pixels per inch (ppi)\nWide colour display (P3)\nTrue Tone display\nFingerprint-resistant oleophobic coating\nFully laminated display\nAnti-reflective coating\n1.8% reflectivity\n500 nits brightness\nSupports\nApple Pencil (2nd generation), Apple Pencil\n(USB-C)\nThe iPad Air display has rounded corners. When measured diagonally as a rectangle, the screen is 10.86 inches. Actual viewable area is less."
+    },
+    {
+      "heading": "Chip",
+      "source_text": "Apple M1 chip\n8-core CPU with 4 performance cores and 4 efficiency cores\n8-core GPU\n16-core Neural Engine\n8GB RAM\nMedia engine\nHardware-accelerated H.264 and HEVC\nVideo decode engine\nVideo encode engine"
+    },
+    {
+      "heading": "Apple Intelligence 14",
+      "source_text": "Built into your iPad, Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.\nLearn more about Apple Intelligence"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "12MP Wide camera, ƒ/1.8 aperture\nDigital zoom up to 5x\nFive-element lens\nAutofocus with Focus Pixels\nPanorama (up to 63MP)\nSmart HDR 3\nWide colour capture for photos and Live Photos\nPhoto geotagging\nAuto image stabilisation\nBurst mode\nImage formats captured: HEIF and JPEG"
+    },
+    {
+      "heading": "Video Recording",
+      "source_text": "4K video recording at 24 fps, 25 fps, 30 fps or 60 fps\n1080p HD video recording at 25 fps, 30 fps or 60 fps\n720p HD video recording at 30 fps\nSlo‑mo video support for 1080p at 120 fps or 240 fps\nTime-lapse video with stabilisation\nExtended dynamic range for video up to 30 fps\nCinematic video stabilisation (4K, 1080p and 720p)\nContinuous autofocus video\nPlayback zoom\nVideo formats captured: HEVC and H.264"
+    },
+    {
+      "heading": "Front Camera",
+      "source_text": "12MP Ultra Wide front camera, 122° field of view\nƒ/2.4 aperture\nSmart HDR 3\n1080p HD video recording at 25 fps, 30 fps or 60 fps\nTime-lapse video with stabilisation\nExtended dynamic range for video up to 30 fps\nCinematic video stabilisation (1080p and 720p)\nWide colour capture for photos and Live Photos\nLens correction\nRetina Flash\nAuto image stabilisation\nBurst mode"
+    },
+    {
+      "heading": "Video Calling 3",
+      "source_text": "FaceTime video\nCentre Stage\niPad to any FaceTime‑enabled device over Wi‑Fi or a mobile network"
+    },
+    {
+      "heading": "Audio Calling 3",
+      "source_text": "FaceTime audio\niPad to any FaceTime‑enabled device over Wi‑Fi or a mobile network"
+    },
+    {
+      "heading": "Speakers",
+      "source_text": "Stereo speakers"
+    },
+    {
+      "heading": "Microphones",
+      "source_text": "Dual microphones for calls, video recording and audio recording"
+    },
+    {
+      "heading": "Mobile and Wireless",
+      "source_text": "All models\n802.11ax Wi‑Fi 6; simultaneous dual band (2.4GHz and 5GHz); HT80 with MIMO\nBluetooth 5.0 technology\nWi-Fi + Cellular models\nModel A2589:\n5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n20, n25, n28, n29, n30, n38, n40, n41, n48, n66, n71, n77, n78, n79)\n4\nFDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32 66, 71)\nTD-LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48)\nUMTS/HSPA/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nData only\n5\nWi-Fi calling\n4\neSIM\n6\nLearn more about mobile data\nFor details on 5G and LTE support, contact your provider and see\napple.com/uk/ipad/cellular"
+    },
+    {
+      "heading": "SIM Card",
+      "source_text": "Nano‑SIM\neSIM\n6"
+    },
+    {
+      "heading": "Location",
+      "source_text": "All models\nDigital compass\nWi‑Fi\niBeacon micro-location\nWi-Fi + Cellular models\nGPS/GNSS\nCellular"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Touch ID\nThree‐axis gyro\nAccelerometer\nBarometer\nAmbient light sensor"
+    },
+    {
+      "heading": "Touch ID",
+      "source_text": "Unlock iPad\nSecure personal data within apps\nMake purchases from the iTunes Store, App Store and Apple Books"
+    },
+    {
+      "heading": "Apple Pay",
+      "source_text": "Pay with your iPad using Touch ID within apps and on the web\nLearn more about Apple Pay"
+    },
+    {
+      "heading": "Siri 7",
+      "source_text": "Use your voice to send messages, set reminders and more\nGet proactive suggestions\nUse hands-free\nListen to and identify songs\nLearn more about Siri"
+    },
+    {
+      "heading": "Charging and Expansion",
+      "source_text": "USB‑C port with support for:\nCharging\nDisplayPort\nUSB 3.1 Gen 2 (up to 10Gb/s)"
+    },
+    {
+      "heading": "Display Support",
+      "source_text": "Supports full native resolution on the built-in display at millions of colours\nSupports one external display with up to 6K resolution at 60Hz\nDigital video output\nNative DisplayPort output over USB‑C\nVGA, HDMI and DVI output supported using adapters (sold separately)\nVideo mirroring\nUp to 4K AirPlay for mirroring, photos and video out to Apple TV (2nd generation or later) or AirPlay 2–enabled smart TV\nVideo mirroring and video out support through USB‑C Digital AV Multiport Adapter and USB‑C VGA Multiport Adapter (adapters sold separately)"
+    },
+    {
+      "heading": "Power and Battery 8",
+      "source_text": "Built‐in 28.6‐watt‐hour rechargeable lithium‑polymer battery\nUp to 10 hours of surfing the web on Wi‐Fi or watching video\nCharging via power adapter or USB‑C to computer system\nWi-Fi + Cellular models\nUp to 9 hours of surfing the web using a mobile data network"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "iPadOS\niPadOS comes with powerful features and built-in apps designed to take advantage of the unique capabilities of iPad.\nLearn more about iPadOS\niPad User Guide"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Built-in accessibility features supporting vision, mobility, hearing and cognitive disabilities help you get the most out of your iPad.\nLearn more about Accessibility\nFeatures include:\nVoiceOver\nZoom\nMagnifier\nSpoken Content\nVoice Control\nSwitch Control\nAssistiveTouch\nSiri and Dictation\nType to Siri\nReal-Time Text\nAudio Descriptions\nSubtitles and Closed Captioning\nLive Captions (beta)"
+    },
+    {
+      "heading": "Built-in Apps",
+      "source_text": "App Store\nBooks\nCalendar\nCamera\nClock\nContacts\nFaceTime\nFiles\nFind My\nFreeform\nHome\niTunes Store\nMagnifier\nMail\nMaps\nMeasure\nMessages\nMusic\nNews\nNotes\nPhoto Booth\nPhotos\nPodcasts\nReminders\nSafari\nSettings\nShortcuts\nSiri\nStocks\nTips\nTranslate\nTV\nVoice Memos\nWeather"
+    },
+    {
+      "heading": "Free Apps from Apple",
+      "source_text": "Pages, Numbers, Keynote, iMovie, GarageBand, Clips and Apple Store app are pre-installed on iPad.\nPages\nNumbers\nKeynote\niMovie\nGarageBand\nApple Store\nClips\nSwift Playgrounds\nSupport"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "Apple ID (required for some features)\nInternet access\n9\nSyncing to a Mac or PC requires:\nmacOS Catalina 10.15 or later using the Finder\nmacOS El Capitan 10.11.6 to macOS Mojave 10.14.6 using iTunes 12.8 or later\nWindows 10 or later using iTunes 12.12.10 or later (free download from\nitunes.com/uk/download\n)"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "Language support\nEnglish (Australia, UK, US), Chinese (Simplified, Traditional, Traditional – Hong Kong), French (Canada, France), German, Italian, Japanese, Korean, Spanish (Latin America, Spain), Arabic, Bulgarian, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hindi, Hungarian, Indonesian, Kazakh, Malay, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nQuickType keyboard support\nEnglish (Australia, Canada, India, Japan, New Zealand, Singapore, South Africa, UK, US), Chinese – Simplified (Handwriting, Pinyin QWERTY, Pinyin 10-Key, Shuangpin, Stroke), Chinese – Traditional (Cangjie, Handwriting, Pinyin QWERTY, Pinyin 10-Key, Shuangpin, Stroke, Sucheng, Zhuyin), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese (Kana, Romaji), Korean (2-Set, 10-Key), Spanish (Latin America, Mexico, Spain), Ainu, Albanian, Amharic, Apache (Western), Arabic, Arabic (Najdi), Armenian, Assamese, Assyrian, Azerbaijani, Bangla, Belarusian, Bodo, Bulgarian, Burmese, Cantonese – Traditional (Cangjie, Handwriting, Phonetic, Stroke, Sucheng), Catalan, Cherokee, Croatian, Czech, Danish, Dhivehi, Dogri, Dutch, Dzongkha, Emoji, Estonian, Faroese, Filipino, Finnish, Flemish, Fula (Adlam), Georgian, Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari, Latin, Transliteration), Hungarian, Icelandic, Igbo, Indonesian, Irish Gaelic, Kannada, Kashmiri (Arabic, Devanagari), Kazakh, Khmer, Konkani (Devanagari), Kurdish (Arabic, Latin), Kyrgyz, Lao, Latvian, Lithuanian, Macedonian, Maithili, Malay (Arabic, Latin), Malayalam, Maltese, Manipuri (Bengali, Meetei Mayek), Māori, Marathi, Mongolian, Navajo, Nepali, Norwegian (Bokmål, Nynorsk), Odia, Pashto, Persian, Persian (Afghanistan), Polish, Portuguese (Brazil, Portugal), Punjabi, Rohingya, Romanian, Russian, Samoan, Sanskrit, Santali (Devanagari, Ol Chiki), Serbian (Cyrillic, Latin), Sindhi (Arabic, Devanagari), Sinhala, Slovak, Slovenian, Swahili, Swedish, Tajik, Tamil (Anjal, Tamil 99), Telugu, Thai, Tibetan, Tongan, Turkish, Turkmen, Ukrainian, Urdu, Uyghur, Uzbek (Arabic, Cyrillic, Latin), Vietnamese (Telex, VIQR, VNI), Welsh, Yiddish\nQuickType keyboard support with auto-correction\nArabic, Arabic (Najdi), Bangla, Bulgarian, Catalan, Cherokee, Chinese – Simplified (Pinyin QWERTY), Chinese – Traditional (Pinyin QWERTY), Chinese – Traditional (Zhuyin), Croatian, Czech, Danish, Dutch, English (Australia, Canada, India, Japan, New Zealand, Singapore, South Africa, UK, US), Estonian, Filipino, Finnish, Dutch (Belgium), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari, Latin, Transliteration), Hungarian, Icelandic, Indonesian, Irish Gaelic, Italian, Japanese (Kana, Romaji), Korean (2-Set, 10-Key), Latvian, Lithuanian, Macedonian, Malay, Marathi, Norwegian (Bokmål, Nynorsk), Persian, Persian (Afghanistan), Polish, Portuguese (Brazil, Portugal), Punjabi, Romanian, Russian, Serbian (Cyrillic, Latin), Slovak, Slovenian, Spanish (Latin America, Mexico, Spain), Swedish, Tamil (Anjal, Tamil 99), Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese (Telex)\nQuickType keyboard support with predictive typing\nEnglish (Australia, Canada, India, Japan, Singapore, South Africa, UK, US), Chinese (Simplified, Traditional), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese, Korean, Spanish (Latin America, Mexico, Spain), Arabic, Arabic (Najdi), Cantonese (Traditional), Dutch, Hindi (Devanagari, Latin), Portuguese (Brazil, Portugal), Russian, Swedish, Thai, Turkish, Vietnamese\nQuickType keyboard support with multilingual typing\nEnglish (Australia, Canada, India, Japan, New Zealand, Singapore, South Africa, UK, US), Chinese – Simplified (Pinyin), Chinese – Traditional (Pinyin), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese (Romaji), Portuguese (Brazil, Portugal), Spanish (Latin America, Mexico, Spain), Dutch (Belgium, Netherlands), Hindi (Latin), Vietnamese\nQuickType keyboard support with contextual suggestions\nEnglish (Australia, Canada, India, Japan, New Zealand, Singapore, South Africa, UK, US), Chinese (Simplified), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Spanish (Latin America, Mexico, Spain), Arabic, Arabic (Najdi), Dutch (Belgium, Netherlands), Hindi (Devanagari, Latin), Russian, Swedish, Portuguese (Brazil), Turkish, Vietnamese\nQuickPath keyboard support\nEnglish (Australia, Canada, India, Japan, New Zealand, Singapore, South Africa, UK, US), Chinese (Simplified Pinyin QWERTY), Chinese (Traditional Pinyin QWERTY), French (Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Spanish (Latin America, Mexico, Spain), Portuguese (Brazil, Portugal), Dutch (Belgium, Netherlands), Swedish, Vietnamese\nSiri languages\nEnglish (Australia, Canada, India, Ireland, New Zealand, Singapore, South Africa, UK, US), Spanish (Chile, Mexico, Spain, US), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese (Japan), Korean (Republic of Korea), Mandarin Chinese (China mainland, Taiwan), Cantonese (China mainland, Hong Kong), Arabic (Saudi Arabia, United Arab Emirates), Danish (Denmark), Dutch (Belgium, Netherlands), Finnish (Finland), Hebrew (Israel), Malay (Malaysia), Norwegian (Norway), Portuguese (Brazil), Russian (Russia), Swedish (Sweden), Thai (Thailand), Turkish (Türkiye)\nDictation languages\nEnglish (Australia, Canada, India, Ireland, Malaysia, New Zealand, Philippines, Saudi Arabia, Singapore, South Africa, United Arab Emirates, UK, US), Cantonese (China mainland, Hong Kong), Mandarin Chinese (China mainland, Taiwan), French (Belgium, Canada, France, Luxembourg, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Spanish (Chile, Colombia, Mexico, Spain, US), Portuguese (Brazil, Portugal), Arabic (Kuwait, Qatar, Saudi Arabia, United Arab Emirates), Catalan, Croatian, Czech, Danish, Dutch (Belgium, Netherlands), Finnish, Greek, Hebrew, Hindi, Hungarian, Indonesian, Malay, Norwegian (Bokmål), Polish, Romanian, Russian, Shanghainese (China mainland), Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nMonolingual dictionary support\nEnglish (UK, US), Chinese (Simplified, Traditional, Traditional – Hong Kong), Danish, Dutch, French, German, Hebrew, Hindi, Italian, Japanese, Korean, Norwegian, Portuguese, Russian, Spanish, Swedish, Thai, Turkish\nIdiom dictionary support\nSimplified Chinese, Traditional Chinese–English, Cantonese–English\nBilingual dictionary support\nArabic–English, Bangla–English, Chinese (Simplified)–English, Chinese (Traditional)–English, Czech–English, Dutch–English, Finnish–English, French–English, French–German, German–English, Gujarati–English, Hindi–English, Hungarian–English, Indonesian–English, Italian–English, Japanese–English, Japanese–Chinese (Simplified), Korean–English, Polish–English, Portuguese–English, Russian–English, Spanish–English, Tamil–English, Telugu–English, Thai–English, Urdu–English, Vietnamese–English\nThesaurus\nEnglish (UK, US), Chinese (Simplified)\nSpellcheck\nEnglish (Australia, Canada, India, Japan, New Zealand, Singapore, South Africa, UK, US), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Spanish (Latin America, Mexico, Spain), Arabic, Arabic (Najdi), Bulgarian, Czech, Danish, Dutch (Belgium, Netherlands), Finnish, Greek, Hindi (Devanagari), Hungarian, Irish Gaelic, Norwegian (Bokmål, Nynorsk), Polish, Portuguese (Brazil, Portugal), Punjabi, Romanian, Russian, Swedish, Telugu, Turkish, Vietnamese\nApple Pay–supported regions\nArgentina, Armenia, Australia, Austria, Azerbaijan, Bahrain, Belarus, Belgium, Brazil, Bulgaria, Canada, China mainland,\n10\nColombia, Costa Rica, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Faroe Islands, Finland, France, Georgia, Germany, Greece, Greenland, Guernsey, Hong Kong, Hungary, Iceland, Ireland, Isle of Man, Israel, Italy, Japan, Jersey, Kazakhstan, Latvia, Liechtenstein, Lithuania, Luxembourg, Macao, Malaysia, Malta, Mexico, Moldova, Monaco, Montenegro, Netherlands, New Zealand, Norway, Palestinian Territories, Peru, Poland, Portugal, Qatar, Romania, Russia, San Marino, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, Switzerland, Taiwan, UK, Ukraine, United Arab Emirates, US, Vatican City"
+    },
+    {
+      "heading": "Video Playback",
+      "source_text": "Supported formats include HEVC, H.264 and ProRes\nSupports Dolby Vision and HDR10 content"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "Supported formats include AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus and Dolby Atmos\nSpatial Audio playback\nUser-conﬁgurable maximum volume limit"
+    },
+    {
+      "heading": "Mail Attachment Support",
+      "source_text": "Viewable document types\n.jpg, .tiff, .gif (images); .doc and .docx (Microsoft Word); .htm and .html (web pages); .key (Keynote); .numbers (Numbers); .pages (Pages); .pdf (Preview and Adobe Acrobat); .ppt and .pptx (Microsoft PowerPoint); .txt (text); .rtf (rich text format); .vcf (contact information); .xls and .xlsx (Microsoft Excel); .zip; .ics; .usdz; .pkpass (Wallet)"
+    },
+    {
+      "heading": "Environmental Requirements",
+      "source_text": "Ambient operating temperature:\n0° to 35° C (32° to 95° F)\nNon-operating temperature:\n−20° to 45° C (-4° to 113° F)\nRelative humidity:\n5% to 95% non-condensing\nOperating altitude:\ntested up to 3,000 metres (10,000 feet)"
+    },
+    {
+      "heading": "iPad Air and the Environment",
+      "source_text": "iPad Air is designed with the following features to reduce its environmental impact:\n11\nLearn more about the iPad Air Product Environmental Report (PDF)\nMade with better materials\n100% recycled aluminium in the enclosure\n100% recycled rare earth elements in the enclosure and audio magnets, representing 96% of the rare earth elements in the device\n100% recycled tin in the solder of the main logic board\n35% or more recycled plastic in multiple components\nEnergy efficient\nENERGY STAR\n®\ncertified\n12\nSmarter chemistry\n13\nArsenic-free display glass\nMercury-, BFR-, PVC- and beryllium-free\nGreen manufacturing\nApple’s Zero Waste Programme helps suppliers eliminate waste sent to landfill\nAll final assembly supplier sites are transitioning to 100% renewable energy for Apple production\nResponsible packaging\n100% of virgin wood fibre comes from responsibly managed forests\n90% or more fibre-based packaging\nApple and the Environment\nWe’re committed to making our products without taking from the earth, and to become carbon neutral across our entire business, including products, by 2030.\nLearn more about Apple’s commitment to the environment"
+    },
+    {
+      "heading": "Apple Footer",
+      "source_text": "\nApple\nSupport\niPad Air (5th generation) - Tech Specs\nIreland\nCopyright © 2026 Apple Inc. All rights reserved.\nPrivacy Policy\nTerms of Use\nSales and Refunds\nSite Map\nUse of Cookies"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "tablet",
+    "family": "iPad",
+    "model": "iPad 2",
+    "model_slug": "ipad-2",
+    "model_year": 2011,
+    "year_introduced": 2011
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111990",
+    "source_file": "Pasted text (7)(4).txt",
+    "source_title": "iPad 2 - Technical Specifications - Apple Support (IE)",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-07",
+    "verification_status": "url_checked",
+    "verification_notes": "Source URL and archived Apple Ireland page captured. Original section text retained; normalized specifications have not been independently extracted."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple Ireland source headings and section text retained as an archival-first-pass record. Connectivity variants and their differences remain within the same model record.",
+    "extracted_at": "2026-11-07",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Models",
+      "source_text": "Wi-Fi\nWi-Fi + 3G"
+    },
+    {
+      "heading": "Size and Weight 1",
+      "source_text": "Wi-Fi\nHeight: 9.50 inches (241.2 mm)\nWidth: 7.31 inches (185.7 mm)\nDepth: 0.34 inch (8.8 mm)\nWeight: 1.33 pounds (601 g)\nWi-Fi + 3G\nHeight: 9.50 inches (241.2 mm)\nWidth: 7.31 inches (185.7 mm)\nDepth: 0.34 inch (8.8 mm)\nWeight: 1.35 pounds (613 g)\n(Wi-Fi + 3G model)\nWeight: 1.34 pounds (607 g)\n(Wi-Fi + 3G for Verizon model)"
+    },
+    {
+      "heading": "Storage 2",
+      "source_text": "16GB"
+    },
+    {
+      "heading": "Wireless and Cellular",
+      "source_text": "Wi-Fi\nWi-Fi (802.11a/b/g/n)\nBluetooth 2.1 + EDR technology\nWi-Fi + 3G\nWi-Fi + 3G model: UMTS/HSDPA/HSUPA (850, 900, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz)\nWi-Fi + 3G for Verizon model: CDMA EV-DO Rev. A (800, 1900 MHz)\nData only\n3\nWi-Fi (802.11a/b/g/n)\nBluetooth 2.1 + EDR technology"
+    },
+    {
+      "heading": "Carriers",
+      "source_text": "Wi-Fi + 3G\nAT&T\nVerizon"
+    },
+    {
+      "heading": "Display",
+      "source_text": "9.7-inch (diagonal) LED-backlit glossy widescreen Multi-Touch display with IPS technology\n1024-by-768-pixel resolution at 132 pixels per inch (ppi)\nFingerprint-resistant oleophobic coating\nSupport for display of multiple languages and characters simultaneously"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "1GHz dual-core Apple A5 custom-designed, high-performance, low-power system-on-a-chip"
+    },
+    {
+      "heading": "Cameras, Photos, and Video Recording",
+      "source_text": "Back camera: Video recording, HD (720p) up to 30 frames per second with audio; still camera with 5x digital zoom\nFront camera: Video recording, VGA up to 30 frames per second with audio; VGA-quality still camera\nTap to control exposure for video or stills\nPhoto and video geotagging over Wi-Fi"
+    },
+    {
+      "heading": "Power and Battery 4",
+      "source_text": "Wi-Fi\nBuilt-in 25-watt-hour rechargeable lithium-polymer battery\nUp to 10 hours of surfing the web on Wi-Fi, watching video, or listening to music\nCharging via power adapter or USB to computer system\nWi-Fi + 3G\nBuilt-in 25-watt-hour rechargeable lithium-polymer battery\nUp to 10 hours of surfing the web on Wi-Fi, watching video, or listening to music\nUp to 9 hours of surfing the web using 3G data network\nCharging via power adapter or USB to computer system"
+    },
+    {
+      "heading": "Input/Output",
+      "source_text": "Wi-Fi\n30-pin dock connector port\n3.5-mm stereo headphone minijack\nBuilt-in speaker\nMicrophone\nWi-Fi + 3G\n30-pin dock connector port\n3.5-mm stereo headphone minijack\nBuilt-in speaker\nMicro-SIM card tray (Wi-Fi + 3G model)\nMicrophone"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Accelerometer\nAmbient light sensor\nGyroscope"
+    },
+    {
+      "heading": "Location",
+      "source_text": "Wi-Fi\nWi-Fi\nDigital compass\nWi-Fi + 3G\nWi-Fi\nDigital compass\nAssisted GPS\nCellular"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "Frequency response: 20Hz to 20,000Hz\nAudio formats supported: HE-AAC (V1 and V2), AAC (8 to 320 Kbps), Protected AAC (from iTunes Store), MP3 (8 to 320 Kbps), MP3 VBR, Audible (formats 2, 3, and 4, Audible Enhanced Audio, AAX, and AAX+), Apple Lossless, AIFF, and WAV\nUser-configurable maximum volume limit\nDolby Digital 5.1 surround sound pass-through with Apple Digital AV Adapter (sold separately)"
+    },
+    {
+      "heading": "TV and Video",
+      "source_text": "AirPlay Mirroring to Apple TV support at 720p\nVideo mirroring and video out support: Up to 1080p with Apple Digital AV Adapter or Apple VGA Adapter (adapters sold separately)\nVideo out support at 576p and 480p with Apple Component AV Cable; 576i and 480i with Apple Composite AV Cable (cables sold separately)\nVideo formats supported: H.264 video up to 1080p, 30 frames per second, High Profile level 4.1 with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats; MPEG‑4 video up to 2.5 Mbps, 640 by 480 pixels, 30 frames per second, Simple Profile with AAC-LC audio up to 160 Kbps per channel, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats; Motion JPEG (M-JPEG) up to 35 Mbps, 1280 by 720 pixels, 30 frames per second, audio in ulaw, PCM stereo audio in .avi file format"
+    },
+    {
+      "heading": "Mail Attachment Support",
+      "source_text": "Viewable document types: .jpg, .tiff, .gif (images); .doc and .docx (Microsoft Word); .htm and .html (web pages); .key (Keynote); .numbers (Numbers); .pages (Pages); .pdf (Preview and Adobe Acrobat); .ppt and .pptx (Microsoft PowerPoint); .txt (text); .rtf (rich text format); .vcf (contact information); .xls and .xlsx (Microsoft Excel)"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "Language support for English (U.S.), English (UK), French (France), German, Traditional Chinese, Simplified Chinese, Dutch, Italian, Spanish, Portuguese (Brazil), Portuguese (Portugal), Danish, Swedish, Finnish, Norwegian, Korean, Japanese, Russian, Polish, Turkish, Ukrainian, Hungarian, Arabic, Thai, Czech, Greek, Hebrew, Indonesian, Malay, Romanian, Slovak, Croatian, Catalan, and Vietnamese\nKeyboard support for English (U.S.), English (UK), French (France), French (Canadian), French (Switzerland), German, Traditional Chinese (Handwriting, Pinyin, Zhuyin, Cangjie, Wubihua), Simplified Chinese (Handwriting, Pinyin, Wubihua), Dutch, Italian, Spanish, Portuguese (Brazil), Portuguese (Portugal), Danish, Swedish, Finnish, Norwegian, Korean, Japanese (Romaji, Ten Key), Japanese (Kana), Russian, Polish, Turkish, Ukrainian, Estonian, Hungarian, Icelandic, Lithuanian, Latvian, Flemish, Arabic, Thai, Czech, Greek, Hebrew, Indonesian, Malay, Romanian, Slovak, Croatian, Bulgarian, Serbian (Cyrillic/Latin), Catalan, Vietnamese, Tibetan, Macedonian, and Cherokee\nDictionary support (enables predictive text and autocorrect) for English (U.S.), English (UK), French, German, Traditional Chinese, Simplified Chinese, Dutch, Italian, Spanish, Portuguese (Brazil), Portuguese (Portugal), Danish, Swedish, Finnish, Norwegian, Korean, Japanese (Romaji), Japanese (Kana), Russian, Polish, Turkish, Ukrainian, Hungarian, Lithuanian, Flemish, Arabic, Thai, Czech, Greek, Hebrew, Indonesian, Malaysian, Romanian, Slovak, Croatian, Catalan, Vietnamese, and Cherokee"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "VoiceOver screen reader\nSupport for playback of closed-captioned content\nAssistiveTouch interface for adaptive accessories\nFull-screen zoom magnification\nLarge fonts\nWhite on black display\nLeft/right volume adjustment"
+    },
+    {
+      "heading": "Environmental Requirements",
+      "source_text": "Operating ambient temperature: 32° to 95° F (0° to 35° C)\nNonoperating temperature: -4° to 113° F (-20° to 45° C)\nRelative humidity: 5% to 95% noncondensing"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "Apple ID (required for some features)\nInternet access\n5\nSyncing with iTunes on a Mac or PC requires:\nMac: OS X v10.5.8 or later\nPC: Windows 7; Windows Vista; or Windows XP Home or Professional with Service Pack 3 or later\niTunes 10.5 or later (free download from\nwww.itunes.com/uk/download\n)"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "iPad\nDock Connector to USB Cable\n10W USB Power Adapter"
+    },
+    {
+      "heading": "Built-in Apps",
+      "source_text": "Safari\nPhotos\nApp Store\nMaps\nPhoto Booth\nReminders\nCamera\nMail\nFaceTime\niTunes\nMusic\nClock\nCalendar\nMessages\nNewsstand\nVideos\nGame Center\nContacts\nNotes"
+    },
+    {
+      "heading": "iPad and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more about iPad and the Environment\niPad embodies Apple’s continuing environmental progress. It is designed with the following features to reduce environmental impact:\nMercury-free LCD display\nArsenic-free display glass\nBFR-free\nPVC-free\nRecyclable aluminum enclosure"
+    },
+    {
+      "heading": "Apple and the Environment",
+      "source_text": "Learn more about Apple’s dedication to reducing the environmental impact of our products and process\n.\nApple Product Environmental Reports\ndetail the environmental attributes of our products."
+    },
+    {
+      "heading": "Recycling",
+      "source_text": "Apple takes a holistic view of materials management and waste minimization.\nLearn more about how to recycle your iPad\n."
+    },
+    {
+      "heading": "Apple Footer",
+      "source_text": "\nApple\nSupport\niPad 2 - Technical Specifications\nIreland\nCopyright © 2026 Apple Inc. All rights reserved.\nPrivacy Policy\nTerms of Use\nSales and Refunds\nSite Map\nUse of Cookies"
+    }
+  ]
+}

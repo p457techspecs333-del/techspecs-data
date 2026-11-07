@@ -1,0 +1,120 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "tablet",
+    "family": "iPad",
+    "model": "iPad (1st generation)",
+    "model_slug": "ipad-1st-generation",
+    "model_year": 2010,
+    "year_introduced": 2010
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/112438",
+    "source_file": "Pasted text(20261107-173637).txt",
+    "source_title": "iPad - Technical Specifications - Apple Support (IE)",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-07",
+    "verification_status": "url_checked",
+    "verification_notes": "Source URL and archived Apple Ireland page captured. Original section text retained; normalized specifications have not been independently extracted."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple Ireland source headings and section text retained as an archival-first-pass record. Connectivity variants and their differences remain within the same model record.",
+    "extracted_at": "2026-11-07",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Size and weight 1",
+      "source_text": "Height: 9.56 inches (242.8 mm)\nWidth: 7.47 inches (189.7 mm)\nDepth: 0.5 inch (13.4 mm)\nWeight:\n1.5 pounds (0.68 kg) Wi-Fi model;\n1.6 pounds (0.73 kg) Wi-Fi + 3G model"
+    },
+    {
+      "heading": "Display",
+      "source_text": "9.7-inch (diagonal) LED-backlit glossy widescreen Multi-Touch display with IPS technology\n1024-by-768-pixel resolution at 132 pixels per inch (ppi)\nFingerprint-resistant oleophobic coating\nSupport for display of multiple languages and characters simultaneously"
+    },
+    {
+      "heading": "Wireless and cellular",
+      "source_text": "Wi-Fi model\nWi-Fi (802.11a/b/g/n)\nBluetooth 2.1 + EDR technology\nWi-Fi + 3G model\nUMTS/HSDPA (850, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)\nData only\n2\nWi-Fi (802.11a/b/g/n)\nBluetooth 2.1 + EDR technology"
+    },
+    {
+      "heading": "Location",
+      "source_text": "Wi-Fi\nDigital compass\nAssisted GPS (Wi-Fi + 3G model)\nCellular (Wi-Fi + 3G model)"
+    },
+    {
+      "heading": "In the box",
+      "source_text": "iPad\nDock Connector to USB Cable\n10W USB Power Adapter\nDocumentation"
+    },
+    {
+      "heading": "Environmental Status Report",
+      "source_text": "iPad embodies Apple’s continuing environmental progress. It is designed with the following features to reduce environmental impact:\nArsenic-free display glass\nBFR-free\nMercury-free LCD display\nPVC-free\nRecyclable aluminum and glass enclosure"
+    },
+    {
+      "heading": "Capacity 3",
+      "source_text": "16GB, 32GB, or 64GB flash drive"
+    },
+    {
+      "heading": "Processor",
+      "source_text": "1GHz Apple A4 custom-designed, high-performance, low-power system-on-a-chip"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Accelerometer\nAmbient light sensor"
+    },
+    {
+      "heading": "Audio playback",
+      "source_text": "Frequency response: 20Hz to 20,000Hz\nAudio formats supported: HE-AAC (V1), AAC (16 to 320 Kbps), Protected AAC (from iTunes Store), MP3 (16 to 320 Kbps), MP3 VBR, Audible (formats 2, 3, and 4), Apple Lossless, AIFF, and WAV\nUser-configurable maximum volume limit"
+    },
+    {
+      "heading": "TV and video",
+      "source_text": "Support for 1024 by 768 pixels with Dock Connector to VGA Adapter; 576p and 480p with Apple Component AV Cable; 576i and 480i with Apple Composite AV Cable\nH.264 video up to 720p, 30 frames per second, Main Profile level 3.1 with AAC-LC audio up to 160 Kbps per channel, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats; MPEG-4 video, up to 2.5 Mbps, 640 by 480 pixels, 30 frames per second, Simple Profile with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats; Motion JPEG (M-JPEG) up to 35 Mbps, 1280 by 720 pixels, 30 frames per second, audio in ulaw, PCM stereo audio in .avi file format"
+    },
+    {
+      "heading": "Mail attachment support",
+      "source_text": "Viewable document types: .jpg, .tiff, .gif (images); .doc and .docx (Microsoft Word); .htm and .html (web pages); .key (Keynote); .numbers (Numbers); .pages (Pages); .pdf (Preview and Adobe Acrobat); .ppt and .pptx (Microsoft PowerPoint); .txt (text); .rtf (rich text format); .vcf (contact information); .xls and .xlsx (Microsoft Excel)"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "Language support for English (U.S.), English (UK), French (France), German, Traditional Chinese, Simplified Chinese, Dutch, Italian, Spanish, Portuguese (Brazil), Portuguese (Portugal), Danish, Swedish, Finnish, Norwegian, Korean, Japanese, Russian, Polish, Turkish, Ukrainian, Hungarian, Arabic, Thai, Czech, Greek, Hebrew, Indonesian, Malay, Romanian, Slovak, Croatian, Catalan, and Vietnamese\nKeyboard support for English (U.S.), English (UK), French (France), French (Canadian), French (Switzerland), German, Traditional Chinese (Handwriting, Pinyin, Zhuyin, Cangjie, Wubihua), Simplified Chinese (Handwriting, Pinyin, Wubihua), Dutch, Italian, Spanish, Portuguese (Brazil), Portuguese (Portugal), Danish, Swedish, Finnish, Norwegian, Korean, Japanese (Romaji, Fifty Key), Japanese (Kana), Russian, Polish, Turkish, Ukrainian, Estonian, Hungarian, Icelandic, Lithuanian, Latvian, Flemish, Arabic, Thai, Czech, Greek, Hebrew, Indonesian, Malay, Romanian, Slovak, Croatian, Bulgarian, Serbian (Cyrillic/Latin), Catalan, Vietnamese, Tibetan, Macedonian, and Cherokee\nDictionary support (enables predictive text and autocorrect) for English (U.S.), English (UK), French, German, Traditional Chinese, Simplified Chinese, Dutch, Italian, Spanish, Portuguese (Brazil), Portuguese (Portugal), Danish, Swedish, Finnish, Norwegian, Korean, Japanese (Romaji), Japanese (Kana), Russian, Polish, Turkish, Ukrainian, Hungarian, Lithuanian, Flemish, Arabic, Thai, Czech, Greek, Hebrew, Indonesian, Malaysian, Romanian, Slovak, Croatian, Catalan, Vietnamese, and Cherokee"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Support for playback of closed-captioned content\nVoiceOver screen reader\nFull-screen zoom magnification\nWhite on black display\nMono audio"
+    },
+    {
+      "heading": "Battery and power 4",
+      "source_text": "Built-in 25-watt-hour rechargeable lithium-polymer battery\nUp to 10 hours of surfing the web on Wi-Fi, watching video, or listening to music\nUp to 9 hours of surfing the web using 3G data network\nCharging via power adapter or USB to computer system"
+    },
+    {
+      "heading": "Input and output",
+      "source_text": "Dock connector port\n3.5-mm stereo headphone jack\nBuilt-in speaker\nMicrophone\nMicro-SIM card tray (Wi-Fi + 3G model only)"
+    },
+    {
+      "heading": "External buttons and controls",
+      "source_text": "On/Off, Sleep/wake\nMute\nVolume up/down\nHome"
+    },
+    {
+      "heading": "Mac system requirements",
+      "source_text": "Mac computer with USB 2.0 port\nMac OS X v10.5.8 or later\niTunes 9.1 or later (free download from www.itunes.com/download)\niTunes Store account\nInternet access"
+    },
+    {
+      "heading": "Windows system requirements",
+      "source_text": "PC with USB 2.0 port\nWindows 7; Windows Vista; or Windows XP Home or Professional with Service Pack 3 or later\niTunes 9.1 or later (free download from www.itunes.com/download)\niTunes Store account\nInternet access"
+    },
+    {
+      "heading": "Environmental requirements",
+      "source_text": "Operating temperature: 32° to 95° F (0° to 35° C)\nNonoperating temperature: -4° to 113° F (-20° to 45° C)\nRelative humidity: 5% to 95% noncondensing"
+    },
+    {
+      "heading": "iPad Accessories",
+      "source_text": "iPad Keyboard Dock\nThe iPad Keyboard Dock combines a dock for charging your iPad with a full-size keyboard. The dock has a rear dock connector port, which lets you connect to an electrical outlet using the USB Power Adapter, sync to your computer, and use accessories like the iPad Camera Connection Kit. An audio line out port lets you connect to a stereo or powered speakers (audio cable sold separately). Buy now\niPad Case\nWith a soft microfiber interior and reinforced panels to provide structure, the iPad Case is the perfect way to carry around your iPad. And it does double duty. It folds in just the right places to act as a stand that holds iPad at an ideal angle for watching videos and slideshows or for typing on the onscreen keyboard. Buy now\niPad Dock\nWith the iPad Dock, you get easy access to a dock connector port for syncing or charging, and an audio line out port for connecting to powered speakers via an optional audio cable. The iPad Dock also supports other iPad accessories, such as the iPad Dock Connector to VGA Adapter and the iPad Camera Connection Kit. Buy now\niPad Camera Connection Kit\nThe iPad Camera Connection Kit gives you two ways to import photos and videos from a digital camera: using your camera’s USB cable or directly from an SD card. iPad supports standard photo formats, including JPEG and RAW. Buy now\niPad 10W USB Power Adapter\nThe iPad 10W USB Power Adapter lets you charge your iPad directly through an electrical outlet. And the 6-foot-long power cord allows you to charge it from an even greater distance. Buy now"
+    },
+    {
+      "heading": "Apple Footer",
+      "source_text": "\nApple\nSupport\niPad - Technical Specifications\nIreland\nCopyright © 2026 Apple Inc. All rights reserved.\nPrivacy Policy\nTerms of Use\nSales and Refunds\nSite Map\nUse of Cookies"
+    }
+  ]
+}
