@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en-IE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TechSpecs Data — Machine-Readable Product Specifications</title>
+  <meta name="description" content="Machine-readable technical specification records for products, with structured product data and links to original manufacturer sources.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://data.techspecs.dev/">
+  <link rel="alternate" type="application/json" href="https://data.techspecs.dev/api-manifest.json" title="TechSpecs API manifest">
+  <link rel="alternate" type="text/plain" href="https://data.techspecs.dev/llms.txt" title="Machine-reading instructions">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "TechSpecs Machine-Readable Product Catalogue",
+    "description": "Structured technical specification records for products. Each record includes product identity, normalized specification data and links to its cited source documentation.",
+    "url": "https://data.techspecs.dev/",
+    "distribution": [
+      {
+        "@type": "DataDownload",
+        "name": "Product catalogue",
+        "encodingFormat": "application/json",
+        "contentUrl": "https://data.techspecs.dev/catalogue.json"
+      },
+      {
+        "@type": "DataDownload",
+        "name": "API manifest",
+        "encodingFormat": "application/json",
+        "contentUrl": "https://data.techspecs.dev/api-manifest.json"
+      }
+    ],
+    "includedInDataCatalog": {
+      "@type": "DataCatalog",
+      "name": "TechSpecs",
+      "url": "https://techspecs.ie/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+  </script>
+</head>
+<body>
+  <main>
+    <h1>TechSpecs Data</h1>
+    <p>Machine-readable technical specification records. This host provides structured product data for AI systems, search and retrieval tools, developers and other software.</p>
+
+    <h2>Start here</h2>
+    <ul>
+      <li><a href="/llms.txt">Machine-reading instructions</a> — recommended starting point for AI systems and automated readers.</li>
+      <li><a href="/api-manifest.json">API manifest</a> — describes the read-only interface and retrieval process.</li>
+      <li><a href="/catalogue.json">Product catalogue</a> — lists published records and their exact retrieval URLs.</li>
+      <li><a href="/schemas/product-record-v2.schema.json">Product record schema</a> — describes the JSON record structure.</li>
+      <li><a href="/sitemap.xml">Sitemap</a> — lists published machine-readable resources.</li>
+    </ul>
+
+    <h2>How to retrieve a product record</h2>
+    <ol>
+      <li>Read the <a href="/catalogue.json">catalogue</a>.</li>
+      <li>Find the required product and use its exact <code>url</code> value.</li>
+      <li>Retrieve that URL with an HTTP GET request.</li>
+      <li>Use the record's source URL to access the cited manufacturer documentation.</li>
+    </ol>
+
+    <p>Example: <a href="/api/v1/products/iphone-17.json">Apple iPhone 17 product record</a>.</p>
+    <p>The interface is static and read-only. The catalogue is the index of records currently published; a product should not be assumed to exist unless it appears there.</p>
+    <p>Human-facing website: <a href="https://techspecs.ie/">TechSpecs.ie</a>.</p>
+  </main>
+</body>
+</html>
