@@ -21,13 +21,13 @@
   },
   "source": {
     "source_type": "user_supplied_document",
-    "source_url": "https://support.apple.com/en-gb/111866",
-    "verification_status": "partially_verified",
-    "checked_at": "2026-11-06",
+    "source_url": "https://support.apple.com/en-ie/111866",
+    "verification_status": "content_verified",
+    "checked_at": "2026-11-07",
     "source_file": "sources/apple/iphone/iphone-se-generation/iphone-se-3rd-generation-source.md",
-    "source_title": "iPhone SE (3rd generation) - Technical Specifications",
-    "publisher": "Apple Support (UK)",
-    "verification_notes": "The supplied Ireland URL https://support.apple.com/en-ie/111866 could not be retrieved in this pass. The official Apple Support UK page for iPhone SE (3rd generation) was opened and all 32 retained specification sections and footnotes were checked against it. Core dimensions, display, A15 Bionic chip, camera, IP67 rating, battery, wireless and in-box details match. The UK page lists model A2783; Irish-specific model-number mapping remains unconfirmed, so overall status stays partially_verified. The user-supplied archival Markdown has been preserved unchanged. Embedded outbound link destinations have not all been individually opened."
+    "source_title": "iPhone SE (3rd generation) - Tech Specs",
+    "publisher": "Apple Support (Ireland)",
+    "verification_notes": "Official Apple Ireland technical-specifications page confirmed directly at https://support.apple.com/en-ie/111866 on 2026-11-07. Model identity, year introduced, finishes, capacities, dimensions, display, chip, IP rating, camera, video, connectivity, battery, sensors, connectors, operating system, in-box contents and relevant footnotes checked against the Ireland page. The earlier UK URL was a fallback and has been replaced; normalized field values are retained only where they match the Irish page. Embedded outbound link destinations are not part of this audit."
   },
   "extraction": {
     "method": "section_preserving",
@@ -379,6 +379,6 @@
     }
   },
   "record_notes": [
-    "2026-11-06: checked full official UK page and footnotes as a fallback because the supplied Ireland URL could not be retrieved. Core fields added; record remains partially_verified pending Ireland-specific model-number confirmation."
+    "2026-11-07 audit: replaced the UK fallback source URL with the confirmed official Apple Ireland technical-specifications page (support.apple.com/en-ie/111866); core specifications and footnotes checked against that Ireland page."
   ]
 }
