@@ -4,6 +4,46 @@
   <url><loc>https://data.techspecs.dev/catalogue.json</loc></url>
   <url><loc>https://data.techspecs.dev/llms.txt</loc></url>
   <url><loc>https://data.techspecs.dev/schemas/product-record-v2.schema.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-10th-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-1st-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-2.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-3rd-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-5th-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-6th-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-7th-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-8th-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-9th-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-a16.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-air-11-inch-m2.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-air-11-inch-m3.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-air-11-inch-m4.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-air-13-inch-m2.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-air-13-inch-m3.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-air-13-inch-m4.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-air-1st-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-air-4th-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-air-5th-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-mini-1st-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-mini-4.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-mini-5th-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-mini-6th-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-mini-a17-pro.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-mini-a20-pro.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-pro-10-5-inch.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-pro-11-inch-1st-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-pro-11-inch-2nd-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-pro-11-inch-3rd-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-pro-11-inch-4th-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-pro-11-inch-m4.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-pro-11-inch-m5.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-pro-12-9-inch-2nd-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-pro-12-9-inch-3rd-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-pro-12-9-inch-4th-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-pro-12-9-inch-5th-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-pro-12-9-inch-6th-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-pro-13-inch-m4.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-pro-13-inch-m5.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipad-pro-9-7-inch.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/iphone-11-pro-max.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/iphone-11-pro.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/iphone-11.json</loc></url>
