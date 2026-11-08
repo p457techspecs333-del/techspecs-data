@@ -23,6 +23,7 @@ CHECKED_AT = "2026-11-08"
 FAMILIES = [
     ("MacBook Air", re.compile(r"MacBook Air", re.I), "macbook-air"),
     ("MacBook Pro", re.compile(r"MacBook Pro", re.I), "macbook-pro"),
+    ("MacBook Neo", re.compile(r"MacBook Neo", re.I), "macbook-neo"),
     ("MacBook", re.compile(r"\bMacBook\b", re.I), "macbook"),
     ("iMac", re.compile(r"\biMac\b", re.I), "imac"),
     ("Mac mini", re.compile(r"Mac mini", re.I), "mac-mini"),
@@ -104,7 +105,7 @@ def main():
             skipped.append({"title": title, "reason": "Missing title, URL, or saved source file"})
             continue
         family, folder = identify_family(title)
-        if not family or not re.search(r"Tech Specs|Technical Specifications", title, re.I):
+        if not family or not re.search(r"Tech Specs|Technical Specifications?", title, re.I):
             skipped.append({"title": title, "reason": "Not a family-specific Mac Tech Specs page"})
             continue
         source_path = Path(relative)
@@ -131,8 +132,14 @@ def main():
         out_dir.mkdir(parents=True, exist_ok=True)
         out_path = out_dir / f"{slug}.json"
         if out_path.exists():
-            skipped.append({"title": title, "reason": f"Refusing to overwrite existing record: {out_path.as_posix()}"})
-            continue
+            try:
+                existing = json.loads(out_path.read_text(encoding="utf-8"))
+            except Exception:
+                existing = {}
+            existing_source = (existing.get("source") or {}).get("source_file", "")
+            if not str(existing_source).startswith("apple_mac_extraction/technical_specs_html/"):
+                skipped.append({"title": title, "reason": f"Refusing to overwrite non-generated record: {out_path.as_posix()}"})
+                continue
         model_year = year if year is not None and year >= 2007 else None
         notes = [
             "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
