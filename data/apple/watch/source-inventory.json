@@ -68,6 +68,24 @@
       "purpose": "Official technical specifications for Apple Watch SE (2nd generation)",
       "verification_status": "url_checked",
       "notes": "Apple Support confirms Tech Specs article ID 111853 and model year 2022 under other regional locales; Ireland-localized URL is pending direct confirmation."
+    },
+    {
+      "source_type": "manufacturer",
+      "source_url": "https://support.apple.com/en-ie/docs/watch/pl291",
+      "source_title": "Apple Watch Series 6 - Manuals and Downloads",
+      "publisher": "Apple Support",
+      "purpose": "Official product-specific support page for Apple Watch Series 6",
+      "verification_status": "url_checked",
+      "notes": "Apple Support confirms the Series 6 product-specific support page, Tech Specs reference and 2020 introduction under regional results; Ireland URL awaits direct confirmation."
+    },
+    {
+      "source_type": "manufacturer",
+      "source_url": "https://support.apple.com/en-ie/docs/watch/pl176",
+      "source_title": "Apple Watch Series 4 - Manuals and Downloads",
+      "publisher": "Apple Support",
+      "purpose": "Official product-specific support page for Apple Watch Series 4",
+      "verification_status": "url_checked",
+      "notes": "Apple Support Ireland confirms the Series 4 product-specific support page, Tech Specs reference and 2018 introduction."
     }
   ],
   "model_families_identified_from_Apple_index": [
@@ -99,12 +117,12 @@
     {
       "model": "Apple Watch Series 6",
       "generation_year": 2020,
-      "source_url": "https://support.apple.com/en-ie/108056"
+      "source_url": "https://support.apple.com/en-ie/docs/watch/pl291"
     },
     {
       "model": "Apple Watch Series 4",
       "generation_year": 2018,
-      "source_url": "https://support.apple.com/en-ie/108056"
+      "source_url": "https://support.apple.com/en-ie/docs/watch/pl176"
     },
     {
       "model": "Apple Watch Series 3",
@@ -149,6 +167,7 @@
     "Apple Watch Series 12 now has a schema v2.0 product record. Apple Watch Ultra 4 is identified in official Apple Support materials, but its direct Tech Specs article URL still needs to be resolved before creating its record.",
     "Apple Watch Series 9 now has a schema v2.0 product record. Its Apple Support article identifier 111833 is confirmed, but the Ireland-localized URL has not yet been directly checked.",
     "Apple Watch Series 7 and Series 8 now have schema v2.0 records using official product-specific Apple Support pages. Direct Tech Specs article URLs remain a follow-up verification item for these historical models.",
-    "Apple Watch Ultra 4 and Apple Watch SE (2nd generation) now have schema v2.0 product records with official Apple Support Tech Specs article identifiers. Ireland-localized URL behavior remains pending direct confirmation."
+    "Apple Watch Ultra 4 and Apple Watch SE (2nd generation) now have schema v2.0 product records with official Apple Support Tech Specs article identifiers. Ireland-localized URL behavior remains pending direct confirmation.",
+    "Apple Watch Series 6 and Series 4 now have schema v2.0 records based on official Apple Support product-specific pages. Direct Tech Specs article URLs remain a verification follow-up where not exposed in search results."
   ]
 }
