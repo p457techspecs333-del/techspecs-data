@@ -4,7 +4,7 @@ The URL discovery script is intentionally separate from product-record extractio
 
 ## What it does
 
-`scripts/discover_apple_iphone_urls.py` reads `data/catalogue.json`, selects records where brand is Apple, family is iPhone and category is smartphone, then searches for official Apple Ireland URLs. It checks candidate pages and writes a separate review file:
+`scripts/discover_apple_iphone_urls.py` reads `data/catalogue.json`, selects records where brand is Apple, family is iPhone and category is smartphone, then searches for official Apple Ireland URLs using the Brave Search API. It checks candidate pages and writes a separate review file:
 
 `sources/apple/iphone/url-discovery-candidates.json`
 
@@ -14,25 +14,23 @@ A candidate marked `url_checked_model_name_found` means only that the URL return
 
 ## One-time search setup
 
-The first version uses Google's official Programmable Search JSON API rather than scraping Google result pages.
+The script uses the Brave Search API. Create an account, choose an API plan, and create an API key at:
 
-1. In Google Cloud Console, create or select a project.
-2. Enable **Custom Search API** for that project.
-3. Create an API key for the API.
-4. Create a Programmable Search Engine at https://programmablesearchengine.google.com/.
-5. Configure it to search the entire web, not just a short list of sites, and copy its Search Engine ID (CX).
-6. Keep the API key private. Do not commit it to GitHub.
+https://api.search.brave.com/app/keys
 
-Set these environment variables in Windows PowerShell for the current terminal:
+Check the current plan, pricing and usage limits in the Brave dashboard before activating it. Keep the API key private. Do not commit it to GitHub or paste it into chat.
+
+In Windows PowerShell, set the key for the current terminal session:
 
 ```powershell
-$env:GOOGLE_CSE_API_KEY = "YOUR_API_KEY"
-$env:GOOGLE_CSE_CX = "YOUR_SEARCH_ENGINE_ID"
+$env:BRAVE_API_KEY = "YOUR_BRAVE_API_KEY"
 ```
+
+The script reads the key from that environment variable. It does not print or save the key.
 
 ## Install and run
 
-From the repository root:
+From the repository root in PowerShell:
 
 ```powershell
 python -m pip install -r requirements.txt
@@ -51,7 +49,7 @@ Run the full iPhone catalogue:
 python scripts/discover_apple_iphone_urls.py
 ```
 
-The script uses a one-second delay between search requests by default. Google API quotas and billing limits apply.
+The script uses a one-second delay between search requests by default. Brave API plan limits and usage charges apply.
 
 ## Review policy
 
