@@ -5280,9 +5280,9 @@
       "variant": null,
       "source": {
         "source_type": "manufacturer",
-        "publisher": "Apple Support (Ireland)",
-        "source_url": "https://support.apple.com/en-ie/148589",
-        "verification_status": "url_checked",
+        "publisher": "Apple Support",
+        "source_url": "https://support.apple.com/en-la/148589",
+        "verification_status": "content_verified",
         "checked_at": "2026-11-08"
       }
     },
@@ -5435,8 +5435,8 @@
       "source": {
         "source_type": "manufacturer",
         "publisher": "Apple Support (Ireland)",
-        "source_url": "https://support.apple.com/en-ie/docs/watch/pl293",
-        "verification_status": "url_checked",
+        "source_url": "https://support.apple.com/en-ie/111848",
+        "verification_status": "content_verified",
         "checked_at": "2026-11-08"
       }
     },
@@ -5522,9 +5522,9 @@
       "variant": null,
       "source": {
         "source_type": "manufacturer",
-        "publisher": "Apple Support (Ireland)",
-        "source_url": "https://support.apple.com/en-ie/148758",
-        "verification_status": "url_checked",
+        "publisher": "Apple Support",
+        "source_url": "https://support.apple.com/en-euro/148758",
+        "verification_status": "content_verified",
         "checked_at": "2026-11-08"
       }
     },
