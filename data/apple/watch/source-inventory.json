@@ -23,6 +23,15 @@
       "purpose": "Official technical specifications for Apple Watch Series 12 (2026)",
       "verification_status": "url_checked",
       "notes": "Apple Support search results confirm the article ID and page title under the Belarus locale (/en-by/148589). Ireland-localized URL is recorded, but its live locale behavior still requires direct confirmation."
+    },
+    {
+      "source_type": "manufacturer",
+      "source_url": "https://support.apple.com/en-ie/111833",
+      "source_title": "Apple Watch Series 9 - Tech Specs",
+      "publisher": "Apple Support",
+      "purpose": "Official technical specifications for Apple Watch Series 9",
+      "verification_status": "url_checked",
+      "notes": "Apple Support search confirms article ID 111833 and the Series 9 title/year under other regional URLs. Ireland-localized URL is recorded but requires direct live confirmation."
     }
   ],
   "model_families_identified_from_Apple_index": [
@@ -80,12 +89,18 @@
       "model": "Apple Watch (1st generation)",
       "generation_year": 2015,
       "source_url": "https://support.apple.com/en-ie/108056"
+    },
+    {
+      "model": "Apple Watch Series 9",
+      "generation_year": 2023,
+      "source_url": "https://support.apple.com/en-ie/111833"
     }
   ],
   "notes": [
     "This is the first pass, not a claim that every Apple Watch family or every official Tech Specs URL has been discovered.",
     "Apple Watch model identification pages include case sizes, finishes, GPS/cellular variants and special editions. These should not automatically become separate TechSpecs product records.",
     "Next step is to collect official Apple product/specification URLs and create the first model records in schema v2.0.",
-    "Apple Watch Series 12 now has a schema v2.0 product record. Apple Watch Ultra 4 is identified in official Apple Support materials, but its direct Tech Specs article URL still needs to be resolved before creating its record."
+    "Apple Watch Series 12 now has a schema v2.0 product record. Apple Watch Ultra 4 is identified in official Apple Support materials, but its direct Tech Specs article URL still needs to be resolved before creating its record.",
+    "Apple Watch Series 9 now has a schema v2.0 product record. Its Apple Support article identifier 111833 is confirmed, but the Ireland-localized URL has not yet been directly checked."
   ]
 }
