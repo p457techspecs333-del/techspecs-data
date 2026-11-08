@@ -11,14 +11,14 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-ie/148758",
+    "source_url": "https://support.apple.com/en-euro/148758",
     "source_file": null,
     "source_title": "Apple Watch Ultra 4 - Tech Specs",
     "publisher": "Apple Support (Ireland)",
     "published_at": null,
     "checked_at": "2026-11-08",
-    "verification_status": "url_checked",
-    "verification_notes": "Apple Support search results confirm the official Ultra 4 Tech Specs page under the Euro locale at article ID 148758, and confirm year introduced 2026. Ireland-localized URL is recorded pending direct live confirmation.",
+    "verification_status": "content_verified",
+    "verification_notes": "Direct official Apple Support Tech Specs page verified at article 148758 under the Euro locale; year introduced 2026. Ireland-localized variant was not directly confirmed, so retain the confirmed official URL.",
     "notes": []
   },
   "extraction": {
@@ -40,6 +40,6 @@
   ],
   "record_notes": [
     "First-pass Apple Watch record created from an official Apple Support source.",
-    "The Ireland-localized URL should be directly confirmed before upgrading the source status to content_verified."
+    "Direct official Apple Support Tech Specs page verified during source audit."
   ]
 }
