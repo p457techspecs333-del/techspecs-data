@@ -1,0 +1,45 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "smartwatch",
+    "family": "Apple Watch SE",
+    "model": "Apple Watch SE (2nd generation)",
+    "model_slug": "apple-watch-se-2",
+    "model_year": 2022,
+    "year_introduced": 2022
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111853",
+    "source_file": null,
+    "source_title": "Apple Watch SE (2nd generation) - Tech Specs",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Apple Support search results confirm the official SE (2nd generation) Tech Specs article ID 111853 and year introduced 2022 under other regional locales. The Ireland-localized URL is recorded pending direct live confirmation.",
+    "notes": []
+  },
+  "extraction": {
+    "method": "manual",
+    "normalization_status": "archival_first_pass",
+    "note": "Initial archival record prioritising correct model identity and official Apple source linkage. The linked Apple page is the authority for full specifications. Do not split case size, finish or connectivity variants into separate records by default.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Model identification",
+      "source_text": "Apple Watch SE (2nd generation). Year introduced: 2022."
+    },
+    {
+      "heading": "Source coverage",
+      "source_text": "Refer to the official Apple Support source for the complete technical specifications, including materials, dimensions, hardware, sensors, display, battery, connectivity and compatibility."
+    }
+  ],
+  "record_notes": [
+    "First-pass Apple Watch record created from an official Apple Support source.",
+    "The Ireland-localized URL should be directly confirmed before upgrading the source status to content_verified."
+  ]
+}
