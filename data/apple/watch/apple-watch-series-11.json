@@ -1,0 +1,45 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "smartwatch",
+    "family": "Apple Watch",
+    "model": "Apple Watch Series 11",
+    "model_slug": "apple-watch-series-11",
+    "model_year": 2025,
+    "year_introduced": 2025
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/125093",
+    "source_file": null,
+    "source_title": "Apple Watch Series 11 - Tech Specs",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support technical-specification URL and page title confirmed from Apple-indexed content. This record intentionally prioritises product identity and source linkage; the Apple page remains the authority for full specifications.",
+    "notes": []
+  },
+  "extraction": {
+    "method": "manual",
+    "normalization_status": "archival_first_pass",
+    "note": "Initial model record. Content completeness is not the objective; correct model identity and official Apple source URL are the priority. Connectivity, case size and finish variants should not be split into separate products by default.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Model identification",
+      "source_text": "Apple Watch Series 11. Year introduced: 2025."
+    },
+    {
+      "heading": "Source coverage",
+      "source_text": "The official Apple Tech Specs page is the authoritative reference for materials and finish, size and weight, hardware, chip, sensors, display, battery, connectivity, compatibility and in-box contents. Refer to the source URL for the complete current page."
+    }
+  ],
+  "record_notes": [
+    "First-pass Apple Watch record created from the official Apple Support Tech Specs URL.",
+    "Not intended to duplicate Apple's entire specification page or normalize every field."
+  ]
+}
