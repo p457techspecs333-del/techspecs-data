@@ -1,0 +1,45 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "smartwatch",
+    "family": "Apple Watch",
+    "model": "Apple Watch Series 3",
+    "model_slug": "apple-watch-series-3",
+    "model_year": 2017,
+    "year_introduced": 2017
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/docs/watch/pl138",
+    "source_file": null,
+    "source_title": "Apple Watch Series 3 - Manuals and Downloads",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Apple Support Ireland search result confirms the official Series 3 support page, Tech Specs reference, and year introduced 2017.",
+    "notes": []
+  },
+  "extraction": {
+    "method": "manual",
+    "normalization_status": "archival_first_pass",
+    "note": "Initial archival record prioritising correct model identity and official Apple source linkage. The linked Apple Support page identifies the model and provides a Tech Specs reference; consult it for the complete specification.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Model identification",
+      "source_text": "Apple Watch Series 3. Year introduced: 2017."
+    },
+    {
+      "heading": "Source coverage",
+      "source_text": "Refer to the official Apple Support source and its Tech Specs reference for complete technical details."
+    }
+  ],
+  "record_notes": [
+    "First-pass Apple Watch record based on an official Apple Support product-specific page.",
+    "The source URL is official; direct article/locale validation may remain a follow-up item."
+  ]
+}
