@@ -17,12 +17,12 @@
     },
     {
       "source_type": "manufacturer",
-      "source_url": "https://support.apple.com/en-ie/148589",
+      "source_url": "https://support.apple.com/en-la/148589",
       "source_title": "Apple Watch Series 12 - Tech Specs",
       "publisher": "Apple Support",
       "purpose": "Official technical specifications for Apple Watch Series 12 (2026)",
-      "verification_status": "url_checked",
-      "notes": "Apple Support search results confirm the article ID and page title under the Belarus locale (/en-by/148589). Ireland-localized URL is recorded, but its live locale behavior still requires direct confirmation."
+      "verification_status": "content_verified",
+      "notes": "Direct official Apple Tech Specs page confirmed under Latin America locale; introduced 2026."
     },
     {
       "source_type": "manufacturer",
@@ -35,12 +35,12 @@
     },
     {
       "source_type": "manufacturer",
-      "source_url": "https://support.apple.com/en-ie/docs/watch/pl293",
-      "source_title": "Apple Watch Series 8 - Manuals and Downloads",
+      "source_url": "https://support.apple.com/en-ie/111848",
+      "source_title": "Apple Watch Series 8 - Technical Specifications",
       "publisher": "Apple Support",
       "purpose": "Official product-specific support page for Apple Watch Series 8",
-      "verification_status": "url_checked",
-      "notes": "Official Apple Support product-specific page confirms Series 8 and year introduced 2022; direct Tech Specs article URL remains to be resolved."
+      "verification_status": "content_verified",
+      "notes": "Direct Apple Support Ireland Tech Specs page confirmed; introduced 2022."
     },
     {
       "source_type": "manufacturer",
@@ -53,12 +53,12 @@
     },
     {
       "source_type": "manufacturer",
-      "source_url": "https://support.apple.com/en-ie/148758",
+      "source_url": "https://support.apple.com/en-euro/148758",
       "source_title": "Apple Watch Ultra 4 - Tech Specs",
       "publisher": "Apple Support",
       "purpose": "Official technical specifications for Apple Watch Ultra 4",
-      "verification_status": "url_checked",
-      "notes": "Apple Support confirms Tech Specs article ID 148758 and model year 2026 under the Euro locale; Ireland-localized URL is pending direct confirmation."
+      "verification_status": "content_verified",
+      "notes": "Direct official Apple Tech Specs page confirmed under Euro locale; introduced 2026."
     },
     {
       "source_type": "manufacturer",
@@ -146,12 +146,12 @@
     {
       "model": "Apple Watch Series 12",
       "generation_year": 2026,
-      "source_url": "https://support.apple.com/en-ie/148589"
+      "source_url": "https://support.apple.com/en-la/148589"
     },
     {
       "model": "Apple Watch Ultra 4",
       "generation_year": 2026,
-      "source_url": "https://support.apple.com/en-ie/148758"
+      "source_url": "https://support.apple.com/en-euro/148758"
     },
     {
       "model": "Apple Watch Series 11",
@@ -206,7 +206,7 @@
     {
       "model": "Apple Watch Series 8",
       "generation_year": 2022,
-      "source_url": "https://support.apple.com/en-ie/docs/watch/pl293"
+      "source_url": "https://support.apple.com/en-ie/111848"
     },
     {
       "model": "Apple Watch SE (2nd generation)",
@@ -240,6 +240,7 @@
     "Apple Watch Series 6 and Series 4 now have schema v2.0 records based on official Apple Support product-specific pages. Direct Tech Specs article URLs remain a verification follow-up where not exposed in search results.",
     "Apple Watch Series 5, Series 3 and the original Apple Watch Ultra now have schema v2.0 source-linked records.",
     "Apple Watch SE (1st generation) and Series 2 now have schema v2.0 product records linked to official Apple Support pages.",
-    "Apple Watch Series 1 now has a schema v2.0 record. The original 2015 first-generation Apple Watch remains in the discovery inventory, but a suitable direct official product-specific page has not yet been confirmed."
+    "Apple Watch Series 1 now has a schema v2.0 record. The original 2015 first-generation Apple Watch remains in the discovery inventory, but a suitable direct official product-specific page has not yet been confirmed.",
+    "Source audit directly confirmed the Apple Watch Series 8, Series 12 and Ultra 4 Tech Specs pages; the confirmed locale URL is retained when an Ireland-specific URL was not verified."
   ]
 }
