@@ -17,12 +17,12 @@
     },
     {
       "source_type": "manufacturer",
-      "source_url": "https://support.apple.com/en-la/148589",
-      "source_title": "Apple Watch Series 12 - Tech Specs",
-      "publisher": "Apple Support",
+      "source_url": "https://www.apple.com/apple-watch-series-12/specs/",
+      "source_title": "Apple Watch Series 12 - Technical Specifications - Apple",
+      "publisher": "Apple",
       "purpose": "Official technical specifications for Apple Watch Series 12 (2026)",
       "verification_status": "content_verified",
-      "notes": "Direct official Tech Specs page confirmed under the Latin America locale; introduced 2026. Ireland-localized direct page not confirmed."
+      "notes": "Official Apple.com technical specifications page verified; year introduced 2026."
     },
     {
       "source_type": "manufacturer",
@@ -53,12 +53,12 @@
     },
     {
       "source_type": "manufacturer",
-      "source_url": "https://support.apple.com/en-euro/148758",
-      "source_title": "Apple Watch Ultra 4 - Tech Specs",
-      "publisher": "Apple Support",
+      "source_url": "https://www.apple.com/apple-watch-ultra-4/specs/",
+      "source_title": "Apple Watch Ultra 4 - Technical Specifications - Apple",
+      "publisher": "Apple",
       "purpose": "Official technical specifications for Apple Watch Ultra 4",
       "verification_status": "content_verified",
-      "notes": "Direct official Tech Specs page confirmed under the Euro locale; introduced 2026. Ireland-localized direct page not confirmed."
+      "notes": "Official Apple.com technical specifications page verified; year introduced 2026."
     },
     {
       "source_type": "manufacturer",
@@ -146,12 +146,12 @@
     {
       "model": "Apple Watch Series 12",
       "generation_year": 2026,
-      "source_url": "https://support.apple.com/en-la/148589"
+      "source_url": "https://www.apple.com/apple-watch-series-12/specs/"
     },
     {
       "model": "Apple Watch Ultra 4",
       "generation_year": 2026,
-      "source_url": "https://support.apple.com/en-euro/148758"
+      "source_url": "https://www.apple.com/apple-watch-ultra-4/specs/"
     },
     {
       "model": "Apple Watch Series 11",
