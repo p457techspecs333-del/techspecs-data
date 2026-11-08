@@ -4,14 +4,13 @@
 This script is deliberately non-destructive:
 - reads the generated product catalogue;
 - searches only for iPhone records;
-- uses Google Programmable Search JSON API (no search-page scraping);
+- uses the Brave Search API (no search-page scraping);
 - accepts candidate URLs only from official Apple Ireland hosts;
 - checks candidate pages and records evidence;
 - writes a separate review file; it never edits product JSON records.
 
 Environment:
-  GOOGLE_CSE_API_KEY  Google Programmable Search API key
-  GOOGLE_CSE_CX       Programmable Search Engine ID configured to search the web
+  BRAVE_API_KEY  Brave Search API subscription token
 
 Example:
   python scripts/discover_apple_iphone_urls.py --limit 5
@@ -35,9 +34,9 @@ from urllib.request import Request, urlopen
 ROOT = Path(__file__).resolve().parents[1]
 CATALOGUE = ROOT / "data" / "catalogue.json"
 DEFAULT_OUTPUT = ROOT / "sources" / "apple" / "iphone" / "url-discovery-candidates.json"
-SEARCH_ENDPOINT = "https://www.googleapis.com/customsearch/v1"
+SEARCH_ENDPOINT = "https://api.search.brave.com/res/v1/web/search"
 ALLOWED_HOSTS = {"support.apple.com", "apple.com", "www.apple.com", "images.apple.com"}
-USER_AGENT = "TechSpecsURLDiscovery/1.0 (research; contact: repository-maintainer)"
+USER_AGENT = "TechSpecsURLDiscovery/1.1 (research; contact: repository-maintainer)"
 
 
 class PageTitleParser(HTMLParser):
@@ -76,16 +75,25 @@ def normalize(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", value.lower()).strip()
 
 
-def search_apple_urls(model: str, api_key: str, cx: str, max_results: int) -> list[dict]:
+def search_apple_urls(model: str, api_key: str, max_results: int) -> list[dict]:
     query = f'"{model}" (site:support.apple.com/en-ie OR site:apple.com/ie) ("Tech Specs" OR specifications OR support)'
-    params = urlencode({"key": api_key, "cx": cx, "q": query, "num": max_results})
+    params = urlencode({
+        "q": query,
+        "count": max_results,
+        "country": "IE",
+        "search_lang": "en",
+    })
     request = Request(
         f"{SEARCH_ENDPOINT}?{params}",
-        headers={"User-Agent": USER_AGENT, "Accept": "application/json"},
+        headers={
+            "Accept": "application/json",
+            "X-Subscription-Token": api_key,
+            "User-Agent": USER_AGENT,
+        },
     )
     with urlopen(request, timeout=25) as response:
         payload = json.loads(response.read().decode("utf-8"))
-    return payload.get("items", [])
+    return payload.get("web", {}).get("results", [])
 
 
 def check_candidate(url: str, model: str) -> dict:
@@ -133,16 +141,14 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--model", help="Run discovery for one exact catalogue model name.")
     parser.add_argument("--limit", type=int, default=0, help="Limit number of iPhone records (0 = all).")
-    parser.add_argument("--max-results", type=int, default=10, choices=range(1, 11))
+    parser.add_argument("--max-results", type=int, default=10, choices=range(1, 21))
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--delay", type=float, default=1.0, help="Seconds between search requests.")
     args = parser.parse_args()
 
-    api_key = os.getenv("GOOGLE_CSE_API_KEY")
-    cx = os.getenv("GOOGLE_CSE_CX")
-    if not api_key or not cx:
-        print("ERROR: set GOOGLE_CSE_API_KEY and GOOGLE_CSE_CX before running.", file=sys.stderr)
-        print("Use a Google Programmable Search Engine configured for web-wide search.", file=sys.stderr)
+    api_key = os.getenv("BRAVE_API_KEY")
+    if not api_key:
+        print("ERROR: BRAVE_API_KEY is not set in this PowerShell session.", file=sys.stderr)
         return 2
     if not CATALOGUE.is_file():
         print(f"ERROR: catalogue not found: {CATALOGUE.relative_to(ROOT)}", file=sys.stderr)
@@ -181,19 +187,19 @@ def main() -> int:
             "candidates": [],
         }
         try:
-            search_items = search_apple_urls(model, api_key, cx, args.max_results)
+            search_items = search_apple_urls(model, api_key, args.max_results)
             seen: set[str] = set()
             for item in search_items:
-                link = item.get("link", "")
+                link = item.get("url", "")
                 if not link or link in seen or not is_official_apple_ireland_url(link):
                     continue
                 seen.add(link)
                 checked = check_candidate(link, model)
                 checked["search_title"] = item.get("title")
-                checked["search_snippet"] = item.get("snippet")
+                checked["search_snippet"] = item.get("description")
                 entry["candidates"].append(checked)
         except HTTPError as exc:
-            entry["search_error"] = f"Google CSE HTTP {exc.code}"
+            entry["search_error"] = f"Brave Search API HTTP {exc.code}"
         except (URLError, TimeoutError, OSError, json.JSONDecodeError) as exc:
             entry["search_error"] = f"{type(exc).__name__}: {exc}"
         output_records.append(entry)
@@ -205,7 +211,7 @@ def main() -> int:
         "document_type": "techspecs_apple_iphone_url_discovery",
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "catalogue_source": "data/catalogue.json",
-        "search_provider": "Google Programmable Search JSON API",
+        "search_provider": "Brave Search API",
         "scope": "Apple iPhone records only; official Apple Ireland URLs only",
         "note": "Candidates are research leads. A reachable URL and model-name match do not certify every specification on the page. No product records are modified.",
         "record_count": len(output_records),
@@ -213,7 +219,11 @@ def main() -> int:
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(document, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"\nSaved {len(output_records)} discovery records to {args.output.relative_to(ROOT) if args.output.is_relative_to(ROOT) else args.output}")
+    try:
+        display_output = args.output.relative_to(ROOT)
+    except ValueError:
+        display_output = args.output
+    print(f"\nSaved {len(output_records)} discovery records to {display_output}")
     print("Existing product JSON files were not changed.")
     return 0
 
