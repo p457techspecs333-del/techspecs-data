@@ -47,10 +47,19 @@ def main() -> int:
         print(f"ERROR: schema is invalid: {exc}")
         return 2
 
-    # catalogue.json is a discovery document, not a product record.
+    # Only product records belong in the product validator. Inventory and
+    # generation-report JSON files are supporting metadata, not products.
+    non_product_filenames = {
+        "catalogue.json",
+        "api-manifest.json",
+        "generation-report.json",
+        "source-inventory.json",
+    }
     files = sorted(
         path for path in DATA_ROOT.rglob("*.json")
-        if path != CATALOGUE_PATH and path.name not in {"catalogue.json", "api-manifest.json"} and "schemas" not in path.relative_to(DATA_ROOT).parts
+        if path != CATALOGUE_PATH
+        and path.name not in non_product_filenames
+        and "schemas" not in path.relative_to(DATA_ROOT).parts
     ) if DATA_ROOT.exists() else []
     if not files:
         print("ERROR: no product JSON files found under data/")
