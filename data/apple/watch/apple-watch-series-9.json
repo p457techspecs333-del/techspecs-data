@@ -11,14 +11,14 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-ie/111833",
+    "source_url": "https://support.apple.com/en-lb/111833",
     "source_file": null,
     "source_title": "Apple Watch Series 9 - Tech Specs",
-    "publisher": "Apple Support (Ireland)",
+    "publisher": "Apple Support",
     "published_at": null,
     "checked_at": "2026-11-08",
-    "verification_status": "url_checked",
-    "verification_notes": "Apple Support search results confirm the official Apple Watch Series 9 Tech Specs article identifier 111833 and model year 2023. The English-Ireland URL is formed with that confirmed article identifier; its localized page should be checked before marking content_verified.",
+    "verification_status": "content_verified",
+    "verification_notes": "Direct official Apple Watch Series 9 Tech Specs page verified at article 111833 under the Lebanon locale; year introduced 2023. The Ireland product-specific support page is also listed at https://support.apple.com/en-ie/docs/watch/pl207.",
     "notes": []
   },
   "extraction": {
@@ -39,7 +39,7 @@
     }
   ],
   "record_notes": [
-    "First-pass Apple Watch Series 9 record created from Apple's official Tech Specs article identifier 111833.",
-    "Ireland-localized URL requires live confirmation before upgrading verification_status to content_verified."
+    "First-pass Apple Watch Series 9 record linked to the directly verified official Tech Specs article.",
+    "Ireland product-specific support page: https://support.apple.com/en-ie/docs/watch/pl207."
   ]
 }
