@@ -5170,9 +5170,9 @@
       "variant": null,
       "source": {
         "source_type": "manufacturer",
-        "publisher": "Apple Support (Ireland)",
-        "source_url": "https://support.apple.com/en-ie/111853",
-        "verification_status": "url_checked",
+        "publisher": "Apple Support",
+        "source_url": "https://support.apple.com/en-by/111853",
+        "verification_status": "content_verified",
         "checked_at": "2026-11-08"
       }
     },
@@ -5456,9 +5456,9 @@
       "variant": null,
       "source": {
         "source_type": "manufacturer",
-        "publisher": "Apple Support (Ireland)",
-        "source_url": "https://support.apple.com/en-ie/111833",
-        "verification_status": "url_checked",
+        "publisher": "Apple Support",
+        "source_url": "https://support.apple.com/en-lb/111833",
+        "verification_status": "content_verified",
         "checked_at": "2026-11-08"
       }
     },
