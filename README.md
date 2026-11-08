@@ -50,6 +50,10 @@ python scripts/build_catalogue_index.py
 
 The GitHub Actions workflow validates product records and regenerates `data/catalogue.json` when relevant files change. The catalogue is a discovery index, not a substitute for reading and validating individual records.
 
+## Apple iPhone URL discovery
+
+The non-destructive URL discovery workflow is documented in [docs/APPLE-IPHONE-URL-DISCOVERY.md](docs/APPLE-IPHONE-URL-DISCOVERY.md). It searches for official Apple Ireland product URLs and writes candidates to a separate review file; it does not modify product records.
+
 ## Canonical source
 
 The GitHub repository is the source of truth. `data.techspecs.dev` is the public machine-retrieval layer; the human-facing TechSpecs site is a separate experience.
