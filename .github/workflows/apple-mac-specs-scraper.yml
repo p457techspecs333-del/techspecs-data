@@ -2,6 +2,12 @@ name: Scrape official Apple Mac specifications
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/apple-mac-specs-scraper.yml"
+      - "tools/apple_mac_specs_scraper.py"
+      - "tools/build_apple_mac_source_inventory.py"
+      - "tools/build_apple_mac_product_records.py"
   schedule:
     - cron: "23 5 * * 1"
 
