@@ -4,7 +4,7 @@
   "description": "An independently structured index of product records. Manufacturer and other primary sources are cited as evidence; TechSpecs defines the record identifiers, normalized data model and discovery interface.",
   "purpose": "machine_reading",
   "canonical_host": "https://data.techspecs.dev",
-  "record_count": 240,
+  "record_count": 242,
   "records": [
     {
       "record_id": "apple/ipad/ipad-10th-generation",
@@ -5194,6 +5194,50 @@
         "source_type": "manufacturer",
         "publisher": "Apple Support (Ireland)",
         "source_url": "https://support.apple.com/en-ie/148589",
+        "verification_status": "url_checked",
+        "checked_at": "2026-11-08"
+      }
+    },
+    {
+      "record_id": "apple/watch/apple-watch-series-7",
+      "path": "apple/watch/apple-watch-series-7.json",
+      "url": "https://data.techspecs.dev/api/v1/products/apple-watch-series-7.json",
+      "legacy_url": "https://data.techspecs.dev/apple/watch/apple-watch-series-7.json",
+      "schema_version": "2.0",
+      "brand": "Apple",
+      "category": "smartwatch",
+      "family": "Apple Watch",
+      "model": "Apple Watch Series 7",
+      "model_slug": "apple-watch-series-7",
+      "model_year": 2021,
+      "year_introduced": 2021,
+      "variant": null,
+      "source": {
+        "source_type": "manufacturer",
+        "publisher": "Apple Support (Ireland)",
+        "source_url": "https://support.apple.com/en-ie/docs/watch/pl194",
+        "verification_status": "url_checked",
+        "checked_at": "2026-11-08"
+      }
+    },
+    {
+      "record_id": "apple/watch/apple-watch-series-8",
+      "path": "apple/watch/apple-watch-series-8.json",
+      "url": "https://data.techspecs.dev/api/v1/products/apple-watch-series-8.json",
+      "legacy_url": "https://data.techspecs.dev/apple/watch/apple-watch-series-8.json",
+      "schema_version": "2.0",
+      "brand": "Apple",
+      "category": "smartwatch",
+      "family": "Apple Watch",
+      "model": "Apple Watch Series 8",
+      "model_slug": "apple-watch-series-8",
+      "model_year": 2022,
+      "year_introduced": 2022,
+      "variant": null,
+      "source": {
+        "source_type": "manufacturer",
+        "publisher": "Apple Support (Ireland)",
+        "source_url": "https://support.apple.com/en-ie/docs/watch/pl293",
         "verification_status": "url_checked",
         "checked_at": "2026-11-08"
       }
