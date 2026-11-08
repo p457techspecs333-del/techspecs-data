@@ -6,7 +6,7 @@ on:
     - cron: "23 5 * * 1"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   scrape-apple-mac-specs:
@@ -23,6 +23,18 @@ jobs:
         run: python -m pip install --disable-pip-version-check requests beautifulsoup4
       - name: Scrape Apple's official model and Tech Specs pages
         run: python tools/apple_mac_specs_scraper.py
+      - name: Commit captured Apple source HTML and extraction report
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add apple_mac_extraction/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Add captured official Apple Mac technical specifications"
+            git push
+          fi
       - name: Upload captured source HTML and extraction report
         if: always()
         uses: actions/upload-artifact@v4
