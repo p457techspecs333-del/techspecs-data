@@ -25,6 +25,8 @@ jobs:
         run: rm -f apple_mac_extraction/technical_specs_html/Tech_specs.html
       - name: Scrape Apple's official model and Tech Specs pages
         run: python tools/apple_mac_specs_scraper.py
+      - name: Build source inventory and flag candidate variants
+        run: python tools/build_apple_mac_source_inventory.py
       - name: Commit captured Apple source HTML and extraction report
         if: success()
         run: |
