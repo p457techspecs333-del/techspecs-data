@@ -3,8 +3,8 @@
   "brand": "Apple",
   "category": "smartwatch",
   "family": "Apple Watch",
-  "market": "Ireland-facing Apple Support source; shared model identification page",
-  "source_policy": "Use official Apple URLs that identify the product/model. Do not create separate product records solely for case size, finish, GPS vs GPS + Cellular, or branded editions unless TechSpecs presentation later needs them as meaningful variants.",
+  "market": "Ireland-facing catalogue; official Apple website and Apple Support sources",
+  "source_policy": "Use official Apple website and Apple Support URLs for product identification and technical specifications. Apple-owned regional URLs are valid official sources; do not treat locale path differences as a different publisher. Do not create separate product records solely for case size, finish, GPS vs GPS + Cellular, or branded editions unless TechSpecs presentation later needs them as meaningful variants.",
   "sources": [
     {
       "source_type": "manufacturer",
@@ -233,13 +233,11 @@
     "This is the first pass, not a claim that every Apple Watch family or every official Tech Specs URL has been discovered.",
     "Apple Watch model identification pages include case sizes, finishes, GPS/cellular variants and special editions. These should not automatically become separate TechSpecs product records.",
     "Next step is to collect official Apple product/specification URLs and create the first model records in schema v2.0.",
-    "Apple Watch Series 12 now has a schema v2.0 product record. Apple Watch Ultra 4 is identified in official Apple Support materials, but its direct Tech Specs article URL still needs to be resolved before creating its record.",
     "Apple Watch Series 7 and Series 8 now have schema v2.0 records using official product-specific Apple Support pages. Direct Tech Specs article URLs remain a follow-up verification item for these historical models.",
     "Apple Watch Series 6 and Series 4 now have schema v2.0 records based on official Apple Support product-specific pages. Direct Tech Specs article URLs remain a verification follow-up where not exposed in search results.",
     "Apple Watch Series 5, Series 3 and the original Apple Watch Ultra now have schema v2.0 source-linked records.",
     "Apple Watch SE (1st generation) and Series 2 now have schema v2.0 product records linked to official Apple Support pages.",
     "Apple Watch Series 1 now has a schema v2.0 record. The original 2015 first-generation Apple Watch remains in the discovery inventory, but a suitable direct official product-specific page has not yet been confirmed.",
-    "Source audit directly confirmed the Apple Watch Series 8, Series 12 and Ultra 4 Tech Specs pages; the confirmed locale URL is retained when an Ireland-specific URL was not verified.",
-    "Source audit directly confirmed the official Tech Specs article URLs for Series 9, Series 8, SE (2nd generation), Series 12 and Ultra 4. Where the direct Tech Specs page is exposed only under another Apple regional locale, that URL is retained and the Ireland product-specific support page is recorded where available."
+    "Source audit confirmed official Apple Tech Specs pages for Series 9, Series 8, SE (2nd generation), Series 12 and Ultra 4. The source URLs are retained as published by Apple."
   ]
 }
