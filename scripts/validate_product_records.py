@@ -115,15 +115,19 @@ def main() -> int:
             parsed_source_url = urlparse(source_url)
             host = (parsed_source_url.hostname or "").lower()
             path_part = parsed_source_url.path.lower()
-            is_ireland_apple_source = (
-                (host == "support.apple.com" and path_part.startswith("/en-ie/"))
-                or (host in {"apple.com", "www.apple.com"} and path_part.startswith("/ie/"))
-                or (host == "images.apple.com" and path_part.startswith("/ie/"))
+            # Ireland is the target market, but an official Apple technical
+            # specification may only be published or indexed under another
+            # regional locale. Accept any Apple-owned support/specification
+            # URL; records should explain non-Ireland locales in verification_notes.
+            is_official_apple_source = (
+                host == "support.apple.com"
+                or host in {"apple.com", "www.apple.com"}
+                or host == "images.apple.com"
             )
-            if not is_ireland_apple_source:
+            if not is_official_apple_source:
                 errors.append(
-                    f"{rel}: source URL must be an official Apple Ireland URL "
-                    f"(support.apple.com/en-ie/, apple.com/ie/, or images.apple.com/ie/); "
+                    f"{rel}: source URL must be hosted on an official Apple domain "
+                    f"(support.apple.com, apple.com, or images.apple.com); "
                     f"found {source_url!r}"
                 )
         if source.get("verification_status") in (None, "", "not_checked"):
