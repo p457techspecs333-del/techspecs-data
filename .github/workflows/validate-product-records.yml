@@ -23,6 +23,12 @@ on:
 permissions:
   contents: write
 
+# Serialize catalogue writers so concurrent data commits cannot race while
+# publishing the generated catalogue and sitemap.
+concurrency:
+  group: validate-records-build-catalogue-main
+  cancel-in-progress: false
+
 jobs:
   validate-and-index:
     runs-on: ubuntu-24.04
@@ -50,10 +56,21 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/catalogue.json data/sitemap.xml
-          if git diff --cached --quiet; then
-            echo "Catalogue is already up to date."
-          else
+          for attempt in 1 2 3; do
+            git add data/catalogue.json data/sitemap.xml
+            if git diff --cached --quiet; then
+              echo "Catalogue is already up to date."
+              exit 0
+            fi
             git commit -m "Regenerate machine-readable product catalogue"
-            git push
-          fi
+            if git push; then
+              exit 0
+            fi
+            echo "Push raced with another main update; refreshing and rebuilding (attempt $attempt)."
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/validate_product_records.py
+            python scripts/build_catalogue_index.py
+          done
+          echo "Unable to publish catalogue after three attempts."
+          exit 1
