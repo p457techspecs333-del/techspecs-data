@@ -1,0 +1,45 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "smartwatch",
+    "family": "Apple Watch",
+    "model": "Apple Watch Series 9",
+    "model_slug": "apple-watch-series-9",
+    "model_year": 2023,
+    "year_introduced": 2023
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111833",
+    "source_file": null,
+    "source_title": "Apple Watch Series 9 - Tech Specs",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Apple Support search results confirm the official Apple Watch Series 9 Tech Specs article identifier 111833 and model year 2023. The English-Ireland URL is formed with that confirmed article identifier; its localized page should be checked before marking content_verified.",
+    "notes": []
+  },
+  "extraction": {
+    "method": "manual",
+    "normalization_status": "archival_first_pass",
+    "note": "Initial archival record prioritising correct model identity and official source linkage. The linked Apple page remains authoritative for the full specification. Do not split case size, finish or GPS/cellular configurations into separate records by default.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Model identification",
+      "source_text": "Apple Watch Series 9. Year introduced: 2023."
+    },
+    {
+      "heading": "Source coverage",
+      "source_text": "Apple's official Tech Specs page is the authoritative reference for materials and finish, size and weight, hardware, chip, sensors, display, battery, connectivity, compatibility and in-box contents."
+    }
+  ],
+  "record_notes": [
+    "First-pass Apple Watch Series 9 record created from Apple's official Tech Specs article identifier 111833.",
+    "Ireland-localized URL requires live confirmation before upgrading verification_status to content_verified."
+  ]
+}
