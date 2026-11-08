@@ -4,7 +4,7 @@
   "description": "An independently structured index of product records. Manufacturer and other primary sources are cited as evidence; TechSpecs defines the record identifiers, normalized data model and discovery interface.",
   "purpose": "machine_reading",
   "canonical_host": "https://data.techspecs.dev",
-  "record_count": 242,
+  "record_count": 246,
   "records": [
     {
       "record_id": "apple/ipad/ipad-10th-generation",
@@ -5111,6 +5111,28 @@
       }
     },
     {
+      "record_id": "apple/watch/apple-watch-se-2",
+      "path": "apple/watch/apple-watch-se-2.json",
+      "url": "https://data.techspecs.dev/api/v1/products/apple-watch-se-2.json",
+      "legacy_url": "https://data.techspecs.dev/apple/watch/apple-watch-se-2.json",
+      "schema_version": "2.0",
+      "brand": "Apple",
+      "category": "smartwatch",
+      "family": "Apple Watch SE",
+      "model": "Apple Watch SE (2nd generation)",
+      "model_slug": "apple-watch-se-2",
+      "model_year": 2022,
+      "year_introduced": 2022,
+      "variant": null,
+      "source": {
+        "source_type": "manufacturer",
+        "publisher": "Apple Support (Ireland)",
+        "source_url": "https://support.apple.com/en-ie/111853",
+        "verification_status": "url_checked",
+        "checked_at": "2026-11-08"
+      }
+    },
+    {
       "record_id": "apple/watch/apple-watch-se-3",
       "path": "apple/watch/apple-watch-se-3.json",
       "url": "https://data.techspecs.dev/api/v1/products/apple-watch-se-3.json",
@@ -5194,6 +5216,50 @@
         "source_type": "manufacturer",
         "publisher": "Apple Support (Ireland)",
         "source_url": "https://support.apple.com/en-ie/148589",
+        "verification_status": "url_checked",
+        "checked_at": "2026-11-08"
+      }
+    },
+    {
+      "record_id": "apple/watch/apple-watch-series-4",
+      "path": "apple/watch/apple-watch-series-4.json",
+      "url": "https://data.techspecs.dev/api/v1/products/apple-watch-series-4.json",
+      "legacy_url": "https://data.techspecs.dev/apple/watch/apple-watch-series-4.json",
+      "schema_version": "2.0",
+      "brand": "Apple",
+      "category": "smartwatch",
+      "family": "Apple Watch",
+      "model": "Apple Watch Series 4",
+      "model_slug": "apple-watch-series-4",
+      "model_year": 2018,
+      "year_introduced": 2018,
+      "variant": null,
+      "source": {
+        "source_type": "manufacturer",
+        "publisher": "Apple Support (Ireland)",
+        "source_url": "https://support.apple.com/en-ie/docs/watch/pl176",
+        "verification_status": "url_checked",
+        "checked_at": "2026-11-08"
+      }
+    },
+    {
+      "record_id": "apple/watch/apple-watch-series-6",
+      "path": "apple/watch/apple-watch-series-6.json",
+      "url": "https://data.techspecs.dev/api/v1/products/apple-watch-series-6.json",
+      "legacy_url": "https://data.techspecs.dev/apple/watch/apple-watch-series-6.json",
+      "schema_version": "2.0",
+      "brand": "Apple",
+      "category": "smartwatch",
+      "family": "Apple Watch",
+      "model": "Apple Watch Series 6",
+      "model_slug": "apple-watch-series-6",
+      "model_year": 2020,
+      "year_introduced": 2020,
+      "variant": null,
+      "source": {
+        "source_type": "manufacturer",
+        "publisher": "Apple Support (Ireland)",
+        "source_url": "https://support.apple.com/en-ie/docs/watch/pl291",
         "verification_status": "url_checked",
         "checked_at": "2026-11-08"
       }
@@ -5304,6 +5370,28 @@
         "source_type": "manufacturer",
         "publisher": "Apple Support (Ireland)",
         "source_url": "https://support.apple.com/en-ie/125095",
+        "verification_status": "url_checked",
+        "checked_at": "2026-11-08"
+      }
+    },
+    {
+      "record_id": "apple/watch/apple-watch-ultra-4",
+      "path": "apple/watch/apple-watch-ultra-4.json",
+      "url": "https://data.techspecs.dev/api/v1/products/apple-watch-ultra-4.json",
+      "legacy_url": "https://data.techspecs.dev/apple/watch/apple-watch-ultra-4.json",
+      "schema_version": "2.0",
+      "brand": "Apple",
+      "category": "smartwatch",
+      "family": "Apple Watch Ultra",
+      "model": "Apple Watch Ultra 4",
+      "model_slug": "apple-watch-ultra-4",
+      "model_year": 2026,
+      "year_introduced": 2026,
+      "variant": null,
+      "source": {
+        "source_type": "manufacturer",
+        "publisher": "Apple Support (Ireland)",
+        "source_url": "https://support.apple.com/en-ie/148758",
         "verification_status": "url_checked",
         "checked_at": "2026-11-08"
       }
