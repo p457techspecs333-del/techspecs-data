@@ -82,9 +82,27 @@ def is_apple_url(url: str) -> bool:
         "support.apple.com", "www.apple.com", "apple.com"
     }
 
+def spec_filename(url: str, title: str) -> str:
+    """Create a stable, URL-derived filename; /specs/ alone is never unique."""
+    parsed = urlparse(url)
+    parts = [p for p in parsed.path.split("/") if p]
+    parts = [p for p in parts if p not in {"ie", "en-ie", "en-gb", "en-us", "specs"}]
+    if parsed.hostname == "support.apple.com":
+        # Apple Support technical-spec pages normally end in a numeric article ID.
+        candidate = parts[-1] if parts else ""
+    else:
+        candidate = "_".join(parts) if parts else ""
+    if not candidate:
+        candidate = title or parsed.netloc
+    return safe_name(candidate)
+
+
 def save_response(response, folder: Path, stem: str):
     final_url = response.url
     path = folder / (safe_name(stem) + ".html")
+    if path.exists():
+        # Never silently overwrite a previously captured source page.
+        raise RuntimeError(f"Refusing to overwrite existing capture: {path}")
     path.write_text(response.text, encoding="utf-8")
     return {"requested_url": response.request.url, "final_url": final_url,
             "status": response.status_code, "title": BeautifulSoup(response.text, "html.parser").title.get_text(" ", strip=True) if BeautifulSoup(response.text, "html.parser").title else "",
@@ -141,7 +159,7 @@ for index in report["model_index_pages"]:
             record["status"] = response.status_code
             record["final_url"] = response.url
             if response.status_code == 200 and "<html" in response.text[:5000].lower():
-                saved = save_response(response, SPECS, safe_name(urlparse(response.url).path.split("/")[-1] or link.get("label", "spec")))
+                saved = save_response(response, SPECS, spec_filename(response.url, link.get("label", "spec")))
                 record.update(saved)
                 report["sources"].append(saved)
             else:
@@ -156,6 +174,8 @@ report["summary"] = {
     "index_pages_saved": sum(1 for x in report["model_index_pages"] if x.get("saved_file")),
     "unique_tech_specs_urls_discovered": len(seen_specs),
     "tech_specs_pages_saved": sum(1 for x in report["technical_spec_pages"] if x.get("saved_file")),
+    "unique_tech_specs_files_saved": len({x.get("saved_file") for x in report["technical_spec_pages"] if x.get("saved_file")}),
+    "duplicate_saved_paths": len([p for p in {x.get("saved_file") for x in report["technical_spec_pages"] if x.get("saved_file")} if sum(1 for x in report["technical_spec_pages"] if x.get("saved_file") == p) > 1]),
     "failed_or_rate_limited": len(report["errors"]),
 }
 (OUT / "extraction_report.json").write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
