@@ -130,8 +130,8 @@ for name, url in urls_to_check:
             href = urljoin(response.url, a["href"])
             label = " ".join(a.get_text(" ", strip=True).split())
             if is_apple_url(href) and (
-                re.fullmatch(r"tech\s*specs?", label, re.I)
-                or re.fullmatch(r"technical\s*specifications?", label, re.I)
+                re.match(r"^tech\s*specs?\b", label, re.I)
+                or re.match(r"^technical\s*specifications?\b", label, re.I)
             ):
                 links.append({"label": label, "url": href})
         # Keep first occurrence of each URL while preserving source order.
