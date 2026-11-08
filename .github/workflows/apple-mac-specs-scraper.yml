@@ -21,8 +21,12 @@ jobs:
           python-version: "3.12"
       - name: Install scraper dependencies
         run: python -m pip install --disable-pip-version-check requests beautifulsoup4
-      - name: Remove legacy colliding capture
-        run: rm -f apple_mac_extraction/technical_specs_html/Tech_specs.html
+      - name: Clear previous generated captures before fresh run
+        run: |
+          rm -rf apple_mac_extraction/original_html
+          rm -rf apple_mac_extraction/technical_specs_html
+          rm -f apple_mac_extraction/extraction_report.json
+          rm -f apple_mac_extraction/discovered_urls.json
       - name: Scrape Apple's official model and Tech Specs pages
         run: python tools/apple_mac_specs_scraper.py
       - name: Build source inventory and flag candidate variants
