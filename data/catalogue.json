@@ -4,7 +4,7 @@
   "description": "An independently structured index of product records. Manufacturer and other primary sources are cited as evidence; TechSpecs defines the record identifiers, normalized data model and discovery interface.",
   "purpose": "machine_reading",
   "canonical_host": "https://data.techspecs.dev",
-  "record_count": 246,
+  "record_count": 249,
   "records": [
     {
       "record_id": "apple/ipad/ipad-10th-generation",
@@ -5221,6 +5221,28 @@
       }
     },
     {
+      "record_id": "apple/watch/apple-watch-series-3",
+      "path": "apple/watch/apple-watch-series-3.json",
+      "url": "https://data.techspecs.dev/api/v1/products/apple-watch-series-3.json",
+      "legacy_url": "https://data.techspecs.dev/apple/watch/apple-watch-series-3.json",
+      "schema_version": "2.0",
+      "brand": "Apple",
+      "category": "smartwatch",
+      "family": "Apple Watch",
+      "model": "Apple Watch Series 3",
+      "model_slug": "apple-watch-series-3",
+      "model_year": 2017,
+      "year_introduced": 2017,
+      "variant": null,
+      "source": {
+        "source_type": "manufacturer",
+        "publisher": "Apple Support (Ireland)",
+        "source_url": "https://support.apple.com/en-ie/docs/watch/pl138",
+        "verification_status": "url_checked",
+        "checked_at": "2026-11-08"
+      }
+    },
+    {
       "record_id": "apple/watch/apple-watch-series-4",
       "path": "apple/watch/apple-watch-series-4.json",
       "url": "https://data.techspecs.dev/api/v1/products/apple-watch-series-4.json",
@@ -5238,6 +5260,28 @@
         "source_type": "manufacturer",
         "publisher": "Apple Support (Ireland)",
         "source_url": "https://support.apple.com/en-ie/docs/watch/pl176",
+        "verification_status": "url_checked",
+        "checked_at": "2026-11-08"
+      }
+    },
+    {
+      "record_id": "apple/watch/apple-watch-series-5",
+      "path": "apple/watch/apple-watch-series-5.json",
+      "url": "https://data.techspecs.dev/api/v1/products/apple-watch-series-5.json",
+      "legacy_url": "https://data.techspecs.dev/apple/watch/apple-watch-series-5.json",
+      "schema_version": "2.0",
+      "brand": "Apple",
+      "category": "smartwatch",
+      "family": "Apple Watch",
+      "model": "Apple Watch Series 5",
+      "model_slug": "apple-watch-series-5",
+      "model_year": 2019,
+      "year_introduced": 2019,
+      "variant": null,
+      "source": {
+        "source_type": "manufacturer",
+        "publisher": "Apple Support (Ireland)",
+        "source_url": "https://support.apple.com/en-ie/docs/watch/pl206",
         "verification_status": "url_checked",
         "checked_at": "2026-11-08"
       }
@@ -5392,6 +5436,28 @@
         "source_type": "manufacturer",
         "publisher": "Apple Support (Ireland)",
         "source_url": "https://support.apple.com/en-ie/148758",
+        "verification_status": "url_checked",
+        "checked_at": "2026-11-08"
+      }
+    },
+    {
+      "record_id": "apple/watch/apple-watch-ultra",
+      "path": "apple/watch/apple-watch-ultra.json",
+      "url": "https://data.techspecs.dev/api/v1/products/apple-watch-ultra.json",
+      "legacy_url": "https://data.techspecs.dev/apple/watch/apple-watch-ultra.json",
+      "schema_version": "2.0",
+      "brand": "Apple",
+      "category": "smartwatch",
+      "family": "Apple Watch Ultra",
+      "model": "Apple Watch Ultra",
+      "model_slug": "apple-watch-ultra",
+      "model_year": 2022,
+      "year_introduced": 2022,
+      "variant": null,
+      "source": {
+        "source_type": "manufacturer",
+        "publisher": "Apple Support (Ireland)",
+        "source_url": "https://support.apple.com/en-ie/docs/watch/300895",
         "verification_status": "url_checked",
         "checked_at": "2026-11-08"
       }

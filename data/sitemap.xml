@@ -241,7 +241,9 @@
   <url><loc>https://data.techspecs.dev/api/v1/products/apple-watch-series-10.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/apple-watch-series-11.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/apple-watch-series-12.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/apple-watch-series-3.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/apple-watch-series-4.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/apple-watch-series-5.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/apple-watch-series-6.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/apple-watch-series-7.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/apple-watch-series-8.json</loc></url>
@@ -249,5 +251,6 @@
   <url><loc>https://data.techspecs.dev/api/v1/products/apple-watch-ultra-2.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/apple-watch-ultra-3.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/apple-watch-ultra-4.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/apple-watch-ultra.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/source-inventory.json</loc></url>
 </urlset>
