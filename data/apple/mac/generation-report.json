@@ -1,22 +1,23 @@
 {
   "schema_version": "2.0",
   "stage": "archival_first_pass_not_final_deduplicated_catalogue",
-  "generated_record_count": 137,
-  "skipped_count": 3,
+  "generated_record_count": 139,
+  "skipped_count": 1,
   "family_counts": {
     "MacBook Air": 26,
     "MacBook Pro": 56,
-    "MacBook": 1,
-    "iMac": 30,
+    "MacBook Neo": 1,
+    "MacBook": 0,
+    "iMac": 32,
     "Mac mini": 12,
     "Mac Studio": 5,
     "Mac Pro": 7
   },
   "records": [
     {
-      "family": "MacBook",
+      "family": "MacBook Neo",
       "model": "MacBook Neo Technical Specifications",
-      "path": "data/apple/mac/macbook/macbook-neo-technical-specifications.json",
+      "path": "data/apple/mac/macbook-neo/macbook-neo-technical-specifications.json",
       "source_url": "https://www.apple.com/ie/macbook-neo/specs/",
       "section_count": 7,
       "year": null
@@ -823,6 +824,22 @@
     },
     {
       "family": "iMac",
+      "model": "iMac (Retina 4K, 21.5-inch, Late 2015) - Technical Specification",
+      "path": "data/apple/mac/imac/imac-retina-4k-21-5-inch-late-2015-technical-specification.json",
+      "source_url": "https://support.apple.com/en-ie/112034",
+      "section_count": 20,
+      "year": 2015
+    },
+    {
+      "family": "iMac",
+      "model": "iMac (21.5-inch, Late 2015) - Technical Specification",
+      "path": "data/apple/mac/imac/imac-21-5-inch-late-2015-technical-specification.json",
+      "source_url": "https://support.apple.com/en-ie/112036",
+      "section_count": 20,
+      "year": 2015
+    },
+    {
+      "family": "iMac",
       "model": "iMac (Retina 5K, 27-inch, Mid 2015) - Technical Specifications",
       "path": "data/apple/mac/imac/imac-retina-5k-27-inch-mid-2015-technical-specifications.json",
       "source_url": "https://support.apple.com/en-ie/112434",
@@ -1114,14 +1131,6 @@
     {
       "title": "MacBook Air - Tech Specs - Apple (IE)",
       "reason": "No specification sections could be extracted"
-    },
-    {
-      "title": "iMac (Retina 4K, 21.5-inch, Late 2015) - Technical Specification - Apple Support (IE)",
-      "reason": "Not a family-specific Mac Tech Specs page"
-    },
-    {
-      "title": "iMac (21.5-inch, Late 2015) - Technical Specification - Apple Support (IE)",
-      "reason": "Not a family-specific Mac Tech Specs page"
     }
   ]
 }
