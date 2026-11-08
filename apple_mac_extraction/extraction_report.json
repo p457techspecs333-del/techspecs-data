@@ -1,5 +1,5 @@
 {
-  "started_utc": "2026-11-08T20:29:28.926090+00:00",
+  "started_utc": "2026-11-08T20:58:01.337681+00:00",
   "sources": [
     {
       "requested_url": "https://www.apple.com/ie/mac/compare/",
@@ -70,7 +70,7 @@
       "final_url": "https://www.apple.com/ie/macbook-neo/specs/",
       "status": 200,
       "title": "MacBook Neo - Tech Specs - Apple (IE)",
-      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "saved_file": "apple_mac_extraction/technical_specs_html/macbook-neo.html",
       "bytes": 204389
     },
     {
@@ -78,7 +78,7 @@
       "final_url": "https://www.apple.com/ie/macbook-air/specs/",
       "status": 200,
       "title": "MacBook Air - Tech Specs - Apple (IE)",
-      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "saved_file": "apple_mac_extraction/technical_specs_html/macbook-air.html",
       "bytes": 307797
     },
     {
@@ -86,7 +86,7 @@
       "final_url": "https://www.apple.com/ie/macbook-pro/liquid-retina-xdr-display/specs/",
       "status": 200,
       "title": "MacBook Pro with Liquid Retina XDR Display - Technical Specifications - Apple (IE)",
-      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "saved_file": "apple_mac_extraction/technical_specs_html/macbook-pro_liquid-retina-xdr-display.html",
       "bytes": 341348
     },
     {
@@ -94,7 +94,7 @@
       "final_url": "https://www.apple.com/ie/macbook-pro/proled-xdr-display/specs/",
       "status": 200,
       "title": "MacBook Pro with PROLED XDR Display - Technical Specifications - Apple (IE)",
-      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "saved_file": "apple_mac_extraction/technical_specs_html/macbook-pro_proled-xdr-display.html",
       "bytes": 338669
     },
     {
@@ -102,7 +102,7 @@
       "final_url": "https://www.apple.com/ie/imac/specs/",
       "status": 200,
       "title": "iMac - Technical Specifications - Apple (IE)",
-      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "saved_file": "apple_mac_extraction/technical_specs_html/imac.html",
       "bytes": 212401
     },
     {
@@ -110,7 +110,7 @@
       "final_url": "https://www.apple.com/ie/mac-mini/specs/",
       "status": 200,
       "title": "Mac mini - Technical Specifications - Apple (IE)",
-      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "saved_file": "apple_mac_extraction/technical_specs_html/mac-mini.html",
       "bytes": 212176
     },
     {
@@ -118,32 +118,8 @@
       "final_url": "https://www.apple.com/ie/mac-studio/specs/",
       "status": 200,
       "title": "Mac Studio - Technical Specifications - Apple (IE)",
-      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "saved_file": "apple_mac_extraction/technical_specs_html/mac-studio.html",
       "bytes": 199012
-    },
-    {
-      "requested_url": "https://support.apple.com/en-ie/148587",
-      "final_url": "https://support.apple.com/en-ie/148587",
-      "status": 200,
-      "title": "Apple Intelligence Usage Terms - Apple Support (IE)",
-      "saved_file": "apple_mac_extraction/technical_specs_html/148587.html",
-      "bytes": 156232
-    },
-    {
-      "requested_url": "https://support.apple.com/en-ie/102596",
-      "final_url": "https://support.apple.com/en-ie/102596",
-      "status": 200,
-      "title": "Listen with Personalised Spatial Audio for AirPods and Beats - Apple Support (IE)",
-      "saved_file": "apple_mac_extraction/technical_specs_html/102596.html",
-      "bytes": 155987
-    },
-    {
-      "requested_url": "https://support.apple.com/en-ie/102767",
-      "final_url": "https://support.apple.com/en-ie/102767",
-      "status": 200,
-      "title": "Find your Mac model name and serial number - Apple Support (IE)",
-      "saved_file": "apple_mac_extraction/technical_specs_html/102767.html",
-      "bytes": 159946
     },
     {
       "requested_url": "https://support.apple.com/en-ie/126321",
@@ -1194,14 +1170,6 @@
       "bytes": 182837
     },
     {
-      "requested_url": "https://support.apple.com/en-ie/101330",
-      "final_url": "https://support.apple.com/en-ie/101330",
-      "status": 200,
-      "title": "Install macOS 10.14 Mojave on Mac Pro (Mid 2010) and Mac Pro (Mid 2012) - Apple Support (IE)",
-      "saved_file": "apple_mac_extraction/technical_specs_html/101330.html",
-      "bytes": 158380
-    },
-    {
       "requested_url": "https://support.apple.com/en-ie/112578",
       "final_url": "https://support.apple.com/en-ie/112578",
       "status": 200,
@@ -1216,22 +1184,6 @@
       "title": "Mac Pro (Early 2009) - Technical Specifications - Apple Support (IE)",
       "saved_file": "apple_mac_extraction/technical_specs_html/112590.html",
       "bytes": 176854
-    },
-    {
-      "requested_url": "https://support.apple.com/en-ie/108054",
-      "final_url": "https://support.apple.com/en-ie/108054",
-      "status": 200,
-      "title": "Identify your iMac model - Apple Support (IE)",
-      "saved_file": "apple_mac_extraction/technical_specs_html/108054.html",
-      "bytes": 211964
-    },
-    {
-      "requested_url": "https://support.apple.com/en-ie/102852",
-      "final_url": "https://support.apple.com/en-ie/102852",
-      "status": 200,
-      "title": "Identify your Mac mini model - Apple Support (IE)",
-      "saved_file": "apple_mac_extraction/technical_specs_html/102852.html",
-      "bytes": 174911
     }
   ],
   "model_index_pages": [
@@ -1271,14 +1223,6 @@
         {
           "label": "Tech specs",
           "url": "https://www.apple.com/ie/mac-studio/specs/"
-        },
-        {
-          "label": "support.apple.com/en-ie/148587",
-          "url": "https://support.apple.com/en-ie/148587"
-        },
-        {
-          "label": "support.apple.com/en-ie/102596",
-          "url": "https://support.apple.com/en-ie/102596"
         }
       ]
     },
@@ -1291,10 +1235,6 @@
       "saved_file": "apple_mac_extraction/original_html/macbook_air.html",
       "bytes": 202552,
       "discovered_links": [
-        {
-          "label": "find your Mac model name or serial number",
-          "url": "https://support.apple.com/en-ie/102767"
-        },
         {
           "label": "Tech Specs for MacBook Air (15-inch, M5)",
           "url": "https://support.apple.com/en-ie/126321"
@@ -1410,10 +1350,6 @@
       "saved_file": "apple_mac_extraction/original_html/macbook_pro.html",
       "bytes": 269284,
       "discovered_links": [
-        {
-          "label": "find your Mac model name or serial number",
-          "url": "https://support.apple.com/en-ie/102767"
-        },
         {
           "label": "Tech Specs for MacBook Pro (14-inch, M5 Pro or M5 Max)",
           "url": "https://support.apple.com/en-ie/126318"
@@ -1640,12 +1576,7 @@
       "title": "Identify your MacBook model - Apple Support (IE)",
       "saved_file": "apple_mac_extraction/original_html/macbook.html",
       "bytes": 164513,
-      "discovered_links": [
-        {
-          "label": "find your Mac model name or serial number",
-          "url": "https://support.apple.com/en-ie/102767"
-        }
-      ]
+      "discovered_links": []
     },
     {
       "family": "imac",
@@ -1656,10 +1587,6 @@
       "saved_file": "apple_mac_extraction/original_html/imac.html",
       "bytes": 211964,
       "discovered_links": [
-        {
-          "label": "find your Mac model name or serial number",
-          "url": "https://support.apple.com/en-ie/102767"
-        },
         {
           "label": "Tech Specs for iMac (24-inch, M6, Four ports)",
           "url": "https://support.apple.com/en-ie/148299"
@@ -1796,10 +1723,6 @@
       "bytes": 174911,
       "discovered_links": [
         {
-          "label": "find your Mac model name or serial number",
-          "url": "https://support.apple.com/en-ie/102767"
-        },
-        {
           "label": "Tech Specs for Mac mini (M6)",
           "url": "https://support.apple.com/en-ie/128108"
         },
@@ -1855,10 +1778,6 @@
       "bytes": 167936,
       "discovered_links": [
         {
-          "label": "find your Mac model name or serial number",
-          "url": "https://support.apple.com/en-ie/102767"
-        },
-        {
           "label": "Tech Specs for Mac Studio (M5 Max)",
           "url": "https://support.apple.com/en-ie/128107"
         },
@@ -1886,10 +1805,6 @@
       "bytes": 168000,
       "discovered_links": [
         {
-          "label": "find your Mac model name or serial number",
-          "url": "https://support.apple.com/en-ie/102767"
-        },
-        {
           "label": "Tech Specs for Mac Pro (2023)",
           "url": "https://support.apple.com/en-ie/111343"
         },
@@ -1910,24 +1825,12 @@
           "url": "https://support.apple.com/en-ie/118464"
         },
         {
-          "label": "Metal-capable graphics card",
-          "url": "https://support.apple.com/en-ie/101330"
-        },
-        {
           "label": "Tech Specs for Mac Pro (Mid 2010)",
           "url": "https://support.apple.com/en-ie/112578"
         },
         {
           "label": "Tech Specs for Mac Pro (Early 2009)",
           "url": "https://support.apple.com/en-ie/112590"
-        },
-        {
-          "label": "Identify your iMac model",
-          "url": "https://support.apple.com/en-ie/108054"
-        },
-        {
-          "label": "Identify your Mac mini model",
-          "url": "https://support.apple.com/en-ie/102852"
         }
       ]
     }
@@ -1939,7 +1842,7 @@
       "status": 200,
       "final_url": "https://www.apple.com/ie/macbook-neo/specs/",
       "title": "MacBook Neo - Tech Specs - Apple (IE)",
-      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "saved_file": "apple_mac_extraction/technical_specs_html/macbook-neo.html",
       "bytes": 204389
     },
     {
@@ -1948,7 +1851,7 @@
       "status": 200,
       "final_url": "https://www.apple.com/ie/macbook-air/specs/",
       "title": "MacBook Air - Tech Specs - Apple (IE)",
-      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "saved_file": "apple_mac_extraction/technical_specs_html/macbook-air.html",
       "bytes": 307797
     },
     {
@@ -1957,7 +1860,7 @@
       "status": 200,
       "final_url": "https://www.apple.com/ie/macbook-pro/liquid-retina-xdr-display/specs/",
       "title": "MacBook Pro with Liquid Retina XDR Display - Technical Specifications - Apple (IE)",
-      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "saved_file": "apple_mac_extraction/technical_specs_html/macbook-pro_liquid-retina-xdr-display.html",
       "bytes": 341348
     },
     {
@@ -1966,7 +1869,7 @@
       "status": 200,
       "final_url": "https://www.apple.com/ie/macbook-pro/proled-xdr-display/specs/",
       "title": "MacBook Pro with PROLED XDR Display - Technical Specifications - Apple (IE)",
-      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "saved_file": "apple_mac_extraction/technical_specs_html/macbook-pro_proled-xdr-display.html",
       "bytes": 338669
     },
     {
@@ -1975,7 +1878,7 @@
       "status": 200,
       "final_url": "https://www.apple.com/ie/imac/specs/",
       "title": "iMac - Technical Specifications - Apple (IE)",
-      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "saved_file": "apple_mac_extraction/technical_specs_html/imac.html",
       "bytes": 212401
     },
     {
@@ -1984,7 +1887,7 @@
       "status": 200,
       "final_url": "https://www.apple.com/ie/mac-mini/specs/",
       "title": "Mac mini - Technical Specifications - Apple (IE)",
-      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "saved_file": "apple_mac_extraction/technical_specs_html/mac-mini.html",
       "bytes": 212176
     },
     {
@@ -1993,35 +1896,8 @@
       "status": 200,
       "final_url": "https://www.apple.com/ie/mac-studio/specs/",
       "title": "Mac Studio - Technical Specifications - Apple (IE)",
-      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "saved_file": "apple_mac_extraction/technical_specs_html/mac-studio.html",
       "bytes": 199012
-    },
-    {
-      "label": "support.apple.com/en-ie/148587",
-      "requested_url": "https://support.apple.com/en-ie/148587",
-      "status": 200,
-      "final_url": "https://support.apple.com/en-ie/148587",
-      "title": "Apple Intelligence Usage Terms - Apple Support (IE)",
-      "saved_file": "apple_mac_extraction/technical_specs_html/148587.html",
-      "bytes": 156232
-    },
-    {
-      "label": "support.apple.com/en-ie/102596",
-      "requested_url": "https://support.apple.com/en-ie/102596",
-      "status": 200,
-      "final_url": "https://support.apple.com/en-ie/102596",
-      "title": "Listen with Personalised Spatial Audio for AirPods and Beats - Apple Support (IE)",
-      "saved_file": "apple_mac_extraction/technical_specs_html/102596.html",
-      "bytes": 155987
-    },
-    {
-      "label": "find your Mac model name or serial number",
-      "requested_url": "https://support.apple.com/en-ie/102767",
-      "status": 200,
-      "final_url": "https://support.apple.com/en-ie/102767",
-      "title": "Find your Mac model name and serial number - Apple Support (IE)",
-      "saved_file": "apple_mac_extraction/technical_specs_html/102767.html",
-      "bytes": 159946
     },
     {
       "label": "Tech Specs for MacBook Air (15-inch, M5)",
@@ -3203,15 +3079,6 @@
       "bytes": 182837
     },
     {
-      "label": "Metal-capable graphics card",
-      "requested_url": "https://support.apple.com/en-ie/101330",
-      "status": 200,
-      "final_url": "https://support.apple.com/en-ie/101330",
-      "title": "Install macOS 10.14 Mojave on Mac Pro (Mid 2010) and Mac Pro (Mid 2012) - Apple Support (IE)",
-      "saved_file": "apple_mac_extraction/technical_specs_html/101330.html",
-      "bytes": 158380
-    },
-    {
       "label": "Tech Specs for Mac Pro (Mid 2010)",
       "requested_url": "https://support.apple.com/en-ie/112578",
       "status": 200,
@@ -3228,38 +3095,23 @@
       "title": "Mac Pro (Early 2009) - Technical Specifications - Apple Support (IE)",
       "saved_file": "apple_mac_extraction/technical_specs_html/112590.html",
       "bytes": 176854
-    },
-    {
-      "label": "Identify your iMac model",
-      "requested_url": "https://support.apple.com/en-ie/108054",
-      "status": 200,
-      "final_url": "https://support.apple.com/en-ie/108054",
-      "title": "Identify your iMac model - Apple Support (IE)",
-      "saved_file": "apple_mac_extraction/technical_specs_html/108054.html",
-      "bytes": 211964
-    },
-    {
-      "label": "Identify your Mac mini model",
-      "requested_url": "https://support.apple.com/en-ie/102852",
-      "status": 200,
-      "final_url": "https://support.apple.com/en-ie/102852",
-      "title": "Identify your Mac mini model - Apple Support (IE)",
-      "saved_file": "apple_mac_extraction/technical_specs_html/102852.html",
-      "bytes": 174911
     }
   ],
   "errors": [],
   "notes": [
     "Official Apple pages only are saved as source HTML.",
     "HTTP 429/403 pages are recorded as failures, not treated as successful captures.",
-    "A successful index scrape is not proof that every historic model has been captured."
+    "A successful index scrape is not proof that every historic model has been captured.",
+    "Only explicitly labelled Tech Specs links are followed; unrelated numeric support links are excluded."
   ],
-  "finished_utc": "2026-11-08T20:32:25.704506+00:00",
+  "finished_utc": "2026-11-08T21:02:13.947700+00:00",
   "summary": {
     "index_pages_requested": 8,
     "index_pages_saved": 8,
-    "unique_tech_specs_urls_discovered": 146,
-    "tech_specs_pages_saved": 146,
+    "unique_tech_specs_urls_discovered": 140,
+    "tech_specs_pages_saved": 140,
+    "unique_tech_specs_files_saved": 140,
+    "duplicate_saved_paths": 0,
     "failed_or_rate_limited": 0
   }
 }
