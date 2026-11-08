@@ -1,0 +1,45 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "smartwatch",
+    "family": "Apple Watch",
+    "model": "Apple Watch (1st generation)",
+    "model_slug": "apple-watch-first-generation",
+    "model_year": 2015,
+    "year_introduced": 2015
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/108056",
+    "source_file": null,
+    "source_title": "Identify your Apple Watch",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support model-identification page is the confirmed source for distinguishing the original 2015 Apple Watch from Series 1. A separate direct Tech Specs page for the original generation was not established in this pass.",
+    "notes": []
+  },
+  "extraction": {
+    "method": "manual",
+    "normalization_status": "archival_first_pass",
+    "note": "Identity-first archival record. The source is Apple's official model-identification page rather than a direct historical Tech Specs article; this limitation is explicit and should not be upgraded without locating a more specific official source.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Model identification",
+      "source_text": "Apple Watch (1st generation). Year introduced: 2015."
+    },
+    {
+      "heading": "Source coverage",
+      "source_text": "Apple's official model-identification page is the available authoritative reference for distinguishing the original Apple Watch from later Series models. A direct Tech Specs source remains to be located."
+    }
+  ],
+  "record_notes": [
+    "This is a distinct 2015 first-generation model, not Apple Watch Series 1 (introduced 2016).",
+    "The source is an official identification index; a dedicated Tech Specs URL was not confirmed."
+  ]
+}
