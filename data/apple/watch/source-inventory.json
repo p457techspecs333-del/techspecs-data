@@ -187,14 +187,14 @@
       "source_url": "https://support.apple.com/en-ie/111853"
     },
     {
-      "model_families_identified_from_Apple_index": "Apple Watch Series 5",
       "generation_year": 2019,
-      "source_url": "https://support.apple.com/en-ie/docs/watch/pl206"
+      "source_url": "https://support.apple.com/en-ie/docs/watch/pl206",
+      "model": "Apple Watch Series 5"
     },
     {
-      "model_families_identified_from_Apple_index": "Apple Watch Ultra",
       "generation_year": 2022,
-      "source_url": "https://support.apple.com/en-ie/docs/watch/300895"
+      "source_url": "https://support.apple.com/en-ie/docs/watch/300895",
+      "model": "Apple Watch Ultra"
     }
   ],
   "notes": [
