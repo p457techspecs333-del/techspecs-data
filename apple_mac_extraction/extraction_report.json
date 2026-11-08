@@ -1,0 +1,3265 @@
+{
+  "started_utc": "2026-11-08T20:29:28.926090+00:00",
+  "sources": [
+    {
+      "requested_url": "https://www.apple.com/ie/mac/compare/",
+      "final_url": "https://www.apple.com/ie/mac/compare/",
+      "status": 200,
+      "title": "Mac - Compare Models - Apple (IE)",
+      "saved_file": "apple_mac_extraction/original_html/mac_compare.html",
+      "bytes": 1299083
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/102869",
+      "final_url": "https://support.apple.com/en-ie/102869",
+      "status": 200,
+      "title": "Identify your MacBook Air model - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/original_html/macbook_air.html",
+      "bytes": 202552
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/108052",
+      "final_url": "https://support.apple.com/en-ie/108052",
+      "status": 200,
+      "title": "Identify your MacBook Pro model - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/original_html/macbook_pro.html",
+      "bytes": 269284
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/103257",
+      "final_url": "https://support.apple.com/en-ie/103257",
+      "status": 200,
+      "title": "Identify your MacBook model - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/original_html/macbook.html",
+      "bytes": 164513
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/108054",
+      "final_url": "https://support.apple.com/en-ie/108054",
+      "status": 200,
+      "title": "Identify your iMac model - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/original_html/imac.html",
+      "bytes": 211964
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/102852",
+      "final_url": "https://support.apple.com/en-ie/102852",
+      "status": 200,
+      "title": "Identify your Mac mini model - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/original_html/mac_mini.html",
+      "bytes": 174911
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/102231",
+      "final_url": "https://support.apple.com/en-ie/102231",
+      "status": 200,
+      "title": "Identify your Mac Studio model - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/original_html/mac_studio.html",
+      "bytes": 167936
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/102887",
+      "final_url": "https://support.apple.com/en-ie/102887",
+      "status": 200,
+      "title": "Identify your Mac Pro model - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/original_html/mac_pro.html",
+      "bytes": 168000
+    },
+    {
+      "requested_url": "https://www.apple.com/ie/macbook-neo/specs/",
+      "final_url": "https://www.apple.com/ie/macbook-neo/specs/",
+      "status": 200,
+      "title": "MacBook Neo - Tech Specs - Apple (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "bytes": 204389
+    },
+    {
+      "requested_url": "https://www.apple.com/ie/macbook-air/specs/",
+      "final_url": "https://www.apple.com/ie/macbook-air/specs/",
+      "status": 200,
+      "title": "MacBook Air - Tech Specs - Apple (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "bytes": 307797
+    },
+    {
+      "requested_url": "https://www.apple.com/ie/macbook-pro/liquid-retina-xdr-display/specs/",
+      "final_url": "https://www.apple.com/ie/macbook-pro/liquid-retina-xdr-display/specs/",
+      "status": 200,
+      "title": "MacBook Pro with Liquid Retina XDR Display - Technical Specifications - Apple (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "bytes": 341348
+    },
+    {
+      "requested_url": "https://www.apple.com/ie/macbook-pro/proled-xdr-display/specs/",
+      "final_url": "https://www.apple.com/ie/macbook-pro/proled-xdr-display/specs/",
+      "status": 200,
+      "title": "MacBook Pro with PROLED XDR Display - Technical Specifications - Apple (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "bytes": 338669
+    },
+    {
+      "requested_url": "https://www.apple.com/ie/imac/specs/",
+      "final_url": "https://www.apple.com/ie/imac/specs/",
+      "status": 200,
+      "title": "iMac - Technical Specifications - Apple (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "bytes": 212401
+    },
+    {
+      "requested_url": "https://www.apple.com/ie/mac-mini/specs/",
+      "final_url": "https://www.apple.com/ie/mac-mini/specs/",
+      "status": 200,
+      "title": "Mac mini - Technical Specifications - Apple (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "bytes": 212176
+    },
+    {
+      "requested_url": "https://www.apple.com/ie/mac-studio/specs/",
+      "final_url": "https://www.apple.com/ie/mac-studio/specs/",
+      "status": 200,
+      "title": "Mac Studio - Technical Specifications - Apple (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "bytes": 199012
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/148587",
+      "final_url": "https://support.apple.com/en-ie/148587",
+      "status": 200,
+      "title": "Apple Intelligence Usage Terms - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/148587.html",
+      "bytes": 156232
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/102596",
+      "final_url": "https://support.apple.com/en-ie/102596",
+      "status": 200,
+      "title": "Listen with Personalised Spatial Audio for AirPods and Beats - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/102596.html",
+      "bytes": 155987
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/102767",
+      "final_url": "https://support.apple.com/en-ie/102767",
+      "status": 200,
+      "title": "Find your Mac model name and serial number - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/102767.html",
+      "bytes": 159946
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/126321",
+      "final_url": "https://support.apple.com/en-ie/126321",
+      "status": 200,
+      "title": "MacBook Air (15-inch, M5) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/126321.html",
+      "bytes": 188883
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/126320",
+      "final_url": "https://support.apple.com/en-ie/126320",
+      "status": 200,
+      "title": "MacBook Air (13-inch, M5) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/126320.html",
+      "bytes": 190417
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/122210",
+      "final_url": "https://support.apple.com/en-ie/122210",
+      "status": 200,
+      "title": "MacBook Air (15-inch, M4, 2025) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/122210.html",
+      "bytes": 189098
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/122209",
+      "final_url": "https://support.apple.com/en-ie/122209",
+      "status": 200,
+      "title": "MacBook Air (13-inch, M4, 2025) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/122209.html",
+      "bytes": 189769
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/118552",
+      "final_url": "https://support.apple.com/en-ie/118552",
+      "status": 200,
+      "title": "MacBook Air (15-inch, M3, 2024) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/118552.html",
+      "bytes": 188241
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/118551",
+      "final_url": "https://support.apple.com/en-ie/118551",
+      "status": 200,
+      "title": "MacBook Air (13-inch, M3, 2024) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/118551.html",
+      "bytes": 189921
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111346",
+      "final_url": "https://support.apple.com/en-ie/111346",
+      "status": 200,
+      "title": "MacBook Air (15-inch, M2, 2023) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111346.html",
+      "bytes": 186602
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111867",
+      "final_url": "https://support.apple.com/en-ie/111867",
+      "status": 200,
+      "title": "MacBook Air (M2, 2022) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111867.html",
+      "bytes": 186221
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111883",
+      "final_url": "https://support.apple.com/en-ie/111883",
+      "status": 200,
+      "title": "MacBook Air (M1, 2020) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111883.html",
+      "bytes": 180252
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111991",
+      "final_url": "https://support.apple.com/en-ie/111991",
+      "status": 200,
+      "title": "MacBook Air (Retina, 13-inch, 2020) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111991.html",
+      "bytes": 178393
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111948",
+      "final_url": "https://support.apple.com/en-ie/111948",
+      "status": 200,
+      "title": "MacBook Air (Retina, 13-inch, 2019) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111948.html",
+      "bytes": 176866
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111933",
+      "final_url": "https://support.apple.com/en-ie/111933",
+      "status": 200,
+      "title": "MacBook Air (Retina, 13-inch, 2018) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111933.html",
+      "bytes": 179402
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111924",
+      "final_url": "https://support.apple.com/en-ie/111924",
+      "status": 200,
+      "title": "MacBook Air (13-inch, 2017) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111924.html",
+      "bytes": 177017
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111956",
+      "final_url": "https://support.apple.com/en-ie/111956",
+      "status": 200,
+      "title": "MacBook Air (13-inch, Early 2015) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111956.html",
+      "bytes": 164199
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112441",
+      "final_url": "https://support.apple.com/en-ie/112441",
+      "status": 200,
+      "title": "MacBook Air (11-inch, Early 2015) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112441.html",
+      "bytes": 176368
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111944",
+      "final_url": "https://support.apple.com/en-ie/111944",
+      "status": 200,
+      "title": "MacBook Air (13-inch, Early 2014) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111944.html",
+      "bytes": 177320
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112032",
+      "final_url": "https://support.apple.com/en-ie/112032",
+      "status": 200,
+      "title": "MacBook Air (11-inch, Early 2014) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112032.html",
+      "bytes": 177240
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111938",
+      "final_url": "https://support.apple.com/en-ie/111938",
+      "status": 200,
+      "title": "MacBook Air (13-inch, Mid 2013) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111938.html",
+      "bytes": 172684
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112437",
+      "final_url": "https://support.apple.com/en-ie/112437",
+      "status": 200,
+      "title": "MacBook Air (11-inch, Mid 2013) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112437.html",
+      "bytes": 171410
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111966",
+      "final_url": "https://support.apple.com/en-ie/111966",
+      "status": 200,
+      "title": "MacBook Air (13-inch, Mid 2012) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111966.html",
+      "bytes": 170903
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112008",
+      "final_url": "https://support.apple.com/en-ie/112008",
+      "status": 200,
+      "title": "MacBook Air (11-inch, Mid 2012) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112008.html",
+      "bytes": 170463
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112038",
+      "final_url": "https://support.apple.com/en-ie/112038",
+      "status": 200,
+      "title": "MacBook Air (13-inch, Mid 2011) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112038.html",
+      "bytes": 169897
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112439",
+      "final_url": "https://support.apple.com/en-ie/112439",
+      "status": 200,
+      "title": "MacBook Air (11-inch, Mid 2011) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112439.html",
+      "bytes": 170221
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112585",
+      "final_url": "https://support.apple.com/en-ie/112585",
+      "status": 200,
+      "title": "MacBook Air (13-inch, Late 2010) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112585.html",
+      "bytes": 172568
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112580",
+      "final_url": "https://support.apple.com/en-ie/112580",
+      "status": 200,
+      "title": "MacBook Air (11-inch, Late 2010) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112580.html",
+      "bytes": 172354
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112660",
+      "final_url": "https://support.apple.com/en-ie/112660",
+      "status": 200,
+      "title": "MacBook Air (Mid 2009) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112660.html",
+      "bytes": 168434
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/126318",
+      "final_url": "https://support.apple.com/en-ie/126318",
+      "status": 200,
+      "title": "MacBook Pro (14-inch, M5 Pro or M5 Max) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/126318.html",
+      "bytes": 199588
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/126319",
+      "final_url": "https://support.apple.com/en-ie/126319",
+      "status": 200,
+      "title": "MacBook Pro (16-inch, M5 Pro or M5 Max) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/126319.html",
+      "bytes": 197422
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/125405",
+      "final_url": "https://support.apple.com/en-ie/125405",
+      "status": 200,
+      "title": "MacBook Pro (14-inch, M5) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/125405.html",
+      "bytes": 191316
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/121552",
+      "final_url": "https://support.apple.com/en-ie/121552",
+      "status": 200,
+      "title": "MacBook Pro (14-inch, M4, 2024) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/121552.html",
+      "bytes": 191365
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/121553",
+      "final_url": "https://support.apple.com/en-ie/121553",
+      "status": 200,
+      "title": "MacBook Pro (14-inch, M4 Pro or M4 Max, 2024) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/121553.html",
+      "bytes": 198762
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/121554",
+      "final_url": "https://support.apple.com/en-ie/121554",
+      "status": 200,
+      "title": "MacBook Pro (16-inch, 2024) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/121554.html",
+      "bytes": 194211
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/117735",
+      "final_url": "https://support.apple.com/en-ie/117735",
+      "status": 200,
+      "title": "MacBook Pro (14-inch, M3, Nov 2023) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/117735.html",
+      "bytes": 190764
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/117736",
+      "final_url": "https://support.apple.com/en-ie/117736",
+      "status": 200,
+      "title": "MacBook Pro (14-inch, M3 Pro or M3 Max, Nov 2023) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/117736.html",
+      "bytes": 195467
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/117737",
+      "final_url": "https://support.apple.com/en-ie/117737",
+      "status": 200,
+      "title": "MacBook Pro (16-inch, Nov 2023) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/117737.html",
+      "bytes": 194898
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111340",
+      "final_url": "https://support.apple.com/en-ie/111340",
+      "status": 200,
+      "title": "MacBook Pro (14-inch, 2023) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111340.html",
+      "bytes": 193591
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111838",
+      "final_url": "https://support.apple.com/en-ie/111838",
+      "status": 200,
+      "title": "MacBook Pro (16-inch, 2023) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111838.html",
+      "bytes": 192397
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111869",
+      "final_url": "https://support.apple.com/en-ie/111869",
+      "status": 200,
+      "title": "MacBook Pro (13-inch, M2, 2022) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111869.html",
+      "bytes": 184033
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111902",
+      "final_url": "https://support.apple.com/en-ie/111902",
+      "status": 200,
+      "title": "MacBook Pro (14-inch, 2021) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111902.html",
+      "bytes": 187284
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111901",
+      "final_url": "https://support.apple.com/en-ie/111901",
+      "status": 200,
+      "title": "MacBook Pro (16-inch, 2021) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111901.html",
+      "bytes": 188581
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111893",
+      "final_url": "https://support.apple.com/en-ie/111893",
+      "status": 200,
+      "title": "MacBook Pro (13-inch, M1, 2020) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111893.html",
+      "bytes": 183569
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111981",
+      "final_url": "https://support.apple.com/en-ie/111981",
+      "status": 200,
+      "title": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111981.html",
+      "bytes": 179215
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111339",
+      "final_url": "https://support.apple.com/en-ie/111339",
+      "status": 200,
+      "title": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111339.html",
+      "bytes": 180243
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111932",
+      "final_url": "https://support.apple.com/en-ie/111932",
+      "status": 200,
+      "title": "MacBook Pro (16-inch, 2019) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111932.html",
+      "bytes": 180211
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111945",
+      "final_url": "https://support.apple.com/en-ie/111945",
+      "status": 200,
+      "title": "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111945.html",
+      "bytes": 178706
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111941",
+      "final_url": "https://support.apple.com/en-ie/111941",
+      "status": 200,
+      "title": "MacBook Pro (15-inch, 2019) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111941.html",
+      "bytes": 182673
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111997",
+      "final_url": "https://support.apple.com/en-ie/111997",
+      "status": 200,
+      "title": "MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111997.html",
+      "bytes": 178285
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111949",
+      "final_url": "https://support.apple.com/en-ie/111949",
+      "status": 200,
+      "title": "MacBook Pro (15-inch, 2018) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111949.html",
+      "bytes": 182532
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111925",
+      "final_url": "https://support.apple.com/en-ie/111925",
+      "status": 200,
+      "title": "MacBook Pro (13-inch, 2018, Four Thunderbolt 3 ports) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111925.html",
+      "bytes": 181403
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111947",
+      "final_url": "https://support.apple.com/en-ie/111947",
+      "status": 200,
+      "title": "MacBook Pro (15-inch, 2017) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111947.html",
+      "bytes": 181476
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111972",
+      "final_url": "https://support.apple.com/en-ie/111972",
+      "status": 200,
+      "title": "MacBook Pro (13-inch, 2017, Four Thunderbolt 3 ports) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111972.html",
+      "bytes": 180564
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111951",
+      "final_url": "https://support.apple.com/en-ie/111951",
+      "status": 200,
+      "title": "MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111951.html",
+      "bytes": 180020
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111975",
+      "final_url": "https://support.apple.com/en-ie/111975",
+      "status": 200,
+      "title": "MacBook Pro (15-inch, 2016) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111975.html",
+      "bytes": 182245
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112003",
+      "final_url": "https://support.apple.com/en-ie/112003",
+      "status": 200,
+      "title": "MacBook Pro (13-inch, 2016, Four Thunderbolt 3 ports) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112003.html",
+      "bytes": 180838
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111999",
+      "final_url": "https://support.apple.com/en-ie/111999",
+      "status": 200,
+      "title": "MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111999.html",
+      "bytes": 179867
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111955",
+      "final_url": "https://support.apple.com/en-ie/111955",
+      "status": 200,
+      "title": "MacBook Pro (Retina, 15-inch, Mid 2015) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111955.html",
+      "bytes": 180873
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111959",
+      "final_url": "https://support.apple.com/en-ie/111959",
+      "status": 200,
+      "title": "MacBook Pro (Retina, 13-inch, Early 2015) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111959.html",
+      "bytes": 182134
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111935",
+      "final_url": "https://support.apple.com/en-ie/111935",
+      "status": 200,
+      "title": "MacBook Pro (Retina, 15-inch, Mid 2014) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111935.html",
+      "bytes": 179653
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111942",
+      "final_url": "https://support.apple.com/en-ie/111942",
+      "status": 200,
+      "title": "MacBook Pro (Retina, 13-inch, Mid 2014) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111942.html",
+      "bytes": 177091
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111971",
+      "final_url": "https://support.apple.com/en-ie/111971",
+      "status": 200,
+      "title": "MacBook Pro (Retina, 15-inch, Late 2013) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111971.html",
+      "bytes": 180579
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111946",
+      "final_url": "https://support.apple.com/en-ie/111946",
+      "status": 200,
+      "title": "MacBook Pro (Retina, 13-inch, Late 2013) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111946.html",
+      "bytes": 181341
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/118465",
+      "final_url": "https://support.apple.com/en-ie/118465",
+      "status": 200,
+      "title": "MacBook Pro (Retina, 15-inch, Early 2013) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/118465.html",
+      "bytes": 177249
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/118466",
+      "final_url": "https://support.apple.com/en-ie/118466",
+      "status": 200,
+      "title": "MacBook Pro (Retina, 13-inch, Early 2013) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/118466.html",
+      "bytes": 163537
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/118463",
+      "final_url": "https://support.apple.com/en-ie/118463",
+      "status": 200,
+      "title": "MacBook Pro (Retina, 13-inch, Late 2012) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/118463.html",
+      "bytes": 172142
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112576",
+      "final_url": "https://support.apple.com/en-ie/112576",
+      "status": 200,
+      "title": "MacBook Pro (Retina, 15-inch, Mid 2012) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112576.html",
+      "bytes": 171893
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112568",
+      "final_url": "https://support.apple.com/en-ie/112568",
+      "status": 200,
+      "title": "MacBook Pro (15-inch, Mid 2012) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112568.html",
+      "bytes": 179538
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111958",
+      "final_url": "https://support.apple.com/en-ie/111958",
+      "status": 200,
+      "title": "MacBook Pro (13-inch, Mid 2012) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111958.html",
+      "bytes": 178248
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112418",
+      "final_url": "https://support.apple.com/en-ie/112418",
+      "status": 200,
+      "title": "MacBook Pro (17-inch, Late 2011) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112418.html",
+      "bytes": 177878
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112586",
+      "final_url": "https://support.apple.com/en-ie/112586",
+      "status": 200,
+      "title": "MacBook Pro (15-inch, Late 2011) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112586.html",
+      "bytes": 180113
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111341",
+      "final_url": "https://support.apple.com/en-ie/111341",
+      "status": 200,
+      "title": "MacBook Pro (13-inch, Late 2011) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111341.html",
+      "bytes": 177067
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112598",
+      "final_url": "https://support.apple.com/en-ie/112598",
+      "status": 200,
+      "title": "MacBook Pro (17-inch, Early 2011) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112598.html",
+      "bytes": 178179
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112599",
+      "final_url": "https://support.apple.com/en-ie/112599",
+      "status": 200,
+      "title": "MacBook Pro (15-inch, Early 2011) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112599.html",
+      "bytes": 185147
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112600",
+      "final_url": "https://support.apple.com/en-ie/112600",
+      "status": 200,
+      "title": "MacBook Pro (13-inch, Early 2011) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112600.html",
+      "bytes": 178619
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112606",
+      "final_url": "https://support.apple.com/en-ie/112606",
+      "status": 200,
+      "title": "MacBook Pro (17-inch, Mid 2010) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112606.html",
+      "bytes": 174598
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112605",
+      "final_url": "https://support.apple.com/en-ie/112605",
+      "status": 200,
+      "title": "MacBook Pro (15-inch, Mid 2010) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112605.html",
+      "bytes": 184594
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112604",
+      "final_url": "https://support.apple.com/en-ie/112604",
+      "status": 200,
+      "title": "MacBook Pro (13-inch, Mid 2010) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112604.html",
+      "bytes": 174854
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112473",
+      "final_url": "https://support.apple.com/en-ie/112473",
+      "status": 200,
+      "title": "MacBook Pro (17-inch, Mid 2009) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112473.html",
+      "bytes": 161607
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112624",
+      "final_url": "https://support.apple.com/en-ie/112624",
+      "status": 200,
+      "title": "MacBook Pro (15-inch, Mid 2009) and (15-inch, 2.53 GHz, Mid 2009) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112624.html",
+      "bytes": 178476
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112474",
+      "final_url": "https://support.apple.com/en-ie/112474",
+      "status": 200,
+      "title": "MacBook Pro (13-inch, Mid 2009) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112474.html",
+      "bytes": 165080
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112526",
+      "final_url": "https://support.apple.com/en-ie/112526",
+      "status": 200,
+      "title": "MacBook Pro (17-inch, Early 2009) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112526.html",
+      "bytes": 167777
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/148299",
+      "final_url": "https://support.apple.com/en-ie/148299",
+      "status": 200,
+      "title": "iMac (24-inch, M6, Four ports) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/148299.html",
+      "bytes": 183652
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/148298",
+      "final_url": "https://support.apple.com/en-ie/148298",
+      "status": 200,
+      "title": "iMac (24-inch, M6, Two ports) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/148298.html",
+      "bytes": 182955
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/121557",
+      "final_url": "https://support.apple.com/en-ie/121557",
+      "status": 200,
+      "title": "iMac (24-inch, 2024, Four ports) - Tech specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/121557.html",
+      "bytes": 186341
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/121556",
+      "final_url": "https://support.apple.com/en-ie/121556",
+      "status": 200,
+      "title": "iMac (24-inch, 2024, Two ports) - Tech specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/121556.html",
+      "bytes": 186285
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/117734",
+      "final_url": "https://support.apple.com/en-ie/117734",
+      "status": 200,
+      "title": "iMac (24-inch, 2023, Four ports) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/117734.html",
+      "bytes": 184690
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/117733",
+      "final_url": "https://support.apple.com/en-ie/117733",
+      "status": 200,
+      "title": "iMac (24-inch, 2023, Two ports) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/117733.html",
+      "bytes": 184246
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111895",
+      "final_url": "https://support.apple.com/en-ie/111895",
+      "status": 200,
+      "title": "iMac (24-inch, M1, 2021) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111895.html",
+      "bytes": 179007
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111913",
+      "final_url": "https://support.apple.com/en-ie/111913",
+      "status": 200,
+      "title": "iMac (Retina 5K, 27-inch, 2020) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111913.html",
+      "bytes": 182339
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111998",
+      "final_url": "https://support.apple.com/en-ie/111998",
+      "status": 200,
+      "title": "iMac (Retina 5K, 27-inch, 2019) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111998.html",
+      "bytes": 181500
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111963",
+      "final_url": "https://support.apple.com/en-ie/111963",
+      "status": 200,
+      "title": "iMac (Retina 4K, 21.5-inch, 2019) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111963.html",
+      "bytes": 177858
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111995",
+      "final_url": "https://support.apple.com/en-ie/111995",
+      "status": 200,
+      "title": "iMac Pro (2017) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111995.html",
+      "bytes": 177688
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111969",
+      "final_url": "https://support.apple.com/en-ie/111969",
+      "status": 200,
+      "title": "iMac (Retina 5K, 27-inch, 2017) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111969.html",
+      "bytes": 181404
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112026",
+      "final_url": "https://support.apple.com/en-ie/112026",
+      "status": 200,
+      "title": "iMac (Retina 4K, 21.5-inch, 2017) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112026.html",
+      "bytes": 179337
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111921",
+      "final_url": "https://support.apple.com/en-ie/111921",
+      "status": 200,
+      "title": "iMac (21.5-inch, 2017) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111921.html",
+      "bytes": 174468
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112035",
+      "final_url": "https://support.apple.com/en-ie/112035",
+      "status": 200,
+      "title": "iMac (Retina 5K, 27-inch, Late 2015) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112035.html",
+      "bytes": 180179
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112034",
+      "final_url": "https://support.apple.com/en-ie/112034",
+      "status": 200,
+      "title": "iMac (Retina 4K, 21.5-inch, Late 2015) - Technical Specification - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112034.html",
+      "bytes": 176531
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112036",
+      "final_url": "https://support.apple.com/en-ie/112036",
+      "status": 200,
+      "title": "iMac (21.5-inch, Late 2015) - Technical Specification - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112036.html",
+      "bytes": 178639
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112434",
+      "final_url": "https://support.apple.com/en-ie/112434",
+      "status": 200,
+      "title": "iMac (Retina 5K, 27-inch, Mid 2015) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112434.html",
+      "bytes": 173560
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112436",
+      "final_url": "https://support.apple.com/en-ie/112436",
+      "status": 200,
+      "title": "iMac (Retina 5K, 27-inch, Late 2014) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112436.html",
+      "bytes": 177229
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112031",
+      "final_url": "https://support.apple.com/en-ie/112031",
+      "status": 200,
+      "title": "iMac (21.5-inch, Mid 2014) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112031.html",
+      "bytes": 175717
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111970",
+      "final_url": "https://support.apple.com/en-ie/111970",
+      "status": 200,
+      "title": "iMac (27-inch, Late 2013) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111970.html",
+      "bytes": 175378
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111967",
+      "final_url": "https://support.apple.com/en-ie/111967",
+      "status": 200,
+      "title": "iMac (21.5-inch, Late 2013) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111967.html",
+      "bytes": 173230
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112433",
+      "final_url": "https://support.apple.com/en-ie/112433",
+      "status": 200,
+      "title": "iMac (27-inch, Late 2012) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112433.html",
+      "bytes": 173865
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112435",
+      "final_url": "https://support.apple.com/en-ie/112435",
+      "status": 200,
+      "title": "iMac (21.5-inch, Late 2012) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112435.html",
+      "bytes": 169801
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112569",
+      "final_url": "https://support.apple.com/en-ie/112569",
+      "status": 200,
+      "title": "iMac (27-inch, Mid 2011) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112569.html",
+      "bytes": 175959
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111983",
+      "final_url": "https://support.apple.com/en-ie/111983",
+      "status": 200,
+      "title": "iMac (21.5-inch, Mid 2011) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111983.html",
+      "bytes": 175036
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112566",
+      "final_url": "https://support.apple.com/en-ie/112566",
+      "status": 200,
+      "title": "iMac (27-inch, Mid 2010) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112566.html",
+      "bytes": 171272
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112567",
+      "final_url": "https://support.apple.com/en-ie/112567",
+      "status": 200,
+      "title": "iMac (21.5-inch, Mid 2010) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112567.html",
+      "bytes": 157054
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112564",
+      "final_url": "https://support.apple.com/en-ie/112564",
+      "status": 200,
+      "title": "iMac (27-inch, Late 2009) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112564.html",
+      "bytes": 169536
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112565",
+      "final_url": "https://support.apple.com/en-ie/112565",
+      "status": 200,
+      "title": "iMac (21.5-inch, Late 2009) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112565.html",
+      "bytes": 167504
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112427",
+      "final_url": "https://support.apple.com/en-ie/112427",
+      "status": 200,
+      "title": "iMac (Early 2009) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112427.html",
+      "bytes": 179789
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/128108",
+      "final_url": "https://support.apple.com/en-ie/128108",
+      "status": 200,
+      "title": "Mac mini (M6 or M5 Pro) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/128108.html",
+      "bytes": 189591
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/121555",
+      "final_url": "https://support.apple.com/en-ie/121555",
+      "status": 200,
+      "title": "Mac mini (2024) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/121555.html",
+      "bytes": 191153
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111837",
+      "final_url": "https://support.apple.com/en-ie/111837",
+      "status": 200,
+      "title": "Mac mini (2023) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111837.html",
+      "bytes": 186686
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111894",
+      "final_url": "https://support.apple.com/en-ie/111894",
+      "status": 200,
+      "title": "Mac mini (M1, 2020) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111894.html",
+      "bytes": 177235
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111912",
+      "final_url": "https://support.apple.com/en-ie/111912",
+      "status": 200,
+      "title": "Mac mini (2018) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111912.html",
+      "bytes": 180055
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111931",
+      "final_url": "https://support.apple.com/en-ie/111931",
+      "status": 200,
+      "title": "Mac mini (Late 2014) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111931.html",
+      "bytes": 180667
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111926",
+      "final_url": "https://support.apple.com/en-ie/111926",
+      "status": 200,
+      "title": "Mac mini (Late 2012) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111926.html",
+      "bytes": 169412
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112007",
+      "final_url": "https://support.apple.com/en-ie/112007",
+      "status": 200,
+      "title": "Mac mini (Mid 2011) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112007.html",
+      "bytes": 161528
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112588",
+      "final_url": "https://support.apple.com/en-ie/112588",
+      "status": 200,
+      "title": "Mac mini (Mid 2010) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112588.html",
+      "bytes": 165583
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112482",
+      "final_url": "https://support.apple.com/en-ie/112482",
+      "status": 200,
+      "title": "Mac mini (Late 2009) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112482.html",
+      "bytes": 158335
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111345",
+      "final_url": "https://support.apple.com/en-ie/111345",
+      "status": 200,
+      "title": "Mac mini (Early 2009) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111345.html",
+      "bytes": 164307
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/128107",
+      "final_url": "https://support.apple.com/en-ie/128107",
+      "status": 200,
+      "title": "Mac Studio (M5 Max or M5 Ultra) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/128107.html",
+      "bytes": 184812
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/122211",
+      "final_url": "https://support.apple.com/en-ie/122211",
+      "status": 200,
+      "title": "Mac Studio (2025) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/122211.html",
+      "bytes": 187699
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111835",
+      "final_url": "https://support.apple.com/en-ie/111835",
+      "status": 200,
+      "title": "Mac Studio (2023) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111835.html",
+      "bytes": 187028
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111900",
+      "final_url": "https://support.apple.com/en-ie/111900",
+      "status": 200,
+      "title": "Mac Studio (2022) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111900.html",
+      "bytes": 181880
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111343",
+      "final_url": "https://support.apple.com/en-ie/111343",
+      "status": 200,
+      "title": "Mac Pro (2023) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111343.html",
+      "bytes": 185394
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/118461",
+      "final_url": "https://support.apple.com/en-ie/118461",
+      "status": 200,
+      "title": "Mac Pro (2019) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/118461.html",
+      "bytes": 194255
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/111907",
+      "final_url": "https://support.apple.com/en-ie/111907",
+      "status": 200,
+      "title": "Mac Pro (Rack, 2019) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111907.html",
+      "bytes": 194408
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112025",
+      "final_url": "https://support.apple.com/en-ie/112025",
+      "status": 200,
+      "title": "Mac Pro (Late 2013) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112025.html",
+      "bytes": 169127
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/118464",
+      "final_url": "https://support.apple.com/en-ie/118464",
+      "status": 200,
+      "title": "Mac Pro (Mid 2012) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/118464.html",
+      "bytes": 182837
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/101330",
+      "final_url": "https://support.apple.com/en-ie/101330",
+      "status": 200,
+      "title": "Install macOS 10.14 Mojave on Mac Pro (Mid 2010) and Mac Pro (Mid 2012) - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/101330.html",
+      "bytes": 158380
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112578",
+      "final_url": "https://support.apple.com/en-ie/112578",
+      "status": 200,
+      "title": "Mac Pro (Mid 2010) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112578.html",
+      "bytes": 183085
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/112590",
+      "final_url": "https://support.apple.com/en-ie/112590",
+      "status": 200,
+      "title": "Mac Pro (Early 2009) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112590.html",
+      "bytes": 176854
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/108054",
+      "final_url": "https://support.apple.com/en-ie/108054",
+      "status": 200,
+      "title": "Identify your iMac model - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/108054.html",
+      "bytes": 211964
+    },
+    {
+      "requested_url": "https://support.apple.com/en-ie/102852",
+      "final_url": "https://support.apple.com/en-ie/102852",
+      "status": 200,
+      "title": "Identify your Mac mini model - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/102852.html",
+      "bytes": 174911
+    }
+  ],
+  "model_index_pages": [
+    {
+      "family": "mac_compare",
+      "requested_url": "https://www.apple.com/ie/mac/compare/",
+      "status": 200,
+      "final_url": "https://www.apple.com/ie/mac/compare/",
+      "title": "Mac - Compare Models - Apple (IE)",
+      "saved_file": "apple_mac_extraction/original_html/mac_compare.html",
+      "bytes": 1299083,
+      "discovered_links": [
+        {
+          "label": "Tech specs",
+          "url": "https://www.apple.com/ie/macbook-neo/specs/"
+        },
+        {
+          "label": "Tech specs",
+          "url": "https://www.apple.com/ie/macbook-air/specs/"
+        },
+        {
+          "label": "Tech specs",
+          "url": "https://www.apple.com/ie/macbook-pro/liquid-retina-xdr-display/specs/"
+        },
+        {
+          "label": "Tech specs",
+          "url": "https://www.apple.com/ie/macbook-pro/proled-xdr-display/specs/"
+        },
+        {
+          "label": "Tech specs",
+          "url": "https://www.apple.com/ie/imac/specs/"
+        },
+        {
+          "label": "Tech specs",
+          "url": "https://www.apple.com/ie/mac-mini/specs/"
+        },
+        {
+          "label": "Tech specs",
+          "url": "https://www.apple.com/ie/mac-studio/specs/"
+        },
+        {
+          "label": "support.apple.com/en-ie/148587",
+          "url": "https://support.apple.com/en-ie/148587"
+        },
+        {
+          "label": "support.apple.com/en-ie/102596",
+          "url": "https://support.apple.com/en-ie/102596"
+        }
+      ]
+    },
+    {
+      "family": "macbook_air",
+      "requested_url": "https://support.apple.com/en-ie/102869",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/102869",
+      "title": "Identify your MacBook Air model - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/original_html/macbook_air.html",
+      "bytes": 202552,
+      "discovered_links": [
+        {
+          "label": "find your Mac model name or serial number",
+          "url": "https://support.apple.com/en-ie/102767"
+        },
+        {
+          "label": "Tech Specs for MacBook Air (15-inch, M5)",
+          "url": "https://support.apple.com/en-ie/126321"
+        },
+        {
+          "label": "Tech Specs for MacBook Air (13-inch, M5)",
+          "url": "https://support.apple.com/en-ie/126320"
+        },
+        {
+          "label": "Tech Specs for MacBook Air (15-inch, M4, 2025)",
+          "url": "https://support.apple.com/en-ie/122210"
+        },
+        {
+          "label": "Tech Specs for MacBook Air (13-inch, M4, 2025)",
+          "url": "https://support.apple.com/en-ie/122209"
+        },
+        {
+          "label": "Tech Specs for MacBook Air (15-inch, M3, 2024)",
+          "url": "https://support.apple.com/en-ie/118552"
+        },
+        {
+          "label": "Tech Specs for MacBook Air (13-inch, M3, 2024)",
+          "url": "https://support.apple.com/en-ie/118551"
+        },
+        {
+          "label": "Tech Specs for MacBook Air (15-inch, M2, 2023)",
+          "url": "https://support.apple.com/en-ie/111346"
+        },
+        {
+          "label": "Tech Specs for MacBook Air (M2, 2022)",
+          "url": "https://support.apple.com/en-ie/111867"
+        },
+        {
+          "label": "Tech Specs for MacBook Air (M1, 2020)",
+          "url": "https://support.apple.com/en-ie/111883"
+        },
+        {
+          "label": "Tech Specs for MacBook Air (Retina, 13-inch, 2020)",
+          "url": "https://support.apple.com/en-ie/111991"
+        },
+        {
+          "label": "Tech Specs for MacBook Air (Retina, 13-inch, 2019)",
+          "url": "https://support.apple.com/en-ie/111948"
+        },
+        {
+          "label": "Tech Specs for MacBook Air (Retina, 13-inch, 2018)",
+          "url": "https://support.apple.com/en-ie/111933"
+        },
+        {
+          "label": "Tech Specs for MacBook Air (13-inch, 2017)",
+          "url": "https://support.apple.com/en-ie/111924"
+        },
+        {
+          "label": "Tech Specs for MacBook Air (13-inch, Early 2015)",
+          "url": "https://support.apple.com/en-ie/111956"
+        },
+        {
+          "label": "Tech Specs for MacBook Air (11-inch, Early 2015)",
+          "url": "https://support.apple.com/en-ie/112441"
+        },
+        {
+          "label": "Tech Specs for MacBook Air (13-inch, Early 2014)",
+          "url": "https://support.apple.com/en-ie/111944"
+        },
+        {
+          "label": "Tech Specs for MacBook Air (11-inch, Early 2014)",
+          "url": "https://support.apple.com/en-ie/112032"
+        },
+        {
+          "label": "Tech Specs for MacBook Air (13-inch, Mid 2013)",
+          "url": "https://support.apple.com/en-ie/111938"
+        },
+        {
+          "label": "Tech Specs for MacBook Air (11-inch, Mid 2013)",
+          "url": "https://support.apple.com/en-ie/112437"
+        },
+        {
+          "label": "Tech Specs for MacBook Air (13-inch, Mid 2012)",
+          "url": "https://support.apple.com/en-ie/111966"
+        },
+        {
+          "label": "Tech Specs for MacBook Air (11-inch, Mid 2012)",
+          "url": "https://support.apple.com/en-ie/112008"
+        },
+        {
+          "label": "Tech Specs for MacBook Air (13-inch, Mid 2011)",
+          "url": "https://support.apple.com/en-ie/112038"
+        },
+        {
+          "label": "Tech Specs for MacBook Air (11-inch, Mid 2011)",
+          "url": "https://support.apple.com/en-ie/112439"
+        },
+        {
+          "label": "Tech Specs for MacBook Air (13-inch, Late 2010)",
+          "url": "https://support.apple.com/en-ie/112585"
+        },
+        {
+          "label": "Tech Specs for MacBook Air (11-inch, Late 2010)",
+          "url": "https://support.apple.com/en-ie/112580"
+        },
+        {
+          "label": "Tech Specs for MacBook Air (Mid 2009)",
+          "url": "https://support.apple.com/en-ie/112660"
+        }
+      ]
+    },
+    {
+      "family": "macbook_pro",
+      "requested_url": "https://support.apple.com/en-ie/108052",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/108052",
+      "title": "Identify your MacBook Pro model - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/original_html/macbook_pro.html",
+      "bytes": 269284,
+      "discovered_links": [
+        {
+          "label": "find your Mac model name or serial number",
+          "url": "https://support.apple.com/en-ie/102767"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (14-inch, M5 Pro or M5 Max)",
+          "url": "https://support.apple.com/en-ie/126318"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (16-inch, M5 Pro or M5 Max)",
+          "url": "https://support.apple.com/en-ie/126319"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (14-inch, M5)",
+          "url": "https://support.apple.com/en-ie/125405"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (14-inch, 2024)",
+          "url": "https://support.apple.com/en-ie/121552"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (14-inch, 2024)",
+          "url": "https://support.apple.com/en-ie/121553"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (16-inch, 2024)",
+          "url": "https://support.apple.com/en-ie/121554"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (14-inch, Nov 2023)",
+          "url": "https://support.apple.com/en-ie/117735"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (14-inch, Nov 2023)",
+          "url": "https://support.apple.com/en-ie/117736"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (16-inch, Nov 2023)",
+          "url": "https://support.apple.com/en-ie/117737"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (14-inch, 2023)",
+          "url": "https://support.apple.com/en-ie/111340"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (16-inch, 2023)",
+          "url": "https://support.apple.com/en-ie/111838"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (13-inch, M2, 2022)",
+          "url": "https://support.apple.com/en-ie/111869"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (14-inch, 2021)",
+          "url": "https://support.apple.com/en-ie/111902"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (16-inch, 2021)",
+          "url": "https://support.apple.com/en-ie/111901"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (13-inch, M1, 2020)",
+          "url": "https://support.apple.com/en-ie/111893"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)",
+          "url": "https://support.apple.com/en-ie/111981"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)",
+          "url": "https://support.apple.com/en-ie/111339"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (16-inch, 2019)",
+          "url": "https://support.apple.com/en-ie/111932"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)",
+          "url": "https://support.apple.com/en-ie/111945"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (15-inch, 2019)",
+          "url": "https://support.apple.com/en-ie/111941"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports)",
+          "url": "https://support.apple.com/en-ie/111997"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (15-inch, 2018)",
+          "url": "https://support.apple.com/en-ie/111949"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (13-inch, 2018, Four Thunderbolt 3 ports)",
+          "url": "https://support.apple.com/en-ie/111925"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (15-inch, 2017)",
+          "url": "https://support.apple.com/en-ie/111947"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (13-inch, 2017, Four Thunderbolt 3 ports)",
+          "url": "https://support.apple.com/en-ie/111972"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)",
+          "url": "https://support.apple.com/en-ie/111951"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (15-inch, 2016)",
+          "url": "https://support.apple.com/en-ie/111975"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (13-inch, 2016, Four Thunderbolt 3 ports)",
+          "url": "https://support.apple.com/en-ie/112003"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)",
+          "url": "https://support.apple.com/en-ie/111999"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (Retina, 15-inch, Mid 2015)",
+          "url": "https://support.apple.com/en-ie/111955"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (Retina, 13-inch, Early 2015)",
+          "url": "https://support.apple.com/en-ie/111959"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (Retina, 15-inch, Mid 2014)",
+          "url": "https://support.apple.com/en-ie/111935"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (Retina, 13-inch, Mid 2014)",
+          "url": "https://support.apple.com/en-ie/111942"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (Retina, 15-inch, Late 2013)",
+          "url": "https://support.apple.com/en-ie/111971"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (Retina, 13-inch, Late 2013)",
+          "url": "https://support.apple.com/en-ie/111946"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (Retina, 15-inch, Early 2013)",
+          "url": "https://support.apple.com/en-ie/118465"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (Retina, 13-inch, Early 2013)",
+          "url": "https://support.apple.com/en-ie/118466"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (Retina, 13-inch, Late 2012)",
+          "url": "https://support.apple.com/en-ie/118463"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (Retina, 15-inch, Mid 2012)",
+          "url": "https://support.apple.com/en-ie/112576"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (15-inch, Mid 2012)",
+          "url": "https://support.apple.com/en-ie/112568"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (13-inch, Mid 2012)",
+          "url": "https://support.apple.com/en-ie/111958"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (17-inch, Late 2011)",
+          "url": "https://support.apple.com/en-ie/112418"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (15-inch, Late 2011)",
+          "url": "https://support.apple.com/en-ie/112586"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (13-inch, Late 2011)",
+          "url": "https://support.apple.com/en-ie/111341"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (17-inch, Early 2011)",
+          "url": "https://support.apple.com/en-ie/112598"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (15-inch, Early 2011)",
+          "url": "https://support.apple.com/en-ie/112599"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (13-inch, Early 2011)",
+          "url": "https://support.apple.com/en-ie/112600"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (17-inch, Mid 2010)",
+          "url": "https://support.apple.com/en-ie/112606"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (15-inch, Mid 2010)",
+          "url": "https://support.apple.com/en-ie/112605"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (13-inch, Mid 2010)",
+          "url": "https://support.apple.com/en-ie/112604"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (17-inch, Mid 2009)",
+          "url": "https://support.apple.com/en-ie/112473"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (15-inch, Mid 2009)",
+          "url": "https://support.apple.com/en-ie/112624"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (13-inch, Mid 2009)",
+          "url": "https://support.apple.com/en-ie/112474"
+        },
+        {
+          "label": "Tech Specs for MacBook Pro (17-inch, Early 2009)",
+          "url": "https://support.apple.com/en-ie/112526"
+        }
+      ]
+    },
+    {
+      "family": "macbook",
+      "requested_url": "https://support.apple.com/en-ie/103257",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/103257",
+      "title": "Identify your MacBook model - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/original_html/macbook.html",
+      "bytes": 164513,
+      "discovered_links": [
+        {
+          "label": "find your Mac model name or serial number",
+          "url": "https://support.apple.com/en-ie/102767"
+        }
+      ]
+    },
+    {
+      "family": "imac",
+      "requested_url": "https://support.apple.com/en-ie/108054",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/108054",
+      "title": "Identify your iMac model - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/original_html/imac.html",
+      "bytes": 211964,
+      "discovered_links": [
+        {
+          "label": "find your Mac model name or serial number",
+          "url": "https://support.apple.com/en-ie/102767"
+        },
+        {
+          "label": "Tech Specs for iMac (24-inch, M6, Four ports)",
+          "url": "https://support.apple.com/en-ie/148299"
+        },
+        {
+          "label": "Tech Specs for iMac (24-inch, M6, Two ports)",
+          "url": "https://support.apple.com/en-ie/148298"
+        },
+        {
+          "label": "Tech Specs for iMac (24-inch, 2024, Four ports)",
+          "url": "https://support.apple.com/en-ie/121557"
+        },
+        {
+          "label": "Tech Specs for iMac (24-inch, 2024, Two ports)",
+          "url": "https://support.apple.com/en-ie/121556"
+        },
+        {
+          "label": "Tech Specs for iMac (24-inch, 2023, Four ports)",
+          "url": "https://support.apple.com/en-ie/117734"
+        },
+        {
+          "label": "Tech Specs for iMac (24-inch, 2023, Two ports)",
+          "url": "https://support.apple.com/en-ie/117733"
+        },
+        {
+          "label": "Tech Specs for iMac (24-inch, M1, 2021)",
+          "url": "https://support.apple.com/en-ie/111895"
+        },
+        {
+          "label": "Tech Specs for iMac (Retina 5K, 27-inch, 2020)",
+          "url": "https://support.apple.com/en-ie/111913"
+        },
+        {
+          "label": "Tech Specs for iMac (Retina 5K, 27-inch, 2019)",
+          "url": "https://support.apple.com/en-ie/111998"
+        },
+        {
+          "label": "Tech Specs for iMac (Retina 4K, 21.5-inch, 2019)",
+          "url": "https://support.apple.com/en-ie/111963"
+        },
+        {
+          "label": "Tech Specs for iMac Pro (2017)",
+          "url": "https://support.apple.com/en-ie/111995"
+        },
+        {
+          "label": "Tech Specs iMac (Retina 5K, 27-inch, 2017)",
+          "url": "https://support.apple.com/en-ie/111969"
+        },
+        {
+          "label": "Tech Specs for iMac (Retina 4K, 21.5-inch, 2017)",
+          "url": "https://support.apple.com/en-ie/112026"
+        },
+        {
+          "label": "Tech Specs for iMac (21.5-inch, 2017)",
+          "url": "https://support.apple.com/en-ie/111921"
+        },
+        {
+          "label": "Tech Specs for iMac (Retina 5K, 27-inch, Late 2015)",
+          "url": "https://support.apple.com/en-ie/112035"
+        },
+        {
+          "label": "Tech Specs for iMac (Retina 4K, 21.5-inch, Late 2015)",
+          "url": "https://support.apple.com/en-ie/112034"
+        },
+        {
+          "label": "Tech Specs for iMac (21.5-inch, Late 2015)",
+          "url": "https://support.apple.com/en-ie/112036"
+        },
+        {
+          "label": "Tech Specs for iMac (Retina 5K, 27-inch, Mid 2015)",
+          "url": "https://support.apple.com/en-ie/112434"
+        },
+        {
+          "label": "Tech Specs for iMac (Retina 5K, 27-inch, Late 2014)",
+          "url": "https://support.apple.com/en-ie/112436"
+        },
+        {
+          "label": "Tech Specs for iMac (21.5-inch, Mid 2014)",
+          "url": "https://support.apple.com/en-ie/112031"
+        },
+        {
+          "label": "Tech Specs for iMac (27-inch, Late 2013)",
+          "url": "https://support.apple.com/en-ie/111970"
+        },
+        {
+          "label": "Tech Specs for iMac (21.5-inch, Late 2013)",
+          "url": "https://support.apple.com/en-ie/111967"
+        },
+        {
+          "label": "Tech Specs for iMac (27-inch, Late 2012)",
+          "url": "https://support.apple.com/en-ie/112433"
+        },
+        {
+          "label": "Tech Specs for iMac (21.5-inch, Late 2012)",
+          "url": "https://support.apple.com/en-ie/112435"
+        },
+        {
+          "label": "Tech Specs for iMac (27-inch, Mid 2011)",
+          "url": "https://support.apple.com/en-ie/112569"
+        },
+        {
+          "label": "Tech Specs for iMac (21.5-inch, Mid 2011)",
+          "url": "https://support.apple.com/en-ie/111983"
+        },
+        {
+          "label": "Tech Specs for iMac (27-inch, Mid 2010)",
+          "url": "https://support.apple.com/en-ie/112566"
+        },
+        {
+          "label": "Tech Specs for iMac (21.5-inch, Mid 2010)",
+          "url": "https://support.apple.com/en-ie/112567"
+        },
+        {
+          "label": "Tech Specs for iMac (27-inch, Late 2009)",
+          "url": "https://support.apple.com/en-ie/112564"
+        },
+        {
+          "label": "Tech Specs for iMac (21.5-inch, Late 2009)",
+          "url": "https://support.apple.com/en-ie/112565"
+        },
+        {
+          "label": "Tech Specs for iMac (24-inch, Early 2009)",
+          "url": "https://support.apple.com/en-ie/112427"
+        }
+      ]
+    },
+    {
+      "family": "mac_mini",
+      "requested_url": "https://support.apple.com/en-ie/102852",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/102852",
+      "title": "Identify your Mac mini model - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/original_html/mac_mini.html",
+      "bytes": 174911,
+      "discovered_links": [
+        {
+          "label": "find your Mac model name or serial number",
+          "url": "https://support.apple.com/en-ie/102767"
+        },
+        {
+          "label": "Tech Specs for Mac mini (M6)",
+          "url": "https://support.apple.com/en-ie/128108"
+        },
+        {
+          "label": "Tech Specs for Mac mini (2024)",
+          "url": "https://support.apple.com/en-ie/121555"
+        },
+        {
+          "label": "Tech Specs for Mac mini (2023)",
+          "url": "https://support.apple.com/en-ie/111837"
+        },
+        {
+          "label": "Tech Specs for Mac mini (M1, 2020)",
+          "url": "https://support.apple.com/en-ie/111894"
+        },
+        {
+          "label": "Tech Specs for Mac mini (2018)",
+          "url": "https://support.apple.com/en-ie/111912"
+        },
+        {
+          "label": "Tech Specs for Mac mini (Late 2014)",
+          "url": "https://support.apple.com/en-ie/111931"
+        },
+        {
+          "label": "Tech Specs for Mac mini (Late 2012)",
+          "url": "https://support.apple.com/en-ie/111926"
+        },
+        {
+          "label": "Tech Specs for Mac mini (Mid 2011)",
+          "url": "https://support.apple.com/en-ie/112007"
+        },
+        {
+          "label": "Tech Specs for Mac mini (Mid 2010)",
+          "url": "https://support.apple.com/en-ie/112588"
+        },
+        {
+          "label": "Tech Specs for Mac mini (Late 2009)",
+          "url": "https://support.apple.com/en-ie/112482"
+        },
+        {
+          "label": "Tech Specs for Mac mini (Early 2009)",
+          "url": "https://support.apple.com/en-ie/111345"
+        }
+      ]
+    },
+    {
+      "family": "mac_studio",
+      "requested_url": "https://support.apple.com/en-ie/102231",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/102231",
+      "title": "Identify your Mac Studio model - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/original_html/mac_studio.html",
+      "bytes": 167936,
+      "discovered_links": [
+        {
+          "label": "find your Mac model name or serial number",
+          "url": "https://support.apple.com/en-ie/102767"
+        },
+        {
+          "label": "Tech Specs for Mac Studio (M5 Max)",
+          "url": "https://support.apple.com/en-ie/128107"
+        },
+        {
+          "label": "Tech Specs for Mac Studio (2025)",
+          "url": "https://support.apple.com/en-ie/122211"
+        },
+        {
+          "label": "Tech specs for Mac Studio (2023)",
+          "url": "https://support.apple.com/en-ie/111835"
+        },
+        {
+          "label": "Tech specs for Mac Studio (2022)",
+          "url": "https://support.apple.com/en-ie/111900"
+        }
+      ]
+    },
+    {
+      "family": "mac_pro",
+      "requested_url": "https://support.apple.com/en-ie/102887",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/102887",
+      "title": "Identify your Mac Pro model - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/original_html/mac_pro.html",
+      "bytes": 168000,
+      "discovered_links": [
+        {
+          "label": "find your Mac model name or serial number",
+          "url": "https://support.apple.com/en-ie/102767"
+        },
+        {
+          "label": "Tech Specs for Mac Pro (2023)",
+          "url": "https://support.apple.com/en-ie/111343"
+        },
+        {
+          "label": "Tech Specs for Mac Pro (2019)",
+          "url": "https://support.apple.com/en-ie/118461"
+        },
+        {
+          "label": "Tech Specs for Mac Pro (Rack, 2019)",
+          "url": "https://support.apple.com/en-ie/111907"
+        },
+        {
+          "label": "Tech Specs for Mac Pro (Late 2013)",
+          "url": "https://support.apple.com/en-ie/112025"
+        },
+        {
+          "label": "Tech Specs for Mac Pro (Mid 2012)",
+          "url": "https://support.apple.com/en-ie/118464"
+        },
+        {
+          "label": "Metal-capable graphics card",
+          "url": "https://support.apple.com/en-ie/101330"
+        },
+        {
+          "label": "Tech Specs for Mac Pro (Mid 2010)",
+          "url": "https://support.apple.com/en-ie/112578"
+        },
+        {
+          "label": "Tech Specs for Mac Pro (Early 2009)",
+          "url": "https://support.apple.com/en-ie/112590"
+        },
+        {
+          "label": "Identify your iMac model",
+          "url": "https://support.apple.com/en-ie/108054"
+        },
+        {
+          "label": "Identify your Mac mini model",
+          "url": "https://support.apple.com/en-ie/102852"
+        }
+      ]
+    }
+  ],
+  "technical_spec_pages": [
+    {
+      "label": "Tech specs",
+      "requested_url": "https://www.apple.com/ie/macbook-neo/specs/",
+      "status": 200,
+      "final_url": "https://www.apple.com/ie/macbook-neo/specs/",
+      "title": "MacBook Neo - Tech Specs - Apple (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "bytes": 204389
+    },
+    {
+      "label": "Tech specs",
+      "requested_url": "https://www.apple.com/ie/macbook-air/specs/",
+      "status": 200,
+      "final_url": "https://www.apple.com/ie/macbook-air/specs/",
+      "title": "MacBook Air - Tech Specs - Apple (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "bytes": 307797
+    },
+    {
+      "label": "Tech specs",
+      "requested_url": "https://www.apple.com/ie/macbook-pro/liquid-retina-xdr-display/specs/",
+      "status": 200,
+      "final_url": "https://www.apple.com/ie/macbook-pro/liquid-retina-xdr-display/specs/",
+      "title": "MacBook Pro with Liquid Retina XDR Display - Technical Specifications - Apple (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "bytes": 341348
+    },
+    {
+      "label": "Tech specs",
+      "requested_url": "https://www.apple.com/ie/macbook-pro/proled-xdr-display/specs/",
+      "status": 200,
+      "final_url": "https://www.apple.com/ie/macbook-pro/proled-xdr-display/specs/",
+      "title": "MacBook Pro with PROLED XDR Display - Technical Specifications - Apple (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "bytes": 338669
+    },
+    {
+      "label": "Tech specs",
+      "requested_url": "https://www.apple.com/ie/imac/specs/",
+      "status": 200,
+      "final_url": "https://www.apple.com/ie/imac/specs/",
+      "title": "iMac - Technical Specifications - Apple (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "bytes": 212401
+    },
+    {
+      "label": "Tech specs",
+      "requested_url": "https://www.apple.com/ie/mac-mini/specs/",
+      "status": 200,
+      "final_url": "https://www.apple.com/ie/mac-mini/specs/",
+      "title": "Mac mini - Technical Specifications - Apple (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "bytes": 212176
+    },
+    {
+      "label": "Tech specs",
+      "requested_url": "https://www.apple.com/ie/mac-studio/specs/",
+      "status": 200,
+      "final_url": "https://www.apple.com/ie/mac-studio/specs/",
+      "title": "Mac Studio - Technical Specifications - Apple (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/Tech_specs.html",
+      "bytes": 199012
+    },
+    {
+      "label": "support.apple.com/en-ie/148587",
+      "requested_url": "https://support.apple.com/en-ie/148587",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/148587",
+      "title": "Apple Intelligence Usage Terms - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/148587.html",
+      "bytes": 156232
+    },
+    {
+      "label": "support.apple.com/en-ie/102596",
+      "requested_url": "https://support.apple.com/en-ie/102596",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/102596",
+      "title": "Listen with Personalised Spatial Audio for AirPods and Beats - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/102596.html",
+      "bytes": 155987
+    },
+    {
+      "label": "find your Mac model name or serial number",
+      "requested_url": "https://support.apple.com/en-ie/102767",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/102767",
+      "title": "Find your Mac model name and serial number - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/102767.html",
+      "bytes": 159946
+    },
+    {
+      "label": "Tech Specs for MacBook Air (15-inch, M5)",
+      "requested_url": "https://support.apple.com/en-ie/126321",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/126321",
+      "title": "MacBook Air (15-inch, M5) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/126321.html",
+      "bytes": 188883
+    },
+    {
+      "label": "Tech Specs for MacBook Air (13-inch, M5)",
+      "requested_url": "https://support.apple.com/en-ie/126320",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/126320",
+      "title": "MacBook Air (13-inch, M5) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/126320.html",
+      "bytes": 190417
+    },
+    {
+      "label": "Tech Specs for MacBook Air (15-inch, M4, 2025)",
+      "requested_url": "https://support.apple.com/en-ie/122210",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/122210",
+      "title": "MacBook Air (15-inch, M4, 2025) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/122210.html",
+      "bytes": 189098
+    },
+    {
+      "label": "Tech Specs for MacBook Air (13-inch, M4, 2025)",
+      "requested_url": "https://support.apple.com/en-ie/122209",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/122209",
+      "title": "MacBook Air (13-inch, M4, 2025) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/122209.html",
+      "bytes": 189769
+    },
+    {
+      "label": "Tech Specs for MacBook Air (15-inch, M3, 2024)",
+      "requested_url": "https://support.apple.com/en-ie/118552",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/118552",
+      "title": "MacBook Air (15-inch, M3, 2024) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/118552.html",
+      "bytes": 188241
+    },
+    {
+      "label": "Tech Specs for MacBook Air (13-inch, M3, 2024)",
+      "requested_url": "https://support.apple.com/en-ie/118551",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/118551",
+      "title": "MacBook Air (13-inch, M3, 2024) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/118551.html",
+      "bytes": 189921
+    },
+    {
+      "label": "Tech Specs for MacBook Air (15-inch, M2, 2023)",
+      "requested_url": "https://support.apple.com/en-ie/111346",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111346",
+      "title": "MacBook Air (15-inch, M2, 2023) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111346.html",
+      "bytes": 186602
+    },
+    {
+      "label": "Tech Specs for MacBook Air (M2, 2022)",
+      "requested_url": "https://support.apple.com/en-ie/111867",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111867",
+      "title": "MacBook Air (M2, 2022) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111867.html",
+      "bytes": 186221
+    },
+    {
+      "label": "Tech Specs for MacBook Air (M1, 2020)",
+      "requested_url": "https://support.apple.com/en-ie/111883",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111883",
+      "title": "MacBook Air (M1, 2020) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111883.html",
+      "bytes": 180252
+    },
+    {
+      "label": "Tech Specs for MacBook Air (Retina, 13-inch, 2020)",
+      "requested_url": "https://support.apple.com/en-ie/111991",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111991",
+      "title": "MacBook Air (Retina, 13-inch, 2020) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111991.html",
+      "bytes": 178393
+    },
+    {
+      "label": "Tech Specs for MacBook Air (Retina, 13-inch, 2019)",
+      "requested_url": "https://support.apple.com/en-ie/111948",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111948",
+      "title": "MacBook Air (Retina, 13-inch, 2019) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111948.html",
+      "bytes": 176866
+    },
+    {
+      "label": "Tech Specs for MacBook Air (Retina, 13-inch, 2018)",
+      "requested_url": "https://support.apple.com/en-ie/111933",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111933",
+      "title": "MacBook Air (Retina, 13-inch, 2018) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111933.html",
+      "bytes": 179402
+    },
+    {
+      "label": "Tech Specs for MacBook Air (13-inch, 2017)",
+      "requested_url": "https://support.apple.com/en-ie/111924",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111924",
+      "title": "MacBook Air (13-inch, 2017) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111924.html",
+      "bytes": 177017
+    },
+    {
+      "label": "Tech Specs for MacBook Air (13-inch, Early 2015)",
+      "requested_url": "https://support.apple.com/en-ie/111956",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111956",
+      "title": "MacBook Air (13-inch, Early 2015) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111956.html",
+      "bytes": 164199
+    },
+    {
+      "label": "Tech Specs for MacBook Air (11-inch, Early 2015)",
+      "requested_url": "https://support.apple.com/en-ie/112441",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112441",
+      "title": "MacBook Air (11-inch, Early 2015) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112441.html",
+      "bytes": 176368
+    },
+    {
+      "label": "Tech Specs for MacBook Air (13-inch, Early 2014)",
+      "requested_url": "https://support.apple.com/en-ie/111944",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111944",
+      "title": "MacBook Air (13-inch, Early 2014) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111944.html",
+      "bytes": 177320
+    },
+    {
+      "label": "Tech Specs for MacBook Air (11-inch, Early 2014)",
+      "requested_url": "https://support.apple.com/en-ie/112032",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112032",
+      "title": "MacBook Air (11-inch, Early 2014) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112032.html",
+      "bytes": 177240
+    },
+    {
+      "label": "Tech Specs for MacBook Air (13-inch, Mid 2013)",
+      "requested_url": "https://support.apple.com/en-ie/111938",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111938",
+      "title": "MacBook Air (13-inch, Mid 2013) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111938.html",
+      "bytes": 172684
+    },
+    {
+      "label": "Tech Specs for MacBook Air (11-inch, Mid 2013)",
+      "requested_url": "https://support.apple.com/en-ie/112437",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112437",
+      "title": "MacBook Air (11-inch, Mid 2013) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112437.html",
+      "bytes": 171410
+    },
+    {
+      "label": "Tech Specs for MacBook Air (13-inch, Mid 2012)",
+      "requested_url": "https://support.apple.com/en-ie/111966",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111966",
+      "title": "MacBook Air (13-inch, Mid 2012) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111966.html",
+      "bytes": 170903
+    },
+    {
+      "label": "Tech Specs for MacBook Air (11-inch, Mid 2012)",
+      "requested_url": "https://support.apple.com/en-ie/112008",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112008",
+      "title": "MacBook Air (11-inch, Mid 2012) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112008.html",
+      "bytes": 170463
+    },
+    {
+      "label": "Tech Specs for MacBook Air (13-inch, Mid 2011)",
+      "requested_url": "https://support.apple.com/en-ie/112038",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112038",
+      "title": "MacBook Air (13-inch, Mid 2011) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112038.html",
+      "bytes": 169897
+    },
+    {
+      "label": "Tech Specs for MacBook Air (11-inch, Mid 2011)",
+      "requested_url": "https://support.apple.com/en-ie/112439",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112439",
+      "title": "MacBook Air (11-inch, Mid 2011) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112439.html",
+      "bytes": 170221
+    },
+    {
+      "label": "Tech Specs for MacBook Air (13-inch, Late 2010)",
+      "requested_url": "https://support.apple.com/en-ie/112585",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112585",
+      "title": "MacBook Air (13-inch, Late 2010) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112585.html",
+      "bytes": 172568
+    },
+    {
+      "label": "Tech Specs for MacBook Air (11-inch, Late 2010)",
+      "requested_url": "https://support.apple.com/en-ie/112580",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112580",
+      "title": "MacBook Air (11-inch, Late 2010) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112580.html",
+      "bytes": 172354
+    },
+    {
+      "label": "Tech Specs for MacBook Air (Mid 2009)",
+      "requested_url": "https://support.apple.com/en-ie/112660",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112660",
+      "title": "MacBook Air (Mid 2009) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112660.html",
+      "bytes": 168434
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (14-inch, M5 Pro or M5 Max)",
+      "requested_url": "https://support.apple.com/en-ie/126318",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/126318",
+      "title": "MacBook Pro (14-inch, M5 Pro or M5 Max) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/126318.html",
+      "bytes": 199588
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (16-inch, M5 Pro or M5 Max)",
+      "requested_url": "https://support.apple.com/en-ie/126319",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/126319",
+      "title": "MacBook Pro (16-inch, M5 Pro or M5 Max) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/126319.html",
+      "bytes": 197422
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (14-inch, M5)",
+      "requested_url": "https://support.apple.com/en-ie/125405",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/125405",
+      "title": "MacBook Pro (14-inch, M5) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/125405.html",
+      "bytes": 191316
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (14-inch, 2024)",
+      "requested_url": "https://support.apple.com/en-ie/121552",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/121552",
+      "title": "MacBook Pro (14-inch, M4, 2024) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/121552.html",
+      "bytes": 191365
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (14-inch, 2024)",
+      "requested_url": "https://support.apple.com/en-ie/121553",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/121553",
+      "title": "MacBook Pro (14-inch, M4 Pro or M4 Max, 2024) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/121553.html",
+      "bytes": 198762
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (16-inch, 2024)",
+      "requested_url": "https://support.apple.com/en-ie/121554",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/121554",
+      "title": "MacBook Pro (16-inch, 2024) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/121554.html",
+      "bytes": 194211
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (14-inch, Nov 2023)",
+      "requested_url": "https://support.apple.com/en-ie/117735",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/117735",
+      "title": "MacBook Pro (14-inch, M3, Nov 2023) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/117735.html",
+      "bytes": 190764
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (14-inch, Nov 2023)",
+      "requested_url": "https://support.apple.com/en-ie/117736",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/117736",
+      "title": "MacBook Pro (14-inch, M3 Pro or M3 Max, Nov 2023) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/117736.html",
+      "bytes": 195467
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (16-inch, Nov 2023)",
+      "requested_url": "https://support.apple.com/en-ie/117737",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/117737",
+      "title": "MacBook Pro (16-inch, Nov 2023) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/117737.html",
+      "bytes": 194898
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (14-inch, 2023)",
+      "requested_url": "https://support.apple.com/en-ie/111340",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111340",
+      "title": "MacBook Pro (14-inch, 2023) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111340.html",
+      "bytes": 193591
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (16-inch, 2023)",
+      "requested_url": "https://support.apple.com/en-ie/111838",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111838",
+      "title": "MacBook Pro (16-inch, 2023) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111838.html",
+      "bytes": 192397
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (13-inch, M2, 2022)",
+      "requested_url": "https://support.apple.com/en-ie/111869",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111869",
+      "title": "MacBook Pro (13-inch, M2, 2022) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111869.html",
+      "bytes": 184033
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (14-inch, 2021)",
+      "requested_url": "https://support.apple.com/en-ie/111902",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111902",
+      "title": "MacBook Pro (14-inch, 2021) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111902.html",
+      "bytes": 187284
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (16-inch, 2021)",
+      "requested_url": "https://support.apple.com/en-ie/111901",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111901",
+      "title": "MacBook Pro (16-inch, 2021) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111901.html",
+      "bytes": 188581
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (13-inch, M1, 2020)",
+      "requested_url": "https://support.apple.com/en-ie/111893",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111893",
+      "title": "MacBook Pro (13-inch, M1, 2020) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111893.html",
+      "bytes": 183569
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)",
+      "requested_url": "https://support.apple.com/en-ie/111981",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111981",
+      "title": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111981.html",
+      "bytes": 179215
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)",
+      "requested_url": "https://support.apple.com/en-ie/111339",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111339",
+      "title": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111339.html",
+      "bytes": 180243
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (16-inch, 2019)",
+      "requested_url": "https://support.apple.com/en-ie/111932",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111932",
+      "title": "MacBook Pro (16-inch, 2019) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111932.html",
+      "bytes": 180211
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)",
+      "requested_url": "https://support.apple.com/en-ie/111945",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111945",
+      "title": "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111945.html",
+      "bytes": 178706
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (15-inch, 2019)",
+      "requested_url": "https://support.apple.com/en-ie/111941",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111941",
+      "title": "MacBook Pro (15-inch, 2019) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111941.html",
+      "bytes": 182673
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports)",
+      "requested_url": "https://support.apple.com/en-ie/111997",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111997",
+      "title": "MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111997.html",
+      "bytes": 178285
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (15-inch, 2018)",
+      "requested_url": "https://support.apple.com/en-ie/111949",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111949",
+      "title": "MacBook Pro (15-inch, 2018) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111949.html",
+      "bytes": 182532
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (13-inch, 2018, Four Thunderbolt 3 ports)",
+      "requested_url": "https://support.apple.com/en-ie/111925",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111925",
+      "title": "MacBook Pro (13-inch, 2018, Four Thunderbolt 3 ports) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111925.html",
+      "bytes": 181403
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (15-inch, 2017)",
+      "requested_url": "https://support.apple.com/en-ie/111947",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111947",
+      "title": "MacBook Pro (15-inch, 2017) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111947.html",
+      "bytes": 181476
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (13-inch, 2017, Four Thunderbolt 3 ports)",
+      "requested_url": "https://support.apple.com/en-ie/111972",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111972",
+      "title": "MacBook Pro (13-inch, 2017, Four Thunderbolt 3 ports) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111972.html",
+      "bytes": 180564
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)",
+      "requested_url": "https://support.apple.com/en-ie/111951",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111951",
+      "title": "MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111951.html",
+      "bytes": 180020
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (15-inch, 2016)",
+      "requested_url": "https://support.apple.com/en-ie/111975",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111975",
+      "title": "MacBook Pro (15-inch, 2016) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111975.html",
+      "bytes": 182245
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (13-inch, 2016, Four Thunderbolt 3 ports)",
+      "requested_url": "https://support.apple.com/en-ie/112003",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112003",
+      "title": "MacBook Pro (13-inch, 2016, Four Thunderbolt 3 ports) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112003.html",
+      "bytes": 180838
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)",
+      "requested_url": "https://support.apple.com/en-ie/111999",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111999",
+      "title": "MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111999.html",
+      "bytes": 179867
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (Retina, 15-inch, Mid 2015)",
+      "requested_url": "https://support.apple.com/en-ie/111955",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111955",
+      "title": "MacBook Pro (Retina, 15-inch, Mid 2015) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111955.html",
+      "bytes": 180873
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (Retina, 13-inch, Early 2015)",
+      "requested_url": "https://support.apple.com/en-ie/111959",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111959",
+      "title": "MacBook Pro (Retina, 13-inch, Early 2015) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111959.html",
+      "bytes": 182134
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (Retina, 15-inch, Mid 2014)",
+      "requested_url": "https://support.apple.com/en-ie/111935",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111935",
+      "title": "MacBook Pro (Retina, 15-inch, Mid 2014) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111935.html",
+      "bytes": 179653
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (Retina, 13-inch, Mid 2014)",
+      "requested_url": "https://support.apple.com/en-ie/111942",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111942",
+      "title": "MacBook Pro (Retina, 13-inch, Mid 2014) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111942.html",
+      "bytes": 177091
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (Retina, 15-inch, Late 2013)",
+      "requested_url": "https://support.apple.com/en-ie/111971",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111971",
+      "title": "MacBook Pro (Retina, 15-inch, Late 2013) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111971.html",
+      "bytes": 180579
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (Retina, 13-inch, Late 2013)",
+      "requested_url": "https://support.apple.com/en-ie/111946",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111946",
+      "title": "MacBook Pro (Retina, 13-inch, Late 2013) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111946.html",
+      "bytes": 181341
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (Retina, 15-inch, Early 2013)",
+      "requested_url": "https://support.apple.com/en-ie/118465",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/118465",
+      "title": "MacBook Pro (Retina, 15-inch, Early 2013) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/118465.html",
+      "bytes": 177249
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (Retina, 13-inch, Early 2013)",
+      "requested_url": "https://support.apple.com/en-ie/118466",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/118466",
+      "title": "MacBook Pro (Retina, 13-inch, Early 2013) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/118466.html",
+      "bytes": 163537
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (Retina, 13-inch, Late 2012)",
+      "requested_url": "https://support.apple.com/en-ie/118463",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/118463",
+      "title": "MacBook Pro (Retina, 13-inch, Late 2012) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/118463.html",
+      "bytes": 172142
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (Retina, 15-inch, Mid 2012)",
+      "requested_url": "https://support.apple.com/en-ie/112576",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112576",
+      "title": "MacBook Pro (Retina, 15-inch, Mid 2012) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112576.html",
+      "bytes": 171893
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (15-inch, Mid 2012)",
+      "requested_url": "https://support.apple.com/en-ie/112568",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112568",
+      "title": "MacBook Pro (15-inch, Mid 2012) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112568.html",
+      "bytes": 179538
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (13-inch, Mid 2012)",
+      "requested_url": "https://support.apple.com/en-ie/111958",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111958",
+      "title": "MacBook Pro (13-inch, Mid 2012) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111958.html",
+      "bytes": 178248
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (17-inch, Late 2011)",
+      "requested_url": "https://support.apple.com/en-ie/112418",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112418",
+      "title": "MacBook Pro (17-inch, Late 2011) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112418.html",
+      "bytes": 177878
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (15-inch, Late 2011)",
+      "requested_url": "https://support.apple.com/en-ie/112586",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112586",
+      "title": "MacBook Pro (15-inch, Late 2011) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112586.html",
+      "bytes": 180113
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (13-inch, Late 2011)",
+      "requested_url": "https://support.apple.com/en-ie/111341",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111341",
+      "title": "MacBook Pro (13-inch, Late 2011) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111341.html",
+      "bytes": 177067
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (17-inch, Early 2011)",
+      "requested_url": "https://support.apple.com/en-ie/112598",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112598",
+      "title": "MacBook Pro (17-inch, Early 2011) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112598.html",
+      "bytes": 178179
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (15-inch, Early 2011)",
+      "requested_url": "https://support.apple.com/en-ie/112599",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112599",
+      "title": "MacBook Pro (15-inch, Early 2011) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112599.html",
+      "bytes": 185147
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (13-inch, Early 2011)",
+      "requested_url": "https://support.apple.com/en-ie/112600",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112600",
+      "title": "MacBook Pro (13-inch, Early 2011) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112600.html",
+      "bytes": 178619
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (17-inch, Mid 2010)",
+      "requested_url": "https://support.apple.com/en-ie/112606",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112606",
+      "title": "MacBook Pro (17-inch, Mid 2010) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112606.html",
+      "bytes": 174598
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (15-inch, Mid 2010)",
+      "requested_url": "https://support.apple.com/en-ie/112605",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112605",
+      "title": "MacBook Pro (15-inch, Mid 2010) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112605.html",
+      "bytes": 184594
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (13-inch, Mid 2010)",
+      "requested_url": "https://support.apple.com/en-ie/112604",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112604",
+      "title": "MacBook Pro (13-inch, Mid 2010) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112604.html",
+      "bytes": 174854
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (17-inch, Mid 2009)",
+      "requested_url": "https://support.apple.com/en-ie/112473",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112473",
+      "title": "MacBook Pro (17-inch, Mid 2009) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112473.html",
+      "bytes": 161607
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (15-inch, Mid 2009)",
+      "requested_url": "https://support.apple.com/en-ie/112624",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112624",
+      "title": "MacBook Pro (15-inch, Mid 2009) and (15-inch, 2.53 GHz, Mid 2009) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112624.html",
+      "bytes": 178476
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (13-inch, Mid 2009)",
+      "requested_url": "https://support.apple.com/en-ie/112474",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112474",
+      "title": "MacBook Pro (13-inch, Mid 2009) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112474.html",
+      "bytes": 165080
+    },
+    {
+      "label": "Tech Specs for MacBook Pro (17-inch, Early 2009)",
+      "requested_url": "https://support.apple.com/en-ie/112526",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112526",
+      "title": "MacBook Pro (17-inch, Early 2009) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112526.html",
+      "bytes": 167777
+    },
+    {
+      "label": "Tech Specs for iMac (24-inch, M6, Four ports)",
+      "requested_url": "https://support.apple.com/en-ie/148299",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/148299",
+      "title": "iMac (24-inch, M6, Four ports) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/148299.html",
+      "bytes": 183652
+    },
+    {
+      "label": "Tech Specs for iMac (24-inch, M6, Two ports)",
+      "requested_url": "https://support.apple.com/en-ie/148298",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/148298",
+      "title": "iMac (24-inch, M6, Two ports) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/148298.html",
+      "bytes": 182955
+    },
+    {
+      "label": "Tech Specs for iMac (24-inch, 2024, Four ports)",
+      "requested_url": "https://support.apple.com/en-ie/121557",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/121557",
+      "title": "iMac (24-inch, 2024, Four ports) - Tech specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/121557.html",
+      "bytes": 186341
+    },
+    {
+      "label": "Tech Specs for iMac (24-inch, 2024, Two ports)",
+      "requested_url": "https://support.apple.com/en-ie/121556",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/121556",
+      "title": "iMac (24-inch, 2024, Two ports) - Tech specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/121556.html",
+      "bytes": 186285
+    },
+    {
+      "label": "Tech Specs for iMac (24-inch, 2023, Four ports)",
+      "requested_url": "https://support.apple.com/en-ie/117734",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/117734",
+      "title": "iMac (24-inch, 2023, Four ports) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/117734.html",
+      "bytes": 184690
+    },
+    {
+      "label": "Tech Specs for iMac (24-inch, 2023, Two ports)",
+      "requested_url": "https://support.apple.com/en-ie/117733",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/117733",
+      "title": "iMac (24-inch, 2023, Two ports) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/117733.html",
+      "bytes": 184246
+    },
+    {
+      "label": "Tech Specs for iMac (24-inch, M1, 2021)",
+      "requested_url": "https://support.apple.com/en-ie/111895",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111895",
+      "title": "iMac (24-inch, M1, 2021) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111895.html",
+      "bytes": 179007
+    },
+    {
+      "label": "Tech Specs for iMac (Retina 5K, 27-inch, 2020)",
+      "requested_url": "https://support.apple.com/en-ie/111913",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111913",
+      "title": "iMac (Retina 5K, 27-inch, 2020) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111913.html",
+      "bytes": 182339
+    },
+    {
+      "label": "Tech Specs for iMac (Retina 5K, 27-inch, 2019)",
+      "requested_url": "https://support.apple.com/en-ie/111998",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111998",
+      "title": "iMac (Retina 5K, 27-inch, 2019) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111998.html",
+      "bytes": 181500
+    },
+    {
+      "label": "Tech Specs for iMac (Retina 4K, 21.5-inch, 2019)",
+      "requested_url": "https://support.apple.com/en-ie/111963",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111963",
+      "title": "iMac (Retina 4K, 21.5-inch, 2019) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111963.html",
+      "bytes": 177858
+    },
+    {
+      "label": "Tech Specs for iMac Pro (2017)",
+      "requested_url": "https://support.apple.com/en-ie/111995",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111995",
+      "title": "iMac Pro (2017) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111995.html",
+      "bytes": 177688
+    },
+    {
+      "label": "Tech Specs iMac (Retina 5K, 27-inch, 2017)",
+      "requested_url": "https://support.apple.com/en-ie/111969",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111969",
+      "title": "iMac (Retina 5K, 27-inch, 2017) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111969.html",
+      "bytes": 181404
+    },
+    {
+      "label": "Tech Specs for iMac (Retina 4K, 21.5-inch, 2017)",
+      "requested_url": "https://support.apple.com/en-ie/112026",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112026",
+      "title": "iMac (Retina 4K, 21.5-inch, 2017) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112026.html",
+      "bytes": 179337
+    },
+    {
+      "label": "Tech Specs for iMac (21.5-inch, 2017)",
+      "requested_url": "https://support.apple.com/en-ie/111921",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111921",
+      "title": "iMac (21.5-inch, 2017) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111921.html",
+      "bytes": 174468
+    },
+    {
+      "label": "Tech Specs for iMac (Retina 5K, 27-inch, Late 2015)",
+      "requested_url": "https://support.apple.com/en-ie/112035",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112035",
+      "title": "iMac (Retina 5K, 27-inch, Late 2015) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112035.html",
+      "bytes": 180179
+    },
+    {
+      "label": "Tech Specs for iMac (Retina 4K, 21.5-inch, Late 2015)",
+      "requested_url": "https://support.apple.com/en-ie/112034",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112034",
+      "title": "iMac (Retina 4K, 21.5-inch, Late 2015) - Technical Specification - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112034.html",
+      "bytes": 176531
+    },
+    {
+      "label": "Tech Specs for iMac (21.5-inch, Late 2015)",
+      "requested_url": "https://support.apple.com/en-ie/112036",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112036",
+      "title": "iMac (21.5-inch, Late 2015) - Technical Specification - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112036.html",
+      "bytes": 178639
+    },
+    {
+      "label": "Tech Specs for iMac (Retina 5K, 27-inch, Mid 2015)",
+      "requested_url": "https://support.apple.com/en-ie/112434",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112434",
+      "title": "iMac (Retina 5K, 27-inch, Mid 2015) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112434.html",
+      "bytes": 173560
+    },
+    {
+      "label": "Tech Specs for iMac (Retina 5K, 27-inch, Late 2014)",
+      "requested_url": "https://support.apple.com/en-ie/112436",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112436",
+      "title": "iMac (Retina 5K, 27-inch, Late 2014) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112436.html",
+      "bytes": 177229
+    },
+    {
+      "label": "Tech Specs for iMac (21.5-inch, Mid 2014)",
+      "requested_url": "https://support.apple.com/en-ie/112031",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112031",
+      "title": "iMac (21.5-inch, Mid 2014) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112031.html",
+      "bytes": 175717
+    },
+    {
+      "label": "Tech Specs for iMac (27-inch, Late 2013)",
+      "requested_url": "https://support.apple.com/en-ie/111970",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111970",
+      "title": "iMac (27-inch, Late 2013) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111970.html",
+      "bytes": 175378
+    },
+    {
+      "label": "Tech Specs for iMac (21.5-inch, Late 2013)",
+      "requested_url": "https://support.apple.com/en-ie/111967",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111967",
+      "title": "iMac (21.5-inch, Late 2013) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111967.html",
+      "bytes": 173230
+    },
+    {
+      "label": "Tech Specs for iMac (27-inch, Late 2012)",
+      "requested_url": "https://support.apple.com/en-ie/112433",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112433",
+      "title": "iMac (27-inch, Late 2012) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112433.html",
+      "bytes": 173865
+    },
+    {
+      "label": "Tech Specs for iMac (21.5-inch, Late 2012)",
+      "requested_url": "https://support.apple.com/en-ie/112435",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112435",
+      "title": "iMac (21.5-inch, Late 2012) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112435.html",
+      "bytes": 169801
+    },
+    {
+      "label": "Tech Specs for iMac (27-inch, Mid 2011)",
+      "requested_url": "https://support.apple.com/en-ie/112569",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112569",
+      "title": "iMac (27-inch, Mid 2011) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112569.html",
+      "bytes": 175959
+    },
+    {
+      "label": "Tech Specs for iMac (21.5-inch, Mid 2011)",
+      "requested_url": "https://support.apple.com/en-ie/111983",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111983",
+      "title": "iMac (21.5-inch, Mid 2011) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111983.html",
+      "bytes": 175036
+    },
+    {
+      "label": "Tech Specs for iMac (27-inch, Mid 2010)",
+      "requested_url": "https://support.apple.com/en-ie/112566",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112566",
+      "title": "iMac (27-inch, Mid 2010) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112566.html",
+      "bytes": 171272
+    },
+    {
+      "label": "Tech Specs for iMac (21.5-inch, Mid 2010)",
+      "requested_url": "https://support.apple.com/en-ie/112567",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112567",
+      "title": "iMac (21.5-inch, Mid 2010) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112567.html",
+      "bytes": 157054
+    },
+    {
+      "label": "Tech Specs for iMac (27-inch, Late 2009)",
+      "requested_url": "https://support.apple.com/en-ie/112564",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112564",
+      "title": "iMac (27-inch, Late 2009) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112564.html",
+      "bytes": 169536
+    },
+    {
+      "label": "Tech Specs for iMac (21.5-inch, Late 2009)",
+      "requested_url": "https://support.apple.com/en-ie/112565",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112565",
+      "title": "iMac (21.5-inch, Late 2009) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112565.html",
+      "bytes": 167504
+    },
+    {
+      "label": "Tech Specs for iMac (24-inch, Early 2009)",
+      "requested_url": "https://support.apple.com/en-ie/112427",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112427",
+      "title": "iMac (Early 2009) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112427.html",
+      "bytes": 179789
+    },
+    {
+      "label": "Tech Specs for Mac mini (M6)",
+      "requested_url": "https://support.apple.com/en-ie/128108",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/128108",
+      "title": "Mac mini (M6 or M5 Pro) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/128108.html",
+      "bytes": 189591
+    },
+    {
+      "label": "Tech Specs for Mac mini (2024)",
+      "requested_url": "https://support.apple.com/en-ie/121555",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/121555",
+      "title": "Mac mini (2024) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/121555.html",
+      "bytes": 191153
+    },
+    {
+      "label": "Tech Specs for Mac mini (2023)",
+      "requested_url": "https://support.apple.com/en-ie/111837",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111837",
+      "title": "Mac mini (2023) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111837.html",
+      "bytes": 186686
+    },
+    {
+      "label": "Tech Specs for Mac mini (M1, 2020)",
+      "requested_url": "https://support.apple.com/en-ie/111894",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111894",
+      "title": "Mac mini (M1, 2020) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111894.html",
+      "bytes": 177235
+    },
+    {
+      "label": "Tech Specs for Mac mini (2018)",
+      "requested_url": "https://support.apple.com/en-ie/111912",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111912",
+      "title": "Mac mini (2018) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111912.html",
+      "bytes": 180055
+    },
+    {
+      "label": "Tech Specs for Mac mini (Late 2014)",
+      "requested_url": "https://support.apple.com/en-ie/111931",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111931",
+      "title": "Mac mini (Late 2014) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111931.html",
+      "bytes": 180667
+    },
+    {
+      "label": "Tech Specs for Mac mini (Late 2012)",
+      "requested_url": "https://support.apple.com/en-ie/111926",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111926",
+      "title": "Mac mini (Late 2012) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111926.html",
+      "bytes": 169412
+    },
+    {
+      "label": "Tech Specs for Mac mini (Mid 2011)",
+      "requested_url": "https://support.apple.com/en-ie/112007",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112007",
+      "title": "Mac mini (Mid 2011) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112007.html",
+      "bytes": 161528
+    },
+    {
+      "label": "Tech Specs for Mac mini (Mid 2010)",
+      "requested_url": "https://support.apple.com/en-ie/112588",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112588",
+      "title": "Mac mini (Mid 2010) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112588.html",
+      "bytes": 165583
+    },
+    {
+      "label": "Tech Specs for Mac mini (Late 2009)",
+      "requested_url": "https://support.apple.com/en-ie/112482",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112482",
+      "title": "Mac mini (Late 2009) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112482.html",
+      "bytes": 158335
+    },
+    {
+      "label": "Tech Specs for Mac mini (Early 2009)",
+      "requested_url": "https://support.apple.com/en-ie/111345",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111345",
+      "title": "Mac mini (Early 2009) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111345.html",
+      "bytes": 164307
+    },
+    {
+      "label": "Tech Specs for Mac Studio (M5 Max)",
+      "requested_url": "https://support.apple.com/en-ie/128107",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/128107",
+      "title": "Mac Studio (M5 Max or M5 Ultra) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/128107.html",
+      "bytes": 184812
+    },
+    {
+      "label": "Tech Specs for Mac Studio (2025)",
+      "requested_url": "https://support.apple.com/en-ie/122211",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/122211",
+      "title": "Mac Studio (2025) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/122211.html",
+      "bytes": 187699
+    },
+    {
+      "label": "Tech specs for Mac Studio (2023)",
+      "requested_url": "https://support.apple.com/en-ie/111835",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111835",
+      "title": "Mac Studio (2023) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111835.html",
+      "bytes": 187028
+    },
+    {
+      "label": "Tech specs for Mac Studio (2022)",
+      "requested_url": "https://support.apple.com/en-ie/111900",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111900",
+      "title": "Mac Studio (2022) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111900.html",
+      "bytes": 181880
+    },
+    {
+      "label": "Tech Specs for Mac Pro (2023)",
+      "requested_url": "https://support.apple.com/en-ie/111343",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111343",
+      "title": "Mac Pro (2023) - Tech Specs - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111343.html",
+      "bytes": 185394
+    },
+    {
+      "label": "Tech Specs for Mac Pro (2019)",
+      "requested_url": "https://support.apple.com/en-ie/118461",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/118461",
+      "title": "Mac Pro (2019) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/118461.html",
+      "bytes": 194255
+    },
+    {
+      "label": "Tech Specs for Mac Pro (Rack, 2019)",
+      "requested_url": "https://support.apple.com/en-ie/111907",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111907",
+      "title": "Mac Pro (Rack, 2019) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/111907.html",
+      "bytes": 194408
+    },
+    {
+      "label": "Tech Specs for Mac Pro (Late 2013)",
+      "requested_url": "https://support.apple.com/en-ie/112025",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112025",
+      "title": "Mac Pro (Late 2013) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112025.html",
+      "bytes": 169127
+    },
+    {
+      "label": "Tech Specs for Mac Pro (Mid 2012)",
+      "requested_url": "https://support.apple.com/en-ie/118464",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/118464",
+      "title": "Mac Pro (Mid 2012) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/118464.html",
+      "bytes": 182837
+    },
+    {
+      "label": "Metal-capable graphics card",
+      "requested_url": "https://support.apple.com/en-ie/101330",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/101330",
+      "title": "Install macOS 10.14 Mojave on Mac Pro (Mid 2010) and Mac Pro (Mid 2012) - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/101330.html",
+      "bytes": 158380
+    },
+    {
+      "label": "Tech Specs for Mac Pro (Mid 2010)",
+      "requested_url": "https://support.apple.com/en-ie/112578",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112578",
+      "title": "Mac Pro (Mid 2010) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112578.html",
+      "bytes": 183085
+    },
+    {
+      "label": "Tech Specs for Mac Pro (Early 2009)",
+      "requested_url": "https://support.apple.com/en-ie/112590",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/112590",
+      "title": "Mac Pro (Early 2009) - Technical Specifications - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/112590.html",
+      "bytes": 176854
+    },
+    {
+      "label": "Identify your iMac model",
+      "requested_url": "https://support.apple.com/en-ie/108054",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/108054",
+      "title": "Identify your iMac model - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/108054.html",
+      "bytes": 211964
+    },
+    {
+      "label": "Identify your Mac mini model",
+      "requested_url": "https://support.apple.com/en-ie/102852",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/102852",
+      "title": "Identify your Mac mini model - Apple Support (IE)",
+      "saved_file": "apple_mac_extraction/technical_specs_html/102852.html",
+      "bytes": 174911
+    }
+  ],
+  "errors": [],
+  "notes": [
+    "Official Apple pages only are saved as source HTML.",
+    "HTTP 429/403 pages are recorded as failures, not treated as successful captures.",
+    "A successful index scrape is not proof that every historic model has been captured."
+  ],
+  "finished_utc": "2026-11-08T20:32:25.704506+00:00",
+  "summary": {
+    "index_pages_requested": 8,
+    "index_pages_saved": 8,
+    "unique_tech_specs_urls_discovered": 146,
+    "tech_specs_pages_saved": 146,
+    "failed_or_rate_limited": 0
+  }
+}
