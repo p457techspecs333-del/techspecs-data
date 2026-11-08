@@ -1,0 +1,133 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "MacBook Pro",
+    "model": "MacBook Pro (16-inch, M5 Pro or M5 Max)",
+    "model_slug": "macbook-pro-16-inch-m5-pro-or-m5-max",
+    "model_year": null,
+    "year_introduced": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/126319",
+    "source_file": "apple_mac_extraction/technical_specs_html/126319.html",
+    "source_title": "MacBook Pro (16-inch, M5 Pro or M5 Max) - Tech Specs",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Finish",
+      "source_text": "Space Black\nSilver"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "Apple M5 Pro chip\n18‑core CPU with 6 super cores and 12 performance cores\n20-core GPU\nNeural Accelerators\nHardware-accelerated ray tracing\n16‑core Neural Engine\n307GB/s memory bandwidth\nMedia Engine\nHardware-accelerated H.264, HEVC, ProRes and ProRes RAW\nVideo decode engine\nVideo encode engine\nProRes encode and decode engine\nAV1 decode\nConfigurable to:\nM5 Max with 18‑core CPU and 32‑core GPU (460GB/s memory bandwidth) or M5 Max with 18‑core CPU and 40‑core GPU (614GB/s memory bandwidth)\nApple M5 Max chip\n18‑core CPU with 6 super cores and 12 performance cores\n32-core GPU, 40-core GPU\nNeural Accelerators\nHardware-accelerated ray tracing\n16‑core Neural Engine\n460GB/s memory bandwidth, 614GB/s memory bandwidth\nMedia Engine\nHardware-accelerated H.264, HEVC, ProRes and ProRes RAW\nVideo decode engine\nTwo video encode engines\nTwo ProRes encode and decode engines\nAV1 decode\nConfigurable to:\nM5 Max with 18‑core CPU and 40‑core GPU (614GB/s memory bandwidth)"
+    },
+    {
+      "heading": "Memory",
+      "source_text": "Apple M5 Pro chip\n24GB unified memory\nConfigurable to:\n36GB (M5 Max with 32‑core GPU) or 48GB (M5 Pro or M5 Max with 40‑core GPU) or 64GB (M5 Pro with 20‑core GPU or M5 Max with 40‑core GPU) or 128GB (M5 Max with 40‑core GPU)\nApple M5 Max chip\n36GB unified memory\nConfigurable to:\n48GB, 64GB or 128GB (M5 Max with 40‑core GPU)"
+    },
+    {
+      "heading": "Storage 1",
+      "source_text": "Apple M5 Pro chip\n1TB SSD\nConfigurable to:\n2TB or 4TB\nApple M5 Max chip\n2TB SSD\nConfigurable to:\n4TB or 8TB"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Liquid Retina XDR display\n16.2-inch (diagonal) Liquid Retina XDR display;\n2\n3456x2234 native resolution at 254 pixels per inch\nXDR (Extreme Dynamic Range)\n1,000,000:1 contrast ratio\nXDR brightness: 1,000 nits sustained full-screen, 1,600 nits peak\n3\n(HDR content only)\nSDR brightness: up to 1,000 nits (outdoor)\nColour\n1 billion colours\nWide colour (P3)\nTrue Tone technology\nRefresh rates\nProMotion technology for adaptive refresh rates up to 120Hz\nFixed refresh rates: 47.95Hz, 48.00Hz, 50.00Hz, 59.94Hz, 60.00Hz\nConfigurable with:\nNano-texture display"
+    },
+    {
+      "heading": "Battery and Power 16",
+      "source_text": "M5 Pro\nUp to 24 hours video streaming\nUp to 17 hours wireless web\n100-watt-hour lithium-polymer battery\n16\nUSB‑C to MagSafe 3 Cable (2m)\nSupports charging via a USB-C power adapter or other USB PD power source\nMinimum wattage required to charge the device: 140W\nFast-charge capable with 140W or higher USB PD power source\nM5 Max\nUp to 22 hours video streaming\nUp to 16 hours wireless web\n100-watt-hour lithium-polymer battery\n16\nUSB‑C to MagSafe 3 Cable (2m)\nSupports charging via a USB-C power adapter or other USB PD power source\nMinimum wattage required to charge the device: 140W\nFast-charge capable with 140W or higher USB PD power source"
+    },
+    {
+      "heading": "Char­ging and Expan­sion",
+      "source_text": "SDXC card slot\nHDMI port\n3.5mm headphone jack\nMagSafe 3 port\nThree Thunderbolt 5 (USB-C) ports with support for:\nChar­ging\nDisplayPort\nThunderbolt 5 (up to 120Gb/s)\nUSB 4 (up to 120Gb/s)"
+    },
+    {
+      "heading": "External Display Support",
+      "source_text": "M5 Pro\nSupports up to three external displays over any combination of Thunderbolt and HDMI ports:\nThree displays up to a native resolution of 6K at 60Hz or 4K at 144Hz or\nOne display up to a native resolution of 8K at 60Hz or 5K at 120Hz or 4K at 240Hz plus a second display up to a native resolution of 5K at 120Hz or 4K at 200Hz\nSupports up to three external displays over a single Thunderbolt port\nSimultaneously supports the built‑in display at full native resolution\nM5 Max\nSupports up to four external displays over any combination of Thunderbolt and HDMI ports:\nFour displays up to a native resolution of 6K at 60Hz or 4K at 144Hz or\nTwo displays up to a native resolution of 8K at 60Hz or 5K at 120Hz or 4K at 240Hz\nSupports up to four external displays over a single Thunderbolt port\nSimultaneously supports the built‑in display at full native resolution\nThunderbolt 5 (USB‑C) ports support native DisplayPort 2.1 speeds\nLearn more about connecting a display to your Mac"
+    },
+    {
+      "heading": "Video Playback",
+      "source_text": "Supported formats include HEVC, H.264, AV1 and ProRes\nHDR with Dolby Vision, HDR10+/HDR10 and HLG"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "Supported formats include AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus and Dolby Atmos"
+    },
+    {
+      "heading": "Key­board and Track­pad",
+      "source_text": "Backlit Magic Key­board with:\n78 (ANSI) or 79 (ISO) keys including 12 full‑height function keys\nTouch ID\nAmbient light sensor\nForce Touch trackpad for precise cursor control and pressure-sensing capabilities; enables Force clicks, accelerators, pressure-sensitive drawing and Multi‑Touch gestures"
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "Apple N1 wireless networking chip\nWi‑Fi 7 (802.11be)\n4\nBluetooth 6\nThread networking technology"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "12MP Center Stage camera with support for Desk View\n1080p HD video recording\nAdvanced image signal processor with computational video"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "High‑fidelity six‑speaker sound system with force‑cancelling woofers\nWide stereo sound\nSupport for Spatial Audio when playing music or video with Dolby Atmos on built‑in speakers\nSpatial Audio with dynamic head tracking when using supported models of AirPods, AirPods Pro and AirPods Max\n5\nStudio‑quality three‑mic array with high signal‑to‑noise ratio and directional beamforming\nVoice Isolation and Wide Spectrum microphone modes for enhanced voice clarity in audio and video calls\n3.5mm headphone jack with advanced support for high‑impedance headphones\nHDMI port supports multi‑channel audio output"
+    },
+    {
+      "heading": "Operating Requirements",
+      "source_text": "Line voltage:\n100V to 240V AC\nFrequency:\n50Hz to 60Hz\nOperating temperature:\n10° to 35° C (50° to 95° F)\nStorage temperature:\n–25° to 45° C (‑13° to 113° F)\nRelative humidity:\n0% to 90% non‑condensing\nOperating altitude:\ntested up to 3,000 metres (10,000 feet)\nMaximum storage altitude:\n4,500 metres (15,000 feet)\nMaximum shipping altitude:\n10,500 metres (35,000 feet)"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height:\n1.68 cm (0.66 inches)\nWidth:\n35.57 cm (14.01 inches)\nDepth:\n24.81 cm (9.77 inches)\nWeight (M5 Pro):\n2.14 kg (4.7 pounds)\n6\nWeight (M5 Max):\n2.15 kg (4.7 pounds)\n6"
+    },
+    {
+      "heading": "Oper­at­ing System",
+      "source_text": "macOS\nmacOS is the most advanced desktop operating system in the world. Siri AI\n7\nis a powerful and capable assistant with personal context understanding, broad world knowledge and onscreen awareness. Express yourself through photos and images, save time with Safari, and get more done with Apple Intelligence\n7\nseamlessly integrated into your everyday apps and experiences. And iPhone Mirroring, window tiling, Sidecar and more help you stay productive."
+    },
+    {
+      "heading": "Apple Intelligence 7",
+      "source_text": "Apple In­telli­gence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.\nLearn more about Apple Intelligence"
+    },
+    {
+      "heading": "Accessi­bility",
+      "source_text": "Accessi­bility features help people with disabilities get the most out of their new MacBook Pro. With built-in support for vision, hearing, mobility and learning, you can create and do amazing things.\nLearn more about Accessi­bility\nFeatures include:\nVoiceOver\nZoom\nMotion, display and text settings\nAccessi­bility Reader\nVoice Control\nSwitch Control\nClosed Captions\nLive Captions\nPersonal Voice and Live Speech"
+    },
+    {
+      "heading": "Built-in Apps 8",
+      "source_text": "App Store\nBooks\nCalendar\nContacts\nFaceTime\nFind My\nFreeform\nGames\nGarageBand\nHome\niMovie\niPhone Mirroring\nJournal\nKeynote\nMail\nMaps\nMessages\nMusic\nNews\nNotes\nNumbers\nPages\nPasswords\nPhone\nPhoto Booth\nPhotos\nPodcasts\nPreview\nQuickTime Player\nReminders\nSafari\nShortcuts\nStocks\nTime Machine\nTips\nTV\nVoice Memos\nWeather"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "16-inch MacBook Pro\nUSB‑C to MagSafe 3 Cable (2m)\nPolishing cloth (only with nano-texture display option)\nPower adapter sold separately"
+    },
+    {
+      "heading": "Con­fig­ure to Order",
+      "source_text": "Con­fig­ure your MacBook Pro with these options at\napple.com\n:\nM5 Max with 18‑core CPU, 32‑core GPU and 16‑core Neural Engine\nM5 Max with 18‑core CPU, 40‑core GPU and 16‑core Neural Engine\n36GB unified memory (M5 Max with 32‑core GPU)\n48GB unified memory (M5 Pro and M5 Max with 40‑core GPU)\n64GB unified memory (M5 Pro with 20‑core GPU and M5 Max and 40‑core GPU)\n128GB unified memory (M5 Max with 40‑core GPU)\n2TB or 4TB SSD (M5 Pro and M5 Max)\n8TB SSD (M5 Max)\nNano-texture display"
+    },
+    {
+      "heading": "MacBook Pro and the Environment",
+      "source_text": "The 16‑inch MacBook Pro is designed to reduce environmental impact:\n9\nSee the 16-inch MacBook Pro Product En­viron­men­tal Report (PDF)\nProgress towards Apple 2030\nApple 2030 is our commitment to be carbon neutral for our entire carbon footprint. Our plan to decarbonise products is rigorous and focuses on transitioning to low‑carbon electricity, designing with recycled and low‑carbon materials and prioritising lower‑carbon ways of shipping products, like sea freight.\nSee Apple’s commitment\nMaterials\nThe 16‑inch MacBook Pro is made with 45% recycled content,\n10\nincluding:\n100% recycled aluminium in the enclosure and thermal module stage\n100% recycled cobalt and 95% recycled lithium in the battery\n100% recycled copper in multiple printed circuit boards and thermal module components\n100% recycled gold plating and tin solder in all Apple-designed printed circuit boards\n100% recycled rare earth elements in all magnets\n80% or more recycled steel in the keyboard feature plate and speaker components\nEnergy\n50% of manufacturing electricity for the 16‑inch MacBook Pro is sourced from low-carbon electricity\n11\nENERGY STAR® certified\n12\nPackaging\n100% fibre-based packaging\n13\nWaste\nNo established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme\n14\nSmarter chemistry\n15\nAll of the materials used in Apple products, accessories and packaging are covered by the requirements of our\nRegulated Substances Specification\n, which was one of the first in industry to restrict the use of key substances of concern. See the latest\nEn­viron­men­tal Progress Report\nto understand Apple’s recent efforts in phasing out these chemistries."
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "Declared noise emission values in accordance with ECMA-109\nAcoustic Performance\nSound Power Level\nL\nW\nA,m\n(B)\nSound Pressure Level\nOperator Position\nL\np\nA,m\n(dB)\nIdle\n1.3 (\nK\nV\n= 0.3)\n4\nWireless web\n1.3 (\nK\nV\n= 0.3)\n4\nL\nW\nA,m\nis the mean A-weighted sound power level, rounded to the nearest 0.1 B.\nL\np\nA,m\nis the mean A-weighted sound pressure level measured at operator position (rounded to the nearest 1 dB).\n1 B (bel) = 10 dB (decibel).\nK\nv\nis the statistical adder for computing upper-limit of A-weighted sound power level.\nThe quantity,\nL\nW\nA,c\n(formerly called\nL\nW\nAd\n) may be computed from the sum of\nL\nW\nA,m\nand\nK\nv\n.\nThe wireless web test browses 6 tabs with a mix of content including media.\nConfiguration tested: M5 Max, 18-core CPU / 40-core GPU, 48GB unified memory, 2TB storage."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "MacBook Pro",
+    "model": "MacBook Pro (Retina, 15-inch, Mid 2015) - Technical Specifications",
+    "model_slug": "macbook-pro-retina-15-inch-mid-2015-technical-specifications",
+    "model_year": 2015,
+    "year_introduced": 2015
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111955",
+    "source_file": "apple_mac_extraction/technical_specs_html/111955.html",
+    "source_title": "MacBook Pro (Retina, 15-inch, Mid 2015) - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Display",
+      "source_text": "Retina display\n15.4-inch (diagonal) LED-backlit display with IPS technology; 2880-by-1800 native resolution at 220 pixels per inch with support for millions of colors\nSupported scaled resolutions:\n1920 by 1200\n1680 by 1050\n1280 by 800\n1024 by 640\n300 nits brightness\nStandard color gamut (sRGB)\n900:1 contrast ratio"
+    },
+    {
+      "heading": "Processor",
+      "source_text": "2.2GHz\n2.2GHz quad-core Intel Core i7 processor (Turbo Boost up to 3.4GHz) with 6MB shared L3 cache\nConfigurable to 2.5GHz quad-core Intel Core i7 (Turbo Boost up to 3.7GHz) with 6MB shared L3 cache or 2.8GHz quad-core Intel Core i7 (Turbo Boost up to 4.0GHz) with 6MB shared L3 cache.\n2.5GHz\n2.5GHz quad-core Intel Core i7 processor (Turbo Boost up to 3.7GHz) with 6MB shared L3 cache\nConfigurable to 2.8GHz quad-core Intel Core i7 (Turbo Boost up to 4.0GHz) with 6MB shared L3 cache."
+    },
+    {
+      "heading": "Memory",
+      "source_text": "16GB of 1600MHz DDR3L onboard memory"
+    },
+    {
+      "heading": "Storage 1",
+      "source_text": "2.2GHz - 256GB\n256GB PCIe-based flash storage\nConfigurable to 512GB or 1TB flash storage.\n2.5GHz - 512GB\n512GB PCIe-based flash storage\nConfigurable to 1TB flash storage."
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height: 0.71 inch (1.8 cm)\nWidth: 14.13 inches (35.89 cm)\nDepth: 9.73 inches (24.71 cm)\nWeight: 4.49 pounds (2.04 kg)\n2"
+    },
+    {
+      "heading": "Graphics and Video Support",
+      "source_text": "Intel Iris Pro Graphics​\n2.2GHz - 256GB\nIntel Iris Pro Graphics\n2.5GHz - 512GB\nIntel Iris Pro Graphics\nAMD Radeon R9 M370X with 2GB of GDDR5 memory and automatic graphics switching\nDual display and video mirroring: Simultaneously supports full native resolution on the built-in display and up to 3840 by 2160 pixels on up to two external displays, both at millions of colors\nThunderbolt digital video output\nNative Mini DisplayPort output\nDVI, VGA, dual-link DVI, and HDMI output supported using Mini DisplayPort adapters (sold separately)\nHDMI video output\nSupport for 1080p resolution at up to 60Hz\nSupport for 3840-by-2160 resolution at 30Hz\nSupport for 4096-by-2160 resolution at 24Hz"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "720p FaceTime HD camera"
+    },
+    {
+      "heading": "Connections and Expansion",
+      "source_text": "MagSafe 2 power port\nTwo Thunderbolt 2 ports (up to 20 Gbps)\nTwo USB 3 ports (up to 5 Gbps)\nHDMI port\n3.5 mm headphone jack\nSDXC card slot\nApple Thunderbolt to FireWire Adapter (sold separately)\nApple Thunderbolt to Gigabit Ethernet Adapter (sold separately)"
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "Wi-Fi\n802.11ac Wi‑Fi wireless networking; IEEE 802.11a/b/g/n compatible\nBluetooth\nBluetooth 4.2 wireless technology"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Stereo speakers\nDual microphones\n3.5 mm headphone jack\nSupport for Apple iPhone headset with remote and microphone\nSupport for audio line out (digital/analog)"
+    },
+    {
+      "heading": "Keyboard and Trackpad",
+      "source_text": "Full-size backlit keyboard with 78 (U.S.) or 79 (ISO) keys, including 12 function keys and 4 arrow keys (inverted “T” arrangement) with ambient light sensor\nForce Touch trackpad for precise cursor control and pressure-sensing capabilities; enables Force clicks, accelerators, pressure-sensitive drawing, and Multi-Touch gestures"
+    },
+    {
+      "heading": "Battery and Power 3",
+      "source_text": "Up to 9 hours wireless web\nUp to 9 hours iTunes movie playback\nUp to 30 days of standby time\nBuilt-in 99.5-watt-hour lithium-polymer battery\n85W MagSafe 2 Power Adapter with cable management system; MagSafe 2 power port"
+    },
+    {
+      "heading": "Electrical and Operating Requirements",
+      "source_text": "Line voltage: 100V to 240V AC\nFrequency: 50Hz to 60Hz\nOperating temperature: 50° to 95° F (10° to 35° C)\nStorage temperature: –13° to 113° F (–25° to 45° C)\nRelative humidity: 0% to 90% noncondensing\nOperating altitude: tested up to 10,000 feet\nMaximum storage altitude: 15,000 feet\nMaximum shipping altitude: 35,000 feet"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "macOS High Sierra\nmacOS is the operating system that powers everything you do on a Mac. macOS High Sierra brings new forward-looking technologies and enhanced features to your Mac. It's macOS at its highest level yet.\nLearn more about latest operating system"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new MacBook Pro. With built-in support for vision, hearing, physical and motor skills, and learning and literacy, you can create and do amazing things.\nLearn more about Accessibility\nFeatures include:\nVoiceOver\nZoom\nIncrease Contrast\nReduce Motion\nSiri and Dictation\nSwitch Control\nClosed Captions\nText to Speech"
+    },
+    {
+      "heading": "Built-in Apps 4",
+      "source_text": "Photos\niMovie\nGarageBand\nPages\nNumbers\nKeynote\nSiri\nSafari\nMail\nFaceTime\nMessages\nMaps\nNotes\nCalendar\nContacts\nReminders\nPhoto Booth\nPreview\niTunes\niBooks\nApp Store\nTime Machine"
+    },
+    {
+      "heading": "What’s in the Box",
+      "source_text": "MacBook Pro\nMagSafe 2 Power Adapter\nPower cord\nAC wall plug"
+    },
+    {
+      "heading": "Configure to Order",
+      "source_text": "Configure your MacBook Pro with these options, only at\napple.com\n:\nUp to 2.8GHz quad-core Intel Core i7, Turbo Boost up to 4.0GHz, with 6MB shared L3 cache\nUp to 1TB PCIe-based SSD\n1"
+    },
+    {
+      "heading": "MacBook Pro and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more about MacBook Pro and the Environment\nMacBook Pro is designed with the following features to reduce its environmental impact:\nMercury-free LED-backlit display\nArsenic-free display glass\nBFR-free\nPVC-free\n5\nBeryllium-free\nHighly recyclable aluminum enclosure\nMeets ENERGY STAR 6.1 requirements\nRated EPEAT Gold\n6\nApple and the Environment\nLearn more\nabout Apple’s dedication to reducing the environmental impact of our products and process\n. Or read our\nProduct Environmental Reports\nfor detailed information on the environmental performance of every Apple product.\nApple GiveBack\nLetting go of your old Mac is easy with Apple GiveBack. If it’s in good shape, you can trade it in for Apple Store credit. If it’s not eligible for credit, we’ll recycle it responsibly at no cost to you. Good for you. Good for the planet.\nSee how it works"
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "Declared noise emission values in accordance with ECMA-109\nSound Power Level\nL\nW\nA,m\n(B)\nSound Pressure Level\nOperator Position\nL\np\nA,m\n(dB)\nIdle\n1.40 (\nK\nV\n= 0.25)\n6.0\nWireless web\n1.40 (\nK\nV\n= 0.25)\n6.5\nL\nW\nA,m\nis the mean A-weighted sound power level, rounded to the nearest 0.05 B.\nL\np\nA,m\nis the mean A-weighted sound pressure level measured at the operator position (rounded to the nearest 0.5 dB).\n1 B (bel) = 10 dB (decibel)\nK\nv\nis the statistical adder for computing upper-limit of A-weighted sound power level.\nThe quantity,\nL\nW\nA,c\n(formerly called\nL\nW\nAd\n) may be computed from the sum of\nL\nW\nA,m\nand\nK\nv\n.\nThe Wireless web test browses 25 popular websites.\nConfiguration tested: 2.5GHz quad-core Intel Core i7 processor, 16GB memory, 512GB storage, Intel Iris Pro, AMD Radeon R9 M370X."
+    },
+    {
+      "heading": "Accessories",
+      "source_text": "Mac Software\nFinal Cut Pro X\nLogic Pro X\nDisplays and Adapters\nApple Mini DisplayPort to DVI Adapter\nApple Mini DisplayPort to VGA Adapter\nApple Mini DisplayPort to Dual-Link DVI Adapter\nMagSafe to MagSafe 2 Converter\nAirPort and Wireless\nAirPort Express\nAirPort Extreme\nAirPort Time Capsule\nOther Accessories\nApple USB SuperDrive\nThunderbolt to Gigabit Ethernet Adapter\nThunderbolt to FireWire Adapter\n85W MagSafe 2 Power Adapter\nAppleCare+ for Mac"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "MacBook",
+    "model": "MacBook Neo Technical Specifications",
+    "model_slug": "macbook-neo-technical-specifications",
+    "model_year": null,
+    "year_introduced": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://www.apple.com/ie/macbook-neo/specs/",
+    "source_file": "apple_mac_extraction/technical_specs_html/macbook-neo.html",
+    "source_title": "MacBook Neo Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Environmental impact",
+      "source_text": "MacBook Neo is designed to reduce environmental impact: 9\nSee the MacBook Neo Product Environmental Report (PDF) , opens in a new tab"
+    },
+    {
+      "heading": "Progress towards Apple 2030",
+      "source_text": "Apple 2030 is our commitment to be carbon neutral for our entire carbon footprint. Our plan to decarbonise products is rigorous and focuses on transitioning to low‑carbon electricity, designing with recycled and low‑carbon materials and prioritising lower‑carbon ways of shipping products, like sea freight.\nSee Apple’s commitment"
+    },
+    {
+      "heading": "Materials",
+      "source_text": "MacBook Neo is made with 60% recycled content, 10 including:\n90% recycled aluminium\n100% recycled cobalt and 95% recycled lithium in the battery\n100% recycled rare earth elements in all magnets\n100% recycled gold plating and tin solder in all Apple‑designed printed circuit boards\n100% recycled copper in multiple printed circuit boards\n80% recycled steel in the battery tray, keyboard link bars and speaker"
+    },
+    {
+      "heading": "Energy",
+      "source_text": "45% of manufacturing electricity for MacBook Neo is sourced from renewable electricity 11\nENERGY STAR® certified 12"
+    },
+    {
+      "heading": "Packaging",
+      "source_text": "100% fibre-based packaging 13"
+    },
+    {
+      "heading": "Waste",
+      "source_text": "No established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme 14"
+    },
+    {
+      "heading": "Smarter chemistry",
+      "source_text": "All the materials used in Apple products, accessories and packaging are covered by the requirements of our Regulated Substances Specification (PDF), opens in new tab , which was one of the first in industry to restrict the use of key substances of concern. See the latest Environmental Progress Report to understand Apple’s recent efforts in phasing out these chemistries."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

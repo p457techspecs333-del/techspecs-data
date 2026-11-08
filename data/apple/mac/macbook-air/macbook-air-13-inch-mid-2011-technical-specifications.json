@@ -1,0 +1,137 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "MacBook Air",
+    "model": "MacBook Air (13-inch, Mid 2011) - Technical Specifications",
+    "model_slug": "macbook-air-13-inch-mid-2011-technical-specifications",
+    "model_year": 2011,
+    "year_introduced": 2011
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/112038",
+    "source_file": "apple_mac_extraction/technical_specs_html/112038.html",
+    "source_title": "MacBook Air (13-inch, Mid 2011) - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Display",
+      "source_text": "High-resolution LED-backlit glossy widescreen display with support for millions of colors.\n13.3-inch (diagonal) high-resolution LED-backlit glossy widescreen display with support for millions of colors\nSupported resolutions: 1440 by 900 (native), 1280 by 800, 1152 by 720, and 1024 by 640 pixels at 16:10 aspect ratio; 1024 by 768 and 800 by 600 pixels at 4:3 aspect ratio"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Ultrathin and ultralight unibody aluminum construction.\nHeight:\n0.11-0.68 inch (0.3-1.7 cm)\nWidth:\n12.8 inches (32.5 cm)\nDepth:\n8.94 inches (22.7 cm)\nWeight:\n2.96 pounds (1.35 kg)\n1"
+    },
+    {
+      "heading": "Storage",
+      "source_text": "All-flash storage.\n2\n128GB flash storage\n256GB flash storage"
+    },
+    {
+      "heading": "Processor and Memory",
+      "source_text": "Powered by a dual-core Intel Core i5 or i7 processor and DDR3 memory.\nProcessor\n1.7GHz dual-core Intel Core i5 with 3MB shared L3 cache\n256GB model configurable to dual-core 1.8GHz Intel Core i7 with 4MB shared L3 cache, only at the Apple Online Store.\nMemory\n4GB of 1333MHz DDR3 onboard memory"
+    },
+    {
+      "heading": "Graphics",
+      "source_text": "Advanced Intel HD Graphics 3000.\nIntel HD Graphics 3000 processor with 384MB of DDR3 SDRAM shared with main memory\n3"
+    },
+    {
+      "heading": "Video Support and Camera",
+      "source_text": "Built-in FaceTime camera.\nFaceTime camera\nDual display and video mirroring: Simultaneously supports full native resolution on the built-in display and up to 2560 by 1600 pixels on an external display, both at millions of colors"
+    },
+    {
+      "heading": "Connections and Expansion",
+      "source_text": "USB 2.0, Thunderbolt, headphone port, MagSafe power port, SD card slot (13-inch model).\nTwo USB 2.0 ports (up to 480 Mbps)\nThunderbolt port\nSD card slot"
+    },
+    {
+      "heading": "Battery and Power",
+      "source_text": "Advanced lithium-polymer battery with MagSafe power adapter.\n4\nUp to 7 hours wireless web\nUp to 30 days standby time\nBuilt-in 50-watt-hour lithium-polymer battery; 45W MagSafe Power Adapter with cable management system; MagSafe power port"
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "Latest Wi-Fi and Bluetooth technologies.\nWi-Fi\n802.11n Wi-Fi wireless networking;\n5\nIEEE 802.11a/b/g compatible\nBluetooth\nBluetooth 4.0 wireless technology"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Stereo speakers, microphone, and headphone.\nStereo speakers\nOmnidirectional microphone\nHeadphone port\nSupport for Apple Earphones with Remote and Mic"
+    },
+    {
+      "heading": "Electrical and Operating Requirements",
+      "source_text": "Line voltage: 100-240V AC\nFrequency: 50Hz to 60Hz\nOperating temperature: 50° to 95° F (10° to 35° C)\nStorage temperature: -13° to 113° F (-24° to 45° C)\nRelative humidity: 0% to 90% noncondensing\nMaximum operating altitude: 10,000 feet\nMaximum storage altitude: 15,000 feet\nMaximum shipping altitude: 35,000 feet"
+    },
+    {
+      "heading": "Limited Warranty and Service",
+      "source_text": "Your MacBook Air comes with 90 days of free telephone support and a one-year limited warranty. Purchase the\nAppleCare Protection Plan\nto extend your service and support to three years from your computer’s purchase date. Only the AppleCare Protection Plan provides you with direct telephone support from Apple technical experts and the assurance that repairs will be handled by Apple-authorized technicians using genuine Apple parts. For more information, visit\nApple support\nor call 800-823-2775."
+    },
+    {
+      "heading": "DVD or CD Sharing",
+      "source_text": "With the Mac App Store, getting the apps you want on your Mac has never been easier. No more boxes, no more discs, no more time-consuming installation. Click once to download and install any app on your Mac. But if an app you need isn’t available from the Mac App Store, you can use DVD or CD Sharing. This convenient feature of OS X lets you wirelessly “borrow” the optical drive of a nearby Mac or PC. So you can install applications from a DVD or CD and have full access to an optical drive without having to carry one around."
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "MacBook Air\n45W MagSafe Power Adapter, AC wall plug, and power cord\nPrinted and electronic documentation"
+    },
+    {
+      "heading": "Included Software",
+      "source_text": "OS X Lion\nIncludes Mail, Address Book, iCal, the Mac App Store, iTunes, Safari, Time Machine, FaceTime, Photo Booth, Mission Control, Launchpad, AirDrop, Resume, Auto Save, Versions, Quick Look, Spotlight, QuickTime, and more.\nLearn more about OS X Lion\nLion Recovery\nOS X Lion includes a built-in set of tools for repairing your Mac in the Recovery HD, a new feature that lets you repair disks or reinstall OS X Lion without a physical disc.\nLearn more about Lion Recovery\niLife\nIncludes iPhoto, iMovie, and GarageBand."
+    },
+    {
+      "heading": "Configurable Options",
+      "source_text": "Purchase from the Apple Online Store to upgrade processor, memory, and flash storage.\n1.8GHz dual-core Intel Core i7\nApple USB Ethernet Adapter\nApple Mini DisplayPort to DVI Adapter\nApple Mini DisplayPort to VGA Adapter\nConfigure your MacBook Air with even more options, only at the Apple Online Store"
+    },
+    {
+      "heading": "MacBook Air and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact."
+    },
+    {
+      "heading": "MacBook Air is designed with the following features to reduce its environmental impact:",
+      "source_text": "BFR-free\nPVC-free\n6\nHighly recyclable aluminum enclosure\nMeets ENERGY STAR 5.2 requirements\nRated EPEAT Gold\n7"
+    },
+    {
+      "heading": "Apple and the Environment",
+      "source_text": "Learn about Apple’s dedication to reducing the environmental impact of our products and process.\nOr read our\nProduct Environmental Reports\nfor detailed information on the environmental performance of every Apple product."
+    },
+    {
+      "heading": "Recycling",
+      "source_text": "Apple takes a holistic view of materials management and waste minimization.\nLearn more about how to recycle your Mac or PC."
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "DECLARED NOISE EMISSIONS in accordance with ISO 9296\nSound Power Level\nL\nWAd\n(B)\n1 B = 10 dB\nSound Pressure Level\nOperator Position\nL\npAm\n(dB)\nIdle\n2.5\n8.0\nHard drive accessing\nN/A\nN/A\nCD drive accessing\nN/A\nN/A\nL\nWAd\nis the statistical upper-limit A-weighted sound power level (rounded to the nearest 0.1 B).\nL\npAm\nis the mean A-weighted sound pressure level measured at the operator position (rounded to the nearest dB).\n1 B (bel) = 10 dB (decibel)."
+    },
+    {
+      "heading": "Mac Software",
+      "source_text": "iWork\nAperture\nLogic Express\nFinal Cut Pro X"
+    },
+    {
+      "heading": "Displays and Graphics",
+      "source_text": "Apple Thunderbolt Display\nApple Mini DisplayPort to DVI Adapter\nApple Mini DisplayPort to VGA Adapter\nApple Mini DisplayPort to Dual-Link DVI Adapter<"
+    },
+    {
+      "heading": "AirPort and Wireless",
+      "source_text": "Apple USB Ethernet Adapter\nAirPort Extreme Base Station\nTime Capsule\nApple Wireless Keyboard\nApple Magic Mouse"
+    },
+    {
+      "heading": "Other Accessories",
+      "source_text": "Apple MacBook Air SuperDrive\nApple Keyboard\nAppleCare Protection Plan"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

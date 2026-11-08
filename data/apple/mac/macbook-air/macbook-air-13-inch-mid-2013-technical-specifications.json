@@ -1,0 +1,141 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "MacBook Air",
+    "model": "MacBook Air (13-inch, Mid 2013) - Technical Specifications",
+    "model_slug": "macbook-air-13-inch-mid-2013-technical-specifications",
+    "model_year": 2013,
+    "year_introduced": 2013
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111938",
+    "source_file": "apple_mac_extraction/technical_specs_html/111938.html",
+    "source_title": "MacBook Air (13-inch, Mid 2013) - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Display",
+      "source_text": "13.3-inch (diagonal) LED-backlit glossy widescreen display with support for millions of colors\nSupported resolutions:\n1440 by 900 (native), 1280 by 800, 1152 by 720, and 1024 by 640 pixels at 16:10 aspect ratio and 1024 by 768 and 800 by 600 pixels at 4:3 aspect ratio"
+    },
+    {
+      "heading": "Storage 1",
+      "source_text": "128GB flash storage\n256GB flash storage\nConfigurable to 512GB flash storage."
+    },
+    {
+      "heading": "Processor",
+      "source_text": "1.3GHz dual-core Intel Core i5 (Turbo Boost up to 2.6GHz) with 3MB shared L3 cache\nConfigurable to 1.7GHz dual-core Intel Core i7 (Turbo Boost up to 3.3GHz) with 4MB shared L3 cache."
+    },
+    {
+      "heading": "Memory",
+      "source_text": "4GB of 1600MHz LPDDR3 onboard memory\nConfigurable to 8GB."
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height:\n0.11-0.68 inch (0.3-1.7 cm)\nWidth:\n12.8 inches (32.5 cm)\nDepth:\n8.94 inches (22.7 cm)\nWeight:\n2.96 pounds (1.35 kg)\n2"
+    },
+    {
+      "heading": "Graphics and Video Support",
+      "source_text": "Intel HD Graphics 5000\nDual display and video mirroring: Simultaneously supports full native resolution on the built-in display and up to 2560 by 1600 pixels on an external display, both at millions of colors\nThunderbolt digital video output\nNative Mini DisplayPort output\nDVI output using Mini DisplayPort to DVI Adapter (sold separately)\nVGA output using Mini DisplayPort to VGA Adapter (sold separately)\nDual-link DVI output using Mini DisplayPort to Dual-Link DVI Adapter (sold separately)\nHDMI audio and video output using third-party Mini DisplayPort to HDMI Adapter (sold separately)"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "720p FaceTime HD camera"
+    },
+    {
+      "heading": "Connections and Expansion",
+      "source_text": "Two USB 3 ports (up to 5 Gbps)\nThunderbolt port (up to 10 Gbps)\nMagSafe 2 power port\nSDXC card slot"
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "802.11ac Wi-Fi networking;\n3\nIEEE 802.11a/b/g/n compatible\nBluetooth 4.0 wireless technology"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Stereo speakers\nDual microphones\nHeadphone port\nSupport for Apple iPhone headset with remote and microphone"
+    },
+    {
+      "heading": "Keyboard and Trackpad",
+      "source_text": "Full-size backlit keyboard with 78 (U.S.) or 79 (ISO) keys, including 12 function keys and 4 arrow keys (inverted “T” arrangement) with ambient light sensor\nMulti-Touch trackpad for precise cursor control; supports inertial scrolling, pinch, rotate, swipe, three-finger swipe, four-finger swipe, tap, double-tap, and drag capabilities"
+    },
+    {
+      "heading": "Battery and Power 4",
+      "source_text": "Up to 12 hours wireless web\nUp to 10 hours iTunes movie playback\nUp to 30 days standby time\nBuilt-in 54-watt-hour lithium-polymer battery\n45W MagSafe 2 Power Adapter with cable management; MagSafe 2 power port"
+    },
+    {
+      "heading": "Electrical and Operating Requirements",
+      "source_text": "Line voltage: 100-240V AC\nFrequency: 50Hz to 60Hz\nOperating temperature: 50° to 95° F (10° to 35° C)\nStorage temperature: -13° to 113° F (-25° to 45° C)\nRelative humidity: 0% to 90% noncondensing\nOperating altitude: tested up to 10,000 feet\nMaximum storage altitude: 15,000 feet\nMaximum shipping altitude: 35,000 feet"
+    },
+    {
+      "heading": "Included Software",
+      "source_text": "OS X Mountain Lion\nIncludes Mail, Messages, Contacts, Calendar, Safari, Reminders, Notification Center, Notes, Dictation, iCloud, Time Machine, FaceTime, Photo Booth, AirPlay, Game Center, the Mac App Store, iTunes, Gatekeeper, Twitter and Facebook integration, and more.\nLearn more about latest operating system\niLife\nIncludes iPhoto, iMovie, and GarageBand."
+    },
+    {
+      "heading": "Limited Warranty and Service",
+      "source_text": "Your MacBook Air comes with 90 days of free telephone support and a one-year limited warranty. Purchase the\nAppleCare Protection Plan\nto extend your service and support to three years from your computer’s purchase date. Only the AppleCare Protection Plan provides you with direct telephone support from Apple technical experts and the assurance that repairs will be handled by Apple-authorized technicians using genuine Apple parts. For more information, visit\nApple Support\nor call 800-823-2775."
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "MacBook Air\n45W MagSafe 2 Power Adapter, AC wall plug, and power cord\nPrinted and electronic documentation"
+    },
+    {
+      "heading": "Configure to Order",
+      "source_text": "Configure your MacBook Air to order with these options, only at the\nApple Online Store\n:\n1.7GHz dual-core Intel Core i7 (Turbo Boost up to 3.3GHz)\n8GB memory upgrade\n512GB of flash storage"
+    },
+    {
+      "heading": "MacBook Air and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more about MacBook Air and the Environment"
+    },
+    {
+      "heading": "MacBook Air is designed with the following features to reduce its environmental impact:",
+      "source_text": "BFR-free\nPVC-free\n5\nHighly recyclable aluminum enclosure\nMeets ENERGY STAR 5.2 requirements\nRated EPEAT Gold\n6"
+    },
+    {
+      "heading": "Apple and the Environment",
+      "source_text": "Learn more about Apple’s dedication to reducing the environmental impact of our products and process\n. Or read our\nProduct Environmental Reports\nfor detailed information on the environmental performance of every Apple product."
+    },
+    {
+      "heading": "Recycling",
+      "source_text": "Apple takes a holistic view of materials management and waste minimization.\nLearn more about how to recycle your Mac\n."
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "DECLARED NOISE EMISSIONS in accordance with ISO 9296\nSound Power Level\nL\nWAd\n(B)\n1 B = 10 dB\nSound Pressure Level\nOperator Position\nL\npAm\n(dB)\nIdle\n2.6\n5\nHard drive accessing\nN/A\nN/A\nCD drive accessing\nN/A\nN/A\nL\nWAd\nis the statistical upper-limit A-weighted sound power level (rounded to the nearest 0.1 B).\nL\npAm\nis the mean A-weighted sound pressure level measured at the operator position (rounded to the nearest dB).\n1 B (bel) = 10 dB (decibel)."
+    },
+    {
+      "heading": "Mac Software",
+      "source_text": "iWork\nAperture\nLogic Pro\nFinal Cut Pro X"
+    },
+    {
+      "heading": "Displays and Adapters",
+      "source_text": "Apple Thunderbolt Display\nApple Mini DisplayPort to DVI Adapter\nApple Mini DisplayPort to VGA Adapter\nApple Mini DisplayPort to Dual-Link DVI Adapter\nMagSafe to MagSafe 2 Converter"
+    },
+    {
+      "heading": "AirPort and Wireless",
+      "source_text": "AirPort Extreme Base Station\nAirPort Express Base Station\nAirPort Time Capsule\nApple Wireless Keyboard\nApple Magic Mouse\nApple Magic Trackpad"
+    },
+    {
+      "heading": "Other Accessories",
+      "source_text": "Apple USB SuperDrive\nThunderbolt to Gigabit Ethernet Adapter\nThunderbolt to FireWire Adapter\nAppleCare Protection Plan\nApple USB Ethernet Adapter"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

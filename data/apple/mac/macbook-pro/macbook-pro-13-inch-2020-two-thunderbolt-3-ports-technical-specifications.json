@@ -1,0 +1,125 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "MacBook Pro",
+    "model": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports) - Technical Specifications",
+    "model_slug": "macbook-pro-13-inch-2020-two-thunderbolt-3-ports-technical-specifications",
+    "model_year": 2020,
+    "year_introduced": 2020
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111981",
+    "source_file": "apple_mac_extraction/technical_specs_html/111981.html",
+    "source_title": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports) - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Finish",
+      "source_text": "Silver\nSpace Gray"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Retina display\n13.3-inch (diagonal) LED-backlit display with IPS technology; 2560-by-1600 native resolution at 227 pixels per inch with support for millions of colors\nSupported scaled resolutions:\n1680 by 1050\n1440 by 900\n1024 by 640\n500 nits brightness\nWide color (P3)\nTrue Tone technology"
+    },
+    {
+      "heading": "Processor",
+      "source_text": "1.4GHz quad-core 8th‑generation Intel Core i5, Turbo Boost up to 3.9GHz, with 128MB of eDRAM\nConfigurable to 1.7GHz quad-core 8th‑generation Intel Core i7, Turbo Boost up to 4.5GHz, with 128MB of eDRAM"
+    },
+    {
+      "heading": "Storage 1",
+      "source_text": "256GB SSD\nConfigurable to 512GB, 1TB, or 2TB SSD\n512GB SSD\nConfigurable to 1TB or 2TB SSD"
+    },
+    {
+      "heading": "Memory",
+      "source_text": "8GB of 2133MHz LPDDR3 onboard memory\nConfigurable to 16GB of memory"
+    },
+    {
+      "heading": "Graphics",
+      "source_text": "Intel Iris Plus Graphics 645"
+    },
+    {
+      "heading": "Charging and Expansion",
+      "source_text": "Two Thunderbolt 3 (USB-C) ports with support for:\nCharging\nDisplayPort\nThunderbolt (up to 40Gb/s)\nUSB 3.1 Gen 2 (up to 10Gb/s)"
+    },
+    {
+      "heading": "Keyboard and Trackpad",
+      "source_text": "Backlit Magic Keyboard with:\n65 (U.S.) or 66 (ISO) keys including 4 arrow keys in an inverted‑T arrangement\nTouch Bar\nTouch ID sensor\nAmbient light sensor\nForce Touch trackpad for precise cursor control and pressure-sensing capabilities; enables Force clicks, accelerators, pressure-sensitive drawing, and Multi-Touch gestures"
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "Wi-Fi\n802.11ac Wi-Fi wireless networking; IEEE 802.11a/b/g/n compatible\nBluetooth\nBluetooth 5.0 wireless technology"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "720p FaceTime HD camera"
+    },
+    {
+      "heading": "Video Support",
+      "source_text": "Simultaneously supports full native resolution on the built-in display at millions of colors and:\nOne external 5K display with 5120-by-2880 resolution at 60Hz at over a billion colors, or\nUp to two external 4K displays with 4096-by-2304 resolution at 60Hz at millions of colors\nThunderbolt 3 digital video output\nNative DisplayPort output over USB‑C\nVGA, HDMI, DVI, and Thunderbolt 2 output supported using adapters (sold separately)"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Stereo speakers with high dynamic range\nWide stereo sound\nSupport for Dolby Atmos playback\nThree-mic array with directional beamforming\n3.5 mm headphone jack"
+    },
+    {
+      "heading": "Battery and Power 2",
+      "source_text": "Up to 10 hours wireless web\nUp to 10 hours Apple TV app movie playback\nUp to 30 days of standby time\nBuilt-in 58.2-watt-hour lithium-polymer battery\n61W USB-C Power Adapter"
+    },
+    {
+      "heading": "Operating Requirements",
+      "source_text": "Line voltage: 100V to 240V AC\nFrequency: 50Hz to 60Hz\nOperating temperature: 50° to 95° F (10° to 35° C)\nStorage temperature: -13° to 113° F (-25° to 45° C)\nRelative humidity: 0% to 90% noncondensing\nOperating altitude: tested up to 10,000 feet\nMaximum storage altitude: 15,000 feet\nMaximum shipping altitude: 35,000 feet"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height: 0.61 inch (1.56 cm)\nWidth: 11.97 inches (30.41 cm)\nDepth: 8.36 inches (21.24 cm)\nWeight: 3.1 pounds (1.4 kg)\n3"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "macOS\nmacOS is the operating system that powers everything you do on a Mac. macOS Catalina brings dedicated apps for music, TV, and podcasts. Smart updates to the apps you use most. And Sidecar, which lets you use iPad as a second display. So you can take everything you do above and beyond.\nLearn more about latest operating system"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new MacBook Pro. With built-in support for vision, hearing, mobility, and learning, you can create and do amazing things.\nLearn more about Accessibility\nFeatures include:\nVoice Control\nVoiceOver\nZoom\nIncrease Contrast\nReduce Motion\nSiri and Dictation\nSwitch Control\nClosed Captions\nText to Speech"
+    },
+    {
+      "heading": "Built-in Apps 4",
+      "source_text": "Photos\niMovie\nGarageBand\nPages\nNumbers\nKeynote\nSiri\nSafari\nMail\nFaceTime\nMessages\nMaps\nNews\nStocks\nHome\nVoice Memos\nNotes\nCalendar\nContacts\nReminders\nPhoto Booth\nPreview\nMusic\nPodcasts\nTV\nBooks\nApp Store\nTime Machine\nFind My\nQuickTime Player"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "13-inch MacBook Pro\n61W USB-C Power Adapter\nUSB-C Charge Cable (2 m)"
+    },
+    {
+      "heading": "Configure to Order",
+      "source_text": "Configure your MacBook Pro with these options, only at\napple.com\n:\n1.7GHz quad-core Intel Core i7, Turbo Boost up to 4.5GHz, with 128MB of eDRAM\n16GB of 2133MHz LPDDR3 memory\n512GB, 1TB, or 2TB SSD"
+    },
+    {
+      "heading": "MacBook Pro and the Environment",
+      "source_text": "We take responsibility for the environmental footprint of our products throughout their life cycle.\nLearn more about MacBook Pro and the Environment\nThe 13-inch MacBook Pro is designed with the following features to reduce its environmental impact:\n5\nMade with better materials\n100% recycled tin in the solder of the main logic board\nEnclosure made with recyclable, low-carbon aluminum\n35% or more recycled plastic in multiple components\nEnergy efficient\nMeets ENERGY STAR requirements\nSmarter chemistry\nArsenic-free display glass\nMercury-free LED-backlit display\nBFR-, PVC-, and beryllium-free\nGreen manufacturing\nFinal assembly supplier sites do not generate any waste sent to landfill\n6\nAll final assembly suppliers are transitioning to 100% renewable energy for Apple production\nResponsible packaging\n100% of virgin wood fiber comes from responsibly managed forests\nRecyclable, majority-fiber packaging\nLearn more\nRead the 13-inch\nMacBook Pro Environmental Report\nfor detailed information on its environmental performance."
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "Declared noise emission values in accordance with ECMA-109\nSound Power Level\nL\nW\nA,m\n(B)\nSound Pressure Level\nOperator Position\nL\np\nA,m\n(dB)\nIdle\n1.3 (\nK\nV\n= 0.3)\n3\nWireless web\n1.3 (\nK\nV\n= 0.3)\n4\nL\nW\nA,m\nis the mean A-weighted sound power level, rounded to the nearest 0.1 B.\nL\np\nA,m\nis the mean A-weighted sound pressure level measured at operator position (rounded to the nearest 1 dB).\n1 B (bel) = 10 dB (decibel)\nK\nv\nis the statistical adder for computing upper-limit of A-weighted sound power level.\nThe quantity,\nL\nW\nA,c\n(formerly called\nL\nW\nAd\n) may be computed from the sum of\nL\nW\nA,m\nand\nK\nv\n.\nThe Wireless web test browses 25 popular websites.\nConfiguration tested: 1.4GHz quad-core Intel Core i5 processor, 8GB memory, 256GB storage, Intel Iris Plus Graphics 645"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

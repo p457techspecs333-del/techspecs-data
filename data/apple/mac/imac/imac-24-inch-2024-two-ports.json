@@ -1,0 +1,129 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "iMac",
+    "model": "iMac (24-inch, 2024, Two ports)",
+    "model_slug": "imac-24-inch-2024-two-ports",
+    "model_year": 2024,
+    "year_introduced": 2024
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/121556",
+    "source_file": "apple_mac_extraction/technical_specs_html/121556.html",
+    "source_title": "iMac (24-inch, 2024, Two ports) - Tech specs",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Colors",
+      "source_text": "Blue\nPurple\nPink\nOrange\nYellow\nGreen\nSilver"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "Apple M4 chip\n8-core CPU with 4 performance cores and 4 efficiency cores\n8-core GPU\nHardware-accelerated ray tracing\n16-core Neural Engine\n120GB/s memory bandwidth\nMedia Engine\nHardware-accelerated H.264, HEVC, ProRes and ProRes RAW\nVideo decode engine\nVideo encode engine\nProRes encode and decode engine\nAV1 decode"
+    },
+    {
+      "heading": "Apple In­telli­gence 1",
+      "source_text": "Apple In­telli­gence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.\nLearn more about Apple In­telli­gence"
+    },
+    {
+      "heading": "Storage 2",
+      "source_text": "256GB SSD\nConfigurable to:\n512GB or 1TB"
+    },
+    {
+      "heading": "Memory",
+      "source_text": "16GB unified memory\nConfigurable to:\n24GB unified memory"
+    },
+    {
+      "heading": "Display",
+      "source_text": "24-inch 4.5K Retina display\n4480x2520 resolution at 218 pixels per inch with support for 1 billion colours\n500 nits brightness\nWide colour (P3)\nTrue Tone technology\nActual diagonal screen size is 23.5 in."
+    },
+    {
+      "heading": "Camera",
+      "source_text": "12MP Center Stage cam­era with support for Desk View\n1080p HD video recording\nAdvanced image signal processor with computational video"
+    },
+    {
+      "heading": "Display Support",
+      "source_text": "Simultaneously supports full native resolution on the built-in display at 1 billion colours and:\nOne external display with up to 6K resolution at 60Hz\nThunderbolt 4 digital video output\nNative DisplayPort output over USB‑C"
+    },
+    {
+      "heading": "Video Playback",
+      "source_text": "Supported formats include HEVC, H.264, AV1 and ProRes\nHDR with Dolby Vision, HDR10+/HDR10 and HLG"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "Supported formats include AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus and Dolby Atmos"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "High-fidelity six-speaker system with force-cancelling woofers\nWide stereo sound\nSupport for Spatial Audio when playing music or video with Dolby Atmos\nStudio-quality three-mic array with high signal-to-noise ratio and directional beamforming\nSupport for “Hey Siri” or just “Siri”"
+    },
+    {
+      "heading": "Connections and Expansion",
+      "source_text": "Two Thunderbolt / USB 4 ports with support for:\nThunderbolt 4 (up to 40Gb/s)\nUSB 4 (up to 40Gb/s)\nUSB 3.1 Gen 2 (up to 10Gb/s)\nDisplayPort\n3.5mm headphone jack with advanced support for high‑impedance headphones\nConfigurable with Gigabit Ethernet"
+    },
+    {
+      "heading": "Input",
+      "source_text": "Magic Keyboard\nMagic Mouse\nConfigurable with:\nMagic Keyboard with Touch ID and Numeric Keypad\nMagic Trackpad"
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "Wi‑Fi\nWi‑Fi 6E (802.11ax)\n3\nBluetooth\nBluetooth 5.3"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Width:\n54.7 cm (21.5 inches)\nHeight:\n46.1 cm (18.1 inches)\nStand depth:\n14.7 cm (5.8 inches)\nStand width:\n13 cm (5.1 inches)\nWeight:\n4.42 kg (9.74 pounds)\n4"
+    },
+    {
+      "heading": "Electrical and Operating Requirements",
+      "source_text": "Line voltage:\n100–240V AC\nFrequency:\n50Hz to 60Hz, single phase\nOper­at­ing temperature:\n10° to 35° C (50° to 95° F)\nRelative humidity:\n5% to 90% non-condensing\nOper­at­ing altitude:\ntested up to 5,000 metres (16,400 feet)"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "iMac\nMagic Keyboard\nMagic Mouse\n143W power adapter\nPower lead (2m)\nUSB-C Charge Cable"
+    },
+    {
+      "heading": "Oper­at­ing System",
+      "source_text": "macOS\nmacOS is the most advanced desktop operating system in the world. Siri AI\n1\nis a powerful and capable assistant with personal context understanding, broad world knowledge and onscreen awareness. Express yourself through photos and images, save time with Safari, and get more done with Apple Intelligence\n1\nseamlessly integrated into your everyday apps and experiences. And iPhone Mirroring,\n6\nwindow tiling, Sidecar and more help you stay productive."
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new iMac. With built‑in support for vision, hearing, mobility and learning, you can create and do amazing things.\nLearn more about Accessibility\nFeatures include:\nVoice Control\nVoiceOver\nZoom\nIncrease Contrast\nReduce Motion\nSiri and Dictation\nSwitch Control"
+    },
+    {
+      "heading": "Built-in Apps 6",
+      "source_text": "App Store\nBooks\nCalendar\nContacts\nFaceTime\nFind My\nFreeform\nGarageBand\nHome\niMovie\niPhone Mirroring\nKeynote\nMail\nMaps\nMessages\nMusic\nNews\nNotes\nNumbers\nPages\nPasswords\nPhoto Booth\nPhotos\nPodcasts\nPreview\nQuickTime Player\nReminders\nSafari\nShortcuts\nStocks\nTime Machine\nTips\nTV\nVoice Memos\nWeather"
+    },
+    {
+      "heading": "Configure to Order",
+      "source_text": "Configure your iMac with these options at\napple.com\n:\nMagic Key­board with Touch ID and Numeric Keypad\nMagic Track­pad\n24GB unified memory\n512GB or 1TB SSD\nGigabit Ethernet"
+    },
+    {
+      "heading": "iMac and the Environment",
+      "source_text": "En­viron­men­tal impact\niMac is designed to reduce environmental impact:\n7\nSee the iMac Product Environmental Report (PDF)\nProgress towards Apple 2030\nMore than 15% recycled content\n8\nOver 20% of manufacturing electricity sourced from low-carbon electricity\n9\nMore than 20% emissions reduction against business-as-usual scenario as modelled by Apple\n10\nSee Apple’s commitment\nMaterials\n100% recycled aluminium in the stand\n100% recycled rare earth elements in all magnets\n100% recycled tin in the solder of multiple printed circuit boards\n100% recycled copper in multiple printed circuit boards\n100% recycled gold in the plating of multiple printed circuit boards\n50% or more recycled plastic in 13 components\nEnergy\nOver 20% of manufacturing electricity for iMac is sourced from low-carbon electricity\n9\nENERGY STAR® certified\n11\nPackaging\n100% fibre-based packaging\n12\n76% recycled content in fibre packaging\nWaste\nNo established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme\nSmarter chemistry\n13\nArsenic-free display glass\nMercury-, BFR- and PVC‑free"
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "Declared noise emission values in accordance with ECMA-109\nSound Power Level\nL\nW\nA,m\n(B)\nSound Pressure Level\nOperator Position\nL\np\nA,m\n(dB)\nIdle\n1.6 (\nK\nV\n= 0.3)\n5\nWireless web\n1.6 (\nK\nV\n= 0.3)\n5\nL\nW\nA,m\nis the mean A-weighted sound power level, rounded to the nearest 0.1 B.\nL\np\nA,m\nis the mean A-weighted sound pressure level measured at operator position (rounded to the nearest 1 dB).\n1 B (bel) = 10 dB (decibel).\nK\nv\nis the statistical adder for computing upper-limit of A-weighted sound power level.\nThe quantity,\nL\nW\nA,c\n(formerly called\nL\nW\nAd\n) may be computed from the sum of\nL\nW\nA,m\nand\nK\nv\n.\nThe wireless web test browses 6 tabs with a mix of content including media.\nConfiguration tested: M4, 8-core CPU, 8-core GPU, 16GB unified memory, 256GB storage."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

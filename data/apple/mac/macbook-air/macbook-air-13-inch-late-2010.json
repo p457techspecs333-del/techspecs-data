@@ -1,0 +1,109 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "MacBook Air",
+    "model": "MacBook Air (13-inch, Late 2010)",
+    "model_slug": "macbook-air-13-inch-late-2010",
+    "model_year": 2010,
+    "year_introduced": 2010
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/112585",
+    "source_file": "apple_mac_extraction/technical_specs_html/112585.html",
+    "source_title": "MacBook Air (13-inch, Late 2010) - Tech Specs",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Size and weight",
+      "source_text": "Height: 0.11-0.68 inch (0.3-1.7 cm)\nWidth: 12.8 inches (32.5 cm)\nDepth: 8.94 inches (22.7 cm)\nWeight: 2.9 pounds (1.32 kg)\n1"
+    },
+    {
+      "heading": "Processor and memory",
+      "source_text": "1.86GHz Intel Core 2 Duo processor with 6MB on-chip shared L2 cache; or optional 2.13GHz Intel Core 2 Duo processor with 6MB shared L2 cache\n1066MHz frontside bus\n2GB of 1066MHz DDR3 SDRAM onboard (4GB maximum)"
+    },
+    {
+      "heading": "Storage 2",
+      "source_text": "Flash Storage\n128GB\nFlash Storage\n256GB"
+    },
+    {
+      "heading": "Environmental Status Report",
+      "source_text": "MacBook Air is designed with the following features to reduce its environmental impact:\nHighly recyclable aluminum enclosure\nMercury-free LED-backlit display\nArsenic-free glass\nBFR-free\nPVC-free\n6\nMeets ENERGY STAR requirements\nRated EPEAT Gold\n7"
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "DECLARED NOISE EMISSIONS in accordance with ISO 9296\nSound Power Level\nL\nWAd\n(B)\n1 B = 10 dB\nSound Pressure Level\nOperator Position\nL\npAm\n(dB)\nIdle\n2.6\n8\nHard drive accessing\nno value\nno value\nCD drive accessing\nno value\nno value\nL\nWAd\nis the statistical upper-limit A-weighted sound power level (rounded to the nearest 0.1 B).\nL\npAm\nis the mean A-weighted sound pressure level measured at the operator position (rounded to the nearest dB).\n1 B (bel) = 10 dB (decibel)."
+    },
+    {
+      "heading": "Display",
+      "source_text": "13.3-inch\n(diagonal) high-resolution LED-backlit glossy widescreen display with support for millions of colors\nSupported resolutions:\n1440 by 900 (native), 1280 by 800, 1152 by 720, 1024 by 640, and 800 by 500 pixels at 16:10 aspect ratio; 1024 by 768, 800 by 600, and 640 by 480 pixels at 4:3 aspect ratio; 720 by 480 pixels at 3:2 aspect ratio"
+    },
+    {
+      "heading": "Graphics and video support",
+      "source_text": "Mini DisplayPort\nPure digital video output\nDVI output\nusing Mini DisplayPort to DVI Adapter (sold separately)\nVGA output\nusing Mini DisplayPort to VGA Adapter (sold separately)\nDual-link DVI output\nusing Mini DisplayPort to Dual-Link DVI Adapter (sold separately)\nHDMI output\nusing a third-party Mini DisplayPort to HDMI adapter (sold separately)\nNVIDIA GeForce 320M graphics processor with 256MB of DDR3 SDRAM shared with main memory\n3\nDual display and video mirroring: Simultaneously supports full native resolution on the built-in display and up to 2560 by 1600 pixels on an external display, both at millions of colors\nFaceTime camera"
+    },
+    {
+      "heading": "Keyboard and trackpad",
+      "source_text": "Full-size keyboard with 78 (U.S.) or 79 (ISO) keys, including 12 function keys and 4 arrow keys (inverted “T” arrangement)\nMulti-Touch trackpad for precise cursor control; supports inertial scrolling, pinch, rotate, swipe, three-finger swipe, four-finger swipe, tap, double-tap, and drag capabilities"
+    },
+    {
+      "heading": "Peripheral connections",
+      "source_text": "SD card\nUSB 2.0\nMini DisplayPort\nMagSafe\nUSB 2.0\nHeadphone\nMicrophone"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Stereo speakers\nOmnidirectional microphone\nHeadphone minijack\nSupport for Apple Earphones with Remote and Mic"
+    },
+    {
+      "heading": "Communications",
+      "source_text": "AirPort Extreme Wi-Fi wireless networking\n4\n(based on IEEE 802.11n specification); IEEE 802.11a/b/g compatible\nBluetooth 2.1 + EDR (Enhanced Data Rate) wireless technology\nApple USB Ethernet Adapter (sold separately)"
+    },
+    {
+      "heading": "Battery and power 5",
+      "source_text": "Built-in 50-watt-hour lithium-polymer battery\n45W MagSafe power adapter with cable management system\nMagSafe power port\nUp to 7 hrs\nwireless productivity\nUp to 30 days\nstandby time"
+    },
+    {
+      "heading": "Electrical and operating requirements",
+      "source_text": "Line voltage: 100V to 240V AC\nFrequency: 50Hz to 60Hz\nOperating temperature: 50° to 95° F\n(10° to 35° C)\nStorage temperature: -13° to 113° F\n(-24° to 45° C)\nRelative humidity: 0% to 90% noncondensing\nMaximum operating altitude: 10,000 feet\nMaximum storage altitude: 15,000 feet\nMaximum shipping altitude: 35,000 feet"
+    },
+    {
+      "heading": "What’s in the box",
+      "source_text": "13-inch MacBook Air\n45W MagSafe power adapter, AC wall plug, and power cord\nPrinted and electronic documentation\nSoftware Reinstall Drive"
+    },
+    {
+      "heading": "Included software",
+      "source_text": "Mac OS X Snow Leopard\nIncludes iTunes, Time Machine, Quick Look, Spaces, Spotlight, Dashboard, Mail, iChat, Safari, Address Book, QuickTime, iCal, DVD Player, Photo Booth, Front Row, and more.\niLife\nIncludes iPhoto, iMovie, GarageBand, iWeb, and iDVD."
+    },
+    {
+      "heading": "DVD or CD Sharing",
+      "source_text": "Without a built-in optical drive, how do you install new applications? Simply use DVD or CD Sharing. This convenient feature of Mac OS X lets you wirelessly “borrow” the optical drive of a nearby Mac or PC. So you can install applications from a DVD or CD and have full access to an optical drive without having to carry one around."
+    },
+    {
+      "heading": "Configurations",
+      "source_text": "13-inch MacBook Air\n(MC503LL/A)\n13-inch MacBook Air\n(MC504LL/A)\nEnclosure\nPrecision aluminum unibody\nProcessor\n1.86GHz Intel Core 2 Duo\nL2 cache\n6MB shared\nSystem bus\n1066MHz\nMemory\n2GB of 1066MHz DDR3 SDRAM onboard (4GB maximum)\nStorage\n2\n128GB of flash storage\n256GB of flash storage\nSlot-loading optical drive\nOptional external USB MacBook Air SuperDrive (sold separately)\nGraphics\nNVIDIA GeForce 320M graphics processor with 256MB of DDR3 SDRAM shared with main memory\n3\nVideo\nFaceTime camera; Mini DisplayPort output port with support for DVI, VGA, dual-link DVI, and HDMI (requires adapters, sold separately)\nDisplay\n13.3-inch (diagonal) high-resolution LED-backlit glossy widescreen display, 1440-by-900 resolution\nPorts\nTwo USB 2.0 ports (up to 480 Mbps); SD card slot\nAudio\nStereo speakers, omnidirectional microphone, headphone minijack\nNetworking\nApple USB Ethernet Adapter (sold separately)\nWireless\nAirPort Extreme Wi-Fi (based on IEEE 802.11n specification)\n4\n; Bluetooth 2.1 + EDR (Enhanced Data Rate) wireless technology\nHardware accessories\n45W MagSafe Power Adapter, AC wall plug, power cord\nApple and the global environment\nLearn more about Apple’s dedication to reducing the environmental impact of our products and processes. The Apple Product Environmental Specification details the environmental attributes of our products.\nRecycling\nApple takes a holistic view of materials management and waste minimization. Learn more about how to recycle your Mac."
+    },
+    {
+      "heading": "Accessories",
+      "source_text": "MacBook Air SuperDrive\nPlay or burn discs directly with the external USB-based MacBook Air SuperDrive. Thin, light, and easy to take with you, this drive is designed specifically for MacBook Air.\nSlot-loading 8x SuperDrive (DVD±R DL/DVD±RW/CD-RW)\nSize: 139 x 139 x 17 mm / 5.47 x 5.47 x 0.67 inches (L x W x H)\nWeight: 335 g (0.74 pound)\nRequires MacBook Air with available USB 2.0 port\nMagSafe Airline Adapter\nPlug into your airline seat power port and keep MacBook Air powered up for the entire flight.\nConnect your MacBook Air to an external display or projector using one of these adapters.\nMini DisplayPort to DVI Adapter\nMini DisplayPort to Dual-Link DVI Adapter\nMini DisplayPort to VGA Adapter\nTime Capsule\nAirPort Extreme Base Station\nAirPort Express Base Station\nApple Wireless Keyboard\nMagic Mouse"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

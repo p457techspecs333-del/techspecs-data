@@ -1,0 +1,113 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "iMac",
+    "model": "iMac (21.5-inch, 2017) - Technical Specifications",
+    "model_slug": "imac-21-5-inch-2017-technical-specifications",
+    "model_year": 2017,
+    "year_introduced": 2017
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111921",
+    "source_file": "apple_mac_extraction/technical_specs_html/111921.html",
+    "source_title": "iMac (21.5-inch, 2017) - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Display",
+      "source_text": "21.5-inch (diagonal) LED-backlit display\n1920‑by‑1080 resolution with support for millions of colors"
+    },
+    {
+      "heading": "Processor",
+      "source_text": "2.3GHz\n2.3GHz dual‑core Intel Core i5, Turbo Boost up to 3.6GHz"
+    },
+    {
+      "heading": "Memory",
+      "source_text": "2.3GHz\n8GB of 2133MHz DDR4 memory\nConfigurable to 16GB"
+    },
+    {
+      "heading": "Storage 1",
+      "source_text": "1TB (5400-rpm) hard drive\nConfigurable to 1TB Fusion Drive or 256GB SSD"
+    },
+    {
+      "heading": "Graphics",
+      "source_text": "Intel Iris Plus Graphics 640"
+    },
+    {
+      "heading": "Video Support and Camera",
+      "source_text": "FaceTime HD camera\nSimultaneously supports full native resolution on the built-in display at millions of colors and:\nOne 5120‑by‑2880 (5K) external display at 60Hz with support for 1 billion colors, or\nTwo 3840-by-2160 (4K UHD) external displays at 60Hz with support for 1 billion colors, or\nTwo 4096‑by‑2304 (4K) external displays at 60Hz with support for millions of colors\nThunderbolt 3 digital video output\nNative DisplayPort output over USB‑C\nThunderbolt 2, HDMI, DVI, and VGA output supported using adapters (sold separately)"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Stereo speakers\nMicrophone\n3.5 mm headphone jack\nSupport for Apple iPhone headset with microphone"
+    },
+    {
+      "heading": "Connections and Expansion",
+      "source_text": "3.5 mm headphone jack\nSDXC card slot\nFour USB-A ports\nTwo Thunderbolt 3 (USB-C) ports with support for:\nDisplayPort\nThunderbolt (up to 40Gb/s)\nUSB 3.1 Gen 2 (up to 10Gb/s)\nThunderbolt 2, HDMI, DVI, and VGA supported using adapters (sold separately)\n10/100/1000BASE-T Gigabit Ethernet (RJ-45 connector)\nKensington lock slot"
+    },
+    {
+      "heading": "Input",
+      "source_text": "Magic Keyboard\nMagic Mouse\nConfigurable with Magic Keyboard with Numeric Keypad\nConfigurable with Magic Trackpad"
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "Wi-Fi\n802.11ac Wi-Fi wireless networking\nIEEE 802.11a/b/g/n compatible\nBluetooth\nBluetooth 4.2 wireless technology"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height: 17.7 inches (45.0 cm)\nWidth: 20.8 inches (52.8 cm)\nStand depth: 6.9 inches (17.5 cm)\nWeight: 12.0 pounds (5.44 kg)\n2"
+    },
+    {
+      "heading": "Electrical and Operating Requirements",
+      "source_text": "Line voltage: 100–240V AC\nFrequency: 50Hz to 60Hz, single phase\nOperating temperature: 50° to 95° F (10° to 35° C)\nRelative humidity: 5% to 90% noncondensing\nOperating altitude: tested up to 16,400 feet (5000 meters)"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "iMac\nMagic Keyboard\nMagic Mouse\nPower cord\nLightning to USB Cable\nPolishing cloth"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "macOS\nmacOS is the most advanced desktop operating system in the world. macOS Big Sur introduces a bold new design and major updates to apps — taking macOS to a new level of power and beauty.\nLearn more about latest operating system"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new iMac. With built-in support for vision, hearing, mobility, and learning, you can create and do amazing things.\nLearn more about Accessibility\nFeatures include:\nVoice Control\nVoiceOver\nZoom\nIncrease Contrast\nReduce Motion\nSiri and Dictation\nSwitch Control\nClosed Captions\nText to Speech"
+    },
+    {
+      "heading": "Built-in Apps 3",
+      "source_text": "Photos\niMovie\nGarageBand\nPages\nNumbers\nKeynote\nSiri\nSafari\nMail\nFaceTime\nMessages\nMaps\nNews\nStocks\nHome\nVoice Memos\nNotes\nCalendar\nContacts\nReminders\nPhoto Booth\nPreview\nBooks\nApp Store\nTime Machine\nTV\nMusic\nPodcasts\nFind My\nQuickTime Player"
+    },
+    {
+      "heading": "Configure to Order",
+      "source_text": "Configure your iMac with these options.\nLooking for an iMac you can mount on a wall or an adjustable arm?\nChoose an iMac with a Built-in VESA Mount Adapter\nMagic Trackpad\nMagic Keyboard with Numeric Keypad\n16GB memory upgrade\n1TB Fusion Drive\n256GB SSD"
+    },
+    {
+      "heading": "iMac and the Environment",
+      "source_text": "We take responsibility for the environmental footprint of our products throughout their life cycle.\nLearn more about iMac and the Environment\nThe 21.5-inch iMac is designed with the following features to reduce its environmental impact:\n4\nSmarter chemistry\n5\nArsenic-free display glass\nMercury-, BFR-, PVC-, and beryllium-free\nResponsible packaging\n100% of virgin wood fiber comes from responsibly managed forests\nLearn more\nRead the\n21.5-inch iMac Environmental Report\nfor detailed information on this product’s environmental performance."
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "Declared noise emission values in accordance with ECMA-109\nSound Power Level\nL\nW\nA,m\n(B)\nSound Pressure Level\nOperator Position\nL\np\nA,m\n(dB)\nIdle\n2.0 (\nK\nV\n= 0.3)\n11\nWireless web\n1.9 (\nK\nV\n= 0.3)\n11\nHard drive seek\n2.0 (\nK\nV\n= 0.3)\n12\nL\nW\nA,m\nis the mean A-weighted sound power level, rounded to the nearest 0.1 B.\nL\np\nA,m\nis the mean A-weighted sound pressure level measured at operator position (rounded to the nearest 1 dB).\n1 B (bel) = 10 dB (decibel)\nK\nv\nis the statistical adder for computing upper-limit of A-weighted sound power level.\nThe quantity,\nL\nW\nA,c\n(formerly called\nL\nW\nAd\n) may be computed from the sum of\nL\nW\nA,m\nand\nK\nv\n.\nThe Wireless web test browses 25 popular websites.\nConfiguration tested: 2.3GHz dual-core Intel Core i5 processor, 8GB memory, 1TB hard drive, Intel Iris Plus Graphics 640."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

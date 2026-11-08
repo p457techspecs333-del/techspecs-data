@@ -1,0 +1,109 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "MacBook Pro",
+    "model": "MacBook Pro (17-inch, Early 2009)",
+    "model_slug": "macbook-pro-17-inch-early-2009",
+    "model_year": 2009,
+    "year_introduced": 2009
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/112526",
+    "source_file": "apple_mac_extraction/technical_specs_html/112526.html",
+    "source_title": "MacBook Pro (17-inch, Early 2009) - Tech Specs",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Size and weight",
+      "source_text": "15-inch MacBook Pro\nHeight: 0.95 inch (2.41 cm)\nWidth: 14.35 inches (36.4 cm)\nDepth: 9.82 inches (24.9 cm)\nWeight: 5.5 pounds (2.49 kg)\n1\n17-inch MacBook Pro\nHeight: 0.98 inch (2.50 cm)\nWidth: 15.47 inches (39.3 cm)\nDepth: 10.51 inches (26.7 cm)\nWeight: 6.6 pounds (2.99 kg)\n1"
+    },
+    {
+      "heading": "Connections and expansion",
+      "source_text": "MagSafe power port\nGigabit Ethernet port\nOne FireWire 800 port (up to 800 Mbps)\n15-inch MacBook Pro\n: Two USB 2.0 ports (up to 480 Mbps)\n17-inch MacBook Pro\n: Three USB 2.0 ports (up to 480 Mbps)\nMini DisplayPort\nAudio line in\nAudio line out\nExpressCard/34 slot\nKensington lock slot"
+    },
+    {
+      "heading": "Communications",
+      "source_text": "Built-in AirPort Extreme Wi-Fi wireless networking\n2\n(based on IEEE 802.11n draft specification); IEEE 802.11a/b/g compatible\nBuilt-in Bluetooth 2.1 + EDR (Enhanced Data Rate)\nBuilt-in 10/100/1000BASE-T Gigabit Ethernet (RJ-45 connector)"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Built-in stereo speakers\nBuilt-in omnidirectional microphone (located under left speaker grille)\nCombined optical digital input/analog line in (minijack)\nCombined optical digital output/analog line out (minijack)\nSupports Apple Stereo Headset with microphone"
+    },
+    {
+      "heading": "Environmental Status Report",
+      "source_text": "MacBook Pro is designed with the following features to reduce its environmental impact:\nHighly recyclable aluminum and glass enclosure\nMercury-free LED-backlit display\nArsenic-free glass\nBFR-free internal components\nPVC-free internal cables\nMeets ENERGY STAR requirements\nEPEAT Gold rating"
+    },
+    {
+      "heading": "Display",
+      "source_text": "15-inch MacBook Pro\n15.4-inch (diagonal) LED-backlit glossy widescreen display with support for millions of colors\nSupported resolutions\n: 1440 by 900 (native), 1280 by 800, 1152 by 720, 1024 by 640, and 800 by 500 pixels at 16:10 aspect ratio; 1024 by 768, 800 by 600, and 640 by 480 pixels at 4:3 aspect ratio; 1024 by 768, 800 by 600, and 640 by 480 pixels at 4:3 aspect ratio stretched; 720 by 480 pixels at 3:2 aspect ratio; 720 by 480 pixels at 3:2 aspect ratio stretched\n17-inch MacBook Pro\n17-inch (diagonal) LED-backlit glossy widescreen display with support for millions of colors; optional antiglare display\nSupported resolutions\n: 1920 by 1200 (native), 1680 by 1050, 1280 by 800, 1152 by 720, 1024 by 640, and 800 by 500 pixels at 16:10 aspect ratio; 1280 by 1024 pixels at 5:4 aspect ratio; 1280 by 1024 pixels at 5:4 aspect ratio stretched; 1600 by 1200, 1024 by 768, 800 by 600, and 640 by 480 pixels at 4:3 aspect ratio; 1600 by 1200, 1024 by 768, 800 by 600, and 640 by 480 pixels at 4:3 aspect ratio stretched; 720 by 480 pixels at 3:2 aspect ratio; 720 by 480 pixels at 3:2 aspect ratio stretched"
+    },
+    {
+      "heading": "Graphics and video support",
+      "source_text": "15-inch MacBook Pro\nNVIDIA GeForce 9600M GT graphics processor; 256MB of GDDR3 memory on 2.4GHz configuration; 512MB of GDDR3 memory on 2.53GHz and 2.8GHz configurations\nNVIDIA GeForce 9400M graphics processor with 256MB of DDR3 SDRAM shared with main memory\n3\n17-inch MacBook Pro\nNVIDIA GeForce 9600M GT graphics processor; 512MB of GDDR3 memory\nNVIDIA GeForce 9400M graphics processor with 256MB of DDR3 SDRAM shared with main memory\n3\nAll Models\nDual display and video mirroring: Simultaneously supports full native resolution on the built-in display and up to 2560 by 1600 pixels on an external display, both at millions of colors\nMini DisplayPort\nBuilt-in iSight camera"
+    },
+    {
+      "heading": "Video output options",
+      "source_text": "DVI output\nusing Mini DisplayPort to DVI Adapter (optional)\nVGA output\nusing Mini DisplayPort to VGA Adapter (optional)\nDual-link DVI output\nusing Mini DisplayPort to Dual-Link DVI Adapter (optional)"
+    },
+    {
+      "heading": "Input",
+      "source_text": "Built-in full-size backlit keyboard with 78 (U.S.) or 79 (ISO) keys, including 12 function keys and 4 arrow keys (inverted “T” arrangement)\nMulti-Touch trackpad for precise cursor control; supports two-finger scrolling, pinch, rotate, three-finger swipe, four-finger swipe, tap, double-tap, and drag capabilities"
+    },
+    {
+      "heading": "Processor and memory",
+      "source_text": "15-inch MacBook Pro\n2.4GHz Intel Core 2 Duo processor with 3MB on-chip shared L2 cache running 1:1 with processor speed; or 2.53GHz or 2.8GHz Intel Core 2 Duo processor with 6MB shared L2 cache\n1066MHz frontside bus\n2GB (two 1GB SO-DIMMs) or 4GB (two 2GB SO-DIMMs) of 1066MHz DDR3 SDRAM; two SO-DIMM slots support up to 4GB\n17-inch MacBook Pro\n2.66GHz Intel Core 2 Duo processor with 6MB on-chip shared L2 cache running 1:1 with processor speed; or 2.93GHz Intel Core 2 Duo processor with 6MB shared L2 cache\n1066MHz frontside bus\n4GB (two 2GB SO-DIMMs) of 1066MHz DDR3 SDRAM; two SO-DIMM slots support up to 8GB"
+    },
+    {
+      "heading": "Storage",
+      "source_text": "15-inch MacBook Pro\n250GB or 320GB 5400-rpm Serial ATA hard drive\n4\nOptional 250GB or 320GB Serial ATA 7200-rpm hard drive\n4\nOptional 128GB solid-state drive\n4\n17-inch MacBook Pro\n320GB 5400-rpm Serial ATA hard drive\n4\nOptional 320GB 7200-rpm Serial ATA hard drive\n4\nOptional 128GB or 256GB solid-state drive\n4"
+    },
+    {
+      "heading": "Optical drive",
+      "source_text": "8x slot-loading SuperDrive (DVD±R DL/DVD±RW/CD-RW)\nMaximum write: 8x DVD-R, DVD+R; 4x DVD-R DL (double layer), DVD+R DL (double layer), DVD-RW, DVD+RW; 24x CD-R; 10x CD-RW\nMaximum read: 8x DVD-R, DVD+R, DVD-ROM; 6x DVD-ROM (double layer DVD-9), DVD-R DL (double layer), DVD+R DL (double layer), DVD-RW, DVD+RW; 24x CD"
+    },
+    {
+      "heading": "Battery and power 5",
+      "source_text": "15-inch MacBook Pro\nRemovable 50-watt-hour lithium-polymer battery\n17-inch MacBook Pro\nBuilt-in 95-watt-hour lithium-polymer battery\n85W MagSafe Power Adapter with cable management system\nMagSafe power port"
+    },
+    {
+      "heading": "Electrical and operating requirements",
+      "source_text": "Line voltage: 100V to 240V AC\nFrequency: 50Hz to 60Hz\nOperating temperature: 50° to 95° F\n(10° to 35° C)\nStorage temperature: -13° to 113° F\n(-24° to 45° C)\nRelative humidity: 0% to 90% noncondensing\nMaximum operating altitude: 10,000 feet\nMaximum storage altitude: 15,000 feet\nMaximum shipping altitude: 35,000 feet"
+    },
+    {
+      "heading": "What’s in the box",
+      "source_text": "MacBook Pro\nDisplay cleaning cloth\n85W MagSafe Power Adapter, AC wall plug, and power cord\nInstall/restore DVDs\nPrinted and electronic documentation"
+    },
+    {
+      "heading": "Installed software",
+      "source_text": "Mac OS X v10.5 Leopard (includes iTunes, Time Machine, Quick Look, Spaces, Spotlight, Dashboard, Mail, iChat, Safari, Address Book, QuickTime, iCal, DVD Player, Photo Booth, Front Row, Xcode Developer Tools)\niLife (includes iPhoto, iMovie, iDVD, iWeb, GarageBand)"
+    },
+    {
+      "heading": "Configurations",
+      "source_text": "15-inch, 2.4GHz MacBook Pro\n(MB470LL/A)\n15-inch, 2.53GHz MacBook Pro\n(MB471LL/A)\n17-inch, 2.66GHz MacBook Pro\n(MB604LL/A)\nEnclosure\nPrecision aluminum unibody\nProcessor\n2.4GHz Intel Core 2 Duo\n2.53GHz Intel Core 2 Duo\n2.66GHz Intel Core 2 Duo\nL2 cache\n3MB shared\n6MB shared\nSystem bus\n1066MHz\nMemory\n2GB (two 1GB SO-DIMMs) of 1066MHz DDR3 SDRAM; supports up to 4GB\n4GB (two 2GB SO-DIMMs) of 1066MHz DDR3 SDRAM; supports up to 4GB\n4GB (two 2GB SO-DIMMs) of 1066MHz DDR3 SDRAM; supports up to 8GB\nHard drive\n4\n250GB Serial ATA; 5400 rpm\n320GB Serial ATA; 5400 rpm\nSlot-loading optical drive\n8x SuperDrive (DVD±R DL/DVD±RW/CD-RW)\nGraphics\nNVIDIA GeForce 9600M GT graphics processor; and NVIDIA GeForce 9400M graphics processor with 256MB of DDR3 SDRAM shared with main memory\n3\nGraphics memory\n256MB GDDR3\n512MB GDDR3\nVideo\nBuilt-in iSight camera; Mini DisplayPort output port with support for DVI, VGA, and dual-link DVI (requires adapters, sold separately)\nDisplay\n15.4-inch (diagonal) LED-backlit glossy widescreen display, 1440-by-900 resolution\n17-inch (diagonal) high-resolution LED-backlit glossy widescreen display, 1920-by-1200 resolution\nExpansion\nTwo USB 2.0 ports (up to 480 Mbps)\nOne FireWire 800 port (up to 800 Mbps)\nThree USB 2.0 ports (up to 480 Mbps)\nOne FireWire 800 port (up to 800 Mbps)\nAudio\nBuilt-in stereo speakers, built-in omnidirectional microphone, combined optical digital input/analog line in, combined optical digital output/analog line out\nNetworking\nBuilt-in 10/100/1000BASE-T (Gigabit) Ethernet\nWireless\nBuilt-in AirPort Extreme Wi-Fi (based on IEEE 802.11n draft specification)\n2\n; built-in Bluetooth 2.1 + EDR (Enhanced Data Rate) module\nHardware accessories\n85W MagSafe Power Adapter, AC wall plug, power cord\nApple and the global\nenvironment\nLearn more about Apple’s dedication to reducing the environmental impact of our products and processes. The Apple Product Environmental Specification details the environmental attributes of our products.\nRecycling\nApple takes a holistic view of materials management and waste minimization. Learn more about how to recycle your Mac."
+    },
+    {
+      "heading": "Options",
+      "source_text": "Time Capsule\nTime Capsule is a full-featured AirPort Extreme base station with a built-in hard drive. Back up wirelessly and create a Wi-Fi network with one device.\n500GB or 1TB server-grade hard drive\nWi-Fi Certified for 802.11n draft 2.0\nUSB port for connecting a USB printer or USB external hard drive\nConfigure to order\n250GB (7200-rpm) hard drive (15-inch)\n320GB (5400-rpm) hard drive (15-inch)\n320GB (7200-rpm) hard drive (15-inch or 17-inch)\n128GB solid-state drive (15-inch)\n128GB or 256GB solid-state drive (17-inch)\nUp to 4GB of 1066MHz DDR3 SDRAM (15-inch)\nUp to 8GB of 1066MHz DDR3 SDRAM (17-inch)\nAntiglare display (17-inch)\nApple Remote (MA128G/B)\nApple USB Modem (MA034Z/A)\nApple Mini DisplayPort to DVI Adapter (MB570)\nApple Mini DisplayPort to Dual-Link DVI Adapter (MB571)\nApple Mini DisplayPort to VGA Adapter (MB572)\nMagSafe Airline Adapter (MB441Z/A)\nAperture 2 (MB673Z/A)\nFinal Cut Express (MB278Z/A)\nLogic Express (MA806LL/A)\niWork ’09 (MB942Z/A)\nAccessories\nApple LED Cinema Display (MB382LL/A)\nAirPort Extreme Base Station (MB053LL/A)\nAirPort Express Base Station (MB321LL/A)\nApple Wireless Keyboard (MB167LL/A)\nApple Wireless Mighty Mouse (MB111LL/A)\nApple Keyboard (MB110LL/A)\nApple Wired Mighty Mouse (MB112LL/A)\nRechargeable Battery for 15-inch MacBook Pro (MB772)"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

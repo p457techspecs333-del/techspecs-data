@@ -1,0 +1,117 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "Mac mini",
+    "model": "Mac mini (2024)",
+    "model_slug": "mac-mini-2024",
+    "model_year": 2024,
+    "year_introduced": 2024
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/121555",
+    "source_file": "apple_mac_extraction/technical_specs_html/121555.html",
+    "source_title": "Mac mini (2024) - Tech Specs",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Finish",
+      "source_text": "Silver"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "Apple M4 chip\n10-core CPU with 4 perform­ance cores and 6 efficiency cores\n10-core GPU\nHardware-accelerated ray tracing\n16-core Neural Engine\n120GB/s memory bandwidth\nMedia Engine\nHardware-accelerated H.264, HEVC, ProRes and ProRes RAW\nVideo decode engine\nVideo encode engine\nProRes encode and decode engine\nAV1 decode\nApple M4 Pro chip\n12-core CPU with 8 perform­ance cores and 4 efficiency cores\n16-core GPU\nHardware-accelerated ray tracing\n16-core Neural Engine\n273GB/s memory bandwidth\nMedia Engine\nHardware-accelerated H.264, HEVC, ProRes and ProRes RAW\nVideo decode engine\nVideo encode engine\nProRes encode and decode engine\nAV1 decode\nConfigurable to:\nM4 Pro with 14‑core CPU and 20‑core GPU"
+    },
+    {
+      "heading": "Apple Intelligence 1",
+      "source_text": "Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.\nLearn more about Apple Intelligence"
+    },
+    {
+      "heading": "Memory",
+      "source_text": "Apple M4 chip\n16GB unified memory\nConfigurable to:\n24GB or 32GB\nApple M4 Pro chip\n24GB unified memory\nConfigurable to:\n48GB or 64GB"
+    },
+    {
+      "heading": "Storage 2",
+      "source_text": "Apple M4 chip\n256GB SSD\nConfigurable to:\n512GB, 1TB or 2TB\nApple M4 Pro chip\n512GB SSD\nConfigurable to:\n1TB, 2TB, 4TB or 8TB"
+    },
+    {
+      "heading": "Display Support",
+      "source_text": "Apple M4 chip\nSimultaneously supports up to three displays:\nUp to three displays: two displays with up to 6K resolution at 60Hz over Thunderbolt and one display with up to 5K resolution at 60Hz over Thunderbolt or 4K resolution at 60Hz over HDMI\nUp to two displays: one display with up to 5K resolution at 60Hz over Thunderbolt and one display with up to 8K resolution at 60Hz or 4K resolution at 240Hz over Thunderbolt or HDMI\nThunderbolt 4 digital video output\nSupport for native DisplayPort 1.4 output over USB-C\nApple M4 Pro chip\nSimultaneously supports up to three displays:\nUp to three displays: three displays with up to 6K resolution at 60Hz over Thunderbolt or HDMI\nUp to two displays: one display with up to 6K resolution at 60Hz over Thunderbolt and one display with up to 8K resolution at 60Hz or 4K resolution at 240Hz over Thunderbolt or HDMI\nThunderbolt 5 digital video output\nSupport for native DisplayPort 2.1 output over USB‑C\nHDMI display video output\nSupport for one display with up to 8K resolution at 60Hz or 4K resolution at 240Hz (M4 and M4 Pro)"
+    },
+    {
+      "heading": "Video Playback",
+      "source_text": "Supported formats include HEVC, H.264, AV1 and ProRes\nHDR with Dolby Vision, HDR10+/HDR10 and HLG"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "Supported formats include AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus and Dolby Atmos"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Built-in speaker\n3.5mm headphone jack with advanced support for high-impedance headphones\nHDMI port supports multi-channel audio output"
+    },
+    {
+      "heading": "Connections and Expan­sion",
+      "source_text": "On front:\nTwo USB-C ports with support for USB 3 (up to 10Gb/s)\n3.5mm headphone jack\nOn back (M4):\nGigabit Ethernet port (configurable to 10Gb Ethernet)\nHDMI port\nThree Thunderbolt 4 (USB-C) ports with support for:\nThunderbolt 4 (up to 40Gb/s)\nUSB 4 (up to 40Gb/s)\nDisplayPort\nOn back (M4 Pro):\nGigabit Ethernet port (configurable to 10Gb Ethernet)\nHDMI port\nThree Thunderbolt 5 (USB-C) ports with support for:\nThunderbolt 5 (up to 120Gb/s)\nUSB 4 (up to 120Gb/s)\nDisplayPort"
+    },
+    {
+      "heading": "Communications",
+      "source_text": "Wi‑Fi\nWi‑Fi 6E (802.11ax)\n3\nBluetooth\nBluetooth 5.3\nEthernet\n10/100/1000BASE-T Gigabit Ethernet (RJ-45 connector)\nConfigurable to 10Gb Ethernet (Nbase-T Ethernet with support for 1Gb, 2.5Gb, 5Gb and 10Gb Ethernet using RJ-45 connector)"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height:\n5.0 cm (2.0 inches)\nWidth:\n12.7 cm (5.0 inches)\nDepth:\n12.7 cm (5.0 inches)\nWeight (M4):\n0.67 kg (1.5 pounds)\n4\nWeight (M4 Pro):\n0.73 kg (1.6 pounds)\n4"
+    },
+    {
+      "heading": "Electrical and Operating Requirements",
+      "source_text": "Line voltage:\n100–240V AC\nFrequency:\n50Hz to 60Hz, single phase\nMaximum continuous power:\n155W\nOperating temperature:\n10° to 35° C (50° to 95° F)\nStorage temperature:\n–40° to 47° C (–40° to 116° F)\nRelative humidity:\n5% to 90% non-condensing\nOperating altitude:\ntested up to 5,000 metres (16,400 feet)\nTypical acoustical perform­ance:\nsound pressure level (operator position): 5 dBA at idle\n5"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "Mac mini\nPower lead (1.8m)"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "macOS\nmacOS is the most advanced desktop operating system in the world. It helps you stay productive and creative with help from Apple Intelligence, iPhone Mirroring,\n6\nwindow tiling, major updates to Safari, and more."
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new Mac mini. With built-in support for vision, hearing, mobility and learning, you can create and do amazing things.\nLearn more about Accessibility\nFeatures include:\nVoice Control\nVoiceOver\nZoom\nIncrease Contrast\nReduce Motion\nSiri and Dictation\nSwitch Control\nClosed Captions\nText to Speech"
+    },
+    {
+      "heading": "Built-in Apps 7",
+      "source_text": "App Store\nBooks\nCalendar\nContacts\nFaceTime\nFind My\nFreeform\nGarageBand\nHome\niMovie\niPhone Mirroring\nKeynote\nMail\nMaps\nMessages\nMusic\nNews\nNotes\nNumbers\nPages\nPasswords\nPhoto Booth\nPhotos\nPodcasts\nPreview\nQuickTime Player\nReminders\nSafari\nShortcuts\nStocks\nTime Machine\nTips\nTV\nVoice Memos\nWeather"
+    },
+    {
+      "heading": "Configure to Order",
+      "source_text": "Configure your Mac mini with these options at\napple.com\n:\nApple M4 chip\n24GB or 32GB unified memory\n512GB, 1TB or 2TB SSD\n10Gb Ethernet\nApple M4 Pro chip\nM4 Pro with 14‑core CPU, 20‑core GPU and 16‑core Neural Engine\n48GB or 64GB unified memory\n1TB, 2TB, 4TB or 8TB SSD\n10Gb Ethernet"
+    },
+    {
+      "heading": "Mac mini and the Environment",
+      "source_text": "Environmental impact\nMac mini is designed to reduce environmental impact:\n8\nSee the Mac mini Product Environmental Report (PDF)\nProgress towards Apple 2030\nMore than 50% recycled content\n9\nManufacturing electricity sourced from 100% renewable electricity\n10\n50% or more non-air shipping\n11\nMore than 80% emissions reduction against business-as-usual scenario as modelled by Apple\n12\n121kg CO\n2\ne or less total remaining emissions covered by high‑quality carbon credits\n13\nSee Apple’s commitment\nMaterials\n100% recycled aluminium in the enclosure and thermal module stage\n14\n100% recycled copper in multiple printed circuit boards, multiple thermal module components,\n15\nAC inlet pins and multiple small parts\n100% recycled gold in the plating of all Apple-designed printed circuit boards\n100% recycled tin in the solder of multiple printed circuit boards\n100% recycled rare earth elements in all magnets\n100% recycled zinc in the AC inlet pins and multiple small parts\n80% recycled steel in multiple components\n20% or more recycled plastic in 25 components\n100% fibre-based packaging\n16\n42% recycled content in fibre packaging\nEnergy\n100% of manufacturing electricity for Mac mini is sourced from renewable electricity\n100% of expected customer use electricity matched with low‑carbon electricity\nENERGY STAR® certified\n17\nWaste\nNo established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme\nSmarter chemistry\n18\nMercury-, BFR- and PVC‑free"
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "Declared noise emission values in accordance with ECMA-109\nSound Power Level\nL\nW\nA,m\n(B)\nSound Pressure Level\nOperator Position\nL\np\nA,m\n(dB)\nIdle\n1.3 (\nK\nV\n= 0.3)\n4\nWireless web\n1.3 (\nK\nV\n= 0.3)\n4\nL\nW\nA,m\nis the mean A-weighted sound power level, rounded to the nearest 0.1 B.\nL\np\nA,m\nis the mean A-weighted sound pressure level measured at operator position (rounded to the nearest 1 dB).\n1 B (bel) = 10 dB (decibel).\nK\nv\nis the statistical adder for computing upper-limit of A-weighted sound power level.\nThe quantity,\nL\nW\nA,c\n(formerly called\nL\nW\nAd\n) may be computed from the sum of\nL\nW\nA,m\nand\nK\nv\n.\nThe wireless web test browses 6 tabs with a mix of content including media.\nConfiguration tested: Mac mini with Apple M4 chip, 10-core CPU, 10-core GPU, 16GB unified memory, 512GB storage and Mac mini with Apple M4 Pro chip, 12-core CPU, 16-core GPU, 24GB unified memory, 512GB storage."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

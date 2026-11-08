@@ -1,0 +1,117 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "Mac Pro",
+    "model": "Mac Pro (2023)",
+    "model_slug": "mac-pro-2023",
+    "model_year": 2023,
+    "year_introduced": 2023
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111343",
+    "source_file": "apple_mac_extraction/technical_specs_html/111343.html",
+    "source_title": "Mac Pro (2023) - Tech Specs",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Finish",
+      "source_text": "Silver"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "Apple M2 Ultra chip\n24-core CPU with 16 performance cores and 8 efficiency cores\n60-core GPU\n32-core Neural Engine\n800GB/s memory bandwidth\nMedia engine\nHardware-accelerated H.264, HEVC, ProRes and ProRes RAW\nTwo video decode engines\nFour video encode engines\nFour ProRes encode and decode engines\nConfigurable to:\nM2 Ultra with 24-core CPU, 76-core GPU and 32-core Neural Engine"
+    },
+    {
+      "heading": "Memory",
+      "source_text": "64GB unified memory\nConfigurable to\n128GB or 192GB"
+    },
+    {
+      "heading": "Storage 1",
+      "source_text": "1TB SSD\nConfigurable to\n2TB, 4TB or 8TB"
+    },
+    {
+      "heading": "Display Support",
+      "source_text": "Simultaneous support for up to eight displays:\nEight displays with up to 4K resolution at 60Hz\nSix displays with up to 6K resolution at 60Hz\nThree displays with up to 8K resolution at 60Hz\nThunderbolt 4 digital video output\nSupport for native DisplayPort output over USB‑C\nHDMI display video output (per port)\nSupport for one display with up to 8K resolution at 60Hz or 4K resolution at 240Hz\nSupport for variable refresh rate (VRR), HDR and multi-channel audio"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Built-in speaker\n3.5mm headphone jack with advanced support for high-impedance headphones\nHDMI port supports multi-channel audio output"
+    },
+    {
+      "heading": "Expansion",
+      "source_text": "Six full-length PCI Express gen 4 slots\nTwo x16 slots\nFour x8 slots\nOne half-length x4 PCI Express gen 3 slot with Apple I/O card installed\n300W auxiliary power available:\nTwo 6-pin connectors delivering 75W of power each\nOne 8-pin connector delivering 150W of power"
+    },
+    {
+      "heading": "Connections",
+      "source_text": "Eight Thunderbolt 4 (USB‑C) ports\nSix ports on the back of the enclosure and two ports on the top of the tower enclosure or two ports on the front of the rack enclosure\nSupport for:\nThunderbolt 4 (up to 40Gb/s)\nDisplayPort\nUSB 4 (up to 40Gb/s)\nUSB 3.1 Gen 2 (up to 10Gb/s)\nInternal connections\nOne USB‑A port (up to 5Gb/s)\nTwo Serial ATA ports (up to 6Gb/s)\nAdditional connections\nTwo USB‑A ports (up to 5Gb/s)\nTwo HDMI ports\nTwo 10Gb Ethernet ports\n3.5mm headphone jack"
+    },
+    {
+      "heading": "Communications",
+      "source_text": "Wi‑Fi\nWi‑Fi 6E (802.11ax)\n2\nBluetooth\nBluetooth 5.3\nTwo 10Gb Ethernet ports\n10Gb Ethernet (Nbase-T Ethernet with support for 1Gb, 2.5Gb, 5Gb and 10Gb Ethernet using RJ‑45 connector)"
+    },
+    {
+      "heading": "Input Devices",
+      "source_text": "Magic Keyboard with Touch ID and Numeric Keypad\nMagic Mouse\nOptional Magic Trackpad"
+    },
+    {
+      "heading": "Enclosure",
+      "source_text": "Mac Pro tower enclosure with feet; configurable to tower with wheels"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height:\n52.9 cm (20.8 inches)\nHeight with optional wheels:\n55.7 cm (21.9 inches)\nWidth:\n21.8 cm (8.58 inches)\nDepth:\n45.0 cm (17.7 inches)\nWeight:\n16.86 kg (37.2 pounds)\n3"
+    },
+    {
+      "heading": "Electrical and Operating Requirements",
+      "source_text": "Line voltage:\n100–240V AC at 12A; 220–240V AC at 6A\nFrequency:\n50Hz to 60Hz, single phase\nMaximum continuous power:\n1280W at 108–125V or 220–240V; 1180W at 100–107V\nOperating temperature:\n10° to 35° C (50° to 95° F)\nStorage temperature:\n–40° to 47° C (–40° to 116° F)\nRelative humidity:\n5% to 95% non-condensing\nMaximum altitude:\ntested up to 5,000 metres (16,400 feet)\nTypical acoustical performance:\nsound pressure level (operator position): 5 dBA at idle\n4"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "Mac Pro\nMagic Keyboard with Touch ID and Numeric Keypad\nMagic Mouse\nPower lead (2m)\nUSB-C Charge Cable (1m)"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "macOS\nmacOS is the most advanced desktop operating system in the world. It helps you stay productive and creative with help from Apple Intelligence,\n5\niPhone Mirroring,\n6\nwindow tiling, major updates to Safari, and more.\nMac User Guide"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new Mac Pro. With built-in support for vision, hearing, mobility and learning, you can create and do amazing things.\nLearn more about accessibility\nFeatures include:\nVoice Control\nVoiceOver\nZoom\nIncrease Contrast\nReduce Motion\nSiri and Dictation\nSwitch Control"
+    },
+    {
+      "heading": "Built-in Apps 7",
+      "source_text": "App Store\nBooks\nCalendar\nContacts\nFaceTime\nFind My\nFreeform\nGarageBand\nHome\niMovie\nKeynote\nMail\nMaps\nMessages\nMusic\nNews\nNotes\nNumbers\nPages\nPhoto Booth\nPhotos\nPodcasts\nPreview\nQuickTime Player\nReminders\nSafari\nShortcuts\nSiri\nStocks\nTime Machine\nTV\nVoice Memos"
+    },
+    {
+      "heading": "Configure to Order",
+      "source_text": "Configure your Mac Pro with these options at\napple.com\n:\nM2 Ultra with 24-core CPU, 76-core GPU and 32-core Neural Engine\n128GB unified memory\n192GB unified memory\n2TB, 4TB or 8TB SSD\nWheels (tower)"
+    },
+    {
+      "heading": "Mac Pro and the Environment",
+      "source_text": "Mac Pro is designed with the following features to reduce its environmental impact:\n8\nSee the Mac Pro Product Environmental Report (PDF)\nMade with better materials\n30% recycled content in the entire product,\n9\nincluding:\n70% recycled aluminium in the enclosure\n100% recycled rare earth elements in the speaker magnets\n100% recycled gold in the plating of multiple printed circuit boards\n100% recycled tin in the solder of multiple printed circuit boards\n35% or more recycled plastic in multiple components\nEnergy efficient\nENERGY STAR\n®\ncertified\n10\nSmarter chemistry\n11\nMercury-, BFR-, PVC- and beryllium-free\nGreen manufacturing\nOver 20% of manufacturing electricity sourced from supplier clean energy projects\n12\nNo established final assembly supplier sites generate any waste sent to landfill\n13\nResponsible packaging\n100% of virgin wood fibre comes from responsibly managed forests\n14\n95% fibre-based packaging\n15\nProgress towards our 2030 goal\nReduced emissions for Mac Pro by 34% against our baseline\n16\nApple and the Environment\nToday, Apple is carbon neutral for global corporate operations, and we are focused on our Apple 2030 goal to make every product carbon neutral.\nSee Apple’s commitment"
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "Declared noise emission values in accordance with ECMA-109\nSound Power Level\nL\nW\nA,m\n(B)\nSound Pressure Level\nOperator Position\nL\np\nA,m\n(dB)\nIdle\n2.6 (\nK\nV\n= 0.3)\n11\nWireless web\n2.6 (\nK\nV\n= 0.3)\n11\nL\nW\nA,m\nis the mean A-weighted sound power level, rounded to the nearest 0.1 B.\nL\np\nA,m\nis the mean A-weighted sound pressure level measured at the operator position (rounded to the nearest 1 dB).\n1 B (bel) = 10 dB (decibel).\nK\nv\nis the statistical adder for computing upper-limit of A-weighted sound power level.\nThe quantity,\nL\nW\nA,c\n(formerly called\nL\nW\nAd\n) may be computed from the sum of\nL\nW\nA,m\nand\nK\nv\n.\nThe wireless web test browses 6 tabs with a mix of content including media.\nConfiguration tested: Mac Pro with M2 Ultra Chip, 24-core CPU / 60-core GPU, 64 GB unified memory, 1 TB storage, tower enclosure."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

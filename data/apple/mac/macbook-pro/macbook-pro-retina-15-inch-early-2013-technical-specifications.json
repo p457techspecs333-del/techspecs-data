@@ -1,0 +1,117 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "MacBook Pro",
+    "model": "MacBook Pro (Retina, 15-inch, Early 2013) - Technical Specifications",
+    "model_slug": "macbook-pro-retina-15-inch-early-2013-technical-specifications",
+    "model_year": 2013,
+    "year_introduced": 2013
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/118465",
+    "source_file": "apple_mac_extraction/technical_specs_html/118465.html",
+    "source_title": "MacBook Pro (Retina, 15-inch, Early 2013) - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Display",
+      "source_text": "Retina display: 15.4-inch (diagonal) LED-backlit display with IPS technology\n2880-by-1800 native resolution at 220 pixels per inch with support for millions of colors\nScaled resolutions: 1920 by 1200, 1680 by 1050, 1280 by 800, and 1024 by 640 pixels"
+    },
+    {
+      "heading": "Processor",
+      "source_text": "2.4GHz quad-core\nIntel Core i7 processor (Turbo Boost up to 3.4GHz) with 6MB shared L3 cache\nConfigurable to 2.7GHz quad-core Intel Core i7 (Turbo Boost up to 3.7GHz) with 6MB shared L3 cache or 2.8GHz quad-core Intel Core i7 (Turbo Boost up to 3.8GHz) with 8MB shared L3 cache.\n2.7GHz quad-core\nIntel Core i7 processor (Turbo Boost up to 3.7GHz) with 6MB shared L3 cache\nConfigurable to 2.8GHz quad-core Intel Core i7 (Turbo Boost up to 3.8GHz) with 8MB shared L3 cache."
+    },
+    {
+      "heading": "Memory",
+      "source_text": "2.4GHz quad-core\n8GB of 1600MHz DDR3L onboard memory\nConfigurable to 16GB.\n2.7GHz quad-core\n16GB of 1600MHz DDR3L onboard memory"
+    },
+    {
+      "heading": "Storage 1",
+      "source_text": "2.4GHz quad-core\n256GB\nConfigurable to 512GB or 768GB flash storage.\n2.7GHz quad-core\n512GB\nConfigurable to 768GB flash storage."
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height: 0.71 inch (1.8 cm)\nWidth: 14.13 inches (35.89 cm)\nDepth: 9.73 inches (24.71 cm)\nWeight: 4.46 pounds (2.02 kg)\n2"
+    },
+    {
+      "heading": "Graphics and Video Support",
+      "source_text": "Intel HD Graphics 4000\nNVIDIA GeForce GT 650M with 1GB of GDDR5 memory and automatic graphics switching\nDual display and video mirroring:\nSimultaneously supports full native resolution on the built-in display and up to 2560 by 1600 pixels on up to two external displays, at millions of colors\nThunderbolt digital video output\nNative Mini DisplayPort output\nDVI output using Mini DisplayPort to DVI Adapter (sold separately)\nVGA output using Mini DisplayPort to VGA Adapter (sold separately)\nDual-link DVI output using Mini DisplayPort to Dual-Link DVI Adapter (sold separately)"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "720p FaceTime HD camera"
+    },
+    {
+      "heading": "Connections and Expansion",
+      "source_text": "MagSafe 2 power port\nTwo Thunderbolt ports (up to 10 Gbps)\nTwo USB 3 ports (up to 5 Gbps)\nHDMI port\nHeadphone port\nSDXC card slot\nApple Thunderbolt to FireWire Adapter (sold separately)\nApple Thunderbolt to Gigabit Ethernet Adapter (sold separately)"
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "Wi-Fi\n802.11n Wi-Fi wireless networking;\n3\nIEEE 802.11a/b/g compatible\nBluetooth\nBluetooth 4.0 wireless technology"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Stereo speakers\nDual microphones\nHeadphone port\nHeadphone/optical digital audio output (minijack)\nSupport for Apple iPhone headset with microphone"
+    },
+    {
+      "heading": "Keyboard and Trackpad",
+      "source_text": "Full-size backlit keyboard with 78 (U.S.) or 79 (ISO) keys, including 12 function keys and 4 arrow keys (inverted “T” arrangement) with ambient light sensor\nMulti-Touch trackpad for precise cursor control; supports inertial scrolling, pinch, rotate, swipe, three-finger swipe, four-finger swipe, tap, double-tap, and drag capabilities"
+    },
+    {
+      "heading": "Battery and Power 4",
+      "source_text": "Up to 7 hours wireless web\nUp to 30 days standby time\nBuilt-in 95-watt-hour lithium-polymer battery\n85W MagSafe 2 Power Adapter with cable management system; MagSafe 2 power port"
+    },
+    {
+      "heading": "Electrical and Operating Requirements",
+      "source_text": "Line voltage: 100V to 240V AC\nFrequency: 50Hz to 60Hz\nOperating temperature: 50° to 95° F (10° to 35° C)\nStorage temperature: –13° to 113° F (–24° to 45° C)\nRelative humidity: 0% to 90% noncondensing\nMaximum operating altitude: 10,000 feet\nMaximum storage altitude: 15,000 feet\nMaximum shipping altitude: 35,000 feet"
+    },
+    {
+      "heading": "Included Software",
+      "source_text": "OS X Mountain Lion:\nThe world’s most advanced desktop operating system.\nLearn more\nMac App Store\nSafari\nMail\nMessages\nCalendar\nContacts\nReminders\nNotes\nTime Machine\nFaceTime\nPhoto Booth\nGame Center\niTunes\niLife:\niPhoto, iMovie, and GarageBand."
+    },
+    {
+      "heading": "Limited Warranty and Service",
+      "source_text": "Your MacBook Pro with Retina display comes with 90 days of free telephone support and a one-year limited warranty. Purchase the\nAppleCare Protection Plan\nto extend your service and support to three years from your computer’s purchase date. Only the AppleCare Protection Plan provides you with direct telephone support from Apple technical experts and the assurance that repairs will be handled by Apple-authorized technicians using genuine Apple parts. For more information, visit\nApple Support\nor call 800-823-2775."
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "MacBook Pro with Retina display\nMagSafe 2 Power Adapter\nAC wall plug\nPower cord"
+    },
+    {
+      "heading": "Configure to Order",
+      "source_text": "Configure your MacBook Pro to order with these options, only at the\nApple Online Store\n:\n2.7GHz quad-core Intel Core i7 with Turbo Boost up to 3.7GHz and 6MB shared L3 cache\n2.8GHz quad-core Intel Core i7 with Turbo Boost up to 3.8GHz and 8MB shared L3 cache\n16GB memory\n512GB or 768GB of flash storage"
+    },
+    {
+      "heading": "MacBook Pro with Retina Display and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more\nMacBook Pro with Retina display is designed with the following features to reduce its environmental impact:\nHighly recyclable aluminum enclosure\nMercury-free LED–backlit display\nArsenic-free display glass\nBFR-free\nPVC-free\n5\nMeets ENERGY STAR Version 5.2 requirements\nRated EPEAT Gold\n6\nPackaging volumes reduced by 25 percent for up to a 45 percent reduction in aircraft usage.\nApple and the Environment\nLearn more\nabout Apple’s dedication to reducing the environmental impact of our products and process. Or read our\nProduct Environmental Reports\nfor detailed information on the environmental performance of every Apple product.\nRecycling\nApple takes a holistic view of materials management and waste minimization.\nLearn more\nabout how to recycle your Mac."
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "DECLARED NOISE EMISSIONS in accordance with ISO 9296\nSound Power Level\nL\nWAd\n(B)\n1 B = 10 dB\nSound Pressure Level\nOperator Position\nL\npAm\n(dB)\n2.4 GHz\n2.7 GHz\n2.4 GHz\n2.7 GHz\nIdle\n2.5\n2.5\n8.0\n8.0\nHard drive accessing\nN/A\nN/A\nN/A\nN/A\nCD drive accessing\nN/A\nN/A\nN/A\nN/A\nL\nWAd\nis the statistical upper-limit A-weighted sound power level (rounded to the nearest 0.1 B).\nL\npAm\nis the mean A-weighted sound pressure level measured at the operator position (rounded to the nearest dB).\n1 B (bel) = 10 dB (decibel)."
+    },
+    {
+      "heading": "Accessories",
+      "source_text": "Mac Software\niWork\nAperture\nLogic Pro\nFinal Cut Pro X\nDisplays and Adapters\nApple Thunderbolt Display\nApple Mini DisplayPort to DVI Adapter\nApple Mini DisplayPort to VGA Adapter\nApple Mini DisplayPort to Dual-Link DVI Adapter\nMagSafe to MagSafe 2 Converter\nAirPort and Wireless\nAirPort Express Base Station\nAirPort Extreme Base Station\nTime Capsule\nOther Accessories\nApple USB SuperDrive\nThunderbolt to Gigabit Ethernet Adapter\nThunderbolt to FireWire Adapter\n60W MagSafe 2 Power Adapter\n85W MagSafe 2 Power Adapter\nAppleCare Protection Plan"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

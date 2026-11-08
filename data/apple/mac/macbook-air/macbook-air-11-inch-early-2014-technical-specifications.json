@@ -1,0 +1,121 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "MacBook Air",
+    "model": "MacBook Air (11-inch, Early 2014) - Technical Specifications",
+    "model_slug": "macbook-air-11-inch-early-2014-technical-specifications",
+    "model_year": 2014,
+    "year_introduced": 2014
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/112032",
+    "source_file": "apple_mac_extraction/technical_specs_html/112032.html",
+    "source_title": "MacBook Air (11-inch, Early 2014) - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Display",
+      "source_text": "11.6-inch (diagonal) LED-backlit glossy widescreen display with support for millions of colors\nSupported resolutions:1366 by 768 (native), 1344 by 756, and 1280 by 720 pixels at 16:9 aspect ratio; 1152 by 720 and 1024 by 640 pixels at 16:10 aspect ratio; 1024 by 768 and 800 by 600 pixels at 4:3 aspect ratio"
+    },
+    {
+      "heading": "Storage 1",
+      "source_text": "128GB\n128GB PCIe-based flash storage\n256GB\n256GB PCIe-based flash storage\nConfigurable to 512GB flash storage."
+    },
+    {
+      "heading": "Processor",
+      "source_text": "1.4GHz dual-core Intel Core i5 (Turbo Boost up to 2.7GHz) with 3MB shared L3 cache\nConfigurable to 1.7GHz dual-core Intel Core i7 (Turbo Boost up to 3.3GHz) with 4MB shared L3 cache."
+    },
+    {
+      "heading": "Memory",
+      "source_text": "4GB of 1600MHz LPDDR3 onboard memory\nConfigurable to 8GB."
+    },
+    {
+      "heading": "Battery and Power 2",
+      "source_text": "Up to 9 hours wireless web\nUp to 9 hours iTunes movie playback\nUp to 30 days standby time\nBuilt‑in 38‑watt‑hour lithium‑polymer battery\n45W MagSafe 2 Power Adapter with cable management; MagSafe 2 power port"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height:\n0.11-0.68 inch (0.3-1.7 cm)\nWidth:\n11.8 inches (30 cm)\nDepth:\n7.56 inches (19.2 cm)\nWeight:\n2.38 pounds (1.08 kg)\n3"
+    },
+    {
+      "heading": "Graphics and Video Support",
+      "source_text": "Intel HD Graphics 5000\nDual display and video mirroring: Simultaneously supports full native resolution on the built-in display and up to 2560 by 1600 pixels on an external display, both at millions of colors\nThunderbolt digital video output\nNative Mini DisplayPort output\nDVI output using Mini DisplayPort to DVI Adapter (sold separately)\nVGA output using Mini DisplayPort to VGA Adapter (sold separately)\nDual-link DVI output using Mini DisplayPort to Dual-Link DVI Adapter (sold separately)\nHDMI audio and video output using third-party Mini DisplayPort to HDMI Adapter (sold separately)"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "720p FaceTime HD camera"
+    },
+    {
+      "heading": "Connections and Expansions",
+      "source_text": "Two USB 3 ports (up to 5 Gbps)\nThunderbolt port (up to 10 Gbps)\nMagSafe 2 power port\nHeadphone\nDual mics"
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "Wi-Fi\n802.11ac Wi-Fi networking;\n4\nIEEE 802.11a/b/g/n compatible\nBluetooth\nBluetooth 4.0 wireless technology"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Stereo speakers\nDual microphones\nHeadphone port\nSupport for Apple iPhone headset with remote and microphone"
+    },
+    {
+      "heading": "Keyboard and Trackpad",
+      "source_text": "Full-size backlit keyboard with 78 (U.S.) or 79 (ISO) keys, including 12 function keys and 4 arrow keys (inverted “T” arrangement) with ambient light sensor\nMulti-Touch trackpad for precise cursor control; supports inertial scrolling, pinch, rotate, swipe, three‑finger swipe, four-finger swipe, tap, double-tap, and drag capabilities"
+    },
+    {
+      "heading": "Electrical and Operating Requirements",
+      "source_text": "Line voltage: 100-240V AC\nFrequency: 50Hz to 60Hz\nOperating temperature: 50° to 95° F (10° to 35° C)\nStorage temperature: -13° to 113° F (-25° to 45° C)\nRelative humidity: 0% to 90% noncondensing\nOperating altitude: tested up to 10,000 feet\nMaximum storage altitude: 15,000 feet\nMaximum shipping altitude: 35,000 feet"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "OS X Mavericks:\nEasy to use, incredibly powerful, and packed with features you’ll love, OS X Mavericks is the world’s most advanced desktop operating system.\nLearn more about OS X Mavericks\nOS X Mavericks Includes:\nAirDrop\nAirPlay\nDictation\nGatekeeper\nNotification Center\nFacebook Integration\nTwitter Integration\nMultiple Display Support\nFinder Tabs and Tags\niCloud\niCloud Keychain\nDashboard\nMission Control\nSpotlight Search\nSafari Power Saver\nApp Nap\nPower Nap\nCompressed Memory\nBuilt-in Sharing"
+    },
+    {
+      "heading": "Built-in Apps 5",
+      "source_text": "iPhoto\niMovie\nGarageBand\nPages\nNumbers\nKeynote\nMaps\niBooks\nSafari\nMail\nFaceTime\nMessages\nCalendar\nContacts\nReminders\nTime Machine\nPhoto Booth\niTunes\nGame Center\nPreview\nNotes\nMac App Store"
+    },
+    {
+      "heading": "Limited Warranty and Service",
+      "source_text": "Your MacBook Air comes with 90 days of free telephone support and a one-year limited warranty. Purchase the\nAppleCare Protection Plan\nto extend your service and support to three years from your computer’s purchase date. Only the AppleCare Protection Plan provides you with direct telephone support from Apple technical experts and the assurance that repairs will be handled by Apple-authorized technicians using genuine Apple parts. For more information, visit\nApple Support\nor call 800-823-2775."
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "MacBook Air\nPower adapter\nAC wall plug\nPower cord"
+    },
+    {
+      "heading": "Configure to order",
+      "source_text": "Configure your MacBook Air to order with these options, only at the\nApple Online Store\n:\n1.7GHz dual-core Intel Core i7 (Turbo Boost up to 3.3GHz) with 4MB L3 cache\n8GB memory upgrade\n512GB of PCIe-based flash storage"
+    },
+    {
+      "heading": "MacBook Air and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more\nMacBook Air is designed with the following features to reduce its environmental impact:\nBFR-free\nPVC-free\n6\nHighly recyclable aluminum enclosure\nMeets ENERGY STAR Version 6.0 requirements\nRated EPEAT Gold\n7\nApple and the Environment\nLearn more\nabout Apple’s dedication to reducing the environmental impact of our products and process. Or read our\nProduct Environmental Reports\nfor detailed information on the environmental performance of every Apple product.\nRecycling\nApple takes a holistic view of materials management and waste minimization.\nLearn more\nabout how to recycle your Mac."
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "Declared noise emission values in accordance with ECMA-109\nSound Power Level\nL\nWA,m\n(B)\nSound Pressure Level\nOperator Position\nL\npA,m\n(dB)\nIdle\n1.25 (K\nV\n=0.25)\n4.0\nWireless web\n1.25 (K\nV\n=0.25)\n4.0\nL\nWA,m\nis the mean A-weighted sound power level, rounded to the nearest 0.05 B.\nL\npA,m\nis the mean A-weighted sound pressure level measured at the operator position (rounded to the nearest 0.5 dB).\n1 B (bel) = 10 dB (decibel)\nK\nV\nis the statistical adder for computing upper-limit of A-weighted sound power level.\nThe quantity, L\nWA,c\n(formerly called L\nWAd\n) may be computed from the sum of L\nWA,m\nand K\nV\n.\nThe Wireless web test browses 25 popular websites.\nConfiguration tested: 1.4GHz dual-core Intel Core i5 processor, 4GB memory, 256GB flash storage."
+    },
+    {
+      "heading": "Accessories",
+      "source_text": "Mac Software\nAperture\nLogic Pro X\nFinal Cut Pro X\nDisplays and Adapters\nApple Thunderbolt Display\nApple Mini DisplayPort to DVI Adapter\nApple Mini DisplayPort to VGA Adapter\nApple Mini DisplayPort to Dual-Link DVI Adapter\nMagSafe to MagSafe 2 Converter\nAirPort and Wireless\nAirPort Express\nAirPort Extreme\nAirPort Time Capsule\nOther Accessories\nApple USB SuperDrive\nThunderbolt to Gigabit Ethernet Adapter\nThunderbolt to FireWire Adapter\n45W MagSafe 2 Power Adapter\nAppleCare Protection Plan"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

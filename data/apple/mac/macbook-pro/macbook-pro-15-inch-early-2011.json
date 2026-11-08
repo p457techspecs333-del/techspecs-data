@@ -1,0 +1,109 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "MacBook Pro",
+    "model": "MacBook Pro (15-inch, Early 2011)",
+    "model_slug": "macbook-pro-15-inch-early-2011",
+    "model_year": 2011,
+    "year_introduced": 2011
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/112599",
+    "source_file": "apple_mac_extraction/technical_specs_html/112599.html",
+    "source_title": "MacBook Pro (15-inch, Early 2011) - Tech Specs",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Size and weight",
+      "source_text": "Height: 0.95 inch (2.41 cm)\nWidth: 14.35 inches (36.4 cm)\nDepth: 9.82 inches (24.9 cm)\nWeight: 5.6 pounds (2.54 kg)\n1"
+    },
+    {
+      "heading": "Connections and expansion",
+      "source_text": "MagSafe power port\nGigabit Ethernet port\nFireWire 800 port (up to 800 Mbps)\nTwo USB 2.0 ports (up to 480 Mbps)\nThunderbolt port (up to 10 Gbps)\nAudio line in\nAudio line out\nSDXC card slot\nKensington lock slot"
+    },
+    {
+      "heading": "Communications",
+      "source_text": "Wi-Fi wireless networking\n2\n(based on IEEE 802.11n specification); IEEE 802.11a/b/g compatible\nBluetooth 2.1 + EDR (Enhanced Data Rate) wireless technology\n10/100/1000BASE-T Gigabit Ethernet (RJ-45 connector)"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Stereo speakers with subwoofers\nOmnidirectional microphone (located under left speaker grille)\nAudio line in minijack (digital/analog)\nAudio line out/headphone minijack (digital/analog)\nSupport for Apple iPhone headset with microphone"
+    },
+    {
+      "heading": "Environmental Status Report",
+      "source_text": "MacBook Pro is designed with the following features to reduce its environmental impact:\nHighly recyclable aluminum and glass enclosure\nMercury-free LED-backlit display\nArsenic-free display glass\nBFR-free\nPVC-free\n3\nEnergy Efficient Ethernet\nReduced packaging volume\nMeets ENERGY STAR Version 5.2 requirements\nRated EPEAT Gold\n4"
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "DECLARED NOISE EMISSIONS in accordance with ISO 9296\nAcoustic Performance\nSound Power Level\nL\nWAd\n(B)\n1 B = 10 dB\nSound Pressure Level\nOperator Position\nL\npAm\n(dB)\n2.0 GHz\n2.2 GHz\n2.0 GHz\n2.2 GHz\nIdle\n2.9\n3.0\n20\n19\nHard drive accessing\n2.9\n3.0\n20\n20\nCD drive accessing\n3.4\n3.5\n30\n26\nL\nWAd\nis the statistical upper-limit A-weighted sound power level (rounded to the nearest 0.1 B).\nL\npAm\nis the mean A-weighted sound pressure level measured at the operator position (rounded to the nearest dB).\n1 B (bel) = 10 dB (decibel)."
+    },
+    {
+      "heading": "Display",
+      "source_text": "Glossy\nAntiglare\n15.4-inch (diagonal) LED-backlit glossy or optional antiglare widescreen display with support for millions of colors\nSupported resolutions\n: 1440 by 900 (native), 1280 by 800, 1152 by 720, 1024 by 640, and 800 by 500 pixels at 16:10 aspect ratio; 1024 by 768, 800 by 600, and 640 by 480 pixels at 4:3 aspect ratio; 1024 by 768, 800 by 600, and 640 by 480 pixels at 4:3 aspect ratio stretched; 720 by 480 pixels at 3:2 aspect ratio; 720 by 480 pixels at 3:2 aspect ratio stretched"
+    },
+    {
+      "heading": "Graphics and video support",
+      "source_text": "AMD Radeon HD 6490M graphics processor with 256MB of GDDR5 memory on 2.0GHz configuration; or AMD Radeon HD 6750M graphics processor with 1GB of GDDR5 memory on 2.2GHz configuration\nIntel HD Graphics 3000 with 384MB of DDR3 SDRAM shared with main memory\n5\nAutomatic graphics switching\nDual display and video mirroring: Simultaneously supports full native resolution on the built-in display and up to 2560 by 1600 pixels on an external display, both at millions of colors\nFaceTime HD camera\nThunderbolt port"
+    },
+    {
+      "heading": "Thunderbolt digital video output",
+      "source_text": "Native Mini DisplayPort output\nDVI output using Mini DisplayPort to DVI Adapter (optional)\nVGA output using Mini DisplayPort to VGA Adapter (optional)\nDual-link DVI output using Mini DisplayPort to Dual-Link DVI Adapter supports 30-inch Apple Cinema HD Display (optional)\nHDMI audio and video output using a third-party Mini DisplayPort to HDMI Adapter"
+    },
+    {
+      "heading": "Input",
+      "source_text": "Full-size backlit keyboard with 78 (U.S.) or 79 (ISO) keys, including 12 function keys and 4 arrow keys (inverted “T” arrangement)\nMulti-Touch trackpad for precise cursor control; supports inertial scrolling, pinch, rotate, swipe, three-finger swipe, four-finger swipe, tap, double-tap, and drag capabilities"
+    },
+    {
+      "heading": "Processor and memory",
+      "source_text": "2.0GHz or 2.2GHz quad-core Intel Core i7 processor with 6MB shared L3 cache; or optional 2.3GHz quad-core Intel Core i7 processor with 8MB shared L3 cache\n4GB (two 2GB SO-DIMMs) of 1333MHz DDR3 memory; two SO-DIMM slots support up to 8GB"
+    },
+    {
+      "heading": "Storage",
+      "source_text": "500GB or 750GB 5400-rpm Serial ATA hard drive; optional 750GB 5400-rpm hard drive, 500GB 7200-rpm hard drive, or 128GB, 256GB, or 512GB solid-state drive\n6\n8x slot-loading SuperDrive (DVD±R DL/DVD±RW/CD-RW)\nMaximum write: 8x DVD-R, DVD+R; 4x DVD-R DL (double layer), DVD+R DL (double layer), DVD-RW, DVD+RW; 24x CD-R; 10x CD-RW\nMaximum read: 8x DVD-R, DVD+R, DVD-ROM; 6x DVD-ROM (double layer DVD-9), DVD-R DL (double layer), DVD+R DL (double layer), DVD-RW, DVD+RW; 24x CD"
+    },
+    {
+      "heading": "Battery and power 7",
+      "source_text": "Up to\n7\nhrs\nwireless web\nBuilt-in 77.5-watt-hour lithium-polymer battery\n85W MagSafe Power Adapter with cable management system\nMagSafe power port"
+    },
+    {
+      "heading": "Electrical and operating requirements",
+      "source_text": "Line voltage: 100V to 240V AC\nFrequency: 50Hz to 60Hz\nOperating temperature: 50° to 95° F\n(10° to 35° C)\nStorage temperature: -13° to 113° F\n(-24° to 45° C)\nRelative humidity: 0% to 90% noncondensing\nMaximum operating altitude: 10,000 feet\nMaximum storage altitude: 15,000 feet\nMaximum shipping altitude: 35,000 feet"
+    },
+    {
+      "heading": "What’s in the box",
+      "source_text": "MacBook Pro\nDisplay cleaning cloth\n85W MagSafe Power Adapter, AC wall plug, and power cord\nSoftware DVDs\nPrinted and electronic documentation"
+    },
+    {
+      "heading": "Software",
+      "source_text": "Mac OS X v10.6 Snow Leopard (includes iTunes, Time Machine, Quick Look, Spaces, Spotlight, Dashboard, Mail, iChat, Safari, Address Book, QuickTime, iCal, DVD Player, Photo Booth, Front Row, Xcode Developer Tools)\niLife (includes iPhoto, iMovie, iDVD, iWeb, GarageBand)"
+    },
+    {
+      "heading": "15-inch Configurations",
+      "source_text": "2.0GHz MacBook Pro (MC721LL/A)\n2.2GHz MacBook Pro (MC723LL/A)\nEnclosure\nPrecision aluminum unibody\nProcessor\n2.0GHz quad-core Intel Core i7\n2.2GHz quad-core Intel Core i7\nL3 cache\n6MB shared\n6MB shared\nMemory\n4GB (two 2GB SO-DIMMs) of 1333MHz DDR3 SDRAM; supports up to 8GB\nHard drive\n6\n500GB Serial ATA; 5400 rpm\n750GB Serial ATA; 5400 rpm\nSlot-loading optical drive\n8x SuperDrive (DVD±R DL/DVD±RW/CD-RW)\nGraphics\nIntel HD Graphics 3000\n5\nand AMD Radeon HD 6490M with automatic graphics switching\nIntel HD Graphics 3000\n5\nand AMD Radeon HD 6750M with automatic graphics switching\nGraphics memory\n256MB GDDR5\n1GB GDDR5\nVideo\nFaceTime HD camera; Thunderbolt port with support for DVI, VGA, dual-link DVI, and HDMI (requires adapters, sold separately)\nDisplay\n15.4-inch (diagonal) LED-backlit glossy widescreen display, 1440-by-900 resolution\nExpansion\nOne Thunderbolt port (up to 10 Gbps), one FireWire 800 port (up to 800 Mbps), two USB 2.0 ports (up to 480 Mbps), SDXC card slot\nAudio\nStereo speakers with subwoofers, omnidirectional microphone, audio line in minijack (digital/analog), audio line out/headphone minijack (digital/analog)\nNetworking\n10/100/1000BASE-T (Gigabit) Ethernet\nWireless\nWi-Fi (based on IEEE 802.11n specification)\n2\n; Bluetooth 2.1 + EDR (Enhanced Data Rate) wireless technology\nHardware accessories\n85W MagSafe Power Adapter, AC wall plug, power cord\nApple and the global environment\nLearn more about Apple’s dedication to reducing the environmental impact of our products and processes. The Apple Product Environmental Specification details the environmental attributes of our products.\nRecycling\nApple takes a holistic view of materials management and waste minimization. Learn more about how to recycle your Mac."
+    },
+    {
+      "heading": "Options",
+      "source_text": "Time Capsule\nTime Capsule is a full-featured AirPort Extreme base station with a built-in hard drive. Back up wirelessly and create a Wi-Fi network with one device.\n1TB or 2TB server-grade hard drive\nWi-Fi Certified for 802.11n 2.0\nUSB port for connecting a USB printer or USB external hard drive\nConfigure to order\n750GB (5400-rpm) hard drive\n500GB (7200-rpm) hard drive\n128GB, 256GB, or 512GB solid-state drive\nUp to 8GB of 1333MHz DDR3 SDRAM\n1680-by-1050 high-resolution glossy display\n1680-by-1050 high-resolution antiglare display\nApple Remote\nApple Mini DisplayPort to DVI Adapter\nApple Mini DisplayPort to Dual-Link DVI Adapter\nApple Mini DisplayPort to VGA Adapter\nMagSafe Airline Adapter\nAperture\nFinal Cut Express\nLogic Express\niWork\nAccessories\nApple LED Cinema Display\nAirPort Extreme Base Station\nAirPort Express Base Station\nApple Wireless Keyboard\nMagic Mouse\nApple Keyboard with Numeric Keypad\nApple Mouse"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

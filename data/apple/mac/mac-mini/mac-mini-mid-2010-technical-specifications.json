@@ -1,0 +1,105 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "Mac mini",
+    "model": "Mac mini (Mid 2010) - Technical Specifications",
+    "model_slug": "mac-mini-mid-2010-technical-specifications",
+    "model_year": 2010,
+    "year_introduced": 2010
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/112588",
+    "source_file": "apple_mac_extraction/technical_specs_html/112588.html",
+    "source_title": "Mac mini (Mid 2010) - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Size and weight",
+      "source_text": "Height: 1.4 inches (3.6 cm)\nWidth: 7.7 inches (19.7 cm)\nDepth: 7.7 inches (19.7 cm)\nWeight: 3.0 pounds (1.37 kg)\n1"
+    },
+    {
+      "heading": "Processor and memory",
+      "source_text": "2.4GHz or 2.66GHz Intel Core 2 Duo processor\n3MB on-chip shared L2 cache\n1066MHz frontside bus\n2GB (two 1GB SO-DIMMs) of 1066MHz DDR3 SDRAM; two SO-DIMM slots support up to 8GB"
+    },
+    {
+      "heading": "Environmental Status Report",
+      "source_text": "Mac mini is designed with the following features to reduce its environmental impact:\nBFR-free\nPVC-free\n2\nHighly recyclable aluminum enclosure\nMeets ENERGY STAR 5.0 requirements\nRated EPEAT Gold\n3"
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "DECLARED NOISE EMISSIONS in accordance with ISO 9296\nSound Power Level\nL\nWAd\n(B)\n1 B = 10 dB\nSound Pressure Level\nOperator Position\nL\npAm\n(dB)\n2.4 GHz\n2.66 GHz\n2.4 GHz\n2.66 GHz\nIdle\n2.7\n2.9\n13\n15\nHard drive accessing\n2.7\n2.9\n14\n15\nCD drive accessing\n3.0\nno value\n20\nno value\nL\nWAd\nis the statistical upper-limit A-weighted sound power level (rounded to the nearest 0.1 B).\nL\npAm\nis the mean A-weighted sound pressure level measured at the operator position (rounded to the nearest dB).\n1 B (bel) = 10 dB (decibel)."
+    },
+    {
+      "heading": "Peripheral connections",
+      "source_text": "One FireWire 800 port (up to 800 Mbps)\nFour USB 2.0 ports (up to 480 Mbps)\nSD card slot"
+    },
+    {
+      "heading": "Graphics and video support",
+      "source_text": "NVIDIA GeForce 320M graphics processor with 256MB of DDR3 SDRAM shared with main memory\n4\nMini DisplayPort with support for up to 2560-by-1600 resolution\nHDMI port with support for up to 1920-by-1200 resolution\nDVI output using HDMI to DVI Adapter (included)\nVGA output using Mini DisplayPort to VGA Adapter (sold separately)\nSupport for extended desktop and video mirroring across both ports"
+    },
+    {
+      "heading": "Communications",
+      "source_text": "AirPort Extreme 802.11n Wi-Fi wireless networking\n5\n; IEEE 802.11a/b/g compatible\nBluetooth 2.1 + EDR (Enhanced Data Rate) wireless technology\n10/100/1000BASE-T Ethernet (RJ-45) interface with support for jumbo frames"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Audio line in minijack (digital/analog)\nAudio line out/headphone minijack (digital/analog)\nHDMI port supports multichannel audio output\nSupport for Apple iPhone headset with microphone"
+    },
+    {
+      "heading": "Storage",
+      "source_text": "320GB or 500GB Serial ATA hard disk drive\n6\n8x slot-loading SuperDrive (DVD±R DL/DVD±RW/CD-RW)\nMaximum read: 8x DVD-R, DVD+R, DVD-ROM, DVD-ROM (double layer DVD-9), DVD-R DL (double layer), DVD+R DL (double layer), DVD-RW, and DVD+RW; 24x CD\nMaximum write: 8x DVD-R, DVD+R; 6x DVD-R DL (double layer), DVD+R DL (double layer), DVD-RW; 8x DVD+RW; 24x CD-R; 24x CD-RW"
+    },
+    {
+      "heading": "Configurable options",
+      "source_text": "Optional Processor\nApple Online Store only\nOptional Drive\nApple Online Store only\nStandard Memory\nOptional Memory\nApple Online Store only\nMac mini\n2.4 GHz: 320 GB\n2.66 GHz\n500 GB\n2 GB\n4 GB\n8 GB"
+    },
+    {
+      "heading": "Electrical and operating requirements",
+      "source_text": "Line voltage: 100-240V AC\nFrequency: 50Hz to 60Hz, single phase\nMaximum continuous power: 85W\nOperating temperature: 50° to 95° F (10° to 35° C)\nStorage temperature: -40° to 116° F (-40° to 47° C)\nRelative humidity: 5% to 95% noncondensing\nMaximum altitude: 10,000 feet\nTypical acoustical performance\nSound pressure level (operator position): 14 dBA at idle\n7"
+    },
+    {
+      "heading": "In the box:",
+      "source_text": "Mac mini\nHDMI to DVI Adapter\nPower cord\nInstall/restore DVDs\nPrinted and electronic documentation"
+    },
+    {
+      "heading": "Included software:",
+      "source_text": "Mac OS X Snow Leopard\nIncludes iTunes, Time Machine, Quick Look, Spaces, Spotlight, Dashboard, Mail, iChat, Safari, Address Book, QuickTime, iCal, DVD Player, Photo Booth, Front Row, Xcode Developer Tools, and more. Learn more about Mac OS X Snow Leopard\niLife\nIncludes iPhoto, iMovie, GarageBand, and iWeb. Learn more about iLife"
+    },
+    {
+      "heading": "Mac Software",
+      "source_text": "iWork\nAperture\nLogic Express\nFinal Cut Express"
+    },
+    {
+      "heading": "Displays and Graphics",
+      "source_text": "Apple LED Cinema Display\nApple Mini DisplayPort to DVI Adapter\nApple Mini DisplayPort to VGA Adapter\nApple Mini DisplayPort to Dual-Link DVI Adapter"
+    },
+    {
+      "heading": "AirPort & Wireless",
+      "source_text": "AirPort Express Base Station\nAirPort Extreme Base Station\nTime Capsule\nApple Wireless Keyboard\nApple Magic Mouse"
+    },
+    {
+      "heading": "Other Accessories",
+      "source_text": "Apple Remote\nApple Keyboard\nAppleCare Protection Plan"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

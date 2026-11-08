@@ -1,0 +1,105 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "Mac Pro",
+    "model": "Mac Pro (Early 2009) - Technical Specifications",
+    "model_slug": "mac-pro-early-2009-technical-specifications",
+    "model_year": 2009,
+    "year_introduced": 2009
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/112590",
+    "source_file": "apple_mac_extraction/technical_specs_html/112590.html",
+    "source_title": "Mac Pro (Early 2009) - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Processing",
+      "source_text": "8-core: Two 2.26GHz, 2.66GHz, or 2.93GHz Quad-Core Intel Xeon 5500 series processors\nQuad-core: One 2.66GHz, 2.93GHz, or 3.33GHz Quad-Core Intel Xeon 3500 series processor\nNext-generation Intel microarchitecture\n8MB of fully shared L3 cache per processor\nIntegrated memory controller\nTurbo Boost dynamic performance (up to 3.33GHz on 8-core 2.93GHz system, up to 3.6GHz on quad-core 3.33GHz system)\nHyper-Threading technology for up to 16 virtual cores\n128-bit SSE4 SIMD engine\n64-bit data paths and registers\nOptimized for energy efficiency"
+    },
+    {
+      "heading": "Memory",
+      "source_text": "1066MHz DDR3 ECC SDRAM\n8-core: Eight memory slots (four per processor) supporting up to 32GB of main memory using 1GB, 2GB, or 4GB DIMMs\nQuad-core: Four memory slots supporting up to 16GB of main memory using 1GB, 2GB, or 4GB DIMMs"
+    },
+    {
+      "heading": "Graphics and displays",
+      "source_text": "Double-wide, 16-lane PCI Express 2.0 graphics slot with one of the following graphics cards installed:\nNVIDIA GeForce GT 120 with 512MB of GDDR3 memory, PCI Express 2.0, one Mini DisplayPort, and one dual-link DVI port\nATI Radeon HD 4870 with 512MB of GDDR5 memory, PCI Express 2.0, one Mini DisplayPort, and one dual-link DVI port\nMultiple graphics card configurations available with two, three, or four NVIDIA GeForce GT 120 cards\nSupport for up to eight 30-inch displays\n1\nSupport for digital resolutions up to 2560 by 1600 pixels\nSupport for analog resolutions up to 2048 by 1536 pixels\nVideo adapters available for:\nAdditional DVI output using Mini DisplayPort to DVI Adapter (optional)\nAdditional dual-link DVI output using Mini DisplayPort to Dual-Link DVI Adapter (optional)\nVGA output using Mini DisplayPort to VGA Adapter or DVI to VGA Display Adapter (optional)"
+    },
+    {
+      "heading": "Communications",
+      "source_text": "Two independent 10/100/1000BASE-T Ethernet (RJ-45) interfaces with support for jumbo frames\nBluetooth 2.1 + Enhanced Data Rate (EDR)\nOptional AirPort Extreme 802.11n Wi-Fi wireless networking card;\n2\nIEEE 802.11a/b/g compatible"
+    },
+    {
+      "heading": "Storage",
+      "source_text": "Four 3.5-inch cable-free, direct-attach hard drive bays with built-in independent 3Gb/s Serial ATA channels; four internal hard drive carriers included\nUp to 8TB of internal storage\n3\nin hard drive bays 1 through 4 using hard drives in the following capacities:\n640GB Serial ATA 3Gb/s, 7200 rpm, 16MB cache\n1TB or 2TB Serial ATA 3Gb/s, 7200 rpm, 32MB cache\nOptional Mac Pro RAID Card with 512MB cache and 72-hour cache battery backup\n18x SuperDrive with double-layer support (DVD±R DL/DVD±RW/CD-RW)\nWrites DVD+R and DVD-R discs at up to 18x speed\nWrites DVD+R DL and DVD-R DL discs at up to 8x speed\nWrites DVD+RW discs at up to 8x speed\nWrites DVD-RW discs at up to 6x speed\nReads DVDs at up to 18x speed\nWrites CD-R and CD-RW discs at up to 32x speed\nReads CDs at up to 32x speed\nOne open optical drive bay for optional second SuperDrive"
+    },
+    {
+      "heading": "Electrical and operating requirements",
+      "source_text": "Line voltage: 100-120V AC or 200-240V AC (wide-range power supply input voltage)\nFrequency: 50Hz to 60Hz single phase\nCurrent: Maximum of 12A (low-voltage range) or 6A (high-voltage range)\nOperating temperature: 50° to 95° F (10° to 35° C)\nStorage temperature: -40° to 116° F (-40° to 47° C)\nRelative humidity: 5% to 95% noncondensing\nMaximum operating altitude: 10,000 feet"
+    },
+    {
+      "heading": "Environmental Status Report",
+      "source_text": "BFR-free\nPVC-free (internal cables)\nHighly recyclable aluminum enclosure\nMeets ENERGY STAR 5.0 requirements\n4\nRated EPEAT Gold\n4"
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "DECLARED NOISE EMISSIONS in accordance with ISO 9296\nSound Power Level\nL\nWAd\n(B)\n1 B = 10 dB\nSound Pressure Level\nOperator Position\nL\npAm\n(dB)\n2.66 GHz\n2.26 GHz\n2.66 GHz\n2.26 GHz\nIdle\n3.7\n3.5\n26\n25\nHard drive accessing\n3.7\n3.6\n26\n25\nCD drive accessing\n4.9\n5.2\n41\n41\nL\nWAd\nis the statistical upper-limit A-weighted sound power level (rounded to the nearest 0.1 B).\nL\npAm\nis the mean A-weighted sound pressure level measured at the operator position (rounded to the nearest dB).\n1 B (bel) = 10 dB (decibel)."
+    },
+    {
+      "heading": "Connections and audio",
+      "source_text": "Four FireWire 800 ports (two on front panel, two on back panel)\nFive USB 2.0 ports (two on front panel, three on back panel)\nTwo USB 2.0 ports on included keyboard\nFront-panel headphone minijack and internal speaker\nOptical digital audio input and output TOSLINK ports\nAnalog stereo line-level input and output minijacks"
+    },
+    {
+      "heading": "PCI Express expansion",
+      "source_text": "Three open full-length PCI Express expansion slots\n5\nOne PCI Express 2.0 x16 slot\nTwo PCI Express 2.0 x4 slots\nAll slots provide mechanical support for 16-lane cards\n300W combined maximum for all PCI Express slots"
+    },
+    {
+      "heading": "Software",
+      "source_text": "Mac OS X v10.6 Snow Leopard (includes iTunes, Time Machine, Quick Look, Spaces, Spotlight, Dashboard, Mail, iChat, Safari, Address Book, QuickTime, iCal, DVD Player, Photo Booth, Front Row, Xcode Developer Tools)\niLife (includes iPhoto, iMovie, iDVD, iWeb, and GarageBand)\nYou can also have the following software pre-installed, only at the Apple Online Store:\niWork\nFinal Cut Express\nAperture\nLogic Express\nFilemaker"
+    },
+    {
+      "heading": "Size and weight",
+      "source_text": "Height: 20.1 inches (51.1 cm)\nWidth: 8.1 inches (20.6 cm)\nDepth: 18.7 inches (47.5 cm)\nWeight (standard configuration):\n8-core: 41.2 pounds (18.7 kg)\n6\nQuad-core: 39.9 pounds (18.1 kg)\n6"
+    },
+    {
+      "heading": "In the box",
+      "source_text": "Mac Pro\nPower cord\nApple Keyboard with Numeric Keypad and Apple Mouse\nUSB keyboard extension cable\nInstall/restore DVDs\nPrinted and electronic documentation"
+    },
+    {
+      "heading": "Configuration Options",
+      "source_text": "Quad-Core (MB871LL/A)\n8-Core (MB535LL/A)\nProcessor\n2.66GHz Quad-Core Intel Xeon\nTwo 2.26GHz Quad-Core Intel Xeon\nCache\n8MB fully shared L3 cache\n8MB fully shared L3 cache per processor\nMemory\n3GB (three 1GB DIMMs) of 1066MHz DDR3 ECC SDRAM\n6GB (six 1GB DIMMs) of 1066MHz DDR3 ECC SDRAM\nPCI Express 2.0 graphics\nNVIDIA GeForce GT 120 with 512MB GDDR3 memory, Mini DisplayPort, and dual-link DVI video output\nHard disk drive\n640GB Serial ATA (3Gb/s); 7200 rpm\nOptical drive\n18x SuperDrive with double-layer support (DVD±R DL/DVD±RW/CD-RW)\nWireless\nBuilt-in Bluetooth 2.1 + EDR (Enhanced Data Rate)\nPCI Express\nThree open full-length PCI Express 2.0 expansion slots with mechanical support for 16-lane cards; 300W combined maximum for all PCI Express slots\nBuild-to-Order Options\n2.93GHz Quad-Core Intel Xeon\n3.33GHz Quad-Core Intel Xeon\n6GB memory (three 2GB DIMMs)\n8GB memory (four 2GB DIMMs)\n12GB memory (three 4GB DIMMs)\n16GB memory (four 4GB DIMMs)\nATI Radeon HD 4870 with 512MB GDDR5\nTwo NVIDIA GeForce GT 120\nThree NVIDIA GeForce GT 120\nFour NVIDIA GeForce GT 120\nHard drive bays 1-4: 640GB Serial ATA 3Gb/s (7200 rpm) or 1TB Serial ATA 3Gb/s (7200 rpm)\n3\nMac Pro RAID Card\nTwo 18x SuperDrive optical drives\nAirPort Extreme Wi-Fi card with 802.11n\n2\nApple Keyboard\nApple Wireless Keyboard\nDual-Channel 4Gb Fibre Channel card\nQuad-Channel 4Gb Fibre Channel card\nTwo 2.66GHz Quad-Core Intel Xeon\nTwo 2.93GHz Quad-Core Intel Xeon\n8GB memory (four 2GB DIMMs)\n12GB memory (six 2GB DIMMs)\n16GB memory (eight 2GB DIMMs)\n32GB memory (eight 4GB DIMMs)\nATI Radeon HD 4870 with 512MB GDDR5\nTwo NVIDIA GeForce GT 120\nThree NVIDIA GeForce GT 120\nFour NVIDIA GeForce GT 120\nHard drive bays 1-4: 640GB Serial ATA 3Gb/s (7200 rpm) or 1TB Serial ATA 3Gb/s (7200 rpm)\n3\nMac Pro RAID Card\nTwo 18x SuperDrive optical drives\nAirPort Extreme Wi-Fi card with 802.11n\n2\nApple Keyboard\nApple Wireless Keyboard\nDual-Channel 4Gb Fibre Channel card\nQuad-Channel 4Gb Fibre Channel card"
+    },
+    {
+      "heading": "Upgrades",
+      "source_text": "1GB Memory Kit\n2GB Memory Kit\n4GB Memory Kit\n640GB SATA Drive Kit\n1TB SATA Drive Kit\n2TB SATA Drive Kit\nPromise 450GB SAS Drive for Mac Pro\nMac Pro RAID Card\nATI Radeon HD 4870 Graphics Upgrade Kit\nApple Dual-Channel 4Gb Fibre Channel PCI Express Card\nApple Quad-Channel 4Gb Fibre Channel PCI Express Card"
+    },
+    {
+      "heading": "Accessories",
+      "source_text": "Apple LED Cinema Display\nTime Capsule\nAirPort Extreme Base Station\nAirPort Express Base Station\nApple Keyboard\nApple Wireless Keyboard\nMagic Mouse\nAppleCare Protection Plan"
+    },
+    {
+      "heading": "Applications",
+      "source_text": "Final Cut Studio\nFinal Cut Express\nAperture\nLogic Pro\nLogic Express\nMac OS X Server v10.5 (10-client license)\nMac OS X Server v10.5 (Unlimited-client license)\nApple Remote Desktop\niWork"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

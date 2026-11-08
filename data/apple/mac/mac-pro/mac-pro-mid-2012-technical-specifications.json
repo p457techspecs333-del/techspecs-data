@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "Mac Pro",
+    "model": "Mac Pro (Mid 2012) - Technical Specifications",
+    "model_slug": "mac-pro-mid-2012-technical-specifications",
+    "model_year": 2012,
+    "year_introduced": 2012
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/118464",
+    "source_file": "apple_mac_extraction/technical_specs_html/118464.html",
+    "source_title": "Mac Pro (Mid 2012) - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Size and weight",
+      "source_text": "Height:\n20.1\ninches (51.1 cm)\nWidth:\n8.1\ninches (20.6 cm)\nDepth:\n18.7\ninches (47.5 cm)\nWeight:\n12-core\n41.2\npounds (18.7 kg)\n1\nQuad-core\n39.9\npounds (18.1 kg)\n1"
+    },
+    {
+      "heading": "Processing",
+      "source_text": "12-core (standard configuration)\nTwo 2.4GHz 6-Core Intel Xeon E5645 processors\n12MB of fully shared L3 cache per processor\nTurbo Boost dynamic performance up to 2.67GHz\nHyper-Threading technology for up to 24 virtual cores\nQuad-core (standard configuration)\nOne 3.2GHz Quad-Core Intel Xeon W3565 processor\n8MB of fully shared L3 cache per processor\nTurbo Boost dynamic performance up to 3.46GHz\nHyper-Threading technology for up to 8 virtual cores\nAdvanced Intel microarchitecture\nIntegrated memory controller\n128-bit SSE4 SIMD engine\n64-bit data paths and registers\nOptimized for energy efficiency\nConfigure your Mac Pro now, only at the\nApple Online Store\n."
+    },
+    {
+      "heading": "Connections and audio",
+      "source_text": "Four FireWire 800 ports (two on front panel, two on back panel)\nFive USB 2.0 ports (two on front panel, three on back panel)\nTwo USB 2.0 ports on included keyboard\nFront-panel headphone minijack and internal speaker\nOptical digital audio input and output TOSLINK ports\nAnalog stereo line-level input and output minijacks\nMultichannel audio through Mini DisplayPort"
+    },
+    {
+      "heading": "Graphics and displays",
+      "source_text": "Double-wide, 16-lane PCI Express 2.0 graphics slot with one of the following graphics cards installed:\nATI Radeon HD 5770 with 1GB of GDDR5 memory, PCI Express 2.0, two Mini DisplayPort outputs, and one dual-link DVI port\nATI Radeon HD 5870 with 1GB of GDDR5 memory, PCI Express 2.0, two Mini DisplayPort outputs, and one dual-link DVI port\nOption to install two ATI Radeon HD 5770 cards\nSupport for up to six displays\n2\nSupport for digital resolutions up to 2560 by 1600 pixels\nSupport for analog resolutions up to 2048 by 1536 pixels\nVideo adapters available for:\nAdditional DVI output using Mini DisplayPort to DVI Adapter (optional)\nAdditional dual-link DVI output using Mini DisplayPort to Dual-Link DVI Adapter (optional)\nVGA output using Mini DisplayPort to VGA Adapter or DVI to VGA Display Adapter (optional)"
+    },
+    {
+      "heading": "Memory",
+      "source_text": "Dual-processor systems\n2.4GHz, 2.66GHz, and 3.06GHz systems: 1333MHz DDR3 ECC SDRAM\nEight memory slots (four per processor) supporting up to 64GB of main memory using 1GB, 2GB, 4GB, or 8GB DIMMs\nSingle-processor systems\n3.2GHz system: 1066MHz DDR3 ECC SDRAM\n3.33GHz system: 1333MHz DDR3 ECC SDRAM\nFour memory slots supporting up to 32GB of main memory using 1GB, 2GB, 4GB, or 8GB DIMMs"
+    },
+    {
+      "heading": "Communications",
+      "source_text": "Built-in AirPort Extreme 802.11n Wi-Fi wireless networking;\n3\nIEEE 802.11a/b/g compatible\nBluetooth 2.1 + Enhanced Data Rate (EDR) wireless technology\nTwo independent 10/100/1000BASE-T Ethernet (RJ-45) interfaces with support for jumbo frames"
+    },
+    {
+      "heading": "Environmental Status Report",
+      "source_text": "BFR-free\nPVC-free (internal cables)\nHighly recyclable aluminum enclosure\nMeets ENERGY STAR 5.2 requirements\n4\nRated EPEAT Gold\n5"
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "DECLARED NOISE EMISSIONS in accordance with ISO 9296\nSound Power Level\nL\nWAd\n(B)\n1 B = 10 dB\nSound Pressure Level, Operator Position\nL\npAm\n(dB)\n2.4 GHz\n3.2 GHz\n2.4 GHz\n3.2 GHz\nIdle\n3.5\n3.7\n25\n26\nHard drive accessing\n3.5\n3.7\n25\n26\nCD drive accessing\n5.1\n4.7\n42\n42\nL\nWAd\nis the statistical upper-limit A-weighted sound power level (rounded to the nearest 0.1 B).\nL\npAm\nis the mean A-weighted sound pressure level measured at the operator position (rounded to the nearest dB).\n1 B (bel) = 10 dB (decibel)."
+    },
+    {
+      "heading": "Electrical and operating requirements",
+      "source_text": "Line voltage: 100-120V AC or 200-240V AC (wide-range power supply input voltage)\nFrequency: 50Hz to 60Hz single phase\nCurrent: Maximum of 12A (low-voltage range) or 5A (high-voltage range)\nOperating temperature: 50° to 95° F (10° to 35° C)\nStorage temperature: -40° to 116° F (-40° to 47° C)\nRelative humidity: 5% to 95% noncondensing\nMaximum operating altitude: 10,000 feet"
+    },
+    {
+      "heading": "PCI Express expansion",
+      "source_text": "Three open full-length PCI Express expansion slots\n6\nOne PCI Express 2.0 x16 slot\nTwo PCI Express 2.0 x4 slots\nAll slots provide mechanical support for 16-lane cards\n300W combined maximum for all PCI Express slots"
+    },
+    {
+      "heading": "Storage",
+      "source_text": "Four 3.5-inch cable-free, direct-attach drive bays with built-in independent 3Gb/s Serial ATA channels; four internal drive carriers included\nUp to 8TB of internal storage\n7\nin bays 1 through 4 using hard drives or solid-state drives in the following capacities:\n1TB or 2TB hard drives, Serial ATA 3Gb/s, 7200 rpm, 32MB cache\n512GB solid-state drive, Serial ATA 3Gb/s\n18x SuperDrive with double-layer support (DVD±R DL/DVD±RW/CD-RW)\nWrites DVD+R and DVD-R discs at up to 18x speed\nWrites DVD+R DL and DVD-R DL discs at up to 8x speed\nWrites DVD+RW discs at up to 8x speed\nWrites DVD-RW discs at up to 6x speed\nReads DVDs at up to 18x speed\nWrites CD-R and CD-RW discs at up to 32x speed\nReads CDs at up to 32x speed\nOne open optical drive bay for optional second SuperDrive"
+    },
+    {
+      "heading": "What’s included",
+      "source_text": "In the box\nQuad-core and 12-core:\nMac Pro\nPower cord\nApple Keyboard with Numeric Keypad\nMagic Mouse\nUSB keyboard extension cable\nPrinted and electronic documentation\nServer:\nMac Pro\nPower cord\nPrinted and electronic documentation"
+    },
+    {
+      "heading": "Included software",
+      "source_text": "Quad-core and 12-core:\nOS X Mountain Lion\nIncludes Mail, Messages, Contacts, Calendar, Safari, Reminders, Notification Center, Notes, Dictation, iCloud, Time Machine, FaceTime, Photo Booth, Game Center, the Mac App Store, iTunes, Gatekeeper, Twitter and Facebook integration\n8\nand more.\nServer:\nOS X Server\nIncludes Server App, Profile Manager, Wiki Server, Calendar Server, Mail Server, Xsan, the Mac App Store, Safari, Time Machine, Mission Control, Launchpad, AirDrop, Resume, Auto Save, Versions, Quick Look, Spotlight, QuickTime, and more.\nQuad-core, 12-core, and Server:\niLife\nIncludes iPhoto, iMovie, and GarageBand.\nLearn more about iLife"
+    },
+    {
+      "heading": "Accessories",
+      "source_text": "Upgrades\n1GB Memory Kit\n2GB Memory Kit\n4GB Memory Kit\n1TB SATA Drive Kit\n2TB SATA Drive Kit\n512GB Solid-State Drive Kit\nATI Radeon HD 5770 Graphics Upgrade Kit\nApple Dual-Channel 4Gb Fibre Channel PCI Express Card\nApple Quad-Channel 4Gb Fibre Channel PCI Express Card\nSoftware\nFinal Cut Pro\nAperture\nLogic Pro\nApple Remote Desktop\niWork\nFileMaker\nDisplay and Graphics\nApple LED Cinema Display\nVESA Mount Adapter Kit\nApple Mini DisplayPort to DVI Adapter\nApple Mini DisplayPort to VGA Adapter\nApple Mini DisplayPort to Dual-Link DVI Adapter\nAirPort and Wireless\nTime Capsule\nAirPort Express Base Station\nAirPort Extreme Base Station\nApple Wireless Keyboard\nMagic Trackpad"
+    },
+    {
+      "heading": "Configuration Options",
+      "source_text": "Quad-Core (MD770LL/A)\n12-Core (MD771LL/A)\nQuad-Core Server (MD772LL/A)\nProcessor\n3.2GHz Quad-Core Intel Xeon\nTwo 2.4GHz 6-Core Intel Xeon\n3.2GHz Quad-Core Intel Xeon\nCache\n8MB fully shared L3 cache\n12MB fully shared L3 cache per processor\n8MB fully shared L3 cache\nMemory\n6GB (three 2GB DIMMs) of 1066MHz DDR3 ECC SDRAM\n12GB (six 2GB DIMMs) of 1333MHz DDR3 ECC SDRAM\n8GB (four 2GB DIMMs) of 1066MHz DDR3 ECC SDRAM\nPCI Express 2.0 graphics\nATI Radeon HD 5770 with 1GB GDDR5 memory, two Mini DisplayPort outputs, and one dual-link DVI video output\nHard disk drive\n1TB Serial ATA (3Gb/s); 7200 rpm\nTwo 1TB Serial ATA (3Gb/s); 7200 rpm\nOptical drive\n18x SuperDrive with double-layer support (DVD±R DL/DVD±RW/CD-RW)\nWireless\nBuilt-in AirPort Extreme 802.11n Wi-Fi\n3\nand Bluetooth 2.1 + EDR (Enhanced Data Rate) wireless technology\nPCI Express\nThree open full-length PCI Express 2.0 expansion slots with mechanical support for 16-lane cards; 300W combined maximum for all PCI Express slots\nIncluded Software\nOS X and iLife ’11\nOS X Server and iLIfe ’11\nBuild-to-Order Options\n6-Core: 3.33GHz Intel Xeon\n8GB memory (four 2GB DIMMs)\n12GB memory (three 4GB DIMMs)\n16GB memory (four 4GB DIMMs)\n24GB memory (three 8GB DIMMs)\n32GB memory (four 8GB DIMMs)\nATI Radeon HD 5870 with 1GB GDDR5\nTwo ATI Radeon HD 5770\nDrive bays 1-4: 1TB or 2TB Serial ATA 3Gb/s hard drive (7200 rpm); 512GB solid-state drive\n6\nTwo 18x SuperDrive optical drives\nApple Wireless Keyboard\nApple Mouse\nMagic Trackpad\nDual-Channel 4Gb Fibre Channel card\nQuad-Channel 4Gb Fibre Channel card\n12-Core: Two 2.66GHz or 3.06GHz Intel Xeon\n16GB memory (eight 2GB DIMMs)\n24GB memory (six 4GB DIMMs)\n32GB memory (eight 4GB DIMMs)\n48GB memory (six 8GB DIMMs)\n64GB memory (eight 8GB DIMMs)\nATI Radeon HD 5870 with 1GB GDDR5\nTwo ATI Radeon HD 5770\nDrive bays 1-4: 1TB or 2TB Serial ATA 3Gb/s hard drive (7200 rpm); 512GB solid-state drive\n6\nTwo 18x SuperDrive optical drives\nApple Wireless Keyboard\nApple Mouse\nMagic Trackpad\nDual-Channel 4Gb Fibre Channel card\nQuad-Channel 4Gb Fibre Channel card\n6-Core: 3.33GHz Intel Xeon\n12-Core: Two 2.4GHz, 2.66GHz, or 3.06GHz Intel Xeon\n12GB memory (three 4GB DIMMs)\n16GB memory (four 4GB DIMMs)\n16GB memory (eight 2GB DIMMs)\n24GB memory (three 8GB DIMMs)\n24GB memory (six 4GB DIMMs)\n32GB memory (four 8GB DIMMs)\n32GB memory (eight 4GB DIMMs)\n64GB memory (eight 8GB DIMMs)\nDrive bays 1-4: 1TB or 2TB Serial ATA 3Gb/s hard drive (7200 rpm); 512GB solid-state drive\n6\nTwo 18x SuperDrive optical drives\nDual-Channel 4Gb Fibre Channel card\nQuad-Channel 4Gb Fibre Channel card"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

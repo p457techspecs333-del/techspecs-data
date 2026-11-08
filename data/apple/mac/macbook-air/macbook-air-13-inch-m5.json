@@ -1,0 +1,133 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "MacBook Air",
+    "model": "MacBook Air (13-inch, M5)",
+    "model_slug": "macbook-air-13-inch-m5",
+    "model_year": null,
+    "year_introduced": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/126320",
+    "source_file": "apple_mac_extraction/technical_specs_html/126320.html",
+    "source_title": "MacBook Air (13-inch, M5) - Tech Specs",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Finish",
+      "source_text": "Sky Blue\nSilver\nStarlight\nMidnight"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "Apple M5 chip\n10‑core CPU with 4 super cores and 6 efficiency cores\n8‑core GPU, 10‑core GPU\nNeural Accelerators\nHardware-accelerated ray tracing\n16‑core Neural Engine\n153GB/s memory bandwidth\nMedia Engine\nHardware‑accelerated H.264, HEVC, ProRes and ProRes RAW\nVideo decode engine\nVideo encode engine\nProRes encode and decode engine\nAV1 decode\nConfigurable to:\nM5 with 10‑core CPU and 10‑core GPU"
+    },
+    {
+      "heading": "Memory",
+      "source_text": "16GB unified memory\nConfigurable to:\n24GB or 32GB"
+    },
+    {
+      "heading": "Storage 1",
+      "source_text": "512GB SSD\nConfigurable to:\n1TB, 2TB or 4TB"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Liquid Retina display\n13.6-inch (diagonal) LED-backlit display with IPS technology;\n2\n2560x1664 native resolution at 224 pixels per inch\n500 nits brightness\nColour\nSupport for 1 billion colours\nWide colour (P3)\nTrue Tone technology"
+    },
+    {
+      "heading": "Battery and Power 3",
+      "source_text": "Up to 18 hours video streaming\nUp to 15 hours wireless web\nBuilt-in 53.8‑watt‑hour lithium‑polymer battery\nUSB‑C to MagSafe 3 Cable (2m)\nSupports charging via a USB‑C power adapter or other USB PD power source\nMinimum wattage required to charge the device: 30W\nFast-charge capable with 70W or higher USB PD power source"
+    },
+    {
+      "heading": "Charging and Expansion",
+      "source_text": "MagSafe 3 charging port\n3.5mm headphone jack\nTwo Thunderbolt 4 (USB-C) ports with support for:\nCharging\nDisplayPort\nThunderbolt 4 (up to 40Gb/s)\nUSB 4 (up to 40Gb/s)"
+    },
+    {
+      "heading": "External Display Support",
+      "source_text": "Supports up to two external displays:\nTwo displays up to a native resolution of 6K at 60Hz or 4K at 144Hz\nOne display up to a native resolution of 8K at 60Hz or 5K at 120Hz or 4K at 240Hz\nSupports up to two external displays over a single Thunderbolt port\nSimultaneously supports the built‑in display at full native resolution\nThunderbolt 4 (USB‑C) ports support native DisplayPort 1.4 speeds (up to HBR3) with DSC capability"
+    },
+    {
+      "heading": "Video Playback",
+      "source_text": "Supported formats include HEVC, H.264, AV1 and ProRes\nHDR with Dolby Vision, HDR10+/HDR10 and HLG"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "Supported formats include AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus and Dolby Atmos"
+    },
+    {
+      "heading": "Keyboard and Trackpad",
+      "source_text": "Backlit Magic Keyboard with:\n78 (ANSI) or 79 (ISO) keys including 12 full‑height function keys\nTouch ID\nAmbient light sensor\nForce Touch trackpad for precise cursor control and pressure‑sensing capabilities; enables Force clicks, accelerators, pressure‑sensitive drawing and Multi‑Touch gestures"
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "Apple N1 wireless networking chip\nWi‑Fi 7 (802.11be)\n4\nBluetooth 6\nThread networking technology"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "12MP Center Stage camera with support for Desk View\n1080p HD video recording\nAdvanced image signal processor with computational video"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Four-speaker sound system\nSupport for Spatial Audio when playing music or video with Dolby Atmos on built-in speakers\nSpatial Audio with dynamic head tracking when using supported models of AirPods, AirPods Pro and AirPods Max\n5\nThree-mic array with directional beamforming\nVoice Isolation and Wide Spectrum microphone modes for enhanced voice clarity in audio and video calls\n3.5mm headphone jack with advanced support for high‑impedance headphones"
+    },
+    {
+      "heading": "Operating Requirements",
+      "source_text": "Line voltage:\n100V to 240V AC\nFrequency:\n50Hz to 60Hz\nOperating temperature:\n10° to 35° C (50° to 95° F)\nStorage temperature:\n–25° to 45° C (–13° to 113° F)\nRelative humidity:\n0% to 90% non‑condensing\nOperating altitude:\ntested up to 3,000 metres (10,000 feet)\nMaximum storage altitude:\n4,500 metres (15,000 feet)\nMaximum shipping altitude:\n10,500 metres (35,000 feet)"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height:\n1.13 cm (0.44 inches)\nWidth:\n30.41 cm (11.97 inches)\nDepth:\n21.5 cm (8.46 inches)\nWeight:\n1.23 kg (2.7 pounds)\n6"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "macOS\nmacOS is the most advanced desktop operating system in the world. Siri AI\n7\nis a powerful and capable assistant with personal context understanding, broad world knowledge and onscreen awareness. Express yourself through photos and images, save time with Safari, and get more done with Apple Intelligence\n7\nseamlessly integrated into your everyday apps and experiences. And iPhone Mirroring, window tiling, Sidecar and more help you stay productive."
+    },
+    {
+      "heading": "Apple Intelligence 7",
+      "source_text": "Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.\nLearn more about Apple Intelligence"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new MacBook Air. With built‑in support for vision, hearing, mobility and learning, you can create and do amazing things.\nLearn more about Accessibility\nFeatures include:\nVoiceOver\nZoom\nMotion, display and text settings\nAccessi­bility Reader\nVoice Control\nSwitch Control\nClosed Captions\nLive Captions\nPersonal Voice and Live Speech"
+    },
+    {
+      "heading": "Built-in Apps 8",
+      "source_text": "App Store\nBooks\nCalendar\nContacts\nFaceTime\nFind My\nFreeform\nGames\nGarageBand\nHome\niMovie\niPhone Mirroring\nJournal\nKeynote\nMail\nMaps\nMessages\nMusic\nNews\nNotes\nNumbers\nPages\nPasswords\nPhone\nPhoto Booth\nPhotos\nPodcasts\nPreview\nQuickTime Player\nReminders\nSafari\nShortcuts\nStocks\nTime Machine\nTips\nTV\nVoice Memos\nWeather"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "13-inch MacBook Air\nUSB-C to MagSafe 3 Cable\n(2m)\nPower adapter sold separately"
+    },
+    {
+      "heading": "Con­fig­ure to Order",
+      "source_text": "Con­fig­ure your MacBook Air at\napple.com\n.\nM5 with 10‑core CPU and 10‑core GPU\n24GB or 32GB unified memory\n1TB, 2TB or 4TB SSD\n30W USB‑C Power Adapter or 35W Dual USB‑C Port Power Adapter or\n70W USB‑C Power Adapter"
+    },
+    {
+      "heading": "MacBook Air and the Environment",
+      "source_text": "MacBook Air is designed to reduce environmental impact:\n9\nSee the MacBook Air Product Environmental Report (PDF)\nProgress towards Apple 2030\nApple 2030 is our commitment to be carbon neutral for our entire carbon footprint. Our plan to decarbonise products is rigorous and focuses on transitioning to low‑carbon electricity, designing with recycled and low‑carbon materials and prioritising lower‑carbon ways of shipping products, like sea freight.\nSee Apple’s commitment\nMaterials\nMacBook Air is made with 55% recycled content,\n10\nincluding:\n100% recycled aluminium in the enclosure and trackpad gel plate\n100% recycled cobalt and 95% recycled lithium in the battery\n100% recycled gold plating in all Apple‑designed printed circuit boards and all connectors\n100% recycled rare earth elements in all magnets\n100% recycled tin solder in all Apple-designed printed circuit boards\n90% recycled steel in the keyboard feature plate and trackpad beam\nEnergy\n50% of manufacturing electricity for MacBook Air is sourced from low-carbon electricity\n11\nENERGY STAR® certified\n12\nPackaging\n100% fibre-based packaging\n13\nWaste\nNo established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme\n14\nSmarter chemistry\n15\nAll of the materials used in Apple products, accessories and packaging are covered by the requirements of our\nRegulated Substances Specification(PDF)\n, which was one of the first in industry to restrict the use of key substances of concern. See the latest\nEn­viron­men­tal Progress Report\nto understand Apple’s recent efforts in phasing out these chemistries."
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "Declared noise emission values in accordance with ECMA-109\nAcoustic Performance\nSound Power Level\nL\nW\nA,m\n(B)\nSound Pressure Level\nOperator Position\nL\np\nA,m\n(dB)\nIdle\n1.3 (\nK\nV\n= 0.3)\n3\nWireless web\n1.3 (\nK\nV\n= 0.3)\n4\nL\nW\nA,m\nis the mean A-weighted sound power level, rounded to the nearest 0.1 B.\nL\np\nA,m\nis the mean A-weighted sound pressure level measured at operator position (rounded to the nearest 1 dB).\n1 B (bel) = 10 dB (decibel).\nK\nv\nis the statistical adder for computing upper-limit of A-weighted sound power level.\nThe quantity,\nL\nW\nA,c\n(formerly called\nL\nW\nAd\n) may be computed from the sum of\nL\nW\nA,m\nand\nK\nv\n.\nThe wireless web test browses 6 tabs with a mix of content including media.\nConfiguration tested: M5, 10-core CPU / 10-core GPU, 32GB unified memory, 2TB storage."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

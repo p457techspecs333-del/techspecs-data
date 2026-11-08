@@ -1,0 +1,45 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "MacBook Pro",
+    "model": "MacBook Pro (13-inch, Mid 2012)",
+    "model_slug": "macbook-pro-13-inch-mid-2012",
+    "model_year": 2012,
+    "year_introduced": 2012
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111958",
+    "source_file": "apple_mac_extraction/technical_specs_html/111958.html",
+    "source_title": "MacBook Pro (13-inch, Mid 2012) - Tech Specs",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "MacBook Pro and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact. Learn more about MacBook Pro and the Environment .\nMacBook Pro is designed with the following features to reduce environmental impact:\nHighly recyclable aluminum enclosure\nHighly recyclable aluminum enclosure\nMercury-free LED backlit display\nMercury-free LED backlit display\nArsenic-free display glass\nArsenic-free display glass\nBFR-free\nBFR-free\nPVC-free 5\nPVC-free 5\nReduced packaging volume\nReduced packaging volume\nMeets ENERGY STAR Version 5.2 requirements\nMeets ENERGY STAR Version 5.2 requirements\nApple and the Environment\nLearn more about Apple’s dedication to reducing the environmental impact of our products and process . The Apple Product Environmental Specification details the environmental attributes of our products.\nRecycling\nApple takes a holistic view of materials management and waste minimization. Learn more about how to recycle your Mac .\nAcoustic Performance\nDECLARED NOISE EMISSIONS in accordance with ISO 9296\nSound Power Level\nL WAd (B)\n1 B = 10 dB\nSound Pressure Level\nOperator Position\nL pAm (dB)\n13\" 2.9 GHz\n13\" 2.5 GHz\n13\" 2.9 GHz\n13\" 2.5 GHz\nIdle\n2.7\n2.7\n16\n16\nHard drive accessing\n2.8\n2.8\n17\n17\nCD drive accessing\nN/A\n3.2\nN/A\n28\nL WAd is the statistical upper-limit A-weighted sound power level (rounded to the nearest 0.1 B).\nL WAd is the statistical upper-limit A-weighted sound power level (rounded to the nearest 0.1 B).\nL pAm is the mean A-weighted sound pressure level measured at the operator position (rounded to the nearest dB).\nL pAm is the mean A-weighted sound pressure level measured at the operator position (rounded to the nearest dB).\n1 B (bel) = 10 dB (decibel).\n1 B (bel) = 10 dB (decibel).\nAccessories\nMac Software\niWork\niWork\nAperture\nAperture\nLogic Pro\nLogic Pro\nFinal Cut Pro X\nFinal Cut Pro X\nDisplays and Adapters\nApple Thunderbolt Display\nApple Thunderbolt Display\nApple Mini DisplayPort to DVI Adapter\nApple Mini DisplayPort to DVI Adapter\nApple Mini DisplayPort to VGA\nApple Mini DisplayPort to VGA\nAdapter Apple Mini DisplayPort to Dual-Link DVI Adapter\nAdapter Apple Mini DisplayPort to Dual-Link DVI Adapter\nAirPort and Wireless\nAirPort Extreme Base Station\nAirPort Extreme Base Station\nAirPort Express Base Station\nAirPort Express Base Station\nTime Capsule\nTime Capsule\nApple Remote\nApple Remote\nApple Wireless Keyboard\nApple Wireless Keyboard\nApple Magic Mouse\nApple Magic Mouse\nApple Magic Trackpad\nApple Magic Trackpad\nOther Accessories\n60W MagSafe Power Adapter (13-inch)\n60W MagSafe Power Adapter (13-inch)\n1GB=1 billion bytes; actual formatted capacity less.\n1GB=1 billion bytes; actual formatted capacity less.\nActual weight varies by configuration and manufacturing process.\nActual weight varies by configuration and manufacturing process.\nWireless Internet access requires a base station or other wireless access point and Internet access; fees may apply. Some ISPs are not currently compatible with AirPort.\nWireless Internet access requires a base station or other wireless access point and Internet access; fees may apply. Some ISPs are not currently compatible with AirPort.\nWireless web testing conducted by Apple in May 2012 using preproduction 2.6GHz quad-core Intel Core i7–based 15-inch MacBook Pro units and preproduction 2.9GHz dual-core Intel Core i7–based 13-inch MacBook Pro units. The wireless web test measures battery life by wirelessly browsing 25 popular websites with display brightness set to 50%. Battery life varies by use and configuration. See www.apple.com/uk/batteries for more information.\nWireless web testing conducted by Apple in May 2012 using preproduction 2.6GHz quad-core Intel Core i7–based 15-inch MacBook Pro units and preproduction 2.9GHz dual-core Intel Core i7–based 13-inch MacBook Pro units. The wireless web test measures battery life by wirelessly browsing 25 popular websites with display brightness set to 50%. Battery life varies by use and configuration. See www.apple.com/uk/batteries for more information.\nPVC-free AC power cord is available in the U.S., Canada, Mexico, Colombia, El Salvador, Guatemala, Panama, Peru, Puerto Rico, U.S. Virgin Islands, and Venezuela.\nPVC-free AC power cord is available in the U.S., Canada, Mexico, Colombia, El Salvador, Guatemala, Panama, Peru, Puerto Rico, U.S. Virgin Islands, and Venezuela."
+    },
+    {
+      "heading": "Apple Footer",
+      "source_text": "Support\nMacBook Pro (13-inch, Mid 2012) - Tech Specs"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "iMac",
+    "model": "iMac (Early 2009)",
+    "model_slug": "imac-early-2009",
+    "model_year": 2009,
+    "year_introduced": 2009
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/112427",
+    "source_file": "apple_mac_extraction/technical_specs_html/112427.html",
+    "source_title": "iMac (Early 2009) - Tech Specs",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Size and weight",
+      "source_text": "20-inch iMac\nHeight: 18.5 inches (46.9 cm)\nWidth: 19.1 inches (48.5 cm)\nDepth: 7.4 inches (18.9 cm)\nWeight: 20 pounds (9.1 kg)\n1\n24-inch iMac\nHeight: 20.5 inches (52.0 cm)\nWidth: 22.4 inches (56.9 cm)\nDepth: 8.1 inches (20.7 cm)\nWeight: 25.4 pounds (11.5 kg)\n1"
+    },
+    {
+      "heading": "Connections and expansion",
+      "source_text": "One FireWire 800 port; 7 watts\nTotal of six USB 2.0 ports: four ports on computer, two ports on wired keyboard"
+    },
+    {
+      "heading": "Communications",
+      "source_text": "Built-in AirPort Extreme Wi-Fi wireless networking (based on IEEE 802.11n draft specification);\n2\nIEEE 802.11a/b/g compatible\nBuilt-in Bluetooth 2.1 + EDR (Enhanced Data Rate)\nBuilt-in 10/100/1000BASE-T Gigabit Ethernet (RJ-45 connector)"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Built-in stereo speakers\nInternal 24-watt digital amplifier\nHeadphone/optical digital audio output (minijack)\nAudio line in/optical digital audio input (minijack)\nBuilt-in microphone\nSupport for Apple Stereo Headset with microphone"
+    },
+    {
+      "heading": "Software",
+      "source_text": "Mac OS X v10.5 Leopard (includes iTunes, Time Machine, Quick Look, Spaces, Spotlight, Dashboard, Mail, iChat, Safari, Address Book, QuickTime, iCal, DVD Player, Photo Booth, Front Row, Xcode Developer Tools)\niLife ’09 (includes iPhoto, iMovie, iDVD, iWeb, GarageBand)"
+    },
+    {
+      "heading": "Environmental Status Report",
+      "source_text": "Arsenic-free display glass\nBFR-free\nPVC-free (internal cables)\nHighly recyclable aluminum and glass enclosures\nMeets ENERGY STAR 5.0 requirements\nRated EPEAT Gold"
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "DECLARED NOISE EMISSIONS in accordance with ISO 9296\nAcoustic Performance\nSound Power Level\nL\nWAd\n(B)\n1 B = 10 dB\nSound Pressure Level\nOperator Position\nL\npAm\n(dB)\n2.66 GHz\n2.93 GHz\n3.06 GHz\n2.66 GHz\n2.93 GHz\n3.06 GHz\nIdle\n3.2\n3.3\n3.1\n21\n21\n20\nHard drive accessing\n3.2\n3.3\n3.1\n21\n21\n20\nCD drive accessing\nno value\nno value\nno value\nno value\nno value\nno value\nL\nWAd\nis the statistical upper-limit A-weighted sound power level (rounded to the nearest 0.1 B).\nL\npAm\nis the mean A-weighted sound pressure level measured at the operator position (rounded to the nearest dB).\n1 B (bel) = 10 dB (decibel)."
+    },
+    {
+      "heading": "Display",
+      "source_text": "Built-in 20-inch (viewable) or 24-inch (viewable) glossy widescreen TFT active-matrix liquid crystal display\nResolution\n20-inch model: 1680 by 1050 pixels\n24-inch models: 1920 by 1200 pixels\nMillions of colors at all resolutions\nTypical viewing angle\n20-inch model:\n160° horizontal\n160° vertical\n24-inch models:\n178° horizontal\n178° vertical\nTypical brightness: 290 cd/m\n2\n(20-inch model); 385 cd/m\n2\n(24-inch models)\nTypical contrast ratio: 800:1 (20-inch model); 750:1 (24-inch models)"
+    },
+    {
+      "heading": "Graphics and video support",
+      "source_text": "20-inch and 24-inch model with 2.66GHz processor\nNVIDIA GeForce 9400M graphics processor with 256MB of DDR3 SDRAM shared with main memory\n3\n24-inch model with 2.93GHz processor, one of the following:\nNVIDIA GeForce GT 120 graphics processor with 256MB of GDDR3 memory\nNVIDIA GeForce GT 130 graphics processor with 512MB of GDDR3 memory\nATI Radeon HD 4850 graphics processor with 512MB of GDDR3 memory\n24-inch model with 3.06GHz processor, one of the following:\nNVIDIA GeForce GT 130 graphics processor with 512MB of GDDR3 memory\nATI Radeon HD 4850 graphics processor with 512MB of GDDR3 memory\nMini DisplayPort output port with support for DVI, VGA, and dual-link DVI via adapter\n4\nBuilt-in iSight camera\nSupport for extended desktop and video mirroring modes\nSimultaneously supports full native resolution on the built-in display and up to a 30-inch display (2560 by 1600 pixels) on an external display"
+    },
+    {
+      "heading": "Processor and memory",
+      "source_text": "2.66GHz, 2.93GHz, or 3.06GHz Intel Core 2 Duo processor\n6MB shared L2 cache at full processor speed\n1066MHz frontside bus\n2GB (two 1GB SO-DIMMs) or 4GB (two 2GB SO-DIMMs) of 1066MHz DDR3 SDRAM; two SO-DIMM slots support up to 8GB"
+    },
+    {
+      "heading": "Storage",
+      "source_text": "Hard drive\n5\n20-inch model with 2.66GHz processor\n320GB 7200-rpm Serial ATA hard drive\n5\nOptional 640GB or 1TB 7200-rpm Serial ATA hard drive\n24-inch model with 2.66GHz or 2.93GHz processor\n640GB 7200-rpm Serial ATA hard drive\nOptional 1TB 7200-rpm Serial ATA hard drive\n24-inch model with 3.06GHz processor\n1TB 7200-rpm Serial ATA hard drive\nOptical drive\nSlot-loading 8x SuperDrive (DVD±R DL/DVD±RW/CD-RW)\nWrites DVD+R DL and DVD-R DL discs at up to 4x speed\nWrites DVD-R and DVD+R discs at up to 8x speed\nWrites DVD-RW discs at up to 6x speed and DVD+RW discs at up to 8x speed\nReads DVDs at up to 8x speed\nWrites CD-R discs at up to 24x speed\nWrites CD-RW discs at up to 16x speed\nReads CDs at up to 24x speed"
+    },
+    {
+      "heading": "Electrical and operating requirements",
+      "source_text": "Line voltage: 100-240V AC\nFrequency: 50Hz to 60Hz, single phase\nMaximum continuous power: 200W (20-inch model); 280W (24-inch models)\nOperating temperature: 50° to 95° F (10° to 35° C)\nStorage temperature: -40° to 185° F (-40° to 85° C)\nRelative humidity: 5% to 95% noncondensing\nMaximum altitude: 10,000 feet"
+    },
+    {
+      "heading": "What’s in the box",
+      "source_text": "iMac\nApple Keyboard\nMighty Mouse\nCleaning cloth\nPower cord\nInstall/restore DVDs\nPrinted and electronic documentation"
+    },
+    {
+      "heading": "Configurations",
+      "source_text": "20-inch iMac\n(MB417LL/A)\n24-inch iMac\n(MB418LL/A)\n24-inch iMac\n(MB419LL/A)\n24-inch iMac\n(MB420LL/A)\nProcessor\n2.66GHz Intel Core 2 Duo\n2.66GHz Intel Core 2 Duo\n2.93GHz Intel Core 2 Duo\n3.06GHz Intel Core 2 Duo\nL2 cache\n6MB shared\nFrontside bus\n1066MHz\nMemory\n2GB (two 1GB SO-DIMMs) of 1066MHz DDR3 SDRAM; supports up to 8GB\n4GB (two 2GB SO-DIMMs) of 1066MHz DDR3 SDRAM; supports up to 8GB\nHard drive\n320GB Serial ATA\n5\n; 7200 rpm\n640GB Serial ATA\n5\n; 7200 rpm\n1TB Serial ATA\n5\n; 7200 rpm\nOptical drive\nSlot-loading 8x SuperDrive with 4x double-layer burning (DVD±R DL/DVD±RW/CD-RW)\nDisplay\n20-inch (viewable) glossy widescreen TFT active-matrix LCD, 1680 by 1050 pixels, millions of colors\n24-inch (viewable) glossy widescreen TFT active-matrix LCD, 1920 by 1200 pixels, millions of colors\nVideo\nBuilt-in iSight camera; Mini DisplayPort output with support for DVI, dual-link DVI, and VGA video connections via adapter\n4\nGraphics\nNVIDIA GeForce 9400M with 256MB of DDR3 SDRAM shared with main memory\n3\nNVIDIA GeForce GT 120 with 256MB of GDDR3 memory\nNVIDIA GeForce GT 130 with 512MB of GDDR3 memory\nFireWire\nOne FireWire 800 port; 7 watts\nUSB\nFour USB 2.0 ports on computer; two USB 2.0 ports on keyboard\nAudio\nBuilt-in stereo speakers with 24-watt digital amplifier, built-in microphone, optical digital audio output/headphone out, optical digital audio input/audio line in\nEthernet\nBuilt-in 10/100/1000BASE-T (Gigabit)\nWireless\nBuilt-in AirPort Extreme Wi-Fi (802.11n)\n2\n; built-in Bluetooth 2.1 + EDR (Enhanced Data Rate)\nHardware accessories\nApple Keyboard and Apple Mighty Mouse\nOther\nBuilt-in IR receiver\nBuilt-in IR receiver, optional VESA mount adapter kit\nConfigure-to-order options\n• 4GB Memory Upgrade (two 2GB)\n• 8GB Memory Upgrade (two 4GB)\n• 640GB or 1TB Hard Drive\n• Apple Keyboard with Numeric Keypad\n• Apple Wireless Keyboard\n• Apple Wireless Mighty Mouse\n• Apple USB Modem\n• Apple Remote\n• Software: iWork ’09, Aperture, Logic Express, Final Cut Express\n• 8GB Memory Upgrade (two 4GB)\n• 1TB Hard Drive\n• Apple Keyboard with Numeric Keypad\n• Apple Wireless Keyboard\n• Apple Wireless Mighty Mouse\n• Apple USB Modem\n• Apple Remote\n• Software: iWork ’09, Aperture, Logic Express, Final Cut Express\n• 3.06GHz Intel Core 2 Duo\n• NVIDIA GeForce GT 130 or ATI Radeon HD 4850 with 512MB of GDDR3 Memory\n• 8GB Memory Upgrade (two 4GB)\n• 1TB Hard Drive\n• Apple Keyboard with Numeric Keypad\n• Apple Wireless Keyboard\n• Apple Wireless Mighty Mouse\n• Apple USB Modem\n• Apple Remote\n• Software: iWork ’09, Aperture, Logic Express, Final Cut Express\n• ATI Radeon HD 4850 with 512MB GDDR3 of Memory\n• 8GB Memory Upgrade (two 4GB)\n• Apple Keyboard with Numeric Keypad\n• Apple Wireless Keyboard\n• Apple Wireless Mighty Mouse\n• Apple USB Modem\n• Apple Remote\n• Software: iWork ’09, Aperture, Logic Express, Final Cut Express\nApple and the global environment\nLearn more about Apple’s dedication to reducing the environmental impact of our products and process. The Apple Product Environmental Specification details the environmental attributes of our products.\nRecycling\nApple takes a holistic view of materials management and waste minimization. Learn more about how to recycle your Mac."
+    },
+    {
+      "heading": "Options",
+      "source_text": "Accessories\nTime Capsule\nAirPort Express Base Station\nAirPort Extreme Base Station\nApple Wireless Keyboard\nApple Wireless Mighty Mouse\nApple 8x DVD-R Media Kit\nApple Mini DisplayPort to DVI Adapter\nApple Mini DisplayPort to VGA Adapter\nApple Mini DisplayPort to Dual-Link DVI Adapter\nApple FireWire Cable\niMac 24-inch VESA Mount Adapter\nApplications\niWork\nAperture\nLogic Express\nFinal Cut Express"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "MacBook Pro",
+    "model": "MacBook Pro (16-inch, 2024)",
+    "model_slug": "macbook-pro-16-inch-2024",
+    "model_year": 2024,
+    "year_introduced": 2024
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/121554",
+    "source_file": "apple_mac_extraction/technical_specs_html/121554.html",
+    "source_title": "MacBook Pro (16-inch, 2024) - Tech Specs",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Finish",
+      "source_text": "Space Black\nSilver"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "Apple M4 Pro chip\n14‑core CPU with 10 perform­ance cores and 4 efficiency cores\n20‑core GPU\nHardware-accelerated ray tracing\n16-core Neural Engine\n273GB/s memory bandwidth\nMedia Engine\nHardware-accelerated H.264, HEVC, ProRes and ProRes RAW\nVideo decode engine\nVideo encode engine\nProRes encode and decode engine\nAV1 decode\nConfigurable to:\nM4 Max with 14‑core CPU and 32‑core GPU (410GB/s memory bandwidth) or M4 Max with 16‑core CPU and 40‑core GPU (546GB/s memory bandwidth)\nApple M4 Max chip\n14‑core CPU with 10 perform­ance cores and 4 efficiency cores, 16‑core CPU with 12 perform­ance cores and 4 efficiency cores\n32‑core GPU, 40‑core GPU\nHardware-accelerated ray tracing\n16-core Neural Engine\n410GB/s memory bandwidth, 546GB/s memory bandwidth\nMedia Engine\nHardware-accelerated H.264, HEVC, ProRes and ProRes RAW\nVideo decode engine\nTwo video encode engines\nTwo ProRes encode and decode engines\nAV1 decode\nConfigurable to:\nM4 Max with 16‑core CPU and 40‑core GPU (546GB/s memory bandwidth)"
+    },
+    {
+      "heading": "Apple Intelligence 1",
+      "source_text": "Apple In­telli­gence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.\nLearn more about Apple Intelligence"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Liquid Retina XDR display\n16.2-inch (diagonal) Liquid Retina XDR display;\n2\n3456x2234 native resolution at 254 pixels per inch\nXDR (Extreme Dynamic Range)\n1,000,000:1 contrast ratio\nXDR brightness: 1,000 nits sustained full-screen, 1,600 nits peak\n3\n(HDR content only)\nSDR brightness: up to 1,000 nits (outdoor)\nColour\n1 billion colours\nWide colour (P3)\nTrue Tone technology\nRefresh rates\nProMotion technology for adaptive refresh rates up to 120Hz\nFixed refresh rates: 47.95Hz, 48.00Hz, 50.00Hz, 59.94Hz, 60.00Hz\nConfigurable with:\nNano-texture display"
+    },
+    {
+      "heading": "Memory",
+      "source_text": "Apple M4 Pro chip\n24GB unified memory\nConfigurable to:\n36GB (M4 Max with 14‑core CPU) or 48GB (M4 Pro and M4 Max with 16‑core CPU) or 64GB or 128GB (M4 Max with 16‑core CPU)\nApple M4 Max chip\n36GB unified memory\nConfigurable to:\n48GB, 64GB or 128GB (M4 Max with 16‑core CPU)"
+    },
+    {
+      "heading": "Battery and Power 16",
+      "source_text": "M4 Pro\nUp to 24 hours video streaming\nUp to 17 hours wireless web\n100-watt-hour lithium-polymer battery\n16\n140W USB-C Power Adapter\nUSB-C to MagSafe 3 Cable\nFast-charge capable with included 140W USB-C Power Adapter\nM4 Max\nUp to 21 hours video streaming\nUp to 14 hours wireless web\n100-watt-hour lithium-polymer battery\n16\n140W USB-C Power Adapter\nUSB-C to MagSafe 3 Cable\nFast-charge capable with included 140W USB-C Power Adapter"
+    },
+    {
+      "heading": "Storage 4",
+      "source_text": "Apple M4 Pro chip\n512GB SSD\nConfigurable to:\n1TB, 2TB or 4TB\nApple M4 Max chip\n1TB SSD\nConfigurable to:\n2TB, 4TB or 8TB"
+    },
+    {
+      "heading": "Char­ging and Expan­sion",
+      "source_text": "SDXC card slot\nHDMI port\n3.5mm headphone jack\nMagSafe 3 port\nThree Thunderbolt 5 (USB-C) ports with support for:\nChar­ging\nDisplayPort\nThunderbolt 5 (up to 120Gb/s)\nUSB 4 (up to 120Gb/s)"
+    },
+    {
+      "heading": "Display Support",
+      "source_text": "M4 Pro\nSimultaneously supports full native resolution on the built-in display at 1 billion colours and:\nUp to two external displays with up to 6K resolution at 60Hz over Thunderbolt, or one external display with up to 6K resolution at 60Hz over Thunderbolt and one external display with up to 4K resolution at 144Hz over HDMI\nOne external display supported at 8K resolution at 60Hz or one external display at 4K resolution at 240Hz over HDMI\nM4 Max\nSimultaneously supports full native resolution on the built-in display at 1 billion colours and:\nUp to four external displays: up to three external displays with 6K resolution at 60Hz over Thunderbolt and one external display with up to 4K resolution at 144Hz over HDMI\nUp to three external displays: up to two external displays with 6K resolution at 60Hz over Thunderbolt and one external display with up to 8K resolution at 60Hz or one external display with 4K resolution at 240Hz over HDMI\nThunderbolt 5 digital video output\nSupport for native DisplayPort 2.1 output over USB‑C\nHDMI digital video output\nSupport for one display with up to 8K resolution at 60Hz or 4K resolution at 240Hz"
+    },
+    {
+      "heading": "Video Playback",
+      "source_text": "Supported formats include HEVC, H.264, AV1 and ProRes\nHDR with Dolby Vision, HDR10+/HDR10 and HLG"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "Supported formats include AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus and Dolby Atmos"
+    },
+    {
+      "heading": "Key­board and Track­pad",
+      "source_text": "Backlit Magic Key­board with:\n78 (US) or 79 (ISO) keys including 12 full-height function keys and 4 arrow keys in an inverted “T” arrangement\nTouch ID\nAmbient light sensor\nForce Touch trackpad for precise cursor control and pressure-sensing capabilities; enables Force clicks, accelerators, pressure-sensitive drawing and Multi‑Touch gestures"
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "Wi‑Fi\nWi‑Fi 6E (802.11ax)\n5\nBluetooth\nBluetooth 5.3"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "12MP Center Stage camera with support for Desk View\n1080p HD video recording\nAdvanced image signal processor with computational video"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "High‑fidelity six‑speaker sound system with force‑cancelling woofers\nWide stereo sound\nSupport for Spatial Audio when playing music or video with Dolby Atmos on built‑in speakers\nSpatial Audio with dynamic head tracking when using supported models of AirPods, AirPods Pro and AirPods Max\n6\nStudio‑quality three‑mic array with high signal‑to‑noise ratio and directional beamforming\n3.5mm headphone jack with advanced support for high‑impedance headphones\nHDMI port supports multi‑channel audio output"
+    },
+    {
+      "heading": "Operating Requirements",
+      "source_text": "Line voltage:\n100V to 240V AC\nFrequency:\n50Hz to 60Hz\nOperating temperature:\n10° to 35° C (50° to 95° F)\nStorage temperature:\n–25° to 45° C (‑13° to 113° F)\nRelative humidity:\n0% to 90% non‑condensing\nOperating altitude:\ntested up to 3,000 metres (10,000 feet)\nMaximum storage altitude:\n4,500 metres (15,000 feet)\nMaximum shipping altitude:\n10,500 metres (35,000 feet)"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height:\n1.68 cm (0.66 inches)\nWidth:\n35.57 cm (14.01 inches)\nDepth:\n24.81 cm (9.77 inches)\nWeight (M4 Pro):\n2.14 kg (4.7 pounds)\n7\nWeight (M4 Max):\n2.15 kg (4.7 pounds)\n7"
+    },
+    {
+      "heading": "Oper­at­ing System",
+      "source_text": "macOS\nmacOS is the most advanced desktop operating system in the world. It helps you stay productive and creative with help from Apple Intelligence, iPhone Mirroring,\n8\nwindow tiling, our biggest update ever to Spotlight, and more.\nMac User Guide"
+    },
+    {
+      "heading": "Accessi­bility",
+      "source_text": "Accessi­bility features help people with disabilities get the most out of their new MacBook Pro. With built-in support for vision, hearing, mobility and learning, you can create and do amazing things.\nLearn more about Accessi­bility\nFeatures include:\nVoice Control\nVoiceOver\nZoom\nIncrease Contrast\nReduce Motion\nSiri and Dictation\nSwitch Control\nClosed Captions\nText to Speech"
+    },
+    {
+      "heading": "Built-in Apps 9",
+      "source_text": "App Store\nBooks\nCalendar\nContacts\nFaceTime\nFind My\nFreeform\nGames\nGarageBand\nHome\niMovie\niPhone Mirroring\nJournal\nKeynote\nMail\nMaps\nMessages\nMusic\nNews\nNotes\nNumbers\nPages\nPhone\nPhone\nPhoto Booth\nPhotos\nPodcasts\nPreview\nQuickTime Player\nReminders\nSafari\nShortcuts\nStocks\nTime Machine\nTV\nVoice Memos\nWeather"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "16-inch MacBook Pro\n140W USB-C Power Adapter\nUSB-C to MagSafe 3 Cable (2m)\nPolishing cloth (only with nano-texture display option)"
+    },
+    {
+      "heading": "Con­fig­ure to Order",
+      "source_text": "Con­fig­ure your MacBook Pro with these options at\napple.com\n:\nM4 Max with 14‑core CPU, 32‑core GPU and 16‑core Neural Engine\nM4 Max with 16‑core CPU, 40‑core GPU and 16‑core Neural Engine\n36GB unified memory (M4 Max with 14‑core CPU)\n48GB unified memory (M4 Pro and M4 Max with 16‑core CPU)\n64GB unified memory (M4 Max with 16‑core CPU)\n128GB unified memory (M4 Max with 16‑core CPU)\n1TB, 2TB or 4TB SSD (M4 Pro and M4 Max)\n8TB SSD (M4 Max)\nNano-texture display"
+    },
+    {
+      "heading": "MacBook Pro and the Environment",
+      "source_text": "En­viron­men­tal impact\nThe 16‑inch MacBook Pro is designed to reduce environmental impact:\n10\nSee the 16-inch MacBook Pro Product En­viron­men­tal Report (PDF)\nProgress towards Apple 2030\n40% recycled content\n11\nOver 45% of manufacturing electricity sourced from low‑carbon electricity\n12\n45% emissions reduction against business‑as‑usual scenario as modelled by Apple\n17\nSee Apple’s commitment\nMaterials\n100% recycled aluminium in the enclosure\n100% recycled rare earth elements in all magnets\n100% recycled tin in the solder of multiple printed circuit boards\n100% recycled copper in multiple printed circuit boards and in multiple thermal module components\n100% recycled gold in the plating of multiple printed circuit boards\n90% recycled steel in the keyboard feature plate\n35% or more recycled plastic in 11 components\nEnergy\nOver 45% of manufacturing electricity for the 16‑inch MacBook Pro is sourced from low‑carbon electricity\n12\nENERGY STAR® certified\n13\nPackaging\n100% fibre‑based packaging\n14\n50% recycled content in fibre packaging\nWaste\nNo established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme\nSmarter chemistry\n15\nArsenic‑free glass\nMercury-, BFR- and PVC‑free"
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "Declared noise emission values in accordance with ECMA-109\nSound Power Level\nL\nW\nA,m\n(B)\nSound Pressure Level\nOperator Position\nL\np\nA,m\n(dB)\nIdle\n1.3 (\nK\nV\n= 0.3)\n4\nWireless web\n1.3 (\nK\nV\n= 0.3)\n4\nL\nW\nA,m\nis the mean A-weighted sound power level, rounded to the nearest 0.1 B.\nL\np\nA,m\nis the mean A-weighted sound pressure level measured at operator position (rounded to the nearest 1 dB).\n1 B (bel) = 10 dB (decibel).\nK\nv\nis the statistical adder for computing upper-limit of A-weighted sound power level.\nThe quantity,\nL\nW\nA,c\n(formerly called\nL\nW\nAd\n) may be computed from the sum of\nL\nW\nA,m\nand\nK\nv\n.\nThe wireless web test browses 6 tabs with a mix of content including media.\nConfiguration tested: M4 Max, 16-core CPU / 40-core GPU, 48GB unified memory, 2TB storage."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

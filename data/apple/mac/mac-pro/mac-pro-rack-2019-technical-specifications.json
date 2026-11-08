@@ -1,0 +1,129 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "Mac Pro",
+    "model": "Mac Pro (Rack, 2019) - Technical Specifications",
+    "model_slug": "mac-pro-rack-2019-technical-specifications",
+    "model_year": 2019,
+    "year_introduced": 2019
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111907",
+    "source_file": "apple_mac_extraction/technical_specs_html/111907.html",
+    "source_title": "Mac Pro (Rack, 2019) - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Processor",
+      "source_text": "Configure from an 8‑core to 28‑core Intel Xeon W processor\n8-Core\n3.5GHz Intel Xeon W\n8 cores, 16 threads\nTurbo Boost up to 4.0GHz\n24.5MB cache\nSupports 2666MHz memory\n12-Core\n3.3GHz Intel Xeon W\n12 cores, 24 threads\nTurbo Boost up to 4.4GHz\n31.25MB cache\nSupports 2933MHz memory\n16-Core\n3.2GHz Intel Xeon W\n16 cores, 32 threads\nTurbo Boost up to 4.4GHz\n38MB cache\nSupports 2933MHz memory\n24-Core\n2.7GHz Intel Xeon W\n24 cores, 48 threads\nTurbo Boost up to 4.4GHz\n57MB cache\nSupports 2933MHz memory\n28-Core\n2.5GHz Intel Xeon W\n28 cores, 56 threads\nTurbo Boost up to 4.4GHz\n66.5MB cache\nSupports 2933MHz memory"
+    },
+    {
+      "heading": "Memory",
+      "source_text": "Configure up to 1.5TB of DDR4 ECC memory in 12 user-accessible DIMM slots\n32GB\nFour 8GB DIMMs\n48GB\nSix 8GB DIMMs\n96GB\nSix 16GB DIMMs\n192GB\nSix 32GB DIMMs\n384GB\nSix 64GB DIMMs\n768GB\nSix 128GB DIMMs or 12 64GB DIMMs\n1.5TB\n12 128GB DIMMs\nRequires 24-core or 28-core processor.\n8-core processor operates memory at 2666MHz.\n12-core to 28-core processors operate memory at 2933MHz."
+    },
+    {
+      "heading": "Graphics",
+      "source_text": "Configure two MPX Modules with up to four GPUs\nAMD Radeon Pro W5500X\n24 compute units, 1,536 stream processors\n8GB of GDDR6 memory with 224GB/s memory bandwidth\nUp to 5.6 teraflops single precision or 11.2 teraflops half precision\nTwo HDMI 2.0 ports on card\nTwo DisplayPort connections routed to system to support internal Thunderbolt 3 ports\nSupport for up to four 4K displays, one 5K display or one Pro Display XDR\nHalf-height MPX Module fills an MPX bay and uses extra power and PCIe bandwidth\nAMD Radeon Pro W6600X\n32 compute units, 2,048 stream processors\n8GB of GDDR6 memory with 256GB/s memory bandwidth\nUp to 9.8 teraflops single precision or 19.6 teraflops half precision\nTwo HDMI ports on card with support for 4K60\nUp to four DisplayPort connections routed to system to support internal Thunderbolt 3 ports\nSupport for up to four 4K displays, two 5K displays or two Pro Display XDRs\nHalf-height MPX Module fills an MPX bay and uses extra power and PCIe bandwidth\nAMD Radeon Pro W5700X\n40 compute units, 2,560 stream processors\n16GB of GDDR6 memory with 448GB/s memory bandwidth\nUp to 9.4 teraflops single precision or 18.9 teraflops half precision\nFour Thunderbolt 3 ports and one HDMI 2.0 port on card\nTwo DisplayPort connections routed to system to support internal Thunderbolt 3 ports\nSupport for Display Stream Compression (DSC)\nSupport for up to six 4K displays, three 5K displays or three Pro Display XDRs\nFull-height MPX Module fills an MPX bay and uses extra power and PCIe bandwidth\nAMD Radeon Pro W6800X\n60 compute units, 3,840 stream processors\n32GB of GDDR6 memory with 512GB/s memory bandwidth\nUp to 16.0 teraflops single precision or 32.0 teraflops half precision\nInfinity Fabric Link connection enables two W6800X GPUs to connect at up to 84GB/s in each direction\nFour Thunderbolt 3 ports and one HDMI 2.0 port on card\nTwo DisplayPort connections routed to system to support internal Thunderbolt 3 ports\nSupport for up to six 4K displays, three 5K displays or three Pro Display XDRs\nFull-height MPX Module fills an MPX bay and uses extra power and PCIe bandwidth\nAMD Radeon Pro W6900X\n80 compute units, 5,120 stream processors\n32GB of GDDR6 memory with 512GB/s memory bandwidth\nUp to 22.2 teraflops single precision or 44.4 teraflops half precision\nInfinity Fabric Link connection enables two W6900X GPUs to connect at up to 84GB/s in each direction\nFour Thunderbolt 3 ports and one HDMI 2.0 port on card\nTwo DisplayPort connections routed to system to support internal Thunderbolt 3 ports\nSupport for up to six 4K displays, three 5K displays or three Pro Display XDRs\nFull-height MPX Module fills an MPX bay and uses extra power and PCIe bandwidth\nAMD Radeon Pro W6800X Duo\nTwo W6800X GPUs, each with 60 compute units and 3,840 stream processors\n64GB of GDDR6 memory (32GB per GPU), each with 512GB/s memory bandwidth\nUp to 30.2 teraflops single precision or 60.4 teraflops half precision\nOnboard Infinity Fabric Link connection connects two W6800X GPUs at up to 84GB/s in each direction; external Infinity Fabric Link connection enables two W6800X Duo modules to connect four W6800X GPUs\nFour Thunderbolt 3 ports and one HDMI 2.0 port on card\nFour DisplayPort connections routed to system to support internal Thunderbolt 3 ports\nSupport for up to eight 4K displays, four 5K displays or six Pro Display XDRs\nFull-height MPX Module fills an MPX bay and uses extra power and PCIe bandwidth"
+    },
+    {
+      "heading": "Power Supply",
+      "source_text": "1.4 kilowatts\nMaximum continuous power:\n1280W at 108–125V or 220–240V\n1180W at 100–107V"
+    },
+    {
+      "heading": "Expansion Slots",
+      "source_text": "Eight PCI Express expansion slots\nTwo MPX Modules or up to four PCI Express card slots\nEach MPX bay provides:\nx16 gen 3 bandwidth for graphics\nx8 gen 3 bandwidth for Thunderbolt\nDisplayPort video routing\nUp to 500W power for an MPX Module\nAlternatively, each MPX bay can support:\nOne full-length, double-wide x16 gen 3 slot and one full-length, double-wide x8 gen 3 slot (MPX bay 1)\nOr two full-length, double-wide x16 gen 3 slots (MPX bay 2)\nUp to 300W auxiliary power via two 8-pin connectors\nThree full-length PCI Express gen 3 slots\nOne x16 slot; two x8 slots\n75W auxiliary power available\nOne half-length x4 PCI Express gen 3 slot with Apple I/O card installed"
+    },
+    {
+      "heading": "Apple Afterburner",
+      "source_text": "ProRes and ProRes RAW accelerator card\nPCI Express x16 card\nAccelerates ProRes and ProRes RAW codecs in Final Cut Pro, QuickTime Player X and supported third-party apps\nSupports system playback of up to 6 streams of 8K ProRes RAW or up to 23 streams of 4K ProRes RAW\n1"
+    },
+    {
+      "heading": "Storage",
+      "source_text": "Configure up to 8TB of SSD storage\n2\n256GB SSD\nOne 256GB module\n512GB SSD\nOne 512GB module\n1TB SSD\nTwo 512GB modules\n2TB SSD\nTwo 1TB modules\n4TB SSD\nTwo 2TB modules\n8TB SSD\nTwo 4TB modules\nUp to 3.4GB/s sequential read and 3.4GB/s sequential write performance.\nStorage encrypted by the Apple T2 Security Chip."
+    },
+    {
+      "heading": "Input/Output",
+      "source_text": "I/O card installed in the half-length x4 PCI Express slot with:\nTwo USB 3 ports\nSupport for USB-A (up to 5Gb/s)\nTwo Thunderbolt 3 ports\nSupport for Thunderbolt 3 (up to 40Gb/s)\nSupport for USB‑C (up to 10Gb/s)\nSupport for DisplayPort\nTwo 10Gb Ethernet ports:\nSupport for 10Gb Ethernet performance over copper cabling\nSupport for Nbase-T industry standard: 1Gb, 2.5Gb, 5Gb and 10Gb Ethernet link speeds using RJ‑45 connectors"
+    },
+    {
+      "heading": "Additional Connections",
+      "source_text": "Two Thunderbolt 3 ports on the front of the rack enclosure\nSupport for Thunderbolt 3 (up to 40Gb/s)\nSupport for USB‑C (up to 10Gb/s)\nSupport for DisplayPort"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Built-in speaker\n3.5mm headphone jack with headset support"
+    },
+    {
+      "heading": "Input Devices",
+      "source_text": "Magic Keyboard with Numeric Keypad (silver and black)\nMagic Mouse (silver and black)\nOptional Magic Trackpad (silver and black)"
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "Wi‑Fi\n802.11ac Wi‑Fi wireless networking\nIEEE 802.11a/b/g/n compatible\nBluetooth\nBluetooth 5.0 wireless technology"
+    },
+    {
+      "heading": "Enclosure",
+      "source_text": "Mac Pro rack enclosure with rack mount rails"
+    },
+    {
+      "heading": "Dimensions",
+      "source_text": "Height: 22.02 cm (8.67 inches)\nWidth: 48.2 cm (18.98 inches)\nDepth: 53.95 cm (21.24 inches)"
+    },
+    {
+      "heading": "Weight 3",
+      "source_text": "17.6 kg (38.8 pounds)"
+    },
+    {
+      "heading": "Electrical and Operating Requirements",
+      "source_text": "Line voltage: 100–125V AC at 12A; 220–240V AC at 6A\nFrequency: 50Hz to 60Hz, single phase\nOperating temperature: 10° to 35° C (50° to 95° F)\nStorage temperature: –40° to 47° C (–40° to 116° F)\nRelative humidity: 5% to 95% non-condensing\nMaximum altitude: tested up to 5,000 metres (16,400 feet)"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "Mac Pro\nRack mount rails (comes in separate box)\nMagic Keyboard with Numeric Keypad\nMagic Mouse\nUSB‑C to Lightning Cable (1m)\nPower lead (2m)"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "macOS\nmacOS is the most advanced desktop operating system in the world. macOS Ventura makes the things you do most on Mac even better, so you can work smarter, play harder and go further.\nLearn more about latest operating system"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new Mac Pro. With built‑in support for vision, hearing, mobility and learning, you can create and do amazing things.\nLearn more about accessibility\nFeatures include:\nVoice Control\nVoiceOver\nZoom\nIncrease Contrast\nReduce Motion\nSiri and Dictation\nSwitch Control"
+    },
+    {
+      "heading": "Built-in Apps 4",
+      "source_text": "App Store\nBooks\nCalendar\nContacts\nFaceTime\nFind My\nGarageBand\nHome\niMovie\nKeynote\nMail\nMaps\nMessages\nMusic\nNews\nNotes\nNumbers\nPages\nPhoto Booth\nPhotos\nPodcasts\nPreview\nQuickTime Player\nReminders\nSafari\nShortcuts\nSiri\nStocks\nTime Machine\nTV\nVoice Memos"
+    },
+    {
+      "heading": "Kits and Accessories",
+      "source_text": "Displays\nPro Display XDR\nStudio Display\nGraphics\nRadeon Pro W5500X MPX Module Kit\nRadeon Pro W6600X MPX Module Kit\nRadeon Pro W5700X MPX Module Kit\nRadeon Pro W6800X MPX Module Kit\nRadeon Pro W6900X MPX Module Kit\nRadeon Pro W6800X Duo MPX Module Kit\nApple Afterburner Kit\nMemory\nApple 16GB DDR4 ECC Memory Kit\nApple 32GB DDR4 ECC Memory Kit\nApple 64GB DDR4 ECC Memory Kit\nApple 128GB DDR4 ECC Memory Kit\nApple 256GB DDR4 ECC Memory Kit\nStorage\nApple 1TB SSD Kit\nApple 2TB SSD Kit\nApple 4TB SSD Kit\nApple 8TB SSD Kit\nPromise Pegasus R4i 32TB RAID MPX Module Kit\nPromise Pegasus J2i\nMac Software\nFinal Cut Pro\nLogic Pro\nOther Accessories\nAppleCare+ for Mac\nFeet Kit\nWheels Kit\nBelkin Lock Adapter for Mac Pro\nBelkin AUX Power Cable Kit for Mac Pro\nLogitech Pro Magnetic Webcam"
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "Declared noise emission values in accordance with ECMA-109\nSound Power Level\nL\nW\nA,m\n(B)\nIdle\n2.5 (\nK\nV\n= 0.3)\nWireless web\n2.5 (\nK\nV\n= 0.3)\nL\nW\nA,m\nis the mean A-weighted sound power level, rounded to the nearest 0.1 B.\n1 B (bel) = 10 dB (decibel).\nK\nv\nis the statistical adder for computing upper-limit of A-weighted sound power level.\nThe quantity,\nL\nW\nA,c\n(formerly called\nL\nW\nAd\n) may be computed from the sum of\nL\nW\nA,m\nand\nK\nv\n.\nThe Wireless web test browses 25 popular websites.\nConfiguration tested: 3.3GHz 12-core Intel Xeon W processor, 48GB (6X8GB) memory, Radeon Pro Vega II MPX Module, 256GB SSD."
+    },
+    {
+      "heading": "Mac Pro and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more about Mac Pro and the Environment\nMac Pro is designed with the following features to reduce its environmental impact:\nMade with better materials\nEnclosure made with low-carbon aluminium\nResponsible packaging\nRecyclable, majority-fibre packaging\n100% of primary wood fibre comes from responsibly managed forests\nEnergy efficient\nMeets ENERGY STAR requirements\n5\nSmarter chemistry\nBFR-, PVC- and beryllium-free"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

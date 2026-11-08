@@ -1,0 +1,117 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "MacBook Air",
+    "model": "MacBook Air (13-inch, Mid 2012) - Technical Specifications",
+    "model_slug": "macbook-air-13-inch-mid-2012-technical-specifications",
+    "model_year": 2012,
+    "year_introduced": 2012
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111966",
+    "source_file": "apple_mac_extraction/technical_specs_html/111966.html",
+    "source_title": "MacBook Air (13-inch, Mid 2012) - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Display",
+      "source_text": "13.3-inch (diagonal) high-resolution LED-backlit glossy widescreen display with support for millions of colors\nSupported resolutions:\n1440 x 900 (native), 1280 x 800, 1152 x 720, and 1024 x 640 at 16:10 ratio and 1024 x 768 and 800 x 600 at 4:3 ratio."
+    },
+    {
+      "heading": "Storage 1",
+      "source_text": "128GB flash storage\n256GB flash storage\nConfigurable to 512GB flash storage."
+    },
+    {
+      "heading": "Processor",
+      "source_text": "1.8GHz dual-core Intel Core i5 (Turbo Boost up to 2.8GHz) with 3MB shared L3 cache"
+    },
+    {
+      "heading": "Memory",
+      "source_text": "4GB of 1600MHz DDR3L onboard memory\nConfigurable to 8GB."
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height:\n0.11-0.68 inch (0.3-1.7 cm)\nWidth:\n12.8 inches (32.5 cm)\nDepth:\n8.94 inches (22.7 cm)\nWeight:\n2.96 pounds (1.35 kg)\n2"
+    },
+    {
+      "heading": "Graphics and Video Support",
+      "source_text": "Intel HD Graphics 4000\nDual display and video mirroring:\nSimultaneously supports full native resolution on the built-in display and up to 2560 by 1600 pixels on an external display, both at millions of colors\nThunderbolt digital video output\nNative Mini DisplayPort output\nDVI output using Mini DisplayPort to DVI Adapter (sold separately)\nVGA output using Mini DisplayPort to VGA Adapter (sold separately)\nDual-link DVI output using Mini DisplayPort to Dual-Link DVI Adapter (sold separately)\nHDMI audio and video output using third-party Mini DisplayPort to HDMI Adapter (sold separately)"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "720p FaceTime HD camera"
+    },
+    {
+      "heading": "Connections and Expansion",
+      "source_text": "Two USB 3 ports (up to 5 Gbps)\nThunderbolt port (up to 10 Gbps)\nMagSafe 2 power port\nSD card slot"
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "802.11n Wi-Fi wireless networking;\n3\nIEEE 802.11a/b/g compatible\nBluetooth 4.0 wireless technology"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Stereo speakers\nOmnidirectional microphone\nHeadphone port\nSupport for Apple iPhone headset with remote and microphone"
+    },
+    {
+      "heading": "Keyboard and Trackpad",
+      "source_text": "Full-size backlit keyboard with 78 (U.S.) or 79 (ISO) keys, including 12 function keys and 4 arrow keys (inverted “T” arrangement) with ambient light sensor\nMulti-Touch trackpad for precise cursor control; supports inertial scrolling, pinch, rotate, swipe, three-finger swipe, four-finger swipe, tap, double-tap, and drag capabilities"
+    },
+    {
+      "heading": "Battery and Power 4",
+      "source_text": "Up to 7 hours wireless web\nUp to 30 days standby time\nBuilt-in 50-watt-hour lithium-polymer battery\n45W MagSafe 2 Power Adapter with cable management; MagSafe 2 power port"
+    },
+    {
+      "heading": "Electrical and Operating Requirements",
+      "source_text": "Line voltage: 100-240V AC\nFrequency: 50Hz to 60Hz\nOperating temperature: 50° to 95° F (10° to 35° C)\nStorage temperature: -13° to 113° F (-24° to 45° C)\nRelative humidity: 0% to 90% noncondensing\nMaximum operating altitude: 10,000 feet\nMaximum storage altitude: 15,000 feet\nMaximum shipping altitude: 35,000 feet"
+    },
+    {
+      "heading": "Included Software",
+      "source_text": "OS X Mountain Lion\nIncludes Mail, Messages, Contacts, Calendar, Safari, Reminders, Notification Center, Notes, Dictation, iCloud, Time Machine, FaceTime, Photo Booth, AirPlay, Game Center, the Mac App Store, iTunes, Gatekeeper, Twitter and Facebook integration,\n5\nand more.\nLearn more about latest operating system\niLife\nIncludes iPhoto, iMovie, and GarageBand."
+    },
+    {
+      "heading": "Limited Warranty and Service",
+      "source_text": "Your MacBook Air comes with 90 days of free telephone support and a one-year limited warranty. Purchase the\nAppleCare Protection Plan\nto extend your service and support to three years from your computer’s purchase date. Only the AppleCare Protection Plan provides you with direct telephone support from Apple technical experts and the assurance that repairs will be handled by Apple-authorized technicians using genuine Apple parts. For more information, visit\nApple Support\nor call 800-823-2775."
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "MacBook Air\n45W MagSafe 2 Power Adapter, AC wall plug, and power cord\nPrinted and electronic documentation"
+    },
+    {
+      "heading": "Configure to Order",
+      "source_text": "Configure your MacBook Air to order with these options, only at the Apple Online Store:\n2.0GHz dual-core Intel Core i7 (Turbo Boost up to 3.2GHz)\n8GB memory upgrade\n512GB of flash storage"
+    },
+    {
+      "heading": "MacBook Air and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact.\nMacBook Air is designed with the following features to reduce its environmental impact:\nBFR-free\nPVC-free\n6\nHighly recyclable aluminum enclosure\nMeets ENERGY STAR 5.2 requirements\nRated EPEAT Gold\n7\nApple and the Environment\nLearn more about Apple’s dedication to reducing the environmental impact of our products and process\n. Or read our\nProduct Environmental Reports\nfor detailed information on the environmental performance of every Apple product.\nRecycling\nApple takes a holistic view of materials management and waste minimization.\nLearn more about how to recycle your Mac\n."
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "DECLARED NOISE EMISSIONS in accordance with ISO 9296\nSound Power Level\nL\nWAd\n(B)\n1 B = 10 dB\nSound Pressure Level\nOperator Position\nL\npAm\n(dB)\nIdle\n2,5\n6\nHard drive accessing\nN/A\nN/A\nCD drive accessing\nN/A\nN/A"
+    },
+    {
+      "heading": "Available Accessories",
+      "source_text": "Mac Software\niWork\nAperture\nLogic Pro\nFinal Cut Pro X\nDisplays and Adapters\nApple Thunderbolt Display\nApple Mini DisplayPort to DVI Adapter\nApple Mini DisplayPort to VGA Adapter\nApple Mini DisplayPort to Dual-Link DVI Adapter\nMagSafe to MagSafe 2 Converter\nAirPort and Wireless\nAirPort Extreme Base Station\nAirPort Express Base Station\nTime Capsule\nApple Wireless Keyboard\nApple Magic Mouse\nApple Magic Trackpad\nOther Accessories\nApple USB SuperDrive\nThunderbolt to Gigabit Ethernet Adapter\nThunderbolt to FireWire Adapter\nAppleCare Protection Plan\nApple USB Ethernet Adapter"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "Mac mini",
+    "model": "Mac mini Technical Specifications",
+    "model_slug": "mac-mini-technical-specifications",
+    "model_year": null,
+    "year_introduced": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://www.apple.com/ie/mac-mini/specs/",
+    "source_file": "apple_mac_extraction/technical_specs_html/mac-mini.html",
+    "source_title": "Mac mini Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Mac mini and the Environment",
+      "source_text": "See the Mac mini Product En­viron­men­tal Report (PDF)"
+    },
+    {
+      "heading": "Progress towards Apple 2030",
+      "source_text": "Apple 2030 is our goal to be carbon neutral across our value chain. We design our products to be less carbon intensive by prioritising the use of recycled and renewable content and low‑carbon materials while focusing on the energy efficiency of our software and hardware.\nSee Apple’s commitment"
+    },
+    {
+      "heading": "Materials",
+      "source_text": "Mac mini is made with 50% recycled content, 7 including:\n100% recycled aluminium in the enclosure and thermal module stage\n100% recycled copper in multiple thermal module components\n100% recycled copper plating in all Apple‑designed printed circuit boards\n100% recycled gold plating and tin solder in all Apple‑designed printed circuit boards\n80% recycled steel in multiple components including the logo and fan pillow"
+    },
+    {
+      "heading": "Packaging",
+      "source_text": "100% fibre‑based packaging 8"
+    },
+    {
+      "heading": "Energy",
+      "source_text": "100% of manufacturing electricity for Mac mini is sourced from renewable electricity 9\n100% of expected customer use electricity matched with low‑carbon electricity 10\nENERGY STAR® certified 11"
+    },
+    {
+      "heading": "Smarter chemistry 12",
+      "source_text": "All the materials used in Apple products, accessories and packaging are covered by the requirements of our Regulated Substances Specification , which was one of the first in industry to restrict the use of key substances of concern. See the latest En­viron­men­tal Progress Report to understand Apple’s recent efforts in phasing out these chemistries."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

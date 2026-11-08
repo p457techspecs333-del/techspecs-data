@@ -1,0 +1,109 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "iMac",
+    "model": "iMac Pro (2017) - Technical Specifications",
+    "model_slug": "imac-pro-2017-technical-specifications",
+    "model_year": 2017,
+    "year_introduced": 2017
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111995",
+    "source_file": "apple_mac_extraction/technical_specs_html/111995.html",
+    "source_title": "iMac Pro (2017) - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Display",
+      "source_text": "27-inch (diagonal) Retina 5K display\n5120‑by‑2880 resolution with support for one billion colors\n500 nits brightness\nWide color (P3)"
+    },
+    {
+      "heading": "Processor",
+      "source_text": "8-Core\n3.2GHz Intel Xeon W\nTurbo Boost up to 4.2GHz\n19MB cache\n10-Core\n3.0GHz Intel Xeon W\nTurbo Boost up to 4.5GHz\n23.75MB cache\nConfigurable to:\n14-Core\n2.5GHz Intel Xeon W\nTurbo Boost up to 4.3GHz\n33.25MB cache\n18-Core\n2.3GHz Intel Xeon W\nTurbo Boost up to 4.3GHz\n42.75MB cache"
+    },
+    {
+      "heading": "Graphics",
+      "source_text": "Vega 56\nRadeon Pro Vega 56 graphics processor\nwith 8GB of HBM2 memory\n56 compute units\n3584 stream processors\n9 teraflops single precision\n18 teraflops half precision\nConfigurable to:\nVega 64\nRadeon Pro Vega 64 graphics processor\nwith 16GB of HBM2 memory\n64 compute units\n4096 stream processors\n11 teraflops single precision\n22 teraflops half precision\nVega 64X\nRadeon Pro Vega 64X graphics processor\nwith 16GB of HBM2 memory\n64 compute units\n4096 stream processors\n12 teraflops single precision\n24 teraflops half precision"
+    },
+    {
+      "heading": "Memory",
+      "source_text": "32GB\n32GB of 2666MHz DDR4 ECC memory\nQuad-channel memory controller\nConfigurable to:\n64GB\n64GB of 2666MHz DDR4 ECC memory\n128GB\n128GB of 2666MHz DDR4 ECC memory\n256GB\n256GB of 2666MHz DDR4 ECC memory"
+    },
+    {
+      "heading": "Storage 1",
+      "source_text": "1TB SSD\nConfigurable to:\n2TB SSD\n4TB SSD"
+    },
+    {
+      "heading": "Video Support and Camera",
+      "source_text": "1080p FaceTime HD camera\nSimultaneously supports full native resolution on the built-in display at 1 billion colors and:\nTwo 5120‑by‑2880 (5K) external displays at 60Hz with support for 1 billion colors, or\nFour 3840-by-2160 (4K UHD) external displays at 60Hz with support for 1 billion colors, or\nFour 4096‑by‑2304 (4K) external displays at 60Hz with support for millions of colors\nSupport for extended desktop and video mirroring modes\nThunderbolt 3 digital video output\nNative DisplayPort output over USB-C\nThunderbolt 2, HDMI, DVI, and VGA output supported using adapters (sold separately)"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Stereo speakers\nFour microphones\n3.5 mm headphone jack\nSupport for “Hey Siri”"
+    },
+    {
+      "heading": "Connections and Expansion",
+      "source_text": "Nbase-T Ethernet with support for 1Gb, 2.5Gb, 5Gb, and 10Gb Ethernet using RJ‑45 connector\nSDXC card slot with support for UHS‑II\nFour USB-A ports\nFour Thunderbolt 3 (USB-C) ports with support for:\nDisplayPort 1.2\nThunderbolt (up to 40Gb/s)\nUSB 3.1 Gen 2 (up to 10Gb/s)\nThunderbolt 2, HDMI, DVI, and VGA supported using adapters (sold separately)"
+    },
+    {
+      "heading": "Input",
+      "source_text": "Space Gray Magic Keyboard with Numeric Keypad\nSpace Gray Magic Mouse 2\nOptional Space Gray Magic Trackpad 2"
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "Wi-Fi\n802.11ac Wi-Fi wireless networking\nIEEE 802.11a/b/g/n compatible\nBluetooth\nBluetooth 5.0 wireless technology"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height: 20.3 inches (51.6 cm)\nWidth: 25.6 inches (65.0 cm)\nStand depth: 8 inches (20.3 cm)\nWeight: 21.5 pounds (9.7 kg)\n2"
+    },
+    {
+      "heading": "Electrical and Operating Requirements",
+      "source_text": "Line voltage: 100–240V AC\nFrequency: 50Hz to 60Hz, single phase\nOperating temperature: 50° to 95° F (10° to 35° C)\nRelative humidity: 5% to 90% noncondensing\nOperating altitude: tested up to 16,400 feet (5000 meters)\nTypical acoustical performance: Sound pressure level (operator position): 13 dBA at idle\n3"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "iMac Pro\nSpace Gray Magic Keyboard with Numeric Keypad\nSpace Gray Magic Mouse 2\nLightning to USB Cable\nPower cord"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "macOS\nmacOS is the most advanced desktop operating system in the world. macOS Big Sur introduces a bold new design and major updates to apps — taking macOS to a new level of power and beauty.\nLearn more"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new iMac Pro. With built-in support for vision, hearing, mobility, and learning, you can create and do amazing things.\nLearn more\nFeatures include:\nVoice Control\nVoiceOver\nZoom\nIncrease Contrast\nReduce Motion\nSiri and Dictation\nSwitch Control\nClosed Captions\nText to Speech"
+    },
+    {
+      "heading": "Built-in Apps 4",
+      "source_text": "Photos\niMovie\nGarageBand\nPages\nNumbers\nKeynote\nSiri\nSafari\nMail\nFaceTime\nMessages\nMaps\nNews\nStocks\nHome\nVoice Memos\nNotes\nCalendar\nContacts\nReminders\nPhoto Booth\nPreview\nBooks\nApp Store\nTime Machine\nTV\nMusic\nPodcasts\nFind My\nQuickTime Player"
+    },
+    {
+      "heading": "iMac Pro and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more\niMac Pro is designed with the following features to reduce environmental impact:\nArsenic-free display glass\nMercury-free LED-backlit display\nBrominated flame retardant–free\nPVC-free\n5\nBeryllium-free\nRecyclable aluminum enclosure\nSpeaker, keyboard, and trackpad enclosures made with post-consumer recycled plastic\nFan assembly made with 26 percent bio-based plastic\n100 percent of packaging fibers are sourced from responsibly managed forests or recycled paper\nApple and the Environment\nRead our\nProduct Environmental Reports\nfor detailed information on the environmental performance of every Apple product."
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "Declared noise emission values in accordance with ECMA-109\nSound Power Level\nL\nW\nA,m\n(B)\nSound Pressure Level\nOperator Position\nL\np\nA,m\n(dB)\nIdle\n2.1 (\nK\nV\n= 0.3)\n13\nWireless web\n2.1 (\nK\nV\n= 0.3)\n13\nL\nW\nA,m\nis the mean A-weighted sound power level, rounded to the nearest 0.1 B.\nL\np\nA,m\nis the mean A-weighted sound pressure level measured at operator position (rounded to the nearest 1 dB).\n1 B (bel) = 10 dB (decibel)\nK\nv\nis the statistical adder for computing upper-limit of A-weighted sound power level.\nThe quantity,\nL\nW\nA,c\n(formerly called\nL\nW\nAd\n) may be computed from the sum of\nL\nW\nA,m\nand\nK\nv\n.\nThe Wireless web test browses 25 popular websites.\nConfiguration tested: 3.2GHz 8-core Intel Xeon W processor, 32GB memory, 1TB storage, Radeon Pro Vega 56 Graphics."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

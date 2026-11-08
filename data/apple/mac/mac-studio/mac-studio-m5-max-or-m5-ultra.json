@@ -1,0 +1,109 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "Mac Studio",
+    "model": "Mac Studio (M5 Max or M5 Ultra)",
+    "model_slug": "mac-studio-m5-max-or-m5-ultra",
+    "model_year": null,
+    "year_introduced": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/128107",
+    "source_file": "apple_mac_extraction/technical_specs_html/128107.html",
+    "source_title": "Mac Studio (M5 Max or M5 Ultra) - Tech Specs",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Finish",
+      "source_text": "Silver"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "Apple M5 Max chip\n18‑core CPU with 6 super cores and 12 performance cores\n32-core GPU\nNeural Accelerators\nHardware-accelerated ray tracing\n16‑core Neural Engine\n460GB/s memory bandwidth\nMedia Engine\nHardware-accelerated H.264, HEVC, ProRes and ProRes RAW\nVideo decode engine\nTwo video encode engines\nTwo ProRes encode and decode engines\nAV1 decode\nConfigurable to:\nM5 Max with 18-core CPU, 40-core GPU and 16-core Neural Engine (614GB/s memory bandwidth)\nApple M5 Ultra chip\n30-core CPU with 10 super cores and 20 performance cores\n64-core GPU\nNeural Accelerators\nHardware-accelerated ray tracing\n32-core Neural Engine\n1.2TB/s memory bandwidth\nMedia Engine\nHardware-accelerated H.264, HEVC, ProRes and ProRes RAW\nTwo video decode engines\nFour video encode engines\nFour ProRes encode and decode engines\nAV1 decode\nConfigurable to:\nM5 Ultra with 36‑core CPU, 80‑core GPU and 32‑core Neural Engine (1.2TB/s memory bandwidth)"
+    },
+    {
+      "heading": "Memory",
+      "source_text": "Apple M5 Max chip\n36GB unified memory\nConfigurable to:\n48GB, 64GB or 128GB (M5 Max with 18‑core CPU and 40‑core GPU)\nApple M5 Ultra chip\n96GB unified memory\nConfigurable to:\n256GB or 512GB (M5 Ultra with 36-core CPU and 80-core GPU)"
+    },
+    {
+      "heading": "Storage 1",
+      "source_text": "Apple M5 Max chip\n512GB SSD\nConfigurable to:\n1TB, 2TB, 4TB or 8TB\nApple M5 Ultra chip\n1TB SSD\nConfigurable to:\n2TB, 4TB, 8TB or 16TB"
+    },
+    {
+      "heading": "Display Support",
+      "source_text": "M5 Max\nSupports up to five external displays over any combination of Thunderbolt and HDMI ports:\nFive displays: Four displays up to a native resolution of 6K at 60Hz or 4K at 165Hz, plus a fifth display with up to 5K at 60Hz over HDMI\nUp to three displays: Two displays up to a native resolution of 8K at 60Hz or 5K at 120Hz or 4K at 240Hz, plus a third display with up to 5K at 60Hz over HDMI\nSupports up to four external displays over a single Thunderbolt port\nThunderbolt 5 (USB‑C) ports support native DisplayPort 2.1 speeds\nSupports variable refresh rate (VRR), HDR and multi‑channel audio\nM5 Ultra\nSupports up to eight external displays over any combination of Thunderbolt and HDMI ports:\nEight displays up to a native resolution of 6K at 60Hz or 4K resolution at up to 165Hz\nUp to four displays up to a native resolution of 8K at 60Hz or 5K at 120Hz or 4K at 240Hz\nSupports up to four external displays over a single Thunderbolt port\nThunderbolt 5 (USB‑C) ports support native DisplayPort 2.1 speeds\nSupports variable refresh rate (VRR), HDR and multi‑channel audio\nLearn more about connecting a display to your Mac"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Built-in speaker\n3.5mm headphone jack with advanced support for high-impedance headphones\nHDMI port supports multi-channel audio output"
+    },
+    {
+      "heading": "Connections and Expansion",
+      "source_text": "Four Thunderbolt 5 (USB‑C) ports with support for:\nThunderbolt 5 (up to 120Gb/s)\nUSB 4 (up to 120Gb/s)\nUSB 3 (up to 10Gb/s)\nDisplayPort 2.1\nTwo USB 3 (USB‑A) ports (up to 5Gb/s)\nHDMI 2.1 port\n10Gb Ethernet\n3.5mm headphone jack\nOn front (M5 Max):\nTwo USB‑C ports (up to 10Gb/s)\nSDXC card slot (UHS-II)\nOn front (M5 Ultra):\nTwo Thunderbolt 5 ports (up to 120Gb/s)\nSDXC card slot (UHS-II)"
+    },
+    {
+      "heading": "Communications",
+      "source_text": "Wireless\nApple N1 wireless networking chip\nWi‑Fi 7 (802.11be)\n2\nBluetooth 6\nThread networking technology\nEthernet\n10Gb Ethernet (Nbase-T Ethernet with support for 1Gb, 2.5Gb, 5Gb and 10Gb Ethernet using RJ‑45 connector)"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height:\n9.5 cm (3.7 inches)\nWidth:\n19.7 cm (7.7 inches)\nDepth:\n19.7 cm (7.7 inches)\nWeight (M5 Max):\n2.7 kg (6.0 pounds)\n3\nWeight (M5 Ultra):\n3.6 kg (8.0 pounds)\n3"
+    },
+    {
+      "heading": "Electrical and Operating Requirements",
+      "source_text": "Line voltage:\n100–240V AC\nFrequency:\n50Hz to 60Hz, single phase\nMaximum continuous power:\n480W\nOperating temperature:\n10° to 35° C (50° to 95° F)\nStorage temperature:\n–40° to 47° C (–40° to 116° F)\nRelative humidity:\n5% to 90% non-condensing\nOperating altitude:\ntested up to 5,000 metres (16,400 feet)"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "Mac Studio\nPower lead"
+    },
+    {
+      "heading": "Oper­at­ing System",
+      "source_text": "macOS\nmacOS is the most advanced desktop operating system in the world. Siri AI\n4\nis a powerful and capable assistant with personal context understanding, broad world knowledge and onscreen awareness. Express yourself through photos and images, save time with Safari, and get more done with Apple Intelligence\n4\nseamlessly integrated into your everyday apps and experiences. And iPhone Mirroring,\n5\nwindow tiling, Sidecar and more help you stay productive."
+    },
+    {
+      "heading": "Apple Intelligence and Siri AI 4",
+      "source_text": "The next generation of Apple Intelligence is centred around you, integrated into your apps and built with privacy. Apple Intelligence powers Siri AI — an entirely new version of Siri that’s more personal, conversational and powerful, along with helpful features across apps.\nLearn more about Apple Intelligence and Siri AI"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new Mac Studio. With built-in support for vision, hearing, mobility and learning, you can create and do amazing things.\nLearn more about Accessibility\nFeatures include:\nVoiceOver\nZoom\nMotion, display and text settings\nAccessi­bility Reader\nVoice Control\nSwitch Control\nClosed Captions\nLive Captions\nPersonal Voice and Live Speech"
+    },
+    {
+      "heading": "Built-in Apps 6",
+      "source_text": "App Store\nBooks\nCalendar\nContacts\nFaceTime\nFind My\nFreeform\nGarageBand\nHome\niMovie\niPhone Mirroring\nKeynote\nMail\nMaps\nMessages\nMusic\nNews\nNotes\nNumbers\nPages\nPasswords\nPhoto Booth\nPhotos\nPodcasts\nPreview\nQuickTime Player\nReminders\nSafari\nShortcuts\nStocks\nTime Machine\nTips\nTV\nVoice Memos\nWeather"
+    },
+    {
+      "heading": "Con­fig­ure to Order",
+      "source_text": "Con­fig­ure your Mac Studio with these options at\napple.com\n:\nApple M5 Max chip\nM5 Max with 18‑core CPU, 40‑core GPU and 16‑core Neural Engine\n48GB, 64GB or 128GB unified memory (M5 Max with 18-core CPU and 40-core GPU)\n1TB, 2TB, 4TB or 8TB SSD\nApple M5 Ultra chip\nM5 Ultra with 36-core CPU, 80-core GPU and 32-core Neural Engine\n256GB unified memory\n512GB unified memory (M5 Ultra with 36‑core CPU and 80-core GPU)\n2TB, 4TB, 8TB or 16TB SSD"
+    },
+    {
+      "heading": "Mac Studio and the Environment",
+      "source_text": "See the Mac Studio Product Environmental Report (PDF)\nProgress towards Apple 2030\nApple 2030 is our goal to be carbon neutral across our value chain. We design our products to be less carbon intensive by prioritising the use of recycled and renewable content and low-carbon materials while focusing on the energy efficiency of our software and hardware.\nSee Apple’s commitment\nMaterials\nMac Studio is made with 35% recycled content,\n7\nincluding:\n100% recycled aluminium in the enclosure and thermal module sheet, chassis and brackets\n100% recycled copper in the thermal module pedestal and multiple printed circuit boards\n100% recycled gold plating and tin solder in all Apple‑designed printed circuit boards\n90% recycled steel in multiple thermal module components\nPackaging\n100% fibre-based packaging\n8\nEnergy\nENERGY STAR® certified\n9\nSmarter chemistry\n10\nAll the materials used in Apple products, accessories and packaging are covered by the requirements of our\nRegulated Substances Specification\n, which was one of the first in industry to restrict the use of key substances of concern. See the latest\nEnvironmental Progress Report\nto understand Apple’s recent efforts in phasing out these chemistries."
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "Declared noise emission values in accordance with ECMA-109\nAcoustic Performance\nSound Power Level\nL\nW\nA,m\n(B)\nSound Pressure Level\nOperator Position\nL\np\nA,m\n(dB)\nIdle\n1.5 (\nK\nV\n= 0.3)\n7\nWireless web\n1.5 (\nK\nV\n= 0.3)\n7\nL\nW\nA,m\nis the mean A-weighted sound power level, rounded to the nearest 0.1 B.\nL\np\nA,m\nis the mean A-weighted sound pressure level measured at operator position (rounded to the nearest 1 dB).\n1 B (bel) = 10 dB (decibel).\nK\nv\nis the statistical adder for computing upper-limit of A-weighted sound power level.\nThe quantity,\nL\nW\nA,c\n(formerly called\nL\nW\nAd\n) may be computed from the sum of\nL\nW\nA,m\nand\nK\nv\n.\nThe wireless web test browses 6 tabs with a mix of content including media.\nConfiguration tested: M5 Ultra, 30-core CPU / 64-core GPU, 96GB unified memory, 1TB storage."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

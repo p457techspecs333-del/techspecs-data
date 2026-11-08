@@ -1,0 +1,133 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "MacBook Pro",
+    "model": "MacBook Pro (14-inch, 2021) - Technical Specifications",
+    "model_slug": "macbook-pro-14-inch-2021-technical-specifications",
+    "model_year": 2021,
+    "year_introduced": 2021
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111902",
+    "source_file": "apple_mac_extraction/technical_specs_html/111902.html",
+    "source_title": "MacBook Pro (14-inch, 2021) - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Finish",
+      "source_text": "Silver\nSpace Gray"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "Apple M1 Pro chip\n8-core CPU with 6 performance cores and 2 efficiency cores\n14-core GPU\n16-core Neural Engine\n200GB/s memory bandwidth\nMedia engine\nHardware-accelerated H.264, HEVC, ProRes, and ProRes RAW\nVideo decode engine\nVideo encode engine\nProRes encode and decode engine\nConfigurable to:\nM1 Pro with 10-core CPU and 14-core GPU\nM1 Pro with 10-core CPU and 16-core GPU\nM1 Max with 10-core CPU and 24-core GPU\nM1 Max with 10-core CPU and 32-core GPU"
+    },
+    {
+      "heading": "Apple Intelligence 10",
+      "source_text": "Apple In­telli­gence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.\nLearn more about Apple Intelligence"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Liquid Retina XDR display\n14.2-inch (diagonal) Liquid Retina XDR display;\n1\n3024-by-1964 native resolution at 254 pixels per inch\nXDR (Extreme Dynamic Range)\n1,000,000:1 contrast ratio\nXDR brightness: 1000 nits sustained full-screen, 1600 nits peak\n2\n(HDR content only)\nSDR brightness: 500 nits\nColor\n1 billion colors\nWide color (P3)\nTrue Tone technology\nRefresh rates\nProMotion technology for adaptive refresh rates up to 120Hz\nFixed refresh rates: 47.95Hz, 48.00Hz, 50.00Hz, 59.94Hz, 60.00Hz"
+    },
+    {
+      "heading": "Memory",
+      "source_text": "Apple M1 Pro Chip\n16GB unified memory\nConfigurable to 32GB (M1 Pro or M1 Max) or 64GB (M1 Max)"
+    },
+    {
+      "heading": "Battery and Power 3",
+      "source_text": "Up to 17 hours Apple TV app movie playback\nUp to 11 hours wireless web\n70-watt-hour lithium-polymer battery\n3\n67W USB-C Power Adapter (included with M1 Pro with 8-core CPU)\n96W USB-C Power Adapter (included with M1 Pro with 10-core CPU or M1 Max, configurable with M1 Pro with 8-core CPU)\nUSB-C to MagSafe 3 Cable\nFast-charge capable with 96W USB-C Power Adapter"
+    },
+    {
+      "heading": "Storage 4",
+      "source_text": "Apple M1 Pro Chip\n512GB SSD\nConfigurable to 1TB, 2TB, 4TB, or 8TB"
+    },
+    {
+      "heading": "Charging and Expansion",
+      "source_text": "SDXC card slot\nHDMI port\n3.5 mm headphone jack\nMagSafe 3 port\nThree Thunderbolt 4 (USB-C) ports with support for:\nCharging\nDisplayPort\nThunderbolt 4 (up to 40Gb/s)\nUSB 4 (up to 40Gb/s)"
+    },
+    {
+      "heading": "Display Support",
+      "source_text": "Simultaneously supports full native resolution on the built-in display at 1 billion colors and:\nUp to two external displays with up to 6K resolution at 60Hz at over a billion colors (M1 Pro) or\nUp to three external displays with up to 6K resolution and one external display with up to 4K resolution at 60Hz at over a billion colors (M1 Max)\nThunderbolt 4 digital video output\nNative DisplayPort output over USB‑C\nVGA, HDMI, DVI, and Thunderbolt 2 output supported using adapters (sold separately)\nHDMI digital video output\nSupport for one display with up to 4K resolution at 60Hz\nDVI output using HDMI to DVI Adapter (sold separately)"
+    },
+    {
+      "heading": "Video Playback",
+      "source_text": "Supported formats include HEVC, H.264, and ProRes\nHDR with Dolby Vision, HDR10, and HLG"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "Supported formats include AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus, and Dolby Atmos"
+    },
+    {
+      "heading": "Keyboard and Trackpad",
+      "source_text": "Backlit Magic Keyboard with:\n78 (U.S.) or 79 (ISO) keys including 12 full-height function keys and 4 arrow keys in an inverted-T arrangement\nTouch ID\nAmbient light sensor\nForce Touch trackpad for precise cursor control and pressure-sensing capabilities; enables Force clicks, accelerators, pressure-sensitive drawing, and Multi-Touch gestures"
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "Wi-Fi\n802.11ax Wi-Fi 6 wireless networking\nIEEE 802.11a/b/g/n/ac compatible\nBluetooth\nBluetooth 5.0 wireless technology"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "1080p FaceTime HD camera\nAdvanced image signal processor with computational video"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "High-fidelity six-speaker sound system with force-cancelling woofers\nWide stereo sound\nSupport for spatial audio when playing music or video with Dolby Atmos on built-in speakers\nSpatial audio with dynamic head tracking when using AirPods (3rd generation), AirPods Pro, and AirPods Max\nStudio-quality three-mic array with high signal-to-noise ratio and directional beamforming\n3.5 mm headphone jack with advanced support for high-impedance headphones"
+    },
+    {
+      "heading": "Operating Requirements",
+      "source_text": "Line voltage: 100V to 240V AC\nFrequency: 50Hz to 60Hz\nOperating temperature: 50° to 95° F (10° to 35° C)\nStorage temperature: –13° to 113° F (–25° to 45° C)\nRelative humidity: 0% to 90% noncondensing\nOperating altitude: tested up to 10,000 feet\nMaximum storage altitude: 15,000 feet\nMaximum shipping altitude: 35,000 feet"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height: 0.61 inch (1.55 cm)\nWidth: 12.31 inches (31.26 cm)\nDepth: 8.71 inches (22.12 cm)\nWeight: 3.5 pounds (1.6 kg)\n5"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "macOS\nmacOS is the most advanced desktop operating system in the world. macOS Sequoia helps you be productive and creative in new ways — with Apple Intelligence,\n10\niPhone Mirroring, window tiling, major updates to Safari and more.\nLearn more about the latest Operating System\nmacOS User Guide"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new MacBook Pro. With built-in support for vision, hearing, mobility, and learning, you can create and do amazing things.\nLearn more about Accessibility\nFeatures include:\nVoice Control\nVoiceOver\nZoom\nIncrease Contrast\nReduce Motion\nSiri and Dictation\nSwitch Control\nLive Captions"
+    },
+    {
+      "heading": "Built-in Apps 6",
+      "source_text": "App Store\nBooks\nCalendar\nContacts\nFaceTime\nFind My\nGarageBand\nHome\niMovie\nKeynote\nMail\nMaps\nMessages\nMusic\nNews\nNotes\nNumbers\nPages\nPhoto Booth\nPhotos\nPodcasts\nPreview\nQuickTime Player\nReminders\nSafari\nShortcuts\nSiri\nStocks\nTime Machine\nTV\nVoice Memos"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "14-inch MacBook Pro\n67W USB-C Power Adapter (M1 Pro with 8-core CPU) or 96W USB-C Power Adapter (M1 Pro with 10-core CPU or M1 Max)\nUSB-C to MagSafe 3 Cable (2 m)"
+    },
+    {
+      "heading": "Configure to Order",
+      "source_text": "Configure your MacBook Pro with these options at\napple.com\n:\nM1 Pro with 10-core CPU and 14-core GPU\nM1 Pro with 10-core CPU and 16-core GPU\nM1 Max with 10-core CPU and 24-core GPU\nM1 Max with 10-core CPU and 32-core GPU\n32GB unified memory (M1 Pro and M1 Max)\n64GB unified memory (M1 Max)\n1TB, 2TB, 4TB, or 8TB SSD\n96W USB-C Power Adapter (included with M1 Pro with 10-core CPU or M1 Max)"
+    },
+    {
+      "heading": "MacBook Pro and the Environment",
+      "source_text": "The 14-inch MacBook Pro is designed with the following features to reduce its environmental impact:\n7\nSee the 14-inch MacBook Pro Product Environmental Report\nMade with better materials\n100% recycled aluminum in the enclosure\n100% recycled rare earth elements in all magnets, representing 98% of the rare earth elements in the device\n100% recycled tin in the solder of the main logic board\n35% or more recycled plastic in multiple components\nEnergy efficient\nENERGY STAR\n®\ncertified\n8\nSmarter chemistry\n9\nArsenic-free display glass\nMercury-, BFR-, PVC-, and beryllium‑free\nGreen manufacturing\nApple’s Zero Waste Program helps suppliers eliminate waste sent to landfill\nAll final assembly supplier sites are transitioning to 100% renewable energy for Apple production\nResponsible packaging\n100% of virgin wood fiber comes from responsibly managed forests\n90% or more fiber-based packaging\nApple and the Environment\nWe’re committed to making our products without taking from the earth, and to become carbon neutral across our entire business, including products, by 2030.\nSee Apple’s commitment"
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "Declared noise emission values in accordance with ECMA-109\nSound Power Level\nL\nW\nA,m\n(B)\nSound Pressure Level\nOperator Position\nL\np\nA,m\n(dB)\nIdle\n1.3 (\nK\nV\n= 0.3)\n3\nWireless web\n1.3 (\nK\nV\n= 0.3)\n3\nL\nW\nA,m\nis the mean A-weighted sound power level, rounded to the nearest 0.1 B.\nL\np\nA,m\nis the mean A-weighted sound pressure level measured at operator position (rounded to the nearest 1 dB).\n1 B (bel) = 10 dB (decibel)\nK\nv\nis the statistical adder for computing upper-limit of A-weighted sound power level.\nThe quantity,\nL\nW\nA,c\n(formerly called\nL\nW\nAd\n) may be computed from the sum of\nL\nW\nA,m\nand\nK\nv\n.\nThe Wireless web test browses 25 popular websites.\nConfiguration tested: M1 Pro, 10-core CPU, 16-core GPU, 16GB unified memory, 1TB storage."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

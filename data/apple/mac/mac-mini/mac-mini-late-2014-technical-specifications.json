@@ -1,0 +1,113 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "Mac mini",
+    "model": "Mac mini (Late 2014) - Technical Specifications",
+    "model_slug": "mac-mini-late-2014-technical-specifications",
+    "model_year": 2014,
+    "year_introduced": 2014
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111931",
+    "source_file": "apple_mac_extraction/technical_specs_html/111931.html",
+    "source_title": "Mac mini (Late 2014) - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Processor",
+      "source_text": "1.4GHz\n1.4GHz dual-core Intel Core i5 (Turbo Boost up to 2.7GHz) with 3MB on-chip shared L3 cache\n2.6GHz\n2.6GHz dual-core Intel Core i5 (Turbo Boost up to 3.1GHz) with 3MB on-chip shared L3 cache\nConfigurable to 3.0GHz dual-core Intel Core i7 (Turbo Boost up to 3.5GHz) with 4MB on-chip shared L3 cache.\n2.8GHz\n2.8GHz dual-core Intel Core i5 (Turbo Boost up to 3.3GHz) with 3MB on-chip shared L3 cache\nConfigurable to 3.0GHz dual-core Intel Core i7 (Turbo Boost up to 3.5GHz) with 4MB on-chip shared L3 cache."
+    },
+    {
+      "heading": "Storage 1",
+      "source_text": "1.4GHz\n500GB (5400-rpm) hard drive\nConfigurable to 1TB Fusion Drive.\n2.6GHz\n1TB (5400-rpm) hard drive\nConfigurable to 1TB Fusion Drive or 256GB of flash storage (SSD).\n2.8GHz\n1TB Fusion Drive\nConfigurable to 2TB Fusion Drive or 256GB, 512GB or 1TB of flash storage (SSD)."
+    },
+    {
+      "heading": "Memory",
+      "source_text": "1.4GHz\n4GB of 1600MHz LPDDR3 memory\nConfigurable to 8GB or 16GB.\n2.6GHz\n8GB of 1600MHz LPDDR3 memory\nConfigurable to 16GB.\n2.8GHz\n8GB of 1600MHz LPDDR3 memory\nConfigurable to 16GB."
+    },
+    {
+      "heading": "Graphics",
+      "source_text": "1.4GHz\nIntel HD Graphics 5000\n2.6GHz\nIntel Iris Graphics\n2.8GHz\nIntel Iris Graphics"
+    },
+    {
+      "heading": "Size",
+      "source_text": "Height: 1.4 inches (3.6 cm)\nWidth: 7.7 inches (19.7 cm)\nDepth: 7.7 inches (19.7 cm)"
+    },
+    {
+      "heading": "Weight 2",
+      "source_text": "1.4GHz\n2.6 pounds (1.19 kg)\n2.6GHz\n2.6 pounds (1.20 kg)\n2.8GHz\n2.7 pounds (1.22 kg)"
+    },
+    {
+      "heading": "Video Support",
+      "source_text": "Support for up to two displays at 2560 by 1600 pixels, both at millions of colors\nThunderbolt digital video output\nNative Mini DisplayPort output\nDVI output using Mini DisplayPort to DVI Adapter (sold separately)\nVGA output using Mini DisplayPort to VGA Adapter (sold separately)\nDual-link DVI output using Mini DisplayPort to Dual-Link DVI Adapter (sold separately)\nHDMI video output\nSupport for 1080p resolution at up to 60Hz\nSupport for 3840-by-2160 resolution at 30Hz\nSupport for 4096-by-2160 resolution at 24Hz\nDVI output using HDMI to DVI Adapter (sold separately)"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Audio line in minijack (digital/analog)\nAudio line out/3.5 mm headphone jack (digital/analog)\nHDMI port supports multichannel audio output\nSupport for Apple iPhone headset with microphone\nBuilt-in speaker"
+    },
+    {
+      "heading": "Connections and Expansions",
+      "source_text": "Two Thunderbolt 2 ports (up to 20 Gbps)\nFour USB 3 ports (up to 5 Gbps)\nHDMI port\nSDXC card slot\nGigabit Ethernet port\nAudio in port\n3.5 mm headphone jack\nIR receiver"
+    },
+    {
+      "heading": "Communications",
+      "source_text": "Wi-Fi\n802.11ac Wi-Fi wireless networking; IEEE 802.11a/g/b/n compatible\nBluetooth\nBluetooth 4.0 wireless technology\nEthernet\n10/100/1000BASE-T Ethernet (RJ-45 connector)"
+    },
+    {
+      "heading": "Electrical and Operating Requirements",
+      "source_text": "Line voltage: 100-240V AC\nFrequency: 50Hz to 60Hz, single phase\nMaximum continuous power: 85W\nOperating temperature: 50° to 95° F (10° to 35° C)\nStorage temperature: -40° to 116° F (-40° to 47° C)\nRelative humidity: 5% to 95% noncondensing\nOperating altitude: tested up to 10,000 feet\nTypical acoustical performance: Sound pressure level (operator position): 12dBA at idle\n3"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "Mac mini\nPower cord"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "macOS\nmacOS is the operating system that powers everything you do on a Mac. macOS Mojave brings new features inspired by its most powerful users, but designed for everyone. So you can get more out of every click.\nLearn more about latest operating system"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new Mac mini. With built-in support for vision, hearing, physical and motor skills, and learning and literacy, you can create and do amazing things.\nLearn more about Accessibility\nFeatures include:\nVoiceOver\nZoom\nIncrease Contrast\nReduce Motion\nSiri and Dictation\nSwitch Control\nClosed Captions\nText to Speech"
+    },
+    {
+      "heading": "Built-in Apps 4",
+      "source_text": "Photos\niMovie\nGarageBand\nPages\nNumbers\nKeynote\nSiri\nSafari\nMail\nFaceTime\nMessages\nMaps\nNews\nStocks\nHome\nVoice Memos\nNotes\nCalendar\nContacts\nReminders\nPhoto Booth\nPreview\niTunes\nBooks\nApp Store\nTime Machine"
+    },
+    {
+      "heading": "Conﬁgure to Order",
+      "source_text": "Configure your Mac mini with these options, only at the\nApple Online Store\n.\n1.4GHz\n8GB LPDDR3 memory\n16GB LPDDR3 memory\n1TB Fusion Drive\nApple Remote\n2.6GHz\n16GB LPDDR3 memory\n3.0GHz dual-core Intel Core i7 processor\n1TB Fusion Drive\n256GB flash storage (SSD)\nApple Remote\n2.8GHz\n16GB LPDDR3 memory\n3.0GHz dual-core Intel Core i7 processor\n2TB Fusion Drive\n256GB flash storage (SSD)\n512GB flash storage (SSD)\n1TB flash storage (SSD)\nApple Remote"
+    },
+    {
+      "heading": "Mac mini and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more about Mac mini and the Environment\nMac mini is designed with the following features to reduce its environmental impact:\nBFR-free\nPVC-free\n5\nHighly recyclable aluminum enclosure\nMeets ENERGY STAR 6.1 requirements\nRated EPEAT Gold\n6\nApple and the Environment\nLearn more about Apple’s dedication to reducing the environmental impact of our products and process\n. Or read our\nProduct Environmental Reports\nfor detailed information on the environmental performance of every Apple product.\nApple GiveBack\nLetting go of your old Mac is easy with Apple GiveBack. If it’s in good shape, you can trade it in for Apple Store credit. If it’s not eligible for credit, we’ll recycle it responsibly at no cost to you. Good for you. Good for the planet.\nSee how it works"
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "Declared noise emission values in accordance with ECMA-109\nSound Power Level\nL\nW\nA,m\n(B)\nSound Pressure Level\nOperator Position\nL\np\nA,m\n(dB)\nIdle\n1.90 (\nK\nV\n= 0.25)\n12.0\nWireless web\n1.90 (\nK\nV\n= 0.25)\n11.5\nHard drive seek\n1.95 (\nK\nV\n= 0.25)\n12.0\nL\nW\nA,m\nis the mean A-weighted sound power level, rounded to the nearest 0.05 B.\nL\np\nA,m\nis the mean A-weighted sound pressure level measured at the operator position (rounded to the nearest 0.5 dB).\n1 B (bel) = 10 dB (decibel)\nK\nv\nis the statistical adder for computing upper-limit of A-weighted sound power level.\nThe quantity,\nL\nW\nA,c\n(formerly called\nL\nW\nAd\n) may be computed from the sum of\nL\nW\nA,m\nand\nK\nv\n.\nThe Wireless web test browses 25 popular websites.\nConfiguration tested: 2.8GHz dual-core Intel Core i5 processor, 8GB memory, 1TB Fusion Drive, Intel Iris graphics."
+    },
+    {
+      "heading": "Accessories",
+      "source_text": "Wireless\nMagic Keyboard\nMagic Mouse 2\nMagic Trackpad 2\nMac Software\nLogic Pro X\nFinal Cut Pro X\nDisplays and Graphics\nApple HDMI to DVI Adapter\nApple Mini DisplayPort to DVI Adapter\nApple Mini DisplayPort to VGA Adapter\nApple Mini DisplayPort to Dual-Link DVI Adapter\nOther Accessories\nApple USB SuperDrive\nAppleCare+ for Mac"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

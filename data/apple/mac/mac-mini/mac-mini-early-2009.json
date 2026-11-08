@@ -1,0 +1,89 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "Mac mini",
+    "model": "Mac mini (Early 2009)",
+    "model_slug": "mac-mini-early-2009",
+    "model_year": 2009,
+    "year_introduced": 2009
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111345",
+    "source_file": "apple_mac_extraction/technical_specs_html/111345.html",
+    "source_title": "Mac mini (Early 2009) - Tech Specs",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "In the box",
+      "source_text": "Mac mini\nMini-DVI to DVI Adapter\n110W power adapter and power cord\nInstall/restore DVDs\nPrinted and electronic documentation"
+    },
+    {
+      "heading": "Processor and memory",
+      "source_text": "2.0GHz or 2.26GHz Intel Core 2 Duo processor\n3MB on-chip shared L2 cache running 1:1 with processor speed\n1066MHz frontside bus\n1GB (one 1GB SO-DIMM) or 2GB (two 1GB SO-DIMMs) of 1066MHz DDR3 SDRAM; two SO-DIMM slots support up to 4GB"
+    },
+    {
+      "heading": "Size and weight",
+      "source_text": "Height: 2 inches (5.08 cm)\nWidth: 6.5 inches (16.51 cm)\nDepth: 6.5 inches (16.51 cm)\nWeight: 2.9 pounds (1.31 kg)\n1"
+    },
+    {
+      "heading": "Environmental Status Report",
+      "source_text": "Mac mini is designed with the following features to reduce its environmental impact:\nBFR-free\nPVC-free (internal cables)\nHighly recyclable aluminum and polycarbonate enclosure\nMeets ENERGY STAR requirements\nRated EPEAT Gold"
+    },
+    {
+      "heading": "Peripheral connections",
+      "source_text": "One FireWire 800 port (up to 800 Mbps)\nFive USB 2.0 ports (up to 480 Mbps)"
+    },
+    {
+      "heading": "Graphics and video support",
+      "source_text": "NVIDIA GeForce 9400M graphics processor with 128MB or 256MB of DDR3 SDRAM shared with main memory\n2\nExtended desktop and video mirroring: Simultaneously supports up to 1920 by 1200 pixels on a DVI or VGA display; up to 2560 by 1600 pixels on a dual-link DVI display using Mini DisplayPort to Dual-Link DVI Adapter (sold separately)\nMini-DVI port\nDVI output using Mini-DVI to DVI Adapter (included)\nVGA output using Mini-DVI to VGA Adapter (sold separately)\nMini DisplayPort output"
+    },
+    {
+      "heading": "Communications",
+      "source_text": "Built-in AirPort Extreme Wi-Fi wireless networking\n3\n(based on 802.11n draft specification); IEEE 802.11a/b/g compatible\nBuilt-in Bluetooth 2.1 + EDR (Enhanced Data Rate)\nBuilt-in 10/100/1000BASE-T Gigabit Ethernet (RJ-45 connector)\nOptional external Apple USB Modem"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Combined optical digital audio input/audio line in (minijack)\nCombined optical digital audio output/headphone out (minijack)\nBuilt-in speaker"
+    },
+    {
+      "heading": "Storage",
+      "source_text": "120GB, 250GB, or 320GB 5400-rpm Serial ATA hard disk drive\n4\nSlot-loading SuperDrive with double-layer support (DVD±R DL/DVD±RW/CD-RW): Writes DVD+R DL and DVD-R DL discs at up to 6x speed, writes DVD-R and DVD+R discs at up to 8x speed, writes DVD-RW discs at up to 6x speed, writes DVD+RW discs at up to 8x speed, reads DVDs at up to 8x speed, writes CD-R and CD-RW discs at up to 24x speed, reads CDs at up to 24x speed"
+    },
+    {
+      "heading": "Electrical and operating requirements",
+      "source_text": "Line voltage: 100-240V AC\nFrequency: 50Hz to 60Hz, single phase\nMaximum continuous power: 110W\nOperating temperature: 50° to 95° F (10° to 35° C)\nStorage temperature: -40° to 116° F (-40° to 47° C)\nRelative humidity: 5% to 95% noncondensing\nMaximum altitude: 10,000 feet"
+    },
+    {
+      "heading": "Software",
+      "source_text": "Mac OS X v10.5 Leopard (includes iTunes, Time Machine, Quick Look, Spaces, Spotlight, Dashboard, Mail, iChat, Safari, Address Book, QuickTime, iCal, DVD Player, Front Row, Xcode Developer Tools)\niLife ’09 (includes iPhoto, iMovie, iDVD, iWeb, GarageBand)"
+    },
+    {
+      "heading": "Configurations",
+      "source_text": "120GB Mac mini (MB463LL/A)\n320GB Mac mini (MB464LL/A)\nProcessor\n2.0GHz Intel Core 2 Duo\n2.0GHz Intel Core 2 Duo\nL2 cache\n3MB shared\nSystem bus\n1066MHz\nMemory\n1GB of 1066MHz DDR3 SDRAM; supports up to 4GB\n2GB of 1066MHz DDR3 SDRAM; supports up to 4GB\nHard drive\n120GB Serial ATA\n4\n; 5400 rpm\n320GB Serial ATA\n4\n; 5400 rpm\nOptical drive\nSlot-loading 8x SuperDrive with double-layer support (DVD±R DL/DVD±RW/CD-RW)\nGraphics\nNVIDIA GeForce 9400M graphics processor with 128MB of DDR3 SDRAM shared with main memory\n2\nNVIDIA GeForce 9400M graphics processor with 256MB of DDR3 SDRAM shared with main memory\n2\nPorts\nOne FireWire 800 port (8 watts); five USB 2.0 ports (up to 480 Mbps); mini-DVI output; VGA output (using optional adapter); Mini DisplayPort\nAudio\nBuilt-in speaker, combined optical digital audio input/audio line in, combined optical digital audio output/headphone out\nNetworking\nBuilt-in 10/100/1000BASE-T (Gigabit)\nWireless\nBuilt-in AirPort Extreme Wi-Fi (802.11n)\n3\n; built-in Bluetooth 2.1 + EDR (Enhanced Data Rate)"
+    },
+    {
+      "heading": "Options",
+      "source_text": "Configure to Order\n2.26GHz Intel Core 2 Duo\n250GB 5400-rpm hard drive\n320GB 5400-rpm hard drive\nUp to 4GB of 1066MHz DDR3 SDRAM\nApple LED Cinema Display\nApple Wireless Keyboard\nApple Keyboard\nApple Keyboard with Numeric Keypad\nApple Wireless Mighty Mouse\nApple Mighty Mouse\nApple Remote\niWork ’09\nAperture\nFinal Cut Express\nLogic Express\nAccessories\n110W Mac mini Power Adapter\nAirPort Express Base Station\nAirPort Extreme Base Station\nApple Mini-DVI to VGA Adapter\nApple Mini DisplayPort to Dual-Link DVI Adapter"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

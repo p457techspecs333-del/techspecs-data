@@ -1,0 +1,133 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "MacBook Pro",
+    "model": "MacBook Pro (14-inch, M3, Nov 2023)",
+    "model_slug": "macbook-pro-14-inch-m3-nov-2023",
+    "model_year": 2023,
+    "year_introduced": 2023
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/117735",
+    "source_file": "apple_mac_extraction/technical_specs_html/117735.html",
+    "source_title": "MacBook Pro (14-inch, M3, Nov 2023) - Tech Specs",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Finish",
+      "source_text": "Space Gray\nSilver"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "Apple M3 chip\n8-core CPU with 4 performance cores and 4 efficiency cores\n10-core GPU\nHardware-accelerated ray tracing\n16-core Neural Engine\n100GB/s memory bandwidth\nMedia Engine\nHardware-accelerated H.264, HEVC, ProRes, and ProRes RAW\nVideo decode engine\nVideo encode engine\nProRes encode and decode engine\nAV1 decode"
+    },
+    {
+      "heading": "Apple Intelligence 15",
+      "source_text": "Apple In­telli­gence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.\nLearn more about Apple Intelligence"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Liquid Retina XDR display\n14.2-inch (diagonal) Liquid Retina XDR display;\n1\n3024-by-1964 native resolution at 254 pixels per inch\nXDR (Extreme Dynamic Range)\n1,000,000:1 contrast ratio\nXDR brightness: 1000 nits sustained full-screen, 1600 nits peak\n2\n(HDR content only)\nSDR brightness: 600 nits\nColor\n1 billion colors\nWide color (P3)\nTrue Tone technology\nRefresh rates\nProMotion technology for adaptive refresh rates up to 120Hz\nFixed refresh rates: 47.95Hz, 48.00Hz, 50.00Hz, 59.94Hz, 60.00Hz"
+    },
+    {
+      "heading": "Memory",
+      "source_text": "8GB or 16GB unified memory\nConfigurable to:\n16GB or 24GB"
+    },
+    {
+      "heading": "Battery and Power 3",
+      "source_text": "Up to 22 hours Apple TV app movie playback\nUp to 15 hours wireless web\n70-watt-hour lithium-polymer battery\n3\n70W USB-C Power Adapter\nUSB-C to MagSafe 3 Cable\nFast-charge capable with 96W USB-C Power Adapter"
+    },
+    {
+      "heading": "Storage 4",
+      "source_text": "512GB or 1TB SSD\n5\nConfigurable to:\n1TB or 2TB"
+    },
+    {
+      "heading": "Charging and Expansion",
+      "source_text": "SDXC card slot\nHDMI port\n3.5 mm headphone jack\nMagSafe 3 port\nTwo Thunderbolt / USB 4 ports with support for:\nCharging\nDisplayPort\nThunderbolt 3 (up to 40Gb/s)\nUSB 4 (up to 40Gb/s)"
+    },
+    {
+      "heading": "Display Support",
+      "source_text": "Simultaneously supports full native resolution on the built-in display at 1 billion colors and:\nOne external display with up to 6K resolution at 60Hz\nHDMI digital video output\nSupport for one display with up to 4K resolution at 120Hz (M3)"
+    },
+    {
+      "heading": "Video Playback",
+      "source_text": "Supported formats include HEVC, H.264, AV1, and ProRes\nHDR with Dolby Vision, HDR10, and HLG"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "Supported formats include AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus, and Dolby Atmos"
+    },
+    {
+      "heading": "Keyboard and Trackpad",
+      "source_text": "Backlit Magic Keyboard with:\n78 (U.S.) or 79 (ISO) keys including 12 full-height function keys and 4 arrow keys in an inverted‑T arrangement\nTouch ID\nAmbient light sensor\nForce Touch trackpad for precise cursor control and pressure-sensing capabilities; enables Force clicks, accelerators, pressure-sensitive drawing, and Multi-Touch gestures"
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "Wi-Fi\nWi-Fi 6E (802.11ax)\n6\nBluetooth\nBluetooth 5.3"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "1080p FaceTime HD camera\nAdvanced image signal processor with computational video"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "High-fidelity six-speaker sound system with force-cancelling woofers\nWide stereo sound\nSupport for Spatial Audio when playing music or video with Dolby Atmos on built-in speakers\nSpatial Audio with dynamic head tracking when using AirPods (3rd generation), AirPods Pro, and AirPods Max\nStudio-quality three-mic array with high signal-to-noise ratio and directional beamforming\n3.5 mm headphone jack with advanced support for high-impedance headphones\nHDMI port supports multichannel audio output"
+    },
+    {
+      "heading": "Operating Requirements",
+      "source_text": "Line voltage:\n100V to 240V AC\nFrequency:\n50Hz to 60Hz\nOperating temperature:\n50° to 95° F (10° to 35° C)\nStorage temperature:\n–13° to 113° F (–25° to 45° C)\nRelative humidity:\n0% to 90% noncondensing\nOperating altitude:\ntested up to 10,000 feet (3000 meters)\nMaximum storage altitude:\n15,000 feet\nMaximum shipping altitude:\n35,000 feet"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height:\n0.61 inch (1.55 cm)\nWidth:\n12.31 inches (31.26 cm)\nDepth:\n8.71 inches (22.12 cm)\nWeight:\n3.4 pounds (1.55 kg)\n7"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "macOS\nmacOS is the most advanced desktop operating system in the world. macOS Sequoia helps you be productive and creative in new ways — with Apple Intelligence,\n15\niPhone Mirroring, window tiling, major updates to Safari and more.\nLearn more about latest operating system\nMac User Guide"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new MacBook Pro. With built-in support for vision, hearing, mobility, and learning, you can create and do amazing things.\nLearn more about Accessibility\nFeatures include:\nVoice Control\nVoiceOver\nZoom\nIncrease Contrast\nReduce Motion\nSiri and Dictation\nSwitch Control\nClosed Captions\nText to Speech"
+    },
+    {
+      "heading": "Built-in Apps 8",
+      "source_text": "App Store\nBooks\nCalendar\nContacts\nFaceTime\nFind My\nFreeform\nGarageBand\nHome\niMovie\nKeynote\nMail\nMaps\nMessages\nMusic\nNews\nNotes\nNumbers\nPages\nPhoto Booth\nPhotos\nPodcasts\nPreview\nQuickTime Player\nReminders\nSafari\nShortcuts\nSiri\nStocks\nTime Machine\nTV\nVoice Memos"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "14-inch MacBook Pro\n70W USB-C Power Adapter (M3 or M3 Pro with 11-core CPU)\nUSB-C to MagSafe 3 Cable (2 m)"
+    },
+    {
+      "heading": "Configure to Order",
+      "source_text": "Configure your MacBook Pro with these options at\napple.com\n:\n16GB or 24GB unified memory\n1TB or 2TB SSD\n96W USB-C Power Adapter"
+    },
+    {
+      "heading": "MacBook Pro and the Environment",
+      "source_text": "The 14-inch MacBook Pro is designed with the following features to reduce its environmental impact:\n9\nSee the 14-inch MacBook Pro Product Environmental Report (PDF)\nMade with better materials\n32% recycled or renewable content in the device,\n10\nincluding:\n100% recycled aluminum in the enclosure\n100% recycled gold in the plating of multiple printed circuit boards\n100% recycled rare earth elements in all magnets, representing 98% of the rare earth elements in the device\n100% recycled tin in the solder of multiple printed circuit boards\n35% or more recycled plastic in multiple components\nEnergy efficient\nENERGY STAR\n®\ncertified\n11\nSmarter chemistry\n12\nArsenic-free display glass\nMercury-, BFR-, PVC-, and beryllium-free\nGreen manufacturing\nOver 27% manufacturing electricity sourced from supplier clean energy projects\n13\nApple’s Zero Waste Program helps suppliers eliminate waste sent to landfill\nResponsible packaging\n100% of virgin wood fiber comes from responsibly managed forests\n99% fiber-based packaging\nProgress toward our 2030 goal\nOver 40% emissions reduction against baseline\n14\nApple and the EnvironmentToday, Apple is carbon neutral for global corporate operations, and we are focused on our Apple 2030 goal to make every product carbon neutral.\nSee Apple’s commitment"
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "Declared noise emission values in accordance with ECMA-109\nSound Power Level\nL\nW\nA,m\n(B)\nSound Pressure Level\nOperator Position\nL\np\nA,m\n(dB)\nIdle\n1.3 (\nK\nV\n= 0.3)\n3\nWireless web\n1.3 (\nK\nV\n= 0.3)\n4\nL\nW\nA,m\nis the mean A-weighted sound power level, rounded to the nearest 0.1 B.\nL\np\nA,m\nis the mean A-weighted sound pressure level measured at operator position (rounded to the nearest 1 dB).\n1 B (bel) = 10 dB (decibel).\nK\nv\nis the statistical adder for computing upper-limit of A-weighted sound power level.\nThe quantity,\nL\nW\nA,c\n(formerly called\nL\nW\nAd\n) may be computed from the sum of\nL\nW\nA,m\nand\nK\nv\n.\nThe wireless web test browses 6 tabs with a mix of content including media.\nConfiguration tested: M3, 8-core CPU / 10-core GPU, 16GB unified memory, 1TB storage."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "iMac",
+    "model": "iMac (Retina 5K, 27-inch, Mid 2015) - Technical Specifications",
+    "model_slug": "imac-retina-5k-27-inch-mid-2015-technical-specifications",
+    "model_year": 2015,
+    "year_introduced": 2015
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/112434",
+    "source_file": "apple_mac_extraction/technical_specs_html/112434.html",
+    "source_title": "iMac (Retina 5K, 27-inch, Mid 2015) - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Display",
+      "source_text": "27-inch (diagonal) Retina display with IPS technology;\n5120‑by‑2880 resolution with support for millions of colors"
+    },
+    {
+      "heading": "Processor",
+      "source_text": "3.3GHz quad-core Intel Core i5 processor (Turbo Boost up to 3.7GHz)"
+    },
+    {
+      "heading": "Memory",
+      "source_text": "8GB (two 4GB) of 1600MHz DDR3 memory (four SO-DIMM slots, user accessible)\nConfigurable to 16GB or 32GB."
+    },
+    {
+      "heading": "Storage 1",
+      "source_text": "1TB (7200-rpm) hard drive\nConfigurable to 3TB hard drive, 1TB or 3TB Fusion Drive, or 256GB, 512GB, or 1TB of flash storage (SSD)."
+    },
+    {
+      "heading": "Graphics",
+      "source_text": "AMD Radeon R9 M290 graphics processor with 2GB of GDDR5 memory"
+    },
+    {
+      "heading": "Video Support and Camera",
+      "source_text": "FaceTime HD camera\nSimultaneously supports full native resolution on the built-in display and up to 3840 by 2160 pixels on an external display\nSupport for extended desktop and video mirroring modes"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Stereo speakers\nDual microphones\nHeadphone port\nHeadphone/optical digital audio output (minijack)\nSupport for Apple iPhone headset with microphone"
+    },
+    {
+      "heading": "Connections and Expansion",
+      "source_text": "Headphone port\nSDXC card slot\nFour USB 3 ports (compatible with USB 2)\nTwo Thunderbolt 2 ports\nMini DisplayPort output\nSupport for DVI, VGA, and dual-link DVI (adapters sold separately)\n10/100/1000BASE-T Gigabit Ethernet (RJ-45 connector)\nKensington lock slot"
+    },
+    {
+      "heading": "Input",
+      "source_text": "Apple Wireless Keyboard\nFull-size keyboard with 78 (U.S.) or 79 (ISO) keys, including 12 function keys and 4 arrow keys (inverted “T” arrangement)\nMagic Mouse\nSmooth, seamless Multi-Touch surface with support for simple gestures (scrolling and swiping). Click and double-click anywhere. Ambidextrous construction accommodates left- and right‑handed users.\nMagic Trackpad\nGlass Multi-Touch trackpad for precise cursor control; supports inertial scrolling, pinch and expand, swipe, three-finger swipe, four‑finger swipe, tap, double-tap, rotate, screen zoom, scroll, click and drag, click drag and lock, secondary click A and B."
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "Wi-Fi\n802.11ac Wi-Fi wireless networking; IEEE 802.11a/b/g/n compatible\nBluetooth\nBluetooth 4.0 wireless technology"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height:\n20.3 inches (51.6 cm)\nWidth:\n25.6 inches (65.0 cm)\nStand depth:\n8 inches (20.3 cm)\nWeight:\n21 pounds (9.54 kg)\n2"
+    },
+    {
+      "heading": "Electrical and Operating Requirements",
+      "source_text": "Line voltage:\n100-240V AC\nFrequency:\n50Hz to 60Hz, single phase\nOperating temperature:\n50° to 95° F (10° to 35° C)\nRelative humidity:\n5% to 95% noncondensing\nOperating altitude:\ntested up to 10,000 feet"
+    },
+    {
+      "heading": "Limited Warranty and Service",
+      "source_text": "Your iMac comes with 90 days of free telephone support and a one‑year limited warranty. Purchase the\nAppleCare Protection Plan\nto extend your service and support to three years from your computer’s purchase date. Only the AppleCare Protection Plan provides you with direct telephone support from Apple technical experts and the assurance that repairs will be handled by Apple-authorized technicians using genuine Apple parts. For more information, visit\nApple Support\nor call 800‑823‑2775."
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "iMac with Retina 5K display\nApple Wireless Keyboard\nApple Magic Mouse\nPower cord"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "OS X Yosemite\nEngineered to take full advantage of your Mac hardware, OS X Yosemite is intuitive and easy to use. It features an elegant design, includes enhancements to the apps you use most, and enables your Mac and iOS devices to work together in amazing ways.\nLearn more\nOS X Yosemite Includes:\nAirDrop\nAirPlay\nDictation\nGatekeeper\nNotification Center\nFacebook Integration\nTwitter Integration\nMultiple Display Support\nFinder Tabs and Tags\niCloud\niCloud Keychain\niCloud Drive\nFamily Sharing\nDashboard\nMission Control\nSpotlight Search\nSafari Power Saver\nApp Nap\nPower Nap\nCompressed Memory\nBuilt-in Sharing"
+    },
+    {
+      "heading": "Built-in Apps 3",
+      "source_text": "iPhoto\niMovie\nGarageBand\nPages\nNumbers\nKeynote\nMaps\niBooks\nSafari\nMail\nFaceTime\nMessages\nCalendar\nContacts\nTime Machine\nPhoto Booth\nMac App Store\niTunes\nGame Center\nPreview\nNotes\nReminders"
+    },
+    {
+      "heading": "Configure to Order",
+      "source_text": "Configure your iMac with these options, only at the\nApple Online Store\n.\nLooking for an iMac with Retina 5K display you can mount on a wall or an adjustable arm?\nChoose an iMac with Retina 5K display and a Built-in VESA Mount Adapter\n.\n27-inch iMac with Retina 5K display 3.5GHz\nMagic Trackpad\n16GB memory upgrade (two 8GB)\n32GB memory upgrade (four 8GB)\n1TB or 3TB Fusion Drive\n256GB, 512GB, or 1TB of flash storage (SSD)\n4.0GHz quad-core Intel Core i7 (Turbo Boost up to 4.4GHz)\nAMD Radeon R9 M295X graphics processor with 4GB of GDDR5 memory"
+    },
+    {
+      "heading": "iMac and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more\niMac is designed with the following features to reduce its environmental impact:\nArsenic-free display glass\nBFR-free\nPVC-free\n4\nMercury‑free LED‑backlit display\nHighly recyclable aluminum and glass enclosures\nMeets ENERGY STAR Version 6.1 requirements\nRated EPEAT Gold\n5"
+    },
+    {
+      "heading": "Apple and the Environment",
+      "source_text": "Learn more\nabout Apple’s dedication to reducing the environmental impact of our products and process. Or read our\nProduct Environmental Reports\nfor detailed information on the environmental performance of every Apple product."
+    },
+    {
+      "heading": "Recycling",
+      "source_text": "Apple takes a holistic view of materials management and waste minimization.\nLearn more\nabout how to recycle your Mac."
+    },
+    {
+      "heading": "Accessories and Software",
+      "source_text": "Mac Software\nAperture\nLogic Pro X\nFinal Cut Pro X\nAdapters\nApple Mini DisplayPort to DVI Adapter\nApple Mini DisplayPort to VGA Adapter\nApple Mini DisplayPort to Dual‑Link DVI Adapter\nAirPort and Wireless\nAirPort Express\nAirPort Extreme\nAirPort Time Capsule\nOther Accessories\nMagic Trackpad\nApple USB SuperDrive\nApple Battery Charger\nAppleCare Protection Plan"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

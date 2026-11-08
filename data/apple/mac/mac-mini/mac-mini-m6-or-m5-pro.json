@@ -1,0 +1,117 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "Mac mini",
+    "model": "Mac mini (M6 or M5 Pro)",
+    "model_slug": "mac-mini-m6-or-m5-pro",
+    "model_year": null,
+    "year_introduced": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/128108",
+    "source_file": "apple_mac_extraction/technical_specs_html/128108.html",
+    "source_title": "Mac mini (M6 or M5 Pro) - Tech Specs",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Finish",
+      "source_text": "Silver"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "Apple M6 chip\n12‑core CPU with 2 super cores, 4 performance cores and 6 efficiency cores\n12-core GPU\nNeural Accelerators\nHardware-accelerated ray tracing\nDual 16‑core Neural Engine\n153GB/s memory bandwidth, 170GB/s memory bandwidth\nMedia Engine\nHardware-accelerated H.264, HEVC, ProRes and ProRes RAW\nVideo decode engine\nVideo encode engine\nProRes encode and decode engine\nAV1 decode\nApple M5 Pro chip\n15‑core CPU with 5 super cores and 10 performance cores\n16‑core GPU\nNeural Accelerators\nHardware-accelerated ray tracing\n16‑core Neural Engine\n307GB/s memory bandwidth\nMedia Engine\nHardware-accelerated H.264, HEVC, ProRes and ProRes RAW\nVideo decode engine\nVideo encode engine\nProRes encode and decode engine\nAV1 decode\nConfigurable to:\nM5 Pro with 18‑core CPU and 20‑core GPU"
+    },
+    {
+      "heading": "Memory",
+      "source_text": "Apple M6 chip\n16GB unified memory\nConfigurable to:\n24GB or 32GB (170GB/s memory bandwidth)\nApple M5 Pro chip\n24GB unified memory\nConfigurable to:\n48GB or 64GB"
+    },
+    {
+      "heading": "Storage 1",
+      "source_text": "Apple M6 chip\n256GB SSD\nConfigurable to:\n512GB, 1TB or 2TB\nApple M5 Pro chip\n512GB SSD\nConfigurable to:\n1TB, 2TB, 4TB or 8TB"
+    },
+    {
+      "heading": "Display Support",
+      "source_text": "M6\nSupports up to three external displays using Thunderbolt and HDMI ports:\nThree displays: Two displays up to a native resolution of 6K at 60Hz or 4K at 165Hz, plus a third display up to 5K at 60Hz over Thunderbolt or 4K at 60Hz over HDMI\nUp to two displays: One display up to a native resolution of 8K at 60Hz or 5K at 120Hz or 4K at 240Hz, plus a second display up to 5K at 60Hz over Thunderbolt or 4K at 60Hz over HDMI\nSupports up to two external displays over a single Thunderbolt port\nThunderbolt 4 (USB‑C) ports support native DisplayPort 1.4 speeds\nSupports variable refresh rate (VRR), HDR and multi‑channel audio\nM5 Pro\nSupports up to three external displays over any combination of Thunderbolt and HDMI ports:\nThree displays up to a native resolution of 6K at 60Hz or 4K at 165Hz\nUp to two displays: One display up to a native resolution of 8K at 60Hz or 5K at 120Hz or 4K at 240Hz, plus a second display up to 5K at 120Hz or 4K at 200Hz\nSupports up to three external displays over a single Thunderbolt port\nThunderbolt 5 (USB‑C) ports support native DisplayPort 2.1 speeds\nSupports variable refresh rate (VRR), HDR and multi‑channel audio\nLearn more about connecting a display to your Mac"
+    },
+    {
+      "heading": "Video Playback",
+      "source_text": "Supported formats include HEVC, H.264, AV1 and ProRes\nHDR with Dolby Vision, HDR10+/HDR10 and HLG"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "Supported formats include AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus and Dolby Atmos"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Built-in speaker\n3.5mm headphone jack with advanced support for high-impedance headphones\nHDMI port supports multi-channel audio output"
+    },
+    {
+      "heading": "Connections and Expansion",
+      "source_text": "On front:\nTwo USB-C ports with support for USB 3 (up to 10Gb/s)\n3.5mm headphone jack\nOn back (M6):\n2.5Gb Ethernet port (configurable to 10Gb Ethernet)\nHDMI port\nThree Thunderbolt 4 (USB-C) ports with support for:\nThunderbolt 4 (up to 40Gb/s)\nUSB 4 (up to 40Gb/s)\nDisplayPort\nOn back (M5 Pro):\n2.5Gb Ethernet port (configurable to 10Gb Ethernet)\nHDMI port\nThree Thunderbolt 5 (USB-C) ports with support for:\nThunderbolt 5 (up to 120Gb/s)\nUSB 4 (up to 40Gb/s)\nDisplayPort"
+    },
+    {
+      "heading": "Communications",
+      "source_text": "Wireless\nApple N1 wireless networking chip\nWi‑Fi 7 (802.11be)\n2\nBluetooth 6\nThread networking technology\nEthernet\n100/1000/2500BASE‑T Multi‑Gigabit Ethernet (RJ‑45 connector)\nConfigurable to 10Gb Ethernet (Nbase-T Ethernet with support for 1Gb, 2.5Gb, 5Gb and 10Gb Ethernet using RJ-45 connector)"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height:\n5.0 cm (2.0 inches)\nWidth:\n12.7 cm (5.0 inches)\nDepth:\n12.7 cm (5.0 inches)\nWeight (M6):\n0.67 kg (1.5 pounds)\n3\nWeight (M5 Pro):\n0.73 kg (1.6 pounds)\n3"
+    },
+    {
+      "heading": "Electrical and Operating Requirements",
+      "source_text": "Line voltage:\n100–240V AC\nFrequency:\n50Hz to 60Hz, single phase\nMaximum continuous power:\n155W\nOperating temperature:\n10° to 35° C (50° to 95° F)\nStorage temperature:\n–40° to 47° C (–40° to 116° F)\nRelative humidity:\n5% to 90% non-condensing\nOperating altitude:\ntested up to 5,000 metres (16,400 feet)\nTypical acoustical perform­ance:\nsound pressure level (operator position): 5 dBA at idle\n4"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "Mac mini\nPower lead (1.8m)"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "macOS\nmacOS is the most advanced desktop operating system in the world. Siri AI is a powerful and capable assistant with personal context understanding, broad world knowledge and onscreen awareness. Express yourself through photos and images, save time with Safari, and get more done with Apple Intelligence seamlessly integrated into your everyday apps and experiences. And iPhone Mirroring,\n5\nwindow tiling, Sidecar and more help you stay productive."
+    },
+    {
+      "heading": "Apple Intelligence 6 and Siri AI 7",
+      "source_text": "The next generation of Apple Intelligence is centred around you, integrated into your apps and built with privacy at its core. Apple Intelligence powers Siri AI — an entirely new version of Siri that’s more personal, conversational and powerful — along with helpful features across apps.\nLearn more about Apple Intelligence and Siri AI"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new Mac mini. With built-in support for vision, hearing, mobility and learning, you can create and do amazing things.\nLearn more about Accessibility\nFeatures include:\nVoiceOver\nZoom\nMotion, display and text settings\nAccessi­bility Reader\nVoice Control\nSwitch Control\nClosed Captions\nLive Captions\nPersonal Voice and Live Speech"
+    },
+    {
+      "heading": "Built-in Apps 8",
+      "source_text": "App Store\nBooks\nCalendar\nContacts\nFaceTime\nFind My\nFreeform\nGarageBand\nHome\niMovie\niPhone Mirroring\nKeynote\nMail\nMaps\nMessages\nMusic\nNews\nNotes\nNumbers\nPages\nPasswords\nPhoto Booth\nPhotos\nPodcasts\nPreview\nQuickTime Player\nReminders\nSafari\nShortcuts\nStocks\nTime Machine\nTips\nTV\nVoice Memos\nWeather"
+    },
+    {
+      "heading": "Configure to Order",
+      "source_text": "Configure your Mac mini with these options at\napple.com\n:\nApple M6 chip\n24GB or 32GB unified memory\n512GB, 1TB or 2TB SSD\n10Gb Ethernet\nApple M5 Pro chip\nM5 Pro with 18‑core CPU, 20‑core GPU and 16‑core Neural Engine\n48GB or 64GB unified memory\n1TB, 2TB, 4TB or 8TB SSD\n10Gb Ethernet"
+    },
+    {
+      "heading": "Mac mini and the Environment",
+      "source_text": "See the Mac mini Product En­viron­men­tal Report (PDF)\nProgress towards Apple 2030\nApple 2030 is our goal to be carbon neutral across our value chain. We design our products to be less carbon intensive by prioritising the use of recycled and renewable content and low‑carbon materials while focusing on the energy efficiency of our software and hardware.\nSee Apple’s commitment\nMaterials\nMac mini is made with 50% recycled content,\n9\nincluding:\n100% recycled aluminium in the enclosure and thermal module stage\n100% recycled copper in multiple thermal module components\n100% recycled copper plating in all Apple‑designed printed circuit boards\n100% recycled gold plating and tin solder in all Apple‑designed printed circuit boards\n80% recycled steel in multiple components including the logo and fan pillow\nPackaging\n100% fibre‑based packaging\n10\nEnergy\n100% of manufacturing electricity for Mac mini is sourced from renewable electricity\n11\n100% of expected customer use electricity matched with low‑carbon electricity\n12\nENERGY STAR® certified\n13\nSmarter chemistry\n14\nAll the materials used in Apple products, accessories and packaging are covered by the requirements of our\nRegulated Substances Specification\n, which was one of the first in industry to restrict the use of key substances of concern. See the latest\nEn­viron­men­tal Progress Report\nto understand Apple’s recent efforts in phasing out these chemistries."
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "Declared noise emission values in accordance with ECMA-109\nAcoustic Performance\nSound Power Level\nL\nW\nA,m\n(B)\nSound Pressure Level\nOperator Position\nL\np\nA,m\n(dB)\nIdle\n1.3 (\nK\nV\n= 0.3)\n4\nWireless web\n1.3 (\nK\nV\n= 0.3)\n4\nL\nW\nA,m\nis the mean A-weighted sound power level, rounded to the nearest 0.1 B.\nL\np\nA,m\nis the mean A-weighted sound pressure level measured at operator position (rounded to the nearest 1 dB).\n1 B (bel) = 10 dB (decibel).\nK\nv\nis the statistical adder for computing upper-limit of A-weighted sound power level.\nThe quantity,\nL\nW\nA,c\n(formerly called\nL\nW\nAd\n) may be computed from the sum of\nL\nW\nA,m\nand\nK\nv\n.\nThe wireless web test browses 6 tabs with a mix of content including media.\nConfiguration tested: M5 Pro, 18-core CPU / 20-core GPU, 48GB unified memory, 8TB storage."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "iMac",
+    "model": "iMac (Retina 5K, 27-inch, 2020) - Technical Specifications",
+    "model_slug": "imac-retina-5k-27-inch-2020-technical-specifications",
+    "model_year": 2020,
+    "year_introduced": 2020
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111913",
+    "source_file": "apple_mac_extraction/technical_specs_html/111913.html",
+    "source_title": "iMac (Retina 5K, 27-inch, 2020) - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Display",
+      "source_text": "5K Retina display\n27-inch (diagonal) 5K Retina display\n5120‑by‑2880 resolution with support for one billion colors\n500 nits brightness\nWide color (P3)\nTrue Tone technology\nConfigurable with nano-texture glass"
+    },
+    {
+      "heading": "Processor",
+      "source_text": "3.1GHz\n3.1GHz 6‑core 10th-generation Intel Core i5, Turbo Boost up to 4.5GHz\n3.3GHz\n3.3GHz 6‑core 10th-generation Intel Core i5, Turbo Boost up to 4.8GHz\nConfigurable to 3.6GHz 10-core 10th-generation Intel Core i9, Turbo Boost up to 5.0GHz\n3.8GHz\n3.8GHz 8‑core 10th-generation Intel Core i7, Turbo Boost up to 5.0GHz\nConfigurable to 3.6GHz 10-core 10th-generation Intel Core i9, Turbo Boost up to 5.0GHz"
+    },
+    {
+      "heading": "Memory",
+      "source_text": "3.1GHz\n8GB (two 4GB) of 2666MHz DDR4 memory; four SO-DIMM slots, user accessible\nConfigurable to 16GB, 32GB, 64GB, or 128GB\n3.3GHz\n8GB (two 4GB) of 2666MHz DDR4 memory; four SO-DIMM slots, user accessible\nConfigurable to 16GB, 32GB, 64GB, or 128GB\n3.8GHz\n8GB (two 4GB) of 2666MHz DDR4 memory; four SO-DIMM slots, user accessible\nConfigurable to 16GB, 32GB, 64GB, or 128GB"
+    },
+    {
+      "heading": "Storage 1",
+      "source_text": "3.1GHz\n256GB SSD\n3.3GHz\n512GB SSD\nConfigurable to 1TB or 2TB SSD\n3.8GHz\n512GB SSD\nConfigurable to 1TB, 2TB, 4TB, or 8TB SSD"
+    },
+    {
+      "heading": "Graphics",
+      "source_text": "3.1GHz\nAMD Radeon Pro 5300 with 4GB of GDDR6 memory\n3.3GHz\nAMD Radeon Pro 5300 with 4GB of GDDR6 memory\n3.8GHz\nAMD Radeon Pro 5500 XT with 8GB of GDDR6 memory\nConfigurable to AMD Radeon Pro 5700 with 8GB of GDDR6 memory, AMD Radeon Pro 5700 XT with 16GB of GDDR6 memory"
+    },
+    {
+      "heading": "Video Support and Camera",
+      "source_text": "1080p FaceTime HD camera\nSimultaneously supports full native resolution on the built-in display at 1 billion colors and:\nOne 6016-by-3384 (6K) external display at 60Hz with support for 1 billion colors, or\nTwo 6016-by-3384 (6K) external displays at 60Hz with support for 1 billion colors (requires AMD Radeon Pro 5700 or AMD Radeon Pro 5700 XT), or\nOne 5120‑by‑2880 (5K) external display at 60Hz with support for 1 billion colors, or\nTwo 3840-by-2160 (4K UHD) external displays at 60Hz with support for 1 billion colors, or\nTwo 4096‑by‑2304 (4K) external displays at 60Hz with support for millions of colors\nThunderbolt 3 digital video output\nNative DisplayPort output over USB‑C\nThunderbolt 2, HDMI, DVI, and VGA output supported using adapters (sold separately)"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Stereo speakers\nStudio-quality three-mic array with high signal-to-noise ratio and directional beamforming\n3.5 mm headphone jack\nSupport for “Hey Siri”"
+    },
+    {
+      "heading": "Connections and Expansion",
+      "source_text": "3.5 mm headphone jack\nSDXC card slot (UHS-II)\nFour USB-A ports\nTwo Thunderbolt 3 (USB-C) ports with support for:\nDisplayPort\nThunderbolt (up to 40Gb/s)\nUSB 3.1 Gen 2 (up to 10Gb/s)\nThunderbolt 2, HDMI, DVI, and VGA supported using adapters (sold separately)\n10/100/1000BASE-T Gigabit Ethernet (RJ-45 connector)\nConfigurable to 10Gb Ethernet with support for 1Gb, 2.5Gb, 5Gb, and 10Gb Ethernet\nKensington lock slot"
+    },
+    {
+      "heading": "Input",
+      "source_text": "Magic Keyboard\nMagic Mouse\nConfigurable with Magic Keyboard with Numeric Keypad\nConfigurable with Magic Trackpad"
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "Wi-Fi\n802.11ac Wi-Fi wireless networking\nIEEE 802.11a/b/g/n compatible\nBluetooth\nBluetooth 5.0 wireless technology"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height: 20.3 inches (51.6 cm)\nWidth: 25.6 inches (65.0 cm)\nStand depth: 8 inches (20.3 cm)\nWeight: 19.7 pounds (8.92 kg)\n2"
+    },
+    {
+      "heading": "Electrical and Operating Requirements",
+      "source_text": "Line voltage: 100–240V AC\nFrequency: 50Hz to 60Hz, single phase\nOperating temperature: 50° to 95° F (10° to 35° C)\nRelative humidity: 5% to 90% noncondensing\nOperating altitude: tested up to 16,400 feet (5000 meters)"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "iMac with 5K Retina display\nMagic Keyboard\nMagic Mouse 2\nPower cord\nLightning to USB Cable\nPolishing cloth"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "macOS\nmacOS is the most advanced desktop operating system in the world. macOS Monterey introduces powerful new features to help you connect, share, and create like never before.\nLearn more about latest Operating System"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new iMac. With built-in support for vision, hearing, mobility, and learning, you can create and do amazing things.\nLearn more about Accessibility\nFeatures include:\nVoice Control\nVoiceOver\nZoom\nIncrease Contrast\nReduce Motion\nSiri and Dictation\nSwitch Control\nClosed Captions\nText to Speech"
+    },
+    {
+      "heading": "Built-in Apps 3",
+      "source_text": "Photos\niMovie\nGarageBand\nPages\nNumbers\nKeynote\nSiri\nSafari\nMail\nFaceTime\nMessages\nMaps\nNews\nStocks\nHome\nVoice Memos\nNotes\nCalendar\nContacts\nReminders\nPhoto Booth\nPreview\nBooks\nApp Store\nTime Machine\nTV\nMusic\nPodcasts\nFind My\nQuickTime Player\nShortcuts"
+    },
+    {
+      "heading": "Configure to Order",
+      "source_text": "Configure your iMac with these options.\nLooking for an iMac you can mount on a wall or an adjustable arm?\nChoose an iMac with a Built-in VESA Mount Adapter\n3.1GHz\nMagic Trackpad\nMagic Keyboard with Numeric Keypad\n16GB, 32GB, 64GB, or 128GB memory upgrade\nNano-texture glass\n10Gb Ethernet\n3.3GHz\nMagic Trackpad\nMagic Keyboard with Numeric Keypad\n3.6GHz 10-core Intel Core i9 upgrade\n16GB, 32GB, 64GB, or 128GB memory upgrade\n1TB or 2TB SSD\nNano-texture glass\n10Gb Ethernet\n3.8GHz\nMagic Trackpad\nMagic Keyboard with Numeric Keypad\n3.6GHz 10-core Intel Core i9 upgrade\n16GB, 32GB, 64GB, or 128GB memory upgrade\n1TB, 2TB, 4TB, or 8TB SSD\nAMD Radeon Pro 5700 with 8GB of GDDR6 memory\nAMD Radeon Pro 5700 XT with 16GB of GDDR6 memory\nNano-texture glass\n10Gb Ethernet"
+    },
+    {
+      "heading": "iMac and the Environment",
+      "source_text": "We take responsibility for the environmental footprint of our products throughout their life cycle.\nLearn more about iMac and the Environment\nThe 27-inch iMac with 5K Retina display is designed with the following features to reduce its environmental impact:\n4\nMade with better materials\n100% recycled tin in the solder of the main logic board\nEnclosure made with recyclable, low-carbon aluminum\n60% recycled plastic in multiple components\nEnergy efficient\nMeets ENERGY STAR requirements\nSmarter chemistry\nArsenic-free display glass\nMercury-free LED-backlit display\nBFR-, PVC-,\n5\nand beryllium-free\nGreen manufacturing\nFinal assembly supplier sites do not generate any waste sent to landfill\n6\nAll final assembly suppliers are transitioning to 100% renewable energy for Apple production\nResponsible packaging\n100% of virgin wood fiber comes from responsibly managed forests\nLearn more\nRead the\n27-inch iMac with 5K Retina Display Environmental Report\nfor detailed information on its environmental performance"
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "Declared noise emission values in accordance with ECMA-109\nSound Power Level\nL\nW\nA,m\n(B)\nSound Pressure Level\nOperator Position\nL\np\nA,m\n(dB)\nIdle\n2.3 (\nK\nV\n= 0.3)\n13\nWireless web\n2.3 (\nK\nV\n= 0.3)\n13\nL\nW\nA,m\nis the mean A-weighted sound power level, rounded to the nearest 0.1 B.\nL\np\nA,m\nis the mean A-weighted sound pressure level measured at operator position (rounded to the nearest 1 dB).\n1 B (bel) = 10 dB (decibel)\nK\nv\nis the statistical adder for computing upper-limit of A-weighted sound power level.\nThe quantity,\nL\nW\nA,c\n(formerly called\nL\nW\nAd\n) may be computed from the sum of\nL\nW\nA,m\nand\nK\nv\n.\nThe Wireless web test browses 25 popular websites.\nConfiguration tested: 3.8GHz 8-core Intel Core i7 processor, 8GB memory, 512GB storage, Radeon Pro 5500 XT Graphics."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

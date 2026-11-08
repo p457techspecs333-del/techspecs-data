@@ -1,0 +1,105 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "Mac Studio",
+    "model": "Mac Studio (2022)",
+    "model_slug": "mac-studio-2022",
+    "model_year": 2022,
+    "year_introduced": 2022
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111900",
+    "source_file": "apple_mac_extraction/technical_specs_html/111900.html",
+    "source_title": "Mac Studio (2022) - Tech Specs",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Finish",
+      "source_text": "Silver"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "Apple M1 Max chip\n10-core CPU with 8 performance cores and 2 efficiency cores\n24-core GPU\n16-core Neural Engine\n400GB/s memory bandwidth\nMedia engine\nHardware-accelerated H.264, HEVC, ProRes, and ProRes RAW\nVideo decode engine\nTwo video encode engines\nTwo ProRes encode and decode engines\nConfigurable to:\nM1 Max with 10-core CPU, 32-core GPU and 16-core Neural Engine\nApple M1 Ultra chip\n20-core CPU with 16 performance cores and 4 efficiency cores\n48-core GPU\n32-core Neural Engine\n800GB/s memory bandwidth\nMedia engine\nHardware-accelerated H.264, HEVC, ProRes, and ProRes RAW\nTwo video decode engines\nFour video encode engines\nFour ProRes encode and decode engines\nConfigurable to:\nM1 Ultra with 20-core CPU, 64-core GPU and 32-core Neural Engine"
+    },
+    {
+      "heading": "Memory",
+      "source_text": "Apple M1 Max chip\n32GB unified memory\nConfigurable to\n64GB\nApple M1 Ultra chip\n64GB unified memory\nConfigurable to\n128GB"
+    },
+    {
+      "heading": "Storage 1",
+      "source_text": "Apple M1 Max chip\n512GB SSD\nConfigurable to\n1TB, 2TB, 4TB or 8TB\nApple M1 Ultra chip\n1TB SSD\nConfigurable to\n2TB, 4TB or 8TB"
+    },
+    {
+      "heading": "Video Support",
+      "source_text": "Simultaneously supports up to five displays:\nSupport for up to four Pro Display XDRs (6K resolution at 60Hz and over a billion colours) over USB‑C and one 4K display (4K resolution at 60Hz and over a billion colours) over HDMI\nThunderbolt 4 digital video output supports\nNative DisplayPort output over USB‑C\nThunderbolt 2, DVI and VGA output supported using adapters (sold separately)\nHDMI display video output\nSupport for one display with up to 4K resolution at 60Hz\nDVI output using HDMI to DVI Adapter (sold separately)"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Built-in speaker\n3.5mm headphone jack with advanced support for high-impedance headphones\nHDMI port supports multi-channel audio output"
+    },
+    {
+      "heading": "Connections and Expansion",
+      "source_text": "Four Thunderbolt 4 ports with support for:\nThunderbolt 4 (up to 40Gb/s)\nDisplayPort\nUSB 4 (up to 40Gb/s)\nUSB 3.1 Gen 2 (up to 10Gb/s)\nTwo USB‑A ports (up to 5Gb/s)\nHDMI port\n10Gb Ethernet\n3.5mm headphone jack\nOn front (M1 Max):\nTwo USB‑C ports (up to 10Gb/s)\nSDXC card slot (UHS‑II)\nOn front (M1 Ultra):\nTwo Thunderbolt 4 ports (up to 40Gb/s)\nSDXC card slot (UHS‑II)"
+    },
+    {
+      "heading": "Communications",
+      "source_text": "Wi‑Fi\n802.11ax Wi‑Fi 6 wireless networking\nIEEE 802.11a/b/g/n/ac compatible\nBluetooth\nBluetooth 5.0 wireless technology\nEthernet\n10Gb Ethernet (Nbase-T Ethernet with support for 1Gb, 2.5Gb, 5Gb and 10Gb Ethernet using RJ‑45 connector)"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height:\n9.5 cm (3.7 inches)\nWidth:\n19.7 cm (7.7 inches)\nDepth:\n19.7 cm (7.7 inches)\nWeight (M1 Max):\n2.7 kg (5.9 pounds)\n2\nWeight (M1 Ultra):\n3.6 kg (7.9 pounds)\n2"
+    },
+    {
+      "heading": "Electrical and Operating Requirements",
+      "source_text": "Line voltage:\n100–240V AC\nFrequency:\n50Hz to 60Hz, single phase\nMaximum continuous power:\n370W\nOperating temperature:\n10° to 35° C (50° to 95° F)\nStorage temperature:\n–40° to 47° C (–40° to 116° F)\nRelative humidity:\n5% to 90% non-condensing\nOperating altitude:\ntested up to 5,000 metres (16,400 feet)"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "Mac Studio\nPower lead"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "macOS\nmacOS is the most advanced desktop operating system in the world. macOS Ventura makes the things you do most on Mac even better, so you can work smarter, play harder and go further.\nLearn more about latest operating system\nmacOS User Guide"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new Mac Studio. With built-in support for vision, hearing, mobility and learning, you can create and do amazing things.\nLearn more about Accessibility\nFeatures include:\nVoice Control\nVoiceOver\nZoom\nIncrease Contrast\nReduce Motion\nSiri and Dictation\nSwitch Control"
+    },
+    {
+      "heading": "Built-in Apps 3",
+      "source_text": "App Store\nBooks\nCalendar\nContacts\nFaceTime\nFind My\nGarageBand\nHome\niMovie\nKeynote\nMail\nMaps\nMessages\nMusic\nNews\nNotes\nNumbers\nPages\nPhoto Booth\nPhotos\nPodcasts\nPreview\nQuickTime Player\nReminders\nSafari\nShortcuts\nSiri\nStocks\nTime Machine\nTV\nVoice Memos"
+    },
+    {
+      "heading": "Configure to Order",
+      "source_text": "Configure your Mac Studio with these options, only at\napple.com\n:\nM1 Max with 10-core CPU, 32-core GPU and 16-core Neural Engine\nM1 Ultra with 20-core CPU, 48-core GPU and 32-core Neural Engine\nM1 Ultra with 20-core CPU, 64-core GPU and 32-core Neural Engine\n64GB unified memory (M1 Max)\n128GB unified memory (M1 Ultra)\n1TB, 2TB, 4TB or 8TB SSD"
+    },
+    {
+      "heading": "Mac Studio and the Environment",
+      "source_text": "Mac Studio is designed with the following features to reduce its environmental impact:\n4\nSee the Mac Studio Product Environmental Report\nMade with better materials\n100% recycled rare earth elements in all magnets, representing 98% of the rare earth elements in the device\n80% recycled aluminium in the enclosure\n100% recycled tin in the solder of the main logic board\n25% or more recycled plastic in multiple components\nEnergy efficient\nENERGY STAR\n®\ncertified\n5\nSmarter chemistry\n6\nMercury-, BFR-, PVC- and beryllium‑free\nGreen manufacturing\nApple’s Zero Waste Programme helps suppliers eliminate waste sent to landfill\nAll final assembly supplier sites are transitioning to 100% renewable energy for Apple production\nResponsible packaging\n100% of virgin wood fibre comes from responsibly managed forests\n90% or more fibre-based packaging\nApple and the Environment\nWe’re committed to making our products without taking from the earth, and to become carbon neutral across our entire business, including products, by 2030.\nSee Apple’s commitment"
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "Declared noise emission values in accordance with ECMA-109\nAcoustic Performance\nSound Power Level\nL\nW\nA,m\n(B)\nSound Pressure Level\nOperator Position\nL\np\nA,m\n(dB)\nIdle\n2.5 (\nK\nV\n= 0.3)\n15\nWireless web\n2.5 (\nK\nV\n= 0.3)\n15\nL\nW\nA,m\nis the mean A-weighted sound power level, rounded to the nearest 0.1 B.\nL\np\nA,m\nis the mean A-weighted sound pressure level measured at operator position (rounded to the nearest 1 dB).\n1 B (bel) = 10 dB (decibel).\nK\nv\nis the statistical adder for computing upper-limit of A-weighted sound power level.\nThe quantity,\nL\nW\nA,c\n(formerly called\nL\nW\nAd\n) may be computed from the sum of\nL\nW\nA,m\nand\nK\nv\n.\nThe wireless web test browses 6 tabs with a mix of content including media.\nConfiguration tested: Apple M1 Ultra, 20-core CPU/48-core GPU, 64GB memory, 1TB storage."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

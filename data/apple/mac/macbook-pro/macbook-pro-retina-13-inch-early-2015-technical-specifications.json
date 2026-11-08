@@ -1,0 +1,125 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "MacBook Pro",
+    "model": "MacBook Pro (Retina, 13-inch, Early 2015) - Technical Specifications",
+    "model_slug": "macbook-pro-retina-13-inch-early-2015-technical-specifications",
+    "model_year": 2015,
+    "year_introduced": 2015
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111959",
+    "source_file": "apple_mac_extraction/technical_specs_html/111959.html",
+    "source_title": "MacBook Pro (Retina, 13-inch, Early 2015) - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Display",
+      "source_text": "Retina display\n13.3-inch (diagonal) LED-backlit display with IPS technology; 2560-by-1600 native resolution at 227 pixels per inch with support for millions of colors\nSupported scaled resolutions:\n1680 by 1050\n1440 by 900\n1024 by 640\n300 nits brightness\nStandard color gamut (sRGB)\n900:1 contrast ratio"
+    },
+    {
+      "heading": "Processor",
+      "source_text": "2.7GHz - 128GB\n2.7GHz dual-core Intel Core i5 processor (Turbo Boost up to 3.1GHz) with 3MB shared L3 cache\nConfigurable to 2.9GHz dual-core Intel Core i5 (Turbo Boost up to 3.3GHz) with 3MB shared L3 cache or 3.1GHz dual-core Intel Core i7 (Turbo Boost up to 3.4GHz) with 4MB shared L3 cache.\n2.7GHz - 256GB\n2.7GHz dual-core Intel Core i5 processor (Turbo Boost up to 3.1GHz) with 3MB shared L3 cache\nConfigurable to 2.9GHz dual-core Intel Core i5 (Turbo Boost up to 3.3GHz) with 3MB shared L3 cache or 3.1GHz dual-core Intel Core i7 (Turbo Boost up to 3.4GHz) with 4MB shared L3 cache.\n2.9GHz\n2.9GHz dual-core Intel Core i5 processor (Turbo Boost up to 3.3GHz) with 3MB shared L3 cache\nConfigurable to 3.1GHz dual-core Intel Core i7 (Turbo Boost up to 3.4GHz) with 4MB shared L3 cache."
+    },
+    {
+      "heading": "Memory",
+      "source_text": "8GB of 1866MHz LPDDR3 onboard memory\nConfigurable to 16GB."
+    },
+    {
+      "heading": "Storage 1",
+      "source_text": "2.7GHz - 128GB\n128GB PCIe-based flash storage\n2.7GHz - 256GB\n256GB PCIe-based flash storage\n2.9GHz\n512GB PCIe-based flash storage\nConfigurable to 1TB flash storage."
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height:\n0.71 inch (1.8 cm)\nWidth:\n12.35 inches (31.4 cm)\nDepth:\n8.62 inches (21.9 cm)\nWeight:\n3.48 pounds (1.58 kg)\n2"
+    },
+    {
+      "heading": "Graphics and Video Support",
+      "source_text": "Intel Iris Graphics 6100\nDual display and video mirroring: Simultaneously supports full native resolution on the built-in display and up to 3840 by 2160 pixels on up to two external displays, both at millions of colors.\nThunderbolt digital video output\nNative Mini DisplayPort output\nDVI, VGA, dual-link DVI, and HDMI output supported using Mini DisplayPort adapters (sold separately)\nHDMI video output\nSupport for 1080p resolution at up to 60Hz\nSupport for 3840-by-2160 resolution at 30Hz\nSupport for 4096-by-2160 resolution at 24Hz"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "720p FaceTime HD camera"
+    },
+    {
+      "heading": "Connections and Expansion",
+      "source_text": "MagSafe 2 power port\nTwo Thunderbolt 2 ports (up to 20 Gbps)\nTwo USB 3 ports (up to 5 Gbps)\nHDMI port\n3.5 mm headphone jack\nSDXC card slot\nApple Thunderbolt to FireWire Adapter (sold separately)\nApple Thunderbolt to Gigabit Ethernet Adapter (sold separately)"
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "Wi-Fi\n802.11ac Wi-Fi wireless networking; IEEE 802.11a/b/g/n compatible\nBluetooth\nBluetooth 4.0 wireless technology"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Stereo speakers\nDual microphones\n3.5 mm headphone jack\nSupport for Apple iPhone headset with remote and microphone\nSupport for audio line out (digital/analog)"
+    },
+    {
+      "heading": "Keyboard and Trackpad",
+      "source_text": "Full-size backlit keyboard with 78 (U.S.) or 79 (ISO) keys, including 12 function keys and 4 arrow keys (inverted “T” arrangement) with ambient light sensor\nForce Touch trackpad for precise cursor control and pressure-sensing capabilities; enables Force clicks, accelerators, pressure-sensitive drawing, and Multi-Touch gestures"
+    },
+    {
+      "heading": "Battery and Power 3",
+      "source_text": "Up to 10 hours wireless web\nUp to 12 hours iTunes movie playback\nUp to 30 days of standby time\nBuilt-in 74.9-watt-hour lithium-polymer battery\n60W MagSafe 2 Power Adapter with cable management system; MagSafe 2 power port"
+    },
+    {
+      "heading": "Electrical and Operating Requirements",
+      "source_text": "Line voltage: 100V to 240V AC\nFrequency: 50Hz to 60Hz\nOperating temperature: 50° to 95° F (10° to 35° C)\nStorage temperature: –13° to 113° F (–25° to 45° C)\nRelative humidity: 0% to 90% noncondensing\nOperating altitude: tested up to 10,000 feet\nMaximum storage altitude: 15,000 feet\nMaximum shipping altitude: 35,000 feet"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "macOS Sierra\nmacOS is the operating system that powers everything you do on a Mac. macOS Sierra introduces Siri to Mac\n4\n— along with new ways to enjoy your photos, shop more securely online, and work more seamlessly between devices.\nLearn more about latest operating system"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new MacBook Pro. With built-in support for vision, hearing, physical and motor skills, and learning and literacy, you can create and do amazing things.\nLearn more about Accessibility\nFeatures include:\nVoiceOver\nZoom\nIncrease Contrast\nReduce Motion\nSiri and Dictation\nSwitch Control\nClosed Captions\nText to Speech"
+    },
+    {
+      "heading": "Built-in Apps 5",
+      "source_text": "Photos\niMovie\nGarageBand\nPages\nNumbers\nKeynote\nSiri\nSafari\nMail\nFaceTime\nMessages\nMaps\nNotes\nCalendar\nContacts\nReminders\nPhoto Booth\nPreview\niTunes\niBooks\nApp Store\nTime Machine"
+    },
+    {
+      "heading": "Limited Warranty and Service",
+      "source_text": "Every Mac comes with a\none-year limited warranty\nand up to 90 days of\ncomplimentary telephone technical support\n. Extend your coverage to three years from your Mac original purchase date with the AppleCare Protection Plan. You’ll get direct, one-stop access to Apple’s award-winning technical support for questions about your Mac, macOS, and Apple-branded applications such as Photos, iMovie, GarageBand, Pages, Numbers, Keynote, and more. In addition, you’ll get 24/7 priority access to Apple experts via chat or phone through\ngetsupport.apple.com\n. You can even get local repair service when you visit other countries around the world."
+    },
+    {
+      "heading": "What’s in the Box",
+      "source_text": "MacBook Pro\nMagSafe 2 Power Adapter\nPower cord\nAC wall plug"
+    },
+    {
+      "heading": "Configure to Order",
+      "source_text": "Configure your MacBook Pro with these options, only at\napple.com\n:\nUp to 3.1GHz dual-core Intel Core i7, Turbo Boost up to 3.4GHz, with 4MB shared L3 cache\n16GB of 1866MHz LPDDR3 onboard memory\nUp to 1TB PCIe-based onboard SSD\n1"
+    },
+    {
+      "heading": "MacBook Pro and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more about MacBook Pro and the Environment\nMacBook Pro is designed with the following features to reduce its environmental impact:\nMercury-free LED-backlit display\nArsenic-free display glass\nBFR-free\nPVC-free\n6\nBeryllium-free\nHighly recyclable aluminum enclosure\nMeets ENERGY STAR 6.1 requirements\nRated EPEAT Gold\n7\nApple and the Environment\nLearn more about Apple’s dedication to reducing the environmental impact of our products and process\n. Or read our\nProduct Environmental Reports\nfor detailed information on the environmental performance of every Apple product.\nRecycling\nApple takes a holistic view of materials management and waste minimization.\nLearn more about how to recycle your Mac\n."
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "Declared noise emission values in accordance with ECMA-109\nSound Power Level\nL\nW\nA,m\n(B)\nSound Pressure Level\nOperator Position\nL\np\nA,m\n(dB)\nIdle\n1.25 (\nK\nv\n= 0.25)\n3.5\nWireless web\n1.25 (\nK\nv\n= 0.25)\n3.5\nL\nW\nA,m\nis the mean A-weighted sound power level, rounded to the nearest 0.05 B.\nL\np\nA,m\nis the mean A-weighted sound pressure level measured at the operator position (rounded to the nearest 0.5 dB).\n1 B (bel) = 10 dB (decibel)\nK\nv\nis the statistical adder for computing upper-limit of A-weighted sound power level.\nThe quantity,\nL\nW\nA,c\n(formerly called\nL\nW\nAd\n) may be computed from the sum of\nL\nW\nA,m\nand\nK\nv\n.\nThe Wireless web test browses 25 popular websites.\nConfiguration tested: 2.9GHz dual-core Intel Core i5 processor, 8GB memory, 512GB storage, Intel Iris Graphics 6100."
+    },
+    {
+      "heading": "Accessories",
+      "source_text": "Mac Software\nFinal Cut Pro X\nLogic Pro X\nDisplays and Adapters\nApple Mini DisplayPort to DVI Adapter\nApple Mini DisplayPort to VGA Adapter\nApple Mini DisplayPort to Dual-Link DVI Adapter\nMagSafe to MagSafe 2 Converter\nAirPort and Wireless\nAirPort Express\nAirPort Extreme\nAirPort Time Capsule\nOther Accessories\nApple USB SuperDrive\nThunderbolt to Gigabit Ethernet Adapter\nThunderbolt to FireWire Adapter\n60W MagSafe 2 Power Adapter\nAppleCare Protection Plan"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

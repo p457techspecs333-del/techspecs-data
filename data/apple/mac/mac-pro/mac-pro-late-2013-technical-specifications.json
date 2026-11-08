@@ -1,0 +1,93 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "Mac Pro",
+    "model": "Mac Pro (Late 2013) - Technical Specifications",
+    "model_slug": "mac-pro-late-2013-technical-specifications",
+    "model_year": 2013,
+    "year_introduced": 2013
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/112025",
+    "source_file": "apple_mac_extraction/technical_specs_html/112025.html",
+    "source_title": "Mac Pro (Late 2013) - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Dimensions",
+      "source_text": "Height: 9.9 in\nDiameter: 6.6 in\nWeight: 11 lb\n1"
+    },
+    {
+      "heading": "Processor",
+      "source_text": "3.7GHz Quad-Core\nIntel Xeon E5 with 10MB L3 cache and Turbo Boost up to 3.9GHz\nConfigurable to 3.5GHz 6-core processor with 12MB L3 cache, 3.0GHz 8-core processor with 25MB L3 cache, or 2.7GHz 12-core processor with 30MB L3 cache\n3.5GHz 6-Core\nIntel Xeon E5 with 12MB L3 cache and Turbo Boost up to 3.9GHz\nConfigurable to 3.0GHz 8-core processor with 25MB L3 cache or 2.7GHz 12-core processor with 30MB L3 cach\ne\n3.0GHz 8-Core\nIntel Xeon E5 with 25MB L3 cache and Turbo Boost up to 3.9GHz\nConfigurable to 2.7GHz 12-core processor with 30MB L3 cache"
+    },
+    {
+      "heading": "Memory",
+      "source_text": "3.7GHz Quad-Core\n12GB (three 4GB) of 1866MHz DDR3 ECC memory\nConfigurable to 16GB (four 4GB), 32GB (four 8GB) or 64GB (four 16GB)\n3.5GHz 6-Core\n16GB (four 4GB) of 1866MHz DDR3 ECC memory\nConfigurable to 32GB (four 8GB) or 64GB (four 16GB)\n3.0GHz 8-Core\n16GB (four 4GB) of 1866MHz DDR3 ECC memory\nConfigurable to 32GB (four 8GB) or 64GB (four 16GB)"
+    },
+    {
+      "heading": "Graphics",
+      "source_text": "3.7GHz Quad-Core\nDual AMD FirePro D300 graphics processors with 2GB of GDDR5 VRAM each\n1280 stream processors\n256-bit-wide memory bus\n160GB/s memory bandwidth\n2 teraflops performance\nConfigurable to dual AMD FirePro D500, each with 3GB GDDR5 VRAM, 1526 stream processors, 384-bit-wide memory bus, 240GB/s memory bandwidth, and 2.2 teraflops performance; or dual AMD FirePro D700, each with 6GB of GDDR5 VRAM, 2048 stream processors, 384-bit-wide memory bus, 264GB/s memory bandwidth, and 3.5 teraflops performance\n3.5GHz 6-Core\nDual AMD FirePro D500 graphics processors with 3GB of GDDR5 VRAM each\n1526 stream processors\n384-bit-wide memory bus\n240GB/s memory bandwidth\n2.2 teraflops performance\nConfigurable to dual AMD FirePro D700, each with 6GB of GDDR5 VRAM, 2048 stream processors, 384-bit-wide memory bus, 264GB/s memory bandwidth, and 3.5 teraflops performance\n3.0GHz 8-Core\nDual AMD FirePro D700 graphics processors with 6GB of GDDR5 VRAM each\n2048 stream processors\n384-bit-wide memory bus\n264GB/s memory bandwidth\n3.5 teraflops performance"
+    },
+    {
+      "heading": "Display Support",
+      "source_text": "Connect up to:\nThree dual-cable 5K displays\nSix Thunderbolt displays"
+    },
+    {
+      "heading": "Storage",
+      "source_text": "256GB\nPCIe-based SSD\nConfigurable to 512GB or 1TB\n2"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Combined optical digital audio output/analog line out minijack\n3.5 mm headphone jack with headset support\nHDMI port supports multichannel audio output\nBuilt-in speaker"
+    },
+    {
+      "heading": "Connections and Expansion",
+      "source_text": "4 USB 3\n6 Thunderbolt 2\nDual Gigabit Ethernet\nHDMI 1.4 Ultra HD"
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "802.11ac Wi-Fi wireless networking;\n3\nIEEE 802.11a/b/g/n compatible\nBluetooth 4.0 wireless technology"
+    },
+    {
+      "heading": "Electrical and Operating Requirements",
+      "source_text": "Line voltage: 100-240V AC\nFrequency: 50Hz to 60Hz, single phase\nMaximum continuous power: 450W\nOperating temperature: 50° to 95° F (10° to 35° C)\nRelative humidity: 5% to 95% noncondensing\nMaximum altitude: 16,400 feet (5000 meters)\nTypical acoustical performance, sound pressure level (operator position): 12 dBA at idle"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "Mac Pro, power cord"
+    },
+    {
+      "heading": "Included Software",
+      "source_text": "macOS Mojave\nmacOS is the operating system that powers everything you do on a Mac. macOS Mojave brings new features inspired by its most powerful users, but designed for everyone. So you can get more out of every click.\nLearn more"
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "Declared noise emission values in accordance with ECMA-109\nSound Power Level\nL\nW\nA,m\n(B)\nSound Pressure Level\nOperator Position\nL\np\nA,m\n(dB)\nIdle\n2.05 (\nK\nV\n= 0.25)\n14.0\nWireless web\n2.05 (\nK\nV\n= 0.30)\n14.5\nL\nW\nA,m\nis the mean A-weighted sound power level, rounded to the nearest 0.05 B.\nL\np\nA,m\nis the mean A-weighted sound pressure level measured at the operator position (rounded to the nearest 0.5 dB).\n1 B (bel) = 10 dB (decibel)\nK\nv\nis the statistical adder for computing upper-limit of A-weighted sound power level.\nThe quantity,\nL\nW\nA,c\n(formerly called\nL\nW\nAd\n) may be computed from the sum of\nL\nW\nA,m\nand\nK\nv\n.\nThe Wireless web test browses 25 popular websites."
+    },
+    {
+      "heading": "Mac Pro and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact.\nENERGY STAR 6\nEPEAT Gold\n4\nBFR-free\nPVC-free\n5\nHighly recyclable"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

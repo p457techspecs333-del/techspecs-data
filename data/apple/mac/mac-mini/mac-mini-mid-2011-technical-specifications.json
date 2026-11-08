@@ -1,0 +1,49 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "Mac mini",
+    "model": "Mac mini (Mid 2011) - Technical Specifications",
+    "model_slug": "mac-mini-mid-2011-technical-specifications",
+    "model_year": 2011,
+    "year_introduced": 2011
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/112007",
+    "source_file": "apple_mac_extraction/technical_specs_html/112007.html",
+    "source_title": "Mac mini (Mid 2011) - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Mac mini and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more\nMac mini is designed with the following features to reduce its environmental impact:\nBFR-free\nPVC-free\n6\nHighly recyclable aluminum enclosure\nMeets ENERGY STAR 5.2 requirements\nRated EPEAT Gold\n7\nApple and the Environment\nLearn more about Apple’s dedication to reducing the environmental impact of our products and process.\nOr read our\nProduct Environmental Reports\nfor detailed information on the environmental performance of every Apple product.\nRecycling\nApple takes a holistic view of materials management and waste minimization.\nLearn more about how to recycle your Mac or PC."
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "DECLARED NOISE EMISSIONS in accordance with ISO 9296\nSound Power Level\nL\nWAd\n(B)\n1 B = 10 dB\nSound Pressure Level, Operator Position\nL\npAm\n(dB)\ni5 2.3 GHz\ni5 2.5 GHz\ni7 2.0 GHz\ni5 2.3 GHz\ni5 2.5 GHz\ni7 2.0 GHz\nIdle\n2.7\n2.8\n3.1\n13\n15\n17\nHard drive accessing\n2.8\n2.9\n3.1\n16\n16\n18\nCD drive accessing\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nL\nWAd\nis the statistical upper-limit A-weighted sound power level (rounded to the nearest 0.1 B).\nL\npAm\nis the mean A-weighted sound pressure level measured at the operator position (rounded to the nearest dB).\n1 B (bel) = 10 dB (decibel)."
+    },
+    {
+      "heading": "Accessories",
+      "source_text": "Mac Software\niWork\nAperture\nLogic Express\nFinal Cut Pro X\nDisplays and Graphics\nApple Thunderbolt Display\nApple Mini DisplayPort to DVI Adapter\nApple Mini DisplayPort to VGA Adapter\nApple Mini DisplayPort to Dual-Link DVI Adapter\nAirPort and Wireless\nAirPort Express Base Station\nAirPort Extreme Base Station\nTime Capsule\nApple Magic Trackpad\nApple Wireless Keyboard\nApple Magic Mouse\nOther Accessories\nApple MacBook Air SuperDrive\nApple Keyboard\nAppleCare Protection Plan"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

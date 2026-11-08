@@ -1,0 +1,133 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "MacBook Pro",
+    "model": "MacBook Pro (15-inch, 2019) - Technical Specifications",
+    "model_slug": "macbook-pro-15-inch-2019-technical-specifications",
+    "model_year": 2019,
+    "year_introduced": 2019
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111941",
+    "source_file": "apple_mac_extraction/technical_specs_html/111941.html",
+    "source_title": "MacBook Pro (15-inch, 2019) - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Touch Bar",
+      "source_text": "Touch Bar with integrated Touch ID sensor"
+    },
+    {
+      "heading": "Finish",
+      "source_text": "Silver\nSpace Gray"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Retina display\n15.4-inch (diagonal) LED-backlit display with IPS technology; 2880-by-1800 native resolution at 220 pixels per inch with support for millions of colors\nSupported scaled resolutions:\n1920 by 1200\n1680 by 1050\n1280 by 800\n1024 by 640\n500 nits brightness\nWide color (P3)\nTrue Tone technology"
+    },
+    {
+      "heading": "Processor",
+      "source_text": "2.6GHz\n2.6GHz 6-core Intel Core i7, Turbo Boost up to 4.5GHz, with 12MB shared L3 cache\nConfigurable to 2.4GHz 8-core Intel Core i9, Turbo Boost up to 5.0GHz, with 16MB shared L3 cache\n2.3GHz\n2.3GHz 8-core Intel Core i9, Turbo Boost up to 4.8GHz, with 16MB shared L3 cache\nConfigurable to 2.4GHz 8-core Intel Core i9, Turbo Boost up to 5.0GHz, with 16MB shared L3 cache"
+    },
+    {
+      "heading": "Storage 1",
+      "source_text": "256GB\n256GB SSD\nConfigurable to 512GB, 1TB, 2TB, or 4TB SSD\n512GB\n512GB SSD\nConfigurable to 1TB, 2TB, or 4TB SSD"
+    },
+    {
+      "heading": "Memory",
+      "source_text": "16GB of 2400MHz DDR4 onboard memory\nConfigurable to 32GB of memory"
+    },
+    {
+      "heading": "Graphics",
+      "source_text": "2.6GHz\nRadeon Pro 555X with 4GB of GDDR5 memory and automatic graphics switching\nIntel UHD Graphics 630\nConfigurable to Radeon Pro 560X with 4GB of GDDR5 memory\n2.3GHz\nRadeon Pro 560X with 4GB of GDDR5 memory and automatic graphics switching\nIntel UHD Graphics 630\nConfigurable to Radeon Pro Vega 16 with 4GB of HBM2 memory or Radeon Pro Vega 20 with 4GB of HBM2 memory"
+    },
+    {
+      "heading": "Charging and Expansion",
+      "source_text": "Four Thunderbolt 3 (USB-C) ports with support for:\nCharging\nDisplayPort\nThunderbolt (up to 40Gb/s)\nUSB 3.1 Gen 2 (up to 10Gb/s)"
+    },
+    {
+      "heading": "Keyboard and Trackpad",
+      "source_text": "Full-size backlit keyboard with:\n64 (U.S.) or 65 (ISO) keys including 4 arrow keys\nTouch Bar with integrated Touch ID sensor\nAmbient light sensor\nForce Touch trackpad for precise cursor control and pressure-sensing capabilities; enables Force clicks, accelerators, pressure-sensitive drawing, and Multi-Touch gestures"
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "Wi-Fi\n802.11ac Wi-Fi wireless networking; IEEE 802.11a/b/g/n compatible\nBluetooth\nBluetooth 5.0 wireless technology"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "720p FaceTime HD camera"
+    },
+    {
+      "heading": "Video Support",
+      "source_text": "Simultaneously supports full native resolution on the built-in display at millions of colors and:\nUp to two displays with 5120-by-2880 resolution at 60Hz at over a billion colors\nUp to four displays with 4096-by-2304 resolution at 60Hz at over a billion colors\nThunderbolt 3 digital video output\nNative DisplayPort output over USB‑C\nVGA, HDMI, DVI, and Thunderbolt 2 output supported using adapters (sold separately)"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Stereo speakers with high dynamic range\nThree microphones\n3.5 mm headphone jack"
+    },
+    {
+      "heading": "Battery and Power 2",
+      "source_text": "Up to 10 hours wireless web\nUp to 10 hours Apple TV app video playback\nUp to 30 days of standby time\nBuilt-in 83.6-watt-hour lithium-polymer battery\n87W USB-C Power Adapter"
+    },
+    {
+      "heading": "Operating Requirements",
+      "source_text": "Line voltage: 100V to 240V AC\nFrequency: 50Hz to 60Hz\nOperating temperature: 50° to 95° F (10° to 35° C)\nStorage temperature: –13° to 113° F (–25° to 45° C)\nRelative humidity: 0% to 90% noncondensing\nOperating altitude: tested up to 10,000 feet\nMaximum storage altitude: 15,000 feet\nMaximum shipping altitude: 35,000 feet"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height: 0.61 inch (1.55 cm)\nWidth: 13.75 inches (34.93 cm)\nDepth: 9.48 inches (24.07 cm)\nWeight: 4.02 pounds (1.83 kg)\n3"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "macOS\nmacOS is the operating system that powers every Mac. macOS Catalina gives you more of everything you love about Mac. So you can take everything you do above and beyond.\nLearn more about latest operating system"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new MacBook Pro. With built-in support for vision, hearing, mobility, and learning, you can create and do amazing things.\nLearn more about Accessibility\nFeatures include:\nVoice Control\nVoiceOver\nZoom\nIncrease Contrast\nReduce Motion\nSiri and Dictation\nSwitch Control\nClosed Captions\nText to Speech"
+    },
+    {
+      "heading": "Built-in Apps 4",
+      "source_text": "Photos\niMovie\nGarageBand\nPages\nNumbers\nKeynote\nSiri\nSafari\nMail\nFaceTime\nMessages\nMaps\nNews\nStocks\nHome\nVoice Memos\nNotes\nCalendar\nContacts\nReminders\nPhoto Booth\nPreview\nMusic\nPodcasts\nTV\nBooks\nApp Store\nTime Machine\nFind My\nQuickTime Player"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "15-inch MacBook Pro\n87W USB-C Power Adapter\nUSB-C Charge Cable (2 m)"
+    },
+    {
+      "heading": "Configure to Order",
+      "source_text": "Configure your MacBook Pro with these options, only at\napple.com\n:\n2.4GHz 8-core Intel Core i9, Turbo Boost up to 5.0GHz, with 16MB shared L3 cache\n32GB of 2400MHz DDR4 memory\nRadeon Pro 560X with 4GB of GDDR5 memory\nRadeon Pro Vega 16 with 4GB of HBM2 memory\nRadeon Pro Vega 20 with 4GB of HBM2 memory\n512GB, 1TB, 2TB, or 4TB SSD"
+    },
+    {
+      "heading": "MacBook Pro and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more about MacBook Pro and the Environment\nMacBook Pro is designed with the following features to reduce its environmental impact:\nMercury-free LED-backlit display\nArsenic-free display glass\nBFR-free\nPVC-free\n5\nBeryllium-free\nHighly recyclable aluminum enclosure\nMeets ENERGY STAR requirements\nRated EPEAT Gold\n6\nApple and the Environment\nRead our\nProduct Environmental Reports\nfor detailed information on the environmental performance of every Apple product."
+    },
+    {
+      "heading": "Accessories",
+      "source_text": "Mac Software\nFinal Cut Pro X\nLogic Pro X\nDisplays and Adapters\nLG UltraFine 4K Display\nLG UltraFine 5K Display\nThunderbolt 3 (USB-C) to Thunderbolt 2 Adapter\nUSB-C to USB Adapter\nUSB-C to SD Card Reader\nUSB-C Digital AV Multiport Adapter\nUSB-C VGA Multiport Adapter\nUSB-C to Gigabit Ethernet Adapter\nOther Accessories\nUSB-C to Lightning Cable\nUSB-C Charge Cable\n87W USB-C Power Adapter\n15-inch MacBook Pro Leather Sleeve\nBlackmagic eGPU\nBlackmagic eGPU Pro\nMagic Keyboard\nMagic Keyboard with Numeric Keypad\nMagic Trackpad 2\nMagic Mouse 2\nAppleCare+ for Mac"
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "Declared noise emission values in accordance with ECMA-109\nSound Power Level\nL\nW\nA,m\n(B)\nSound Pressure Level\nOperator Position\nL\np\nA,m\n(dB)\nIdle\n1.7 (\nK\nV\n= 0.3)\n8\nWireless web\n1.7 (\nK\nV\n= 0.3)\n8\nL\nW\nA,m\nis the mean A-weighted sound power level, rounded to the nearest 0.1 B.\nL\np\nA,m\nis the mean A-weighted sound pressure level measured at operator position (rounded to the nearest 1 dB).\n1 B (bel) = 10 dB (decibel)\nK\nv\nis the statistical adder for computing upper-limit of A-weighted sound power level.\nThe quantity,\nL\nW\nA,c\n(formerly called\nL\nW\nAd\n) may be computed from the sum of\nL\nW\nA,m\nand\nK\nv\n.\nThe Wireless web test browses 25 popular websites.\nConfiguration tested: 2.3GHz 8-core Intel Core i9 processor, 16GB memory, 512GB storage, Radeon Pro 560X with 4GB of GDDR5 memory."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

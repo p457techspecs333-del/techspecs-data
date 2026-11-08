@@ -1,0 +1,101 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "Mac mini",
+    "model": "Mac mini (Late 2012)",
+    "model_slug": "mac-mini-late-2012",
+    "model_year": 2012,
+    "year_introduced": 2012
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111926",
+    "source_file": "apple_mac_extraction/technical_specs_html/111926.html",
+    "source_title": "Mac mini (Late 2012) - Tech Specs",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height:\n1.4 inches (3.6 cm)\nWidth:\n7.7 inches (19.7 cm)\nDepth:\n7.7 inches (19.7 cm)\nWeight:\n2.7 pounds (1.22 kg)\n1"
+    },
+    {
+      "heading": "Processor",
+      "source_text": "2.5GHz\n2.5GHz dual-core Intel Core i5 (Turbo Boost up to 3.1GHz) with 3MB L3 cache\n2.3GHz\n2.3GHz quad-core Intel Core i7 (Turbo Boost up to 3.3GHz) with 6MB L3 cache\nConfigurable to 2.6GHz quad-core Intel Core i7 (Turbo Boost up to 3.6GHz)."
+    },
+    {
+      "heading": "Storage",
+      "source_text": "2.5 GHz\n500GB (5400-rpm) hard drive\n2\n2.3GHz\n1TB (5400-rpm) hard drive\n2\nConfigurable to a 256GB solid-state drive or 1TB Fusion Drive."
+    },
+    {
+      "heading": "Graphics",
+      "source_text": "Intel HD Graphics 4000"
+    },
+    {
+      "heading": "Memory",
+      "source_text": "4GB (two 2GB) of 1600MHz DDR3 memory\nConfigurable to 8GB or 16GB."
+    },
+    {
+      "heading": "Video Support",
+      "source_text": "Support for up to two displays at 2560 by 1600 pixels, both at millions of colors\nThunderbolt digital video output\nNative Mini DisplayPort output\nDVI output using Mini DisplayPort to DVI Adapter (sold separately)\nVGA output using Mini DisplayPort to VGA Adapter (sold separately)\nDual-link DVI output using Mini DisplayPort to Dual-Link DVI Adapter (sold separately)\nHDMI video output\nSupport for 1080p resolution at up to 60Hz\nDVI output using HDMI to DVI Adapter (sold separately)"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Audio line in minijack (digital/analog)\nAudio line out/headphone minijack (digital/analog)\nHDMI port supports multichannel audio output\nSupport for Apple iPhone headset with microphone\nBuilt-in speaker"
+    },
+    {
+      "heading": "Connections and Expansion",
+      "source_text": "Thunderbolt port (up to 10 Gbps)\nFireWire 800 port (up to 800 Mbps)\nFour USB 3 ports (up to 5 Gbps)\nHDMI port\nSDXC card slot\nGigabit Ethernet port\nAudio in/out\nIR receiver"
+    },
+    {
+      "heading": "Communications",
+      "source_text": "Wi-Fi\n802.11n Wi-Fi wireless networking;\n3\nIEEE 802.11a/b/g compatible\nBluetooth\nBluetooth 4.0 wireless technology\nEthernet\n10/100/1000BASE-T Ethernet (RJ-45 connector)"
+    },
+    {
+      "heading": "Electrical and Operating Requirements",
+      "source_text": "Line voltage: 100-240V AC\nFrequency: 50Hz to 60Hz, single phase\nMaximum continuous power: 85W\nOperating temperature: 50° to 95° F (10° to 35° C)\nStorage temperature: -40° to 116° F (-40° to 47° C)\nRelative humidity: 5% to 95% noncondensing\nOperating altitude: tested up to 10,000 feet\nTypical acoustical performance, sound pressure level (operator position):\n4\nDual-core model: 12 dBA at idle\nQuad-core model: 15 dBA at idle"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "Mac mini\nHDMI to DVI Adapter\nPower cord"
+    },
+    {
+      "heading": "Included Software",
+      "source_text": "OS X Mountain Lion: The world’s most advanced desktop operating system.\nLearn more about latest operating system\nMac App Store\nSafari\nMail\nMessages\nCalendar\nContacts\nReminders\nNotes\nTime Machine\nFaceTime\nPhoto Booth\nGame Center\niTunes\niLife: iPhoto, iMovie, and GarageBand."
+    },
+    {
+      "heading": "Configure to Order",
+      "source_text": "Configure your Mac mini with these options, only at the\nApple Online Store.\n8GB DDR3 memory upgrade\n16GB DDR3 memory upgrade\nApple Remote\n2.6GHz quad-core Intel Core i7 processor\n8GB DDR3 memory upgrade\n16GB DDR3 memory upgrade\n256GB solid-state drive\n1TB Fusion Drive\nApple Remote"
+    },
+    {
+      "heading": "Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more about Environment\nMac mini is designed with the following features to reduce its environmental impact:\nBFR-free\nPVC-free\n5\nHighly recyclable aluminum enclosure\nMeets ENERGY STAR 5.2 requirements\nRated EPEAT Gold\n6\nApple and the Environment\nLearn more about Apple’s dedication to reducing the environmental impact of our products and process\n. Or read our\nProduct Environmental Reports\nfor detailed information on the environmental performance of every Apple product.\nRecycling\nApple takes a holistic view of materials management and waste minimization.\nLearn more about how to recycle your Mac or PC."
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "DECLARED NOISE EMISSIONS in accordance with ISO 9296\nSound Power Level\nL\nWAd\n(B)\n1 B = 10 dB\nSound Pressure Level\nOperator Position\nL\npAm\n(dB)\n2.3GHz\n2.5GHz\n2.3GHz\n2.5GHz\nIdle\n2.6\n2.6\n14\n12\nHard drive accessing\n2.7\n2.6\n16\n14\nCD drive accessing\nN/A\nN/A\nN/A\nN/A\nL\nWAd\nis the statistical upper-limit A-weighted sound power level (rounded to the nearest 0.1 B).\nL\npAm\nis the mean A-weighted sound pressure level measured at the operator position (rounded to the nearest dB).\n1 B (bel) = 10 dB (decibel)."
+    },
+    {
+      "heading": "Accessories",
+      "source_text": "Mac Software\niWork\nAperture\nLogic Pro\nFinal Cut Pro X\nDisplays and Graphics\nApple Thunderbolt Display\nApple Mini DisplayPort to DVI Adapter\nApple Mini DisplayPort to VGA Adapter\nApple Mini DisplayPort to Dual-Link DVI Adapter\nAirPort and Wireless\nTime Capsule\nAirPort Express Base Station\nAirPort Extreme Base Station\nApple Magic Trackpad\nApple Wireless Keyboard\nApple Magic Mouse\nOther Accessories\nApple USB SuperDrive\nApple Keyboard"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

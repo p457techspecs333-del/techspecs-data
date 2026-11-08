@@ -1,0 +1,117 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "Mac Pro",
+    "model": "Mac Pro (Mid 2010) - Technical Specifications",
+    "model_slug": "mac-pro-mid-2010-technical-specifications",
+    "model_year": 2010,
+    "year_introduced": 2010
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/112578",
+    "source_file": "apple_mac_extraction/technical_specs_html/112578.html",
+    "source_title": "Mac Pro (Mid 2010) - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Size and weight",
+      "source_text": "Height: 20.1 inches (51.1 cm)\nHeight: 20.1 inches (51.1 cm)\nWidth: 8.1 inches (20.6 cm)\nWidth: 8.1 inches (20.6 cm)\nDepth: 18.7 inches (47.5 cm)\nDepth: 18.7 inches (47.5 cm)\nWeight: 8-core 41.2 pounds (18.7 kg) 1 Quad-core 39.9 pounds (18.1 kg) 1\nWeight:\n8-core 41.2 pounds (18.7 kg) 1\n8-core 41.2 pounds (18.7 kg) 1\nQuad-core 39.9 pounds (18.1 kg) 1\nQuad-core 39.9 pounds (18.1 kg) 1"
+    },
+    {
+      "heading": "Processing",
+      "source_text": "8-core (standard configuration) Two 2.4GHz Quad-Core Intel Xeon E5620 “Westmere” processors 12MB of fully shared L3 cache per processor Turbo Boost dynamic performance up to 2.66GHz Hyper-Threading technology for up to 16 virtual cores\n8-core (standard configuration)\nTwo 2.4GHz Quad-Core Intel Xeon E5620 “Westmere” processors\nTwo 2.4GHz Quad-Core Intel Xeon E5620 “Westmere” processors\n12MB of fully shared L3 cache per processor\n12MB of fully shared L3 cache per processor\nTurbo Boost dynamic performance up to 2.66GHz\nTurbo Boost dynamic performance up to 2.66GHz\nHyper-Threading technology for up to 16 virtual cores\nHyper-Threading technology for up to 16 virtual cores\nQuad-core (standard configuration) One 2.8GHz Quad-Core Intel Xeon W3530 “Nehalem” processor 8MB of fully shared L3 cache per processor Turbo Boost dynamic performance up to 3.06GHz Hyper-Threading technology for up to 8 virtual cores\nQuad-core (standard configuration)\nOne 2.8GHz Quad-Core Intel Xeon W3530 “Nehalem” processor\nOne 2.8GHz Quad-Core Intel Xeon W3530 “Nehalem” processor\n8MB of fully shared L3 cache per processor\n8MB of fully shared L3 cache per processor\nTurbo Boost dynamic performance up to 3.06GHz\nTurbo Boost dynamic performance up to 3.06GHz\nHyper-Threading technology for up to 8 virtual cores\nHyper-Threading technology for up to 8 virtual cores\nAdvanced Intel microarchitecture Integrated memory controller 128-bit SSE4 SIMD engine 64-bit data paths and registers Optimized for energy efficiency\nAdvanced Intel microarchitecture\nIntegrated memory controller\nIntegrated memory controller\n128-bit SSE4 SIMD engine\n128-bit SSE4 SIMD engine\n64-bit data paths and registers\n64-bit data paths and registers\nOptimized for energy efficiency\nOptimized for energy efficiency"
+    },
+    {
+      "heading": "Connections and audio",
+      "source_text": "Four FireWire 800 ports (two on front panel, two on back panel)\nFour FireWire 800 ports (two on front panel, two on back panel)\nFive USB 2.0 ports (two on front panel, three on back panel)\nFive USB 2.0 ports (two on front panel, three on back panel)\nTwo USB 2.0 ports on included keyboard\nTwo USB 2.0 ports on included keyboard\nFront-panel headphone minijack and internal speaker\nFront-panel headphone minijack and internal speaker\nOptical digital audio input and output TOSLINK ports\nOptical digital audio input and output TOSLINK ports\nAnalog stereo line-level input and output minijacks\nAnalog stereo line-level input and output minijacks\nMultichannel audio through Mini DisplayPort\nMultichannel audio through Mini DisplayPort"
+    },
+    {
+      "heading": "Graphics and displays",
+      "source_text": "Double-wide, 16-lane PCI Express 2.0 graphics slot with one of the following graphics cards installed: ATI Radeon HD 5770 with 1GB of GDDR5 memory, PCI Express 2.0, two Mini DisplayPort outputs, and one dual-link DVI port ATI Radeon HD 5870 with 1GB of GDDR5 memory, PCI Express 2.0, two Mini DisplayPort outputs, and one dual-link DVI port\nDouble-wide, 16-lane PCI Express 2.0 graphics slot with one of the following graphics cards installed:\nATI Radeon HD 5770 with 1GB of GDDR5 memory, PCI Express 2.0, two Mini DisplayPort outputs, and one dual-link DVI port\nATI Radeon HD 5770 with 1GB of GDDR5 memory, PCI Express 2.0, two Mini DisplayPort outputs, and one dual-link DVI port\nATI Radeon HD 5870 with 1GB of GDDR5 memory, PCI Express 2.0, two Mini DisplayPort outputs, and one dual-link DVI port\nATI Radeon HD 5870 with 1GB of GDDR5 memory, PCI Express 2.0, two Mini DisplayPort outputs, and one dual-link DVI port\nOption to install two ATI Radeon HD 5770 cards\nOption to install two ATI Radeon HD 5770 cards\nSupport for up to six displays 2\nSupport for up to six displays 2\nSupport for digital resolutions up to 2560 by 1600 pixels\nSupport for digital resolutions up to 2560 by 1600 pixels\nSupport for analog resolutions up to 2048 by 1536 pixels\nSupport for analog resolutions up to 2048 by 1536 pixels\nVideo adapters available for: Additional DVI output using Mini DisplayPort to DVI Adapter (optional) Additional dual-link DVI output using Mini DisplayPort to Dual-Link DVI Adapter (optional) VGA output using Mini DisplayPort to VGA Adapter or DVI to VGA Display Adapter (optional)\nVideo adapters available for:\nAdditional DVI output using Mini DisplayPort to DVI Adapter (optional)\nAdditional DVI output using Mini DisplayPort to DVI Adapter (optional)\nAdditional dual-link DVI output using Mini DisplayPort to Dual-Link DVI Adapter (optional)\nAdditional dual-link DVI output using Mini DisplayPort to Dual-Link DVI Adapter (optional)\nVGA output using Mini DisplayPort to VGA Adapter or DVI to VGA Display Adapter (optional)\nVGA output using Mini DisplayPort to VGA Adapter or DVI to VGA Display Adapter (optional)"
+    },
+    {
+      "heading": "Memory",
+      "source_text": "Dual-processor systems 2.4GHz system: 1066MHz DDR3 ECC SDRAM 2.66GHz and 2.93GHz systems: 1333MHz DDR3 ECC SDRAM Eight memory slots (four per processor) supporting up to 64GB of main memory using 1GB, 2GB, 4GB, or 8GB DIMMs\nDual-processor systems\n2.4GHz system: 1066MHz DDR3 ECC SDRAM\n2.4GHz system: 1066MHz DDR3 ECC SDRAM\n2.66GHz and 2.93GHz systems: 1333MHz DDR3 ECC SDRAM\n2.66GHz and 2.93GHz systems: 1333MHz DDR3 ECC SDRAM\nEight memory slots (four per processor) supporting up to 64GB of main memory using 1GB, 2GB, 4GB, or 8GB DIMMs\nEight memory slots (four per processor) supporting up to 64GB of main memory using 1GB, 2GB, 4GB, or 8GB DIMMs\nSingle-processor systems 2.8GHz and 3.2GHz systems: 1066MHz DDR3 ECC SDRAM 3.33GHz system: 1333MHz DDR3 ECC SDRAM Four memory slots supporting up to 32GB of main memory using 1GB, 2GB, 4GB, or 8GB DIMMs\nSingle-processor systems\n2.8GHz and 3.2GHz systems: 1066MHz DDR3 ECC SDRAM\n2.8GHz and 3.2GHz systems: 1066MHz DDR3 ECC SDRAM\n3.33GHz system: 1333MHz DDR3 ECC SDRAM\n3.33GHz system: 1333MHz DDR3 ECC SDRAM\nFour memory slots supporting up to 32GB of main memory using 1GB, 2GB, 4GB, or 8GB DIMMs\nFour memory slots supporting up to 32GB of main memory using 1GB, 2GB, 4GB, or 8GB DIMMs"
+    },
+    {
+      "heading": "Communications",
+      "source_text": "Built-in AirPort Extreme 802.11n Wi-Fi wireless networking; 3 IEEE 802.11a/b/g compatible\nBuilt-in AirPort Extreme 802.11n Wi-Fi wireless networking; 3 IEEE 802.11a/b/g compatible\nBluetooth 2.1 + Enhanced Data Rate (EDR) wireless technology\nBluetooth 2.1 + Enhanced Data Rate (EDR) wireless technology\nTwo independent 10/100/1000BASE-T Ethernet (RJ-45) interfaces with support for jumbo frames\nTwo independent 10/100/1000BASE-T Ethernet (RJ-45) interfaces with support for jumbo frames"
+    },
+    {
+      "heading": "Environmental Status Report",
+      "source_text": "BFR-free\nBFR-free\nPVC-free (internal cables)\nPVC-free (internal cables)\nHighly recyclable aluminum enclosure\nHighly recyclable aluminum enclosure\nMeets ENERGY STAR 5.0 requirements 4\nMeets ENERGY STAR 5.0 requirements 4\nRated EPEAT Gold 4\nRated EPEAT Gold 4"
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "DECLARED NOISE EMISSIONS in accordance with ISO 9296\nSound Power Level\nL WAd (B)\n1 B = 10 dB\nSound Pressure Level, Operator Position\nL pAm (dB)\n2.8 GHz\n2.4 GHz\n2.8 GHz\n2.4 GHz\nIdle\n3.6\n3.6\n26\n25\nHard drive accessing\n3.7\n3.6\n26\n26\nCD drive accessing\n4.6\n4.6\n37\n37\nL WAd is the statistical upper-limit A-weighted sound power level (rounded to the nearest 0.1 B).\nL WAd is the statistical upper-limit A-weighted sound power level (rounded to the nearest 0.1 B).\nL pAm is the mean A-weighted sound pressure level measured at the operator position (rounded to the nearest dB).\nL pAm is the mean A-weighted sound pressure level measured at the operator position (rounded to the nearest dB).\n1 B (bel) = 10 dB (decibel).\n1 B (bel) = 10 dB (decibel)."
+    },
+    {
+      "heading": "Electrical and operating requirements",
+      "source_text": "Line voltage: 100-120V AC or 200-240V AC (wide-range power supply input voltage)\nLine voltage: 100-120V AC or 200-240V AC (wide-range power supply input voltage)\nFrequency: 50Hz to 60Hz single phase\nFrequency: 50Hz to 60Hz single phase\nCurrent: Maximum of 12A (low-voltage range) or 5A (high-voltage range)\nCurrent: Maximum of 12A (low-voltage range) or 5A (high-voltage range)\nOperating temperature: 50° to 95° F (10° to 35° C)\nOperating temperature: 50° to 95° F (10° to 35° C)\nStorage temperature: -40° to 116° F (-40° to 47° C)\nStorage temperature: -40° to 116° F (-40° to 47° C)\nRelative humidity: 5% to 95% noncondensing\nRelative humidity: 5% to 95% noncondensing\nMaximum operating altitude: 10,000 feet\nMaximum operating altitude: 10,000 feet"
+    },
+    {
+      "heading": "PCI Express expansion",
+      "source_text": "Three open full-length PCI Express expansion slots 5 One PCI Express 2.0 x16 slot Two PCI Express 2.0 x4 slots\nThree open full-length PCI Express expansion slots 5\nOne PCI Express 2.0 x16 slot\nOne PCI Express 2.0 x16 slot\nTwo PCI Express 2.0 x4 slots\nTwo PCI Express 2.0 x4 slots\nAll slots provide mechanical support for 16-lane cards\nAll slots provide mechanical support for 16-lane cards\n300W combined maximum for all PCI Express slots\n300W combined maximum for all PCI Express slots"
+    },
+    {
+      "heading": "Storage",
+      "source_text": "Four 3.5-inch cable-free, direct-attach drive bays with built-in independent 3Gb/s Serial ATA channels; four internal drive carriers included\nFour 3.5-inch cable-free, direct-attach drive bays with built-in independent 3Gb/s Serial ATA channels; four internal drive carriers included\nUp to 8TB of internal storage 6 in bays 1 through 4 using hard drives or solid-state drives in the following capacities: 1TB or 2TB hard drives, Serial ATA 3Gb/s, 7200 rpm, 32MB cache 512GB solid-state drive, Serial ATA 3Gb/s\nUp to 8TB of internal storage 6 in bays 1 through 4 using hard drives or solid-state drives in the following capacities:\n1TB or 2TB hard drives, Serial ATA 3Gb/s, 7200 rpm, 32MB cache\n1TB or 2TB hard drives, Serial ATA 3Gb/s, 7200 rpm, 32MB cache\n512GB solid-state drive, Serial ATA 3Gb/s\n512GB solid-state drive, Serial ATA 3Gb/s\nOptional Mac Pro RAID Card with 512MB cache and 72-hour cache battery backup 7\nOptional Mac Pro RAID Card with 512MB cache and 72-hour cache battery backup 7\n18x SuperDrive with double-layer support (DVD±R DL/DVD±RW/CD-RW) Writes DVD+R and DVD-R discs at up to 18x speed Writes DVD+R DL and DVD-R DL discs at up to 8x speed Writes DVD+RW discs at up to 8x speed Writes DVD-RW discs at up to 6x speed Reads DVDs at up to 18x speed Writes CD-R and CD-RW discs at up to 32x speed Reads CDs at up to 32x speed\n18x SuperDrive with double-layer support (DVD±R DL/DVD±RW/CD-RW)\nWrites DVD+R and DVD-R discs at up to 18x speed\nWrites DVD+R and DVD-R discs at up to 18x speed\nWrites DVD+R DL and DVD-R DL discs at up to 8x speed\nWrites DVD+R DL and DVD-R DL discs at up to 8x speed\nWrites DVD+RW discs at up to 8x speed\nWrites DVD+RW discs at up to 8x speed\nWrites DVD-RW discs at up to 6x speed\nWrites DVD-RW discs at up to 6x speed\nReads DVDs at up to 18x speed\nReads DVDs at up to 18x speed\nWrites CD-R and CD-RW discs at up to 32x speed\nWrites CD-R and CD-RW discs at up to 32x speed\nReads CDs at up to 32x speed\nReads CDs at up to 32x speed\nOne open optical drive bay for optional second SuperDrive\nOne open optical drive bay for optional second SuperDrive"
+    },
+    {
+      "heading": "What’s included",
+      "source_text": "In the box:\nMac Pro\nMac Pro\nPower cord\nPower cord\nApple Keyboard with Numeric Keypad\nApple Keyboard with Numeric Keypad\nMagic Mouse\nMagic Mouse\nUSB keyboard extension cable\nUSB keyboard extension cable\nInstall/restore DVDs\nInstall/restore DVDs\nPrinted and electronic documentation\nPrinted and electronic documentation"
+    },
+    {
+      "heading": "Included software:",
+      "source_text": "Mac OS X Snow Leopard\nIncludes iTunes, Time Machine, Quick Look, Spaces, Spotlight, Dashboard, Mail, iChat, Safari, Address Book, QuickTime, iCal, DVD Player, Photo Booth, Front Row, and Xcode Developer Tools."
+    },
+    {
+      "heading": "iLife",
+      "source_text": "Includes iPhoto, iMovie, iDVD, iWeb, and GarageBand."
+    },
+    {
+      "heading": "Accessories",
+      "source_text": "Upgrades\n1GB Memory Kit\n1GB Memory Kit\n2GB Memory Kit\n2GB Memory Kit\n4GB Memory Kit\n4GB Memory Kit\n1TB SATA Drive Kit\n1TB SATA Drive Kit\n2TB SATA Drive Kit\n2TB SATA Drive Kit\n512GB Solid-State Drive Kit\n512GB Solid-State Drive Kit\nMac Pro RAID Card\nMac Pro RAID Card\nATI Radeon HD 5770 Graphics Upgrade Kit\nATI Radeon HD 5770 Graphics Upgrade Kit\nApple Dual-Channel 4Gb Fibre Channel PCI Express Card\nApple Dual-Channel 4Gb Fibre Channel PCI Express Card\nApple Quad-Channel 4Gb Fibre Channel PCI Express Card\nApple Quad-Channel 4Gb Fibre Channel PCI Express Card"
+    },
+    {
+      "heading": "Software",
+      "source_text": "Final Cut Studio\nFinal Cut Studio\nFinal Cut Express\nFinal Cut Express\nAperture\nAperture\nLogic Studio\nLogic Studio\nLogic Express\nLogic Express\nMac OS X Server v10.6 (Unlimited-client license)\nMac OS X Server v10.6 (Unlimited-client license)\nApple Remote Desktop\nApple Remote Desktop\niWork\niWork\nFileMaker\nFileMaker"
+    },
+    {
+      "heading": "Display and Graphics",
+      "source_text": "Apple LED Cinema Display\nApple LED Cinema Display\nVESA Mount Adapter Kit\nVESA Mount Adapter Kit\nApple Mini DisplayPort to DVI Adapter\nApple Mini DisplayPort to DVI Adapter\nApple Mini DisplayPort to VGA Adapter\nApple Mini DisplayPort to VGA Adapter\nApple Mini DisplayPort to Dual-Link DVI Adapter\nApple Mini DisplayPort to Dual-Link DVI Adapter"
+    },
+    {
+      "heading": "AirPort and Wireless",
+      "source_text": "Time Capsule\nTime Capsule\nAirPort Express Base Station\nAirPort Express Base Station\nAirPort Extreme Base Station\nAirPort Extreme Base Station\nApple Wireless Keyboard\nApple Wireless Keyboard\nMagic Trackpad\nMagic Trackpad"
+    },
+    {
+      "heading": "Configuration Options",
+      "source_text": "Quad-Core (MC560LL/A)\n8-Core (MC561LL/A)\n12-Core\n(Apple Online Store only)\nProcessor\n2.8GHz Quad-Core Intel Xeon “Nehalem”\nTwo 2.4GHz Quad-Core Intel Xeon “Westmere”\nTwo 2.66GHz 6-Core Intel Xeon “Westmere”\nCache\n8MB fully shared L3 cache\n12MB fully shared L3 cache per processor\nMemory\n3GB (three 1GB DIMMs) of 1066MHz DDR3 ECC SDRAM\n6GB (six 1GB DIMMs) of 1066MHz DDR3 ECC SDRAM\n6GB (six 1GB DIMMs) of 1333MHz DDR3 ECC SDRAM\nPCI Express 2.0 graphics\nATI Radeon HD 5770 with 1GB GDDR5 memory, two Mini DisplayPort outputs, and one dual-link DVI video output\nHard disk drive\n1TB Serial ATA (3Gb/s); 7200 rpm\nOptical drive\n18x SuperDrive with double-layer support (DVD±R DL/DVD±RW/CD-RW)\nWireless\nBuilt-in AirPort Extreme 802.11n Wi-Fi 3 and Bluetooth 2.1 + EDR (Enhanced Data Rate) wireless technology\nPCI Express\nThree open full-length PCI Express 2.0 expansion slots with mechanical support for 16-lane cards; 300W combined maximum for all PCI Express slots\nBuild-to-Order Options\nQuad-Core: 2.8GHz Intel Xeon “Nehalem”\nQuad-Core: 2.8GHz Intel Xeon “Nehalem”\nQuad-Core: 3.2GHz Intel Xeon “Nehalem”\nQuad-Core: 3.2GHz Intel Xeon “Nehalem”\n6-Core: 3.33GHz Intel Xeon “Westmere”\n6-Core: 3.33GHz Intel Xeon “Westmere”\n6GB memory (three 2GB DIMMs)\n6GB memory (three 2GB DIMMs)\n8GB memory (four 2GB DIMMs)\n8GB memory (four 2GB DIMMs)\n12GB memory (three 4GB DIMMs)\n12GB memory (three 4GB DIMMs)\n16GB memory (four 4GB DIMMs)\n16GB memory (four 4GB DIMMs)\nATI Radeon HD 5870 with 1GB GDDR5\nATI Radeon HD 5870 with 1GB GDDR5\nTwo ATI Radeon HD 5770\nTwo ATI Radeon HD 5770\nDrive bays 1-4: 1TB or 2TB Serial ATA 3Gb/s hard drive (7200 rpm); 512GB solid-state drive 6\nDrive bays 1-4: 1TB or 2TB Serial ATA 3Gb/s hard drive (7200 rpm); 512GB solid-state drive 6\nMac Pro RAID Card 7\nMac Pro RAID Card 7\nTwo 18x SuperDrive optical drives\nTwo 18x SuperDrive optical drives\nApple Keyboard\nApple Keyboard\nApple Wireless Keyboard\nApple Wireless Keyboard\nMagic Trackpad\nMagic Trackpad\nDual-Channel 4Gb Fibre Channel card\nDual-Channel 4Gb Fibre Channel card\nQuad-Channel 4Gb Fibre Channel card\nQuad-Channel 4Gb Fibre Channel card\n8-Core: Two 2.4GHz Intel Xeon “Westmere”\n8-Core: Two 2.4GHz Intel Xeon “Westmere”\n12-Core: Two 2.66GHz Intel Xeon “Westmere”\n12-Core: Two 2.66GHz Intel Xeon “Westmere”\n12-Core: Two 2.93GHz Intel Xeon “Westmere”\n12-Core: Two 2.93GHz Intel Xeon “Westmere”\n8GB memory (four 2GB DIMMs)\n8GB memory (four 2GB DIMMs)\n12GB memory (six 2GB DIMMs)\n12GB memory (six 2GB DIMMs)\n16GB memory (eight 2GB DIMMs)\n16GB memory (eight 2GB DIMMs)\n24GB memory (six 4GB DIMMs)\n24GB memory (six 4GB DIMMs)\n32GB memory (eight 4GB DIMMs)\n32GB memory (eight 4GB DIMMs)\nATI Radeon HD 5870 with 1GB GDDR5\nATI Radeon HD 5870 with 1GB GDDR5\nTwo ATI Radeon HD 5770\nTwo ATI Radeon HD 5770\nDrive bays 1-4: 1TB or 2TB Serial ATA 3Gb/s hard drive (7200 rpm); 512GB solid-state drive 6\nDrive bays 1-4: 1TB or 2TB Serial ATA 3Gb/s hard drive (7200 rpm); 512GB solid-state drive 6\nMac Pro RAID Card 7\nMac Pro RAID Card 7\nTwo 18x SuperDrive optical drives\nTwo 18x SuperDrive optical drives\nApple Keyboard\nApple Keyboard\nApple Wireless Keyboard\nApple Wireless Keyboard\nMagic Trackpad\nMagic Trackpad\nDual-Channel 4Gb Fibre Channel card\nDual-Channel 4Gb Fibre Channel card\nQuad-Channel 4Gb Fibre Channel card\nQuad-Channel 4Gb Fibre Channel card\n12-Core: Two 2.93GHz Intel Xeon “Westmere”\n12-Core: Two 2.93GHz Intel Xeon “Westmere”\n8GB memory (four 2GB DIMMs)\n8GB memory (four 2GB DIMMs)\n12GB memory (six 2GB DIMMs)\n12GB memory (six 2GB DIMMs)\n16GB memory (eight 2GB DIMMs)\n16GB memory (eight 2GB DIMMs)\n24GB memory (six 4GB DIMMs)\n24GB memory (six 4GB DIMMs)\n32GB memory (eight 4GB DIMMs)\n32GB memory (eight 4GB DIMMs)\nATI Radeon HD 5870 with 1GB GDDR5\nATI Radeon HD 5870 with 1GB GDDR5\nTwo ATI Radeon HD 5770\nTwo ATI Radeon HD 5770\nDrive bays 1-4: 1TB or 2TB Serial ATA 3Gb/s hard drive (7200 rpm); 512GB solid-state drive 6\nDrive bays 1-4: 1TB or 2TB Serial ATA 3Gb/s hard drive (7200 rpm); 512GB solid-state drive 6\nMac Pro RAID Card 7\nMac Pro RAID Card 7\nTwo 18x SuperDrive optical drives\nTwo 18x SuperDrive optical drives\nApple Keyboard\nApple Keyboard\nApple Wireless Keyboard\nApple Wireless Keyboard\nMagic Trackpad\nMagic Trackpad\nDual-Channel 4Gb Fibre Channel card\nDual-Channel 4Gb Fibre Channel card\nQuad-Channel 4Gb Fibre Channel card\nQuad-Channel 4Gb Fibre Channel card\nActual weight varies by configuration and manufacturing process.\nActual weight varies by configuration and manufacturing process.\nConnecting more than three displays requires installation of two ATI Radeon HD 5770 graphics cards.\nConnecting more than three displays requires installation of two ATI Radeon HD 5770 graphics cards.\nWireless Internet access requires a wireless access point and Internet access; fees may apply.\nWireless Internet access requires a wireless access point and Internet access; fees may apply.\nMac Pro systems configured with a Fibre Channel card or Mac OS X Server do not meet ENERGY STAR and EPEAT requirements.\nMac Pro systems configured with a Fibre Channel card or Mac OS X Server do not meet ENERGY STAR and EPEAT requirements.\nPCI Express slots are not compatible with PCI or PCI-X expansion cards.\nPCI Express slots are not compatible with PCI or PCI-X expansion cards.\n1GB = 1 billion bytes and 1TB = 1 trillion bytes; actual formatted capacity less.\n1GB = 1 billion bytes and 1TB = 1 trillion bytes; actual formatted capacity less.\nSolid-state drives are not compatible with the Mac Pro RAID Card in either RAID or Enhanced JBOD mode.\nSolid-state drives are not compatible with the Mac Pro RAID Card in either RAID or Enhanced JBOD mode."
+    },
+    {
+      "heading": "Apple Footer",
+      "source_text": "Support\nMac Pro (Mid 2010) - Technical Specifications"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

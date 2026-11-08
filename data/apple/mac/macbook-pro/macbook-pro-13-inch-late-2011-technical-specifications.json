@@ -1,0 +1,41 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "MacBook Pro",
+    "model": "MacBook Pro (13-inch, Late 2011) - Technical Specifications",
+    "model_slug": "macbook-pro-13-inch-late-2011-technical-specifications",
+    "model_year": 2011,
+    "year_introduced": 2011
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111341",
+    "source_file": "apple_mac_extraction/technical_specs_html/111341.html",
+    "source_title": "MacBook Pro (13-inch, Late 2011) - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "DECLARED NOISE EMISSIONS in accordance with ISO 9296\nSound Power Level\nL\nWAd\n(B)\n1 B = 10 dB\nSound Pressure Level\nOperator Position\nL\npAm\n(dB)\n2.8 GHz\n2.4 GHz\n2.8 GHz\n2.4 GHz\nIdle\n3.0\n2.8\n18\n18\nHard drive accessing\n3.0\n2.8\n18\n17\nCD drive accessing\n3.4\n3.3\n29\n28\nL\nWAd\nis the statistical upper-limit A-weighted sound power level (rounded to the nearest 0.1 B).\nL\npAm\nis the mean A-weighted sound pressure level measured at the operator position (rounded to the nearest dB).\n1 B (bel) = 10 dB (decibel).\nWhat’s in the box\nMacBook Pro\nDisplay cleaning cloth\n60W MagSafe Power Adapter, AC wall plug, and power cord\nPrinted and electronic documentation\nSoftware\nOS X Lion (includes Mail, Address Book, iCal, the Mac App Store, iTunes, Safari, Time Machine, FaceTime, Photo Booth, Mission Control, Launchpad, AirDrop, Resume, Auto Save, Versions, Quick Look, Spotlight, QuickTime, and more)\niLife (includes iPhoto, iMovie, and GarageBand)\n13-inch Configurations\n2.4GHz MacBook Pro (MD313LL/A)\n2.8GHz MacBook Pro (MD314LL/A)\nEnclosure\nPrecision aluminum unibody\nProcessor\n2.4GHz dual-core Intel Core i5\n2.8GHz dual-core Intel Core i7\nL3 cache\n3MB shared\n4MB shared\nMemory\n4GB (two 2GB SO-DIMMs) of 1333MHz DDR3 SDRAM; supports up to 8GB\nHard drive\n6\n500GB Serial ATA; 5400 rpm\n750GB Serial ATA; 5400 rpm\nSlot-loading optical drive\n8x SuperDrive (DVD±R DL/DVD±RW/CD-RW)\nGraphics\nIntel HD Graphics 3000 processor with 384MB of DDR3 SDRAM shared with main memory\n5\nVideo\nFaceTime HD camera; Thunderbolt port with support for DVI, VGA, dual-link DVI, and HDMI (requires adapters, sold separately)\nDisplay\n13.3-inch (diagonal) LED-backlit glossy widescreen display, 1280-by-800 resolution\nExpansion\nOne Thunderbolt port (up to 10 Gbps), one FireWire 800 port (up to 800 Mbps), two USB 2.0 ports (up to 480 Mbps), SDXC card slot\nAudio\nStereo speakers with subwoofer, omnidirectional microphone, combined headphone/line in (supports digital output)\nNetworking\n10/100/1000BASE-T (Gigabit) Ethernet\nWireless\nWi-Fi (based on IEEE 802.11n specification)\n2\n; Bluetooth 2.1 + EDR (Enhanced Data Rate) wireless technology\nHardware accessories\n60W MagSafe Power Adapter, AC wall plug, power cord\nLimited warranty and service\nYour MacBook Pro comes with 90 days of free telephone support and a one-year limited warranty. Purchase the\nAppleCare Protection Plan\nto extend your service and support to three years from your computer’s purchase date. Only the AppleCare Protection Plan provides you with direct telephone support from Apple technical experts and the assurance that repairs will be handled by Apple-authorized technicians using genuine Apple parts. For more information, visit\nApple support\nor call 800-823-2775.\nApple and the global environment\nLearn more about Apple’s dedication to reducing the environmental impact of our products and processes\n.\nApple Product Environmental Reports\ndetail the environmental attributes of our products.\nRecycling\nApple takes a holistic view of materials management and waste minimization.\nLearn more about how to recycle your Mac\n.\nOptions\nTime Capsule\nTime Capsule is a full-featured AirPort Extreme base station with a built-in hard drive. Back up wirelessly and create a Wi-Fi network with one device.\n2TB or 3TB server-grade hard drive\nWi-Fi Certified for 802.11n 2.0\nUSB port for connecting a USB printer or USB external hard drive\nConfigure to order\n750GB (5400-rpm) hard drive\n128GB, 256GB, or 512GB solid-state drive\nUp to 8GB of 1333MHz DDR3 SDRAM\nApple Remote\nApple Mini DisplayPort to DVI Adapter\nApple Mini DisplayPort to Dual-Link DVI Adapter\nApple Mini DisplayPort to VGA Adapter\nMagSafe Airline Adapter\nAppleCare Protection Plan\nAccessories\nApple Thunderbolt Display\nAirPort Extreme Base Station\nAirPort Express Base Station\nApple Wireless Keyboard\nMagic Mouse\nApple Keyboard with Numeric Keypad\nApple Mouse"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

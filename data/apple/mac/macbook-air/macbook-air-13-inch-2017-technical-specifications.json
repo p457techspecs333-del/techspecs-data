@@ -1,0 +1,129 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "MacBook Air",
+    "model": "MacBook Air (13-inch, 2017) - Technical Specifications",
+    "model_slug": "macbook-air-13-inch-2017-technical-specifications",
+    "model_year": 2017,
+    "year_introduced": 2017
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111924",
+    "source_file": "apple_mac_extraction/technical_specs_html/111924.html",
+    "source_title": "MacBook Air (13-inch, 2017) - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Display",
+      "source_text": "Widescreen display\n13.3-inch (diagonal) LED-backlit glossy widescreen display with support for millions of colors\nSupported resolutions: 1440 by 900 (native), 1280 by 800, 1152 by 720, and 1024 by 640 pixels at 16:10 aspect ratio and 1024 by 768 and 800 by 600 pixels at 4:3 aspect ratio"
+    },
+    {
+      "heading": "Finish",
+      "source_text": "Silver"
+    },
+    {
+      "heading": "Processor",
+      "source_text": "1.8GHz dual-core Intel Core i5, Turbo Boost up to 2.9GHz, with 3MB shared L3 cache\nConfigurable to 2.2GHz dual-core Intel Core i7, Turbo Boost up to 3.2GHz, with 4MB shared L3 cache"
+    },
+    {
+      "heading": "Storage 1",
+      "source_text": "128GB\n128GB PCIe-based SSD\nConfigurable to 256GB or 512GB SSD\n256GB\n256GB PCIe-based SSD\nConfigurable to 512GB SSD"
+    },
+    {
+      "heading": "Memory",
+      "source_text": "8GB of 1600MHz LPDDR3 onboard memory"
+    },
+    {
+      "heading": "Battery and Power 2",
+      "source_text": "Up to 12 hours wireless web\nUp to 12 hours iTunes movie playback\nUp to 30 days of standby time\nBuilt-in 54‑watt‑hour lithium‑polymer battery\n45W MagSafe 2 Power Adapter with cable management; MagSafe 2 power port"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height: 0.11–0.68 inch (0.3–1.7 cm)\nWidth: 12.8 inches (32.5 cm)\nDepth: 8.94 inches (22.7 cm)\nWeight: 2.96 pounds (1.35 kg)\n3"
+    },
+    {
+      "heading": "Graphics",
+      "source_text": "Intel HD Graphics 6000"
+    },
+    {
+      "heading": "Video Support",
+      "source_text": "Simultaneously supports full native resolution on the built-in display and up to 3840-by-2160 resolution at 60Hz on an external display, both at millions of colors\nThunderbolt digital video output\nNative Mini DisplayPort output\nVGA, HDMI, DVI, and dual-link DVI output using adapters (sold separately)"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "720p FaceTime HD camera"
+    },
+    {
+      "heading": "Charging and Expansion",
+      "source_text": "Two USB 3 ports (up to 5 Gbps)\nThunderbolt 2 port (up to 20 Gbps)\nMagSafe 2 power port\nSDXC card slot"
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "Wi-Fi\n802.11ac Wi-Fi wireless networking; IEEE 802.11a/b/g/n compatible\nBluetooth\nBluetooth 4.0 wireless technology"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Stereo speakers\nDual microphones\n3.5 mm headphone jack"
+    },
+    {
+      "heading": "Keyboard and Trackpad",
+      "source_text": "Full-size backlit keyboard with:\n78 (U.S.) or 79 (ISO) keys, including 12 function keys and 4 arrow keys (inverted “T” arrangement)\nAmbient light sensor\nMulti-Touch trackpad for precise cursor control; supports inertial scrolling, pinch, rotate, swipe, three‑finger swipe, four-finger swipe, tap, double-tap, and drag capabilities"
+    },
+    {
+      "heading": "Electrical and Operating Requirements",
+      "source_text": "Line voltage: 100–240V AC\nFrequency: 50Hz to 60Hz\nOperating temperature: 50° to 95° F (10° to 35° C)\nStorage temperature: −13° to 113° F (−25° to 45° C)\nRelative humidity: 0% to 90% noncondensing\nOperating altitude: tested up to 10,000 feet\nMaximum storage altitude: 15,000 feet\nMaximum shipping altitude: 35,000 feet"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "macOS\nmacOS is the operating system that powers everything you do on a Mac. macOS Mojave brings new features inspired by its most powerful users but designed for everyone. So you can get more out of every click.\nLearn more about latest operating system"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new MacBook Air. With built-in support for vision, hearing, physical and motor skills, and learning and literacy, you can create and do amazing things.\nLearn more about Accessibility\nFeatures include:\nVoiceOver\nZoom\nIncrease Contrast\nReduce Motion\nSiri and Dictation\nSwitch Control\nClosed Captions\nText to Speech"
+    },
+    {
+      "heading": "Built-in Apps 4",
+      "source_text": "Photos\niMovie\nGarageBand\nPages\nNumbers\nKeynote\nSiri\nSafari\nMail\nFaceTime\nMessages\nMaps\nNews\nStocks\nHome\nVoice Memos\nNotes\nCalendar\nContacts\nReminders\nPhoto Booth\nPreview\niTunes\nBooks\nApp Store\nTime Machine"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "MacBook Air\nPower adapter\nAC wall plug\nPower cord"
+    },
+    {
+      "heading": "Configure to Order",
+      "source_text": "Configure your MacBook Air to order with these options, only at\napple.com\n:\n2.2GHz dual-core Intel Core i7, Turbo Boost up to 3.2GHz, with 4MB L3 cache\n256GB or 512GB SSD"
+    },
+    {
+      "heading": "MacBook Air and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more about MacBook Air and the Environment\nMacBook Air is designed with the following features to reduce its environmental impact:\nMercury-free display\nArsenic-free display glass\nBFR-free\nPVC-free\n5\nBeryllium-free\nHighly recyclable aluminum enclosure\nMeets ENERGY STAR requirements\nRated EPEAT Gold\n6\nApple and the Environment\nRead our\nProduct Environmental Reports\nfor detailed information on the environmental performance of every Apple product."
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "Declared noise emission values in accordance with ECMA-109\nSound Power Level\nL\nW\nA,m\n(B)\nSound Pressure Level\nOperator Position\nL\np\nA,m\n(dB)\nIdle\n1.3 (\nK\nv\n= 0.3)\n4\nWireless web\n1.3 (\nK\nv\n= 0.3)\n4\nL\nW\nA,m\nis the mean A-weighted sound power level, rounded to the nearest 0.1 B.\nL\np\nA,m\nis the mean A-weighted sound pressure level measured at the operator position (rounded to the nearest 1 dB).\n1 B (bel) = 10 dB (decibel)\nK\nv\nis the statistical adder for computing upper-limit of A-weighted sound power level.\nThe quantity,\nL\nW\nA,c\n(formerly called\nL\nW\nAd\n) may be computed from the sum of\nL\nW\nA,m\nand\nK\nv\n.\nThe Wireless web test browses 25 popular websites.\nConfiguration tested: 1.8GHz dual-core Intel Core i5 processor, 8GB memory, 256GB storage, Intel HD Graphics 6000."
+    },
+    {
+      "heading": "Accessories",
+      "source_text": "Mac Software\nFinal Cut Pro X\nLogic Pro X\nAdapters\nApple Mini DisplayPort to DVI Adapter\nApple Mini DisplayPort to VGA Adapter\nMagSafe to MagSafe 2 Converter\nOther Accessories\nApple USB SuperDrive\nThunderbolt to Gigabit Ethernet Adapter\nThunderbolt to FireWire Adapter\n45W MagSafe 2 Power Adapter\nAppleCare+ for Mac"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

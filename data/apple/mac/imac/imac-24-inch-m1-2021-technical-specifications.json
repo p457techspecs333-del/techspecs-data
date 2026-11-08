@@ -1,0 +1,121 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "iMac",
+    "model": "iMac (24-inch, M1, 2021) - Technical Specifications",
+    "model_slug": "imac-24-inch-m1-2021-technical-specifications",
+    "model_year": 2021,
+    "year_introduced": 2021
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111895",
+    "source_file": "apple_mac_extraction/technical_specs_html/111895.html",
+    "source_title": "iMac (24-inch, M1, 2021) - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Colors",
+      "source_text": "Blue\nGreen\nPink\nSilver\nYellow\nOrange\nPurple"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "Apple M1 chip\n8-core CPU with 4 performance cores and 4 efficiency cores\n7-core GPU, 8-core GPU\n16-core Neural Engine"
+    },
+    {
+      "heading": "Apple In­telli­gence 8",
+      "source_text": "Apple In­telli­gence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.\nLearn more about Apple In­telli­gence"
+    },
+    {
+      "heading": "Storage 2",
+      "source_text": "256GB SSD or 512GB SSD\nConfigurable to:\n512GB, 1TB or 2TB"
+    },
+    {
+      "heading": "Memory",
+      "source_text": "8GB unified memory\nConfigurable to\n16GB unified memory"
+    },
+    {
+      "heading": "Display",
+      "source_text": "24-inch 4.5K Retina display\n4480x2520 resolution at 218 pixels per inch with support for 1 billion colours\n500 nits brightness\nWide colour (P3)\nTrue Tone technology\nActual diagonal screen size is 23.5 inches."
+    },
+    {
+      "heading": "Camera",
+      "source_text": "1080p FaceTime HD camera\nAdvanced image signal processor with computational video"
+    },
+    {
+      "heading": "Video Support",
+      "source_text": "Simultaneously supports full native resolution on the built-in display at 1 billion colours and:\nOne external display with up to 6K resolution at 60Hz\nThunderbolt 3 digital video output\nNative DisplayPort output over USB‑C\nVGA, HDMI, DVI and Thunderbolt 2 output supported using adapters (sold separately)"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "High-fidelity six-speaker system with force-cancelling woofers\nWide stereo sound\nSupport for spatial audio when playing music or video with Dolby Atmos\nStudio-quality three-mic array with high signal-to-noise ratio and directional beamforming\nSupport for “Hey Siri”"
+    },
+    {
+      "heading": "Connections and Expansion",
+      "source_text": "Two Thunderbolt / USB 4 ports with support for:\nDisplayPort\nThunderbolt 3 (up to 40Gb/s)\nUSB 4 (up to 40Gb/s)\nUSB 3.1 Gen 2 (up to 10Gb/s)\nThunderbolt 2, HDMI, DVI and VGA supported using adapters (sold separately)\n3.5mm headphone jack\nGigabit Ethernet\nTwo USB 3 ports (up to 10Gb/s)"
+    },
+    {
+      "heading": "Input",
+      "source_text": "Magic Keyboard\nMagic Mouse\nConfigurable with: Magic Keyboard with Touch ID, Magic Keyboard with Touch ID and Numeric Keypad, Magic Trackpad"
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "Wi‑Fi\n802.11ax Wi‑Fi 6 wireless networking\nIEEE 802.11a/b/g/n/ac compatible\nBluetooth\nBluetooth 5.0 wireless technology"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height: 46.1 cm (18.1 inches)\nWidth: 54.7 cm (21.5 inches)\nStand Depth: 14.7 cm (5.8 inches)\nWeight: 2-ports: 4.46 kg (9.83 pounds)\n3\n, 4-ports: 4.48 kg (9.88 pounds)\n3"
+    },
+    {
+      "heading": "Electrical and Operating Requirements",
+      "source_text": "Line voltage: 100–240V AC\nFrequency: 50Hz to 60Hz, single phase\nOperating temperature: 10° to 35° C (50° to 95° F)\nRelative humidity: 5% to 90% non-condensing\nOperating altitude: tested up to 5,000 metres (16,400 feet)"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "iMac\nMagic Keyboard\nMagic Mouse\n143W power adapter\nPower lead (2m)\nUSB‑C to Lightning Cable"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "macOS\nmacOS is the most advanced desktop operating system in the world. macOS Sequoia helps you be productive and creative in new ways — with Apple Intelligence,\n8\niPhone Mirroring, window tiling, major updates to Safari and more.\nLearn more about latest Operating System"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new iMac. With built-in support for vision, hearing, mobility and learning, you can create and do amazing things.\nLearn more about Accessibility\nFeatures include:\nVoice Control\nVoiceOver\nZoom\nIncrease Contrast\nReduce Motion\nSiri and Dictation\nSwitch Control"
+    },
+    {
+      "heading": "Built-in Apps 4",
+      "source_text": "App Store\nBooks\nCalendar\nContacts\nFaceTime\nFind My\nGarageBand\nHome\niMovie\nKeynote\nMail\nMaps\nMessages\nMusic\nNews\nNotes\nNumbers\nPages\nPhoto Booth\nPhotos\nPodcasts\nPreview\nQuickTime Player\nReminders\nSafari\nShortcuts\nSiri\nStocks\nTime Machine\nTV\nVoice Memos"
+    },
+    {
+      "heading": "Configure to Order",
+      "source_text": "Configure your iMac with these options. Looking for an iMac you can mount on a wall or an adjustable arm?\nChoose an iMac with a Built-in VESA Mount Adapter\nMagic Keyboard with Touch ID\nMagic Keyboard with Touch ID and Numeric Keypad\nMagic Trackpad\n16GB unified memory\n512GB or 1TB SSD\nGigabit Ethernet"
+    },
+    {
+      "heading": "iMac and the Environment",
+      "source_text": "The 24‑inch iMac is designed with the following features to reduce its environmental impact:\n5\nSee the 24‑inch iMac Product Environmental Report\nMade with better materials\n100% recycled rare earth elements in all magnets, representing 99% of the rare earth elements in the device\n100% recycled tin in the solder of the main logic board\nEnclosure made with recyclable, low-carbon aluminium\n35% or more recycled plastic in multiple components\nEnergy efficient\nENERGY STAR\n®\ncertified\n6\nSmarter chemistry\n7\nArsenic-free display glass\nMercury-, BFR-, PVC- and beryllium‑free\nGreen manufacturing\nApple’s Zero Waste Programme helps suppliers eliminate waste sent to landfill\nAll final assembly supplier sites are transitioning to 100% renewable energy for Apple production\nResponsible packaging\n100% of virgin wood fibre comes from responsibly managed forests\nRecyclable, majority-fibre packaging\nApple and the Environment\nWe’re committed to making our products without taking from the earth, and to become carbon neutral across our entire business, including products, by 2030.\nSee Apple’s commitment"
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "Declared noise emission values in accordance with ECMA-109\nSound Power Level\nL\nW\nA,m\n(B)\nSound Pressure Level\nOperator Position\nL\np\nA,m\n(dB)\nIdle\n1.7 (\nK\nV\n= 0.3)\n7\nWireless web\n1.7 (\nK\nV\n= 0.3)\n7\nL\nW\nA,m\nis the mean A-weighted sound power level, rounded to the nearest 0.1 B.\nL\np\nA,m\nis the mean A-weighted sound pressure level measured at operator position (rounded to the nearest 1 dB).\n1 B (bel) = 10 dB (decibel).\nK\nv\nis the statistical adder for computing upper-limit of A-weighted sound power level.\nThe quantity,\nL\nW\nA,c\n(formerly called\nL\nW\nAd\n) may be computed from the sum of\nL\nW\nA,m\nand\nK\nv\n.\nThe Wireless web test browses 25 popular websites.\nConfigurations tested: a) Apple M1 chip, 8-core CPU/8-core GPU, 8GB memory, 512GB storage, 4-ports b) Apple M1 chip, 8-core CPU/7-core GPU, 8GB memory, 256GB storage, 2-ports."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}

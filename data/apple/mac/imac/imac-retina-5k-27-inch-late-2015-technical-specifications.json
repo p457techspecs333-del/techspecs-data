@@ -1,0 +1,117 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer",
+    "family": "iMac",
+    "model": "iMac (Retina 5K, 27-inch, Late 2015) - Technical Specifications",
+    "model_slug": "imac-retina-5k-27-inch-late-2015-technical-specifications",
+    "model_year": 2015,
+    "year_introduced": 2015
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/112035",
+    "source_file": "apple_mac_extraction/technical_specs_html/112035.html",
+    "source_title": "iMac (Retina 5K, 27-inch, Late 2015) - Technical Specifications",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support page returned successfully and its HTML was archived. Original visible specification sections were extracted; individual field values have not yet been independently normalized or verified."
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order. Connectivity, port, memory, storage and other configurations remain within the same source record where Apple presents them together.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Display",
+      "source_text": "27-inch (diagonal) Retina 5K display with IPS technology\n5120‑by‑2880 resolution with support for millions of colors"
+    },
+    {
+      "heading": "Processor",
+      "source_text": "3.2GHz\n3.2GHz quad‑core Intel Core i5 (Turbo Boost up to 3.6GHz)\n3.2GHz\n3.2GHz quad‑core Intel Core i5 (Turbo Boost up to 3.6GHz)\nConfigurable to 4.0GHz quad-core Intel Core i7 (Turbo Boost up to 4.2GHz)\n3.3GHz\n3.3GHz quad‑core Intel Core i5 (Turbo Boost up to 3.9GHz)\nConfigurable to 4.0GHz quad-core Intel Core i7 (Turbo Boost up to 4.2GHz)"
+    },
+    {
+      "heading": "Memory",
+      "source_text": "8GB (two 4GB) of 1867MHz DDR3 memory; four SO-DIMM slots, user accessible\nConfigurable to 16GB or 32GB"
+    },
+    {
+      "heading": "Storage 1",
+      "source_text": "3.2GHz\n1TB (7200-rpm) hard drive\nConfigurable up to 3TB Fusion Drive or 256GB or 512GB of flash storage (SSD)\n3.2GHz\n1TB Fusion Drive\nConfigurable up to 3TB Fusion Drive or 256GB, 512GB, or 1TB of flash storage (SSD)\n3.3GHz\n2TB Fusion Drive\nConfigurable up to 3TB Fusion Drive or 256GB, 512GB, or 1TB of flash storage (SSD)"
+    },
+    {
+      "heading": "Graphics",
+      "source_text": "3.2GHz\nAMD Radeon R9 M380 graphics processor with 2GB of GDDR5 memory\n3.2GHz\nAMD Radeon R9 M390 graphics processor with 2GB of GDDR5 memory\n3.3GHz\nAMD Radeon R9 M395 graphics processor with 2GB of GDDR5 memory\nConfigurable to AMD Radeon R9 M395X with 4GB of GDDR5 memory"
+    },
+    {
+      "heading": "Video Support and Camera",
+      "source_text": "FaceTime HD camera\nSimultaneously supports full native resolution on the built-in display and up to two 4096-by-2160 external displays or one 5120-by-2880 dual-cable external display\nSupport for extended desktop and video mirroring modes"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Stereo speakers\nDual microphones\n3.5 mm headphone jack\nHeadphone/optical digital audio output (minijack)\nSupport for Apple iPhone headset with microphone"
+    },
+    {
+      "heading": "Connections and Expansion",
+      "source_text": "3.5 mm headphone jack\nSDXC card slot\nFour USB 3 ports (compatible with USB 2)\nTwo Thunderbolt 2 ports\nMini DisplayPort output\nSupport for HDMI, DVI, VGA, and dual-link DVI (adapters sold separately)\n10/100/1000BASE-T Gigabit Ethernet (RJ-45 connector)\nKensington lock slot"
+    },
+    {
+      "heading": "Input",
+      "source_text": "Magic Keyboard\nThe redesigned Magic Keyboard comes standard with your iMac. It’s wireless and rechargeable (so you won’t be replacing batteries), with an ultracompact, edge-to-edge design that wastes no surface space. It has an improved scissor mechanism, optimized key travel, and a lower profile that increase control and comfort. And it pairs immediately with your iMac right out of the box.\nMagic Mouse 2\nThe new design of Magic Mouse 2 lets it glide more smoothly across your desk. And since it supports Multi-Touch, you can use simple gestures on its surface to do things such as swipe between web pages and scroll through documents. So if you prefer to use a wireless mouse but want some of the benefits of Multi-Touch, Magic Mouse 2 is a great choice.\nMagic Trackpad 2\nIf you prefer using a trackpad, Magic Trackpad 2 gives you the full range of Multi-Touch gestures and introduces Force Touch to the desktop. Sensors underneath the trackpad surface detect subtle differences in the amount of pressure you apply, bringing more functionality to your fingertips and enabling a deeper connection to your content. This new design, along with a lower profile, makes it even more comfortable to use."
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "Wi-Fi\n802.11ac Wi-Fi wireless networking\nIEEE 802.11a/b/g/n compatible\nBluetooth\nBluetooth 4.0 wireless technology"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "27-inch iMac\nHeight: 20.3 inches (51.6 cm)\nWidth: 25.6 inches (65.0 cm)\nStand depth: 8 inches (20.3 cm)\nWeight: 21 pounds (9.54 kg)\n2\n27-inch iMac with built-in VESA adapter\nHeight: 17.6 inches (44.7 cm)\nWidth: 25.6 inches (65.0 cm)\nDepth (including built-in VESA adapter): 3.1 inches (7.9 cm)"
+    },
+    {
+      "heading": "Electrical and Operating Requirements",
+      "source_text": "Line voltage: 100–240V AC\nFrequency: 50Hz to 60Hz, single phase\nOperating temperature: 50° to 95° F (10° to 35° C)\nRelative humidity: 5% to 95% noncondensing\nOperating altitude: tested up to 10,000 feet"
+    },
+    {
+      "heading": "Limited Warranty and Service",
+      "source_text": "Your iMac comes with 90 days of free telephone support and a one-year limited warranty. Purchase the\nAppleCare Protection Plan\nto extend your service and support to three years from your computer’s purchase date. Only the AppleCare Protection Plan provides you with direct telephone support from Apple technical experts and the assurance that repairs will be handled by Apple-authorized technicians using genuine Apple parts. For more information, visit\nApple Support\nor call 1-800-823-2775."
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "iMac with Retina 5K display\nMagic Keyboard\nMagic Mouse 2\nPower cord\nLightning to USB Cable"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "macOS Sierra\nmacOS is the operating system that powers everything you do on a Mac. macOS Sierra introduces Siri to Mac\n3\n— along with new ways to enjoy your photos, shop more securely online, and work more seamlessly between devices.\nLearn more"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new iMac. With built-in support for vision, hearing, physical and motor skills, and learning and literacy, you can create and do amazing things.\nLearn more\nFeatures include:\nVoiceOver\nZoom\nIncrease Contrast\nReduce Motion\nSiri and Dictation\nSwitch Control\nClosed Captions\nText to Speech"
+    },
+    {
+      "heading": "Built‑in Apps 4",
+      "source_text": "Photos\niMovie\nGarageBand\nPages\nNumbers\nKeynote\nSafari\nMail\nMessages\nFaceTime\nCalendar\nNotes\nApp Store\niTunes\niBooks\nMaps\nContacts\nReminders"
+    },
+    {
+      "heading": "Configure to Order",
+      "source_text": "Configure your iMac with these options. Looking for an iMac you can mount on a wall or an adjustable arm?\nChoose an iMac with a Built-in VESA Mount Adapter\n.\n3.2GHz\nMagic Trackpad 2\n16GB or 32GB memory upgrade\n1TB, 2TB, or 3TB Fusion Drive\n256GB or 512GB of flash storage (SSD)\n3.2GHz\nMagic Trackpad 2\n4.0GHz quad-core Intel Core i7 upgrade\n16GB or 32GB memory upgrade\n2TB or 3TB Fusion Drive\n256GB, 512GB, or 1TB of flash storage (SSD)\n3.3GHz\nMagic Trackpad 2\n4.0GHz quad-core Intel Core i7 upgrade\n16GB or 32GB memory upgrade\nAMD Radeon R9 M395X upgrade\n3TB Fusion Drive\n256GB, 512GB, or 1TB of flash storage (SSD)"
+    },
+    {
+      "heading": "iMac and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more\niMac is designed with the following features to reduce its environmental impact:\nArsenic-free display glass\nBFR-free\nPVC-free\n5\nBeryllium-free\nMercury-free LED-backlit display\nRecyclable aluminum enclosure\nSpeaker enclosures made with 35 percent post-consumer recycled plastic\nMeets ENERGY STAR Version 6.1 requirements\nRated EPEAT Gold\n6\nApple and the Environment\nLearn more\nabout Apple’s dedication to reducing the environmental impact of our products and process. Or read our\nProduct Environmental Reports\nfor detailed information on the environmental performance of every Apple product.\nRecycling\nApple takes a holistic view of materials management and waste minimization.\nLearn more\nabout how to recycle your Mac."
+    },
+    {
+      "heading": "Acoustic Performance",
+      "source_text": "Declared noise emission values in accordance with ECMA-109\nSound Power Level\nL\nW\nA,m\n(B)\nSound Pressure Level\nOperator Position\nL\np\nA,m\n(dB)\nIdle\n2.25 (\nK\nv\n= 0.25)\n15.5\nWireless web\n2.25 (\nK\nv\n= 0.25)\n15.5\nHard drive seek\n2.25 (\nK\nv\n= 0.25)\n15.5\nL\nW\nA,m\nis the mean A-weighted sound power level, rounded to the nearest 0.05 B.\nL\np\nA,m\nis the mean A-weighted sound pressure level measured at the operator position (rounded to the nearest 0.5 dB).\n1 B (bel) = 10 dB (decibel)\nK\nv\nis the statistical adder for computing upper-limit of A-weighted sound power level.\nThe quantity,\nL\nW\nA,c\n(formerly called\nL\nW\nAd\n) may be computed from the sum of\nL\nW\nA,m\nand\nK\nv\n.\nThe Wireless web test browses 25 popular websites.\nConfiguration tested: 3.3GHz quad-core Intel Core i5 processor, 8GB memory, 2TB Fusion Drive, AMD Radeon R9 M395 graphics."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from the captured official Apple Support Tech Specs HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "A separate Apple specification page is not automatically treated as a separate retail SKU; family and configuration deduplication remains a review step."
+  ]
+}
