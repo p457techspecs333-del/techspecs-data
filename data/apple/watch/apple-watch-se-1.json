@@ -1,0 +1,44 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "smartwatch",
+    "family": "Apple Watch SE",
+    "model": "Apple Watch SE (1st generation)",
+    "model_slug": "apple-watch-se-1",
+    "model_year": 2020,
+    "year_introduced": 2020
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/docs/watch/pl290",
+    "source_file": null,
+    "source_title": "Apple Watch SE - Manuals and Downloads",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Apple Support Ireland search result confirms the official first-generation SE support page and year introduced 2020; the page links to Tech Specs.",
+    "notes": []
+  },
+  "extraction": {
+    "method": "manual",
+    "normalization_status": "archival_first_pass",
+    "note": "Initial archival record prioritising correct model identity and official Apple source linkage. The official Apple Support page identifies the model and links to Tech Specs; consult that source for full technical detail.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Model identification",
+      "source_text": "Apple Watch SE (1st generation). Year introduced: 2020."
+    },
+    {
+      "heading": "Source coverage",
+      "source_text": "Refer to the official Apple Support source and its Tech Specs reference for the full technical specification."
+    }
+  ],
+  "record_notes": [
+    "First-pass historical Apple Watch record based on an official Apple Support product-specific page."
+  ]
+}
