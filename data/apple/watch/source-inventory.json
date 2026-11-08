@@ -131,6 +131,15 @@
       "purpose": "Official product-specific support page for Apple Watch Series 2",
       "verification_status": "url_checked",
       "notes": "Apple Support confirms the Series 2 support page and year introduced 2016 under regional results; Ireland URL awaits direct confirmation."
+    },
+    {
+      "source_type": "manufacturer",
+      "source_url": "https://support.apple.com/en-ie/docs/watch/pl285",
+      "source_title": "Apple Watch Series 1 - Manuals and Downloads",
+      "publisher": "Apple Support",
+      "purpose": "Official product-specific support page for Apple Watch Series 1",
+      "verification_status": "url_checked",
+      "notes": "Apple Support Ireland search result confirms the Series 1 page and 2016 introduction."
     }
   ],
   "model_families_identified_from_Apple_index": [
@@ -182,7 +191,7 @@
     {
       "model": "Apple Watch Series 1",
       "generation_year": 2016,
-      "source_url": "https://support.apple.com/en-ie/108056"
+      "source_url": "https://support.apple.com/en-ie/docs/watch/pl285"
     },
     {
       "model": "Apple Watch (1st generation)",
@@ -230,6 +239,7 @@
     "Apple Watch Ultra 4 and Apple Watch SE (2nd generation) now have schema v2.0 product records with official Apple Support Tech Specs article identifiers. Ireland-localized URL behavior remains pending direct confirmation.",
     "Apple Watch Series 6 and Series 4 now have schema v2.0 records based on official Apple Support product-specific pages. Direct Tech Specs article URLs remain a verification follow-up where not exposed in search results.",
     "Apple Watch Series 5, Series 3 and the original Apple Watch Ultra now have schema v2.0 source-linked records.",
-    "Apple Watch SE (1st generation) and Series 2 now have schema v2.0 product records linked to official Apple Support pages."
+    "Apple Watch SE (1st generation) and Series 2 now have schema v2.0 product records linked to official Apple Support pages.",
+    "Apple Watch Series 1 now has a schema v2.0 record. The original 2015 first-generation Apple Watch remains in the discovery inventory, but a suitable direct official product-specific page has not yet been confirmed."
   ]
 }
