@@ -1,0 +1,45 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "smartwatch",
+    "family": "Apple Watch",
+    "model": "Apple Watch Series 4",
+    "model_slug": "apple-watch-series-4",
+    "model_year": 2018,
+    "year_introduced": 2018
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/docs/watch/pl176",
+    "source_file": null,
+    "source_title": "Apple Watch Series 4 - Manuals and Downloads",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Apple Support Ireland search result confirms the official Series 4 support page, Tech Specs reference, and year introduced 2018.",
+    "notes": []
+  },
+  "extraction": {
+    "method": "manual",
+    "normalization_status": "archival_first_pass",
+    "note": "Initial archival record prioritising correct model identity and official Apple source linkage. The linked Apple Support page identifies the model and exposes its Tech Specs reference; use that reference for full technical details.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Model identification",
+      "source_text": "Apple Watch Series 4. Year introduced: 2018."
+    },
+    {
+      "heading": "Source coverage",
+      "source_text": "Refer to the official Apple Support source and its Tech Specs reference for the complete technical specification."
+    }
+  ],
+  "record_notes": [
+    "First-pass historical Apple Watch record based on an official Apple Support product-specific page.",
+    "Direct Tech Specs article URL is not yet independently established for this historical model."
+  ]
+}
