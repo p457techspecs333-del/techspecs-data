@@ -1,0 +1,44 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "smartwatch",
+    "family": "Apple Watch SE",
+    "model": "Apple Watch SE 3",
+    "model_slug": "apple-watch-se-3",
+    "model_year": 2025,
+    "year_introduced": 2025
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/125094",
+    "source_file": null,
+    "source_title": "Apple Watch SE 3 - Tech Specs",
+    "publisher": "Apple Support (Ireland)",
+    "published_at": null,
+    "checked_at": "2026-11-08",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Apple Support Tech Specs URL and model title confirmed from Apple-indexed content. The official page remains the authority for full specifications.",
+    "notes": []
+  },
+  "extraction": {
+    "method": "manual",
+    "normalization_status": "archival_first_pass",
+    "note": "Initial model record. Correct model identity and official Apple source URL are the priority; complete transcription and normalized specifications are not required at this stage.",
+    "extracted_at": "2026-11-08",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Model identification",
+      "source_text": "Apple Watch SE 3. Year introduced: 2025."
+    },
+    {
+      "heading": "Source reference",
+      "source_text": "See the official Apple Tech Specs page at source_url for the full manufacturer-published information. Connectivity, case sizes, finishes and other configurations are not split into separate product records by default."
+    }
+  ],
+  "record_notes": [
+    "First-pass Apple Watch record; source URL and model identity are the priority."
+  ]
+}
