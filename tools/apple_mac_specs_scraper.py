@@ -52,7 +52,8 @@ report = {
     "notes": [
         "Official Apple pages only are saved as source HTML.",
         "HTTP 429/403 pages are recorded as failures, not treated as successful captures.",
-        "A successful index scrape is not proof that every historic model has been captured."
+        "A successful index scrape is not proof that every historic model has been captured.",
+        "Only explicitly labelled Tech Specs links are followed; unrelated numeric support links are excluded."
     ],
 }
 
@@ -129,8 +130,8 @@ for name, url in urls_to_check:
             href = urljoin(response.url, a["href"])
             label = " ".join(a.get_text(" ", strip=True).split())
             if is_apple_url(href) and (
-                re.search(r"tech\s*spec|technical\s*specification", label, re.I)
-                or re.search(r"/\d{5,6}$", urlparse(href).path)
+                re.fullmatch(r"tech\s*specs?", label, re.I)
+                or re.fullmatch(r"technical\s*specifications?", label, re.I)
             ):
                 links.append({"label": label, "url": href})
         # Keep first occurrence of each URL while preserving source order.
@@ -143,7 +144,9 @@ for name, url in urls_to_check:
     report["model_index_pages"].append(item)
     time.sleep(1.0)
 
-# Follow only explicit Apple Tech Specs links found in the family index pages.
+# Follow only explicitly labelled Apple Tech Specs links found in the family index pages.
+# Do not treat every numeric Apple Support URL as a specification page: model
+# indexes also link to unrelated help articles.
 seen_specs = set()
 for index in report["model_index_pages"]:
     for link in index.get("discovered_links", []):
