@@ -82,7 +82,7 @@ def process(args):
      result["records"].append({"url":page.url,"title":title,"status":"no_sections_extracted"}); continue
     record={"schema_version":"2.0","product":{"brand":"Apple","category":"accessory" if family=="accessories" else "software",
       "family":"Apple Accessories" if family=="accessories" else "Apple Software","model":model,"model_slug":slug(model),
-      "model_year":int(year_match.group(1)) if year_match else None,"year_introduced":(int(year_match.group(1)) if year_match and int(year_match.group(1)) >= 2007 else None),"variant":None},
+      "model_year":(int(year_match.group(1)) if year_match and int(year_match.group(1)) >= 2007 else None),"year_introduced":(int(year_match.group(1)) if year_match and int(year_match.group(1)) >= 2007 else None),"variant":None},
       "source":{"source_type":"manufacturer","source_url":page.url,"source_file":saved.as_posix(),"source_title":title,"publisher":"Apple",
        "published_at":None,"checked_at":TODAY,"verification_status":"content_verified",
        "verification_notes":f"Official Apple technical-specification page discovered from its documentation index; {len(sec)} sections archived.",
