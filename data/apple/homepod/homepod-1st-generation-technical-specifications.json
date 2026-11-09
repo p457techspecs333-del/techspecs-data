@@ -8,7 +8,11 @@
     "model_slug": "homepod-1st-generation-technical-specifications",
     "model_year": 2018,
     "year_introduced": 2018,
-    "variant": null
+    "variant": null,
+    "finishes": [
+      "Space Gray",
+      "White"
+    ]
   },
   "source": {
     "source_type": "manufacturer",
