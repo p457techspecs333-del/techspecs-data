@@ -42,6 +42,7 @@
     }
   ],
   "notes": [
-    "Start with the two Apple Vision Pro hardware generations confirmed by Apple's official model-identification page: M2 (2024) and M5 (2025)."
+    "Start with the two Apple Vision Pro hardware generations confirmed by Apple's official model-identification page: M2 (2024) and M5 (2025).",
+    "Extraction workflow trigger: inventory updated after initial workflow files were committed."
   ]
 }
