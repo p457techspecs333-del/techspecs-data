@@ -11,13 +11,13 @@
   "working_scope": [
     {
       "model": "HomePod mini 2 technical specifications",
-      "url": "https://support.apple.com/en-ie/149360",
+      "url": "https://support.apple.com/en-us/149360",
       "slug": "homepod-mini-2-technical-specifications",
-      "final_url": "https://support.apple.com/en-ie/149360",
+      "final_url": "https://support.apple.com/en-us/149360",
       "title": "HomePod mini 2 - Tech Specs",
       "source_file": "apple_remaining_extraction/technical_specs_html/homepod-homepod-mini-2-technical-specifications.html",
       "section_count": 13,
-      "verification_status": "content_verified"
+      "verification_status": "content_verified_official_us_locale"
     },
     {
       "model": "HomePod (2nd generation) technical specifications",
@@ -53,7 +53,8 @@
   "catalogue_links": [],
   "notes": [
     "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete.",
-    "2026-11-09 progress: all four HomePod records have introduction years and selected explicit specification fields normalized with source-section provenance. This is not final record-level verification; normalized fields remain source_transcribed."
+    "2026-11-09 progress: all four HomePod records have introduction years and selected explicit specification fields normalized with source-section provenance. This is not final record-level verification; normalized fields remain source_transcribed.",
+    "HomePod mini 2 technical-specification page verified on the official Apple US support domain (https://support.apple.com/en-us/149360); the Ireland-localized URL was not independently accessible during this check, so the record now cites the verified official source."
   ],
   "record_audit": {
     "checked_at": "2026-11-09",
