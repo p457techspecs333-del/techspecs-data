@@ -12,16 +12,17 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-ie/149360",
+    "source_url": "https://support.apple.com/en-us/149360",
     "source_file": "apple_remaining_extraction/technical_specs_html/homepod-homepod-mini-2-technical-specifications.html",
     "source_title": "HomePod mini 2 - Tech Specs",
     "publisher": "Apple",
     "published_at": null,
     "checked_at": "2026-11-09",
     "verification_status": "content_verified",
-    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 13 sections archived. Year introduced cross-checked against Apple's official HomePod model-identification documentation on 2026-11-09.",
+    "verification_notes": "Official Apple HomePod mini 2 technical-specifications page verified on Apple's US support domain on 2026-11-09; Ireland-localized URL was not independently accessible during this check.",
     "notes": [
-      "Extracted from official Apple technical specification link discovered on model index."
+      "Extracted from official Apple technical specification link discovered on model index.",
+      "Official page checked: https://support.apple.com/en-us/149360. Locale-specific availability for Ireland not confirmed."
     ]
   },
   "extraction": {
