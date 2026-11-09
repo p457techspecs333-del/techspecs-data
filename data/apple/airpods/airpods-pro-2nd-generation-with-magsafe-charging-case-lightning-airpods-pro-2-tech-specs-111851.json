@@ -27,7 +27,7 @@
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
-    "note": "Official Apple sections preserved and transcribed into machine-readable section fields. Individual measurements, battery figures, model identifiers and footnote qualifications still require field-level parsing and validation; no values inferred.",
+    "note": "Official Apple source sections are preserved and transcribed. Explicit chip, Bluetooth version, resistance rating, battery-duration statements and labelled size/weight measurements have been parsed where present; values retain source-section provenance. Model/case-specific context, footnotes and remaining fields still require record-level verification. No missing values inferred.",
     "extracted_at": "2026-11-09",
     "reviewed_at": "2026-11-09"
   },
@@ -92,7 +92,8 @@
   "record_notes": [
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Taxonomy audit 2026-11-09: classified as Apple audio hardware, not software.",
-    "Field-level normalization remains incomplete; source_text is the evidence of record."
+    "Field-level normalization remains incomplete; source_text is the evidence of record.",
+    "Field extraction pass 2026-11-09: added typed fields only where explicit values were present in preserved official source sections; qualifiers retained and source-section provenance attached."
   ],
   "normalized_specifications": {
     "audio_technology": {
@@ -220,6 +221,38 @@
         "verification_status": "source_transcribed",
         "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
       }
+    },
+    "chip_name": {
+      "value": "Apple H2 headphone chip",
+      "unit": null,
+      "source_section": "Chip",
+      "verification_status": "source_transcribed",
+      "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+    },
+    "bluetooth_version": {
+      "value": "5.3",
+      "unit": "version",
+      "source_section": "Connectivity",
+      "verification_status": "source_transcribed",
+      "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+    },
+    "ingress_protection_rating": {
+      "value": "IPX4",
+      "unit": null,
+      "source_section": "Sweat and Water Resistant 2",
+      "verification_status": "source_transcribed",
+      "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+    },
+    "battery_life_statements": {
+      "value": [
+        "Up to 6 hours of listening time with a single charge (up to 5.5 hours with Spatial Audio and head tracking enabled)",
+        "Up to 30 hours of listening time",
+        "5 minutes in the case provides around 1 hour of listening time"
+      ],
+      "unit": null,
+      "source_section": "Battery",
+      "verification_status": "source_transcribed",
+      "notes": "Exact battery-duration statements from official source section; qualifiers and footnote markers retained."
     }
   }
 }
