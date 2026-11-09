@@ -1,5 +1,5 @@
 {
-  "catalogue_stage": "official_apple_source_discovery",
+  "catalogue_stage": "official_source_archived_and_partially_normalized",
   "brand": "Apple",
   "category": "accessory",
   "family": "Apple Accessories",
@@ -8,7 +8,198 @@
   "index_url": "https://support.apple.com/en-ie/docs/accessories",
   "index_title": "Accessories Manuals and Downloads - Apple Support (IE)",
   "index_archive": "apple_remaining_extraction/technical_specs_html/accessories-index.html",
-  "working_scope": [],
+  "working_scope": [
+    {
+      "model": "AirPort Express 802.11n (2nd Generation)",
+      "url": "https://support.apple.com/en-ie/112421",
+      "slug": "airport-express-802-11n-2nd-generation",
+      "final_url": "https://support.apple.com/en-ie/112421",
+      "title": "AirPort Express 802.11n (2nd Generation) - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/accessories-specs-airport-express-802-11n-2nd-generation-airport-express-802-11n-2nd-generation-technical-specifications.html",
+      "section_count": 11,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "AirPort Extreme 802.11ac",
+      "url": "https://support.apple.com/en-ie/112419",
+      "slug": "airport-extreme-802-11ac",
+      "final_url": "https://support.apple.com/en-ie/112419",
+      "title": "AirPort Extreme 802.11ac - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/accessories-specs-airport-extreme-802-11ac-airport-extreme-802-11ac-technical-specifications.html",
+      "section_count": 11,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "AirPort Extreme 802.11n (5th Generation)",
+      "url": "https://support.apple.com/en-ie/112440",
+      "slug": "airport-extreme-802-11n-5th-generation",
+      "final_url": "https://support.apple.com/en-ie/112440",
+      "title": "AirPort Extreme 802.11n (5th Generation) - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/accessories-specs-airport-extreme-802-11n-5th-generation-airport-extreme-802-11n-5th-generation-technical-specifications.html",
+      "section_count": 14,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "AirPort Extreme (Simultaneous Dual-Band II)",
+      "url": "https://support.apple.com/en-ie/112575",
+      "slug": "airport-extreme-simultaneous-dual-band-ii",
+      "final_url": "https://support.apple.com/en-ie/112575",
+      "title": "AirPort Extreme 802.11n (4th Generation) - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/accessories-specs-airport-extreme-simultaneous-dual-band-ii-airport-extreme-802-11n-4th-generation-technical-specifications.html",
+      "section_count": 2,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "AirPort Time Capsule 802.11ac",
+      "url": "https://support.apple.com/en-ie/112420",
+      "slug": "airport-time-capsule-802-11ac",
+      "final_url": "https://support.apple.com/en-ie/112420",
+      "title": "AirPort Time Capsule 802.11ac - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/accessories-specs-airport-time-capsule-802-11ac-airport-time-capsule-802-11ac-technical-specifications.html",
+      "section_count": 12,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "AirPort Time Capsule 802.11n (2nd Generation)",
+      "url": "https://support.apple.com/en-ie/112572",
+      "slug": "airport-time-capsule-802-11n-2nd-generation",
+      "final_url": "https://support.apple.com/en-ie/112572",
+      "title": "AirPort Time Capsule 802.11n (2nd Generation) - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/accessories-specs-airport-time-capsule-802-11n-2nd-generation-airport-time-capsule-802-11n-2nd-generation-technical-specifications.html",
+      "section_count": 15,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "AirPort Time Capsule 802.11n (3rd Generation)",
+      "url": "https://support.apple.com/en-ie/112563",
+      "slug": "airport-time-capsule-802-11n-3rd-generation",
+      "final_url": "https://support.apple.com/en-ie/112563",
+      "title": "AirPort Time Capsule 802.11n (3rd Generation) - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/accessories-specs-airport-time-capsule-802-11n-3rd-generation-airport-time-capsule-802-11n-3rd-generation-technical-specifications.html",
+      "section_count": 15,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "AirPort Time Capsule 802.11n (4th Generation)",
+      "url": "https://support.apple.com/en-ie/112571",
+      "slug": "airport-time-capsule-802-11n-4th-generation",
+      "final_url": "https://support.apple.com/en-ie/112571",
+      "title": "AirPort Time Capsule 802.11n (4th Generation) - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/accessories-specs-airport-time-capsule-802-11n-4th-generation-airport-time-capsule-802-11n-4th-generation-technical-specifications.html",
+      "section_count": 2,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "AirTag (2nd generation)",
+      "url": "https://support.apple.com/en-ie/126203",
+      "slug": "airtag-2nd-generation",
+      "final_url": "https://support.apple.com/en-ie/126203",
+      "title": "AirTag (2nd generation) - Tech Specs",
+      "source_file": "apple_remaining_extraction/technical_specs_html/accessories-specs-airtag-2nd-generation-airtag-2nd-generation-tech-specs.html",
+      "section_count": 11,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "AirTag",
+      "url": "https://support.apple.com/en-ie/111847",
+      "slug": "airtag",
+      "final_url": "https://support.apple.com/en-ie/111847",
+      "title": "AirTag - Tech Specs",
+      "source_file": "apple_remaining_extraction/technical_specs_html/accessories-specs-airtag-airtag-tech-specs.html",
+      "section_count": 11,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Magic Keyboard (USB-C)",
+      "url": "https://support.apple.com/en-ie/121955",
+      "slug": "magic-keyboard-usb-c",
+      "final_url": "https://support.apple.com/en-ie/121955",
+      "title": "Magic Keyboard (USB–C) - Tech Specs",
+      "source_file": "apple_remaining_extraction/technical_specs_html/accessories-specs-magic-keyboard-usb-c-magic-keyboard-usb-c-tech-specs.html",
+      "section_count": 7,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Magic Keyboard with Numeric Keypad",
+      "url": "https://support.apple.com/en-ie/112037",
+      "slug": "magic-keyboard-with-numeric-keypad",
+      "final_url": "https://support.apple.com/en-ie/112037",
+      "title": "Magic Keyboard with Numeric Keypad - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/accessories-specs-magic-keyboard-with-numeric-keypad-magic-keyboard-with-numeric-keypad-technical-specifications.html",
+      "section_count": 6,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Magic Keyboard with Touch ID and Numeric Keypad for Mac models with Apple silicon (USB-C)",
+      "url": "https://support.apple.com/en-ie/121953",
+      "slug": "magic-keyboard-with-touch-id-and-numeric-keypad-for-mac-models-with-apple-silicon-usb-c",
+      "final_url": "https://support.apple.com/en-ie/121953",
+      "title": "Magic Keyboard with Touch ID and Numeric Keypad for Mac models with Apple silicon (USB‑C) - Tech Specs",
+      "source_file": "apple_remaining_extraction/technical_specs_html/accessories-specs-magic-keyboard-with-touch-id-and-numeric-keypad-for-mac-models-with-apple-silicon-usb-c-magic-keyboard-with-touch-id-and-numeric-keypad-for-mac-models-with-apple-silicon-usb-c-tech-specs.html",
+      "section_count": 8,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Magic Keyboard with Touch ID for Mac models with Apple silicon (USB-C)",
+      "url": "https://support.apple.com/en-ie/121954",
+      "slug": "magic-keyboard-with-touch-id-for-mac-models-with-apple-silicon-usb-c",
+      "final_url": "https://support.apple.com/en-ie/121954",
+      "title": "Magic Keyboard with Touch ID for Mac models with Apple silicon (USB–C) - Tech Specs",
+      "source_file": "apple_remaining_extraction/technical_specs_html/accessories-specs-magic-keyboard-with-touch-id-for-mac-models-with-apple-silicon-usb-c-magic-keyboard-with-touch-id-for-mac-models-with-apple-silicon-usb-c-tech-specs.html",
+      "section_count": 7,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Magic Keyboard",
+      "url": "https://support.apple.com/en-ie/112443",
+      "slug": "magic-keyboard",
+      "final_url": "https://support.apple.com/en-ie/112443",
+      "title": "Magic Keyboard - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/accessories-specs-magic-keyboard-magic-keyboard-technical-specifications.html",
+      "section_count": 6,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Magic Mouse 2",
+      "url": "https://support.apple.com/en-ie/111885",
+      "slug": "magic-mouse-2",
+      "final_url": "https://support.apple.com/en-ie/111885",
+      "title": "Magic Mouse - Tech Specs",
+      "source_file": "apple_remaining_extraction/technical_specs_html/accessories-specs-magic-mouse-2-magic-mouse-tech-specs.html",
+      "section_count": 8,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Magic Mouse (USB-C)",
+      "url": "https://support.apple.com/en-ie/121931",
+      "slug": "magic-mouse-usb-c",
+      "final_url": "https://support.apple.com/en-ie/121931",
+      "title": "Magic Mouse (USB‑C) - Tech Specs",
+      "source_file": "apple_remaining_extraction/technical_specs_html/accessories-specs-magic-mouse-usb-c-magic-mouse-usb-c-tech-specs.html",
+      "section_count": 8,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Magic Trackpad 2",
+      "url": "https://support.apple.com/en-ie/111884",
+      "slug": "magic-trackpad-2",
+      "final_url": "https://support.apple.com/en-ie/111884",
+      "title": "Magic Trackpad - Tech Specs",
+      "source_file": "apple_remaining_extraction/technical_specs_html/accessories-specs-magic-trackpad-2-magic-trackpad-tech-specs.html",
+      "section_count": 8,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Magic Trackpad (USB-C)",
+      "url": "https://support.apple.com/en-ie/121932",
+      "slug": "magic-trackpad-usb-c",
+      "final_url": "https://support.apple.com/en-ie/121932",
+      "title": "Magic Trackpad (USB‑C) - Tech Specs",
+      "source_file": "apple_remaining_extraction/technical_specs_html/accessories-specs-magic-trackpad-usb-c-magic-trackpad-usb-c-tech-specs.html",
+      "section_count": 8,
+      "verification_status": "content_verified"
+    }
+  ],
   "catalogue_links": [
     {
       "label": "Apple",
@@ -264,6 +455,26 @@
     }
   ],
   "notes": [
-    "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete."
-  ]
+    "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete.",
+    "2026-11-09 progress: all 19 existing accessory product records are now enumerated in working_scope. Selected explicit specifications have been normalized with source-section provenance; final record-level verification remains outstanding."
+  ],
+  "record_audit": {
+    "checked_at": "2026-11-09",
+    "product_record_count": 19,
+    "source_policy": "Official Apple accessory technical-specification pages and documentation index; no absent values inferred.",
+    "normalization_status": "partially_normalized",
+    "completion_status": "IN_PROGRESS",
+    "completed": [
+      "Populated working_scope with all 19 existing accessory product records and their official Apple specification URLs, archived source-file paths and section counts.",
+      "Extracted explicit AirPort wireless standards, interfaces, compatibility, size/weight and environmental statements where present.",
+      "Extracted AirTag size/weight, resistance, connectivity, battery, sensor and environmental details where present.",
+      "Extracted Magic Keyboard, Magic Mouse and Magic Trackpad size/weight, connection, charging-port, finish and approximate battery-life statements where present.",
+      "Retained source-section provenance and original source text."
+    ],
+    "remaining": [
+      "Verify all 19 records against their archived official Apple HTML, particularly the short two-section AirPort records and model/variant relationships.",
+      "Review extracted values for field-level precision and product-family taxonomy.",
+      "Run repository validation and catalogue-generation checks."
+    ]
+  }
 }
