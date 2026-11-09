@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://techspecs.dev/schemas/product-record-v2.schema.json",
   "title": "TechSpecs Product Record v2",
-  "description": "Canonical archival-first product record. Original source sections are retained; normalized specifications are optional until extracted and verified.",
+  "description": "Canonical archival-first product record. Original source sections are retained; normalized specifications are optional until extracted and verified. Historical product records are supported; introduction-year validation starts at 2001 to accommodate Apple iPod-era devices.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -52,7 +52,7 @@
             "integer",
             "null"
           ],
-          "minimum": 2007,
+          "minimum": 2001,
           "maximum": 2100
         },
         "year_introduced": {
@@ -60,7 +60,7 @@
             "integer",
             "null"
           ],
-          "minimum": 2007,
+          "minimum": 2001,
           "maximum": 2100
         },
         "variant": {
