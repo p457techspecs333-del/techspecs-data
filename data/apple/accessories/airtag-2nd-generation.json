@@ -26,10 +26,10 @@
   },
   "extraction": {
     "method": "section_preserving",
-    "normalization_status": "archival_first_pass",
-    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "normalization_status": "partially_normalized",
+    "note": "Official Apple accessory source sections retained. Explicit size/weight, resistance, connectivity, battery, sensor, finish and environmental fields extracted where present with source-section provenance. Approximate battery-life statements retain their qualifiers; no absent values inferred.",
     "extracted_at": "2026-11-09",
-    "reviewed_at": null
+    "reviewed_at": "2026-11-09"
   },
   "sections": [
     {
@@ -78,6 +78,105 @@
     }
   ],
   "record_notes": [
-    "Archival-first-pass technical specification record; normalized values not inferred."
-  ]
+    "Archival-first-pass technical specification record; normalized values not inferred.",
+    "Field extraction pass 2026-11-09: explicit accessory specifications extracted into schema-v2 fields with source-section provenance."
+  ],
+  "normalized_specifications": {
+    "size_weight_statements": {
+      "value": {
+        "value": [
+          "Diameter:",
+          "31.9 mm (1.26 inches)",
+          "Height:",
+          "8.0 mm (0.31 inches)",
+          "Weight:",
+          "11.8 grams (0.42 ounces)"
+        ],
+        "unit": null,
+        "source_section": "Size and Weight",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple specification text; wording retained."
+      }
+    },
+    "ingress_protection_rating": {
+      "value": {
+        "value": "IP67",
+        "unit": null,
+        "source_section": "Splash, Water and Dust Resistance",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple specification text; wording retained."
+      }
+    },
+    "resistance_details": {
+      "value": {
+        "value": "Rated IP67 (maximum depth of 1 metre up to 30 minutes) under IEC standard 60529",
+        "unit": null,
+        "source_section": "Splash, Water and Dust Resistance",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple specification text; wording retained."
+      }
+    },
+    "connection_details": {
+      "value": {
+        "value": [
+          "Bluetooth for proximity finding",
+          "Apple-designed, second-generation Ultra Wideband chip and expanded Precision Finding connectivity",
+          "NFC tap for Lost Mode"
+        ],
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple specification text; wording retained."
+      }
+    },
+    "ultra_wideband_support": {
+      "value": {
+        "value": true,
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple specification text; wording retained."
+      }
+    },
+    "nfc_support": {
+      "value": {
+        "value": true,
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple specification text; wording retained."
+      }
+    },
+    "battery_details": {
+      "value": {
+        "value": [
+          "User-replaceable CR2032 coin cell battery"
+        ],
+        "unit": null,
+        "source_section": "Battery",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple specification text; wording retained."
+      }
+    },
+    "battery_type": {
+      "value": {
+        "value": "CR2032 coin cell",
+        "unit": null,
+        "source_section": "Battery",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple specification text; wording retained."
+      }
+    },
+    "sensors": {
+      "value": {
+        "value": [
+          "Accelerometer"
+        ],
+        "unit": null,
+        "source_section": "Sensor",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple specification text; wording retained."
+      }
+    }
+  }
 }
