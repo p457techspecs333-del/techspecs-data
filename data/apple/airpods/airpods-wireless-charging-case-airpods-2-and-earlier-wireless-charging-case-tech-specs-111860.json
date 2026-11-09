@@ -27,7 +27,7 @@
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
-    "note": "Official Apple source sections preserved; product taxonomy corrected. Field-level normalized specifications still require extraction and verification; no values inferred.",
+    "note": "Official Apple sections preserved and transcribed into machine-readable section fields. Individual measurements, battery figures, model identifiers and footnote qualifications still require field-level parsing and validation; no values inferred.",
     "extracted_at": "2026-11-09",
     "reviewed_at": "2026-11-09"
   },
@@ -65,5 +65,70 @@
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Taxonomy audit 2026-11-09: classified as Apple audio hardware, not software.",
     "Field-level normalization remains incomplete; source_text is the evidence of record."
-  ]
+  ],
+  "normalized_specifications": {
+    "overview": {
+      "source_text": {
+        "value": "With the Wireless Charging Case, charging is as simple as placing your AirPods in the case and laying it on a Qi-compatible charging mat. The LED indicator on the front of the case lets you know that your AirPods are charging. And when you’re away from a charging mat, you can use the Lightning port to charge. The Wireless Charging Case works with AirPods (1 and 2) and can hold multiple charges.",
+        "unit": null,
+        "source_section": "Overview",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "highlights": {
+      "source_text": {
+        "value": "Designed by Apple\nAirPods charge quickly inside the case\nCase can be charged either wirelessly using a Qi-compatible charging mat or with the Lightning connector",
+        "unit": null,
+        "source_section": "Highlights",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "what_s_in_the_box": {
+      "source_text": {
+        "value": "Wireless Charging Case",
+        "unit": null,
+        "source_section": "What’s in the Box",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "weight": {
+      "source_text": {
+        "value": "Wireless Charging Case:\n40 grams (1.41 ounces)",
+        "unit": null,
+        "source_section": "Weight",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "dimensions": {
+      "source_text": {
+        "value": "Wireless Charging Case:\n44.3 x 21.3 x 53.5 mm (1.74 x 0.84 x 2.11 inches)",
+        "unit": null,
+        "source_section": "Dimensions",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "connections": {
+      "source_text": {
+        "value": "Wireless Charging Case:\ncharges via wireless (Qi-compatible) charging mat or Lightning connector",
+        "unit": null,
+        "source_section": "Connections",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "manufacturer_information": {
+      "source_text": {
+        "value": "Lithium-Based Battery Shipments\nDue to standalone lithium-based battery shipping restrictions, this product may only ship via ground and is subject to domestic and international shipping requirements. If the final ship-to address is not eligible for ground shipments, the order may be subject to cancellation.",
+        "unit": null,
+        "source_section": "Manufacturer Information",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    }
+  }
 }
