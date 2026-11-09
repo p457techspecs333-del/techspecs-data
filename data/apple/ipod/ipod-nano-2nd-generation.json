@@ -6,9 +6,17 @@
     "family": "iPod",
     "model": "iPod nano (2nd generation)",
     "model_slug": "ipod-nano-2nd-generation",
-    "model_year": null,
-    "year_introduced": null,
-    "variant": null
+    "model_year": 2006,
+    "year_introduced": 2006,
+    "variant": null,
+    "model_numbers": [
+      "A1199"
+    ],
+    "storage_options": [
+      "2 GB",
+      "4 GB",
+      "8 GB"
+    ]
   },
   "source": {
     "source_type": "manufacturer",
@@ -26,10 +34,10 @@
   },
   "extraction": {
     "method": "section_preserving",
-    "normalization_status": "archival_first_pass",
-    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "normalization_status": "partially_normalized",
+    "note": "Official Apple iPod identification text retained. Explicit model numbers, introduction dates, capacity options and navigation interface extracted where present with source-section provenance. These are identification-page records, not full historical technical-specification sheets; no absent specs inferred.",
     "extracted_at": "2026-11-09",
-    "reviewed_at": null
+    "reviewed_at": "2026-11-09"
   },
   "sections": [
     {
@@ -38,6 +46,54 @@
     }
   ],
   "record_notes": [
-    "Archival-first-pass record; normalized specifications not inferred."
-  ]
+    "Archival-first-pass record; normalized specifications not inferred.",
+    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text."
+  ],
+  "normalized_specifications": {
+    "navigation_interface": {
+      "value": {
+        "value": "Click Wheel",
+        "unit": null,
+        "source_section": "iPod nano (2nd generation)",
+        "verification_status": "source_transcribed",
+        "notes": "Parsed from the preserved official Apple iPod identification text; wording retained."
+      }
+    },
+    "model_number_dates": {
+      "value": {
+        "value": [
+          {
+            "model_number": "A1199",
+            "introduced": "September 2006"
+          }
+        ],
+        "unit": null,
+        "source_section": "iPod nano (2nd generation)",
+        "verification_status": "source_transcribed",
+        "notes": "Model number/date pairs preserved individually; repeated model numbers are not deduplicated in this evidence field."
+      }
+    },
+    "capacity_statements": {
+      "value": {
+        "value": [
+          "2 GB",
+          "4 GB",
+          "8 GB"
+        ],
+        "unit": null,
+        "source_section": "iPod nano (2nd generation)",
+        "verification_status": "source_transcribed",
+        "notes": "Capacities parsed from the explicit Capacity line; original wording remains in source_text."
+      }
+    },
+    "official_description": {
+      "value": {
+        "value": "You can distinguish the iPod nano (2nd generation) from other models by:\nIts smaller size\nIts colours\nThe dock connector and headphone port are both located on the bottom of the device\nThe iPod nano (PRODUCT) RED Special Edition is an iPod nano (2nd generation) available in red and with a 4 GB or 8 GB drive capacity. With each iPod nano (PRODUCT) RED purchased, $10 from the sale goes directly to the Global Fund to fight AIDS in Africa.",
+        "unit": null,
+        "source_section": "iPod nano (2nd generation)",
+        "verification_status": "source_transcribed",
+        "notes": "Description transcribed from the official Apple identification page."
+      }
+    }
+  }
 }
