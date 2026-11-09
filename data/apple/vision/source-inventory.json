@@ -48,6 +48,7 @@
     }
   ],
   "notes": [
-    "Two-generation Apple Vision Pro extraction run completed 2026-11-09. See apple_vision_extraction/extraction_report.json."
+    "Two-generation Apple Vision Pro extraction run completed 2026-11-09. See apple_vision_extraction/extraction_report.json.",
+    "Extraction verified: both official Apple Vision Pro generations were captured and archived; see apple_vision_extraction/extraction_report.json."
   ]
 }
