@@ -1,0 +1,47 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "software",
+    "family": "Apple Software",
+    "model": "iTunes for Mac",
+    "model_slug": "itunes-for-mac",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/112656",
+    "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-itunes-for-mac-itunes-8-2-for-mac-technical-specifications.html",
+    "source_title": "iTunes 8.2 for Mac - Technical Specifications",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 2 sections archived.",
+    "notes": [
+      "Documentation index: https://support.apple.com/en-ie/docs/software/pl295"
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "iTunes 8.2 for Mac - Technical Specifications",
+      "source_text": "Hardware:\nMac computer with an Intel, PowerPC G5, G4, or G3 processor\nScreen resolution of 1024x768 or greater\nPlaying videos from the iTunes Store requires a Mac computer with an Intel, PowerPC G5 or 1.0GHz PowerPC G4 or faster processor\nPlaying HD-quality videos from the iTunes Store requires a 2.0GHz Intel Core 2 Duo or faster processor\n512MB of RAM; 1GB is required to play HD-quality videos\nPlaying videos also requires at least 16MB of video RAM\nA broadband Internet connection to use the iTunes Store\nAn Apple combo drive or SuperDrive to create audio, MP3, or back-up CDs; some non-Apple CD-RW recorders may also work.\nAn Apple SuperDrive to back up your library to DVDs; some non-Apple DVD-RW drives may also work.\nSoftware:\nMac OS X version 10.4.10 or later\nQuickTime 7.5.5 or later\n200MB of available disk space\niPod and iPhone:\nSyncing purchased videos requires iPod nano (3rd generation), iPod classic, iPod (5th generation) with software version 1.2 or later, iPod touch, or iPhone\nTransferring rented movies requires iPod nano (3rd generation) and iPod classic with software version 1.1 or later or iPod touch and iPhone with iPhone software version 1.1.3 or later\nSyncing ringtones requires iPhone software version 1.1 or later\nPurchasing or syncing applications require an iPhone or iPod touch with the iPhone 2.0 Software Update or later\nPurchasing from the iTunes Music Store for iPhone or iPod touch requires iPhone software version 1.1.1 or later\nSyncing iPod Games requires iPod nano (3rd generation), iPod classic, or iPod (5th generation) with software version 1.2 or later. Some iPod Games may not be compatible with iPod nano (3rd generation) and iPod classic\nNike + iPod:\nNike + iPod requires a Nike + iPod Sport Kit or Sensor, a compatible iPod, and Nike+ ready shoes or compatible gym equipment\nNike + iPod is compatible with iPod nano and iPod touch (2nd generation). iPod nano (1st generation) must have software version 1.2 or later\nTo see your complete workout history on nikeplus.com , an Internet connection and a free nikeplus.com account are required\nApple TV:\nRenting or purchasing using Apple TV requires Apple TV software version 2.0 or later\nHD movies from the iTunes Store are designed exclusively for Apple TV and may not be transferred to iTunes\nAirPort Express with AirTunes:\nPlaying your music with one or more AirPort Express base stations requires AirPort Express software version 6.3 or later\nAirPort Express with AirTunes requires an AirPort or AirPort Extreme card and a compatible stereo system or powered speakers"
+    },
+    {
+      "heading": "Apple Footer",
+      "source_text": "Support\niTunes 8.2 for Mac - Technical Specifications"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass technical specification record; normalized values not inferred."
+  ]
+}

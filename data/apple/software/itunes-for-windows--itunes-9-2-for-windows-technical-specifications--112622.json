@@ -1,0 +1,51 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "software",
+    "family": "Apple Software",
+    "model": "iTunes for Windows",
+    "model_slug": "itunes-for-windows",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/112622",
+    "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-itunes-for-windows-itunes-9-2-for-windows-technical-specifications.html",
+    "source_title": "iTunes 9.2 for Windows - Technical Specifications",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 3 sections archived.",
+    "notes": [
+      "Documentation index: https://support.apple.com/en-ie/docs/software/pl296"
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "What's new in iTunes 9.2",
+      "source_text": "iTunes 9.2 comes with several new features and improvements, including:\nSync with iPhone 4 to enjoy your favorite music, movies, TV shows, books and more on-the-go\nSync and read books with iPhone or iPod touch with iOS 4 and iBooks 1.1\nOrganize and sync PDF documents as books. Read PDFs with iBooks 1.1 on iPad and any iPhone or iPod touch with iOS 4\nOrganize your apps on your iOS 4 home screens into folders using iTunes\nFaster back-ups while syncing an iPhone or iPod touch with iOS 4\nPerformance improvements make scrolling much faster"
+    },
+    {
+      "heading": "Windows Requirements",
+      "source_text": "Windows Hardware\nA PC with a 1GHz Intel or AMD processor\nIntel Pentium D or faster processor is required to play Standard Definition video from the iTunes Store\n2.0GHz Intel Core 2 Duo or faster processor is required to play HD video, an iTunes LP, or iTunes Extras from the iTunes Store\n512MB of RAM; 1GB is required to play HD video, an iTunes LP, or iTunes Extras\nScreen resolution of 1024x768 or greater; 1280x800 or greater is required to play an iTunes LP or iTunes Extras\nDirectX 9.0-compatible video card with 32MB of video RAM; 64MB recommended\nQuickTime-compatible audio card\nBroadband Internet connection to use the iTunes Store\niTunes-compatible CD or DVD recorder to create audio CDs, MP3 CDs, or back-up CDs or DVDs"
+    },
+    {
+      "heading": "Windows Software",
+      "source_text": "Windows XP Service Pack 2 or later, 32-bit editions of Windows Vista, or 32-bit editions of Windows 7\n64-bit editions of Windows Vista or Windows 7 require the iTunes 64-bit installer\nQuickTime 7.6.6 or later is required (included)\n200MB of available disk space\nScreen reader support requires Window-Eyes 7.1.1 or later; for information about accessibility in iTunes, visit www.apple.com/accessibility"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass technical specification record; normalized values not inferred."
+  ]
+}

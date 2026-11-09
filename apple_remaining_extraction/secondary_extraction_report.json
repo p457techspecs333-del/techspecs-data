@@ -1,6 +1,6 @@
 {
-  "started_utc": "2026-11-09T12:23:46.122378+00:00",
-  "finished_utc": "2026-11-09T12:23:46.122395+00:00",
+  "started_utc": "2026-11-09T12:25:05.797296+00:00",
+  "finished_utc": "2026-11-09T12:25:05.797314+00:00",
   "documentation_pages_checked": 77,
   "technical_spec_links_discovered": 60,
   "records_written": 60,
@@ -27,7 +27,7 @@
           "title": "AirPods 5 - Tech Specs",
           "status": "content_verified",
           "section_count": 15,
-          "record_path": "data/apple/airpods/airpods-5.json"
+          "record_path": "data/apple/airpods/airpods-5--airpods-5-tech-specs--148759.json"
         }
       ]
     },
@@ -52,7 +52,7 @@
           "title": "AirPods 5 with Wireless Charging Case - Tech Specs",
           "status": "content_verified",
           "section_count": 15,
-          "record_path": "data/apple/airpods/airpods-5-wireless.json"
+          "record_path": "data/apple/airpods/airpods-5-wireless--airpods-5-with-wireless-charging-case-tech-specs--148760.json"
         }
       ]
     },
@@ -77,7 +77,7 @@
           "title": "AirPods Max 2 - Tech Specs",
           "status": "content_verified",
           "section_count": 14,
-          "record_path": "data/apple/airpods/airpods-max-2.json"
+          "record_path": "data/apple/airpods/airpods-max-2--airpods-max-2-tech-specs--126620.json"
         }
       ]
     },
@@ -102,7 +102,7 @@
           "title": "AirPods Pro 3 - Tech Specs",
           "status": "content_verified",
           "section_count": 15,
-          "record_path": "data/apple/airpods/airpods-pro-3.json"
+          "record_path": "data/apple/airpods/airpods-pro-3--airpods-pro-3-tech-specs--125135.json"
         }
       ]
     },
@@ -127,7 +127,7 @@
           "title": "AirPods 4 - Tech Specs",
           "status": "content_verified",
           "section_count": 13,
-          "record_path": "data/apple/airpods/airpods-4.json"
+          "record_path": "data/apple/airpods/airpods-4--airpods-4-tech-specs--121203.json"
         }
       ]
     },
@@ -152,7 +152,7 @@
           "title": "AirPods 4 with Active Noise Cancellation - Tech Specs",
           "status": "content_verified",
           "section_count": 13,
-          "record_path": "data/apple/airpods/airpods-4-with-active-noise-cancellation.json"
+          "record_path": "data/apple/airpods/airpods-4-with-active-noise-cancellation--airpods-4-with-active-noise-cancellation-tech-specs--121204.json"
         }
       ]
     },
@@ -177,7 +177,7 @@
           "title": "AirPods Max 1 (USB-C) - Tech Specs",
           "status": "content_verified",
           "section_count": 13,
-          "record_path": "data/apple/airpods/airpods-max-1-usb-c.json"
+          "record_path": "data/apple/airpods/airpods-max-1-usb-c--airpods-max-1-usb-c-tech-specs--121205.json"
         }
       ]
     },
@@ -202,7 +202,7 @@
           "title": "AirPods Pro 2 with MagSafe Case (USB‑C) - Tech Specs",
           "status": "content_verified",
           "section_count": 14,
-          "record_path": "data/apple/airpods/airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c.json"
+          "record_path": "data/apple/airpods/airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c--airpods-pro-2-with-magsafe-case-usb-c-tech-specs--111834.json"
         }
       ]
     },
@@ -227,7 +227,7 @@
           "title": "AirPods 3 - Tech Specs",
           "status": "content_verified",
           "section_count": 13,
-          "record_path": "data/apple/airpods/airpods-3rd-generation-with-lightning-charging.json"
+          "record_path": "data/apple/airpods/airpods-3rd-generation-with-lightning-charging--airpods-3-tech-specs--111863.json"
         }
       ]
     },
@@ -252,7 +252,7 @@
           "title": "AirPods Pro 2 - Tech Specs",
           "status": "content_verified",
           "section_count": 14,
-          "record_path": "data/apple/airpods/airpods-pro-2nd-generation-with-magsafe-charging-case-lightning.json"
+          "record_path": "data/apple/airpods/airpods-pro-2nd-generation-with-magsafe-charging-case-lightning--airpods-pro-2-tech-specs--111851.json"
         }
       ]
     },
@@ -277,7 +277,7 @@
           "title": "AirPods 3 - Tech Specs",
           "status": "content_verified",
           "section_count": 13,
-          "record_path": "data/apple/airpods/airpods-3rd-generation.json"
+          "record_path": "data/apple/airpods/airpods-3rd-generation--airpods-3-tech-specs--111863.json"
         }
       ]
     },
@@ -302,7 +302,7 @@
           "title": "AirPods Pro 1 with MagSafe Charging Case - Tech Specs",
           "status": "content_verified",
           "section_count": 13,
-          "record_path": "data/apple/airpods/airpods-pro-with-magsafe-charging-case.json"
+          "record_path": "data/apple/airpods/airpods-pro-with-magsafe-charging-case--airpods-pro-1-with-magsafe-charging-case-tech-specs--111859.json"
         }
       ]
     },
@@ -327,7 +327,7 @@
           "title": "AirPods Max 1 - Tech Specs",
           "status": "content_verified",
           "section_count": 13,
-          "record_path": "data/apple/airpods/airpods-max-1.json"
+          "record_path": "data/apple/airpods/airpods-max-1--airpods-max-1-tech-specs--111858.json"
         }
       ]
     },
@@ -352,7 +352,7 @@
           "title": "AirPods 2 - Tech Specs",
           "status": "content_verified",
           "section_count": 11,
-          "record_path": "data/apple/airpods/airpods-2nd-generation.json"
+          "record_path": "data/apple/airpods/airpods-2nd-generation--airpods-2-tech-specs--111856.json"
         }
       ]
     },
@@ -377,7 +377,7 @@
           "title": "AirPods 2 - Tech Specs",
           "status": "content_verified",
           "section_count": 11,
-          "record_path": "data/apple/airpods/airpods-2nd-generation-with-wireless-charging-case.json"
+          "record_path": "data/apple/airpods/airpods-2nd-generation-with-wireless-charging-case--airpods-2-tech-specs--111856.json"
         }
       ]
     },
@@ -402,7 +402,7 @@
           "title": "AirPods Pro 1 with Wireless Charging Case - Tech Specs",
           "status": "content_verified",
           "section_count": 13,
-          "record_path": "data/apple/airpods/airpods-pro-1st-generation-with-wireless-charging-case.json"
+          "record_path": "data/apple/airpods/airpods-pro-1st-generation-with-wireless-charging-case--airpods-pro-1-with-wireless-charging-case-tech-specs--111861.json"
         }
       ]
     },
@@ -427,7 +427,7 @@
           "title": "AirPods 1 - Tech Specs",
           "status": "content_verified",
           "section_count": 10,
-          "record_path": "data/apple/airpods/airpods-1st-generation.json"
+          "record_path": "data/apple/airpods/airpods-1st-generation--airpods-1-tech-specs--111855.json"
         }
       ]
     },
@@ -452,7 +452,7 @@
           "title": "AirPods (2 and earlier) Wireless Charging Case - Tech Specs",
           "status": "content_verified",
           "section_count": 7,
-          "record_path": "data/apple/airpods/airpods-wireless-charging-case.json"
+          "record_path": "data/apple/airpods/airpods-wireless-charging-case--airpods-2-and-earlier-wireless-charging-case-tech-specs--111860.json"
         }
       ]
     },
@@ -489,7 +489,7 @@
           "title": "AirPods Pro 2 with MagSafe Case (USB‑C) - Tech Specs",
           "status": "content_verified",
           "section_count": 14,
-          "record_path": "data/apple/airpods/magsafe-charging-case-usb-c-airpods-pro-2nd-generation.json"
+          "record_path": "data/apple/airpods/magsafe-charging-case-usb-c-airpods-pro-2nd-generation--airpods-pro-2-with-magsafe-case-usb-c-tech-specs--111834.json"
         }
       ]
     },
@@ -1289,49 +1289,49 @@
           "title": "iTunes 12 for Windows - Technical Specifications",
           "status": "content_verified",
           "section_count": 2,
-          "record_path": "data/apple/software/itunes-for-windows.json"
+          "record_path": "data/apple/software/itunes-for-windows--itunes-12-for-windows-technical-specifications--112029.json"
         },
         {
           "url": "https://support.apple.com/en-ie/112622",
           "title": "iTunes 9.2 for Windows - Technical Specifications",
           "status": "content_verified",
           "section_count": 3,
-          "record_path": "data/apple/software/itunes-for-windows.json"
+          "record_path": "data/apple/software/itunes-for-windows--itunes-9-2-for-windows-technical-specifications--112622.json"
         },
         {
           "url": "https://support.apple.com/en-ie/112655",
           "title": "iTunes 8.1.1 for Windows - Technical Specifications",
           "status": "content_verified",
           "section_count": 2,
-          "record_path": "data/apple/software/itunes-for-windows.json"
+          "record_path": "data/apple/software/itunes-for-windows--itunes-8-1-1-for-windows-technical-specifications--112655.json"
         },
         {
           "url": "https://support.apple.com/en-ie/112659",
           "title": "iTunes 8.0.2 for Windows - Technical Specifications",
           "status": "content_verified",
           "section_count": 2,
-          "record_path": "data/apple/software/itunes-for-windows.json"
+          "record_path": "data/apple/software/itunes-for-windows--itunes-8-0-2-for-windows-technical-specifications--112659.json"
         },
         {
           "url": "https://support.apple.com/en-ie/112657",
           "title": "iTunes 8.2 for Windows - Technical Specifications",
           "status": "content_verified",
           "section_count": 2,
-          "record_path": "data/apple/software/itunes-for-windows.json"
+          "record_path": "data/apple/software/itunes-for-windows--itunes-8-2-for-windows-technical-specifications--112657.json"
         },
         {
           "url": "https://support.apple.com/en-ie/112583",
           "title": "iTunes 11 for Windows - Technical Specifications",
           "status": "content_verified",
           "section_count": 2,
-          "record_path": "data/apple/software/itunes-for-windows.json"
+          "record_path": "data/apple/software/itunes-for-windows--itunes-11-for-windows-technical-specifications--112583.json"
         },
         {
           "url": "https://support.apple.com/en-ie/112573",
           "title": "iTunes 10.7 for Windows - Technical Specifications",
           "status": "content_verified",
           "section_count": 2,
-          "record_path": "data/apple/software/itunes-for-windows.json"
+          "record_path": "data/apple/software/itunes-for-windows--itunes-10-7-for-windows-technical-specifications--112573.json"
         }
       ]
     },
@@ -1392,49 +1392,49 @@
           "title": "iTunes 12 for macOS - Technical Specifications",
           "status": "content_verified",
           "section_count": 2,
-          "record_path": "data/apple/software/itunes-for-mac.json"
+          "record_path": "data/apple/software/itunes-for-mac--itunes-12-for-macos-technical-specifications--112028.json"
         },
         {
           "url": "https://support.apple.com/en-ie/112621",
           "title": "iTunes 9.2 for Mac - Technical Specifications",
           "status": "content_verified",
           "section_count": 3,
-          "record_path": "data/apple/software/itunes-for-mac.json"
+          "record_path": "data/apple/software/itunes-for-mac--itunes-9-2-for-mac-technical-specifications--112621.json"
         },
         {
           "url": "https://support.apple.com/en-ie/112654",
           "title": "iTunes 8.0.2 for Mac - Technical Specifications",
           "status": "content_verified",
           "section_count": 2,
-          "record_path": "data/apple/software/itunes-for-mac.json"
+          "record_path": "data/apple/software/itunes-for-mac--itunes-8-0-2-for-mac-technical-specifications--112654.json"
         },
         {
           "url": "https://support.apple.com/en-ie/112656",
           "title": "iTunes 8.2 for Mac - Technical Specifications",
           "status": "content_verified",
           "section_count": 2,
-          "record_path": "data/apple/software/itunes-for-mac.json"
+          "record_path": "data/apple/software/itunes-for-mac--itunes-8-2-for-mac-technical-specifications--112656.json"
         },
         {
           "url": "https://support.apple.com/en-ie/112658",
           "title": "iTunes 8.1.1 for Mac - Technical Specifications",
           "status": "content_verified",
           "section_count": 2,
-          "record_path": "data/apple/software/itunes-for-mac.json"
+          "record_path": "data/apple/software/itunes-for-mac--itunes-8-1-1-for-mac-technical-specifications--112658.json"
         },
         {
           "url": "https://support.apple.com/en-ie/112584",
           "title": "iTunes 11 for Mac - Technical Specifications",
           "status": "content_verified",
           "section_count": 2,
-          "record_path": "data/apple/software/itunes-for-mac.json"
+          "record_path": "data/apple/software/itunes-for-mac--itunes-11-for-mac-technical-specifications--112584.json"
         },
         {
           "url": "https://support.apple.com/en-ie/112582",
           "title": "iTunes 10.7 for Mac - Technical Specifications",
           "status": "content_verified",
           "section_count": 2,
-          "record_path": "data/apple/software/itunes-for-mac.json"
+          "record_path": "data/apple/software/itunes-for-mac--itunes-10-7-for-mac-technical-specifications--112582.json"
         }
       ]
     },
@@ -1483,7 +1483,7 @@
           "title": "QuickTime Pro 7 - Technical Specifications",
           "status": "content_verified",
           "section_count": 3,
-          "record_path": "data/apple/software/quicktime-for-mac.json"
+          "record_path": "data/apple/software/quicktime-for-mac--quicktime-pro-7-technical-specifications--112444.json"
         }
       ]
     },
@@ -1548,14 +1548,14 @@
           "title": "Logic Pro - Tech Specs",
           "status": "content_verified",
           "section_count": 9,
-          "record_path": "data/apple/software/logic-pro.json"
+          "record_path": "data/apple/software/logic-pro--logic-pro-tech-specs--111899.json"
         },
         {
           "url": "https://support.apple.com/en-ie/112574",
           "title": "Logic Pro 9 - Technical Specifications",
           "status": "content_verified",
           "section_count": 2,
-          "record_path": "data/apple/software/logic-pro.json"
+          "record_path": "data/apple/software/logic-pro--logic-pro-9-technical-specifications--112574.json"
         }
       ]
     },
@@ -1580,7 +1580,7 @@
           "title": "Motion 5 - Tech Specs",
           "status": "content_verified",
           "section_count": 1,
-          "record_path": "data/apple/software/motion.json"
+          "record_path": "data/apple/software/motion--motion-5-tech-specs--111915.json"
         }
       ]
     },
@@ -1605,7 +1605,7 @@
           "title": "Aperture 3 - Technical Specifications",
           "status": "content_verified",
           "section_count": 4,
-          "record_path": "data/apple/software/aperture.json"
+          "record_path": "data/apple/software/aperture--aperture-3-technical-specifications--112030.json"
         }
       ]
     },
@@ -1630,7 +1630,7 @@
           "title": "Compressor 4 - Tech Specs",
           "status": "content_verified",
           "section_count": 1,
-          "record_path": "data/apple/software/compressor.json"
+          "record_path": "data/apple/software/compressor--compressor-4-tech-specs--111916.json"
         }
       ]
     },
@@ -1655,7 +1655,7 @@
           "title": "Final Cut Pro - Tech Specs",
           "status": "content_verified",
           "section_count": 1,
-          "record_path": "data/apple/software/final-cut-pro.json"
+          "record_path": "data/apple/software/final-cut-pro--final-cut-pro-tech-specs--111903.json"
         }
       ]
     },
@@ -1680,7 +1680,7 @@
           "title": "MainStage 2 - Technical Specifications",
           "status": "content_verified",
           "section_count": 2,
-          "record_path": "data/apple/software/mainstage.json"
+          "record_path": "data/apple/software/mainstage--mainstage-2-technical-specifications--112561.json"
         }
       ]
     }

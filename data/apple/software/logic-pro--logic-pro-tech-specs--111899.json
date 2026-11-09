@@ -1,0 +1,75 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "software",
+    "family": "Apple Software",
+    "model": "Logic Pro",
+    "model_slug": "logic-pro",
+    "model_year": 2013,
+    "year_introduced": 2013,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111899",
+    "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-logic-pro-logic-pro-tech-specs.html",
+    "source_title": "Logic Pro - Tech Specs",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 9 sections archived.",
+    "notes": [
+      "Documentation index: https://support.apple.com/en-ie/docs/software/134082"
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Minimum System Requirements",
+      "source_text": "macOS Sonoma 14.4 or later\n6GB of available storage space for minimum installation or 72GB of storage space for full Sound Library installation\nLogic Remote Minimum System Requirements\niPad: iPadOS 18.0 or later\niPhone: iOS 18.0 or later*\niPod touch: iOS 18.0 or later*\n* Smart Controls, Sound Library navigation, Smart Help, full mixer and access to plug-in controls are available only on iPad."
+    },
+    {
+      "heading": "General",
+      "source_text": "2,114 definable key and MIDI commands\n90 recallable screens\n200-step undo history, including plug-in and mixer editing undo\nFull plug-in latency compensation, also for external audio and MIDI gear\n1/3840-note resolution for MIDI events"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Audio file resolution up to 32-bit/192kHz\nAudio I/O resolution up to 24-bit/192kHz\nMaximum project length greater than 6 hours at 96kHz; 13 hours at 44.1kHz\nProfessional dithering algorithms (POW-r, Apogee UV22HR)\n64‑bit summing engine"
+    },
+    {
+      "heading": "Score Editor",
+      "source_text": "Up to 16 independent voices per part\nOver 4,000 predefined chord grids\nTablature supports up to 16-string instruments with any tuning\nArticulation Sets for intuitive key switching between articulations on Logic and third-party instruments.\nScore symbols\nNotes and rests for various lengths\nAuto-adapting multi-bar rests\nKey and time signature symbols\nClef signs\nSlurs and crescendo/decrescendo symbols\nVarious note head types including percussion styles\nAccents, bowing marks, fermatas and other symbols that apply to specific notes\nPhrasing marks\nTrills and other ornaments, tremolo symbols\nSustain pedal markings\nBar lines, repeat signs, and segno and coda markings\nChord symbols\nChord grids and tablature symbols\nPage and line break symbols\nSupport for Bravura font\nMusicXML import and export"
+    },
+    {
+      "heading": "Plug-ins and Sounds",
+      "source_text": "Plug-ins\n108 effect plug-ins including Pedalboard, which includes 35 stompboxes\n28 software instrument plug-ins\n9 MIDI plug-ins\n7 instrument and effect plug-ins with support for up to 7.1 surround\n14 effect plug-ins with support for up to 7.1.4 surround\nCustom instrument-tuning system including 97 fixed tuning presets, equal-tempered, custom and Hermode tuning\nSound Library\n5,953 total patches for audio, auxiliary, software instrument and output tracks\n13,552 Apple Loops covering a wide range of genres\n1,250 Sampler instruments\n110 Quick Sampler instruments\n3,556 Alchemy presets\n150 Drum Machine Designer kits with more than 3,066 individual kit piece patches\n4,529 plug-in settings for 104 plug-ins\n1,060 reverb spaces and warped effects for Space Designer\n54 groove patterns for Arpeggiator MIDI plug-in\n26 Live Loops grids\n4 Tutorial projects\n161 patterns and templates for Step Sequencer"
+    },
+    {
+      "heading": "Mixer",
+      "source_text": "Up to 1,000 stereo audio channel strips\nUp to 1,000 software instrument channel strips\nUp to 1,000 auxiliary channel strips\nUp to 256 busses\nUp to 1,000 external MIDI tracks\n15 inserts for internal or Audio Units effect plug-ins\n8 inserts for internal or Audio Units MIDI plug-ins\n12 sends per channel strip, pre- or post-fader, or post-pan\n32 groups for audio, software instrument or MIDI channel strips"
+    },
+    {
+      "heading": "Control Surface Support",
+      "source_text": "Additional plug-ins available from third-party manufacturers\nFrontier Design Group: AlphaTrack\nJazzmutant: Dexter\nKORG: nanoKONTROL\nM-Audio: Axiom, Axiom Pro, Axiom AIR, Oxygen\nNovation Launch Pad: all models\nPreSonus: FaderPort\nRoland: V-STUDIO 20\nSmart AV: Smart Console\nExtensive support via control surface plug-ins\nApogee Electronics GiO\nApple Logic Remote for iPhone and iPad\nCM Labs: Motor Mix\nCustom Recording Light\nEmagic: Logic Control, XT\nEuCon protocol support for Euphonix / AVID Artist series control surface systems\nFrontier Design Group: TranzPort\nhexler: TouchOSC\nJL Cooper: CS-32, FaderMaster 4/100, MCS3\nKORG: KONTROL49, microKONTROL\nMackie: Baby HUI, HUI, Mackie Control, C4, Extender, MCU Pro, MCU XT Pro\nM-Audio: iControl\nNovation: all AutoMap-compatible devices\nRadikal Technologies: SAC-2k, SAC-2.2\nRoland: SI-24\nTASCAM: US-2400\nYamaha: 01V96, 01X, 02R96, DM1000, DM2000\nComprehensive support for any control hardware via MIDI Learn\nSSL UF1, UC1, UF8"
+    },
+    {
+      "heading": "Surround and Spatial Audio",
+      "source_text": "Support for a variety of surround channel configurations\nSurround Formats\nQuadraphonic\nLCRS\n5.1 (ITU)\n6.1 (ES/EX)\n7.1 (3/4.1)\n7.1 (SDDS)\n5.1.2\n5.1.4\n7.1.2\n7.1.4\nSpatial Audio Formats\nBed Formats\n5.1 (ITU 775)\n7.1\n7.1.2\nMonitoring Formats\nBinaural (for stereo headphones)\nDolby Renderer\nApple Renderer (Standard Spatial Audio Profile\n1\n)\nApple Renderer (Personalised Spatial Audio Profile\n1\n2\n)\nApple Renderer (Head Tracking, Standard Spatial Audio Profile\n1\n)\nApple Renderer (Head Tracking, Personalised Spatial Audio Profile\n1\n2\n)\n2.0\n5.1\n7.1\n5.1.4\n7.1.4\nMac Built‑in Speakers\n3\nRenderer for Studio Display Speakers\n4"
+    },
+    {
+      "heading": "Compatibility",
+      "source_text": "Open projects from Logic 5 or later\nOpen projects from Logic Pro for iPad\nOpen GarageBand songs directly in Logic Pro\nSupport for Core Audio–compliant MIDI and audio hardware\nSupport for Audio Units effect, instrument, and MIDI plug-ins\nImport/Export AAF and XML (Final Cut Pro) projects\nExport Dolby Atmos mixes as ADM BWF64 files compatible with Apple Music\nCreate a project from an ADM BWF64 file complete with surround bed track and all object tracks and metadata\nImport/Export MIDI regions as MIDI files, export MIDI and audio regions as Apple Loops\nImport/Export music notation to MusicXML\nPlay AIFF, WAV (BWF), CAF, SDII, Apple Lossless, eligible MP3 and AAC (non-eligible files will be converted to PCM)\nRecord AIFF, CAF and WAV (BWF)\nBounce to AIFF, WAV (BWF), CAF, MP3 and M4A (Apple Lossless, AAC)\nBurn any bounced audio directly to CD or DVD-A (PCM audio only)\nSupport for Ableton Link synchronisation"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass technical specification record; normalized values not inferred."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "software",
+    "family": "Apple Software",
+    "model": "iTunes for Windows",
+    "model_slug": "itunes-for-windows",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/112659",
+    "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-itunes-for-windows-itunes-8-0-2-for-windows-technical-specifications.html",
+    "source_title": "iTunes 8.0.2 for Windows - Technical Specifications",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 2 sections archived.",
+    "notes": [
+      "Documentation index: https://support.apple.com/en-ie/docs/software/pl296"
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "iTunes 8.0.2 for Windows - Technical Specifications",
+      "source_text": "Hardware:\nA PC with a 1GHz Intel or AMD processor\nPlaying videos from the iTunes Store requires an Intel Pentium D or faster processor\nPlaying HD-quality videos from the iTunes Store requires a 2.0GHz Intel Core 2 Duo or faster processor\n512MB of RAM; 1GB is required to play HD-quality videos\nA DirectX 9.0-compatible video card with 32MB of video RAM; 64MB recommended\nA QuickTime-compatible audio card\nA broadband Internet connection to use the iTunes Store\nAn iTunes-compatible CD or DVD recorder to create audio CDs, MP3 CDs, or back-up CDs or DVDs\nSoftware:\nWindows XP Service Pack 2 or later, or 32-bit editions of Windows Vista\n64-bit editions of Windows Vista require the iTunes 8 64-bit installer; for more information, visit support.apple.com/downloads/#itunes .\nQuickTime 7.5.5 or later is required (included)\n200MB of available disk space\nScreen reader support requires Window-Eyes 7.0 or later; for information about accessibility in iTunes, visit www.apple.com/uk/accessibility .\niPod and iPhone:\nSyncing purchased videos requires a iPod nano (3rd generation), iPod classic, iPod (5th generation) with software version 1.2 or later, iPod touch, or iPhone.\nTransferring rented movies requires iPod nano (3rd generation) and iPod classic with software version 1.1 or later or iPod touch and iPhone with software version 1.1.3 or later.\nSyncing ringtones requires iPhone software version 1.1 or later.\nPurchasing or syncing applications require an iPhone or iPod touch with the iPhone 2.0 Software Update or later.\nPurchasing from the iTunes Wi-Fi Music Store requires iPhone or iPod touch with software version 1.1.1 or later.\nSyncing iPod Games requires a iPod nano (3rd generation), iPod classic, or iPod (5th generation) with software version 1.2 or later. Some iPod Games may not be compatible with iPod nano (3rd generation) and iPod classic.\nNike + iPod:\nNike + iPod requires a Nike + iPod Sport Kit or Sensor, a compatible iPod, and Nike+ ready shoes.\nNike + iPod is compatible with iPod nano and iPod touch (2nd generation). iPod nano (1st generation) must have software version 1.2 or later.\nTo see your workout data on nikeplus.com , an Internet connection and a free Nike.com account are required.\nApple TV:\nRenting or purchasing using Apple TV requires Apple TV software version 2.0 or later.\nHD movies from the iTunes Store are designed exclusively for Apple TV and may not be transferred to iTunes.\nAirPort Express with AirTunes:\nPlaying your music with one or more AirPort Express base stations requires AirPort Express software version 6.3 or later.\nAirPort Express with AirTunes requires an AirPort or AirPort Extreme card and a compatible stereo system or powered speakers."
+    },
+    {
+      "heading": "Apple Footer",
+      "source_text": "Support\niTunes 8.0.2 for Windows - Technical Specifications"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass technical specification record; normalized values not inferred."
+  ]
+}

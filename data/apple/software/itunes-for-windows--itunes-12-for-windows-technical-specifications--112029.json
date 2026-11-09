@@ -1,0 +1,47 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "software",
+    "family": "Apple Software",
+    "model": "iTunes for Windows",
+    "model_slug": "itunes-for-windows",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/112029",
+    "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-itunes-for-windows-itunes-12-for-windows-technical-specifications.html",
+    "source_title": "iTunes 12 for Windows - Technical Specifications",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 2 sections archived.",
+    "notes": [
+      "Documentation index: https://support.apple.com/en-ie/docs/software/pl296"
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "iTunes 12 for Windows - Technical Specifications",
+      "source_text": "Hardware:\nPC with a 1GHz Intel or AMD processor with support for SSE2 and 512MB of RAM\nTo play Standard Definition video from the iTunes Store, an Intel Pentium D or faster processor, 512MB of RAM, and a DirectX 9.0-compatible video card is required.\nTo play 720p HD video, an iTunes LP, or iTunes Extras, a 2.0GHz Intel Core 2 Duo or faster processor, 1GB of RAM, and an Intel GMA X3000, ATI Radeon X1300, or NVIDIA GeForce 6150 or better is required.\nTo play 1080p HD video, a 2.4GHz Intel Core 2 Duo or faster processor, 2GB of RAM, and an Intel GMA X4500HD; ATI Radeon HD 2400; NVIDIA GeForce 8300 GS or better is required.\nScreen resolution of 1024x768 or greater; 1280x800 or greater is required to play an iTunes LP or iTunes Extras\n16-bit sound card and speakers\nInternet connection to use Apple Music, the iTunes Store, and iTunes Extras\niTunes-compatible CD or DVD recorder to create audio CDs, MP3 CDs, or backup CDs or DVDs. Songs from the Apple Music catalog cannot be burned to a CD.\nSoftware:\nWindows 7 or later\n64-bit editions of Windows require the iTunes 64-bit installer\n400MB of available disk space\nSome third-party visualizers may no longer be compatible with this version of iTunes. Please contact the developer for an updated visualizer that is compatible with iTunes 12.1 or later\nApple Music, iTunes Store, and iTunes Match availability may vary by country\nApple Music trial requires sign-up and is available for new subscribers only. Plan automatically renews after trialor later"
+    },
+    {
+      "heading": "Apple Footer",
+      "source_text": "Support\niTunes 12 for Windows - Technical Specifications"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass technical specification record; normalized values not inferred."
+  ]
+}

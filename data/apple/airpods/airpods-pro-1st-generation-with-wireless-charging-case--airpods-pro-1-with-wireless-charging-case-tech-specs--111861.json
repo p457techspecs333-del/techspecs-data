@@ -1,0 +1,91 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "software",
+    "family": "Apple Software",
+    "model": "AirPods Pro (1st generation) with Wireless Charging Case",
+    "model_slug": "airpods-pro-1st-generation-with-wireless-charging-case",
+    "model_year": 2019,
+    "year_introduced": 2019,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111861",
+    "source_file": "apple_remaining_extraction/technical_specs_html/airpods-specs-airpods-pro-1st-generation-with-wireless-charging-case-airpods-pro-1-with-wireless-charging-case-tech-specs.html",
+    "source_title": "AirPods Pro 1 with Wireless Charging Case - Tech Specs",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 13 sections archived.",
+    "notes": [
+      "Documentation index: https://support.apple.com/en-ie/docs/airpods/300145"
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Audio Technology",
+      "source_text": "Active Noise Cancellation\nTransparency mode\nAdaptive EQ\nVent system for pressure equalization\nCustom high-excursion Apple driver\nCustom high dynamic range amplifier\nSpatial audio with dynamic head tracking\n1"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Dual beamforming microphones\nInward-facing microphone\nDual optical sensors\nMotion-detecting accelerometer\nSpeech-detecting accelerometer\nForce sensor"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "H1 headphone chip"
+    },
+    {
+      "heading": "Controls",
+      "source_text": "Press once to play, pause, or answer a phone call\nPress twice to skip forward\nPress three times to skip back\nPress and hold to switch between Active Noise Cancellation and Transparency mode\nSay “Hey Siri” to do things like play a song, make a call, or get directions"
+    },
+    {
+      "heading": "Sweat and Water Resistant 2",
+      "source_text": "Sweat and water resistant (IPX4)"
+    },
+    {
+      "heading": "Size and Weight 3",
+      "source_text": "AirPods Pro (each)\nHeight: 1.22 inches (30.9 mm)\nWidth: 0.86 inch (21.8 mm)\nDepth: 0.94 inch (24.0 mm)\nWeight: 0.19 ounce (5.4 grams)\nWireless Charging Case\nHeight: 1.78 inches (45.2 mm)\nWidth: 2.39 inches (60.6 mm)\nDepth: 0.85 inch (21.7 mm)\nWeight: 1.61 ounces (45.6 grams)"
+    },
+    {
+      "heading": "Charging Case",
+      "source_text": "Works with Qi-certified chargers or the Lightning connector"
+    },
+    {
+      "heading": "Battery",
+      "source_text": "AirPods Pro\nUp to 4.5 hours of listening time with a single charge (up to 5 hours with Active Noise Cancellation and Transparency off)\n4\nAirPods Pro with Wireless Charging Case\nMore than 24 hours of listening time\n5\n5 minutes in the case provides around 1 hour of listening time\n6"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "Bluetooth 5.0"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "AirPods Pro 1\nWireless Charging Case\nSilicone ear tips (three sizes)\nLightning to USB-C Cable\nDocumentation"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new AirPods Pro. Features include:\nLive Listen audio\n7\nHeadphones levels\nHeadphones Accommodations\nConversation Boost"
+    },
+    {
+      "heading": "System Requirements 8",
+      "source_text": "iPhone and iPod touch models with the latest version of iOS\niPad models with the latest version of iPadOS\nApple Watch models with the latest version of watchOS\nMac models with the latest version of macOS\nApple TV models with the latest version of tvOS"
+    },
+    {
+      "heading": "AirPods Pro and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more about AirPods Pro and the Environment\nAirPods Pro are designed with the following features to reduce environmental impact:\nBrominated flame retardant–free\nPVC-free\nBeryllium-free\nMercury-free"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass technical specification record; normalized values not inferred."
+  ]
+}

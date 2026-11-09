@@ -1,0 +1,91 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "software",
+    "family": "Apple Software",
+    "model": "AirPods 4",
+    "model_slug": "airpods-4",
+    "model_year": 2024,
+    "year_introduced": 2024,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/121203",
+    "source_file": "apple_remaining_extraction/technical_specs_html/airpods-specs-airpods-4-airpods-4-tech-specs.html",
+    "source_title": "AirPods 4 - Tech Specs",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 13 sections archived.",
+    "notes": [
+      "Documentation index: https://support.apple.com/en-ie/docs/airpods/301050"
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Audio Technology 1",
+      "source_text": "Custom high‑excursion Apple driver\nCustom high dynamic range amplifier\nVoice Isolation\n2\nPersonalised Spatial Audio with dynamic head tracking\n3\nAdaptive EQ\nVent system for pressure equalisation"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Dual beamforming microphones\nInward‑facing microphone\nOptical in‑ear sensor\nMotion‑detecting accelerometer\nSpeech‑detecting accelerometer\nForce sensor"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "H2 headphone chip"
+    },
+    {
+      "heading": "Controls",
+      "source_text": "Press once to play or pause media\nPress once to answer a call or mute or unmute\nPress twice to end a call\nPress twice to skip forward\nPress three times to skip back\nPress and hold for Siri\nSay “Hey Siri” or just “Siri”\n4\nto do things like play a song, make a call or get directions\nWith Siri Interactions, nod your head yes or gently shake your head no when Siri asks if you want to answer an incoming call, hear a text message, manage notifications, and more\n2"
+    },
+    {
+      "heading": "Dust, Sweat and Water Resistant 5",
+      "source_text": "Dust, sweat and water resistant (IP54)"
+    },
+    {
+      "heading": "Size and Weight 6",
+      "source_text": "AirPods 4 (Each)\nHeight:\n30.2 mm (1.19 inches)\nWidth:\n18.3 mm (0.72 inches)\nDepth:\n18.1 mm (0.71 inches)\nWeight:\n4.3 grams (0.15 ounces)\nCharging Case (USB‑C)\nHeight:\n46.2 mm (1.82 inches)\nWidth:\n50.1 mm (1.97 inches)\nDepth:\n21.2 mm (0.83 inches)\nWeight:\n32.3 grams (1.14 ounces)"
+    },
+    {
+      "heading": "Charging Case",
+      "source_text": "Works with USB‑C connector"
+    },
+    {
+      "heading": "Battery",
+      "source_text": "AirPods 4\nUp to 5 hours of listening time on a single charge\n7\nAirPods 4 with Charging Case (USB‑C)\nUp to 30 hours of listening time\n8\n5 minutes in the case provides around 1 hour of listening time\n9"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "Bluetooth 5.3 wireless technology"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "AirPods 4\nCharging Case (USB‑C)\nDocumentation\nUSB-C Charge Cable sold separately"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new AirPods.\nFeatures include:\nLive Listen audio\n10\nHeadphone levels\nHeadphone Accommodations"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "iPhone models with the latest version of iOS\niPad models with the latest version of iPadOS\nApple Watch models with the latest version of watchOS\nMac models with the latest version of macOS\nApple TV models with the latest version of tvOS\nApple Vision Pro with the latest version of visionOS\nAirPods can be used as wireless Bluetooth headphones with Apple devices using earlier software and with non‑Apple devices, but functionality may be limited."
+    },
+    {
+      "heading": "AirPods and the Environment",
+      "source_text": "AirPods are designed to reduce environmental impact:\n11\nMaterials\n100% recycled tin in the solder of multiple printed circuit boards\n100% recycled gold in the plating of multiple printed circuit boards\n100% recycled copper plating salts on multiple printed circuit boards\n100% recycled rare earth elements in all magnets\n50% recycled plastic in three parts\n100% fibre-based packaging\n12\nEnergy\nMeets US Department of Energy requirements for battery charger systems\n13\nWaste\nNo established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme\nSmarter chemistry\n14\nMercury-, BFR- and PVC-free"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass technical specification record; normalized values not inferred."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "software",
+    "family": "Apple Software",
+    "model": "iTunes for Mac",
+    "model_slug": "itunes-for-mac",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/112028",
+    "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-itunes-for-mac-itunes-12-for-macos-technical-specifications.html",
+    "source_title": "iTunes 12 for macOS - Technical Specifications",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 2 sections archived.",
+    "notes": [
+      "Documentation index: https://support.apple.com/en-ie/docs/software/pl295"
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "iTunes 12 for macOS - Technical Specifications",
+      "source_text": "Hardware:\nMac computer with an Intel processor\nTo play 720p HD video, an iTunes LP, or iTunes Extras, a 2.0GHz Intel Core 2 Duo or faster processor is required\nTo play 1080p HD video, a 2.4GHz Intel Core 2 Duo or faster processor and 2GB of RAM is required\nScreen resolution of 1024x768 or greater; 1280x800 or greater is required to play an iTunes LP or iTunes Extras\nInternet connection to use Apple Music, the iTunes Store, and iTunes Extras\nApple combo drive or SuperDrive to create audio, MP3, or backup CDs; some non-Apple CD-RW recorders may also work. Songs from the Apple Music catalog cannot be burned to a CD.\nSoftware:\nOS X version 10.10.5 or later\n400MB of available disk space\nApple Music, iTunes Store, and iTunes Match availability may vary by country\nApple Music trial requires sign-up and is available for new subscribers only. Plan automatically renews after trial."
+    },
+    {
+      "heading": "Apple Footer",
+      "source_text": "Support\niTunes 12 for macOS - Technical Specifications"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass technical specification record; normalized values not inferred."
+  ]
+}

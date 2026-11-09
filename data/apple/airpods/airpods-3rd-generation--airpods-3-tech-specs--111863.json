@@ -1,0 +1,91 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "software",
+    "family": "Apple Software",
+    "model": "AirPods (3rd generation)",
+    "model_slug": "airpods-3rd-generation",
+    "model_year": 2021,
+    "year_introduced": 2021,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111863",
+    "source_file": "apple_remaining_extraction/technical_specs_html/airpods-specs-airpods-3rd-generation-airpods-3-tech-specs.html",
+    "source_title": "AirPods 3 - Tech Specs",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 13 sections archived.",
+    "notes": [
+      "Documentation index: https://support.apple.com/en-ie/docs/airpods/300453"
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Audio Technology",
+      "source_text": "Custom high-excursion Apple driver\nCustom high dynamic range amplifier\nPersonalised Spatial Audio with dynamic head tracking\n1\nAdaptive EQ"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Dual beamforming microphones\nInward-facing microphone\nSkin-detecting sensor\nMotion-detecting accelerometer\nSpeech-detecting accelerometer\nForce sensor"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "H1 headphone chip"
+    },
+    {
+      "heading": "Controls",
+      "source_text": "Press once to play or pause media\nPress once to answer a call or mute or unmute\nPress twice to end a call\nPress three times to skip back\nPress and hold for Siri\nSay “Hey Siri” to do things like play a song, make a call or get directions"
+    },
+    {
+      "heading": "Sweat and Water Resistant 2",
+      "source_text": "Sweat and water resistant (IPX4): AirPods and charging case"
+    },
+    {
+      "heading": "Size and Weight 3",
+      "source_text": "AirPods (each)\nHeight:\n30.79 mm (1.21 inches)\nWidth:\n18.26 mm (0.72 inches)\nDepth:\n19.21 mm (0.76 inches)\nWeight:\n4.28 grams (0.15 ounces)\nLightning Charging Case or MagSafe Charging Case\nHeight:\n46.40 mm (1.83 inches)\nWidth:\n54.40 mm (2.14 inches)\nDepth:\n21.38 mm (0.84 inches)\nWeight:\n37.91 grams (1.34 ounces)"
+    },
+    {
+      "heading": "Charging Case",
+      "source_text": "Lightning Charging Case\nThe Lightning Charging Case works with the Lightning connector\nMagSafe Charging Case\nThe MagSafe Charging Case works wirelessly with MagSafe charger and Qi‑certified chargers or with the Lightning connector"
+    },
+    {
+      "heading": "Battery 4",
+      "source_text": "AirPods\nUp to 6 hours of listening time with a single charge (up to 5 hours with Personalised Spatial Audio enabled)\nAirPods with Lightning Charging Case or MagSafe Charging Case\nUp to 30 hours of listening time\n5 minutes in the case provides around 1 hour of listening time"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "Bluetooth 5.0 wireless technology"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "AirPods 3\nLightning Charging Case or MagSafe Charging Case\nLightning to USB‑C Cable\nDocumentation"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new AirPods.\nFeatures include:\nLive Listen audio\n5\nHeadphone levels\nHeadphone Accommodations"
+    },
+    {
+      "heading": "System Requirements 6",
+      "source_text": "iPhone and iPod touch models with the latest version of iOS\niPad models with the latest version of iPadOS\nApple Watch models with the latest version of watchOS\nMac models with the latest version of macOS\nApple TV models with the latest version of tvOS"
+    },
+    {
+      "heading": "AirPods and the Environment",
+      "source_text": "AirPods 3 are designed with the following features to reduce their environmental impact:\n7\nMade with better materials\n100% recycled rare earth elements in all magnets\n100% recycled aluminium in the hinge of the Lightning Charging Case and MagSafe Charging Case\n100% recycled tin in the solder of the main logic board of the Lightning Charging Case and MagSafe Charging Case\nSmarter chemistry\n8\nMercury-, BFR-, PVC- and beryllium-free\nGreen manufacturing\nApple’s Zero Waste Programme helps suppliers eliminate waste sent to landfill\nAll final assembly supplier sites are transitioning to 100% renewable energy for Apple production\nResponsible packaging\n100% of virgin wood fibre comes from responsibly managed forests\n90% or more fibre-based packaging\nApple and the Environment\nWe’re committed to making our products without taking from the earth, and to become carbon neutral across our entire business, including products, by 2030.\nSee Apple’s commitment"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass technical specification record; normalized values not inferred."
+  ]
+}
