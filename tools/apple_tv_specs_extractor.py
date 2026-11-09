@@ -45,7 +45,8 @@ def get_page(url):
     return response
 
 def slugify(text):
-    s = text.lower().replace("apple", "").replace("tv", "tv")
+    s = text.lower().replace("apple", "").strip()
+    s = re.sub(r"^tv\\s*", "", s)
     s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
     return "apple-tv-" + s
 
@@ -189,6 +190,10 @@ def main():
     (ROOT / "discovered_urls.json").write_text(json.dumps({"discovery_source":index_final_url,
         "scope":[{"model":x["model"],"requested_url":x["url"],"verification_status":next((y.get("verification_status") for y in REPORT["sources"] if y["requested_url"]==x["url"]),"not_checked")} for x in targets]},
         ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
+    # Remove legacy filenames created by the initial slug normalization, but only after replacement records exist.
+    for stale in DATA_DIR.glob("apple-tv-tv-*.json"):
+        replacement = DATA_DIR / stale.name.replace("apple-tv-tv-", "apple-tv-", 1)
+        if replacement.exists(): stale.unlink()
     inventory = {"catalogue_stage":"official_apple_tv_specification_extraction","brand":"Apple","category":"streaming-media-player",
         "family":"Apple TV","market":"Ireland-facing catalogue; official Apple and Apple Support sources",
         "source_policy":"Use official Apple pages only. Preserve source text and archive HTML. Do not infer missing specifications.",
