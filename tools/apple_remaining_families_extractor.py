@@ -75,6 +75,16 @@ def sections(soup):
  return result
 def family_targets(f,soup,final_url):
  targets=[]; seen=set()
+ if f["key"]=="airpods":
+  explicit=[
+   {"model":"AirPods 5","url":"https://www.apple.com/ie/airpods-5/specs/"},
+   {"model":"AirPods Pro 3","url":"https://support.apple.com/en-ie/125135"},
+   {"model":"AirPods 4","url":"https://support.apple.com/en-ie/121203"},
+   {"model":"AirPods 4 with Active Noise Cancellation","url":"https://support.apple.com/en-ie/121204"},
+   {"model":"AirPods Max 2","url":"https://www.apple.com/ie/airpods-max/specs/"},
+  ]
+  for t in explicit: t["slug"]=slug(t["model"])
+  return explicit
  # Model identification pages link to product-specific specs. Accept clearly labelled spec links.
  for a in soup.find_all("a",href=True):
   label=clean(a.get_text(" ",strip=True)); url=urljoin(final_url,a["href"])
