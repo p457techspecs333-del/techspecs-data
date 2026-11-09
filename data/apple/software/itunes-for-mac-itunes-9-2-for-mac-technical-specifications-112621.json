@@ -26,10 +26,10 @@
   },
   "extraction": {
     "method": "section_preserving",
-    "normalization_status": "archival_first_pass",
-    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "normalization_status": "partially_normalized",
+    "note": "Official Apple software specification text retained. Explicit version labels and hardware/software/system requirements separated into machine-readable fields where present with source-section provenance. Historical compatibility requirements remain source_transcribed; no missing versions or release dates inferred.",
     "extracted_at": "2026-11-09",
-    "reviewed_at": null
+    "reviewed_at": "2026-11-09"
   },
   "sections": [
     {
@@ -46,6 +46,87 @@
     }
   ],
   "record_notes": [
-    "Archival-first-pass technical specification record; normalized values not inferred."
-  ]
+    "Archival-first-pass technical specification record; normalized values not inferred.",
+    "Field extraction pass 2026-11-09: version labels and explicit software/hardware requirements parsed from preserved official Apple source sections."
+  ],
+  "normalized_specifications": {
+    "macintosh_hardware_statements": {
+      "value": {
+        "value": [
+          "Mac computer with an Intel, PowerPC G5 or G4 processor",
+          "Intel, PowerPC G5 or 1.0GHz PowerPC G4 or faster processor is required to play Standard Definition video from the iTunes Store",
+          "2.0GHz Intel Core 2 Duo or faster processor is required to play HD video, an iTunes LP, or iTunes Extras from the iTunes Store",
+          "512MB of RAM; 1GB is required to play HD video, an iTunes LP, or iTunes Extras",
+          "Screen resolution of 1024x768 or greater; 1280x800 or greater is required to play an iTunes LP or iTunes Extras",
+          "Playing videos also requires at least 16MB of video RAM",
+          "Broadband Internet connection to use the iTunes Store",
+          "Apple combo drive or SuperDrive to create audio, MP3, or back-up CDs; some non-Apple CD-RW recorders may also work.",
+          "Apple SuperDrive to back up your library to DVDs; some non-Apple DVD-RW drives may also work."
+        ],
+        "unit": null,
+        "source_section": "Macintosh Hardware",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple software specification text; original requirement wording retained."
+      }
+    },
+    "macintosh_software_statements": {
+      "value": {
+        "value": [
+          "Mac OS X version 10.4.11 or later; Mac OS X version 10.5 or later is required to play an iTunes LP or iTunes Extras",
+          "QuickTime 7.6 or later",
+          "Support for HE-AAC requires QuickTime 7.6.4 and Mac OS X version 10.5 or later",
+          "Safari 4.0.3 or later",
+          "200MB of available disk space"
+        ],
+        "unit": null,
+        "source_section": "Macintosh Software",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple software specification text; original requirement wording retained."
+      }
+    },
+    "software_version": {
+      "value": {
+        "value": "9.2",
+        "unit": "version",
+        "source_section": "What's new in iTunes 9.2",
+        "verification_status": "source_transcribed",
+        "notes": "Version parsed from official Apple source title/model label."
+      }
+    },
+    "operating_system_requirements": {
+      "value": {
+        "value": [
+          "iOS 4",
+          "Mac OS X version 10.4.11 or later",
+          "Mac OS X version 10.5 or later"
+        ],
+        "unit": null,
+        "source_section": "System requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Operating-system requirements parsed from official source text; exact wording retained where possible."
+      }
+    },
+    "memory_requirements": {
+      "value": {
+        "value": [
+          "512MB of RAM"
+        ],
+        "unit": null,
+        "source_section": "System requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple software specification text; original requirement wording retained."
+      }
+    },
+    "storage_requirements": {
+      "value": {
+        "value": [
+          "200MB of available disk space"
+        ],
+        "unit": null,
+        "source_section": "System requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple software specification text; original requirement wording retained."
+      }
+    }
+  }
 }
