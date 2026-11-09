@@ -2,32 +2,32 @@
   "schema_version": "2.0",
   "product": {
     "brand": "Apple",
-    "category": "audio",
-    "family": "AirPods",
+    "category": "software",
+    "family": "Apple Software",
     "model": "AirPods Pro 3",
     "model_slug": "airpods-pro-3",
-    "model_year": null,
-    "year_introduced": null,
+    "model_year": 2025,
+    "year_introduced": 2025,
     "variant": null
   },
   "source": {
     "source_type": "manufacturer",
     "source_url": "https://support.apple.com/en-ie/125135",
-    "source_file": "apple_remaining_extraction/technical_specs_html/airpods-airpods-pro-3.html",
+    "source_file": "apple_remaining_extraction/technical_specs_html/airpods-specs-airpods-pro-3-airpods-pro-3-tech-specs.html",
     "source_title": "AirPods Pro 3 - Tech Specs",
     "publisher": "Apple",
     "published_at": null,
     "checked_at": "2026-11-09",
     "verification_status": "content_verified",
-    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 15 sections archived.",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 15 sections archived.",
     "notes": [
-      "Extracted from official Apple technical specification link discovered on model index."
+      "Documentation index: https://support.apple.com/en-ie/docs/airpods/301265"
     ]
   },
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "archival_first_pass",
-    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
     "extracted_at": "2026-11-09",
     "reviewed_at": null
   },
@@ -94,6 +94,6 @@
     }
   ],
   "record_notes": [
-    "Archival-first-pass record; normalized specifications not inferred."
+    "Archival-first-pass technical specification record; normalized values not inferred."
   ]
 }

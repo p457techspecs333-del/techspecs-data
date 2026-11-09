@@ -1,0 +1,91 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "software",
+    "family": "Apple Software",
+    "model": "AirPods Max 1",
+    "model_slug": "airpods-max-1",
+    "model_year": 2020,
+    "year_introduced": 2020,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111858",
+    "source_file": "apple_remaining_extraction/technical_specs_html/airpods-specs-airpods-max-1-airpods-max-1-tech-specs.html",
+    "source_title": "AirPods Max 1 - Tech Specs",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 13 sections archived.",
+    "notes": [
+      "Documentation index: https://support.apple.com/en-ie/docs/airpods/300273"
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Color",
+      "source_text": "Silver\nSpace Grey\nSky Blue\nPink\nGreen"
+    },
+    {
+      "heading": "Audio Technology",
+      "source_text": "Apple-designed dynamic driver\nActive Noise Cancellation\nTransparency mode\nPersonalised Spatial Audio with dynamic head tracking\n1\nAdaptive EQ"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Optical sensor (each ear cup)\nPosition sensor (each ear cup)\nCase-detect sensor (each ear cup)\nAccelerometer (each ear cup)\nGyroscope (left ear cup)"
+    },
+    {
+      "heading": "Microphones",
+      "source_text": "Nine microphones in total:\nEight microphones for Active Noise Cancellation\nThree microphones for voice pickup (two shared with Active Noise Cancellation and one additional microphone)"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "Apple H1 headphone chip (each ear cup)"
+    },
+    {
+      "heading": "Controls",
+      "source_text": "Digital Crown\nTurn for volume control\nPress once to play or pause media\nPress once to answer a call or mute or unmute\nPress twice to end a call\nPress twice to skip forward\nPress three times to skip back\nPress and hold for Siri\nListening mode button\nPress to switch between Active Noise Cancellation and Transparency mode\nHey Siri\nSay “Hey Siri” to do things like play a song, make a call or get directions"
+    },
+    {
+      "heading": "Size and Weight 2",
+      "source_text": "AirPods Max 1, including cushions\nHeight:\n187.3 mm (7.37 inches)\nWidth:\n168.6 mm (6.64 inches)\nDepth:\n83.4 mm (3.28 inches)\nWeight:\n384.8 grams (13.6 ounces)\nSmart Case\nWeight:\n134.5 grams (4.74 ounces)"
+    },
+    {
+      "heading": "Battery",
+      "source_text": "AirPods Max 1\nUp to 20 hours of listening time on a single charge with Active Noise Cancellation or Transparency mode enabled\n3\nUp to 20 hours of movie playback on a single charge with Spatial Audio on\n4\n5 minutes of charge time provides around 1.5 hours of listening time\n5\nAirPods Max 1 with Smart Case\nStorage in the Smart Case preserves battery charge in ultra-low-power state\nCharging via Lightning connector"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "Bluetooth 5.0 wireless technology"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "AirPods Max 1\nSmart Case\nLightning to USB‑C Cable\nDocumentation"
+    },
+    {
+      "heading": "Accessibility 6",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new AirPods Max.\nFeatures include:\nLive Listen audio\nHeadphone levels\nHeadphone Accommodations"
+    },
+    {
+      "heading": "System Requirements 7",
+      "source_text": "iPhone and iPod touch models with the latest version of iOS\niPad models with the latest version of iPadOS\nApple Watch models with the latest version of watchOS\nMac models with the latest version of macOS\nApple TV models with the latest version of tvOS"
+    },
+    {
+      "heading": "AirPods Max 1 and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more - AirPods Max 1 and the Environment\nAirPods Max 1 are designed with the following features to reduce environmental impact:\nBrominated flame retardant–free\nPVC-free\nBeryllium-free\nMercury-free"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass technical specification record; normalized values not inferred."
+  ]
+}

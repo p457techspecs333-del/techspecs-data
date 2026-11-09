@@ -2,43 +2,47 @@
   "schema_version": "2.0",
   "product": {
     "brand": "Apple",
-    "category": "audio",
-    "family": "AirPods",
+    "category": "software",
+    "family": "Apple Software",
     "model": "AirPods 5",
     "model_slug": "airpods-5",
-    "model_year": null,
-    "year_introduced": null,
+    "model_year": 2026,
+    "year_introduced": 2026,
     "variant": null
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://www.apple.com/ie/airpods-5/specs/",
-    "source_file": "apple_remaining_extraction/technical_specs_html/airpods-airpods-5.html",
-    "source_title": "AirPods 5 Technical Specifications",
+    "source_url": "https://support.apple.com/en-ie/148759",
+    "source_file": "apple_remaining_extraction/technical_specs_html/airpods-specs-airpods-5-airpods-5-tech-specs.html",
+    "source_title": "AirPods 5 - Tech Specs",
     "publisher": "Apple",
     "published_at": null,
     "checked_at": "2026-11-09",
     "verification_status": "content_verified",
-    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 21 sections archived.",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 15 sections archived.",
     "notes": [
-      "Extracted from official Apple technical specification link discovered on model index."
+      "Documentation index: https://support.apple.com/en-ie/docs/airpods/301319"
     ]
   },
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "archival_first_pass",
-    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
     "extracted_at": "2026-11-09",
     "reviewed_at": null
   },
   "sections": [
     {
       "heading": "Audio Technology 1",
-      "source_text": "Custom high‑excursion Apple driver\nCustom high dynamic range amplifier\nActive Noise Cancellation\nAdaptive Audio 2\nTransparency\nConversation Awareness 2\nVoice Isolation 2\nPersonalised Spatial Audio with dynamic head tracking 3\nAdaptive EQ\nVent system for pressure equalisation"
+      "source_text": "Custom high‑excursion Apple driver\nCustom high dynamic range amplifier\nActive Noise Cancellation\nAdaptive Audio\n2\nTransparency\nConversation Awareness\n2\nVoice Isolation\n2\nPersonalised Spatial Audio with dynamic head tracking\n3\nAdaptive EQ\nStudio‑quality audio recording\nVent system for pressure equalisation"
     },
     {
       "heading": "Live Translation",
-      "source_text": "Live Translation for communicating across languages 4"
+      "source_text": "Live Translation for communicating across languages\n4"
+    },
+    {
+      "heading": "Siri AI 5",
+      "source_text": "Get more done every day with hands‑free access to an even more powerful and personalised AI assistant on your iPhone. Ask open‑ended questions, brainstorm and have full conversations."
     },
     {
       "heading": "Sensors",
@@ -50,31 +54,23 @@
     },
     {
       "heading": "Controls",
-      "source_text": "Press once to play or pause media\nPress once to answer a call or mute or unmute 5\nPress twice to end a call\nPress twice to skip forward\nPress three times to skip back\nPress and hold to switch between listening modes\nSwipe up or down to adjust volume (AirPods 5 with Wireless Char­ging Case)\nSay “Hey Siri” 6 to do things like play a song, make a call or get directions\nWith Siri Interactions, nod your head yes or gently shake your head no when Siri asks if you want to answer an incoming call, hear a text message, manage notifications and more 2"
+      "source_text": "Press once to play or pause media\nPress once to answer a call or mute or unmute\n6\nPress once for camera remote\n7\nPress twice to end a call\nPress twice to skip forward\nPress three times to skip back\nPress and hold to switch between listening modes\nSwipe up or down to adjust volume (AirPods 5 with Wireless Char­ging Case)\nSay “Hey Siri” or just “Siri”\n8\nto do things like play a song, make a call or get directions\nWith Siri Interactions, nod your head yes or gently shake your head no when Siri asks if you want to answer an incoming call, hear a text message, manage notifications and more\n2"
     },
     {
-      "heading": "Dust, Sweat and Water Resistant 7",
+      "heading": "Dust, Sweat and Water Resistant 9",
       "source_text": "Dust, sweat and water resistant (IP57)"
     },
     {
-      "heading": "Size and Weight (Each) 8",
-      "source_text": "Height: 30.2 mm (1.19 inches)\nWidth: 18.3 mm (0.72 inches)\nDepth: 18.1 mm (0.71 inches)\nWeight: 4.3 grams (0.15 ounces)\nHeight: 46.2 mm (1.82 inches)\nWidth: 50.1 mm (1.97 inches)\nDepth: 21.2 mm (0.83 inches)\nWeight (AirPods 5): 32.3 grams (1.14 ounces)\nWeight (AirPods 5 with Wireless Char­ging Case): 34.7 grams (1.22 ounces)"
+      "heading": "Size and Weight 10",
+      "source_text": "AirPods 5 (Each)\nHeight:\n30.2 mm (1.19 inches)\nWidth:\n18.3 mm (0.72 inches)\nDepth:\n18.1 mm (0.71 inches)\nWeight:\n4.3 grams (0.15 ounces)\nChar­ging Case (USB‑C)\nHeight:\n46.2 mm (1.82 inches)\nWidth:\n50.1 mm (1.97 inches)\nDepth:\n21.2 mm (0.83 inches)\nWeight:\n32.3 grams (1.14 ounces)"
     },
     {
-      "heading": "AirPods 5",
+      "heading": "Charging Case",
       "source_text": "Works with USB‑C connector"
     },
     {
-      "heading": "AirPods 5 with Wireless Charging Case",
-      "source_text": "Works with USB‑C connector, Apple Watch charger or Qi‑certified chargers\nIncludes a speaker for use with Find My 9"
-    },
-    {
-      "heading": "AirPods 5",
-      "source_text": "Up to 4 hours of battery life on a single charge with Active Noise Cancellation enabled 10\nUp to 6 hours of battery life on a single charge with noise control off 10\nBattery life with charging case\nUp to 20 hours of battery life with Active Noise Cancellation enabled 11\n5 minutes in the case provides around 1 hour of battery life 12"
-    },
-    {
-      "heading": "AirPods 5 with Wireless Charging Case",
-      "source_text": "Up to 5 hours of battery life on a single charge with Active Noise Cancellation enabled 13\nUp to 7 hours of battery life on a single charge with noise control off 13\nBattery life with charging case\nUp to 22 hours of battery life with Active Noise Cancellation enabled 14\n5 minutes in the case provides around 1 hour of battery life 15"
+      "heading": "Battery",
+      "source_text": "AirPods 5\nUp to 4 hours of battery life on a single charge with Active Noise Cancellation enabled\n11\nUp to 6 hours of battery life on a single charge with noise control off\n11\nBattery life with charging case\nUp to 20 hours of battery life with Active Noise Cancellation enabled\n12\n5 minutes in the case provides around 1 hour of battery life\n13"
     },
     {
       "heading": "Connectivity",
@@ -82,42 +78,22 @@
     },
     {
       "heading": "In the Box",
-      "source_text": "AirPods 5\nChar­ging Case (USB‑C)\nDocumentation\nAirPods 5 with Wireless Charging Case\nChar­ging Case (USB‑C) with speaker\nDocumentation"
+      "source_text": "AirPods 5\nChar­ging Case (USB‑C)\nDocumentation"
     },
     {
       "heading": "Accessibility",
-      "source_text": "Accessi­bility features help people with disabilities get the most out of their new AirPods.\nFeatures include:\nLive Listen audio 16\nHeadphone levels\nHeadphone Accommodations"
+      "source_text": "Accessi­bility features help people with disabilities get the most out of their new AirPods.\nFeatures include:\nLive Listen audio\n14\nHeadphone levels\nHeadphone Accommodations"
     },
     {
       "heading": "System Requirements",
-      "source_text": "iPhone models with the latest version of iOS\niPad models with the latest version of iPadOS\nApple Watch models with the latest version of watchOS\nMac models with the latest version of macOS\nApple TV models with the latest version of tvOS\nAirPods can be used as wireless Bluetooth headphones with Apple devices using earlier software and with non‑Apple devices, but functionality may be limited."
+      "source_text": "iPhone models with the latest version of iOS\niPad models with the latest version of iPadOS\nApple Watch models with the latest version of watchOS\nMac models with the latest version of macOS\nApple TV models with the latest version of tvOS\nApple Vision Pro with the latest version of visionOS\nAirPods can be used as wireless Bluetooth headphones with Apple devices using earlier software and with non‑Apple devices, but functionality may be limited."
     },
     {
-      "heading": "Progress towards Apple 2030",
-      "source_text": "Apple 2030 is our goal to be carbon neutral across our value chain. We design our products to be less carbon intensive by prioritising the use of recycled and renewable content and low‑carbon materials while focusing on the energy efficiency of our software and hardware.\nSee Apple’s commitment"
-    },
-    {
-      "heading": "Materials",
-      "source_text": "AirPods 5 are made with 40% recycled content, 17 including:\n100% recycled aluminium in the hinge of the case\n100% recycled cobalt in the battery\n100% recycled gold plating and tin solder in all Apple‑designed printed circuit boards\n95% recycled lithium in the battery\n70% recycled plastic in the wireless charging case 18\n100% recycled rare earth elements in all magnets"
-    },
-    {
-      "heading": "Packaging",
-      "source_text": "100% fibre‑based packaging 19"
-    },
-    {
-      "heading": "Energy",
-      "source_text": "35% of manufacturing electricity for AirPods 5 is sourced from renewable electricity 20\nExceeds US Department of Energy requirements for battery charger systems 21"
-    },
-    {
-      "heading": "Waste",
-      "source_text": "No established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme 22"
-    },
-    {
-      "heading": "Smarter Chemistry 23",
-      "source_text": "All of the materials used in Apple products, accessories and packaging are covered by the requirements of our Regulated Substances Specification , which was one of the first in industry to restrict the use of key substances of concern. See the latest Environmental Progress Report to understand Apple’s recent efforts in phasing out these chemistries."
+      "heading": "AirPods and the Environment",
+      "source_text": "See the AirPods 5 Product En­viron­men­tal Report (PDF)\nProgress towards Apple 2030\nApple 2030 is our goal to be carbon neutral across our value chain. We design our products to be less carbon intensive by prioritising the use of recycled and renewable content and low‑carbon materials while focusing on the energy efficiency of our software and hardware.\nSee Apple’s commitment\nMaterials\nAirPods 5 are made with 40% recycled content,\n15\nincluding:\n100% recycled aluminium in the hinge of the case\n100% recycled cobalt in the battery\n100% recycled gold plating and tin solder in all Apple‑designed printed circuit boards\n95% recycled lithium in the battery\n70% recycled plastic in the wireless charging case\n16\n100% recycled rare earth elements in all magnets\nPackaging\n100% fibre‑based packaging\n17\nEnergy\n35% of manufacturing electricity for AirPods 5 is sourced from renewable electricity\n18\nExceeds US Department of Energy requirements for battery charger systems\n19\nWaste\nNo established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme\n20\nSmarter Chemistry\n21\nAll of the materials used in Apple products, accessories and packaging are covered by the requirements of our\nRegulated Substances Specification\n, which was one of the first in industry to restrict the use of key substances of concern. See the latest\nEnvironmental Progress Report\nto understand Apple’s recent efforts in phasing out these chemistries."
     }
   ],
   "record_notes": [
-    "Archival-first-pass record; normalized specifications not inferred."
+    "Archival-first-pass technical specification record; normalized values not inferred."
   ]
 }
