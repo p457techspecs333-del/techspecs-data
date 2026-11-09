@@ -1,0 +1,15 @@
+{
+  "catalogue_stage": "official_apple_source_discovery",
+  "brand": "Apple",
+  "category": "software",
+  "family": "Apple Software",
+  "market": "Ireland-facing catalogue",
+  "source_policy": "Official Apple sources only; preserve original HTML; no inferred specifications.",
+  "index_url": "https://support.apple.com/en-ie/docs/software",
+  "index_title": "Software Manuals and Downloads - Apple Support (IE)",
+  "index_archive": "apple_remaining_extraction/technical_specs_html/software-index.html",
+  "working_scope": [],
+  "notes": [
+    "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete."
+  ]
+}

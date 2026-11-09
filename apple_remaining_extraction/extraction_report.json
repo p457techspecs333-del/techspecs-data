@@ -1,0 +1,208 @@
+{
+  "started_utc": "2026-11-09T12:15:43.879975+00:00",
+  "families": [
+    {
+      "key": "airpods",
+      "label": "AirPods",
+      "index_url": "https://support.apple.com/en-ie/109525",
+      "status": "index_captured_no_spec_links",
+      "targets": [],
+      "errors": [],
+      "final_index_url": "https://support.apple.com/en-ie/109525",
+      "index_title": "Identify your AirPods - Apple Support (IE)",
+      "index_archive": "apple_remaining_extraction/technical_specs_html/airpods-index.html",
+      "index_bytes": 186670,
+      "summary": {
+        "spec_links_discovered": 0,
+        "records_written": 0,
+        "needs_review": 0,
+        "errors": 0
+      }
+    },
+    {
+      "key": "homepod",
+      "label": "HomePod",
+      "index_url": "https://support.apple.com/en-gb/101609",
+      "status": "index_captured",
+      "targets": [
+        {
+          "model": "HomePod mini 2 technical specifications",
+          "url": "http://support.apple.com/149360",
+          "slug": "homepod-mini-2-technical-specifications",
+          "final_url": "https://support.apple.com/en-ie/149360",
+          "title": "HomePod mini 2 - Tech Specs",
+          "source_file": "apple_remaining_extraction/technical_specs_html/homepod-homepod-mini-2-technical-specifications.html",
+          "section_count": 13,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "HomePod (2nd generation) technical specifications",
+          "url": "https://support.apple.com/kb/SP888?locale=en_GB",
+          "slug": "homepod-2nd-generation-technical-specifications",
+          "final_url": "https://support.apple.com/en-gb/111843",
+          "title": "HomePod (2nd generation) - Tech Specs",
+          "source_file": "apple_remaining_extraction/technical_specs_html/homepod-homepod-2nd-generation-technical-specifications.html",
+          "section_count": 13,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "HomePod mini technical specifications",
+          "url": "https://support.apple.com/kb/SP834?locale=en_GB",
+          "slug": "homepod-mini-technical-specifications",
+          "final_url": "https://support.apple.com/en-gb/111914",
+          "title": "HomePod mini - Tech Specs",
+          "source_file": "apple_remaining_extraction/technical_specs_html/homepod-homepod-mini-technical-specifications.html",
+          "section_count": 11,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "HomePod (1st generation) technical specifications",
+          "url": "https://support.apple.com/kb/SP773?locale=en_GB",
+          "slug": "homepod-1st-generation-technical-specifications",
+          "final_url": "https://support.apple.com/en-gb/111994",
+          "title": "HomePod (1st generation) - Technical Specifications",
+          "source_file": "apple_remaining_extraction/technical_specs_html/homepod-homepod-1st-generation-technical-specifications.html",
+          "section_count": 11,
+          "verification_status": "content_verified"
+        }
+      ],
+      "errors": [],
+      "final_index_url": "https://support.apple.com/en-gb/101609",
+      "index_title": "Identify your HomePod model – Apple Support (UK)",
+      "index_archive": "apple_remaining_extraction/technical_specs_html/homepod-index.html",
+      "index_bytes": 156036,
+      "summary": {
+        "spec_links_discovered": 4,
+        "records_written": 4,
+        "needs_review": 0,
+        "errors": 0
+      }
+    },
+    {
+      "key": "ipod",
+      "label": "iPod",
+      "index_url": "https://support.apple.com/en-ie/103823",
+      "status": "index_captured_no_spec_links",
+      "targets": [],
+      "errors": [],
+      "final_index_url": "https://support.apple.com/en-ie/103823",
+      "index_title": "Identify your iPod model - Apple Support (IE)",
+      "index_archive": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
+      "index_bytes": 221622,
+      "summary": {
+        "spec_links_discovered": 0,
+        "records_written": 0,
+        "needs_review": 0,
+        "errors": 0
+      }
+    },
+    {
+      "key": "displays",
+      "label": "Apple Displays",
+      "index_url": "https://support.apple.com/en-ie/126265",
+      "status": "index_captured",
+      "targets": [
+        {
+          "model": "Studio Display XDR",
+          "url": "https://support.apple.com/en-ie/126323",
+          "slug": "studio-display-xdr",
+          "final_url": "https://support.apple.com/en-ie/126323",
+          "title": "Studio Display XDR - Tech Specs",
+          "source_file": "apple_remaining_extraction/technical_specs_html/displays-studio-display-xdr.html",
+          "section_count": 12,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "Studio Display (2026)",
+          "url": "https://support.apple.com/en-ie/126324",
+          "slug": "studio-display-2026",
+          "final_url": "https://support.apple.com/en-ie/126324",
+          "title": "Studio Display (2026) - Tech Specs",
+          "source_file": "apple_remaining_extraction/technical_specs_html/displays-studio-display-2026.html",
+          "section_count": 12,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "Studio Display (2022)",
+          "url": "https://support.apple.com/en-ie/111890",
+          "slug": "studio-display-2022",
+          "final_url": "https://support.apple.com/en-ie/111890",
+          "title": "Studio Display - Tech Specs",
+          "source_file": "apple_remaining_extraction/technical_specs_html/displays-studio-display-2022.html",
+          "section_count": 12,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "Pro Display XDR",
+          "url": "https://support.apple.com/en-ie/111892",
+          "slug": "pro-display-xdr",
+          "final_url": "https://support.apple.com/en-ie/111892",
+          "title": "Pro Display XDR - Tech Specs",
+          "source_file": "apple_remaining_extraction/technical_specs_html/displays-pro-display-xdr.html",
+          "section_count": 12,
+          "verification_status": "content_verified"
+        }
+      ],
+      "errors": [],
+      "final_index_url": "https://support.apple.com/en-ie/126265",
+      "index_title": "Identify your Apple display model - Apple Support (IE)",
+      "index_archive": "apple_remaining_extraction/technical_specs_html/displays-index.html",
+      "index_bytes": 160247,
+      "summary": {
+        "spec_links_discovered": 4,
+        "records_written": 4,
+        "needs_review": 0,
+        "errors": 0
+      }
+    },
+    {
+      "key": "accessories",
+      "label": "Apple Accessories",
+      "index_url": "https://support.apple.com/en-ie/docs/accessories",
+      "status": "index_captured",
+      "targets": [],
+      "errors": [],
+      "final_index_url": "https://support.apple.com/en-ie/docs/accessories",
+      "index_title": "Accessories Manuals and Downloads - Apple Support (IE)",
+      "index_archive": "apple_remaining_extraction/technical_specs_html/accessories-index.html",
+      "index_bytes": 195547,
+      "summary": {
+        "spec_links_discovered": 0,
+        "records_written": 0,
+        "needs_review": 0,
+        "errors": 0
+      }
+    },
+    {
+      "key": "software",
+      "label": "Apple Software",
+      "index_url": "https://support.apple.com/en-ie/docs/software",
+      "status": "index_captured",
+      "targets": [],
+      "errors": [],
+      "final_index_url": "https://support.apple.com/en-ie/docs/software",
+      "index_title": "Software Manuals and Downloads - Apple Support (IE)",
+      "index_archive": "apple_remaining_extraction/technical_specs_html/software-index.html",
+      "index_bytes": 121651,
+      "summary": {
+        "spec_links_discovered": 0,
+        "records_written": 0,
+        "needs_review": 0,
+        "errors": 0
+      }
+    }
+  ],
+  "notes": [
+    "Official Apple/Apple Support sources only; original HTML archived.",
+    "No missing technical details are inferred. Hardware records preserve source headings and text.",
+    "Accessories and software are broad catalogues, not single hardware model families; their official indexes are archived and linked records are inventoried separately."
+  ],
+  "finished_utc": "2026-11-09T12:15:55.768038+00:00",
+  "summary": {
+    "families_checked": 6,
+    "indexes_captured": 6,
+    "spec_links_discovered": 8,
+    "records_written": 8,
+    "errors": 0
+  }
+}

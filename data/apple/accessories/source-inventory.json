@@ -1,0 +1,15 @@
+{
+  "catalogue_stage": "official_apple_source_discovery",
+  "brand": "Apple",
+  "category": "accessory",
+  "family": "Apple Accessories",
+  "market": "Ireland-facing catalogue",
+  "source_policy": "Official Apple sources only; preserve original HTML; no inferred specifications.",
+  "index_url": "https://support.apple.com/en-ie/docs/accessories",
+  "index_title": "Accessories Manuals and Downloads - Apple Support (IE)",
+  "index_archive": "apple_remaining_extraction/technical_specs_html/accessories-index.html",
+  "working_scope": [],
+  "notes": [
+    "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete."
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "computer-display",
+    "family": "Apple Displays",
+    "model": "Studio Display (2026)",
+    "model_slug": "studio-display-2026",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/126324",
+    "source_file": "apple_remaining_extraction/technical_specs_html/displays-studio-display-2026.html",
+    "source_title": "Studio Display (2026) - Tech Specs",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 12 sections archived.",
+    "notes": [
+      "Extracted from official Apple technical specification link discovered on model index."
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Display",
+      "source_text": "5K Retina display\n27-inch (diagonal) 5K Retina display\n5120x2880 resolution at 218 pixels per inch\n600 nits brightness\n60Hz refresh rate\nSupport for 1 billion colours\nWide colour (P3)\nTrue Tone technology\nConfigurable with:\nNano-texture glass"
+    },
+    {
+      "heading": "Reference Modes",
+      "source_text": "Available reference modes:\nApple Display (P3-600 nits)\nHDTV Video (BT.709–BT.1886)\nNTSC Video (BT.601 SMPTE-C)\nPAL and SECAM Video (BT.601 EBU)\nDigital Cinema (P3-DCI)\nDigital Cinema (P3-D65)\nDesign and Print (P3-D50)\nPhotography (P3-D65)\nInternet and Web (sRGB)"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "12MP Center Stage camera with Desk View"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "High-fidelity six-speaker system with force-cancelling woofers\nWide stereo sound\nSupport for Spatial Audio when playing music or video with Dolby Atmos\nStudio-quality three-mic array with high signal-to-noise ratio and directional beamforming\nSupport for “Hey Siri”"
+    },
+    {
+      "heading": "Connections",
+      "source_text": "Two Thunderbolt 5 ports (up to 120Gb/s) and two USB-C ports (up to 10Gb/s)\nOne upstream Thunderbolt 5 port for host (with 96W host charging)\nOne downstream Thunderbolt 5 port for connecting high-speed accessories or daisy-chaining additional displays\nTwo USB‑C ports (up to 10Gb/s) for connecting peripherals, storage and networking"
+    },
+    {
+      "heading": "Stand",
+      "source_text": "Tilt-adjustable stand\nTilt: −5° to +25°\nOrientation: landscape\nConfigurable with:\nTilt- and height-adjustable stand\nTilt: −5° to +25°\nHeight adjustment: 105 mm in total\nOrientation: landscape\nVESA mount adapter\nCompatible with 100 x 100 mm VESA stand\nOrientation: landscape or portrait"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Studio Display with tilt-adjustable stand\nHeight\n: 47.8 cm (18.8 inches)\nWidth:\n62.3 cm (24.5 inches)\nDepth:\n16.8 cm (6.6 inches)\nWeight\n: 6.3 kg (13.9 pounds)\n1\nStudio Display with tilt- and height-adjustable stand\nHeight (bottom position):\n47.9 cm (18.8 inches)\nWidth:\n62.3 cm (24.5 inches)\nHeight (top position):\n58.3 cm (23.0 inches)\nWeight:\n7.6 kg (16.8 pounds)\n1\nDepth:\n20.7 cm (8.1 inches)\nStudio Display with VESA mount adapter\nHeight:\n36.2 cm (14.3 inches)\nWidth:\n62.3 cm (24.5 inches)\nDepth:\n3.1 cm (1.2 inches)\nWeight:\n5.4 kg (11.9 pounds)\n1"
+    },
+    {
+      "heading": "Compatibility",
+      "source_text": "Studio Display is compatible with the following Mac models with Apple silicon and macOS Tahoe 26.3.1 or later:\n16‑inch MacBook Pro (2021 and later)\n14‑inch MacBook Pro (2021 and later)\n13‑inch MacBook Pro (M1, 2020 and later)\n15‑inch MacBook Air (2023 and later)\n13‑inch MacBook Air (M1, 2020 and later)\nMac Studio (2022 and later)\nMac mini (2020 and later)\nMac Pro (2023 and later)\n24‑inch iMac (2021 and later)\nStudio Display is compatible with the following iPad models with iPadOS 26.3.1 or later:\n2\niPad Pro (M4 and M5)\niPad Pro 12.9-inch (3rd–6th generation)\niPad Pro 11-inch (1st–4th generation)\niPad Air (M2, M3 and M4)\niPad Air (5th generation)"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "Studio Display\nThunderbolt 5 Pro cable (1m)"
+    },
+    {
+      "heading": "Electrical and Operating Requirements",
+      "source_text": "Line voltage:\n100–240V AC\nFrequency:\n50Hz to 60Hz, single phase\nOperating temperature:\n10° to 35° C (50° to 95° F)\nRelative humidity:\n5% to 90% non-condensing\nMaximum altitude:\ntested up to 5,000 metres (16,400 feet)"
+    },
+    {
+      "heading": "Configure to Order",
+      "source_text": "Configure your Studio Display with these options at\napple.com\n:\nNano-texture glass\nTilt- and height-adjustable stand\nVESA mount adapter"
+    },
+    {
+      "heading": "Studio Display and the Environment",
+      "source_text": "Studio Display is designed to reduce environmental impact:\n3\nProgress towards Apple 2030\nApple 2030 is our commitment to be carbon neutral for our entire carbon footprint. Our plan to decarbonise products is rigorous and focuses on transitioning to low‑carbon electricity, designing with recycled and low‑carbon materials and prioritising lower‑carbon ways of shipping products, like sea freight.\nSee Apple’s commitment\nMaterials\n100% recycled aluminium in the stand\n100% recycled copper in multiple printed circuit boards\n100% recycled copper and zinc in the pins of the power lead plug and AC inlet\n80% recycled glass in the standard glass\n100% recycled gold plating and tin solder in all Apple-designed printed circuit boards\n100% recycled rare earth elements in all magnets\nEnergy\nENERGY STAR® certified\n4\nPackaging\n100% fibre-based packaging\n5\nWaste\nNo established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme\n6\nSmarter chemistry\n7\nAll of the materials used in Apple products, accessories and packaging are covered by the requirements of our\nRegulated Substances Specification\n, which was one of the first in industry to restrict the use of key substances of concern. See the latest\nEnvironmental Progress Report\nto understand Apple’s recent efforts in phasing out these chemistries."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record; normalized specifications not inferred."
+  ]
+}

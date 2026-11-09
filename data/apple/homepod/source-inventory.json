@@ -1,0 +1,56 @@
+{
+  "catalogue_stage": "official_apple_source_discovery",
+  "brand": "Apple",
+  "category": "smart-speaker",
+  "family": "HomePod",
+  "market": "Ireland-facing catalogue",
+  "source_policy": "Official Apple sources only; preserve original HTML; no inferred specifications.",
+  "index_url": "https://support.apple.com/en-gb/101609",
+  "index_title": "Identify your HomePod model – Apple Support (UK)",
+  "index_archive": "apple_remaining_extraction/technical_specs_html/homepod-index.html",
+  "working_scope": [
+    {
+      "model": "HomePod mini 2 technical specifications",
+      "url": "http://support.apple.com/149360",
+      "slug": "homepod-mini-2-technical-specifications",
+      "final_url": "https://support.apple.com/en-ie/149360",
+      "title": "HomePod mini 2 - Tech Specs",
+      "source_file": "apple_remaining_extraction/technical_specs_html/homepod-homepod-mini-2-technical-specifications.html",
+      "section_count": 13,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "HomePod (2nd generation) technical specifications",
+      "url": "https://support.apple.com/kb/SP888?locale=en_GB",
+      "slug": "homepod-2nd-generation-technical-specifications",
+      "final_url": "https://support.apple.com/en-gb/111843",
+      "title": "HomePod (2nd generation) - Tech Specs",
+      "source_file": "apple_remaining_extraction/technical_specs_html/homepod-homepod-2nd-generation-technical-specifications.html",
+      "section_count": 13,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "HomePod mini technical specifications",
+      "url": "https://support.apple.com/kb/SP834?locale=en_GB",
+      "slug": "homepod-mini-technical-specifications",
+      "final_url": "https://support.apple.com/en-gb/111914",
+      "title": "HomePod mini - Tech Specs",
+      "source_file": "apple_remaining_extraction/technical_specs_html/homepod-homepod-mini-technical-specifications.html",
+      "section_count": 11,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "HomePod (1st generation) technical specifications",
+      "url": "https://support.apple.com/kb/SP773?locale=en_GB",
+      "slug": "homepod-1st-generation-technical-specifications",
+      "final_url": "https://support.apple.com/en-gb/111994",
+      "title": "HomePod (1st generation) - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/homepod-homepod-1st-generation-technical-specifications.html",
+      "section_count": 11,
+      "verification_status": "content_verified"
+    }
+  ],
+  "notes": [
+    "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete."
+  ]
+}

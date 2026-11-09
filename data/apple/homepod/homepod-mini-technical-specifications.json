@@ -1,0 +1,83 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "smart-speaker",
+    "family": "HomePod",
+    "model": "HomePod mini technical specifications",
+    "model_slug": "homepod-mini-technical-specifications",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-gb/111914",
+    "source_file": "apple_remaining_extraction/technical_specs_html/homepod-homepod-mini-technical-specifications.html",
+    "source_title": "HomePod mini - Tech Specs",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 11 sections archived.",
+    "notes": [
+      "Extracted from official Apple technical specification link discovered on model index."
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Finish",
+      "source_text": "White\nBlue\nOrange\nYellow\nSpace Grey\nMidnight"
+    },
+    {
+      "heading": "Size and Weight 1",
+      "source_text": "Dimensions:\n84.3 mm high (3.3 inches)\n97.9 mm wide (3.9 inches)\nWeight:\n345 grams (0.76 pounds)"
+    },
+    {
+      "heading": "Audio Technology",
+      "source_text": "Full-range driver and dual passive radiators for deep bass and crisp high frequencies\nCustom acoustic waveguide for a 360º sound field\nAcoustically transparent fabric\nComputational audio for real-time tuning\nFour-microphone design for far-field Siri\nMulti-room audio with AirPlay\n2\nStereo pair capable\n3"
+    },
+    {
+      "heading": "Audio Sources",
+      "source_text": "Apple Music\n4\niTunes music purchases\niCloud Music Library with an Apple Music or iTunes Match subscription\nThird-party music services\n5\nApple Music Radio or episodes on demand\nRadio stations from TuneIn, Capital FM, LBC UK, Heart UK and Smooth UK\nApple Podcasts\nNews briefings\nAirPlay to share other content to HomePod mini from iPhone, iPad, iPod touch, Apple TV or Mac"
+    },
+    {
+      "heading": "Touch Controls",
+      "source_text": "Tap\nPlay/Pause\nDouble-tap\nSkip\nTriple-tap\nSkip back\nTouch and hold\nSiri\nTap or hold + or –\nVolume up/down"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of HomePod mini.\nLearn more about Accessibility\nFeatures include:\nTouch Accommodations\nSiri\nVoiceOver\nHome app and HomeKit\nIntercom transcriptions"
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "802.11n Wi‑Fi\nPeer-to-peer discovery for easy guest access\n6\nBluetooth 5.0\nThread networking technology\n7\nUltra Wideband chip for device proximity\n8"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "HomePod mini with the latest version of software\niPhone SE, iPhone 6s or later, or iPod touch (7th generation) with the latest version of iOS; or iPad Pro, iPad (5th generation or later), iPad Air 2 or later, or iPad mini 4 or later with the latest version of iPadOS\n802.11n Wi‑Fi internet access"
+    },
+    {
+      "heading": "Electrical and Environmental Requirements",
+      "source_text": "Line voltage: 100V to 240V AC for 20W power adapter\n9\nFrequency: 50Hz to 60Hz\nOperating temperature: 0° to 35° C (32° to 95° F)\nRelative humidity: 5% to 90% non-condensing\nOperating altitude: tested up to 3,000 metres (10,000 feet)"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "HomePod mini\n20W power adapter\nDocumentation"
+    },
+    {
+      "heading": "HomePod mini and the Environment",
+      "source_text": "HomePod mini is designed with the following features to reduce its environmental impact:\n10\nSee the HomePod mini Product Environmental Report\nMade with better materials\n99% recycled rare earth elements\n35% or more recycled plastic in multiple components\nEnergy efficient\nENERGY STAR\n®\ncertified\n11\nSmarter chemistry\n12\nMercury-free, BFR-, PVC- and beryllium-free\nGreen manufacturing\nApple’s Zero Waste Programme helps suppliers eliminate waste sent to landfill\nAll final assembly supplier sites are transitioning to 100% renewable energy for Apple production\nResponsible packaging\n100% of virgin wood fibre comes from responsibly managed forests\nApple and the Environment\nWe’re committed to making our products without taking from the earth, and to become carbon neutral across our entire business, including products, by 2030.\nSee Apple’s commitment"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record; normalized specifications not inferred."
+  ]
+}

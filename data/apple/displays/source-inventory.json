@@ -1,0 +1,56 @@
+{
+  "catalogue_stage": "official_apple_source_discovery",
+  "brand": "Apple",
+  "category": "computer-display",
+  "family": "Apple Displays",
+  "market": "Ireland-facing catalogue",
+  "source_policy": "Official Apple sources only; preserve original HTML; no inferred specifications.",
+  "index_url": "https://support.apple.com/en-ie/126265",
+  "index_title": "Identify your Apple display model - Apple Support (IE)",
+  "index_archive": "apple_remaining_extraction/technical_specs_html/displays-index.html",
+  "working_scope": [
+    {
+      "model": "Studio Display XDR",
+      "url": "https://support.apple.com/en-ie/126323",
+      "slug": "studio-display-xdr",
+      "final_url": "https://support.apple.com/en-ie/126323",
+      "title": "Studio Display XDR - Tech Specs",
+      "source_file": "apple_remaining_extraction/technical_specs_html/displays-studio-display-xdr.html",
+      "section_count": 12,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Studio Display (2026)",
+      "url": "https://support.apple.com/en-ie/126324",
+      "slug": "studio-display-2026",
+      "final_url": "https://support.apple.com/en-ie/126324",
+      "title": "Studio Display (2026) - Tech Specs",
+      "source_file": "apple_remaining_extraction/technical_specs_html/displays-studio-display-2026.html",
+      "section_count": 12,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Studio Display (2022)",
+      "url": "https://support.apple.com/en-ie/111890",
+      "slug": "studio-display-2022",
+      "final_url": "https://support.apple.com/en-ie/111890",
+      "title": "Studio Display - Tech Specs",
+      "source_file": "apple_remaining_extraction/technical_specs_html/displays-studio-display-2022.html",
+      "section_count": 12,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Pro Display XDR",
+      "url": "https://support.apple.com/en-ie/111892",
+      "slug": "pro-display-xdr",
+      "final_url": "https://support.apple.com/en-ie/111892",
+      "title": "Pro Display XDR - Tech Specs",
+      "source_file": "apple_remaining_extraction/technical_specs_html/displays-pro-display-xdr.html",
+      "section_count": 12,
+      "verification_status": "content_verified"
+    }
+  ],
+  "notes": [
+    "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete."
+  ]
+}
