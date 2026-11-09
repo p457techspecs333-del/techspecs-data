@@ -8,7 +8,14 @@
     "model_slug": "homepod-mini-2-technical-specifications",
     "model_year": 2026,
     "year_introduced": 2026,
-    "variant": null
+    "variant": null,
+    "finishes": [
+      "White",
+      "Pink",
+      "Green",
+      "Blue",
+      "Midnight"
+    ]
   },
   "source": {
     "source_type": "manufacturer",
@@ -231,6 +238,20 @@
         "source_section": "Electrical and Environ­men­tal Require­ments",
         "verification_status": "source_transcribed",
         "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      }
+    },
+    "size_weight_statements": {
+      "value": {
+        "value": [
+          "84.3 mm high (3.3 inches)",
+          "97.9 mm wide (3.9 inches)",
+          "Weight:",
+          "335 grams (0.74 pounds)"
+        ],
+        "unit": null,
+        "source_section": "Size and Weight 1",
+        "verification_status": "source_transcribed",
+        "notes": "Original dimension and weight statements retained, including component labels and units."
       }
     }
   }
