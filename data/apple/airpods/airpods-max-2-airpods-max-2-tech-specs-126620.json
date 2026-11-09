@@ -27,7 +27,7 @@
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
-    "note": "Official Apple source sections preserved; product taxonomy corrected. Field-level normalized specifications still require extraction and verification; no values inferred.",
+    "note": "Official Apple sections preserved and transcribed into machine-readable section fields. Individual measurements, battery figures, model identifiers and footnote qualifications still require field-level parsing and validation; no values inferred.",
     "extracted_at": "2026-11-09",
     "reviewed_at": "2026-11-09"
   },
@@ -93,5 +93,133 @@
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Taxonomy audit 2026-11-09: classified as Apple audio hardware, not software.",
     "Field-level normalization remains incomplete; source_text is the evidence of record."
-  ]
+  ],
+  "normalized_specifications": {
+    "colour": {
+      "source_text": {
+        "value": "Midnight\nStarlight\nBlue\nPurple\nOrange",
+        "unit": null,
+        "source_section": "Colour",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "audio_technology": {
+      "source_text": {
+        "value": "Apple-designed dynamic driver\nCustom high dynamic range amplifier\nActive Noise Cancellation\nAdaptive Audio\n1\nTransparency mode\nConversation Awareness\n1\nVoice Isolation\n2\nPersonalised Volume\n3\nLoud Sound Reduction\nPersonalised Spatial Audio with dynamic head tracking\n4\nAdaptive EQ\nStudio-quality audio recording\nLossless Audio and ultra-low latency audio via USB‑C\n5",
+        "unit": null,
+        "source_section": "Audio Technology",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "live_translation": {
+      "source_text": {
+        "value": "Live Translation for communicating across languages\n6",
+        "unit": null,
+        "source_section": "Live Translation",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "sensors": {
+      "source_text": {
+        "value": "Optical sensor (each ear cup)\nPosition sensor (each ear cup)\nCase-detect sensor (each ear cup)\nAccelerometer (each ear cup)\nGyroscope (left ear cup)",
+        "unit": null,
+        "source_section": "Sensors",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "micro_phones": {
+      "source_text": {
+        "value": "Nine microphones total:\nEight microphones for Active Noise Cancellation\nThree microphones for voice pickup (two shared with Active Noise Cancellation and one additional microphone)",
+        "unit": null,
+        "source_section": "Micro­phones",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "chip": {
+      "source_text": {
+        "value": "Apple H2 headphone chip (each ear cup)",
+        "unit": null,
+        "source_section": "Chip",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "controls": {
+      "source_text": {
+        "value": "Digital Crown\nTurn for volume control\nPress once to play or pause media\nPress once to answer a call or mute or unmute\n7\nPress once for camera remote\n8\nPress twice to end a call\nPress twice to skip forward\nPress three times to skip back\nPress and hold for Siri\nListening mode button\nPress to switch between listening modes\nSiri\nSay just “Siri”\n9\nor “Hey Siri” to do things like play a song, make a call or get directions\nSiri Interactions\n10",
+        "unit": null,
+        "source_section": "Controls",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "size_and_weight": {
+      "source_text": {
+        "value": "AirPods Max 2, including cushions\nWidth\n:\n168.6 mm (6.64 inches)\nDepth\n:\n83.4 mm (3.28 inches)\nHeight\n:\n187.3 mm (7.37 inches)\nWeight:\n386.2 grams (13.6 ounces)\nSmart Case\nWeight:\n134.5 grams (4.74 ounces)",
+        "unit": null,
+        "source_section": "Size and Weight 11",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "battery": {
+      "source_text": {
+        "value": "AirPods Max 2 (full charge)\nUp to 20 hours of listening time on a single charge with Active Noise Cancellation enabled\n12\n5 minutes of charge time provides around 1.5 hours of listening time.\n13\nAirPods Max 2 with Smart Case\nStorage in the Smart Case preserves battery charge in ultra-low-power state\nChar­ging via USB‑C",
+        "unit": null,
+        "source_section": "Battery",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "connectivity": {
+      "source_text": {
+        "value": "Bluetooth 5.3 wireless technology",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "in_the_box": {
+      "source_text": {
+        "value": "AirPods Max 2\nSmart Case\nUSB‑C Charge Cable\nDocumentation",
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "accessi_bility": {
+      "source_text": {
+        "value": "Accessi­bility features help people with disabilities get the most out of their new AirPods Max.\nFeatures include:\nLive Listen audio\nHeadphone levels\nHeadphone Accommodations",
+        "unit": null,
+        "source_section": "Accessi­bility 14",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "system_requirements": {
+      "source_text": {
+        "value": "iPhone models with the latest version of iOS\niPad models with the latest version of iPadOS\nApple Watch models with the latest version of watchOS\nMac models with the latest version of macOS\nApple TV models with the latest version of tvOS\nApple Vision Pro with the latest version of visionOS\nAirPods can be used as wireless Bluetooth headphones with Apple devices using earlier software and with non-Apple devices, but functionality may be limited.",
+        "unit": null,
+        "source_section": "System Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "airpods_max_2_and_the_environment": {
+      "source_text": {
+        "value": "Progress towards Apple 2030\nApple 2030 is our commitment to be carbon neutral for our entire carbon footprint. Our plan to decarbonise products is rigorous and focuses on transitioning to low-carbon electricity, designing with recycled and low-carbon materials, and prioritising lower-carbon ways of shipping products, like sea freight.\nSee Apple’s commitment\nMaterials\n100% recycled cobalt in the battery\n100% recycled copper in multiple printed circuit boards\n100% recycled gold plating and tin solder in all Apple-designed printed circuit boards\n100% recycled rare earth elements in all magnets\n90% recycled polyester in the canopy and cushion yarn\n100% recycled polyester inside the ear cushion\nPackaging\n100% fibre-based packaging\n15\nWaste\nNo established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme\n16\nSmarter chemistry\n17\nAll of the materials used in Apple products, accessories and packaging are covered by the requirements of our\nRegulated Substances Specification\n, which was one of the first in industry to restrict the use of key substances of concern. See the latest\nEn­viron­men­tal Progress Report\nto understand Apple’s recent efforts in phasing out these chemistries.",
+        "unit": null,
+        "source_section": "AirPods Max 2 and the Environment",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    }
+  }
 }
