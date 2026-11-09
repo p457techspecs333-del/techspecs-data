@@ -27,7 +27,7 @@
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
-    "note": "Official Apple source sections preserved; product taxonomy corrected. Field-level normalized specifications still require extraction and verification; no values inferred.",
+    "note": "Official Apple sections preserved and transcribed into machine-readable section fields. Individual measurements, battery figures, model identifiers and footnote qualifications still require field-level parsing and validation; no values inferred.",
     "extracted_at": "2026-11-09",
     "reviewed_at": "2026-11-09"
   },
@@ -93,5 +93,133 @@
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Taxonomy audit 2026-11-09: classified as Apple audio hardware, not software.",
     "Field-level normalization remains incomplete; source_text is the evidence of record."
-  ]
+  ],
+  "normalized_specifications": {
+    "audio_technology": {
+      "source_text": {
+        "value": "Custom high-excursion Apple driver\nCustom high dynamic range amplifier\nActive Noise Cancellation\nAdaptive Transparency\nVent system for pressure equalisation\nPersonalised Spatial Audio with dynamic head tracking\n1\nAdaptive EQ",
+        "unit": null,
+        "source_section": "Audio Technology",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "hearing_health": {
+      "source_text": {
+        "value": "Loud Sound Reduction\nConversation Boost\nBackground Sounds",
+        "unit": null,
+        "source_section": "Hearing Health",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "sensors": {
+      "source_text": {
+        "value": "Dual beamforming microphones\nInward-facing microphone\nSkin-detecting sensor\nMotion-detecting accelerometer\nSpeech-detecting accelerometer\nTouch control",
+        "unit": null,
+        "source_section": "Sensors",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "chip": {
+      "source_text": {
+        "value": "Apple H2 headphone chip\nApple U1 chip in MagSafe Charging Case",
+        "unit": null,
+        "source_section": "Chip",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "controls": {
+      "source_text": {
+        "value": "Press once to play, pause, or answer a phone call\nPress twice to skip forward\nPress three times to skip back\nPress and hold to switch between Active Noise Cancellation and Adaptive Transparency\nSwipe up or down to adjust volume\nSay “Hey Siri” to do things like play a song, make a call or get directions",
+        "unit": null,
+        "source_section": "Controls",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "sweat_and_water_resistant": {
+      "source_text": {
+        "value": "Sweat and water resistant (IPX4): AirPods Pro and charging case",
+        "unit": null,
+        "source_section": "Sweat and Water Resistant 2",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "size_and_weight": {
+      "source_text": {
+        "value": "AirPods Pro (Each)\nHeight: 30.9 mm (1.22 inches)\nWidth: 21.8 mm (0.86 inches)\nDepth: 24.0 mm (0.94 inches)\nWeight: 5.3 grams (0.19 ounces)\nMagSafe Charging Case with speaker and lanyard loop\nHeight: 45.2 mm (1.78 inches)\nWidth: 60.6 mm (2.39 inches)\nDepth: 21.7 mm (0.85 inches)\nWeight: 50.8 grams (1.79 ounces)",
+        "unit": null,
+        "source_section": "Size and Weight 3",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "charging_case": {
+      "source_text": {
+        "value": "Works with MagSafe charger, Apple Watch charger, Qi‑certified chargers or the Lightning connector",
+        "unit": null,
+        "source_section": "Charging Case",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "battery": {
+      "source_text": {
+        "value": "AirPods Pro\nUp to 6 hours of listening time with a single charge (up to 5.5 hours with Spatial Audio and head tracking enabled)\n4\nAirPods Pro with MagSafe Charging Case\nUp to 30 hours of listening time\n5\n5 minutes in the case provides around 1 hour of listening time\n6",
+        "unit": null,
+        "source_section": "Battery",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "connectivity": {
+      "source_text": {
+        "value": "Bluetooth 5.3 wireless technology",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "in_the_box": {
+      "source_text": {
+        "value": "AirPods Pro 2\nMagSafe Charging Case with speaker and lanyard loop\nSilicone ear tips (four sizes: XS, S, M, L)\nLightning to USB‑C Cable\nDocumentation",
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "accessibility": {
+      "source_text": {
+        "value": "Accessibility features help people with disabilities get the most out of their new AirPods Pro.\nFeatures include:\nLive Listen audio\n7\nHeadphone levels\nHeadphone Accommodations\nConversation Boost",
+        "unit": null,
+        "source_section": "Accessibility",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "system_requirements": {
+      "source_text": {
+        "value": "iPhone and iPod touch models with the latest version of iOS\niPad models with the latest version of iPadOS\nApple Watch models with the latest version of watchOS\nMac models with the latest version of macOS\nApple TV models with the latest version of tvOS",
+        "unit": null,
+        "source_section": "System Requirements 8",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "airpods_pro_and_the_environment": {
+      "source_text": {
+        "value": "AirPods Pro with MagSafe Charging Case are designed with the following features to reduce their environmental impact:\n9\nMade with better materials\n100% recycled gold in the plating of multiple printed circuit boards\n100% recycled rare earth elements in all magnets\n100% recycled aluminium in the hinge of the MagSafe Charging Case\n100% recycled tin in the solder of multiple printed circuit boards\n35% or more recycled plastic in multiple components\nSmarter chemistry\n10\nMercury-, BFR-, PVC- and beryllium‑free\nGreen manufacturing\nApple’s Zero Waste Programme helps suppliers eliminate waste sent to landfill\nAll final assembly supplier sites are transitioning to 100% renewable energy for Apple production\nResponsible packaging\n100% of virgin wood fibre comes from responsibly managed forests\n90% or more fibre-based packaging\nApple and the Environment\nWe’re committed to making our products without taking from the earth, and to become carbon neutral across our entire business, including products, by 2030.\nSee Apple's commitment",
+        "unit": null,
+        "source_section": "AirPods Pro and the Environment",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    }
+  }
 }
