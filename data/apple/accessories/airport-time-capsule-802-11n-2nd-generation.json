@@ -26,10 +26,10 @@
   },
   "extraction": {
     "method": "section_preserving",
-    "normalization_status": "archival_first_pass",
-    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "normalization_status": "partially_normalized",
+    "note": "Official Apple accessory specification sections retained. Explicit wireless, interface, size/weight, compatibility and environmental statements have been separated into machine-readable fields where present. Values remain source_transcribed pending record-level verification; no absent values inferred.",
     "extracted_at": "2026-11-09",
-    "reviewed_at": null
+    "reviewed_at": "2026-11-09"
   },
   "sections": [
     {
@@ -94,6 +94,60 @@
     }
   ],
   "record_notes": [
-    "Archival-first-pass technical specification record; normalized values not inferred."
-  ]
+    "Archival-first-pass technical specification record; normalized values not inferred.",
+    "Field extraction pass 2026-11-09: selected accessory/networking specification sections separated into normalized fields with provenance."
+  ],
+  "normalized_specifications": {
+    "size_weight_statements": {
+      "value": {
+        "value": [
+          "Length: 7.7 inches (197 mm)",
+          "Width: 7.7 inches (197 mm)",
+          "Height: 1.4 inches (36.3 mm)",
+          "Weight: 3.5 pounds (1.6 kg)"
+        ],
+        "unit": null,
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple specification text; wording retained."
+      }
+    },
+    "wireless_specifications": {
+      "value": {
+        "value": [
+          "IEEE 802.11a/b/g/n"
+        ],
+        "unit": null,
+        "source_section": "Wireless protocols",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple specification text; wording retained."
+      }
+    },
+    "connection_interfaces": {
+      "value": {
+        "value": [
+          "One Gigabit Ethernet WAN port for connecting a DSL or cable modem",
+          "Three Gigabit Ethernet LAN ports for connecting computers or network devices",
+          "USB port for connecting a USB printer or USB external hard drive",
+          "802.11n wireless"
+        ],
+        "unit": null,
+        "source_section": "Interfaces",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple specification text; wording retained."
+      }
+    },
+    "compatibility_statements": {
+      "value": {
+        "value": [
+          "Interoperable with Wi-Fi Certified 802.11a, 802.11b, 802.11g, or 802.11n enabled Mac computers, iPhone, iPod touch, and Windows-based PCs",
+          "NAT, DHCP, PPPoE, VPN Passthrough (IPSec, PPTP, and L2TP), DNS Proxy, SNMP, IPv6 (6to4 and manual tunnels)"
+        ],
+        "unit": null,
+        "source_section": "Compatibility",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple specification text; wording retained."
+      }
+    }
+  }
 }
