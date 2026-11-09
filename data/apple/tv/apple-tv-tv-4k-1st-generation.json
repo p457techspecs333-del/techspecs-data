@@ -1,0 +1,92 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "streaming-media-player",
+    "family": "Apple TV",
+    "model": "Apple TV 4K (1st generation)",
+    "model_slug": "apple-tv-tv-4k-1st-generation",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111929",
+    "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-tv-4k-1st-generation.html",
+    "source_title": "Apple TV 4K (1st generation) - Technical Specifications",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple source captured 2026-11-09; model identity confirmed in source content; 13 sections archived.",
+    "notes": [
+      "Legacy models discovered through Apple's official model-identification page."
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Original source headings and visible text retained in source order. No missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Size and Weight",
+      "source_text": "Apple TV 4K\nHeight: 1.4 inches (35 mm)\nWidth: 3.9 inches (98 mm)\nDepth: 3.9 inches (98 mm)\nWeight: 15 ounces (425 g)\n1"
+    },
+    {
+      "heading": "Capacity",
+      "source_text": "32GB\n2\n64GB\n2"
+    },
+    {
+      "heading": "Siri Remote",
+      "source_text": "Size & Weight\nHeight: 4.88 inches (124 mm)\nWidth: 1.5 inches (38 mm)\nDepth: 0.25 inch (6.3 mm)\nWeight: 1.59 ounces (45 g)\n1\nFeatures\nBluetooth 4.0 wireless technology\nIR transmitter\nAccelerometer and three-axis gyro\nLightning connector for charging\nRechargeable battery providing months of battery life on a single charge (with typical daily usage)\nCharging via USB to computer system or power adapter (sold separately)"
+    },
+    {
+      "heading": "Ports and Interfaces",
+      "source_text": "HDMI 2.0a\n3\n802.11ac Wi‑Fi with MIMO; simultaneous dual band (2.4GHz and 5GHz)\nGigabit Ethernet\nBluetooth 5.0 wireless technology\nIR receiver\nBuilt‑in power supply"
+    },
+    {
+      "heading": "Processor",
+      "source_text": "A10X Fusion chip with 64-bit architecture"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "Purchases, rentals, and Home Sharing require an Apple ID that you use for the App Store and other Apple services.\nRequires 802.11 wireless, Ethernet network, or Broadband Internet access\nRequires 4K and HDR TV for 4K and HDR streaming\nRequires acceptance of the software license terms at\nwww.apple.com/legal/sla\nRequires HDMI cable (sold separately)"
+    },
+    {
+      "heading": "Video Formats",
+      "source_text": "H.264/HEVC SDR video up to 2160p, 60 fps, Main/Main 10 profile\nHEVC Dolby Vision (Profile 5)/HDR10 (Main 10 profile) up to 2160p\nH.264 Baseline Profile level 3.0 or lower with AAC-LC audio up to 160 Kbps per channel, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats\nMPEG-4 video up to 2.5 Mbps, 640 by 480 pixels, 30 fps, Simple profile with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats"
+    },
+    {
+      "heading": "Audio Formats",
+      "source_text": "HE-AAC (V1), AAC (up to 320 Kbps), protected AAC (from iTunes Store), MP3 (up to 320 Kbps), MP3 VBR, Apple Lossless, FLAC, AIFF, and WAV; AC-3 (Dolby Digital 5.1), E-AC-3 (Dolby Digital Plus 7.1 surround sound), and Dolby Atmos"
+    },
+    {
+      "heading": "Photo Formats",
+      "source_text": "HEIF, JPEG, GIF, TIFF"
+    },
+    {
+      "heading": "Compatibility",
+      "source_text": "Apple TV is compatible with HD and UHD TVs with HDMI\n3\nApple TV is compatible with Bluetooth keyboards\n4"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their Apple TV. With built-in support for vision, hearing, physical and motor skills, and learning and literacy, you can easily find and enjoy your favorite entertainment.\nLearn more about Accessibility\nFeatures include:\nVoiceOver\nZoom\nIncrease Contrast\nReduce Motion\nClosed Caption and SDH Support\nAudio Descriptions\nSiri and Dictation\nSwitch Control"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "Apple TV 4K\nSiri Remote\nPower cord\nLightning to USB cable\nDocumentation"
+    },
+    {
+      "heading": "Apple TV and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more about Apple TV and the Environment\nApple TV 4K and the Siri Remote are designed with the following features to reduce their environmental impact:\nApple TV 4K\nBFR-free\nPVC-free\n5\nMeets ENERGY STAR 5.0 requirements\nSiri Remote\nArsenic-free glass\nBFR-free\nPVC-free\n5\nRecyclable aluminum enclosure\nApple and the Environment\nRead our\nProduct Environmental Reports\nfor detailed information on the environmental performance of every Apple product."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from captured official Apple technical-specification HTML.",
+    "No normalized specifications or missing values have been inferred."
+  ]
+}

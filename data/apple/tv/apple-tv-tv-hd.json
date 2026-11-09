@@ -1,0 +1,96 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "streaming-media-player",
+    "family": "Apple TV",
+    "model": "Apple TV HD",
+    "model_slug": "apple-tv-tv-hd",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111928",
+    "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-tv-hd.html",
+    "source_title": "Apple TV HD - Technical Specifications",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple source captured 2026-11-09; model identity confirmed in source content; 14 sections archived.",
+    "notes": [
+      "Legacy models discovered through Apple's official model-identification page."
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Original source headings and visible text retained in source order. No missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Size and Weight",
+      "source_text": "Apple TV HD\nHeight: 1.4 inches (35 mm)\nWidth: 3.9 inches (98 mm)\nDepth: 3.9 inches (98 mm)\nWeight: 15 ounces (425 g)\n1"
+    },
+    {
+      "heading": "Capacity",
+      "source_text": "32GB\n2"
+    },
+    {
+      "heading": "Siri Remote (2nd generation)",
+      "source_text": "Available after May 2021.\nSize & Weight\nHeight: 5.4 inches (136 mm)\nWidth: 1.4 inches (35 mm)\nDepth: 0.36 inch (9.25 mm)\nWeight: 2.2 ounces (63 g)\n1\nFeatures\nBluetooth 5.0 wireless technology\nIR transmitter\nLightning connector for charging\nRechargeable battery providing months of battery life on a single charge (with typical daily usage)\nCharging via USB to computer system or power adapter (sold separately)\nControl your TV or receiver via IR or CEC\n3"
+    },
+    {
+      "heading": "Siri Remote (1st generation)",
+      "source_text": "Size & Weight\nHeight: 4.88 inches (124 mm)\nWidth: 1.5 inches (38 mm)\nDepth: 0.25 inch (6.3 mm)\nWeight: 1.59 ounces (45 g)\n1\nFeatures\nBluetooth 4.0 wireless technology\nIR transmitter\nAccelerometer and three-axis gyro\nLightning connector for charging\nRechargeable battery providing months of battery life on a single charge (with typical daily usage)\nCharging via USB to computer system or power adapter (sold separately)"
+    },
+    {
+      "heading": "Ports and Interfaces",
+      "source_text": "HDMI 1.4\n4\n802.11ac Wi‑Fi with MIMO\n10/100BASE-T Ethernet\nBluetooth 4.0 wireless technology\nIR receiver\nUSB‑C for service and support\nBuilt‑in power supply"
+    },
+    {
+      "heading": "Processor",
+      "source_text": "A8 chip with 64-bit architecture"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "Purchases, rentals, and Home Sharing require an Apple ID that you use for the App Store and other Apple services.\nRequires 802.11 wireless, Ethernet network, or Broadband Internet access\nRequires acceptance of the software license terms at\napple.com/legal/sla\nRequires HDMI cable (sold separately)"
+    },
+    {
+      "heading": "Video Formats",
+      "source_text": "HEVC SDR up to 1080p, 30 fps, Main/Main 10 profile\nH.264 video up to 1080p, 60 fps, High or Main Profile level 4.2 or lower\nH.264 Baseline Profile level 3.0 or lower with AAC-LC audio up to 160 Kbps per channel, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats\nMPEG-4 video up to 2.5 Mbps, 640 by 480 pixels, 30 fps, Simple Profile with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats"
+    },
+    {
+      "heading": "Audio Formats",
+      "source_text": "HE-AAC (V1), AAC (up to 320 Kbps), protected AAC (from iTunes Store), MP3 (up to 320 Kbps), MP3 VBR, Apple Lossless, FLAC, AIFF, and WAV; AC-3 (Dolby Digital 5.1) and E-AC-3 (Dolby Digital Plus 7.1 surround sound)"
+    },
+    {
+      "heading": "Photo Formats",
+      "source_text": "HEIF, JPEG, GIF, TIFF"
+    },
+    {
+      "heading": "Compatibility",
+      "source_text": "Apple TV HD is compatible with HDTVs with HDMI\n4\nApple TV HD is compatible with Bluetooth keyboards\n5"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their Apple TV. With built-in support for vision, hearing, mobility, and learning, you can easily find and enjoy your favorite entertainment.\nLearn more about Accessibility\nFeatures include:\nVoiceOver\nZoom\nBold Text\nIncrease Contrast\nReduce Motion\nClosed Caption and SDH Support\nAccessibility Shortcut\nSiri and Dictation"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "Apple TV HD\nSiri Remote\nPower cord\nLightning to USB cable\nDocumentation"
+    },
+    {
+      "heading": "Apple TV and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more about Apple TV and the Environment\nApple TV HD with Siri Remote is designed with the following features to reduce its environmental impact:\nApple TV HD with Siri Remote (2nd generation)\nBFR‑free\nPVC‑free\n6\nBeryllium-free\nMeets ENERGY STAR requirements\nSiri Remote (1st generation)\nArsenic‑free glass\nBFR‑free\nPVC‑free\n6\nRecyclable aluminum enclosure\nApple and the Environment\nRead our\nProduct Environmental Reports\nfor detailed information on the environmental performance of every Apple product."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from captured official Apple technical-specification HTML.",
+    "No normalized specifications or missing values have been inferred."
+  ]
+}

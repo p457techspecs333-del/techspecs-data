@@ -20,63 +20,63 @@
       "source_url": "https://support.apple.com/en-ie/111839",
       "source_title": "Apple TV 4K (3rd generation) - Tech Specs",
       "publisher": "Apple",
-      "purpose": "Technical specifications for tech specs for Apple TV 4K (3rd generation)",
-      "verification_status": "identity_not_confirmed",
-      "notes": "Expected model identity not confirmed in official source; no product record written."
+      "purpose": "Technical specifications for Apple TV 4K (3rd generation)",
+      "verification_status": "content_verified",
+      "notes": null
     },
     {
       "source_type": "support",
       "source_url": "https://support.apple.com/en-ie/111922",
       "source_title": "Apple TV 4K (2nd generation) - Technical Specifications",
       "publisher": "Apple",
-      "purpose": "Technical specifications for tech specs for Apple TV 4K (2nd generation)",
-      "verification_status": "identity_not_confirmed",
-      "notes": "Expected model identity not confirmed in official source; no product record written."
+      "purpose": "Technical specifications for Apple TV 4K (2nd generation)",
+      "verification_status": "content_verified",
+      "notes": null
     },
     {
       "source_type": "support",
       "source_url": "https://support.apple.com/en-ie/111929",
       "source_title": "Apple TV 4K (1st generation) - Technical Specifications",
       "publisher": "Apple",
-      "purpose": "Technical specifications for tech specs for Apple TV 4K (1st generation)",
-      "verification_status": "identity_not_confirmed",
-      "notes": "Expected model identity not confirmed in official source; no product record written."
+      "purpose": "Technical specifications for Apple TV 4K (1st generation)",
+      "verification_status": "content_verified",
+      "notes": null
     },
     {
       "source_type": "support",
       "source_url": "https://support.apple.com/en-ie/111928",
       "source_title": "Apple TV HD - Technical Specifications",
       "publisher": "Apple",
-      "purpose": "Technical specifications for tech specs for Apple TV HD",
-      "verification_status": "identity_not_confirmed",
-      "notes": "Expected model identity not confirmed in official source; no product record written."
+      "purpose": "Technical specifications for Apple TV HD",
+      "verification_status": "content_verified",
+      "notes": null
     },
     {
       "source_type": "support",
       "source_url": "https://support.apple.com/en-ie/112429",
       "source_title": "Apple TV (3rd generation) - Technical Specifications",
       "publisher": "Apple",
-      "purpose": "Technical specifications for tech specs for Apple TV (3rd generation)",
-      "verification_status": "identity_not_confirmed",
-      "notes": "Expected model identity not confirmed in official source; no product record written."
+      "purpose": "Technical specifications for Apple TV (3rd generation)",
+      "verification_status": "content_verified",
+      "notes": null
     },
     {
       "source_type": "support",
       "source_url": "https://support.apple.com/en-ie/112428",
       "source_title": "Apple TV (2nd generation) - Technical Specifications",
       "publisher": "Apple",
-      "purpose": "Technical specifications for tech specs for Apple TV (2nd generation)",
-      "verification_status": "identity_not_confirmed",
-      "notes": "Expected model identity not confirmed in official source; no product record written."
+      "purpose": "Technical specifications for Apple TV (2nd generation)",
+      "verification_status": "content_verified",
+      "notes": null
     },
     {
       "source_type": "support",
       "source_url": "https://support.apple.com/en-ie/112555",
       "source_title": "Apple TV (1st generation) - Technical Specifications",
       "publisher": "Apple",
-      "purpose": "Technical specifications for tech specs for Apple TV (1st generation)",
-      "verification_status": "identity_not_confirmed",
-      "notes": "Expected model identity not confirmed in official source; no product record written."
+      "purpose": "Technical specifications for Apple TV (1st generation)",
+      "verification_status": "content_verified",
+      "notes": null
     }
   ],
   "working_scope": [
@@ -91,74 +91,74 @@
       "limitation": null
     },
     {
-      "model": "tech specs for Apple TV 4K (3rd generation)",
-      "record_path": "data/apple/tv/apple-tv-tech-specs-for-tv-4k-3rd-generation.json",
+      "model": "Apple TV 4K (3rd generation)",
+      "record_path": "data/apple/tv/apple-tv-tv-4k-3rd-generation.json",
       "source_url": "https://support.apple.com/en-ie/111839",
-      "source_verification_status": "identity_not_confirmed",
-      "extraction_status": "outstanding",
+      "source_verification_status": "content_verified",
+      "extraction_status": "extracted",
       "section_count": 14,
-      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-tech-specs-for-tv-4k-3rd-generation.html",
-      "limitation": "Expected model identity not confirmed in official source; no product record written."
+      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-tv-4k-3rd-generation.html",
+      "limitation": null
     },
     {
-      "model": "tech specs for Apple TV 4K (2nd generation)",
-      "record_path": "data/apple/tv/apple-tv-tech-specs-for-tv-4k-2nd-generation.json",
+      "model": "Apple TV 4K (2nd generation)",
+      "record_path": "data/apple/tv/apple-tv-tv-4k-2nd-generation.json",
       "source_url": "https://support.apple.com/en-ie/111922",
-      "source_verification_status": "identity_not_confirmed",
-      "extraction_status": "outstanding",
+      "source_verification_status": "content_verified",
+      "extraction_status": "extracted",
       "section_count": 13,
-      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-tech-specs-for-tv-4k-2nd-generation.html",
-      "limitation": "Expected model identity not confirmed in official source; no product record written."
+      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-tv-4k-2nd-generation.html",
+      "limitation": null
     },
     {
-      "model": "tech specs for Apple TV 4K (1st generation)",
-      "record_path": "data/apple/tv/apple-tv-tech-specs-for-tv-4k-1st-generation.json",
+      "model": "Apple TV 4K (1st generation)",
+      "record_path": "data/apple/tv/apple-tv-tv-4k-1st-generation.json",
       "source_url": "https://support.apple.com/en-ie/111929",
-      "source_verification_status": "identity_not_confirmed",
-      "extraction_status": "outstanding",
+      "source_verification_status": "content_verified",
+      "extraction_status": "extracted",
       "section_count": 13,
-      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-tech-specs-for-tv-4k-1st-generation.html",
-      "limitation": "Expected model identity not confirmed in official source; no product record written."
+      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-tv-4k-1st-generation.html",
+      "limitation": null
     },
     {
-      "model": "tech specs for Apple TV HD",
-      "record_path": "data/apple/tv/apple-tv-tech-specs-for-tv-hd.json",
+      "model": "Apple TV HD",
+      "record_path": "data/apple/tv/apple-tv-tv-hd.json",
       "source_url": "https://support.apple.com/en-ie/111928",
-      "source_verification_status": "identity_not_confirmed",
-      "extraction_status": "outstanding",
+      "source_verification_status": "content_verified",
+      "extraction_status": "extracted",
       "section_count": 14,
-      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-tech-specs-for-tv-hd.html",
-      "limitation": "Expected model identity not confirmed in official source; no product record written."
+      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-tv-hd.html",
+      "limitation": null
     },
     {
-      "model": "tech specs for Apple TV (3rd generation)",
-      "record_path": "data/apple/tv/apple-tv-tech-specs-for-tv-3rd-generation.json",
+      "model": "Apple TV (3rd generation)",
+      "record_path": "data/apple/tv/apple-tv-tv-3rd-generation.json",
       "source_url": "https://support.apple.com/en-ie/112429",
-      "source_verification_status": "identity_not_confirmed",
-      "extraction_status": "outstanding",
+      "source_verification_status": "content_verified",
+      "extraction_status": "extracted",
       "section_count": 3,
-      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-tech-specs-for-tv-3rd-generation.html",
-      "limitation": "Expected model identity not confirmed in official source; no product record written."
+      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-tv-3rd-generation.html",
+      "limitation": null
     },
     {
-      "model": "tech specs for Apple TV (2nd generation)",
-      "record_path": "data/apple/tv/apple-tv-tech-specs-for-tv-2nd-generation.json",
+      "model": "Apple TV (2nd generation)",
+      "record_path": "data/apple/tv/apple-tv-tv-2nd-generation.json",
       "source_url": "https://support.apple.com/en-ie/112428",
-      "source_verification_status": "identity_not_confirmed",
-      "extraction_status": "outstanding",
+      "source_verification_status": "content_verified",
+      "extraction_status": "extracted",
       "section_count": 15,
-      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-tech-specs-for-tv-2nd-generation.html",
-      "limitation": "Expected model identity not confirmed in official source; no product record written."
+      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-tv-2nd-generation.html",
+      "limitation": null
     },
     {
-      "model": "tech specs for Apple TV (1st generation)",
-      "record_path": "data/apple/tv/apple-tv-tech-specs-for-tv-1st-generation.json",
+      "model": "Apple TV (1st generation)",
+      "record_path": "data/apple/tv/apple-tv-tv-1st-generation.json",
       "source_url": "https://support.apple.com/en-ie/112555",
-      "source_verification_status": "identity_not_confirmed",
-      "extraction_status": "outstanding",
+      "source_verification_status": "content_verified",
+      "extraction_status": "extracted",
       "section_count": 12,
-      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-tech-specs-for-tv-1st-generation.html",
-      "limitation": "Expected model identity not confirmed in official source; no product record written."
+      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-tv-1st-generation.html",
+      "limitation": null
     }
   ],
   "notes": [

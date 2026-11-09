@@ -1,0 +1,52 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "streaming-media-player",
+    "family": "Apple TV",
+    "model": "Apple TV (3rd generation)",
+    "model_slug": "apple-tv-tv-3rd-generation",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/112429",
+    "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-tv-3rd-generation.html",
+    "source_title": "Apple TV (3rd generation) - Technical Specifications",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple source captured 2026-11-09; model identity confirmed in source content; 3 sections archived.",
+    "notes": [
+      "Legacy models discovered through Apple's official model-identification page."
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Original source headings and visible text retained in source order. No missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Apple TV and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more\nApple TV is designed with the following features to reduce its environmental impact:\nBrominated flame retardant-free\nPVC-free\nMeets ENERGY STAR 3.0 requirements for set-top boxes\nApple and the Environment\nLearn more\nabout Apple’s dedication to reducing the environmental impact of our products and process.\nApple Product Environmental Reports\ndetail the environmental attributes of our products.\nRecycling\nApple takes a holistic view of materials management and waste minimization.\nLearn more\nabout how to recycle your Apple products."
+    },
+    {
+      "heading": "iTunes Movies and TV Shows 3",
+      "source_text": "Resolution\nAudio\nHD Movie\n1920 x 1080 (maximum)\nDolby Digital 5.1 surround sound (not all titles)\nSD Movie\n720 x 480 anamorphic (maximum)\nDolby Digital 5.1 surround sound (not all titles)\nHD TV Show\n1920 x 1080 (maximum)\nDolby Digital 5.1 surround sound (not all titles)\nSD TV Show\n720 x 480 anamorphic (maximum)\nDolby Digital 5.1 surround sound (not all titles)"
+    },
+    {
+      "heading": "Accessories",
+      "source_text": "Apple HDMI to HDMI Cable\nThe Apple HDMI to HDMI Cable lets you connect an Apple TV, Mac mini, or other HDMI device to an HDTV or A/V receiver. Both high-definition digital video and multichannel digital audio are delivered over this single cable for stunning picture and sound.\nBelkin 6' Digital Toslink Optical Audio Cable with\nLine-Out\nAdapter\nBelkin 6' Digital Toslink Optical Audio Cable with Line-Out Adapter sends uncorrupted audio to any A/V receiver or device. It’s ideal for audiophiles who want to take full advantage of the digital output capability built into their Mac, A/V receiver, DVD player, satellite dish receiver, or cable box.\nAppleCare Protection Plan\nThe AppleCare Protection Plan provides service and support from the people who know your Apple TV best. For up to two years from the original purchase date of your Apple TV, you get direct, one-stop access to Apple’s award-winning telephone technical support and repair coverage."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from captured official Apple technical-specification HTML.",
+    "No normalized specifications or missing values have been inferred."
+  ]
+}

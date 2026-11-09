@@ -1,0 +1,96 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "streaming-media-player",
+    "family": "Apple TV",
+    "model": "Apple TV 4K (3rd generation)",
+    "model_slug": "apple-tv-tv-4k-3rd-generation",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111839",
+    "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-tv-4k-3rd-generation.html",
+    "source_title": "Apple TV 4K (3rd generation) - Tech Specs",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple source captured 2026-11-09; model identity confirmed in source content; 14 sections archived.",
+    "notes": [
+      "Legacy models discovered through Apple's official model-identification page."
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Original source headings and visible text retained in source order. No missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height:\n31 mm (1.2 inches)\nWidth:\n93 mm (3.66 inches)\nDepth:\n93 mm (3.66 inches)\nWeight (Wi‑Fi model):\n208 g (7.3 ounces)\n1\nWeight (Wi‑Fi + Ethernet model):\n214 g (7.5 ounces)\n1"
+    },
+    {
+      "heading": "Capacity 2",
+      "source_text": "64GB (Wi‑Fi model)\n128GB (Wi‑Fi + Ethernet model)"
+    },
+    {
+      "heading": "Connect­ivity",
+      "source_text": "Wi‑Fi model\nHDMI 2.1\n3\nWi‑Fi 6 (802.11ax) with 2x2 MIMO\nBluetooth 5.0 wireless technology\nIR receiver\nBuilt-in power supply\nWi‑Fi + Ethernet model\nHDMI 2.1\n3\nWi‑Fi 6 (802.11ax) with 2x2 MIMO\nBluetooth 5.0 wireless technology\nIR receiver\nBuilt-in power supply\nThread networking technology\n4\nGigabit Ethernet"
+    },
+    {
+      "heading": "Siri Remote (3rd generation)",
+      "source_text": "Size & Weight\nHeight:\n136 mm (5.4 inches)\nWidth:\n35 mm (1.4 inches)\nDepth:\n9.25 mm (0.36 inches)\nWeight:\n66 g (2.3 ounces)\n1\nFeatures\nBluetooth 5.0 wireless technology\nIR transmitter\nUSB‑C connector for charging\nRechargeable battery providing months of battery life on a single charge (with typical daily usage)\nCharging via USB‑C cable to computer system or power adapter (each sold separately)\nControl your TV or receiver via IR or CEC\n5"
+    },
+    {
+      "heading": "Processor",
+      "source_text": "A15 Bionic chip"
+    },
+    {
+      "heading": "System Require­ments",
+      "source_text": "Purchases, rentals and Home Sharing require an Apple Account that you use for the App Store and other Apple services\nRequires 4K and HDR TV for 4K and HDR streaming\nRequires acceptance of the software licence terms at\napple.com/uk/legal/sla\nRequires HDMI cable (sold separately)\nWi‑Fi model\nRequires 802.11 wireless or broadband internet access\nWi‑Fi + Ethernet model\nRequires 802.11 wireless, Ethernet network or broadband internet access"
+    },
+    {
+      "heading": "Video Formats",
+      "source_text": "SDR video with AVC/HEVC (Main/Main 10 profile) up to 2160p, 60 fps\nDolby Vision (Profile 5) up to 2160p, 60 fps\nHDR10+/HDR10/HLG with HEVC (Main 10 Profile) up to 2160p, 60 fps\nH.264 Baseline Profile level 3.0 or lower with AAC‑LC audio up to 160Kb/s per channel, 48kHz, stereo audio in .m4v, .mp4 and .mov file formats\nMPEG-4 video up to 2.5Mb/s, 640x480 pixels, 30 fps, Simple profile with AAC‑LC audio up to 160Kb/s, 48kHz, stereo audio in .m4v, .mp4 and .mov file formats\nHDMI Quick Media Switching (QMS) for seamless format transitions\nSupport for 21:9 and other cinematic aspect ratios when playing movies and shows on compatible projectors and displays\n6"
+    },
+    {
+      "heading": "Audio Formats",
+      "source_text": "HE-AAC (V1), AAC (up to 320Kb/s), protected AAC (from iTunes Store), MP3 (up to 320Kb/s), MP3 VBR, Apple Lossless, FLAC, AIFF and WAV; AC‑3 (Dolby Digital 5.1), E-AC‑3 (Dolby Digital Plus 7.1 surround sound) and Dolby Atmos"
+    },
+    {
+      "heading": "Photo Formats",
+      "source_text": "HEIF, JPEG, GIF, TIFF"
+    },
+    {
+      "heading": "Compat­ibility",
+      "source_text": "Compatible with HD and UHD TVs with HDMI\n3\nCompatible with Bluetooth keyboards\n7"
+    },
+    {
+      "heading": "Access­ibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their Apple TV. With built-in support for vision, hearing, mobility and learning, you can easily find and enjoy your favourite entertainment.\nLearn more about Accessibility\nFeatures include:\nVoiceOver\nZoom\nHover Text\nIncrease Contrast\nReduce Motion\nClosed Caption and SDH Support\nAudio Descriptions\nSiri and Dictation\nType to Siri\nSwitch Control"
+    },
+    {
+      "heading": "Electrical and Environmental Requirements",
+      "source_text": "Line voltage:\n100V to 240V AC\nFrequency:\n50Hz to 60Hz\nOperating temperature:\n0° to 35° C (32° to 95° F)\nStorage temperature:\n–20° to 45° C (–4° to 113° F)\nRelative humidity:\n5% to 95% non‑condensing\nOperating altitude:\ntested up to 3,000 metres (10,000 feet)"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "Apple TV 4K (3rd generation)\nSiri Remote (3rd generation)\nPower lead\nDocumentation"
+    },
+    {
+      "heading": "Apple TV 4K and the Environment",
+      "source_text": "Apple TV 4K with Siri Remote is designed with the following features to reduce its environmental impact:\n8\nSee the Apple TV 4K Product Environmental Report\nMade with better materials\n80% recycled aluminium in the Apple TV 4K thermal module\n100% recycled aluminium in the Siri Remote enclosure\n100% recycled gold in the plating of multiple printed circuit boards\n100% recycled tin in the solder of multiple printed circuit boards\n35% or more recycled plastic in multiple components\nSmarter chemistry\n9\nMercury-, BFR-, PVC- and beryllium-free\nGreen manufacturing\nApple’s Zero Waste Programme helps suppliers eliminate waste sent to landfill\nAll final assembly supplier sites are transitioning to 100% renewable energy for Apple production\nResponsible packaging\n100% of virgin wood fibre comes from responsibly managed forests\n90% or more fibre‑based packaging and no outer plastic wrapping\nApple and the Environment\nWe’re committed to making our products without taking from the earth, and to become carbon neutral across our entire business, including products, by 2030.\nSee Apple’s commitment"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from captured official Apple technical-specification HTML.",
+    "No normalized specifications or missing values have been inferred."
+  ]
+}

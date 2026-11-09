@@ -7,39 +7,39 @@
       "verification_status": "content_verified"
     },
     {
-      "model": "tech specs for Apple TV 4K (3rd generation)",
+      "model": "Apple TV 4K (3rd generation)",
       "requested_url": "https://support.apple.com/111839",
-      "verification_status": "identity_not_confirmed"
+      "verification_status": "content_verified"
     },
     {
-      "model": "tech specs for Apple TV 4K (2nd generation)",
+      "model": "Apple TV 4K (2nd generation)",
       "requested_url": "https://support.apple.com/111922",
-      "verification_status": "identity_not_confirmed"
+      "verification_status": "content_verified"
     },
     {
-      "model": "tech specs for Apple TV 4K (1st generation)",
+      "model": "Apple TV 4K (1st generation)",
       "requested_url": "https://support.apple.com/111929",
-      "verification_status": "identity_not_confirmed"
+      "verification_status": "content_verified"
     },
     {
-      "model": "tech specs for Apple TV HD",
+      "model": "Apple TV HD",
       "requested_url": "https://support.apple.com/111928",
-      "verification_status": "identity_not_confirmed"
+      "verification_status": "content_verified"
     },
     {
-      "model": "tech specs for Apple TV (3rd generation)",
+      "model": "Apple TV (3rd generation)",
       "requested_url": "https://support.apple.com/112429",
-      "verification_status": "identity_not_confirmed"
+      "verification_status": "content_verified"
     },
     {
-      "model": "tech specs for Apple TV (2nd generation)",
+      "model": "Apple TV (2nd generation)",
       "requested_url": "https://support.apple.com/112428",
-      "verification_status": "identity_not_confirmed"
+      "verification_status": "content_verified"
     },
     {
-      "model": "tech specs for Apple TV (1st generation)",
+      "model": "Apple TV (1st generation)",
       "requested_url": "https://support.apple.com/112555",
-      "verification_status": "identity_not_confirmed"
+      "verification_status": "content_verified"
     }
   ]
 }
