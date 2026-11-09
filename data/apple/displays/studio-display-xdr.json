@@ -95,7 +95,7 @@
         "unit": "pixels",
         "source_section": "Display",
         "verification_status": "source_transcribed",
-        "notes": "Explicit value parsed from the preserved official Apple specification section; source wording and qualifiers retained."
+        "notes": "Parsed from explicit official Apple source text; qualifiers retained."
       }
     },
     "pixel_density": {
