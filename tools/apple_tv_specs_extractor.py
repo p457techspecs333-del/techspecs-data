@@ -46,7 +46,7 @@ def get_page(url):
 
 def slugify(text):
     s = text.lower().replace("apple", "").strip()
-    s = re.sub(r"^tv\\s*", "", s)
+    s = re.sub(r"^tv\s*", "", s)
     s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
     return "apple-tv-" + s
 
