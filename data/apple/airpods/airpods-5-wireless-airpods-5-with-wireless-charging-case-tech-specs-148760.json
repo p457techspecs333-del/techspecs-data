@@ -27,7 +27,7 @@
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
-    "note": "Official Apple source sections preserved; product taxonomy corrected. Field-level normalized specifications still require extraction and verification; no values inferred.",
+    "note": "Official Apple sections preserved and transcribed into machine-readable section fields. Individual measurements, battery figures, model identifiers and footnote qualifications still require field-level parsing and validation; no values inferred.",
     "extracted_at": "2026-11-09",
     "reviewed_at": "2026-11-09"
   },
@@ -97,5 +97,142 @@
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Taxonomy audit 2026-11-09: classified as Apple audio hardware, not software.",
     "Field-level normalization remains incomplete; source_text is the evidence of record."
-  ]
+  ],
+  "normalized_specifications": {
+    "audio_technology": {
+      "source_text": {
+        "value": "Custom high‑excursion Apple driver\nCustom high dynamic range amplifier\nActive Noise Cancellation\nAdaptive Audio\n2\nTransparency\nConversation Awareness\n2\nVoice Isolation\n2\nPersonalised Spatial Audio with dynamic head tracking\n3\nAdaptive EQ\nStudio‑quality audio recording\nVent system for pressure equalisation",
+        "unit": null,
+        "source_section": "Audio Technology 1",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "live_translation": {
+      "source_text": {
+        "value": "Live Translation for communicating across languages\n4",
+        "unit": null,
+        "source_section": "Live Translation",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "siri_ai": {
+      "source_text": {
+        "value": "Get more done every day with hands‑free access to an even more powerful and personalised AI assistant on your iPhone. Ask open‑ended questions, brainstorm and have full conversations.",
+        "unit": null,
+        "source_section": "Siri AI 5",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "sensors": {
+      "source_text": {
+        "value": "Dual beam‑forming microphones\nInward‑facing microphone\nOptical in‑ear sensor\nMotion‑detecting accelerometer\nSpeech‑detecting accelerometer\nForce sensor\nForce sensor with volume swipe (AirPods 5 with Wireless Charging Case)",
+        "unit": null,
+        "source_section": "Sensors",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "chip": {
+      "source_text": {
+        "value": "H2 headphone chip",
+        "unit": null,
+        "source_section": "Chip",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "controls": {
+      "source_text": {
+        "value": "Press once to play or pause media\nPress once to answer a call or mute or unmute\n6\nPress once for camera remote\n7\nPress twice to end a call\nPress twice to skip forward\nPress three times to skip back\nPress and hold to switch between listening modes\nSwipe up or down to adjust volume (AirPods 5 with Wireless Char­ging Case)\nSay “Hey Siri” or just “Siri”\n8\nto do things like play a song, make a call or get directions\nWith Siri Interactions, nod your head yes or gently shake your head no when Siri asks if you want to answer an incoming call, hear a text message, manage notifications and more\n2",
+        "unit": null,
+        "source_section": "Controls",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "dust_sweat_and_water_resistant": {
+      "source_text": {
+        "value": "Dust, sweat and water resistant (IP57)",
+        "unit": null,
+        "source_section": "Dust, Sweat and Water Resistant 9",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "size_and_weight": {
+      "source_text": {
+        "value": "AirPods 5 with Wireless Char­ging Case (Each)\nHeight:\n30.2 mm (1.19 inches)\nWidth:\n18.3 mm (0.72 inches)\nDepth:\n18.1 mm (0.71 inches)\nWeight:\n4.3 grams (0.15 ounces)\nChar­ging Case (USB‑C)\nwith speaker\nHeight:\n46.2 mm (1.82 inches)\nWidth:\n50.1 mm (1.97 inches)\nDepth:\n21.2 mm (0.83 inches)\nWeight:\n34.7 grams (1.22 ounces)",
+        "unit": null,
+        "source_section": "Size and Weight 10",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "charging_case": {
+      "source_text": {
+        "value": "Works with USB‑C connector, Apple Watch charger or Qi‑certified chargers\nIncludes a speaker for use with Find My\n11",
+        "unit": null,
+        "source_section": "Charging Case",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "battery": {
+      "source_text": {
+        "value": "AirPods 5 with Wireless Charging Case\nUp to 5 hours of battery life on a single charge with Active Noise Cancellation enabled\n12\nUp to 7 hours of battery life on a single charge with noise control off\n12\nBattery life with charging case\nUp to 22 hours of battery life with Active Noise Cancellation enabled\n13\n5 minutes in the case provides around 1 hour of battery life\n14",
+        "unit": null,
+        "source_section": "Battery",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "connectivity": {
+      "source_text": {
+        "value": "Bluetooth 5.3 wireless technology",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "in_the_box": {
+      "source_text": {
+        "value": "AirPods 5 with Wireless Charging Case\nChar­ging Case (USB‑C) with speaker\nDocumentation",
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "accessibility": {
+      "source_text": {
+        "value": "Accessi­bility features help people with disabilities get the most out of their new AirPods.\nFeatures include:\nLive Listen audio\n15\nHeadphone levels\nHeadphone Accommodations",
+        "unit": null,
+        "source_section": "Accessibility",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "system_requirements": {
+      "source_text": {
+        "value": "iPhone models with the latest version of iOS\niPad models with the latest version of iPadOS\nApple Watch models with the latest version of watchOS\nMac models with the latest version of macOS\nApple TV models with the latest version of tvOS\nApple Vision Pro with the latest version of visionOS\nAirPods can be used as wireless Bluetooth headphones with Apple devices using earlier software and with non‑Apple devices, but functionality may be limited.",
+        "unit": null,
+        "source_section": "System Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "airpods_and_the_environment": {
+      "source_text": {
+        "value": "See the AirPods 5 Product En­viron­men­tal Report (PDF)\nProgress towards Apple 2030\nApple 2030 is our goal to be carbon neutral across our value chain. We design our products to be less carbon intensive by prioritising the use of recycled and renewable content and low‑carbon materials while focusing on the energy efficiency of our software and hardware.\nSee Apple’s commitment\nMaterials\nAirPods 5 are made with 40% recycled content,\n16\nincluding:\n100% recycled aluminium in the hinge of the case\n100% recycled cobalt in the battery\n100% recycled gold plating and tin solder in all Apple‑designed printed circuit boards\n95% recycled lithium in the battery\n70% recycled plastic in the wireless charging case\n17\n100% recycled rare earth elements in all magnets\nPackaging\n100% fibre‑based packaging\n18\nEnergy\n35% of manufacturing electricity for AirPods 5 is sourced from renewable electricity\n19\nExceeds US Department of Energy requirements for battery charger systems\n20\nWaste\nNo established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme\n21\nSmarter Chemistry\n22\nAll of the materials used in Apple products, accessories and packaging are covered by the requirements of our\nRegulated Substances Specification\n, which was one of the first in industry to restrict the use of key substances of concern. See the latest\nEnvironmental Progress Report\nto understand Apple’s recent efforts in phasing out these chemistries.",
+        "unit": null,
+        "source_section": "AirPods and the Environment",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    }
+  }
 }
