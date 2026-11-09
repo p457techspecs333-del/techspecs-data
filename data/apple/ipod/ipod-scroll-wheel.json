@@ -8,7 +8,11 @@
     "model_slug": "ipod-scroll-wheel",
     "model_year": null,
     "year_introduced": null,
-    "variant": null
+    "variant": null,
+    "storage_options": [
+      "5 GB",
+      "10 GB"
+    ]
   },
   "source": {
     "source_type": "manufacturer",
@@ -26,10 +30,10 @@
   },
   "extraction": {
     "method": "section_preserving",
-    "normalization_status": "archival_first_pass",
-    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "normalization_status": "partially_normalized",
+    "note": "Official Apple iPod identification text retained. Explicit model numbers, introduction dates, capacity options and navigation interface extracted where present with source-section provenance. These are identification-page records, not full historical technical-specification sheets; no absent specs inferred.",
     "extracted_at": "2026-11-09",
-    "reviewed_at": null
+    "reviewed_at": "2026-11-09"
   },
   "sections": [
     {
@@ -38,6 +42,39 @@
     }
   ],
   "record_notes": [
-    "Archival-first-pass record; normalized specifications not inferred."
-  ]
+    "Archival-first-pass record; normalized specifications not inferred.",
+    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text."
+  ],
+  "normalized_specifications": {
+    "navigation_interface": {
+      "value": {
+        "value": "Scroll Wheel",
+        "unit": null,
+        "source_section": "iPod (Scroll Wheel)",
+        "verification_status": "source_transcribed",
+        "notes": "Parsed from the preserved official Apple iPod identification text; wording retained."
+      }
+    },
+    "capacity_statements": {
+      "value": {
+        "value": [
+          "5 GB",
+          "10 GB"
+        ],
+        "unit": null,
+        "source_section": "iPod (Scroll Wheel)",
+        "verification_status": "source_transcribed",
+        "notes": "Capacities parsed from the explicit Capacity line; original wording remains in source_text."
+      }
+    },
+    "official_description": {
+      "value": {
+        "value": "M8541: March 2002\nM8541: October 2001\niPod (Scroll Wheel) models have a scroll wheel that physically turns. The controls (Play, Menu, Next, Previous) are in a circle around the wheel. iPod (Scroll Wheel) models are referred to as first-generation iPod models.",
+        "unit": null,
+        "source_section": "iPod (Scroll Wheel)",
+        "verification_status": "source_transcribed",
+        "notes": "Descriptive text transcribed from the official Apple identification page, excluding repeated model/date metadata lines."
+      }
+    }
+  }
 }
