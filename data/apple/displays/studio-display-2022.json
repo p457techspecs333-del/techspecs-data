@@ -6,8 +6,8 @@
     "family": "Apple Displays",
     "model": "Studio Display (2022)",
     "model_slug": "studio-display-2022",
-    "model_year": null,
-    "year_introduced": null,
+    "model_year": 2022,
+    "year_introduced": 2022,
     "variant": null
   },
   "source": {
@@ -19,17 +19,17 @@
     "published_at": null,
     "checked_at": "2026-11-09",
     "verification_status": "content_verified",
-    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 12 sections archived.",
+    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 12 sections archived. Year introduced cross-checked against Apple's official display-identification page on 2026-11-09.",
     "notes": [
       "Extracted from official Apple technical specification link discovered on model index."
     ]
   },
   "extraction": {
     "method": "section_preserving",
-    "normalization_status": "archival_first_pass",
-    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "normalization_status": "partially_normalized",
+    "note": "Official Apple display specification sections retained. Model introduction year and explicit display, camera, audio, port, size/weight and electrical details parsed where present with source-section provenance. Configuration-dependent values and footnotes remain attached to source wording; no absent specs inferred.",
     "extracted_at": "2026-11-09",
-    "reviewed_at": null
+    "reviewed_at": "2026-11-09"
   },
   "sections": [
     {
@@ -82,6 +82,131 @@
     }
   ],
   "record_notes": [
-    "Archival-first-pass record; normalized specifications not inferred."
-  ]
+    "Archival-first-pass record; normalized specifications not inferred.",
+    "Field extraction pass 2026-11-09: normalized explicit display specifications and verified introduction year against Apple's official display-identification page."
+  ],
+  "normalized_specifications": {
+    "diagonal_size": {
+      "value": {
+        "value": 27,
+        "unit": "inches",
+        "source_section": "Display",
+        "verification_status": "source_transcribed",
+        "notes": "Explicit value parsed from the preserved official Apple specification section; source wording and qualifiers retained."
+      }
+    },
+    "resolution_pixels": {
+      "value": {
+        "value": {
+          "width": 5120,
+          "height": 2880
+        },
+        "unit": "pixels",
+        "source_section": "Display",
+        "verification_status": "source_transcribed",
+        "notes": "Explicit value parsed from the preserved official Apple specification section; source wording and qualifiers retained."
+      }
+    },
+    "pixel_density": {
+      "value": {
+        "value": 218,
+        "unit": "ppi",
+        "source_section": "Display",
+        "verification_status": "source_transcribed",
+        "notes": "Explicit value parsed from the preserved official Apple specification section; source wording and qualifiers retained."
+      }
+    },
+    "brightness_statements": {
+      "value": {
+        "value": [
+          {
+            "value": 600,
+            "qualifier": "unspecified"
+          }
+        ],
+        "unit": "nits",
+        "source_section": "Display",
+        "verification_status": "source_transcribed",
+        "notes": "Brightness values retained with source qualifiers (e.g. sustained full-screen or peak); no single maximum inferred."
+      }
+    },
+    "panel_description": {
+      "value": {
+        "value": "27-inch (diagonal) 5K Retina display",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "source_transcribed",
+        "notes": "Explicit value parsed from the preserved official Apple specification section; source wording and qualifiers retained."
+      }
+    },
+    "camera_resolution": {
+      "value": {
+        "value": 12,
+        "unit": "MP",
+        "source_section": "Camera",
+        "verification_status": "source_transcribed",
+        "notes": "Explicit value parsed from the preserved official Apple specification section; source wording and qualifiers retained."
+      }
+    },
+    "audio_features": {
+      "value": {
+        "value": [
+          "High-fidelity six-speaker system with force-cancelling woofers",
+          "Wide stereo sound",
+          "Support for Spatial Audio when playing music or video with Dolby Atmos",
+          "Studio-quality three-mic array with high signal-to-noise ratio and directional beamforming",
+          "Support for “Hey Siri”"
+        ],
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "source_transcribed",
+        "notes": "Audio feature statements retained from the official source."
+      }
+    },
+    "connection_details": {
+      "value": {
+        "value": [
+          "One upstream Thunderbolt 3 (USB‑C) port for host (with 96W host charging)",
+          "Three downstream USB‑C ports (up to 10Gb/s) for connecting peripherals, storage and networking"
+        ],
+        "unit": null,
+        "source_section": "Connections",
+        "verification_status": "source_transcribed",
+        "notes": "Port counts, standards, bandwidth and charging details retained as individual source statements."
+      }
+    },
+    "size_weight_configurations": {
+      "value": {
+        "value": [
+          "Studio Display with tilt-adjustable stand\nHeight:\n47.8 cm (18.8 inches)\nWidth:\n62.3 cm (24.5 inches)\nDepth:\n16.8 cm (6.6 inches)\nWeight:\n6.3 kg (13.9 pounds)",
+          "Studio Display with tilt- and height-adjustable stand\nHeight (bottom position):\n47.9 cm (18.8 inches)\nWidth:\n62.3 cm (24.5 inches)\nHeight (top position):\n58.3 cm (23.0 inches)\nWeight:\n7.7 kg (16.9 pounds)",
+          "Depth:\n20.7 cm (8.1 inches)\nStudio Display with VESA mount adapter\nHeight:\n36.2 cm (14.3 inches)\nWidth:\n62.3 cm (24.5 inches)\nDepth:\n3.1 cm (1.2 inches)\nWeight:\n5.5 kg (12.1 pounds)\n1"
+        ],
+        "unit": null,
+        "source_section": "Size and Weight",
+        "verification_status": "source_transcribed",
+        "notes": "Configuration-specific size/weight blocks retained separately where footnote-number separators are present; no stand configuration is assumed."
+      }
+    },
+    "electrical_operating_requirements": {
+      "value": {
+        "value": [
+          "Line voltage:",
+          "100–240V AC",
+          "Frequency:",
+          "50Hz to 60Hz, single phase",
+          "Operating temperature:",
+          "10° to 35° C (50° to 95° F)",
+          "Relative humidity:",
+          "5% to 90% non-condensing",
+          "Maximum altitude:",
+          "tested up to 5,000 metres (16,400 feet)"
+        ],
+        "unit": null,
+        "source_section": "Electrical and Operating Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Explicit value parsed from the preserved official Apple specification section; source wording and qualifiers retained."
+      }
+    }
+  }
 }
