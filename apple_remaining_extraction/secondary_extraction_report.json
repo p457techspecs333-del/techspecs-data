@@ -1,11 +1,498 @@
 {
-  "started_utc": "2026-11-09T12:20:34.584160+00:00",
-  "finished_utc": "2026-11-09T12:20:34.584176+00:00",
-  "documentation_pages_checked": 57,
-  "technical_spec_links_discovered": 41,
-  "records_written": 41,
+  "started_utc": "2026-11-09T12:22:28.894258+00:00",
+  "finished_utc": "2026-11-09T12:22:28.894294+00:00",
+  "documentation_pages_checked": 77,
+  "technical_spec_links_discovered": 60,
+  "records_written": 60,
   "errors": 0,
   "pages": [
+    {
+      "family": "airpods",
+      "label": "AirPods 5",
+      "documentation_url": "https://support.apple.com/en-ie/docs/airpods/301319",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/airpods/301319",
+      "model": "AirPods 5",
+      "year_introduced": 2026,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/airpods-docs-airpods-5.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/148759"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/148759",
+          "title": "AirPods 5 - Tech Specs",
+          "status": "content_verified",
+          "section_count": 15,
+          "record_path": "data/apple/airpods/airpods-5.json"
+        }
+      ]
+    },
+    {
+      "family": "airpods",
+      "label": "AirPods 5 (Wireless)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/airpods/301320",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/airpods/301320",
+      "model": "AirPods 5 (Wireless)",
+      "year_introduced": 2026,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/airpods-docs-airpods-5-wireless.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/148760"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/148760",
+          "title": "AirPods 5 with Wireless Charging Case - Tech Specs",
+          "status": "content_verified",
+          "section_count": 15,
+          "record_path": "data/apple/airpods/airpods-5-wireless.json"
+        }
+      ]
+    },
+    {
+      "family": "airpods",
+      "label": "AirPods Max 2",
+      "documentation_url": "https://support.apple.com/en-ie/docs/airpods/301293",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/airpods/301293",
+      "model": "AirPods Max 2",
+      "year_introduced": 2026,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/airpods-docs-airpods-max-2.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/126620"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/126620",
+          "title": "AirPods Max 2 - Tech Specs",
+          "status": "content_verified",
+          "section_count": 14,
+          "record_path": "data/apple/airpods/airpods-max-2.json"
+        }
+      ]
+    },
+    {
+      "family": "airpods",
+      "label": "AirPods Pro 3",
+      "documentation_url": "https://support.apple.com/en-ie/docs/airpods/301265",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/airpods/301265",
+      "model": "AirPods Pro 3",
+      "year_introduced": 2025,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/airpods-docs-airpods-pro-3.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/125135"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/125135",
+          "title": "AirPods Pro 3 - Tech Specs",
+          "status": "content_verified",
+          "section_count": 15,
+          "record_path": "data/apple/airpods/airpods-pro-3.json"
+        }
+      ]
+    },
+    {
+      "family": "airpods",
+      "label": "AirPods 4",
+      "documentation_url": "https://support.apple.com/en-ie/docs/airpods/301050",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/airpods/301050",
+      "model": "AirPods 4",
+      "year_introduced": 2024,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/airpods-docs-airpods-4.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/121203"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/121203",
+          "title": "AirPods 4 - Tech Specs",
+          "status": "content_verified",
+          "section_count": 13,
+          "record_path": "data/apple/airpods/airpods-4.json"
+        }
+      ]
+    },
+    {
+      "family": "airpods",
+      "label": "AirPods 4 with Active Noise Cancellation",
+      "documentation_url": "https://support.apple.com/en-ie/docs/airpods/301051",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/airpods/301051",
+      "model": "AirPods 4 with Active Noise Cancellation",
+      "year_introduced": 2024,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/airpods-docs-airpods-4-with-active-noise-cancellation.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/121204"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/121204",
+          "title": "AirPods 4 with Active Noise Cancellation - Tech Specs",
+          "status": "content_verified",
+          "section_count": 13,
+          "record_path": "data/apple/airpods/airpods-4-with-active-noise-cancellation.json"
+        }
+      ]
+    },
+    {
+      "family": "airpods",
+      "label": "AirPods Max 1 (USB-C)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/airpods/301049",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/airpods/301049",
+      "model": "AirPods Max 1 (USB-C)",
+      "year_introduced": 2024,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/airpods-docs-airpods-max-1-usb-c.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/121205"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/121205",
+          "title": "AirPods Max 1 (USB-C) - Tech Specs",
+          "status": "content_verified",
+          "section_count": 13,
+          "record_path": "data/apple/airpods/airpods-max-1-usb-c.json"
+        }
+      ]
+    },
+    {
+      "family": "airpods",
+      "label": "AirPods Pro (2nd generation) with MagSafe Charging Case (USB-C)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/airpods/300992",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/airpods/300992",
+      "model": "AirPods Pro (2nd generation) with MagSafe Charging Case (USB-C)",
+      "year_introduced": 2023,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/airpods-docs-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/111834"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/111834",
+          "title": "AirPods Pro 2 with MagSafe Case (USB‑C) - Tech Specs",
+          "status": "content_verified",
+          "section_count": 14,
+          "record_path": "data/apple/airpods/airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c.json"
+        }
+      ]
+    },
+    {
+      "family": "airpods",
+      "label": "AirPods (3rd generation) with Lightning Charging",
+      "documentation_url": "https://support.apple.com/en-ie/docs/airpods/300896",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/airpods/300896",
+      "model": "AirPods (3rd generation) with Lightning Charging",
+      "year_introduced": 2022,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/airpods-docs-airpods-3rd-generation-with-lightning-charging.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/111863"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/111863",
+          "title": "AirPods 3 - Tech Specs",
+          "status": "content_verified",
+          "section_count": 13,
+          "record_path": "data/apple/airpods/airpods-3rd-generation-with-lightning-charging.json"
+        }
+      ]
+    },
+    {
+      "family": "airpods",
+      "label": "AirPods Pro (2nd generation) with MagSafe Charging Case (Lightning)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/airpods/300882",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/airpods/300882",
+      "model": "AirPods Pro (2nd generation) with MagSafe Charging Case (Lightning)",
+      "year_introduced": 2022,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/airpods-docs-airpods-pro-2nd-generation-with-magsafe-charging-case-lightning.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/111851"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/111851",
+          "title": "AirPods Pro 2 - Tech Specs",
+          "status": "content_verified",
+          "section_count": 14,
+          "record_path": "data/apple/airpods/airpods-pro-2nd-generation-with-magsafe-charging-case-lightning.json"
+        }
+      ]
+    },
+    {
+      "family": "airpods",
+      "label": "AirPods (3rd generation)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/airpods/300453",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/airpods/300453",
+      "model": "AirPods (3rd generation)",
+      "year_introduced": 2021,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/airpods-docs-airpods-3rd-generation.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/111863"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/111863",
+          "title": "AirPods 3 - Tech Specs",
+          "status": "content_verified",
+          "section_count": 13,
+          "record_path": "data/apple/airpods/airpods-3rd-generation.json"
+        }
+      ]
+    },
+    {
+      "family": "airpods",
+      "label": "AirPods Pro with MagSafe Charging Case",
+      "documentation_url": "https://support.apple.com/en-ie/docs/airpods/300454",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/airpods/300454",
+      "model": "AirPods Pro with MagSafe Charging Case",
+      "year_introduced": 2021,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/airpods-docs-airpods-pro-with-magsafe-charging-case.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/111859"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/111859",
+          "title": "AirPods Pro 1 with MagSafe Charging Case - Tech Specs",
+          "status": "content_verified",
+          "section_count": 13,
+          "record_path": "data/apple/airpods/airpods-pro-with-magsafe-charging-case.json"
+        }
+      ]
+    },
+    {
+      "family": "airpods",
+      "label": "AirPods Max 1",
+      "documentation_url": "https://support.apple.com/en-ie/docs/airpods/300273",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/airpods/300273",
+      "model": "AirPods Max 1",
+      "year_introduced": 2020,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/airpods-docs-airpods-max-1.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/111858"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/111858",
+          "title": "AirPods Max 1 - Tech Specs",
+          "status": "content_verified",
+          "section_count": 13,
+          "record_path": "data/apple/airpods/airpods-max-1.json"
+        }
+      ]
+    },
+    {
+      "family": "airpods",
+      "label": "AirPods (2nd generation)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/airpods/300121",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/airpods/300121",
+      "model": "AirPods (2nd generation)",
+      "year_introduced": 2019,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/airpods-docs-airpods-2nd-generation.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/111856"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/111856",
+          "title": "AirPods 2 - Tech Specs",
+          "status": "content_verified",
+          "section_count": 11,
+          "record_path": "data/apple/airpods/airpods-2nd-generation.json"
+        }
+      ]
+    },
+    {
+      "family": "airpods",
+      "label": "AirPods (2nd generation) with Wireless Charging Case",
+      "documentation_url": "https://support.apple.com/en-ie/docs/airpods/300122",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/airpods/300122",
+      "model": "AirPods (2nd generation) with Wireless Charging Case",
+      "year_introduced": 2019,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/airpods-docs-airpods-2nd-generation-with-wireless-charging-case.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/111856"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/111856",
+          "title": "AirPods 2 - Tech Specs",
+          "status": "content_verified",
+          "section_count": 11,
+          "record_path": "data/apple/airpods/airpods-2nd-generation-with-wireless-charging-case.json"
+        }
+      ]
+    },
+    {
+      "family": "airpods",
+      "label": "AirPods Pro (1st generation) with Wireless Charging Case",
+      "documentation_url": "https://support.apple.com/en-ie/docs/airpods/300145",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/airpods/300145",
+      "model": "AirPods Pro (1st generation) with Wireless Charging Case",
+      "year_introduced": 2019,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/airpods-docs-airpods-pro-1st-generation-with-wireless-charging-case.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/111861"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/111861",
+          "title": "AirPods Pro 1 with Wireless Charging Case - Tech Specs",
+          "status": "content_verified",
+          "section_count": 13,
+          "record_path": "data/apple/airpods/airpods-pro-1st-generation-with-wireless-charging-case.json"
+        }
+      ]
+    },
+    {
+      "family": "airpods",
+      "label": "AirPods (1st generation)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/airpods/300040",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/airpods/300040",
+      "model": "AirPods (1st generation)",
+      "year_introduced": 2016,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/airpods-docs-airpods-1st-generation.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/111855"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/111855",
+          "title": "AirPods 1 - Tech Specs",
+          "status": "content_verified",
+          "section_count": 10,
+          "record_path": "data/apple/airpods/airpods-1st-generation.json"
+        }
+      ]
+    },
+    {
+      "family": "airpods",
+      "label": "AirPods Wireless Charging Case",
+      "documentation_url": "https://support.apple.com/en-ie/docs/airpods/pp525",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/airpods/pp525",
+      "model": "AirPods Wireless Charging Case",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/airpods-docs-airpods-wireless-charging-case.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/111860"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/111860",
+          "title": "AirPods (2 and earlier) Wireless Charging Case - Tech Specs",
+          "status": "content_verified",
+          "section_count": 7,
+          "record_path": "data/apple/airpods/airpods-wireless-charging-case.json"
+        }
+      ]
+    },
+    {
+      "family": "airpods",
+      "label": "MagSafe Charging Case Lightning (AirPods Pro 2nd generation)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/airpods/pp241",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/airpods/pp241",
+      "model": "MagSafe Charging Case Lightning (AirPods Pro 2nd generation)",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/airpods-docs-magsafe-charging-case-lightning-airpods-pro-2nd-generation.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "airpods",
+      "label": "MagSafe Charging Case USB-C (AirPods Pro 2nd generation)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/airpods/pp170",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/airpods/pp170",
+      "model": "MagSafe Charging Case USB-C (AirPods Pro 2nd generation)",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/airpods-docs-magsafe-charging-case-usb-c-airpods-pro-2nd-generation.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/111834"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/111834",
+          "title": "AirPods Pro 2 with MagSafe Case (USB‑C) - Tech Specs",
+          "status": "content_verified",
+          "section_count": 14,
+          "record_path": "data/apple/airpods/magsafe-charging-case-usb-c-airpods-pro-2nd-generation.json"
+        }
+      ]
+    },
     {
       "family": "accessories",
       "label": "AirTag (2nd generation)",
