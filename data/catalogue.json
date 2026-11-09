@@ -4,7 +4,7 @@
   "description": "An independently structured index of product records. Manufacturer and other primary sources are cited as evidence; TechSpecs defines the record identifiers, normalized data model and discovery interface.",
   "purpose": "machine_reading",
   "canonical_host": "https://data.techspecs.dev",
-  "record_count": 254,
+  "record_count": 256,
   "records": [
     {
       "record_id": "apple/ipad/ipad-10th-generation",
@@ -5108,6 +5108,50 @@
         "source_url": null,
         "verification_status": null,
         "checked_at": null
+      }
+    },
+    {
+      "record_id": "apple/vision/apple-vision-pro-m2",
+      "path": "apple/vision/apple-vision-pro-m2.json",
+      "url": "https://data.techspecs.dev/api/v1/products/apple-vision-pro-m2.json",
+      "legacy_url": "https://data.techspecs.dev/apple/vision/apple-vision-pro-m2.json",
+      "schema_version": "2.0",
+      "brand": "Apple",
+      "category": "spatial-computing-headset",
+      "family": "Apple Vision Pro",
+      "model": "Apple Vision Pro (M2)",
+      "model_slug": "apple-vision-pro-m2",
+      "model_year": 2024,
+      "year_introduced": 2024,
+      "variant": "Apple M2 Chip",
+      "source": {
+        "source_type": "manufacturer",
+        "publisher": "Apple Support",
+        "source_url": "https://support.apple.com/en-ie/117810",
+        "verification_status": "content_verified",
+        "checked_at": "2026-11-09"
+      }
+    },
+    {
+      "record_id": "apple/vision/apple-vision-pro-m5",
+      "path": "apple/vision/apple-vision-pro-m5.json",
+      "url": "https://data.techspecs.dev/api/v1/products/apple-vision-pro-m5.json",
+      "legacy_url": "https://data.techspecs.dev/apple/vision/apple-vision-pro-m5.json",
+      "schema_version": "2.0",
+      "brand": "Apple",
+      "category": "spatial-computing-headset",
+      "family": "Apple Vision Pro",
+      "model": "Apple Vision Pro (M5)",
+      "model_slug": "apple-vision-pro-m5",
+      "model_year": 2025,
+      "year_introduced": 2025,
+      "variant": "Apple M5 chip",
+      "source": {
+        "source_type": "manufacturer",
+        "publisher": "Apple Support",
+        "source_url": "https://support.apple.com/en-ie/125436",
+        "verification_status": "content_verified",
+        "checked_at": "2026-11-09"
       }
     },
     {
