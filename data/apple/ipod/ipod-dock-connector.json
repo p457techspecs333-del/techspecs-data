@@ -13,6 +13,10 @@
       "A1040"
     ],
     "storage_options": [
+      "10 GB",
+      "15 GB",
+      "20 GB",
+      "30 GB",
       "40 GB"
     ]
   },
@@ -86,6 +90,10 @@
     "capacity_statements": {
       "value": {
         "value": [
+          "10 GB",
+          "15 GB",
+          "20 GB",
+          "30 GB",
           "40 GB"
         ],
         "unit": null,
