@@ -5171,9 +5171,9 @@
       "source": {
         "source_type": "manufacturer",
         "publisher": "Apple Support",
-        "source_url": "https://support.apple.com/en-ie/docs/watch/pl292",
+        "source_url": "https://support.apple.com/en-by/111853",
         "verification_status": "content_verified",
-        "checked_at": "2026-11-08"
+        "checked_at": "2026-11-09"
       }
     },
     {
@@ -5192,10 +5192,10 @@
       "variant": null,
       "source": {
         "source_type": "manufacturer",
-        "publisher": "Apple Support (Ireland)",
+        "publisher": "Apple Support",
         "source_url": "https://support.apple.com/en-ie/125094",
-        "verification_status": "url_checked",
-        "checked_at": "2026-11-08"
+        "verification_status": "content_verified",
+        "checked_at": "2026-11-09"
       }
     },
     {
@@ -5236,10 +5236,10 @@
       "variant": null,
       "source": {
         "source_type": "manufacturer",
-        "publisher": "Apple Support (Ireland)",
+        "publisher": "Apple Support",
         "source_url": "https://support.apple.com/en-ie/121202",
-        "verification_status": "url_checked",
-        "checked_at": "2026-11-08"
+        "verification_status": "content_verified",
+        "checked_at": "2026-11-09"
       }
     },
     {
@@ -5258,10 +5258,10 @@
       "variant": null,
       "source": {
         "source_type": "manufacturer",
-        "publisher": "Apple Support (Ireland)",
+        "publisher": "Apple Support",
         "source_url": "https://support.apple.com/en-ie/125093",
-        "verification_status": "url_checked",
-        "checked_at": "2026-11-08"
+        "verification_status": "content_verified",
+        "checked_at": "2026-11-09"
       }
     },
     {
@@ -5283,7 +5283,7 @@
         "publisher": "Apple",
         "source_url": "https://www.apple.com/apple-watch-series-12/specs/",
         "verification_status": "content_verified",
-        "checked_at": "2026-11-08"
+        "checked_at": "2026-11-09"
       }
     },
     {
@@ -5434,10 +5434,10 @@
       "variant": null,
       "source": {
         "source_type": "manufacturer",
-        "publisher": "Apple Support (Ireland)",
+        "publisher": "Apple Support",
         "source_url": "https://support.apple.com/en-ie/111848",
         "verification_status": "content_verified",
-        "checked_at": "2026-11-08"
+        "checked_at": "2026-11-09"
       }
     },
     {
@@ -5457,9 +5457,9 @@
       "source": {
         "source_type": "manufacturer",
         "publisher": "Apple Support",
-        "source_url": "https://support.apple.com/en-ie/docs/watch/pl207",
+        "source_url": "https://support.apple.com/en-lb/111833",
         "verification_status": "content_verified",
-        "checked_at": "2026-11-08"
+        "checked_at": "2026-11-09"
       }
     },
     {
@@ -5478,10 +5478,10 @@
       "variant": null,
       "source": {
         "source_type": "manufacturer",
-        "publisher": "Apple Support (Ireland)",
+        "publisher": "Apple Support",
         "source_url": "https://support.apple.com/en-ie/111832",
-        "verification_status": "url_checked",
-        "checked_at": "2026-11-08"
+        "verification_status": "content_verified",
+        "checked_at": "2026-11-09"
       }
     },
     {
@@ -5500,10 +5500,10 @@
       "variant": null,
       "source": {
         "source_type": "manufacturer",
-        "publisher": "Apple Support (Ireland)",
+        "publisher": "Apple Support",
         "source_url": "https://support.apple.com/en-ie/125095",
-        "verification_status": "url_checked",
-        "checked_at": "2026-11-08"
+        "verification_status": "content_verified",
+        "checked_at": "2026-11-09"
       }
     },
     {
@@ -5525,7 +5525,7 @@
         "publisher": "Apple",
         "source_url": "https://www.apple.com/apple-watch-ultra-4/specs/",
         "verification_status": "content_verified",
-        "checked_at": "2026-11-08"
+        "checked_at": "2026-11-09"
       }
     },
     {
