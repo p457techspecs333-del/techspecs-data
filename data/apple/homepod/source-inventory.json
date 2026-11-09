@@ -1,5 +1,5 @@
 {
-  "catalogue_stage": "official_apple_source_discovery",
+  "catalogue_stage": "official_source_archived_and_partially_normalized",
   "brand": "Apple",
   "category": "smart-speaker",
   "family": "HomePod",
@@ -11,7 +11,7 @@
   "working_scope": [
     {
       "model": "HomePod mini 2 technical specifications",
-      "url": "http://support.apple.com/149360",
+      "url": "https://support.apple.com/en-ie/149360",
       "slug": "homepod-mini-2-technical-specifications",
       "final_url": "https://support.apple.com/en-ie/149360",
       "title": "HomePod mini 2 - Tech Specs",
@@ -52,6 +52,25 @@
   ],
   "catalogue_links": [],
   "notes": [
-    "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete."
-  ]
+    "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete.",
+    "2026-11-09 progress: all four HomePod records have introduction years and selected explicit specification fields normalized with source-section provenance. This is not final record-level verification; normalized fields remain source_transcribed."
+  ],
+  "record_audit": {
+    "checked_at": "2026-11-09",
+    "product_record_count": 4,
+    "source_policy": "Official Apple specification pages and official Apple model-identification documentation; no missing values inferred.",
+    "normalization_status": "partially_normalized",
+    "completion_status": "IN_PROGRESS",
+    "completed": [
+      "Verified model introduction years against official Apple HomePod identification/model documentation: HomePod (1st generation) 2018, HomePod mini 2020, HomePod (2nd generation) 2023, HomePod mini 2 2026.",
+      "Added typed finish/colour, dimensions/weight, audio technology, sensor, wireless and environmental fields where explicit source text supports them.",
+      "Added source-section provenance to extracted values and retained original section text."
+    ],
+    "remaining": [
+      "Verify all four records against their archived official Apple HTML, including exact regional URL and source-file paths.",
+      "Review parsed values and footnote qualifications; ensure dimensions and weight match source labels and units.",
+      "Extract additional explicit fields such as model identifiers and power/cable details where present in official Apple sources.",
+      "Run repository validation and catalogue-generation checks."
+    ]
+  }
 }
