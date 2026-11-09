@@ -87,7 +87,8 @@
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Taxonomy audit 2026-11-09: classified as Apple audio hardware, not software.",
     "Field-level normalization remains incomplete; source_text is the evidence of record.",
-    "Field extraction pass 2026-11-09: added typed fields only where explicit values were present in preserved official source sections; qualifiers retained and source-section provenance attached."
+    "Field extraction pass 2026-11-09: added typed fields only where explicit values were present in preserved official source sections; qualifiers retained and source-section provenance attached.",
+    "Follow-up extraction 2026-11-09: audio features, sensors, controls, charging-case details, system requirements and in-box contents separated where explicit."
   ],
   "normalized_specifications": {
     "sensors": {
@@ -290,6 +291,60 @@
         "source_section": "Identify your AirPods with the model number",
         "verification_status": "content_verified",
         "notes": "Introduction year cross-checked against Apple's official AirPods identification page, https://support.apple.com/en-ie/109525, on 2026-11-09."
+      }
+    },
+    "sensor_features": {
+      "value": {
+        "value": [
+          "Dual beamforming microphones",
+          "Dual optical sensors",
+          "Motion-detecting accelerometer",
+          "Speech-detecting accelerometer"
+        ],
+        "unit": null,
+        "source_section": "Sensors",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from the preserved official Apple specification section; source wording retained."
+      }
+    },
+    "control_details": {
+      "value": {
+        "value": [
+          "Double-tap to play, skip forwards or answer a phone call",
+          "Say “Hey Siri” to do things like play a song, make a call or get directions"
+        ],
+        "unit": null,
+        "source_section": "Controls",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from the preserved official Apple specification section; source wording retained."
+      }
+    },
+    "charging_case_details": {
+      "value": {
+        "value": [
+          "Lightning Charging Case",
+          "Works with the Lightning connector",
+          "Wireless Charging Case",
+          "Works with Qi-certified chargers or the Lightning connector"
+        ],
+        "unit": null,
+        "source_section": "Charging Case",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from the preserved official Apple specification section; source wording retained."
+      }
+    },
+    "in_box_details": {
+      "value": {
+        "value": [
+          "AirPods 2",
+          "Lightning Charging Case",
+          "Lightning to USB-A Cable",
+          "Documentation"
+        ],
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from the preserved official Apple specification section; source wording retained."
       }
     }
   }
