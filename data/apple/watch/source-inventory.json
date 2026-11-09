@@ -239,7 +239,8 @@
     "Apple Watch Series 1 now has a schema v2.0 record. The original 2015 first-generation Apple Watch remains in the discovery inventory, but a suitable direct official product-specific page has not yet been confirmed.",
     "Source audit confirmed official Apple Tech Specs pages for Series 9, Series 8, SE (2nd generation), Series 12 and Ultra 4. The source URLs are retained as published by Apple.",
     "Ten-model Watch extraction run completed 2026-11-09. See apple_watch_extraction/extraction_report.json; incomplete pages are not labelled complete.",
-    "Ten-model Watch extraction run completed 2026-11-09. See apple_watch_extraction/extraction_report.json; incomplete pages are not labelled complete."
+    "Ten-model Watch extraction run completed 2026-11-09. See apple_watch_extraction/extraction_report.json; incomplete pages are not labelled complete.",
+    "Post-extraction validation trigger: this inventory update follows the ten-model extraction commit so the repository's standard record-validation workflow runs against the updated Watch records."
   ],
   "working_scope": [
     {
