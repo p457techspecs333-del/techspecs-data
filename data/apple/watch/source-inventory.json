@@ -26,12 +26,12 @@
     },
     {
       "source_type": "manufacturer",
-      "source_url": "https://support.apple.com/en-lb/111833",
-      "source_title": "Apple Watch Series 9 - Tech Specs",
+      "source_url": "https://support.apple.com/en-ie/docs/watch/pl207",
+      "source_title": "Apple Watch Series 9 - Manuals and Downloads",
       "publisher": "Apple Support",
       "purpose": "Official technical specifications for Apple Watch Series 9",
       "verification_status": "content_verified",
-      "notes": "Direct official Tech Specs page confirmed under the Lebanon locale; Ireland product-specific support page: https://support.apple.com/en-ie/docs/watch/pl207."
+      "notes": "Official Apple Support product-specific page; year introduced 2023. Direct Tech Specs article also published by Apple at https://support.apple.com/en-lb/111833."
     },
     {
       "source_type": "manufacturer",
@@ -62,12 +62,12 @@
     },
     {
       "source_type": "manufacturer",
-      "source_url": "https://support.apple.com/en-by/111853",
-      "source_title": "Apple Watch SE (2nd generation) - Tech Specs",
+      "source_url": "https://support.apple.com/en-ie/docs/watch/pl292",
+      "source_title": "Apple Watch SE (2nd generation) - Manuals and Downloads",
       "publisher": "Apple Support",
       "purpose": "Official technical specifications for Apple Watch SE (2nd generation)",
       "verification_status": "content_verified",
-      "notes": "Direct official Tech Specs page confirmed under the Belarus locale; Ireland product-specific support page: https://support.apple.com/en-ie/docs/watch/pl292."
+      "notes": "Official Apple Support product-specific page; year introduced 2022. Direct Tech Specs article also published by Apple at https://support.apple.com/en-by/111853."
     },
     {
       "source_type": "manufacturer",
@@ -201,7 +201,7 @@
     {
       "model": "Apple Watch Series 9",
       "generation_year": 2023,
-      "source_url": "https://support.apple.com/en-lb/111833"
+      "source_url": "https://support.apple.com/en-ie/docs/watch/pl207"
     },
     {
       "model": "Apple Watch Series 8",
@@ -211,7 +211,7 @@
     {
       "model": "Apple Watch SE (2nd generation)",
       "generation_year": 2022,
-      "source_url": "https://support.apple.com/en-by/111853"
+      "source_url": "https://support.apple.com/en-ie/docs/watch/pl292"
     },
     {
       "generation_year": 2019,
