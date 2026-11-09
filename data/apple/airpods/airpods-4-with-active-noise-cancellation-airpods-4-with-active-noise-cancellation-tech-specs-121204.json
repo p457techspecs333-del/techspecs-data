@@ -96,7 +96,8 @@
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Taxonomy audit 2026-11-09: classified as Apple audio hardware, not software.",
     "Field-level normalization remains incomplete; source_text is the evidence of record.",
-    "Field extraction pass 2026-11-09: added typed fields only where explicit values were present in preserved official source sections; qualifiers retained and source-section provenance attached."
+    "Field extraction pass 2026-11-09: added typed fields only where explicit values were present in preserved official source sections; qualifiers retained and source-section provenance attached.",
+    "Follow-up extraction 2026-11-09: audio features, sensors, controls, charging-case details, system requirements and in-box contents separated where explicit."
   ],
   "normalized_specifications": {
     "audio_technology": {
@@ -199,12 +200,20 @@
       }
     },
     "system_requirements": {
-      "source_text": {
-        "value": "iPhone models with the latest version of iOS\niPad models with the latest version of iPadOS\nApple Watch models with the latest version of watchOS\nMac models with the latest version of macOS\nApple TV models with the latest version of tvOS\nApple Vision Pro with the latest version of visionOS\nAirPods can be used as wireless Bluetooth headphones with Apple devices using earlier software and with non‑Apple devices, but functionality may be limited.",
+      "value": {
+        "value": [
+          "iPhone models with the latest version of iOS",
+          "iPad models with the latest version of iPadOS",
+          "Apple Watch models with the latest version of watchOS",
+          "Mac models with the latest version of macOS",
+          "Apple TV models with the latest version of tvOS",
+          "Apple Vision Pro with the latest version of visionOS",
+          "AirPods can be used as wireless Bluetooth headphones with Apple devices using earlier software and with non‑Apple devices, but functionality may be limited."
+        ],
         "unit": null,
         "source_section": "System Requirements",
         "verification_status": "source_transcribed",
-        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+        "notes": "Extracted from the preserved official Apple specification section; source wording retained."
       }
     },
     "airpods_and_the_environment": {
@@ -329,6 +338,67 @@
         "source_section": "Identify your AirPods with the model number",
         "verification_status": "content_verified",
         "notes": "Introduction year cross-checked against Apple's official AirPods identification page, https://support.apple.com/en-ie/109525, on 2026-11-09."
+      }
+    },
+    "sensor_features": {
+      "value": {
+        "value": [
+          "Dual beamforming microphones",
+          "Inward‑facing microphone",
+          "Optical in‑ear sensor",
+          "Motion‑detecting accelerometer",
+          "Speech‑detecting accelerometer",
+          "Force sensor"
+        ],
+        "unit": null,
+        "source_section": "Sensors",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from the preserved official Apple specification section; source wording retained."
+      }
+    },
+    "control_details": {
+      "value": {
+        "value": [
+          "Press once to play or pause media",
+          "Press once to answer a call or mute or unmute",
+          "Press twice to end a call",
+          "Press twice to skip forward",
+          "Press three times to skip back",
+          "Press and hold for Siri",
+          "Say “Hey Siri” or just “Siri”",
+          "to do things like play a song, make a call or get directions",
+          "With Siri Interactions, nod your head yes or gently shake your head no when Siri asks if you want to answer an incoming call, hear a text message, manage notifications, and more"
+        ],
+        "unit": null,
+        "source_section": "Controls",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from the preserved official Apple specification section; source wording retained."
+      }
+    },
+    "charging_case_details": {
+      "value": {
+        "value": [
+          "Works with USB‑C connector, Apple Watch charger or Qi‑certified chargers",
+          "Includes a speaker for use with Find My proximity view"
+        ],
+        "unit": null,
+        "source_section": "Charging Case",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from the preserved official Apple specification section; source wording retained."
+      }
+    },
+    "in_box_details": {
+      "value": {
+        "value": [
+          "AirPods 4 with Active Noise Cancellation",
+          "Charging Case (USB-C) with speaker",
+          "Documentation",
+          "USB-C Charge Cable sold separately"
+        ],
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from the preserved official Apple specification section; source wording retained."
       }
     }
   }
