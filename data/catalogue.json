@@ -897,8 +897,8 @@
       "family": "Apple Displays",
       "model": "Pro Display XDR",
       "model_slug": "pro-display-xdr",
-      "model_year": null,
-      "year_introduced": null,
+      "model_year": 2019,
+      "year_introduced": 2019,
       "variant": null,
       "source": {
         "source_type": "manufacturer",
@@ -941,8 +941,8 @@
       "family": "Apple Displays",
       "model": "Studio Display (2022)",
       "model_slug": "studio-display-2022",
-      "model_year": null,
-      "year_introduced": null,
+      "model_year": 2022,
+      "year_introduced": 2022,
       "variant": null,
       "source": {
         "source_type": "manufacturer",
@@ -963,8 +963,8 @@
       "family": "Apple Displays",
       "model": "Studio Display (2026)",
       "model_slug": "studio-display-2026",
-      "model_year": null,
-      "year_introduced": null,
+      "model_year": 2026,
+      "year_introduced": 2026,
       "variant": null,
       "source": {
         "source_type": "manufacturer",
@@ -985,8 +985,8 @@
       "family": "Apple Displays",
       "model": "Studio Display XDR",
       "model_slug": "studio-display-xdr",
-      "model_year": null,
-      "year_introduced": null,
+      "model_year": 2026,
+      "year_introduced": 2026,
       "variant": null,
       "source": {
         "source_type": "manufacturer",
