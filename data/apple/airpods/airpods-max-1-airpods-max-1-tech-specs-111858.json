@@ -27,7 +27,7 @@
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
-    "note": "Official Apple source sections preserved; product taxonomy corrected. Field-level normalized specifications still require extraction and verification; no values inferred.",
+    "note": "Official Apple sections preserved and transcribed into machine-readable section fields. Individual measurements, battery figures, model identifiers and footnote qualifications still require field-level parsing and validation; no values inferred.",
     "extracted_at": "2026-11-09",
     "reviewed_at": "2026-11-09"
   },
@@ -89,5 +89,124 @@
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Taxonomy audit 2026-11-09: classified as Apple audio hardware, not software.",
     "Field-level normalization remains incomplete; source_text is the evidence of record."
-  ]
+  ],
+  "normalized_specifications": {
+    "color": {
+      "source_text": {
+        "value": "Silver\nSpace Grey\nSky Blue\nPink\nGreen",
+        "unit": null,
+        "source_section": "Color",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "audio_technology": {
+      "source_text": {
+        "value": "Apple-designed dynamic driver\nActive Noise Cancellation\nTransparency mode\nPersonalised Spatial Audio with dynamic head tracking\n1\nAdaptive EQ",
+        "unit": null,
+        "source_section": "Audio Technology",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "sensors": {
+      "source_text": {
+        "value": "Optical sensor (each ear cup)\nPosition sensor (each ear cup)\nCase-detect sensor (each ear cup)\nAccelerometer (each ear cup)\nGyroscope (left ear cup)",
+        "unit": null,
+        "source_section": "Sensors",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "microphones": {
+      "source_text": {
+        "value": "Nine microphones in total:\nEight microphones for Active Noise Cancellation\nThree microphones for voice pickup (two shared with Active Noise Cancellation and one additional microphone)",
+        "unit": null,
+        "source_section": "Microphones",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "chip": {
+      "source_text": {
+        "value": "Apple H1 headphone chip (each ear cup)",
+        "unit": null,
+        "source_section": "Chip",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "controls": {
+      "source_text": {
+        "value": "Digital Crown\nTurn for volume control\nPress once to play or pause media\nPress once to answer a call or mute or unmute\nPress twice to end a call\nPress twice to skip forward\nPress three times to skip back\nPress and hold for Siri\nListening mode button\nPress to switch between Active Noise Cancellation and Transparency mode\nHey Siri\nSay “Hey Siri” to do things like play a song, make a call or get directions",
+        "unit": null,
+        "source_section": "Controls",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "size_and_weight": {
+      "source_text": {
+        "value": "AirPods Max 1, including cushions\nHeight:\n187.3 mm (7.37 inches)\nWidth:\n168.6 mm (6.64 inches)\nDepth:\n83.4 mm (3.28 inches)\nWeight:\n384.8 grams (13.6 ounces)\nSmart Case\nWeight:\n134.5 grams (4.74 ounces)",
+        "unit": null,
+        "source_section": "Size and Weight 2",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "battery": {
+      "source_text": {
+        "value": "AirPods Max 1\nUp to 20 hours of listening time on a single charge with Active Noise Cancellation or Transparency mode enabled\n3\nUp to 20 hours of movie playback on a single charge with Spatial Audio on\n4\n5 minutes of charge time provides around 1.5 hours of listening time\n5\nAirPods Max 1 with Smart Case\nStorage in the Smart Case preserves battery charge in ultra-low-power state\nCharging via Lightning connector",
+        "unit": null,
+        "source_section": "Battery",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "connectivity": {
+      "source_text": {
+        "value": "Bluetooth 5.0 wireless technology",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "in_the_box": {
+      "source_text": {
+        "value": "AirPods Max 1\nSmart Case\nLightning to USB‑C Cable\nDocumentation",
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "accessibility": {
+      "source_text": {
+        "value": "Accessibility features help people with disabilities get the most out of their new AirPods Max.\nFeatures include:\nLive Listen audio\nHeadphone levels\nHeadphone Accommodations",
+        "unit": null,
+        "source_section": "Accessibility 6",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "system_requirements": {
+      "source_text": {
+        "value": "iPhone and iPod touch models with the latest version of iOS\niPad models with the latest version of iPadOS\nApple Watch models with the latest version of watchOS\nMac models with the latest version of macOS\nApple TV models with the latest version of tvOS",
+        "unit": null,
+        "source_section": "System Requirements 7",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "airpods_max_1_and_the_environment": {
+      "source_text": {
+        "value": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more - AirPods Max 1 and the Environment\nAirPods Max 1 are designed with the following features to reduce environmental impact:\nBrominated flame retardant–free\nPVC-free\nBeryllium-free\nMercury-free",
+        "unit": null,
+        "source_section": "AirPods Max 1 and the Environment",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    }
+  }
 }
