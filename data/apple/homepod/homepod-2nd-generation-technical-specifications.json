@@ -91,128 +91,154 @@
   ],
   "normalized_specifications": {
     "finishes": {
-      "value": [
-        "Midnight",
-        "White"
-      ],
-      "unit": null,
-      "source_section": "Finish",
-      "verification_status": "source_transcribed",
-      "notes": "Apple finish/colour names preserved as written; regional spelling is not harmonized."
+      "value": {
+        "value": [
+          "Midnight",
+          "White"
+        ],
+        "unit": null,
+        "source_section": "Finish",
+        "verification_status": "source_transcribed",
+        "notes": "Apple finish/colour names preserved as written; regional spelling is not harmonized."
+      }
     },
     "dimensions_and_weight": {
-      "value": [
-        {
-          "dimension": "height",
-          "value": 168,
-          "unit": "mm"
-        },
-        {
-          "dimension": "width",
-          "value": 142,
-          "unit": "mm"
-        },
-        {
-          "dimension": "weight",
-          "value": 2.3,
-          "unit": "kg"
-        }
-      ],
-      "unit": null,
-      "source_section": "Size and Weight 1",
-      "verification_status": "source_transcribed",
-      "notes": "Explicit dimensions and weight extracted from the source; dimension labels and units retained."
+      "value": {
+        "value": [
+          {
+            "dimension": "height",
+            "value": 168,
+            "unit": "mm"
+          },
+          {
+            "dimension": "width",
+            "value": 142,
+            "unit": "mm"
+          },
+          {
+            "dimension": "weight",
+            "value": 2.3,
+            "unit": "kg"
+          }
+        ],
+        "unit": null,
+        "source_section": "Size and Weight 1",
+        "verification_status": "source_transcribed",
+        "notes": "Explicit dimensions and weight extracted from the source; dimension labels and units retained."
+      }
     },
     "audio_technology": {
-      "value": [
-        "4-inch high-excursion woofer",
-        "Array of five horn-loaded tweeters, each with its own neodymium magnet",
-        "Internal low-frequency calibration microphone for automatic bass correction",
-        "Advanced computational audio with system sensing for real-time tuning",
-        "Room sensing",
-        "Spatial Audio with Dolby Atmos for music and video",
-        "Four-microphone design for far-field Siri",
-        "Multi-room audio with AirPlay",
-        "Stereo pair capable"
-      ],
-      "unit": null,
-      "source_section": "Audio Technology",
-      "verification_status": "source_transcribed",
-      "notes": "List transcribed from the official source section; footnote markers that were standalone lines are excluded."
+      "value": {
+        "value": [
+          "4-inch high-excursion woofer",
+          "Array of five horn-loaded tweeters, each with its own neodymium magnet",
+          "Internal low-frequency calibration microphone for automatic bass correction",
+          "Advanced computational audio with system sensing for real-time tuning",
+          "Room sensing",
+          "Spatial Audio with Dolby Atmos for music and video",
+          "Four-microphone design for far-field Siri",
+          "Multi-room audio with AirPlay",
+          "Stereo pair capable"
+        ],
+        "unit": null,
+        "source_section": "Audio Technology",
+        "verification_status": "source_transcribed",
+        "notes": "List transcribed from the official source section; footnote markers that were standalone lines are excluded."
+      }
     },
     "sensors": {
-      "value": [
-        "Sound Recognition",
-        "Temperature and humidity",
-        "Accelerometer"
-      ],
-      "unit": null,
-      "source_section": "Sensors",
-      "verification_status": "source_transcribed",
-      "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      "value": {
+        "value": [
+          "Sound Recognition",
+          "Temperature and humidity",
+          "Accelerometer"
+        ],
+        "unit": null,
+        "source_section": "Sensors",
+        "verification_status": "source_transcribed",
+        "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      }
     },
     "wifi_standard": {
-      "value": "802.11n Wi‑Fi",
-      "unit": null,
-      "source_section": "Wireless",
-      "verification_status": "source_transcribed",
-      "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      "value": {
+        "value": "802.11n Wi‑Fi",
+        "unit": null,
+        "source_section": "Wireless",
+        "verification_status": "source_transcribed",
+        "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      }
     },
     "bluetooth_version": {
-      "value": "5.0",
-      "unit": "version",
-      "source_section": "Wireless",
-      "verification_status": "source_transcribed",
-      "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      "value": {
+        "value": "5.0",
+        "unit": "version",
+        "source_section": "Wireless",
+        "verification_status": "source_transcribed",
+        "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      }
     },
     "thread_networking": {
-      "value": true,
-      "unit": null,
-      "source_section": "Wireless",
-      "verification_status": "source_transcribed",
-      "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      "value": {
+        "value": true,
+        "unit": null,
+        "source_section": "Wireless",
+        "verification_status": "source_transcribed",
+        "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      }
     },
     "ultra_wideband": {
-      "value": true,
-      "unit": null,
-      "source_section": "Wireless",
-      "verification_status": "source_transcribed",
-      "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      "value": {
+        "value": true,
+        "unit": null,
+        "source_section": "Wireless",
+        "verification_status": "source_transcribed",
+        "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      }
     },
     "line_voltage": {
-      "value": "100V to 240V AC",
-      "unit": null,
-      "source_section": "Electrical and Environmental Requirements",
-      "verification_status": "source_transcribed",
-      "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      "value": {
+        "value": "100V to 240V AC",
+        "unit": null,
+        "source_section": "Electrical and Environmental Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      }
     },
     "power_frequency": {
-      "value": "50Hz to 60Hz",
-      "unit": null,
-      "source_section": "Electrical and Environmental Requirements",
-      "verification_status": "source_transcribed",
-      "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      "value": {
+        "value": "50Hz to 60Hz",
+        "unit": null,
+        "source_section": "Electrical and Environmental Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      }
     },
     "operating_temperature": {
-      "value": "0° to 35° C (32° to 95° F)",
-      "unit": null,
-      "source_section": "Electrical and Environmental Requirements",
-      "verification_status": "source_transcribed",
-      "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      "value": {
+        "value": "0° to 35° C (32° to 95° F)",
+        "unit": null,
+        "source_section": "Electrical and Environmental Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      }
     },
     "relative_humidity": {
-      "value": "5% to 90% non-condensing",
-      "unit": null,
-      "source_section": "Electrical and Environmental Requirements",
-      "verification_status": "source_transcribed",
-      "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      "value": {
+        "value": "5% to 90% non-condensing",
+        "unit": null,
+        "source_section": "Electrical and Environmental Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      }
     },
     "operating_altitude": {
-      "value": "tested up to 3,000 metres (10,000 feet)",
-      "unit": null,
-      "source_section": "Electrical and Environmental Requirements",
-      "verification_status": "source_transcribed",
-      "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      "value": {
+        "value": "tested up to 3,000 metres (10,000 feet)",
+        "unit": null,
+        "source_section": "Electrical and Environmental Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      }
     }
   }
 }
