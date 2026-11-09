@@ -1,5 +1,5 @@
 {
-  "catalogue_stage": "official_apple_source_discovery",
+  "catalogue_stage": "official_source_archived_and_partially_normalized",
   "brand": "Apple",
   "category": "computer-display",
   "family": "Apple Displays",
@@ -52,6 +52,25 @@
   ],
   "catalogue_links": [],
   "notes": [
-    "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete."
-  ]
+    "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete.",
+    "2026-11-09 field extraction pass: selected explicit display specifications and official introduction years added to all four records. Normalized fields remain source_transcribed pending final record-by-record verification."
+  ],
+  "record_audit": {
+    "checked_at": "2026-11-09",
+    "product_record_count": 4,
+    "source_policy": "Official Apple technical-specification and display-identification pages; no absent values inferred.",
+    "normalization_status": "partially_normalized",
+    "completion_status": "IN_PROGRESS",
+    "completed": [
+      "Verified introduction years from Apple's official display-identification page: Pro Display XDR 2019, Studio Display (2022) 2022, Studio Display (2026) 2026 and Studio Display XDR 2026.",
+      "Extracted explicit display diagonal, pixel resolution, pixel density, brightness statements, refresh-rate options, camera, audio, connection, configuration-dependent size/weight and electrical requirements where present.",
+      "Preserved source-section provenance and configuration-specific qualifiers."
+    ],
+    "remaining": [
+      "Verify all four records against their archived official Apple HTML and reconcile exact regional source URLs.",
+      "Review configuration-dependent dimensions/weights, display options, refresh-rate values and port details against original source sections.",
+      "Extract any remaining explicit display identifiers and options without assuming stand or glass configuration.",
+      "Run repository validation and catalogue-generation checks."
+    ]
+  }
 }
