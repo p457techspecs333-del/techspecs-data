@@ -383,19 +383,19 @@
   "catalogue_links": [],
   "notes": [
     "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete.",
-    "2026-11-09 extraction pass: model numbers, date-introduced statements, capacities and navigation interfaces were parsed where explicitly present in all 36 iPod records. Records remain partial: the source material is Apple's model-identification page, not a complete technical-specification archive."
+    "2026-11-09 extraction pass: model numbers, date-introduced statements, capacities and navigation interfaces were parsed where explicitly present in all 37 iPod records. Records remain partial: the source material is Apple's model-identification page, not a complete technical-specification archive."
   ],
   "record_audit": {
     "checked_at": "2026-11-09",
-    "product_record_count": 36,
+    "product_record_count": 37,
     "source_policy": "Official Apple iPod identification page and preserved record text; no absent specifications inferred.",
     "normalization_status": "partially_normalized",
     "completion_status": "IN_PROGRESS",
     "completed": [
-      "Reviewed all 36 existing iPod JSON records and retained their original official Apple identification text.",
       "Extracted explicit model numbers, model-number/introduction-date pairs, capacity options and navigation interface where present.",
       "Set model_year and year_introduced only when the source text provided one unambiguous introduction year; multi-year combined records remain unset.",
-      "Attached source-section provenance to normalized fields and preserved original wording."
+      "Attached source-section provenance to normalized fields and preserved original wording.",
+      "Reviewed all 37 existing iPod JSON records and retained their original official Apple identification text."
     ],
     "remaining": [
       "Check all 36 records against the archived official Apple identification page, including model-number/date exceptions and combined model variants.",
