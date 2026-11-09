@@ -8,7 +8,10 @@
     "model_slug": "airpods-max-2-airpods-max-2-tech-specs-126620",
     "model_year": 2026,
     "year_introduced": 2026,
-    "variant": null
+    "variant": null,
+    "model_numbers": [
+      "A3454"
+    ]
   },
   "source": {
     "source_type": "manufacturer",
@@ -19,9 +22,10 @@
     "published_at": null,
     "checked_at": "2026-11-09",
     "verification_status": "content_verified",
-    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 14 sections archived.",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 14 sections archived. Model identifiers and introduction year cross-checked against Apple's official AirPods identification page on 2026-11-09.",
     "notes": [
-      "Documentation index: https://support.apple.com/en-ie/docs/airpods/301293"
+      "Documentation index: https://support.apple.com/en-ie/docs/airpods/301293",
+      "Model numbers and introduction year verified against official Apple AirPods identification page: https://support.apple.com/en-ie/109525."
     ]
   },
   "extraction": {
@@ -270,6 +274,26 @@
         "source_section": "Size and Weight 11",
         "verification_status": "source_transcribed",
         "notes": "Only explicit label/value pairs extracted; source component context retained, no values inferred."
+      }
+    },
+    "model_identifiers": {
+      "value": {
+        "value": [
+          "A3454"
+        ],
+        "unit": null,
+        "source_section": "Identify your AirPods with the model number",
+        "verification_status": "content_verified",
+        "notes": "Cross-checked against official Apple AirPods identification page https://support.apple.com/en-ie/109525 on 2026-11-09."
+      }
+    },
+    "year_introduced": {
+      "value": {
+        "value": 2026,
+        "unit": "year",
+        "source_section": "Identify your AirPods with the model number",
+        "verification_status": "content_verified",
+        "notes": "Cross-checked against official Apple AirPods identification page https://support.apple.com/en-ie/109525 on 2026-11-09."
       }
     }
   }
