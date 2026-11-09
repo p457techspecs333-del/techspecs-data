@@ -1,0 +1,48 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "streaming-media-player",
+    "family": "Apple TV",
+    "model": "Apple TV 4K (4th generation)",
+    "model_slug": "apple-tv-4k-4th-generation",
+    "model_year": 2026,
+    "year_introduced": 2026,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://www.apple.com/ie/apple-tv-4k/specs/",
+    "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-4k-4th-generation.html",
+    "source_title": "Apple TV 4K - Technical Specifications",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple source captured 2026-11-09; model identity confirmed in source content; 2 sections archived.",
+    "notes": [
+      "Current-generation specifications taken from Apple's Ireland product specification page."
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Original source headings and visible text retained in source order. No missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Apple TV 4K - Technical Specifications",
+      "source_text": "Height: 31.00 mm (1.22 inches)\nWidth: 93.24 mm (3.67 inches)\nDepth: 93.24 mm (3.67 inches)\nWeight: 217 g 7.6 ounces (7.6 ounces) 1\nHeight: 136.00 mm (5.35 inches)\nWidth: 35.00 mm (1.38 inches)\nDepth: 9.25 mm (0.36 inches)\nWeight: 69.6 g 2.45 ounces (2.45 ounces) 1\n128GB\nWi‑Fi 7 (802.11be) with 2x2 MIMO 3\nBluetooth 6\nThread networking technology 4\nHDMI 2.1 5\nIR receiver\nBuilt‑in power supply\nGigabit Ethernet\nThree-microphone array with voice isolation\nBluetooth 6\nIR transmitter\nFind My with Precision Finding 6\nUSB‑C connector for charging\nRechargeable battery\nChar­ging via USB‑C cable to computer system or power adapter (each sold separately)\nControl your TV or receiver via IR or CEC 7\n1 Microphone for Siri\n2 Touch-enabled clickpad\n3 Back\n4 Play/Pause\n5 Mute\n6 Power\n7 Siri\n8 TV/Home\n9 Volume\n10 USB‑C USB‑C\nA19 chip\nPurchases, rentals and Home Sharing require an Apple Account that you use for the App Store and other Apple services\nRequires 4K and HDR TV for 4K and HDR streaming\nRequires acceptance of the software licence terms at apple.com/ie/legal/sla\nRequires HDMI cable (sold separately)\nRequires 802.11 wireless, Ethernet network or broadband internet access\nStandard SDR/HDR video rates up to 2160p, 60 fps\nDolby Vision (Profile 8.1 and 5), HDR10, HDR10+, HLG\nAV1, VP9, H.265/HEVC, H.264/AVC, MPEG‑4\nHDMI Quick Media Switching (QMS) for seamless format transitions\nSupport for 21:9 and other cinematic aspect ratios when playing movies and shows on compatible projectors and displays 8\nHE‑AAC (V1), AAC (up to 320Kb/s), protected AAC (from iTunes Store), MP3 (up to 320Kb/s), MP3 VBR, Apple Lossless, FLAC, AIFF and WAV; AC‑3 (Dolby Digital 5.1), E‑AC‑3 (Dolby Digital Plus 7.1 surround sound) and Dolby Atmos\nHEIF, JPEG, GIF, TIFF\nCompatible with HD and UHD TVs with HDMI 5\nCompatible with Bluetooth keyboards 9\nCompatible with supported game controllers 10\nAccessi­bility features help people with disabilities get the most out of their Apple TV 4K. With built-in support for vision, hearing, mobility and learning, you can easily find and enjoy your favourite entertainment.\nLearn more\nFeatures include:\nVoiceOver\nZoom\nHover Text\nIncrease Contrast\nReduce Motion\nClosed Caption and SDH Support\nAudio Descriptions\nSiri and Dictation\nType to Siri\nSwitch Control\nLarger Type\nLine voltage: 100V to 240V AC\nFrequency: 50Hz to 60Hz\nOperating temperature: 0° to 35° C (32° to 95° F)\nStorage temperature: –20° to 45° C (–4° to 113° F)\nRelative humidity: 5% to 95% non‑condensing\nOperating altitude: tested up to 3,000 metres (10,000 feet)\nApple TV 4K (4th generation)\nSiri Remote (4th generation)\nPower lead\nDocumentation"
+    },
+    {
+      "heading": "Apple TV 4K and the Environment",
+      "source_text": "Progress towards Apple 2030\nApple 2030 is our goal to be carbon neutral across our value chain. We design our products to be less carbon intensive by prioritising the use of recycled and renewable content and low‑carbon materials while focusing on the energy efficiency of our software and hardware.\nSee Apple’s commitment\nMaterials\n80% recycled aluminium in the thermal module of Apple TV 4K (4th generation)\n100% recycled aluminium in the enclosure housing of the Siri Remote (4th generation)\n100% recycled copper in multiple printed circuit boards\n100% recycled gold plating and tin solder in all Apple-designed printed circuit boards\n100% recycled rare earth elements in all magnets\nPackaging\n100% fibre‑based packaging\nSmarter chemistry 11\nAll the materials used in Apple products, accessories and packaging are covered by the requirements of our Regulated Substances Specification (PDF) , which was one of the first in industry to restrict the use of key substances of concern. See the latest Environmental Progress Report (PDF) to understand Apple’s recent efforts in phasing out these chemistries."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from captured official Apple technical-specification HTML.",
+    "No normalized specifications or missing values have been inferred."
+  ]
+}
