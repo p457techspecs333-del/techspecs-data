@@ -81,7 +81,7 @@ def process(args):
     if not sec:
      result["records"].append({"url":page.url,"title":title,"status":"no_sections_extracted"}); continue
     record={"schema_version":"2.0","product":{"brand":"Apple","category":"accessory" if family=="accessories" else "software",
-      "family":"Apple Accessories" if family=="accessories" else "Apple Software","model":model,"model_slug":(slug(model) if family=="accessories" else slug(model)+"--"+slug(title)+"--"+slug(urlparse(page.url).path.rstrip("/").split("/")[-1])),
+      "family":"Apple Accessories" if family=="accessories" else "Apple Software","model":model,"model_slug":(slug(model) if family=="accessories" else slug(model)+"-"+slug(title)+"-"+slug(urlparse(page.url).path.rstrip("/").split("/")[-1])),
       "model_year":(int(year_match.group(1)) if year_match and int(year_match.group(1)) >= 2007 else None),"year_introduced":(int(year_match.group(1)) if year_match and int(year_match.group(1)) >= 2007 else None),"variant":None},
       "source":{"source_type":"manufacturer","source_url":page.url,"source_file":saved.as_posix(),"source_title":title,"publisher":"Apple",
        "published_at":None,"checked_at":TODAY,"verification_status":"content_verified",
@@ -103,7 +103,7 @@ def main():
  airpods_dir=ROOT/"airpods"
  if airpods_dir.exists():
   for stale in airpods_dir.glob("*.json"):
-   if stale.name!="source-inventory.json" and "--" not in stale.stem: stale.unlink()
+   if stale.name!="source-inventory.json": stale.unlink()
  # Replace software records from this extractor so every distinct official spec page is retained.
  software_dir=ROOT/"software"
  if software_dir.exists():
