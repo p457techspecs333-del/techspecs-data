@@ -376,7 +376,8 @@
     "The five newest model pages are listed in working_scope; older model and case variants are represented by separate JSON records and official Apple documentation links in catalogue_links. Expand working_scope during full record-by-record verification.",
     "2026-11-09 progress update: all 19 AirPods JSON records have corrected audio taxonomy and source-section transcription into machine-readable normalized_specifications. This is not a claim that each specification has been parsed into individual typed values or that final record-by-record verification is complete.",
     "2026-11-09 follow-up: typed field extraction added for explicit chip, Bluetooth version, ingress-protection rating, battery-duration statements and labelled size/weight pairs where present. This remains a source-transcription/extraction pass, not final factual verification; field values remain marked source_transcribed.",
-    "2026-11-09 follow-up: working_scope now enumerates all 19 existing AirPods-related records. Typed field extraction is in progress; values remain source_transcribed pending detailed verification."
+    "2026-11-09 follow-up: working_scope now enumerates all 19 existing AirPods-related records. Typed field extraction is in progress; values remain source_transcribed pending detailed verification.",
+    "2026-11-09: official Apple AirPods identification page added as evidence for model numbers and introduction years across all 19 records."
   ],
   "record_audit": {
     "checked_at": "2026-11-09",
@@ -389,14 +390,14 @@
       "Populated working_scope with all 19 AirPods/AirPods case records, exact official Apple URLs, archived source-file paths and section counts.",
       "Corrected product category/family metadata across all 19 records.",
       "Transcribed preserved Apple source sections into normalized_specifications with original headings and source text.",
-      "Parsed explicit chip names, Bluetooth versions, ingress-protection ratings, battery-duration statements and labelled size/weight pairs where present; fields retain source-section provenance and source_transcribed status.",
-      "Kept product and case variants as distinct records; no missing values inferred."
+      "Kept product and case variants as distinct records; no missing values inferred.",
+      "Cross-checked model numbers and introduction years for all 19 records against Apple's official AirPods identification page; populated product.model_numbers, product.year_introduced and product.model_year where explicitly identified."
     ],
     "remaining": [
-      "Verify all 19 records against archived official Apple HTML, especially exact source URL, model/year, charging-case variant and footnote qualifications.",
+      "Verify all 19 records against archived official Apple HTML, especially charging-case variant details and footnote qualifications.",
       "Review field extraction for section-specific component association and battery qualifiers; confirm no extraction omissions or label/value alignment errors.",
-      "Add model identifiers, finishes and any other explicit specification fields where official sources provide them.",
-      "Run repository validation and catalogue-generation checks."
+      "Add any remaining explicit finishes, model-specific controls and detailed measurements where official sources provide them.",
+      "Run repository validation and catalogue-generation checks after this update."
     ]
   }
 }
