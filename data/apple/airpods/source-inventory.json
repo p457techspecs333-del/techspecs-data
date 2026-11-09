@@ -1,8 +1,8 @@
 {
-  "catalogue_stage": "official_apple_source_discovery",
+  "catalogue_stage": "source_archived_taxonomy_audited_normalization_pending",
   "brand": "Apple",
   "category": "audio",
-  "family": "AirPods",
+  "family": "Apple AirPods",
   "market": "Ireland-facing catalogue",
   "source_policy": "Official Apple sources only; preserve original HTML; no inferred specifications.",
   "index_url": "https://support.apple.com/en-ie/docs/airpods",
@@ -231,6 +231,27 @@
     }
   ],
   "notes": [
-    "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete."
-  ]
+    "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete.",
+    "2026-11-09 audit: 19 product JSON records are present in data/apple/airpods; product taxonomy has been corrected across these records. This does not mean field-level specification normalization is complete.",
+    "The five newest model pages are listed in working_scope; older model and case variants are represented by separate JSON records and official Apple documentation links in catalogue_links. Expand working_scope during full record-by-record verification."
+  ],
+  "record_audit": {
+    "checked_at": "2026-11-09",
+    "product_record_count": 19,
+    "taxonomy": "All 19 AirPods-folder product JSON records corrected to product.category=audio and product.family=Apple AirPods.",
+    "source_policy": "Official Apple source URLs and archived HTML remain the source of truth. Do not infer missing values.",
+    "normalization_status": "partially_normalized",
+    "completion_status": "IN_PROGRESS",
+    "completed": [
+      "Corrected product category/family metadata across all 19 product records.",
+      "Retained original Apple source sections and archived HTML references.",
+      "Marked record review date and documented that field-level normalization remains incomplete."
+    ],
+    "remaining": [
+      "Normalize source-supported specifications into normalized_specifications for every model and case variant.",
+      "Check source_file paths, canonical source URLs, model years, and duplicate/variant relationships against archived HTML.",
+      "Reconcile documentation-only charging-case records with the product catalogue without dropping them.",
+      "Run the repository validator and record results."
+    ]
+  }
 }
