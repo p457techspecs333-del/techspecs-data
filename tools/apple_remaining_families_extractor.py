@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Discover and archive official Apple specs/manuals for remaining product families.
 
+This workflow also inventories Apple documentation links to support complete second-pass extraction.
+
 Uses Apple Support model-identification pages and Apple's documentation hub.
 Only HTTPS Apple-owned pages are accepted. A product record is written only when
 a page has a plausible model identity and useful visible specification content.
