@@ -101,7 +101,7 @@ def discover_targets():
         if url in seen:
             continue
         seen.add(url)
-        name = re.sub(r"^(?:see\\s+)?(?:the\\s+)?tech specs for\\s+", "", label, flags=re.I).strip(" .")
+        name = re.sub(r"^(?:see\s+)?(?:the\s+)?tech specs for\s+", "", label, flags=re.I).strip(" .")
         slug = slugify(name)
         discovered.append({"model": name, "slug": slug, "url": url, "source_type": "support", "year": None})
     # Always include the current product page because the support identification page can lag.
