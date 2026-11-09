@@ -236,85 +236,95 @@
       }
     },
     "chip_name": {
-      "value": "H2 headphone chip",
-      "unit": null,
-      "source_section": "Chip",
-      "verification_status": "source_transcribed",
-      "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+      "value": {
+        "value": "H2 headphone chip",
+        "unit": null,
+        "source_section": "Chip",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+      }
     },
     "bluetooth_version": {
-      "value": "5.3",
-      "unit": "version",
-      "source_section": "Connectivity",
-      "verification_status": "source_transcribed",
-      "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+      "value": {
+        "value": "5.3",
+        "unit": "version",
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+      }
     },
     "ingress_protection_rating": {
-      "value": "IP57",
-      "unit": null,
-      "source_section": "Dust, Sweat and Water Resistant 9",
-      "verification_status": "source_transcribed",
-      "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+      "value": {
+        "value": "IP57",
+        "unit": null,
+        "source_section": "Dust, Sweat and Water Resistant 9",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+      }
     },
     "battery_life_statements": {
-      "value": [
-        "Up to 4 hours of battery life on a single charge with Active Noise Cancellation enabled",
-        "Up to 6 hours of battery life on a single charge with noise control off",
-        "Up to 20 hours of battery life with Active Noise Cancellation enabled",
-        "5 minutes in the case provides around 1 hour of battery life"
-      ],
-      "unit": null,
-      "source_section": "Battery",
-      "verification_status": "source_transcribed",
-      "notes": "Exact battery-duration statements from official source section; qualifiers and footnote markers retained."
+      "value": {
+        "value": [
+          "Up to 4 hours of battery life on a single charge with Active Noise Cancellation enabled",
+          "Up to 6 hours of battery life on a single charge with noise control off",
+          "Up to 20 hours of battery life with Active Noise Cancellation enabled",
+          "5 minutes in the case provides around 1 hour of battery life"
+        ],
+        "unit": null,
+        "source_section": "Battery",
+        "verification_status": "source_transcribed",
+        "notes": "Exact battery-duration statements from official source section; qualifiers and footnote markers retained."
+      }
     },
     "labelled_size_weight_measurements": {
-      "value": [
-        {
-          "label": "height",
-          "value": 30.2,
-          "unit": "mm"
-        },
-        {
-          "label": "width",
-          "value": 18.3,
-          "unit": "mm"
-        },
-        {
-          "label": "depth",
-          "value": 18.1,
-          "unit": "mm"
-        },
-        {
-          "label": "weight",
-          "value": 4.3,
-          "unit": "g"
-        },
-        {
-          "label": "height",
-          "value": 46.2,
-          "unit": "mm"
-        },
-        {
-          "label": "width",
-          "value": 50.1,
-          "unit": "mm"
-        },
-        {
-          "label": "depth",
-          "value": 21.2,
-          "unit": "mm"
-        },
-        {
-          "label": "weight",
-          "value": 32.3,
-          "unit": "g"
-        }
-      ],
-      "unit": null,
-      "source_section": "Size and Weight 10",
-      "verification_status": "source_transcribed",
-      "notes": "Only explicit label/value pairs extracted; source component context retained, no values inferred."
+      "value": {
+        "value": [
+          {
+            "label": "height",
+            "value": 30.2,
+            "unit": "mm"
+          },
+          {
+            "label": "width",
+            "value": 18.3,
+            "unit": "mm"
+          },
+          {
+            "label": "depth",
+            "value": 18.1,
+            "unit": "mm"
+          },
+          {
+            "label": "weight",
+            "value": 4.3,
+            "unit": "g"
+          },
+          {
+            "label": "height",
+            "value": 46.2,
+            "unit": "mm"
+          },
+          {
+            "label": "width",
+            "value": 50.1,
+            "unit": "mm"
+          },
+          {
+            "label": "depth",
+            "value": 21.2,
+            "unit": "mm"
+          },
+          {
+            "label": "weight",
+            "value": 32.3,
+            "unit": "g"
+          }
+        ],
+        "unit": null,
+        "source_section": "Size and Weight 10",
+        "verification_status": "source_transcribed",
+        "notes": "Only explicit label/value pairs extracted; source component context retained, no values inferred."
+      }
     }
   }
 }
