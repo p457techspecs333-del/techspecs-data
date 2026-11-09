@@ -6,9 +6,12 @@
     "family": "Apple AirPods",
     "model": "AirPods Wireless Charging Case",
     "model_slug": "airpods-wireless-charging-case-airpods-2-and-earlier-wireless-charging-case-tech-specs-111860",
-    "model_year": null,
-    "year_introduced": null,
-    "variant": null
+    "model_year": 2019,
+    "year_introduced": 2019,
+    "variant": null,
+    "model_numbers": [
+      "A1938"
+    ]
   },
   "source": {
     "source_type": "manufacturer",
@@ -19,9 +22,10 @@
     "published_at": null,
     "checked_at": "2026-11-09",
     "verification_status": "content_verified",
-    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 7 sections archived.",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 7 sections archived. Model identifiers and introduction year cross-checked against Apple's official AirPods identification page on 2026-11-09.",
     "notes": [
-      "Documentation index: https://support.apple.com/en-ie/docs/airpods/pp525"
+      "Documentation index: https://support.apple.com/en-ie/docs/airpods/pp525",
+      "Model numbers and introduction year verified against official Apple AirPods identification page: https://support.apple.com/en-ie/109525."
     ]
   },
   "extraction": {
@@ -128,6 +132,26 @@
         "source_section": "Manufacturer Information",
         "verification_status": "source_transcribed",
         "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "model_identifiers": {
+      "value": {
+        "value": [
+          "A1938"
+        ],
+        "unit": null,
+        "source_section": "Identify your AirPods with the model number",
+        "verification_status": "content_verified",
+        "notes": "Cross-checked against official Apple AirPods identification page https://support.apple.com/en-ie/109525 on 2026-11-09."
+      }
+    },
+    "year_introduced": {
+      "value": {
+        "value": 2019,
+        "unit": "year",
+        "source_section": "Identify your AirPods with the model number",
+        "verification_status": "content_verified",
+        "notes": "Cross-checked against official Apple AirPods identification page https://support.apple.com/en-ie/109525 on 2026-11-09."
       }
     }
   }
