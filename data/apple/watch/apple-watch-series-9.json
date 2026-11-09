@@ -11,14 +11,14 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-lb/111833",
+    "source_url": "https://support.apple.com/en-ie/docs/watch/pl207",
     "source_file": null,
-    "source_title": "Apple Watch Series 9 - Tech Specs",
+    "source_title": "Apple Watch Series 9 - Manuals and Downloads",
     "publisher": "Apple Support",
     "published_at": null,
     "checked_at": "2026-11-08",
     "verification_status": "content_verified",
-    "verification_notes": "Direct official Apple Watch Series 9 Tech Specs page verified at article 111833 under the Lebanon locale; year introduced 2023. The Ireland product-specific support page is also listed at https://support.apple.com/en-ie/docs/watch/pl207.",
+    "verification_notes": "Official Apple Support product-specific page for Series 9; year introduced 2023. The direct Tech Specs article 111833 is also published by Apple at https://support.apple.com/en-lb/111833.",
     "notes": []
   },
   "extraction": {
