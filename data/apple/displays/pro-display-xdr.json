@@ -6,8 +6,8 @@
     "family": "Apple Displays",
     "model": "Pro Display XDR",
     "model_slug": "pro-display-xdr",
-    "model_year": null,
-    "year_introduced": null,
+    "model_year": 2019,
+    "year_introduced": 2019,
     "variant": null
   },
   "source": {
@@ -19,17 +19,17 @@
     "published_at": null,
     "checked_at": "2026-11-09",
     "verification_status": "content_verified",
-    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 12 sections archived.",
+    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 12 sections archived. Year introduced cross-checked against Apple's official display-identification page on 2026-11-09.",
     "notes": [
       "Extracted from official Apple technical specification link discovered on model index."
     ]
   },
   "extraction": {
     "method": "section_preserving",
-    "normalization_status": "archival_first_pass",
-    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "normalization_status": "partially_normalized",
+    "note": "Official Apple display specification sections retained. Model introduction year and explicit display, camera, audio, port, size/weight and electrical details parsed where present with source-section provenance. Configuration-dependent values and footnotes remain attached to source wording; no absent specs inferred.",
     "extracted_at": "2026-11-09",
-    "reviewed_at": null
+    "reviewed_at": "2026-11-09"
   },
   "sections": [
     {
@@ -82,6 +82,125 @@
     }
   ],
   "record_notes": [
-    "Archival-first-pass record; normalized specifications not inferred."
-  ]
+    "Archival-first-pass record; normalized specifications not inferred.",
+    "Field extraction pass 2026-11-09: normalized explicit display specifications and verified introduction year against Apple's official display-identification page."
+  ],
+  "normalized_specifications": {
+    "diagonal_size": {
+      "value": {
+        "value": 32,
+        "unit": "inches",
+        "source_section": "Display",
+        "verification_status": "source_transcribed",
+        "notes": "Explicit value parsed from the preserved official Apple specification section; source wording and qualifiers retained."
+      }
+    },
+    "pixel_density": {
+      "value": {
+        "value": 218,
+        "unit": "ppi",
+        "source_section": "Display",
+        "verification_status": "source_transcribed",
+        "notes": "Explicit value parsed from the preserved official Apple specification section; source wording and qualifiers retained."
+      }
+    },
+    "brightness_statements": {
+      "value": {
+        "value": [
+          {
+            "value": 1000,
+            "qualifier": "sustained full‑screen"
+          },
+          {
+            "value": 1600,
+            "qualifier": "peak"
+          },
+          {
+            "value": 500,
+            "qualifier": "unspecified"
+          }
+        ],
+        "unit": "nits",
+        "source_section": "Display",
+        "verification_status": "source_transcribed",
+        "notes": "Brightness values retained with source qualifiers (e.g. sustained full-screen or peak); no single maximum inferred."
+      }
+    },
+    "colour_depth": {
+      "value": {
+        "value": 10,
+        "unit": "bits",
+        "source_section": "Display",
+        "verification_status": "source_transcribed",
+        "notes": "Explicit value parsed from the preserved official Apple specification section; source wording and qualifiers retained."
+      }
+    },
+    "panel_description": {
+      "value": {
+        "value": "32-inch (diagonal) IPS LCD display with oxide TFT technology",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "source_transcribed",
+        "notes": "Explicit value parsed from the preserved official Apple specification section; source wording and qualifiers retained."
+      }
+    },
+    "glass_options": {
+      "value": {
+        "value": [
+          "Standard glass",
+          "Nano-texture glass"
+        ],
+        "unit": null,
+        "source_section": "Finish",
+        "verification_status": "source_transcribed",
+        "notes": "Glass options preserved as listed by Apple; these are configuration choices, not product colour finishes."
+      }
+    },
+    "connection_details": {
+      "value": {
+        "value": [
+          "One upstream port for Mac Pro or other Thunderbolt 3 host (96W host charging)",
+          "Three USB‑C (USB 2) ports for charging or syncing",
+          "3",
+          "Learn more about Thunderbolt 3",
+          "Learn more about SDI connectivity"
+        ],
+        "unit": null,
+        "source_section": "Connections",
+        "verification_status": "source_transcribed",
+        "notes": "Port counts, standards, bandwidth and charging details retained as individual source statements."
+      }
+    },
+    "size_weight_configurations": {
+      "value": {
+        "value": [
+          "Width:\n71.8 cm (28.3 inches)\nHeight:\n41.2 cm (16.2 inches)\nDepth:\n2.7 cm (1.1 inches)\nWeight:\n7.48 kg (16.49 pounds)\n2"
+        ],
+        "unit": null,
+        "source_section": "Size and Weight",
+        "verification_status": "source_transcribed",
+        "notes": "Configuration-specific size/weight blocks retained separately where footnote-number separators are present; no stand configuration is assumed."
+      }
+    },
+    "electrical_operating_requirements": {
+      "value": {
+        "value": [
+          "Line voltage:",
+          "100–240V AC",
+          "Frequency:",
+          "50Hz to 60Hz, single phase",
+          "Operating temperature:",
+          "10° to 35° C (50° to 95° F)",
+          "Relative humidity:",
+          "5% to 95% non-condensing",
+          "Maximum altitude:",
+          "tested up to 5,000 metres (16,400 feet)"
+        ],
+        "unit": null,
+        "source_section": "Electrical and Operating Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Explicit value parsed from the preserved official Apple specification section; source wording and qualifiers retained."
+      }
+    }
+  }
 }
