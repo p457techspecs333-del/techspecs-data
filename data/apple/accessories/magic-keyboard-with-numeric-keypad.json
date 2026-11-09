@@ -26,10 +26,10 @@
   },
   "extraction": {
     "method": "section_preserving",
-    "normalization_status": "archival_first_pass",
-    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "normalization_status": "partially_normalized",
+    "note": "Official Apple accessory source sections retained. Explicit size/weight, resistance, connectivity, battery, sensor, finish and environmental fields extracted where present with source-section provenance. Approximate battery-life statements retain their qualifiers; no absent values inferred.",
     "extracted_at": "2026-11-09",
-    "reviewed_at": null
+    "reviewed_at": "2026-11-09"
   },
   "sections": [
     {
@@ -58,6 +58,47 @@
     }
   ],
   "record_notes": [
-    "Archival-first-pass technical specification record; normalized values not inferred."
-  ]
+    "Archival-first-pass technical specification record; normalized values not inferred.",
+    "Field extraction pass 2026-11-09: explicit accessory specifications extracted into schema-v2 fields with source-section provenance."
+  ],
+  "normalized_specifications": {
+    "size_weight_statements": {
+      "value": {
+        "value": [
+          "Height: 0.16–0.43 inch (0.41–1.09 cm)",
+          "Width: 16.48 inches (41.87 cm)",
+          "Depth: 4.52 inches (11.49 cm)",
+          "Weight: 0.86 pound (0.39 kg)*"
+        ],
+        "unit": null,
+        "source_section": "Size and Weight",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple specification text; wording retained."
+      }
+    },
+    "connection_details": {
+      "value": {
+        "value": [
+          "Bluetooth",
+          "Lightning port",
+          "Wireless"
+        ],
+        "unit": null,
+        "source_section": "Connections and Expansion",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple specification text; wording retained."
+      }
+    },
+    "battery_life_statements": {
+      "value": {
+        "value": [
+          "chargeable battery is incredibly long-lasting, powering your keyboard for about a month or more between charges."
+        ],
+        "unit": null,
+        "source_section": "Overview",
+        "verification_status": "source_transcribed",
+        "notes": "Manufacturer's approximate battery-life wording retained verbatim; not treated as a guaranteed duration."
+      }
+    }
+  }
 }
