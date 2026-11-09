@@ -27,7 +27,7 @@
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
-    "note": "Official Apple source sections preserved; product taxonomy corrected. Field-level normalized specifications still require extraction and verification; no values inferred.",
+    "note": "Official Apple sections preserved and transcribed into machine-readable section fields. Individual measurements, battery figures, model identifiers and footnote qualifications still require field-level parsing and validation; no values inferred.",
     "extracted_at": "2026-11-09",
     "reviewed_at": "2026-11-09"
   },
@@ -89,5 +89,124 @@
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Taxonomy audit 2026-11-09: classified as Apple audio hardware, not software.",
     "Field-level normalization remains incomplete; source_text is the evidence of record."
-  ]
+  ],
+  "normalized_specifications": {
+    "audio_technology": {
+      "source_text": {
+        "value": "Active Noise Cancellation\nTransparency mode\nAdaptive EQ\nVent system for pressure equalization\nCustom high-excursion Apple driver\nCustom high dynamic range amplifier\nSpatial audio with dynamic head tracking\n1",
+        "unit": null,
+        "source_section": "Audio Technology",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "sensors": {
+      "source_text": {
+        "value": "Dual beamforming microphones\nInward-facing microphone\nDual optical sensors\nMotion-detecting accelerometer\nSpeech-detecting accelerometer\nForce sensor",
+        "unit": null,
+        "source_section": "Sensors",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "chip": {
+      "source_text": {
+        "value": "H1 headphone chip",
+        "unit": null,
+        "source_section": "Chip",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "controls": {
+      "source_text": {
+        "value": "Press once to play, pause, or answer a phone call\nPress twice to skip forward\nPress three times to skip back\nPress and hold to switch between Active Noise Cancellation and Transparency mode\nSay “Hey Siri” to do things like play a song, make a call, or get directions",
+        "unit": null,
+        "source_section": "Controls",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "sweat_and_water_resistant": {
+      "source_text": {
+        "value": "Sweat and water resistant (IPX4)",
+        "unit": null,
+        "source_section": "Sweat and Water Resistant 2",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "size_and_weight": {
+      "source_text": {
+        "value": "AirPods Pro (each)\nHeight: 1.22 inches (30.9 mm)\nWidth: 0.86 inch (21.8 mm)\nDepth: 0.94 inch (24.0 mm)\nWeight: 0.19 ounce (5.4 grams)\nWireless Charging Case\nHeight: 1.78 inches (45.2 mm)\nWidth: 2.39 inches (60.6 mm)\nDepth: 0.85 inch (21.7 mm)\nWeight: 1.61 ounces (45.6 grams)",
+        "unit": null,
+        "source_section": "Size and Weight 3",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "charging_case": {
+      "source_text": {
+        "value": "Works with Qi-certified chargers or the Lightning connector",
+        "unit": null,
+        "source_section": "Charging Case",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "battery": {
+      "source_text": {
+        "value": "AirPods Pro\nUp to 4.5 hours of listening time with a single charge (up to 5 hours with Active Noise Cancellation and Transparency off)\n4\nAirPods Pro with Wireless Charging Case\nMore than 24 hours of listening time\n5\n5 minutes in the case provides around 1 hour of listening time\n6",
+        "unit": null,
+        "source_section": "Battery",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "connectivity": {
+      "source_text": {
+        "value": "Bluetooth 5.0",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "in_the_box": {
+      "source_text": {
+        "value": "AirPods Pro 1\nWireless Charging Case\nSilicone ear tips (three sizes)\nLightning to USB-C Cable\nDocumentation",
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "accessibility": {
+      "source_text": {
+        "value": "Accessibility features help people with disabilities get the most out of their new AirPods Pro. Features include:\nLive Listen audio\n7\nHeadphones levels\nHeadphones Accommodations\nConversation Boost",
+        "unit": null,
+        "source_section": "Accessibility",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "system_requirements": {
+      "source_text": {
+        "value": "iPhone and iPod touch models with the latest version of iOS\niPad models with the latest version of iPadOS\nApple Watch models with the latest version of watchOS\nMac models with the latest version of macOS\nApple TV models with the latest version of tvOS",
+        "unit": null,
+        "source_section": "System Requirements 8",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "airpods_pro_and_the_environment": {
+      "source_text": {
+        "value": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more about AirPods Pro and the Environment\nAirPods Pro are designed with the following features to reduce environmental impact:\nBrominated flame retardant–free\nPVC-free\nBeryllium-free\nMercury-free",
+        "unit": null,
+        "source_section": "AirPods Pro and the Environment",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    }
+  }
 }
