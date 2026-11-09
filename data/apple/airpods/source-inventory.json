@@ -8,7 +8,58 @@
   "index_url": "https://support.apple.com/en-ie/109525",
   "index_title": "Identify your AirPods - Apple Support (IE)",
   "index_archive": "apple_remaining_extraction/technical_specs_html/airpods-index.html",
-  "working_scope": [],
+  "working_scope": [
+    {
+      "model": "AirPods 5",
+      "url": "https://www.apple.com/ie/airpods-5/specs/",
+      "slug": "airpods-5",
+      "final_url": "https://www.apple.com/ie/airpods-5/specs/",
+      "title": "AirPods 5 Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/airpods-airpods-5.html",
+      "section_count": 21,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "AirPods Pro 3",
+      "url": "https://support.apple.com/en-ie/125135",
+      "slug": "airpods-pro-3",
+      "final_url": "https://support.apple.com/en-ie/125135",
+      "title": "AirPods Pro 3 - Tech Specs",
+      "source_file": "apple_remaining_extraction/technical_specs_html/airpods-airpods-pro-3.html",
+      "section_count": 15,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "AirPods 4",
+      "url": "https://support.apple.com/en-ie/121203",
+      "slug": "airpods-4",
+      "final_url": "https://support.apple.com/en-ie/121203",
+      "title": "AirPods 4 - Tech Specs",
+      "source_file": "apple_remaining_extraction/technical_specs_html/airpods-airpods-4.html",
+      "section_count": 13,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "AirPods 4 with Active Noise Cancellation",
+      "url": "https://support.apple.com/en-ie/121204",
+      "slug": "airpods-4-with-active-noise-cancellation",
+      "final_url": "https://support.apple.com/en-ie/121204",
+      "title": "AirPods 4 with Active Noise Cancellation - Tech Specs",
+      "source_file": "apple_remaining_extraction/technical_specs_html/airpods-airpods-4-with-active-noise-cancellation.html",
+      "section_count": 13,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "AirPods Max 2",
+      "url": "https://www.apple.com/ie/airpods-max/specs/",
+      "slug": "airpods-max-2",
+      "final_url": "https://www.apple.com/ie/airpods-max/specs/",
+      "title": "AirPods Max 2 Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/airpods-airpods-max-2.html",
+      "section_count": 6,
+      "verification_status": "content_verified"
+    }
+  ],
   "notes": [
     "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete."
   ]

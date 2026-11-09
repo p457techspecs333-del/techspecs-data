@@ -1,20 +1,71 @@
 {
-  "started_utc": "2026-11-09T12:15:43.879975+00:00",
+  "started_utc": "2026-11-09T12:16:26.648678+00:00",
   "families": [
     {
       "key": "airpods",
       "label": "AirPods",
       "index_url": "https://support.apple.com/en-ie/109525",
-      "status": "index_captured_no_spec_links",
-      "targets": [],
+      "status": "index_captured",
+      "targets": [
+        {
+          "model": "AirPods 5",
+          "url": "https://www.apple.com/ie/airpods-5/specs/",
+          "slug": "airpods-5",
+          "final_url": "https://www.apple.com/ie/airpods-5/specs/",
+          "title": "AirPods 5 Technical Specifications",
+          "source_file": "apple_remaining_extraction/technical_specs_html/airpods-airpods-5.html",
+          "section_count": 21,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "AirPods Pro 3",
+          "url": "https://support.apple.com/en-ie/125135",
+          "slug": "airpods-pro-3",
+          "final_url": "https://support.apple.com/en-ie/125135",
+          "title": "AirPods Pro 3 - Tech Specs",
+          "source_file": "apple_remaining_extraction/technical_specs_html/airpods-airpods-pro-3.html",
+          "section_count": 15,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "AirPods 4",
+          "url": "https://support.apple.com/en-ie/121203",
+          "slug": "airpods-4",
+          "final_url": "https://support.apple.com/en-ie/121203",
+          "title": "AirPods 4 - Tech Specs",
+          "source_file": "apple_remaining_extraction/technical_specs_html/airpods-airpods-4.html",
+          "section_count": 13,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "AirPods 4 with Active Noise Cancellation",
+          "url": "https://support.apple.com/en-ie/121204",
+          "slug": "airpods-4-with-active-noise-cancellation",
+          "final_url": "https://support.apple.com/en-ie/121204",
+          "title": "AirPods 4 with Active Noise Cancellation - Tech Specs",
+          "source_file": "apple_remaining_extraction/technical_specs_html/airpods-airpods-4-with-active-noise-cancellation.html",
+          "section_count": 13,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "AirPods Max 2",
+          "url": "https://www.apple.com/ie/airpods-max/specs/",
+          "slug": "airpods-max-2",
+          "final_url": "https://www.apple.com/ie/airpods-max/specs/",
+          "title": "AirPods Max 2 Technical Specifications",
+          "source_file": "apple_remaining_extraction/technical_specs_html/airpods-airpods-max-2.html",
+          "section_count": 6,
+          "verification_status": "content_verified"
+        }
+      ],
       "errors": [],
       "final_index_url": "https://support.apple.com/en-ie/109525",
       "index_title": "Identify your AirPods - Apple Support (IE)",
       "index_archive": "apple_remaining_extraction/technical_specs_html/airpods-index.html",
       "index_bytes": 186670,
       "summary": {
-        "spec_links_discovered": 0,
-        "records_written": 0,
+        "spec_links_discovered": 5,
+        "records_written": 5,
         "needs_review": 0,
         "errors": 0
       }
@@ -197,12 +248,12 @@
     "No missing technical details are inferred. Hardware records preserve source headings and text.",
     "Accessories and software are broad catalogues, not single hardware model families; their official indexes are archived and linked records are inventoried separately."
   ],
-  "finished_utc": "2026-11-09T12:15:55.768038+00:00",
+  "finished_utc": "2026-11-09T12:16:44.885018+00:00",
   "summary": {
     "families_checked": 6,
     "indexes_captured": 6,
-    "spec_links_discovered": 8,
-    "records_written": 8,
+    "spec_links_discovered": 13,
+    "records_written": 13,
     "errors": 0
   }
 }

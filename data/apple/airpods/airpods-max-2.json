@@ -1,0 +1,63 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "audio",
+    "family": "AirPods",
+    "model": "AirPods Max 2",
+    "model_slug": "airpods-max-2",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://www.apple.com/ie/airpods-max/specs/",
+    "source_file": "apple_remaining_extraction/technical_specs_html/airpods-airpods-max-2.html",
+    "source_title": "AirPods Max 2 Technical Specifications",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 6 sections archived.",
+    "notes": [
+      "Extracted from official Apple technical specification link discovered on model index."
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "AirPods Max 2 Technical Specifications",
+      "source_text": "Midnight\nStarlight\nBlue\nPurple\nOrange\nApple-designed dynamic driver\nCustom high dynamic range amplifier\nActive Noise Cancellation\nAdaptive Audio 1\nTransparency mode\nConversation Awareness 1\nVoice Isolation 2\nPersonalised Volume 3\nLoud Sound Reduction\nPersonalised Spatial Audio with dynamic head tracking 4\nAdaptive EQ\nLossless Audio and ultra-low latency audio via USB‑C 5\nLive Translation for communicating across languages 6\nOptical sensor (each ear cup)\nPosition sensor (each ear cup)\nCase-detect sensor (each ear cup)\nAccelerometer (each ear cup)\nGyroscope (left ear cup)\nNine microphones total:\nEight microphones for Active Noise Cancellation\nThree microphones for voice pickup (two shared with Active Noise Cancellation and one additional microphone)\nApple H2 headphone chip (each ear cup)\nDigital Crown\nTurn for volume control\nPress once to play or pause media\nPress once to answer a call or mute or unmute 7\nPress twice to end a call\nPress twice to skip forward\nPress three times to skip back\nPress and hold for Siri\nListening mode button\nPress to switch between listening modes\nSiri\nSay “Hey Siri” 8 to do things like play a song, make a call or get directions\nSiri Interactions 9\nAirPods Max 2, including cushions\n168.6 mm (6.64 inches)\n83.4 mm (3.28 inches)\n187.3 mm (7.37 inches)\nWeight: 386.2 grams (13.6 ounces)\nSmart Case\nWeight: 134.5 grams (4.74 ounces)\nAirPods Max 2 (full charge)\nUp to 20 hours of listening time on a single charge with Active Noise Cancellation enabled 11\n5 minutes of charge time provides around 1.5 hours of listening time. 12\nAirPods Max 2 with Smart Case\nStorage in the Smart Case preserves battery charge in ultra-low-power state\nChar­ging via USB‑C\nBluetooth 5.3 wireless technology\nAirPods Max 2\nSmart Case\nUSB‑C Charge Cable\nDocumentation\nAccessi­bility features help people with disabilities get the most out of their new AirPods Max.\nFeatures include:\nLive Listen audio\nHeadphone levels\nHeadphone Accommodations\niPhone models with the latest version of iOS\niPad models with the latest version of iPadOS\nApple Watch models with the latest version of watchOS\nMac models with the latest version of macOS\nApple TV models with the latest version of tvOS\nAirPods can be used as wireless Bluetooth headphones with Apple devices using earlier software and with non-Apple devices, but functionality may be limited."
+    },
+    {
+      "heading": "Progress towards Apple 2030",
+      "source_text": "Apple 2030 is our commitment to be carbon neutral for our entire carbon footprint. Our plan to decarbonise products is rigorous and focuses on transitioning to low-carbon electricity, designing with recycled and low-carbon materials, and prioritising lower-carbon ways of shipping products, like sea freight.\nSee Apple’s commitment"
+    },
+    {
+      "heading": "Materials",
+      "source_text": "100% recycled cobalt in the battery\n100% recycled copper in multiple printed circuit boards\n100% recycled gold plating and tin solder in all Apple-designed printed circuit boards\n100% recycled rare earth elements in all magnets\n90% recycled polyester in the canopy and cushion yarn\n100% recycled polyester inside the ear cushion"
+    },
+    {
+      "heading": "Packaging",
+      "source_text": "100% fibre-based packaging 14"
+    },
+    {
+      "heading": "Waste",
+      "source_text": "No established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme 15"
+    },
+    {
+      "heading": "Smarter chemistry 16",
+      "source_text": "All of the materials used in Apple products, accessories and packaging are covered by the requirements of our Regulated Substances Specification , which was one of the first in industry to restrict the use of key substances of concern. See the latest En­viron­men­tal Progress Report to understand Apple’s recent efforts in phasing out these chemistries."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record; normalized specifications not inferred."
+  ]
+}
