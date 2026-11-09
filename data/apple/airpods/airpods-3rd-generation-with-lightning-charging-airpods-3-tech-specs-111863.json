@@ -210,73 +210,81 @@
       }
     },
     "chip_name": {
-      "value": "H1 headphone chip",
-      "unit": null,
-      "source_section": "Chip",
-      "verification_status": "source_transcribed",
-      "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+      "value": {
+        "value": "H1 headphone chip",
+        "unit": null,
+        "source_section": "Chip",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+      }
     },
     "bluetooth_version": {
-      "value": "5.0",
-      "unit": "version",
-      "source_section": "Connectivity",
-      "verification_status": "source_transcribed",
-      "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+      "value": {
+        "value": "5.0",
+        "unit": "version",
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+      }
     },
     "ingress_protection_rating": {
-      "value": "IPX4",
-      "unit": null,
-      "source_section": "Sweat and Water Resistant 2",
-      "verification_status": "source_transcribed",
-      "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+      "value": {
+        "value": "IPX4",
+        "unit": null,
+        "source_section": "Sweat and Water Resistant 2",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+      }
     },
     "labelled_size_weight_measurements": {
-      "value": [
-        {
-          "label": "height",
-          "value": 30.79,
-          "unit": "mm"
-        },
-        {
-          "label": "width",
-          "value": 18.26,
-          "unit": "mm"
-        },
-        {
-          "label": "depth",
-          "value": 19.21,
-          "unit": "mm"
-        },
-        {
-          "label": "weight",
-          "value": 4.28,
-          "unit": "g"
-        },
-        {
-          "label": "height",
-          "value": 46.4,
-          "unit": "mm"
-        },
-        {
-          "label": "width",
-          "value": 54.4,
-          "unit": "mm"
-        },
-        {
-          "label": "depth",
-          "value": 21.38,
-          "unit": "mm"
-        },
-        {
-          "label": "weight",
-          "value": 37.91,
-          "unit": "g"
-        }
-      ],
-      "unit": null,
-      "source_section": "Size and Weight 3",
-      "verification_status": "source_transcribed",
-      "notes": "Only explicit label/value pairs extracted; source component context retained, no values inferred."
+      "value": {
+        "value": [
+          {
+            "label": "height",
+            "value": 30.79,
+            "unit": "mm"
+          },
+          {
+            "label": "width",
+            "value": 18.26,
+            "unit": "mm"
+          },
+          {
+            "label": "depth",
+            "value": 19.21,
+            "unit": "mm"
+          },
+          {
+            "label": "weight",
+            "value": 4.28,
+            "unit": "g"
+          },
+          {
+            "label": "height",
+            "value": 46.4,
+            "unit": "mm"
+          },
+          {
+            "label": "width",
+            "value": 54.4,
+            "unit": "mm"
+          },
+          {
+            "label": "depth",
+            "value": 21.38,
+            "unit": "mm"
+          },
+          {
+            "label": "weight",
+            "value": 37.91,
+            "unit": "g"
+          }
+        ],
+        "unit": null,
+        "source_section": "Size and Weight 3",
+        "verification_status": "source_transcribed",
+        "notes": "Only explicit label/value pairs extracted; source component context retained, no values inferred."
+      }
     }
   }
 }
