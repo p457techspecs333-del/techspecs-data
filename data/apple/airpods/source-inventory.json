@@ -234,7 +234,8 @@
     "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete.",
     "2026-11-09 audit: 19 product JSON records are present in data/apple/airpods; product taxonomy has been corrected across these records. This does not mean field-level specification normalization is complete.",
     "The five newest model pages are listed in working_scope; older model and case variants are represented by separate JSON records and official Apple documentation links in catalogue_links. Expand working_scope during full record-by-record verification.",
-    "2026-11-09 progress update: all 19 AirPods JSON records have corrected audio taxonomy and source-section transcription into machine-readable normalized_specifications. This is not a claim that each specification has been parsed into individual typed values or that final record-by-record verification is complete."
+    "2026-11-09 progress update: all 19 AirPods JSON records have corrected audio taxonomy and source-section transcription into machine-readable normalized_specifications. This is not a claim that each specification has been parsed into individual typed values or that final record-by-record verification is complete.",
+    "2026-11-09 follow-up: typed field extraction added for explicit chip, Bluetooth version, ingress-protection rating, battery-duration statements and labelled size/weight pairs where present. This remains a source-transcription/extraction pass, not final factual verification; field values remain marked source_transcribed."
   ],
   "record_audit": {
     "checked_at": "2026-11-09",
@@ -245,16 +246,16 @@
     "completion_status": "IN_PROGRESS",
     "completed": [
       "Corrected product category/family metadata across all 19 product records.",
-      "Transcribed each record's preserved Apple source sections into normalized_specifications as machine-readable section_text fields, retaining the original section heading and text.",
-      "Marked source text fields source_transcribed; retained archived source sections and source-file references.",
-      "Added review date and explicit notes distinguishing source transcription from field-level normalization."
+      "Transcribed preserved Apple source sections into normalized_specifications with original headings and source text.",
+      "Parsed explicit chip names, Bluetooth versions, ingress-protection ratings, battery-duration statements and labelled size/weight pairs where present; every field retains source-section provenance and source_transcribed status.",
+      "Retained official source sections and source-file references; did not infer missing values."
     ],
     "remaining": [
-      "Parse section text into individual typed values (e.g. dimensions, mass, battery duration, Bluetooth version, chip, resistance rating) with units and source-section references.",
-      "Verify model-specific facts and footnote qualifications against each archived HTML file, including model-year, regional wording, and case variants.",
-      "Check source_file paths, source URLs, duplicate/variant relationships, and catalogue coverage.",
-      "Expand working_scope beyond the five newest product pages to cover all 19 JSON records.",
-      "Run repository validation and record the result."
+      "Verify all 19 records against their archived official Apple HTML, especially exact source URL, source-file path, model/year and variant-specific footnotes.",
+      "Review field extraction for section-specific component association and battery qualifiers; confirm no extraction omissions or label/value alignment errors.",
+      "Add model identifiers, colours/finishes and any other explicit specification fields where the official source provides them.",
+      "Expand working_scope to all 19 product records and reconcile duplicate/variant relationships and charging-case-only records.",
+      "Run repository validation and resolve any schema, filename, provenance or catalogue-generation issues."
     ]
   }
 }
