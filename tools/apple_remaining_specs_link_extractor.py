@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Second-pass discovery: follow Apple's accessory/software documentation pages to Tech Specs."""
+"""Second-pass discovery: follow Apple product documentation pages to Tech Specs, including AirPods."""
 from __future__ import annotations
 import concurrent.futures, html, json, re, time
 from datetime import datetime, timezone
