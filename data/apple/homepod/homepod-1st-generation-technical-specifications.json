@@ -181,6 +181,24 @@
         "verification_status": "source_transcribed",
         "notes": "Explicit metric values in parentheses parsed from the preserved official Apple section; original imperial values remain in source_text."
       }
+    },
+    "size_weight_statements": {
+      "value": {
+        "value": [
+          "Dimensions:",
+          "6.8 inches high (172 mm)",
+          "5.6 inches wide (142 mm)",
+          "Weight:",
+          "5.5 pounds (2.5 kg)",
+          "Color:",
+          "Space Gray",
+          "White"
+        ],
+        "unit": null,
+        "source_section": "Size, Weight, and Color 1",
+        "verification_status": "source_transcribed",
+        "notes": "Original dimension and weight statements retained, including component labels and units."
+      }
     }
   }
 }
