@@ -26,10 +26,10 @@
   },
   "extraction": {
     "method": "section_preserving",
-    "normalization_status": "archival_first_pass",
-    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "normalization_status": "partially_normalized",
+    "note": "Official Apple software specification text retained. Explicit version labels and hardware/software/system requirements separated into machine-readable fields where present with source-section provenance. Historical compatibility requirements remain source_transcribed; no missing versions or release dates inferred.",
     "extracted_at": "2026-11-09",
-    "reviewed_at": null
+    "reviewed_at": "2026-11-09"
   },
   "sections": [
     {
@@ -42,6 +42,79 @@
     }
   ],
   "record_notes": [
-    "Archival-first-pass technical specification record; normalized values not inferred."
-  ]
+    "Archival-first-pass technical specification record; normalized values not inferred.",
+    "Field extraction pass 2026-11-09: version labels and explicit software/hardware requirements parsed from preserved official Apple source sections."
+  ],
+  "normalized_specifications": {
+    "itunes_12_for_windows_technical_specifications_statements": {
+      "value": {
+        "value": [
+          "Hardware:",
+          "PC with a 1GHz Intel or AMD processor with support for SSE2 and 512MB of RAM",
+          "To play Standard Definition video from the iTunes Store, an Intel Pentium D or faster processor, 512MB of RAM, and a DirectX 9.0-compatible video card is required.",
+          "To play 720p HD video, an iTunes LP, or iTunes Extras, a 2.0GHz Intel Core 2 Duo or faster processor, 1GB of RAM, and an Intel GMA X3000, ATI Radeon X1300, or NVIDIA GeForce 6150 or better is required.",
+          "To play 1080p HD video, a 2.4GHz Intel Core 2 Duo or faster processor, 2GB of RAM, and an Intel GMA X4500HD; ATI Radeon HD 2400; NVIDIA GeForce 8300 GS or better is required.",
+          "Screen resolution of 1024x768 or greater; 1280x800 or greater is required to play an iTunes LP or iTunes Extras",
+          "16-bit sound card and speakers",
+          "Internet connection to use Apple Music, the iTunes Store, and iTunes Extras",
+          "iTunes-compatible CD or DVD recorder to create audio CDs, MP3 CDs, or backup CDs or DVDs. Songs from the Apple Music catalog cannot be burned to a CD.",
+          "Software:",
+          "Windows 7 or later",
+          "64-bit editions of Windows require the iTunes 64-bit installer",
+          "400MB of available disk space",
+          "Some third-party visualizers may no longer be compatible with this version of iTunes. Please contact the developer for an updated visualizer that is compatible with iTunes 12.1 or later",
+          "Apple Music, iTunes Store, and iTunes Match availability may vary by country",
+          "Apple Music trial requires sign-up and is available for new subscribers only. Plan automatically renews after trialor later"
+        ],
+        "unit": null,
+        "source_section": "iTunes 12 for Windows - Technical Specifications",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple software specification text; original requirement wording retained."
+      }
+    },
+    "software_version": {
+      "value": {
+        "value": "12",
+        "unit": "version",
+        "source_section": "iTunes 12 for Windows - Technical Specifications",
+        "verification_status": "source_transcribed",
+        "notes": "Version parsed from official Apple source title/model label."
+      }
+    },
+    "operating_system_requirements": {
+      "value": {
+        "value": [
+          "Windows 7 or later"
+        ],
+        "unit": null,
+        "source_section": "System requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Operating-system requirements parsed from official source text; exact wording retained where possible."
+      }
+    },
+    "memory_requirements": {
+      "value": {
+        "value": [
+          "512MB of RAM",
+          "1GB of RAM",
+          "2GB of RAM"
+        ],
+        "unit": null,
+        "source_section": "System requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple software specification text; original requirement wording retained."
+      }
+    },
+    "storage_requirements": {
+      "value": {
+        "value": [
+          "400MB of available disk space"
+        ],
+        "unit": null,
+        "source_section": "System requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple software specification text; original requirement wording retained."
+      }
+    }
+  }
 }
