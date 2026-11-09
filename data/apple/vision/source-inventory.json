@@ -1,0 +1,47 @@
+{
+  "catalogue_stage": "official_vision_pro_specification_extraction",
+  "brand": "Apple",
+  "category": "spatial-computing-headset",
+  "family": "Apple Vision Pro",
+  "market": "Ireland-facing catalogue; official Apple and Apple Support sources",
+  "source_policy": "Use official Apple/Apple Support specification pages. Preserve original source text and archive HTML. Do not create separate records for storage or fit accessories unless the manufacturer treats them as distinct product generations.",
+  "sources": [
+    {
+      "source_type": "manufacturer",
+      "source_url": "https://support.apple.com/en-ie/117810",
+      "source_title": "Apple Vision Pro - Tech Specs",
+      "publisher": "Apple Support",
+      "purpose": "Technical specifications for Apple Vision Pro (M2), year introduced 2024",
+      "verification_status": "url_checked",
+      "notes": "Official Apple Support search result verifies the 2024 M2 generation; extractor must verify live page content before marking content_verified."
+    },
+    {
+      "source_type": "manufacturer",
+      "source_url": "https://support.apple.com/en-ie/125436",
+      "source_title": "Apple Vision Pro (M5) - Tech Specs",
+      "publisher": "Apple Support",
+      "purpose": "Technical specifications for Apple Vision Pro (M5), year introduced 2025",
+      "verification_status": "url_checked",
+      "notes": "Official Apple Support search results verify the 2025 M5 generation; extractor must verify live page content before marking content_verified."
+    }
+  ],
+  "working_scope": [
+    {
+      "model": "Apple Vision Pro (M2)",
+      "record_path": "data/apple/vision/apple-vision-pro-m2.json",
+      "source_url": "https://support.apple.com/en-ie/117810",
+      "source_verification_status": "url_checked",
+      "extraction_status": "pending"
+    },
+    {
+      "model": "Apple Vision Pro (M5)",
+      "record_path": "data/apple/vision/apple-vision-pro-m5.json",
+      "source_url": "https://support.apple.com/en-ie/125436",
+      "source_verification_status": "url_checked",
+      "extraction_status": "pending"
+    }
+  ],
+  "notes": [
+    "Start with the two Apple Vision Pro hardware generations confirmed by Apple's official model-identification page: M2 (2024) and M5 (2025)."
+  ]
+}
