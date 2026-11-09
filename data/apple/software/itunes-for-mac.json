@@ -6,8 +6,8 @@
     "family": "Apple Software",
     "model": "iTunes for Mac",
     "model_slug": "itunes-for-mac",
-    "model_year": "2001",
-    "year_introduced": 2001,
+    "model_year": 2001,
+    "year_introduced": null,
     "variant": null
   },
   "source": {

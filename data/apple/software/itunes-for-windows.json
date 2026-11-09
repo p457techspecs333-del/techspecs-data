@@ -6,8 +6,8 @@
     "family": "Apple Software",
     "model": "iTunes for Windows",
     "model_slug": "itunes-for-windows",
-    "model_year": "2003",
-    "year_introduced": 2003,
+    "model_year": 2003,
+    "year_introduced": null,
     "variant": null
   },
   "source": {
