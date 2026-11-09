@@ -92,77 +92,76 @@
     },
     {
       "model": "Apple TV 4K (3rd generation)",
-      "record_path": "data/apple/tv/apple-tv-tv-4k-3rd-generation.json",
+      "record_path": "data/apple/tv/apple-tv-4k-3rd-generation.json",
       "source_url": "https://support.apple.com/en-ie/111839",
       "source_verification_status": "content_verified",
       "extraction_status": "extracted",
       "section_count": 14,
-      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-tv-4k-3rd-generation.html",
+      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-4k-3rd-generation.html",
       "limitation": null
     },
     {
       "model": "Apple TV 4K (2nd generation)",
-      "record_path": "data/apple/tv/apple-tv-tv-4k-2nd-generation.json",
+      "record_path": "data/apple/tv/apple-tv-4k-2nd-generation.json",
       "source_url": "https://support.apple.com/en-ie/111922",
       "source_verification_status": "content_verified",
       "extraction_status": "extracted",
       "section_count": 13,
-      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-tv-4k-2nd-generation.html",
+      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-4k-2nd-generation.html",
       "limitation": null
     },
     {
       "model": "Apple TV 4K (1st generation)",
-      "record_path": "data/apple/tv/apple-tv-tv-4k-1st-generation.json",
+      "record_path": "data/apple/tv/apple-tv-4k-1st-generation.json",
       "source_url": "https://support.apple.com/en-ie/111929",
       "source_verification_status": "content_verified",
       "extraction_status": "extracted",
       "section_count": 13,
-      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-tv-4k-1st-generation.html",
+      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-4k-1st-generation.html",
       "limitation": null
     },
     {
       "model": "Apple TV HD",
-      "record_path": "data/apple/tv/apple-tv-tv-hd.json",
+      "record_path": "data/apple/tv/apple-tv-hd.json",
       "source_url": "https://support.apple.com/en-ie/111928",
       "source_verification_status": "content_verified",
       "extraction_status": "extracted",
       "section_count": 14,
-      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-tv-hd.html",
+      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-hd.html",
       "limitation": null
     },
     {
       "model": "Apple TV (3rd generation)",
-      "record_path": "data/apple/tv/apple-tv-tv-3rd-generation.json",
+      "record_path": "data/apple/tv/apple-tv-3rd-generation.json",
       "source_url": "https://support.apple.com/en-ie/112429",
       "source_verification_status": "content_verified",
       "extraction_status": "extracted",
       "section_count": 3,
-      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-tv-3rd-generation.html",
+      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-3rd-generation.html",
       "limitation": null
     },
     {
       "model": "Apple TV (2nd generation)",
-      "record_path": "data/apple/tv/apple-tv-tv-2nd-generation.json",
+      "record_path": "data/apple/tv/apple-tv-2nd-generation.json",
       "source_url": "https://support.apple.com/en-ie/112428",
       "source_verification_status": "content_verified",
       "extraction_status": "extracted",
       "section_count": 15,
-      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-tv-2nd-generation.html",
+      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-2nd-generation.html",
       "limitation": null
     },
     {
       "model": "Apple TV (1st generation)",
-      "record_path": "data/apple/tv/apple-tv-tv-1st-generation.json",
+      "record_path": "data/apple/tv/apple-tv-1st-generation.json",
       "source_url": "https://support.apple.com/en-ie/112555",
       "source_verification_status": "content_verified",
       "extraction_status": "extracted",
       "section_count": 12,
-      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-tv-1st-generation.html",
+      "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-1st-generation.html",
       "limitation": null
     }
   ],
   "notes": [
-    "Apple TV extraction run completed 2026-11-09. The current 4th generation is sourced from Apple Ireland's product page; legacy generations are discovered from Apple's model-identification page.",
-    "All eight official Apple TV generation pages were captured and content-verified on 2026-11-09; validation workflow triggered after extraction."
+    "Apple TV extraction run completed 2026-11-09. The current 4th generation is sourced from Apple Ireland's product page; legacy generations are discovered from Apple's model-identification page."
   ]
 }

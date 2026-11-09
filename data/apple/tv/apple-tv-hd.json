@@ -5,7 +5,7 @@
     "category": "streaming-media-player",
     "family": "Apple TV",
     "model": "Apple TV HD",
-    "model_slug": "apple-tv-tv-hd",
+    "model_slug": "apple-tv-hd",
     "model_year": null,
     "year_introduced": null,
     "variant": null
@@ -13,7 +13,7 @@
   "source": {
     "source_type": "manufacturer",
     "source_url": "https://support.apple.com/en-ie/111928",
-    "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-tv-hd.html",
+    "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-hd.html",
     "source_title": "Apple TV HD - Technical Specifications",
     "publisher": "Apple",
     "published_at": null,

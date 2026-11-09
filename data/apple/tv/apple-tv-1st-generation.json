@@ -5,7 +5,7 @@
     "category": "streaming-media-player",
     "family": "Apple TV",
     "model": "Apple TV (1st generation)",
-    "model_slug": "apple-tv-tv-1st-generation",
+    "model_slug": "apple-tv-1st-generation",
     "model_year": null,
     "year_introduced": null,
     "variant": null
@@ -13,7 +13,7 @@
   "source": {
     "source_type": "manufacturer",
     "source_url": "https://support.apple.com/en-ie/112555",
-    "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-tv-1st-generation.html",
+    "source_file": "apple_tv_extraction/technical_specs_html/apple-tv-1st-generation.html",
     "source_title": "Apple TV (1st generation) - Technical Specifications",
     "publisher": "Apple",
     "published_at": null,
