@@ -13,6 +13,7 @@
       "A1059"
     ],
     "storage_options": [
+      "20 GB",
       "40 GB"
     ]
   },
@@ -74,6 +75,7 @@
     "capacity_statements": {
       "value": {
         "value": [
+          "20 GB",
           "40 GB"
         ],
         "unit": null,
