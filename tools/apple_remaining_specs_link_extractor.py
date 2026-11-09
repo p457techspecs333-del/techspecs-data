@@ -99,6 +99,11 @@ def process(args):
  return result
 def main():
  ARCHIVE.mkdir(parents=True,exist_ok=True); jobs=[]
+ # Remove superseded simple AirPods records; the second-pass files preserve each distinct official spec page.
+ airpods_dir=ROOT/"airpods"
+ if airpods_dir.exists():
+  for stale in airpods_dir.glob("*.json"):
+   if stale.name!="source-inventory.json" and "--" not in stale.stem: stale.unlink()
  # Replace software records from this extractor so every distinct official spec page is retained.
  software_dir=ROOT/"software"
  if software_dir.exists():
