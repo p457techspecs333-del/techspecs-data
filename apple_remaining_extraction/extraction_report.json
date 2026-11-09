@@ -1,10 +1,10 @@
 {
-  "started_utc": "2026-11-09T12:17:15.067770+00:00",
+  "started_utc": "2026-11-09T12:21:19.627694+00:00",
   "families": [
     {
       "key": "airpods",
       "label": "AirPods",
-      "index_url": "https://support.apple.com/en-ie/109525",
+      "index_url": "https://support.apple.com/en-ie/docs/airpods",
       "status": "index_captured",
       "targets": [
         {
@@ -59,11 +59,180 @@
         }
       ],
       "errors": [],
-      "final_index_url": "https://support.apple.com/en-ie/109525",
-      "index_title": "Identify your AirPods - Apple Support (IE)",
+      "final_index_url": "https://support.apple.com/en-ie/docs/airpods",
+      "index_title": "AirPods Manuals and Downloads - Apple Support (IE)",
       "index_archive": "apple_remaining_extraction/technical_specs_html/airpods-index.html",
-      "index_bytes": 186670,
-      "catalogue_links": [],
+      "index_bytes": 119943,
+      "catalogue_links": [
+        {
+          "label": "Apple",
+          "url": "https://www.apple.com/ie/"
+        },
+        {
+          "label": "Store",
+          "url": "https://www.apple.com/ie/shop/goto/store"
+        },
+        {
+          "label": "Mac",
+          "url": "https://www.apple.com/ie/mac/"
+        },
+        {
+          "label": "iPad",
+          "url": "https://www.apple.com/ie/ipad/"
+        },
+        {
+          "label": "iPhone",
+          "url": "https://www.apple.com/ie/iphone/"
+        },
+        {
+          "label": "Watch",
+          "url": "https://www.apple.com/ie/watch/"
+        },
+        {
+          "label": "AirPods",
+          "url": "https://www.apple.com/ie/airpods/"
+        },
+        {
+          "label": "Home",
+          "url": "https://www.apple.com/ie/home/"
+        },
+        {
+          "label": "Entertainment",
+          "url": "https://www.apple.com/ie/entertainment/"
+        },
+        {
+          "label": "Accessories",
+          "url": "https://www.apple.com/ie/shop/goto/buy_accessories"
+        },
+        {
+          "label": "Support",
+          "url": "https://support.apple.com/en-ie/?cid=gn-ols-home-hp-tab"
+        },
+        {
+          "label": "0 +",
+          "url": "https://www.apple.com/ie/shop/goto/bag"
+        },
+        {
+          "label": "Documentation",
+          "url": "https://support.apple.com/en-ie/docs"
+        },
+        {
+          "label": "How to identify your AirPods model",
+          "url": "https://support.apple.com/en-ie/109525"
+        },
+        {
+          "label": "AirPods 5",
+          "url": "https://support.apple.com/en-ie/docs/airpods/301319"
+        },
+        {
+          "label": "AirPods 5 (Wireless)",
+          "url": "https://support.apple.com/en-ie/docs/airpods/301320"
+        },
+        {
+          "label": "AirPods Max 2",
+          "url": "https://support.apple.com/en-ie/docs/airpods/301293"
+        },
+        {
+          "label": "AirPods Pro 3",
+          "url": "https://support.apple.com/en-ie/docs/airpods/301265"
+        },
+        {
+          "label": "AirPods 4",
+          "url": "https://support.apple.com/en-ie/docs/airpods/301050"
+        },
+        {
+          "label": "AirPods 4 with Active Noise Cancellation",
+          "url": "https://support.apple.com/en-ie/docs/airpods/301051"
+        },
+        {
+          "label": "AirPods Max 1 (USB-C)",
+          "url": "https://support.apple.com/en-ie/docs/airpods/301049"
+        },
+        {
+          "label": "AirPods Pro (2nd generation) with MagSafe Charging Case (USB-C)",
+          "url": "https://support.apple.com/en-ie/docs/airpods/300992"
+        },
+        {
+          "label": "AirPods (3rd generation) with Lightning Charging",
+          "url": "https://support.apple.com/en-ie/docs/airpods/300896"
+        },
+        {
+          "label": "AirPods Pro (2nd generation) with MagSafe Charging Case (Lightning)",
+          "url": "https://support.apple.com/en-ie/docs/airpods/300882"
+        },
+        {
+          "label": "AirPods (3rd generation)",
+          "url": "https://support.apple.com/en-ie/docs/airpods/300453"
+        },
+        {
+          "label": "AirPods Pro with MagSafe Charging Case",
+          "url": "https://support.apple.com/en-ie/docs/airpods/300454"
+        },
+        {
+          "label": "AirPods Max 1",
+          "url": "https://support.apple.com/en-ie/docs/airpods/300273"
+        },
+        {
+          "label": "AirPods (2nd generation)",
+          "url": "https://support.apple.com/en-ie/docs/airpods/300121"
+        },
+        {
+          "label": "AirPods (2nd generation) with Wireless Charging Case",
+          "url": "https://support.apple.com/en-ie/docs/airpods/300122"
+        },
+        {
+          "label": "AirPods Pro (1st generation) with Wireless Charging Case",
+          "url": "https://support.apple.com/en-ie/docs/airpods/300145"
+        },
+        {
+          "label": "AirPods (1st generation)",
+          "url": "https://support.apple.com/en-ie/docs/airpods/300040"
+        },
+        {
+          "label": "AirPods Wireless Charging Case",
+          "url": "https://support.apple.com/en-ie/docs/airpods/pp525"
+        },
+        {
+          "label": "MagSafe Charging Case Lightning (AirPods Pro 2nd generation)",
+          "url": "https://support.apple.com/en-ie/docs/airpods/pp241"
+        },
+        {
+          "label": "MagSafe Charging Case USB-C (AirPods Pro 2nd generation)",
+          "url": "https://support.apple.com/en-ie/docs/airpods/pp170"
+        },
+        {
+          "label": " Apple",
+          "url": "https://www.apple.com/ie"
+        },
+        {
+          "label": "Support",
+          "url": "https://support.apple.com/en-ie"
+        },
+        {
+          "label": "Ireland",
+          "url": "https://support.apple.com/en-ie/docs/localeselector"
+        },
+        {
+          "label": "Privacy Policy",
+          "url": "https://www.apple.com/legal/privacy/en-ww/"
+        },
+        {
+          "label": "Terms of Use",
+          "url": "https://www.apple.com/ie/legal/internet-services/terms/site.html"
+        },
+        {
+          "label": "Sales and Refunds",
+          "url": "https://www.apple.com/ie/shop/goto/help/sales_refunds"
+        },
+        {
+          "label": "Site Map",
+          "url": "https://www.apple.com/ie/sitemap/"
+        },
+        {
+          "label": "Use of Cookies",
+          "url": "https://www.apple.com/legal/privacy/en-ww/cookies/"
+        }
+      ],
       "summary": {
         "spec_links_discovered": 5,
         "records_written": 5,
@@ -1023,13 +1192,13 @@
     "No missing technical details are inferred. Hardware records preserve source headings and text.",
     "Accessories and software are broad catalogues, not single hardware model families; their official indexes are archived and linked records are inventoried separately."
   ],
-  "finished_utc": "2026-11-09T12:17:36.672519+00:00",
+  "finished_utc": "2026-11-09T12:21:53.545491+00:00",
   "summary": {
     "families_checked": 6,
     "indexes_captured": 6,
     "spec_links_discovered": 50,
     "records_written": 50,
-    "catalogue_items_discovered": 99,
+    "catalogue_items_discovered": 141,
     "errors": 0
   }
 }
