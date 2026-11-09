@@ -81,7 +81,8 @@
   "record_notes": [
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Taxonomy audit 2026-11-09: classified as Apple audio hardware, not software.",
-    "Field-level normalization remains incomplete; source_text is the evidence of record."
+    "Field-level normalization remains incomplete; source_text is the evidence of record.",
+    "Follow-up extraction 2026-11-09: audio features, sensors, controls, charging-case details, system requirements and in-box contents separated where explicit."
   ],
   "normalized_specifications": {
     "overview": {
@@ -166,12 +167,16 @@
       }
     },
     "system_requirements": {
-      "source_text": {
-        "value": "iPhone, iPad, and iPod touch models with iOS 10 or later\nApple Watch models with watchOS 3 or later\nMac models with macOS Sierra or later",
+      "value": {
+        "value": [
+          "iPhone, iPad, and iPod touch models with iOS 10 or later",
+          "Apple Watch models with watchOS 3 or later",
+          "Mac models with macOS Sierra or later"
+        ],
         "unit": null,
         "source_section": "System Requirements",
         "verification_status": "source_transcribed",
-        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+        "notes": "Extracted from the preserved official Apple specification section; source wording retained."
       }
     },
     "model_identifiers": {
