@@ -4,7 +4,7 @@
   "description": "An independently structured index of product records. Manufacturer and other primary sources are cited as evidence; TechSpecs defines the record identifiers, normalized data model and discovery interface.",
   "purpose": "machine_reading",
   "canonical_host": "https://data.techspecs.dev",
-  "record_count": 253,
+  "record_count": 254,
   "records": [
     {
       "record_id": "apple/ipad/ipad-10th-generation",
@@ -5093,6 +5093,28 @@
       "path": "apple/mac/source-inventory.json",
       "url": "https://data.techspecs.dev/api/v1/products/source-inventory.json",
       "legacy_url": "https://data.techspecs.dev/apple/mac/source-inventory.json",
+      "schema_version": null,
+      "brand": null,
+      "category": null,
+      "family": null,
+      "model": null,
+      "model_slug": null,
+      "model_year": null,
+      "year_introduced": null,
+      "variant": null,
+      "source": {
+        "source_type": null,
+        "publisher": null,
+        "source_url": null,
+        "verification_status": null,
+        "checked_at": null
+      }
+    },
+    {
+      "record_id": "apple/vision/source-inventory",
+      "path": "apple/vision/source-inventory.json",
+      "url": "https://data.techspecs.dev/api/v1/products/source-inventory.json",
+      "legacy_url": "https://data.techspecs.dev/apple/vision/source-inventory.json",
       "schema_version": null,
       "brand": null,
       "category": null,
