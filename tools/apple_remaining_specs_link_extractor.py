@@ -90,7 +90,8 @@ def process(args):
       "extraction":{"method":"section_preserving","normalization_status":"archival_first_pass",
        "note":"Original specification headings and visible text retained; no missing specifications inferred.","extracted_at":TODAY,"reviewed_at":None},
       "sections":sec,"record_notes":["Archival-first-pass technical specification record; normalized values not inferred."]}
-    out=ROOT/family/(slug(model)+".json"); out.parent.mkdir(parents=True,exist_ok=True)
+    record_key=slug(model) if family=="accessories" else slug(model)+"--"+slug(title)+"--"+slug(urlparse(page.url).path.rstrip("/").split("/")[-1])
+    out=ROOT/family/(record_key+".json"); out.parent.mkdir(parents=True,exist_ok=True)
     out.write_text(json.dumps(record,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     result["records"].append({"url":page.url,"title":title,"status":"content_verified","section_count":len(sec),"record_path":out.as_posix()})
    except Exception as e: result["records"].append({"url":spec["url"],"status":"unavailable","error":f"{type(e).__name__}: {e}"})
@@ -98,6 +99,11 @@ def process(args):
  return result
 def main():
  ARCHIVE.mkdir(parents=True,exist_ok=True); jobs=[]
+ # Replace software records from this extractor so every distinct official spec page is retained.
+ software_dir=ROOT/"software"
+ if software_dir.exists():
+  for stale in software_dir.glob("*.json"):
+   if stale.name!="source-inventory.json": stale.unlink()
  for family in ("airpods","accessories","software"):
   p=ROOT/family/"source-inventory.json"
   if not p.exists(): continue
