@@ -11,14 +11,14 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-by/111853",
+    "source_url": "https://support.apple.com/en-ie/docs/watch/pl292",
     "source_file": null,
-    "source_title": "Apple Watch SE (2nd generation) - Tech Specs",
+    "source_title": "Apple Watch SE (2nd generation) - Manuals and Downloads",
     "publisher": "Apple Support",
     "published_at": null,
     "checked_at": "2026-11-08",
     "verification_status": "content_verified",
-    "verification_notes": "Direct official Apple Watch SE (2nd generation) Tech Specs page verified at article 111853 under the Belarus locale; year introduced 2022. Ireland product-specific support page is https://support.apple.com/en-ie/docs/watch/pl292.",
+    "verification_notes": "Official Apple Support product-specific page for Apple Watch SE (2nd generation); year introduced 2022. The direct Tech Specs article 111853 is also published by Apple at https://support.apple.com/en-by/111853.",
     "notes": []
   },
   "extraction": {
