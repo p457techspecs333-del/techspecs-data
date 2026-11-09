@@ -68,7 +68,8 @@
   "record_notes": [
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Taxonomy audit 2026-11-09: classified as Apple audio hardware, not software.",
-    "Field-level normalization remains incomplete; source_text is the evidence of record."
+    "Field-level normalization remains incomplete; source_text is the evidence of record.",
+    "Follow-up extraction 2026-11-09: case-specific charging details, system requirements and in-box contents separated where explicit."
   ],
   "normalized_specifications": {
     "overview": {
