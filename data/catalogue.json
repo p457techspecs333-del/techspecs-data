@@ -831,8 +831,8 @@
       "family": "Apple AirPods",
       "model": "AirPods Wireless Charging Case",
       "model_slug": "airpods-wireless-charging-case-airpods-2-and-earlier-wireless-charging-case-tech-specs-111860",
-      "model_year": null,
-      "year_introduced": null,
+      "model_year": 2019,
+      "year_introduced": 2019,
       "variant": null,
       "source": {
         "source_type": "manufacturer",
@@ -853,8 +853,8 @@
       "family": "Apple AirPods",
       "model": "MagSafe Charging Case USB-C (AirPods Pro 2nd generation)",
       "model_slug": "magsafe-charging-case-usb-c-airpods-pro-2nd-generation-airpods-pro-2-with-magsafe-case-usb-c-tech-specs-111834",
-      "model_year": null,
-      "year_introduced": null,
+      "model_year": 2023,
+      "year_introduced": 2023,
       "variant": null,
       "source": {
         "source_type": "manufacturer",
