@@ -32,7 +32,7 @@
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
-    "note": "Official Apple sections preserved and transcribed into machine-readable section fields. Individual measurements, battery figures, model identifiers and footnote qualifications still require field-level parsing and validation; no values inferred.",
+    "note": "Legacy AirPods (1st generation) source uses older section headings. Highlights, battery/power, weight, dimensions, connections, sensors, in-box contents and system requirements have been separated where present; no missing values inferred.",
     "extracted_at": "2026-11-09",
     "reviewed_at": "2026-11-09"
   },
@@ -82,7 +82,8 @@
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Taxonomy audit 2026-11-09: classified as Apple audio hardware, not software.",
     "Field-level normalization remains incomplete; source_text is the evidence of record.",
-    "Follow-up extraction 2026-11-09: audio features, sensors, controls, charging-case details, system requirements and in-box contents separated where explicit."
+    "Follow-up extraction 2026-11-09: audio features, sensors, controls, charging-case details, system requirements and in-box contents separated where explicit.",
+    "Legacy-layout extraction pass 2026-11-09: mapped the original Apple section headings for AirPods (1st generation) into normalized fields."
   ],
   "normalized_specifications": {
     "overview": {
@@ -176,7 +177,7 @@
         "unit": null,
         "source_section": "System Requirements",
         "verification_status": "source_transcribed",
-        "notes": "Extracted from the preserved official Apple specification section; source wording retained."
+        "notes": "Transcribed from the preserved official Apple AirPods specification section; source wording retained."
       }
     },
     "model_identifiers": {
@@ -198,6 +199,101 @@
         "source_section": "Identify your AirPods with the model number",
         "verification_status": "content_verified",
         "notes": "Introduction year cross-checked against Apple's official AirPods identification page, https://support.apple.com/en-ie/109525, on 2026-11-09."
+      }
+    },
+    "highlight_features": {
+      "value": {
+        "value": [
+          "Designed by Apple",
+          "Automatically on, automatically connected",
+          "One-tap setup for all your Apple devices",
+          "Quick access to Siri with a double-tap",
+          "More than 24-hour battery life with Charging Case",
+          "Charges quickly in the case",
+          "Rich, high-quality audio and voice",
+          "Seamless switching between devices"
+        ],
+        "unit": null,
+        "source_section": "Highlights",
+        "verification_status": "source_transcribed",
+        "notes": "Transcribed from the preserved official Apple AirPods specification section; source wording retained."
+      }
+    },
+    "battery_details": {
+      "value": {
+        "value": [
+          "AirPods with Charging Case: More than 24 hours listening time",
+          "AirPods (single charge): Up to 5 hours listening time",
+          "15 minutes in the case equals 3 hours listening time"
+        ],
+        "unit": null,
+        "source_section": "Power and Battery",
+        "verification_status": "source_transcribed",
+        "notes": "Transcribed from the preserved official Apple AirPods specification section; source wording retained."
+      }
+    },
+    "weight_statements": {
+      "value": {
+        "value": [
+          "AirPods (each): 0.14 ounce (4 g)",
+          "Charging Case: 1.34 ounces (38 g)"
+        ],
+        "unit": null,
+        "source_section": "Weight",
+        "verification_status": "source_transcribed",
+        "notes": "Transcribed from the preserved official Apple AirPods specification section; source wording retained."
+      }
+    },
+    "dimension_statements": {
+      "value": {
+        "value": [
+          "AirPods (each): 0.65 by 0.71 by 1.59 inches (16.5 by 18.0 by 40.5 mm)",
+          "Charging Case: 1.74 by 0.84 by 2.11 inches (44.3 by 21.3 by 53.5 mm)"
+        ],
+        "unit": null,
+        "source_section": "Dimensions",
+        "verification_status": "source_transcribed",
+        "notes": "Transcribed from the preserved official Apple AirPods specification section; source wording retained."
+      }
+    },
+    "connection_details": {
+      "value": {
+        "value": [
+          "AirPods: Bluetooth",
+          "Charging Case: Lightning connector"
+        ],
+        "unit": null,
+        "source_section": "Connections",
+        "verification_status": "source_transcribed",
+        "notes": "Transcribed from the preserved official Apple AirPods specification section; source wording retained."
+      }
+    },
+    "sensor_features": {
+      "value": {
+        "value": [
+          "Dual beamforming microphones",
+          "Dual optical sensors",
+          "Motion-detecting accelerometer",
+          "Speech-detecting accelerometer"
+        ],
+        "unit": null,
+        "source_section": "AirPods Sensors (each):",
+        "verification_status": "source_transcribed",
+        "notes": "Transcribed from the preserved official Apple AirPods specification section; source wording retained."
+      }
+    },
+    "in_box_details": {
+      "value": {
+        "value": [
+          "AirPods 1",
+          "Charging Case",
+          "Lightning to USB Cable",
+          "Documentation"
+        ],
+        "unit": null,
+        "source_section": "What’s in the Box",
+        "verification_status": "source_transcribed",
+        "notes": "Transcribed from the preserved official Apple AirPods specification section; source wording retained."
       }
     }
   }
