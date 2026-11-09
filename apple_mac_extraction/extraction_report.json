@@ -1,5 +1,5 @@
 {
-  "started_utc": "2026-11-08T21:27:02.416831+00:00",
+  "started_utc": "2026-11-09T06:28:21.865538+00:00",
   "sources": [
     {
       "requested_url": "https://www.apple.com/ie/mac/compare/",
@@ -3104,7 +3104,7 @@
     "A successful index scrape is not proof that every historic model has been captured.",
     "Only explicitly labelled Tech Specs links are followed; unrelated numeric support links are excluded."
   ],
-  "finished_utc": "2026-11-08T21:31:13.792533+00:00",
+  "finished_utc": "2026-11-09T06:31:27.129918+00:00",
   "summary": {
     "index_pages_requested": 8,
     "index_pages_saved": 8,
