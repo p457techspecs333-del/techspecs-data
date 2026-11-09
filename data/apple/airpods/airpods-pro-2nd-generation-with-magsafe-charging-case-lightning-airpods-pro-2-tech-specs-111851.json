@@ -223,36 +223,44 @@
       }
     },
     "chip_name": {
-      "value": "Apple H2 headphone chip",
-      "unit": null,
-      "source_section": "Chip",
-      "verification_status": "source_transcribed",
-      "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+      "value": {
+        "value": "Apple H2 headphone chip",
+        "unit": null,
+        "source_section": "Chip",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+      }
     },
     "bluetooth_version": {
-      "value": "5.3",
-      "unit": "version",
-      "source_section": "Connectivity",
-      "verification_status": "source_transcribed",
-      "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+      "value": {
+        "value": "5.3",
+        "unit": "version",
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+      }
     },
     "ingress_protection_rating": {
-      "value": "IPX4",
-      "unit": null,
-      "source_section": "Sweat and Water Resistant 2",
-      "verification_status": "source_transcribed",
-      "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+      "value": {
+        "value": "IPX4",
+        "unit": null,
+        "source_section": "Sweat and Water Resistant 2",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+      }
     },
     "battery_life_statements": {
-      "value": [
-        "Up to 6 hours of listening time with a single charge (up to 5.5 hours with Spatial Audio and head tracking enabled)",
-        "Up to 30 hours of listening time",
-        "5 minutes in the case provides around 1 hour of listening time"
-      ],
-      "unit": null,
-      "source_section": "Battery",
-      "verification_status": "source_transcribed",
-      "notes": "Exact battery-duration statements from official source section; qualifiers and footnote markers retained."
+      "value": {
+        "value": [
+          "Up to 6 hours of listening time with a single charge (up to 5.5 hours with Spatial Audio and head tracking enabled)",
+          "Up to 30 hours of listening time",
+          "5 minutes in the case provides around 1 hour of listening time"
+        ],
+        "unit": null,
+        "source_section": "Battery",
+        "verification_status": "source_transcribed",
+        "notes": "Exact battery-duration statements from official source section; qualifiers and footnote markers retained."
+      }
     }
   }
 }
