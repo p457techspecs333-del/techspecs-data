@@ -135,7 +135,7 @@ def main():
     REPORT["discovery_source"] = index_final_url
     REPORT["scope_count"] = len(targets)
     for target in targets:
-        item = {"model": target["model"], "requested_url": target["url"], "source_type": target["source_type"]}
+        item = {"model": target["model"], "slug": target["slug"], "year": target.get("year"), "requested_url": target["url"], "source_type": target["source_type"]}
         try:
             response = get_page(target["url"])
             soup = BeautifulSoup(response.text, "html.parser")
