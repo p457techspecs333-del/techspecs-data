@@ -95,7 +95,8 @@
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Taxonomy audit 2026-11-09: classified as Apple audio hardware, not software.",
     "Field-level normalization remains incomplete; source_text is the evidence of record.",
-    "Field extraction pass 2026-11-09: added typed fields only where explicit values were present in preserved official source sections; qualifiers retained and source-section provenance attached."
+    "Field extraction pass 2026-11-09: added typed fields only where explicit values were present in preserved official source sections; qualifiers retained and source-section provenance attached.",
+    "Follow-up extraction 2026-11-09: case-specific charging details, system requirements and in-box contents separated where explicit."
   ],
   "normalized_specifications": {
     "audio_technology": {
@@ -198,12 +199,18 @@
       }
     },
     "system_requirements": {
-      "source_text": {
-        "value": "iPhone and iPod touch models with the latest version of iOS\niPad models with the latest version of iPadOS\nApple Watch models with the latest version of watchOS\nMac models with the latest version of macOS\nApple TV models with the latest version of tvOS",
+      "value": {
+        "value": [
+          "iPhone and iPod touch models with the latest version of iOS",
+          "iPad models with the latest version of iPadOS",
+          "Apple Watch models with the latest version of watchOS",
+          "Mac models with the latest version of macOS",
+          "Apple TV models with the latest version of tvOS"
+        ],
         "unit": null,
         "source_section": "System Requirements 8",
         "verification_status": "source_transcribed",
-        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+        "notes": "Extracted from the preserved official Apple specification section; source wording retained."
       }
     },
     "airpods_pro_and_the_environment": {
@@ -275,6 +282,80 @@
         "source_section": "Identify your AirPods with the model number",
         "verification_status": "content_verified",
         "notes": "Cross-checked against official Apple AirPods identification page https://support.apple.com/en-ie/109525 on 2026-11-09."
+      }
+    },
+    "audio_technology_features": {
+      "value": {
+        "value": [
+          "Custom high-excursion Apple driver",
+          "Custom high dynamic range amplifier",
+          "Active Noise Cancellation",
+          "Transparency mode",
+          "Vent system for pressure equalization",
+          "Spatial audio with dynamic head tracking",
+          "Adaptive EQ"
+        ],
+        "unit": null,
+        "source_section": "Audio Technology",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from the preserved official Apple specification section; source wording retained."
+      }
+    },
+    "sensor_features": {
+      "value": {
+        "value": [
+          "Dual beamforming microphones",
+          "Inward-facing microphone",
+          "Dual optical sensors",
+          "Motion-detecting accelerometer",
+          "Speech-detecting accelerometer",
+          "Force sensor"
+        ],
+        "unit": null,
+        "source_section": "Sensors",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from the preserved official Apple specification section; source wording retained."
+      }
+    },
+    "control_details": {
+      "value": {
+        "value": [
+          "Press once to play, pause, or answer a phone call",
+          "Press twice to skip forward",
+          "Press three times to skip back",
+          "Press and hold to switch between Active Noise Cancellation and Transparency mode",
+          "Say “Hey Siri” to do things like play a song, make a call, or get directions"
+        ],
+        "unit": null,
+        "source_section": "Controls",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from the preserved official Apple specification section; source wording retained."
+      }
+    },
+    "charging_case_details": {
+      "value": {
+        "value": [
+          "Works with MagSafe charger, Qi-certified chargers, or the Lightning connector"
+        ],
+        "unit": null,
+        "source_section": "Charging Case",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from the preserved official Apple specification section; source wording retained."
+      }
+    },
+    "in_box_details": {
+      "value": {
+        "value": [
+          "AirPods Pro 1",
+          "MagSafe Charging Case",
+          "Silicone ear tips (three sizes)",
+          "Lightning to USB-C Cable",
+          "Documentation"
+        ],
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from the preserved official Apple specification section; source wording retained."
       }
     }
   }
