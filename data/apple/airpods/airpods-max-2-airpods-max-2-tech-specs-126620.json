@@ -27,7 +27,7 @@
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
-    "note": "Official Apple sections preserved and transcribed into machine-readable section fields. Individual measurements, battery figures, model identifiers and footnote qualifications still require field-level parsing and validation; no values inferred.",
+    "note": "Official Apple source sections are preserved and transcribed. Explicit chip, Bluetooth version, resistance rating, battery-duration statements and labelled size/weight measurements have been parsed where present; values retain source-section provenance. Model/case-specific context, footnotes and remaining fields still require record-level verification. No missing values inferred.",
     "extracted_at": "2026-11-09",
     "reviewed_at": "2026-11-09"
   },
@@ -92,7 +92,8 @@
   "record_notes": [
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Taxonomy audit 2026-11-09: classified as Apple audio hardware, not software.",
-    "Field-level normalization remains incomplete; source_text is the evidence of record."
+    "Field-level normalization remains incomplete; source_text is the evidence of record.",
+    "Field extraction pass 2026-11-09: added typed fields only where explicit values were present in preserved official source sections; qualifiers retained and source-section provenance attached."
   ],
   "normalized_specifications": {
     "colour": {
@@ -220,6 +221,48 @@
         "verification_status": "source_transcribed",
         "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
       }
+    },
+    "chip_name": {
+      "value": "Apple H2 headphone chip",
+      "unit": null,
+      "source_section": "Chip",
+      "verification_status": "source_transcribed",
+      "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+    },
+    "bluetooth_version": {
+      "value": "5.3",
+      "unit": "version",
+      "source_section": "Connectivity",
+      "verification_status": "source_transcribed",
+      "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+    },
+    "battery_life_statements": {
+      "value": [
+        "Up to 20 hours of listening time on a single charge with Active Noise Cancellation enabled",
+        "5 minutes of charge time provides around 1.5 hours of listening time."
+      ],
+      "unit": null,
+      "source_section": "Battery",
+      "verification_status": "source_transcribed",
+      "notes": "Exact battery-duration statements from official source section; qualifiers and footnote markers retained."
+    },
+    "labelled_size_weight_measurements": {
+      "value": [
+        {
+          "label": "weight",
+          "value": 386.2,
+          "unit": "g"
+        },
+        {
+          "label": "weight",
+          "value": 134.5,
+          "unit": "g"
+        }
+      ],
+      "unit": null,
+      "source_section": "Size and Weight 11",
+      "verification_status": "source_transcribed",
+      "notes": "Only explicit label/value pairs extracted; source component context retained, no values inferred."
     }
   }
 }
