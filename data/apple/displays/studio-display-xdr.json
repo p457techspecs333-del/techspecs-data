@@ -21,7 +21,8 @@
     "verification_status": "content_verified",
     "verification_notes": "Official Apple source captured 2026-11-09; source headings and 12 sections archived. Year introduced cross-checked against Apple's official display-identification page on 2026-11-09.",
     "notes": [
-      "Extracted from official Apple technical specification link discovered on model index."
+      "Extracted from official Apple technical specification link discovered on model index.",
+      "Display size and introduction year cross-checked against Apple's official display-identification page: https://support.apple.com/en-gb/126265."
     ]
   },
   "extraction": {
@@ -202,6 +203,15 @@
         "source_section": "Electrical and Operating Requirements",
         "verification_status": "source_transcribed",
         "notes": "Explicit value parsed from the preserved official Apple specification section; source wording and qualifiers retained."
+      }
+    },
+    "diagonal_size": {
+      "value": {
+        "value": 27,
+        "unit": "inches",
+        "source_section": "Identify your Apple display model",
+        "verification_status": "content_verified",
+        "notes": "27-inch size confirmed in Apple's official display-identification page, https://support.apple.com/en-gb/126265, checked 2026-11-09."
       }
     }
   }
