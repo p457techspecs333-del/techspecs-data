@@ -1,0 +1,111 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "spatial-computing-headset",
+    "family": "Apple Vision Pro",
+    "model": "Apple Vision Pro (M5)",
+    "model_slug": "apple-vision-pro-m5",
+    "model_year": 2025,
+    "year_introduced": 2025,
+    "variant": "Apple M5 chip"
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/125436",
+    "source_file": "apple_vision_extraction/technical_specs_html/apple-vision-pro-m5.html",
+    "source_title": "Apple Vision Pro (M5) - Tech Specs",
+    "publisher": "Apple Support",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple Support page captured 2026-11-09; year 2025 and Apple M5 chip verified in source content; 18 sections archived at apple_vision_extraction/technical_specs_html/apple-vision-pro-m5.html.",
+    "notes": []
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Apple's original section headings and visible source text are retained in source order from captured official HTML. No normalized values or missing specifications have been inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Capacity 1",
+      "source_text": "256GB\n512GB\n1TB"
+    },
+    {
+      "heading": "Display",
+      "source_text": "23 million pixels\n3D display system\nMicro‑OLED\n7.5‑micron pixel pitch\n92% DCI‑P3\nSupported refresh rates: 90Hz, 96Hz, 100Hz, 120Hz\nSupports playback multiples of 24 fps and 30 fps for judder‑free video\nMirror My View\nUp to 1080p AirPlay for mirroring your view in Apple Vision Pro to any AirPlay‑enabled device, including iPhone, iPad, Mac, Apple TV (2nd generation or later) or AirPlay‑enabled smart TV\nHigh‑Quality Recording\nRecord your view in 4K, unfoveated, for up to three minutes. Mirroring is simultaneously available in 4K while recording."
+    },
+    {
+      "heading": "Chips",
+      "source_text": "Apple M5 chip\n10‑core CPU with 4 super cores and 6 efficiency cores\n10‑core GPU\nNeural Accelerators\nHardware‑accelerated ray tracing\n16‑core Neural Engine\n153GB/s memory bandwidth\n16GB unified memory\nApple R1 chip\n12‑millisecond photon‑to‑photon latency\n256GB/s memory bandwidth"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "Stereoscopic 3D main camera system\nSpatial photo and video capture\n18mm, ƒ/2.00 aperture\n6.5 stereo megapixels"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Two high‑resolution main cameras\nSix world‑facing tracking cameras\nFour eye‑tracking cameras\nTrueDepth camera\nLiDAR scanner\nFour inertial measurement units (IMUs)\nFlicker sensor\nAmbient light sensor"
+    },
+    {
+      "heading": "Optic ID",
+      "source_text": "Iris‑based biometric authentication\nOptic ID data is encrypted and accessible only to the Secure Enclave processor\nSecures personal data within apps\nMake purchases from the iTunes Store and App Store"
+    },
+    {
+      "heading": "Audio Technology",
+      "source_text": "Spatial Audio with dynamic head tracking\nPersonalised Spatial Audio and audio ray tracing\nSix‑mic array with directional beamforming\nSupports H2‑to‑H2 ultra‑low-latency connection to AirPods Pro 2 with USB‑C, AirPods Pro 3 and AirPods 4\nAudio Playback\nSupported formats include AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus and Dolby Atmos\nVideo Playback\nSupported formats include HEVC, MV‑HEVC, H.264, AV1, HDR with Dolby Vision, HDR10 and HLG"
+    },
+    {
+      "heading": "Battery 2",
+      "source_text": "Up to 2.5 hours of general use\nVideo playback up to 3 hours\nApple Vision Pro can be used while charging the battery"
+    },
+    {
+      "heading": "Connectivity and Wireless",
+      "source_text": "Wi‑Fi 6 (802.11ax)\nBluetooth 5.3"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "visionOS"
+    },
+    {
+      "heading": "Input",
+      "source_text": "Hands\nEyes\nVoice\nSupported Input Accessories\nKeyboards\nTrack­pads and mouse devices\n3\nGame controllers\nSupported Spatial Accessories\nLogitech Muse\nPlayStation VR2 Sense controller"
+    },
+    {
+      "heading": "Interpupillary Distance (IPD)",
+      "source_text": "51–75mm"
+    },
+    {
+      "heading": "Device Weight",
+      "source_text": "750–800 grams (26.4–28.2 ounces)\nWeight includes Light Seal and counterbalanced Dual Knitted Band, and can vary depending on configuration. Separate battery weighs 353 grams."
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new Apple Vision Pro. With built‑in support for vision, hearing, mobility and learning, you can create and do amazing things.\nLearn more about Accessibility\nFeatures Include\nVoiceOver\nZoom\nColour Filters\nHearing Device Support\nClosed Captioning\nVoice Control\nSwitch Control\nDwell Control\nPointer Control\nSupport for Made for iPhone hearing devices\nSupport for Made for iPhone switch controllers"
+    },
+    {
+      "heading": "Built‑in Apps 4",
+      "source_text": "App Store\nEncounter Dinosaurs\nFiles\nFreeform\nKeynote\nMail\nMessages\nMindfulness\nMusic\nNotes\nPasswords\nPhotos\nSafari\nSettings\nSpatial Gallery\nTips\nTV\nWidgets\nBooks\nCalendar\nClock\nHome\nMaps\nNews\nPodcasts\nReminders\nShortcuts\nStocks\nVoice Memos"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "Apple Vision Pro with Light Seal, Light Seal Cushion and Dual Knitted Band\nCover\nAdditional Light Seal Cushion\nBattery\nPolishing Cloth\n30W USB‑C Power Adapter\nUSB‑C Charge Cable (1.5m)"
+    },
+    {
+      "heading": "Electrical and Environmental Requirements",
+      "source_text": "Ambient operating temperature:\n0º to 30º C (32º to 86º F)\nStorage temperature:\n−20º to 45º C (−4º to 113º F)\nRelative humidity:\n0% to 95%"
+    },
+    {
+      "heading": "Apple Vision Pro and the Environment 5",
+      "source_text": "Progress towards Apple 2030\nApple 2030 is our commitment to be carbon neutral for our entire carbon footprint. Our plan to decarbonise products is rigorous and focuses on transitioning to low‑carbon electricity, designing with recycled and low‑carbon materials, and prioritising lower‑carbon ways of shipping products, like sea freight.\nSee Apple’s commitment\nMaterials\nApple Vision Pro is made with 20% recycled content,\n6\nincluding:\n100% recycled aluminium in the frame and battery enclosure\n100% recycled cobalt in the battery\n95% recycled lithium in the battery\n100% recycled rare earth elements in all magnets\n100% recycled gold plating in all Apple-designed printed circuit boards\n100% recycled tin solder in all Apple-designed printed circuit boards\n100% recycled copper plating in all Apple-designed printed circuit boards\nEnergy\nExceeds US Department of Energy requirements for battery charger systems\n7\nPackaging\n100% fibre-based packaging\n8\nWaste\nNo established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme\n9\nSmarter chemistry\n10\nAll of the materials used in Apple products, accessories and packaging are covered by the requirements of our\nRegulated Substances Specification\n, which was one of the first in industry to restrict the use of key substances of concern. See the latest\nEnvironmental Progress Report\nto understand Apple’s recent efforts in phasing out these chemistries."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record generated from captured official Apple technical-specification HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "M2 and M5 generations are separate records because Apple publishes distinct chip generations and specification pages."
+  ]
+}

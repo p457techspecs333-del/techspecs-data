@@ -1,0 +1,48 @@
+{
+  "started_utc": "2026-11-09T11:56:32.405300+00:00",
+  "scope_count": 2,
+  "sources": [
+    {
+      "model": "Apple Vision Pro (M2)",
+      "model_slug": "apple-vision-pro-m2",
+      "requested_url": "https://support.apple.com/en-ie/117810",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/117810",
+      "title": "Apple Vision Pro - Tech Specs",
+      "saved_file": "apple_vision_extraction/technical_specs_html/apple-vision-pro-m2.html",
+      "bytes": 173246,
+      "section_count": 18,
+      "model_identity_matches": true,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Apple Vision Pro (M5)",
+      "model_slug": "apple-vision-pro-m5",
+      "requested_url": "https://support.apple.com/en-ie/125436",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/125436",
+      "title": "Apple Vision Pro (M5) - Tech Specs",
+      "saved_file": "apple_vision_extraction/technical_specs_html/apple-vision-pro-m5.html",
+      "bytes": 174945,
+      "section_count": 18,
+      "model_identity_matches": true,
+      "verification_status": "content_verified"
+    }
+  ],
+  "errors": [],
+  "notes": [
+    "Official Apple and Apple Support pages only.",
+    "Original response HTML is archived before extraction.",
+    "Page identity is verified against year and chip generation, not title alone.",
+    "Original section headings and visible text are retained; missing values are not inferred."
+  ],
+  "finished_utc": "2026-11-09T11:56:36.153765+00:00",
+  "summary": {
+    "scope_count": 2,
+    "pages_captured": 2,
+    "content_verified": 2,
+    "partially_verified": 0,
+    "conflicting_or_unavailable": 0,
+    "specification_sections_extracted": 36
+  }
+}

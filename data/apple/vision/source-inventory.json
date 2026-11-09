@@ -11,18 +11,18 @@
       "source_url": "https://support.apple.com/en-ie/117810",
       "source_title": "Apple Vision Pro - Tech Specs",
       "publisher": "Apple Support",
-      "purpose": "Technical specifications for Apple Vision Pro (M2), year introduced 2024",
-      "verification_status": "url_checked",
-      "notes": "Official Apple Support search result verifies the 2024 M2 generation; extractor must verify live page content before marking content_verified."
+      "purpose": "Technical specifications for Apple Vision Pro (M2)",
+      "verification_status": "content_verified",
+      "notes": null
     },
     {
       "source_type": "manufacturer",
       "source_url": "https://support.apple.com/en-ie/125436",
       "source_title": "Apple Vision Pro (M5) - Tech Specs",
       "publisher": "Apple Support",
-      "purpose": "Technical specifications for Apple Vision Pro (M5), year introduced 2025",
-      "verification_status": "url_checked",
-      "notes": "Official Apple Support search results verify the 2025 M5 generation; extractor must verify live page content before marking content_verified."
+      "purpose": "Technical specifications for Apple Vision Pro (M5)",
+      "verification_status": "content_verified",
+      "notes": null
     }
   ],
   "working_scope": [
@@ -30,19 +30,24 @@
       "model": "Apple Vision Pro (M2)",
       "record_path": "data/apple/vision/apple-vision-pro-m2.json",
       "source_url": "https://support.apple.com/en-ie/117810",
-      "source_verification_status": "url_checked",
-      "extraction_status": "pending"
+      "source_verification_status": "content_verified",
+      "extraction_status": "extracted",
+      "section_count": 18,
+      "source_file": "apple_vision_extraction/technical_specs_html/apple-vision-pro-m2.html",
+      "limitation": null
     },
     {
       "model": "Apple Vision Pro (M5)",
       "record_path": "data/apple/vision/apple-vision-pro-m5.json",
       "source_url": "https://support.apple.com/en-ie/125436",
-      "source_verification_status": "url_checked",
-      "extraction_status": "pending"
+      "source_verification_status": "content_verified",
+      "extraction_status": "extracted",
+      "section_count": 18,
+      "source_file": "apple_vision_extraction/technical_specs_html/apple-vision-pro-m5.html",
+      "limitation": null
     }
   ],
   "notes": [
-    "Start with the two Apple Vision Pro hardware generations confirmed by Apple's official model-identification page: M2 (2024) and M5 (2025).",
-    "Extraction workflow trigger: inventory updated after initial workflow files were committed."
+    "Two-generation Apple Vision Pro extraction run completed 2026-11-09. See apple_vision_extraction/extraction_report.json."
   ]
 }

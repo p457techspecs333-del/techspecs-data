@@ -1,0 +1,16 @@
+{
+  "scope": [
+    {
+      "model": "Apple Vision Pro (M2)",
+      "requested_url": "https://support.apple.com/en-ie/117810",
+      "final_url": "https://support.apple.com/en-ie/117810",
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Apple Vision Pro (M5)",
+      "requested_url": "https://support.apple.com/en-ie/125436",
+      "final_url": "https://support.apple.com/en-ie/125436",
+      "verification_status": "content_verified"
+    }
+  ]
+}
