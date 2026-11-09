@@ -14,7 +14,7 @@
     ],
     "storage_options": [
       "512 MB",
-      "1 MB"
+      "1 GB"
     ]
   },
   "source": {
@@ -76,7 +76,7 @@
       "value": {
         "value": [
           "512 MB",
-          "1 MB"
+          "1 GB"
         ],
         "unit": null,
         "source_section": "iPod shuffle",
