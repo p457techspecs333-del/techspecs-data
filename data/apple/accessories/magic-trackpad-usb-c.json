@@ -8,7 +8,11 @@
     "model_slug": "magic-trackpad-usb-c",
     "model_year": 2024,
     "year_introduced": 2024,
-    "variant": null
+    "variant": null,
+    "finishes": [
+      "White Multi-Touch Surface",
+      "Black Multi-Touch Surface"
+    ]
   },
   "source": {
     "source_type": "manufacturer",
@@ -26,10 +30,10 @@
   },
   "extraction": {
     "method": "section_preserving",
-    "normalization_status": "archival_first_pass",
-    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "normalization_status": "partially_normalized",
+    "note": "Official Apple accessory source sections retained. Explicit size/weight, connectivity, battery-life and finish fields extracted where present with source-section provenance. Approximate battery-life statements retain qualifiers; no absent values inferred.",
     "extracted_at": "2026-11-09",
-    "reviewed_at": null
+    "reviewed_at": "2026-11-09"
   },
   "sections": [
     {
@@ -66,6 +70,62 @@
     }
   ],
   "record_notes": [
-    "Archival-first-pass technical specification record; normalized values not inferred."
-  ]
+    "Archival-first-pass technical specification record; normalized values not inferred.",
+    "Field extraction pass 2026-11-09: explicit accessory specifications extracted into schema-v2 fields with source-section provenance."
+  ],
+  "normalized_specifications": {
+    "size_weight_statements": {
+      "value": {
+        "value": [
+          "Height:",
+          "0.49–1.09 cm (0.19–0.43 inches)",
+          "Width:",
+          "16.0 cm (6.30 inches)",
+          "Depth:",
+          "11.49 cm (4.52 inches)",
+          "Weight:",
+          "0.230 kg (0.51 pounds)*"
+        ],
+        "unit": null,
+        "source_section": "Size and Weight",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple specification text; wording retained."
+      }
+    },
+    "connection_details": {
+      "value": {
+        "value": [
+          "Bluetooth",
+          "USB‑C port",
+          "Wireless"
+        ],
+        "unit": null,
+        "source_section": "Connections and Expansion",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple specification text; wording retained."
+      }
+    },
+    "battery_life_statements": {
+      "value": {
+        "value": [
+          "chargeable, and it includes the full range of Multi-Touch gestures and Force Touch technology.",
+          "chargeable battery will power it for about a month or more between charges.",
+          "Charge Cable that lets you pair and charge by connecting to a USB-C port on your Mac, so you can charge all of your favourite devices with just a single cable."
+        ],
+        "unit": null,
+        "source_section": "Overview",
+        "verification_status": "source_transcribed",
+        "notes": "Manufacturer's approximate battery-life wording retained verbatim; not treated as a guaranteed duration."
+      }
+    },
+    "charging_port": {
+      "value": {
+        "value": "USB-C",
+        "unit": null,
+        "source_section": "Overview",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple specification text; wording retained."
+      }
+    }
+  }
 }
