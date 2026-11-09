@@ -5280,8 +5280,8 @@
       "variant": null,
       "source": {
         "source_type": "manufacturer",
-        "publisher": "Apple Support",
-        "source_url": "https://support.apple.com/en-la/148589",
+        "publisher": "Apple",
+        "source_url": "https://www.apple.com/apple-watch-series-12/specs/",
         "verification_status": "content_verified",
         "checked_at": "2026-11-08"
       }
@@ -5522,8 +5522,8 @@
       "variant": null,
       "source": {
         "source_type": "manufacturer",
-        "publisher": "Apple Support",
-        "source_url": "https://support.apple.com/en-euro/148758",
+        "publisher": "Apple",
+        "source_url": "https://www.apple.com/apple-watch-ultra-4/specs/",
         "verification_status": "content_verified",
         "checked_at": "2026-11-08"
       }
