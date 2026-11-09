@@ -18,7 +18,7 @@
     "published_at": null,
     "checked_at": "2026-11-09",
     "verification_status": "content_verified",
-    "verification_notes": "Official Apple page captured 2026-11-09; page identity matched Apple Watch Series 12; 7 source sections extracted and archived at apple_watch_extraction/technical_specs_html/apple-watch-series-12.html.",
+    "verification_notes": "Official Apple page captured 2026-11-09; page identity matched Apple Watch Series 12; 20 source sections extracted and archived at apple_watch_extraction/technical_specs_html/apple-watch-series-12.html.",
     "notes": []
   },
   "extraction": {
@@ -30,32 +30,84 @@
   },
   "sections": [
     {
-      "heading": "Apple Watch Series 12 Technical Specifications",
-      "source_text": "Aluminum case\nDark Bronze, Light Gold, Black, Space Gray\nTitanium case\nRadiant Gold, Natural\nCeramic case\nPearl White, Night Blue\nHeight (aluminum, titanium): 46mm\nHeight (ceramic): 47mm\nWidth (aluminum, titanium): 40mm\nWidth (ceramic): 41mm\nDepth (aluminum, titanium): 9.7mm\nDepth (ceramic): 9.85mm\n416 by 496 pixels\n1196 sq mm display area\nWeight (aluminum, GPS): 39.5 grams\nWeight (aluminum, GPS + Cellular): 38.6 grams\nWeight (titanium): 44.9 grams\nWeight (Pearl White ceramic): 51.3 grams\nWeight (Night Blue ceramic): 52.9 grams\nFits 140–245mm wrists\nHeight (aluminum, titanium): 42mm\nHeight (ceramic): 43mm\nWidth: 37mm\nDepth (aluminum, titanium): 9.7mm\nDepth (ceramic): 9.85mm\n374 by 446 pixels\n970 sq mm display area\nWeight (aluminum, GPS): 32.2 grams\nWeight (aluminum, GPS + Cellular): 31.5 grams\nWeight (titanium): 36.5 grams\nWeight (Pearl White ceramic): 41.7 grams\nWeight (Night Blue ceramic): 42.8 grams\nFits 130–200mm wrists\nDigital Crown\nMicrophone with Voice Isolation\nSide button\nBand release button\nSpeaker\nHealth Sensing System\nDigital Crown with haptic feedback\nSide button\nSingle tap, double tap, and wrist flick gestures\nSiri powered by Apple Intelligence 1\nS11 chip with 64-bit dual-core processor\nAudio Intelligence (Live Rewind, Siri Recap, Shazam, Sound Recognition) 2\n4-core Neural Engine\n64GB capacity\nThe next generation of Apple Intelligence is centered around you, integrated into your apps, and built with privacy. Apple Intelligence powers Siri AI — an entirely new version of Siri that’s more personal, conversational, and powerful, along with helpful features across apps.\nLearn more\nHealth Sensing System: second‑generation electrical heart sensor, always‑on optical heart sensor, blood oxygen sensor, 3 and temperature sensor 4\nCompass\nAlways‑on altimeter\nHigh‑g accelerometer\nHigh dynamic range gyroscope\nAmbient light sensor\nDepth gauge to 6 meters\nWater temperature sensor\nReadiness app\nVitals app with heart rate, respiratory rate, wrist temperature, sleep duration, and heart rate variability (HRV) 5\nBlood Oxygen app 3\nECG app 6\nHeart Rate app\nHigh and low heart rate notifications\nRecovery HRV\nHigh‑frequency background heart rate tracking\nIrregular rhythm notifications 7\nAdvanced Cycle Tracking app with fertile window estimates, retrospective ovulation estimates, and perimenopause and menopause support 8\nMedications app 9\nMindfulness app with state of mind tracking\nNoise app\nSleep app including sleep stages\nSleep score\nSleep apnea notifications 10\nHypertension notifications 11\nAlways‑On Retina display with wide‑angle OLEDs and LTPO3\n1Hz refresh\nActive area (42mm): 374 by 446 pixels, 326 pixels per inch\nActive area (46mm): 416 by 496 pixels, 326 pixels per inch\nCeramic Shield 2 (aluminum cases)\nSapphire front crystal (titanium and ceramic cases)\n2000 nits peak brightness\n1 nit minimum brightness\nSpeaker\nMicrophone\nMedia playback\nAll‑day battery life, up to 24 hours of normal use 12\nUp to 38 hours in Low Power Mode 12\nUp to 10 hours workout tracking 13\nBuilt‑in rechargeable lithium‑ion battery\nFast‑charge capable 14\nUp to 80% charge in about 30 minutes 14\n15 minutes for up to 12 hours of normal use 15\n5 minutes for up to 10 hours of sleep tracking 15\nLearn more\nwatchOS\nwatchOS is the world’s most advanced wearable operating system, with apps and features designed to keep you active, healthy, safe, and connected.\nCustom workouts\nCustomizable Workout Views\nTraining Load\nHeart Rate Zones (customizable)\nPostworkout heart rate\nVO 2 max\nRace Route\nPacer\nCadence, Stride Length, Ground Contact Time, Vertical Oscillation, and Running Power\nAutomatic track detection\nMultisport workout\nHeart Rate Zone, pace, and target alerts\nCompass with bearing, incline, elevation, and coordinates\nCustom waypoints\nAutomatically generated waypoints to cellular connectivity\nBacktrack GPS data\nOffline maps with custom route creation 16\nTopographic maps for thousands of national and regional parks (U.S. only)\nHundreds of curated hikes across all 63 U.S. national parks\nAverage speed, elevation gained, and distance\nConnection to cycling accessories via Bluetooth\nFunctional Threshold Power\nPower Zones\nCadence\nLive Activity on iPhone\nPool swim or open water swim\nCustom workouts for pool swims\nSplits and auto sets\nSWOLF score\nAutomatic stroke detection\nKickboard detection\nAverage pace, total distance, and laps\nEmergency SOS 17\nInternational emergency calling 18\nFall Detection 17\nCrash Detection 17\nLast Emergency Call Availability Waypoint\nFlashlight\nBacktrack\nNoise monitoring\nCheck In\nWater resistance 50m (swimproof) under ISO standard 22810:2010 19\nDust resistance IP6X 20\nAll models\nSupport for 2.4GHz and 5GHz Wi‑Fi networks\nWi‑Fi 4 (802.11n)\nBluetooth 5.3\nPrecision L1 GPS (GPS, GLONASS, Galileo, QZSS, and BeiDou)\nSecond‑generation Ultra Wideband chip 21\nApple Pay 22\nGymKit\nModels A3582 and A3587\nSupports RedCap for 5G 23 and LTE 24\nFDD‑5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n66, n71)\nTDD‑5G NR (Bands n38, n40, n41)\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 66, 71)\nTDD‑LTE (Bands 38, 39, 40, 41)\nSupport for Apple Watch For Your Kids 25\nInternational roaming 26\nBuilt‑in accessibility features supporting vision, mobility, hearing, and cognitive disabilities.\nLearn more\nVoiceOver\nZoom\nOn/Off Labels\nReduce Transparency\nIncrease Contrast\nColor Filters\nText Size\nBold Text\nReduce Motion\nHourly Chimes\nAssistiveTouch\nButton Click Speed\nTouch Accommodations\nAuto‑Answer Calls\nType to Siri\nRTT Support\nAudio Volume Balance\nAuto Transcription\nLive Speech\nAccessibility Shortcut\nMono Audio\nTaptic Time\nPersonal Voice\nLive Listen\nSound Recognition\n32° to 95° F (0° to 35° C)\n–4° to 113° F (–20° to 45° C)\n5% to 90% noncondensing\n0 feet to 10,000 feet (0m to 3000m)"
+      "heading": "Material and Finish",
+      "source_text": "Aluminum case\nDark Bronze, Light Gold, Black, Space Gray\nTitanium case\nRadiant Gold, Natural\nCeramic case\nPearl White, Night Blue"
     },
     {
-      "heading": "Progress toward Apple 2030",
-      "source_text": "Apple 2030 is our goal to be carbon neutral across our value chain. We design our products to be less carbon intensive by prioritizing the use of recycled and renewable content and low‑carbon materials while focusing on the energy efficiency of our software and hardware.\nSee Apple’s commitment"
+      "heading": "Size and Weight",
+      "source_text": "Height (aluminum, titanium):\n46mm\nHeight (ceramic):\n47mm\nWidth (aluminum, titanium):\n40mm\nWidth (ceramic):\n41mm\nDepth (aluminum, titanium):\n9.7mm\nDepth (ceramic):\n9.85mm\n416 by 496 pixels\n1196 sq mm display area\nWeight (aluminum, GPS):\n39.5 grams\nWeight (aluminum, GPS + Cellular):\n38.6 grams\nWeight (titanium):\n44.9 grams\nWeight (Pearl White ceramic):\n51.3 grams\nWeight (Night Blue ceramic):\n52.9 grams\nFits 140–245mm wrists\nHeight (aluminum, titanium):\n42mm\nHeight (ceramic):\n43mm\nWidth:\n37mm\nDepth (aluminum, titanium):\n9.7mm\nDepth (ceramic):\n9.85mm\n374 by 446 pixels\n970 sq mm display area\nWeight (aluminum, GPS):\n32.2 grams\nWeight (aluminum, GPS + Cellular):\n31.5 grams\nWeight (titanium):\n36.5 grams\nWeight (Pearl White ceramic):\n41.7 grams\nWeight (Night Blue ceramic):\n42.8 grams\nFits 130–200mm wrists"
     },
     {
-      "heading": "Materials",
-      "source_text": "Apple Watch Series 12 with aluminum and titanium cases are made with 40% recycled content, 27 including:\n100% recycled aluminum in the aluminum case\n100% recycled cobalt in the battery\n100% recycled copper wire and recycled tungsten in the Taptic Engine\n100% recycled gold plating and tin solder in all Apple‑designed printed circuit boards\n95% recycled lithium in the battery\n100% recycled titanium in the titanium case"
+      "heading": "Hardware and Buttons",
+      "source_text": "Digital Crown\nMicrophone with Voice Isolation\nSide button\nBand release button\nSpeaker\nHealth Sensing System"
     },
     {
-      "heading": "Packaging",
-      "source_text": "100% fiber‑based packaging 28"
+      "heading": "Controls",
+      "source_text": "Digital Crown with haptic feedback\nSide button\nSingle tap, double tap, and wrist flick gestures\nSiri powered by Apple Intelligence\n1"
     },
     {
-      "heading": "Energy",
-      "source_text": "100% of manufacturing electricity for Apple Watch Series 12 with aluminum and titanium cases is sourced from renewable electricity 29\n100% of expected customer energy use matched with renewable electricity for Apple Watch Series 12 with aluminum and titanium cases 29 , 30"
+      "heading": "Chip",
+      "source_text": "S11 chip with 64-bit dual-core processor\nAudio Intelligence (Live Rewind, Siri Recap, Shazam, Sound Recognition)\n2\n4-core Neural Engine\n64GB capacity"
     },
     {
-      "heading": "Waste",
-      "source_text": "No established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Program 31"
+      "heading": "Apple Intelligence and Siri AI 1",
+      "source_text": "The next generation of Apple Intelligence is centered around you, integrated into your apps, and built with privacy. Apple Intelligence powers Siri AI — an entirely new version of Siri that’s more personal, conversational, and powerful, along with helpful features across apps.\nLearn more"
     },
     {
-      "heading": "Smarter chemistry 32",
-      "source_text": "All of the materials used in Apple products, accessories, and packaging are covered by the requirements of our Regulated Substances Specification , which was one of the first in industry to restrict the use of key substances of concern. See the latest Environmental Progress Report to understand Apple’s recent efforts in phasing out these chemistries.\niPhone 11 or later, including iPhone SE (2nd generation or later), with iOS 27 or later\nApple Watch Series 12\nBand\nApple Watch Magnetic Fast Charger to USB‑C Cable (1m)"
+      "heading": "Sensors",
+      "source_text": "Health Sensing System: second‑generation electrical heart sensor, always‑on optical heart sensor, blood oxygen sensor,\n3\nand temperature sensor\n4\nCompass\nAlways‑on altimeter\nHigh‑g accelerometer\nHigh dynamic range gyroscope\nAmbient light sensor\nDepth gauge to 6 meters\nWater temperature sensor"
+    },
+    {
+      "heading": "Health and Wellness",
+      "source_text": "Readiness app\nVitals app with heart rate, respiratory rate, wrist temperature, sleep duration, and heart rate variability (HRV)\n5\nBlood Oxygen app\n3\nECG app\n6\nHeart Rate app\nHigh and low heart rate notifications\nRecovery HRV\nHigh‑frequency background heart rate tracking\nIrregular rhythm notifications\n7\nAdvanced Cycle Tracking app with fertile window estimates, retrospective ovulation estimates, and perimenopause and menopause support\n8\nMedications app\n9\nMindfulness app with state of mind tracking\nNoise app\nSleep app including sleep stages\nSleep score\nSleep apnea notifications\n10\nHypertension notifications\n11"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Always‑On Retina display with wide‑angle OLEDs and LTPO3\n1Hz refresh\nActive area (42mm): 374 by 446 pixels, 326 pixels per inch\nActive area (46mm): 416 by 496 pixels, 326 pixels per inch\nCeramic Shield 2 (aluminum cases)\nSapphire front crystal (titanium and ceramic cases)\n2000 nits peak brightness\n1 nit minimum brightness"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Speaker\nMicrophone\nMedia playback"
+    },
+    {
+      "heading": "Power and Battery Life",
+      "source_text": "All‑day battery life, up to 24 hours of normal use\n12\nUp to 38 hours in Low Power Mode\n12\nUp to 10 hours workout tracking\n13\nBuilt‑in rechargeable lithium‑ion battery\nFast‑charge capable\n14\nUp to 80% charge in about 30 minutes\n14\n15 minutes for up to 12 hours of normal use\n15\n5 minutes for up to 10 hours of sleep tracking\n15\nLearn more"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "watchOS\nwatchOS is the world’s most advanced wearable operating system, with apps and features designed to keep you active, healthy, safe, and connected."
+    },
+    {
+      "heading": "Workouts and Activity",
+      "source_text": "Running\nCustom workouts\nCustomizable Workout Views\nTraining Load\nHeart Rate Zones (customizable)\nPostworkout heart rate\nVO\n2\nmax\nRace Route\nPacer\nCadence, Stride Length, Ground Contact Time, Vertical Oscillation, and Running Power\nAutomatic track detection\nMultisport workout\nHeart Rate Zone, pace, and target alerts\nHiking\nCompass with bearing, incline, elevation, and coordinates\nCustom waypoints\nAutomatically generated waypoints to cellular connectivity\nBacktrack GPS data\nOffline maps with custom route creation\n16\nTopographic maps for thousands of national and regional parks (U.S. only)\nHundreds of curated hikes across all 63 U.S. national parks\nCycling\nAverage speed, elevation gained, and distance\nConnection to cycling accessories via Bluetooth\nFunctional Threshold Power\nPower Zones\nCadence\nLive Activity on iPhone\nSwimming\nPool swim or open water swim\nCustom workouts for pool swims\nSplits and auto sets\nSWOLF score\nAutomatic stroke detection\nKickboard detection\nAverage pace, total distance, and laps\nMore Workouts\nSkiing\nSnowboarding\nOutdoor Rowing\nPaddling\nGolf\nWalk\nElliptical\nRower\nStair Stepper\nHIIT\nYoga\nFunctional Strength Training\nDance\nCooldown\nCore Training\nPilates\nTai Chi\nWheelchair\nKickboxing\nMultisport\nOther"
+    },
+    {
+      "heading": "Safety",
+      "source_text": "Emergency SOS\n17\nInternational emergency calling\n18\nFall Detection\n17\nCrash Detection\n17\nLast Emergency Call Availability Waypoint\nFlashlight\nBacktrack\nNoise monitoring\nCheck In"
+    },
+    {
+      "heading": "Durability",
+      "source_text": "Water resistance 50m (swimproof) under ISO standard 22810:2010\n19\nDust resistance IP6X\n20"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "All models\nSupport for 2.4GHz and 5GHz Wi‑Fi networks\nWi‑Fi 4 (802.11n)\nBluetooth 5.3\nPrecision L1 GPS (GPS, GLONASS, Galileo, QZSS, and BeiDou)\nSecond‑generation Ultra Wideband chip\n21\nApple Pay\n22\nGymKit\nModels A3582 and A3587\nSupports RedCap for 5G\n23\nand LTE\n24\nFDD‑5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n66, n71)\nTDD‑5G NR (Bands n38, n40, n41)\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 66, 71)\nTDD‑LTE (Bands 38, 39, 40, 41)\nSupport for Apple Watch For Your Kids\n25\nInternational roaming\n26"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Built‑in accessibility features supporting vision, mobility, hearing, and cognitive disabilities.\nLearn more\nFeatures include:\nVoiceOver\nZoom\nOn/Off Labels\nReduce Transparency\nIncrease Contrast\nColor Filters\nText Size\nBold Text\nReduce Motion\nHourly Chimes\nAssistiveTouch\nButton Click Speed\nTouch Accommodations\nAuto‑Answer Calls\nType to Siri\nRTT Support\nAudio Volume Balance\nAuto Transcription\nLive Speech\nAccessibility Shortcut\nMono Audio\nTaptic Time\nPersonal Voice\nLive Listen\nSound Recognition"
+    },
+    {
+      "heading": "Environmental Requirements",
+      "source_text": "Operating temperature:\n32° to 95° F (0° to 35° C)\nNonoperating storage temperature:\n–4° to 113° F (–20° to 45° C)\nRelative humidity:\n5% to 90% noncondensing\nOperating altitude:\n0 feet to 10,000 feet (0m to 3000m)"
+    },
+    {
+      "heading": "Compatibility",
+      "source_text": "iPhone 11 or later, including iPhone SE (2nd generation or later), with iOS 27 or later"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "Apple Watch Series 12\nBand\nApple Watch Magnetic Fast Charger to USB‑C Cable (1m)"
     }
   ],
   "record_notes": [

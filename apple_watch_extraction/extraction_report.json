@@ -1,5 +1,5 @@
 {
-  "started_utc": "2026-11-09T11:25:22.176386+00:00",
+  "started_utc": "2026-11-09T11:26:26.812284+00:00",
   "scope_count": 10,
   "sources": [
     {
@@ -11,7 +11,7 @@
       "title": "Apple Watch Series 12 Technical Specifications",
       "saved_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-12.html",
       "bytes": 204223,
-      "section_count": 7,
+      "section_count": 20,
       "model_identity_matches": true,
       "verification_status": "content_verified"
     },
@@ -102,7 +102,7 @@
       "title": "Apple Watch Ultra 4 Technical Specifications",
       "saved_file": "apple_watch_extraction/technical_specs_html/apple-watch-ultra-4.html",
       "bytes": 199438,
-      "section_count": 8,
+      "section_count": 20,
       "model_identity_matches": true,
       "verification_status": "content_verified"
     },
@@ -141,13 +141,13 @@
     "Records are updated only when the page identifies the expected model and yields actual specification sections.",
     "Original headings and visible source text are preserved; missing values are not inferred."
   ],
-  "finished_utc": "2026-11-09T11:25:38.963379+00:00",
+  "finished_utc": "2026-11-09T11:26:42.756337+00:00",
   "summary": {
     "scope_count": 10,
     "pages_captured": 10,
     "content_verified": 10,
     "partially_verified": 0,
     "conflicting_or_unavailable": 0,
-    "specification_sections_extracted": 164
+    "specification_sections_extracted": 189
   }
 }
