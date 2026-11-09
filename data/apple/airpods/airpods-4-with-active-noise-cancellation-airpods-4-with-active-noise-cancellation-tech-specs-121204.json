@@ -97,7 +97,8 @@
     "Taxonomy audit 2026-11-09: classified as Apple audio hardware, not software.",
     "Field-level normalization remains incomplete; source_text is the evidence of record.",
     "Field extraction pass 2026-11-09: added typed fields only where explicit values were present in preserved official source sections; qualifiers retained and source-section provenance attached.",
-    "Follow-up extraction 2026-11-09: audio features, sensors, controls, charging-case details, system requirements and in-box contents separated where explicit."
+    "Follow-up extraction 2026-11-09: audio features, sensors, controls, charging-case details, system requirements and in-box contents separated where explicit.",
+    "Follow-up extraction 2026-11-09: filled audio feature and other explicit section fields whose headings include Apple footnote numbers."
   ],
   "normalized_specifications": {
     "audio_technology": {
@@ -397,6 +398,26 @@
         ],
         "unit": null,
         "source_section": "In the Box",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from the preserved official Apple specification section; source wording retained."
+      }
+    },
+    "audio_technology_features": {
+      "value": {
+        "value": [
+          "Custom high‑excursion Apple driver",
+          "Custom high dynamic range amplifier",
+          "Active Noise Cancellation",
+          "Adaptive Audio",
+          "Transparency mode",
+          "Conversation Awareness",
+          "Voice Isolation",
+          "Personalised Spatial Audio with dynamic head tracking",
+          "Adaptive EQ",
+          "Vent system for pressure equalisation"
+        ],
+        "unit": null,
+        "source_section": "Audio Technology 1",
         "verification_status": "source_transcribed",
         "notes": "Extracted from the preserved official Apple specification section; source wording retained."
       }
