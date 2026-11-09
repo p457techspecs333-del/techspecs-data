@@ -204,14 +204,14 @@
     },
     "resolution_pixels": {
       "value": {
-        "value": {
-          "width": 6016,
-          "height": 3384
-        },
+        "value": [
+          6016,
+          3384
+        ],
         "unit": "pixels",
         "source_section": "Display",
         "verification_status": "source_transcribed",
-        "notes": "Parsed from explicit official Apple source text; qualifiers retained."
+        "notes": "Resolution stored as [width_pixels, height_pixels] in that order, parsed from the explicit official Apple resolution statement."
       }
     },
     "refresh_rates": {
