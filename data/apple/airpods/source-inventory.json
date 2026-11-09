@@ -1,5 +1,5 @@
 {
-  "catalogue_stage": "source_archived_taxonomy_audited_normalization_pending",
+  "catalogue_stage": "official_source_archived_and_section_transcribed",
   "brand": "Apple",
   "category": "audio",
   "family": "Apple AirPods",
@@ -233,25 +233,28 @@
   "notes": [
     "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete.",
     "2026-11-09 audit: 19 product JSON records are present in data/apple/airpods; product taxonomy has been corrected across these records. This does not mean field-level specification normalization is complete.",
-    "The five newest model pages are listed in working_scope; older model and case variants are represented by separate JSON records and official Apple documentation links in catalogue_links. Expand working_scope during full record-by-record verification."
+    "The five newest model pages are listed in working_scope; older model and case variants are represented by separate JSON records and official Apple documentation links in catalogue_links. Expand working_scope during full record-by-record verification.",
+    "2026-11-09 progress update: all 19 AirPods JSON records have corrected audio taxonomy and source-section transcription into machine-readable normalized_specifications. This is not a claim that each specification has been parsed into individual typed values or that final record-by-record verification is complete."
   ],
   "record_audit": {
     "checked_at": "2026-11-09",
     "product_record_count": 19,
     "taxonomy": "All 19 AirPods-folder product JSON records corrected to product.category=audio and product.family=Apple AirPods.",
-    "source_policy": "Official Apple source URLs and archived HTML remain the source of truth. Do not infer missing values.",
+    "source_policy": "Official Apple source URLs and archived HTML remain the source of truth. No missing values inferred.",
     "normalization_status": "partially_normalized",
     "completion_status": "IN_PROGRESS",
     "completed": [
       "Corrected product category/family metadata across all 19 product records.",
-      "Retained original Apple source sections and archived HTML references.",
-      "Marked record review date and documented that field-level normalization remains incomplete."
+      "Transcribed each record's preserved Apple source sections into normalized_specifications as machine-readable section_text fields, retaining the original section heading and text.",
+      "Marked source text fields source_transcribed; retained archived source sections and source-file references.",
+      "Added review date and explicit notes distinguishing source transcription from field-level normalization."
     ],
     "remaining": [
-      "Normalize source-supported specifications into normalized_specifications for every model and case variant.",
-      "Check source_file paths, canonical source URLs, model years, and duplicate/variant relationships against archived HTML.",
-      "Reconcile documentation-only charging-case records with the product catalogue without dropping them.",
-      "Run the repository validator and record results."
+      "Parse section text into individual typed values (e.g. dimensions, mass, battery duration, Bluetooth version, chip, resistance rating) with units and source-section references.",
+      "Verify model-specific facts and footnote qualifications against each archived HTML file, including model-year, regional wording, and case variants.",
+      "Check source_file paths, source URLs, duplicate/variant relationships, and catalogue coverage.",
+      "Expand working_scope beyond the five newest product pages to cover all 19 JSON records.",
+      "Run repository validation and record the result."
     ]
   }
 }
