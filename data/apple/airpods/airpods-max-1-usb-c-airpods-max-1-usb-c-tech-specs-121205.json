@@ -22,7 +22,7 @@
     "published_at": null,
     "checked_at": "2026-11-09",
     "verification_status": "content_verified",
-    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 13 sections archived. Model identifiers and introduction year cross-checked against Apple's official AirPods identification page on 2026-11-09.",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 13 sections archived. Model identifiers and introduction year cross-checked against Apple's official AirPods identification page on 2026-11-09. Model identifiers and introduction year cross-checked against Apple's official AirPods identification page on 2026-11-09.",
     "notes": [
       "Documentation index: https://support.apple.com/en-ie/docs/airpods/301049",
       "Model numbers and introduction year verified against official Apple AirPods identification page: https://support.apple.com/en-ie/109525."
@@ -287,7 +287,7 @@
         "unit": null,
         "source_section": "Identify your AirPods with the model number",
         "verification_status": "content_verified",
-        "notes": "Model numbers cross-checked against Apple's official AirPods identification page, https://support.apple.com/en-ie/109525, on 2026-11-09. For case-inclusive configurations, case model number is included alongside earbud model numbers."
+        "notes": "Cross-checked against official Apple AirPods identification page https://support.apple.com/en-ie/109525 on 2026-11-09."
       }
     },
     "year_introduced": {
@@ -296,7 +296,7 @@
         "unit": "year",
         "source_section": "Identify your AirPods with the model number",
         "verification_status": "content_verified",
-        "notes": "Introduction year cross-checked against Apple's official AirPods identification page, https://support.apple.com/en-ie/109525, on 2026-11-09."
+        "notes": "Cross-checked against official Apple AirPods identification page https://support.apple.com/en-ie/109525 on 2026-11-09."
       }
     }
   }
