@@ -27,7 +27,7 @@
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
-    "note": "Official Apple source sections preserved; product taxonomy corrected. Field-level normalized specifications still require extraction and verification; no values inferred.",
+    "note": "Official Apple sections preserved and transcribed into machine-readable section fields. Individual measurements, battery figures, model identifiers and footnote qualifications still require field-level parsing and validation; no values inferred.",
     "extracted_at": "2026-11-09",
     "reviewed_at": "2026-11-09"
   },
@@ -81,5 +81,106 @@
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Taxonomy audit 2026-11-09: classified as Apple audio hardware, not software.",
     "Field-level normalization remains incomplete; source_text is the evidence of record."
-  ]
+  ],
+  "normalized_specifications": {
+    "sensors": {
+      "source_text": {
+        "value": "Dual beamforming microphones\nDual optical sensors\nMotion-detecting accelerometer\nSpeech-detecting accelerometer",
+        "unit": null,
+        "source_section": "Sensors",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "chip": {
+      "source_text": {
+        "value": "H1 headphone chip",
+        "unit": null,
+        "source_section": "Chip",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "controls": {
+      "source_text": {
+        "value": "Double-tap to play, skip forwards or answer a phone call\nSay “Hey Siri” to do things like play a song, make a call or get directions",
+        "unit": null,
+        "source_section": "Controls",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "size_and_weight": {
+      "source_text": {
+        "value": "AirPods (each)\nHeight:\n40.5 mm (1.59 inches)\nWidth:\n16.5 mm (0.65 inches)\nDepth:\n18.0 mm (0.71 inches)\nWeight:\n4.0 grams (0.14 ounces)\nLightning Charging Case or Wireless Charging Case\nHeight:\n53.5 mm (2.11 inches)\nWidth:\n44.3 mm (1.74 inches)\nDepth:\n21.3 mm (0.84 inches)\nWeight:\n38.2 grams (1.35 ounces)",
+        "unit": null,
+        "source_section": "Size and Weight 1",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "charging_case": {
+      "source_text": {
+        "value": "Lightning Charging Case\nWorks with the Lightning connector\nWireless Charging Case\nWorks with Qi-certified chargers or the Lightning connector",
+        "unit": null,
+        "source_section": "Charging Case",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "battery": {
+      "source_text": {
+        "value": "AirPods\nUp to 5 hours of listening time with a single charge\n2\nAirPods with Lightning Charging Case or Wireless Charging Case\nMore than 24 hours of listening time\n3\n15 minutes in the case provides up to 3 hours of listening time\n4",
+        "unit": null,
+        "source_section": "Battery",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "connectivity": {
+      "source_text": {
+        "value": "Bluetooth 5.0 wireless technology",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "in_the_box": {
+      "source_text": {
+        "value": "AirPods 2\nLightning Charging Case\nLightning to USB-A Cable\nDocumentation",
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "accessibility": {
+      "source_text": {
+        "value": "Accessibility features help people with disabilities get the most out of their new AirPods. Features include:\nLive Listen audio\n5\nHeadphone levels\nHeadphone Accommodations",
+        "unit": null,
+        "source_section": "Accessibility",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "system_requirements": {
+      "source_text": {
+        "value": "iPhone and iPod touch models with the latest version of iOS\niPad models with the latest version of iPadOS\nApple Watch models with the latest version of watchOS\nMac models with the latest version of macOS\nApple TV models with the latest version of tvOS",
+        "unit": null,
+        "source_section": "System Requirements 6",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "airpods_and_the_environment": {
+      "source_text": {
+        "value": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more about AirPods and the Environment\nAirPods are designed with the following features to reduce environmental impact:\nBrominated flame retardant–free\nPVC-free\nBeryllium-free\nMercury-free",
+        "unit": null,
+        "source_section": "AirPods and the Environment",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    }
+  }
 }
