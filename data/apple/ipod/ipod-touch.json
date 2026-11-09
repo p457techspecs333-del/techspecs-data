@@ -8,7 +8,15 @@
     "model_slug": "ipod-touch",
     "model_year": null,
     "year_introduced": null,
-    "variant": null
+    "variant": null,
+    "model_numbers": [
+      "A1213"
+    ],
+    "storage_options": [
+      "8 GB",
+      "16 GB",
+      "32 GB"
+    ]
   },
   "source": {
     "source_type": "manufacturer",
@@ -26,10 +34,10 @@
   },
   "extraction": {
     "method": "section_preserving",
-    "normalization_status": "archival_first_pass",
-    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "normalization_status": "partially_normalized",
+    "note": "Official Apple iPod identification text retained. Explicit model numbers, introduction dates, capacity options and navigation interface extracted where present with source-section provenance. This is an identification-page record, not a full historical technical-specification sheet; no absent specs inferred.",
     "extracted_at": "2026-11-09",
-    "reviewed_at": null
+    "reviewed_at": "2026-11-09"
   },
   "sections": [
     {
@@ -38,6 +46,58 @@
     }
   ],
   "record_notes": [
-    "Archival-first-pass record; normalized specifications not inferred."
-  ]
+    "Archival-first-pass record; normalized specifications not inferred.",
+    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text."
+  ],
+  "normalized_specifications": {
+    "navigation_interface": {
+      "value": {
+        "value": "Multi-Touch display",
+        "unit": null,
+        "source_section": "iPod touch",
+        "verification_status": "source_transcribed",
+        "notes": "Navigation method transcribed from the official Apple identification page."
+      }
+    },
+    "model_number_dates": {
+      "value": {
+        "value": [
+          {
+            "model_number": "A1213",
+            "introduced": "February 2008"
+          },
+          {
+            "model_number": "A1213",
+            "introduced": "September 2007"
+          }
+        ],
+        "unit": null,
+        "source_section": "iPod touch",
+        "verification_status": "source_transcribed",
+        "notes": "Unique model number/date pairs extracted from repeated official page text."
+      }
+    },
+    "capacity_statements": {
+      "value": {
+        "value": [
+          "8 GB",
+          "16 GB",
+          "32 GB"
+        ],
+        "unit": null,
+        "source_section": "iPod touch",
+        "verification_status": "source_transcribed",
+        "notes": "Capacities parsed from the explicit Capacity line; original wording remains in source_text."
+      }
+    },
+    "official_description": {
+      "value": {
+        "value": "iPod touch features a 3.5-inch (diagonal) widescreen Multi-Touch display and 8 GB, 16 GB or 32 GB flash drive. You can browse the web with Safari and watch YouTube videos on the first-ever Wi-Fi iPod. You can also search, preview and buy songs from the iTunes Wi-Fi Music Store on iPod touch.",
+        "unit": null,
+        "source_section": "iPod touch",
+        "verification_status": "source_transcribed",
+        "notes": "Descriptive text transcribed from the official Apple identification page."
+      }
+    }
+  }
 }
