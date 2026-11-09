@@ -156,6 +156,7 @@
     }
   ],
   "notes": [
-    "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete."
+    "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete.",
+    "Second-pass extraction now includes AirPods alongside accessories and software; 60 technical-specification records were captured in the latest run across the three families. Coverage remains an archival-first pass, not a claim that every historic variant has been normalized."
   ]
 }
