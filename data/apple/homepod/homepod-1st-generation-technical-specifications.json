@@ -142,6 +142,29 @@
       "source_section": "Electrical and Environmental Requirements",
       "verification_status": "source_transcribed",
       "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+    },
+    "dimensions_and_weight": {
+      "value": [
+        {
+          "dimension": "height",
+          "value": 172,
+          "unit": "mm"
+        },
+        {
+          "dimension": "width",
+          "value": 142,
+          "unit": "mm"
+        },
+        {
+          "dimension": "weight",
+          "value": 2.5,
+          "unit": "kg"
+        }
+      ],
+      "unit": null,
+      "source_section": "Size, Weight, and Color 1",
+      "verification_status": "source_transcribed",
+      "notes": "Explicit metric values in parentheses parsed from the preserved official Apple section; original imperial values remain in source_text."
     }
   }
 }
