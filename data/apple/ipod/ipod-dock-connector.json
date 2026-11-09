@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "portable-media-player",
+    "family": "iPod",
+    "model": "iPod (Dock Connector)",
+    "model_slug": "ipod-dock-connector",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/103823",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-dock-connector.html",
+    "source_title": "iPod (Dock Connector)",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 1 sections archived.",
+    "notes": [
+      "Extracted from official Apple technical specification link discovered on model index."
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "iPod (Dock Connector)",
+      "source_text": "Navigation: Touch Wheel\nCapacity: 10, 15, 20, 30 and 40 GB\nModel numbers and dates introduced: A1040: September 2003 A1040: April 2003\nModel numbers and dates introduced:\nA1040: September 2003\nA1040: April 2003\niPod (dock connector) models have a dock connector on the bottom.\nNewer iPod models like iPod (Click Wheel) and iPod mini also have a dock connector, but the iPod (Dock Connector) has a touch wheel instead of a Click Wheel and the four control buttons are above the touch wheel. iPod (Dock Connector) models are referred to as third-generation iPod models."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record; normalized specifications not inferred."
+  ]
+}

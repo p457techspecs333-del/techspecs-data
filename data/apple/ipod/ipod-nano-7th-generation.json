@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "portable-media-player",
+    "family": "iPod",
+    "model": "iPod nano (7th generation)",
+    "model_slug": "ipod-nano-7th-generation",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/103823",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-nano-7th-generation.html",
+    "source_title": "iPod nano (7th generation)",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 1 sections archived.",
+    "notes": [
+      "Extracted from official Apple technical specification link discovered on model index."
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "iPod nano (7th generation)",
+      "source_text": "Navigation: Multi-Touch display\nCapacity: 16 GB\nModel number and date introduced: A1446: October 2012\niPod nano (7th generation) is available in eight colours."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record; normalized specifications not inferred."
+  ]
+}

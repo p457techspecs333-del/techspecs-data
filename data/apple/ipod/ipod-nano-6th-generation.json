@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "portable-media-player",
+    "family": "iPod",
+    "model": "iPod nano (6th generation)",
+    "model_slug": "ipod-nano-6th-generation",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/103823",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-nano-6th-generation.html",
+    "source_title": "iPod nano (6th generation)",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 1 sections archived.",
+    "notes": [
+      "Extracted from official Apple technical specification link discovered on model index."
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "iPod nano (6th generation)",
+      "source_text": "Navigation: Multi-Touch display\nCapacity: 8 and 16 GB\nModel number and date introduced: A1366: September 2010\niPod nano (6th generation) is available in six colours.\niPod nano (PRODUCT) RED Special Edition is available only from the Apple Store, with an 8 GB or 16 GB capacity. Apple contributes a portion of each iPod nano (PRODUCT) RED Special Edition purchase to the Global Fund to fight HIV/AIDS in Africa."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record; normalized specifications not inferred."
+  ]
+}

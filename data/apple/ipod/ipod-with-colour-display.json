@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "portable-media-player",
+    "family": "iPod",
+    "model": "iPod with colour display",
+    "model_slug": "ipod-with-colour-display",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/103823",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-with-colour-display.html",
+    "source_title": "iPod with colour display",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 1 sections archived.",
+    "notes": [
+      "Extracted from official Apple technical specification link discovered on model index."
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "iPod with colour display",
+      "source_text": "Navigation: Click Wheel\nCapacity: 20 and 60 GB\nModel number and date introduced: A1099: June 2005\niPod and iPod photo are now one and the same, with every white iPod boasting a full-colour display. They continue to have the same controls as iPod (Click Wheel) but now all models have a colour display like iPod photo – ideal for viewing album artwork and playing slideshows. These are considered fourth-generation models along with iPod (Click Wheel)."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record; normalized specifications not inferred."
+  ]
+}

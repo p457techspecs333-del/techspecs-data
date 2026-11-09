@@ -8,7 +8,379 @@
   "index_url": "https://support.apple.com/en-ie/103823",
   "index_title": "Identify your iPod model - Apple Support (IE)",
   "index_archive": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-  "working_scope": [],
+  "working_scope": [
+    {
+      "model": "iPod touch (7th generation)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-touch-7th-generation",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod touch (7th generation)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-touch-7th-generation.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod touch (6th generation)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-touch-6th-generation",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod touch (6th generation)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-touch-6th-generation.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod touch (5th generation)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-touch-5th-generation",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod touch (5th generation)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-touch-5th-generation.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod touch (5th generation 16 GB, Mid 2013)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-touch-5th-generation-16-gb-mid-2013",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod touch (5th generation 16 GB, Mid 2013)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-touch-5th-generation-16-gb-mid-2013.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod touch (4th generation)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-touch-4th-generation",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod touch (4th generation)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-touch-4th-generation.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod touch (3rd generation)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-touch-3rd-generation",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod touch (3rd generation)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-touch-3rd-generation.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod touch (2nd generation)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-touch-2nd-generation",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod touch (2nd generation)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-touch-2nd-generation.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod touch",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-touch",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod touch",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-touch.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod nano (7th generation, Mid 2015)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-nano-7th-generation-mid-2015",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod nano (7th generation, Mid 2015)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-nano-7th-generation-mid-2015.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod nano (7th generation)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-nano-7th-generation",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod nano (7th generation)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-nano-7th-generation.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod nano (6th generation)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-nano-6th-generation",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod nano (6th generation)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-nano-6th-generation.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod nano (5th generation)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-nano-5th-generation",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod nano (5th generation)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-nano-5th-generation.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod nano (4th generation)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-nano-4th-generation",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod nano (4th generation)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-nano-4th-generation.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod nano (3rd generation)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-nano-3rd-generation",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod nano (3rd generation)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-nano-3rd-generation.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod nano (2nd generation)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-nano-2nd-generation",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod nano (2nd generation)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-nano-2nd-generation.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod nano",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-nano",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod nano",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-nano.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod shuffle (4th generation Mid 2015)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-shuffle-4th-generation-mid-2015",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod shuffle (4th generation Mid 2015)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-shuffle-4th-generation-mid-2015.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod shuffle (4th generation, Late 2012)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-shuffle-4th-generation-late-2012",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod shuffle (4th generation, Late 2012)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-shuffle-4th-generation-late-2012.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod shuffle (4th generation)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-shuffle-4th-generation",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod shuffle (4th generation)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-shuffle-4th-generation.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod shuffle (3rd generation Late 2009)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-shuffle-3rd-generation-late-2009",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod shuffle (3rd generation Late 2009)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-shuffle-3rd-generation-late-2009.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod shuffle (3rd generation)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-shuffle-3rd-generation",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod shuffle (3rd generation)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-shuffle-3rd-generation.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod shuffle (2nd generation)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-shuffle-2nd-generation",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod shuffle (2nd generation)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-shuffle-2nd-generation.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod shuffle",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-shuffle",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod shuffle",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-shuffle.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod mini (2nd generation)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-mini-2nd-generation",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod mini (2nd generation)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-mini-2nd-generation.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod mini",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-mini",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod mini",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-mini.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod classic 160 GB (Late 2009)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-classic-160-gb-late-2009",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod classic 160 GB (Late 2009)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-classic-160-gb-late-2009.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod classic (120 GB)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-classic-120-gb",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod classic (120 GB)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-classic-120-gb.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod classic",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-classic",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod classic",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-classic.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod (5th generation Late 2006) – also known as iPod with video or Fifth Generation iPod",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-5th-generation-late-2006-also-known-as-ipod-with-video-or-fifth-generation-ipod",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod (5th generation Late 2006) – also known as iPod with video or Fifth Generation iPod",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-5th-generation-late-2006-also-known-as-ipod-with-video-or-fifth-generation-ipod.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod (5th generation) – also known as iPod with video or Fifth Generation iPod",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-5th-generation-also-known-as-ipod-with-video-or-fifth-generation-ipod",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod (5th generation) – also known as iPod with video or Fifth Generation iPod",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-5th-generation-also-known-as-ipod-with-video-or-fifth-generation-ipod.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod Special Edition U2",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-special-edition-u2",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod Special Edition U2",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-special-edition-u2.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod with colour display",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-with-colour-display",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod with colour display",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-with-colour-display.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod photo (also known as iPod with colour display)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-photo-also-known-as-ipod-with-colour-display",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod photo (also known as iPod with colour display)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-photo-also-known-as-ipod-with-colour-display.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod (Click Wheel)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-click-wheel",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod (Click Wheel)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-click-wheel.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod (Dock Connector)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-dock-connector",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod (Dock Connector)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-dock-connector.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod (Touch Wheel)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-touch-wheel",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod (Touch Wheel)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-touch-wheel.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iPod (Scroll Wheel)",
+      "url": "https://support.apple.com/en-ie/103823",
+      "slug": "ipod-scroll-wheel",
+      "final_url": "https://support.apple.com/en-ie/103823",
+      "title": "iPod (Scroll Wheel)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-scroll-wheel.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    }
+  ],
+  "catalogue_links": [],
   "notes": [
     "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete."
   ]

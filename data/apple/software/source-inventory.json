@@ -9,6 +9,152 @@
   "index_title": "Software Manuals and Downloads - Apple Support (IE)",
   "index_archive": "apple_remaining_extraction/technical_specs_html/software-index.html",
   "working_scope": [],
+  "catalogue_links": [
+    {
+      "label": "Apple",
+      "url": "https://www.apple.com/ie/"
+    },
+    {
+      "label": "Store",
+      "url": "https://www.apple.com/ie/shop/goto/store"
+    },
+    {
+      "label": "Mac",
+      "url": "https://www.apple.com/ie/mac/"
+    },
+    {
+      "label": "iPad",
+      "url": "https://www.apple.com/ie/ipad/"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://www.apple.com/ie/iphone/"
+    },
+    {
+      "label": "Watch",
+      "url": "https://www.apple.com/ie/watch/"
+    },
+    {
+      "label": "AirPods",
+      "url": "https://www.apple.com/ie/airpods/"
+    },
+    {
+      "label": "Home",
+      "url": "https://www.apple.com/ie/home/"
+    },
+    {
+      "label": "Entertainment",
+      "url": "https://www.apple.com/ie/entertainment/"
+    },
+    {
+      "label": "Accessories",
+      "url": "https://www.apple.com/ie/shop/goto/buy_accessories"
+    },
+    {
+      "label": "Support",
+      "url": "https://support.apple.com/en-ie/?cid=gn-ols-home-hp-tab"
+    },
+    {
+      "label": "0 +",
+      "url": "https://www.apple.com/ie/shop/goto/bag"
+    },
+    {
+      "label": "Documentation",
+      "url": "https://support.apple.com/en-ie/docs"
+    },
+    {
+      "label": "iTunes for Windows",
+      "url": "https://support.apple.com/en-ie/docs/software/pl296"
+    },
+    {
+      "label": "iPhoto",
+      "url": "https://support.apple.com/en-ie/docs/software/pl145"
+    },
+    {
+      "label": "iTunes for Mac",
+      "url": "https://support.apple.com/en-ie/docs/software/pl295"
+    },
+    {
+      "label": "GarageBand",
+      "url": "https://support.apple.com/en-ie/docs/software/pl143"
+    },
+    {
+      "label": "iMovie",
+      "url": "https://support.apple.com/en-ie/docs/software/pl147"
+    },
+    {
+      "label": "QuickTime for Mac",
+      "url": "https://support.apple.com/en-ie/docs/software/pl171"
+    },
+    {
+      "label": "Keynote",
+      "url": "https://support.apple.com/en-ie/docs/software/pl152"
+    },
+    {
+      "label": "Numbers",
+      "url": "https://support.apple.com/en-ie/docs/software/pl146"
+    },
+    {
+      "label": "Pages",
+      "url": "https://support.apple.com/en-ie/docs/software/pl149"
+    },
+    {
+      "label": "Logic Pro",
+      "url": "https://support.apple.com/en-ie/docs/software/134082"
+    },
+    {
+      "label": "Motion",
+      "url": "https://support.apple.com/en-ie/docs/software/133281"
+    },
+    {
+      "label": "Aperture",
+      "url": "https://support.apple.com/en-ie/docs/software/pl157"
+    },
+    {
+      "label": "Compressor",
+      "url": "https://support.apple.com/en-ie/docs/software/pl155"
+    },
+    {
+      "label": "Final Cut Pro",
+      "url": "https://support.apple.com/en-ie/docs/software/pl197"
+    },
+    {
+      "label": "MainStage",
+      "url": "https://support.apple.com/en-ie/docs/software/134085"
+    },
+    {
+      "label": " Apple",
+      "url": "https://www.apple.com/ie"
+    },
+    {
+      "label": "Support",
+      "url": "https://support.apple.com/en-ie"
+    },
+    {
+      "label": "Ireland",
+      "url": "https://support.apple.com/en-ie/docs/localeselector"
+    },
+    {
+      "label": "Privacy Policy",
+      "url": "https://www.apple.com/legal/privacy/en-ww/"
+    },
+    {
+      "label": "Terms of Use",
+      "url": "https://www.apple.com/ie/legal/internet-services/terms/site.html"
+    },
+    {
+      "label": "Sales and Refunds",
+      "url": "https://www.apple.com/ie/shop/goto/help/sales_refunds"
+    },
+    {
+      "label": "Site Map",
+      "url": "https://www.apple.com/ie/sitemap/"
+    },
+    {
+      "label": "Use of Cookies",
+      "url": "https://www.apple.com/legal/privacy/en-ww/cookies/"
+    }
+  ],
   "notes": [
     "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete."
   ]

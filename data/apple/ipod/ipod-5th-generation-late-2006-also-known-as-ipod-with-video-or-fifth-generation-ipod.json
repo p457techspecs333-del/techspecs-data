@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "portable-media-player",
+    "family": "iPod",
+    "model": "iPod (5th generation Late 2006) – also known as iPod with video or Fifth Generation iPod",
+    "model_slug": "ipod-5th-generation-late-2006-also-known-as-ipod-with-video-or-fifth-generation-ipod",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/103823",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-5th-generation-late-2006-also-known-as-ipod-with-video-or-fifth-generation-ipod.html",
+    "source_title": "iPod (5th generation Late 2006) – also known as iPod with video or Fifth Generation iPod",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 1 sections archived.",
+    "notes": [
+      "Extracted from official Apple technical specification link discovered on model index."
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "iPod (5th generation Late 2006) – also known as iPod with video or Fifth Generation iPod",
+      "source_text": "Navigation: Click Wheel\nCapacity: 30 and 80 GB\nModel number and date introduced: A1238: September 2006\nThe last three characters of the serial number will be one of these: V9K, V9P, V9M, V9R, V9L, V9N, V9Q, V9S, WU9, WUA, WUB, WUC or X3N. The Fifth Generation U2 Special Edition iPod (30 GB Late 2006) serial number's last three characters are W9G."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record; normalized specifications not inferred."
+  ]
+}

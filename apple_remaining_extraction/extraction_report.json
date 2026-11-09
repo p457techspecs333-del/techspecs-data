@@ -1,5 +1,5 @@
 {
-  "started_utc": "2026-11-09T12:16:26.648678+00:00",
+  "started_utc": "2026-11-09T12:17:15.067770+00:00",
   "families": [
     {
       "key": "airpods",
@@ -63,6 +63,7 @@
       "index_title": "Identify your AirPods - Apple Support (IE)",
       "index_archive": "apple_remaining_extraction/technical_specs_html/airpods-index.html",
       "index_bytes": 186670,
+      "catalogue_links": [],
       "summary": {
         "spec_links_discovered": 5,
         "records_written": 5,
@@ -122,6 +123,7 @@
       "index_title": "Identify your HomePod model – Apple Support (UK)",
       "index_archive": "apple_remaining_extraction/technical_specs_html/homepod-index.html",
       "index_bytes": 156036,
+      "catalogue_links": [],
       "summary": {
         "spec_links_discovered": 4,
         "records_written": 4,
@@ -133,16 +135,388 @@
       "key": "ipod",
       "label": "iPod",
       "index_url": "https://support.apple.com/en-ie/103823",
-      "status": "index_captured_no_spec_links",
-      "targets": [],
+      "status": "index_captured",
+      "targets": [
+        {
+          "model": "iPod touch (7th generation)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-touch-7th-generation",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod touch (7th generation)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-touch-7th-generation.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod touch (6th generation)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-touch-6th-generation",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod touch (6th generation)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-touch-6th-generation.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod touch (5th generation)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-touch-5th-generation",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod touch (5th generation)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-touch-5th-generation.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod touch (5th generation 16 GB, Mid 2013)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-touch-5th-generation-16-gb-mid-2013",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod touch (5th generation 16 GB, Mid 2013)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-touch-5th-generation-16-gb-mid-2013.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod touch (4th generation)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-touch-4th-generation",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod touch (4th generation)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-touch-4th-generation.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod touch (3rd generation)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-touch-3rd-generation",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod touch (3rd generation)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-touch-3rd-generation.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod touch (2nd generation)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-touch-2nd-generation",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod touch (2nd generation)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-touch-2nd-generation.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod touch",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-touch",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod touch",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-touch.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod nano (7th generation, Mid 2015)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-nano-7th-generation-mid-2015",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod nano (7th generation, Mid 2015)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-nano-7th-generation-mid-2015.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod nano (7th generation)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-nano-7th-generation",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod nano (7th generation)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-nano-7th-generation.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod nano (6th generation)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-nano-6th-generation",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod nano (6th generation)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-nano-6th-generation.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod nano (5th generation)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-nano-5th-generation",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod nano (5th generation)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-nano-5th-generation.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod nano (4th generation)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-nano-4th-generation",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod nano (4th generation)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-nano-4th-generation.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod nano (3rd generation)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-nano-3rd-generation",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod nano (3rd generation)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-nano-3rd-generation.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod nano (2nd generation)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-nano-2nd-generation",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod nano (2nd generation)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-nano-2nd-generation.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod nano",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-nano",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod nano",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-nano.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod shuffle (4th generation Mid 2015)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-shuffle-4th-generation-mid-2015",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod shuffle (4th generation Mid 2015)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-shuffle-4th-generation-mid-2015.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod shuffle (4th generation, Late 2012)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-shuffle-4th-generation-late-2012",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod shuffle (4th generation, Late 2012)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-shuffle-4th-generation-late-2012.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod shuffle (4th generation)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-shuffle-4th-generation",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod shuffle (4th generation)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-shuffle-4th-generation.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod shuffle (3rd generation Late 2009)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-shuffle-3rd-generation-late-2009",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod shuffle (3rd generation Late 2009)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-shuffle-3rd-generation-late-2009.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod shuffle (3rd generation)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-shuffle-3rd-generation",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod shuffle (3rd generation)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-shuffle-3rd-generation.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod shuffle (2nd generation)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-shuffle-2nd-generation",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod shuffle (2nd generation)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-shuffle-2nd-generation.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod shuffle",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-shuffle",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod shuffle",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-shuffle.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod mini (2nd generation)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-mini-2nd-generation",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod mini (2nd generation)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-mini-2nd-generation.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod mini",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-mini",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod mini",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-mini.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod classic 160 GB (Late 2009)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-classic-160-gb-late-2009",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod classic 160 GB (Late 2009)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-classic-160-gb-late-2009.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod classic (120 GB)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-classic-120-gb",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod classic (120 GB)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-classic-120-gb.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod classic",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-classic",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod classic",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-classic.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod (5th generation Late 2006) – also known as iPod with video or Fifth Generation iPod",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-5th-generation-late-2006-also-known-as-ipod-with-video-or-fifth-generation-ipod",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod (5th generation Late 2006) – also known as iPod with video or Fifth Generation iPod",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-5th-generation-late-2006-also-known-as-ipod-with-video-or-fifth-generation-ipod.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod (5th generation) – also known as iPod with video or Fifth Generation iPod",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-5th-generation-also-known-as-ipod-with-video-or-fifth-generation-ipod",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod (5th generation) – also known as iPod with video or Fifth Generation iPod",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-5th-generation-also-known-as-ipod-with-video-or-fifth-generation-ipod.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod Special Edition U2",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-special-edition-u2",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod Special Edition U2",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-special-edition-u2.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod with colour display",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-with-colour-display",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod with colour display",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-with-colour-display.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod photo (also known as iPod with colour display)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-photo-also-known-as-ipod-with-colour-display",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod photo (also known as iPod with colour display)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-photo-also-known-as-ipod-with-colour-display.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod (Click Wheel)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-click-wheel",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod (Click Wheel)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-click-wheel.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod (Dock Connector)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-dock-connector",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod (Dock Connector)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-dock-connector.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod (Touch Wheel)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-touch-wheel",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod (Touch Wheel)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-touch-wheel.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        },
+        {
+          "model": "iPod (Scroll Wheel)",
+          "url": "https://support.apple.com/en-ie/103823",
+          "slug": "ipod-scroll-wheel",
+          "final_url": "https://support.apple.com/en-ie/103823",
+          "title": "iPod (Scroll Wheel)",
+          "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-scroll-wheel.html",
+          "section_count": 1,
+          "verification_status": "content_verified"
+        }
+      ],
       "errors": [],
       "final_index_url": "https://support.apple.com/en-ie/103823",
       "index_title": "Identify your iPod model - Apple Support (IE)",
       "index_archive": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
       "index_bytes": 221622,
+      "catalogue_links": [],
       "summary": {
-        "spec_links_discovered": 0,
-        "records_written": 0,
+        "spec_links_discovered": 37,
+        "records_written": 37,
         "needs_review": 0,
         "errors": 0
       }
@@ -199,6 +573,7 @@
       "index_title": "Identify your Apple display model - Apple Support (IE)",
       "index_archive": "apple_remaining_extraction/technical_specs_html/displays-index.html",
       "index_bytes": 160247,
+      "catalogue_links": [],
       "summary": {
         "spec_links_discovered": 4,
         "records_written": 4,
@@ -217,6 +592,260 @@
       "index_title": "Accessories Manuals and Downloads - Apple Support (IE)",
       "index_archive": "apple_remaining_extraction/technical_specs_html/accessories-index.html",
       "index_bytes": 195547,
+      "catalogue_links": [
+        {
+          "label": "Apple",
+          "url": "https://www.apple.com/ie/"
+        },
+        {
+          "label": "Store",
+          "url": "https://www.apple.com/ie/shop/goto/store"
+        },
+        {
+          "label": "Mac",
+          "url": "https://www.apple.com/ie/mac/"
+        },
+        {
+          "label": "iPad",
+          "url": "https://www.apple.com/ie/ipad/"
+        },
+        {
+          "label": "iPhone",
+          "url": "https://www.apple.com/ie/iphone/"
+        },
+        {
+          "label": "Watch",
+          "url": "https://www.apple.com/ie/watch/"
+        },
+        {
+          "label": "AirPods",
+          "url": "https://www.apple.com/ie/airpods/"
+        },
+        {
+          "label": "Home",
+          "url": "https://www.apple.com/ie/home/"
+        },
+        {
+          "label": "Entertainment",
+          "url": "https://www.apple.com/ie/entertainment/"
+        },
+        {
+          "label": "Accessories",
+          "url": "https://www.apple.com/ie/shop/goto/buy_accessories"
+        },
+        {
+          "label": "Support",
+          "url": "https://support.apple.com/en-ie/?cid=gn-ols-home-hp-tab"
+        },
+        {
+          "label": "0 +",
+          "url": "https://www.apple.com/ie/shop/goto/bag"
+        },
+        {
+          "label": "Documentation",
+          "url": "https://support.apple.com/en-ie/docs"
+        },
+        {
+          "label": "AirTag (2nd generation)",
+          "url": "https://support.apple.com/en-ie/docs/accessories/301279"
+        },
+        {
+          "label": "Beats Pill",
+          "url": "https://support.apple.com/en-ie/docs/accessories/301042"
+        },
+        {
+          "label": "Magic Keyboard (USB-C)",
+          "url": "https://support.apple.com/en-ie/docs/accessories/pp729"
+        },
+        {
+          "label": "Magic Keyboard with Touch ID and Numeric Keypad for Mac models with Apple silicon (USB-C)",
+          "url": "https://support.apple.com/en-ie/docs/accessories/pp204"
+        },
+        {
+          "label": "Magic Keyboard with Touch ID for Mac models with Apple silicon (USB-C)",
+          "url": "https://support.apple.com/en-ie/docs/accessories/pp205"
+        },
+        {
+          "label": "Magic Mouse (USB-C)",
+          "url": "https://support.apple.com/en-ie/docs/accessories/pp195"
+        },
+        {
+          "label": "Magic Trackpad (USB-C)",
+          "url": "https://support.apple.com/en-ie/docs/accessories/pp196"
+        },
+        {
+          "label": "AirTag",
+          "url": "https://support.apple.com/en-ie/docs/accessories/300356"
+        },
+        {
+          "label": "AirTag Hermès",
+          "url": "https://support.apple.com/en-ie/docs/accessories/300357"
+        },
+        {
+          "label": "Magic Keyboard",
+          "url": "https://support.apple.com/en-ie/docs/accessories/pp179"
+        },
+        {
+          "label": "AirPort Extreme 802.11ac",
+          "url": "https://support.apple.com/en-ie/docs/accessories/134029"
+        },
+        {
+          "label": "AirPort Time Capsule 802.11ac",
+          "url": "https://support.apple.com/en-ie/docs/accessories/134028"
+        },
+        {
+          "label": "AirPort Express 802.11n (2nd Generation)",
+          "url": "https://support.apple.com/en-ie/docs/accessories/133637"
+        },
+        {
+          "label": "AirPort Extreme 802.11n (5th Generation)",
+          "url": "https://support.apple.com/en-ie/docs/accessories/133324"
+        },
+        {
+          "label": "AirPort Time Capsule 802.11n (4th Generation)",
+          "url": "https://support.apple.com/en-ie/docs/accessories/133323"
+        },
+        {
+          "label": "Magic Mouse (Mid 2010)",
+          "url": "https://support.apple.com/en-ie/docs/accessories/pp181"
+        },
+        {
+          "label": "AirPort Extreme (Simultaneous Dual-Band II)",
+          "url": "https://support.apple.com/en-ie/docs/accessories/132713"
+        },
+        {
+          "label": "AirPort Extreme 802.11n (3rd Generation)",
+          "url": "https://support.apple.com/en-ie/docs/accessories/132374"
+        },
+        {
+          "label": "AirPort Time Capsule 802.11n (2nd Generation)",
+          "url": "https://support.apple.com/en-ie/docs/accessories/132380"
+        },
+        {
+          "label": "AirPort Time Capsule 802.11n (3rd Generation)",
+          "url": "https://support.apple.com/en-ie/docs/accessories/132719"
+        },
+        {
+          "label": "Apple Wireless Keyboard (2009)",
+          "url": "https://support.apple.com/en-ie/docs/accessories/pp127"
+        },
+        {
+          "label": "AirPort Express 802.11n (1st Generation)",
+          "url": "https://support.apple.com/en-ie/docs/accessories/131955"
+        },
+        {
+          "label": "AirPort Time Capsule 802.11n (1st Generation)",
+          "url": "https://support.apple.com/en-ie/docs/accessories/131841"
+        },
+        {
+          "label": "AirPort Extreme (Gigabit 2007)",
+          "url": "https://support.apple.com/en-ie/docs/accessories/131620"
+        },
+        {
+          "label": "AirPort Extreme 802.11n (1st Generation)",
+          "url": "https://support.apple.com/en-ie/docs/accessories/131340"
+        },
+        {
+          "label": "Adapters and Cables",
+          "url": "https://support.apple.com/en-ie/docs/accessories/pl265"
+        },
+        {
+          "label": "AirPort",
+          "url": "https://support.apple.com/en-ie/docs/accessories/pl128"
+        },
+        {
+          "label": "AirPort Card",
+          "url": "https://support.apple.com/en-ie/docs/accessories/8023"
+        },
+        {
+          "label": "AirPort Express Base Station",
+          "url": "https://support.apple.com/en-ie/docs/accessories/124986"
+        },
+        {
+          "label": "AirPort for Windows",
+          "url": "https://support.apple.com/en-ie/docs/accessories/pp37"
+        },
+        {
+          "label": "Apple Magic Mouse",
+          "url": "https://support.apple.com/en-ie/docs/accessories/pp128"
+        },
+        {
+          "label": "Bluetooth",
+          "url": "https://support.apple.com/en-ie/docs/accessories/pl191"
+        },
+        {
+          "label": "Keyboards",
+          "url": "https://support.apple.com/en-ie/docs/accessories/pl161"
+        },
+        {
+          "label": "Magic Keyboard with Lock Key",
+          "url": "https://support.apple.com/en-ie/docs/accessories/pp156"
+        },
+        {
+          "label": "Magic Keyboard with Numeric Keypad",
+          "url": "https://support.apple.com/en-ie/docs/accessories/pp217"
+        },
+        {
+          "label": "Magic Keyboard with Touch ID",
+          "url": "https://support.apple.com/en-ie/docs/accessories/pp155"
+        },
+        {
+          "label": "Magic Keyboard with Touch ID and Numeric Keypad",
+          "url": "https://support.apple.com/en-ie/docs/accessories/pp157"
+        },
+        {
+          "label": "Magic Mouse 2",
+          "url": "https://support.apple.com/en-ie/docs/accessories/pp178"
+        },
+        {
+          "label": "Magic Trackpad",
+          "url": "https://support.apple.com/en-ie/docs/accessories/pp180"
+        },
+        {
+          "label": "Magic Trackpad 2",
+          "url": "https://support.apple.com/en-ie/docs/accessories/pp177"
+        },
+        {
+          "label": "Mini DisplayPort to VGA Adapter",
+          "url": "https://support.apple.com/en-ie/docs/accessories/pp81"
+        },
+        {
+          "label": "Thunderbolt to Gigabit Ethernet Adapter",
+          "url": "https://support.apple.com/en-ie/docs/accessories/pp421"
+        },
+        {
+          "label": " Apple",
+          "url": "https://www.apple.com/ie"
+        },
+        {
+          "label": "Support",
+          "url": "https://support.apple.com/en-ie"
+        },
+        {
+          "label": "Ireland",
+          "url": "https://support.apple.com/en-ie/docs/localeselector"
+        },
+        {
+          "label": "Privacy Policy",
+          "url": "https://www.apple.com/legal/privacy/en-ww/"
+        },
+        {
+          "label": "Terms of Use",
+          "url": "https://www.apple.com/ie/legal/internet-services/terms/site.html"
+        },
+        {
+          "label": "Sales and Refunds",
+          "url": "https://www.apple.com/ie/shop/goto/help/sales_refunds"
+        },
+        {
+          "label": "Site Map",
+          "url": "https://www.apple.com/ie/sitemap/"
+        },
+        {
+          "label": "Use of Cookies",
+          "url": "https://www.apple.com/legal/privacy/en-ww/cookies/"
+        }
+      ],
       "summary": {
         "spec_links_discovered": 0,
         "records_written": 0,
@@ -235,6 +864,152 @@
       "index_title": "Software Manuals and Downloads - Apple Support (IE)",
       "index_archive": "apple_remaining_extraction/technical_specs_html/software-index.html",
       "index_bytes": 121651,
+      "catalogue_links": [
+        {
+          "label": "Apple",
+          "url": "https://www.apple.com/ie/"
+        },
+        {
+          "label": "Store",
+          "url": "https://www.apple.com/ie/shop/goto/store"
+        },
+        {
+          "label": "Mac",
+          "url": "https://www.apple.com/ie/mac/"
+        },
+        {
+          "label": "iPad",
+          "url": "https://www.apple.com/ie/ipad/"
+        },
+        {
+          "label": "iPhone",
+          "url": "https://www.apple.com/ie/iphone/"
+        },
+        {
+          "label": "Watch",
+          "url": "https://www.apple.com/ie/watch/"
+        },
+        {
+          "label": "AirPods",
+          "url": "https://www.apple.com/ie/airpods/"
+        },
+        {
+          "label": "Home",
+          "url": "https://www.apple.com/ie/home/"
+        },
+        {
+          "label": "Entertainment",
+          "url": "https://www.apple.com/ie/entertainment/"
+        },
+        {
+          "label": "Accessories",
+          "url": "https://www.apple.com/ie/shop/goto/buy_accessories"
+        },
+        {
+          "label": "Support",
+          "url": "https://support.apple.com/en-ie/?cid=gn-ols-home-hp-tab"
+        },
+        {
+          "label": "0 +",
+          "url": "https://www.apple.com/ie/shop/goto/bag"
+        },
+        {
+          "label": "Documentation",
+          "url": "https://support.apple.com/en-ie/docs"
+        },
+        {
+          "label": "iTunes for Windows",
+          "url": "https://support.apple.com/en-ie/docs/software/pl296"
+        },
+        {
+          "label": "iPhoto",
+          "url": "https://support.apple.com/en-ie/docs/software/pl145"
+        },
+        {
+          "label": "iTunes for Mac",
+          "url": "https://support.apple.com/en-ie/docs/software/pl295"
+        },
+        {
+          "label": "GarageBand",
+          "url": "https://support.apple.com/en-ie/docs/software/pl143"
+        },
+        {
+          "label": "iMovie",
+          "url": "https://support.apple.com/en-ie/docs/software/pl147"
+        },
+        {
+          "label": "QuickTime for Mac",
+          "url": "https://support.apple.com/en-ie/docs/software/pl171"
+        },
+        {
+          "label": "Keynote",
+          "url": "https://support.apple.com/en-ie/docs/software/pl152"
+        },
+        {
+          "label": "Numbers",
+          "url": "https://support.apple.com/en-ie/docs/software/pl146"
+        },
+        {
+          "label": "Pages",
+          "url": "https://support.apple.com/en-ie/docs/software/pl149"
+        },
+        {
+          "label": "Logic Pro",
+          "url": "https://support.apple.com/en-ie/docs/software/134082"
+        },
+        {
+          "label": "Motion",
+          "url": "https://support.apple.com/en-ie/docs/software/133281"
+        },
+        {
+          "label": "Aperture",
+          "url": "https://support.apple.com/en-ie/docs/software/pl157"
+        },
+        {
+          "label": "Compressor",
+          "url": "https://support.apple.com/en-ie/docs/software/pl155"
+        },
+        {
+          "label": "Final Cut Pro",
+          "url": "https://support.apple.com/en-ie/docs/software/pl197"
+        },
+        {
+          "label": "MainStage",
+          "url": "https://support.apple.com/en-ie/docs/software/134085"
+        },
+        {
+          "label": " Apple",
+          "url": "https://www.apple.com/ie"
+        },
+        {
+          "label": "Support",
+          "url": "https://support.apple.com/en-ie"
+        },
+        {
+          "label": "Ireland",
+          "url": "https://support.apple.com/en-ie/docs/localeselector"
+        },
+        {
+          "label": "Privacy Policy",
+          "url": "https://www.apple.com/legal/privacy/en-ww/"
+        },
+        {
+          "label": "Terms of Use",
+          "url": "https://www.apple.com/ie/legal/internet-services/terms/site.html"
+        },
+        {
+          "label": "Sales and Refunds",
+          "url": "https://www.apple.com/ie/shop/goto/help/sales_refunds"
+        },
+        {
+          "label": "Site Map",
+          "url": "https://www.apple.com/ie/sitemap/"
+        },
+        {
+          "label": "Use of Cookies",
+          "url": "https://www.apple.com/legal/privacy/en-ww/cookies/"
+        }
+      ],
       "summary": {
         "spec_links_discovered": 0,
         "records_written": 0,
@@ -248,12 +1023,13 @@
     "No missing technical details are inferred. Hardware records preserve source headings and text.",
     "Accessories and software are broad catalogues, not single hardware model families; their official indexes are archived and linked records are inventoried separately."
   ],
-  "finished_utc": "2026-11-09T12:16:44.885018+00:00",
+  "finished_utc": "2026-11-09T12:17:36.672519+00:00",
   "summary": {
     "families_checked": 6,
     "indexes_captured": 6,
-    "spec_links_discovered": 13,
-    "records_written": 13,
+    "spec_links_discovered": 50,
+    "records_written": 50,
+    "catalogue_items_discovered": 99,
     "errors": 0
   }
 }

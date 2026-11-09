@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "portable-media-player",
+    "family": "iPod",
+    "model": "iPod Special Edition U2",
+    "model_slug": "ipod-special-edition-u2",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/103823",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-special-edition-u2.html",
+    "source_title": "iPod Special Edition U2",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 1 sections archived.",
+    "notes": [
+      "Extracted from official Apple technical specification link discovered on model index."
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "iPod Special Edition U2",
+      "source_text": "Navigation: Click Wheel\nCapacity: 20 and 30 GB\nModel numbers and dates introduced: A1136: September 2006 A1136: June 2006 A1099: June 2005 A1059: October 2004\nModel numbers and dates introduced:\nA1136: September 2006\nA1136: June 2006\nA1099: June 2005\nA1059: October 2004\nThe iPod Special Edition U2 is a standard iPod model with some differences, including: black plastic exterior, red Click Wheel, signatures of the U2 band members engraved on the back, and \"iPod Special Edition U2\" engraved on the back.\nThe first model was based on an iPod (Click Wheel) with a 20 GB hard drive. In June 2005, a new version of the iPod Special Edition U2 was introduced that was based on an iPod with colour display . These are both also considered fourth-generation iPod models. In June 2006, a new version of the iPod Special Edition U2 was introduced that is based on a 5th-generation iPod (also known as iPod with video) with a 30 GB hard drive. In September 2006, a model based on the iPod (5th generation Late 2006) was introduced.\nThe last three characters of the serial number are W9G."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record; normalized specifications not inferred."
+  ]
+}

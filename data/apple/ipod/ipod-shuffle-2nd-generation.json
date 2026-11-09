@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "portable-media-player",
+    "family": "iPod",
+    "model": "iPod shuffle (2nd generation)",
+    "model_slug": "ipod-shuffle-2nd-generation",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/103823",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-shuffle-2nd-generation.html",
+    "source_title": "iPod shuffle (2nd generation)",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 1 sections archived.",
+    "notes": [
+      "Extracted from official Apple technical specification link discovered on model index."
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "iPod shuffle (2nd generation)",
+      "source_text": "Navigation: Control Pad\nCapacity: 1 and 2 GB\nModel numbers and dates introduced: A1204: February 2008 A1204: September 2006\nModel numbers and dates introduced:\nA1204: February 2008\nA1204: September 2006\niPod shuffle (2nd generation) is smaller than the original iPod shuffle and has no USB connector.\nThe last three characters of the serial number will be one of these: 1ZH, 1ZK, 1ZM, 1ZP or 1ZR."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record; normalized specifications not inferred."
+  ]
+}

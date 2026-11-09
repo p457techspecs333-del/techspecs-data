@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "portable-media-player",
+    "family": "iPod",
+    "model": "iPod touch",
+    "model_slug": "ipod-touch",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/103823",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-touch.html",
+    "source_title": "iPod touch",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 1 sections archived.",
+    "notes": [
+      "Extracted from official Apple technical specification link discovered on model index."
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "iPod touch",
+      "source_text": "Navigation: Multi-Touch display\nCapacity: 8, 16 and 32 GB\nModel numbers and dates introduced: A1213: February 2008 A1213: September 2007\nModel numbers and dates introduced:\nA1213: February 2008\nA1213: September 2007\niPod touch features a 3.5-inch (diagonal) widescreen Multi-Touch display and 8 GB, 16 GB or 32 GB flash drive. You can browse the web with Safari and watch YouTube videos on the first-ever Wi-Fi iPod. You can also search, preview and buy songs from the iTunes Wi-Fi Music Store on iPod touch."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record; normalized specifications not inferred."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "portable-media-player",
+    "family": "iPod",
+    "model": "iPod classic",
+    "model_slug": "ipod-classic",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/103823",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-classic.html",
+    "source_title": "iPod classic",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 1 sections archived.",
+    "notes": [
+      "Extracted from official Apple technical specification link discovered on model index."
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "iPod classic",
+      "source_text": "Navigation: Click Wheel\nCapacity: 80 and 160 GB\nModel number and date introduced: A1238: September 2007\nThe iPod classic is a hard drive-based iPod featuring a large, widescreen colour display, a Click Wheel, and the capability of displaying photos and videos. It uses USB for syncing.\nThe last three characters of the serial number will be one of these: Y5N, YMU, YMV or YMX.\nThe iPod classic is available in silver and black, and has an anodised aluminium and polished stainless steel enclosure."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record; normalized specifications not inferred."
+  ]
+}

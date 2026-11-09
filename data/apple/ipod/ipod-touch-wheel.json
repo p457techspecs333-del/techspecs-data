@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "portable-media-player",
+    "family": "iPod",
+    "model": "iPod (Touch Wheel)",
+    "model_slug": "ipod-touch-wheel",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/103823",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-touch-wheel.html",
+    "source_title": "iPod (Touch Wheel)",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 1 sections archived.",
+    "notes": [
+      "Extracted from official Apple technical specification link discovered on model index."
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "iPod (Touch Wheel)",
+      "source_text": "Navigation: Touch Wheel\nCapacity: 10 and 20 GB\nModel number and date introduced: A1019: July 2002\nAll iPod (Touch Wheel) models have a FireWire port cover. Scroll wheel models and dock connector models don't have a FireWire port. The iPod (Touch Wheel) model controls look similar to the iPod (Scroll Wheel) but the touch wheel itself doesn't turn. iPod (Touch Wheel) models are considered second-generation iPod models."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record; normalized specifications not inferred."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "portable-media-player",
+    "family": "iPod",
+    "model": "iPod nano",
+    "model_slug": "ipod-nano",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/103823",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-nano.html",
+    "source_title": "iPod nano",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 1 sections archived.",
+    "notes": [
+      "Extracted from official Apple technical specification link discovered on model index."
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "iPod nano",
+      "source_text": "Navigation: Click Wheel\nCapacity: 1, 2 and 4 GB\nModel numbers and dates introduced: A1137: February 2006 A1137: September 2005\nModel numbers and dates introduced:\nA1137: February 2006\nA1137: September 2005\niPod nano is smaller than iPod mini and has a colour screen and a Click Wheel, but has flash memory instead of a hard drive. You sync music and photos with a USB 2 cable – not FireWire. The capacity of the iPod nano is engraved on the back of the case.\niPod nano comes in white and black."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record; normalized specifications not inferred."
+  ]
+}

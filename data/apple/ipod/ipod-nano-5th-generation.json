@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "portable-media-player",
+    "family": "iPod",
+    "model": "iPod nano (5th generation)",
+    "model_slug": "ipod-nano-5th-generation",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/103823",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-nano-5th-generation.html",
+    "source_title": "iPod nano (5th generation)",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 1 sections archived.",
+    "notes": [
+      "Extracted from official Apple technical specification link discovered on model index."
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "iPod nano (5th generation)",
+      "source_text": "Navigation: Click Wheel\nCapacity: 8 and 16 GB\nModel number and date introduced: A1320: September 2009\nYou can distinguish the iPod nano (5th generation) from previous iPod nano models by:\nIts taller screen when compared to iPod nano (4th generation)\nIts polished anodised aluminium finish\nThe inclusion of a camera and microphone on the back of the device\nThe iPod nano (5th generation) comes in nine colours."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record; normalized specifications not inferred."
+  ]
+}

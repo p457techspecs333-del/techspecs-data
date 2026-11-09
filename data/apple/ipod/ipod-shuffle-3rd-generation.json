@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "portable-media-player",
+    "family": "iPod",
+    "model": "iPod shuffle (3rd generation)",
+    "model_slug": "ipod-shuffle-3rd-generation",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/103823",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-shuffle-3rd-generation.html",
+    "source_title": "iPod shuffle (3rd generation)",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 1 sections archived.",
+    "notes": [
+      "Extracted from official Apple technical specification link discovered on model index."
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "iPod shuffle (3rd generation)",
+      "source_text": "Navigation: Apple Earphones with Remote\nCapacity: 4 GB\nModel number and date introduced: A1271: March 2009\niPod shuffle (3rd generation) includes a single three-position switch that toggles between off, play in order and shuffle similar to the original iPod shuffle. This model has a headphone port that also connects to a computer's USB port. It has a clip similar to the iPod shuffle (2nd generation). iPod shuffle (3rd generation) is smaller than the previous generations and has one status light. Previous iPod shuffle generations had two."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record; normalized specifications not inferred."
+  ]
+}

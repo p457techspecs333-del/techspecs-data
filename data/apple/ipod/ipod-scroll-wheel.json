@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "portable-media-player",
+    "family": "iPod",
+    "model": "iPod (Scroll Wheel)",
+    "model_slug": "ipod-scroll-wheel",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/103823",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-scroll-wheel.html",
+    "source_title": "iPod (Scroll Wheel)",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 1 sections archived.",
+    "notes": [
+      "Extracted from official Apple technical specification link discovered on model index."
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "iPod (Scroll Wheel)",
+      "source_text": "Navigation: Scroll Wheel\nCapacity: 5 and 10 GB\nModel numbers and dates introduced: M8541: March 2002 M8541: October 2001\nModel numbers and dates introduced:\nM8541: March 2002\nM8541: October 2001\niPod (Scroll Wheel) models have a scroll wheel that physically turns. The controls (Play, Menu, Next, Previous) are in a circle around the wheel. iPod (Scroll Wheel) models are referred to as first-generation iPod models."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record; normalized specifications not inferred."
+  ]
+}

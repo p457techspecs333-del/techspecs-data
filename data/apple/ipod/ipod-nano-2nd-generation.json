@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "portable-media-player",
+    "family": "iPod",
+    "model": "iPod nano (2nd generation)",
+    "model_slug": "ipod-nano-2nd-generation",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/103823",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-nano-2nd-generation.html",
+    "source_title": "iPod nano (2nd generation)",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 1 sections archived.",
+    "notes": [
+      "Extracted from official Apple technical specification link discovered on model index."
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "iPod nano (2nd generation)",
+      "source_text": "Navigation: Click Wheel\nCapacity: 2, 4 and 8 GB\nModel number and date introduced: A1199: September 2006\nYou can distinguish the iPod nano (2nd generation) from other models by:\nIts smaller size\nIts colours\nThe dock connector and headphone port are both located on the bottom of the device\nThe iPod nano (PRODUCT) RED Special Edition is an iPod nano (2nd generation) available in red and with a 4 GB or 8 GB drive capacity. With each iPod nano (PRODUCT) RED purchased, $10 from the sale goes directly to the Global Fund to fight AIDS in Africa."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record; normalized specifications not inferred."
+  ]
+}

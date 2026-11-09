@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "portable-media-player",
+    "family": "iPod",
+    "model": "iPod touch (4th generation)",
+    "model_slug": "ipod-touch-4th-generation",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/103823",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-touch-4th-generation.html",
+    "source_title": "iPod touch (4th generation)",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 1 sections archived.",
+    "notes": [
+      "Extracted from official Apple technical specification link discovered on model index."
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "iPod touch (4th generation)",
+      "source_text": "Navigation: Multi-Touch display\nCapacity: 8, 16, 32 and 64 GB\nModel numbers and dates introduced: A1367: October 2012 A1367: October 2011 A1367: September 2010\nModel numbers and dates introduced:\nA1367: October 2012\nA1367: October 2011\nA1367: September 2010\niPod touch (4th generation) has an iSight camera and FaceTime HD camera.\niPod touch (4th generation) is available in white and black."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass record; normalized specifications not inferred."
+  ]
+}

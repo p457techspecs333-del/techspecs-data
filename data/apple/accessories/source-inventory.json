@@ -9,6 +9,260 @@
   "index_title": "Accessories Manuals and Downloads - Apple Support (IE)",
   "index_archive": "apple_remaining_extraction/technical_specs_html/accessories-index.html",
   "working_scope": [],
+  "catalogue_links": [
+    {
+      "label": "Apple",
+      "url": "https://www.apple.com/ie/"
+    },
+    {
+      "label": "Store",
+      "url": "https://www.apple.com/ie/shop/goto/store"
+    },
+    {
+      "label": "Mac",
+      "url": "https://www.apple.com/ie/mac/"
+    },
+    {
+      "label": "iPad",
+      "url": "https://www.apple.com/ie/ipad/"
+    },
+    {
+      "label": "iPhone",
+      "url": "https://www.apple.com/ie/iphone/"
+    },
+    {
+      "label": "Watch",
+      "url": "https://www.apple.com/ie/watch/"
+    },
+    {
+      "label": "AirPods",
+      "url": "https://www.apple.com/ie/airpods/"
+    },
+    {
+      "label": "Home",
+      "url": "https://www.apple.com/ie/home/"
+    },
+    {
+      "label": "Entertainment",
+      "url": "https://www.apple.com/ie/entertainment/"
+    },
+    {
+      "label": "Accessories",
+      "url": "https://www.apple.com/ie/shop/goto/buy_accessories"
+    },
+    {
+      "label": "Support",
+      "url": "https://support.apple.com/en-ie/?cid=gn-ols-home-hp-tab"
+    },
+    {
+      "label": "0 +",
+      "url": "https://www.apple.com/ie/shop/goto/bag"
+    },
+    {
+      "label": "Documentation",
+      "url": "https://support.apple.com/en-ie/docs"
+    },
+    {
+      "label": "AirTag (2nd generation)",
+      "url": "https://support.apple.com/en-ie/docs/accessories/301279"
+    },
+    {
+      "label": "Beats Pill",
+      "url": "https://support.apple.com/en-ie/docs/accessories/301042"
+    },
+    {
+      "label": "Magic Keyboard (USB-C)",
+      "url": "https://support.apple.com/en-ie/docs/accessories/pp729"
+    },
+    {
+      "label": "Magic Keyboard with Touch ID and Numeric Keypad for Mac models with Apple silicon (USB-C)",
+      "url": "https://support.apple.com/en-ie/docs/accessories/pp204"
+    },
+    {
+      "label": "Magic Keyboard with Touch ID for Mac models with Apple silicon (USB-C)",
+      "url": "https://support.apple.com/en-ie/docs/accessories/pp205"
+    },
+    {
+      "label": "Magic Mouse (USB-C)",
+      "url": "https://support.apple.com/en-ie/docs/accessories/pp195"
+    },
+    {
+      "label": "Magic Trackpad (USB-C)",
+      "url": "https://support.apple.com/en-ie/docs/accessories/pp196"
+    },
+    {
+      "label": "AirTag",
+      "url": "https://support.apple.com/en-ie/docs/accessories/300356"
+    },
+    {
+      "label": "AirTag Hermès",
+      "url": "https://support.apple.com/en-ie/docs/accessories/300357"
+    },
+    {
+      "label": "Magic Keyboard",
+      "url": "https://support.apple.com/en-ie/docs/accessories/pp179"
+    },
+    {
+      "label": "AirPort Extreme 802.11ac",
+      "url": "https://support.apple.com/en-ie/docs/accessories/134029"
+    },
+    {
+      "label": "AirPort Time Capsule 802.11ac",
+      "url": "https://support.apple.com/en-ie/docs/accessories/134028"
+    },
+    {
+      "label": "AirPort Express 802.11n (2nd Generation)",
+      "url": "https://support.apple.com/en-ie/docs/accessories/133637"
+    },
+    {
+      "label": "AirPort Extreme 802.11n (5th Generation)",
+      "url": "https://support.apple.com/en-ie/docs/accessories/133324"
+    },
+    {
+      "label": "AirPort Time Capsule 802.11n (4th Generation)",
+      "url": "https://support.apple.com/en-ie/docs/accessories/133323"
+    },
+    {
+      "label": "Magic Mouse (Mid 2010)",
+      "url": "https://support.apple.com/en-ie/docs/accessories/pp181"
+    },
+    {
+      "label": "AirPort Extreme (Simultaneous Dual-Band II)",
+      "url": "https://support.apple.com/en-ie/docs/accessories/132713"
+    },
+    {
+      "label": "AirPort Extreme 802.11n (3rd Generation)",
+      "url": "https://support.apple.com/en-ie/docs/accessories/132374"
+    },
+    {
+      "label": "AirPort Time Capsule 802.11n (2nd Generation)",
+      "url": "https://support.apple.com/en-ie/docs/accessories/132380"
+    },
+    {
+      "label": "AirPort Time Capsule 802.11n (3rd Generation)",
+      "url": "https://support.apple.com/en-ie/docs/accessories/132719"
+    },
+    {
+      "label": "Apple Wireless Keyboard (2009)",
+      "url": "https://support.apple.com/en-ie/docs/accessories/pp127"
+    },
+    {
+      "label": "AirPort Express 802.11n (1st Generation)",
+      "url": "https://support.apple.com/en-ie/docs/accessories/131955"
+    },
+    {
+      "label": "AirPort Time Capsule 802.11n (1st Generation)",
+      "url": "https://support.apple.com/en-ie/docs/accessories/131841"
+    },
+    {
+      "label": "AirPort Extreme (Gigabit 2007)",
+      "url": "https://support.apple.com/en-ie/docs/accessories/131620"
+    },
+    {
+      "label": "AirPort Extreme 802.11n (1st Generation)",
+      "url": "https://support.apple.com/en-ie/docs/accessories/131340"
+    },
+    {
+      "label": "Adapters and Cables",
+      "url": "https://support.apple.com/en-ie/docs/accessories/pl265"
+    },
+    {
+      "label": "AirPort",
+      "url": "https://support.apple.com/en-ie/docs/accessories/pl128"
+    },
+    {
+      "label": "AirPort Card",
+      "url": "https://support.apple.com/en-ie/docs/accessories/8023"
+    },
+    {
+      "label": "AirPort Express Base Station",
+      "url": "https://support.apple.com/en-ie/docs/accessories/124986"
+    },
+    {
+      "label": "AirPort for Windows",
+      "url": "https://support.apple.com/en-ie/docs/accessories/pp37"
+    },
+    {
+      "label": "Apple Magic Mouse",
+      "url": "https://support.apple.com/en-ie/docs/accessories/pp128"
+    },
+    {
+      "label": "Bluetooth",
+      "url": "https://support.apple.com/en-ie/docs/accessories/pl191"
+    },
+    {
+      "label": "Keyboards",
+      "url": "https://support.apple.com/en-ie/docs/accessories/pl161"
+    },
+    {
+      "label": "Magic Keyboard with Lock Key",
+      "url": "https://support.apple.com/en-ie/docs/accessories/pp156"
+    },
+    {
+      "label": "Magic Keyboard with Numeric Keypad",
+      "url": "https://support.apple.com/en-ie/docs/accessories/pp217"
+    },
+    {
+      "label": "Magic Keyboard with Touch ID",
+      "url": "https://support.apple.com/en-ie/docs/accessories/pp155"
+    },
+    {
+      "label": "Magic Keyboard with Touch ID and Numeric Keypad",
+      "url": "https://support.apple.com/en-ie/docs/accessories/pp157"
+    },
+    {
+      "label": "Magic Mouse 2",
+      "url": "https://support.apple.com/en-ie/docs/accessories/pp178"
+    },
+    {
+      "label": "Magic Trackpad",
+      "url": "https://support.apple.com/en-ie/docs/accessories/pp180"
+    },
+    {
+      "label": "Magic Trackpad 2",
+      "url": "https://support.apple.com/en-ie/docs/accessories/pp177"
+    },
+    {
+      "label": "Mini DisplayPort to VGA Adapter",
+      "url": "https://support.apple.com/en-ie/docs/accessories/pp81"
+    },
+    {
+      "label": "Thunderbolt to Gigabit Ethernet Adapter",
+      "url": "https://support.apple.com/en-ie/docs/accessories/pp421"
+    },
+    {
+      "label": " Apple",
+      "url": "https://www.apple.com/ie"
+    },
+    {
+      "label": "Support",
+      "url": "https://support.apple.com/en-ie"
+    },
+    {
+      "label": "Ireland",
+      "url": "https://support.apple.com/en-ie/docs/localeselector"
+    },
+    {
+      "label": "Privacy Policy",
+      "url": "https://www.apple.com/legal/privacy/en-ww/"
+    },
+    {
+      "label": "Terms of Use",
+      "url": "https://www.apple.com/ie/legal/internet-services/terms/site.html"
+    },
+    {
+      "label": "Sales and Refunds",
+      "url": "https://www.apple.com/ie/shop/goto/help/sales_refunds"
+    },
+    {
+      "label": "Site Map",
+      "url": "https://www.apple.com/ie/sitemap/"
+    },
+    {
+      "label": "Use of Cookies",
+      "url": "https://www.apple.com/legal/privacy/en-ww/cookies/"
+    }
+  ],
   "notes": [
     "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete."
   ]
