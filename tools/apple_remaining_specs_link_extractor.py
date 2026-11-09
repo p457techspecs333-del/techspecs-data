@@ -90,7 +90,7 @@ def process(args):
       "extraction":{"method":"section_preserving","normalization_status":"archival_first_pass",
        "note":"Original specification headings and visible text retained; no missing specifications inferred.","extracted_at":TODAY,"reviewed_at":None},
       "sections":sec,"record_notes":["Archival-first-pass technical specification record; normalized values not inferred."]}
-    record_key=slug(model) if family=="accessories" else slug(model)+"--"+slug(title)+"--"+slug(urlparse(page.url).path.rstrip("/").split("/")[-1])
+    record_key=slug(model) if family=="accessories" else slug(model)+"-"+slug(title)+"-"+slug(urlparse(page.url).path.rstrip("/").split("/")[-1])
     out=ROOT/family/(record_key+".json"); out.parent.mkdir(parents=True,exist_ok=True)
     out.write_text(json.dumps(record,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     result["records"].append({"url":page.url,"title":title,"status":"content_verified","section_count":len(sec),"record_path":out.as_posix()})
