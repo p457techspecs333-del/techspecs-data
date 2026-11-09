@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Capture official Apple Vision Pro M2 and M5 specifications into TechSpecs v2 records."""
+"""Capture official Apple Vision Pro M2 and M5 specifications into TechSpecs v2 records.
+
+Rerun-safe: every run checks out current main before committing archived source captures.
+"""
 from __future__ import annotations
 import json, re, time, html as html_lib
 from datetime import datetime, timezone
