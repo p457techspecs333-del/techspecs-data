@@ -6,8 +6,8 @@
     "family": "HomePod",
     "model": "HomePod (2nd generation) technical specifications",
     "model_slug": "homepod-2nd-generation-technical-specifications",
-    "model_year": null,
-    "year_introduced": null,
+    "model_year": 2023,
+    "year_introduced": 2023,
     "variant": null
   },
   "source": {
@@ -19,17 +19,17 @@
     "published_at": null,
     "checked_at": "2026-11-09",
     "verification_status": "content_verified",
-    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 13 sections archived.",
+    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 13 sections archived. Year introduced cross-checked against Apple's official HomePod model-identification documentation on 2026-11-09.",
     "notes": [
       "Extracted from official Apple technical specification link discovered on model index."
     ]
   },
   "extraction": {
     "method": "section_preserving",
-    "normalization_status": "archival_first_pass",
-    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "normalization_status": "partially_normalized",
+    "note": "Official Apple source sections retained. Explicit year introduced, finish/colour, dimensions/weight, audio, sensor, wireless and environmental fields extracted where present with section provenance. Field status remains source_transcribed pending full record-by-record verification; no missing values inferred.",
     "extracted_at": "2026-11-09",
-    "reviewed_at": null
+    "reviewed_at": "2026-11-09"
   },
   "sections": [
     {
@@ -86,6 +86,133 @@
     }
   ],
   "record_notes": [
-    "Archival-first-pass record; normalized specifications not inferred."
-  ]
+    "Archival-first-pass record; normalized specifications not inferred.",
+    "Field extraction pass 2026-11-09: added typed values only where explicitly supported by preserved Apple specification text and official Apple model-identification documentation."
+  ],
+  "normalized_specifications": {
+    "finishes": {
+      "value": [
+        "Midnight",
+        "White"
+      ],
+      "unit": null,
+      "source_section": "Finish",
+      "verification_status": "source_transcribed",
+      "notes": "Apple finish/colour names preserved as written; regional spelling is not harmonized."
+    },
+    "dimensions_and_weight": {
+      "value": [
+        {
+          "dimension": "height",
+          "value": 168,
+          "unit": "mm"
+        },
+        {
+          "dimension": "width",
+          "value": 142,
+          "unit": "mm"
+        },
+        {
+          "dimension": "weight",
+          "value": 2.3,
+          "unit": "kg"
+        }
+      ],
+      "unit": null,
+      "source_section": "Size and Weight 1",
+      "verification_status": "source_transcribed",
+      "notes": "Explicit dimensions and weight extracted from the source; dimension labels and units retained."
+    },
+    "audio_technology": {
+      "value": [
+        "4-inch high-excursion woofer",
+        "Array of five horn-loaded tweeters, each with its own neodymium magnet",
+        "Internal low-frequency calibration microphone for automatic bass correction",
+        "Advanced computational audio with system sensing for real-time tuning",
+        "Room sensing",
+        "Spatial Audio with Dolby Atmos for music and video",
+        "Four-microphone design for far-field Siri",
+        "Multi-room audio with AirPlay",
+        "Stereo pair capable"
+      ],
+      "unit": null,
+      "source_section": "Audio Technology",
+      "verification_status": "source_transcribed",
+      "notes": "List transcribed from the official source section; footnote markers that were standalone lines are excluded."
+    },
+    "sensors": {
+      "value": [
+        "Sound Recognition",
+        "Temperature and humidity",
+        "Accelerometer"
+      ],
+      "unit": null,
+      "source_section": "Sensors",
+      "verification_status": "source_transcribed",
+      "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+    },
+    "wifi_standard": {
+      "value": "802.11n Wi‑Fi",
+      "unit": null,
+      "source_section": "Wireless",
+      "verification_status": "source_transcribed",
+      "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+    },
+    "bluetooth_version": {
+      "value": "5.0",
+      "unit": "version",
+      "source_section": "Wireless",
+      "verification_status": "source_transcribed",
+      "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+    },
+    "thread_networking": {
+      "value": true,
+      "unit": null,
+      "source_section": "Wireless",
+      "verification_status": "source_transcribed",
+      "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+    },
+    "ultra_wideband": {
+      "value": true,
+      "unit": null,
+      "source_section": "Wireless",
+      "verification_status": "source_transcribed",
+      "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+    },
+    "line_voltage": {
+      "value": "100V to 240V AC",
+      "unit": null,
+      "source_section": "Electrical and Environmental Requirements",
+      "verification_status": "source_transcribed",
+      "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+    },
+    "power_frequency": {
+      "value": "50Hz to 60Hz",
+      "unit": null,
+      "source_section": "Electrical and Environmental Requirements",
+      "verification_status": "source_transcribed",
+      "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+    },
+    "operating_temperature": {
+      "value": "0° to 35° C (32° to 95° F)",
+      "unit": null,
+      "source_section": "Electrical and Environmental Requirements",
+      "verification_status": "source_transcribed",
+      "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+    },
+    "relative_humidity": {
+      "value": "5% to 90% non-condensing",
+      "unit": null,
+      "source_section": "Electrical and Environmental Requirements",
+      "verification_status": "source_transcribed",
+      "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+    },
+    "operating_altitude": {
+      "value": "tested up to 3,000 metres (10,000 feet)",
+      "unit": null,
+      "source_section": "Electrical and Environmental Requirements",
+      "verification_status": "source_transcribed",
+      "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+    }
+  }
 }
