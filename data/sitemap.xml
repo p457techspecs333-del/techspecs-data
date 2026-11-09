@@ -236,14 +236,14 @@
   <url><loc>https://data.techspecs.dev/api/v1/products/macbook-pro-with-proled-xdr-display-technical-specifications.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/macbook-neo-technical-specifications.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/source-inventory.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/apple-tv-1st-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/apple-tv-2nd-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/apple-tv-3rd-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/apple-tv-4k-1st-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/apple-tv-4k-2nd-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/apple-tv-4k-3rd-generation.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/apple-tv-4k-4th-generation.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/apple-tv-tv-1st-generation.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/apple-tv-tv-2nd-generation.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/apple-tv-tv-3rd-generation.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/apple-tv-tv-4k-1st-generation.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/apple-tv-tv-4k-2nd-generation.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/apple-tv-tv-4k-3rd-generation.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/apple-tv-tv-hd.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/apple-tv-hd.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/source-inventory.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/apple-vision-pro-m2.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/apple-vision-pro-m5.json</loc></url>
