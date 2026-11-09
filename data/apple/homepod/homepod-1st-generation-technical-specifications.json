@@ -83,88 +83,104 @@
   ],
   "normalized_specifications": {
     "finishes": {
-      "value": [
-        "Space Gray",
-        "White"
-      ],
-      "unit": null,
-      "source_section": "Size, Weight, and Color 1",
-      "verification_status": "source_transcribed",
-      "notes": "Apple finish/colour names preserved as written; regional spelling is not harmonized."
+      "value": {
+        "value": [
+          "Space Gray",
+          "White"
+        ],
+        "unit": null,
+        "source_section": "Size, Weight, and Color 1",
+        "verification_status": "source_transcribed",
+        "notes": "Apple finish/colour names preserved as written; regional spelling is not harmonized."
+      }
     },
     "audio_technology": {
-      "value": [
-        "High-excursion woofer with custom amplifier",
-        "Array of seven horn-loaded tweeters, each with its own custom amplifier",
-        "Six-microphone array for far-field Siri",
-        "Internal low-frequency calibration microphone for automatic bass correction",
-        "Direct and ambient audio beamforming",
-        "Computational audio for real-time tuning",
-        "Multiroom audio with AirPlay 2",
-        "Stereo pair capable"
-      ],
-      "unit": null,
-      "source_section": "Audio Technology",
-      "verification_status": "source_transcribed",
-      "notes": "List transcribed from the official source section; footnote markers that were standalone lines are excluded."
+      "value": {
+        "value": [
+          "High-excursion woofer with custom amplifier",
+          "Array of seven horn-loaded tweeters, each with its own custom amplifier",
+          "Six-microphone array for far-field Siri",
+          "Internal low-frequency calibration microphone for automatic bass correction",
+          "Direct and ambient audio beamforming",
+          "Computational audio for real-time tuning",
+          "Multiroom audio with AirPlay 2",
+          "Stereo pair capable"
+        ],
+        "unit": null,
+        "source_section": "Audio Technology",
+        "verification_status": "source_transcribed",
+        "notes": "List transcribed from the official source section; footnote markers that were standalone lines are excluded."
+      }
     },
     "wifi_standard": {
-      "value": "802.11ac Wi-Fi with MIMO",
-      "unit": null,
-      "source_section": "Wireless",
-      "verification_status": "source_transcribed",
-      "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      "value": {
+        "value": "802.11ac Wi-Fi with MIMO",
+        "unit": null,
+        "source_section": "Wireless",
+        "verification_status": "source_transcribed",
+        "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      }
     },
     "bluetooth_version": {
-      "value": "5.0",
-      "unit": "version",
-      "source_section": "Wireless",
-      "verification_status": "source_transcribed",
-      "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      "value": {
+        "value": "5.0",
+        "unit": "version",
+        "source_section": "Wireless",
+        "verification_status": "source_transcribed",
+        "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      }
     },
     "operating_temperature": {
-      "value": "32° to 95° F (0° to 35° C)",
-      "unit": null,
-      "source_section": "Electrical and Environmental Requirements",
-      "verification_status": "source_transcribed",
-      "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      "value": {
+        "value": "32° to 95° F (0° to 35° C)",
+        "unit": null,
+        "source_section": "Electrical and Environmental Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      }
     },
     "relative_humidity": {
-      "value": "5% to 90% noncondensing",
-      "unit": null,
-      "source_section": "Electrical and Environmental Requirements",
-      "verification_status": "source_transcribed",
-      "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      "value": {
+        "value": "5% to 90% noncondensing",
+        "unit": null,
+        "source_section": "Electrical and Environmental Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      }
     },
     "operating_altitude": {
-      "value": "tested up to 10,000 feet (3000 m)",
-      "unit": null,
-      "source_section": "Electrical and Environmental Requirements",
-      "verification_status": "source_transcribed",
-      "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      "value": {
+        "value": "tested up to 10,000 feet (3000 m)",
+        "unit": null,
+        "source_section": "Electrical and Environmental Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      }
     },
     "dimensions_and_weight": {
-      "value": [
-        {
-          "dimension": "height",
-          "value": 172,
-          "unit": "mm"
-        },
-        {
-          "dimension": "width",
-          "value": 142,
-          "unit": "mm"
-        },
-        {
-          "dimension": "weight",
-          "value": 2.5,
-          "unit": "kg"
-        }
-      ],
-      "unit": null,
-      "source_section": "Size, Weight, and Color 1",
-      "verification_status": "source_transcribed",
-      "notes": "Explicit metric values in parentheses parsed from the preserved official Apple section; original imperial values remain in source_text."
+      "value": {
+        "value": [
+          {
+            "dimension": "height",
+            "value": 172,
+            "unit": "mm"
+          },
+          {
+            "dimension": "width",
+            "value": 142,
+            "unit": "mm"
+          },
+          {
+            "dimension": "weight",
+            "value": 2.5,
+            "unit": "kg"
+          }
+        ],
+        "unit": null,
+        "source_section": "Size, Weight, and Color 1",
+        "verification_status": "source_transcribed",
+        "notes": "Explicit metric values in parentheses parsed from the preserved official Apple section; original imperial values remain in source_text."
+      }
     }
   }
 }
