@@ -1,5 +1,5 @@
 {
-  "catalogue_stage": "official_apple_source_discovery",
+  "catalogue_stage": "official_source_archived_and_partially_normalized",
   "brand": "Apple",
   "category": "software",
   "family": "Apple Software",
@@ -8,7 +8,228 @@
   "index_url": "https://support.apple.com/en-ie/docs/software",
   "index_title": "Software Manuals and Downloads - Apple Support (IE)",
   "index_archive": "apple_remaining_extraction/technical_specs_html/software-index.html",
-  "working_scope": [],
+  "working_scope": [
+    {
+      "model": "Aperture",
+      "url": "https://support.apple.com/en-ie/112030",
+      "slug": "aperture-aperture-3-technical-specifications-112030",
+      "final_url": "https://support.apple.com/en-ie/112030",
+      "title": "Aperture 3 - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-aperture-aperture-3-technical-specifications.html",
+      "section_count": 4,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Compressor",
+      "url": "https://support.apple.com/en-ie/111916",
+      "slug": "compressor-compressor-4-tech-specs-111916",
+      "final_url": "https://support.apple.com/en-ie/111916",
+      "title": "Compressor 4 - Tech Specs",
+      "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-compressor-compressor-4-tech-specs.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Final Cut Pro",
+      "url": "https://support.apple.com/en-ie/111903",
+      "slug": "final-cut-pro-final-cut-pro-tech-specs-111903",
+      "final_url": "https://support.apple.com/en-ie/111903",
+      "title": "Final Cut Pro - Tech Specs",
+      "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-final-cut-pro-final-cut-pro-tech-specs.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iTunes for Mac 10.7",
+      "url": "https://support.apple.com/en-ie/112582",
+      "slug": "itunes-for-mac-itunes-10-7-for-mac-technical-specifications-112582",
+      "final_url": "https://support.apple.com/en-ie/112582",
+      "title": "iTunes 10.7 for Mac - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-itunes-for-mac-itunes-10-7-for-mac-technical-specifications.html",
+      "section_count": 2,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iTunes for Mac 11",
+      "url": "https://support.apple.com/en-ie/112584",
+      "slug": "itunes-for-mac-itunes-11-for-mac-technical-specifications-112584",
+      "final_url": "https://support.apple.com/en-ie/112584",
+      "title": "iTunes 11 for Mac - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-itunes-for-mac-itunes-11-for-mac-technical-specifications.html",
+      "section_count": 2,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iTunes for Mac 12",
+      "url": "https://support.apple.com/en-ie/112028",
+      "slug": "itunes-for-mac-itunes-12-for-macos-technical-specifications-112028",
+      "final_url": "https://support.apple.com/en-ie/112028",
+      "title": "iTunes 12 for macOS - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-itunes-for-mac-itunes-12-for-macos-technical-specifications.html",
+      "section_count": 2,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iTunes for Mac 8.0.2",
+      "url": "https://support.apple.com/en-ie/112654",
+      "slug": "itunes-for-mac-itunes-8-0-2-for-mac-technical-specifications-112654",
+      "final_url": "https://support.apple.com/en-ie/112654",
+      "title": "iTunes 8.0.2 for Mac - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-itunes-for-mac-itunes-8-0-2-for-mac-technical-specifications.html",
+      "section_count": 2,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iTunes for Mac 8.1.1",
+      "url": "https://support.apple.com/en-ie/112658",
+      "slug": "itunes-for-mac-itunes-8-1-1-for-mac-technical-specifications-112658",
+      "final_url": "https://support.apple.com/en-ie/112658",
+      "title": "iTunes 8.1.1 for Mac - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-itunes-for-mac-itunes-8-1-1-for-mac-technical-specifications.html",
+      "section_count": 2,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iTunes for Mac 8.2",
+      "url": "https://support.apple.com/en-ie/112656",
+      "slug": "itunes-for-mac-itunes-8-2-for-mac-technical-specifications-112656",
+      "final_url": "https://support.apple.com/en-ie/112656",
+      "title": "iTunes 8.2 for Mac - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-itunes-for-mac-itunes-8-2-for-mac-technical-specifications.html",
+      "section_count": 2,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iTunes for Mac 9.2",
+      "url": "https://support.apple.com/en-ie/112621",
+      "slug": "itunes-for-mac-itunes-9-2-for-mac-technical-specifications-112621",
+      "final_url": "https://support.apple.com/en-ie/112621",
+      "title": "iTunes 9.2 for Mac - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-itunes-for-mac-itunes-9-2-for-mac-technical-specifications.html",
+      "section_count": 3,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iTunes for Windows 10.7",
+      "url": "https://support.apple.com/en-ie/112573",
+      "slug": "itunes-for-windows-itunes-10-7-for-windows-technical-specifications-112573",
+      "final_url": "https://support.apple.com/en-ie/112573",
+      "title": "iTunes 10.7 for Windows - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-itunes-for-windows-itunes-10-7-for-windows-technical-specifications.html",
+      "section_count": 2,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iTunes for Windows 11",
+      "url": "https://support.apple.com/en-ie/112583",
+      "slug": "itunes-for-windows-itunes-11-for-windows-technical-specifications-112583",
+      "final_url": "https://support.apple.com/en-ie/112583",
+      "title": "iTunes 11 for Windows - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-itunes-for-windows-itunes-11-for-windows-technical-specifications.html",
+      "section_count": 2,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iTunes for Windows 12",
+      "url": "https://support.apple.com/en-ie/112029",
+      "slug": "itunes-for-windows-itunes-12-for-windows-technical-specifications-112029",
+      "final_url": "https://support.apple.com/en-ie/112029",
+      "title": "iTunes 12 for Windows - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-itunes-for-windows-itunes-12-for-windows-technical-specifications.html",
+      "section_count": 2,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iTunes for Windows 8.0.2",
+      "url": "https://support.apple.com/en-ie/112659",
+      "slug": "itunes-for-windows-itunes-8-0-2-for-windows-technical-specifications-112659",
+      "final_url": "https://support.apple.com/en-ie/112659",
+      "title": "iTunes 8.0.2 for Windows - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-itunes-for-windows-itunes-8-0-2-for-windows-technical-specifications.html",
+      "section_count": 2,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iTunes for Windows 8.1.1",
+      "url": "https://support.apple.com/en-ie/112655",
+      "slug": "itunes-for-windows-itunes-8-1-1-for-windows-technical-specifications-112655",
+      "final_url": "https://support.apple.com/en-ie/112655",
+      "title": "iTunes 8.1.1 for Windows - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-itunes-for-windows-itunes-8-1-1-for-windows-technical-specifications.html",
+      "section_count": 2,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iTunes for Windows 8.2",
+      "url": "https://support.apple.com/en-ie/112657",
+      "slug": "itunes-for-windows-itunes-8-2-for-windows-technical-specifications-112657",
+      "final_url": "https://support.apple.com/en-ie/112657",
+      "title": "iTunes 8.2 for Windows - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-itunes-for-windows-itunes-8-2-for-windows-technical-specifications.html",
+      "section_count": 2,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "iTunes for Windows 9.2",
+      "url": "https://support.apple.com/en-ie/112622",
+      "slug": "itunes-for-windows-itunes-9-2-for-windows-technical-specifications-112622",
+      "final_url": "https://support.apple.com/en-ie/112622",
+      "title": "iTunes 9.2 for Windows - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-itunes-for-windows-itunes-9-2-for-windows-technical-specifications.html",
+      "section_count": 3,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Logic Pro 9",
+      "url": "https://support.apple.com/en-ie/112574",
+      "slug": "logic-pro-logic-pro-9-technical-specifications-112574",
+      "final_url": "https://support.apple.com/en-ie/112574",
+      "title": "Logic Pro 9 - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-logic-pro-logic-pro-9-technical-specifications.html",
+      "section_count": 2,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Logic Pro",
+      "url": "https://support.apple.com/en-ie/111899",
+      "slug": "logic-pro-logic-pro-tech-specs-111899",
+      "final_url": "https://support.apple.com/en-ie/111899",
+      "title": "Logic Pro - Tech Specs",
+      "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-logic-pro-logic-pro-tech-specs.html",
+      "section_count": 9,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "MainStage 2",
+      "url": "https://support.apple.com/en-ie/112561",
+      "slug": "mainstage-mainstage-2-technical-specifications-112561",
+      "final_url": "https://support.apple.com/en-ie/112561",
+      "title": "MainStage 2 - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-mainstage-mainstage-2-technical-specifications.html",
+      "section_count": 2,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Motion 5",
+      "url": "https://support.apple.com/en-ie/111915",
+      "slug": "motion-motion-5-tech-specs-111915",
+      "final_url": "https://support.apple.com/en-ie/111915",
+      "title": "Motion 5 - Tech Specs",
+      "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-motion-motion-5-tech-specs.html",
+      "section_count": 1,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "QuickTime Pro 7",
+      "url": "https://support.apple.com/en-ie/112444",
+      "slug": "quicktime-for-mac-quicktime-pro-7-technical-specifications-112444",
+      "final_url": "https://support.apple.com/en-ie/112444",
+      "title": "QuickTime Pro 7 - Technical Specifications",
+      "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-quicktime-for-mac-quicktime-pro-7-technical-specifications.html",
+      "section_count": 3,
+      "verification_status": "content_verified"
+    }
+  ],
   "catalogue_links": [
     {
       "label": "Apple",
@@ -162,6 +383,26 @@
     "Distinct software technical-specification pages are stored as separate records to prevent variants or historical versions from overwriting one another.",
     "Distinct software spec pages now have unique filename-matching model slugs; legacy records with dates before schema-supported introduction year are not assigned an invalid year.",
     "Final record paths and model slugs were normalized to schema v2 naming rules; unique software versions and AirPods specification pages are preserved as separate files.",
-    "Final pass uses schema-compliant single-hyphen slugs and preserves distinct software spec versions; duplicate AirPods records were replaced by the unique technical-spec pages."
-  ]
+    "Final pass uses schema-compliant single-hyphen slugs and preserves distinct software spec versions; duplicate AirPods records were replaced by the unique technical-spec pages.",
+    "2026-11-09 progress: all 22 software product records are now listed in working_scope. Explicit software versions and system requirements have been parsed where available; records remain partial pending detailed requirement verification."
+  ],
+  "record_audit": {
+    "checked_at": "2026-11-09",
+    "product_record_count": 22,
+    "source_policy": "Official Apple software technical-specification pages and documentation index; no absent values inferred.",
+    "normalization_status": "partially_normalized",
+    "completion_status": "IN_PROGRESS",
+    "completed": [
+      "Populated working_scope with all 22 software records, including distinct historical iTunes versions and platform variants.",
+      "Extracted explicit software version labels where the official source title identified a version.",
+      "Separated explicit operating-system, hardware, memory and disk-space requirements into machine-readable fields where present.",
+      "Retained source-section provenance and original requirement text."
+    ],
+    "remaining": [
+      "Verify all 22 records against archived official Apple HTML and review system-requirement parsing for each historical version.",
+      "Normalize processor, graphics, display, optical-drive and internet requirements where explicitly stated.",
+      "Review distinct software version and Mac/Windows variants for source/slug correctness; do not infer release years from version numbers.",
+      "Run repository validation and catalogue-generation checks."
+    ]
+  }
 }
