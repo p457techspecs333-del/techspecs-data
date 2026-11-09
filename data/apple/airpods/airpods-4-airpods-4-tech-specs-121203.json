@@ -27,7 +27,7 @@
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
-    "note": "Official Apple source sections preserved; product taxonomy corrected. Field-level normalized specifications still require extraction and verification; no values inferred.",
+    "note": "Official Apple sections preserved and transcribed into machine-readable section fields. Individual measurements, battery figures, model identifiers and footnote qualifications still require field-level parsing and validation; no values inferred.",
     "extracted_at": "2026-11-09",
     "reviewed_at": "2026-11-09"
   },
@@ -89,5 +89,124 @@
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Taxonomy audit 2026-11-09: classified as Apple audio hardware, not software.",
     "Field-level normalization remains incomplete; source_text is the evidence of record."
-  ]
+  ],
+  "normalized_specifications": {
+    "audio_technology": {
+      "source_text": {
+        "value": "Custom high‑excursion Apple driver\nCustom high dynamic range amplifier\nVoice Isolation\n2\nPersonalised Spatial Audio with dynamic head tracking\n3\nAdaptive EQ\nVent system for pressure equalisation",
+        "unit": null,
+        "source_section": "Audio Technology 1",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "sensors": {
+      "source_text": {
+        "value": "Dual beamforming microphones\nInward‑facing microphone\nOptical in‑ear sensor\nMotion‑detecting accelerometer\nSpeech‑detecting accelerometer\nForce sensor",
+        "unit": null,
+        "source_section": "Sensors",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "chip": {
+      "source_text": {
+        "value": "H2 headphone chip",
+        "unit": null,
+        "source_section": "Chip",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "controls": {
+      "source_text": {
+        "value": "Press once to play or pause media\nPress once to answer a call or mute or unmute\nPress twice to end a call\nPress twice to skip forward\nPress three times to skip back\nPress and hold for Siri\nSay “Hey Siri” or just “Siri”\n4\nto do things like play a song, make a call or get directions\nWith Siri Interactions, nod your head yes or gently shake your head no when Siri asks if you want to answer an incoming call, hear a text message, manage notifications, and more\n2",
+        "unit": null,
+        "source_section": "Controls",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "dust_sweat_and_water_resistant": {
+      "source_text": {
+        "value": "Dust, sweat and water resistant (IP54)",
+        "unit": null,
+        "source_section": "Dust, Sweat and Water Resistant 5",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "size_and_weight": {
+      "source_text": {
+        "value": "AirPods 4 (Each)\nHeight:\n30.2 mm (1.19 inches)\nWidth:\n18.3 mm (0.72 inches)\nDepth:\n18.1 mm (0.71 inches)\nWeight:\n4.3 grams (0.15 ounces)\nCharging Case (USB‑C)\nHeight:\n46.2 mm (1.82 inches)\nWidth:\n50.1 mm (1.97 inches)\nDepth:\n21.2 mm (0.83 inches)\nWeight:\n32.3 grams (1.14 ounces)",
+        "unit": null,
+        "source_section": "Size and Weight 6",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "charging_case": {
+      "source_text": {
+        "value": "Works with USB‑C connector",
+        "unit": null,
+        "source_section": "Charging Case",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "battery": {
+      "source_text": {
+        "value": "AirPods 4\nUp to 5 hours of listening time on a single charge\n7\nAirPods 4 with Charging Case (USB‑C)\nUp to 30 hours of listening time\n8\n5 minutes in the case provides around 1 hour of listening time\n9",
+        "unit": null,
+        "source_section": "Battery",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "connectivity": {
+      "source_text": {
+        "value": "Bluetooth 5.3 wireless technology",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "in_the_box": {
+      "source_text": {
+        "value": "AirPods 4\nCharging Case (USB‑C)\nDocumentation\nUSB-C Charge Cable sold separately",
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "accessibility": {
+      "source_text": {
+        "value": "Accessibility features help people with disabilities get the most out of their new AirPods.\nFeatures include:\nLive Listen audio\n10\nHeadphone levels\nHeadphone Accommodations",
+        "unit": null,
+        "source_section": "Accessibility",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "system_requirements": {
+      "source_text": {
+        "value": "iPhone models with the latest version of iOS\niPad models with the latest version of iPadOS\nApple Watch models with the latest version of watchOS\nMac models with the latest version of macOS\nApple TV models with the latest version of tvOS\nApple Vision Pro with the latest version of visionOS\nAirPods can be used as wireless Bluetooth headphones with Apple devices using earlier software and with non‑Apple devices, but functionality may be limited.",
+        "unit": null,
+        "source_section": "System Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "airpods_and_the_environment": {
+      "source_text": {
+        "value": "AirPods are designed to reduce environmental impact:\n11\nMaterials\n100% recycled tin in the solder of multiple printed circuit boards\n100% recycled gold in the plating of multiple printed circuit boards\n100% recycled copper plating salts on multiple printed circuit boards\n100% recycled rare earth elements in all magnets\n50% recycled plastic in three parts\n100% fibre-based packaging\n12\nEnergy\nMeets US Department of Energy requirements for battery charger systems\n13\nWaste\nNo established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme\nSmarter chemistry\n14\nMercury-, BFR- and PVC-free",
+        "unit": null,
+        "source_section": "AirPods and the Environment",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    }
+  }
 }
