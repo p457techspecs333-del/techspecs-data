@@ -2,8 +2,8 @@
   "schema_version": "2.0",
   "product": {
     "brand": "Apple",
-    "category": "software",
-    "family": "Apple Software",
+    "category": "audio",
+    "family": "Apple AirPods",
     "model": "AirPods 4 with Active Noise Cancellation",
     "model_slug": "airpods-4-with-active-noise-cancellation-airpods-4-with-active-noise-cancellation-tech-specs-121204",
     "model_year": 2024,
@@ -26,10 +26,10 @@
   },
   "extraction": {
     "method": "section_preserving",
-    "normalization_status": "archival_first_pass",
-    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "normalization_status": "partially_normalized",
+    "note": "Official Apple source sections preserved; product taxonomy corrected. Field-level normalized specifications still require extraction and verification; no values inferred.",
     "extracted_at": "2026-11-09",
-    "reviewed_at": null
+    "reviewed_at": "2026-11-09"
   },
   "sections": [
     {
@@ -86,6 +86,8 @@
     }
   ],
   "record_notes": [
-    "Archival-first-pass technical specification record; normalized values not inferred."
+    "Archival-first-pass technical specification record; normalized values not inferred.",
+    "Taxonomy audit 2026-11-09: classified as Apple audio hardware, not software.",
+    "Field-level normalization remains incomplete; source_text is the evidence of record."
   ]
 }
