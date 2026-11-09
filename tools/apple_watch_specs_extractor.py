@@ -33,14 +33,29 @@ def clean(v):
 
 def sections(soup):
     out=[]
-    for group in soup.select("div.gb-group"):
-        h=group.find(["h2","h3","h4"])
+    # Apple.com product-specification pages use techspecs-section/rowheader
+    # rather than Apple Support's gb-group layout.
+    for group in soup.select("div.techspecs-section"):
+        h=group.select_one(".techspecs-rowheader")
+        if not h: h=group.find(["h2","h3","h4"])
         if not h: continue
-        heading=clean(h.get_text(" ",strip=True)); body=BeautifulSoup(str(group),"html.parser")
-        for n in body.find_all(["h2","h3","h4"]): n.decompose()
-        for n in body.select("script,style,noscript"): n.decompose()
+        heading=clean(h.get_text(" ",strip=True))
+        body=BeautifulSoup(str(group),"html.parser")
+        for n in body.select(".techspecs-rowheader,h2,h3,h4,script,style,noscript"):
+            n.decompose()
         txt=clean(body.get_text("\n",strip=True))
         if heading and txt: out.append({"heading":heading,"source_text":txt})
+    # Apple Support pages use gb-group containers.
+    if not out:
+        for group in soup.select("div.gb-group"):
+            h=group.find(["h2","h3","h4"])
+            if not h: continue
+            heading=clean(h.get_text(" ",strip=True)); body=BeautifulSoup(str(group),"html.parser")
+            for n in body.find_all(["h2","h3","h4"]): n.decompose()
+            for n in body.select("script,style,noscript"): n.decompose()
+            txt=clean(body.get_text("\n",strip=True))
+            if heading and txt: out.append({"heading":heading,"source_text":txt})
+    # Fallback for older Apple layouts.
     if not out:
         root=soup.select_one("main") or soup.select_one("article") or soup.body
         if root:
