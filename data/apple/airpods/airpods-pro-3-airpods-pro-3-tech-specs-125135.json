@@ -27,7 +27,7 @@
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
-    "note": "Official Apple source sections preserved; product taxonomy corrected. Field-level normalized specifications still require extraction and verification; no values inferred.",
+    "note": "Official Apple sections preserved and transcribed into machine-readable section fields. Individual measurements, battery figures, model identifiers and footnote qualifications still require field-level parsing and validation; no values inferred.",
     "extracted_at": "2026-11-09",
     "reviewed_at": "2026-11-09"
   },
@@ -97,5 +97,142 @@
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Taxonomy audit 2026-11-09: classified as Apple audio hardware, not software.",
     "Field-level normalization remains incomplete; source_text is the evidence of record."
-  ]
+  ],
+  "normalized_specifications": {
+    "audio_technology": {
+      "source_text": {
+        "value": "Custom high‑excursion Apple driver\nCustom high dynamic range amplifier\nActive Noise Cancellation\nAdaptive Audio\n1\nTransparency mode\n2\nConversation Awareness\n1\nVoice Isolation\n3\nPersonalised Volume\n4\nLoud Sound Reduction\nPersonalised Spatial Audio with dynamic head tracking\n5\nAdaptive EQ\nStudio-quality audio recording\nVent system for pressure equalisation",
+        "unit": null,
+        "source_section": "Audio Technology",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "hearing_health": {
+      "source_text": {
+        "value": "Hearing Test\n6\nHearing Aid\n6\nAutomatic Conversation Boost when using Hearing Aid feature\n7\nHearing Protection\n8",
+        "unit": null,
+        "source_section": "Hearing Health",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "live_translation": {
+      "source_text": {
+        "value": "Live Translation for communicating across languages\n9",
+        "unit": null,
+        "source_section": "Live Translation",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "sensors": {
+      "source_text": {
+        "value": "Dual beamforming microphones\nInward‑facing microphone\nSkin-detecting sensor\nMotion‑detecting accelerometer\nSpeech‑detecting accelerometer\nHeart rate sensor for workouts\n10\nTouch control",
+        "unit": null,
+        "source_section": "Sensors",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "chip": {
+      "source_text": {
+        "value": "Apple H2 headphone chip\nApple second-generation Ultra Wideband chip in MagSafe Charging Case",
+        "unit": null,
+        "source_section": "Chip",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "controls": {
+      "source_text": {
+        "value": "Press once to play or pause media\nPress once to answer a call or mute or unmute\n11\nPress once for Camera Remote\n12\nPress twice to end a call\nPress twice to skip forward\nPress three times to skip back\nPress and hold to switch between listening modes\nSwipe up or down to adjust volume\nSay just “Siri”\n13\nor “Hey Siri” to do things like play a song, make a call or get directions\nSiri interactions\n4",
+        "unit": null,
+        "source_section": "Controls",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "dust_sweat_and_water_resistant": {
+      "source_text": {
+        "value": "Dust, sweat and water resistant (IP57): AirPods Pro and charging case",
+        "unit": null,
+        "source_section": "Dust, Sweat and Water Resistant 14",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "size_and_weight": {
+      "source_text": {
+        "value": "AirPods Pro 3 (Each)\nHeight:\n30.9 mm (1.22 inches)\nWidth:\n19.2 mm (0.76 inches)\nDepth:\n27.0 mm (1.06 inches)\nWeight:\n5.55 grams (0.20 ounces)\nMagSafe Charging Case (USB‑C) with speaker and lanyard loop\nHeight:\n47.2 mm (1.86 inches)\nWidth:\n62.2 mm (2.45 inches)\nDepth:\n21.8 mm (0.86 inches)\nWeight:\n43.99 grams (1.55 ounces)",
+        "unit": null,
+        "source_section": "Size and Weight 15",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "charging_case": {
+      "source_text": {
+        "value": "Works with MagSafe charger, Apple Watch charger, Qi‑certified chargers or USB‑C connector\nIncludes a speaker for use with Find My\n16",
+        "unit": null,
+        "source_section": "Charging Case",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "battery": {
+      "source_text": {
+        "value": "AirPods Pro 3\nUp to 8 hours of listening time on a single charge with Active Noise Cancellation enabled (up to 7.5 hours with Spatial Audio and Head Tracking enabled)\n17\nUp to 6.5 hours of listening time on a single charge with heart rate sensing during workouts\n18\nUp to 10 hours of listening time on a single charge in Transparency using the Hearing Aid feature\n19\nAirPods Pro 3 with MagSafe Charging Case (USB‑C)\n20\nUp to 24 hours of listening time with Active Noise Cancellation enabled\n21\n5 minutes in the case provides around 1 hour of listening time\n22",
+        "unit": null,
+        "source_section": "Battery",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "connectivity": {
+      "source_text": {
+        "value": "Bluetooth 5.3 wireless technology",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "in_the_box": {
+      "source_text": {
+        "value": "AirPods Pro 3\nMagSafe Charging Case (USB‑C) with speaker and lanyard loop\nSilicone ear tips (five sizes: XXS, XS, S, M, L)\nDocumentation\nUSB‑C Charge Cable sold separately",
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "accessibility": {
+      "source_text": {
+        "value": "Accessibility features help people with disabilities get the most out of their AirPods Pro.\nFeatures include:\nHearing Test\n6\nHearing Aid\n6\nHearing Protection\n8\nLive Listen audio\n23\nHeadphone levels\nHeadphone Accommodations",
+        "unit": null,
+        "source_section": "Accessibility",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "system_requirements": {
+      "source_text": {
+        "value": "iPhone models with the latest version of iOS\niPad models with the latest version of iPadOS\nApple Watch models with the latest version of watchOS\nMac models with the latest version of macOS\nApple TV models with the latest version of tvOS\nApple Vision Pro with the latest version of visionOS\nAirPods can be used as wireless Bluetooth headphones with Apple devices using earlier software and with non‑Apple devices, but functionality may be limited.",
+        "unit": null,
+        "source_section": "System Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "airpods_and_the_environment": {
+      "source_text": {
+        "value": "AirPods Pro 3 are designed to reduce environmental impact:\n24\nSee the AirPods Pro 3 Product Environmental Report (PDF)\nProgress towards Apple 2030\nApple 2030 is our commitment to be carbon neutral for our entire carbon footprint. Our plan to decarbonise products is rigorous and focuses on transitioning to low‑carbon electricity, designing with recycled and low‑carbon materials, and prioritising lower‑carbon ways of shipping products, like sea freight.\nSee Apple’s commitment\nMaterials\nAirPods Pro 3 are made with 40% recycled content,\n25\nincluding:\n100% recycled aluminium in the hinge\n100% recycled cobalt and 95% recycled lithium in the battery\n100% recycled gold plating and tin solder in all Apple‑designed printed circuit boards\n100% recycled copper wire in the inductive charger\n100% recycled rare earth elements in all magnets\n65% recycled plastic in the case\nPackaging\n100% fibre-based packaging\n26\nWe designed the AirPods Pro 3 box to be smaller than AirPods Pro 2 boxes, enabling 25% more units shipped per trip.\n27\nEnergy\n40% of manufacturing electricity for AirPods Pro 3 is sourced from renewable electricity.\n28\nMeets US Department of Energy requirements for battery charger systems.\n29\nWaste\nNo established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme.\n30\nSmarter chemistry\n31\nAll the materials used in Apple products, accessories and packaging are covered by the requirements of our\nRegulated Substances Specification\n, which was one of the first in industry to restrict the use of key substances of concern. See the latest\nEnvironmental Progress Report\nto understand Apple’s recent efforts in phasing out these chemistries.",
+        "unit": null,
+        "source_section": "AirPods and the Environment",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    }
+  }
 }
