@@ -26,10 +26,10 @@
   },
   "extraction": {
     "method": "section_preserving",
-    "normalization_status": "archival_first_pass",
-    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "normalization_status": "partially_normalized",
+    "note": "Official Apple software specification text retained. Explicit version labels and hardware/software/system requirements separated into machine-readable fields where present with source-section provenance. Historical compatibility requirements remain source_transcribed; no missing versions or release dates inferred.",
     "extracted_at": "2026-11-09",
-    "reviewed_at": null
+    "reviewed_at": "2026-11-09"
   },
   "sections": [
     {
@@ -42,6 +42,51 @@
     }
   ],
   "record_notes": [
-    "Archival-first-pass technical specification record; normalized values not inferred."
-  ]
+    "Archival-first-pass technical specification record; normalized values not inferred.",
+    "Field extraction pass 2026-11-09: version labels and explicit software/hardware requirements parsed from preserved official Apple source sections."
+  ],
+  "normalized_specifications": {
+    "software_version": {
+      "value": {
+        "value": "8.0.2",
+        "unit": "version",
+        "source_section": "iTunes 8.0.2 for Mac - Technical Specifications",
+        "verification_status": "source_transcribed",
+        "notes": "Version parsed from official Apple source title/model label."
+      }
+    },
+    "operating_system_requirements": {
+      "value": {
+        "value": [
+          "Mac OS X version 10.4.9 or later"
+        ],
+        "unit": null,
+        "source_section": "System requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Operating-system requirements parsed from official source text; exact wording retained where possible."
+      }
+    },
+    "memory_requirements": {
+      "value": {
+        "value": [
+          "512MB of RAM"
+        ],
+        "unit": null,
+        "source_section": "System requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple software specification text; original requirement wording retained."
+      }
+    },
+    "storage_requirements": {
+      "value": {
+        "value": [
+          "200MB of available disk space"
+        ],
+        "unit": null,
+        "source_section": "System requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple software specification text; original requirement wording retained."
+      }
+    }
+  }
 }
