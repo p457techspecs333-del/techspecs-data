@@ -108,14 +108,30 @@ def main():
    item.update({"final_index_url":r.url,"index_title":clean(soup.title.get_text(" ",strip=True)) if soup.title else f["label"],
                 "index_archive":index_file.as_posix(),"index_bytes":len(r.content)})
    targets=family_targets(f,soup,r.url)
+   catalogue_links=[]
+   if f["key"]=="ipod":
+    targets=[{"model":x["heading"],"slug":slug(x["heading"]),"url":r.url,"embedded_section":x}
+             for x in sections(soup) if x["heading"].lower().startswith("ipod")]
+   if f["kind"]=="catalogue":
+    link_seen=set()
+    for a in soup.find_all("a",href=True):
+     label=clean(a.get_text(" ",strip=True)); url=urljoin(r.url,a["href"])
+     host=urlparse(url).hostname or ""
+     if label and url not in link_seen and (host=="apple.com" or host.endswith(".apple.com")) and url!=r.url:
+      link_seen.add(url); catalogue_links.append({"label":label,"url":url})
+   item["catalogue_links"]=catalogue_links
    for t in targets:
     row={"model":t["model"],"url":t["url"],"slug":t["slug"]}
     try:
-     page=get(t["url"]); ps=BeautifulSoup(page.text,"html.parser")
-     h=ps.find("h1"); title=clean(h.get_text(" ",strip=True)) if h else (clean(ps.title.get_text(" ",strip=True)) if ps.title else t["model"])
-     sec=sections(ps); body=clean(ps.get_text(" ",strip=True))
-     identity=bool(re.search(re.escape(t["model"][:18]),title+" "+body,re.I)) or bool(re.search(r"specification|technical specifications|tech specs",title,re.I))
-     saved=ARCHIVE/(f["key"]+"-"+t["slug"]+".html"); saved.write_text(page.text,encoding="utf-8")
+     if t.get("embedded_section"):
+      page=r; ps=soup; title=t["model"]; sec=[t["embedded_section"]]; body=t["embedded_section"]["source_text"]
+      identity=True; saved=ARCHIVE/(f["key"]+"-"+t["slug"]+".html"); saved.write_text(page.text,encoding="utf-8")
+     else:
+      page=get(t["url"]); ps=BeautifulSoup(page.text,"html.parser")
+      h=ps.find("h1"); title=clean(h.get_text(" ",strip=True)) if h else (clean(ps.title.get_text(" ",strip=True)) if ps.title else t["model"])
+      sec=sections(ps); body=clean(ps.get_text(" ",strip=True))
+      identity=bool(re.search(re.escape(t["model"][:18]),title+" "+body,re.I)) or bool(re.search(r"specification|technical specifications|tech specs",title,re.I))
+      saved=ARCHIVE/(f["key"]+"-"+t["slug"]+".html"); saved.write_text(page.text,encoding="utf-8")
      row.update({"final_url":page.url,"title":title,"source_file":saved.as_posix(),"section_count":len(sec),
                  "verification_status":"content_verified" if sec and identity else "needs_review"})
      if sec and identity:
@@ -140,7 +156,8 @@ def main():
   inventory={"catalogue_stage":"official_apple_source_discovery","brand":"Apple","category":f["category"],"family":f["label"],
    "market":"Ireland-facing catalogue","source_policy":"Official Apple sources only; preserve original HTML; no inferred specifications.",
    "index_url":item.get("final_index_url",f["index"]),"index_title":item.get("index_title"),"index_archive":item.get("index_archive"),
-   "working_scope":item["targets"],"notes":[f"Discovery checked {TODAY}. This is an initial source-discovery inventory; coverage is not claimed complete."]}
+   "working_scope":item["targets"],"catalogue_links":item.get("catalogue_links",[]),
+   "notes":[f"Discovery checked {TODAY}. This is an initial source-discovery inventory; coverage is not claimed complete."]}
   (family_dir/"source-inventory.json").write_text(json.dumps(inventory,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
   REPORT["families"].append(item)
   print(f'{f["label"]}: {item["status"]}; links={len(item["targets"])}; records={item["summary"]["records_written"]}; errors={len(item["errors"])}')
@@ -148,6 +165,7 @@ def main():
  REPORT["summary"]={"families_checked":len(REPORT["families"]),"indexes_captured":sum(bool(x.get("index_archive")) for x in REPORT["families"]),
   "spec_links_discovered":sum(len(x.get("targets",[])) for x in REPORT["families"]),
   "records_written":sum(x.get("summary",{}).get("records_written",0) for x in REPORT["families"]),
+  "catalogue_items_discovered":sum(len(x.get("catalogue_links",[])) for x in REPORT["families"]),
   "errors":sum(len(x.get("errors",[])) for x in REPORT["families"])}
  (BASE/"extraction_report.json").write_text(json.dumps(REPORT,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
  print(json.dumps(REPORT["summary"],indent=2))
