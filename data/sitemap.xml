@@ -4,6 +4,23 @@
   <url><loc>https://data.techspecs.dev/catalogue.json</loc></url>
   <url><loc>https://data.techspecs.dev/llms.txt</loc></url>
   <url><loc>https://data.techspecs.dev/schemas/product-record-v2.schema.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/source-inventory.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-4-with-active-noise-cancellation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-4.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-5.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-max-2.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-pro-3.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/source-inventory.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/pro-display-xdr.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/source-inventory.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/studio-display-2022.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/studio-display-2026.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/studio-display-xdr.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/homepod-1st-generation-technical-specifications.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/homepod-2nd-generation-technical-specifications.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/homepod-mini-2-technical-specifications.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/homepod-mini-technical-specifications.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/source-inventory.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/ipad-10th-generation.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/ipad-1st-generation.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/ipad-2.json</loc></url>
@@ -94,6 +111,44 @@
   <url><loc>https://data.techspecs.dev/api/v1/products/iphone-xr.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/iphone-xs-max.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/iphone-xs.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-5th-generation-also-known-as-ipod-with-video-or-fifth-generation-ipod.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-5th-generation-late-2006-also-known-as-ipod-with-video-or-fifth-generation-ipod.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-classic-120-gb.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-classic-160-gb-late-2009.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-classic.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-click-wheel.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-dock-connector.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-mini-2nd-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-mini.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-nano-2nd-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-nano-3rd-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-nano-4th-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-nano-5th-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-nano-6th-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-nano-7th-generation-mid-2015.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-nano-7th-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-nano.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-photo-also-known-as-ipod-with-colour-display.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-scroll-wheel.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-shuffle-2nd-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-shuffle-3rd-generation-late-2009.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-shuffle-3rd-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-shuffle-4th-generation-late-2012.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-shuffle-4th-generation-mid-2015.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-shuffle-4th-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-shuffle.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-special-edition-u2.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-touch-2nd-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-touch-3rd-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-touch-4th-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-touch-5th-generation-16-gb-mid-2013.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-touch-5th-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-touch-6th-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-touch-7th-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-touch-wheel.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-touch.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/ipod-with-colour-display.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/source-inventory.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/generation-report.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/imac-21-5-inch-2017-technical-specifications.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/imac-21-5-inch-late-2009-technical-specifications.json</loc></url>
@@ -235,6 +290,7 @@
   <url><loc>https://data.techspecs.dev/api/v1/products/macbook-pro-technical-specifications.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/macbook-pro-with-proled-xdr-display-technical-specifications.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/macbook-neo-technical-specifications.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/source-inventory.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/source-inventory.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/apple-tv-1st-generation.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/apple-tv-2nd-generation.json</loc></url>
