@@ -1,0 +1,55 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "software",
+    "family": "Apple Software",
+    "model": "Aperture",
+    "model_slug": "aperture",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/112030",
+    "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-aperture-aperture-3-technical-specifications.html",
+    "source_title": "Aperture 3 - Technical Specifications",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 4 sections archived.",
+    "notes": [
+      "Documentation index: https://support.apple.com/en-ie/docs/software/pl157"
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "System Requirements",
+      "source_text": "Minimum\nOne of the following Intel-based Mac computers with Intel Core 2 Duo, Core i3, Core i5, Core i7, or Xeon processor:\nMac Pro\nMacBook Pro\nMacBook\nMacBook Air\niMac\nMac mini\nOperating system:\nMac OS X v10.9 (or later)\nMemory:\n2GB of RAM\n4GB of RAM required for Mac Pro\nOther requirements:\n1GB of disk space for application and documentation\nRecommended\nMac computer with an Intel i3 processor (or faster)\n4GB of RAM\nMac OS X v10.9 (or later)"
+    },
+    {
+      "heading": "File Formats",
+      "source_text": "Native RAW import and editing of images from leading digital cameras and camera backs (See RAW support page for model listing.)\n.ARW, .CR2, .CRW, .MOS, .NEF, .RAF, .RAW, .SRW, .TIF, .OLY, .FFF, .3FR, .DNG\n1\nCompatible with all major still image formats\nJPEG, GIF, TIFF, PNG, PDF, PSD\n2"
+    },
+    {
+      "heading": "Input/Output",
+      "source_text": "Import images directly from cameras and storage devices\nCompactFlash I, II, and Microdrive\nMemory Stick and Memory Stick Duo\nSecure Digital, MultiMedia, and SmartMedia cards\nxD Picture cards\nImport from multiple cards simultaneously\nDrag files in from any volume (preserves Finder folder hierarchy)\nBrowse and import directly from iPhoto library\nCapture images directly from tethered Nikon or Canon cameras\n3"
+    },
+    {
+      "heading": "Wide Support for RAW Formats from Leading Cameras",
+      "source_text": "Aperture 3 supports the RAW formats from more than 150 digital cameras and camera backs. Aperture also lets you work with most DNG files.\n4\nShoot JPEG? Using Aperture, you can import JPEG images from virtually all digital cameras.\nCanon\nEOS 1D\nEOS 1D Mark II\nEOS 1D Mark IIN\nEOS 1D Mark III\nEOS 1Ds\nEOS 1Ds Mark II\nEOS 1Ds Mark III*\nEOS 1D Mark IV*\nEOS-1D C***\nEOS-1D X**\nEOS 5D\nEOS 5D Mark II*\nEOS 5D Mark III**\nEOS 5DS R****\nEOS 5DS****\nEOS 6D***\nEOS 7D\nEOS 7D Mark II****\nEOS 10D\nEOS 20D\nEOS 30D\nEOS 40D\nEOS 50D*\nEOS 60D**\nEOS 70D***\nEOS 500D*\nEOS D30\nEOS D60\nEOS Digital Rebel XS/Kiss Digital F2/1000D*\nEOS Digital Rebel/Kiss Digital/300D\nEOS Digital Rebel XT/Kiss Digital N/350D\nEOS Digital Rebel XTi/Kiss Digital X/400D\nEOS Digital Rebel XSi/Kiss Digital X2/450D\nEOS Kiss Digital X3*\nEOS Rebel SL1 / 100D / Kiss X7***\nEOS Rebel T1i*\nEOS Rebel T2i EF-S / 550D / Kiss X4**\nEOS Rebel T3 / 1100D / Kiss X50**\nEOS Rebel T3i / 600D / Kiss X5**\nEOS Rebel T4i / 650D / Kiss X6i**\nEOS Rebel T5i / 700D / Kiss X7i***\nEOS Rebel T5 / 1200D / Kiss X70***\nEOS Rebel T6i / 750D / Kiss X8i****\nEOS Rebel T6s / 760D / Kiss 8000D****\nEOS M***\nEOS M2***\nEOS M3****\nEOS M10****\nPowerShot G3 X****\nPowerShot G5\nPowerShot G5 X****\nPowerShot G6\nPowerShot G7 X****\nPowerShot G9*\nPowerShot G9 X****\nPowerShot G10*\nPowerShot G11*\nPowerShot G12**\nPowerShot G15***\nPowerShot G16***\nPowerShot G1 X**\nPowerShot G1 X Mark II***\nPowerShot Pro 1\nPowerShot S60\nPowerShot S70\nPowerShot S90**\nPowerShot S95**\nPowerShot S100**\nPowerShot S110***\nPowerShot S120***\nPowerShot SX1 IS**\nPowerShot SX50 HS***\nPowerShot SX60 HS****\nsRAW**\nmRAW**\nDxO\nDxO One****\nEpson\nR-D1\nR-D1x*\nFujifilm\nFinePix S2 Pro\nFinePix S3 Pro\nFinePix S5 Pro\nFinePix X100**\nX-A2****\nX-Pro1***\nX-A1***\nX-E1***\nX-E2***\nX-E2S****\nX-M1***\nX-T1***\nX-T10****\nXQ1****\nXQ2****\nX20***\nX30****\nX70****\nX100S***\nX100T****\nHasselblad\nCF-22*\nCF-39*\nCFV-16*\nH3D-31*\nH3D-31II*\nH3DII-50**\nH4D-40**\nHasselblad CFV-50c****\nHasselblad H5D-50c****\nLunar***\nKodak\nDCS Pro SLR/n*\nKonica Minolta\nDiMAGE A1\nDiMAGE A2\nDiMAGE A200**\nMaxxum 5D\nMaxxum 7D\nLeaf\nAFi 5\nAFi 6\nAFi 7\nAFi-II 6*\nAFi-II 7*\nAptus 17\nAptus 22\nAptus 54S*\nAptus 65\nAptus 65S*\nAptus 75\nAptus 75S*\nAptus-II 6*\nAptus-II 7*\nValeo 22\nValeo 17\nValeo 11\nLeica\nDigilux 2\nDigilux 3\nC (Typ 112)****\nM***\nM8\nM8.2*\nM9**\nM Monochrom***\nM Monochrom (Typ 246)****\nS2**\nX1**\nD-LUX 2\nD-LUX 3\nD-LUX 4**\nD-Lux 5**\nD-Lux 6***\nD-Lux (Typ 109)****\nQ (Typ 116)****\nS (Typ 007)****\nSL (Typ 601)****\nV-LUX 1\nV-Lux 2**\nV-Lux 4***\nV-Lux (Typ 114)****\nX2***\nX-U (Typ 113)****\nX (Typ 113)****\nX Vario (Typ 107)****\nNikon\n1 AW1***\n1 J5****\n1 S2****\n1 V3***\nD1\nD1X\nD1H\nD2H\nD2Hs\nD2X\nD2Xs\nD3*\nD3s*\nD3X*\nD4**\nD4S***\nD5****\nD40\nD40x\nD50\nD60*\nD70\nD70s\nD80\nD90*\nD100\nD200\nD300*\nD300s\nD500****\nD600***\nD610***\nD700*\nD750****\nD800**\nD800E**\nD810***\nD810A****\nD3000\nD3100**\nD3200**\nD3300***\nD5000*\nD5100**\nD5200***\nD5300***\nD5500****\nD7000**\nD7100***\nD7200****\nDf***\nCOOLPIX 8800\nCOOLPIX 8700\nCOOLPIX 8400\nCOOLPIX P6000\nCOOLPIX A***\nCOOLPIX P330***\nCOOLPIX P340***\nCOOLPIX P7000**\nCOOLPIX P7100**\nCOOLPIX P7700***\nCOOLPIX P7800***\nNikon 1 J1**\nNikon 1 J2***\nNikon 1 J3***\nNikon 1 J4****\nNikon 1 S1***\nNikon 1 V1**\nNikon 1 V2***\nOlympus\nE-1\nE-3*\nE-5**\nE-30*\nE-450**\nE-600**\nE-620**\nE-P1**\nE-P2**\nE-P3**\nE-PL1**\nE-PL2**\nEVOLT E-300\nEVOLT E-330\nEVOLT E-400\nEVOLT E-410\nEVOLT E-420*\nEVOLT E-500\nEVOLT E-510\nEVOLT E-520*\nC-8080 Wide Zoom\nC-7070\nC-7000\nOM-D E-M1***\nOM-D E-M5**\nOM-D E-M5 Mark II****\nOM-D E-M10***\nOM-D E-M10 Mark II****\nPEN E-P5***\nPEN E-PL1s**\nPEN E-PL3**\nPEN E-PL5***\nPEN E-PM1**\nPEN E-PM2***\nPEN Lite E-PL6***\nPEN Lite E-PL7****\nSP-570 UZ*\nSTYLUS 1***\nSTYLUS SH-2****\nSTYLUS TG-4 Tough****\nSTYLUS XZ-2***\nXZ-1**\nPanasonic\nDMC-LC1\nLUMIX CM1****\nLUMIX DMC-FZ50\nLUMIX DMC-FZ70****\nLUMIX DMC-FZ72****\nLUMIX DMC-FZ100**\nLUMIX DMC-FZ150**\nLUMIX DMC-FZ200***\nLUMIX DMC-FZ300 / DMC-FZ330****\nLUMIX DMC-FZ1000***\nLUMIX DMC-G1**\nLUMIX DMC-G2**\nLUMIX DMC-G3**\nLUMIX DMC-G5***\nLUMIX DMC-G6***\nLUMIX DMC-G7****\nLUMIX DMC-G10**\nLUMIX DMC-GF1**\nLUMIX DMC-GF2**\nLUMIX DMC-GF3**\nLUMIX DMC-GF5**\nLUMIX DMC-GF6***\nLUMIX DMC-GF7****\nLUMIX DMC-GH1**\nLUMIX DMC-GH2**\nLUMIX DMC-GH3***\nLUMIX DMC-GH4***\nLUMIX DMC-GM5****\nLUMIX DMC-GM1***\nLUMIX DMC-GX1**\nLUMIX DMC-GX8****\nLUMIX DMC-FZ35**\nLUMIX DMC-FZ38**\nLUMIX DMC-L1\nLUMIX DMC-LX1\nLUMIX DMC-LX100****\nLUMIX DMC-LX2\nLUMIX DMC-LX3**\nLUMIX DMC-LX5**\nLUMIX DMC-LX7***\nLUMIX DMC-TZ60****\nLUMIX DMC-TZ61****\nLUMIX DMC-TZ70****\nLUMIX DMC-TZ71****\nLUMIX DMC-ZS40****\nLUMIX DMC-ZS50****\nLUMIX DMC-ZS60 / DMC-TZ80****\nPentax\n645D***\n645Z****\n*ist D\n*ist DL\n*ist DL2*\n*ist DS\n*ist DS2*\nK-r**\nK-x**\nK-3***\nK-3 II****\nK-5**\nK-5 II***\nK-5 IIs***\nK-7**\nK-30***\nK-S1****\nK-S2****\nK10D\nK20D\nK100D\nK100D Super*\nK110D\nK200D\nK2000/K-m*\nMX-1****\nPentax Q***\nSamsung\nGX-1L\nGX-1S**\nGX-10*\nGX-20*\nNX10**\nNX11**\nNX100**\nNX200**\nSony\nA7R Mark II****\nAlpha 7***\nAlpha 7R***\nAlpha DSLR-A230**\nAlpha DSLR-A330**\nAlpha DSLR-A380**\nAlpha DSLR-A390**\nAlpha DSLR-A450**\nAlpha DSLR-A500**\nAlpha DSLR-A550**\nAlpha DSLR-A850**\nAlpha ILCE-3000***\nAlpha ILCE-7S***\nAlpha ILCE-7S II****\nAlpha ILCE-5000***\nAlpha ILCE-5100****\nAlpha ILCE-6000***\nAlpha ILCE-6300****\nAlpha ILCE-7M2****\nAlpha NEX-3**\nAlpha NEX-5**\nAlpha NEX-C3**\nAlpha NEX-3N***\nAlpha NEX-5N**\nAlpha NEX-5R***\nAlpha NEX-5T***\nAlpha NEX-6***\nAlpha NEX-7**\nAlpha NEX-F3***\nAlpha SLT-A37**\nAlpha SLT-A57**\nAlpha SLT-A58***\nAlpha SLT-A65**\nAlpha SLT-A68****\nAlpha SLT-A77**\nAlpha SLT-A77 II***\nAlpha SLT-A99***\nCyber-shot DSC-RX100***\nCyber-shot DSC-RX100 II***\nCyber-shot DSC-RX100 III***\nCyber-shot DSC-RX1R***\nCyber-shot DSC-RX1R II****\nCyber-shot DSC-RX10***\nDSC-F828\nDSC-R1*\nDSC-RX1***\nDSC-V3\nDSLR-A100\nDSLR-A200*\nDSLR-A290**\nDSLR-A300*\nDSLR-A350*\nDSLR-A560**\nDSLR-A580**\nDSLR-A700*\nDSLR-A900*\nNEX-VG20**\nRX10 Mark II****\nRX100 Mark IV****\nSLT-A33**\nSLT-A35**\nSLT-A55**"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass technical specification record; normalized values not inferred."
+  ]
+}

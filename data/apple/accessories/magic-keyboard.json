@@ -1,0 +1,63 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "accessory",
+    "family": "Apple Accessories",
+    "model": "Magic Keyboard",
+    "model_slug": "magic-keyboard",
+    "model_year": "2015",
+    "year_introduced": 2015,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/112443",
+    "source_file": "apple_remaining_extraction/technical_specs_html/accessories-specs-magic-keyboard-magic-keyboard-technical-specifications.html",
+    "source_title": "Magic Keyboard - Technical Specifications",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 6 sections archived.",
+    "notes": [
+      "Documentation index: https://support.apple.com/en-ie/docs/accessories/pp179"
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Overview",
+      "source_text": "The Magic Keyboard combines a sleek new design with a built-in rechargeable battery and enhanced key features. With an improved scissor mechanism beneath each key for increased stability, as well as optimized key travel and a lower profile, the Magic Keyboard provides a remarkably comfortable and precise typing experience. It pairs automatically with your Mac, so you can get to work right away. And the battery is incredibly long-lasting — it will power your keyboard for about a month or more between charges."
+    },
+    {
+      "heading": "What’s in the Box",
+      "source_text": "Magic Keyboard\nLightning to USB Cable"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height: 0.16–0.43 inch (0.41–1.09 cm)\nWidth: 10.98 inches (27.9 cm)\nDepth: 4.52 inches (11.49 cm)\nWeight: 0.51 pound (0.231 kg)*"
+    },
+    {
+      "heading": "General",
+      "source_text": "Multimedia keys"
+    },
+    {
+      "heading": "Connections and Expansion",
+      "source_text": "Bluetooth\nLightning port\nWireless"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "Bluetooth-enabled Mac computer with OS X v10.11 or later\niOS devices running iOS 9.1 or later"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass technical specification record; normalized values not inferred."
+  ]
+}

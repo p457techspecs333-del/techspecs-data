@@ -1,0 +1,1201 @@
+{
+  "started_utc": "2026-11-09T12:19:02.344648+00:00",
+  "finished_utc": "2026-11-09T12:19:02.344664+00:00",
+  "documentation_pages_checked": 57,
+  "technical_spec_links_discovered": 41,
+  "records_written": 41,
+  "errors": 0,
+  "pages": [
+    {
+      "family": "accessories",
+      "label": "AirTag (2nd generation)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/301279",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/301279",
+      "model": "AirTag (2nd generation)",
+      "year_introduced": 2026,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-airtag-2nd-generation.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/126203"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/126203",
+          "title": "AirTag (2nd generation) - Tech Specs",
+          "status": "content_verified",
+          "section_count": 11,
+          "record_path": "data/apple/accessories/airtag-2nd-generation.json"
+        }
+      ]
+    },
+    {
+      "family": "accessories",
+      "label": "Beats Pill",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/301042",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/301042",
+      "model": "Beats Pill",
+      "year_introduced": 2024,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-beats-pill.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "accessories",
+      "label": "Magic Keyboard (USB-C)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp729",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp729",
+      "model": "Magic Keyboard (USB-C)",
+      "year_introduced": 2024,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-magic-keyboard-usb-c.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/121955"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/121955",
+          "title": "Magic Keyboard (USB–C) - Tech Specs",
+          "status": "content_verified",
+          "section_count": 7,
+          "record_path": "data/apple/accessories/magic-keyboard-usb-c.json"
+        }
+      ]
+    },
+    {
+      "family": "accessories",
+      "label": "Magic Keyboard with Touch ID and Numeric Keypad for Mac models with Apple silicon (USB-C)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp204",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp204",
+      "model": "Magic Keyboard with Touch ID and Numeric Keypad for Mac models with Apple silicon (USB-C)",
+      "year_introduced": 2024,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-magic-keyboard-with-touch-id-and-numeric-keypad-for-mac-models-with-apple-silicon-usb-c.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/121953"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/121953",
+          "title": "Magic Keyboard with Touch ID and Numeric Keypad for Mac models with Apple silicon (USB‑C) - Tech Specs",
+          "status": "content_verified",
+          "section_count": 8,
+          "record_path": "data/apple/accessories/magic-keyboard-with-touch-id-and-numeric-keypad-for-mac-models-with-apple-silicon-usb-c.json"
+        }
+      ]
+    },
+    {
+      "family": "accessories",
+      "label": "Magic Keyboard with Touch ID for Mac models with Apple silicon (USB-C)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp205",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp205",
+      "model": "Magic Keyboard with Touch ID for Mac models with Apple silicon (USB-C)",
+      "year_introduced": 2024,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-magic-keyboard-with-touch-id-for-mac-models-with-apple-silicon-usb-c.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/121954"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/121954",
+          "title": "Magic Keyboard with Touch ID for Mac models with Apple silicon (USB–C) - Tech Specs",
+          "status": "content_verified",
+          "section_count": 7,
+          "record_path": "data/apple/accessories/magic-keyboard-with-touch-id-for-mac-models-with-apple-silicon-usb-c.json"
+        }
+      ]
+    },
+    {
+      "family": "accessories",
+      "label": "Magic Mouse (USB-C)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp195",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp195",
+      "model": "Magic Mouse (USB-C)",
+      "year_introduced": 2024,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-magic-mouse-usb-c.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/121931"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/121931",
+          "title": "Magic Mouse (USB‑C) - Tech Specs",
+          "status": "content_verified",
+          "section_count": 8,
+          "record_path": "data/apple/accessories/magic-mouse-usb-c.json"
+        }
+      ]
+    },
+    {
+      "family": "accessories",
+      "label": "Magic Trackpad (USB-C)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp196",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp196",
+      "model": "Magic Trackpad (USB-C)",
+      "year_introduced": 2024,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-magic-trackpad-usb-c.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/121932"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/121932",
+          "title": "Magic Trackpad (USB‑C) - Tech Specs",
+          "status": "content_verified",
+          "section_count": 8,
+          "record_path": "data/apple/accessories/magic-trackpad-usb-c.json"
+        }
+      ]
+    },
+    {
+      "family": "accessories",
+      "label": "AirTag",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/300356",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/300356",
+      "model": "AirTag",
+      "year_introduced": 2021,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-airtag.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/111847"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/111847",
+          "title": "AirTag - Tech Specs",
+          "status": "content_verified",
+          "section_count": 11,
+          "record_path": "data/apple/accessories/airtag.json"
+        }
+      ]
+    },
+    {
+      "family": "accessories",
+      "label": "AirTag Hermès",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/300357",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/300357",
+      "model": "AirTag Hermès",
+      "year_introduced": 2021,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-airtag-herm-s.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "accessories",
+      "label": "Magic Keyboard",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp179",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp179",
+      "model": "Magic Keyboard",
+      "year_introduced": 2015,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-magic-keyboard.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/112443"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/112443",
+          "title": "Magic Keyboard - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 6,
+          "record_path": "data/apple/accessories/magic-keyboard.json"
+        }
+      ]
+    },
+    {
+      "family": "accessories",
+      "label": "AirPort Extreme 802.11ac",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/134029",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/134029",
+      "model": "AirPort Extreme 802.11ac",
+      "year_introduced": 2013,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-airport-extreme-802-11ac.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/112419"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/112419",
+          "title": "AirPort Extreme 802.11ac - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 11,
+          "record_path": "data/apple/accessories/airport-extreme-802-11ac.json"
+        }
+      ]
+    },
+    {
+      "family": "accessories",
+      "label": "AirPort Time Capsule 802.11ac",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/134028",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/134028",
+      "model": "AirPort Time Capsule 802.11ac",
+      "year_introduced": 2013,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-airport-time-capsule-802-11ac.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/112420"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/112420",
+          "title": "AirPort Time Capsule 802.11ac - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 12,
+          "record_path": "data/apple/accessories/airport-time-capsule-802-11ac.json"
+        }
+      ]
+    },
+    {
+      "family": "accessories",
+      "label": "AirPort Express 802.11n (2nd Generation)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/133637",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/133637",
+      "model": "AirPort Express 802.11n (2nd Generation)",
+      "year_introduced": 2012,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-airport-express-802-11n-2nd-generation.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/112421"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/112421",
+          "title": "AirPort Express 802.11n (2nd Generation) - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 11,
+          "record_path": "data/apple/accessories/airport-express-802-11n-2nd-generation.json"
+        }
+      ]
+    },
+    {
+      "family": "accessories",
+      "label": "AirPort Extreme 802.11n (5th Generation)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/133324",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/133324",
+      "model": "AirPort Extreme 802.11n (5th Generation)",
+      "year_introduced": 2011,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-airport-extreme-802-11n-5th-generation.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/112440"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/112440",
+          "title": "AirPort Extreme 802.11n (5th Generation) - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 14,
+          "record_path": "data/apple/accessories/airport-extreme-802-11n-5th-generation.json"
+        }
+      ]
+    },
+    {
+      "family": "accessories",
+      "label": "AirPort Time Capsule 802.11n (4th Generation)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/133323",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/133323",
+      "model": "AirPort Time Capsule 802.11n (4th Generation)",
+      "year_introduced": 2011,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-airport-time-capsule-802-11n-4th-generation.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/112571"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/112571",
+          "title": "AirPort Time Capsule 802.11n (4th Generation) - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 2,
+          "record_path": "data/apple/accessories/airport-time-capsule-802-11n-4th-generation.json"
+        }
+      ]
+    },
+    {
+      "family": "accessories",
+      "label": "Magic Mouse (Mid 2010)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp181",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp181",
+      "model": "Magic Mouse (Mid 2010)",
+      "year_introduced": 2010,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-magic-mouse-mid-2010.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "accessories",
+      "label": "AirPort Extreme (Simultaneous Dual-Band II)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/132713",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/132713",
+      "model": "AirPort Extreme (Simultaneous Dual-Band II)",
+      "year_introduced": 2009,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-airport-extreme-simultaneous-dual-band-ii.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/112575"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/112575",
+          "title": "AirPort Extreme 802.11n (4th Generation) - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 2,
+          "record_path": "data/apple/accessories/airport-extreme-simultaneous-dual-band-ii.json"
+        }
+      ]
+    },
+    {
+      "family": "accessories",
+      "label": "AirPort Extreme 802.11n (3rd Generation)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/132374",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/132374",
+      "model": "AirPort Extreme 802.11n (3rd Generation)",
+      "year_introduced": 2009,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-airport-extreme-802-11n-3rd-generation.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "accessories",
+      "label": "AirPort Time Capsule 802.11n (2nd Generation)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/132380",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/132380",
+      "model": "AirPort Time Capsule 802.11n (2nd Generation)",
+      "year_introduced": 2009,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-airport-time-capsule-802-11n-2nd-generation.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/112572"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/112572",
+          "title": "AirPort Time Capsule 802.11n (2nd Generation) - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 15,
+          "record_path": "data/apple/accessories/airport-time-capsule-802-11n-2nd-generation.json"
+        }
+      ]
+    },
+    {
+      "family": "accessories",
+      "label": "AirPort Time Capsule 802.11n (3rd Generation)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/132719",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/132719",
+      "model": "AirPort Time Capsule 802.11n (3rd Generation)",
+      "year_introduced": 2009,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-airport-time-capsule-802-11n-3rd-generation.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/112563"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/112563",
+          "title": "AirPort Time Capsule 802.11n (3rd Generation) - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 15,
+          "record_path": "data/apple/accessories/airport-time-capsule-802-11n-3rd-generation.json"
+        }
+      ]
+    },
+    {
+      "family": "accessories",
+      "label": "Apple Wireless Keyboard (2009)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp127",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp127",
+      "model": "Apple Wireless Keyboard (2009)",
+      "year_introduced": 2009,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-apple-wireless-keyboard-2009.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "accessories",
+      "label": "AirPort Express 802.11n (1st Generation)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/131955",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/131955",
+      "model": "AirPort Express 802.11n (1st Generation)",
+      "year_introduced": 2008,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-airport-express-802-11n-1st-generation.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "accessories",
+      "label": "AirPort Time Capsule 802.11n (1st Generation)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/131841",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/131841",
+      "model": "AirPort Time Capsule 802.11n (1st Generation)",
+      "year_introduced": 2008,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-airport-time-capsule-802-11n-1st-generation.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "accessories",
+      "label": "AirPort Extreme (Gigabit 2007)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/131620",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/131620",
+      "model": "AirPort Extreme (Gigabit 2007)",
+      "year_introduced": 2007,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-airport-extreme-gigabit-2007.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "accessories",
+      "label": "AirPort Extreme 802.11n (1st Generation)",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/131340",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/131340",
+      "model": "AirPort Extreme 802.11n (1st Generation)",
+      "year_introduced": 2007,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-airport-extreme-802-11n-1st-generation.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "accessories",
+      "label": "Adapters and Cables",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/pl265",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/pl265",
+      "model": "Adapters and Cables",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-adapters-and-cables.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "accessories",
+      "label": "AirPort",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/pl128",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/pl128",
+      "model": "AirPort",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-airport.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "accessories",
+      "label": "AirPort Card",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/8023",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/8023",
+      "model": "AirPort Card",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-airport-card.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "accessories",
+      "label": "AirPort Express Base Station",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/124986",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/124986",
+      "model": "AirPort Express Base Station",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-airport-express-base-station.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "accessories",
+      "label": "AirPort for Windows",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp37",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp37",
+      "model": "AirPort for Windows",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-airport-for-windows.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "accessories",
+      "label": "Apple Magic Mouse",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp128",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp128",
+      "model": "Apple Magic Mouse",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-apple-magic-mouse.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "accessories",
+      "label": "Bluetooth",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/pl191",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/pl191",
+      "model": "Bluetooth",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-bluetooth.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "accessories",
+      "label": "Keyboards",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/pl161",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/pl161",
+      "model": "Keyboards",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-keyboards.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "accessories",
+      "label": "Magic Keyboard with Lock Key",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp156",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp156",
+      "model": "Magic Keyboard with Lock Key",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-magic-keyboard-with-lock-key.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "accessories",
+      "label": "Magic Keyboard with Numeric Keypad",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp217",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp217",
+      "model": "Magic Keyboard with Numeric Keypad",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-magic-keyboard-with-numeric-keypad.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/112037"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/112037",
+          "title": "Magic Keyboard with Numeric Keypad - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 6,
+          "record_path": "data/apple/accessories/magic-keyboard-with-numeric-keypad.json"
+        }
+      ]
+    },
+    {
+      "family": "accessories",
+      "label": "Magic Keyboard with Touch ID",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp155",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp155",
+      "model": "Magic Keyboard with Touch ID",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-magic-keyboard-with-touch-id.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "accessories",
+      "label": "Magic Keyboard with Touch ID and Numeric Keypad",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp157",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp157",
+      "model": "Magic Keyboard with Touch ID and Numeric Keypad",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-magic-keyboard-with-touch-id-and-numeric-keypad.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "accessories",
+      "label": "Magic Mouse 2",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp178",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp178",
+      "model": "Magic Mouse 2",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-magic-mouse-2.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/111885"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/111885",
+          "title": "Magic Mouse - Tech Specs",
+          "status": "content_verified",
+          "section_count": 8,
+          "record_path": "data/apple/accessories/magic-mouse-2.json"
+        }
+      ]
+    },
+    {
+      "family": "accessories",
+      "label": "Magic Trackpad",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp180",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp180",
+      "model": "Magic Trackpad",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-magic-trackpad.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "accessories",
+      "label": "Magic Trackpad 2",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp177",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp177",
+      "model": "Magic Trackpad 2",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-magic-trackpad-2.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/111884"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/111884",
+          "title": "Magic Trackpad - Tech Specs",
+          "status": "content_verified",
+          "section_count": 8,
+          "record_path": "data/apple/accessories/magic-trackpad-2.json"
+        }
+      ]
+    },
+    {
+      "family": "accessories",
+      "label": "Mini DisplayPort to VGA Adapter",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp81",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp81",
+      "model": "Mini DisplayPort to VGA Adapter",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-mini-displayport-to-vga-adapter.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "accessories",
+      "label": "Thunderbolt to Gigabit Ethernet Adapter",
+      "documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp421",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/accessories/pp421",
+      "model": "Thunderbolt to Gigabit Ethernet Adapter",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/accessories-docs-thunderbolt-to-gigabit-ethernet-adapter.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "software",
+      "label": "iTunes for Windows",
+      "documentation_url": "https://support.apple.com/en-ie/docs/software/pl296",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/software/pl296",
+      "model": "iTunes for Windows",
+      "year_introduced": 2003,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/software-docs-itunes-for-windows.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/112029"
+        },
+        {
+          "label": "iTunes 9.2 for Windows - Technical Specifications",
+          "url": "https://support.apple.com/en-ie/112622"
+        },
+        {
+          "label": "iTunes 8.1.1 for Windows - Technical Specifications",
+          "url": "https://support.apple.com/en-ie/112655"
+        },
+        {
+          "label": "iTunes 8.0.2 for Windows - Technical Specifications",
+          "url": "https://support.apple.com/en-ie/112659"
+        },
+        {
+          "label": "iTunes 8.2 for Windows - Technical Specifications",
+          "url": "https://support.apple.com/en-ie/112657"
+        },
+        {
+          "label": "iTunes 11 for Windows - Technical Specifications",
+          "url": "https://support.apple.com/en-ie/112583"
+        },
+        {
+          "label": "iTunes 10.7 for Windows - Technical Specifications",
+          "url": "https://support.apple.com/en-ie/112573"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/112029",
+          "title": "iTunes 12 for Windows - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 2,
+          "record_path": "data/apple/software/itunes-for-windows.json"
+        },
+        {
+          "url": "https://support.apple.com/en-ie/112622",
+          "title": "iTunes 9.2 for Windows - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 3,
+          "record_path": "data/apple/software/itunes-for-windows.json"
+        },
+        {
+          "url": "https://support.apple.com/en-ie/112655",
+          "title": "iTunes 8.1.1 for Windows - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 2,
+          "record_path": "data/apple/software/itunes-for-windows.json"
+        },
+        {
+          "url": "https://support.apple.com/en-ie/112659",
+          "title": "iTunes 8.0.2 for Windows - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 2,
+          "record_path": "data/apple/software/itunes-for-windows.json"
+        },
+        {
+          "url": "https://support.apple.com/en-ie/112657",
+          "title": "iTunes 8.2 for Windows - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 2,
+          "record_path": "data/apple/software/itunes-for-windows.json"
+        },
+        {
+          "url": "https://support.apple.com/en-ie/112583",
+          "title": "iTunes 11 for Windows - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 2,
+          "record_path": "data/apple/software/itunes-for-windows.json"
+        },
+        {
+          "url": "https://support.apple.com/en-ie/112573",
+          "title": "iTunes 10.7 for Windows - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 2,
+          "record_path": "data/apple/software/itunes-for-windows.json"
+        }
+      ]
+    },
+    {
+      "family": "software",
+      "label": "iPhoto",
+      "documentation_url": "https://support.apple.com/en-ie/docs/software/pl145",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/software/pl145",
+      "model": "iPhoto",
+      "year_introduced": 2002,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/software-docs-iphoto.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "software",
+      "label": "iTunes for Mac",
+      "documentation_url": "https://support.apple.com/en-ie/docs/software/pl295",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/software/pl295",
+      "model": "iTunes for Mac",
+      "year_introduced": 2001,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/software-docs-itunes-for-mac.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/112028"
+        },
+        {
+          "label": "iTunes 9.2 for Mac - Technical Specifications",
+          "url": "https://support.apple.com/en-ie/112621"
+        },
+        {
+          "label": "iTunes 8.0.2 for Mac - Technical Specifications",
+          "url": "https://support.apple.com/en-ie/112654"
+        },
+        {
+          "label": "iTunes 8.2 for Mac - Technical Specifications",
+          "url": "https://support.apple.com/en-ie/112656"
+        },
+        {
+          "label": "iTunes 8.1.1 for Mac - Technical Specifications",
+          "url": "https://support.apple.com/en-ie/112658"
+        },
+        {
+          "label": "iTunes 11 for Mac - Technical Specifications",
+          "url": "https://support.apple.com/en-ie/112584"
+        },
+        {
+          "label": "iTunes 10.7 for Mac - Technical Specifications",
+          "url": "https://support.apple.com/en-ie/112582"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/112028",
+          "title": "iTunes 12 for macOS - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 2,
+          "record_path": "data/apple/software/itunes-for-mac.json"
+        },
+        {
+          "url": "https://support.apple.com/en-ie/112621",
+          "title": "iTunes 9.2 for Mac - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 3,
+          "record_path": "data/apple/software/itunes-for-mac.json"
+        },
+        {
+          "url": "https://support.apple.com/en-ie/112654",
+          "title": "iTunes 8.0.2 for Mac - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 2,
+          "record_path": "data/apple/software/itunes-for-mac.json"
+        },
+        {
+          "url": "https://support.apple.com/en-ie/112656",
+          "title": "iTunes 8.2 for Mac - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 2,
+          "record_path": "data/apple/software/itunes-for-mac.json"
+        },
+        {
+          "url": "https://support.apple.com/en-ie/112658",
+          "title": "iTunes 8.1.1 for Mac - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 2,
+          "record_path": "data/apple/software/itunes-for-mac.json"
+        },
+        {
+          "url": "https://support.apple.com/en-ie/112584",
+          "title": "iTunes 11 for Mac - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 2,
+          "record_path": "data/apple/software/itunes-for-mac.json"
+        },
+        {
+          "url": "https://support.apple.com/en-ie/112582",
+          "title": "iTunes 10.7 for Mac - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 2,
+          "record_path": "data/apple/software/itunes-for-mac.json"
+        }
+      ]
+    },
+    {
+      "family": "software",
+      "label": "GarageBand",
+      "documentation_url": "https://support.apple.com/en-ie/docs/software/pl143",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/software/pl143",
+      "model": "GarageBand",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/software-docs-garageband.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "software",
+      "label": "iMovie",
+      "documentation_url": "https://support.apple.com/en-ie/docs/software/pl147",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/software/pl147",
+      "model": "iMovie",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/software-docs-imovie.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "software",
+      "label": "QuickTime for Mac",
+      "documentation_url": "https://support.apple.com/en-ie/docs/software/pl171",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/software/pl171",
+      "model": "QuickTime for Mac",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/software-docs-quicktime-for-mac.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/112444"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/112444",
+          "title": "QuickTime Pro 7 - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 3,
+          "record_path": "data/apple/software/quicktime-for-mac.json"
+        }
+      ]
+    },
+    {
+      "family": "software",
+      "label": "Keynote",
+      "documentation_url": "https://support.apple.com/en-ie/docs/software/pl152",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/software/pl152",
+      "model": "Keynote",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/software-docs-keynote.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "software",
+      "label": "Numbers",
+      "documentation_url": "https://support.apple.com/en-ie/docs/software/pl146",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/software/pl146",
+      "model": "Numbers",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/software-docs-numbers.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "software",
+      "label": "Pages",
+      "documentation_url": "https://support.apple.com/en-ie/docs/software/pl149",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/software/pl149",
+      "model": "Pages",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/software-docs-pages.html",
+      "spec_links": [],
+      "records": []
+    },
+    {
+      "family": "software",
+      "label": "Logic Pro",
+      "documentation_url": "https://support.apple.com/en-ie/docs/software/134082",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/software/134082",
+      "model": "Logic Pro",
+      "year_introduced": 2013,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/software-docs-logic-pro.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/111899"
+        },
+        {
+          "label": "Logic Pro 9 - Technical Specifications",
+          "url": "https://support.apple.com/en-ie/112574"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/111899",
+          "title": "Logic Pro - Tech Specs",
+          "status": "content_verified",
+          "section_count": 9,
+          "record_path": "data/apple/software/logic-pro.json"
+        },
+        {
+          "url": "https://support.apple.com/en-ie/112574",
+          "title": "Logic Pro 9 - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 2,
+          "record_path": "data/apple/software/logic-pro.json"
+        }
+      ]
+    },
+    {
+      "family": "software",
+      "label": "Motion",
+      "documentation_url": "https://support.apple.com/en-ie/docs/software/133281",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/software/133281",
+      "model": "Motion",
+      "year_introduced": 2011,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/software-docs-motion.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/111915"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/111915",
+          "title": "Motion 5 - Tech Specs",
+          "status": "content_verified",
+          "section_count": 1,
+          "record_path": "data/apple/software/motion.json"
+        }
+      ]
+    },
+    {
+      "family": "software",
+      "label": "Aperture",
+      "documentation_url": "https://support.apple.com/en-ie/docs/software/pl157",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/software/pl157",
+      "model": "Aperture",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/software-docs-aperture.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/112030"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/112030",
+          "title": "Aperture 3 - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 4,
+          "record_path": "data/apple/software/aperture.json"
+        }
+      ]
+    },
+    {
+      "family": "software",
+      "label": "Compressor",
+      "documentation_url": "https://support.apple.com/en-ie/docs/software/pl155",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/software/pl155",
+      "model": "Compressor",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/software-docs-compressor.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/111916"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/111916",
+          "title": "Compressor 4 - Tech Specs",
+          "status": "content_verified",
+          "section_count": 1,
+          "record_path": "data/apple/software/compressor.json"
+        }
+      ]
+    },
+    {
+      "family": "software",
+      "label": "Final Cut Pro",
+      "documentation_url": "https://support.apple.com/en-ie/docs/software/pl197",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/software/pl197",
+      "model": "Final Cut Pro",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/software-docs-final-cut-pro.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/111903"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/111903",
+          "title": "Final Cut Pro - Tech Specs",
+          "status": "content_verified",
+          "section_count": 1,
+          "record_path": "data/apple/software/final-cut-pro.json"
+        }
+      ]
+    },
+    {
+      "family": "software",
+      "label": "MainStage",
+      "documentation_url": "https://support.apple.com/en-ie/docs/software/134085",
+      "status": "documentation_captured",
+      "final_documentation_url": "https://support.apple.com/en-ie/docs/software/134085",
+      "model": "MainStage",
+      "year_introduced": null,
+      "documentation_archive": "apple_remaining_extraction/technical_specs_html/software-docs-mainstage.html",
+      "spec_links": [
+        {
+          "label": "Tech Specs",
+          "url": "https://support.apple.com/en-ie/112561"
+        }
+      ],
+      "records": [
+        {
+          "url": "https://support.apple.com/en-ie/112561",
+          "title": "MainStage 2 - Technical Specifications",
+          "status": "content_verified",
+          "section_count": 2,
+          "record_path": "data/apple/software/mainstage.json"
+        }
+      ]
+    }
+  ]
+}

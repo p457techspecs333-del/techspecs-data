@@ -1,0 +1,83 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "accessory",
+    "family": "Apple Accessories",
+    "model": "AirPort Express 802.11n (2nd Generation)",
+    "model_slug": "airport-express-802-11n-2nd-generation",
+    "model_year": "2012",
+    "year_introduced": 2012,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/112421",
+    "source_file": "apple_remaining_extraction/technical_specs_html/accessories-specs-airport-express-802-11n-2nd-generation-airport-express-802-11n-2nd-generation-technical-specifications.html",
+    "source_title": "AirPort Express 802.11n (2nd Generation) - Technical Specifications",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 11 sections archived.",
+    "notes": [
+      "Documentation index: https://support.apple.com/en-ie/docs/accessories/133637"
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Size and Weight",
+      "source_text": "Dimensions: 3.85 inches (98 mm) by 3.85 inches (98 mm) by 0.9 inch (23 mm)\nWeight: 8.5 ounces (240 grams)\n1"
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "IEEE 802.11a/b/g/n\nSimultaneous dual-band 2.4GHz and 5GHz\nRadio output power: 20.5 dBm maximum (varies by country)\nChannels 1-11, 36-116, and 132-165 approved for use in the United States and Canada\nChannels 1-13, 36-64, and 100-140 approved for use in Europe and Japan\nChannels 1-13, 36-64, and 149-165 approved for use in Australia, Hong Kong, and New Zealand"
+    },
+    {
+      "heading": "Compatibility",
+      "source_text": "Interoperable with 802.11a, 802.11b, 802.11g, and 802.11n-enabled Mac computers, iOS devices, Apple TV, Windows-based PCs, and other Wi‑Fi devices\nNAT, DHCP, PPPoE, VPN Passthrough (IPSec, PPTP, and L2TP), DNS Proxy, SNMP, IPv6 (6to4 and manual tunnels)"
+    },
+    {
+      "heading": "Security",
+      "source_text": "Wi‑Fi Protected Access™ (WPA/WPA2)\n2\nWPA/WPA2 Enterprise\n2\nWireless security (WEP) configurable for 40-bit and 128-bit encryption\nMAC address filtering\nNAT firewall\n802.1X, PEAP, LEAP, TTLS, TLS, FAST\nTime-based access control"
+    },
+    {
+      "heading": "Software and Documentation",
+      "source_text": "Printed documentation included\nAirPort Utility for Mac available for free download\nAirPort Utility for iOS available for free download\nBonjour for Windows available for free download"
+    },
+    {
+      "heading": "Interfaces",
+      "source_text": "Simultaneous dual-band 802.11n wireless\n10/100BASE-T Ethernet WAN port for connecting a DSL modem, cable modem, or Ethernet network\n10/100BASE-T Ethernet LAN port for connecting a computer, Ethernet hub, or networked printer\nUSB 2 port for connecting a USB printer\n3.5-mm audio minijack for analog or optical digital sound\n3"
+    },
+    {
+      "heading": "Number of Users",
+      "source_text": "50"
+    },
+    {
+      "heading": "Electrical and Environmental Requirements",
+      "source_text": "100-240V AC, 50-60Hz; input current: 0.2 amp\nOperating temperature: 32° to 95° F (0° to 35° C)\nStorage temperature: -13° to 140° F (-25° to 60° C)\nRelative humidity (operating): 20% to 90%, noncondensing\nOperating altitude: tested up to 10,000 feet (3000 m)\nMaximum storage altitude: 15,000 feet"
+    },
+    {
+      "heading": "Agency Approval",
+      "source_text": "FCC 15 Class B, Canada RSS-210, EN 300-328, EN 301-489, EN 301 893, ARIB STD-T66, RCR STD-T33, AS/NZS 4268: 2003, UL 60950, CSA-C22.2 No. 60950"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "Setup and Administration\niPhone, iPad, or iPod touch with iOS 6 or later and AirPort Utility\nMac with OS X Lion v10.7.3 or later and\nAirPort Utility 6.1\nMac with OS X v10.5.7 or later and\nAirPort Utility 5.6.1\nPC with Windows 7 or later and\nAirPort Utility 5.6.1\nWireless Device Access\nAny Wi‑Fi-enabled device that uses the 802.11a/b/g/n specification\nShared Printing with a USB Printer\nUSB printer\nMac with OS X v10.2.7 or later\nPC with Windows XP (SP3), Windows Vista (SP2), Windows 7 (SP1), or Windows 8"
+    },
+    {
+      "heading": "AirPort Express and the Environment",
+      "source_text": "Apple takes a complete product life-cycle approach to determining our environmental impact.\nLearn more\nAirPort Express is designed with the following features to reduce its environmental impact:\nBrominated flame retardant-free\nPVC-free\n4\nMeets ENERGY STAR 1.0 requirements for Small network equipment\nApple and the Environment\nLearn more\nabout Apple’s dedication to reducing the environmental impact of our products and process. The Apple\nProduct Environmental Specification\ndetails the environmental attributes of our products.\nRecycling\nApple takes a holistic view of materials management and waste minimization.\nLearn more\nabout how to recycle your Mac."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass technical specification record; normalized values not inferred."
+  ]
+}

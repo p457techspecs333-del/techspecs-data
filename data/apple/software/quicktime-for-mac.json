@@ -1,0 +1,51 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "software",
+    "family": "Apple Software",
+    "model": "QuickTime for Mac",
+    "model_slug": "quicktime-for-mac",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/112444",
+    "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-quicktime-for-mac-quicktime-pro-7-technical-specifications.html",
+    "source_title": "QuickTime Pro 7 - Technical Specifications",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 3 sections archived.",
+    "notes": [
+      "Documentation index: https://support.apple.com/en-ie/docs/software/pl171"
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Overview",
+      "source_text": "Please note:\nYour QuickTime 7 Pro registration code only works with QuickTime 7. Be sure you have downloaded and installed\nQuickTime Player 7\nbefore you enter your QuickTime 7 Pro registration code.\nConvert media formats\nConvert your QuickTime movies to a variety of formats for viewing on your iPod or mobile phone or sharing with friends and family via email or the web.\n1\nExport to over a dozen different video and audio formats.\nEdit with ease\nUse the cut, copy and paste capabilities of QuickTime Pro to edit your movies or even add a new sound track. You can even add annotations, rotate your video and more.\nCreate stunning video\nWith your iSight or other FireWire camera connected to your Mac, you can create beautiful video with a single click and share it via email.\nBuild your QuickTime video library\nBuild a library of movies by saving them from the web to your computer for enjoyment any time.\n2\nView movies shot with your camera phone, digital camera or camcorder. QuickTime 7 Pro supports major video formats including H.264, MPEG-4 and Motion JPEG.\nRecord your podcast\nPlug in a USB microphone and use QuickTime 7 Pro to capture audio that can be shared with the world as a podcast. The one-button recording interface couldn't be simpler or easier to use."
+    },
+    {
+      "heading": "How to upgrade to QuickTime Pro",
+      "source_text": "Make sure QuickTime 7 Player is installed on your computer.\nPurchase a QuickTime Pro registration code, which will be sent via email.\nOpen the email from Apple and locate the 20-digit registration code.\nGo to http://www.apple.com/quicktime/pro/unlock-mac_osx.html and follow the instructions to enter your registration code.\nEnjoy QuickTime Pro!"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "Mac OS X v10.5 or later\nA Mac computer with an Intel, PowerPC G5 or Power PC G4 (867MHz or faster) processor\nAt least 512MB of RAM\nQuickTime 7"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass technical specification record; normalized values not inferred."
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "accessory",
+    "family": "Apple Accessories",
+    "model": "AirTag",
+    "model_slug": "airtag",
+    "model_year": "2021",
+    "year_introduced": 2021,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111847",
+    "source_file": "apple_remaining_extraction/technical_specs_html/accessories-specs-airtag-airtag-tech-specs.html",
+    "source_title": "AirTag - Tech Specs",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 11 sections archived.",
+    "notes": [
+      "Documentation index: https://support.apple.com/en-ie/docs/accessories/300356"
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Size and Weight",
+      "source_text": "Diameter:\n31.9 mm (1.26 inches)\nHeight:\n8.0 mm (0.31 inches)\nWeight:\n11 grams (0.39 ounces)"
+    },
+    {
+      "heading": "Splash, Water and Dust Resistance",
+      "source_text": "Rated IP67 (maximum depth of 1 metre up to 30 minutes) under IEC standard 60529"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "Bluetooth for proximity finding\nApple-designed U1 chip for Ultra Wideband and Precision Finding\nNFC tap for Lost Mode"
+    },
+    {
+      "heading": "Speaker",
+      "source_text": "Built-in speaker"
+    },
+    {
+      "heading": "Battery",
+      "source_text": "User-replaceable CR2032 coin cell battery"
+    },
+    {
+      "heading": "Sensor",
+      "source_text": "Accelerometer"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "The Find My app is compatible with these iPhone accessibility features:\nVoiceOver\nInvert Colours\nLarger Text\nCompatibility with braille displays"
+    },
+    {
+      "heading": "System Requirements and Compatibility",
+      "source_text": "Apple ID\niPhone and iPod touch models with iOS 14.5 or later\niPad models with iPadOS 14.5 or later"
+    },
+    {
+      "heading": "Environmental Requirements",
+      "source_text": "Ambient operating temperature: −20° to 60° C (−4° to 140° F)"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "AirTag with CR2032 coin cell battery installed\nDocumentation"
+    },
+    {
+      "heading": "AirTag and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more about AirTag and the Environment\nAirTag is designed with the following features to reduce environmental impact:\n100% recycled tin in the solder of the main logic board\nMercury-free\nBFR-free\nPVC-free\nBeryllium-free\nApple and the Environment\nLearn more about Apple’s dedication to reducing the environmental impact of our products and processes. Or read our Product Environmental Reports for detailed information on the environmental performance of every Apple product."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass technical specification record; normalized values not inferred."
+  ]
+}

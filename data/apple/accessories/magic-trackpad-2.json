@@ -1,0 +1,71 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "accessory",
+    "family": "Apple Accessories",
+    "model": "Magic Trackpad 2",
+    "model_slug": "magic-trackpad-2",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111884",
+    "source_file": "apple_remaining_extraction/technical_specs_html/accessories-specs-magic-trackpad-2-magic-trackpad-tech-specs.html",
+    "source_title": "Magic Trackpad - Tech Specs",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 8 sections archived.",
+    "notes": [
+      "Documentation index: https://support.apple.com/en-ie/docs/accessories/pp177"
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Color",
+      "source_text": "White\nBlack"
+    },
+    {
+      "heading": "Overview",
+      "source_text": "Magic Trackpad is wireless and rechargeable, and it includes the full range of Multi-Touch gestures and Force Touch technology. Sensors underneath the trackpad surface detect subtle differences in the amount of pressure you apply, bringing more functionality to your fingertips and enabling a deeper connection to your content. It features a large edge-to-edge glass surface area, making scrolling and swiping through your favourite content more productive and comfortable than ever.\nMagic Trackpad pairs automatically with your Mac, so you can get to work straightaway. The rechargeable battery will power it for about a month or more between charges, and it also includes a woven USB-C to Lightning Cable that lets you pair and charge by connecting to a USB-C port on your Mac."
+    },
+    {
+      "heading": "What’s in the Box",
+      "source_text": "Magic Trackpad\nUSB-C to Lightning Cable"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height:\n0.49–1.09 cm (0.19–0.43 inches)\nWidth:\n16.0 cm (6.30 inches)\nDepth:\n11.49 cm (4.52 inches)\nWeight:\n0.230 kg (0.51 pounds)**"
+    },
+    {
+      "heading": "General",
+      "source_text": "Force Touch\nMulti-Touch"
+    },
+    {
+      "heading": "Connections and Expansion",
+      "source_text": "Bluetooth\nLightning port\nWireless"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "Bluetooth-enabled Mac with OS X 10.11 or later\niPad with iPadOS 13.4 or later"
+    },
+    {
+      "heading": "Compatibility",
+      "source_text": "iPad Models\niPad Pro 13-inch (M4)\niPad Pro 12.9-inch (6th generation)\niPad Pro 12.9-inch (5th generation)\niPad Pro 12.9-inch (4th generation)\niPad Pro 12.9-inch (3rd generation)\niPad Pro 12.9-inch (2nd generation)\niPad Pro 12.9-inch (1st generation)\niPad Pro 11-inch (M4)\niPad Pro 11-inch (4th generation)\niPad Pro 11-inch (3rd generation)\niPad Pro 11-inch (2nd generation)\niPad Pro 11-inch (1st generation)\niPad Pro 10.5-inch\niPad Pro 9.7-inch\niPad Air 13-inch (M2)\niPad Air 11-inch (M2)\niPad Air (5th generation)\niPad Air (4th generation)\niPad Air (3rd generation)\niPad Air 2\niPad (10th generation)\niPad (9th generation)\niPad (8th generation)\niPad (7th generation)\niPad (6th generation)\niPad (5th generation)\niPad mini (6th generation)\niPad mini (5th generation)\niPad mini 4\nMac Models\nMacBook Air (13-inch, M3, 2024)\nMacBook Air (15-inch, M3, 2024)\nMacBook Air (15-inch, M2, 2023)\nMacBook Air (13-inch, M2, 2022)\nMacBook Air (M1, 2020)\nMacBook Air (Retina, 13‑inch, 2020)\nMacBook Air (Retina, 13-inch, 2018–2019)\nMacBook Air (13-inch, Early 2015 - 2017)\nMacBook Air (11-inch, Early 2015)\nMacBook Pro (13‑inch, M2, 2022)\nMacBook Pro (13-inch, M1, 2020)\nMacBook Pro (13-inch, 2020)\nMacBook Pro (13-inch, 2016–2019)\nMacBook Pro (Retina, 13-inch, Late 2012 - 2015)\nMacBook Pro (14‑inch, 2023)\nMacBook Pro (14‑inch, 2021)\nMacBook Pro (16‑inch, 2023)\nMacBook Pro (16-inch, 2021)\nMacBook Pro (16-inch, 2019)\nMacBook Pro (15-inch, 2016–2019)\nMacBook Pro (Retina, 15-inch, Mid 2012 - 2015)\nMacBook (Retina, 12-inch, Early 2015 – 2017)\niMac (24-inch, M3, 2023)\niMac (24-inch, M1, 2021)\niMac (Retina 4K, 21.5-inch, 2017)\niMac (Retina 5K, 27-inch, 2019–2020)\niMac (Retina 5K, 27‑inch, 2017)\niMac (Retina 5K, 27-inch, Late 2014 - 2015)\niMac Pro (2017)\nMac Studio (2023)\nMac Studio (2022)\nMac mini (2023)\nMac mini (M1, 2020)\nMac mini (2018)\nMac mini (Late 2014)\nMac Pro (2023)\nMac Pro (2019)\nMac Pro (Late 2013)\nApple Vision Pro\nApple Vision Pro"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass technical specification record; normalized values not inferred."
+  ]
+}

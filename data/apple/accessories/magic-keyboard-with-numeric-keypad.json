@@ -1,0 +1,63 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "accessory",
+    "family": "Apple Accessories",
+    "model": "Magic Keyboard with Numeric Keypad",
+    "model_slug": "magic-keyboard-with-numeric-keypad",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/112037",
+    "source_file": "apple_remaining_extraction/technical_specs_html/accessories-specs-magic-keyboard-with-numeric-keypad-magic-keyboard-with-numeric-keypad-technical-specifications.html",
+    "source_title": "Magic Keyboard with Numeric Keypad - Technical Specifications",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 6 sections archived.",
+    "notes": [
+      "Documentation index: https://support.apple.com/en-ie/docs/accessories/pp217"
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Overview",
+      "source_text": "Magic Keyboard with Numeric Keypad features an extended layout, with document navigation controls for quick scrolling and full-size arrow keys for gaming. A scissor mechanism beneath each key allows for increased stability, while optimized key travel and a low profile provide a comfortable and precise typing experience. The numeric keypad is also great for spreadsheets and finance applications. And the built-in, rechargeable battery is incredibly long-lasting, powering your keyboard for about a month or more between charges.\n1"
+    },
+    {
+      "heading": "What’s in the Box",
+      "source_text": "Magic Keyboard with Numeric Keypad\nLightning to USB Cable"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height: 0.16–0.43 inch (0.41–1.09 cm)\nWidth: 16.48 inches (41.87 cm)\nDepth: 4.52 inches (11.49 cm)\nWeight: 0.86 pound (0.39 kg)*"
+    },
+    {
+      "heading": "General",
+      "source_text": "Multimedia keys"
+    },
+    {
+      "heading": "Connections and Expansion",
+      "source_text": "Bluetooth\nLightning port\nWireless"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "Bluetooth-enabled Mac computer with macOS 10.12.4 or later\niOS devices with iOS 10.3 or later"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass technical specification record; normalized values not inferred."
+  ]
+}

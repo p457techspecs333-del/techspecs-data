@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "software",
+    "family": "Apple Software",
+    "model": "Final Cut Pro",
+    "model_slug": "final-cut-pro",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111903",
+    "source_file": "apple_remaining_extraction/technical_specs_html/software-specs-final-cut-pro-final-cut-pro-tech-specs.html",
+    "source_title": "Final Cut Pro - Tech Specs",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 1 sections archived.",
+    "notes": [
+      "Documentation index: https://support.apple.com/en-ie/docs/software/pl197"
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Minimum System Requirements",
+      "source_text": "macOS 14.6 or later\n8GB of memory (16GB recommended)\nMetal‑capable graphics card (Intel-based Mac computers only)\n6.5GB of available disk space\nSome features require macOS Sequoia and a Mac with Apple silicon. Some features require internet access; fees may apply.\nhttps://www.apple.com/uk/final-cut-pro/specs/"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass technical specification record; normalized values not inferred."
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "accessory",
+    "family": "Apple Accessories",
+    "model": "Magic Mouse 2",
+    "model_slug": "magic-mouse-2",
+    "model_year": null,
+    "year_introduced": null,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/111885",
+    "source_file": "apple_remaining_extraction/technical_specs_html/accessories-specs-magic-mouse-2-magic-mouse-tech-specs.html",
+    "source_title": "Magic Mouse - Tech Specs",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 8 sections archived.",
+    "notes": [
+      "Documentation index: https://support.apple.com/en-ie/docs/accessories/pp178"
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Color",
+      "source_text": "White\nBlack"
+    },
+    {
+      "heading": "Overview",
+      "source_text": "Magic Mouse is wireless and rechargeable, with an optimised foot design that lets it glide smoothly across your desk. The Multi-Touch surface allows you to perform simple gestures such as swiping between web pages and scrolling through documents.\nThe rechargeable battery will power your Magic Mouse for about a month or more between charges. It’s ready to go straight out of the box and pairs automatically with your Mac, and it includes a woven USB-C to Lightning Cable that lets you pair and charge by connecting to a USB-C port on your Mac."
+    },
+    {
+      "heading": "What’s in the Box",
+      "source_text": "Magic Mouse\nUSB-C to Lightning Cable"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height:\n2.16 cm (0.85 inches)\nWidth:\n5.71 cm (2.25 inches)\nDepth:\n11.35 cm (4.47 inches)\nWeight:\n0.099 kg (0.22 pounds)\n*"
+    },
+    {
+      "heading": "General",
+      "source_text": "Multi-Touch"
+    },
+    {
+      "heading": "Connections and Expansion",
+      "source_text": "Bluetooth\nLightning port\nWireless"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "Bluetooth-enabled Mac with OS X 10.11 or later\niPad with iPadOS 13.4 or later"
+    },
+    {
+      "heading": "Compatibility",
+      "source_text": "iPad Models\niPad Pro 13-inch (M4)\niPad Pro 12.9-inch (6th generation)\niPad Pro 12.9-inch (5th generation)\niPad Pro 12.9-inch (4th generation)\niPad Pro 12.9-inch (3rd generation)\niPad Pro 12.9-inch (2nd generation)\niPad Pro 12.9-inch (1st generation)\niPad Pro 11-inch (M4)\niPad Pro 11-inch (4th generation)\niPad Pro 11-inch (3rd generation)\niPad Pro 11-inch (2nd generation)\niPad Pro 11-inch (1st generation)\niPad Pro 10.5-inch\niPad Pro 9.7-inch\niPad Air 13-inch (M2)\niPad Air 11-inch (M2)\niPad Air (5th generation)\niPad Air (4th generation)\niPad Air (3rd generation)\niPad Air 2\niPad (10th generation)\niPad (9th generation)\niPad (8th generation)\niPad (7th generation)\niPad (6th generation)\niPad (5th generation)\niPad mini (6th generation)\niPad mini (5th generation)\niPad mini 4\nMac Models\nMacBook Air (13-inch, M3, 2024)\nMacBook Air (15-inch, M3, 2024)\nMacBook Air (15-inch, M2, 2023)\nMacBook Air (13-inch, M2, 2022)\nMacBook Air (M1, 2020)\nMacBook Air (Retina, 13‑inch, 2020)\nMacBook Air (Retina, 13-inch, 2018–2019)\nMacBook Air (13-inch, Early 2015 - 2017)\nMacBook Air (11-inch, Early 2015)\nMacBook Pro (13‑inch, M2, 2022)\nMacBook Pro (13-inch, M1, 2020)\nMacBook Pro (13-inch, 2020)\nMacBook Pro (13-inch, 2016–2019)\nMacBook Pro (Retina, 13-inch, Late 2012 - 2015)\nMacBook Pro (14‑inch, 2023)\nMacBook Pro (14‑inch, 2021)\nMacBook Pro (16‑inch, 2023)\nMacBook Pro (16-inch, 2021)\nMacBook Pro (16-inch, 2019)\nMacBook Pro (15-inch, 2016–2019)\nMacBook Pro (Retina, 15-inch, Mid 2012 - 2015)\nMacBook (Retina, 12-inch, Early 2015 – 2017)\niMac (24-inch, M3, 2023)\niMac (24-inch, M1, 2021)\niMac (Retina 4K, 21.5-inch, 2017)\niMac (Retina 5K, 27-inch, 2019–2020)\niMac (Retina 5K, 27‑inch, 2017)\niMac (Retina 5K, 27-inch, Late 2014 - 2015)\niMac Pro (2017)\nMac Studio (2023)\nMac Studio (2022)\nMac mini (2023)\nMac mini (M1, 2020)\nMac mini (2018)\nMac mini (Late 2014)\nMac Pro (2023)\nMac Pro (2019)\nMac Pro (Late 2013)"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass technical specification record; normalized values not inferred."
+  ]
+}

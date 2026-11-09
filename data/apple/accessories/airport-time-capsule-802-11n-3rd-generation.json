@@ -1,0 +1,99 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "accessory",
+    "family": "Apple Accessories",
+    "model": "AirPort Time Capsule 802.11n (3rd Generation)",
+    "model_slug": "airport-time-capsule-802-11n-3rd-generation",
+    "model_year": "2009",
+    "year_introduced": 2009,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/112563",
+    "source_file": "apple_remaining_extraction/technical_specs_html/accessories-specs-airport-time-capsule-802-11n-3rd-generation-airport-time-capsule-802-11n-3rd-generation-technical-specifications.html",
+    "source_title": "AirPort Time Capsule 802.11n (3rd Generation) - Technical Specifications",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 15 sections archived.",
+    "notes": [
+      "Documentation index: https://support.apple.com/en-ie/docs/accessories/132719"
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Size and weight",
+      "source_text": "Length: 7.7 inches (197 mm)\nWidth: 7.7 inches (197 mm)\nHeight: 1.4 inches (36.3 mm)\nWeight: 3.5 pounds (1.6 kg)\n1"
+    },
+    {
+      "heading": "Security",
+      "source_text": "Wi-Fi Protected Access™ (WPA/WPA2)\n2\nWireless security (WEP) configurable for 40-bit and 128-bit encryption\nMAC address filtering\nNAT firewall\nSupport for RADIUS authentication\n802.1X, PEAP, LEAP, TTLS, TLS, FAST\nTime-based access control"
+    },
+    {
+      "heading": "Electrical",
+      "source_text": "Line voltage: 100-240V AC\nFrequency: 50Hz to 60Hz, single phase\nMaximum continuous power: 34W"
+    },
+    {
+      "heading": "Agency approvals",
+      "source_text": "FCC Part 15 Class B, Canada RSS-210, EN 300-328, EN 301-489, EN 301 893, ARIB STD-T66, RCR STD-T33, AS/NZS 4268: 2003, UL 60950, CSA-C22.2 No. 60950"
+    },
+    {
+      "heading": "Storage",
+      "source_text": "2TB or 3TB Serial ATA server-grade hard disk drive\n3"
+    },
+    {
+      "heading": "Interfaces",
+      "source_text": "One Gigabit Ethernet WAN port for connecting a DSL or cable modem\nThree Gigabit Ethernet LAN ports for connecting computers or network devices\nUSB port for connecting a USB printer or USB external hard drive\n802.11n wireless"
+    },
+    {
+      "heading": "Included in the box",
+      "source_text": "Time Capsule\nPower cord\nPrinted documentation"
+    },
+    {
+      "heading": "Environmental requirements",
+      "source_text": "Operating temperature: 50° to 95° F (10° to 35° C)\nStorage temperature: -13° to 140° F (-25° to 60° C)\nRelative humidity (operational): 20% to 80% (noncondensing)\nRelative humidity (storage): 10% to 90%\nMaximum operating altitude: 10,000 feet\nMaximum storage altitude: 15,000 feet"
+    },
+    {
+      "heading": "Wireless protocols",
+      "source_text": "IEEE 802.11a/b/g/n"
+    },
+    {
+      "heading": "Compatibility",
+      "source_text": "Interoperable with Wi-Fi Certified 802.11a, 802.11b, 802.11g, or 802.11n enabled Mac computers, iPad, iPhone, iPod touch, and Windows-based PCs\nNAT, DHCP, PPPoE, VPN Passthrough (IPSec, PPTP, and L2TP), DNS Proxy, SNMP, IPv6 (6to4 and manual tunnels)"
+    },
+    {
+      "heading": "Frequency bands",
+      "source_text": "2.4GHz and 5GHz simultaneously"
+    },
+    {
+      "heading": "Radio output power",
+      "source_text": "20 dBm (nominal)"
+    },
+    {
+      "heading": "Channels",
+      "source_text": "Channels 1-11, 36-48, and 149-165 approved for use in the United States and Canada\nChannels 1-13, 36-64, and 100-140 approved for use in Japan\nChannels 1-13, 36-64, 100-112, and 132-140 approved for use in Europe\nChannels 1-13, 36-64, and 149-165 approved for use in Australia, Hong Kong, and New Zealand"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "For Mac Users\nFor PC Users\nFor backup using Time Machine\nMac computer with Mac OS X 10.5.7 or later\n-\nFor setup and administration\nMac with Mac OS X v10.5.7 or later\nPC with Windows XP (SP3), Windows Vista (SP2), or Windows 7 (SP1)\nFor wireless client access\nMac with AirPort wireless capability\nPC with Wi-Fi Certified 802.11a/b/g/n card\nFor shared printing with a USB printer\nUSB printer; Mac with Mac OS X v10.2.7 or later\nUSB printer; PC with Windows XP (SP3), Windows Vista (SP2), or Windows 7(SP1)\nFor AirPort Disk with a USB hard drive\nMac with Mac OS X v10.4.8 or later\nPC with Windows XP (SP3), Windows Vista (SP2), or Windows 7(SP1)"
+    },
+    {
+      "heading": "Extended service and support",
+      "source_text": "The\nAppleCare Protection Plan\nfor your computer covers Time Capsule."
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass technical specification record; normalized values not inferred."
+  ]
+}

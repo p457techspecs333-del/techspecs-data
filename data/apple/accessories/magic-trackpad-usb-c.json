@@ -1,0 +1,71 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Apple",
+    "category": "accessory",
+    "family": "Apple Accessories",
+    "model": "Magic Trackpad (USB-C)",
+    "model_slug": "magic-trackpad-usb-c",
+    "model_year": "2024",
+    "year_introduced": 2024,
+    "variant": null
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://support.apple.com/en-ie/121932",
+    "source_file": "apple_remaining_extraction/technical_specs_html/accessories-specs-magic-trackpad-usb-c-magic-trackpad-usb-c-tech-specs.html",
+    "source_title": "Magic Trackpad (USB‑C) - Tech Specs",
+    "publisher": "Apple",
+    "published_at": null,
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 8 sections archived.",
+    "notes": [
+      "Documentation index: https://support.apple.com/en-ie/docs/accessories/pp196"
+    ]
+  },
+  "extraction": {
+    "method": "section_preserving",
+    "normalization_status": "archival_first_pass",
+    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "extracted_at": "2026-11-09",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Colour",
+      "source_text": "White Multi-Touch Surface\nBlack Multi-Touch Surface"
+    },
+    {
+      "heading": "Overview",
+      "source_text": "Magic Trackpad is wireless and rechargeable, and it includes the full range of Multi-Touch gestures and Force Touch technology. Sensors underneath the trackpad surface detect subtle differences in the amount of pressure you apply, bringing more functionality to your fingertips and enabling a deeper connection to your content. It features a large edge-to-edge glass surface area, making scrolling and swiping through your favourite content more productive and comfortable than ever.\nMagic Trackpad pairs automatically with your Mac, so you can get to work straightaway. The rechargeable battery will power it for about a month or more between charges.\nIt features a USB-C port and includes a woven USB-C Charge Cable that lets you pair and charge by connecting to a USB-C port on your Mac, so you can charge all of your favourite devices with just a single cable.\nMagic Trackpad works a treat with Apple Vision Pro for activities like complex spreadsheets, and works seamlessly together with your hands, eyes and voice when navigating Apple Vision Pro."
+    },
+    {
+      "heading": "What’s in the Box",
+      "source_text": "Magic Trackpad\nUSB‑C Charge Cable"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height:\n0.49–1.09 cm (0.19–0.43 inches)\nWidth:\n16.0 cm (6.30 inches)\nDepth:\n11.49 cm (4.52 inches)\nWeight:\n0.230 kg (0.51 pounds)*"
+    },
+    {
+      "heading": "General",
+      "source_text": "Force Touch\nMulti-Touch"
+    },
+    {
+      "heading": "Connections and Expansion",
+      "source_text": "Bluetooth\nUSB‑C port\nWireless"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "Mac with macOS 15.1 or later\niPad with iPadOS 18.1 or later\nApple Vision Pro with the latest version of visionOS"
+    },
+    {
+      "heading": "Compatibility",
+      "source_text": "iPad Models\niPad Pro 13-inch (M5)\niPad Pro 13-inch (M4)\niPad Pro 12.9-inch (6th generation)\niPad Pro 12.9-inch (5th generation)\niPad Pro 12.9-inch (4th generation)\niPad Pro 12.9-inch (3rd generation)\niPad Pro 12.9-inch (2nd generation)\niPad Pro 12.9-inch (1st generation)\niPad Pro 11-inch (M5)\niPad Pro 11-inch (M4)\niPad Pro 11-inch (4th generation)\niPad Pro 11-inch (3rd generation)\niPad Pro 11-inch (2nd generation)\niPad Pro 11-inch (1st generation)\niPad Pro 10.5-inch\niPad Pro 9.7-inch\niPad Air 13-inch (M4)\niPad Air 11-inch (M4)\niPad Air 13-inch (M3)\niPad Air 11-inch (M3)\niPad Air 13-inch (M2)\niPad Air 11-inch (M2)\niPad Air (5th generation)\niPad Air (4th generation)\niPad Air (3rd generation)\niPad Air 2\niPad (A16)\niPad (10th generation)\niPad (9th generation)\niPad (8th generation)\niPad (7th generation)\niPad (6th generation)\niPad (5th generation)\niPad mini (A17 Pro)\niPad mini (6th generation)\niPad mini (5th generation)\niPad mini 4\nMac Models\nMacBook Neo\nMacBook Air (13-inch, M5)\nMacBook Air (15-inch, M5)\nMacBook Air (13‑inch, M4)\nMacBook Air (15‑inch, M4)\nMacBook Air (13-inch, M3)\nMacBook Air (15-inch, M3)\nMacBook Air (15-inch, M2)\nMacBook Air (13-inch, M2)\nMacBook Air (M1)\nMacBook Pro (14-inch, M5 Pro or M5 Max)\nMacBook Pro (16-inch, M5 Pro or M5 Max)\nMacBook Pro (14-inch, M5)\nMacBook Pro (14‑inch, 2024)\nMacBook Pro (16‑inch, 2024)\nMacBook Pro (14‑inch, 2023)\nMacBook Pro (16‑inch, 2023)\nMacBook Pro (13‑inch, M2, 2022)\nMacBook Pro (14‑inch, 2021)\nMacBook Pro (16-inch, 2021)\nMacBook Pro (13-inch, M1, 2020)\niMac (24‑inch, M4, 2024)\niMac (24-inch, M3, 2023)\niMac (24-inch, M1, 2021)\nMac Studio (M5 Max or M5 Ultra)\nMac Studio (2025)\nMac Studio (2023)\nMac Studio (2022)\nMac mini (M6 or M5 Pro)\nMac mini (2024)\nMac mini (2023)\nMac mini (M1, 2020)\nMac Pro (2023)\nDisplay Models\nStudio Display (2026)\nStudio Display XDR\nApple Vision Pro\nApple Vision Pro (M5)\nApple Vision Pro (M2)"
+    }
+  ],
+  "record_notes": [
+    "Archival-first-pass technical specification record; normalized values not inferred."
+  ]
+}
