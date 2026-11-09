@@ -101,8 +101,17 @@ def main() -> int:
         source = record.get("source") if isinstance(record.get("source"), dict) else {}
         source_name = source.get("source_file")
         if source_name:
-            if Path(str(source_name)).name not in source_files:
-                warnings.append(f"{rel}: source_file {source_name!r} was not found under sources/")
+            # source_file may point to an archived HTML/PDF or other repository
+            # asset outside sources/*.md. Validate the actual repository-relative
+            # path rather than requiring every provenance file to be Markdown.
+            source_path = (ROOT / str(source_name)).resolve()
+            try:
+                source_path.relative_to(ROOT.resolve())
+            except ValueError:
+                warnings.append(f"{rel}: source_file {source_name!r} resolves outside the repository")
+            else:
+                if not source_path.is_file():
+                    warnings.append(f"{rel}: source_file {source_name!r} does not exist in the repository")
         else:
             expected = f"{path.stem}-source.md"
             if expected not in source_files:
