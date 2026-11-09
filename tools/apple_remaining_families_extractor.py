@@ -20,7 +20,7 @@ ROOT = Path("data/apple")
 HEADERS = {"User-Agent":"Mozilla/5.0 (compatible; TechSpecsResearch/1.0)","Accept-Language":"en-IE,en;q=0.9"}
 S = requests.Session(); S.headers.update(HEADERS)
 FAMILIES = [
- {"key":"airpods","label":"AirPods","category":"audio","index":"https://support.apple.com/en-ie/109525","kind":"hardware"},
+ {"key":"airpods","label":"AirPods","category":"audio","index":"https://support.apple.com/en-ie/docs/airpods","kind":"catalogue"},
  {"key":"homepod","label":"HomePod","category":"smart-speaker","index":"https://support.apple.com/en-gb/101609","kind":"hardware"},
  {"key":"ipod","label":"iPod","category":"portable-media-player","index":"https://support.apple.com/en-ie/103823","kind":"hardware"},
  {"key":"displays","label":"Apple Displays","category":"computer-display","index":"https://support.apple.com/en-ie/126265","kind":"hardware"},
