@@ -12,35 +12,67 @@
   "source": {
     "source_type": "manufacturer",
     "source_url": "https://support.apple.com/en-ie/111848",
-    "source_file": null,
+    "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-8.html",
     "source_title": "Apple Watch Series 8 - Technical Specifications",
-    "publisher": "Apple Support (Ireland)",
+    "publisher": "Apple Support",
     "published_at": null,
-    "checked_at": "2026-11-08",
+    "checked_at": "2026-11-09",
     "verification_status": "content_verified",
-    "verification_notes": "Direct official Apple Support Ireland Technical Specifications page verified at article 111848; year introduced 2022.",
+    "verification_notes": "Official Apple page captured 2026-11-09; page identity matched Apple Watch Series 8; 10 source sections extracted and archived at apple_watch_extraction/technical_specs_html/apple-watch-series-8.html.",
     "notes": []
   },
   "extraction": {
-    "method": "manual",
+    "method": "section_preserving",
     "normalization_status": "archival_first_pass",
-    "note": "Initial archival record prioritising correct model identity and official Apple source linkage. The linked Apple Support page identifies the model and exposes its Tech Specs reference; use the specification page as authority for full technical details. Do not split case size, finish or connectivity variants into separate records by default.",
-    "extracted_at": "2026-11-08",
+    "note": "Apple's original section headings and visible source text are retained in source order from captured official HTML. No normalized values or missing specifications have been inferred.",
+    "extracted_at": "2026-11-09",
     "reviewed_at": null
   },
   "sections": [
     {
-      "heading": "Model identification",
-      "source_text": "Apple Watch Series 8. Year introduced: 2022."
+      "heading": "Finishes",
+      "source_text": "GPS + Cellular\nAluminium\nMidnight\nStarlight\nSilver\n(PRODUCT)RED\n9\nStainless Steel\nGraphite (PVD)\nSilver\nGold (PVD)\nGPS\nAluminium\nMidnight\nStarlight\nSilver\n(PRODUCT)RED\n9\nApple Watch Hermès : Stainless Steel available in silver and space black (DLC)."
     },
     {
-      "heading": "Source coverage",
-      "source_text": "Apple Support's official product page is the reference point for the model and its technical specifications. Refer to the manufacturer source URL and its Tech Specs link for complete technical details."
+      "heading": "Features",
+      "source_text": "L1 GPS, GLONASS, Galileo, QZSS and BeiDou\nCompass\nAlways-on altimeter\nWater resistant\n50 metres\n3\nCertified IP6X dust resistant\n2\nBlood oxygen sensor\n(Blood Oxygen app)\n4\nElectrical heart sensor\n(ECG app)\n5\nThird-generation optical heart sensor\nInternational emergency calling\n6\nEmergency SOS\n1\nHigh-g accelerometer\nUp to 256 g-forces with Fall Detection and Crash Detection\nHigh dynamic range gyroscope\nAmbient light sensor\nSpeaker\nMicrophone\nApple Pay\nGymKit\nCapacity 32GB\nCeramic and sapphire crystal back"
+    },
+    {
+      "heading": "Display",
+      "source_text": "45mm\n396x484 pixels\n1,143 sq mm display area\n41mm\n352x430 pixels\n904 sq mm display area\nAlways-On Retina LTPO OLED display\nUp to 1,000 nits brightness"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "S8 SiP with 64-bit dual-core processor\nW3\nApple wireless chip\nU1 chip\n(Ultra Wideband)\n10"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "4G LTE and UMTS\n7\nGPS + Cellular models\nLearn more about available network providers\nWi‑Fi\n802.11b/g/n 2.4GHz and 5GHz\nBluetooth 5.3"
+    },
+    {
+      "heading": "Power",
+      "source_text": "Built-in rechargeable lithium-ion battery\nUp to 18 hours\n8\nUSB-C magnetic fast-charging cable"
+    },
+    {
+      "heading": "Environmental Features 11",
+      "source_text": "100% recycled aluminium in the case\n100% recycled tungsten in the Taptic Engine\n100% recycled rare earth elements in all magnets\n100% recycled tin in the SiP\nEnergy efficient\n12\nResponsible packaging\n13\nArsenic-free display glass\n14\nMercury-, BFR-, PVC- and beryllium-free\n14"
+    },
+    {
+      "heading": "Dimensions",
+      "source_text": "41mm\nHeight: 41mm\nWidth: 35mm\nDepth: 10.7mm\n45mm\nHeight: 45mm\nWidth: 38mm\nDepth: 10.7mm"
+    },
+    {
+      "heading": "Weight",
+      "source_text": "41mm\nAluminium\nGPS + Cellular : 32.2g\nGPS : 31.9g\nStainless Steel\nGPS + Cellular : 42.3g\n45mm\nAluminium\nGPS + Cellular : 39.1g\nGPS : 38.8g\nStainless Steel\nGPS + Cellular : 51.5g"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "Apple Watch Series 8\nBand/Loop\nApple Watch Magnetic Fast Charger to USB-C Cable (1m)\nThe case materials and the band types would be based on your selection"
     }
   ],
   "record_notes": [
-    "First-pass historical Apple Watch record based on an official Apple Support product page.",
-    "The URL points to the official product-specific support/downloads page, not a separately verified direct Tech Specs article.",
-    "Direct official Apple Support Tech Specs page verified during source audit."
+    "Archival-first-pass record generated from captured official Apple technical-specification HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "Case size, finish and GPS/cellular configurations remain within this model record unless later evidence establishes a meaningful separate product."
   ]
 }

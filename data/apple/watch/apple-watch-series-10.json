@@ -12,33 +12,107 @@
   "source": {
     "source_type": "manufacturer",
     "source_url": "https://support.apple.com/en-ie/121202",
-    "source_file": null,
+    "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-10.html",
     "source_title": "Apple Watch Series 10 - Tech Specs",
-    "publisher": "Apple Support (Ireland)",
+    "publisher": "Apple Support",
     "published_at": null,
-    "checked_at": "2026-11-08",
-    "verification_status": "url_checked",
-    "verification_notes": "Official Apple Support Tech Specs URL and model title confirmed from Apple-indexed content. The official page remains the authority for full specifications.",
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple page captured 2026-11-09; page identity matched Apple Watch Series 10; 20 source sections extracted and archived at apple_watch_extraction/technical_specs_html/apple-watch-series-10.html.",
     "notes": []
   },
   "extraction": {
-    "method": "manual",
+    "method": "section_preserving",
     "normalization_status": "archival_first_pass",
-    "note": "Initial model record. Correct model identity and official Apple source URL are the priority; complete transcription and normalized specifications are not required at this stage.",
-    "extracted_at": "2026-11-08",
+    "note": "Apple's original section headings and visible source text are retained in source order from captured official HTML. No normalized values or missing specifications have been inferred.",
+    "extracted_at": "2026-11-09",
     "reviewed_at": null
   },
   "sections": [
     {
-      "heading": "Model identification",
-      "source_text": "Apple Watch Series 10. Year introduced: 2024."
+      "heading": "Material and Finish",
+      "source_text": "Aluminium case\nJet Black\nRose Gold\nSilver\nTitanium case\nSlate\nGold\nNatural"
     },
     {
-      "heading": "Source reference",
-      "source_text": "See the official Apple Tech Specs page at source_url for the full manufacturer-published information. Connectivity, case sizes, finishes and other configurations are not split into separate product records by default."
+      "heading": "Size and Weight",
+      "source_text": "46mm\nHeight:\n46mm\nWidth:\n39mm\nDepth:\n9.7mm\n416x496 pixels\n1220 sq mm display area\nWeight (aluminium, GPS):\n36.4 grams\nWeight (aluminium, GPS) + Cellular:\n35.3 grams\nWeight (titanium):\n41.7 grams\nFits 140–245mm wrists\n42mm\nHeight:\n42mm\nWidth:\n36mm\nDepth:\n9.7mm\n374x446 pixels\n989 sq mm display area\nWeight (aluminium, GPS):\n30 grams\nWeight (aluminium, GPS) + Cellular:\n29.3 grams\nWeight (titanium):\n34.4 grams\nFits 130–200mm wrists"
+    },
+    {
+      "heading": "Hardware and Buttons",
+      "source_text": "Display\nDigital Crown\nMicrophone with voice isolation\nSide button\nStrap Release\nElectrical heart sensor\nSpeaker / air vent\nOptical heart sensor"
+    },
+    {
+      "heading": "Controls",
+      "source_text": "Digital Crown with haptic feedback\nSide button\nDouble tap gesture\nSiri with on‑device processing"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "S10 SiP with 64‑bit dual-core processor\n4‑core Neural Engine\n64GB capacity"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Electrical heart sensor\nThird‑generation optical heart sensor\nTemperature sensor\n1\nCompass\nAlways‑on altimeter\nHigh‑g accelerometer\nHigh dynamic range gyroscope\nAmbient light sensor\nDepth gauge\nWater temperature sensor"
+    },
+    {
+      "heading": "Health and Wellness",
+      "source_text": "ECG app\n2\nCycle Tracking app with retrospective ovulation estimates\n3\nHeart Rate app\nHigh and low heart rate notifications\nIrregular rhythm notifications\n4\nMedications app\nMindfulness app with state of mind tracking\nNoise app\nSleep app including sleep stages\nSleep apnoea notifications\n5"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Always‑On Retina LTPO3 display\nWide‑angle OLED\nUp to 40% brighter when viewed at an angle\nEdge‑to‑edge display\nIon‑X front glass (aluminium cases)\nSapphire front crystal (titanium cases)\nUp to 2,000 nits maximum brightness\n1 nit minimum brightness\n326 pixels per inch"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Speaker\nMedia playback"
+    },
+    {
+      "heading": "Power and Battery Life",
+      "source_text": "All‑day battery life, up to 18 hours of normal use\n6\nUp to 36 hours in Low Power Mode\n6\nBuilt‑in rechargable lithium‑ion battery\nFast‑charge capable\n7\nUp to 80% charge in about 30 minutes\n7\n15 minutes for up to 8 hours of normal use\n8 minutes for up to 8 hours of sleep tracking\nLearn more about Power and Battery Life"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "watchOS\nwatchOS is the world’s most advanced wearable operating system, with apps and features designed to keep you active, healthy, safe and connected.\nLearn more about watchOS"
+    },
+    {
+      "heading": "Workouts and Activity",
+      "source_text": "Running\nCustom workouts\nCustomisable Workout Views\nTraining load\nHeart Rate Zones\nRace Route\nPacer\nStride length, ground contact time and vertical oscillation\nAutomatic track detection\nMultisport workout\nHiking\nCompass with bearing, incline, elevation and coordinates\nCustom waypoints\nAutomatically generated waypoints to cellular connectivity\nBacktrack GPS data\nOffline maps with custom route creation\nTopographic maps for thousands of national and regional parks (US only)\nHundreds of curated hikes across all 63 US national parks\nCycling\nAverage speed, elevation gained and distance\nConnection to cycling accessories via Bluetooth\nFunctional Threshold Power\nPower Zones\nCadence\nLive Activity on iPhone\nSwimming\nPool swim or open water swim\nCustom workouts for pool swims\nSplits and auto sets\nSWOLF score\nAutomatic stroke detection\nKickboard detection\nAverage pace, total distance and lengths\nMore Workouts\nSkiing\nSnowboarding\nOutdoor Rowing\nPaddling\nGolf\nWalk\nElliptical\nRowing Machine\nStair Stepper\nHIIT\nYoga\nFunctional Stength Training\nDance\nCooldown\nCore Training\nPilates\nTai Chi\nWheelchair\nKickboxing\nMultisport\nOther"
+    },
+    {
+      "heading": "Safety",
+      "source_text": "Emergency SOS\n8\nInternational emergency calling\n9\nCrash Detection\n8\nFall Detection\nNoise monitoring\nBacktrack"
+    },
+    {
+      "heading": "Durability",
+      "source_text": "Water resistance 50m (swimproof)\n10\nDust resistance IP6X\n11"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "L1 GPS, GNSS, Galileo and BeiDou\nLTE and UMTS\n12\nWi‑Fi 4 (802.11n)\nBluetooth 5.3\nSecond-generation Ultra Wideband chip\n13\nApple Pay\nGymKit\nSupport for Family Setup\n14"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Built‑in accessibility features supporting vision, mobility, hearing and cognitive disabilities.\nLearn more about Accessibility\nFeatures include:\nVoiceOver\nZoom\nOn/Off Labels\nReduce Transparency\nIncrease Contrast\nColour Filters\nText Size\nBold Text\nReduce Motion\nHourly Chimes\nAssistiveTouch\nButton Click Speed\nTouch Accommodations\nAuto-Answer Calls\nType to Siri\nRTT Support\nAudio Volume Balance\nAuto Transcription\nLive Speech\nAccessibility Shortcut\nMono Audio\nTaptic Time\nPersonal Voice"
+    },
+    {
+      "heading": "Environmental Requirements",
+      "source_text": "Operating temperature:\n0° to 35° C (32° to 95° F)\nNon-operating storage temperature:\n–20° to 45° C (–4° to 113° F)\nRelative humidity:\n5% to 90% non-condensing\nOperating altitude:\n0 to 3,000 metres (0 to 10,000 feet)"
+    },
+    {
+      "heading": "Apple Watch Series 10 and the Environment",
+      "source_text": "Apple Watch Series 10 is designed to reduce environmental impact:\n15\nSee the Apple Watch Series 10 Product Environmental Report (PDF)\nProgress towards Apple 2030\nApple Watch Series 10 is one of Apple’s carbon-neutral products\n16\nMore than 30% recycled or renewable content\n17\n100% of manufacturing electricity sourced from clean electricity\n18\n50% or less shipped by air\n19\nMore than 80% emissions reduction against baseline\n20\n8.4kg CO2e total remaining emissions covered by high‑quality carbon credits\n21\nSee Apple’s commitment\nMaterials\n100% recycled aluminium in the case\n95% recycled titanium in the case\n100% recycled cobalt in the battery\n22\n100% recycled gold in the plating of multiple printed circuit boards\n100% recycled copper in multiple printed circuit boards\n100% recycled tin in the solder of all Apple-designed printed circuit boards\n100% recycled tungsten and copper wire in the Taptic Engine\n100% recycled rare earth elements in all magnets\n80% recycled steel in the speaker yoke and Taptic Engine\n25% renewable plastic component in the speaker\n100% fibre‑based packaging\n23\n30% recycled content in fibre packaging\nEnergy\n100% of manufacturing electricity for Apple Watch Series 10 is sourced from renewable electricity\n100% of expected customer energy use matched with low‑carbon energy\n24\nMeets California Energy Commission’s energy efficiency standards for battery charger systems\n25\nWaste\nNo established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme\nSmarter chemistry\n26\nArsenic‑free glass\nMercury-, BFR- and PVC‑free"
+    },
+    {
+      "heading": "Compatibility",
+      "source_text": "iPhone Xs or later with iOS 18 or later and iPhone SE (2nd generation or later)"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "Apple Watch Series 10\nStrap\nApple Watch Magnetic Fast Charger to USB‑C Cable (1m)"
     }
   ],
   "record_notes": [
-    "First-pass Apple Watch record; source URL and model identity are the priority."
+    "Archival-first-pass record generated from captured official Apple technical-specification HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "Case size, finish and GPS/cellular configurations remain within this model record unless later evidence establishes a meaningful separate product."
   ]
 }

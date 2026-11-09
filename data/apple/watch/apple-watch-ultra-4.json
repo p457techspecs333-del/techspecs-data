@@ -12,34 +12,59 @@
   "source": {
     "source_type": "manufacturer",
     "source_url": "https://www.apple.com/apple-watch-ultra-4/specs/",
-    "source_file": null,
-    "source_title": "Apple Watch Ultra 4 - Technical Specifications - Apple",
+    "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-ultra-4.html",
+    "source_title": "Apple Watch Ultra 4 Technical Specifications",
     "publisher": "Apple",
     "published_at": null,
-    "checked_at": "2026-11-08",
+    "checked_at": "2026-11-09",
     "verification_status": "content_verified",
-    "verification_notes": "Official Apple product technical specifications page; year introduced 2026. URL checked 2026-11-08.",
+    "verification_notes": "Official Apple page captured 2026-11-09; page identity matched Apple Watch Ultra 4; 8 source sections extracted and archived at apple_watch_extraction/technical_specs_html/apple-watch-ultra-4.html.",
     "notes": []
   },
   "extraction": {
-    "method": "manual",
+    "method": "section_preserving",
     "normalization_status": "archival_first_pass",
-    "note": "Initial archival record prioritising correct model identity and official Apple source linkage. The linked Apple page is the authority for full specifications. Do not split case size, finish or connectivity variants into separate records by default.",
-    "extracted_at": "2026-11-08",
+    "note": "Apple's original section headings and visible source text are retained in source order from captured official HTML. No normalized values or missing specifications have been inferred.",
+    "extracted_at": "2026-11-09",
     "reviewed_at": null
   },
   "sections": [
     {
-      "heading": "Model identification",
-      "source_text": "Apple Watch Ultra 4. Year introduced: 2026."
+      "heading": "Apple Watch Ultra 4 Technical Specifications",
+      "source_text": "Titanium case, Grade 5\nNatural, Black\nHeight: 49mm\nWidth: 44mm\nDepth: 12mm\n422 by 514 pixels\n1245 sq mm display area\nWeight (natural): 63.0 grams\nWeight (black): 63.1 grams\nFits 130–210mm wrists\nMicrophone\nSpeaker\nHealth Sensing System\nCustomizable Action button\nSiren/Speaker\nAntennas (GPS, cellular/satellite)\nMicrophone\nSide button\nMicrophone\nDigital Crown\nDepth gauge/Water temperature sensor/Altimeter\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\nCustomizable Action button\nDigital Crown with haptic feedback\nSide button\nSingle tap, double tap, and wrist flick gestures\nSiri powered by Apple Intelligence 1\nS11 chip with 64-bit dual-core processor\nAudio Intelligence (Live Rewind, Siri Recap, Shazam, Sound Recognition) 2\n4-core Neural Engine\n64GB capacity\nThe next generation of Apple Intelligence is centered around you, integrated into your apps, and built with privacy. Apple Intelligence powers Siri AI — an entirely new version of Siri that’s more personal, conversational, and powerful, along with helpful features across apps.\nLearn more\nHealth Sensing System: second‑generation electrical heart sensor, always‑on optical heart sensor, blood oxygen sensor, 3 and temperature sensor 4\nDepth gauge\nWater temperature sensor\nCompass\nAlways‑on altimeter\nHigh‑g accelerometer\nHigh dynamic range gyroscope\nAmbient light sensor\nReadiness app\nVitals app with heart rate, respiratory rate, wrist temperature, sleep duration, and heart rate variability (HRV) 5\nBlood Oxygen app 3\nECG app 6\nHeart Rate app\nHigh and low heart rate notifications\nRecovery HRV\nHigh‑frequency background heart rate tracking\nIrregular rhythm notifications 7\nAdvanced Cycle Tracking app with fertile window estimates, retrospective ovulation estimates, and perimenopause and menopause support 8\nMedications app 9\nMindfulness app with state of mind tracking\nNoise app\nSleep app including sleep stages\nSleep score\nSleep apnea notifications 10\nHypertension notifications 11\nAlways‑On Retina display with wide‑angle OLEDs and LTPO3\n1Hz refresh\nActive area 422 by 514 pixels, 326 pixels per inch\nFlat sapphire crystal display\n3000 nits peak brightness\n1 nit minimum brightness\nNight Mode for Apple Watch Ultra faces (Modular Ultra, Wayfinder, Orienteering)\nThree-microphone array with beamforming and wind noise mitigation\nDual speakers\nMedia playback\nSiren\nMultiday battery life, up to 50 hours of normal use 12\nUp to 84 hours in Low Power Mode 12\nUp to 18 hours workout tracking 13\nUp to 25 hours Extended Workout tracking 13\nUp to 45 hours Max Extended Workout tracking 13\nBuilt‑in rechargeable lithium‑ion battery\nFast‑charge capable 14\nUp to 80% charge in about 45 minutes 14\n15 minutes for up to 18 hours of normal use 15\n5 minutes for up to 10 hours of sleep tracking 15\nLearn more\nwatchOS\nwatchOS is the world’s most advanced wearable operating system, with apps and features designed to keep you active, healthy, safe, and connected.\nCustom workouts\nCustomizable Workout Views\nTraining Load / Workout Effort Tracking\nHeart Rate Zones (customizable)\nPostworkout heart rate\nVO 2 max\nRace Route\nPacer\nPrecision Start using Action button\nCadence, Stride Length, Ground Contact Time, Vertical Oscillation, and Running Power\nAutomatic track detection\nMultisport workout\nHeart Rate Zone, pace, and target alerts\nCompass with bearing, incline, elevation, and coordinates\nCustom waypoints\nAutomatically generated waypoints to cellular connectivity\nBacktrack GPS data\nOffline maps with custom route creation 16\nElevation alerts\nTopographic maps for thousands of national and regional parks (U.S. only)\nHundreds of curated hikes across all 63 U.S. national parks\nSiren\nCustom workouts\nCustomizable Workout Views\nTraining Load / Workout Effort Tracking\nAverage speed, elevation gained, and distance\nBluetooth-compatible with power meters\nFunctional Threshold Power (with power meter connection)\nLive Activity on iPhone\nHeart Rate Zones (customizable)\nCadence (rpm), speed (mph), power (watts), power zones (with power meter connection)\nPostworkout heart rate\nCustom workouts (pool swim) with haptics to cue the next interval\nCustomizable Workout Views (pool swim, open water swim)\nSplits and auto sets\nSWOLF score\nAutomatic stroke and count detection (including kickboard)\nWater temperature\nAverage pace, total distance, heart rate, and laps\nRecreational dive to 40m\nDive computer app (available on the App Store) 17\nAutomatic launch at 1m\nCurrent and maximum depth duration\nGPS entry and exit points\nDepth gauge\nWater temperature sensor\nSatellite communications (Emergency SOS, Messages, Find My) 18\nEmergency SOS 19\nInternational emergency calling 20\nSiren\nFlashlight\nFall Detection 19\nCrash Detection 19\nLast Emergency Call Availability Waypoint\nNoise monitoring\nBacktrack\nCheck In\nWater resistance 100m (swim, snorkel, scuba, high-speed water sports) under ISO standard 22810:2010 21\nDust resistance IP6X under IEC 60529 22\nEN13319 recreational scuba diving to 40m (±1m accuracy)\nTested to MIL-STD 810H against subsections for altitude, high temperature, low temperature, temperature shock, immersion, freeze with thaw, ice and freezing rain, and shock and vibration\nAll models\nSupport for 2.4GHz and 5GHz Wi‑Fi networks\nWi‑Fi 4 (802.11n)\nBluetooth 5.3\nPrecision dual‑frequency GPS (GPS, Galileo, QZSS, and BeiDou)\nSecond‑generation Ultra Wideband chip 23\nApple Pay 24\nGymKit\nModel A3579\nSupports RedCap for 5G 25 and LTE 26\nFDD‑5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n66, n71)\nTDD‑5G NR (Bands n38, n40, n41, n53)\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 66, 71)\nTDD‑LTE (Bands 38, 39, 40, 41, 53)\nSupport for Apple Watch For Your Kids 27\nInternational roaming 28\nBuilt‑in accessibility features supporting vision, mobility, hearing, and cognitive disabilities.\nLearn more\nVoiceOver\nZoom\nOn/Off Labels\nReduce Transparency\nIncrease Contrast\nColor Filters\nText Size\nBold Text\nReduce Motion\nHourly Chimes\nAssistiveTouch\nButton Click Speed\nTouch Accommodations\nAuto‑Answer Calls\nType to Siri\nRTT Support\nAudio Volume Balance\nAudio Transcription\nLive Speech\nAccessibility Shortcut\nMono Audio\nTaptic Time\nPersonal Voice\nLive Listen\nSound Recognition\n–4° to 130° F (–20° to 55° C)\n32° to 95° F (0° to 35° C)\n–4° to 113° F (–20° to 45° C)\n32° to 104° F (0° to 40° C)\n5% to 90% noncondensing\n–1600 feet to 29,500 feet (–500m to 9000m)"
     },
     {
-      "heading": "Source coverage",
-      "source_text": "Refer to the official Apple Support source for the complete technical specifications, including materials, dimensions, hardware, sensors, display, battery, connectivity and compatibility."
+      "heading": "Apple Watch and the Environment",
+      "source_text": "See the Apple Watch Ultra 4 Product Environmental Report (PDF) - opens in a new tab"
+    },
+    {
+      "heading": "Progress toward Apple 2030",
+      "source_text": "Apple 2030 is our goal to be carbon neutral across our value chain. We design our products to be less carbon intensive by prioritizing the use of recycled and renewable content and low‑carbon materials while focusing on the energy efficiency of our software and hardware.\nSee Apple’s commitment"
+    },
+    {
+      "heading": "Materials",
+      "source_text": "Apple Watch Ultra 4 is made with 45% recycled content, 29 including:\n100% recycled cobalt in the battery\n100% recycled copper wire and recycled tungsten in the Taptic Engine\n100% recycled gold plating and tin solder in all Apple‑designed printed circuit boards\n95% recycled lithium in the battery\n80% recycled steel in the battery enclosure and Taptic Engine components\n100% recycled titanium in the case"
+    },
+    {
+      "heading": "Packaging",
+      "source_text": "100% fiber‑based packaging 30"
+    },
+    {
+      "heading": "Energy",
+      "source_text": "100% of manufacturing electricity for Apple Watch Ultra 4 is sourced from renewable electricity 31\n100% of expected customer energy use matched with renewable electricity 32"
+    },
+    {
+      "heading": "Waste",
+      "source_text": "No established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Program 33"
+    },
+    {
+      "heading": "Smarter chemistry 34",
+      "source_text": "All of the materials used in Apple products, accessories, and packaging are covered by the requirements of our Regulated Substances Specification (PDF) - opens in a new tab , which was one of the first in industry to restrict the use of key substances of concern. See the latest Environmental Progress Report (PDF) - opens in a new tab to understand Apple’s recent efforts in phasing out these chemistries.\niPhone 11 or later, including iPhone SE (2nd generation or later), with iOS 27 or later\nApple Watch Ultra 4\nBand\nApple Watch Magnetic Fast Charger to USB‑C Cable (1m)"
     }
   ],
   "record_notes": [
-    "First-pass Apple Watch record created from an official Apple Support source.",
-    "Direct official Apple Support Tech Specs page verified during source audit."
+    "Archival-first-pass record generated from captured official Apple technical-specification HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "Case size, finish and GPS/cellular configurations remain within this model record unless later evidence establishes a meaningful separate product."
   ]
 }

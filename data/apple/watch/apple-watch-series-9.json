@@ -11,35 +11,104 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-ie/docs/watch/pl207",
-    "source_file": null,
-    "source_title": "Apple Watch Series 9 - Manuals and Downloads",
+    "source_url": "https://support.apple.com/en-lb/111833",
+    "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-9.html",
+    "source_title": "Apple Watch Series 9 - Tech Specs",
     "publisher": "Apple Support",
     "published_at": null,
-    "checked_at": "2026-11-08",
+    "checked_at": "2026-11-09",
     "verification_status": "content_verified",
-    "verification_notes": "Official Apple Support product-specific page for Series 9; year introduced 2023. The direct Tech Specs article 111833 is also published by Apple at https://support.apple.com/en-lb/111833.",
+    "verification_notes": "Official Apple page captured 2026-11-09; page identity matched Apple Watch Series 9; 19 source sections extracted and archived at apple_watch_extraction/technical_specs_html/apple-watch-series-9.html.",
     "notes": []
   },
   "extraction": {
-    "method": "manual",
+    "method": "section_preserving",
     "normalization_status": "archival_first_pass",
-    "note": "Initial archival record prioritising correct model identity and official source linkage. The linked Apple page remains authoritative for the full specification. Do not split case size, finish or GPS/cellular configurations into separate records by default.",
-    "extracted_at": "2026-11-08",
+    "note": "Apple's original section headings and visible source text are retained in source order from captured official HTML. No normalized values or missing specifications have been inferred.",
+    "extracted_at": "2026-11-09",
     "reviewed_at": null
   },
   "sections": [
     {
-      "heading": "Model identification",
-      "source_text": "Apple Watch Series 9. Year introduced: 2023."
+      "heading": "Material and Finish",
+      "source_text": "Aluminum case\nPink\nMidnight\nStarlight\nSilver\n(PRODUCT)RED\nStainless steel case\nGold\nSilver\nGraphite"
     },
     {
-      "heading": "Source coverage",
-      "source_text": "Apple's official Tech Specs page is the authoritative reference for materials and finish, size and weight, hardware, chip, sensors, display, battery, connectivity, compatibility and in-box contents."
+      "heading": "Size and Weight",
+      "source_text": "45mm\nHeight:\n45mm\nWidth:\n38mm\nDepth:\n10.7mm\nWeight (aluminum, GPS):\n38.7 grams\nWeight (aluminum, GPS + Cellular):\n39.0 grams\nWeight (stainless steel):\n51.5 grams\nFits 140–245mm wrists\n41mm\nHeight:\n41mm\nWidth:\n35mm\nDepth:\n10.7mm\nWeight (aluminum, GPS):\n31.9 grams\nWeight (aluminum, GPS + Cellular):\n32.1 grams\nWeight (stainless steel):\n42.3 grams\nFits 130–200mm wrists"
+    },
+    {
+      "heading": "Hardware and Buttons",
+      "source_text": "Digital Crown\nMicrophone\nSide button\nElectrical heart sensor\nSpeaker/air vent\nOptical heart sensor"
+    },
+    {
+      "heading": "Controls",
+      "source_text": "Digital Crown with haptic feedback\nSide button\nDouble tap gesture\nSiri with on‑device processing"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "S9 SiP with 64‑bit dual‑core processor\n4‑core Neural Engine\n64GB capacity"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Electrical heart sensor\nThird‑generation optical heart sensor\nTemperature sensing\n1\nCompass\nAlways‑on altimeter\nHigh‑g accelerometer\nHigh dynamic range gyroscope\nAmbient light sensor"
+    },
+    {
+      "heading": "Health and Wellness",
+      "source_text": "Hypertension notifications\n25\nECG app\n2\nBlood Oxygen app\n26\nNightly wrist temperature tracking\n27\nCycle Tracking with retrospective ovulation estimates\n3\nSleep tracking\nSleep apnea notifications\n28\nSleep score\nVitals app featuring heart rate, respiratory rate, wrist temperature, and sleep duration\n29\nIrregular rhythm notifications\n4\nMindfulness app with state of mind tracking\nTraining load\nNoise monitoring\nGymKit\nHigh and low heart rate notifications\nLow cardio fitness notifications"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Always‑On Retina LTPO OLED display\nEdge‑to‑edge display\nIon‑X front glass (aluminum cases)\nSapphire front crystal (stainless steel cases)\nUp to 2000 nits maximum brightness\n1 nit minimum brightness\n326 pixels per inch"
+    },
+    {
+      "heading": "Power and Battery Life",
+      "source_text": "All‑day battery life, up to 18 hours of normal use\n5\nUp to 36 hours in Low Power Mode\n5\nBuilt‑in rechargeable lithium‑ion battery\nFast‑charge capable\n6\nUp to 80% charge in about 45 minutes\n6\nLearn more about Power and Battery Life"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "watchOS\nwatchOS is the world’s most advanced wearable operating system, with apps and features designed to keep you active, healthy, safe, and connected.\nLearn more about watchOS\nApple Watch User Guide"
+    },
+    {
+      "heading": "Workouts and Activity",
+      "source_text": "Running\nCustom interval workouts\nCustomizable Workout Views\nHeart Rate Zones\nRace Route\nStride length, ground contact time, and vertical oscillation\nAutomatic track detection\nMultisport workout\nHiking\nBearing, incline, elevation, and coordinates\nCustom waypoints\nAutomatically generated waypoints to cellular connectivity\nBacktrack GPS data\nTopographic maps for over 1000 national and regional parks (U.S. only)\nCycling\nAverage speed, elevation gained, and distance\nConnection to cycling accessories via Bluetooth\nFunctional Threshold Power\nPower Zones\nCadence\nLive Activity on iPhone\nSwimming\nPool swim or open water swim\nSplits and auto sets\nSWOLF score\nAutomatic stroke detection\nKickboard\nAverage pace, total distance, and laps\nMore Workouts\nWalk\nElliptical\nRower\nStair Stepper\nHIIT\nYoga\nFunctional Strength Training\nDance\nCooldown\nCore Training\nPilates\nTai Chi\nWheelchair\nKickboxing\nMultisport\nOther"
+    },
+    {
+      "heading": "Safety",
+      "source_text": "Emergency SOS\n7\nInternational emergency calling\n8\nCrash Detection\n7\nFall Detection"
+    },
+    {
+      "heading": "Durability",
+      "source_text": "Water resistance 50m (swimproof)\n9\nDust resistance IP6X\n10"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "L1 GPS, GNSS, Galileo, and BeiDou\nLTE and UMTS\n11\nWi‑Fi 4 (802.11n)\nBluetooth 5.3\nSecond‑generation Ultra Wideband chip\n12\nApple Pay\nGymKit\nSupports Apple Watch For Your Kids\n13"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Built‑in accessibility features supporting vision, mobility, hearing, and cognitive disabilities.\nLearn more about Accessibility\nFeatures Include:\nVoiceOver\nZoom\nOn/Off Labels\nReduce Transparency\nIncrease Contrast\nColor Filters\nText Size\nBold Text\nReduce Motion\nHourly Chimes\nAssistiveTouch\nButton Click Speed\nTouch Accommodations\nAuto-Answer Calls\nType to Siri\nRTT Support\nAudio Volume Balance\nAuto Transcription\nLive Speech\nAccessibility Shortcut\nMono Audio\nTaptic Time\nPersonal Voice"
+    },
+    {
+      "heading": "Environmental Requirements",
+      "source_text": "Operating temperature:\n32° to 95° F (0° to 35° C)\nNonoperating storage temperature:\n−4° to 113° F (−20° to 45° C)\nRelative humidity:\n5% to 90% noncondensing\nOperating altitude:\n0 feet to 10,000 feet (0m to 3000m)"
+    },
+    {
+      "heading": "Apple Watch Series 9 and the Environment",
+      "source_text": "Apple Watch Series 9 is designed to reduce environmental impact:\n14\nSee the Apple Watch Series 9 (Aluminum) Product Environmental Report (PDF)\nSee the Apple Watch Series 9 (Stainless Steel) Product Environmental Report (PDF)\nProgress toward Apple 2030\nApple Watch Series 9 with aluminum case and Sport Loop is one of Apple’s first carbon neutral products:\n30% recycled or renewable content\n15\n100% of manufacturing electricity sourced from clean electricity\n16\n50% or more shipped without airplanes\n17\n78% emissions reduction against baseline\n18\n8.1 kg CO\n2\ne total remaining emissions covered by high-quality carbon credits\n19\nSee Apple’s commitment\nMaterials\n100% recycled aluminum in the case\n100% recycled cobalt in the battery\n20\n100% recycled gold in the plating of multiple printed circuit boards\n100% recycled tin in the solder of multiple printed circuit boards\n100% recycled tungsten and copper wire in the Taptic Engine\n100% recycled rare earth elements in all magnets\n100% recycled copper foil in the main logic board\n26% renewable plastic in the speaker\n100% fiber-based packaging\n21\n47% recycled content in fiber packaging\nEnergy\n100% of manufacturing electricity for carbon neutral Apple Watch Series 9 with aluminum case and Sport Loop is sourced from clean electricity\n100% of expected customer energy use matched with clean electricity\n22\nMeets California Energy Commission’s energy efficiency standards for battery charger systems\n23\nWaste\nNo established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Program\nSmarter chemistry\n24\nArsenic-free display glass\nMercury-, BFR-, and PVC-free\nMeets European REACH regulation on nickel"
+    },
+    {
+      "heading": "Compatibility",
+      "source_text": "iPhone Xs or later with iOS 17 or later"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "Apple Watch Series 9\nBand\nApple Watch Magnetic Fast Charger to USB‑C Cable (1m)"
     }
   ],
   "record_notes": [
-    "First-pass Apple Watch Series 9 record linked to the directly verified official Tech Specs article.",
-    "Ireland product-specific support page: https://support.apple.com/en-ie/docs/watch/pl207."
+    "Archival-first-pass record generated from captured official Apple technical-specification HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "Case size, finish and GPS/cellular configurations remain within this model record unless later evidence establishes a meaningful separate product."
   ]
 }

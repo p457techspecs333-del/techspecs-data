@@ -12,33 +12,107 @@
   "source": {
     "source_type": "manufacturer",
     "source_url": "https://support.apple.com/en-ie/111832",
-    "source_file": null,
+    "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-ultra-2.html",
     "source_title": "Apple Watch Ultra 2 - Tech Specs",
-    "publisher": "Apple Support (Ireland)",
+    "publisher": "Apple Support",
     "published_at": null,
-    "checked_at": "2026-11-08",
-    "verification_status": "url_checked",
-    "verification_notes": "Official Apple Support Tech Specs URL and model title confirmed from Apple-indexed content. The official page remains the authority for full specifications.",
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple page captured 2026-11-09; page identity matched Apple Watch Ultra 2; 20 source sections extracted and archived at apple_watch_extraction/technical_specs_html/apple-watch-ultra-2.html.",
     "notes": []
   },
   "extraction": {
-    "method": "manual",
+    "method": "section_preserving",
     "normalization_status": "archival_first_pass",
-    "note": "Initial model record. Correct model identity and official Apple source URL are the priority; complete transcription and normalized specifications are not required at this stage.",
-    "extracted_at": "2026-11-08",
+    "note": "Apple's original section headings and visible source text are retained in source order from captured official HTML. No normalized values or missing specifications have been inferred.",
+    "extracted_at": "2026-11-09",
     "reviewed_at": null
   },
   "sections": [
     {
-      "heading": "Model identification",
-      "source_text": "Apple Watch Ultra 2. Year introduced: 2023."
+      "heading": "Material and Finish",
+      "source_text": "Titanium case, Grade 5\nNatural\nBlack"
     },
     {
-      "heading": "Source reference",
-      "source_text": "See the official Apple Tech Specs page at source_url for the full manufacturer-published information. Connectivity, case sizes, finishes and other configurations are not split into separate product records by default."
+      "heading": "Size and Weight",
+      "source_text": "Height:\n49mm\nWidth:\n44mm\nDepth:\n12mm\n410x502 pixels\n1,185 sq mm display area\nWeight (natural):\n61.4 grams\nWeight (black):\n61.8 grams\nFits 130–210mm wrists"
+    },
+    {
+      "heading": "Hardware and Buttons",
+      "source_text": "Microphone\nSpeaker\nAction button\nSiren\nSide button\nDigital Crown\nDepth gauge/water temperature sensor"
+    },
+    {
+      "heading": "Controls",
+      "source_text": "Customisable Action button\nDigital Crown with haptic feedback\nSide button\nDouble tap gesture\nSiri with on‑device processing"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "S9 SiP with 64‑bit dual-core processor\n4-core Neural Engine\n64GB capacity"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Electrical heart sensor\nThird-generation optical heart sensor\nTemperature sensor\n1\nDepth gauge ±1m accuracy\nWater temperature sensor\nCompass\nAlways-on altimeter\nHigh-g accelerometer\nHigh dynamic range gyroscope\nAmbient light sensor"
+    },
+    {
+      "heading": "Health and Wellness",
+      "source_text": "ECG app\n2\nCycle Tracking app with retrospective ovulation estimates\n3\nHeart Rate app\nHigh and low heart rate notifications\nIrregular rhythm notifications\n4\nMedications app\nMindfulness app with state of mind tracking\nNoise app\nSleep app including sleep stages\nSleep apnoea notifications\n5"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Always-On Retina LTPO2 OLED display\nFlat sapphire crystal display\nUp to 3,000 nits maximum brightness\n1 nit minimum brightness\n326 pixels per inch\nNight Mode using Modular Ultra or Wayfinder watch face"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Three-microphone array with beamforming and wind noise mitigation\nDual speakers\nMedia playback"
+    },
+    {
+      "heading": "Power and Battery Life",
+      "source_text": "Multi-day battery life, up to 36 hours of normal use\n6\nUp to 72 hours in Low Power Mode\n6\nBuilt-in rechargeable lithium-ion battery\nFast-charge capable\n7\nUp to 80% charge in about 1 hour\n7\nLearn more about Power and Battery Life"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "watchOS\nwatchOS is the world’s most advanced wearable operating system, with apps and features designed to keep you active, healthy, safe and connected.\nLearn more about watchOS"
+    },
+    {
+      "heading": "Workouts and Activity",
+      "source_text": "Running\nCustom workouts\nCustomisable Workout Views\nTraining load\nHeart Rate Zones\nRace Route\nPacer\nPrecision Start using Action button\nStride length, ground contact time and vertical oscillation\nAutomatic track detection\nMultisport workout\nHiking\nCompass with bearing, incline, elevation and coordinates\nCustom waypoints\nAutomatically generated waypoints to cellular connectivity\nBacktrack GPS data\nOffline maps with custom route creation\nElevation alerts\nHundreds of curated hikes across all 63 US national parks\nCycling\nAverage speed, elevation gained and distance\nConnection to cycling accessories via Bluetooth\nFunctional Threshold Power\nPower Zones\nCadence\nLive Activity on iPhone\nSwimming\nCustom workouts for pool swims\nSplits and auto sets\nSWOLF score\nStroke type tracking\nAutomatic stroke detection\nKickboard detection\nAverage pace, total distance and lengths\nDiving\nRecreational dive to 40m\nDive computer app (available on the App Store)\n8\nAutomatic launch at 1m\nCurrent and maximum depth duration\nGPS entry and exit points\nDepth gauge\nWater temperature sensor\nMore Workouts\nSkiing\nSnowboarding\nOutdoor Rowing\nPaddling\nGolf\nWalk\nElliptical\nRowing Machine\nStair Stepper\nHIIT\nYoga\nFunctional Strength Training\nDance\nCooldown\nCore Training\nPilates\nTai Chi\nWheelchair\nKickboxing\nMultisport\nand more"
+    },
+    {
+      "heading": "Safety",
+      "source_text": "Emergency SOS\n9\nInternational emergency calling\n10\nSiren\nCrash Detection\n9\nFall Detection\nLast Emergency Call Availability Waypoint\nNoise Monitoring\nBacktrack"
+    },
+    {
+      "heading": "Durability",
+      "source_text": "Water resistance 100m under ISO standard 22810:2010\n11\nDust resistance IP6X under IEC 60529\n12\nEN13319 recreational scuba diving to 40m (±1m accuracy)\nTested to MIL-STD 810H against subsections for altitude, high temperature, low temperature, temperature shock, immersion, freeze with thaw, ice and freezing rain, and shock and vibration"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "4G LTE and UMTS\n13\nL1+L5 Precision dual-frequency GPS (GPS, GLONASS, Galileo, QZSS and BeiDou)\nWi‑Fi 4 (802.11n)\nBluetooth 5.3\nSecond-generation Ultra Wideband chip\n14\nApple Pay\nGymKit\nSupport for Family Setup\n15"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Built-in accessibility features supporting vision, mobility, hearing and cognitive disabilities.\nLearn more about Accessibility\nFeatures include:\nVoiceOver\nZoom\nOn/Off Labels\nReduce Transparency\nIncrease Contrast\nColour Filters\nText Size\nBold Text\nReduce Motion\nHourly Chimes\nAssistiveTouch\nButton Click Speed\nTouch Accommodations\nAuto-Answer Calls\nType to Siri\nRTT Support\nAudio Volume Balance\nAuto Transcription\nLive Speech\nAccessibility Shortcut\nMono Audio\nTaptic Time\nPersonal Voice"
+    },
+    {
+      "heading": "Environmental Requirements",
+      "source_text": "On-wrist operating temperature:\n–20° to 55° C (–4° to 130° F)\nOperating temperature:\n0° to 35° C (32° to 95° F)\nNon-operating storage temperature:\n–20° to 45° C (–4° to 113° F)\nDive operating temperature:\n0° to 40° C (32° to 104° F)\nRelative humidity:\n5% to 90% non-condensing\nOperating altitude:\n–500 to 9,000 metres (–1,600 to 29,500 feet)"
+    },
+    {
+      "heading": "Apple Watch Ultra 2 and the Environment",
+      "source_text": "Apple Watch Ultra 2 paired with Alpine Loop, Trail Loop or Titanium Milanese Loop is designed to reduce environmental impact:\n16\nSee the Apple Watch Ultra 2 Product Environmental Report (PDF)\nProgress towards Apple 2030\nApple Watch Ultra 2 paired with Alpine Loop or Trail Loop is one of Apple’s first carbon-neutral products:\n30% recycled or renewable content\n17\n100% of manufacturing electricity sourced from clean electricity\n18\n50% or less shipped by air\n19\n81% emissions reduction against baseline\n20\n12kg CO\n2\ne or fewer total remaining emissions covered by high-quality carbon credits\n21\nSee Apple’s commitment\nMaterials\nCarbon-neutral Apple Watch Ultra 2 paired with Alpine Loop or Trail Loop has 30% recycled content, including:\n95% recycled titanium in the case\n100% recycled cobalt in the battery\n22\n100% recycled gold in the plating of multiple printed circuit boards\n100% recycled tin in the solder of multiple printed circuit boards\n100% recycled tungsten and copper wire in the Taptic Engine\n100% recycled rare earth elements in all magnets\n100% recycled copper foil in the main logic board\n20% recycled plastic from water bottles in the antenna line\n100% fibre-based packaging\n23\n38% recycled content in fibre packaging\nEnergy\n100% of manufacturing electricity for Apple Watch Ultra 2 and Alpine Loop or Trail Loop is sourced from clean electricity\n100% of expected customer energy use matched with clean electricity\n24\nMeets California Energy Commission’s energy efficiency standards for battery charger systems\n25\nWaste\nNo established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme\nSmarter chemistry\n26\nArsenic-free display glass\nMercury-, BFR- and PVC‑free\nMeets European REACH regulation on nickel"
+    },
+    {
+      "heading": "Compatibility",
+      "source_text": "iPhone Xs or later with iOS 18 or later and iPhone SE (2nd generation or later)"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "Apple Watch Ultra 2\nStrap\nApple Watch Magnetic Fast Charger to USB‑C Cable (1m)"
     }
   ],
   "record_notes": [
-    "First-pass Apple Watch record; source URL and model identity are the priority."
+    "Archival-first-pass record generated from captured official Apple technical-specification HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "Case size, finish and GPS/cellular configurations remain within this model record unless later evidence establishes a meaningful separate product."
   ]
 }

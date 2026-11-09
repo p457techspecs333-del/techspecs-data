@@ -1,0 +1,64 @@
+{
+  "scope": [
+    {
+      "model": "Apple Watch Series 12",
+      "requested_url": "https://www.apple.com/apple-watch-series-12/specs/",
+      "final_url": "https://www.apple.com/apple-watch-series-12/specs/",
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Apple Watch Series 11",
+      "requested_url": "https://support.apple.com/en-ie/125093",
+      "final_url": "https://support.apple.com/en-ie/125093",
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Apple Watch Series 10",
+      "requested_url": "https://support.apple.com/en-ie/121202",
+      "final_url": "https://support.apple.com/en-ie/121202",
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Apple Watch Series 9",
+      "requested_url": "https://support.apple.com/en-lb/111833",
+      "final_url": "https://support.apple.com/en-lb/111833",
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Apple Watch Series 8",
+      "requested_url": "https://support.apple.com/en-ie/111848",
+      "final_url": "https://support.apple.com/en-ie/111848",
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Apple Watch SE 3",
+      "requested_url": "https://support.apple.com/en-ie/125094",
+      "final_url": "https://support.apple.com/en-ie/125094",
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Apple Watch SE (2nd generation)",
+      "requested_url": "https://support.apple.com/en-by/111853",
+      "final_url": "https://support.apple.com/en-by/111853",
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Apple Watch Ultra 4",
+      "requested_url": "https://www.apple.com/apple-watch-ultra-4/specs/",
+      "final_url": "https://www.apple.com/apple-watch-ultra-4/specs/",
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Apple Watch Ultra 3",
+      "requested_url": "https://support.apple.com/en-ie/125095",
+      "final_url": "https://support.apple.com/en-ie/125095",
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Apple Watch Ultra 2",
+      "requested_url": "https://support.apple.com/en-ie/111832",
+      "final_url": "https://support.apple.com/en-ie/111832",
+      "verification_status": "content_verified"
+    }
+  ]
+}

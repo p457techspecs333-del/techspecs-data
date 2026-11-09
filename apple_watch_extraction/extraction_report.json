@@ -1,0 +1,153 @@
+{
+  "started_utc": "2026-11-09T11:25:22.176386+00:00",
+  "scope_count": 10,
+  "sources": [
+    {
+      "model": "Apple Watch Series 12",
+      "model_slug": "apple-watch-series-12",
+      "requested_url": "https://www.apple.com/apple-watch-series-12/specs/",
+      "status": 200,
+      "final_url": "https://www.apple.com/apple-watch-series-12/specs/",
+      "title": "Apple Watch Series 12 Technical Specifications",
+      "saved_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-12.html",
+      "bytes": 204223,
+      "section_count": 7,
+      "model_identity_matches": true,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Apple Watch Series 11",
+      "model_slug": "apple-watch-series-11",
+      "requested_url": "https://support.apple.com/en-ie/125093",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/125093",
+      "title": "Apple Watch Series 11 - Tech Specs",
+      "saved_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-11.html",
+      "bytes": 196714,
+      "section_count": 20,
+      "model_identity_matches": true,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Apple Watch Series 10",
+      "model_slug": "apple-watch-series-10",
+      "requested_url": "https://support.apple.com/en-ie/121202",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/121202",
+      "title": "Apple Watch Series 10 - Tech Specs",
+      "saved_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-10.html",
+      "bytes": 194184,
+      "section_count": 20,
+      "model_identity_matches": true,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Apple Watch Series 9",
+      "model_slug": "apple-watch-series-9",
+      "requested_url": "https://support.apple.com/en-lb/111833",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-lb/111833",
+      "title": "Apple Watch Series 9 - Tech Specs",
+      "saved_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-9.html",
+      "bytes": 121234,
+      "section_count": 19,
+      "model_identity_matches": true,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Apple Watch Series 8",
+      "model_slug": "apple-watch-series-8",
+      "requested_url": "https://support.apple.com/en-ie/111848",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111848",
+      "title": "Apple Watch Series 8 - Technical Specifications",
+      "saved_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-8.html",
+      "bytes": 171048,
+      "section_count": 10,
+      "model_identity_matches": true,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Apple Watch SE 3",
+      "model_slug": "apple-watch-se-3",
+      "requested_url": "https://support.apple.com/en-ie/125094",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/125094",
+      "title": "Apple Watch SE 3 - Tech Specs",
+      "saved_file": "apple_watch_extraction/technical_specs_html/apple-watch-se-3.html",
+      "bytes": 197198,
+      "section_count": 21,
+      "model_identity_matches": true,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Apple Watch SE (2nd generation)",
+      "model_slug": "apple-watch-se-2",
+      "requested_url": "https://support.apple.com/en-by/111853",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-by/111853",
+      "title": "Apple Watch SE (2nd generation) - Tech Specs",
+      "saved_file": "apple_watch_extraction/technical_specs_html/apple-watch-se-2.html",
+      "bytes": 116478,
+      "section_count": 19,
+      "model_identity_matches": true,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Apple Watch Ultra 4",
+      "model_slug": "apple-watch-ultra-4",
+      "requested_url": "https://www.apple.com/apple-watch-ultra-4/specs/",
+      "status": 200,
+      "final_url": "https://www.apple.com/apple-watch-ultra-4/specs/",
+      "title": "Apple Watch Ultra 4 Technical Specifications",
+      "saved_file": "apple_watch_extraction/technical_specs_html/apple-watch-ultra-4.html",
+      "bytes": 199438,
+      "section_count": 8,
+      "model_identity_matches": true,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Apple Watch Ultra 3",
+      "model_slug": "apple-watch-ultra-3",
+      "requested_url": "https://support.apple.com/en-ie/125095",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/125095",
+      "title": "Apple Watch Ultra 3 - Tech Specs",
+      "saved_file": "apple_watch_extraction/technical_specs_html/apple-watch-ultra-3.html",
+      "bytes": 199044,
+      "section_count": 20,
+      "model_identity_matches": true,
+      "verification_status": "content_verified"
+    },
+    {
+      "model": "Apple Watch Ultra 2",
+      "model_slug": "apple-watch-ultra-2",
+      "requested_url": "https://support.apple.com/en-ie/111832",
+      "status": 200,
+      "final_url": "https://support.apple.com/en-ie/111832",
+      "title": "Apple Watch Ultra 2 - Tech Specs",
+      "saved_file": "apple_watch_extraction/technical_specs_html/apple-watch-ultra-2.html",
+      "bytes": 193386,
+      "section_count": 20,
+      "model_identity_matches": true,
+      "verification_status": "content_verified"
+    }
+  ],
+  "errors": [],
+  "notes": [
+    "Official Apple and Apple Support pages only.",
+    "Original response HTML is archived before extraction.",
+    "A resolving URL alone is not content verification.",
+    "Records are updated only when the page identifies the expected model and yields actual specification sections.",
+    "Original headings and visible source text are preserved; missing values are not inferred."
+  ],
+  "finished_utc": "2026-11-09T11:25:38.963379+00:00",
+  "summary": {
+    "scope_count": 10,
+    "pages_captured": 10,
+    "content_verified": 10,
+    "partially_verified": 0,
+    "conflicting_or_unavailable": 0,
+    "specification_sections_extracted": 164
+  }
+}

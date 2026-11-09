@@ -1,5 +1,5 @@
 {
-  "catalogue_stage": "initial_official_source_inventory",
+  "catalogue_stage": "official_watch_specification_extraction",
   "brand": "Apple",
   "category": "smartwatch",
   "family": "Apple Watch",
@@ -232,12 +232,114 @@
   "notes": [
     "This is the first pass, not a claim that every Apple Watch family or every official Tech Specs URL has been discovered.",
     "Apple Watch model identification pages include case sizes, finishes, GPS/cellular variants and special editions. These should not automatically become separate TechSpecs product records.",
-    "Next step is to collect official Apple product/specification URLs and create the first model records in schema v2.0.",
     "Apple Watch Series 7 and Series 8 now have schema v2.0 records using official product-specific Apple Support pages. Direct Tech Specs article URLs remain a follow-up verification item for these historical models.",
     "Apple Watch Series 6 and Series 4 now have schema v2.0 records based on official Apple Support product-specific pages. Direct Tech Specs article URLs remain a verification follow-up where not exposed in search results.",
     "Apple Watch Series 5, Series 3 and the original Apple Watch Ultra now have schema v2.0 source-linked records.",
     "Apple Watch SE (1st generation) and Series 2 now have schema v2.0 product records linked to official Apple Support pages.",
     "Apple Watch Series 1 now has a schema v2.0 record. The original 2015 first-generation Apple Watch remains in the discovery inventory, but a suitable direct official product-specific page has not yet been confirmed.",
-    "Source audit confirmed official Apple Tech Specs pages for Series 9, Series 8, SE (2nd generation), Series 12 and Ultra 4. The source URLs are retained as published by Apple."
+    "Source audit confirmed official Apple Tech Specs pages for Series 9, Series 8, SE (2nd generation), Series 12 and Ultra 4. The source URLs are retained as published by Apple.",
+    "Ten-model Watch extraction run completed 2026-11-09. See apple_watch_extraction/extraction_report.json; incomplete pages are not labelled complete."
+  ],
+  "working_scope": [
+    {
+      "model": "Apple Watch Series 12",
+      "record_path": "data/apple/watch/apple-watch-series-12.json",
+      "source_url": "https://www.apple.com/apple-watch-series-12/specs/",
+      "source_verification_status": "content_verified",
+      "extraction_status": "extracted",
+      "section_count": 7,
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-12.html",
+      "limitation": null
+    },
+    {
+      "model": "Apple Watch Series 11",
+      "record_path": "data/apple/watch/apple-watch-series-11.json",
+      "source_url": "https://support.apple.com/en-ie/125093",
+      "source_verification_status": "content_verified",
+      "extraction_status": "extracted",
+      "section_count": 20,
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-11.html",
+      "limitation": null
+    },
+    {
+      "model": "Apple Watch Series 10",
+      "record_path": "data/apple/watch/apple-watch-series-10.json",
+      "source_url": "https://support.apple.com/en-ie/121202",
+      "source_verification_status": "content_verified",
+      "extraction_status": "extracted",
+      "section_count": 20,
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-10.html",
+      "limitation": null
+    },
+    {
+      "model": "Apple Watch Series 9",
+      "record_path": "data/apple/watch/apple-watch-series-9.json",
+      "source_url": "https://support.apple.com/en-lb/111833",
+      "source_verification_status": "content_verified",
+      "extraction_status": "extracted",
+      "section_count": 19,
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-9.html",
+      "limitation": null
+    },
+    {
+      "model": "Apple Watch Series 8",
+      "record_path": "data/apple/watch/apple-watch-series-8.json",
+      "source_url": "https://support.apple.com/en-ie/111848",
+      "source_verification_status": "content_verified",
+      "extraction_status": "extracted",
+      "section_count": 10,
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-8.html",
+      "limitation": null
+    },
+    {
+      "model": "Apple Watch SE 3",
+      "record_path": "data/apple/watch/apple-watch-se-3.json",
+      "source_url": "https://support.apple.com/en-ie/125094",
+      "source_verification_status": "content_verified",
+      "extraction_status": "extracted",
+      "section_count": 21,
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-se-3.html",
+      "limitation": null
+    },
+    {
+      "model": "Apple Watch SE (2nd generation)",
+      "record_path": "data/apple/watch/apple-watch-se-2.json",
+      "source_url": "https://support.apple.com/en-by/111853",
+      "source_verification_status": "content_verified",
+      "extraction_status": "extracted",
+      "section_count": 19,
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-se-2.html",
+      "limitation": null
+    },
+    {
+      "model": "Apple Watch Ultra 4",
+      "record_path": "data/apple/watch/apple-watch-ultra-4.json",
+      "source_url": "https://www.apple.com/apple-watch-ultra-4/specs/",
+      "source_verification_status": "content_verified",
+      "extraction_status": "extracted",
+      "section_count": 8,
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-ultra-4.html",
+      "limitation": null
+    },
+    {
+      "model": "Apple Watch Ultra 3",
+      "record_path": "data/apple/watch/apple-watch-ultra-3.json",
+      "source_url": "https://support.apple.com/en-ie/125095",
+      "source_verification_status": "content_verified",
+      "extraction_status": "extracted",
+      "section_count": 20,
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-ultra-3.html",
+      "limitation": null
+    },
+    {
+      "model": "Apple Watch Ultra 2",
+      "record_path": "data/apple/watch/apple-watch-ultra-2.json",
+      "source_url": "https://support.apple.com/en-ie/111832",
+      "source_verification_status": "content_verified",
+      "extraction_status": "extracted",
+      "section_count": 20,
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-ultra-2.html",
+      "limitation": null
+    }
   ]
 }

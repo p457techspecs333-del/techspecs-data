@@ -12,34 +12,107 @@
   "source": {
     "source_type": "manufacturer",
     "source_url": "https://support.apple.com/en-ie/125095",
-    "source_file": null,
+    "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-ultra-3.html",
     "source_title": "Apple Watch Ultra 3 - Tech Specs",
-    "publisher": "Apple Support (Ireland)",
+    "publisher": "Apple Support",
     "published_at": null,
-    "checked_at": "2026-11-08",
-    "verification_status": "url_checked",
-    "verification_notes": "Official Apple Support technical-specification URL and page title confirmed from Apple-indexed content. This record intentionally prioritises product identity and source linkage; the Apple page remains the authority for full specifications.",
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple page captured 2026-11-09; page identity matched Apple Watch Ultra 3; 20 source sections extracted and archived at apple_watch_extraction/technical_specs_html/apple-watch-ultra-3.html.",
     "notes": []
   },
   "extraction": {
-    "method": "manual",
+    "method": "section_preserving",
     "normalization_status": "archival_first_pass",
-    "note": "Initial model record. Content completeness is not the objective; correct model identity and official Apple source URL are the priority. Case finish and connectivity details should remain within this model unless they represent a meaningful separate product for TechSpecs.",
-    "extracted_at": "2026-11-08",
+    "note": "Apple's original section headings and visible source text are retained in source order from captured official HTML. No normalized values or missing specifications have been inferred.",
+    "extracted_at": "2026-11-09",
     "reviewed_at": null
   },
   "sections": [
     {
-      "heading": "Model identification",
-      "source_text": "Apple Watch Ultra 3. Year introduced: 2025."
+      "heading": "Material and Finish",
+      "source_text": "Titanium case, Grade 5\nNatural\nBlack"
     },
     {
-      "heading": "Source coverage",
-      "source_text": "The official Apple Tech Specs page is the authoritative reference for materials and finish, size and weight, hardware, chip, sensors, display, battery, connectivity, compatibility and in-box contents. Refer to the source URL for the complete current page."
+      "heading": "Size and Weight",
+      "source_text": "Height:\n49mm\nWidth:\n44mm\nDepth:\n12mm\n422x514 pixels\n1,245 sq mm display area\nWeight (natural):\n61.6 grams\nWeight (black):\n61.8 grams\nFits 130–210mm wrists"
+    },
+    {
+      "heading": "Hardware and Buttons",
+      "source_text": "Microphone\nSpeaker\nCustomisable Action button\nSiren/Speaker\nAntennas (GPS, cellular, satellite)\nSide button\nDigital Crown\nDepth gauge/water temperature sensor/altimeter"
+    },
+    {
+      "heading": "Controls",
+      "source_text": "Customisable Action button\nDigital Crown with haptic feedback\nSide button\nDouble tap and wrist flick gestures\nSiri with on‑device processing"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "S10 chip with 64‑bit dual‑core processor\n4-core Neural Engine\n64GB capacity"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Electrical heart sensor\nThird-generation optical heart sensor\nBlood oxygen sensor\n1\nTemperature sensor\n2\nDepth gauge\nWater temperature sensor\nCompass\nAlways-on altimeter\nHigh-g accelerometer\nHigh dynamic range gyroscope\nAmbient light sensor"
+    },
+    {
+      "heading": "Health and Wellness",
+      "source_text": "Blood Oxygen app\n1\nECG app\n3\nCycle Tracking app with retrospective ovulation estimates\n4\nHeart Rate app\nHigh and low heart rate notifications\nIrregular rhythm notifications\n5\nMedications app\nMindfulness app with state of mind tracking\nNoise app\nSleep app including sleep stages\nSleep score\nSleep apnoea notifications\n6\nHypertension notifications\n7"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Always‑On Retina display with wide‑angle OLEDs and LTPO3\n1Hz refresh\nActive area (422x514 pixels, 326 pixels per inch)\nFlat sapphire crystal display\nUp to 3,000 nits peak brightness\n1 nit minimum brightness\nNight Mode for Apple Watch Ultra faces (Modular Ultra, Wayfinder, Orienteering)"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Three-microphone array with beamforming and wind noise mitigation\nDual speakers\nMedia playback\nSiren"
+    },
+    {
+      "heading": "Power and Battery Life",
+      "source_text": "Multi‑day battery life, up to 42 hours of normal use\n8\nUp to 72 hours in Low Power Mode\n8\nBuilt-in rechargeable lithium‑ion battery\nFast-charge capable\n9\nUp to 80% charge in about 45 minutes\n9\n15 minutes for up to 12 hours of normal use\n10\n5 minutes for up to 8 hours of sleep tracking\n10\nLearn more about Power and Battery Life"
+    },
+    {
+      "heading": "Oper­at­ing System",
+      "source_text": "watchOS\nwatchOS is the world’s most advanced wearable operating system, with apps and features designed to keep you active, healthy, safe and connected."
+    },
+    {
+      "heading": "Workouts and Activity",
+      "source_text": "Running\nCustom workouts\nCustomisable Workout Views\nTraining Load / Workout Effort Tracking\nHeart Rate Zones (customisable)\nPost‑workout heart rate\nVO\n2\nmax\nRace Route\nPacer\nPrecision Start using Action button\nStride Length, Ground Contact Time, Cadence, Power and Vertical Oscillation\nAutomatic track detection\nMultisport workout\nHiking\nCompass with bearing, incline, elevation and coordinates\nCustom waypoints\nAutomatically generated waypoints to cellular connectivity\nBacktrack GPS data\nOffline maps with custom route creation\nElevation alerts\nTopographic maps for thousands of national and regional parks (US only)\nHundreds of curated hikes across all 63 US national parks\nSiren\nCycling\nCustom workouts\nCustomisable Workout Views\nTraining Load / Workout Effort Tracking\nAverage speed, elevation gained and distance\nBluetooth-compatible with power meters\nFunctional Threshold Power (with power meter connection)\nLive Activity on iPhone\nHeart Rate Zones (customisable)\nCadence (rpm), speed (mph), power (watts), power zones (with power meter connection)\nPost‑workout heart rate\nSwimming\nCustom workouts (pool swim) with haptics to cue the next interval\nCustomisable Workout Views (pool swim, open water swim)\nSplits and auto sets\nSWOLF score\nAutomatic stroke and count detection (including kickboard)\nWater temperature\nAverage pace, total distance, heart rate and lengths\nDiving\nRecreational dive to 40m\nDive computer app (available on the App Store)\n11\nAutomatic launch at 1m\nCurrent and maximum depth duration\nGPS entry and exit points\nDepth gauge\nWater temperature sensor\nMore Workouts\nSkiing\nSnowboarding\nOutdoor Rowing\nPaddling\nGolf\nWalk\nElliptical\nRowing Machine\nStair Stepper\nHIIT\nYoga\nFunctional Strength Training\nDance\nCooldown\nCore Training\nPilates\nTai Chi\nWheelchair\nKickboxing\nMultisport\nand more"
+    },
+    {
+      "heading": "Safety",
+      "source_text": "Satellite connectivity (Emergency SOS, Find My)\n12\nEmergency SOS\n13\nInternational emergency calling\n14\nSiren\nTorch\nCrash Detection\n13\nFall Detection\nLast Emergency Call Availability Waypoint\nNoise monitoring\nBacktrack"
+    },
+    {
+      "heading": "Durability",
+      "source_text": "Water resistance 100m (swim, snorkel, scuba, high-speed water sports) under ISO standard 22810:2010\n15\nDust resistance IP6X under IEC 60529\n16\nEN13319 recreational scuba diving to 40m (±1m accuracy)\nTested to MIL-STD 810H against subsections for altitude, high temperature, low temperature, temperature shock, immersion, freeze with thaw, ice and freezing rain, and shock and vibration"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "All Models\nSupport for 2.4GHz and 5GHz Wi‑Fi networks\nWi‑Fi 4 (802.11n)\nBluetooth 5.3\nL1 and L5 precision dual-frequency GPS (GPS, GLONASS, Galileo, QZSS and BeiDou)\nSecond-generation Ultra Wideband chip\n17\nApple Pay\n18\nGymKit\nModel A3281:\nSupports RedCap for 5G\n19\nand LTE\n20\nFDD‑5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n66, n71)\nTDD‑5G NR (Bands n38, n40, n41, n53)\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 66, 71)\nTDD‑LTE (Bands 38, 39, 40, 41, 53)\nSupport for Apple Watch For Your Kids\n21"
+    },
+    {
+      "heading": "Accessi­bility",
+      "source_text": "Built-in accessibility features supporting vision, mobility, hearing and cognitive disabilities.\nLearn more about Accessi­bility\nFeatures include:\nVoiceOver\nZoom\nOn/Off Labels\nReduce Transparency\nIncrease Contrast\nColour Filters\nText Size\nBold Text\nReduce Motion\nHourly Chimes\nAssistiveTouch\nButton Click Speed\nTouch Accommodations\nAuto-Answer Calls\nType to Siri\nRTT Support\nAudio Volume Balance\nAudio Transcription\nLive Speech\nAccessi­bility Shortcut\nMono Audio\nTaptic Time\nPersonal Voice\nLive Listen"
+    },
+    {
+      "heading": "En­viron­men­tal Require­ments",
+      "source_text": "On-wrist operating temperature:\n–20° to 55° C (–4° to 130° F)\nOper­at­ing temperature:\n0° to 35° C (32° to 95° F)\nNon-operating storage temperature:\n–20° to 45° C (–4° to 113° F)\nDive operating temperature:\n0° to 40° C (32° to 104° F)\nRelative humidity:\n5% to 90% non-condensing\nOper­at­ing altitude:\n–500 to 9,000 metres (–1,600 to 29,500 feet)"
+    },
+    {
+      "heading": "Apple Watch and the Environment",
+      "source_text": "Apple Watch Ultra 3 is designed to reduce environmental impact:\n22\nSee the Apple Watch Ultra 3 Product En­viron­men­tal Report (PDF)\nProgress towards Apple 2030\nApple 2030 is our commitment to be carbon neutral for our entire carbon footprint. Our plan to decarbonise products is rigorous and focuses on transitioning to low‑carbon electricity, designing with recycled and low‑carbon materials, and prioritising lower‑carbon ways of shipping products, like sea freight.\nSee Apple’s commitment\nMaterials\nApple Watch Ultra 3 is made with 40% recycled content,\n23\nincluding:\n100% recycled titanium in the case\n100% recycled cobalt and 95% recycled lithium in the battery\n100% recycled rare earth elements in all magnets\n100% recycled gold plating and tin solder in all Apple‑designed printed circuit boards\n100% recycled tungsten in the Taptic Engine\n80% recycled steel in the speaker and Taptic Engine\nEnergy\n100% of manufacturing electricity for Apple Watch Ultra 3 is sourced from renewable energy\n24\n100% of expected customer energy use matched with low-carbon electricity\nMeets California Energy Commission’s energy efficiency standards for battery charger systems\n25\nPackaging\n100% fibre-based packaging\n26\nWaste\nNo established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme\n27\nSmarter chemistry\n28\nAll of the materials used in Apple products, accessories and packaging are covered by the requirements of our\nRegulated Substances Specification\n, which was one of the first in industry to restrict the use of key substances of concern. See the latest\nEn­viron­men­tal Progress Report\nto understand Apple’s recent efforts in phasing out these chemistries."
+    },
+    {
+      "heading": "Compatibility",
+      "source_text": "iPhone 11 or later, including iPhone SE (2nd generation or later), with iOS 26 or later"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "Apple Watch Ultra 3\nStrap\nApple Watch Magnetic Fast Charger to USB-C Cable (1m)"
     }
   ],
   "record_notes": [
-    "First-pass Apple Watch record created from the official Apple Support Tech Specs URL.",
-    "Not intended to duplicate Apple's entire specification page or normalize every field."
+    "Archival-first-pass record generated from captured official Apple technical-specification HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "Case size, finish and GPS/cellular configurations remain within this model record unless later evidence establishes a meaningful separate product."
   ]
 }

@@ -12,34 +12,107 @@
   "source": {
     "source_type": "manufacturer",
     "source_url": "https://support.apple.com/en-ie/125093",
-    "source_file": null,
+    "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-11.html",
     "source_title": "Apple Watch Series 11 - Tech Specs",
-    "publisher": "Apple Support (Ireland)",
+    "publisher": "Apple Support",
     "published_at": null,
-    "checked_at": "2026-11-08",
-    "verification_status": "url_checked",
-    "verification_notes": "Official Apple Support technical-specification URL and page title confirmed from Apple-indexed content. This record intentionally prioritises product identity and source linkage; the Apple page remains the authority for full specifications.",
+    "checked_at": "2026-11-09",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple page captured 2026-11-09; page identity matched Apple Watch Series 11; 20 source sections extracted and archived at apple_watch_extraction/technical_specs_html/apple-watch-series-11.html.",
     "notes": []
   },
   "extraction": {
-    "method": "manual",
+    "method": "section_preserving",
     "normalization_status": "archival_first_pass",
-    "note": "Initial model record. Content completeness is not the objective; correct model identity and official Apple source URL are the priority. Connectivity, case size and finish variants should not be split into separate products by default.",
-    "extracted_at": "2026-11-08",
+    "note": "Apple's original section headings and visible source text are retained in source order from captured official HTML. No normalized values or missing specifications have been inferred.",
+    "extracted_at": "2026-11-09",
     "reviewed_at": null
   },
   "sections": [
     {
-      "heading": "Model identification",
-      "source_text": "Apple Watch Series 11. Year introduced: 2025."
+      "heading": "Material and Finish",
+      "source_text": "Aluminium case\nRose Gold\nSilver\nSpace Grey\nJet Black\nTitanium case\nGold\nNatural\nSlate"
     },
     {
-      "heading": "Source coverage",
-      "source_text": "The official Apple Tech Specs page is the authoritative reference for materials and finish, size and weight, hardware, chip, sensors, display, battery, connectivity, compatibility and in-box contents. Refer to the source URL for the complete current page."
+      "heading": "Size and Weight",
+      "source_text": "46mm\nHeight:\n46mm\nWidth:\n39mm\nDepth:\n9.7mm\n416x496 pixels\n1,196 sq mm display area\nWeight (aluminium, GPS):\n37.8 grams\nWeight (aluminium, GPS + Cellular):\n36.9 grams\nWeight (titanium):\n43.1 grams\nFits 140–245mm wrists\n42mm\nHeight:\n42mm\nWidth:\n36mm\nDepth:\n9.7mm\n374x446 pixels\n970 sq mm display area\nWeight (aluminium, GPS):\n30.3 grams\nWeight (aluminium, GPS + Cellular):\n29.7 grams\nWeight (titanium):\n34.6 grams\nFits 130–200mm wrists"
+    },
+    {
+      "heading": "Hardware and Buttons",
+      "source_text": "Display\nDigital Crown\nMicrophone with Voice Isolation\nSide button\nStrap release button\nElectrical heart sensor\nSpeaker / air vent\nBlood oxygen sensor and optical heart sensor"
+    },
+    {
+      "heading": "Controls",
+      "source_text": "Digital Crown with haptic feedback\nSide button\nDouble tap and wrist flick gestures\nFaster on-device Siri"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "S10 chip with 64‑bit dual-core processor\n4‑core Neural Engine\n64GB capacity\nW3 Apple wireless chip"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Electrical heart sensor\nThird‑generation optical heart sensor\nBlood oxygen sensor\n1\nTemperature sensor\n2\nCompass\nAlways‑on altimeter\nHigh‑g accelerometer\nHigh dynamic range gyroscope\nAmbient light sensor\nDepth gauge to 6 metres\nWater temperature sensor"
+    },
+    {
+      "heading": "Health and Wellness",
+      "source_text": "Blood Oxygen app\n1\nECG app\n3\nCycle Tracking app with retrospective ovulation estimates\n4\nHeart Rate app\nHigh and low heart rate notifications\nIrregular rhythm notifications\n5\nMedications app\nMindfulness app with state of mind tracking\nNoise app\nSleep app including sleep stages\nSleep score\nSleep apnoea notifications\n6\nHypertension notifications\n7"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Always‑On Retina display with wide‑angle OLEDs and LTPO3\nIon‑X front glass with 2x better scratch resistance (aluminium cases)\n8\nSapphire front crystal (titanium cases)\nUp to 2,000 nits peak brightness\n1 nit minimum brightness\n326 pixels per inch"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Speaker\nMicrophone\nMedia playback"
+    },
+    {
+      "heading": "Power and Battery Life",
+      "source_text": "All‑day battery life, up to 24 hours of normal use\n9\nUp to 38 hours in Low Power Mode\n9\nBuilt‑in rechargeable lithium‑ion battery\nFast‑charge capable\n10\nUp to 80% charge in about 30 minutes\n10\n15 minutes for up to 8 hours of normal use\n11\n5 minutes for up to 8 hours of sleep tracking\n11\nLearn more about Power and Battery Life"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "watchOS\nwatchOS is the world’s most advanced wearable operating system, with apps and features designed to keep you active, healthy, safe and connected."
+    },
+    {
+      "heading": "Workouts and Activity",
+      "source_text": "Running\nCustom workouts\nCustomisable Workout Views\nTraining Load\nHeart Rate Zones\nRace Route\nPacer\nStride Length, Ground Contact Time and Vertical Oscillation\nAutomatic track detection\nMultisport workout\nHiking\nCompass with bearing, incline, elevation and coordinates\nCustom waypoints\nAutomatically generated waypoints to cellular connectivity\nBacktrack GPS data\nOffline maps with custom route creation\nTopographic maps for thousands of national and regional parks (US only)\nHundreds of curated hikes across all 63 US national parks\nCycling\nAverage speed, elevation gained and distance\nConnection to cycling accessories via Bluetooth\nFunctional Threshold Power\nPower Zones\nCadence\nLive Activity on iPhone\nSwimming\nPool swim or open water swim\nCustom workouts for pool swims\nSplits and auto sets\nSWOLF score\nAutomatic stroke detection\nKickboard detection\nAverage pace, total distance and lengths\nMore Workouts\nSkiing\nSnowboarding\nOutdoor Rowing\nPaddling\nGolf\nWalk\nElliptical\nRowing Machine\nStair Stepper\nHIIT\nYoga\nFunctional Strength Training\nDance\nCooldown\nCore Training\nPilates\nTai Chi\nWheelchair\nKickboxing\nMultisport\nOther"
+    },
+    {
+      "heading": "Safety",
+      "source_text": "Emergency SOS\n12\nInternational emergency calling\n13\nCrash Detection\n12\nFall Detection\nNoise monitoring\nBacktrack"
+    },
+    {
+      "heading": "Durability",
+      "source_text": "Water resistance 50m (swimproof)\n14\nDust resistance IP6X\n15"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "All Models\nSupport for 2.4GHz and 5GHz Wi‑Fi networks\nWi‑Fi 4 (802.11n)\nBluetooth 5.3\nL1 GPS, GLONASS, Galileo, QZSS and BeiDou\nSecond-generation Ultra Wideband chip\n16\nApple Pay\nGymKit\nModel A3335 and A3337:\nSupports RedCap for 5G\n17\nand LTE\n18\nFDD‑5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n66, n71)\nTDD‑5G NR (Bands n38, n40, n41)\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 66, 71)\nTDD‑LTE (Bands 38, 39, 40, 41)\nSupport for Apple Watch For Your Kids\n19"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Built‑in accessibility features supporting vision, mobility, hearing and cognitive disabilities.\nLearn more about Accessibility\nFeatures include:\nVoiceOver\nZoom\nOn/Off Labels\nReduce Transparency\nIncrease Contrast\nColour Filters\nText Size\nBold Text\nReduce Motion\nHourly Chimes\nAssistiveTouch\nButton Click Speed\nTouch Accommodations\nAuto-Answer Calls\nType to Siri\nRTT Support\nAudio Volume Balance\nAuto Transcription\nLive Speech\nAccessibility Shortcut\nMono Audio\nTaptic Time\nPersonal Voice\nLive Listen"
+    },
+    {
+      "heading": "Environmental Requirements",
+      "source_text": "Operating temperature:\n0° to 35° C (32° to 95° F)\nNon-operating storage temperature:\n–20° to 45° C (–4° to 113° F)\nRelative humidity:\n5% to 90% non-condensing\nOperating altitude:\n0 to 3,000 metres (0 to 10,000 feet)"
+    },
+    {
+      "heading": "Apple Watch and the Environment",
+      "source_text": "Apple Watch Series 11 is designed to reduce environmental impact:\n20\nSee the Apple Watch Series 11 Product Environmental Report (PDF)\nProgress towards Apple 2030\nApple 2030 is our commitment to be carbon neutral for our entire carbon footprint. Our plan to decarbonise products is rigorous and focuses on transitioning to low‑carbon electricity, designing with recycled and low‑carbon materials, and prioritising lower‑carbon ways of shipping products, like sea freight.\nSee Apple’s commitment\nMaterials\nApple Watch Series 11 is made with 40% recycled content,\n21\nincluding:\n100% recycled aluminium in the aluminium case\n100% recycled titanium in the titanium case\n100% recycled cobalt and 95% recycled lithium in the battery\n100% recycled rare earth elements in all magnets\n100% recycled gold plating and tin solder in all Apple‑designed printed circuit boards\n100% recycled tungsten in the Taptic Engine\n40% recycled glass in the display glass\nEnergy\n100% of manufacturing electricity for Apple Watch Series 11 is sourced from renewable electricity\n22\n100% of expected customer energy use matched with low‑carbon electricity\nMeets California Energy Commission’s energy efficiency standards for battery charger systems\n23\nPackaging\n100% fibre-based packaging\n24\nThe Apple Watch Series 11 box is designed to increase the total number of boxes we can fit on a pallet by 40% compared to Apple Watch Series 8\nWaste\nNo established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme\n25\nSmarter chemistry\n26\nAll the materials used in Apple products, accessories and packaging are covered by the requirements of our\nRegulated Substances Specification\n, which was one of the first in industry to restrict the use of key substances of concern. See the latest\nEnvironmental Progress Report\nto understand Apple’s recent efforts in phasing out these chemistries."
+    },
+    {
+      "heading": "Compatibility",
+      "source_text": "iPhone 11 or later, including iPhone SE (2nd generation or later), with iOS 26 or later"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "Apple Watch Series 11\nStrap\nApple Watch Magnetic Fast Charger to USB‑C Cable (1m)"
     }
   ],
   "record_notes": [
-    "First-pass Apple Watch record created from the official Apple Support Tech Specs URL.",
-    "Not intended to duplicate Apple's entire specification page or normalize every field."
+    "Archival-first-pass record generated from captured official Apple technical-specification HTML.",
+    "Original Apple section headings and visible source text are retained. No normalized specifications have been inferred.",
+    "Case size, finish and GPS/cellular configurations remain within this model record unless later evidence establishes a meaningful separate product."
   ]
 }
