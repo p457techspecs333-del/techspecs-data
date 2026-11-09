@@ -8,7 +8,11 @@
     "model_slug": "airpods-1st-generation-airpods-1-tech-specs-111855",
     "model_year": 2016,
     "year_introduced": 2016,
-    "variant": null
+    "variant": null,
+    "model_numbers": [
+      "A1523",
+      "A1722"
+    ]
   },
   "source": {
     "source_type": "manufacturer",
@@ -19,9 +23,10 @@
     "published_at": null,
     "checked_at": "2026-11-09",
     "verification_status": "content_verified",
-    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 10 sections archived.",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 10 sections archived. Model identifiers and introduction year cross-checked against Apple's official AirPods identification page on 2026-11-09.",
     "notes": [
-      "Documentation index: https://support.apple.com/en-ie/docs/airpods/300040"
+      "Documentation index: https://support.apple.com/en-ie/docs/airpods/300040",
+      "Model numbers and introduction year verified against official Apple AirPods identification page: https://support.apple.com/en-ie/109525."
     ]
   },
   "extraction": {
@@ -167,6 +172,27 @@
         "source_section": "System Requirements",
         "verification_status": "source_transcribed",
         "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
+      }
+    },
+    "model_identifiers": {
+      "value": {
+        "value": [
+          "A1523",
+          "A1722"
+        ],
+        "unit": null,
+        "source_section": "Identify your AirPods with the model number",
+        "verification_status": "content_verified",
+        "notes": "Model numbers cross-checked against Apple's official AirPods identification page, https://support.apple.com/en-ie/109525, on 2026-11-09."
+      }
+    },
+    "year_introduced": {
+      "value": {
+        "value": 2016,
+        "unit": "year",
+        "source_section": "Identify your AirPods with the model number",
+        "verification_status": "content_verified",
+        "notes": "Introduction year cross-checked against Apple's official AirPods identification page, https://support.apple.com/en-ie/109525, on 2026-11-09."
       }
     }
   }
