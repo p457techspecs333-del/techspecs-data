@@ -161,6 +161,7 @@
     "AirPods documentation index was included in the second-pass run; historical AirPods technical-spec records have now been committed alongside accessories and software records.",
     "Distinct software technical-specification pages are stored as separate records to prevent variants or historical versions from overwriting one another.",
     "Distinct software spec pages now have unique filename-matching model slugs; legacy records with dates before schema-supported introduction year are not assigned an invalid year.",
-    "Final record paths and model slugs were normalized to schema v2 naming rules; unique software versions and AirPods specification pages are preserved as separate files."
+    "Final record paths and model slugs were normalized to schema v2 naming rules; unique software versions and AirPods specification pages are preserved as separate files.",
+    "Final pass uses schema-compliant single-hyphen slugs and preserves distinct software spec versions; duplicate AirPods records were replaced by the unique technical-spec pages."
   ]
 }
