@@ -1,0 +1,49 @@
+name: Capture official Apple Watch specifications
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/apple-watch-specs-extraction.yml"
+      - "tools/apple_watch_specs_extractor.py"
+
+permissions:
+  contents: write
+
+jobs:
+  extract-apple-watch-specs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install extraction dependencies
+        run: python -m pip install --disable-pip-version-check requests beautifulsoup4
+      - name: Clear generated Watch captures
+        run: rm -rf apple_watch_extraction/technical_specs_html apple_watch_extraction/extraction_report.json apple_watch_extraction/discovered_urls.json
+      - name: Capture and extract official Apple Watch specifications
+        run: python tools/apple_watch_specs_extractor.py
+      - name: Commit archived sources and extracted Watch records
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add apple_watch_extraction/ data/apple/watch/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Extract official Apple Watch technical specifications"
+            git push
+          fi
+      - name: Upload extraction report and source archive
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: apple-watch-specs-run
+          path: apple_watch_extraction/
+          if-no-files-found: warn
+          retention-days: 30
