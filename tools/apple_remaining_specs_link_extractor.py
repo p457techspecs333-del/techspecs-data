@@ -98,7 +98,7 @@ def process(args):
  return result
 def main():
  ARCHIVE.mkdir(parents=True,exist_ok=True); jobs=[]
- for family in ("accessories","software"):
+ for family in ("airpods","accessories","software"):
   p=ROOT/family/"source-inventory.json"
   if not p.exists(): continue
   inv=json.loads(p.read_text(encoding="utf-8"))
