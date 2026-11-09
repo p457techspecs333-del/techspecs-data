@@ -223,46 +223,54 @@
       }
     },
     "chip_name": {
-      "value": "Apple H2 headphone chip",
-      "unit": null,
-      "source_section": "Chip",
-      "verification_status": "source_transcribed",
-      "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+      "value": {
+        "value": "Apple H2 headphone chip",
+        "unit": null,
+        "source_section": "Chip",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+      }
     },
     "bluetooth_version": {
-      "value": "5.3",
-      "unit": "version",
-      "source_section": "Connectivity",
-      "verification_status": "source_transcribed",
-      "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+      "value": {
+        "value": "5.3",
+        "unit": "version",
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+      }
     },
     "battery_life_statements": {
-      "value": [
-        "Up to 20 hours of listening time on a single charge with Active Noise Cancellation enabled",
-        "5 minutes of charge time provides around 1.5 hours of listening time."
-      ],
-      "unit": null,
-      "source_section": "Battery",
-      "verification_status": "source_transcribed",
-      "notes": "Exact battery-duration statements from official source section; qualifiers and footnote markers retained."
+      "value": {
+        "value": [
+          "Up to 20 hours of listening time on a single charge with Active Noise Cancellation enabled",
+          "5 minutes of charge time provides around 1.5 hours of listening time."
+        ],
+        "unit": null,
+        "source_section": "Battery",
+        "verification_status": "source_transcribed",
+        "notes": "Exact battery-duration statements from official source section; qualifiers and footnote markers retained."
+      }
     },
     "labelled_size_weight_measurements": {
-      "value": [
-        {
-          "label": "weight",
-          "value": 386.2,
-          "unit": "g"
-        },
-        {
-          "label": "weight",
-          "value": 134.5,
-          "unit": "g"
-        }
-      ],
-      "unit": null,
-      "source_section": "Size and Weight 11",
-      "verification_status": "source_transcribed",
-      "notes": "Only explicit label/value pairs extracted; source component context retained, no values inferred."
+      "value": {
+        "value": [
+          {
+            "label": "weight",
+            "value": 386.2,
+            "unit": "g"
+          },
+          {
+            "label": "weight",
+            "value": 134.5,
+            "unit": "g"
+          }
+        ],
+        "unit": null,
+        "source_section": "Size and Weight 11",
+        "verification_status": "source_transcribed",
+        "notes": "Only explicit label/value pairs extracted; source component context retained, no values inferred."
+      }
     }
   }
 }
