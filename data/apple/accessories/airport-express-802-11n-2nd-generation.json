@@ -26,10 +26,10 @@
   },
   "extraction": {
     "method": "section_preserving",
-    "normalization_status": "archival_first_pass",
-    "note": "Original specification headings and visible text retained; no missing specifications inferred.",
+    "normalization_status": "partially_normalized",
+    "note": "Official Apple accessory specification sections retained. Explicit wireless, interface, size/weight, compatibility and environmental statements have been separated into machine-readable fields where present. Values remain source_transcribed pending record-level verification; no absent values inferred.",
     "extracted_at": "2026-11-09",
-    "reviewed_at": null
+    "reviewed_at": "2026-11-09"
   },
   "sections": [
     {
@@ -78,6 +78,101 @@
     }
   ],
   "record_notes": [
-    "Archival-first-pass technical specification record; normalized values not inferred."
-  ]
+    "Archival-first-pass technical specification record; normalized values not inferred.",
+    "Field extraction pass 2026-11-09: selected accessory/networking specification sections separated into normalized fields with provenance."
+  ],
+  "normalized_specifications": {
+    "size_weight_statements": {
+      "value": {
+        "value": [
+          "Dimensions: 3.85 inches (98 mm) by 3.85 inches (98 mm) by 0.9 inch (23 mm)",
+          "Weight: 8.5 ounces (240 grams)"
+        ],
+        "unit": null,
+        "source_section": "Size and Weight",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple specification text; wording retained."
+      }
+    },
+    "wireless_specifications": {
+      "value": {
+        "value": [
+          "IEEE 802.11a/b/g/n",
+          "Simultaneous dual-band 2.4GHz and 5GHz",
+          "Radio output power: 20.5 dBm maximum (varies by country)",
+          "Channels 1-11, 36-116, and 132-165 approved for use in the United States and Canada",
+          "Channels 1-13, 36-64, and 100-140 approved for use in Europe and Japan",
+          "Channels 1-13, 36-64, and 149-165 approved for use in Australia, Hong Kong, and New Zealand"
+        ],
+        "unit": null,
+        "source_section": "Wireless",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple specification text; wording retained."
+      }
+    },
+    "connection_interfaces": {
+      "value": {
+        "value": [
+          "Simultaneous dual-band 802.11n wireless",
+          "10/100BASE-T Ethernet WAN port for connecting a DSL modem, cable modem, or Ethernet network",
+          "10/100BASE-T Ethernet LAN port for connecting a computer, Ethernet hub, or networked printer",
+          "USB 2 port for connecting a USB printer",
+          "3.5-mm audio minijack for analog or optical digital sound"
+        ],
+        "unit": null,
+        "source_section": "Interfaces",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple specification text; wording retained."
+      }
+    },
+    "electrical_environmental_requirements": {
+      "value": {
+        "value": [
+          "100-240V AC, 50-60Hz; input current: 0.2 amp",
+          "Operating temperature: 32° to 95° F (0° to 35° C)",
+          "Storage temperature: -13° to 140° F (-25° to 60° C)",
+          "Relative humidity (operating): 20% to 90%, noncondensing",
+          "Operating altitude: tested up to 10,000 feet (3000 m)",
+          "Maximum storage altitude: 15,000 feet"
+        ],
+        "unit": null,
+        "source_section": "Electrical and Environmental Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple specification text; wording retained."
+      }
+    },
+    "compatibility_statements": {
+      "value": {
+        "value": [
+          "Interoperable with 802.11a, 802.11b, 802.11g, and 802.11n-enabled Mac computers, iOS devices, Apple TV, Windows-based PCs, and other Wi‑Fi devices",
+          "NAT, DHCP, PPPoE, VPN Passthrough (IPSec, PPTP, and L2TP), DNS Proxy, SNMP, IPv6 (6to4 and manual tunnels)"
+        ],
+        "unit": null,
+        "source_section": "Compatibility",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple specification text; wording retained."
+      }
+    },
+    "wireless_standards": {
+      "value": {
+        "value": [
+          "IEEE 802.11a/b/g/n",
+          "Simultaneous dual-band 2.4GHz and 5GHz"
+        ],
+        "unit": null,
+        "source_section": "Wireless",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple specification text; wording retained."
+      }
+    },
+    "maximum_supported_users": {
+      "value": {
+        "value": 50,
+        "unit": "users",
+        "source_section": "Number of Users",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple specification text; wording retained."
+      }
+    }
+  }
 }
