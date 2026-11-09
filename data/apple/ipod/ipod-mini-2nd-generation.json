@@ -13,6 +13,7 @@
       "A1051"
     ],
     "storage_options": [
+      "4 GB",
       "6 GB"
     ]
   },
@@ -74,6 +75,7 @@
     "capacity_statements": {
       "value": {
         "value": [
+          "4 GB",
           "6 GB"
         ],
         "unit": null,
