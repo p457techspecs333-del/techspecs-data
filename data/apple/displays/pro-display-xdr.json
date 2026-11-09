@@ -92,7 +92,7 @@
         "unit": "inches",
         "source_section": "Display",
         "verification_status": "source_transcribed",
-        "notes": "Explicit value parsed from the preserved official Apple specification section; source wording and qualifiers retained."
+        "notes": "Parsed from explicit official Apple source text; qualifiers retained."
       }
     },
     "pixel_density": {
@@ -200,6 +200,33 @@
         "source_section": "Electrical and Operating Requirements",
         "verification_status": "source_transcribed",
         "notes": "Explicit value parsed from the preserved official Apple specification section; source wording and qualifiers retained."
+      }
+    },
+    "resolution_pixels": {
+      "value": {
+        "value": {
+          "width": 6016,
+          "height": 3384
+        },
+        "unit": "pixels",
+        "source_section": "Display",
+        "verification_status": "source_transcribed",
+        "notes": "Parsed from explicit official Apple source text; qualifiers retained."
+      }
+    },
+    "refresh_rates": {
+      "value": {
+        "value": [
+          47.95,
+          48,
+          50,
+          59.94,
+          60
+        ],
+        "unit": "Hz",
+        "source_section": "Refresh Rates",
+        "verification_status": "source_transcribed",
+        "notes": "All listed refresh-rate options preserved; these are discrete supported modes, not a single native rate."
       }
     }
   }
