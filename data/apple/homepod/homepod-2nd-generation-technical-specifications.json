@@ -8,7 +8,11 @@
     "model_slug": "homepod-2nd-generation-technical-specifications",
     "model_year": 2023,
     "year_introduced": 2023,
-    "variant": null
+    "variant": null,
+    "finishes": [
+      "Midnight",
+      "White"
+    ]
   },
   "source": {
     "source_type": "manufacturer",
@@ -238,6 +242,21 @@
         "source_section": "Electrical and Environmental Requirements",
         "verification_status": "source_transcribed",
         "notes": "Transcribed from the preserved official Apple specification section; source wording retained where relevant."
+      }
+    },
+    "size_weight_statements": {
+      "value": {
+        "value": [
+          "Dimensions:",
+          "142 mm wide (5.6 inches)",
+          "168 mm high (6.6 inches)",
+          "Weight:",
+          "2.3 kg (5.16 pounds)"
+        ],
+        "unit": null,
+        "source_section": "Size and Weight 1",
+        "verification_status": "source_transcribed",
+        "notes": "Original dimension and weight statements retained, including component labels and units."
       }
     }
   }
