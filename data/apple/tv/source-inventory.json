@@ -162,6 +162,7 @@
     }
   ],
   "notes": [
-    "Apple TV extraction run completed 2026-11-09. The current 4th generation is sourced from Apple Ireland's product page; legacy generations are discovered from Apple's model-identification page."
+    "Apple TV extraction run completed 2026-11-09. The current 4th generation is sourced from Apple Ireland's product page; legacy generations are discovered from Apple's model-identification page.",
+    "Record filenames normalized to remove duplicate 'tv' segment; all eight product records regenerated from official pages."
   ]
 }
