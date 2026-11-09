@@ -8,7 +8,16 @@
     "model_slug": "ipod-touch-5th-generation",
     "model_year": null,
     "year_introduced": null,
-    "variant": null
+    "variant": null,
+    "model_numbers": [
+      "A1509",
+      "A1421"
+    ],
+    "storage_options": [
+      "16 GB",
+      "32 GB",
+      "64 GB"
+    ]
   },
   "source": {
     "source_type": "manufacturer",
@@ -26,10 +35,10 @@
   },
   "extraction": {
     "method": "section_preserving",
-    "normalization_status": "archival_first_pass",
-    "note": "Source headings and visible text retained; no missing specifications inferred.",
+    "normalization_status": "partially_normalized",
+    "note": "Official Apple iPod identification text retained. Explicit model numbers, introduction dates, capacity options and navigation interface extracted where present with source-section provenance. These are identification-page records, not full historical technical-specification sheets; no absent specs inferred.",
     "extracted_at": "2026-11-09",
-    "reviewed_at": null
+    "reviewed_at": "2026-11-09"
   },
   "sections": [
     {
@@ -38,6 +47,74 @@
     }
   ],
   "record_notes": [
-    "Archival-first-pass record; normalized specifications not inferred."
-  ]
+    "Archival-first-pass record; normalized specifications not inferred.",
+    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text."
+  ],
+  "normalized_specifications": {
+    "navigation_interface": {
+      "value": {
+        "value": "Multi-Touch display",
+        "unit": null,
+        "source_section": "iPod touch (5th generation)",
+        "verification_status": "source_transcribed",
+        "notes": "Parsed from the preserved official Apple iPod identification text; wording retained."
+      }
+    },
+    "model_number_dates": {
+      "value": {
+        "value": [
+          {
+            "model_number": "A1509",
+            "introduced": "June 2014"
+          },
+          {
+            "model_number": "A1421",
+            "introduced": "May 2013"
+          },
+          {
+            "model_number": "A1421",
+            "introduced": "October 2012"
+          },
+          {
+            "model_number": "A1509",
+            "introduced": "June 2014"
+          },
+          {
+            "model_number": "A1421",
+            "introduced": "May 2013"
+          },
+          {
+            "model_number": "A1421",
+            "introduced": "October 2012"
+          }
+        ],
+        "unit": null,
+        "source_section": "iPod touch (5th generation)",
+        "verification_status": "source_transcribed",
+        "notes": "Model number/date pairs preserved individually; repeated model numbers are not deduplicated in this evidence field."
+      }
+    },
+    "capacity_statements": {
+      "value": {
+        "value": [
+          "16 GB",
+          "32 GB",
+          "64 GB"
+        ],
+        "unit": null,
+        "source_section": "iPod touch (5th generation)",
+        "verification_status": "source_transcribed",
+        "notes": "Capacities parsed from the explicit Capacity line; original wording remains in source_text."
+      }
+    },
+    "official_description": {
+      "value": {
+        "value": "Model numbers and dates introduced:\nA1509: June 2014\nA1421: May 2013\nA1421: October 2012\niPod touch (5th generation) has an iSight camera and FaceTime HD camera. The iPod touch loop is included with the 32 GB and 64 GB models.\niPod touch (5th generation) is available in five colours.",
+        "unit": null,
+        "source_section": "iPod touch (5th generation)",
+        "verification_status": "source_transcribed",
+        "notes": "Description transcribed from the official Apple identification page."
+      }
+    }
+  }
 }
