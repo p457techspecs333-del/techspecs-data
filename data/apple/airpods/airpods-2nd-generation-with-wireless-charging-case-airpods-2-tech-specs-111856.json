@@ -184,77 +184,85 @@
       }
     },
     "chip_name": {
-      "value": "H1 headphone chip",
-      "unit": null,
-      "source_section": "Chip",
-      "verification_status": "source_transcribed",
-      "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+      "value": {
+        "value": "H1 headphone chip",
+        "unit": null,
+        "source_section": "Chip",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+      }
     },
     "bluetooth_version": {
-      "value": "5.0",
-      "unit": "version",
-      "source_section": "Connectivity",
-      "verification_status": "source_transcribed",
-      "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+      "value": {
+        "value": "5.0",
+        "unit": "version",
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed",
+        "notes": "Extracted from preserved official Apple source section; qualifiers retained."
+      }
     },
     "battery_life_statements": {
-      "value": [
-        "Up to 5 hours of listening time with a single charge",
-        "More than 24 hours of listening time",
-        "15 minutes in the case provides up to 3 hours of listening time"
-      ],
-      "unit": null,
-      "source_section": "Battery",
-      "verification_status": "source_transcribed",
-      "notes": "Exact battery-duration statements from official source section; qualifiers and footnote markers retained."
+      "value": {
+        "value": [
+          "Up to 5 hours of listening time with a single charge",
+          "More than 24 hours of listening time",
+          "15 minutes in the case provides up to 3 hours of listening time"
+        ],
+        "unit": null,
+        "source_section": "Battery",
+        "verification_status": "source_transcribed",
+        "notes": "Exact battery-duration statements from official source section; qualifiers and footnote markers retained."
+      }
     },
     "labelled_size_weight_measurements": {
-      "value": [
-        {
-          "label": "height",
-          "value": 40.5,
-          "unit": "mm"
-        },
-        {
-          "label": "width",
-          "value": 16.5,
-          "unit": "mm"
-        },
-        {
-          "label": "depth",
-          "value": 18,
-          "unit": "mm"
-        },
-        {
-          "label": "weight",
-          "value": 4,
-          "unit": "g"
-        },
-        {
-          "label": "height",
-          "value": 53.5,
-          "unit": "mm"
-        },
-        {
-          "label": "width",
-          "value": 44.3,
-          "unit": "mm"
-        },
-        {
-          "label": "depth",
-          "value": 21.3,
-          "unit": "mm"
-        },
-        {
-          "label": "weight",
-          "value": 38.2,
-          "unit": "g"
-        }
-      ],
-      "unit": null,
-      "source_section": "Size and Weight 1",
-      "verification_status": "source_transcribed",
-      "notes": "Only explicit label/value pairs extracted; source component context retained, no values inferred."
+      "value": {
+        "value": [
+          {
+            "label": "height",
+            "value": 40.5,
+            "unit": "mm"
+          },
+          {
+            "label": "width",
+            "value": 16.5,
+            "unit": "mm"
+          },
+          {
+            "label": "depth",
+            "value": 18,
+            "unit": "mm"
+          },
+          {
+            "label": "weight",
+            "value": 4,
+            "unit": "g"
+          },
+          {
+            "label": "height",
+            "value": 53.5,
+            "unit": "mm"
+          },
+          {
+            "label": "width",
+            "value": 44.3,
+            "unit": "mm"
+          },
+          {
+            "label": "depth",
+            "value": 21.3,
+            "unit": "mm"
+          },
+          {
+            "label": "weight",
+            "value": 38.2,
+            "unit": "g"
+          }
+        ],
+        "unit": null,
+        "source_section": "Size and Weight 1",
+        "verification_status": "source_transcribed",
+        "notes": "Only explicit label/value pairs extracted; source component context retained, no values inferred."
+      }
     }
   }
 }
