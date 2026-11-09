@@ -24,25 +24,25 @@
   <url><loc>https://data.techspecs.dev/api/v1/products/magic-trackpad-2.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/magic-trackpad-usb-c.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/source-inventory.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-1st-generation.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-2nd-generation-with-wireless-charging-case.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-2nd-generation.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-3rd-generation-with-lightning-charging.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-3rd-generation.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-4-with-active-noise-cancellation.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-4.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-5-wireless.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-5.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-max-1-usb-c.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-max-1.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-max-2.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-pro-1st-generation-with-wireless-charging-case.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-pro-2nd-generation-with-magsafe-charging-case-lightning.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-pro-3.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-pro-with-magsafe-charging-case.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-wireless-charging-case.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/magsafe-charging-case-usb-c-airpods-pro-2nd-generation.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-1st-generation-airpods-1-tech-specs-111855.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-2nd-generation-airpods-2-tech-specs-111856.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-2nd-generation-with-wireless-charging-case-airpods-2-tech-specs-111856.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-3rd-generation-airpods-3-tech-specs-111863.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-3rd-generation-with-lightning-charging-airpods-3-tech-specs-111863.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-4-airpods-4-tech-specs-121203.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-4-with-active-noise-cancellation-airpods-4-with-active-noise-cancellation-tech-specs-121204.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-5-airpods-5-tech-specs-148759.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-5-wireless-airpods-5-with-wireless-charging-case-tech-specs-148760.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-max-1-airpods-max-1-tech-specs-111858.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-max-1-usb-c-airpods-max-1-usb-c-tech-specs-121205.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-max-2-airpods-max-2-tech-specs-126620.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-pro-1st-generation-with-wireless-charging-case-airpods-pro-1-with-wireless-charging-case-tech-specs-111861.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-pro-2nd-generation-with-magsafe-charging-case-lightning-airpods-pro-2-tech-specs-111851.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c-airpods-pro-2-with-magsafe-case-usb-c-tech-specs-111834.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-pro-3-airpods-pro-3-tech-specs-125135.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-pro-with-magsafe-charging-case-airpods-pro-1-with-magsafe-charging-case-tech-specs-111859.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/airpods-wireless-charging-case-airpods-2-and-earlier-wireless-charging-case-tech-specs-111860.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/magsafe-charging-case-usb-c-airpods-pro-2nd-generation-airpods-pro-2-with-magsafe-case-usb-c-tech-specs-111834.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/source-inventory.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/pro-display-xdr.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/source-inventory.json</loc></url>
@@ -324,15 +324,28 @@
   <url><loc>https://data.techspecs.dev/api/v1/products/macbook-pro-with-proled-xdr-display-technical-specifications.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/macbook-neo-technical-specifications.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/source-inventory.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/aperture.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/compressor.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/final-cut-pro.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/itunes-for-mac.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/itunes-for-windows.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/logic-pro.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/mainstage.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/motion.json</loc></url>
-  <url><loc>https://data.techspecs.dev/api/v1/products/quicktime-for-mac.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/aperture-aperture-3-technical-specifications-112030.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/compressor-compressor-4-tech-specs-111916.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/final-cut-pro-final-cut-pro-tech-specs-111903.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/itunes-for-mac-itunes-10-7-for-mac-technical-specifications-112582.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/itunes-for-mac-itunes-11-for-mac-technical-specifications-112584.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/itunes-for-mac-itunes-12-for-macos-technical-specifications-112028.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/itunes-for-mac-itunes-8-0-2-for-mac-technical-specifications-112654.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/itunes-for-mac-itunes-8-1-1-for-mac-technical-specifications-112658.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/itunes-for-mac-itunes-8-2-for-mac-technical-specifications-112656.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/itunes-for-mac-itunes-9-2-for-mac-technical-specifications-112621.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/itunes-for-windows-itunes-10-7-for-windows-technical-specifications-112573.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/itunes-for-windows-itunes-11-for-windows-technical-specifications-112583.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/itunes-for-windows-itunes-12-for-windows-technical-specifications-112029.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/itunes-for-windows-itunes-8-0-2-for-windows-technical-specifications-112659.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/itunes-for-windows-itunes-8-1-1-for-windows-technical-specifications-112655.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/itunes-for-windows-itunes-8-2-for-windows-technical-specifications-112657.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/itunes-for-windows-itunes-9-2-for-windows-technical-specifications-112622.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/logic-pro-logic-pro-9-technical-specifications-112574.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/logic-pro-logic-pro-tech-specs-111899.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/mainstage-mainstage-2-technical-specifications-112561.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/motion-motion-5-tech-specs-111915.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/quicktime-for-mac-quicktime-pro-7-technical-specifications-112444.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/source-inventory.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/apple-tv-1st-generation.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/apple-tv-2nd-generation.json</loc></url>
