@@ -384,10 +384,11 @@
     "Distinct software spec pages now have unique filename-matching model slugs; legacy records with dates before schema-supported introduction year are not assigned an invalid year.",
     "Final record paths and model slugs were normalized to schema v2 naming rules; unique software versions and AirPods specification pages are preserved as separate files.",
     "Final pass uses schema-compliant single-hyphen slugs and preserves distinct software spec versions; duplicate AirPods records were replaced by the unique technical-spec pages.",
-    "2026-11-09 progress: all 22 software product records are now listed in working_scope. Explicit software versions and system requirements have been parsed where available; records remain partial pending detailed requirement verification."
+    "2026-11-09 progress: all 22 software product records are now listed in working_scope. Explicit software versions and system requirements have been parsed where available; records remain partial pending detailed requirement verification.",
+    "2026-11-10 repository audit: all 22 inventory source_file references resolve to existing archived files in the current Git tree. This confirms archive-path presence only, not the accuracy or reachability of every source URL."
   ],
   "record_audit": {
-    "checked_at": "2026-11-09",
+    "checked_at": "2026-11-10",
     "product_record_count": 22,
     "source_policy": "Official Apple software technical-specification pages and documentation index; no absent values inferred.",
     "normalization_status": "partially_normalized",
@@ -396,7 +397,8 @@
       "Populated working_scope with all 22 software records, including distinct historical iTunes versions and platform variants.",
       "Extracted explicit software version labels where the official source title identified a version.",
       "Separated explicit operating-system, hardware, memory and disk-space requirements into machine-readable fields where present.",
-      "Retained source-section provenance and original requirement text."
+      "Retained source-section provenance and original requirement text.",
+      "Checked every working_scope source_file path against the current Git repository tree on 2026-11-10; all 22 referenced archive paths exist."
     ],
     "remaining": [
       "Verify all 22 records against archived official Apple HTML and review system-requirement parsing for each historical version.",
