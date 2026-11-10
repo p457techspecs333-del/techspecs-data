@@ -114,6 +114,24 @@
         "verification_status": "source_transcribed",
         "notes": "Extracted from preserved official Apple software specification text; original requirement wording retained."
       }
+    },
+    "itunes_11_for_windows_technical_specifications": {
+      "source_text": {
+        "value": "Hardware\nPC with a 1GHz Intel or AMD processor and 512MB of RAM\nTo play Standard Definition video from the iTunes Store, an Intel Pentium D or faster processor, 512MB of RAM, and a DirectX 9.0-compatible video card is required.\nTo play 720p HD video, an iTunes LP, or iTunes Extras, a 2.0GHz Intel Core 2 Duo or faster processor, 1GB of RAM, and an Intel GMA X3000, ATI Radeon X1300, or NVIDIA GeForce 6150 or better is required.\nTo play 1080p HD video, a 2.4GHz Intel Core 2 Duo or faster processor, 2GB of RAM, and an Intel GMA X4500HD; ATI Radeon HD 2400; Nvidia GeForce 8300 GS or better is required.\nScreen resolution of 1024x768 or greater; 1280x800 or greater is required to play an iTunes LP or iTunes Extras\n16-bit sound card and speakers\nBroadband Internet connection to use the iTunes Store\niTunes-compatible CD or DVD recorder to create audio CDs, MP3 CDs, or back-up CDs or DVDs\nSoftware\nWindows XP Service Pack 2 or later, 32-bit editions of Windows Vista, Windows 7, or Windows 8\n64-bit editions of Windows Vista, Windows 7, or Windows 8 require the iTunes 64-bit installer\n400MB of available disk space\nScreen reader support requires Window-Eyes 7.2 or later; for information about accessibility in itunes, visit www.apple.com/uk/accessibility",
+        "unit": null,
+        "source_section": "iTunes 11 for Windows - Technical Specifications",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "apple_footer": {
+      "source_text": {
+        "value": "Support\niTunes 11 for Windows - Technical Specifications",
+        "unit": null,
+        "source_section": "Apple Footer",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
     }
   }
 }
