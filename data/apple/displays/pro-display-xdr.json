@@ -228,6 +228,105 @@
         "verification_status": "source_transcribed",
         "notes": "All listed refresh-rate options preserved; these are discrete supported modes, not a single native rate."
       }
+    },
+    "finish": {
+      "source_text": {
+        "value": "Standard glass\nNano-texture glass",
+        "unit": null,
+        "source_section": "Finish",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "display": {
+      "source_text": {
+        "value": "Retina 6K Display\n32-inch (diagonal) IPS LCD display with oxide TFT technology\nResolution:\n6016x3384 pixels (20.4 million pixels) at 218 pixels per inch\nAspect ratio:\n16:9\nXDR (Extreme Dynamic Range)\nViewing angle:\nSuper-wide angle with high-fidelity colour and contrast at 89º left, 89º right, 89º up, 89º down\nFully laminated; 1.65% reflectivity (typical)\nContrast ratio:\n1,000,000:1\nColour:\nP3 wide colour gamut, 10-bit depth for 1.073 billion colours\nXDR brightness:\n1,000 nits sustained full‑screen, 1,600 nits peak\n1\n(HDR content only)\nSDR brightness:\n500 nits\nPro Stand and VESA Mount Adapter sold separately",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "technology": {
+      "source_text": {
+        "value": "2D backlighting system using 576 full array local dimming zones\nApple-designed timing controller (TCON) chip engineered to precisely control high-speed modulation of both 20.4 million LCD pixels and 576 LEDs in backlight for seamless synchronisation\nTrue Tone technology with dual ambient light sensor (ALS) design to ensure an accurate viewing experience in any ambient lighting condition",
+        "unit": null,
+        "source_section": "Technology",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "reference_modes": {
+      "source_text": {
+        "value": "Available reference modes:\nPro Display XDR (P3-1,600 nits)\nApple Display (P3-500 nits)\nHDR Video (P3-ST 2084)\nHDTV Video (BT.709–BT.1886)\nNTSC Video (BT.601 SMPTE-C)\nPAL and SECAM Video (BT.601 EBU)\nDigital Cinema (P3-DCI)\nDigital Cinema (P3-D65)\nDesign and Print (P3-D50)\nPhotography (P3-D65)\nInternet and Web (sRGB)",
+        "unit": null,
+        "source_section": "Reference Modes",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "software_features": {
+      "source_text": {
+        "value": "The following features require macOS Catalina 10.15.2 or later:\nReference mode selection\nCustom reference modes\nReference status indicator\nBrightness control\nPortrait/landscape detection\nNight Shift\nTrue Tone\nDolby Vision, HDR10 and Hybrid-Log Gamma (HLG) playback support\nUser calibration",
+        "unit": null,
+        "source_section": "Software Features",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "size_and_weight": {
+      "source_text": {
+        "value": "Width:\n71.8 cm (28.3 inches)\nHeight:\n41.2 cm (16.2 inches)\nDepth:\n2.7 cm (1.1 inches)\nWeight:\n7.48 kg (16.49 pounds)\n2",
+        "unit": null,
+        "source_section": "Size and Weight",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "connections": {
+      "source_text": {
+        "value": "One upstream port for Mac Pro or other Thunderbolt 3 host (96W host charging)\nThree USB‑C (USB 2) ports for charging or syncing\n3\nLearn more about Thunderbolt 3\nLearn more about SDI connectivity",
+        "unit": null,
+        "source_section": "Connections",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "compatibility": {
+      "source_text": {
+        "value": "Pro Display XDR is compatible with the following Mac models with macOS Catalina 10.15.2 or later:\nMac Pro (2023)\nMac Pro (2019) with MPX Module GPUs\nMac Studio (2022)\nMac mini (2018 or later)\n16-inch MacBook Pro (2019 or later)\n14-inch MacBook Pro (2021 or later)\n15-inch MacBook Pro (2018 or later)\n13-inch MacBook Pro (2016 or later)\nMacBook Air (2020 or later)\n27-inch iMac (2019 or later)\n24‑inch iMac (2021)\n21.5-inch iMac (2019)\niMac Pro (2017)\nAny Mac model with Thunderbolt 3 ports paired with Blackmagic eGPU or Blackmagic eGPU Pro",
+        "unit": null,
+        "source_section": "Compatibility",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "in_the_box": {
+      "source_text": {
+        "value": "Pro Display XDR\nPower lead (2m)\nApple Thunderbolt 3 Pro Cable (2m)\nPolishing cloth",
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "electrical_and_operating_requirements": {
+      "source_text": {
+        "value": "Line voltage:\n100–240V AC\nFrequency:\n50Hz to 60Hz, single phase\nOperating temperature:\n10° to 35° C (50° to 95° F)\nRelative humidity:\n5% to 95% non-condensing\nMaximum altitude:\ntested up to 5,000 metres (16,400 feet)",
+        "unit": null,
+        "source_section": "Electrical and Operating Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "pro_display_xdr_and_the_environment": {
+      "source_text": {
+        "value": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more about Pro Display XDR and the Environment\nPro Display XDR is designed with the following features to reduce its environmental impact:\nMade with better materials\nEnclosure made with low-carbon aluminium\nEnergy efficient\nMeets ENERGY STAR requirements\n4\nResponsible packaging\nRecyclable, majority-fibre packaging\n100% of primary wood fibre comes from responsibly managed forests\nSmarter chemistry\nArsenic-free display glass\nMercury-free LED-backlit display\nBFR-, PVC- and beryllium-free",
+        "unit": null,
+        "source_section": "Pro Display XDR and the Environment",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
     }
   }
 }
