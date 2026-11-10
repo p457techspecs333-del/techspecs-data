@@ -117,6 +117,69 @@
         "verification_status": "source_transcribed",
         "notes": "Extracted from preserved official Apple specification text; wording retained."
       }
+    },
+    "overview": {
+      "source_text": {
+        "value": "Magic Keyboard is available with Touch ID, providing fast, easy and secure authentication for logins and to unlock your Mac.\nMagic Keyboard with Touch ID delivers a remarkably comfortable and precise typing experience. It’s also wireless and rechargeable, with an incredibly long-lasting internal battery that will power your keyboard for about a month or more between charges.¹ It pairs automatically with your Mac, so you can get to work straightaway.\nIt features a USB-C port and includes a woven USB-C Charge Cable that lets you pair and charge by connecting to a USB-C port on your Mac, so you can charge all of your favourite devices with just a single cable.",
+        "unit": null,
+        "source_section": "Overview",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "what_s_in_the_box": {
+      "source_text": {
+        "value": "Magic Keyboard with Touch ID\nUSB-C Charging Cable",
+        "unit": null,
+        "source_section": "What’s in the Box",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "size_and_weight": {
+      "source_text": {
+        "value": "Height:\n0.41–1.09 cm (0.16–0.43 inches)\nWidth:\n27.89 cm (10.98 inches)\nDepth:\n11.49 cm (4.52 inches)\nWeight:\n0.243 kg (0.54 pounds)*",
+        "unit": null,
+        "source_section": "Size and Weight",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "general": {
+      "source_text": {
+        "value": "Multimedia keys",
+        "unit": null,
+        "source_section": "General",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "connections_and_expansion": {
+      "source_text": {
+        "value": "Bluetooth\nUSB‑C port\nWireless",
+        "unit": null,
+        "source_section": "Connections and Expansion",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "system_requirements": {
+      "source_text": {
+        "value": "Mac with Apple silicon running macOS 15.1 or later",
+        "unit": null,
+        "source_section": "System Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "compatibility": {
+      "source_text": {
+        "value": "iPhone Models\niPhone Duo\niPhone 18 Pro\niPhone 18 Pro Max\niPhone 17 Pro\niPhone 17 Pro Max\niPhone Air\niPhone 17\niPhone 17e\niPhone 16 Pro\niPhone 16 Pro Max\niPhone 16\niPhone 16 Plus\niPhone 15 Pro\niPhone 15 Pro Max\niPhone 15\niPhone 15 Plus\niPhone 14 Pro\niPhone 14 Pro Max\niPhone 14\niPhone 14 Plus\niPhone 13 Pro\niPhone 13 Pro Max\niPhone 13 mini\niPhone 13\niPad Models\niPad Pro 13-inch (M4)\niPad Pro 12.9-inch (6th generation)\niPad Pro 12.9-inch (5th generation)\niPad Pro 12.9-inch (4th generation)\niPad Pro 11-inch (M4)\niPad Pro 11-inch (4th generation)\niPad Air 13-inch (M3)\niPad Air 11-inch (M3)\niPad Air 13-inch (M2)\niPad Air 11-inch (M2)\niPad Air (5th generation)\niPad (A16)\niPad (10th generation)\niPad mini (A17 Pro)\nMac Models\nMacBook Neo\nMacBook Air (13-inch, M5)\nMacBook Air (15-inch, M5)\nMacBook Air (13‑inch, M4)\nMacBook Air (15‑inch, M4)\nMacBook Air (13-inch, M3)\nMacBook Air (15-inch, M3)\nMacBook Air (15-inch, M2)\nMacBook Air (13-inch, M2)\nMacBook Air (M1)\nMacBook Pro (14-inch, M5 Pro or M5 Max)\nMacBook Pro (16-inch, M5 Pro or M5 Max)\nMacBook Pro (14-inch, M5)\nMacBook Pro (14‑inch, 2024)\nMacBook Pro (16‑inch, 2024)\nMacBook Pro (14‑inch, 2023)\nMacBook Pro (16‑inch, 2023)\nMacBook Pro (13‑inch, M2, 2022)\nMacBook Pro (14‑inch, 2021)\nMacBook Pro (16-inch, 2021)\nMacBook Pro (13-inch, M1, 2020)\niMac (24‑inch, M4, 2024)\niMac (24-inch, M3, 2023)\niMac (24-inch, M1, 2021)\nMac Studio (M5 Max or M5 Ultra)\nMac Studio (2025)\nMac Studio (2023)\nMac Studio (2022)\nMac mini (M6 or M5 Pro)\nMac mini (2024)\nMac mini (2023)\nMac mini (M1, 2020)\nMac Pro (2023)\nDisplay Models\nStudio Display (2026)\nStudio Display XDR",
+        "unit": null,
+        "source_section": "Compatibility",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
     }
   }
 }
