@@ -98,6 +98,15 @@
         "verification_status": "source_transcribed",
         "notes": "Extracted from preserved official Apple software specification text; original requirement wording retained."
       }
+    },
+    "minimum_system_requirements": {
+      "source_text": {
+        "value": "macOS 14.6 or later\n8GB of memory\n1.2GB of available disk space\nProRes RAW requires a Mac computer that supports Metal.\nhttps://www.apple.com/uk/final-cut-pro/specs/",
+        "unit": null,
+        "source_section": "Minimum System Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
     }
   }
 }
