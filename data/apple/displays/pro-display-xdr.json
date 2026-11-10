@@ -84,7 +84,8 @@
   "record_notes": [
     "Archival-first-pass record; normalized specifications not inferred.",
     "Field extraction pass 2026-11-09: normalized explicit display specifications and verified introduction year against Apple's official display-identification page.",
-    "2026-11-10 verification correction: retained SDR/HDR qualifiers for the three brightness values as stated in Apple's Display section."
+    "2026-11-10 verification correction: retained SDR/HDR qualifiers for the three brightness values as stated in Apple's Display section.",
+    "2026-11-10 verification pass: added typed display dimensions and weight while retaining Apple's explicit note that the stand and VESA mount adapter are sold separately."
   ],
   "normalized_specifications": {
     "diagonal_size": {
@@ -327,6 +328,41 @@
         "source_section": "Pro Display XDR and the Environment",
         "verification_status": "source_transcribed",
         "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "configuration_specific_measurements": {
+      "value": {
+        "value": [
+          {
+            "configuration": "Pro Display XDR display; Pro Stand and VESA Mount Adapter sold separately",
+            "measurements": [
+              {
+                "label": "width",
+                "value": 71.8,
+                "unit": "cm"
+              },
+              {
+                "label": "height",
+                "value": 41.2,
+                "unit": "cm"
+              },
+              {
+                "label": "depth",
+                "value": 2.7,
+                "unit": "cm"
+              },
+              {
+                "label": "weight",
+                "value": 7.48,
+                "unit": "kg"
+              }
+            ]
+          }
+        ],
+        "unit": null,
+        "source_section": "Size and Weight",
+        "verification_status": "source_transcribed",
+        "notes": "Explicit display dimensions and weight are transcribed from Apple's Size and Weight section. The source states Pro Stand and VESA Mount Adapter are sold separately."
       }
     }
   }
