@@ -85,15 +85,6 @@
         "verification_status": "source_transcribed",
         "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
       }
-    },
-    "apple_footer": {
-      "source_text": {
-        "value": "Support\nLogic Pro 9 - Technical Specifications",
-        "unit": null,
-        "source_section": "Apple Footer",
-        "verification_status": "source_transcribed",
-        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
-      }
     }
   }
 }
