@@ -44,7 +44,8 @@
   "record_notes": [
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Field extraction pass 2026-11-09: version labels and explicit software/hardware requirements parsed from preserved official Apple source sections.",
-    "2026-11-10 identity correction: product.model now includes the official version and platform from the technical-specification page title, preserving distinct software releases."
+    "2026-11-10 identity correction: product.model now includes the official version and platform from the technical-specification page title, preserving distinct software releases.",
+    "2026-11-10 verification pass: normalized OS/architecture, processor, memory, graphics/video RAM, display, sound, network, optical-drive, QuickTime and accessibility requirements for iTunes 8.0.2 for Windows."
   ],
   "normalized_specifications": {
     "itunes_8_0_2_for_windows_technical_specifications_statements": {
@@ -101,12 +102,12 @@
     "memory_requirements": {
       "value": {
         "value": [
-          "512MB of RAM"
+          "512MB of RAM; 1GB is required to play HD-quality videos"
         ],
         "unit": null,
-        "source_section": "System requirements",
+        "source_section": "iTunes 8.0.2 for Windows - Technical Specifications",
         "verification_status": "source_transcribed",
-        "notes": "Extracted from preserved official Apple software specification text; original requirement wording retained."
+        "notes": "Base and HD playback memory requirements retained in the same explicit source statement."
       }
     },
     "storage_requirements": {
@@ -127,6 +128,110 @@
         "source_section": "iTunes 8.0.2 for Windows - Technical Specifications",
         "verification_status": "source_transcribed",
         "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "operating_system_requirements": {
+      "value": {
+        "value": [
+          "Windows XP Service Pack 2 or later",
+          "32-bit editions of Windows Vista",
+          "64-bit editions of Windows Vista require the iTunes 8 64-bit installer"
+        ],
+        "unit": null,
+        "source_section": "iTunes 8.0.2 for Windows - Technical Specifications",
+        "verification_status": "source_transcribed",
+        "notes": "Windows edition and architecture requirements transcribed from the Software subsection; the 64-bit installer condition is retained."
+      }
+    },
+    "processor_requirements": {
+      "value": {
+        "value": [
+          "A PC with a 1GHz Intel or AMD processor",
+          "Playing videos from the iTunes Store requires an Intel Pentium D or faster processor",
+          "Playing HD-quality videos from the iTunes Store requires a 2.0GHz Intel Core 2 Duo or faster processor"
+        ],
+        "unit": null,
+        "source_section": "iTunes 8.0.2 for Windows - Technical Specifications",
+        "verification_status": "source_transcribed",
+        "notes": "General and playback-specific processor requirements are retained separately as published."
+      }
+    },
+    "graphics_requirements": {
+      "value": {
+        "value": [
+          "A DirectX 9.0-compatible video card with 32MB of video RAM; 64MB recommended"
+        ],
+        "unit": null,
+        "source_section": "iTunes 8.0.2 for Windows - Technical Specifications",
+        "verification_status": "source_transcribed",
+        "notes": "Video card and video-memory requirement preserved together as stated, including the recommended 64MB qualifier."
+      }
+    },
+    "display_requirements": {
+      "value": {
+        "value": [
+          "Screen resolution of 1024x768 or greater"
+        ],
+        "unit": null,
+        "source_section": "iTunes 8.0.2 for Windows - Technical Specifications",
+        "verification_status": "source_transcribed",
+        "notes": "Exact display requirement statement from the archived Apple source."
+      }
+    },
+    "sound_requirements": {
+      "value": {
+        "value": [
+          "A QuickTime-compatible audio card"
+        ],
+        "unit": null,
+        "source_section": "iTunes 8.0.2 for Windows - Technical Specifications",
+        "verification_status": "source_transcribed",
+        "notes": "Exact audio-card requirement statement from the archived Apple source."
+      }
+    },
+    "network_requirements": {
+      "value": {
+        "value": [
+          "A broadband Internet connection to use the iTunes Store"
+        ],
+        "unit": null,
+        "source_section": "iTunes 8.0.2 for Windows - Technical Specifications",
+        "verification_status": "source_transcribed",
+        "notes": "Exact internet requirement statement from the archived Apple source."
+      }
+    },
+    "optical_drive_requirements": {
+      "value": {
+        "value": [
+          "An iTunes-compatible CD or DVD recorder to create audio CDs, MP3 CDs, or back-up CDs or DVDs"
+        ],
+        "unit": null,
+        "source_section": "iTunes 8.0.2 for Windows - Technical Specifications",
+        "verification_status": "source_transcribed",
+        "notes": "Exact optical-drive requirement statement from the archived Apple source."
+      }
+    },
+    "software_dependencies": {
+      "value": {
+        "value": [
+          "QuickTime 7.5.5 or later is required (included)"
+        ],
+        "unit": null,
+        "source_section": "iTunes 8.0.2 for Windows - Technical Specifications",
+        "verification_status": "source_transcribed",
+        "notes": "Explicit QuickTime dependency from the source's Software subsection."
+      }
+    },
+    "platform_requirements": {
+      "value": {
+        "value": [
+          "64-bit editions of Windows Vista require the iTunes 8 64-bit installer; for more information, visit support.apple.com/downloads/#itunes",
+          "Screen reader support requires Window-Eyes 7.0 or later; for information about accessibility in iTunes, visit www.apple.com/uk/accessibility"
+        ],
+        "unit": null,
+        "source_section": "iTunes 8.0.2 for Windows - Technical Specifications",
+        "verification_status": "source_transcribed",
+        "notes": "Installer architecture and accessibility software requirements are preserved as published."
       }
     }
   }
