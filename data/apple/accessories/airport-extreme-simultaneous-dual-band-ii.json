@@ -2,7 +2,7 @@
   "schema_version": "2.0",
   "product": {
     "brand": "Apple",
-    "category": "accessory",
+    "category": "wireless-router",
     "family": "Apple Accessories",
     "model": "AirPort Extreme (Simultaneous Dual-Band II)",
     "model_slug": "airport-extreme-simultaneous-dual-band-ii",
@@ -43,7 +43,8 @@
   ],
   "record_notes": [
     "Archival-first-pass technical specification record; normalized values not inferred.",
-    "Field extraction pass 2026-11-09: selected accessory/networking specification sections separated into normalized fields with provenance."
+    "Field extraction pass 2026-11-09: selected accessory/networking specification sections separated into normalized fields with provenance.",
+    "2026-11-10 taxonomy pass: category distinguishes AirPort networking hardware from other accessory types; Time Capsule is classified as network storage/router hardware."
   ],
   "normalized_specifications": {
     "airport_extreme_802_11n_4th_generation_technical_specifications": {
