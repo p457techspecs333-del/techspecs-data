@@ -148,6 +148,141 @@
         "verification_status": "source_transcribed",
         "notes": "Extracted from preserved official Apple specification text; wording retained."
       }
+    },
+    "size_and_weight": {
+      "source_text": {
+        "value": "Length: 7.7 inches (197 mm)\nWidth: 7.7 inches (197 mm)\nHeight: 1.4 inches (36.3 mm)\nWeight: 3.5 pounds (1.6 kg)\n1",
+        "unit": null,
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "security": {
+      "source_text": {
+        "value": "Wi-Fi Protected Access™ (WPA/WPA2)\n2\nWireless security (WEP) configurable for 40-bit and 128-bit encryption\nMAC address filtering\nNAT firewall\nSupport for RADIUS authentication\n802.1X, PEAP, LEAP, TTLS, TLS, FAST\nTime-based access control",
+        "unit": null,
+        "source_section": "Security",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "electrical": {
+      "source_text": {
+        "value": "Line voltage: 100-240V AC\nFrequency: 50Hz to 60Hz, single phase\nMaximum continuous power: 34W",
+        "unit": null,
+        "source_section": "Electrical",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "agency_approvals": {
+      "source_text": {
+        "value": "FCC Part 15 Class B, Canada RSS-210, EN 300-328, EN 301-489, EN 301 893, ARIB STD-T66, RCR STD-T33, AS/NZS 4268: 2003, UL 60950, CSA-C22.2 No. 60950",
+        "unit": null,
+        "source_section": "Agency approvals",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "storage": {
+      "source_text": {
+        "value": "500GB or 1TB Serial ATA server-grade hard disk drive\n3",
+        "unit": null,
+        "source_section": "Storage",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "interfaces": {
+      "source_text": {
+        "value": "One Gigabit Ethernet WAN port for connecting a DSL or cable modem\nThree Gigabit Ethernet LAN ports for connecting computers or network devices\nUSB port for connecting a USB printer or USB external hard drive\n802.11n wireless\n4",
+        "unit": null,
+        "source_section": "Interfaces",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "included_software_and_accessories": {
+      "source_text": {
+        "value": "AirPort Utility for Mac and Windows\nAirPort Disk Utility for Mac OS X v10.4 and Windows\n802.11n Enabler for Mac OS X v10.4 Tiger\n5\nBonjour for Windows\nPower cord\nPrinted and electronic documentation",
+        "unit": null,
+        "source_section": "Included software and accessories",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "environmental_requirements": {
+      "source_text": {
+        "value": "Operating temperature: 50° to 95° F (10° to 35° C)\nStorage temperature: -13° to 140° F (-25° to 60° C)\nRelative humidity (operational): 20% to 80% (noncondensing)\nRelative humidity (storage): 10% to 90%\nMaximum operating altitude: 10,000 feet\nMaximum storage altitude: 15,000 feet",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "wireless_protocols": {
+      "source_text": {
+        "value": "IEEE 802.11a/b/g/n\n4",
+        "unit": null,
+        "source_section": "Wireless protocols",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "compatibility": {
+      "source_text": {
+        "value": "Interoperable with Wi-Fi Certified 802.11a, 802.11b, 802.11g, or 802.11n enabled Mac computers, iPhone, iPod touch, and Windows-based PCs\nNAT, DHCP, PPPoE, VPN Passthrough (IPSec, PPTP, and L2TP), DNS Proxy, SNMP, IPv6 (6to4 and manual tunnels)",
+        "unit": null,
+        "source_section": "Compatibility",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "frequency_bands": {
+      "source_text": {
+        "value": "2.4GHz and 5GHz simultaneously",
+        "unit": null,
+        "source_section": "Frequency bands",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "radio_output_power": {
+      "source_text": {
+        "value": "20 dBm (nominal)",
+        "unit": null,
+        "source_section": "Radio output power",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "channels": {
+      "source_text": {
+        "value": "Channels 1-11, 36-48, and 149-165 approved for use in the United States and Canada\nChannels 1-13, 36-64, and 100-140 approved for use in Japan\nChannels 1-13, 36-64, 100-112, and 132-140 approved for use in Europe\nChannels 1-13, 36-64, and 149-165 approved for use in Australia, Hong Kong, and New Zealand",
+        "unit": null,
+        "source_section": "Channels",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "system_requirements": {
+      "source_text": {
+        "value": "For Mac Users\nFor PC Users\nFor backup using Time Machine\nMac computer with Mac OS X v10.5.6 or later\n-\nFor setup and administration\nMac with Mac OS X v10.4 or later, CD drive, and Ethernet or wireless networking capability\nPC with Windows XP (SP3) or Windows Vista (SP1), CD drive, and Ethernet or wireless networking capability\nFor wireless client access\nMac with AirPort wireless capability\nPC with Wi-Fi Certified 802.11a/b/g/n card\nFor shared printing with a USB printer\nUSB printer, Mac with Mac OS X v10.2.7 or later\nUSB printer, PC with Windows XP (SP3) or Windows Vista (SP1), Bonjour for Windows (included on Time Capsule CD)\nFor AirPort Disk with a USB hard drive\nMac with Mac OS X v10.4.8 or later\nPC with Windows XP (SP3) or Windows Vista (SP1), Bonjour for Windows (included on Time Capsule CD)",
+        "unit": null,
+        "source_section": "System Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "extended_service_and_support": {
+      "source_text": {
+        "value": "The AppleCare Protection Plan for your computer covers Time Capsule.",
+        "unit": null,
+        "source_section": "Extended service and support",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
     }
   }
 }
