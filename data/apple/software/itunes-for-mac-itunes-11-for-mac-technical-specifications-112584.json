@@ -44,7 +44,8 @@
   "record_notes": [
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Field extraction pass 2026-11-09: version labels and explicit software/hardware requirements parsed from preserved official Apple source sections.",
-    "2026-11-10 identity correction: product.model now includes the official version designation from the technical-specification page title, preserving distinct software releases."
+    "2026-11-10 identity correction: product.model now includes the official version designation from the technical-specification page title, preserving distinct software releases.",
+    "2026-11-10 verification pass: added explicit processor, display, network and optical-drive requirements for iTunes 11 for Mac, preserving playback-specific RAM conditions."
   ],
   "normalized_specifications": {
     "software_version": {
@@ -98,6 +99,53 @@
         "source_section": "iTunes 11 for Mac - Technical Specifications",
         "verification_status": "source_transcribed",
         "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "processor_requirements": {
+      "value": {
+        "value": [
+          "Mac computer with an Intel Core processor and 512MB of RAM",
+          "To play 720p HD video, an iTunes LP, or iTunes Extras, a 2.0GHz Intel Core 2 Duo or faster processor and 1GB of RAM is required.",
+          "To play 1080p HD video, a 2.4GHz Intel Core 2 Duo or faster processor and 2GB of RAM is required."
+        ],
+        "unit": null,
+        "source_section": "iTunes 11 for Mac - Technical Specifications",
+        "verification_status": "source_transcribed",
+        "notes": "Processor and playback-specific requirements transcribed as exact statements; playback tiers are not collapsed into a single minimum."
+      }
+    },
+    "display_requirements": {
+      "value": {
+        "value": [
+          "Screen resolution of 1024x768 or greater; 1280x800 or greater is required to play an iTunes LP or iTunes Extras"
+        ],
+        "unit": null,
+        "source_section": "iTunes 11 for Mac - Technical Specifications",
+        "verification_status": "source_transcribed",
+        "notes": "Exact display requirement statement from the archived Apple source."
+      }
+    },
+    "network_requirements": {
+      "value": {
+        "value": [
+          "Broadband Internet connection to use the iTunes Store"
+        ],
+        "unit": null,
+        "source_section": "iTunes 11 for Mac - Technical Specifications",
+        "verification_status": "source_transcribed",
+        "notes": "Exact internet requirement statement from the archived Apple source."
+      }
+    },
+    "optical_drive_requirements": {
+      "value": {
+        "value": [
+          "Apple combo drive or SuperDrive to create audio, MP3, or back-up CDs; some non-Apple CD-RW recorders may also work",
+          "Apple SuperDrive to back up your library to DVDs; some non-Apple DVD-RW drives may also work"
+        ],
+        "unit": null,
+        "source_section": "iTunes 11 for Mac - Technical Specifications",
+        "verification_status": "source_transcribed",
+        "notes": "CD and DVD drive requirements retained separately as stated."
       }
     }
   }
