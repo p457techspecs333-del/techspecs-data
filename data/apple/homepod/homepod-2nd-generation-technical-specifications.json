@@ -258,6 +258,105 @@
         "verification_status": "source_transcribed",
         "notes": "Original dimension and weight statements retained, including component labels and units."
       }
+    },
+    "finish": {
+      "source_text": {
+        "value": "Midnight\nWhite",
+        "unit": null,
+        "source_section": "Finish",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "size_and_weight": {
+      "source_text": {
+        "value": "Dimensions:\n142 mm wide (5.6 inches)\n168 mm high (6.6 inches)\nWeight:\n2.3 kg (5.16 pounds)",
+        "unit": null,
+        "source_section": "Size and Weight 1",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "audio_sources": {
+      "source_text": {
+        "value": "Apple Music\n5\niTunes music purchases\niCloud Music Library with an Apple Music or iTunes Match subscription\nThird-party music services\n6\nApple Music Radio or episodes on demand\nRadio stations from TuneIn, Capital FM, LBC UK, Heart UK and Smooth UK\nApple Podcasts\nNews briefings\nRemastered ambient sounds\nAirPlay to share other content to HomePod from iPhone, iPad, Apple TV or Mac",
+        "unit": null,
+        "source_section": "Audio Sources",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "touch_controls": {
+      "source_text": {
+        "value": "Tap\nPlay/Pause\nDouble-tap\nSkip\nTriple-tap\nSkip back\nTouch and hold\nSiri\nTap or hold + or –\nVolume up/down",
+        "unit": null,
+        "source_section": "Touch Controls",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "accessibility": {
+      "source_text": {
+        "value": "Accessibility features help people with disabilities get the most out of HomePod.\nLearn more about Accessibility\nFeatures include:\nTouch Accommodations\nSiri\nVoiceOver\nHome app and HomeKit\nIntercom transcriptions",
+        "unit": null,
+        "source_section": "Accessibility",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "wireless": {
+      "source_text": {
+        "value": "802.11n Wi‑Fi\nPeer-to-peer discovery for easy guest access\n9\nBluetooth 5.0\nThread networking technology\n10\nUltra Wideband chip for device proximity\n11",
+        "unit": null,
+        "source_section": "Wireless",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "system_requirements": {
+      "source_text": {
+        "value": "HomePod with the latest software version\niPhone SE (2nd generation or later) or iPhone 8 or later with the latest version of iOS; or iPad Pro, iPad (5th generation or later), iPad Air (3rd generation or later) or iPad mini (5th generation or later) with the latest version of iPadOS\n802.11 Wi‑Fi internet access",
+        "unit": null,
+        "source_section": "System Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "electrical_and_environmental_requirements": {
+      "source_text": {
+        "value": "Line voltage: 100V to 240V AC\nFrequency: 50Hz to 60Hz\nOperating temperature: 0° to 35° C (32° to 95° F)\nRelative humidity: 5% to 90% non-condensing\nOperating altitude: tested up to 3,000 metres (10,000 feet)",
+        "unit": null,
+        "source_section": "Electrical and Environmental Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "in_the_box": {
+      "source_text": {
+        "value": "HomePod\nPower cable\nDocumentation",
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "compatibility": {
+      "source_text": {
+        "value": "iPhone:\niPhone 15 Pro Max\niPhone 15 Pro\niPhone 15 Plus\niPhone 15\niPhone 14 Pro Max\niPhone 14 Pro\niPhone 14 Plus\niPhone 14\niPhone 13 Pro Max\niPhone 13 Pro\niPhone 13\niPhone 13 mini\niPhone 12 Pro Max\niPhone 12 Pro\niPhone 12\niPhone 12 mini\niPhone 11 Pro Max\niPhone 11 Pro\niPhone 11\niPhone XS Max\niPhone XS\niPhone XR\niPhone X\niPhone 8 Plus\niPhone 8\niPhone SE (3rd generation)\niPhone SE (2nd generation)\niPad:\n12.9-inch iPad Pro\n11-inch iPad Pro\n10.5-inch iPad Pro\n9.7-inch iPad Pro\niPad (10th generation)\niPad (9th generation)\niPad (8th generation)\niPad (7th generation)\niPad (6th generation)\niPad (5th generation)\niPad Air (5th generation)\niPad Air (4th generation)\niPad Air (3rd generation)\niPad mini (6th generation)\niPad mini (5th generation)",
+        "unit": null,
+        "source_section": "Compatibility",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "homepod_and_the_environment": {
+      "source_text": {
+        "value": "HomePod is designed with the following features to reduce its environmental impact:\n12\nSee the HomePod Product Environmental Report\nMade with better materials\n100% recycled rare earth elements in the speaker magnet\n100% recycled tin in the solder of multiple printed circuit boards\n100% recycled gold in the plating of multiple printed circuit boards\n35% or more recycled plastic in multiple components\n100% recycled plastic in the Midnight mesh fabric and nearly 30% recycled plastic in the White mesh fabric\nEnergy efficient\nENERGY STAR\n®\ncertified\n13\nSmarter chemistry\n14\nMercury-, BFR-, PVC- and beryllium‑free\nGreen manufacturing\nApple’s Zero Waste Programme helps suppliers eliminate waste sent to landfill\nAll final assembly supplier sites are transitioning to 100% renewable energy for Apple production\nResponsible packaging\n100% of virgin wood fibre comes from responsibly managed forests\n96% or more fibre-based packaging and no outer plastic wrapping\nApple and the Environment\nWe’re committed to making our products without taking from the earth, and to become carbon neutral across our entire business, including products, by 2030.\nSee Apple’s commitment",
+        "unit": null,
+        "source_section": "HomePod and the Environment",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
     }
   }
 }
