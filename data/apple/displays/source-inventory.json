@@ -54,7 +54,8 @@
   "notes": [
     "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete.",
     "2026-11-09 field extraction pass: selected explicit display specifications and official introduction years added to all four records. Normalized fields remain source_transcribed pending final record-by-record verification.",
-    "2026-11-10 repository audit: all 4 inventory source_file references resolve to existing archived files in the current Git tree. This confirms archive-path presence only, not the accuracy or reachability of every source URL."
+    "2026-11-10 repository audit: all 4 inventory source_file references resolve to existing archived files in the current Git tree. This confirms archive-path presence only, not the accuracy or reachability of every source URL.",
+    "2026-11-10 progress: previously unrepresented source sections have been transcribed into normalized_specifications.source_text for every record in this category. This is source transcription, not final field-level verification."
   ],
   "record_audit": {
     "checked_at": "2026-11-10",
@@ -66,7 +67,8 @@
       "Verified introduction years from Apple's official display-identification page: Pro Display XDR 2019, Studio Display (2022) 2022, Studio Display (2026) 2026 and Studio Display XDR 2026.",
       "Extracted explicit display diagonal, pixel resolution, pixel density, brightness statements, refresh-rate options, camera, audio, connection, configuration-dependent size/weight and electrical requirements where present.",
       "Preserved source-section provenance and configuration-specific qualifiers.",
-      "Checked every working_scope source_file path against the current Git repository tree on 2026-11-10; all 4 referenced archive paths exist."
+      "Checked every working_scope source_file path against the current Git repository tree on 2026-11-10; all 4 referenced archive paths exist.",
+      "Added normalized_specifications.source_text entries for source sections that were previously absent from the normalized map across all 4 records; original sections and existing typed values were retained."
     ],
     "remaining": [
       "Verify all four records against their archived official Apple HTML and reconcile exact regional source URLs.",
