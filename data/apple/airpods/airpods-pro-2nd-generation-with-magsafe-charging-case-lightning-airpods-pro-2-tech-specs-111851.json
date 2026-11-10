@@ -101,7 +101,8 @@
     "Taxonomy audit 2026-11-09: classified as Apple audio hardware, not software.",
     "Field-level normalization remains incomplete; source_text is the evidence of record.",
     "Field extraction pass 2026-11-09: added typed fields only where explicit values were present in preserved official source sections; qualifiers retained and source-section provenance attached.",
-    "Follow-up extraction 2026-11-09: audio features, sensors, controls, charging-case details, system requirements and in-box contents separated where explicit."
+    "Follow-up extraction 2026-11-09: audio features, sensors, controls, charging-case details, system requirements and in-box contents separated where explicit.",
+    "2026-11-10 verification pass: added component-aware measurements from the archived source to distinguish earbud weight/dimensions from charging-case weight/dimensions."
   ],
   "normalized_specifications": {
     "audio_technology": {
@@ -372,6 +373,64 @@
         "source_section": "In the Box",
         "verification_status": "source_transcribed",
         "notes": "Extracted from the preserved official Apple specification section; source wording retained."
+      }
+    },
+    "labelled_size_weight_measurements": {
+      "value": {
+        "value": [
+          {
+            "component": "AirPods Pro (Each)",
+            "label": "height",
+            "value": 30.9,
+            "unit": "mm"
+          },
+          {
+            "component": "AirPods Pro (Each)",
+            "label": "width",
+            "value": 21.8,
+            "unit": "mm"
+          },
+          {
+            "component": "AirPods Pro (Each)",
+            "label": "depth",
+            "value": 24,
+            "unit": "mm"
+          },
+          {
+            "component": "AirPods Pro (Each)",
+            "label": "weight",
+            "value": 5.3,
+            "unit": "g"
+          },
+          {
+            "component": "MagSafe Charging Case with speaker and lanyard loop",
+            "label": "height",
+            "value": 45.2,
+            "unit": "mm"
+          },
+          {
+            "component": "MagSafe Charging Case with speaker and lanyard loop",
+            "label": "width",
+            "value": 60.6,
+            "unit": "mm"
+          },
+          {
+            "component": "MagSafe Charging Case with speaker and lanyard loop",
+            "label": "depth",
+            "value": 21.7,
+            "unit": "mm"
+          },
+          {
+            "component": "MagSafe Charging Case with speaker and lanyard loop",
+            "label": "weight",
+            "value": 50.8,
+            "unit": "g"
+          }
+        ],
+        "unit": null,
+        "source_section": "Size and Weight 3",
+        "verification_status": "source_transcribed",
+        "notes": "Component-specific measurements transcribed from the archived Apple source. Explicit labels and units are retained; dimension sequences are not assigned inferred axis labels."
       }
     }
   }
