@@ -87,6 +87,24 @@
         "verification_status": "source_transcribed",
         "notes": "Extracted from preserved official Apple software specification text; original requirement wording retained."
       }
+    },
+    "itunes_8_0_2_for_mac_technical_specifications": {
+      "source_text": {
+        "value": "Hardware:\nMac computer with an Intel, PowerPC G5, G4, or G3 processor\nPlaying videos from the iTunes Store requires a Mac computer with an Intel, PowerPC G5 or 1.0GHz PowerPC G4 or faster processor\nPlaying HD-quality videos from the iTunes Store requires a 2.0GHz Intel Core 2 Duo or faster processor\n512MB of RAM; 1GB is required to play HD-quality videos\nPlaying videos also requires at least 16MB of video RAM\nA broadband Internet connection to use the iTunes Store\nAn Apple combo drive or SuperDrive to create audio, MP3, or back-up CDs; some non-Apple CD-RW recorders may also work.\nAn Apple SuperDrive to back up your library to DVDs; some non-Apple DVD-RW drives may also work.\nSoftware:\nMac OS X version 10.4.9 or later\nQuickTime 7.5.5 or later is required\n200MB of available disk space\niPod and iPhone:\nSyncing purchased videos requires iPod nano (3rd generation), iPod classic, iPod (5th generation) with software version 1.2 or later, iPod touch, or iPhone.\nTransferring rented movies requires iPod nano (3rd generation) and iPod classic with software version 1.1 or later or iPod touch and iPhone with software version 1.1.3 or later.\nSyncing ringtones requires iPhone software version 1.1 or later.\nPurchasing or syncing applications require an iPhone or iPod touch with the iPhone 2.0 Software Update or later.\nPurchasing from the iTunes Wi-Fi Music Store requires iPhone or iPod touch with software version 1.1.1 or later.\nSyncing iPod Games requires iPod nano (3rd generation), iPod classic, or iPod (5th generation) with software version 1.2 or later. Some iPod Games may not be compatible with iPod nano (3rd generation) and iPod classic.\nNike + iPod:\nNike + iPod requires a Nike + iPod Sport Kit or Sensor, a compatible iPod, and Nike+ ready shoes.\nNike + iPod is compatible with iPod nano and iPod touch (2nd generation). iPod nano (1st generation) must have software version 1.2 or later.\nTo see your workout data on nikeplus.com , an Internet connection and a free Nike.com account are required.\nApple TV:\nRenting or purchasing using Apple TV requires Apple TV software version 2.0 or later.\nHD movies from the iTunes Store are designed exclusively for Apple TV and may not be transferred to iTunes.\nAirPort Express with AirTunes:\nPlaying your music with one or more AirPort Express base stations requires AirPort Express software version 6.3 or later.\nAirPort Express with AirTunes requires an AirPort or AirPort Extreme card and a compatible stereo system or powered speakers.",
+        "unit": null,
+        "source_section": "iTunes 8.0.2 for Mac - Technical Specifications",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "apple_footer": {
+      "source_text": {
+        "value": "Support\niTunes 8.0.2 for Mac - Technical Specifications",
+        "unit": null,
+        "source_section": "Apple Footer",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
     }
   }
 }
