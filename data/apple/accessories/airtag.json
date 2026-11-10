@@ -188,6 +188,96 @@
         "verification_status": "source_transcribed",
         "notes": "Extracted from preserved official Apple specification text; wording retained."
       }
+    },
+    "size_and_weight": {
+      "source_text": {
+        "value": "Diameter:\n31.9 mm (1.26 inches)\nHeight:\n8.0 mm (0.31 inches)\nWeight:\n11 grams (0.39 ounces)",
+        "unit": null,
+        "source_section": "Size and Weight",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "splash_water_and_dust_resistance": {
+      "source_text": {
+        "value": "Rated IP67 (maximum depth of 1 metre up to 30 minutes) under IEC standard 60529",
+        "unit": null,
+        "source_section": "Splash, Water and Dust Resistance",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "connectivity": {
+      "source_text": {
+        "value": "Bluetooth for proximity finding\nApple-designed U1 chip for Ultra Wideband and Precision Finding\nNFC tap for Lost Mode",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "speaker": {
+      "source_text": {
+        "value": "Built-in speaker",
+        "unit": null,
+        "source_section": "Speaker",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "battery": {
+      "source_text": {
+        "value": "User-replaceable CR2032 coin cell battery",
+        "unit": null,
+        "source_section": "Battery",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "sensor": {
+      "source_text": {
+        "value": "Accelerometer",
+        "unit": null,
+        "source_section": "Sensor",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "accessibility": {
+      "source_text": {
+        "value": "The Find My app is compatible with these iPhone accessibility features:\nVoiceOver\nInvert Colours\nLarger Text\nCompatibility with braille displays",
+        "unit": null,
+        "source_section": "Accessibility",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "system_requirements_and_compatibility": {
+      "source_text": {
+        "value": "Apple ID\niPhone and iPod touch models with iOS 14.5 or later\niPad models with iPadOS 14.5 or later",
+        "unit": null,
+        "source_section": "System Requirements and Compatibility",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "in_the_box": {
+      "source_text": {
+        "value": "AirTag with CR2032 coin cell battery installed\nDocumentation",
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "airtag_and_the_environment": {
+      "source_text": {
+        "value": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more about AirTag and the Environment\nAirTag is designed with the following features to reduce environmental impact:\n100% recycled tin in the solder of the main logic board\nMercury-free\nBFR-free\nPVC-free\nBeryllium-free\nApple and the Environment\nLearn more about Apple’s dedication to reducing the environmental impact of our products and processes. Or read our Product Environmental Reports for detailed information on the environmental performance of every Apple product.",
+        "unit": null,
+        "source_section": "AirTag and the Environment",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
     }
   }
 }
