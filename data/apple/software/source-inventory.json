@@ -389,7 +389,8 @@
     "2026-11-10 progress: previously unrepresented source sections have been transcribed into normalized_specifications.source_text for every record in this category. This is source transcription, not final field-level verification.",
     "2026-11-10 identity audit: versioned software records now include the source page's explicit version/platform in product.model instead of the generic family name; null introduction years remain null where the source does not state them.",
     "Audit correction: the iTunes inventory contains 14 separate version/platform records (7 Mac and 7 Windows), not 13.",
-    "2026-11-10 inventory alignment: software working_scope model names now match the version- and platform-specific product.model values in the individual records."
+    "2026-11-10 inventory alignment: software working_scope model names now match the version- and platform-specific product.model values in the individual records.",
+    "2026-11-10 verification pass: iTunes 12 Mac/Windows requirements are now decomposed into explicit machine-readable fields while preserving source statements and playback-specific conditions."
   ],
   "record_audit": {
     "checked_at": "2026-11-10",
@@ -404,12 +405,13 @@
       "Retained source-section provenance and original requirement text.",
       "Checked every working_scope source_file path against the current Git repository tree on 2026-11-10; all 22 referenced archive paths exist.",
       "Added normalized_specifications.source_text entries for source sections that were previously absent from the normalized map across all 22 records; original sections and existing typed values were retained.",
-      "Corrected product.model values to include official software version and platform names for Aperture 3, Compressor 4, all 14 distinct iTunes release/platform records, Logic Pro 9, MainStage 2, Motion 5 and QuickTime Pro 7 for Mac."
+      "Corrected product.model values to include official software version and platform names for Aperture 3, Compressor 4, all 14 distinct iTunes release/platform records, Logic Pro 9, MainStage 2, Motion 5 and QuickTime Pro 7 for Mac.",
+      "Expanded iTunes 12 for macOS and Windows into separate processor, playback-tier graphics, display, memory/storage, network, sound, optical-drive and platform/installer requirement fields where Apple explicitly states them."
     ],
     "remaining": [
       "Verify every record's source URL and archived HTML against the exact version-specific official Apple page.",
-      "Check whether requirements have been fully captured for each version, especially processor architecture, OS version, RAM, storage and platform-specific differences.",
-      "Retain separate Mac and Windows variants and avoid merging requirements across iTunes versions.",
+      "Apply the same field-level requirement audit to the remaining iTunes versions, keeping each version's OS, processor, RAM, storage and peripheral requirements distinct.",
+      "Check requirements for Aperture, Compressor, Final Cut Pro, Logic Pro, MainStage, Motion and QuickTime Pro against their exact source sections.",
       "Run full repository schema, catalogue and archive/source consistency checks."
     ]
   }
