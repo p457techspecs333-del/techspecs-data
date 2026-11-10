@@ -94,7 +94,8 @@
     "Taxonomy audit 2026-11-09: classified as Apple audio hardware, not software.",
     "Field-level normalization remains incomplete; source_text is the evidence of record.",
     "Field extraction pass 2026-11-09: added typed fields only where explicit values were present in preserved official source sections; qualifiers retained and source-section provenance attached.",
-    "Follow-up extraction 2026-11-09: audio features, sensors, controls, charging-case details, system requirements and in-box contents separated where explicit."
+    "Follow-up extraction 2026-11-09: audio features, sensors, controls, charging-case details, system requirements and in-box contents separated where explicit.",
+    "2026-11-10 verification pass: added component-aware size and weight values so case and headphone measurements are not ambiguous."
   ],
   "normalized_specifications": {
     "colour": {
@@ -257,26 +258,31 @@
       "value": {
         "value": [
           {
+            "component": ", including cushions",
             "label": "width",
             "value": 168.6,
             "unit": "mm"
           },
           {
+            "component": ", including cushions",
             "label": "depth",
             "value": 83.4,
             "unit": "mm"
           },
           {
+            "component": ", including cushions",
             "label": "height",
             "value": 187.3,
             "unit": "mm"
           },
           {
+            "component": ", including cushions",
             "label": "weight",
             "value": 386.2,
             "unit": "g"
           },
           {
+            "component": "Smart Case",
             "label": "weight",
             "value": 134.5,
             "unit": "g"
@@ -285,7 +291,7 @@
         "unit": null,
         "source_section": "Size and Weight 5",
         "verification_status": "source_transcribed",
-        "notes": "Only explicit label/value pairs extracted; source component context retained, no values inferred."
+        "notes": "Each measurement retains the source component (headphones/earbuds or case), label and unit from Apple's preserved Size and Weight section."
       }
     },
     "model_identifiers": {
