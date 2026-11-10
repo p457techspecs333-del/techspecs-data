@@ -84,7 +84,8 @@
   ],
   "record_notes": [
     "Archival-first-pass record; normalized specifications not inferred.",
-    "Field extraction pass 2026-11-09: normalized explicit display specifications and verified introduction year against Apple's official display-identification page."
+    "Field extraction pass 2026-11-09: normalized explicit display specifications and verified introduction year against Apple's official display-identification page.",
+    "2026-11-10 verification correction: brightness qualifiers now explicitly distinguish SDR (up to 1,000 nits) from HDR peak (2,000 nits), matching the preserved Display section."
   ],
   "normalized_specifications": {
     "resolution_pixels": {
@@ -113,17 +114,17 @@
         "value": [
           {
             "value": 1000,
-            "qualifier": "unspecified"
+            "qualifier": "up to (SDR)"
           },
           {
             "value": 2000,
-            "qualifier": "peak"
+            "qualifier": "peak (HDR)"
           }
         ],
         "unit": "nits",
         "source_section": "Display",
         "verification_status": "source_transcribed",
-        "notes": "Brightness values retained with source qualifiers (e.g. sustained full-screen or peak); no single maximum inferred."
+        "notes": "Brightness statements retain Apple's explicit mode and peak qualifiers: up to 1,000 nits for SDR and 2,000 nits peak for HDR. No single brightness value is inferred."
       }
     },
     "refresh_rate": {
