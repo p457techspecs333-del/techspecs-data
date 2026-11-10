@@ -10,7 +10,7 @@
   "index_archive": "apple_remaining_extraction/technical_specs_html/homepod-index.html",
   "working_scope": [
     {
-      "model": "HomePod mini 2 technical specifications",
+      "model": "HomePod mini 2",
       "url": "https://support.apple.com/en-us/149360",
       "slug": "homepod-mini-2-technical-specifications",
       "final_url": "https://support.apple.com/en-us/149360",
@@ -20,7 +20,7 @@
       "verification_status": "content_verified_official_us_locale"
     },
     {
-      "model": "HomePod (2nd generation) technical specifications",
+      "model": "HomePod (2nd generation)",
       "url": "https://support.apple.com/kb/SP888?locale=en_GB",
       "slug": "homepod-2nd-generation-technical-specifications",
       "final_url": "https://support.apple.com/en-gb/111843",
@@ -30,7 +30,7 @@
       "verification_status": "content_verified"
     },
     {
-      "model": "HomePod mini technical specifications",
+      "model": "HomePod mini",
       "url": "https://support.apple.com/kb/SP834?locale=en_GB",
       "slug": "homepod-mini-technical-specifications",
       "final_url": "https://support.apple.com/en-gb/111914",
@@ -40,7 +40,7 @@
       "verification_status": "content_verified"
     },
     {
-      "model": "HomePod (1st generation) technical specifications",
+      "model": "HomePod (1st generation)",
       "url": "https://support.apple.com/kb/SP773?locale=en_GB",
       "slug": "homepod-1st-generation-technical-specifications",
       "final_url": "https://support.apple.com/en-gb/111994",
@@ -56,7 +56,8 @@
     "2026-11-09 progress: all four HomePod records have introduction years and selected explicit specification fields normalized with source-section provenance. This is not final record-level verification; normalized fields remain source_transcribed.",
     "HomePod mini 2 technical-specification page verified on the official Apple US support domain (https://support.apple.com/en-us/149360); the Ireland-localized URL was not independently accessible during this check, so the record now cites the verified official source.",
     "2026-11-10 progress: added source_text entries for every previously unrepresented official Apple section across all four HomePod records. Existing typed values and provenance were retained; newly transcribed sections remain source_transcribed, not independently field-verified.",
-    "2026-11-10 repository audit: all 4 inventory source_file references resolve to existing archived files in the current Git tree. This confirms archive-path presence only, not the accuracy or reachability of every source URL."
+    "2026-11-10 repository audit: all 4 inventory source_file references resolve to existing archived files in the current Git tree. This confirms archive-path presence only, not the accuracy or reachability of every source URL.",
+    "2026-11-10 metadata correction: working_scope model labels now contain product names only; technical-specification page titles remain in the separate title field."
   ],
   "record_audit": {
     "checked_at": "2026-11-10",
@@ -69,7 +70,8 @@
       "Added typed finish/colour, dimensions/weight, audio technology, sensor, wireless and environmental fields where explicit source text supports them.",
       "Added source-section provenance to extracted values and retained original section text.",
       "Transcribed all remaining preserved official specification sections into normalized_specifications.source_text entries for all four HomePod records, retaining exact section headings and footnote markers.",
-      "Checked every working_scope source_file path against the current Git repository tree on 2026-11-10; all 4 referenced archive paths exist."
+      "Checked every working_scope source_file path against the current Git repository tree on 2026-11-10; all 4 referenced archive paths exist.",
+      "Corrected product.model and inventory model labels to remove the document descriptor 'technical specifications' from product names."
     ],
     "remaining": [
       "Verify all four records against their archived official Apple HTML, including exact regional URL and source-file paths.",
