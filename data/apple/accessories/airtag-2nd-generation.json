@@ -177,6 +177,105 @@
         "verification_status": "source_transcribed",
         "notes": "Extracted from preserved official Apple specification text; wording retained."
       }
+    },
+    "size_and_weight": {
+      "source_text": {
+        "value": "Diameter:\n31.9 mm (1.26 inches)\nHeight:\n8.0 mm (0.31 inches)\nWeight:\n11.8 grams (0.42 ounces)",
+        "unit": null,
+        "source_section": "Size and Weight",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "splash_water_and_dust_resistance": {
+      "source_text": {
+        "value": "Rated IP67 (maximum depth of 1 metre up to 30 minutes) under IEC standard 60529",
+        "unit": null,
+        "source_section": "Splash, Water and Dust Resistance",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "connectivity": {
+      "source_text": {
+        "value": "Bluetooth for proximity finding\nApple-designed, second-generation Ultra Wideband chip and expanded Precision Finding connectivity\nNFC tap for Lost Mode",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "speaker": {
+      "source_text": {
+        "value": "Built-in speaker",
+        "unit": null,
+        "source_section": "Speaker",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "battery": {
+      "source_text": {
+        "value": "User-replaceable CR2032 coin cell battery",
+        "unit": null,
+        "source_section": "Battery",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "sensor": {
+      "source_text": {
+        "value": "Accelerometer",
+        "unit": null,
+        "source_section": "Sensor",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "accessibility": {
+      "source_text": {
+        "value": "The Find My app is compatible with these iPhone accessibility features:\nVoiceOver\nInvert Colours\nLarger Text\nCompatibility with braille displays",
+        "unit": null,
+        "source_section": "Accessi­bility",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "system_requirements_and_compatibility": {
+      "source_text": {
+        "value": "Apple Account\niPhone with iOS 26.2.1 or later\niPad models with iPadOS 26.1 or later",
+        "unit": null,
+        "source_section": "System Require­ments and Compatibility",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "environmental_requirements": {
+      "source_text": {
+        "value": "Oper­at­ing ambient temperature: −20° to 60° C (−4° to 140° F)",
+        "unit": null,
+        "source_section": "En­viron­men­tal Require­ments",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "in_the_box": {
+      "source_text": {
+        "value": "AirTag with CR2032 coin cell battery installed\nDocumentation",
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "airtag_and_the_environment": {
+      "source_text": {
+        "value": "Progress towards Apple 2030\nApple 2030 is our commitment to be carbon neutral for our entire carbon footprint. Our plan to decarbonise products is rigorous and focuses on transitioning to low‑carbon electricity, designing with recycled and low‑carbon materials and prioritising lower‑carbon ways of shipping products, like sea freight.\nSee Appleʼs commitment\nMaterials\n85% recycled plastic in the enclosure\n100% recycled gold plating in all Apple‑designed printed circuit boards\n100% recycled tin solder in all Apple‑designed printed circuit boards\n100% recycled rare earth elements in all magnets\nPackaging\n100% fibre-based packaging\n5\nWaste\nNo established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme.\n6\nSmarter Chemistry\n7\nAll of the materials used in Apple products, accessories and packaging are covered by the requirements of our\nRegulated Substances Specification\n, which was one of the first in industry to restrict the use of key substances of concern. See the latest\nEn­viron­men­tal Progress Report\nto understand Apple’s recent efforts in phasing out these chemistries.",
+        "unit": null,
+        "source_section": "AirTag and the Environment",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
     }
   }
 }
