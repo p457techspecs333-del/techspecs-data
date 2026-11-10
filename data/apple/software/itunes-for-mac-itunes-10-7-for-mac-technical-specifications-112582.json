@@ -89,6 +89,24 @@
         "verification_status": "source_transcribed",
         "notes": "Extracted from preserved official Apple software specification text; original requirement wording retained."
       }
+    },
+    "itunes_10_7_for_mac_technical_specifications": {
+      "source_text": {
+        "value": "Software:\nMac OS X version 10.6.8 or later\nSafari 4.0.3 or later\n400MB of available disk space\niTunes in the Cloud and iTunes Match availability may vary by country.\nHardware:\nMac computer with an Intel Core processor and 512MB of RAM\nTo play 720p HD video, an iTunes LP, or iTunes Extras, a 2.0GHz Intel Core 2 Duo or faster processor and 1GB of RAM is required.\nTo play 1080p HD video, a 2.4GHz Intel Core 2 Duo or faster processor and 2GB of RAM is required.\nScreen resolution of 1024x768 or greater; 1280x800 or greater is required to play an iTunes LP or iTunes Extras\nBroadband Internet connection to use the iTunes Store\nApple combo drive or SuperDrive to create audio, MP3, or back-up CDs; some non-Apple CD-RW recorders may also work\nApple SuperDrive to back up your library to DVDs; some non-Apple DVD-RW drives may also work",
+        "unit": null,
+        "source_section": "iTunes 10.7 for Mac - Technical Specifications",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "apple_footer": {
+      "source_text": {
+        "value": "Support\niTunes 10.7 for Mac - Technical Specifications",
+        "unit": null,
+        "source_section": "Apple Footer",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
     }
   }
 }
