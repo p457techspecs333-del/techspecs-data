@@ -207,6 +207,114 @@
         "verification_status": "source_transcribed",
         "notes": "Explicit value parsed from the preserved official Apple specification section; source wording and qualifiers retained."
       }
+    },
+    "display": {
+      "source_text": {
+        "value": "5K Retina display\n27-inch (diagonal) 5K Retina display\n5120x2880 resolution at 218 pixels per inch\n600 nits brightness\nSupport for 1 billion colours\nWide colour (P3)\nTrue Tone technology\nConfigurable with:\nNano-texture glass",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "reference_modes": {
+      "source_text": {
+        "value": "Apple Display (P3-600 nits)\nHDTV Video (BT.709–BT.1886)\nNTSC Video (BT.601 SMPTE-C)\nPAL and SECAM Video (BT.601 EBU)\nDigital Cinema (P3-DCI)\nDigital Cinema (P3-D65)\nDesign and Print (P3-D50)\nPhotography (P3-D65)\nInternet and Web (sRGB)",
+        "unit": null,
+        "source_section": "Reference Modes",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "camera": {
+      "source_text": {
+        "value": "12MP Ultra Wide camera with 122° field of view\nƒ/2.4 aperture\nCentre Stage",
+        "unit": null,
+        "source_section": "Camera",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "audio": {
+      "source_text": {
+        "value": "High-fidelity six-speaker system with force-cancelling woofers\nWide stereo sound\nSupport for Spatial Audio when playing music or video with Dolby Atmos\nStudio-quality three-mic array with high signal-to-noise ratio and directional beamforming\nSupport for “Hey Siri”",
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "connections": {
+      "source_text": {
+        "value": "One upstream Thunderbolt 3 (USB‑C) port for host (with 96W host charging)\nThree downstream USB‑C ports (up to 10Gb/s) for connecting peripherals, storage and networking",
+        "unit": null,
+        "source_section": "Connections",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "stand": {
+      "source_text": {
+        "value": "Tilt-adjustable stand\nTilt: −5° to +25°\nConfigurable with:\nTilt- and height-adjustable stand\nTilt: −5° to +25°\nHeight adjustment: 105 mm in total\nVESA mount adapter\nCompatible with 100 x 100 mm VESA stand or mount\nOrientation: landscape or portrait",
+        "unit": null,
+        "source_section": "Stand",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "size_and_weight": {
+      "source_text": {
+        "value": "Studio Display with tilt-adjustable stand\nHeight:\n47.8 cm (18.8 inches)\nWidth:\n62.3 cm (24.5 inches)\nDepth:\n16.8 cm (6.6 inches)\nWeight:\n6.3 kg (13.9 pounds)\n1\nStudio Display with tilt- and height-adjustable stand\nHeight (bottom position):\n47.9 cm (18.8 inches)\nWidth:\n62.3 cm (24.5 inches)\nHeight (top position):\n58.3 cm (23.0 inches)\nWeight:\n7.7 kg (16.9 pounds)\n1\nDepth:\n20.7 cm (8.1 inches)\nStudio Display with VESA mount adapter\nHeight:\n36.2 cm (14.3 inches)\nWidth:\n62.3 cm (24.5 inches)\nDepth:\n3.1 cm (1.2 inches)\nWeight:\n5.5 kg (12.1 pounds)\n1",
+        "unit": null,
+        "source_section": "Size and Weight",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "compatibility": {
+      "source_text": {
+        "value": "Studio Display is compatible with the following Mac models with macOS Monterey 12.3 or later:\nMac Studio (2022)\n16-inch MacBook Pro (2019 or later)\n14-inch MacBook Pro (2021)\n13-inch MacBook Pro (2016 or later)\n15-inch MacBook Pro (2016 or later)\nMacBook Air (2018 or later)\nMac mini (2018 or later)\nMac Pro (2019 or later)\n24‑inch iMac (2021)\n27-inch iMac (2017 or later)\n21.5-inch iMac (2017 or later)\niMac Pro (2017)\nStudio Display is compatible with the following iPad models with iPadOS 15.4 or later:\n2\niPad Pro 12.9-inch (3rd generation or later)\niPad Pro 11-inch\niPad Air (5th generation)",
+        "unit": null,
+        "source_section": "Compatibility",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "in_the_box": {
+      "source_text": {
+        "value": "Studio Display\nThunderbolt cable (1m)",
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "electrical_and_operating_requirements": {
+      "source_text": {
+        "value": "Line voltage:\n100–240V AC\nFrequency:\n50Hz to 60Hz, single phase\nOperating temperature:\n10° to 35° C (50° to 95° F)\nRelative humidity:\n5% to 90% non-condensing\nMaximum altitude:\ntested up to 5,000 metres (16,400 feet)",
+        "unit": null,
+        "source_section": "Electrical and Operating Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "configure_to_order": {
+      "source_text": {
+        "value": "Configure your Studio Display with these options at\napple.com\n:\nNano-texture glass\nTilt- and height-adjustable stand\nVESA mount adapter",
+        "unit": null,
+        "source_section": "Configure to Order",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "studio_display_and_the_environment": {
+      "source_text": {
+        "value": "Studio Display is designed with the following features to reduce its environmental impact:\n3\nSee the Studio Display Product Environmental Report\nMade with better materials\n100% recycled rare earth elements in all magnets, representing 100% of the rare earth elements in the device\n4\n100% recycled aluminium in the stand\n100% recycled copper and zinc in the prongs of the power lead plug and AC inlet\n100% recycled tin in the solder of multiple printed circuit boards\n35% or more recycled plastic in multiple components\nEnergy efficient\nENERGY STAR\n®\ncertified\n5\nSmarter chemistry\n6\nArsenic-free display glass\nMercury-, BFR-, PVC- and beryllium‑free\nGreen manufacturing\nApple’s Zero Waste Programme helps suppliers eliminate waste sent to landfill\nAll final assembly supplier sites are transitioning to 100% renewable energy for Apple production\nResponsible packaging\n100% of virgin wood fibre comes from responsibly managed forests\n90% or more fibre-based packaging\nApple and the Environment\nWe’re committed to making our products without taking from the earth, and to become carbon neutral across our entire business, including products, by 2030.\nSee Apple’s commitment",
+        "unit": null,
+        "source_section": "Studio Display and the Environment",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
     }
   }
 }
