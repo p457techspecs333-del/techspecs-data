@@ -126,6 +126,78 @@
         "verification_status": "source_transcribed",
         "notes": "Extracted from preserved official Apple specification text; wording retained."
       }
+    },
+    "colour": {
+      "source_text": {
+        "value": "White Multi-Touch Surface\nBlack Multi-Touch Surface",
+        "unit": null,
+        "source_section": "Colour",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "overview": {
+      "source_text": {
+        "value": "Magic Trackpad is wireless and rechargeable, and it includes the full range of Multi-Touch gestures and Force Touch technology. Sensors underneath the trackpad surface detect subtle differences in the amount of pressure you apply, bringing more functionality to your fingertips and enabling a deeper connection to your content. It features a large edge-to-edge glass surface area, making scrolling and swiping through your favourite content more productive and comfortable than ever.\nMagic Trackpad pairs automatically with your Mac, so you can get to work straightaway. The rechargeable battery will power it for about a month or more between charges.\nIt features a USB-C port and includes a woven USB-C Charge Cable that lets you pair and charge by connecting to a USB-C port on your Mac, so you can charge all of your favourite devices with just a single cable.\nMagic Trackpad works a treat with Apple Vision Pro for activities like complex spreadsheets, and works seamlessly together with your hands, eyes and voice when navigating Apple Vision Pro.",
+        "unit": null,
+        "source_section": "Overview",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "what_s_in_the_box": {
+      "source_text": {
+        "value": "Magic Trackpad\nUSB‑C Charge Cable",
+        "unit": null,
+        "source_section": "What’s in the Box",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "size_and_weight": {
+      "source_text": {
+        "value": "Height:\n0.49–1.09 cm (0.19–0.43 inches)\nWidth:\n16.0 cm (6.30 inches)\nDepth:\n11.49 cm (4.52 inches)\nWeight:\n0.230 kg (0.51 pounds)*",
+        "unit": null,
+        "source_section": "Size and Weight",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "general": {
+      "source_text": {
+        "value": "Force Touch\nMulti-Touch",
+        "unit": null,
+        "source_section": "General",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "connections_and_expansion": {
+      "source_text": {
+        "value": "Bluetooth\nUSB‑C port\nWireless",
+        "unit": null,
+        "source_section": "Connections and Expansion",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "system_requirements": {
+      "source_text": {
+        "value": "Mac with macOS 15.1 or later\niPad with iPadOS 18.1 or later\nApple Vision Pro with the latest version of visionOS",
+        "unit": null,
+        "source_section": "System Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "compatibility": {
+      "source_text": {
+        "value": "iPad Models\niPad Pro 13-inch (M5)\niPad Pro 13-inch (M4)\niPad Pro 12.9-inch (6th generation)\niPad Pro 12.9-inch (5th generation)\niPad Pro 12.9-inch (4th generation)\niPad Pro 12.9-inch (3rd generation)\niPad Pro 12.9-inch (2nd generation)\niPad Pro 12.9-inch (1st generation)\niPad Pro 11-inch (M5)\niPad Pro 11-inch (M4)\niPad Pro 11-inch (4th generation)\niPad Pro 11-inch (3rd generation)\niPad Pro 11-inch (2nd generation)\niPad Pro 11-inch (1st generation)\niPad Pro 10.5-inch\niPad Pro 9.7-inch\niPad Air 13-inch (M4)\niPad Air 11-inch (M4)\niPad Air 13-inch (M3)\niPad Air 11-inch (M3)\niPad Air 13-inch (M2)\niPad Air 11-inch (M2)\niPad Air (5th generation)\niPad Air (4th generation)\niPad Air (3rd generation)\niPad Air 2\niPad (A16)\niPad (10th generation)\niPad (9th generation)\niPad (8th generation)\niPad (7th generation)\niPad (6th generation)\niPad (5th generation)\niPad mini (A17 Pro)\niPad mini (6th generation)\niPad mini (5th generation)\niPad mini 4\nMac Models\nMacBook Neo\nMacBook Air (13-inch, M5)\nMacBook Air (15-inch, M5)\nMacBook Air (13‑inch, M4)\nMacBook Air (15‑inch, M4)\nMacBook Air (13-inch, M3)\nMacBook Air (15-inch, M3)\nMacBook Air (15-inch, M2)\nMacBook Air (13-inch, M2)\nMacBook Air (M1)\nMacBook Pro (14-inch, M5 Pro or M5 Max)\nMacBook Pro (16-inch, M5 Pro or M5 Max)\nMacBook Pro (14-inch, M5)\nMacBook Pro (14‑inch, 2024)\nMacBook Pro (16‑inch, 2024)\nMacBook Pro (14‑inch, 2023)\nMacBook Pro (16‑inch, 2023)\nMacBook Pro (13‑inch, M2, 2022)\nMacBook Pro (14‑inch, 2021)\nMacBook Pro (16-inch, 2021)\nMacBook Pro (13-inch, M1, 2020)\niMac (24‑inch, M4, 2024)\niMac (24-inch, M3, 2023)\niMac (24-inch, M1, 2021)\nMac Studio (M5 Max or M5 Ultra)\nMac Studio (2025)\nMac Studio (2023)\nMac Studio (2022)\nMac mini (M6 or M5 Pro)\nMac mini (2024)\nMac mini (2023)\nMac mini (M1, 2020)\nMac Pro (2023)\nDisplay Models\nStudio Display (2026)\nStudio Display XDR\nApple Vision Pro\nApple Vision Pro (M5)\nApple Vision Pro (M2)",
+        "unit": null,
+        "source_section": "Compatibility",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
     }
   }
 }
