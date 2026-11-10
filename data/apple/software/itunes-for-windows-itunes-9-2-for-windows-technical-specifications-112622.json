@@ -48,7 +48,8 @@
   "record_notes": [
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Field extraction pass 2026-11-09: version labels and explicit software/hardware requirements parsed from preserved official Apple source sections.",
-    "2026-11-10 identity correction: product.model now includes the official version and platform from the technical-specification page title, preserving distinct software releases."
+    "2026-11-10 identity correction: product.model now includes the official version and platform from the technical-specification page title, preserving distinct software releases.",
+    "2026-11-10 verification correction: removed iOS 4 from the Windows operating-system requirement field and restored the full Windows XP/Vista/Windows 7 and 64-bit installer requirements. Added explicit processor, RAM, graphics, display, sound, network, optical-drive, QuickTime and device compatibility fields."
   ],
   "normalized_specifications": {
     "windows_requirements_statements": {
@@ -98,24 +99,26 @@
     "operating_system_requirements": {
       "value": {
         "value": [
-          "iOS 4",
-          "Windows 7"
+          "Windows XP Service Pack 2 or later",
+          "32-bit editions of Windows Vista",
+          "32-bit editions of Windows 7",
+          "64-bit editions of Windows Vista or Windows 7 require the iTunes 64-bit installer"
         ],
         "unit": null,
-        "source_section": "System requirements",
+        "source_section": "Windows Software",
         "verification_status": "source_transcribed",
-        "notes": "Operating-system requirements parsed from official source text; exact wording retained where possible."
+        "notes": "Windows OS/architecture requirements only. iOS 4 statements describe connected-device features and are recorded separately."
       }
     },
     "memory_requirements": {
       "value": {
         "value": [
-          "512MB of RAM"
+          "512MB of RAM; 1GB is required to play HD video, an iTunes LP, or iTunes Extras"
         ],
         "unit": null,
-        "source_section": "System requirements",
+        "source_section": "Windows Requirements",
         "verification_status": "source_transcribed",
-        "notes": "Extracted from preserved official Apple software specification text; original requirement wording retained."
+        "notes": "Base and HD playback memory requirements retained in the same explicit source statement."
       }
     },
     "storage_requirements": {
@@ -154,6 +157,111 @@
         "source_section": "Windows Software",
         "verification_status": "source_transcribed",
         "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "processor_requirements": {
+      "value": {
+        "value": [
+          "A PC with a 1GHz Intel or AMD processor",
+          "Intel Pentium D or faster processor is required to play Standard Definition video from the iTunes Store",
+          "2.0GHz Intel Core 2 Duo or faster processor is required to play HD video, an iTunes LP, or iTunes Extras from the iTunes Store"
+        ],
+        "unit": null,
+        "source_section": "Windows Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "General and playback-specific processor requirements are retained separately as published."
+      }
+    },
+    "graphics_requirements": {
+      "value": {
+        "value": [
+          "DirectX 9.0-compatible video card with 32MB of video RAM; 64MB recommended"
+        ],
+        "unit": null,
+        "source_section": "Windows Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Graphics and video-memory requirements retained with the recommended 64MB qualifier."
+      }
+    },
+    "display_requirements": {
+      "value": {
+        "value": [
+          "Screen resolution of 1024x768 or greater; 1280x800 or greater is required to play an iTunes LP or iTunes Extras"
+        ],
+        "unit": null,
+        "source_section": "Windows Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Exact display requirement statement from the archived Apple source."
+      }
+    },
+    "sound_requirements": {
+      "value": {
+        "value": [
+          "QuickTime-compatible audio card"
+        ],
+        "unit": null,
+        "source_section": "Windows Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Exact audio-card requirement statement from the archived Apple source."
+      }
+    },
+    "network_requirements": {
+      "value": {
+        "value": [
+          "Broadband Internet connection to use the iTunes Store"
+        ],
+        "unit": null,
+        "source_section": "Windows Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Exact internet requirement statement from the archived Apple source."
+      }
+    },
+    "optical_drive_requirements": {
+      "value": {
+        "value": [
+          "iTunes-compatible CD or DVD recorder to create audio CDs, MP3 CDs, or back-up CDs or DVDs"
+        ],
+        "unit": null,
+        "source_section": "Windows Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Exact optical-drive requirement statement from the archived Apple source."
+      }
+    },
+    "software_dependencies": {
+      "value": {
+        "value": [
+          "QuickTime 7.6.6 or later is required (included)"
+        ],
+        "unit": null,
+        "source_section": "Windows Software",
+        "verification_status": "source_transcribed",
+        "notes": "Exact QuickTime requirement statement from the archived Apple source."
+      }
+    },
+    "platform_requirements": {
+      "value": {
+        "value": [
+          "64-bit editions of Windows Vista or Windows 7 require the iTunes 64-bit installer",
+          "Screen reader support requires Window-Eyes 7.1.1 or later; for information about accessibility in iTunes, visit www.apple.com/accessibility"
+        ],
+        "unit": null,
+        "source_section": "Windows Software",
+        "verification_status": "source_transcribed",
+        "notes": "Installer architecture and accessibility software requirements are preserved as published."
+      }
+    },
+    "device_compatibility_requirements": {
+      "value": {
+        "value": [
+          "Sync with iPhone 4",
+          "Sync and read books with iPhone or iPod touch with iOS 4 and iBooks 1.1",
+          "Read PDFs with iBooks 1.1 on iPad and any iPhone or iPod touch with iOS 4",
+          "Organize apps on iOS 4 home screens into folders using iTunes"
+        ],
+        "unit": null,
+        "source_section": "What's new in iTunes 9.2",
+        "verification_status": "source_transcribed",
+        "notes": "iOS version references describe connected-device feature compatibility, not the Windows OS minimum."
       }
     }
   }
