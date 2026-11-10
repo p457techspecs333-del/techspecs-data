@@ -54,10 +54,11 @@
   "notes": [
     "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete.",
     "2026-11-09 progress: all four HomePod records have introduction years and selected explicit specification fields normalized with source-section provenance. This is not final record-level verification; normalized fields remain source_transcribed.",
-    "HomePod mini 2 technical-specification page verified on the official Apple US support domain (https://support.apple.com/en-us/149360); the Ireland-localized URL was not independently accessible during this check, so the record now cites the verified official source."
+    "HomePod mini 2 technical-specification page verified on the official Apple US support domain (https://support.apple.com/en-us/149360); the Ireland-localized URL was not independently accessible during this check, so the record now cites the verified official source.",
+    "2026-11-10 progress: added source_text entries for every previously unrepresented official Apple section across all four HomePod records. Existing typed values and provenance were retained; newly transcribed sections remain source_transcribed, not independently field-verified."
   ],
   "record_audit": {
-    "checked_at": "2026-11-09",
+    "checked_at": "2026-11-10",
     "product_record_count": 4,
     "source_policy": "Official Apple specification pages and official Apple model-identification documentation; no missing values inferred.",
     "normalization_status": "partially_normalized",
@@ -65,13 +66,15 @@
     "completed": [
       "Verified model introduction years against official Apple HomePod identification/model documentation: HomePod (1st generation) 2018, HomePod mini 2020, HomePod (2nd generation) 2023, HomePod mini 2 2026.",
       "Added typed finish/colour, dimensions/weight, audio technology, sensor, wireless and environmental fields where explicit source text supports them.",
-      "Added source-section provenance to extracted values and retained original section text."
+      "Added source-section provenance to extracted values and retained original section text.",
+      "Transcribed all remaining preserved official specification sections into normalized_specifications.source_text entries for all four HomePod records, retaining exact section headings and footnote markers."
     ],
     "remaining": [
       "Verify all four records against their archived official Apple HTML, including exact regional URL and source-file paths.",
       "Review parsed values and footnote qualifications; ensure dimensions and weight match source labels and units.",
-      "Extract additional explicit fields such as model identifiers and power/cable details where present in official Apple sources.",
-      "Run repository validation and catalogue-generation checks."
+      "Extract explicit model identifiers and any additional hardware/power details only where official Apple sources provide them.",
+      "Confirm HomePod mini 2 source and regional availability against the Ireland-facing catalogue policy.",
+      "Run repository-wide JSON Schema, uniqueness, archive-path, source URL, inventory and catalogue checks."
     ]
   }
 }
