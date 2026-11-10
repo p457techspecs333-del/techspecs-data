@@ -13,6 +13,7 @@
       "A1238"
     ],
     "storage_options": [
+      "80 GB",
       "160 GB"
     ]
   },
@@ -45,7 +46,8 @@
   ],
   "record_notes": [
     "Archival-first-pass record; normalized specifications not inferred.",
-    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text."
+    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text.",
+    "2026-11-10 verification correction: restored the omitted 80 GB option; the original Apple source explicitly lists both 80 GB and 160 GB for the September 2007 iPod classic."
   ],
   "normalized_specifications": {
     "navigation_interface": {
@@ -74,12 +76,13 @@
     "capacity_statements": {
       "value": {
         "value": [
+          "80 GB",
           "160 GB"
         ],
         "unit": null,
         "source_section": "iPod classic",
         "verification_status": "source_transcribed",
-        "notes": "Capacities parsed from the explicit Capacity line; original wording remains in source_text."
+        "notes": "Both capacities are explicitly listed in the preserved Apple identification section: '80 and 160 GB'."
       }
     },
     "official_description": {
