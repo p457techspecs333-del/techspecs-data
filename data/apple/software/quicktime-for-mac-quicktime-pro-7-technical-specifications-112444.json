@@ -4,7 +4,7 @@
     "brand": "Apple",
     "category": "software",
     "family": "Apple Software",
-    "model": "QuickTime for Mac",
+    "model": "QuickTime Pro 7 for Mac",
     "model_slug": "quicktime-for-mac-quicktime-pro-7-technical-specifications-112444",
     "model_year": null,
     "year_introduced": null,
@@ -47,7 +47,8 @@
   ],
   "record_notes": [
     "Archival-first-pass technical specification record; normalized values not inferred.",
-    "Field extraction pass 2026-11-09: version labels and explicit software/hardware requirements parsed from preserved official Apple source sections."
+    "Field extraction pass 2026-11-09: version labels and explicit software/hardware requirements parsed from preserved official Apple source sections.",
+    "2026-11-10 identity correction: product.model includes the official version and platform designation from the technical-specification page title."
   ],
   "normalized_specifications": {
     "system_requirements_statements": {
