@@ -48,7 +48,8 @@
   "record_notes": [
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Field extraction pass 2026-11-09: version labels and explicit software/hardware requirements parsed from preserved official Apple source sections.",
-    "2026-11-10 identity correction: product.model now includes the official version designation from the technical-specification page title, preserving distinct software releases."
+    "2026-11-10 identity correction: product.model now includes the official version designation from the technical-specification page title, preserving distinct software releases.",
+    "2026-11-10 verification correction: iTunes 9.2 for Mac previously mixed iOS device compatibility into operating-system requirements and omitted the 1GB HD-playback RAM condition. Corrected the OS field and added explicit processor, display, video RAM, network, optical-drive and software-dependency fields."
   ],
   "normalized_specifications": {
     "macintosh_hardware_statements": {
@@ -97,25 +98,24 @@
     "operating_system_requirements": {
       "value": {
         "value": [
-          "iOS 4",
           "Mac OS X version 10.4.11 or later",
-          "Mac OS X version 10.5 or later"
+          "Mac OS X version 10.5 or later is required to play an iTunes LP or iTunes Extras"
         ],
         "unit": null,
-        "source_section": "System requirements",
+        "source_section": "Macintosh Software",
         "verification_status": "source_transcribed",
-        "notes": "Operating-system requirements parsed from official source text; exact wording retained where possible."
+        "notes": "Mac operating-system requirements only. iOS 4 references concern connected iPhone/iPod touch features and are recorded separately as device compatibility."
       }
     },
     "memory_requirements": {
       "value": {
         "value": [
-          "512MB of RAM"
+          "512MB of RAM; 1GB is required to play HD video, an iTunes LP, or iTunes Extras"
         ],
         "unit": null,
-        "source_section": "System requirements",
+        "source_section": "Macintosh Hardware",
         "verification_status": "source_transcribed",
-        "notes": "Extracted from preserved official Apple software specification text; original requirement wording retained."
+        "notes": "Base and playback-specific memory requirements retained in the same explicit source statement."
       }
     },
     "storage_requirements": {
@@ -154,6 +154,90 @@
         "source_section": "Macintosh Software",
         "verification_status": "source_transcribed",
         "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "processor_requirements": {
+      "value": {
+        "value": [
+          "Mac computer with an Intel, PowerPC G5 or G4 processor",
+          "Intel, PowerPC G5 or 1.0GHz PowerPC G4 or faster processor is required to play Standard Definition video from the iTunes Store",
+          "2.0GHz Intel Core 2 Duo or faster processor is required to play HD video, an iTunes LP, or iTunes Extras from the iTunes Store"
+        ],
+        "unit": null,
+        "source_section": "Macintosh Hardware",
+        "verification_status": "source_transcribed",
+        "notes": "General processor compatibility and playback-tier requirements retained separately; no single minimum is inferred."
+      }
+    },
+    "display_requirements": {
+      "value": {
+        "value": [
+          "Screen resolution of 1024x768 or greater; 1280x800 or greater is required to play an iTunes LP or iTunes Extras"
+        ],
+        "unit": null,
+        "source_section": "Macintosh Hardware",
+        "verification_status": "source_transcribed",
+        "notes": "Exact display requirement statement from the archived Apple source."
+      }
+    },
+    "video_memory_requirements": {
+      "value": {
+        "value": [
+          "Playing videos also requires at least 16MB of video RAM"
+        ],
+        "unit": null,
+        "source_section": "Macintosh Hardware",
+        "verification_status": "source_transcribed",
+        "notes": "Exact video-memory requirement statement from the archived Apple source."
+      }
+    },
+    "network_requirements": {
+      "value": {
+        "value": [
+          "Broadband Internet connection to use the iTunes Store"
+        ],
+        "unit": null,
+        "source_section": "Macintosh Hardware",
+        "verification_status": "source_transcribed",
+        "notes": "Exact internet requirement statement from the archived Apple source."
+      }
+    },
+    "optical_drive_requirements": {
+      "value": {
+        "value": [
+          "Apple combo drive or SuperDrive to create audio, MP3, or back-up CDs; some non-Apple CD-RW recorders may also work.",
+          "Apple SuperDrive to back up your library to DVDs; some non-Apple DVD-RW drives may also work."
+        ],
+        "unit": null,
+        "source_section": "Macintosh Hardware",
+        "verification_status": "source_transcribed",
+        "notes": "Both CD and DVD drive requirements retained separately as stated."
+      }
+    },
+    "software_dependencies": {
+      "value": {
+        "value": [
+          "QuickTime 7.6 or later",
+          "Support for HE-AAC requires QuickTime 7.6.4 and Mac OS X version 10.5 or later",
+          "Safari 4.0.3 or later"
+        ],
+        "unit": null,
+        "source_section": "Macintosh Software",
+        "verification_status": "source_transcribed",
+        "notes": "Software dependencies and feature-specific requirements transcribed from the official Apple section."
+      }
+    },
+    "device_compatibility_requirements": {
+      "value": {
+        "value": [
+          "Sync with iPhone 4",
+          "Sync and read books with iPhone or iPod touch with iOS 4 and iBooks 1.1",
+          "Read PDFs with iBooks 1.1 on iPad and any iPhone or iPod touch with iOS 4"
+        ],
+        "unit": null,
+        "source_section": "What's new in iTunes 9.2",
+        "verification_status": "source_transcribed",
+        "notes": "Device/feature compatibility statements are separated from the Mac operating-system minimum."
       }
     }
   }
