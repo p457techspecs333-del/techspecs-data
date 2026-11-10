@@ -253,6 +253,105 @@
         "verification_status": "source_transcribed",
         "notes": "Original dimension and weight statements retained, including component labels and units."
       }
+    },
+    "finish": {
+      "source_text": {
+        "value": "White\nPink\nGreen\nBlue\nMidnight",
+        "unit": null,
+        "source_section": "Finish",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "size_and_weight": {
+      "source_text": {
+        "value": "84.3 mm high (3.3 inches)\n97.9 mm wide (3.9 inches)\nWeight:\n335 grams (0.74 pounds)",
+        "unit": null,
+        "source_section": "Size and Weight 1",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "audio_sources": {
+      "source_text": {
+        "value": "Apple Music\n6\niTunes music purchases\niCloud Music Library with an Apple Music or iTunes Match subscription\nThird-party music services\n7\nApple Music Radio or episodes on demand\nRadio stations from TuneIn, Capital FM, LBC UK, Heart UK and Smooth UK\nApple Podcasts\nNews briefings\nAirPlay to share other content to HomePod mini from iPhone, iPad, iPod touch, Apple TV 4K or Mac",
+        "unit": null,
+        "source_section": "Audio Sources",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "touch_controls": {
+      "source_text": {
+        "value": "Tap\nPlay/Pause\nDouble-tap\nSkip\nTriple-tap\nSkip back\nTouch and hold\nSiri\nTap or hold + or -\nVolume up/down",
+        "unit": null,
+        "source_section": "Touch Controls",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "siri_ai": {
+      "source_text": {
+        "value": "Siri AI, an entirely new version of Siri powered by Apple Intelligence, helps with everyday tasks like sending messages, setting reminders and more\nActivate hands-free with only your voice using “Siri”\n9\nor “Hey Siri”\nProtected by the strongest privacy of any intelligent assistant\nLearn more about Siri",
+        "unit": null,
+        "source_section": "Siri AI 8",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "accessibility": {
+      "source_text": {
+        "value": "Accessi­bility features help people with disabilities get the most out of HomePod mini.\nLearn more about Accessi­bility\nFeatures include:\nTouch Accommodations\nSiri\nVoiceOver\nHome app and HomeKit\nIntercom transcriptions",
+        "unit": null,
+        "source_section": "Accessi­bility",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "wireless": {
+      "source_text": {
+        "value": "Wi‑Fi 6E (802.11ax)\n11\nPeer-to-peer discovery for easy guest access\n12\nBluetooth 6\nThread networking technology\n13\nUltra Wideband chip for device proximity\n14",
+        "unit": null,
+        "source_section": "Wireless",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "system_requirements": {
+      "source_text": {
+        "value": "iPhone or iPad with the latest iOS or iPadOS\nWi‑Fi Internet access",
+        "unit": null,
+        "source_section": "System Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "electrical_and_environmental_requirements": {
+      "source_text": {
+        "value": "Line voltage: 100V to 240V for 20W power adapter\n15\nFrequency: 50Hz to 60Hz\nOperating temperature: 0° to 35° C (32° to 95° F)\nRelative humidity: 5% to 90% non-condensing\nOper­at­ing altitude: tested up to 3,000 metres (10,000 feet)",
+        "unit": null,
+        "source_section": "Electrical and Environ­men­tal Require­ments",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "in_the_box": {
+      "source_text": {
+        "value": "HomePod mini 2\n20W power adapter\nDocumentation",
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "homepod_mini_and_the_environment": {
+      "source_text": {
+        "value": "Progress towards Apple 2030\nApple 2030 is our goal to be carbon neutral across our value chain. We design our products to be less carbon intensive by prioritising the use of recycled and renewable content and low‑carbon materials while focusing on the energy efficiency of our software and hardware.\nSee Apple’s commitment to the environment\nMaterials\n100% recycled copper in all Apple‑designed printed circuit boards\n100% recycled gold plating and tin solder in all Apple‑designed printed circuit boards\n100% recycled gold plating in all connectors\n100% recycled rare earth elements in all magnets\nPackaging\n100% fibre‑based packaging\n16\nSmarter chemistry\n17\nAll the materials used in Apple products, accessories and packaging are covered by the requirements of our\nRegulated Substances Specification (PDF)\n, which was one of the first in industry to restrict the use of key substances of concern. See the latest\nEnvironmental Progress Report (PDF)\nto understand Apple’s recent efforts in phasing out these chemistries.",
+        "unit": null,
+        "source_section": "HomePod mini and the Environment",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
     }
   }
 }
