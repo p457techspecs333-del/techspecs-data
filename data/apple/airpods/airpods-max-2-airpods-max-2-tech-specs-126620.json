@@ -137,15 +137,6 @@
         "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
       }
     },
-    "micro_phones": {
-      "source_text": {
-        "value": "Nine microphones total:\nEight microphones for Active Noise Cancellation\nThree microphones for voice pickup (two shared with Active Noise Cancellation and one additional microphone)",
-        "unit": null,
-        "source_section": "Micro­phones",
-        "verification_status": "source_transcribed",
-        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
-      }
-    },
     "chip": {
       "source_text": {
         "value": "Apple H2 headphone chip (each ear cup)",
@@ -196,15 +187,6 @@
         "value": "AirPods Max 2\nSmart Case\nUSB‑C Charge Cable\nDocumentation",
         "unit": null,
         "source_section": "In the Box",
-        "verification_status": "source_transcribed",
-        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
-      }
-    },
-    "accessi_bility": {
-      "source_text": {
-        "value": "Accessi­bility features help people with disabilities get the most out of their new AirPods Max.\nFeatures include:\nLive Listen audio\nHeadphone levels\nHeadphone Accommodations",
-        "unit": null,
-        "source_section": "Accessi­bility 14",
         "verification_status": "source_transcribed",
         "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
       }
@@ -380,6 +362,24 @@
         "source_section": "In the Box",
         "verification_status": "source_transcribed",
         "notes": "Extracted from the preserved official Apple specification section; source wording retained."
+      }
+    },
+    "microphones": {
+      "source_text": {
+        "value": "Nine microphones total:\nEight microphones for Active Noise Cancellation\nThree microphones for voice pickup (two shared with Active Noise Cancellation and one additional microphone)",
+        "unit": null,
+        "source_section": "Micro­phones",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
+      }
+    },
+    "accessibility": {
+      "source_text": {
+        "value": "Accessi­bility features help people with disabilities get the most out of their new AirPods Max.\nFeatures include:\nLive Listen audio\nHeadphone levels\nHeadphone Accommodations",
+        "unit": null,
+        "source_section": "Accessi­bility 14",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim extracted from the archived official Apple specification page; footnote markers may remain in source text."
       }
     }
   }
