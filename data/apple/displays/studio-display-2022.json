@@ -83,7 +83,8 @@
   ],
   "record_notes": [
     "Archival-first-pass record; normalized specifications not inferred.",
-    "Field extraction pass 2026-11-09: normalized explicit display specifications and verified introduction year against Apple's official display-identification page."
+    "Field extraction pass 2026-11-09: normalized explicit display specifications and verified introduction year against Apple's official display-identification page.",
+    "2026-11-10 verification pass: added typed configuration-specific dimensions and weights from the preserved Size and Weight section; the existing verbatim configuration statements remain unchanged."
   ],
   "normalized_specifications": {
     "diagonal_size": {
@@ -314,6 +315,96 @@
         "source_section": "Studio Display and the Environment",
         "verification_status": "source_transcribed",
         "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "configuration_specific_measurements": {
+      "value": {
+        "value": [
+          {
+            "configuration": "Studio Display with tilt-adjustable stand",
+            "measurements": [
+              {
+                "label": "height",
+                "value": 47.8,
+                "unit": "cm"
+              },
+              {
+                "label": "width",
+                "value": 62.3,
+                "unit": "cm"
+              },
+              {
+                "label": "depth",
+                "value": 16.8,
+                "unit": "cm"
+              },
+              {
+                "label": "weight",
+                "value": 6.3,
+                "unit": "kg"
+              }
+            ]
+          },
+          {
+            "configuration": "Studio Display with tilt- and height-adjustable stand",
+            "measurements": [
+              {
+                "label": "height_bottom_position",
+                "value": 47.9,
+                "unit": "cm"
+              },
+              {
+                "label": "width",
+                "value": 62.3,
+                "unit": "cm"
+              },
+              {
+                "label": "height_top_position",
+                "value": 58.3,
+                "unit": "cm"
+              },
+              {
+                "label": "depth",
+                "value": 20.7,
+                "unit": "cm"
+              },
+              {
+                "label": "weight",
+                "value": 7.7,
+                "unit": "kg"
+              }
+            ]
+          },
+          {
+            "configuration": "Studio Display with VESA mount adapter",
+            "measurements": [
+              {
+                "label": "height",
+                "value": 36.2,
+                "unit": "cm"
+              },
+              {
+                "label": "width",
+                "value": 62.3,
+                "unit": "cm"
+              },
+              {
+                "label": "depth",
+                "value": 3.1,
+                "unit": "cm"
+              },
+              {
+                "label": "weight",
+                "value": 5.5,
+                "unit": "kg"
+              }
+            ]
+          }
+        ],
+        "unit": null,
+        "source_section": "Size and Weight",
+        "verification_status": "source_transcribed",
+        "notes": "Dimensions and weights are separated by Apple's explicit stand/mount configuration. Bottom/top height labels are retained where stated; no configuration is assumed."
       }
     }
   }
