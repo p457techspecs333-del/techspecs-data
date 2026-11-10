@@ -2,7 +2,7 @@
   "schema_version": "2.0",
   "product": {
     "brand": "Apple",
-    "category": "accessory",
+    "category": "keyboard",
     "family": "Apple Accessories",
     "model": "Magic Keyboard with Touch ID for Mac models with Apple silicon (USB-C)",
     "model_slug": "magic-keyboard-with-touch-id-for-mac-models-with-apple-silicon-usb-c",
@@ -63,7 +63,8 @@
   ],
   "record_notes": [
     "Archival-first-pass technical specification record; normalized values not inferred.",
-    "Field extraction pass 2026-11-09: explicit accessory specifications extracted into schema-v2 fields with source-section provenance."
+    "Field extraction pass 2026-11-09: explicit accessory specifications extracted into schema-v2 fields with source-section provenance.",
+    "2026-11-10 taxonomy pass: product.category identifies the product type as keyboard rather than using the generic accessory label."
   ],
   "normalized_specifications": {
     "size_weight_statements": {
