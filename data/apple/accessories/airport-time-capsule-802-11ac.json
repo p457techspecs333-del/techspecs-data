@@ -178,6 +178,114 @@
         "verification_status": "source_transcribed",
         "notes": "Extracted from preserved official Apple specification text; wording retained."
       }
+    },
+    "size_and_weight": {
+      "source_text": {
+        "value": "Dimensions: 3.85 inches (98 mm) by 3.85 inches (98 mm) by 6.6 inches (168 mm)\nWeight: 3.26 pounds (1.48 kg)\n1",
+        "unit": null,
+        "source_section": "Size and Weight",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "storage": {
+      "source_text": {
+        "value": "2TB hard drive\n3TB hard drive",
+        "unit": null,
+        "source_section": "Storage 2",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "wireless": {
+      "source_text": {
+        "value": "IEEE 802.11a/b/g/n/ac\nSix-element beamforming antenna array\nSimultaneous dual-band 2.4GHz and 5GHz\nRadio output power: 32.5 dBm maximum (varies by country)\nChannels 1-11, 36-116, 132-140, and 149-165 approved for use in the United States and Canada\nChannels 1-13, 36-64, and 100-140 approved for use in Europe and Japan\nChannels 1-13, 36-64, and 149-165 approved for use in Australia, Hong Kong, and New Zealand",
+        "unit": null,
+        "source_section": "Wireless",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "compatibility": {
+      "source_text": {
+        "value": "Interoperable with 802.11a, 802.11b, 802.11g, 802.11n, and 802.11ac-enabled Mac computers, iOS devices, Apple TV, Windows-based PCs, and other Wi-Fi devices\nNAT, DHCP, PPPoE, VPN Passthrough (IPSec, PPTP, and L2TP), DNS Proxy, IPv6 (6to4 and manual tunnels)",
+        "unit": null,
+        "source_section": "Compatibility",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "security": {
+      "source_text": {
+        "value": "Wi‑Fi Protected Access™ (WPA/WPA2)\n3\nWPA/WPA2 Enterprise\n3\nMAC address filtering\nNAT firewall\n802.1X, PEAP, LEAP, TTLS, TLS, FAST\nTime-based access control",
+        "unit": null,
+        "source_section": "Security",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "software_and_documentation": {
+      "source_text": {
+        "value": "Printed documentation included\nAirPort Utility for Mac available for free download\nAirPort Utility for iOS available for free download\nBonjour for Windows available for free download",
+        "unit": null,
+        "source_section": "Software and Documentation",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "interfaces": {
+      "source_text": {
+        "value": "Simultaneous dual-band 802.11ac wireless\nGigabit Ethernet WAN port for connecting a DSL modem, cable modem, or Ethernet network\nUSB 2 port for connecting a USB printer or hard drive\n4\nThree Gigabit Ethernet LAN ports for connecting a computer, Ethernet hub, or networked printer\nBuilt-in power supply",
+        "unit": null,
+        "source_section": "Interfaces",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "number_of_users": {
+      "source_text": {
+        "value": "50",
+        "unit": null,
+        "source_section": "Number of Users",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "electrical_and_environmental_requirements": {
+      "source_text": {
+        "value": "100-240V AC, 50-60Hz; input current: 1.5 amp\nOperating temperature: 32° to 95° F (0° to 35° C)\nStorage temperature: -13° to 140° F (-25° to 60° C)\nRelative humidity (operating): 20% to 80%, noncondensing\nOperating altitude: tested up to 10,000 feet (3000 m)\nMaximum storage altitude: 15,000 feet",
+        "unit": null,
+        "source_section": "Electrical and Environmental Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "agency_approval": {
+      "source_text": {
+        "value": "FCC Part 15 Class B, Canada RSS-210, EN 300-328, EN 301-489, EN 301 893, ARIB STD-T66, RCR STD-T33, AS/NZS 4268: 2003, UL 60950, CSA-C22.2 No. 60950, GB 4943.1-2011",
+        "unit": null,
+        "source_section": "Agency Approval",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "system_requirements": {
+      "source_text": {
+        "value": "Setup and Administration\niPhone, iPad, or iPod touch with iOS 6 or later and AirPort Utility 1.3\nMac with OS X Lion v10.7.5 or later and\nAirPort Utility 6.3\nWireless Device Access\nAny Wi‑Fi-enabled device that uses the 802.11a/b/g/n/ac specification\nShared Printing with a USB Printer\nUSB printer\nMac with OS X v10.2.7 or later\nPC with Windows XP (SP3), Windows Vista (SP2), Windows 7 (SP1), or Windows 8\nShared USB Hard Drive\nMac with OS X v10.4.8 or later\nPC with Windows XP (SP3), Windows Vista (SP2), Windows 7 (SP1), or Windows 8\nBackup using Time Machine\nMac with OS X v10.5.7 or later",
+        "unit": null,
+        "source_section": "System Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "airport_time_capsule_and_the_environment": {
+      "source_text": {
+        "value": "Apple takes a complete product life-cycle approach to determining our environmental impact.\nLearn more\nAirPort Time Capsule is designed with the following features to reduce its environmental impact:\nBrominated flame retardant-free\nPVC-free\n5\nMeets ENERGY STAR 1.0 requirements for Small network equipment\nApple and the Environment\nLearn more\nabout Apple’s dedication to reducing the environmental impact of our products and process. The Apple\nProduct Environmental Specification\ndetails the environmental attributes of our products.\nRecycling\nApple takes a holistic view of materials management and waste minimization.\nLearn more\nabout how to recycle your Mac.",
+        "unit": null,
+        "source_section": "AirPort Time Capsule and the Environment",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
     }
   }
 }
