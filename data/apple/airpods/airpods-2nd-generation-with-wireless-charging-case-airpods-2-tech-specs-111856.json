@@ -225,41 +225,49 @@
       "value": {
         "value": [
           {
+            "component": "AirPods (each)",
             "label": "height",
             "value": 40.5,
             "unit": "mm"
           },
           {
+            "component": "AirPods (each)",
             "label": "width",
             "value": 16.5,
             "unit": "mm"
           },
           {
+            "component": "AirPods (each)",
             "label": "depth",
             "value": 18,
             "unit": "mm"
           },
           {
+            "component": "AirPods (each)",
             "label": "weight",
             "value": 4,
             "unit": "g"
           },
           {
+            "component": "Lightning Charging Case or Wireless Charging Case",
             "label": "height",
             "value": 53.5,
             "unit": "mm"
           },
           {
+            "component": "Lightning Charging Case or Wireless Charging Case",
             "label": "width",
             "value": 44.3,
             "unit": "mm"
           },
           {
+            "component": "Lightning Charging Case or Wireless Charging Case",
             "label": "depth",
             "value": 21.3,
             "unit": "mm"
           },
           {
+            "component": "Lightning Charging Case or Wireless Charging Case",
             "label": "weight",
             "value": 38.2,
             "unit": "g"
@@ -268,7 +276,7 @@
         "unit": null,
         "source_section": "Size and Weight 1",
         "verification_status": "source_transcribed",
-        "notes": "Only explicit label/value pairs extracted; source component context retained, no values inferred."
+        "notes": "Measurement values are transcribed from the archived Apple section. Component labels are retained; ordered dimension sequences without explicit axis labels are not assigned inferred height/width/depth labels."
       }
     },
     "model_identifiers": {
