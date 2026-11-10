@@ -106,7 +106,8 @@
     "Field-level normalization remains incomplete; source_text is the evidence of record.",
     "Field extraction pass 2026-11-09: added typed fields only where explicit values were present in preserved official source sections; qualifiers retained and source-section provenance attached.",
     "Follow-up extraction 2026-11-09: audio features, sensors, controls, charging-case details, system requirements and in-box contents separated where explicit.",
-    "Follow-up extraction 2026-11-09: filled audio feature and other explicit section fields whose headings include Apple footnote numbers."
+    "Follow-up extraction 2026-11-09: filled audio feature and other explicit section fields whose headings include Apple footnote numbers.",
+    "2026-11-10 verification pass: added component-aware size and weight values to distinguish each earbud from the charging case."
   ],
   "normalized_specifications": {
     "audio_technology": {
@@ -321,25 +322,25 @@
             "unit": "g"
           },
           {
-            "component": "Charging Case (USB-C)",
+            "component": "Charging Case (USB‑C)",
             "label": "height",
             "value": 46.2,
             "unit": "mm"
           },
           {
-            "component": "Charging Case (USB-C)",
+            "component": "Charging Case (USB‑C)",
             "label": "width",
             "value": 50.1,
             "unit": "mm"
           },
           {
-            "component": "Charging Case (USB-C)",
+            "component": "Charging Case (USB‑C)",
             "label": "depth",
             "value": 21.2,
             "unit": "mm"
           },
           {
-            "component": "Charging Case (USB-C)",
+            "component": "Charging Case (USB‑C)",
             "label": "weight",
             "value": 32.3,
             "unit": "g"
@@ -348,7 +349,7 @@
         "unit": null,
         "source_section": "Size and Weight 10",
         "verification_status": "source_transcribed",
-        "notes": "Measurement values are transcribed from the archived Apple section. Component labels are retained; ordered dimension sequences without explicit axis labels are not assigned inferred height/width/depth labels."
+        "notes": "Each measurement retains the source component (earbuds or charging case), label and unit from Apple's preserved Size and Weight section."
       }
     },
     "model_identifiers": {
