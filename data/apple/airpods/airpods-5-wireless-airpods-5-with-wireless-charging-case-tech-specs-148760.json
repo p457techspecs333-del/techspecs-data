@@ -106,7 +106,8 @@
     "Field-level normalization remains incomplete; source_text is the evidence of record.",
     "Field extraction pass 2026-11-09: added typed fields only where explicit values were present in preserved official source sections; qualifiers retained and source-section provenance attached.",
     "Follow-up extraction 2026-11-09: audio features, sensors, controls, charging-case details, system requirements and in-box contents separated where explicit.",
-    "2026-11-10 verification correction: Apple's official AirPods identification page lists the Wireless Charging Case for AirPods 5 as model A5329; corrected the previously recorded A3529 identifier. Record model name now matches Apple's published name."
+    "2026-11-10 verification correction: Apple's official AirPods identification page lists the Wireless Charging Case for AirPods 5 as model A5329; corrected the previously recorded A3529 identifier. Record model name now matches Apple's published name.",
+    "2026-11-10 verification pass: added component-aware size and weight values to distinguish each earbud from the charging case."
   ],
   "normalized_specifications": {
     "audio_technology": {
@@ -297,41 +298,49 @@
       "value": {
         "value": [
           {
+            "component": "AirPods 5 with Wireless Charging Case (Each)",
             "label": "height",
             "value": 30.2,
             "unit": "mm"
           },
           {
+            "component": "AirPods 5 with Wireless Charging Case (Each)",
             "label": "width",
             "value": 18.3,
             "unit": "mm"
           },
           {
+            "component": "AirPods 5 with Wireless Charging Case (Each)",
             "label": "depth",
             "value": 18.1,
             "unit": "mm"
           },
           {
+            "component": "AirPods 5 with Wireless Charging Case (Each)",
             "label": "weight",
             "value": 4.3,
             "unit": "g"
           },
           {
+            "component": "with speaker",
             "label": "height",
             "value": 46.2,
             "unit": "mm"
           },
           {
+            "component": "with speaker",
             "label": "width",
             "value": 50.1,
             "unit": "mm"
           },
           {
+            "component": "with speaker",
             "label": "depth",
             "value": 21.2,
             "unit": "mm"
           },
           {
+            "component": "with speaker",
             "label": "weight",
             "value": 34.7,
             "unit": "g"
@@ -340,7 +349,7 @@
         "unit": null,
         "source_section": "Size and Weight 10",
         "verification_status": "source_transcribed",
-        "notes": "Only explicit label/value pairs extracted; source component context retained, no values inferred."
+        "notes": "Each measurement retains the source component (earbuds or charging case), label and unit from Apple's preserved Size and Weight section."
       }
     },
     "model_identifiers": {
