@@ -95,7 +95,8 @@
     "Taxonomy audit 2026-11-09: classified as Apple audio hardware, not software.",
     "Field-level normalization remains incomplete; source_text is the evidence of record.",
     "Field extraction pass 2026-11-09: added typed fields only where explicit values were present in preserved official source sections; qualifiers retained and source-section provenance attached.",
-    "Follow-up extraction 2026-11-09: audio features, sensors, controls, charging-case details, system requirements and in-box contents separated where explicit."
+    "Follow-up extraction 2026-11-09: audio features, sensors, controls, charging-case details, system requirements and in-box contents separated where explicit.",
+    "2026-11-10 verification pass: added component-aware measurements from the archived source to distinguish earbud weight/dimensions from charging-case weight/dimensions."
   ],
   "normalized_specifications": {
     "audio_technology": {
@@ -354,6 +355,64 @@
         "source_section": "In the Box",
         "verification_status": "source_transcribed",
         "notes": "Extracted from the preserved official Apple specification section; source wording retained."
+      }
+    },
+    "labelled_size_weight_measurements": {
+      "value": {
+        "value": [
+          {
+            "component": "AirPods Pro (each)",
+            "label": "height",
+            "value": 1.22,
+            "unit": "in"
+          },
+          {
+            "component": "AirPods Pro (each)",
+            "label": "width",
+            "value": 0.86,
+            "unit": "in"
+          },
+          {
+            "component": "AirPods Pro (each)",
+            "label": "depth",
+            "value": 0.94,
+            "unit": "in"
+          },
+          {
+            "component": "AirPods Pro (each)",
+            "label": "weight",
+            "value": 0.19,
+            "unit": "oz"
+          },
+          {
+            "component": "Wireless Charging Case",
+            "label": "height",
+            "value": 1.78,
+            "unit": "in"
+          },
+          {
+            "component": "Wireless Charging Case",
+            "label": "width",
+            "value": 2.39,
+            "unit": "in"
+          },
+          {
+            "component": "Wireless Charging Case",
+            "label": "depth",
+            "value": 0.85,
+            "unit": "in"
+          },
+          {
+            "component": "Wireless Charging Case",
+            "label": "weight",
+            "value": 1.61,
+            "unit": "oz"
+          }
+        ],
+        "unit": null,
+        "source_section": "Size and Weight 3",
+        "verification_status": "source_transcribed",
+        "notes": "Component-specific measurements transcribed from the archived Apple source. Explicit labels and units are retained; dimension sequences are not assigned inferred axis labels."
       }
     }
   }
