@@ -631,7 +631,7 @@
       "brand": "Apple",
       "category": "audio",
       "family": "Apple AirPods",
-      "model": "AirPods 5 (Wireless)",
+      "model": "AirPods 5 with Wireless Charging Case",
       "model_slug": "airpods-5-wireless-airpods-5-with-wireless-charging-case-tech-specs-148760",
       "model_year": 2026,
       "year_introduced": 2026,
@@ -641,7 +641,7 @@
         "publisher": "Apple",
         "source_url": "https://support.apple.com/en-ie/148760",
         "verification_status": "content_verified",
-        "checked_at": "2026-11-09"
+        "checked_at": "2026-11-10"
       }
     },
     {
