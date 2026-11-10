@@ -389,7 +389,8 @@
     "2026-11-10 source-discovery correction: the current 37 records all point to Apple's model-identification page, but a web search found separate official Apple technical-specification pages for several representative models. The previous assumption that no dedicated pages were available is therefore too broad; a model-by-model source migration is required before iPod can be considered complete.",
     "Confirmed official technical-specification page examples: iPod touch (7th generation), support article 111961; iPod shuffle (4th generation), support article 112422; iPod nano (7th generation), support article 112039; iPod classic 120GB, support article 112321; iPod classic 160GB (Late 2009), support article 112601. These URLs were discovered through Apple Support search results and still need matching archived HTML before changing record source mappings.",
     "2026-11-10 field audit: capacity consistency check covered all 37 iPod records. One omission was found and corrected: iPod classic (September 2007) explicitly supports 80 GB and 160 GB; both are now present in product.storage_options and normalized_specifications.capacity_statements.",
-    "2026-11-10 field audit: all 37 records' product model-number lists were compared with their normalized model-number/date evidence. One discrepancy was corrected in iPod touch (2nd generation): the second identifier is A1319 (China mainland only), not a duplicate A1288."
+    "2026-11-10 field audit: all 37 records' product model-number lists were compared with their normalized model-number/date evidence. One discrepancy was corrected in iPod touch (2nd generation): the second identifier is A1319 (China mainland only), not a duplicate A1288.",
+    "2026-11-10 web discovery: stored five exact official Apple technical-specification URLs as related-source leads. None has yet replaced the primary source mapping because matching raw HTML archives are not yet present in the repository."
   ],
   "record_audit": {
     "checked_at": "2026-11-10",
@@ -415,5 +416,47 @@
       "Verify the 37 model/date/capacity variants individually and avoid merging distinct iPod classic capacity/year versions.",
       "Run full repository schema, catalogue and archive/source consistency checks."
     ]
-  }
+  },
+  "related_source_discoveries": [
+    {
+      "model": "iPod touch (7th generation)",
+      "title": "iPod touch (7th generation) - Technical Specifications",
+      "url": "https://support.apple.com/en-mide/111961",
+      "source_type": "official_apple_technical_specifications",
+      "discovery_status": "url_discovered_not_archived",
+      "notes": "Official Apple Support technical-specification page found; the current record still uses the separate identification-page archive."
+    },
+    {
+      "model": "iPod shuffle (4th generation)",
+      "title": "iPod shuffle (4th generation) - Technical Specifications",
+      "url": "https://support.apple.com/en-gb/112422",
+      "source_type": "official_apple_technical_specifications",
+      "discovery_status": "url_discovered_not_archived",
+      "notes": "Official Apple Support technical-specification page found; generation/year variants still need matching archive review."
+    },
+    {
+      "model": "iPod nano (7th generation)",
+      "title": "iPod nano (7th generation) - Technical Specifications",
+      "url": "https://support.apple.com/en-kw/112039",
+      "source_type": "official_apple_technical_specifications",
+      "discovery_status": "url_discovered_not_archived",
+      "notes": "Official Apple Support technical-specification page found; the mid-2015 variant has a separate identification record and must not be merged without checking its source."
+    },
+    {
+      "model": "iPod classic (120 GB)",
+      "title": "iPod classic (120GB) - Technical Specifications",
+      "url": "https://support.apple.com/en-tm/112321",
+      "source_type": "official_apple_technical_specifications",
+      "discovery_status": "url_discovered_not_archived",
+      "notes": "Official Apple Support technical-specification page found for the 120GB variant."
+    },
+    {
+      "model": "iPod classic 160 GB (Late 2009)",
+      "title": "iPod classic 160GB (Late 2009) - Technical Specifications",
+      "url": "https://support.apple.com/en-il/112601",
+      "source_type": "official_apple_technical_specifications",
+      "discovery_status": "url_discovered_not_archived",
+      "notes": "Official Apple Support technical-specification page found for the late-2009 160GB variant; keep separate from the 2007 80/160GB model."
+    }
+  ]
 }
