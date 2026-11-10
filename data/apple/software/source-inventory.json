@@ -10,7 +10,7 @@
   "index_archive": "apple_remaining_extraction/technical_specs_html/software-index.html",
   "working_scope": [
     {
-      "model": "Aperture",
+      "model": "Aperture 3",
       "url": "https://support.apple.com/en-ie/112030",
       "slug": "aperture-aperture-3-technical-specifications-112030",
       "final_url": "https://support.apple.com/en-ie/112030",
@@ -20,7 +20,7 @@
       "verification_status": "content_verified"
     },
     {
-      "model": "Compressor",
+      "model": "Compressor 4",
       "url": "https://support.apple.com/en-ie/111916",
       "slug": "compressor-compressor-4-tech-specs-111916",
       "final_url": "https://support.apple.com/en-ie/111916",
@@ -40,7 +40,7 @@
       "verification_status": "content_verified"
     },
     {
-      "model": "iTunes for Mac 10.7",
+      "model": "iTunes 10.7 for Mac",
       "url": "https://support.apple.com/en-ie/112582",
       "slug": "itunes-for-mac-itunes-10-7-for-mac-technical-specifications-112582",
       "final_url": "https://support.apple.com/en-ie/112582",
@@ -50,7 +50,7 @@
       "verification_status": "content_verified"
     },
     {
-      "model": "iTunes for Mac 11",
+      "model": "iTunes 11 for Mac",
       "url": "https://support.apple.com/en-ie/112584",
       "slug": "itunes-for-mac-itunes-11-for-mac-technical-specifications-112584",
       "final_url": "https://support.apple.com/en-ie/112584",
@@ -60,7 +60,7 @@
       "verification_status": "content_verified"
     },
     {
-      "model": "iTunes for Mac 12",
+      "model": "iTunes 12 for macOS",
       "url": "https://support.apple.com/en-ie/112028",
       "slug": "itunes-for-mac-itunes-12-for-macos-technical-specifications-112028",
       "final_url": "https://support.apple.com/en-ie/112028",
@@ -70,7 +70,7 @@
       "verification_status": "content_verified"
     },
     {
-      "model": "iTunes for Mac 8.0.2",
+      "model": "iTunes 8.0.2 for Mac",
       "url": "https://support.apple.com/en-ie/112654",
       "slug": "itunes-for-mac-itunes-8-0-2-for-mac-technical-specifications-112654",
       "final_url": "https://support.apple.com/en-ie/112654",
@@ -80,7 +80,7 @@
       "verification_status": "content_verified"
     },
     {
-      "model": "iTunes for Mac 8.1.1",
+      "model": "iTunes 8.1.1 for Mac",
       "url": "https://support.apple.com/en-ie/112658",
       "slug": "itunes-for-mac-itunes-8-1-1-for-mac-technical-specifications-112658",
       "final_url": "https://support.apple.com/en-ie/112658",
@@ -90,7 +90,7 @@
       "verification_status": "content_verified"
     },
     {
-      "model": "iTunes for Mac 8.2",
+      "model": "iTunes 8.2 for Mac",
       "url": "https://support.apple.com/en-ie/112656",
       "slug": "itunes-for-mac-itunes-8-2-for-mac-technical-specifications-112656",
       "final_url": "https://support.apple.com/en-ie/112656",
@@ -100,7 +100,7 @@
       "verification_status": "content_verified"
     },
     {
-      "model": "iTunes for Mac 9.2",
+      "model": "iTunes 9.2 for Mac",
       "url": "https://support.apple.com/en-ie/112621",
       "slug": "itunes-for-mac-itunes-9-2-for-mac-technical-specifications-112621",
       "final_url": "https://support.apple.com/en-ie/112621",
@@ -110,7 +110,7 @@
       "verification_status": "content_verified"
     },
     {
-      "model": "iTunes for Windows 10.7",
+      "model": "iTunes 10.7 for Windows",
       "url": "https://support.apple.com/en-ie/112573",
       "slug": "itunes-for-windows-itunes-10-7-for-windows-technical-specifications-112573",
       "final_url": "https://support.apple.com/en-ie/112573",
@@ -120,7 +120,7 @@
       "verification_status": "content_verified"
     },
     {
-      "model": "iTunes for Windows 11",
+      "model": "iTunes 11 for Windows",
       "url": "https://support.apple.com/en-ie/112583",
       "slug": "itunes-for-windows-itunes-11-for-windows-technical-specifications-112583",
       "final_url": "https://support.apple.com/en-ie/112583",
@@ -130,7 +130,7 @@
       "verification_status": "content_verified"
     },
     {
-      "model": "iTunes for Windows 12",
+      "model": "iTunes 12 for Windows",
       "url": "https://support.apple.com/en-ie/112029",
       "slug": "itunes-for-windows-itunes-12-for-windows-technical-specifications-112029",
       "final_url": "https://support.apple.com/en-ie/112029",
@@ -140,7 +140,7 @@
       "verification_status": "content_verified"
     },
     {
-      "model": "iTunes for Windows 8.0.2",
+      "model": "iTunes 8.0.2 for Windows",
       "url": "https://support.apple.com/en-ie/112659",
       "slug": "itunes-for-windows-itunes-8-0-2-for-windows-technical-specifications-112659",
       "final_url": "https://support.apple.com/en-ie/112659",
@@ -150,7 +150,7 @@
       "verification_status": "content_verified"
     },
     {
-      "model": "iTunes for Windows 8.1.1",
+      "model": "iTunes 8.1.1 for Windows",
       "url": "https://support.apple.com/en-ie/112655",
       "slug": "itunes-for-windows-itunes-8-1-1-for-windows-technical-specifications-112655",
       "final_url": "https://support.apple.com/en-ie/112655",
@@ -160,7 +160,7 @@
       "verification_status": "content_verified"
     },
     {
-      "model": "iTunes for Windows 8.2",
+      "model": "iTunes 8.2 for Windows",
       "url": "https://support.apple.com/en-ie/112657",
       "slug": "itunes-for-windows-itunes-8-2-for-windows-technical-specifications-112657",
       "final_url": "https://support.apple.com/en-ie/112657",
@@ -170,7 +170,7 @@
       "verification_status": "content_verified"
     },
     {
-      "model": "iTunes for Windows 9.2",
+      "model": "iTunes 9.2 for Windows",
       "url": "https://support.apple.com/en-ie/112622",
       "slug": "itunes-for-windows-itunes-9-2-for-windows-technical-specifications-112622",
       "final_url": "https://support.apple.com/en-ie/112622",
@@ -388,7 +388,8 @@
     "2026-11-10 repository audit: all 22 inventory source_file references resolve to existing archived files in the current Git tree. This confirms archive-path presence only, not the accuracy or reachability of every source URL.",
     "2026-11-10 progress: previously unrepresented source sections have been transcribed into normalized_specifications.source_text for every record in this category. This is source transcription, not final field-level verification.",
     "2026-11-10 identity audit: versioned software records now include the source page's explicit version/platform in product.model instead of the generic family name; null introduction years remain null where the source does not state them.",
-    "Audit correction: the iTunes inventory contains 14 separate version/platform records (7 Mac and 7 Windows), not 13."
+    "Audit correction: the iTunes inventory contains 14 separate version/platform records (7 Mac and 7 Windows), not 13.",
+    "2026-11-10 inventory alignment: software working_scope model names now match the version- and platform-specific product.model values in the individual records."
   ],
   "record_audit": {
     "checked_at": "2026-11-10",
