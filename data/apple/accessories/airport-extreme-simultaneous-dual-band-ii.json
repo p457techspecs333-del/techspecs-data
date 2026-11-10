@@ -54,15 +54,6 @@
         "verification_status": "source_transcribed",
         "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
       }
-    },
-    "apple_footer": {
-      "source_text": {
-        "value": "Support\nAirPort Extreme 802.11n (4th Generation) - Technical Specifications",
-        "unit": null,
-        "source_section": "Apple Footer",
-        "verification_status": "source_transcribed",
-        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
-      }
     }
   }
 }
