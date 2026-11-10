@@ -392,7 +392,8 @@
     "2026-11-10 inventory alignment: software working_scope model names now match the version- and platform-specific product.model values in the individual records.",
     "2026-11-10 verification pass: iTunes 12 Mac/Windows requirements are now decomposed into explicit machine-readable fields while preserving source statements and playback-specific conditions.",
     "2026-11-10 verification pass: older iTunes requirement normalization now preserves playback-specific processor/RAM/graphics tiers and platform-specific OS/installer constraints for versions 9.2, 10.7 and 11 where the official pages provide them.",
-    "2026-11-10 verification pass: iTunes 8.2 requirements now preserve legacy architecture and connected-device conditions as distinct machine-readable fields."
+    "2026-11-10 verification pass: iTunes 8.2 requirements now preserve legacy architecture and connected-device conditions as distinct machine-readable fields.",
+    "2026-11-10 verification pass: the 8.0.2 and 8.1.1 iTunes records now preserve legacy OS, architecture, processor, memory, graphics, display, peripherals and QuickTime requirements in separate typed fields."
   ],
   "record_audit": {
     "checked_at": "2026-11-10",
@@ -411,12 +412,13 @@
       "Expanded iTunes 12 for macOS and Windows into separate processor, playback-tier graphics, display, memory/storage, network, sound, optical-drive and platform/installer requirement fields where Apple explicitly states them.",
       "Corrected iTunes 9.2 for Mac OS versus iOS-device compatibility classification and restored the 1GB HD-playback memory requirement.",
       "Expanded iTunes 10.7 and 11 Mac/Windows requirements into processor, graphics, display, memory/storage, network, sound, optical-drive and platform fields where explicitly stated; restored omitted Windows XP/Vista and 64-bit installer requirements.",
-      "Expanded iTunes 8.2 Mac and Windows requirements into explicit processor, memory, graphics/video RAM, display, network, sound, optical-drive, QuickTime, OS/architecture and connected-device compatibility fields."
+      "Expanded iTunes 8.2 Mac and Windows requirements into explicit processor, memory, graphics/video RAM, display, network, sound, optical-drive, QuickTime, OS/architecture and connected-device compatibility fields.",
+      "Expanded iTunes 8.0.2 and 8.1.1 Mac/Windows requirements into explicit processor, memory, graphics/video RAM, display, network, sound, optical-drive, QuickTime, OS/architecture and accessibility fields."
     ],
     "remaining": [
-      "Apply the same field-level requirement audit to iTunes 8.0.2 and 8.1.1 for Mac and Windows.",
       "Verify every software record's source URL and archived HTML against the exact version-specific official Apple page.",
       "Check requirements for Aperture, Compressor, Final Cut Pro, Logic Pro, MainStage, Motion and QuickTime Pro against their exact source sections.",
+      "Review historical iTunes versions for version-specific device compatibility and feature-specific requirements, beyond the core hardware/OS fields.",
       "Run full repository schema, catalogue and archive/source consistency checks."
     ]
   }
