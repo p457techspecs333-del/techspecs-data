@@ -4,7 +4,7 @@
   "description": "An independently structured index of product records. Manufacturer and other primary sources are cited as evidence; TechSpecs defines the record identifiers, normalized data model and discovery interface.",
   "purpose": "machine_reading",
   "canonical_host": "https://data.techspecs.dev",
-  "record_count": 376,
+  "record_count": 375,
   "records": [
     {
       "record_id": "apple/accessories/airport-express-802-11n-2nd-generation",
@@ -6998,28 +6998,6 @@
         "source_type": "manufacturer",
         "publisher": "Apple Support (Ireland)",
         "source_url": "https://www.apple.com/ie/macbook-pro/proled-xdr-display/specs/",
-        "verification_status": "url_checked",
-        "checked_at": "2026-11-08"
-      }
-    },
-    {
-      "record_id": "apple/mac/macbook/macbook-neo-technical-specifications",
-      "path": "apple/mac/macbook/macbook-neo-technical-specifications.json",
-      "url": "https://data.techspecs.dev/api/v1/products/macbook-neo-technical-specifications.json",
-      "legacy_url": "https://data.techspecs.dev/apple/mac/macbook/macbook-neo-technical-specifications.json",
-      "schema_version": "2.0",
-      "brand": "Apple",
-      "category": "computer",
-      "family": "MacBook",
-      "model": "MacBook Neo Technical Specifications",
-      "model_slug": "macbook-neo-technical-specifications",
-      "model_year": null,
-      "year_introduced": null,
-      "variant": null,
-      "source": {
-        "source_type": "manufacturer",
-        "publisher": "Apple Support (Ireland)",
-        "source_url": "https://www.apple.com/ie/macbook-neo/specs/",
         "verification_status": "url_checked",
         "checked_at": "2026-11-08"
       }
