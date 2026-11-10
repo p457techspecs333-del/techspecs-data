@@ -90,6 +90,15 @@
         "verification_status": "source_transcribed",
         "notes": "Extracted from preserved official Apple software specification text; original requirement wording retained."
       }
+    },
+    "minimum_system_requirements": {
+      "source_text": {
+        "value": "macOS 14.6 or later\n8GB of memory (16GB recommended)\nMetal‑capable graphics card (Intel-based Mac computers only)\n6.5GB of available disk space\nSome features require macOS Sequoia and a Mac with Apple silicon. Some features require internet access; fees may apply.\nhttps://www.apple.com/uk/final-cut-pro/specs/",
+        "unit": null,
+        "source_section": "Minimum System Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
     }
   }
 }
