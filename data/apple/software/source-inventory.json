@@ -391,7 +391,8 @@
     "Audit correction: the iTunes inventory contains 14 separate version/platform records (7 Mac and 7 Windows), not 13.",
     "2026-11-10 inventory alignment: software working_scope model names now match the version- and platform-specific product.model values in the individual records.",
     "2026-11-10 verification pass: iTunes 12 Mac/Windows requirements are now decomposed into explicit machine-readable fields while preserving source statements and playback-specific conditions.",
-    "2026-11-10 verification pass: older iTunes requirement normalization now preserves playback-specific processor/RAM/graphics tiers and platform-specific OS/installer constraints for versions 9.2, 10.7 and 11 where the official pages provide them."
+    "2026-11-10 verification pass: older iTunes requirement normalization now preserves playback-specific processor/RAM/graphics tiers and platform-specific OS/installer constraints for versions 9.2, 10.7 and 11 where the official pages provide them.",
+    "2026-11-10 verification pass: iTunes 8.2 requirements now preserve legacy architecture and connected-device conditions as distinct machine-readable fields."
   ],
   "record_audit": {
     "checked_at": "2026-11-10",
@@ -409,10 +410,11 @@
       "Corrected product.model values to include official software version and platform names for Aperture 3, Compressor 4, all 14 distinct iTunes release/platform records, Logic Pro 9, MainStage 2, Motion 5 and QuickTime Pro 7 for Mac.",
       "Expanded iTunes 12 for macOS and Windows into separate processor, playback-tier graphics, display, memory/storage, network, sound, optical-drive and platform/installer requirement fields where Apple explicitly states them.",
       "Corrected iTunes 9.2 for Mac OS versus iOS-device compatibility classification and restored the 1GB HD-playback memory requirement.",
-      "Expanded iTunes 10.7 and 11 Mac/Windows requirements into processor, graphics, display, memory/storage, network, sound, optical-drive and platform fields where explicitly stated; restored omitted Windows XP/Vista and 64-bit installer requirements."
+      "Expanded iTunes 10.7 and 11 Mac/Windows requirements into processor, graphics, display, memory/storage, network, sound, optical-drive and platform fields where explicitly stated; restored omitted Windows XP/Vista and 64-bit installer requirements.",
+      "Expanded iTunes 8.2 Mac and Windows requirements into explicit processor, memory, graphics/video RAM, display, network, sound, optical-drive, QuickTime, OS/architecture and connected-device compatibility fields."
     ],
     "remaining": [
-      "Apply the same field-level requirement audit to iTunes 8.0.2, 8.1.1, 8.2 and the remaining older Mac/Windows versions.",
+      "Apply the same field-level requirement audit to iTunes 8.0.2 and 8.1.1 for Mac and Windows.",
       "Verify every software record's source URL and archived HTML against the exact version-specific official Apple page.",
       "Check requirements for Aperture, Compressor, Final Cut Pro, Logic Pro, MainStage, Motion and QuickTime Pro against their exact source sections.",
       "Run full repository schema, catalogue and archive/source consistency checks."
