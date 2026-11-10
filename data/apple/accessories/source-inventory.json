@@ -459,7 +459,8 @@
     "2026-11-09 progress: all 19 existing accessory product records are now enumerated in working_scope. Selected explicit specifications have been normalized with source-section provenance; final record-level verification remains outstanding.",
     "2026-11-10 repository audit: all 19 inventory source_file references resolve to existing archived files in the current Git tree. This confirms archive-path presence only, not the accuracy or reachability of every source URL.",
     "2026-11-10 progress: previously unrepresented source sections have been transcribed into normalized_specifications.source_text for every record in this category. This is source transcription, not final field-level verification.",
-    "2026-11-10 verification pass: Verified and recorded AirTag model identifiers A2187 and A2937 from Apple's official identification article. Added explicit structured diameter, height, weight and system-requirement values for both AirTag generations. Added case-only measurements for the standalone AirPods Wireless Charging Case and narrowed the standalone AirPods Pro 2 USB-C case record to case-specific normalized specifications."
+    "2026-11-10 verification pass: Verified and recorded AirTag model identifiers A2187 and A2937 from Apple's official identification article. Added explicit structured diameter, height, weight and system-requirement values for both AirTag generations. Added case-only measurements for the standalone AirPods Wireless Charging Case and narrowed the standalone AirPods Pro 2 USB-C case record to case-specific normalized specifications.",
+    "2026-11-10 taxonomy pass: all 19 accessory records now use product-type categories rather than the generic 'accessory' category; family remains Apple Accessories."
   ],
   "record_audit": {
     "checked_at": "2026-11-10",
@@ -477,11 +478,13 @@
       "Added normalized_specifications.source_text entries for source sections that were previously absent from the normalized map across all 19 records; original sections and existing typed values were retained.",
       "Verified and recorded AirTag model identifiers A2187 and A2937 from Apple's official identification article.",
       "Added explicit structured diameter, height, weight and system-requirement values for both AirTag generations.",
-      "Added case-only measurements for the standalone AirPods Wireless Charging Case and narrowed the standalone AirPods Pro 2 USB-C case record to case-specific normalized specifications."
+      "Added case-only measurements for the standalone AirPods Wireless Charging Case and narrowed the standalone AirPods Pro 2 USB-C case record to case-specific normalized specifications.",
+      "Replaced the generic accessory category with product-type categories across all 19 records: wireless-router, network-storage-router, item-tracker, keyboard, mouse and trackpad."
     ],
     "remaining": [
       "Verify all 19 records against archived official Apple HTML, particularly the short AirPort records and model/variant relationships.",
-      "Review field-level precision and product-family taxonomy for all accessories.",
+      "Review field-level precision and source-section alignment for all accessories; add missing typed values only where explicitly supported.",
+      "Check historical AirPort network standards, security, interfaces and compatibility against their exact generation-specific pages.",
       "Run full repository schema, catalogue and archive/source consistency checks."
     ]
   }
