@@ -142,6 +142,129 @@ def main() -> int:
         if source.get("verification_status") in (None, "", "not_checked"):
             warnings.append(f"{rel}: source verification status is absent or not_checked")
 
+
+    # Cross-check category inventories against product records and archived sources.
+    inventory_paths = sorted((DATA_ROOT / "apple").glob("*/source-inventory.json"))
+    global_slugs: dict[str, list[str]] = {}
+    for product_path in files:
+        try:
+            product_record = json.loads(product_path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        product_obj = product_record.get("product") if isinstance(product_record, dict) else {}
+        if not isinstance(product_obj, dict):
+            continue
+        product_slug = product_obj.get("model_slug") or product_obj.get("slug")
+        if product_slug:
+            global_slugs.setdefault(str(product_slug), []).append(product_path.relative_to(ROOT).as_posix())
+    for product_slug, locations in sorted(global_slugs.items()):
+        if len(locations) > 1:
+            errors.append(f"duplicate product.model_slug {product_slug!r}: " + ", ".join(locations))
+
+    inventories_checked = 0
+    inventory_records_checked = 0
+    for inventory_path in inventory_paths:
+        inventory_rel = inventory_path.relative_to(ROOT).as_posix()
+        try:
+            inventory = json.loads(inventory_path.read_text(encoding="utf-8"))
+        except Exception as exc:
+            warnings.append(f"{inventory_rel}: invalid inventory JSON ({exc})")
+            continue
+        if not isinstance(inventory, dict):
+            warnings.append(f"{inventory_rel}: inventory top-level value is not an object")
+            continue
+        inventories_checked += 1
+        scope = inventory.get("working_scope")
+        if not isinstance(scope, list):
+            warnings.append(f"{inventory_rel}: working_scope is absent or not an array")
+            continue
+
+        category_dir = inventory_path.parent
+        category_records = [p for p in files if p.parent == category_dir]
+        by_slug: dict[str, list[tuple[Path, dict]]] = {}
+        for product_path in category_records:
+            try:
+                product_record = json.loads(product_path.read_text(encoding="utf-8"))
+            except Exception:
+                continue
+            product_obj = product_record.get("product") if isinstance(product_record, dict) else {}
+            if not isinstance(product_obj, dict):
+                continue
+            product_slug = product_obj.get("model_slug") or product_obj.get("slug")
+            if product_slug:
+                by_slug.setdefault(str(product_slug), []).append((product_path, product_record))
+
+        seen_scope_slugs: set[str] = set()
+        for item in scope:
+            if not isinstance(item, dict):
+                warnings.append(f"{inventory_rel}: working_scope contains a non-object entry")
+                continue
+            inventory_records_checked += 1
+            item_slug = str(item.get("slug") or item.get("model_slug") or "").strip()
+            if not item_slug:
+                warnings.append(f"{inventory_rel}: working_scope entry has no slug")
+                continue
+            if item_slug in seen_scope_slugs:
+                warnings.append(f"{inventory_rel}: duplicate working_scope slug {item_slug!r}")
+            seen_scope_slugs.add(item_slug)
+
+            matches = by_slug.get(item_slug, [])
+            if len(matches) != 1:
+                warnings.append(
+                    f"{inventory_rel}: inventory slug {item_slug!r} matches {len(matches)} product records "
+                    f"in {category_dir.relative_to(ROOT).as_posix()}"
+                )
+                continue
+
+            product_path, product_record = matches[0]
+            source = product_record.get("source") if isinstance(product_record.get("source"), dict) else {}
+            record_source_file = str(source.get("source_file") or "").strip()
+            inventory_source_file = str(item.get("source_file") or "").strip()
+            if inventory_source_file and not (ROOT / inventory_source_file).is_file():
+                warnings.append(f"{inventory_rel}: archived source file missing for {item_slug!r}: {inventory_source_file!r}")
+            if inventory_source_file and record_source_file and inventory_source_file != record_source_file:
+                warnings.append(
+                    f"{inventory_rel}: source_file mismatch for {item_slug!r}: "
+                    f"inventory={inventory_source_file!r}, record={record_source_file!r}"
+                )
+
+            inventory_urls = {str(item.get(k) or "").strip() for k in ("url", "final_url")}
+            inventory_urls.discard("")
+            record_url = str(source.get("source_url") or "").strip()
+            if inventory_urls and record_url and record_url not in inventory_urls:
+                warnings.append(
+                    f"{inventory_rel}: source_url mismatch for {item_slug!r}: "
+                    f"record={record_url!r}, inventory={sorted(inventory_urls)!r}"
+                )
+
+            declared_sections = item.get("section_count")
+            actual_sections = product_record.get("sections")
+            if isinstance(declared_sections, int) and isinstance(actual_sections, list) and declared_sections != len(actual_sections):
+                warnings.append(
+                    f"{inventory_rel}: section_count mismatch for {item_slug!r}: "
+                    f"inventory={declared_sections}, record={len(actual_sections)}"
+                )
+
+        unlisted = sorted(set(by_slug) - seen_scope_slugs)
+        if unlisted:
+            warnings.append(
+                f"{inventory_rel}: {len(unlisted)} product records are not listed in working_scope: "
+                + ", ".join(unlisted[:10])
+            )
+        if len(scope) != len(category_records):
+            warnings.append(
+                f"{inventory_rel}: working_scope has {len(scope)} entries but category contains "
+                f"{len(category_records)} product records"
+            )
+        declared_count = (inventory.get("record_audit") or {}).get("product_record_count")
+        if isinstance(declared_count, int) and declared_count != len(scope):
+            warnings.append(
+                f"{inventory_rel}: record_audit.product_record_count={declared_count} "
+                f"but working_scope has {len(scope)} entries"
+            )
+
+    print(f"Inventories checked: {inventories_checked} | Inventory entries checked: {inventory_records_checked}")
+
     print(f"Product records scanned: {len(files)}")
     print("Schema versions: " + ", ".join(f"{key}={value}" for key, value in sorted(versions.items())))
     print(f"Records checked against v2 schema: {validated_v2}")
