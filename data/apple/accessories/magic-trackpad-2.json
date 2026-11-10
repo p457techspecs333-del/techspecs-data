@@ -2,7 +2,7 @@
   "schema_version": "2.0",
   "product": {
     "brand": "Apple",
-    "category": "accessory",
+    "category": "trackpad",
     "family": "Apple Accessories",
     "model": "Magic Trackpad 2",
     "model_slug": "magic-trackpad-2",
@@ -67,7 +67,8 @@
   ],
   "record_notes": [
     "Archival-first-pass technical specification record; normalized values not inferred.",
-    "Field extraction pass 2026-11-09: explicit accessory specifications extracted into schema-v2 fields with source-section provenance."
+    "Field extraction pass 2026-11-09: explicit accessory specifications extracted into schema-v2 fields with source-section provenance.",
+    "2026-11-10 taxonomy pass: product.category identifies the product type as trackpad rather than using the generic accessory label."
   ],
   "normalized_specifications": {
     "size_weight_statements": {
