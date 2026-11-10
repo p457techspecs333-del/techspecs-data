@@ -378,7 +378,8 @@
     "2026-11-09 follow-up: typed field extraction added for explicit chip, Bluetooth version, ingress-protection rating, battery-duration statements and labelled size/weight pairs where present. This remains a source-transcription/extraction pass, not final factual verification; field values remain marked source_transcribed.",
     "2026-11-09 follow-up: working_scope now enumerates all 19 existing AirPods-related records. Typed field extraction is in progress; values remain source_transcribed pending detailed verification.",
     "2026-11-09: official Apple AirPods identification page added as evidence for model numbers and introduction years across all 19 records.",
-    "2026-11-10 repository audit: all 19 inventory source_file references resolve to existing archived files in the current Git tree. This confirms archive-path presence only, not the accuracy or reachability of every source URL."
+    "2026-11-10 repository audit: all 19 inventory source_file references resolve to existing archived files in the current Git tree. This confirms archive-path presence only, not the accuracy or reachability of every source URL.",
+    "2026-11-10 verification pass: Added component-aware measurements for legacy and recent AirPods records, distinguishing earbuds/headphones from charging cases and Smart Cases. Corrected AirPods 5 with Wireless Charging Case model number from A3529 to A5329 based on Apple's official AirPods identification page. Repaired AirPods Max 2 dimensions that had been omitted from the structured measurements. Scoped the standalone AirPods Pro 2 USB-C charging-case record to case-specific normalized values, retaining its U1 case chip and removing headphone-only normalized fields."
   ],
   "record_audit": {
     "checked_at": "2026-11-10",
@@ -393,13 +394,16 @@
       "Transcribed preserved Apple source sections into normalized_specifications with original headings and source text.",
       "Kept product and case variants as distinct records; no missing values inferred.",
       "Cross-checked model numbers and introduction years for all 19 records against Apple's official AirPods identification page; populated product.model_numbers, product.year_introduced and product.model_year where explicitly identified.",
-      "Checked every working_scope source_file path against the current Git repository tree on 2026-11-10; all 19 referenced archive paths exist."
+      "Checked every working_scope source_file path against the current Git repository tree on 2026-11-10; all 19 referenced archive paths exist.",
+      "Added component-aware measurements for legacy and recent AirPods records, distinguishing earbuds/headphones from charging cases and Smart Cases.",
+      "Corrected AirPods 5 with Wireless Charging Case model number from A3529 to A5329 based on Apple's official AirPods identification page.",
+      "Repaired AirPods Max 2 dimensions that had been omitted from the structured measurements.",
+      "Scoped the standalone AirPods Pro 2 USB-C charging-case record to case-specific normalized values, retaining its U1 case chip and removing headphone-only normalized fields."
     ],
     "remaining": [
-      "Verify all 19 records against archived official Apple HTML, especially charging-case variant details and footnote qualifications.",
-      "Review field extraction for section-specific component association and battery qualifiers; confirm no extraction omissions or label/value alignment errors.",
-      "Add any remaining explicit finishes, model-specific controls and detailed measurements where official sources provide them.",
-      "Run repository validation and catalogue-generation checks after this update."
+      "Finish record-by-record verification of all remaining AirPods model/case identifiers, footnotes, and source-field alignment.",
+      "Review legacy AirPods 1 and standalone charging-case fields for complete structured extraction.",
+      "Run full repository schema, catalogue and archive/source consistency checks."
     ]
   }
 }
