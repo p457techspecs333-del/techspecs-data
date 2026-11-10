@@ -4,7 +4,7 @@
     "brand": "Apple",
     "category": "smart-speaker",
     "family": "HomePod",
-    "model": "HomePod (2nd generation) technical specifications",
+    "model": "HomePod (2nd generation)",
     "model_slug": "homepod-2nd-generation-technical-specifications",
     "model_year": 2023,
     "year_introduced": 2023,
@@ -91,7 +91,8 @@
   ],
   "record_notes": [
     "Archival-first-pass record; normalized specifications not inferred.",
-    "Field extraction pass 2026-11-09: added typed values only where explicitly supported by preserved Apple specification text and official Apple model-identification documentation."
+    "Field extraction pass 2026-11-09: added typed values only where explicitly supported by preserved Apple specification text and official Apple model-identification documentation.",
+    "2026-11-10 metadata correction: product.model now contains Apple's product name only; 'technical specifications' belongs to the source document title, not the product model."
   ],
   "normalized_specifications": {
     "finishes": {
