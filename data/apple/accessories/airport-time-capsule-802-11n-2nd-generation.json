@@ -2,7 +2,7 @@
   "schema_version": "2.0",
   "product": {
     "brand": "Apple",
-    "category": "accessory",
+    "category": "network-storage-router",
     "family": "Apple Accessories",
     "model": "AirPort Time Capsule 802.11n (2nd Generation)",
     "model_slug": "airport-time-capsule-802-11n-2nd-generation",
@@ -95,7 +95,8 @@
   ],
   "record_notes": [
     "Archival-first-pass technical specification record; normalized values not inferred.",
-    "Field extraction pass 2026-11-09: selected accessory/networking specification sections separated into normalized fields with provenance."
+    "Field extraction pass 2026-11-09: selected accessory/networking specification sections separated into normalized fields with provenance.",
+    "2026-11-10 taxonomy pass: category distinguishes AirPort networking hardware from other accessory types; Time Capsule is classified as network storage/router hardware."
   ],
   "normalized_specifications": {
     "size_weight_statements": {
