@@ -127,6 +127,33 @@
         "verification_status": "source_transcribed",
         "notes": "Extracted from preserved official Apple software specification text; original requirement wording retained."
       }
+    },
+    "what_s_new_in_itunes_9_2": {
+      "source_text": {
+        "value": "iTunes 9.2 comes with several new features and improvements, including:\nSync with iPhone 4 to enjoy your favorite music, movies, TV shows, books and more on-the-go\nSync and read books with iPhone or iPod touch with iOS 4 and iBooks 1.1\nOrganize and sync PDF documents as books. Read PDFs with iBooks 1.1 on iPad and any iPhone or iPod touch with iOS 4\nOrganize your apps on your iOS 4 home screens into folders using iTunes\nFaster back-ups while syncing an iPhone or iPod touch with iOS 4\nPerformance improvements make scrolling much faster",
+        "unit": null,
+        "source_section": "What's new in iTunes 9.2",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "macintosh_hardware": {
+      "source_text": {
+        "value": "Mac computer with an Intel, PowerPC G5 or G4 processor\nIntel, PowerPC G5 or 1.0GHz PowerPC G4 or faster processor is required to play Standard Definition video from the iTunes Store\n2.0GHz Intel Core 2 Duo or faster processor is required to play HD video, an iTunes LP, or iTunes Extras from the iTunes Store\n512MB of RAM; 1GB is required to play HD video, an iTunes LP, or iTunes Extras\nScreen resolution of 1024x768 or greater; 1280x800 or greater is required to play an iTunes LP or iTunes Extras\nPlaying videos also requires at least 16MB of video RAM\nBroadband Internet connection to use the iTunes Store\nApple combo drive or SuperDrive to create audio, MP3, or back-up CDs; some non-Apple CD-RW recorders may also work.\nApple SuperDrive to back up your library to DVDs; some non-Apple DVD-RW drives may also work.",
+        "unit": null,
+        "source_section": "Macintosh Hardware",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "macintosh_software": {
+      "source_text": {
+        "value": "Mac OS X version 10.4.11 or later; Mac OS X version 10.5 or later is required to play an iTunes LP or iTunes Extras\nQuickTime 7.6 or later\nSupport for HE-AAC requires QuickTime 7.6.4 and Mac OS X version 10.5 or later\nSafari 4.0.3 or later\n200MB of available disk space",
+        "unit": null,
+        "source_section": "Macintosh Software",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
     }
   }
 }
