@@ -409,7 +409,7 @@
       "legacy_url": "https://data.techspecs.dev/apple/accessories/magic-trackpad-usb-c.json",
       "schema_version": "2.0",
       "brand": "Apple",
-      "category": "accessory",
+      "category": "trackpad",
       "family": "Apple Accessories",
       "model": "Magic Trackpad (USB-C)",
       "model_slug": "magic-trackpad-usb-c",
