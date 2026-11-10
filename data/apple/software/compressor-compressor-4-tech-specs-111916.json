@@ -4,7 +4,7 @@
     "brand": "Apple",
     "category": "software",
     "family": "Apple Software",
-    "model": "Compressor",
+    "model": "Compressor 4",
     "model_slug": "compressor-compressor-4-tech-specs-111916",
     "model_year": null,
     "year_introduced": null,
@@ -39,7 +39,8 @@
   ],
   "record_notes": [
     "Archival-first-pass technical specification record; normalized values not inferred.",
-    "Field extraction pass 2026-11-09: version labels and explicit software/hardware requirements parsed from preserved official Apple source sections."
+    "Field extraction pass 2026-11-09: version labels and explicit software/hardware requirements parsed from preserved official Apple source sections.",
+    "2026-11-10 identity correction: product.model now includes the official version designation from the technical-specification page title, preserving distinct software releases."
   ],
   "normalized_specifications": {
     "minimum_system_requirements_statements": {
