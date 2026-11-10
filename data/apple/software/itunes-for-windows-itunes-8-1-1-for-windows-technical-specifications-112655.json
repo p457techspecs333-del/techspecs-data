@@ -4,7 +4,7 @@
     "brand": "Apple",
     "category": "software",
     "family": "Apple Software",
-    "model": "iTunes for Windows",
+    "model": "iTunes 8.1.1 for Windows",
     "model_slug": "itunes-for-windows-itunes-8-1-1-for-windows-technical-specifications-112655",
     "model_year": null,
     "year_introduced": null,
@@ -43,7 +43,8 @@
   ],
   "record_notes": [
     "Archival-first-pass technical specification record; normalized values not inferred.",
-    "Field extraction pass 2026-11-09: version labels and explicit software/hardware requirements parsed from preserved official Apple source sections."
+    "Field extraction pass 2026-11-09: version labels and explicit software/hardware requirements parsed from preserved official Apple source sections.",
+    "2026-11-10 identity correction: product.model now includes the official version and platform from the technical-specification page title, preserving distinct software releases."
   ],
   "normalized_specifications": {
     "itunes_8_1_1_for_windows_technical_specifications_statements": {
