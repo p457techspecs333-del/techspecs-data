@@ -48,7 +48,8 @@
   ],
   "record_notes": [
     "Archival-first-pass record; normalized specifications not inferred.",
-    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text."
+    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text.",
+    "2026-11-10 verification correction: corrected the second model-number/date pair from a duplicate A1288 to A1319, preserving Apple's 'China mainland only' qualifier."
   ],
   "normalized_specifications": {
     "navigation_interface": {
@@ -68,14 +69,15 @@
             "introduced": "September 2008"
           },
           {
-            "model_number": "A1288",
-            "introduced": "September 2008"
+            "model_number": "A1319",
+            "introduced": "September 2008",
+            "notes": "For China mainland only, as stated in Apple's identification text."
           }
         ],
         "unit": null,
         "source_section": "iPod touch (2nd generation)",
         "verification_status": "source_transcribed",
-        "notes": "Model number/date pairs preserved individually; repeated model numbers are not deduplicated in this evidence field."
+        "notes": "Model number/date pairs retain Apple's region qualifier; A1319 is listed for China mainland only."
       }
     },
     "capacity_statements": {
