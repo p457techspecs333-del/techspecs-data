@@ -385,7 +385,9 @@
     "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete.",
     "2026-11-09 extraction pass: model numbers, date-introduced statements, capacities and navigation interfaces were parsed where explicitly present in all 37 iPod records. Records remain partial: the source material is Apple's model-identification page, not a complete technical-specification archive.",
     "2026-11-10 scope clarification: the 37 current iPod records are based on Apple's official 'Identify your iPod model' page (https://support.apple.com/en-ie/103823), not 37 separate technical-specification pages. Each record currently preserves one concise identification section with model/date, capacity, navigation interface and/or description where Apple supplies it. These are verified identification records, not complete technical-specification records.",
-    "2026-11-10 repository audit: all 37 inventory source_file references resolve to existing archived files in the current Git tree. This confirms archive-path presence only, not the accuracy or reachability of every source URL."
+    "2026-11-10 repository audit: all 37 inventory source_file references resolve to existing archived files in the current Git tree. This confirms archive-path presence only, not the accuracy or reachability of every source URL.",
+    "2026-11-10 source-discovery correction: the current 37 records all point to Apple's model-identification page, but a web search found separate official Apple technical-specification pages for several representative models. The previous assumption that no dedicated pages were available is therefore too broad; a model-by-model source migration is required before iPod can be considered complete.",
+    "Confirmed official technical-specification page examples: iPod touch (7th generation), support article 111961; iPod shuffle (4th generation), support article 112422; iPod nano (7th generation), support article 112039; iPod classic 120GB, support article 112321; iPod classic 160GB (Late 2009), support article 112601. These URLs were discovered through Apple Support search results and still need matching archived HTML before changing record source mappings."
   ],
   "record_audit": {
     "checked_at": "2026-11-10",
@@ -399,14 +401,15 @@
       "Attached source-section provenance to normalized fields and preserved original wording.",
       "Reviewed all 37 existing iPod JSON records and retained their original official Apple identification text.",
       "Inspected representative iPod touch, classic, nano, shuffle and Click Wheel records and confirmed their preserved text is from Apple's official model-identification page, not dedicated technical-specification pages.",
-      "Checked every working_scope source_file path against the current Git repository tree on 2026-11-10; all 37 referenced archive paths exist."
+      "Checked every working_scope source_file path against the current Git repository tree on 2026-11-10; all 37 referenced archive paths exist.",
+      "Outside-source discovery confirmed that dedicated Apple technical-specification pages exist for representative iPod models, including iPod touch (7th generation), iPod nano (7th generation), iPod shuffle (4th generation), and multiple iPod classic capacity/year variants."
     ],
     "remaining": [
-      "Discover and verify dedicated official Apple technical-specification or archived support sources for each iPod model where available; do not invent separate URLs where Apple only provides the identification page.",
-      "Correct source_title metadata to reflect the actual Apple identification page title, not the individual model name.",
-      "Preserve the current identification-page evidence as a separate source layer if no dedicated technical-specification page exists.",
-      "Check model-year/date pairs, multiple capacities and distinct late-year variants against the archived index source.",
-      "Run repository-wide JSON Schema, uniqueness, archive-path, source URL, inventory and catalogue checks."
+      "Replace the identification-page-only source assignment with each model's exact official technical-specification URL wherever one exists.",
+      "Archive each matched official technical-specification page and update source_file, source_title, section_count and normalized fields together; do not point a record at a technical-spec page while retaining an identification-page archive.",
+      "Keep identification-page evidence as a secondary source for model numbers and introduction dates where it adds information not present on the technical-spec page.",
+      "Verify the 37 model/date/capacity variants individually and avoid merging distinct iPod classic capacity/year versions.",
+      "Run full repository schema, catalogue and archive/source consistency checks."
     ]
   }
 }
