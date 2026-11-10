@@ -44,7 +44,8 @@
   "record_notes": [
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Field extraction pass 2026-11-09: version labels and explicit software/hardware requirements parsed from preserved official Apple source sections.",
-    "2026-11-10 identity correction: product.model now includes the official version designation from the technical-specification page title, preserving distinct software releases."
+    "2026-11-10 identity correction: product.model now includes the official version designation from the technical-specification page title, preserving distinct software releases.",
+    "2026-11-10 verification pass: expanded iTunes 8.2 for Mac hardware, memory, display, video RAM, network, optical-drive, QuickTime and connected-device requirements."
   ],
   "normalized_specifications": {
     "software_version": {
@@ -70,12 +71,12 @@
     "memory_requirements": {
       "value": {
         "value": [
-          "512MB of RAM"
+          "512MB of RAM; 1GB is required to play HD-quality videos"
         ],
         "unit": null,
-        "source_section": "System requirements",
+        "source_section": "iTunes 8.2 for Mac - Technical Specifications",
         "verification_status": "source_transcribed",
-        "notes": "Extracted from preserved official Apple software specification text; original requirement wording retained."
+        "notes": "Base and HD playback memory requirements retained in the same explicit source statement."
       }
     },
     "storage_requirements": {
@@ -96,6 +97,91 @@
         "source_section": "iTunes 8.2 for Mac - Technical Specifications",
         "verification_status": "source_transcribed",
         "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "processor_requirements": {
+      "value": {
+        "value": [
+          "Mac computer with an Intel, PowerPC G5, G4, or G3 processor",
+          "Playing videos from the iTunes Store requires a Mac computer with an Intel, PowerPC G5 or 1.0GHz PowerPC G4 or faster processor",
+          "Playing HD-quality videos from the iTunes Store requires a 2.0GHz Intel Core 2 Duo or faster processor"
+        ],
+        "unit": null,
+        "source_section": "iTunes 8.2 for Mac - Technical Specifications",
+        "verification_status": "source_transcribed",
+        "notes": "General and video-playback processor requirements are retained separately as published."
+      }
+    },
+    "display_requirements": {
+      "value": {
+        "value": [
+          "Screen resolution of 1024x768 or greater"
+        ],
+        "unit": null,
+        "source_section": "iTunes 8.2 for Mac - Technical Specifications",
+        "verification_status": "source_transcribed",
+        "notes": "Exact display requirement statement from the archived Apple source."
+      }
+    },
+    "video_memory_requirements": {
+      "value": {
+        "value": [
+          "Playing videos also requires at least 16MB of video RAM"
+        ],
+        "unit": null,
+        "source_section": "iTunes 8.2 for Mac - Technical Specifications",
+        "verification_status": "source_transcribed",
+        "notes": "Exact video-memory requirement statement from the archived Apple source."
+      }
+    },
+    "network_requirements": {
+      "value": {
+        "value": [
+          "A broadband Internet connection to use the iTunes Store"
+        ],
+        "unit": null,
+        "source_section": "iTunes 8.2 for Mac - Technical Specifications",
+        "verification_status": "source_transcribed",
+        "notes": "Exact internet requirement statement from the archived Apple source."
+      }
+    },
+    "optical_drive_requirements": {
+      "value": {
+        "value": [
+          "An Apple combo drive or SuperDrive to create audio, MP3, or back-up CDs; some non-Apple CD-RW recorders may also work.",
+          "An Apple SuperDrive to back up your library to DVDs; some non-Apple DVD-RW drives may also work."
+        ],
+        "unit": null,
+        "source_section": "iTunes 8.2 for Mac - Technical Specifications",
+        "verification_status": "source_transcribed",
+        "notes": "CD and DVD drive requirements retained separately as stated."
+      }
+    },
+    "software_dependencies": {
+      "value": {
+        "value": [
+          "QuickTime 7.5.5 or later"
+        ],
+        "unit": null,
+        "source_section": "iTunes 8.2 for Mac - Technical Specifications",
+        "verification_status": "source_transcribed",
+        "notes": "Explicit QuickTime dependency from the source's Software subsection."
+      }
+    },
+    "device_compatibility_requirements": {
+      "value": {
+        "value": [
+          "Syncing purchased videos requires iPod nano (3rd generation), iPod classic, iPod (5th generation) with software version 1.2 or later, iPod touch, or iPhone",
+          "Transferring rented movies requires iPod nano (3rd generation) and iPod classic with software version 1.1 or later or iPod touch and iPhone with iPhone software version 1.1.3 or later",
+          "Syncing ringtones requires iPhone software version 1.1 or later",
+          "Purchasing or syncing applications require an iPhone or iPod touch with the iPhone 2.0 Software Update or later",
+          "Purchasing from the iTunes Music Store for iPhone or iPod touch requires iPhone software version 1.1.1 or later",
+          "Syncing iPod Games requires iPod nano (3rd generation), iPod classic, or iPod (5th generation) with software version 1.2 or later. Some iPod Games may not be compatible with iPod nano (3rd generation) and iPod classic"
+        ],
+        "unit": null,
+        "source_section": "iTunes 8.2 for Mac - Technical Specifications",
+        "verification_status": "source_transcribed",
+        "notes": "Device compatibility statements retained from the iPod and iPhone subsection; these are not treated as the Mac OS minimum."
       }
     }
   }
