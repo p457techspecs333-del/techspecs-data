@@ -4,7 +4,7 @@
     "brand": "Apple",
     "category": "audio",
     "family": "Apple AirPods",
-    "model": "AirPods 5 (Wireless)",
+    "model": "AirPods 5 with Wireless Charging Case",
     "model_slug": "airpods-5-wireless-airpods-5-with-wireless-charging-case-tech-specs-148760",
     "model_year": 2026,
     "year_introduced": 2026,
@@ -13,7 +13,7 @@
       "A3439",
       "A3440",
       "A3441",
-      "A3529"
+      "A5329"
     ]
   },
   "source": {
@@ -23,9 +23,9 @@
     "source_title": "AirPods 5 with Wireless Charging Case - Tech Specs",
     "publisher": "Apple",
     "published_at": null,
-    "checked_at": "2026-11-09",
+    "checked_at": "2026-11-10",
     "verification_status": "content_verified",
-    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 15 sections archived. Model identifiers and introduction year cross-checked against Apple's official AirPods identification page on 2026-11-09. Model identifiers and introduction year cross-checked against Apple's official AirPods identification page on 2026-11-09.",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 15 sections archived. Earbud and charging-case model numbers and introduction year checked against Apple's official AirPods identification page on 2026-11-10; charging-case identifier corrected from A3529 to A5329.",
     "notes": [
       "Documentation index: https://support.apple.com/en-ie/docs/airpods/301320",
       "Model numbers and introduction year verified against official Apple AirPods identification page: https://support.apple.com/en-ie/109525."
@@ -105,7 +105,8 @@
     "Taxonomy audit 2026-11-09: classified as Apple audio hardware, not software.",
     "Field-level normalization remains incomplete; source_text is the evidence of record.",
     "Field extraction pass 2026-11-09: added typed fields only where explicit values were present in preserved official source sections; qualifiers retained and source-section provenance attached.",
-    "Follow-up extraction 2026-11-09: audio features, sensors, controls, charging-case details, system requirements and in-box contents separated where explicit."
+    "Follow-up extraction 2026-11-09: audio features, sensors, controls, charging-case details, system requirements and in-box contents separated where explicit.",
+    "2026-11-10 verification correction: Apple's official AirPods identification page lists the Wireless Charging Case for AirPods 5 as model A5329; corrected the previously recorded A3529 identifier. Record model name now matches Apple's published name."
   ],
   "normalized_specifications": {
     "audio_technology": {
@@ -348,12 +349,12 @@
           "A3439",
           "A3440",
           "A3441",
-          "A3529"
+          "A5329"
         ],
         "unit": null,
         "source_section": "Identify your AirPods with the model number",
         "verification_status": "content_verified",
-        "notes": "Cross-checked against official Apple AirPods identification page https://support.apple.com/en-ie/109525 on 2026-11-09."
+        "notes": "Earbud and charging-case model numbers checked against Apple's official AirPods identification page, https://support.apple.com/en-ie/109525, on 2026-11-10."
       }
     },
     "year_introduced": {
