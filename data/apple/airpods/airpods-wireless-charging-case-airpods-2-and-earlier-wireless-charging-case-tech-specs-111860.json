@@ -69,7 +69,8 @@
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Taxonomy audit 2026-11-09: classified as Apple audio hardware, not software.",
     "Field-level normalization remains incomplete; source_text is the evidence of record.",
-    "Follow-up extraction 2026-11-09: case-specific charging details, system requirements and in-box contents separated where explicit."
+    "Follow-up extraction 2026-11-09: case-specific charging details, system requirements and in-box contents separated where explicit.",
+    "2026-11-10 verification pass: added structured standalone-case weight and ordered dimensions from the dedicated Apple Wireless Charging Case specification page."
   ],
   "normalized_specifications": {
     "overview": {
@@ -153,6 +154,33 @@
         "source_section": "Identify your AirPods with the model number",
         "verification_status": "content_verified",
         "notes": "Cross-checked against official Apple AirPods identification page https://support.apple.com/en-ie/109525 on 2026-11-09."
+      }
+    },
+    "labelled_size_weight_measurements": {
+      "value": {
+        "value": [
+          {
+            "component": "Wireless Charging Case",
+            "label": "weight",
+            "value": 40,
+            "unit": "g"
+          },
+          {
+            "component": "Wireless Charging Case",
+            "dimension_sequence": [
+              44.3,
+              21.3,
+              53.5
+            ],
+            "unit": "mm",
+            "source_label": "Dimensions",
+            "notes": "Ordered dimension values preserved exactly as Apple publishes them; no axis labels inferred."
+          }
+        ],
+        "unit": null,
+        "source_section": "Weight; Dimensions",
+        "verification_status": "source_transcribed",
+        "notes": "Case-only measurements transcribed from Apple's dedicated Wireless Charging Case specification page; the three dimensions remain in published order without inferred axis labels."
       }
     }
   }
