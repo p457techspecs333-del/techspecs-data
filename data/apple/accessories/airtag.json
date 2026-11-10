@@ -2,7 +2,7 @@
   "schema_version": "2.0",
   "product": {
     "brand": "Apple",
-    "category": "accessory",
+    "category": "item-tracker",
     "family": "Apple Accessories",
     "model": "AirTag",
     "model_slug": "airtag",
@@ -83,7 +83,8 @@
   "record_notes": [
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Field extraction pass 2026-11-09: explicit accessory specifications extracted into schema-v2 fields with source-section provenance.",
-    "2026-11-10 verification pass: added Apple's explicit model identifier and structured diameter, height, weight and system requirements with source provenance."
+    "2026-11-10 verification pass: added Apple's explicit model identifier and structured diameter, height, weight and system requirements with source provenance.",
+    "2026-11-10 taxonomy pass: product.category identifies the product type (network storage/router or item tracker) rather than using the generic accessory label."
   ],
   "normalized_specifications": {
     "size_weight_statements": {
