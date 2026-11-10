@@ -456,10 +456,11 @@
   ],
   "notes": [
     "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete.",
-    "2026-11-09 progress: all 19 existing accessory product records are now enumerated in working_scope. Selected explicit specifications have been normalized with source-section provenance; final record-level verification remains outstanding."
+    "2026-11-09 progress: all 19 existing accessory product records are now enumerated in working_scope. Selected explicit specifications have been normalized with source-section provenance; final record-level verification remains outstanding.",
+    "2026-11-10 repository audit: all 19 inventory source_file references resolve to existing archived files in the current Git tree. This confirms archive-path presence only, not the accuracy or reachability of every source URL."
   ],
   "record_audit": {
-    "checked_at": "2026-11-09",
+    "checked_at": "2026-11-10",
     "product_record_count": 19,
     "source_policy": "Official Apple accessory technical-specification pages and documentation index; no absent values inferred.",
     "normalization_status": "partially_normalized",
@@ -469,7 +470,8 @@
       "Extracted explicit AirPort wireless standards, interfaces, compatibility, size/weight and environmental statements where present.",
       "Extracted AirTag size/weight, resistance, connectivity, battery, sensor and environmental details where present.",
       "Extracted Magic Keyboard, Magic Mouse and Magic Trackpad size/weight, connection, charging-port, finish and approximate battery-life statements where present.",
-      "Retained source-section provenance and original source text."
+      "Retained source-section provenance and original source text.",
+      "Checked every working_scope source_file path against the current Git repository tree on 2026-11-10; all 19 referenced archive paths exist."
     ],
     "remaining": [
       "Verify all 19 records against their archived official Apple HTML, particularly the short two-section AirPort records and model/variant relationships.",
