@@ -386,7 +386,8 @@
     "Final pass uses schema-compliant single-hyphen slugs and preserves distinct software spec versions; duplicate AirPods records were replaced by the unique technical-spec pages.",
     "2026-11-09 progress: all 22 software product records are now listed in working_scope. Explicit software versions and system requirements have been parsed where available; records remain partial pending detailed requirement verification.",
     "2026-11-10 repository audit: all 22 inventory source_file references resolve to existing archived files in the current Git tree. This confirms archive-path presence only, not the accuracy or reachability of every source URL.",
-    "2026-11-10 progress: previously unrepresented source sections have been transcribed into normalized_specifications.source_text for every record in this category. This is source transcription, not final field-level verification."
+    "2026-11-10 progress: previously unrepresented source sections have been transcribed into normalized_specifications.source_text for every record in this category. This is source transcription, not final field-level verification.",
+    "2026-11-10 identity audit: versioned software records now include the source page's explicit version/platform in product.model instead of the generic family name; null introduction years remain null where the source does not state them."
   ],
   "record_audit": {
     "checked_at": "2026-11-10",
@@ -400,13 +401,14 @@
       "Separated explicit operating-system, hardware, memory and disk-space requirements into machine-readable fields where present.",
       "Retained source-section provenance and original requirement text.",
       "Checked every working_scope source_file path against the current Git repository tree on 2026-11-10; all 22 referenced archive paths exist.",
-      "Added normalized_specifications.source_text entries for source sections that were previously absent from the normalized map across all 22 records; original sections and existing typed values were retained."
+      "Added normalized_specifications.source_text entries for source sections that were previously absent from the normalized map across all 22 records; original sections and existing typed values were retained.",
+      "Corrected product.model values to include official software version and platform names for Aperture 3, Compressor 4, all 13 distinct iTunes release/platform records, Logic Pro 9, MainStage 2, Motion 5 and QuickTime Pro 7 for Mac."
     ],
     "remaining": [
-      "Verify all 22 records against archived official Apple HTML and review system-requirement parsing for each historical version.",
-      "Normalize processor, graphics, display, optical-drive and internet requirements where explicitly stated.",
-      "Review distinct software version and Mac/Windows variants for source/slug correctness; do not infer release years from version numbers.",
-      "Run repository validation and catalogue-generation checks."
+      "Verify every record's source URL and archived HTML against the exact version-specific official Apple page.",
+      "Check whether requirements have been fully captured for each version, especially processor architecture, OS version, RAM, storage and platform-specific differences.",
+      "Retain separate Mac and Windows variants and avoid merging requirements across iTunes versions.",
+      "Run full repository schema, catalogue and archive/source consistency checks."
     ]
   }
 }
