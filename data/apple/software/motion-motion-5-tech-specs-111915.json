@@ -4,7 +4,7 @@
     "brand": "Apple",
     "category": "software",
     "family": "Apple Software",
-    "model": "Motion",
+    "model": "Motion 5",
     "model_slug": "motion-motion-5-tech-specs-111915",
     "model_year": 2011,
     "year_introduced": 2011,
@@ -39,7 +39,8 @@
   ],
   "record_notes": [
     "Archival-first-pass technical specification record; normalized values not inferred.",
-    "Field extraction pass 2026-11-09: version labels and explicit software/hardware requirements parsed from preserved official Apple source sections."
+    "Field extraction pass 2026-11-09: version labels and explicit software/hardware requirements parsed from preserved official Apple source sections.",
+    "2026-11-10 identity correction: product.model includes the official version designation from the technical-specification page title."
   ],
   "normalized_specifications": {
     "minimum_system_requirements_statements": {
