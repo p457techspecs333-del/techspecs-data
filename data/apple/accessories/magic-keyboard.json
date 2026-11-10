@@ -100,6 +100,60 @@
         "verification_status": "source_transcribed",
         "notes": "Manufacturer's approximate battery-life wording retained verbatim; not treated as a guaranteed duration."
       }
+    },
+    "overview": {
+      "source_text": {
+        "value": "The Magic Keyboard combines a sleek new design with a built-in rechargeable battery and enhanced key features. With an improved scissor mechanism beneath each key for increased stability, as well as optimized key travel and a lower profile, the Magic Keyboard provides a remarkably comfortable and precise typing experience. It pairs automatically with your Mac, so you can get to work right away. And the battery is incredibly long-lasting — it will power your keyboard for about a month or more between charges.",
+        "unit": null,
+        "source_section": "Overview",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "what_s_in_the_box": {
+      "source_text": {
+        "value": "Magic Keyboard\nLightning to USB Cable",
+        "unit": null,
+        "source_section": "What’s in the Box",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "size_and_weight": {
+      "source_text": {
+        "value": "Height: 0.16–0.43 inch (0.41–1.09 cm)\nWidth: 10.98 inches (27.9 cm)\nDepth: 4.52 inches (11.49 cm)\nWeight: 0.51 pound (0.231 kg)*",
+        "unit": null,
+        "source_section": "Size and Weight",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "general": {
+      "source_text": {
+        "value": "Multimedia keys",
+        "unit": null,
+        "source_section": "General",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "connections_and_expansion": {
+      "source_text": {
+        "value": "Bluetooth\nLightning port\nWireless",
+        "unit": null,
+        "source_section": "Connections and Expansion",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "system_requirements": {
+      "source_text": {
+        "value": "Bluetooth-enabled Mac computer with OS X v10.11 or later\niOS devices running iOS 9.1 or later",
+        "unit": null,
+        "source_section": "System Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
     }
   }
 }
