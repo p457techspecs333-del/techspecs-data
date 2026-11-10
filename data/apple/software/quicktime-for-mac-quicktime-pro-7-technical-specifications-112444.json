@@ -83,6 +83,33 @@
         "verification_status": "source_transcribed",
         "notes": "Extracted from preserved official Apple software specification text; original requirement wording retained."
       }
+    },
+    "overview": {
+      "source_text": {
+        "value": "Please note:\nYour QuickTime 7 Pro registration code only works with QuickTime 7. Be sure you have downloaded and installed\nQuickTime Player 7\nbefore you enter your QuickTime 7 Pro registration code.\nConvert media formats\nConvert your QuickTime movies to a variety of formats for viewing on your iPod or mobile phone or sharing with friends and family via email or the web.\n1\nExport to over a dozen different video and audio formats.\nEdit with ease\nUse the cut, copy and paste capabilities of QuickTime Pro to edit your movies or even add a new sound track. You can even add annotations, rotate your video and more.\nCreate stunning video\nWith your iSight or other FireWire camera connected to your Mac, you can create beautiful video with a single click and share it via email.\nBuild your QuickTime video library\nBuild a library of movies by saving them from the web to your computer for enjoyment any time.\n2\nView movies shot with your camera phone, digital camera or camcorder. QuickTime 7 Pro supports major video formats including H.264, MPEG-4 and Motion JPEG.\nRecord your podcast\nPlug in a USB microphone and use QuickTime 7 Pro to capture audio that can be shared with the world as a podcast. The one-button recording interface couldn't be simpler or easier to use.",
+        "unit": null,
+        "source_section": "Overview",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "how_to_upgrade_to_quicktime_pro": {
+      "source_text": {
+        "value": "Make sure QuickTime 7 Player is installed on your computer.\nPurchase a QuickTime Pro registration code, which will be sent via email.\nOpen the email from Apple and locate the 20-digit registration code.\nGo to http://www.apple.com/quicktime/pro/unlock-mac_osx.html and follow the instructions to enter your registration code.\nEnjoy QuickTime Pro!",
+        "unit": null,
+        "source_section": "How to upgrade to QuickTime Pro",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "system_requirements": {
+      "source_text": {
+        "value": "Mac OS X v10.5 or later\nA Mac computer with an Intel, PowerPC G5 or Power PC G4 (867MHz or faster) processor\nAt least 512MB of RAM\nQuickTime 7",
+        "unit": null,
+        "source_section": "System Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
     }
   }
 }
