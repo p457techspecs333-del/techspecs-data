@@ -98,7 +98,8 @@
     "Taxonomy audit 2026-11-09: classified as Apple audio hardware, not software.",
     "Field-level normalization remains incomplete; source_text is the evidence of record.",
     "Field extraction pass 2026-11-09: added typed fields only where explicit values were present in preserved official source sections; qualifiers retained and source-section provenance attached.",
-    "Follow-up extraction 2026-11-09: case-specific charging details, system requirements and in-box contents separated where explicit."
+    "Follow-up extraction 2026-11-09: case-specific charging details, system requirements and in-box contents separated where explicit.",
+    "2026-11-10 verification correction: this record represents the standalone MagSafe Charging Case USB-C (model A2968), not the complete AirPods Pro 2 bundle. Removed normalized earbud audio, sensor, controls, Bluetooth, H2 chip, battery-duration and in-box fields; retained the case-specific U1 chip, case compatibility/charging details, case dimensions and case weight. Original source sections remain intact as evidence."
   ],
   "normalized_specifications": {
     "audio_technology": {
@@ -235,24 +236,6 @@
         "notes": "Verbatim from archived official Apple specification; footnote markers may remain."
       }
     },
-    "chip_name": {
-      "value": {
-        "value": "Apple H2 headphone chip",
-        "unit": null,
-        "source_section": "Chip",
-        "verification_status": "source_transcribed",
-        "notes": "Extracted from preserved official Apple source section; qualifiers retained."
-      }
-    },
-    "bluetooth_version": {
-      "value": {
-        "value": "5.3",
-        "unit": "version",
-        "source_section": "Connectivity",
-        "verification_status": "source_transcribed",
-        "notes": "Extracted from preserved official Apple source section; qualifiers retained."
-      }
-    },
     "ingress_protection_rating": {
       "value": {
         "value": "IP54",
@@ -262,59 +245,29 @@
         "notes": "Extracted from preserved official Apple source section; qualifiers retained."
       }
     },
-    "battery_life_statements": {
-      "value": {
-        "value": [
-          "Up to 6 hours of listening time with a single charge (up to 5.5 hours with Spatial Audio and head tracking enabled)",
-          "Up to 4 hours of Lossless Audio listening time on a single charge with Apple Vision Pro",
-          "Up to 30 hours of listening time",
-          "5 minutes in the case provides around 1 hour of listening time"
-        ],
-        "unit": null,
-        "source_section": "Battery",
-        "verification_status": "source_transcribed",
-        "notes": "Exact battery-duration statements from official source section; qualifiers and footnote markers retained."
-      }
-    },
     "labelled_size_weight_measurements": {
       "value": {
         "value": [
           {
-            "label": "height",
-            "value": 30.9,
-            "unit": "mm"
-          },
-          {
-            "label": "width",
-            "value": 21.8,
-            "unit": "mm"
-          },
-          {
-            "label": "depth",
-            "value": 24,
-            "unit": "mm"
-          },
-          {
-            "label": "weight",
-            "value": 5.3,
-            "unit": "g"
-          },
-          {
+            "component": "MagSafe Charging Case (USB-C) with speaker and lanyard loop",
             "label": "height",
             "value": 45.2,
             "unit": "mm"
           },
           {
+            "component": "MagSafe Charging Case (USB-C) with speaker and lanyard loop",
             "label": "width",
             "value": 60.6,
             "unit": "mm"
           },
           {
+            "component": "MagSafe Charging Case (USB-C) with speaker and lanyard loop",
             "label": "depth",
             "value": 21.7,
             "unit": "mm"
           },
           {
+            "component": "MagSafe Charging Case (USB-C) with speaker and lanyard loop",
             "label": "weight",
             "value": 50.8,
             "unit": "g"
@@ -323,7 +276,7 @@
         "unit": null,
         "source_section": "Size and Weight 9",
         "verification_status": "source_transcribed",
-        "notes": "Only explicit label/value pairs extracted; source component context retained, no values inferred."
+        "notes": "Only the charging-case measurements are included in this case-only record. The separately listed AirPods Pro 2 earbud measurements remain in the original source section but are excluded from this product's normalized case specifications."
       }
     },
     "model_identifiers": {
@@ -346,87 +299,25 @@
         "notes": "Cross-checked against official Apple AirPods identification page https://support.apple.com/en-ie/109525 on 2026-11-09."
       }
     },
-    "audio_technology_features": {
-      "value": {
-        "value": [
-          "Custom high-excursion Apple driver",
-          "Custom high dynamic range amplifier",
-          "Pro-level Active Noise Cancellation",
-          "Adaptive Audio",
-          "Transparency mode",
-          "Conversation Awareness",
-          "Voice Isolation",
-          "Personalised Volume",
-          "Personalised Spatial Audio with dynamic head tracking",
-          "Adaptive EQ",
-          "Vent system for pressure equalisation"
-        ],
-        "unit": null,
-        "source_section": "Audio Technology",
-        "verification_status": "source_transcribed",
-        "notes": "Extracted from the preserved official Apple specification section; source wording retained."
-      }
-    },
-    "sensor_features": {
-      "value": {
-        "value": [
-          "Dual beamforming microphones",
-          "Inward-facing microphone",
-          "Skin-detecting sensor",
-          "Motion-detecting accelerometer",
-          "Speech-detecting accelerometer",
-          "Touch control"
-        ],
-        "unit": null,
-        "source_section": "Sensors",
-        "verification_status": "source_transcribed",
-        "notes": "Extracted from the preserved official Apple specification section; source wording retained."
-      }
-    },
-    "control_details": {
-      "value": {
-        "value": [
-          "Press once to play or pause media",
-          "Press once to answer a call or mute or unmute",
-          "Press twice to end a call",
-          "Press twice to skip forward",
-          "Press three times to skip back",
-          "Press and hold to switch between listening modes",
-          "Swipe up or down to adjust volume",
-          "Say just “Siri”",
-          "or “Hey Siri” to do things like play a song, make a call or get directions",
-          "Siri interactions"
-        ],
-        "unit": null,
-        "source_section": "Controls",
-        "verification_status": "source_transcribed",
-        "notes": "Extracted from the preserved official Apple specification section; source wording retained."
-      }
-    },
     "charging_case_details": {
       "value": {
         "value": [
-          "Works with MagSafe charger, Apple Watch charger, Qi‑certified chargers or USB‑C connector"
+          "Works with MagSafe charger, Apple Watch charger, Qi-certified chargers or USB-C connector",
+          "Includes a speaker for use with Find My"
         ],
         "unit": null,
         "source_section": "Charging Case",
         "verification_status": "source_transcribed",
-        "notes": "Extracted from the preserved official Apple specification section; source wording retained."
+        "notes": "Case-specific statements only; wording retained from the official Apple section."
       }
     },
-    "in_box_details": {
+    "case_chip": {
       "value": {
-        "value": [
-          "AirPods Pro 2",
-          "MagSafe Charging Case (USB‑C) with speaker and lanyard loop",
-          "Silicone ear tips (four sizes: XS, S, M, L)",
-          "USB‑C Charge Cable",
-          "Documentation"
-        ],
+        "value": "Apple U1 chip in MagSafe Charging Case (USB-C)",
         "unit": null,
-        "source_section": "In the Box",
+        "source_section": "Chip",
         "verification_status": "source_transcribed",
-        "notes": "Extracted from the preserved official Apple specification section; source wording retained."
+        "notes": "Case-specific chip statement transcribed from Apple's Chip section; the H2 headphone chip is not attributed to the standalone case record."
       }
     }
   }
