@@ -377,10 +377,11 @@
     "2026-11-09 progress update: all 19 AirPods JSON records have corrected audio taxonomy and source-section transcription into machine-readable normalized_specifications. This is not a claim that each specification has been parsed into individual typed values or that final record-by-record verification is complete.",
     "2026-11-09 follow-up: typed field extraction added for explicit chip, Bluetooth version, ingress-protection rating, battery-duration statements and labelled size/weight pairs where present. This remains a source-transcription/extraction pass, not final factual verification; field values remain marked source_transcribed.",
     "2026-11-09 follow-up: working_scope now enumerates all 19 existing AirPods-related records. Typed field extraction is in progress; values remain source_transcribed pending detailed verification.",
-    "2026-11-09: official Apple AirPods identification page added as evidence for model numbers and introduction years across all 19 records."
+    "2026-11-09: official Apple AirPods identification page added as evidence for model numbers and introduction years across all 19 records.",
+    "2026-11-10 repository audit: all 19 inventory source_file references resolve to existing archived files in the current Git tree. This confirms archive-path presence only, not the accuracy or reachability of every source URL."
   ],
   "record_audit": {
-    "checked_at": "2026-11-09",
+    "checked_at": "2026-11-10",
     "product_record_count": 19,
     "taxonomy": "All 19 AirPods-folder product JSON records corrected to product.category=audio and product.family=Apple AirPods.",
     "source_policy": "Official Apple source URLs and archived HTML remain the source of truth. No missing values inferred.",
@@ -391,7 +392,8 @@
       "Corrected product category/family metadata across all 19 records.",
       "Transcribed preserved Apple source sections into normalized_specifications with original headings and source text.",
       "Kept product and case variants as distinct records; no missing values inferred.",
-      "Cross-checked model numbers and introduction years for all 19 records against Apple's official AirPods identification page; populated product.model_numbers, product.year_introduced and product.model_year where explicitly identified."
+      "Cross-checked model numbers and introduction years for all 19 records against Apple's official AirPods identification page; populated product.model_numbers, product.year_introduced and product.model_year where explicitly identified.",
+      "Checked every working_scope source_file path against the current Git repository tree on 2026-11-10; all 19 referenced archive paths exist."
     ],
     "remaining": [
       "Verify all 19 records against archived official Apple HTML, especially charging-case variant details and footnote qualifications.",
