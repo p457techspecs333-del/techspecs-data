@@ -83,7 +83,8 @@
     "Taxonomy audit 2026-11-09: classified as Apple audio hardware, not software.",
     "Field-level normalization remains incomplete; source_text is the evidence of record.",
     "Follow-up extraction 2026-11-09: audio features, sensors, controls, charging-case details, system requirements and in-box contents separated where explicit.",
-    "Legacy-layout extraction pass 2026-11-09: mapped the original Apple section headings for AirPods (1st generation) into normalized fields."
+    "Legacy-layout extraction pass 2026-11-09: mapped the original Apple section headings for AirPods (1st generation) into normalized fields.",
+    "2026-11-10 verification pass: structured legacy Weight and Dimensions sections into component-specific measurements, and recorded the explicitly named W1 chip and Bluetooth connection without inventing a Bluetooth version."
   ],
   "normalized_specifications": {
     "overview": {
@@ -301,31 +302,64 @@
         "value": [
           {
             "component": "AirPods (each)",
+            "label": "weight",
+            "value": 4,
+            "unit": "g"
+          },
+          {
+            "component": "AirPods (each)",
             "dimension_sequence": [
-              0.65,
-              0.71,
-              1.59
+              16.5,
+              18,
+              40.5
             ],
-            "unit": "in",
+            "unit": "mm",
             "source_label": "Dimensions",
-            "notes": "Ordered dimension values preserved exactly as Apple presents them; axis labels are not inferred."
+            "notes": "Ordered dimension values preserved exactly as Apple publishes them; no axis labels inferred."
+          },
+          {
+            "component": "Charging Case",
+            "label": "weight",
+            "value": 38,
+            "unit": "g"
           },
           {
             "component": "Charging Case",
             "dimension_sequence": [
-              1.74,
-              0.84,
-              2.11
+              44.3,
+              21.3,
+              53.5
             ],
-            "unit": "in",
+            "unit": "mm",
             "source_label": "Dimensions",
-            "notes": "Ordered dimension values preserved exactly as Apple presents them; axis labels are not inferred."
+            "notes": "Ordered dimension values preserved exactly as Apple publishes them; no axis labels inferred."
           }
         ],
         "unit": null,
         "source_section": "Weight; Dimensions",
         "verification_status": "source_transcribed",
-        "notes": "Measurement values are transcribed from the archived Apple section. Component labels are retained; ordered dimension sequences without explicit axis labels are not assigned inferred height/width/depth labels."
+        "notes": "Component-specific values transcribed from Apple's legacy AirPods 1 specification page. Dimension sequences are kept in source order without inferred height/width/depth labels."
+      }
+    },
+    "chip_name": {
+      "value": {
+        "value": "Apple W1 chip",
+        "unit": null,
+        "source_section": "Overview",
+        "verification_status": "source_transcribed",
+        "notes": "Apple's Overview section explicitly identifies the custom Apple W1 chip; no separate Chip section exists in this legacy source."
+      }
+    },
+    "connectivity_details": {
+      "value": {
+        "value": [
+          "AirPods: Bluetooth",
+          "Charging Case: Lightning connector"
+        ],
+        "unit": null,
+        "source_section": "Connections",
+        "verification_status": "source_transcribed",
+        "notes": "Connection statements retained from the legacy Apple specification page; no Bluetooth version is specified."
       }
     }
   }
