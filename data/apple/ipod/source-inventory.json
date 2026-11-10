@@ -388,7 +388,8 @@
     "2026-11-10 repository audit: all 37 inventory source_file references resolve to existing archived files in the current Git tree. This confirms archive-path presence only, not the accuracy or reachability of every source URL.",
     "2026-11-10 source-discovery correction: the current 37 records all point to Apple's model-identification page, but a web search found separate official Apple technical-specification pages for several representative models. The previous assumption that no dedicated pages were available is therefore too broad; a model-by-model source migration is required before iPod can be considered complete.",
     "Confirmed official technical-specification page examples: iPod touch (7th generation), support article 111961; iPod shuffle (4th generation), support article 112422; iPod nano (7th generation), support article 112039; iPod classic 120GB, support article 112321; iPod classic 160GB (Late 2009), support article 112601. These URLs were discovered through Apple Support search results and still need matching archived HTML before changing record source mappings.",
-    "2026-11-10 field audit: capacity consistency check covered all 37 iPod records. One omission was found and corrected: iPod classic (September 2007) explicitly supports 80 GB and 160 GB; both are now present in product.storage_options and normalized_specifications.capacity_statements."
+    "2026-11-10 field audit: capacity consistency check covered all 37 iPod records. One omission was found and corrected: iPod classic (September 2007) explicitly supports 80 GB and 160 GB; both are now present in product.storage_options and normalized_specifications.capacity_statements.",
+    "2026-11-10 field audit: all 37 records' product model-number lists were compared with their normalized model-number/date evidence. One discrepancy was corrected in iPod touch (2nd generation): the second identifier is A1319 (China mainland only), not a duplicate A1288."
   ],
   "record_audit": {
     "checked_at": "2026-11-10",
@@ -404,7 +405,8 @@
       "Inspected representative iPod touch, classic, nano, shuffle and Click Wheel records and confirmed their preserved text is from Apple's official model-identification page, not dedicated technical-specification pages.",
       "Checked every working_scope source_file path against the current Git repository tree on 2026-11-10; all 37 referenced archive paths exist.",
       "Outside-source discovery confirmed that dedicated Apple technical-specification pages exist for representative iPod models, including iPod touch (7th generation), iPod nano (7th generation), iPod shuffle (4th generation), and multiple iPod classic capacity/year variants.",
-      "Compared capacity statements against product.storage_options and normalized capacity fields across all 37 iPod records; corrected the September 2007 iPod classic record to retain both 80 GB and 160 GB capacities."
+      "Compared capacity statements against product.storage_options and normalized capacity fields across all 37 iPod records; corrected the September 2007 iPod classic record to retain both 80 GB and 160 GB capacities.",
+      "Compared product.model_numbers with normalized model-number/date pairs across all 37 iPod records; corrected the iPod touch (2nd generation) duplicate A1288 entry to A1319 and retained the China-mainland-only qualifier."
     ],
     "remaining": [
       "Replace the identification-page-only source assignment with each model's exact official technical-specification URL wherever one exists.",
