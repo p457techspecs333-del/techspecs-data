@@ -8,7 +8,10 @@
     "model_slug": "airtag-2nd-generation",
     "model_year": 2026,
     "year_introduced": 2026,
-    "variant": null
+    "variant": null,
+    "model_numbers": [
+      "A2937"
+    ]
   },
   "source": {
     "source_type": "manufacturer",
@@ -17,9 +20,9 @@
     "source_title": "AirTag (2nd generation) - Tech Specs",
     "publisher": "Apple",
     "published_at": null,
-    "checked_at": "2026-11-09",
+    "checked_at": "2026-11-10",
     "verification_status": "content_verified",
-    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 11 sections archived.",
+    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 11 sections archived. Product model number cross-checked against Apple's official identification article https://support.apple.com/en-ie/102170 on 2026-11-10.",
     "notes": [
       "Documentation index: https://support.apple.com/en-ie/docs/accessories/301279"
     ]
@@ -79,7 +82,8 @@
   ],
   "record_notes": [
     "Archival-first-pass technical specification record; normalized values not inferred.",
-    "Field extraction pass 2026-11-09: explicit accessory specifications extracted into schema-v2 fields with source-section provenance."
+    "Field extraction pass 2026-11-09: explicit accessory specifications extracted into schema-v2 fields with source-section provenance.",
+    "2026-11-10 verification pass: added Apple's explicit model identifier and structured diameter, height, weight and system requirements with source provenance."
   ],
   "normalized_specifications": {
     "size_weight_statements": {
@@ -251,12 +255,12 @@
       }
     },
     "environmental_requirements": {
-      "source_text": {
-        "value": "Oper­at­ing ambient temperature: −20° to 60° C (−4° to 140° F)",
+      "value": {
+        "value": "Operating ambient temperature: −20° to 60° C (−4° to 140° F)",
         "unit": null,
-        "source_section": "En­viron­men­tal Require­ments",
+        "source_section": "Environmental Requirements",
         "verification_status": "source_transcribed",
-        "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+        "notes": "Operating temperature transcribed from the preserved Apple source section."
       }
     },
     "in_the_box": {
@@ -275,6 +279,54 @@
         "source_section": "AirTag and the Environment",
         "verification_status": "source_transcribed",
         "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "model_identifiers": {
+      "value": {
+        "value": [
+          "A2937"
+        ],
+        "unit": null,
+        "source_section": "How to find the model or serial number of an AirTag",
+        "verification_status": "content_verified",
+        "notes": "Model number checked against Apple's official AirTag identification article, https://support.apple.com/en-ie/102170, on 2026-11-10."
+      }
+    },
+    "dimensions_and_weight": {
+      "value": {
+        "value": [
+          {
+            "dimension": "diameter",
+            "value": 31.9,
+            "unit": "mm"
+          },
+          {
+            "dimension": "height",
+            "value": 8,
+            "unit": "mm"
+          },
+          {
+            "dimension": "weight",
+            "value": 11.8,
+            "unit": "g"
+          }
+        ],
+        "unit": null,
+        "source_section": "Size and Weight",
+        "verification_status": "source_transcribed",
+        "notes": "Explicitly labelled dimensions and weight transcribed from Apple's Tech Specs page; no extra dimension labels inferred."
+      }
+    },
+    "system_requirements": {
+      "value": {
+        "value": [
+          "iPhone with iOS 26.2.1 or later",
+          "iPad models with iPadOS 26.1 or later"
+        ],
+        "unit": null,
+        "source_section": "System Requirements and Compatibility",
+        "verification_status": "source_transcribed",
+        "notes": "Compatibility requirements transcribed from the preserved Apple source section; minimum OS versions retained exactly."
       }
     }
   }
