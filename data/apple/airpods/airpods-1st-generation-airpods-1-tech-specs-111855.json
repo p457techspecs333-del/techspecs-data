@@ -295,6 +295,38 @@
         "verification_status": "source_transcribed",
         "notes": "Transcribed from the preserved official Apple AirPods specification section; source wording retained."
       }
+    },
+    "labelled_size_weight_measurements": {
+      "value": {
+        "value": [
+          {
+            "component": "AirPods (each)",
+            "dimension_sequence": [
+              0.65,
+              0.71,
+              1.59
+            ],
+            "unit": "in",
+            "source_label": "Dimensions",
+            "notes": "Ordered dimension values preserved exactly as Apple presents them; axis labels are not inferred."
+          },
+          {
+            "component": "Charging Case",
+            "dimension_sequence": [
+              1.74,
+              0.84,
+              2.11
+            ],
+            "unit": "in",
+            "source_label": "Dimensions",
+            "notes": "Ordered dimension values preserved exactly as Apple presents them; axis labels are not inferred."
+          }
+        ],
+        "unit": null,
+        "source_section": "Weight; Dimensions",
+        "verification_status": "source_transcribed",
+        "notes": "Measurement values are transcribed from the archived Apple section. Component labels are retained; ordered dimension sequences without explicit axis labels are not assigned inferred height/width/depth labels."
+      }
     }
   }
 }
