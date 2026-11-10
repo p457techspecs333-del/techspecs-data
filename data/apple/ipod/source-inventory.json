@@ -383,10 +383,11 @@
   "catalogue_links": [],
   "notes": [
     "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete.",
-    "2026-11-09 extraction pass: model numbers, date-introduced statements, capacities and navigation interfaces were parsed where explicitly present in all 37 iPod records. Records remain partial: the source material is Apple's model-identification page, not a complete technical-specification archive."
+    "2026-11-09 extraction pass: model numbers, date-introduced statements, capacities and navigation interfaces were parsed where explicitly present in all 37 iPod records. Records remain partial: the source material is Apple's model-identification page, not a complete technical-specification archive.",
+    "2026-11-10 scope clarification: the 37 current iPod records are based on Apple's official 'Identify your iPod model' page (https://support.apple.com/en-ie/103823), not 37 separate technical-specification pages. Each record currently preserves one concise identification section with model/date, capacity, navigation interface and/or description where Apple supplies it. These are verified identification records, not complete technical-specification records."
   ],
   "record_audit": {
-    "checked_at": "2026-11-09",
+    "checked_at": "2026-11-10",
     "product_record_count": 37,
     "source_policy": "Official Apple iPod identification page and preserved record text; no absent specifications inferred.",
     "normalization_status": "partially_normalized",
@@ -395,13 +396,15 @@
       "Extracted explicit model numbers, model-number/introduction-date pairs, capacity options and navigation interface where present.",
       "Set model_year and year_introduced only when the source text provided one unambiguous introduction year; multi-year combined records remain unset.",
       "Attached source-section provenance to normalized fields and preserved original wording.",
-      "Reviewed all 37 existing iPod JSON records and retained their original official Apple identification text."
+      "Reviewed all 37 existing iPod JSON records and retained their original official Apple identification text.",
+      "Inspected representative iPod touch, classic, nano, shuffle and Click Wheel records and confirmed their preserved text is from Apple's official model-identification page, not dedicated technical-specification pages."
     ],
     "remaining": [
-      "Check all 36 records against the archived official Apple identification page, including model-number/date exceptions and combined model variants.",
-      "Review records with multiple introduction dates or shared model numbers; do not force one date where the source represents multiple variants.",
-      "Extract explicitly named finishes/colours and other supported details where present, without converting statements like 'available in five colours' into invented colour lists.",
-      "Run repository validation and catalogue-generation checks; distinguish identification-page coverage from full technical-specification coverage."
+      "Discover and verify dedicated official Apple technical-specification or archived support sources for each iPod model where available; do not invent separate URLs where Apple only provides the identification page.",
+      "Correct source_title metadata to reflect the actual Apple identification page title, not the individual model name.",
+      "Preserve the current identification-page evidence as a separate source layer if no dedicated technical-specification page exists.",
+      "Check model-year/date pairs, multiple capacities and distinct late-year variants against the archived index source.",
+      "Run repository-wide JSON Schema, uniqueness, archive-path, source URL, inventory and catalogue checks."
     ]
   }
 }
