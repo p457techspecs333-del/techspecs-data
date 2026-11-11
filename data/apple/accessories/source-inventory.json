@@ -460,7 +460,8 @@
     "2026-11-10 repository audit: all 19 inventory source_file references resolve to existing archived files in the current Git tree. This confirms archive-path presence only, not the accuracy or reachability of every source URL.",
     "2026-11-10 progress: previously unrepresented source sections have been transcribed into normalized_specifications.source_text for every record in this category. This is source transcription, not final field-level verification.",
     "2026-11-10 verification pass: Verified and recorded AirTag model identifiers A2187 and A2937 from Apple's official identification article. Added explicit structured diameter, height, weight and system-requirement values for both AirTag generations. Added case-only measurements for the standalone AirPods Wireless Charging Case and narrowed the standalone AirPods Pro 2 USB-C case record to case-specific normalized specifications.",
-    "2026-11-10 taxonomy pass: all 19 accessory records now use product-type categories rather than the generic 'accessory' category; family remains Apple Accessories."
+    "2026-11-10 taxonomy pass: all 19 accessory records now use product-type categories rather than the generic 'accessory' category; family remains Apple Accessories.",
+    "2026-11-11 normalization pass: AirPort Extreme 802.11n (4th Generation) and AirPort Time Capsule 802.11n (4th Generation) previously stored their complete specification pages as one consolidated source-text block and had no individual normalized technical fields. Dimensions/weight, wireless protocols/bands/channels/radio power, interfaces, security, compatibility, electrical/environmental limits, approvals, system requirements and included items are now normalized with provenance. Time Capsule storage options (2TB/3TB) are also structured; source wording and footnotes remain preserved."
   ],
   "record_audit": {
     "checked_at": "2026-11-10",

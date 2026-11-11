@@ -19,7 +19,7 @@
     "published_at": null,
     "checked_at": "2026-11-09",
     "verification_status": "content_verified",
-    "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 2 sections archived.",
+    "verification_notes": "Official Apple technical-specification page archived on 2026-11-09. The preserved HTML extraction stores the page's technical text as a single consolidated section; normalized fields have now been separated from that verbatim text with internal source-section labels.",
     "notes": [
       "Documentation index: https://support.apple.com/en-ie/docs/accessories/133323"
     ]
@@ -44,7 +44,8 @@
   "record_notes": [
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Field extraction pass 2026-11-09: selected accessory/networking specification sections separated into normalized fields with provenance.",
-    "2026-11-10 taxonomy pass: product.category identifies the product type (network storage/router or item tracker) rather than using the generic accessory label."
+    "2026-11-10 taxonomy pass: product.category identifies the product type (network storage/router or item tracker) rather than using the generic accessory label.",
+    "2026-11-11 normalization pass: technical fields separated from the archived official Apple page text. Every normalized value is tied to the relevant internal heading; the original consolidated source text remains unchanged."
   ],
   "normalized_specifications": {
     "airport_time_capsule_802_11n_4th_generation_technical_specifications": {
@@ -54,6 +55,227 @@
         "source_section": "AirPort Time Capsule 802.11n (4th Generation) - Technical Specifications",
         "verification_status": "source_transcribed",
         "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "size_weight_statements": {
+      "value": {
+        "value": [
+          "Length: 7.7 inches (197 mm)",
+          "Width: 7.7 inches (197 mm)",
+          "Height: 1.4 inches (36.3 mm)",
+          "Weight: 3.5 pounds (1.6 kg)"
+        ],
+        "unit": null,
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed",
+        "notes": "Measurements are transcribed as stated; the raw archived page retains the source footnote about weight variation."
+      }
+    },
+    "dimensions": {
+      "length": {
+        "value": 197,
+        "unit": "mm",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      },
+      "width": {
+        "value": 197,
+        "unit": "mm",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      },
+      "height": {
+        "value": 36.3,
+        "unit": "mm",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "weight": {
+      "mass": {
+        "value": 1.6,
+        "unit": "kg",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "wireless_standards": {
+      "protocols": {
+        "value": [
+          "IEEE 802.11a/b/g/n"
+        ],
+        "unit": null,
+        "source_section": "Wireless protocols",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "frequency_bands": {
+      "simultaneous_bands": {
+        "value": [
+          "2.4GHz",
+          "5GHz simultaneously"
+        ],
+        "unit": null,
+        "source_section": "Frequency bands",
+        "verification_status": "source_transcribed",
+        "notes": "The source states that 2.4GHz and 5GHz operate simultaneously."
+      }
+    },
+    "radio_output_power": {
+      "nominal": {
+        "value": 20,
+        "unit": "dBm",
+        "source_section": "Radio output power",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "channels": {
+      "region_approvals": {
+        "value": [
+          "Channels 1-11, 36-48, and 149-165 approved for use in the United States and Canada",
+          "Channels 1-13, 36-64, and 100-140 approved for use in Japan",
+          "Channels 1-13, 36-64, 100-112, and 132-140 approved for use in Europe",
+          "Channels 1-13, 36-64, and 149-165 approved for use in Australia, Hong Kong, and New Zealand"
+        ],
+        "unit": null,
+        "source_section": "Channels",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "compatibility": {
+      "interoperability": {
+        "value": "Interoperable with Wi-Fi Certified 802.11a, 802.11b, 802.11g, or 802.11n enabled Mac computers, iPad, iPhone, iPod touch, and Windows-based PCs",
+        "unit": null,
+        "source_section": "Compatibility",
+        "verification_status": "source_transcribed"
+      },
+      "network_services": {
+        "value": "NAT, DHCP, PPPoE, VPN Passthrough (IPSec, PPTP, and L2TP), DNS Proxy, SNMP, IPv6 (6to4 and manual tunnels)",
+        "unit": null,
+        "source_section": "Compatibility",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "security": {
+      "features": {
+        "value": [
+          "Wi-Fi Protected Access™ (WPA/WPA2)",
+          "Wireless security (WEP) configurable for 40-bit and 128-bit encryption",
+          "MAC address filtering",
+          "NAT firewall",
+          "Support for RADIUS authentication",
+          "802.1X, PEAP, LEAP, TTLS, TLS, FAST",
+          "Time-based access control"
+        ],
+        "unit": null,
+        "source_section": "Security",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "interfaces": {
+      "ports": {
+        "value": [
+          "One Gigabit Ethernet WAN port for connecting a DSL or cable modem",
+          "Three Gigabit Ethernet LAN ports for connecting computers or network devices",
+          "USB port for connecting a USB printer or USB external hard drive",
+          "802.11n wireless"
+        ],
+        "unit": null,
+        "source_section": "Interfaces",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "included_in_the_box": {
+      "items": {
+        "value": [
+          "Time Capsule",
+          "Power cord",
+          "Printed documentation"
+        ],
+        "unit": null,
+        "source_section": "Included in the box",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "environmental_requirements": {
+      "statements": {
+        "value": [
+          "Operating temperature: 50° to 95° F (10° to 35° C)",
+          "Storage temperature: -13° to 140° F (-25° to 60° C)",
+          "Relative humidity (operational): 20% to 80% (noncondensing)",
+          "Relative humidity (storage): 10% to 90%",
+          "Maximum operating altitude: 10,000 feet",
+          "Maximum storage altitude: 15,000 feet"
+        ],
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "agency_approvals": {
+      "standards": {
+        "value": [
+          "FCC Part 15 Class B, Canada RSS-210, EN 300-328, EN 301-489, EN 301 893, ARIB STD-T66, RCR STD-T33, AS/NZS 4268: 2003, UL 60950, CSA-C22.2 No. 60950"
+        ],
+        "unit": null,
+        "source_section": "Agency approvals",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "system_requirements": {
+      "requirements": {
+        "value": [
+          "For backup using Time Machine — Mac computer with Mac OS X 10.5.7 or later",
+          "For setup and administration — Mac with Mac OS X v10.5.7 or later",
+          "For setup and administration — PC with Windows XP (SP3), Windows Vista (SP2), or Windows 7 (SP1)",
+          "For wireless client access — Mac with AirPort wireless capability",
+          "For wireless client access — PC with Wi-Fi Certified 802.11a/b/g/n card",
+          "For shared printing with a USB printer — USB printer; Mac with Mac OS X v10.2.7 or later",
+          "For shared printing with a USB printer — USB printer; PC with Windows XP (SP3), Windows Vista (SP2), or Windows 7 (SP1)",
+          "For AirPort Disk with a USB hard drive — Mac with Mac OS X v10.4.8 or later",
+          "For AirPort Disk with a USB hard drive — PC with Windows XP (SP3), Windows Vista (SP2), or Windows 7 (SP1)"
+        ],
+        "unit": null,
+        "source_section": "System Requirements",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "extended_service_and_support": {
+      "statement": {
+        "value": "The AppleCare Protection Plan for your computer covers Time Capsule.",
+        "unit": null,
+        "source_section": "Extended service and support",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "electrical": {
+      "requirements": {
+        "value": [
+          "Line voltage: 100-240V AC",
+          "Frequency: 50Hz to 60Hz, single phase",
+          "Maximum continuous power: 34W"
+        ],
+        "unit": null,
+        "source_section": "Electrical",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "storage": {
+      "capacity": {
+        "value": [
+          2,
+          3
+        ],
+        "unit": "TB",
+        "source_section": "Storage",
+        "verification_status": "source_transcribed",
+        "notes": "Source states 2TB or 3TB; the source footnote notes actual formatted capacity is less."
+      },
+      "drive_type": {
+        "value": "Serial ATA server-grade hard disk drive",
+        "unit": null,
+        "source_section": "Storage",
+        "verification_status": "source_transcribed"
       }
     }
   }
