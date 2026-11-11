@@ -178,7 +178,7 @@ def main() -> int:
 
 
     # Cross-check category inventories against product records and archived sources.
-    inventory_paths = sorted(p for p in (DATA_ROOT / "apple").glob("*/source-inventory.json") if p.parent.name in {"airpods", "homepod", "ipod", "displays", "accessories", "software", "watch"})
+    inventory_paths = sorted(p for p in (DATA_ROOT / "apple").glob("*/source-inventory.json") if p.parent.name in {"airpods", "homepod", "ipod", "displays", "accessories", "software", "watch", "tv", "vision"})
     global_slugs: dict[str, list[str]] = {}
     for product_path in files:
         try:
