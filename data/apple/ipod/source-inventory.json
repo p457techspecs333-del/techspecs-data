@@ -134,7 +134,7 @@
       "final_url": "https://support.apple.com/en-ie/103823",
       "title": "Identify your iPod model - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 19,
+      "section_count": 1,
       "verification_status": "partially_verified"
     },
     {
@@ -155,7 +155,7 @@
       "final_url": "https://support.apple.com/en-ie/103823",
       "title": "Identify your iPod model - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 20,
+      "section_count": 1,
       "verification_status": "partially_verified"
     },
     {
@@ -165,7 +165,7 @@
       "final_url": "https://support.apple.com/en-ie/103823",
       "title": "Identify your iPod model - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 3,
+      "section_count": 1,
       "verification_status": "partially_verified"
     },
     {
@@ -175,7 +175,7 @@
       "final_url": "https://support.apple.com/en-ie/103823",
       "title": "Identify your iPod model - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 12,
+      "section_count": 1,
       "verification_status": "partially_verified"
     },
     {
@@ -228,7 +228,7 @@
       "final_url": "https://support.apple.com/en-ie/103823",
       "title": "Identify your iPod model - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 15,
+      "section_count": 1,
       "verification_status": "partially_verified"
     },
     {
@@ -238,7 +238,7 @@
       "final_url": "https://support.apple.com/en-ie/103823",
       "title": "Identify your iPod model - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 17,
+      "section_count": 1,
       "verification_status": "partially_verified"
     },
     {
@@ -312,7 +312,7 @@
       "final_url": "https://support.apple.com/en-ie/103823",
       "title": "Identify your iPod model - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 22,
+      "section_count": 1,
       "verification_status": "partially_verified"
     },
     {
@@ -322,7 +322,7 @@
       "final_url": "https://support.apple.com/en-ie/103823",
       "title": "Identify your iPod model - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 3,
+      "section_count": 1,
       "verification_status": "partially_verified"
     },
     {
@@ -332,7 +332,7 @@
       "final_url": "https://support.apple.com/en-ie/103823",
       "title": "Identify your iPod model - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 3,
+      "section_count": 1,
       "verification_status": "partially_verified"
     },
     {
@@ -352,7 +352,7 @@
       "final_url": "https://support.apple.com/en-ie/103823",
       "title": "Identify your iPod model - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 3,
+      "section_count": 1,
       "verification_status": "partially_verified"
     },
     {
@@ -362,7 +362,7 @@
       "final_url": "https://support.apple.com/en-ie/103823",
       "title": "Identify your iPod model - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 3,
+      "section_count": 1,
       "verification_status": "partially_verified"
     },
     {
@@ -417,8 +417,7 @@
     "2026-11-11 normalization pass: the iPod nano (7th generation, Mid 2015) and iPod shuffle (4th generation, Late 2012 and Mid 2015) records now include the technical fields already transcribed from the same archived model-specific Apple specification pages used by their canonical generation records. Model/year identity fields remain record-specific; copied technical fields reference the same source sections and archived source files.",
     "2026-11-11 normalization pass: the iPod touch (2nd generation) record now includes source-grounded storage capacities and capacity estimates, battery runtime and charging, headphone specifications, complete video-format constraints, controls, Mac/Windows requirements, environmental limits, in-box contents and language-support counts. The existing raw source sections and footnote references remain preserved.",
     "2026-11-11 normalization pass: iPod touch 4th–7th generation records now expose the archived headphone statements, full video recording/playback constraints, environmental limits, in-box contents and language-support source text as normalized fields. All additions cite the exact archived section; absent headphone measurements were not inferred.",
-    "2026-11-11 provenance inventory repair: five related_source_discoveries entries were stale and incorrectly marked url_discovered_not_archived even though their official Ireland-locale HTML archives already existed and were mapped in working_scope. Updated their URLs to the archived pages' canonical Ireland URLs and status to archived_and_mapped.",
-    "2026-11-11 inventory consistency repair: section_count now reflects each record's full section array (identification source plus model-specific technical-specification sections); technical_spec_section_count separately records the count from the individual spec page."
+    "2026-11-11 provenance inventory repair: five related_source_discoveries entries were stale and incorrectly marked url_discovered_not_archived even though their official Ireland-locale HTML archives already existed and were mapped in working_scope. Updated their URLs to the archived pages' canonical Ireland URLs and status to archived_and_mapped."
   ],
   "record_audit": {
     "checked_at": "2026-11-11",
