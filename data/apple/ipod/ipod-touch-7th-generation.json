@@ -31,7 +31,7 @@
     "notes": [
       "Technical specifications in sections are transcribed from the model-specific Apple technical-specification page.",
       "Model number and introduction-date evidence is retained from Apple's separate identification page: https://support.apple.com/en-ie/103823 (archived at apple_remaining_extraction/technical_specs_html/ipod-index.html).",
-      "This page covers iPod shuffle (4th generation); variant-specific release dates and identifiers should be read from the separate identification-page evidence, not inferred from this technical-specification page.",
+      "This page covers iPod touch (7th generation). Model number and introduction-date identity are supported by the separate iPod identification page; the technical-specification page supplies the technical sections.",
       "The first section preserves model-identification evidence from Apple's separate identification page; its source_url and source_file are attached directly to that section. Remaining sections are extracted from the model-specific technical-specification page and carry that page's source_url and source_file individually."
     ]
   },
