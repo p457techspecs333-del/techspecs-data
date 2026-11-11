@@ -27,11 +27,10 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install archived-page extraction dependency
-        run: python -m pip install --disable-pip-version-check beautifulsoup4
+        run: python -m pip install --disable-pip-version-check -r requirements.txt beautifulsoup4
       - name: Download and preserve official Apple source HTML
         run: python scripts/archive_official_sources.py source-archive-requests
       - name: Extract archived legacy Apple Watch technical specifications
-        if: contains(toJSON(github.event.commits), 'source-archive-requests/apple-watch-legacy-technical-specifications.json')
         run: python tools/extract_archived_legacy_watch_specs.py
       - name: Validate records after source extraction
         run: python scripts/validate_product_records.py
