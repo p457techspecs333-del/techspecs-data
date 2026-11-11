@@ -476,8 +476,16 @@
       }
     },
     "in_the_box": {
-      "accessories": {
-        "value": "Earbud headphones, iPod Power Adapter, Dock Connector to FireWire cable, Dock Connector to USB 2.0 cable, iPod photo AV cable, carrying case, Dock",
+      "items": {
+        "value": [
+          "Earbud headphones",
+          "iPod Power Adapter",
+          "Dock Connector to FireWire cable",
+          "Dock Connector to USB 2.0 cable",
+          "iPod photo AV cable",
+          "Carrying case",
+          "Dock"
+        ],
         "unit": null,
         "source_section": "Included accessories",
         "verification_status": "source_transcribed"
