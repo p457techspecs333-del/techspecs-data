@@ -28,25 +28,113 @@
     "verification_notes": "This record's retained evidence is extracted from Apple's general 'Identify your iPod model' page, not an individual technical-specifications page. The archived HTML file is the shared source page. Only identification facts explicitly present in that page are supported; detailed technical specifications require separate model-specific sources.",
     "notes": [
       "Primary evidence is Apple's official iPod identification page; it supports only the model-identification statements retained in the source section.",
-      "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually."
+      "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually.",
+      "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112497 (apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html); Third-generation iPod shuffle technical specifications; generation/year variants remain distinct. Typed normalized values were not inferred by this archival pass."
     ]
   },
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
-    "note": "Official Apple iPod identification text retained. Explicit model numbers, introduction dates, capacity options and navigation interface extracted where present with source-section provenance. These are identification-page records, not full historical technical-specification sheets; no absent specs inferred.",
+    "note": "Official Apple iPod identification text retained. Explicit model numbers, introduction dates, capacity options and navigation interface extracted where present with source-section provenance. These are identification-page records, not full historical technical-specification sheets; no absent specs inferred. Model-specific technical-specification sections are preserved with section-level source_url/source_file; this archival pass does not populate or upgrade typed normalized fields.",
     "extracted_at": "2026-11-09",
     "reviewed_at": "2026-11-09"
   },
   "sections": [
     {
       "heading": "iPod shuffle (3rd generation)",
-      "source_text": "Navigation: Apple Earphones with Remote\nCapacity: 4 GB\nModel number and date introduced: A1271: March 2009\niPod shuffle (3rd generation) includes a single three-position switch that toggles between off, play in order and shuffle similar to the original iPod shuffle. This model has a headphone port that also connects to a computer's USB port. It has a clip similar to the iPod shuffle (2nd generation). iPod shuffle (3rd generation) is smaller than the previous generations and has one status light. Previous iPod shuffle generations had two."
+      "source_text": "Navigation: Apple Earphones with Remote\nCapacity: 4 GB\nModel number and date introduced: A1271: March 2009\niPod shuffle (3rd generation) includes a single three-position switch that toggles between off, play in order and shuffle similar to the original iPod shuffle. This model has a headphone port that also connects to a computer's USB port. It has a clip similar to the iPod shuffle (2nd generation). iPod shuffle (3rd generation) is smaller than the previous generations and has one status light. Previous iPod shuffle generations had two.",
+      "source_url": "https://support.apple.com/en-ie/103823",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html"
+    },
+    {
+      "heading": "Size and weight",
+      "source_text": "Height:\n1.8 inches (45.2 mm)\nWidth:\n0.7 inch (17.5 mm)\nDepth:\n0.3 inch (7.8 mm) including clip\nTrue volume:\n0.26 cu inch (4326 cu mm)\nWeight:\n0.38 ounce (10.7 grams)\n1\nfor iPod shuffle in anodized aluminum\n0.61 ounce (17.2 grams)\n1\nfor iPod shuffle in polished stainless steel",
+      "source_url": "https://support.apple.com/en-ie/112497",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "External controls",
+      "source_text": "Shuffle\nPlay in order\nTurn off",
+      "source_url": "https://support.apple.com/en-ie/112497",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Input and output",
+      "source_text": "3.5-mm stereo headphone jack",
+      "source_url": "https://support.apple.com/en-ie/112497",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Environmental requirements",
+      "source_text": "Operating temperature: 32° to 95° F\n(0° to 35° C)\nNonoperating temperature: -4° to 113° F\n(-20° to 45° C)\nRelative humidity: 5% to 95% noncondensing\nMaximum operating altitude: 10,000 feet\n(3000 m)",
+      "source_url": "https://support.apple.com/en-ie/112497",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Capacity",
+      "source_text": "2GB or 4GB flash drive\n2\nHolds up to 500 or 1,000 songs in 128-Kbps AAC format\n3\nStores data via USB flash drive",
+      "source_url": "https://support.apple.com/en-ie/112497",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Battery and power 4",
+      "source_text": "Built-in rechargeable lithium-polymer battery\nPlayback time: Up to 10 hours when fully charged\nCharging via USB to computer system or power adapter (sold separately)\n80% charged in 2 hours; fully charged in 3 hours",
+      "source_url": "https://support.apple.com/en-ie/112497",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Skip-free playback\nFrequency response: 20Hz to 20,000Hz\nAudio formats supported: AAC (8 to 320 Kbps), Protected AAC (from iTunes Store), HE-AAC, MP3 (8 to 320 Kbps), MP3 VBR, Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+), Apple Lossless, AIFF, and WAV",
+      "source_url": "https://support.apple.com/en-ie/112497",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Environmental Status Report",
+      "source_text": "iPod shuffle embodies Apple’s continuing environmental progress. It is designed with the following features to reduce environmental impact:\nBFR-free\nPVC-free\nHighly recyclable",
+      "source_url": "https://support.apple.com/en-ie/112497",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "VoiceOver Kit",
+      "source_text": "Chinese (Cantonese)\nChinese (Mandarin)\nCzech\nDanish\nDutch\nEnglish\nFinnish\nFrench\nGerman\nGreek\nItalian\nJapanese\nKorean\nNorwegian\nPolish\nPortuguese\nRussian\nSpanish\nSwedish\nTurkish",
+      "source_url": "https://support.apple.com/en-ie/112497",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Headphones",
+      "source_text": "Earphones with Remote\nFrequency response: 20Hz to 20,000Hz\nImpedance: 32 ohms",
+      "source_url": "https://support.apple.com/en-ie/112497",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Mac system requirements",
+      "source_text": "Mac computer with USB 2.0 port\nMac OS X v10.4.11 or later\niTunes 9 or later\n5",
+      "source_url": "https://support.apple.com/en-ie/112497",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Windows system requirements",
+      "source_text": "PC with USB 2.0 port\nWindows Vista or Windows XP Home or Professional with Service Pack 3 or later\niTunes 9 or later\n5",
+      "source_url": "https://support.apple.com/en-ie/112497",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "In the box",
+      "source_text": "iPod shuffle\nEarphones with Remote\niPod shuffle USB Cable (1.8 inches/45 mm)\nQuick Start guide",
+      "source_url": "https://support.apple.com/en-ie/112497",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Accessories",
+      "source_text": "In-Ear Headphones with Remote and Mic\n6\nEngineered for extreme clarity and audio accuracy, these headphones let you hear musical details you’ve been missing.\nEarphones with Remote and Mic\n6\nThese earbud headphones have convenient buttons that let you adjust volume and control music and video playback.\nUSB Power Adapter\nUse this ultracompact USB-based adapter to charge your iPhone or iPod whenever it’s not connected to a computer.\niPod shuffle USB Cable\nThis cable, in two lengths, connects your iPod shuffle (3rd generation) to your computer’s USB port for syncing and battery charging.",
+      "source_url": "https://support.apple.com/en-ie/112497",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
     }
   ],
   "record_notes": [
     "Archival-first-pass record; normalized specifications not inferred.",
-    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text."
+    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text.",
+    "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112497 (apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html); Third-generation iPod shuffle technical specifications; generation/year variants remain distinct. Typed normalized values were not inferred by this archival pass."
   ],
   "normalized_specifications": {
     "navigation_interface": {

@@ -134,8 +134,15 @@
       "final_url": "https://support.apple.com/en-ie/103823",
       "title": "Identify your iPod model - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 1,
-      "verification_status": "partially_verified"
+      "section_count": 19,
+      "verification_status": "partially_verified",
+      "technical_spec_source_url": "https://support.apple.com/en-ie/112495",
+      "technical_spec_source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html",
+      "technical_spec_source_title": "iPod nano (5th generation) - Technical Specifications - Apple Support (IE)",
+      "technical_spec_section_count": 18,
+      "technical_spec_status": "archived_section_mapped_pending_field_verification",
+      "technical_spec_coverage_note": "Fifth-generation iPod nano technical specifications.",
+      "technical_spec_checked_at": "2026-11-11"
     },
     {
       "model": "iPod nano (4th generation)",
@@ -155,8 +162,15 @@
       "final_url": "https://support.apple.com/en-ie/103823",
       "title": "Identify your iPod model - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 1,
-      "verification_status": "partially_verified"
+      "section_count": 20,
+      "verification_status": "partially_verified",
+      "technical_spec_source_url": "https://support.apple.com/en-ie/112552",
+      "technical_spec_source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html",
+      "technical_spec_source_title": "iPod nano (3rd generation) - Technical Specifications - Apple Support (IE)",
+      "technical_spec_section_count": 19,
+      "technical_spec_status": "archived_section_mapped_pending_field_verification",
+      "technical_spec_coverage_note": "Third-generation iPod nano technical specifications.",
+      "technical_spec_checked_at": "2026-11-11"
     },
     {
       "model": "iPod nano (2nd generation)",
@@ -165,8 +179,15 @@
       "final_url": "https://support.apple.com/en-ie/103823",
       "title": "Identify your iPod model - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 1,
-      "verification_status": "partially_verified"
+      "section_count": 3,
+      "verification_status": "partially_verified",
+      "technical_spec_source_url": "https://support.apple.com/en-ie/112309",
+      "technical_spec_source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-2nd-generation-tech-specs.html",
+      "technical_spec_source_title": "iPod nano (Second Generation) - Technical Specifications - Apple Support (IE)",
+      "technical_spec_section_count": 2,
+      "technical_spec_status": "archived_section_mapped_pending_field_verification",
+      "technical_spec_coverage_note": "Second-generation iPod nano technical specifications.",
+      "technical_spec_checked_at": "2026-11-11"
     },
     {
       "model": "iPod nano",
@@ -175,8 +196,15 @@
       "final_url": "https://support.apple.com/en-ie/103823",
       "title": "Identify your iPod model - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 1,
-      "verification_status": "partially_verified"
+      "section_count": 12,
+      "verification_status": "partially_verified",
+      "technical_spec_source_url": "https://support.apple.com/en-ie/112507",
+      "technical_spec_source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-1st-generation-tech-specs.html",
+      "technical_spec_source_title": "iPod nano - Technical Specifications - Apple Support (IE)",
+      "technical_spec_section_count": 11,
+      "technical_spec_status": "archived_section_mapped_pending_field_verification",
+      "technical_spec_coverage_note": "First-generation iPod nano technical specifications; model/capacity identity remains separately sourced from Apple's identification page.",
+      "technical_spec_checked_at": "2026-11-11"
     },
     {
       "model": "iPod shuffle (4th generation Mid 2015)",
@@ -228,8 +256,15 @@
       "final_url": "https://support.apple.com/en-ie/103823",
       "title": "Identify your iPod model - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 1,
-      "verification_status": "partially_verified"
+      "section_count": 15,
+      "verification_status": "partially_verified",
+      "technical_spec_source_url": "https://support.apple.com/en-ie/112497",
+      "technical_spec_source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html",
+      "technical_spec_source_title": "iPod shuffle (3rd generation) - Technical Specifications - Apple Support (IE)",
+      "technical_spec_section_count": 14,
+      "technical_spec_status": "archived_section_mapped_pending_field_verification",
+      "technical_spec_coverage_note": "Third-generation iPod shuffle technical specifications; generation/year variants remain distinct.",
+      "technical_spec_checked_at": "2026-11-11"
     },
     {
       "model": "iPod shuffle (2nd generation)",
@@ -238,8 +273,15 @@
       "final_url": "https://support.apple.com/en-ie/103823",
       "title": "Identify your iPod model - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 1,
-      "verification_status": "partially_verified"
+      "section_count": 17,
+      "verification_status": "partially_verified",
+      "technical_spec_source_url": "https://support.apple.com/en-ie/112455",
+      "technical_spec_source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-2nd-generation-tech-specs.html",
+      "technical_spec_source_title": "iPod shuffle (2nd generation) - Technical Specifications - Apple Support (IE)",
+      "technical_spec_section_count": 16,
+      "technical_spec_status": "archived_section_mapped_pending_field_verification",
+      "technical_spec_coverage_note": "Second-generation iPod shuffle technical specifications.",
+      "technical_spec_checked_at": "2026-11-11"
     },
     {
       "model": "iPod shuffle",
@@ -312,8 +354,15 @@
       "final_url": "https://support.apple.com/en-ie/103823",
       "title": "Identify your iPod model - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 1,
-      "verification_status": "partially_verified"
+      "section_count": 22,
+      "verification_status": "partially_verified",
+      "technical_spec_source_url": "https://support.apple.com/en-ie/112454",
+      "technical_spec_source_file": "apple_remaining_extraction/technical_specs_html/ipod-5th-generation-late-2006-tech-specs.html",
+      "technical_spec_source_title": "Fifth Generation iPod (Late 2006) - Technical Specifications - Apple Support (IE)",
+      "technical_spec_section_count": 21,
+      "technical_spec_status": "archived_section_mapped_pending_field_verification",
+      "technical_spec_coverage_note": "Late-2006 fifth-generation technical specifications; do not merge with the 2005 or U2 variants.",
+      "technical_spec_checked_at": "2026-11-11"
     },
     {
       "model": "iPod (5th generation) – also known as iPod with video or Fifth Generation iPod",
@@ -322,8 +371,15 @@
       "final_url": "https://support.apple.com/en-ie/103823",
       "title": "Identify your iPod model - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 1,
-      "verification_status": "partially_verified"
+      "section_count": 3,
+      "verification_status": "partially_verified",
+      "technical_spec_source_url": "https://support.apple.com/en-ie/111923",
+      "technical_spec_source_file": "apple_remaining_extraction/technical_specs_html/ipod-5th-generation-2005-tech-specs.html",
+      "technical_spec_source_title": "Fifth Generation iPod (iPod with video) 30 GB, 60 GB - Technical Specifications - Apple Support (IE)",
+      "technical_spec_section_count": 2,
+      "technical_spec_status": "archived_section_mapped_pending_field_verification",
+      "technical_spec_coverage_note": "The official page covers the 2005 fifth-generation family, including capacity variants; existing typed capacity fields are not changed automatically.",
+      "technical_spec_checked_at": "2026-11-11"
     },
     {
       "model": "iPod Special Edition U2",
@@ -332,8 +388,15 @@
       "final_url": "https://support.apple.com/en-ie/103823",
       "title": "Identify your iPod model - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 1,
-      "verification_status": "partially_verified"
+      "section_count": 3,
+      "verification_status": "partially_verified",
+      "technical_spec_source_url": "https://support.apple.com/en-ie/112541",
+      "technical_spec_source_file": "apple_remaining_extraction/technical_specs_html/ipod-click-wheel-20-40gb-tech-specs.html",
+      "technical_spec_source_title": "iPod with Click Wheel (20 GB, 40 GB including U2 Special Edition) - Technical Specifications - Apple Support (IE)",
+      "technical_spec_section_count": 2,
+      "technical_spec_status": "archived_section_mapped_pending_field_verification",
+      "technical_spec_coverage_note": "Supporting source for the Click Wheel-based U2 variant only; other U2 generations remain distinct.",
+      "technical_spec_checked_at": "2026-11-11"
     },
     {
       "model": "iPod with colour display",
@@ -352,8 +415,15 @@
       "final_url": "https://support.apple.com/en-ie/103823",
       "title": "Identify your iPod model - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 1,
-      "verification_status": "partially_verified"
+      "section_count": 3,
+      "verification_status": "partially_verified",
+      "technical_spec_source_url": "https://support.apple.com/en-ie/112449",
+      "technical_spec_source_file": "apple_remaining_extraction/technical_specs_html/ipod-photo-40-60gb-tech-specs.html",
+      "technical_spec_source_title": "iPod photo (40 GB, 60 GB) - Technical Specifications - Apple Support (IE)",
+      "technical_spec_section_count": 2,
+      "technical_spec_status": "archived_section_mapped_pending_field_verification",
+      "technical_spec_coverage_note": "This technical-specification page covers the 40 GB and 60 GB iPod photo models; the record's 30 GB option requires separate evidence.",
+      "technical_spec_checked_at": "2026-11-11"
     },
     {
       "model": "iPod (Click Wheel)",
@@ -362,8 +432,15 @@
       "final_url": "https://support.apple.com/en-ie/103823",
       "title": "Identify your iPod model - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 1,
-      "verification_status": "partially_verified"
+      "section_count": 3,
+      "verification_status": "partially_verified",
+      "technical_spec_source_url": "https://support.apple.com/en-ie/112541",
+      "technical_spec_source_file": "apple_remaining_extraction/technical_specs_html/ipod-click-wheel-20-40gb-tech-specs.html",
+      "technical_spec_source_title": "iPod with Click Wheel (20 GB, 40 GB including U2 Special Edition) - Technical Specifications - Apple Support (IE)",
+      "technical_spec_section_count": 2,
+      "technical_spec_status": "archived_section_mapped_pending_field_verification",
+      "technical_spec_coverage_note": "Official page covers 20 GB and 40 GB Click Wheel models; retain its explicit capacity scope.",
+      "technical_spec_checked_at": "2026-11-11"
     },
     {
       "model": "iPod (Dock Connector)",
@@ -417,7 +494,8 @@
     "2026-11-11 normalization pass: the iPod nano (7th generation, Mid 2015) and iPod shuffle (4th generation, Late 2012 and Mid 2015) records now include the technical fields already transcribed from the same archived model-specific Apple specification pages used by their canonical generation records. Model/year identity fields remain record-specific; copied technical fields reference the same source sections and archived source files.",
     "2026-11-11 normalization pass: the iPod touch (2nd generation) record now includes source-grounded storage capacities and capacity estimates, battery runtime and charging, headphone specifications, complete video-format constraints, controls, Mac/Windows requirements, environmental limits, in-box contents and language-support counts. The existing raw source sections and footnote references remain preserved.",
     "2026-11-11 normalization pass: iPod touch 4th–7th generation records now expose the archived headphone statements, full video recording/playback constraints, environmental limits, in-box contents and language-support source text as normalized fields. All additions cite the exact archived section; absent headphone measurements were not inferred.",
-    "2026-11-11 provenance inventory repair: five related_source_discoveries entries were stale and incorrectly marked url_discovered_not_archived even though their official Ireland-locale HTML archives already existed and were mapped in working_scope. Updated their URLs to the archived pages' canonical Ireland URLs and status to archived_and_mapped."
+    "2026-11-11 provenance inventory repair: five related_source_discoveries entries were stale and incorrectly marked url_discovered_not_archived even though their official Ireland-locale HTML archives already existed and were mapped in working_scope. Updated their URLs to the archived pages' canonical Ireland URLs and status to archived_and_mapped.",
+    "2026-11-11 archival mapping pass: ten additional official Apple iPod technical-specification archives are now attached to existing records with section-level provenance. Existing identification-page facts and distinct capacity/year variants were retained; typed specification normalization remains pending field-by-field review."
   ],
   "record_audit": {
     "checked_at": "2026-11-11",
@@ -440,7 +518,8 @@
       "Archived five additional official Apple technical-specification pages and mapped them to six iPod records; each source section now carries section-level URL and archive provenance.",
       "Archived and mapped the official iPod nano (4th generation) technical-specification page; extracted source sections carry section-level provenance.",
       "Archived and mapped the official iPod touch (2nd generation) technical-specification page; source sections carry section-level provenance.",
-      "Cross-checked five previously stale related_source_discoveries entries against actual archived HTML title/canonical metadata and working_scope mappings; corrected URLs and archive status without merging distinct model variants."
+      "Cross-checked five previously stale related_source_discoveries entries against actual archived HTML title/canonical metadata and working_scope mappings; corrected URLs and archive status without merging distinct model variants.",
+      "Archived and mapped ten official Apple technical-specification pages to 11 existing iPod records with section-level URL and archive-path provenance; no typed specification values were inferred."
     ],
     "remaining": [
       "Find and archive model-specific Apple technical-specification pages for remaining iPod models where available.",

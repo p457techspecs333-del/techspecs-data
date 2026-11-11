@@ -29,25 +29,137 @@
     "verification_notes": "This record's retained evidence is extracted from Apple's general 'Identify your iPod model' page, not an individual technical-specifications page. The archived HTML file is the shared source page. Only identification facts explicitly present in that page are supported; detailed technical specifications require separate model-specific sources.",
     "notes": [
       "Primary evidence is Apple's official iPod identification page; it supports only the model-identification statements retained in the source section.",
-      "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually."
+      "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually.",
+      "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112495 (apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html); Fifth-generation iPod nano technical specifications. Typed normalized values were not inferred by this archival pass."
     ]
   },
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
-    "note": "Official Apple iPod identification text retained. Explicit model numbers, introduction dates, capacity options and navigation interface extracted where present with source-section provenance. These are identification-page records, not full historical technical-specification sheets; no absent specs inferred.",
+    "note": "Official Apple iPod identification text retained. Explicit model numbers, introduction dates, capacity options and navigation interface extracted where present with source-section provenance. These are identification-page records, not full historical technical-specification sheets; no absent specs inferred. Model-specific technical-specification sections are preserved with section-level source_url/source_file; this archival pass does not populate or upgrade typed normalized fields.",
     "extracted_at": "2026-11-09",
     "reviewed_at": "2026-11-09"
   },
   "sections": [
     {
       "heading": "iPod nano (5th generation)",
-      "source_text": "Navigation: Click Wheel\nCapacity: 8 and 16 GB\nModel number and date introduced: A1320: September 2009\nYou can distinguish the iPod nano (5th generation) from previous iPod nano models by:\nIts taller screen when compared to iPod nano (4th generation)\nIts polished anodised aluminium finish\nThe inclusion of a camera and microphone on the back of the device\nThe iPod nano (5th generation) comes in nine colours."
+      "source_text": "Navigation: Click Wheel\nCapacity: 8 and 16 GB\nModel number and date introduced: A1320: September 2009\nYou can distinguish the iPod nano (5th generation) from previous iPod nano models by:\nIts taller screen when compared to iPod nano (4th generation)\nIts polished anodised aluminium finish\nThe inclusion of a camera and microphone on the back of the device\nThe iPod nano (5th generation) comes in nine colours.",
+      "source_url": "https://support.apple.com/en-ie/103823",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html"
+    },
+    {
+      "heading": "Size and weight",
+      "source_text": "Height: 3.6 inches (90.7 mm)\nWidth: 1.5 inches (38.7 mm)\nDepth: 0.24 inch (6.2 mm)\nWeight: 1.28 ounces (36.4 grams)\n1",
+      "source_url": "https://support.apple.com/en-ie/112495",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Capacity",
+      "source_text": "8GB or 16GB flash drive\n2\nHolds up to 2,000 or 4,000 songs in 128-Kbps AAC format\n3\nHolds up to 7,000 or 14,000 iPod-viewable photos\n4\nHolds up to 8 hours or 16 hours of video\n5\nStores data via USB flash drive",
+      "source_url": "https://support.apple.com/en-ie/112495",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Spoken menus allow listeners to hear many of the names of menus, song titles, and artists without viewing the screen.\nAn alternative large font can make menus easier to read.\nA high-resolution LCD display with adjustable contrast and backlight settings makes it easier to read in low light.\nCaptions in video are displayed when they are present using a legible, high-contrast white-on-black font.",
+      "source_url": "https://support.apple.com/en-ie/112495",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Environmental requirements",
+      "source_text": "Operating temperature: 32° to 95° F (0° to 35° C)\nNonoperating temperature: -4° to 113° F (-20° to 45° C)\nRelative humidity: 5% to 95% noncondensing\nMaximum operating altitude: 10,000 feet (3000 m)",
+      "source_url": "https://support.apple.com/en-ie/112495",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Environmental Status Report",
+      "source_text": "iPod nano embodies Apple’s continuing environmental progress. It is designed with the following features to reduce environmental impact:\nArsenic-free glass\nBFR-free\nMercury-free\nPVC-free\nHighly recyclable",
+      "source_url": "https://support.apple.com/en-ie/112495",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Display",
+      "source_text": "2.2-inch (diagonal) TFT display\n240-by-376-pixel resolution at 204 pixels per inch",
+      "source_url": "https://support.apple.com/en-ie/112495",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "VoiceOver Kit",
+      "source_text": "Chinese (Cantonese)\nChinese (Mandarin)\nCzech\nDanish\nDutch\nEnglish\nFinnish\nFrench\nGerman\nGreek\nItalian\nJapanese\nKorean\nNorwegian\nPolish\nPortuguese\nRussian\nSpanish\nSwedish\nTurkish",
+      "source_url": "https://support.apple.com/en-ie/112495",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Frequency response: 20Hz to 20,000Hz\nAudio formats supported: AAC (8 to 320 Kbps), Protected AAC (from iTunes Store), HE-AAC, MP3 (8 to 320 Kbps), MP3 VBR, Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+), Apple Lossless, AIFF, and WAV\nUser-configurable maximum volume limit",
+      "source_url": "https://support.apple.com/en-ie/112495",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Headphones",
+      "source_text": "Earphones\nFrequency response: 20Hz to 20,000Hz\nImpedance: 32 ohms",
+      "source_url": "https://support.apple.com/en-ie/112495",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "Arabic, Brazilian Portuguese, Cantonese (Traditional Chinese), Croatian, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hebrew, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romanian, Russian, Simplified Chinese, Slovak, Spanish, Swedish, Thai, Traditional Chinese, Turkish, and UK English\nAdditional language support for display of song, album, and artist information: Bulgarian, Serbian, Slovenian, Ukrainian, and Vietnamese\niPod nano supports 20 VoiceOver languages:\nChinese (Cantonese), Chinese (Mandarin), Czech, Danish, Dutch, English (U.S.), Finnish, French, German, Greek, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Spanish, Swedish, and Turkish; other languages are available with the purchase of a supported third-party text-to-speech engine\niPod nano supports 20 spoken menu languages:\nChinese (Cantonese), Chinese (Mandarin), Czech, Danish, Dutch, English (U.S.), Finnish, French, German, Greek, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Spanish, Swedish, and Turkish; other languages are available with the purchase of a supported third-party text-to-speech engine",
+      "source_url": "https://support.apple.com/en-ie/112495",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Video Capture",
+      "source_text": "H.264 VGA video, 640 by 480 pixels, up to 30 frames per second with AAC audio\n15 real-time special effects: Sepia, Black and White, X-Ray, Film Grain, Thermal, Security Cam, Cyborg, Bulge, Kaleido, Motion Blur, Mirror, Light Tunnel, Dent, Stretch, and Twirl",
+      "source_url": "https://support.apple.com/en-ie/112495",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "External buttons and controls",
+      "source_text": "Hold switch\nClick Wheel",
+      "source_url": "https://support.apple.com/en-ie/112495",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Input and output",
+      "source_text": "Dock connector\n3.5-mm stereo headphone jack",
+      "source_url": "https://support.apple.com/en-ie/112495",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Battery and power 6",
+      "source_text": "Built-in rechargeable lithium-ion battery\nPlayback time\nMusic playback time: Up to 24 hours when fully charged\nVideo playback time: Up to 5 hours when fully charged\nCharging via USB to computer system or power adapter (sold separately)\nFast-charge time: about 1.5 hours (charges up to 80% of battery capacity)\nFull-charge time: about 3 hours",
+      "source_url": "https://support.apple.com/en-ie/112495",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Mac system requirements",
+      "source_text": "Mac computer with USB 2.0 port\nMac OS X v10.4.11 or later\niTunes 9 or later\n7\niPhoto 6.0.6 or later recommended for use with Mac OS X Tiger\n8\niPhoto ’09 recommended for use with Mac OS X Leopard or Snow Leopard\n8",
+      "source_url": "https://support.apple.com/en-ie/112495",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Windows system requirements",
+      "source_text": "PC with USB 2.0 port\nWindows Vista or Windows XP Home or Professional with Service Pack 3 or later\niTunes 9 or later\n7",
+      "source_url": "https://support.apple.com/en-ie/112495",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "In the box",
+      "source_text": "iPod nano\nEarphones\nUSB 2.0 cable\nDock adapter\nQuick Start guide",
+      "source_url": "https://support.apple.com/en-ie/112495",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Accessories",
+      "source_text": "In-Ear Headphones with Remote and Mic\nEngineered for extreme clarity and audio accuracy, these headphones let you hear musical details you’ve been missing.\nUSB Power Adapter\nUse this ultracompact USB-based adapter to charge your iPhone or iPod whenever it’s not connected to a computer.\nEarphones with Remote and Mic\nThese earbud headphones have convenient buttons that let you adjust volume and control music and video playback.\nUniversal Dock with Remote\nGet easy access to a USB port for charging and syncing your iPod or for connecting to a TV or speakers.\nApple Composite AV Cable\nApple Component AV Cable\nApple Dock Connector to USB Cable\niPod Universal Dock Adapter 3-Pack",
+      "source_url": "https://support.apple.com/en-ie/112495",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html"
     }
   ],
   "record_notes": [
     "Archival-first-pass record; normalized specifications not inferred.",
-    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text."
+    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text.",
+    "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112495 (apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html); Fifth-generation iPod nano technical specifications. Typed normalized values were not inferred by this archival pass."
   ],
   "normalized_specifications": {
     "navigation_interface": {

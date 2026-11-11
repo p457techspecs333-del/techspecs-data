@@ -30,25 +30,41 @@
     "verification_notes": "This record's retained evidence is extracted from Apple's general 'Identify your iPod model' page, not an individual technical-specifications page. The archived HTML file is the shared source page. Only identification facts explicitly present in that page are supported; detailed technical specifications require separate model-specific sources.",
     "notes": [
       "Primary evidence is Apple's official iPod identification page; it supports only the model-identification statements retained in the source section.",
-      "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually."
+      "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually.",
+      "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112309 (apple_remaining_extraction/technical_specs_html/ipod-nano-2nd-generation-tech-specs.html); Second-generation iPod nano technical specifications. Typed normalized values were not inferred by this archival pass."
     ]
   },
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
-    "note": "Official Apple iPod identification text retained. Explicit model numbers, introduction dates, capacity options and navigation interface extracted where present with source-section provenance. These are identification-page records, not full historical technical-specification sheets; no absent specs inferred.",
+    "note": "Official Apple iPod identification text retained. Explicit model numbers, introduction dates, capacity options and navigation interface extracted where present with source-section provenance. These are identification-page records, not full historical technical-specification sheets; no absent specs inferred. Model-specific technical-specification sections are preserved with section-level source_url/source_file; this archival pass does not populate or upgrade typed normalized fields.",
     "extracted_at": "2026-11-09",
     "reviewed_at": "2026-11-09"
   },
   "sections": [
     {
       "heading": "iPod nano (2nd generation)",
-      "source_text": "Navigation: Click Wheel\nCapacity: 2, 4 and 8 GB\nModel number and date introduced: A1199: September 2006\nYou can distinguish the iPod nano (2nd generation) from other models by:\nIts smaller size\nIts colours\nThe dock connector and headphone port are both located on the bottom of the device\nThe iPod nano (PRODUCT) RED Special Edition is an iPod nano (2nd generation) available in red and with a 4 GB or 8 GB drive capacity. With each iPod nano (PRODUCT) RED purchased, $10 from the sale goes directly to the Global Fund to fight AIDS in Africa."
+      "source_text": "Navigation: Click Wheel\nCapacity: 2, 4 and 8 GB\nModel number and date introduced: A1199: September 2006\nYou can distinguish the iPod nano (2nd generation) from other models by:\nIts smaller size\nIts colours\nThe dock connector and headphone port are both located on the bottom of the device\nThe iPod nano (PRODUCT) RED Special Edition is an iPod nano (2nd generation) available in red and with a 4 GB or 8 GB drive capacity. With each iPod nano (PRODUCT) RED purchased, $10 from the sale goes directly to the Global Fund to fight AIDS in Africa.",
+      "source_url": "https://support.apple.com/en-ie/103823",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html"
+    },
+    {
+      "heading": "Options & Accessories",
+      "source_text": "Available from the online Apple Store or an authorized Apple reseller.\nAccessories\niPod nano Lanyard Headphones MA597G/A\niPod nano Armband (Gray) MA094G/A\nNike+iPod Sport Kit MA365LL/A\niPod Hi-Fi M9867LL/A\niPod Radio Remote MA070G/A\nAV Connection Kit MA242LL/A\nDock\niPod nano Dock MA594G/A\nHeadphones\nIn-Ear Headphones M9394G/A\nCables and adapters\niPod USB Power Adapter MA592G/A\nUSB 2.0 to Apple iPod Dock Connector Cable M9569G/A\nWorld Travel Adapter Kit M8794G/B\nServices\nAppleCare Protection Plan M9404LL/A",
+      "source_url": "https://support.apple.com/en-ie/112309",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-2nd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Technical Specifications",
+      "source_text": "Size and weight\nHeight: 3.5 inches\nWidth: 1.6 inches\nDepth: 0.26 inch\nWeight: 1.41 ounces\nIn the box\niPod nano\nEarphones\nUSB 2.0 cable\nDock adapter\nQuick Start guide\nCapacity\n2GB, 4GB, or 8GB flash drive\n(1)\nHolds up to 500 to 2,000 songs in 128-Kbps AAC format\n(2)\nHolds up to 25,000 iPod nano-viewable photos\n(3)\nStores data via USB flash drive\nDisplay\n1.5-inch (diagonal) liquid crystal display with blue-white LED backlight\n176-by-132-pixel resolution, .168-mm dot pitch\nSupport for display of multiple languages and characters simultaneously\nAudio\nSkip-free playback\nFrequency response: 20Hz to 20,000Hz\nAudio formats supported: AAC (16 to 320 Kbps), Protected AAC (from iTunes Store), MP3 (16 to 320 Kbps), MP3 VBR, Audible (formats 2, 3, and 4), Apple Lossless, AIFF, and WAV\nUser-configurable maximum\nvolume limit\nHeadphones\nEarphones\nFrequency response: 20Hz to 20,000Hz\nImpedance: 32 ohms\nMac system requirements\nMacintosh computer with USB 2.0 port\nMac OS X v10.3.9 or later\niTunes 7 or later\n(4)\nWindows system requirements\nPC with USB 2.0\nWindows 2000 with Service Pack 4 or later, or Windows XP Home or Professional with Service Pack 2 or later\niTunes 7 or later\n(4)\nLanguages\nCzech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Simplified Chinese, Spanish, Swedish, Traditional Chinese, and Turkish\nAdditional language support for display of song, album, and artist information: Bulgarian, Croatian, Romanian, Serbian, Slovak, Slovenian, and Ukrainian\nEnvironmental requirements\nOperating temperature: 32° to 95° F (0° to 35° C)\nNonoperating temperature: -4° to 113° F (-20° to 45° C)\nRelative humidity: 5% to 95% noncondensing\nMaximum operating altitude: 10,000 feet (3000 m)\nInput and output\nDock connector\n3.5-mm stereo headphone jack\nPower and battery\n(5)\nBuilt-in rechargeable lithium ion battery\nMusic playback time: Up to 24 hours when fully charged\n(3)\nPhoto slideshow with music viewing time: Up to 5 hours when fully charged\n(3)\nCharging via USB or FireWire to computer system or power adapter (sold separately)\nFast-charge time: about 1.5 hours (charges up to 80% of battery capacity)\nFull-charge time: about 3 hours",
+      "source_url": "https://support.apple.com/en-ie/112309",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-2nd-generation-tech-specs.html"
     }
   ],
   "record_notes": [
     "Archival-first-pass record; normalized specifications not inferred.",
-    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text."
+    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text.",
+    "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112309 (apple_remaining_extraction/technical_specs_html/ipod-nano-2nd-generation-tech-specs.html); Second-generation iPod nano technical specifications. Typed normalized values were not inferred by this archival pass."
   ],
   "normalized_specifications": {
     "navigation_interface": {

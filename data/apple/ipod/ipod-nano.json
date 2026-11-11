@@ -30,25 +30,95 @@
     "verification_notes": "This record's retained evidence is extracted from Apple's general 'Identify your iPod model' page, not an individual technical-specifications page. The archived HTML file is the shared source page. Only identification facts explicitly present in that page are supported; detailed technical specifications require separate model-specific sources.",
     "notes": [
       "Primary evidence is Apple's official iPod identification page; it supports only the model-identification statements retained in the source section.",
-      "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually."
+      "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually.",
+      "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112507 (apple_remaining_extraction/technical_specs_html/ipod-nano-1st-generation-tech-specs.html); First-generation iPod nano technical specifications; model/capacity identity remains separately sourced from Apple's identification page. Typed normalized values were not inferred by this archival pass."
     ]
   },
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
-    "note": "Official Apple iPod identification text retained. Explicit model numbers, introduction dates, capacity options and navigation interface extracted where present with source-section provenance. These are identification-page records, not full historical technical-specification sheets; no absent specs inferred.",
+    "note": "Official Apple iPod identification text retained. Explicit model numbers, introduction dates, capacity options and navigation interface extracted where present with source-section provenance. These are identification-page records, not full historical technical-specification sheets; no absent specs inferred. Model-specific technical-specification sections are preserved with section-level source_url/source_file; this archival pass does not populate or upgrade typed normalized fields.",
     "extracted_at": "2026-11-09",
     "reviewed_at": "2026-11-09"
   },
   "sections": [
     {
       "heading": "iPod nano",
-      "source_text": "Navigation: Click Wheel\nCapacity: 1, 2 and 4 GB\nModel numbers and dates introduced: A1137: February 2006 A1137: September 2005\nModel numbers and dates introduced:\nA1137: February 2006\nA1137: September 2005\niPod nano is smaller than iPod mini and has a colour screen and a Click Wheel, but has flash memory instead of a hard drive. You sync music and photos with a USB 2 cable – not FireWire. The capacity of the iPod nano is engraved on the back of the case.\niPod nano comes in white and black."
+      "source_text": "Navigation: Click Wheel\nCapacity: 1, 2 and 4 GB\nModel numbers and dates introduced: A1137: February 2006 A1137: September 2005\nModel numbers and dates introduced:\nA1137: February 2006\nA1137: September 2005\niPod nano is smaller than iPod mini and has a colour screen and a Click Wheel, but has flash memory instead of a hard drive. You sync music and photos with a USB 2 cable – not FireWire. The capacity of the iPod nano is engraved on the back of the case.\niPod nano comes in white and black.",
+      "source_url": "https://support.apple.com/en-ie/103823",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html"
+    },
+    {
+      "heading": "Capacity",
+      "source_text": "1GB, 2GB or 4GB flash drive\n1\nHolds 240 to 1,000 songs in 128-Kbps AAC format\n2\nHolds 15,000 to 25,000 iPod nano-viewable photos\n2\nStores data via USB flash drive",
+      "source_url": "https://support.apple.com/en-ie/112507",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-1st-generation-tech-specs.html"
+    },
+    {
+      "heading": "Display",
+      "source_text": "1.5 inch (diagonal) liquid crystal display with blue-white LED backlight\n176 x 132 pixel resolution, .168-mm dot pitch\nSupport for display of multiple languages and characters simultaneously",
+      "source_url": "https://support.apple.com/en-ie/112507",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-1st-generation-tech-specs.html"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Skip-free playback\nFrequency response: 20Hz to 20,000Hz\nAudio formats supported: AAC (16 to 320 Kbps), Protected AAC (from iTunes Music Store), MP3 (16 to 320 Kbps), MP3 VBR, Audible (formats 2, 3 and 4), Apple Lossless, AIFF and WAV\nUpgradable firmware enables support for future audio formats",
+      "source_url": "https://support.apple.com/en-ie/112507",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-1st-generation-tech-specs.html"
+    },
+    {
+      "heading": "Headphones",
+      "source_text": "Earbud-style headphones with 18-mm drivers using Neodymium transducer magnets\nFrequency response: 20Hz to 20,000Hz\nImpedance: 32 ohms",
+      "source_url": "https://support.apple.com/en-ie/112507",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-1st-generation-tech-specs.html"
+    },
+    {
+      "heading": "Mac system requirements",
+      "source_text": "Macintosh computer with USB port (USB 2.0 recommended)\nMac OS X v10.3.4 or later",
+      "source_url": "https://support.apple.com/en-ie/112507",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-1st-generation-tech-specs.html"
+    },
+    {
+      "heading": "Windows system requirements",
+      "source_text": "PC with USB port or card (USB 2.0 recommended)\nWindows 2000 with Service Pack 4 or later, or Windows XP Home or Professional with Service Pack 2 or later",
+      "source_url": "https://support.apple.com/en-ie/112507",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-1st-generation-tech-specs.html"
+    },
+    {
+      "heading": "Customizable settings",
+      "source_text": "Customize main menu\nCreate multiple On-the-Go playlists\nAdjust audiobook playback speed\nClicker playback through headphones\nRate songs\nShuffle songs or albums\nRepeat one or all\nSound Check on or off\n20 Equalizer settings\nBacklight timer\nAlarms on, off or silent\nSleep timer\nDate and time\nDisplay time in menu bar\nContacts sort and display by first or last names\nClicker on or off\nLanguages: Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Simplified Chinese, Spanish, Swedish, Traditional Chinese and Turkish\nAdditional language support for display of song, album and artist information: Bulgarian, Croatian, Romanian, Serbian, Slovak, Slovenian and Ukrainian",
+      "source_url": "https://support.apple.com/en-ie/112507",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-1st-generation-tech-specs.html"
+    },
+    {
+      "heading": "Environmental requirements",
+      "source_text": "Operating temperature: 32° to 95° F (0° to 35° C)\nNon operating temperature: -4° to 113° F (-20° to 45° C)\nRelative humidity: 5% to 95% noncondensing\nMaximum operating altitude: 10,000 feet (3000 m)",
+      "source_url": "https://support.apple.com/en-ie/112507",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-1st-generation-tech-specs.html"
+    },
+    {
+      "heading": "Input and output",
+      "source_text": "Dock connector\n3.5-mm stereo headphone jack",
+      "source_url": "https://support.apple.com/en-ie/112507",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-1st-generation-tech-specs.html"
+    },
+    {
+      "heading": "Power and battery 3",
+      "source_text": "Built-in rechargeable lithium ion battery\nPlaytime: Up to 14 hours when fully charged\n3\nPhoto slideshow with music viewing time: Up to 4 hours when fully charged\n3\nCharging via USB or FireWire to computer system or power adapter (sold separately)\nFast-charge time: about 1.5 hours (charges up to 80% of battery capacity)\nFull-charge time: about 3 hours",
+      "source_url": "https://support.apple.com/en-ie/112507",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-1st-generation-tech-specs.html"
+    },
+    {
+      "heading": "Size and weight",
+      "source_text": "Height: 3.5 in\nWidth: 1.6 in\nDepth: 0.27 in\nWeight: 1.5 oz",
+      "source_url": "https://support.apple.com/en-ie/112507",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-1st-generation-tech-specs.html"
     }
   ],
   "record_notes": [
     "Archival-first-pass record; normalized specifications not inferred.",
-    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text."
+    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text.",
+    "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112507 (apple_remaining_extraction/technical_specs_html/ipod-nano-1st-generation-tech-specs.html); First-generation iPod nano technical specifications; model/capacity identity remains separately sourced from Apple's identification page. Typed normalized values were not inferred by this archival pass."
   ],
   "normalized_specifications": {
     "navigation_interface": {

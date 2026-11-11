@@ -29,25 +29,143 @@
     "verification_notes": "This record's retained evidence is extracted from Apple's general 'Identify your iPod model' page, not an individual technical-specifications page. The archived HTML file is the shared source page. Only identification facts explicitly present in that page are supported; detailed technical specifications require separate model-specific sources.",
     "notes": [
       "Primary evidence is Apple's official iPod identification page; it supports only the model-identification statements retained in the source section.",
-      "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually."
+      "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually.",
+      "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112552 (apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html); Third-generation iPod nano technical specifications. Typed normalized values were not inferred by this archival pass."
     ]
   },
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
-    "note": "Official Apple iPod identification text retained. Explicit model numbers, introduction dates, capacity options and navigation interface extracted where present with source-section provenance. These are identification-page records, not full historical technical-specification sheets; no absent specs inferred.",
+    "note": "Official Apple iPod identification text retained. Explicit model numbers, introduction dates, capacity options and navigation interface extracted where present with source-section provenance. These are identification-page records, not full historical technical-specification sheets; no absent specs inferred. Model-specific technical-specification sections are preserved with section-level source_url/source_file; this archival pass does not populate or upgrade typed normalized fields.",
     "extracted_at": "2026-11-09",
     "reviewed_at": "2026-11-09"
   },
   "sections": [
     {
       "heading": "iPod nano (3rd generation)",
-      "source_text": "Navigation: Click Wheel\nCapacity: 4 and 8 GB\nModel number and date introduced: A1236: September 2007\nYou can distinguish the iPod nano (3rd generation) from previous iPod nano models by:\nIts wider screen\nHold switch is on the bottom\nIts ability to play video\nThe last three characters of the serial number will be one of these: YOP, YOR, YXR, YXT, YXV or YXX.\nThe iPod nano (3rd generation) comes in five colours."
+      "source_text": "Navigation: Click Wheel\nCapacity: 4 and 8 GB\nModel number and date introduced: A1236: September 2007\nYou can distinguish the iPod nano (3rd generation) from previous iPod nano models by:\nIts wider screen\nHold switch is on the bottom\nIts ability to play video\nThe last three characters of the serial number will be one of these: YOP, YOR, YXR, YXT, YXV or YXX.\nThe iPod nano (3rd generation) comes in five colours.",
+      "source_url": "https://support.apple.com/en-ie/103823",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html"
+    },
+    {
+      "heading": "Size and weight",
+      "source_text": "Height: 2.75 inches (69.8 mm)\nWidth: 2.06 inches (52.3 mm)\nDepth: 0.26 inch (6.5 mm)\nWeight: 1.74 ounces (49.2 grams)",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "In the box",
+      "source_text": "iPod nano\nEarphones\nUSB 2.0 cable\nDock adapter\nQuick Start guide",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Capacity",
+      "source_text": "4GB or 8GB flash drive\n1\nHolds up to 1,000 or 2,000 songs in 128-Kbps AAC format\n2\nHolds up to 3,500 or 7,000 iPod-viewable photos\n3\nHolds up to 4 hours (4GB) or up to 8 hours (8GB) of video\n4\nStores data via USB flash drive",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Display",
+      "source_text": "2-inch (diagonal) liquid crystal display with blue-white LED backlight\n320-by-240-pixel resolution at 204 pixels per inch",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Skip-free playback\nFrequency response: 20Hz to 20,000Hz\nAudio formats supported: AAC (16 to 320 Kbps), Protected AAC (from iTunes Store), MP3 (16 to 320 Kbps), MP3 VBR, Audible (formats 2, 3, and 4), Apple Lossless, AIFF, and WAV\nUser-configurable maximum volume limit",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Video",
+      "source_text": "H.264 video, up to 1.5 Mbps, 640 by 480 pixels, 30 frames per second, Low-Complexity version of the H.264 Baseline Profile with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats; H.264 video, up to 2.5 Mbps, 640 by 480 pixels, 30 frames per second, Baseline Profile up to Level 3.0 with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats; MPEG-4 video, up to 2.5 Mbps, 640 by 480 pixels, 30 frames per second, Simple Profile with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Headphones",
+      "source_text": "Earphones\nFrequency response: 20Hz to 20,000Hz\nImpedance: 32 ohms",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Mac system requirements",
+      "source_text": "Mac computer with USB 2.0 port\nMac OS X v10.4.8 or later\niTunes 7.4 or later\n5",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Windows system requirements",
+      "source_text": "PC with USB 2.0 port\nWindows Vista or Windows XP Home or Professional with Service Pack 2 or later\niTunes 7.4 or later\n5",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Simplified Chinese, Spanish, Swedish, Traditional Chinese, and Turkish\nAdditional language support for display of song, album, and artist information: Bulgarian, Croatian, Romanian, Serbian, Slovak, Slovenian, and Ukrainian",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Environmental requirements",
+      "source_text": "Operating temperature: 32° to 95° F (0° to 35° C)\nNonoperating temperature: -4° to 113° F (-20° to 45° C)\nRelative humidity: 5% to 95% noncondensing\nMaximum operating altitude: 10,000 feet (3000 m)",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Input and output",
+      "source_text": "Dock connector\n3.5-mm stereo headphone jack",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Power and battery 6",
+      "source_text": "Built-in rechargeable lithium ion battery\nPlayback time\nMusic playback time: Up to 24 hours when fully charged\nVideo playback time: Up to 5 hours when fully charged\nCharging via USB to computer system or power adapter (sold separately)\nFast-charge time: about 1.5 hours (charges up to 80% of battery capacity)\nFull-charge time: about 3 hours",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Limited warranty and service",
+      "source_text": "Your iPod comes with single-incident telephone support for the first 90 days and a one-year limited warranty. Purchase the AppleCare Protection Plan for iPod to extend your service and support to two full years. Only theAppleCare Protection Plan provides you with direct telephone support from Apple technical experts and the assurance that repairs will be handled by Apple-certified technicians using genuine Apple parts. For more information, visit Apple support or call 800-823-2775.",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Accessories",
+      "source_text": "iPod nano Armband (Gray) MB130G/A\nNike+iPod Sport Kit MA365LL/B\niPod Hi-Fi M9867LL/A\niPod Radio Remote MA070G/C",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Dock",
+      "source_text": "Apple Universal Dock with Remote MB125G/A\nApple Universal Dock Adapter (3-pack) MB126G/A",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Headphones",
+      "source_text": "In-Ear Headphones M9394G/B",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Services",
+      "source_text": "AppleCare Protection Plan MA964LL/A",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Cables and adapters",
+      "source_text": "Apple Component AV Cable MB128LL/A\nApple Composite AV Cable MB129LL/A\nApple USB Power Adapter MB051LL/A\nApple iPod Dock Connector to USB 2.0 Cable MA591LL/A\nWorld Travel Adapter Kit M8794G/B",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
     }
   ],
   "record_notes": [
     "Archival-first-pass record; normalized specifications not inferred.",
-    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text."
+    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text.",
+    "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112552 (apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html); Third-generation iPod nano technical specifications. Typed normalized values were not inferred by this archival pass."
   ],
   "normalized_specifications": {
     "navigation_interface": {
