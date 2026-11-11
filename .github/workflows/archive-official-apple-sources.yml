@@ -52,3 +52,5 @@ jobs:
           fi
           git commit -m "Archive official Apple technical specification sources"
           git push
+      - name: Smoke-test deployed catalogue and product routes
+        run: python scripts/smoke_test_live_data.py
