@@ -12,13 +12,16 @@
   "source": {
     "source_type": "manufacturer",
     "source_url": "https://support.apple.com/en-ie/119891",
-    "source_file": "Pasted text (3)(3).txt",
+    "source_file": null,
     "source_title": "iPad Pro 13‑inch (M4) - Tech Specs - Apple Support (IE)",
     "publisher": "Apple Support (Ireland)",
     "published_at": null,
     "checked_at": "2026-11-07",
     "verification_status": "url_checked",
-    "verification_notes": "Source URL and archived Apple Ireland page captured. Original section text retained; normalized specifications have not been independently extracted."
+    "verification_notes": "Official Apple Support URL checked. Original section text is retained in this record, but the previously referenced local HTML archive was not present in the repository. Normalized specifications have not been independently extracted.",
+    "notes": [
+      "No archived HTML file was found under the previous source_file path during the 2026-11-11 repository audit; the record retains extracted section text, but no local copy of the original HTML is claimed."
+    ]
   },
   "extraction": {
     "method": "section_preserving",
