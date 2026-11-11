@@ -116,7 +116,8 @@
   ],
   "record_notes": [
     "Archival-first-pass record; normalized specifications not inferred.",
-    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text."
+    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text.",
+    "Core technical fields transcribed from the archived model-specific Apple technical-specification page. Values remain source_transcribed pending record-level verification; no absent fields inferred."
   ],
   "normalized_specifications": {
     "navigation_interface": {
@@ -160,6 +161,144 @@
         "source_section": "iPod shuffle (4th generation)",
         "verification_status": "source_transcribed",
         "notes": "Description transcribed from the official Apple identification page."
+      }
+    },
+    "dimensions": {
+      "height": {
+        "value": 29,
+        "unit": "mm",
+        "source_section": "Size and Weight",
+        "verification_status": "source_transcribed"
+      },
+      "width": {
+        "value": 31.6,
+        "unit": "mm",
+        "source_section": "Size and Weight",
+        "verification_status": "source_transcribed"
+      },
+      "depth": {
+        "value": 8.7,
+        "unit": "mm",
+        "source_section": "Size and Weight",
+        "verification_status": "source_transcribed",
+        "notes": "Depth includes the clip."
+      },
+      "weight": {
+        "value": 12.5,
+        "unit": "g",
+        "source_section": "Size and Weight",
+        "verification_status": "source_transcribed"
+      },
+      "volume": {
+        "value": 5668,
+        "unit": "mm³",
+        "source_section": "Size and Weight",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "storage": {
+      "capacity": {
+        "value": "2 GB",
+        "unit": "GB",
+        "source_section": "Capacity 1",
+        "verification_status": "source_transcribed"
+      },
+      "medium": {
+        "value": "flash storage",
+        "unit": "type",
+        "source_section": "Capacity 1",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "audio": {
+      "frequency_response": {
+        "value": "20 Hz to 20,000 Hz",
+        "unit": null,
+        "source_section": "Audio Playback",
+        "verification_status": "source_transcribed"
+      },
+      "formats_supported": {
+        "value": [
+          "AAC (8 to 320 Kbps)",
+          "Protected AAC (from iTunes Store)",
+          "MP3 (8 to 320 Kbps)",
+          "MP3 VBR",
+          "Audible formats 2, 3, 4, Audible Enhanced Audio, AAX and AAX+",
+          "Apple Lossless",
+          "AIFF",
+          "WAV"
+        ],
+        "unit": null,
+        "source_section": "Audio Playback",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "headphones": {
+      "type": {
+        "value": "Apple Earphones",
+        "unit": null,
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "battery": {
+      "audio_playback_time_max": {
+        "value": 15,
+        "unit": "hours",
+        "source_section": "Power and Battery 3",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "system_requirements": {
+      "mac_os_minimum": {
+        "value": "OS X v10.7.5 or later",
+        "unit": null,
+        "source_section": "System Requirements",
+        "verification_status": "source_transcribed"
+      },
+      "itunes_mac_minimum": {
+        "value": "iTunes 12.2 or later",
+        "unit": null,
+        "source_section": "System Requirements",
+        "verification_status": "source_transcribed"
+      },
+      "windows_minimum": {
+        "value": "Windows 7 or later",
+        "unit": null,
+        "source_section": "System Requirements",
+        "verification_status": "source_transcribed"
+      },
+      "itunes_windows_minimum": {
+        "value": "iTunes 12.2 or later",
+        "unit": null,
+        "source_section": "System Requirements",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "environment": {
+      "operating_temperature": {
+        "value": "0° to 35° C",
+        "unit": null,
+        "source_section": "Environmental Requirements",
+        "verification_status": "source_transcribed"
+      },
+      "nonoperating_temperature": {
+        "value": "-4° to 113° F (-20° to 45° C)",
+        "unit": null,
+        "source_section": "Environmental Requirements",
+        "verification_status": "source_transcribed"
+      },
+      "relative_humidity": {
+        "value": "5% to 95% noncondensing",
+        "unit": null,
+        "source_section": "Environmental Requirements",
+        "verification_status": "source_transcribed"
+      },
+      "maximum_operating_altitude": {
+        "value": 3000,
+        "unit": "m",
+        "source_section": "Environmental Requirements",
+        "verification_status": "source_transcribed"
       }
     }
   }
