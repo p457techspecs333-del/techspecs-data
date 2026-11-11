@@ -138,13 +138,14 @@
     },
     {
       "model": "iPod nano (4th generation)",
-      "url": "https://support.apple.com/en-ie/103823",
+      "url": "https://support.apple.com/en-ie/112320",
       "slug": "ipod-nano-4th-generation",
-      "final_url": "https://support.apple.com/en-ie/103823",
-      "title": "Identify your iPod model - Apple Support (IE)",
-      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 1,
-      "verification_status": "partially_verified"
+      "final_url": "https://support.apple.com/en-ie/112320",
+      "title": "iPod nano (4th generation) - Technical Specifications - Apple Support (IE)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-4th-generation-tech-specs.html",
+      "section_count": 19,
+      "verification_status": "content_verified",
+      "supporting_source_url": "https://support.apple.com/en-ie/103823"
     },
     {
       "model": "iPod nano (3rd generation)",
@@ -408,7 +409,8 @@
     "2026-11-11 provenance correction: all 37 product records now cite the single shared archived file apple_remaining_extraction/technical_specs_html/ipod-index.html and the actual page title, 'Identify your iPod model - Apple Support (IE)'. Each is marked partially_verified because this page provides model identification evidence, not a full technical specification sheet. Earlier per-model HTML filenames were copies of the same general page and are no longer cited as separate sources.",
     "2026-11-11 source migration: five archived model-specific technical-specification pages are now mapped as primary sources for eight iPod records (including the matching 4th-generation shuffle and 7th-generation nano refresh variants). Each record's detailed source sections are extracted from its model-specific technical page. Model number/introduction-date identity evidence remains cross-checked against the shared identification page at https://support.apple.com/en-ie/103823.",
     "Section-level provenance is now explicit: the first section in each migrated record cites the shared iPod identification page; each subsequent technical specification section cites its own model-specific Apple technical-specification URL and archived HTML path.",
-    "2026-11-11 source migration: five additional model-specific Apple technical-specification pages were archived and mapped to six iPod records (touch 4th/5th/6th generations, nano 6th generation, and first-/second-generation iPod mini). The mini page is a combined technical-specification source hosted under Apple's English (Belarus) locale because an Ireland-locale URL was not available; its canonical URL is retained."
+    "2026-11-11 source migration: five additional model-specific Apple technical-specification pages were archived and mapped to six iPod records (touch 4th/5th/6th generations, nano 6th generation, and first-/second-generation iPod mini). The mini page is a combined technical-specification source hosted under Apple's English (Belarus) locale because an Ireland-locale URL was not available; its canonical URL is retained.",
+    "2026-11-11 source migration: the official Ireland technical-specification page for iPod nano (4th generation), article 112320, has been archived and mapped to its product record. Model identity remains supported by the separate identification page."
   ],
   "record_audit": {
     "checked_at": "2026-11-11",
@@ -428,7 +430,8 @@
       "Compared product.model_numbers with normalized model-number/date pairs across all 37 iPod records; corrected the iPod touch (2nd generation) duplicate A1288 entry to A1319 and retained the China-mainland-only qualifier.",
       "Corrected all 37 iPod records to cite the shared archived identification page and its actual title; downgraded status from content_verified to partially_verified to avoid overstating technical-specification verification.",
       "Archived five official Apple Ireland iPod technical-specification pages with SHA-256 sidecar metadata and replaced identification-page-only primary source mappings for eight applicable records; extracted the visible technical-specification sections into each record.",
-      "Archived five additional official Apple technical-specification pages and mapped them to six iPod records; each source section now carries section-level URL and archive provenance."
+      "Archived five additional official Apple technical-specification pages and mapped them to six iPod records; each source section now carries section-level URL and archive provenance.",
+      "Archived and mapped the official iPod nano (4th generation) technical-specification page; extracted source sections carry section-level provenance."
     ],
     "remaining": [
       "Find and archive model-specific Apple technical-specification pages for remaining iPod models where available.",
