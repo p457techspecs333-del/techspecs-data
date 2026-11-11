@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en-IE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101a2b">
+  <meta name="description" content="Explore and compare technology with clear specifications, original sources and transparent evidence.">
+  <title>TechSpecs — Compare technology. Choose with confidence.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <div class="announcement"><span class="pulse"></span> Built on original manufacturer information <span class="announcement-note">Independent product knowledge · Ireland first</span></div>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="TechSpecs home"><span class="brand-mark">T</span><span>tech<span class="brand-light">specs</span><small>.ie</small></span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#explore">Explore</a><a href="#categories">Categories</a><a href="#how-it-works">How it works</a>
+    </nav>
+    <a class="header-link" href="#explore">Find a product <span>↗</span></a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> THE DETAILS MAKE THE DIFFERENCE</div>
+        <h1>Compare technology.<br><span>Choose with confidence.</span></h1>
+        <p class="hero-lede">Good decisions start with good information. Explore the details, understand the differences and compare technology on what actually matters to you.</p>
+        <a class="primary-button" href="#explore">Explore products <span>→</span></a>
+        <div class="hero-proof"><span class="proof-icon">✓</span> Original sources <span class="proof-dot">·</span> Clear specifications <span class="proof-dot">·</span> No guesswork</div>
+      </div>
+      <div class="hero-art" aria-label="Abstract product comparison illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="device device-back"><div class="device-camera c1"></div><div class="device-camera c2"></div><div class="device-camera c3"></div></div>
+        <div class="device device-front"><div class="screen-island"></div><div class="screen-shine"></div><div class="screen-caption">A clearer<br>perspective.</div></div>
+        <div class="floating-tag tag-top"><span class="tag-check">✓</span> Verified sources</div>
+        <div class="floating-tag tag-bottom"><span class="tag-bars">▥</span> Compare the detail</div>
+      </div>
+      <div class="hero-bottom"><span>INDEPENDENT PRODUCT KNOWLEDGE</span><span>01 / EXPLORE WHAT'S POSSIBLE</span></div>
+    </section>
+
+    <section class="search-section" id="explore">
+      <div class="section-kicker">START WITH WHAT YOU'RE LOOKING FOR</div>
+      <div class="search-heading"><h2>Find your next <em>favourite.</em></h2><span id="catalogue-count" class="catalogue-count">Connecting to the catalogue…</span></div>
+      <div class="search-box"><span class="search-icon">⌕</span><input id="search-input" type="search" placeholder="Search products, brands or specifications…" autocomplete="off" aria-label="Search products"><kbd>⌘ K</kbd></div>
+      <div class="filter-row" id="filter-row" aria-label="Filter products"><button class="filter-chip active" data-filter="all">All products</button></div>
+      <div id="catalogue-status" class="catalogue-status" role="status">Loading the TechSpecs product catalogue…</div>
+      <div id="product-grid" class="product-grid"></div>
+      <div id="empty-state" class="empty-state" hidden><div class="empty-icon">⌕</div><h3>No matching products yet</h3><p>Try another search or choose a different category.</p></div>
+      <div class="browse-footer"><span>Showing products currently available in the TechSpecs catalogue.</span><button id="show-more" class="text-button" hidden>Show more products →</button></div>
+    </section>
+
+    <section class="categories-section" id="categories">
+      <div class="section-kicker">MORE THAN ONE KIND OF TECHNOLOGY</div>
+      <div class="section-title-row"><h2>Explore by <em>category.</em></h2><p>One place for the technology you use every day — and the things you're curious about next.</p></div>
+      <div class="category-grid">
+        <a class="category-tile tile-phone" href="#explore" data-jump="smartphone"><span class="tile-number">01</span><span class="tile-art phone-art"></span><span class="tile-label">Smartphones</span><span class="tile-arrow">↗</span></a>
+        <a class="category-tile tile-computing" href="#explore" data-jump="computer"><span class="tile-number">02</span><span class="tile-art laptop-art"></span><span class="tile-label">Computers & laptops</span><span class="tile-arrow">↗</span></a>
+        <a class="category-tile tile-audio" href="#explore" data-jump="audio"><span class="tile-number">03</span><span class="tile-art audio-art"></span><span class="tile-label">Audio</span><span class="tile-arrow">↗</span></a>
+        <a class="category-tile tile-tablets" href="#explore" data-jump="tablet"><span class="tile-number">04</span><span class="tile-art tablet-art"></span><span class="tile-label">Tablets & displays</span><span class="tile-arrow">↗</span></a>
+        <a class="category-tile tile-wearables" href="#explore" data-jump="wearable"><span class="tile-number">05</span><span class="tile-art watch-art"></span><span class="tile-label">Wearables</span><span class="tile-arrow">↗</span></a>
+        <a class="category-tile tile-home" href="#explore" data-jump="home"><span class="tile-number">06</span><span class="tile-art home-art"></span><span class="tile-label">Smart home & more</span><span class="tile-arrow">↗</span></a>
+      </div>
+    </section>
+
+    <section class="manifesto" id="how-it-works">
+      <div class="manifesto-mark">T<span>.</span></div>
+      <div class="manifesto-copy"><div class="section-kicker light-kicker">A BETTER WAY TO UNDERSTAND TECH</div><h2>Not more noise.<br><em>More clarity.</em></h2><p>Specifications shouldn't be a wall of jargon. TechSpecs turns original product information into a clearer way to explore what a product offers, where the details come from and how one model differs from another.</p></div>
+      <div class="manifesto-points"><div><b>01</b><span><strong>Start with the source</strong><small>Manufacturer information is the foundation.</small></span></div><div><b>02</b><span><strong>Make details make sense</strong><small>Clear, structured information you can explore.</small></span></div><div><b>03</b><span><strong>Compare what matters</strong><small>See the differences, not just the marketing.</small></span></div></div>
+    </section>
+  </main>
+  <aside id="compare-bar" class="compare-bar" hidden><div><strong id="compare-count">0 selected</strong><span>Choose up to three products</span></div><div id="compare-selected" class="compare-selected"></div><button id="compare-button" class="primary-button compact" disabled>Compare now <span>→</span></button><button id="clear-compare" class="clear-button">Clear</button></aside>
+  <dialog id="compare-dialog" class="compare-dialog"><div class="dialog-head"><div><div class="section-kicker">SIDE BY SIDE</div><h2>Your comparison</h2></div><button id="close-dialog" class="close-dialog" aria-label="Close comparison">×</button></div><div id="comparison-content" class="comparison-content"></div></dialog>
+  <footer class="site-footer"><div class="footer-top"><a class="brand footer-brand" href="./"><span class="brand-mark">T</span><span>tech<span class="brand-light">specs</span><small>.ie</small></span></a><p>Better information.<br>Better technology decisions.</p><a href="https://data.techspecs.dev/api-manifest.json" target="_blank" rel="noreferrer">Machine-readable data ↗</a></div><div class="footer-bottom"><span>© 2026 TechSpecs</span><span>Independent product information. Always check the manufacturer's latest documentation before purchase.</span><a href="https://github.com/p457techspecs333-del/techspecs-data" target="_blank" rel="noreferrer">Our data methodology ↗</a></div></footer>
+</body>
+</html>
