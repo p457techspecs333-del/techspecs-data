@@ -1,0 +1,12 @@
+{
+  "purpose": "Archive Apple's official Ireland-locale AirPods identification page so model-number and introduction-year facts in the AirPods records have retained section-level evidence. Preserve the original HTML and do not change typed values unless separately reviewed.",
+  "sources": [
+    {
+      "url": "https://support.apple.com/en-ie/109525",
+      "expected_title_contains": "Identify your AirPods",
+      "output_path": "apple_remaining_extraction/technical_specs_html/airpods-identify-model.html",
+      "metadata_path": "apple_remaining_extraction/technical_specs_html/airpods-identify-model.metadata.json",
+      "notes": "Official Apple Ireland page identifying AirPods and charging-case model numbers, introduction years, compatibility and physical identification details."
+    }
+  ]
+}
