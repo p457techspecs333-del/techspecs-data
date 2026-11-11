@@ -121,6 +121,12 @@
       "source_text": "Built-in rechargeable lithium ion battery Playback time Music playback time: Up to 24 hours when fully charged Video playback time: Up to 5 hours when fully charged Charging via USB to computer system or power adapter (sold separately) Fast-charge time: about 1.5 hours (charges up to 80% of battery capacity) Full-charge time: about 3 hours",
       "source_url": "https://support.apple.com/en-ie/112552",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "Dock connector 3.5-mm stereo headphone jack",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
     }
   ],
   "record_notes": [
@@ -384,13 +390,13 @@
     },
     "system_requirements": {
       "mac": {
-        "value": "Mac computer with USB 2.0 port; Mac OS X v10.4.8 or later; iTunes 7.4 or later",
+        "value": "Mac computer with USB 2.0 port Mac OS X v10.4.8 or later iTunes 7.4 or later 5",
         "unit": null,
         "source_section": "Mac system requirements",
         "verification_status": "source_transcribed"
       },
       "windows": {
-        "value": "PC with USB 2.0 port; Windows Vista or Windows XP Home or Professional with Service Pack 2 or later; iTunes 7.4 or later",
+        "value": "PC with USB 2.0 port Windows Vista or Windows XP Home or Professional with Service Pack 2 or later iTunes 7.4 or later 5",
         "unit": null,
         "source_section": "Windows system requirements",
         "verification_status": "source_transcribed"
@@ -443,6 +449,23 @@
         "source_section": "Video",
         "verification_status": "source_transcribed",
         "notes": "Full supported video profiles, bitrates, frame rates, audio limits and container formats are transcribed from the archived source."
+      }
+    },
+    "connectivity": {
+      "interfaces": {
+        "value": "Dock connector 3.5-mm stereo headphone jack",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "language_support": {
+      "statements": {
+        "value": "Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Simplified Chinese, Spanish, Swedish, Traditional Chinese, and Turkish Additional language support for display of song, album, and artist information: Bulgarian, Croatian, Romanian, Serbian, Slovak, Slovenian, and Ukrainian",
+        "unit": null,
+        "source_section": "Languages",
+        "verification_status": "source_transcribed",
+        "notes": "Language names and locale groups are retained as source text rather than regrouped."
       }
     }
   }
