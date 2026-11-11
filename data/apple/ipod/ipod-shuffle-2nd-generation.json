@@ -29,7 +29,7 @@
     "verification_notes": "This record's retained evidence is extracted from Apple's general 'Identify your iPod model' page, not an individual technical-specifications page. The archived HTML file is the shared source page. Only identification facts explicitly present in that page are supported; detailed technical specifications require separate model-specific sources.",
     "notes": [
       "Primary evidence is Apple's official iPod identification page; it supports only the model-identification statements retained in the source section.",
-      "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually.",
+      "Do not treat this source as a complete technical specification sheet. The archived model-specific page at https://support.apple.com/en-ie/112455 covers the 1GB configuration only; the 2GB configuration is not independently verified by that page.",
       "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112455 (apple_remaining_extraction/technical_specs_html/ipod-shuffle-2nd-generation-tech-specs.html); Second-generation iPod shuffle technical specifications. Typed normalized values were not inferred by this archival pass.",
       "Archived model-specific technical specifications cover the 1GB second-generation shuffle configuration. The 2GB option is listed by Apple's identification page but is not covered by this archived technical-specification page; do not treat the 2GB configuration as independently verified."
     ]
@@ -363,8 +363,7 @@
     "connectors": {
       "ports": {
         "value": [
-          "3.5-mm stereo headphone minijack",
-          "USB dock connector (included dock)"
+          "3.5-mm stereo headphone minijack"
         ],
         "unit": null,
         "source_section": "Input and output",
@@ -408,6 +407,14 @@
         ],
         "unit": null,
         "source_section": "In the box",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "connectivity": {
+      "charging_interface": {
+        "value": "USB through the included USB dock",
+        "unit": null,
+        "source_section": "Power and battery 4",
         "verification_status": "source_transcribed"
       }
     }
