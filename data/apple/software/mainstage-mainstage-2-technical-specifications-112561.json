@@ -183,15 +183,17 @@
       },
       "optional_content_breakdown": {
         "value": {
-          "Jam Pack collections": 10,
-          "sound effects": 16,
-          "surround music beds": 6,
-          "other optional content": 7
-        },
-        "unit": "GB",
-        "source_section": "Available disk space",
-        "verification_status": "source_transcribed",
-        "notes": "Component values copied from Apple's published breakdown; totals are not recomputed."
+          "value": [
+            "10GB for Jam Pack collections",
+            "16GB for sound effects",
+            "6GB for surround music beds",
+            "7GB for other optional content"
+          ],
+          "unit": null,
+          "source_section": "Available disk space",
+          "verification_status": "source_transcribed",
+          "notes": "Exact components from Apple's optional-content breakdown; the source states 39GB total and notes content may be installed on a separate disk."
+        }
       }
     },
     "installation_requirements": {
