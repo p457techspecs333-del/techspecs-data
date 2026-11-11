@@ -173,31 +173,18 @@
           {
             "model_number": "A1367",
             "introduced": "September 2010"
-          },
-          {
-            "model_number": "A1367",
-            "introduced": "October 2012"
-          },
-          {
-            "model_number": "A1367",
-            "introduced": "October 2011"
-          },
-          {
-            "model_number": "A1367",
-            "introduced": "September 2010"
           }
         ],
         "unit": null,
         "source_section": "iPod touch (4th generation)",
         "verification_status": "source_transcribed",
-        "notes": "Model number/date pairs preserved individually; repeated model numbers are not deduplicated in this evidence field."
+        "notes": "Exact duplicate model/date pairs removed. The same model number is retained multiple times when Apple lists distinct introduction dates or regional variants."
       }
     },
     "capacity_statements": {
       "value": {
         "value": [
           "8 GB",
-          "16 GB",
           "32 GB",
           "64 GB"
         ],
@@ -214,6 +201,227 @@
         "source_section": "iPod touch (4th generation)",
         "verification_status": "source_transcribed",
         "notes": "Description transcribed from the official Apple identification page."
+      }
+    },
+    "dimensions": {
+      "height": {
+        "value": 111,
+        "unit": "mm",
+        "source_section": "Size and Weight 2",
+        "verification_status": "content_verified"
+      },
+      "width": {
+        "value": 58.9,
+        "unit": "mm",
+        "source_section": "Size and Weight 2",
+        "verification_status": "content_verified"
+      },
+      "depth": {
+        "value": 7.2,
+        "unit": "mm",
+        "source_section": "Size and Weight 2",
+        "verification_status": "content_verified"
+      },
+      "weight": {
+        "value": 101,
+        "unit": "g",
+        "source_section": "Size and Weight 2",
+        "verification_status": "content_verified"
+      }
+    },
+    "display": {
+      "technology": {
+        "value": "Widescreen Multi-Touch display",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      },
+      "diagonal": {
+        "value": 3.5,
+        "unit": "inches",
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      },
+      "resolution": {
+        "value": "960 × 640",
+        "unit": "pixels",
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      },
+      "pixel_density": {
+        "value": 326,
+        "unit": "ppi",
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      }
+    },
+    "camera": {
+      "rear_photo_resolution": {
+        "value": "960 × 720",
+        "unit": "pixels",
+        "source_section": "Camera, Photos, and Video",
+        "verification_status": "content_verified"
+      },
+      "rear_video_max_resolution": {
+        "value": "720p HD",
+        "unit": null,
+        "source_section": "Camera, Photos, and Video",
+        "verification_status": "content_verified"
+      },
+      "rear_video_max_frame_rate": {
+        "value": 30,
+        "unit": "fps",
+        "source_section": "Camera, Photos, and Video",
+        "verification_status": "content_verified"
+      },
+      "front_camera_quality": {
+        "value": "VGA-quality photos and video",
+        "unit": null,
+        "source_section": "Camera, Photos, and Video",
+        "verification_status": "content_verified"
+      },
+      "front_video_max_frame_rate": {
+        "value": 30,
+        "unit": "fps",
+        "source_section": "Camera, Photos, and Video",
+        "verification_status": "content_verified"
+      }
+    },
+    "wireless": {
+      "wifi_standards": {
+        "value": [
+          "802.11b",
+          "802.11g",
+          "802.11n"
+        ],
+        "unit": null,
+        "source_section": "Wireless 3",
+        "verification_status": "content_verified"
+      },
+      "wifi_frequency_support": {
+        "value": [
+          "2.4 GHz"
+        ],
+        "unit": null,
+        "source_section": "Wireless 3",
+        "verification_status": "content_verified"
+      },
+      "bluetooth_version": {
+        "value": "2.1 + EDR",
+        "unit": null,
+        "source_section": "Wireless 3",
+        "verification_status": "content_verified"
+      }
+    },
+    "battery": {
+      "music_playback_time_max": {
+        "value": 40,
+        "unit": "hours",
+        "source_section": "Power and Battery 6",
+        "verification_status": "content_verified"
+      },
+      "video_playback_time_max": {
+        "value": 7,
+        "unit": "hours",
+        "source_section": "Power and Battery 6",
+        "verification_status": "content_verified"
+      },
+      "fast_charge_to_80_time": {
+        "value": 2,
+        "unit": "hours",
+        "source_section": "Power and Battery 6",
+        "verification_status": "content_verified"
+      },
+      "full_charge_time": {
+        "value": 4,
+        "unit": "hours",
+        "source_section": "Power and Battery 6",
+        "verification_status": "content_verified"
+      }
+    },
+    "audio": {
+      "frequency_response": {
+        "value": "20 Hz–20,000 Hz",
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "content_verified"
+      },
+      "formats_supported": {
+        "value": [
+          "AAC",
+          "Protected AAC",
+          "HE-AAC",
+          "MP3",
+          "MP3 VBR",
+          "Audible formats 2, 3, 4, AAX, AAX+",
+          "Apple Lossless",
+          "AIFF",
+          "WAV"
+        ],
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "content_verified"
+      },
+      "user_configurable_maximum_volume_limit": {
+        "value": true,
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "content_verified"
+      }
+    },
+    "connectors": {
+      "ports": {
+        "value": [
+          "30-pin dock connector",
+          "3.5 mm stereo headphone jack"
+        ],
+        "unit": null,
+        "source_section": "Input and Output",
+        "verification_status": "content_verified"
+      },
+      "built_in_speaker": {
+        "value": true,
+        "unit": null,
+        "source_section": "Input and Output",
+        "verification_status": "content_verified"
+      },
+      "microphone": {
+        "value": true,
+        "unit": null,
+        "source_section": "Input and Output",
+        "verification_status": "content_verified"
+      }
+    },
+    "sensors": {
+      "types": {
+        "value": [
+          "Three-axis gyro",
+          "Accelerometer",
+          "Ambient light sensor"
+        ],
+        "unit": null,
+        "source_section": "Sensors",
+        "verification_status": "content_verified"
+      }
+    },
+    "system_requirements": {
+      "mac_os_minimum": {
+        "value": "OS X 10.5.8 or later",
+        "unit": null,
+        "source_section": "System Requirements",
+        "verification_status": "content_verified"
+      },
+      "windows_minimum": {
+        "value": "Windows 7, Windows Vista, or Windows XP Home/Professional with Service Pack 3 or later",
+        "unit": null,
+        "source_section": "System Requirements",
+        "verification_status": "content_verified"
+      },
+      "itunes_minimum": {
+        "value": "iTunes 10.5 or later",
+        "unit": null,
+        "source_section": "System Requirements",
+        "verification_status": "content_verified"
       }
     }
   }
