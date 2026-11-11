@@ -301,13 +301,13 @@
     },
     "system_requirements": {
       "mac": {
-        "value": "Mac computer with USB 2.0 port Mac OS X v10.4.11 or later iTunes 9 or later 5",
+        "value": "Mac computer with USB 2.0 port Mac OS X v10.4.11 or later iTunes 9 or later",
         "unit": null,
         "source_section": "Mac system requirements",
         "verification_status": "source_transcribed"
       },
       "windows": {
-        "value": "PC with USB 2.0 port Windows Vista or Windows XP Home or Professional with Service Pack 3 or later iTunes 9 or later 5",
+        "value": "PC with USB 2.0 port Windows Vista or Windows XP Home or Professional with Service Pack 3 or later iTunes 9 or later",
         "unit": null,
         "source_section": "Windows system requirements",
         "verification_status": "source_transcribed"
@@ -315,22 +315,25 @@
     },
     "environment": {
       "operating_temperature": {
-        "value": "32° to 95° F (0° to 35° C) Nonoperating temperature: -4° to 113° F (-20° to 45° C) Relative humidity: 5% to 95% noncondensing Maximum operating altitude: 10,000 feet (3000 m)",
+        "value": "32° to 95° F (0° to 35° C)",
         "unit": null,
         "source_section": "Environmental requirements",
         "verification_status": "source_transcribed"
       },
       "non_operating_temperature": {
+        "value": "-4° to 113° F (-20° to 45° C)",
         "unit": null,
         "source_section": "Environmental requirements",
         "verification_status": "source_transcribed"
       },
       "relative_humidity": {
+        "value": "5% to 95% noncondensing",
         "unit": null,
         "source_section": "Environmental requirements",
         "verification_status": "source_transcribed"
       },
       "maximum_operating_altitude": {
+        "value": "10,000 feet (3000 m)",
         "unit": null,
         "source_section": "Environmental requirements",
         "verification_status": "source_transcribed"
@@ -382,7 +385,10 @@
     "in_the_box": {
       "items": {
         "value": [
-          "iPod shuffle Earphones with Remote iPod shuffle USB Cable (1.8 inches/45 mm) Quick Start guide"
+          "iPod shuffle",
+          "Earphones with Remote",
+          "iPod shuffle USB Cable (1.8 inches/45 mm)",
+          "Quick Start guide"
         ],
         "unit": null,
         "source_section": "In the box",
@@ -392,7 +398,9 @@
     "controls": {
       "options": {
         "value": [
-          "Shuffle Play in order Turn off"
+          "Shuffle",
+          "Play in order",
+          "Turn off"
         ],
         "unit": null,
         "source_section": "External controls",
@@ -402,7 +410,26 @@
     "voiceover_language_support": {
       "languages": {
         "value": [
-          "Chinese (Cantonese) Chinese (Mandarin) Czech Danish Dutch English Finnish French German Greek Italian Japanese Korean Norwegian Polish Portuguese Russian Spanish Swedish Turkish"
+          "Chinese (Cantonese)",
+          "Chinese (Mandarin)",
+          "Czech",
+          "Danish",
+          "Dutch",
+          "English",
+          "Finnish",
+          "French",
+          "German",
+          "Greek",
+          "Italian",
+          "Japanese",
+          "Korean",
+          "Norwegian",
+          "Polish",
+          "Portuguese",
+          "Russian",
+          "Spanish",
+          "Swedish",
+          "Turkish"
         ],
         "unit": null,
         "source_section": "VoiceOver Kit",
