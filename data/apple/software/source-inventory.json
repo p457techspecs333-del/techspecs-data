@@ -397,10 +397,11 @@
     "2026-11-10 verification correction: iTunes 9.2 for Windows no longer treats iOS 4 device-feature requirements as the Windows operating-system minimum.",
     "2026-11-11 normalization pass: Logic Pro 9 and MainStage 2 previously retained extensive official feature text but had incomplete structured requirements. Minimum/recommended operating system, processor, memory, display, storage, optional content, and selected audio/MIDI/mixer/surround capabilities are now normalized with source-section provenance. Full original source text remains preserved.",
     "2026-11-11 source-extraction audit: the archived HTML for iTunes 10.7, 11 and 12 for Windows contained hardware/video-playback requirements omitted from the extracted source_text; those verbatim lines are now restored and normalized fields aligned to the archived wording. A screen-resolution field was removed from both iTunes 8.0.2 records because it is absent from their archived HTML. This distinguishes true source facts from extraction artifacts.",
-    "Additional source audit: removed one iTunes 9.2 for Windows compatibility statement about organizing iOS 4 home-screen apps because it does not appear in the archived official HTML; the remaining three statements in that normalized field are present in the archive."
+    "Additional source audit: removed one iTunes 9.2 for Windows compatibility statement about organizing iOS 4 home-screen apps because it does not appear in the archived official HTML; the remaining three statements in that normalized field are present in the archive.",
+    "2026-11-11 repository pipeline status: 364 product records pass schema validation with zero errors; archived-source audit reports zero missing archives, source-title mismatches or canonical-URL mismatches; live manifest, catalogue and sampled product routes pass."
   ],
   "record_audit": {
-    "checked_at": "2026-11-10",
+    "checked_at": "2026-11-11",
     "product_record_count": 22,
     "source_policy": "Official Apple software technical-specification pages and documentation index; no absent values inferred.",
     "normalization_status": "partially_normalized",
@@ -418,13 +419,13 @@
       "Expanded iTunes 10.7 and 11 Mac/Windows requirements into processor, graphics, display, memory/storage, network, sound, optical-drive and platform fields where explicitly stated; restored omitted Windows XP/Vista and 64-bit installer requirements.",
       "Expanded iTunes 8.2 Mac and Windows requirements into explicit processor, memory, graphics/video RAM, display, network, sound, optical-drive, QuickTime, OS/architecture and connected-device compatibility fields.",
       "Expanded iTunes 8.0.2 and 8.1.1 Mac/Windows requirements into explicit processor, memory, graphics/video RAM, display, network, sound, optical-drive, QuickTime, OS/architecture and accessibility fields.",
-      "Corrected iTunes 9.2 for Windows so iOS 4 connected-device compatibility is not misclassified as the Windows OS requirement; restored Windows XP/Vista/Windows 7 and 64-bit installer conditions, plus explicit hardware and peripheral fields."
+      "Corrected iTunes 9.2 for Windows so iOS 4 connected-device compatibility is not misclassified as the Windows OS requirement; restored Windows XP/Vista/Windows 7 and 64-bit installer conditions, plus explicit hardware and peripheral fields.",
+      "Repository-wide schema and inventory validation, archived-source metadata audit, catalogue regeneration, and live manifest/catalogue/product-route smoke test passed on 2026-11-11."
     ],
     "remaining": [
       "Verify every software record's source URL and archived HTML against the exact version-specific official Apple page.",
       "Check requirements for Aperture, Compressor, Final Cut Pro, Logic Pro, MainStage, Motion and QuickTime Pro against their exact source sections.",
-      "Review legacy iTunes 8.0.2 and 8.1.1 device-compatibility statements and preserve their exact version-specific distinctions.",
-      "Run full repository schema, catalogue and archive/source consistency checks."
+      "Review legacy iTunes 8.0.2 and 8.1.1 device-compatibility statements and preserve their exact version-specific distinctions."
     ]
   }
 }
