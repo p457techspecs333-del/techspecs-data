@@ -432,6 +432,12 @@
         "unit": null,
         "source_section": "Environmental requirements",
         "verification_status": "source_transcribed"
+      },
+      "non_operating_temperature": {
+        "value": "-4° to 113° F (-20° to 45° C)",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
       }
     },
     "language_support": {
