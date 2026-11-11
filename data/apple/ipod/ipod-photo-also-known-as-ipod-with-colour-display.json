@@ -30,8 +30,9 @@
     "verification_notes": "This record's retained evidence is extracted from Apple's general 'Identify your iPod model' page, not an individual technical-specifications page. The archived HTML file is the shared source page. Only identification facts explicitly present in that page are supported; detailed technical specifications require separate model-specific sources.",
     "notes": [
       "Primary evidence is Apple's official iPod identification page; it supports only the model-identification statements retained in the source section.",
-      "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually.",
-      "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112449 (apple_remaining_extraction/technical_specs_html/ipod-photo-40-60gb-tech-specs.html); This technical-specification page covers the 40 GB and 60 GB iPod photo models; the record's 30 GB option requires separate evidence. Typed normalized values were not inferred by this archival pass."
+      "The archived model-specific technical-specification page covers 40GB and 60GB only. The record's 30GB option remains supported only by the general identification page and is not independently verified by this technical page.",
+      "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112449 (apple_remaining_extraction/technical_specs_html/ipod-photo-40-60gb-tech-specs.html); This technical-specification page covers the 40 GB and 60 GB iPod photo models; the record's 30 GB option requires separate evidence. Typed normalized values were not inferred by this archival pass.",
+      "The 40GB/60GB technical specification is preserved in separate source sections and normalized fields; do not apply those capacity-specific fields to the 30GB option."
     ]
   },
   "extraction": {
@@ -142,7 +143,8 @@
   "record_notes": [
     "Archival-first-pass record; normalized specifications not inferred.",
     "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text.",
-    "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112449 (apple_remaining_extraction/technical_specs_html/ipod-photo-40-60gb-tech-specs.html); This technical-specification page covers the 40 GB and 60 GB iPod photo models; the record's 30 GB option requires separate evidence. Typed normalized values were not inferred by this archival pass."
+    "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112449 (apple_remaining_extraction/technical_specs_html/ipod-photo-40-60gb-tech-specs.html); This technical-specification page covers the 40 GB and 60 GB iPod photo models; the record's 30 GB option requires separate evidence. Typed normalized values were not inferred by this archival pass.",
+    "2026-11-11 normalization pass: technical specifications were normalized for the 40GB and 60GB iPod photo models only. The 30GB option remains a documented variant-coverage gap; no 40/60GB values were applied to it."
   ],
   "normalized_specifications": {
     "navigation_interface": {
@@ -192,6 +194,304 @@
         "source_section": "iPod photo (also known as iPod with colour display)",
         "verification_status": "source_transcribed",
         "notes": "Descriptive text transcribed from the official Apple identification page, excluding repeated model/date metadata lines."
+      }
+    },
+    "size_weight_statements": {
+      "value": {
+        "value": [
+          "Height: 4.1 in",
+          "Width: 2.4 in",
+          "Depth: 0.75 in",
+          "Weight: 6.4 oz (181 g)"
+        ],
+        "unit": null,
+        "source_section": "Size and weight (40 GB and 60 GB models)",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "dimensions": {
+      "height": {
+        "value": 4.1,
+        "unit": "in",
+        "source_section": "Size and weight (40 GB and 60 GB models)",
+        "verification_status": "source_transcribed"
+      },
+      "width": {
+        "value": 2.4,
+        "unit": "in",
+        "source_section": "Size and weight (40 GB and 60 GB models)",
+        "verification_status": "source_transcribed"
+      },
+      "depth": {
+        "value": 0.75,
+        "unit": "in",
+        "source_section": "Size and weight (40 GB and 60 GB models)",
+        "verification_status": "source_transcribed"
+      },
+      "weight": {
+        "value": 6.4,
+        "unit": "oz",
+        "source_section": "Size and weight (40 GB and 60 GB models)",
+        "verification_status": "source_transcribed",
+        "notes": "Source also states 181 grams; the page gives the same dimensions for the 40GB and 60GB models."
+      }
+    },
+    "storage": {
+      "capacity": {
+        "value": [
+          40,
+          60
+        ],
+        "unit": "GB",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed",
+        "notes": "This technical-specification page covers the 40GB and 60GB models only. The product record also lists a 30GB option from the identification page; that variant remains unverified by this technical page."
+      },
+      "medium": {
+        "value": "hard disk drive",
+        "unit": null,
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed"
+      },
+      "songs_at_128_kbps_aac": {
+        "value": [
+          10000,
+          15000
+        ],
+        "unit": "songs",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "display": {
+      "technology": {
+        "value": "2-inch color liquid crystal display with blue-white LED backlight",
+        "unit": null,
+        "source_section": "Display (40 GB and 60 GB models)",
+        "verification_status": "source_transcribed"
+      },
+      "diagonal": {
+        "value": 2,
+        "unit": "inches",
+        "source_section": "Display (40 GB and 60 GB models)",
+        "verification_status": "source_transcribed"
+      },
+      "resolution": {
+        "value": "220 × 176",
+        "unit": "pixels",
+        "source_section": "Display (40 GB and 60 GB models)",
+        "verification_status": "source_transcribed"
+      },
+      "dot_pitch": {
+        "value": 0.18,
+        "unit": "mm",
+        "source_section": "Display (40 GB and 60 GB models)",
+        "verification_status": "source_transcribed"
+      },
+      "color_depth": {
+        "value": 16,
+        "unit": "bit",
+        "source_section": "Display (40 GB and 60 GB models)",
+        "verification_status": "source_transcribed"
+      },
+      "color_count": {
+        "value": 65536,
+        "unit": "colors",
+        "source_section": "Display (40 GB and 60 GB models)",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "audio": {
+      "skip_protection_time": {
+        "value": 25,
+        "unit": "minutes",
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      },
+      "frequency_response": {
+        "value": "20Hz to 20,000Hz",
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      },
+      "formats_supported": {
+        "value": [
+          "AAC (16 to 320 Kbps)",
+          "MP3 (32 to 320 Kbps)",
+          "MP3 VBR",
+          "Audible",
+          "AIFF",
+          "Apple Lossless",
+          "WAV"
+        ],
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "photo_support": {
+      "formats_supported": {
+        "value": "Syncs iPod-viewable photos in JPEG, BMP, GIF, TIFF, PSD (Mac only) and PNG formats",
+        "unit": null,
+        "source_section": "Photo support",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "headphones": {
+      "type": {
+        "value": "Earbud-style headphones",
+        "unit": null,
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      },
+      "driver_diameter": {
+        "value": 18,
+        "unit": "mm",
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      },
+      "driver_magnet": {
+        "value": "Neodymium transducer magnets",
+        "unit": null,
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      },
+      "frequency_response": {
+        "value": "20Hz to 20,000Hz",
+        "unit": null,
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      },
+      "impedance": {
+        "value": 32,
+        "unit": "ohms",
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "connectors": {
+      "ports": {
+        "value": [
+          "Dock connector",
+          "3.5-mm stereo headphone jack",
+          "Wired remote connector"
+        ],
+        "unit": null,
+        "source_section": "Input and output",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "connectivity": {
+      "interfaces": {
+        "value": "FireWire 400 and USB 2.0 through dock connector",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "system_requirements": {
+      "mac": {
+        "value": "Macintosh computer with FireWire port or built-in USB 2.0 port; Mac OS X v10.2.8 or later for FireWire; USB 2.0 requires Mac OS X v10.3.4 or later",
+        "unit": null,
+        "source_section": "Mac requirements",
+        "verification_status": "source_transcribed"
+      },
+      "windows": {
+        "value": "PC with FireWire or USB 2.0 port or card; Windows 2000 with Service Pack 4 or Windows XP Home or Professional",
+        "unit": null,
+        "source_section": "Windows requirements",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "environment": {
+      "operating_temperature": {
+        "value": "32° to 95° F (0° to 35° C)",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "non_operating_temperature": {
+        "value": "-4° to 113° F (-20° to 45° C)",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "relative_humidity": {
+        "value": "5% to 95% noncondensing",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "maximum_operating_altitude": {
+        "value": "10,000 feet (3000 m)",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "battery": {
+      "type": {
+        "value": "Built-in rechargeable lithium ion battery",
+        "unit": null,
+        "source_section": "Power and battery (3)",
+        "verification_status": "source_transcribed"
+      },
+      "music_playback_time_max": {
+        "value": 15,
+        "unit": "hours",
+        "source_section": "Power and battery (3)",
+        "verification_status": "source_transcribed"
+      },
+      "slideshow_playback_time_max": {
+        "value": 5,
+        "unit": "hours",
+        "source_section": "Power and battery (3)",
+        "verification_status": "source_transcribed",
+        "notes": "Without TV out."
+      },
+      "standby_time": {
+        "value": 1,
+        "unit": "month",
+        "source_section": "Power and battery (3)",
+        "verification_status": "source_transcribed"
+      },
+      "charging_method": {
+        "value": "FireWire or USB 2.0 to computer system or power adapter",
+        "unit": null,
+        "source_section": "Power and battery (3)",
+        "verification_status": "source_transcribed"
+      },
+      "fast_charge_time": {
+        "value": 3,
+        "unit": "hours",
+        "source_section": "Power and battery (3)",
+        "verification_status": "source_transcribed",
+        "notes": "Fast charge reaches up to 80% of battery capacity."
+      },
+      "full_charge_time": {
+        "value": 5,
+        "unit": "hours",
+        "source_section": "Power and battery (3)",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "in_the_box": {
+      "accessories": {
+        "value": "Earbud headphones, iPod Power Adapter, Dock Connector to FireWire cable, Dock Connector to USB 2.0 cable, iPod photo AV cable, carrying case, Dock",
+        "unit": null,
+        "source_section": "Included accessories",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "included_software": {
+      "items": {
+        "value": [
+          "iTunes for Mac",
+          "iTunes for Windows"
+        ],
+        "unit": null,
+        "source_section": "Included software",
+        "verification_status": "source_transcribed"
       }
     }
   }
