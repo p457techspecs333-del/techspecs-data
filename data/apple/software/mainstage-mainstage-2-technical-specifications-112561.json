@@ -44,7 +44,8 @@
   "record_notes": [
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Field extraction pass 2026-11-09: version labels and explicit software/hardware requirements parsed from preserved official Apple source sections.",
-    "2026-11-10 identity correction: product.model includes the official version designation from the technical-specification page title."
+    "2026-11-10 identity correction: product.model includes the official version designation from the technical-specification page title.",
+    "2026-11-11 normalization pass: MainStage 2's OS, processor, memory, display, QuickTime, installation media, storage and optional-content requirements are now structured from the archived official source. The original source text and detailed feature list remain preserved."
   ],
   "normalized_specifications": {
     "software_version": {
@@ -75,6 +76,160 @@
         "source_section": "MainStage 2 - Technical Specifications",
         "verification_status": "source_transcribed",
         "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "minimum_system_requirements_statements": {
+      "value": {
+        "value": [
+          "Mac computer with a 1.25GHz or faster PowerPC G4 processor",
+          "PowerPC G5, Intel Core Duo, or Intel Xeon processor highly recommended",
+          "1GB of RAM (2GB or more highly recommended)",
+          "Display with 1024-by-768 resolution (1280-by-800 or higher recommended)",
+          "Mac OS X v10.4.9 or later",
+          "QuickTime 7.2 or later",
+          "DVD drive for installation",
+          "PCI Express, ExpressCard/34, USB, or FireWire based audio interface recommended",
+          "7GB to install all applications and required content",
+          "Additional 39GB to install all optional content"
+        ],
+        "unit": null,
+        "source_section": "Minimum requirements to install all applications",
+        "verification_status": "source_transcribed",
+        "notes": "Exact requirement statements transcribed from the archived official source; optional content breakdown is separately normalized below."
+      }
+    },
+    "processor_requirements": {
+      "minimum": {
+        "value": "1.25GHz or faster PowerPC G4",
+        "unit": null,
+        "source_section": "Minimum requirements to install all applications",
+        "verification_status": "source_transcribed"
+      },
+      "recommended": {
+        "value": [
+          "PowerPC G5",
+          "Intel Core Duo",
+          "Intel Xeon"
+        ],
+        "unit": null,
+        "source_section": "Minimum requirements to install all applications",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "operating_system_requirements": {
+      "minimum": {
+        "value": "Mac OS X v10.4.9 or later",
+        "unit": null,
+        "source_section": "Minimum requirements to install all applications",
+        "verification_status": "source_transcribed"
+      },
+      "quicktime": {
+        "value": "QuickTime 7.2 or later",
+        "unit": null,
+        "source_section": "Minimum requirements to install all applications",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "display_requirements": {
+      "minimum_resolution": {
+        "value": [
+          1024,
+          768
+        ],
+        "unit": "pixels",
+        "source_section": "Minimum requirements to install all applications",
+        "verification_status": "source_transcribed"
+      },
+      "recommended_resolution": {
+        "value": [
+          1280,
+          800
+        ],
+        "unit": "pixels",
+        "source_section": "Minimum requirements to install all applications",
+        "verification_status": "source_transcribed",
+        "notes": "Source says 1280-by-800 or higher recommended."
+      }
+    },
+    "memory_requirement_details": {
+      "minimum": {
+        "value": 1,
+        "unit": "GB RAM",
+        "source_section": "Minimum requirements to install all applications",
+        "verification_status": "source_transcribed"
+      },
+      "recommended": {
+        "value": 2,
+        "unit": "GB RAM",
+        "source_section": "Minimum requirements to install all applications",
+        "verification_status": "source_transcribed",
+        "notes": "Source says 2GB or more highly recommended; it also recommends at least 2GB for large EXS instruments."
+      }
+    },
+    "storage_requirement_details": {
+      "required_content": {
+        "value": 7,
+        "unit": "GB",
+        "source_section": "Available disk space",
+        "verification_status": "source_transcribed",
+        "notes": "Required to install all applications and required content."
+      },
+      "optional_content": {
+        "value": 39,
+        "unit": "GB",
+        "source_section": "Available disk space",
+        "verification_status": "source_transcribed",
+        "notes": "Optional content may be installed on a separate disk."
+      },
+      "optional_content_breakdown": {
+        "value": {
+          "Jam Pack collections": 10,
+          "sound effects": 16,
+          "surround music beds": 6,
+          "other optional content": 7
+        },
+        "unit": "GB",
+        "source_section": "Available disk space",
+        "verification_status": "source_transcribed",
+        "notes": "Component values copied from Apple's published breakdown; totals are not recomputed."
+      }
+    },
+    "installation_requirements": {
+      "items": {
+        "value": [
+          "DVD drive for installation",
+          "PCI Express, ExpressCard/34, USB, or FireWire based audio interface recommended"
+        ],
+        "unit": null,
+        "source_section": "Minimum requirements to install all applications",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "performance_features": {
+      "maximum_keyboard_layers_per_patch": {
+        "value": 32,
+        "unit": "layers",
+        "source_section": "Sounds for the Stage",
+        "verification_status": "source_transcribed"
+      },
+      "maximum_layers_per_split": {
+        "value": 8,
+        "unit": "layers",
+        "source_section": "Sounds for the Stage",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "in_box_contents": {
+      "items": {
+        "value": [
+          "DVD containing Logic Pro 8, MainStage, Soundtrack Pro 2, Studio Instruments, Studio Effects, WaveBurner 1.5, Compressor 3, Impulse Response Utility, Apple Loops Utility, QuickTime 7 Pro, and required content",
+          "Six content DVDs containing Jam Pack collections, sound effects, surround music beds, EXS24 samples, and impulse response files",
+          "Demo content DVD",
+          "Printed and electronic documentation"
+        ],
+        "unit": null,
+        "source_section": "Contents",
+        "verification_status": "source_transcribed"
       }
     }
   }
