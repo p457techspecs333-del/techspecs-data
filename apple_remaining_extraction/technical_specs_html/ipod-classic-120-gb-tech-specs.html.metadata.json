@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://support.apple.com/en-ie/112321",
+  "final_url": "https://support.apple.com/en-ie/112321",
+  "canonical_url": "https://support.apple.com/en-ie/112321",
+  "page_title": "iPod classic (120GB) - Technical Specifications - Apple Support (IE)",
+  "publisher": "Apple",
+  "captured_at_utc": "2026-11-11T11:05:32.422817+00:00",
+  "content_type": "text/html;charset=utf-8",
+  "sha256": "d36dcf6a3935c3aa002f56b3dee74303d70f533087844b88033644b022dd1fb0",
+  "archive_path": "apple_remaining_extraction/technical_specs_html/ipod-classic-120-gb-tech-specs.html",
+  "request_file": "source-archive-requests/ipod-technical-specifications.json"
+}

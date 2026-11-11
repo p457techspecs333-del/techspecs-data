@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://support.apple.com/en-ie/112422",
+  "final_url": "https://support.apple.com/en-ie/112422",
+  "canonical_url": "https://support.apple.com/en-ie/112422",
+  "page_title": "iPod shuffle (4th generation) - Technical Specifications - Apple Support (IE)",
+  "publisher": "Apple",
+  "captured_at_utc": "2026-11-11T11:05:31.425700+00:00",
+  "content_type": "text/html;charset=utf-8",
+  "sha256": "6c87cc79fcf11037b15668006c5512ade300e7d8f137e0ff1dc2c664c3098cb6",
+  "archive_path": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-4th-generation-tech-specs.html",
+  "request_file": "source-archive-requests/ipod-technical-specifications.json"
+}

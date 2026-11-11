@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://support.apple.com/en-ie/111961",
+  "final_url": "https://support.apple.com/en-ie/111961",
+  "canonical_url": "https://support.apple.com/en-ie/111961",
+  "page_title": "iPod touch (7th generation) - Technical Specifications - Apple Support (IE)",
+  "publisher": "Apple",
+  "captured_at_utc": "2026-11-11T11:05:30.814313+00:00",
+  "content_type": "text/html;charset=utf-8",
+  "sha256": "c3d2e4cb6e5cf1b14548beca70b55a4665f2f01250c1acaf0b71e7df6ccfd262",
+  "archive_path": "apple_remaining_extraction/technical_specs_html/ipod-touch-7th-generation-tech-specs.html",
+  "request_file": "source-archive-requests/ipod-technical-specifications.json"
+}
