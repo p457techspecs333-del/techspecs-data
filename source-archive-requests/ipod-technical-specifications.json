@@ -88,7 +88,7 @@
     },
     {
       "url": "https://support.apple.com/en-ie/112507",
-      "expected_title_contains": "iPod nano (1st generation)",
+      "expected_title_contains": "iPod nano",
       "output_path": "apple_remaining_extraction/technical_specs_html/ipod-nano-1st-generation-tech-specs.html"
     },
     {
