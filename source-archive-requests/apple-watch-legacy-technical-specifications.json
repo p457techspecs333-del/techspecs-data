@@ -1,5 +1,5 @@
 {
-  "purpose": "Archive official Apple technical-specification pages for the ten older Apple Watch records that currently lack retained HTML sources. These are archival evidence only; map each page to its matching product record after confirming the archived title and canonical URL. Do not overwrite normalized specifications automatically.",
+  "purpose": "Archive official Apple technical-specification pages for the ten older Apple Watch records that currently lack retained HTML sources. These are archival evidence only; map each page to its matching product record after confirming the archived title and canonical URL. Do not overwrite normalized specifications automatically. Also archive Apple's Watch identification page so model/year identity sections retain their own source provenance.",
   "sources": [
     {
       "url": "https://support.apple.com/en-ie/111985",
@@ -50,6 +50,11 @@
       "url": "https://support.apple.com/en-ae/112009",
       "expected_title_contains": "Apple Watch (1st generation) - Technical Specifications",
       "output_path": "apple_watch_extraction/technical_specs_html/apple-watch-first-generation-tech-specs.html"
+    },
+    {
+      "url": "https://support.apple.com/en-ie/108056",
+      "expected_title_contains": "Identify your Apple Watch",
+      "output_path": "apple_watch_extraction/technical_specs_html/apple-watch-model-identification.html"
     }
   ]
 }
