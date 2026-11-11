@@ -45,7 +45,8 @@
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Field extraction pass 2026-11-09: version labels and explicit software/hardware requirements parsed from preserved official Apple source sections.",
     "2026-11-10 identity correction: product.model now includes the official version and platform from the technical-specification page title, preserving distinct software releases.",
-    "2026-11-10 verification correction: restored Windows XP Service Pack 2 and Vista requirements omitted from the prior normalized OS list, and separated CPU, graphics, display, sound, network, optical-drive and platform requirements."
+    "2026-11-10 verification correction: restored Windows XP Service Pack 2 and Vista requirements omitted from the prior normalized OS list, and separated CPU, graphics, display, sound, network, optical-drive and platform requirements.",
+    "2026-11-11 source-extraction audit: the archived HTML contained full Hardware/video-playback requirements that were missing from the extracted section text. The extracted source section now includes those verbatim lines; normalized fields point to the recovered text."
   ],
   "normalized_specifications": {
     "itunes_11_for_windows_technical_specifications_statements": {
@@ -144,14 +145,14 @@
     "graphics_requirements": {
       "value": {
         "value": [
-          "DirectX 9.0-compatible video card required for Standard Definition video",
-          "Intel GMA X3000, ATI Radeon X1300, or NVIDIA GeForce 6150 or better required for 720p HD playback",
-          "Intel GMA X4500HD; ATI Radeon HD 2400; Nvidia GeForce 8300 GS or better required for 1080p HD playback"
+          "DirectX 9.0-compatible video card",
+          "Intel GMA X3000, ATI Radeon X1300, or NVIDIA GeForce 6150 or better",
+          "Intel GMA X4500HD; ATI Radeon HD 2400; Nvidia GeForce 8300 GS or better"
         ],
         "unit": null,
-        "source_section": "iTunes 11 for Windows - Technical Specifications",
+        "source_section": "Hardware",
         "verification_status": "source_transcribed",
-        "notes": "Graphics requirements are transcribed from the source's playback-tier statements; qualifiers retained."
+        "notes": "Graphics hardware terms extracted from the full verbatim video-playback requirement statements below."
       }
     },
     "display_requirements": {
@@ -160,9 +161,9 @@
           "Screen resolution of 1024x768 or greater; 1280x800 or greater is required to play an iTunes LP or iTunes Extras"
         ],
         "unit": null,
-        "source_section": "iTunes 11 for Windows - Technical Specifications",
+        "source_section": "Hardware",
         "verification_status": "source_transcribed",
-        "notes": "Exact display requirement statement from the archived Apple source."
+        "notes": "Verbatim display-resolution requirement transcribed from the archived official Apple HTML."
       }
     },
     "sound_requirements": {
@@ -208,6 +209,19 @@
         "source_section": "iTunes 11 for Windows - Technical Specifications",
         "verification_status": "source_transcribed",
         "notes": "Installer architecture and accessibility software requirements are preserved as published."
+      }
+    },
+    "video_playback_requirements": {
+      "value": {
+        "value": [
+          "To play Standard Definition video from the iTunes Store, an Intel Pentium D or faster processor, 512MB of RAM, and a DirectX 9.0-compatible video card is required.",
+          "To play 720p HD video, an iTunes LP, or iTunes Extras, a 2.0GHz Intel Core 2 Duo or faster processor, 1GB of RAM, and an Intel GMA X3000, ATI Radeon X1300, or NVIDIA GeForce 6150 or better is required.",
+          "To play 1080p HD video, a 2.4GHz Intel Core 2 Duo or faster processor, 2GB of RAM, and an Intel GMA X4500HD; ATI Radeon HD 2400; Nvidia GeForce 8300 GS or better is required."
+        ],
+        "unit": null,
+        "source_section": "Hardware",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim requirements transcribed from the archived official Apple HTML."
       }
     }
   }
