@@ -55,6 +55,11 @@
       "url": "https://support.apple.com/en-ie/112320",
       "expected_title_contains": "iPod nano (4th generation) - Technical Specifications",
       "output_path": "apple_remaining_extraction/technical_specs_html/ipod-nano-4th-generation-tech-specs.html"
+    },
+    {
+      "url": "https://support.apple.com/en-ie/112319",
+      "expected_title_contains": "iPod touch (2nd generation) - Technical Specifications",
+      "output_path": "apple_remaining_extraction/technical_specs_html/ipod-touch-2nd-generation-tech-specs.html"
     }
   ]
 }
