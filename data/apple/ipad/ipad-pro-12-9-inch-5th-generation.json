@@ -12,15 +12,17 @@
   "source": {
     "source_type": "manufacturer",
     "source_url": "https://support.apple.com/en-ie/111896",
-    "source_file": null,
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html",
     "source_title": "iPad Pro, 12.9-inch (5th generation) - Technical Specifications - Apple Support (IE)",
     "publisher": "Apple Support (Ireland)",
     "published_at": null,
-    "checked_at": "2026-11-07",
-    "verification_status": "url_checked",
-    "verification_notes": "Official Apple Support URL checked. Original section text is retained in this record, but the previously referenced local HTML archive was not present in the repository. Normalized specifications have not been independently extracted.",
+    "checked_at": "2026-11-11",
+    "verification_status": "partially_verified",
+    "verification_notes": "Original Apple Support HTML was archived on 2026-11-11 and the canonical URL and page title were checked against the archive. Retained section headings align with the archived page; normalized specification values have not yet been independently rechecked against every section.",
     "notes": [
-      "No archived HTML file was found under the previous source_file path during the 2026-11-11 repository audit; the record retains extracted section text, but no local copy of the original HTML is claimed."
+      "Original HTML is retained at the source_file path; the companion .metadata.json file records capture time and SHA-256.",
+      "The retained extracted sections now carry their own source_url and source_file. The generic Apple Footer section has been excluded from the product evidence.",
+      "Normalized fields still require independent field-by-field verification against the archived source before being treated as fully verified."
     ]
   },
   "extraction": {
@@ -33,151 +35,219 @@
   "sections": [
     {
       "heading": "Finish",
-      "source_text": "Silver\nSpace Gray"
+      "source_text": "Silver\nSpace Gray",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Capacity 1",
-      "source_text": "128GB\n256GB\n512GB\n1TB\n2TB"
+      "source_text": "128GB\n256GB\n512GB\n1TB\n2TB",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Size and Weight 2",
-      "source_text": "Wi-Fi models\nWidth: 8.46 inches (214.9 mm)\nHeight: 11.04 inches (280.6 mm)\nDepth: 0.25 inch (6.4 mm)\nWeight: 1.5 pounds (682 grams)\nWi-Fi + Cellular models\nWidth: 8.46 inches (214.9 mm)\nHeight: 11.04 inches (280.6 mm)\nDepth: 0.25 inch (6.4 mm)\nWeight: 1.51 pounds (685 grams)"
+      "source_text": "Wi-Fi models\nWidth: 8.46 inches (214.9 mm)\nHeight: 11.04 inches (280.6 mm)\nDepth: 0.25 inch (6.4 mm)\nWeight: 1.5 pounds (682 grams)\nWi-Fi + Cellular models\nWidth: 8.46 inches (214.9 mm)\nHeight: 11.04 inches (280.6 mm)\nDepth: 0.25 inch (6.4 mm)\nWeight: 1.51 pounds (685 grams)",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Buttons and Connectors",
-      "source_text": "Five microphones\nFour speakers\nTop button\nVolume up/down\nCamera\nMagnetic connector\nThunderbolt/USB 4\nSmart Connector\nNano-SIM tray"
+      "source_text": "Five microphones\nFour speakers\nTop button\nVolume up/down\nCamera\nMagnetic connector\nThunderbolt/USB 4\nSmart Connector\nNano-SIM tray",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "In the Box",
-      "source_text": "iPad Pro\nUSB-C Charge Cable (1 meter)\n20W USB-C Power Adapter"
+      "source_text": "iPad Pro\nUSB-C Charge Cable (1 meter)\n20W USB-C Power Adapter",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Display",
-      "source_text": "Liquid Retina XDR display\n12.9-inch (diagonal) mini-LED backlit Multi‑Touch display with IPS technology\n2D backlighting system with 2596 full‑array local dimming zones\n2732-by-2048-pixel resolution at 264 pixels per inch (ppi)\nProMotion technology\nWide color display (P3)\nTrue Tone display\nFingerprint-resistant oleophobic coating\nFully laminated display\nAntireflective coating\n1.8% reflectivity\nSDR brightness: 600 nits max\nXDR brightness: 1000 nits max full screen, 1600 nits peak (HDR content only)\n1,000,000:1 contrast ratio\nSupports\nApple Pencil (2nd generation), Apple Pencil\n(USB-C)\nThe 12.9-inch iPad Pro display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 12.9 inches diagonally (actual viewable area is less)."
+      "source_text": "Liquid Retina XDR display\n12.9-inch (diagonal) mini-LED backlit Multi‑Touch display with IPS technology\n2D backlighting system with 2596 full‑array local dimming zones\n2732-by-2048-pixel resolution at 264 pixels per inch (ppi)\nProMotion technology\nWide color display (P3)\nTrue Tone display\nFingerprint-resistant oleophobic coating\nFully laminated display\nAntireflective coating\n1.8% reflectivity\nSDR brightness: 600 nits max\nXDR brightness: 1000 nits max full screen, 1600 nits peak (HDR content only)\n1,000,000:1 contrast ratio\nSupports\nApple Pencil (2nd generation), Apple Pencil\n(USB-C)\nThe 12.9-inch iPad Pro display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 12.9 inches diagonally (actual viewable area is less).",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Chip",
-      "source_text": "Apple M1 chip\n8-core CPU with 4 performance cores and 4 efficiency cores\n8-core GPU\n16-core Neural Engine\n8GB RAM on models with 128GB, 256GB, or 512GB storage\n16GB RAM on models with 1TB or 2TB storage"
+      "source_text": "Apple M1 chip\n8-core CPU with 4 performance cores and 4 efficiency cores\n8-core GPU\n16-core Neural Engine\n8GB RAM on models with 128GB, 256GB, or 512GB storage\n16GB RAM on models with 1TB or 2TB storage",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Apple Intelligence 15",
-      "source_text": "Built into your iPad, Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.\nLearn more about Apple Intelligence"
+      "source_text": "Built into your iPad, Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.\nLearn more about Apple Intelligence",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Camera",
-      "source_text": "Pro camera system: Wide and Ultra Wide cameras\nWide: 12MP, ƒ/1.8 aperture\nUltra Wide: 10MP, ƒ/2.4 aperture, and 125° field of view\n2x optical zoom out\nDigital zoom up to 5x\nFive‑element lens (Wide and Ultra Wide)\nBrighter True Tone flash\nPanorama (up to 63MP)\nSapphire crystal lens cover\nAutofocus with Focus Pixels (Wide)\nSmart HDR 3\nWide color capture for photos and Live Photos\nLens correction (Ultra Wide)\nAdvanced red-eye correction\nPhoto geotagging\nAuto image stabilization\nBurst mode\nImage formats captured: HEIF and JPEG"
+      "source_text": "Pro camera system: Wide and Ultra Wide cameras\nWide: 12MP, ƒ/1.8 aperture\nUltra Wide: 10MP, ƒ/2.4 aperture, and 125° field of view\n2x optical zoom out\nDigital zoom up to 5x\nFive‑element lens (Wide and Ultra Wide)\nBrighter True Tone flash\nPanorama (up to 63MP)\nSapphire crystal lens cover\nAutofocus with Focus Pixels (Wide)\nSmart HDR 3\nWide color capture for photos and Live Photos\nLens correction (Ultra Wide)\nAdvanced red-eye correction\nPhoto geotagging\nAuto image stabilization\nBurst mode\nImage formats captured: HEIF and JPEG",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Video Recording",
-      "source_text": "4K video recording at 24 fps, 25 fps, 30 fps, or 60 fps (Wide)\n1080p HD video recording at 25 fps, 30 fps, or 60 fps\n720p HD video recording at 30 fps\n2x optical zoom out\nAudio zoom\nBrighter True Tone flash\nSlo‑mo video support for 1080p at 120 fps or 240 fps\nTime‑lapse video with stabilization\nExtended dynamic range for video up to 30 fps\nCinematic video stabilization (4K, 1080p, and 720p)\nContinuous autofocus video\nPlayback zoom\nVideo formats recorded: HEVC and H.264\nStereo recording"
+      "source_text": "4K video recording at 24 fps, 25 fps, 30 fps, or 60 fps (Wide)\n1080p HD video recording at 25 fps, 30 fps, or 60 fps\n720p HD video recording at 30 fps\n2x optical zoom out\nAudio zoom\nBrighter True Tone flash\nSlo‑mo video support for 1080p at 120 fps or 240 fps\nTime‑lapse video with stabilization\nExtended dynamic range for video up to 30 fps\nCinematic video stabilization (4K, 1080p, and 720p)\nContinuous autofocus video\nPlayback zoom\nVideo formats recorded: HEVC and H.264\nStereo recording",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "TrueDepth Camera",
-      "source_text": "12MP Ultra Wide camera, 122° field of view\nƒ/2.4 aperture\nPortrait mode with advanced bokeh and Depth Control\nPortrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High‑Key Mono)\nAnimoji and Memoji\nSmart HDR 3\n1080p HD video recording at 25 fps, 30 fps, or 60 fps\nTime‑lapse video with stabilization\nExtended dynamic range for video up to 30 fps\nCinematic video stabilization (1080p and 720p)\nWide color capture for photos and Live Photos\nLens correction\nRetina Flash\nAuto image stabilization\nBurst mode"
+      "source_text": "12MP Ultra Wide camera, 122° field of view\nƒ/2.4 aperture\nPortrait mode with advanced bokeh and Depth Control\nPortrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High‑Key Mono)\nAnimoji and Memoji\nSmart HDR 3\n1080p HD video recording at 25 fps, 30 fps, or 60 fps\nTime‑lapse video with stabilization\nExtended dynamic range for video up to 30 fps\nCinematic video stabilization (1080p and 720p)\nWide color capture for photos and Live Photos\nLens correction\nRetina Flash\nAuto image stabilization\nBurst mode",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Video Calling 3",
-      "source_text": "FaceTime video\nCenter Stage\niPad to any FaceTime-enabled device over Wi-Fi or cellular"
+      "source_text": "FaceTime video\nCenter Stage\niPad to any FaceTime-enabled device over Wi-Fi or cellular",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Audio Calling 3",
-      "source_text": "FaceTime audio\niPad to any FaceTime-enabled device over Wi-Fi or cellular"
+      "source_text": "FaceTime audio\niPad to any FaceTime-enabled device over Wi-Fi or cellular",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Speakers",
-      "source_text": "Four speaker audio"
+      "source_text": "Four speaker audio",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Microphones",
-      "source_text": "Five studio-quality microphones for calls, video recording, and audio recording"
+      "source_text": "Five studio-quality microphones for calls, video recording, and audio recording",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Cellular and Wireless",
-      "source_text": "All models\n802.11ax Wi-Fi 6; simultaneous dual band (2.4GHz and 5GHz); HT80 with MIMO\nBluetooth 5.0 technology\nWi-Fi + Cellular models\nModel A2301 and A2379:\n5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n20, n25, n28, n38, n40, n41, n66, n71, n77, n78, n79)\n4\n5G NR mmWave (Bands n260, n261)\nFDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 66, 71)\nTD-LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48)\nUMTS/HSPA/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)\nData only\n5\nWi-Fi calling\n4\neSIM\n6\nLearn more about cellular data\nFor details on 5G and LTE support, contact your carrier and see\napple.com/uk/ipad/cellular/networks\n."
+      "source_text": "All models\n802.11ax Wi-Fi 6; simultaneous dual band (2.4GHz and 5GHz); HT80 with MIMO\nBluetooth 5.0 technology\nWi-Fi + Cellular models\nModel A2301 and A2379:\n5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n20, n25, n28, n38, n40, n41, n66, n71, n77, n78, n79)\n4\n5G NR mmWave (Bands n260, n261)\nFDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 66, 71)\nTD-LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48)\nUMTS/HSPA/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)\nData only\n5\nWi-Fi calling\n4\neSIM\n6\nLearn more about cellular data\nFor details on 5G and LTE support, contact your carrier and see\napple.com/uk/ipad/cellular/networks\n.",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "SIM Card",
-      "source_text": "Nano‑SIM (supports Apple SIM\n6\n)\neSIM\n6"
+      "source_text": "Nano‑SIM (supports Apple SIM\n6\n)\neSIM\n6",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Location",
-      "source_text": "All models\nDigital compass\nWi-Fi\niBeacon microlocation\nWi-Fi + Cellular models\nBuilt‑in GPS/GNSS\nCellular"
+      "source_text": "All models\nDigital compass\nWi-Fi\niBeacon microlocation\nWi-Fi + Cellular models\nBuilt‑in GPS/GNSS\nCellular",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Sensors",
-      "source_text": "Face ID\nLiDAR Scanner\nThree-axis gyro\nAccelerometer\nBarometer\nAmbient light sensor"
+      "source_text": "Face ID\nLiDAR Scanner\nThree-axis gyro\nAccelerometer\nBarometer\nAmbient light sensor",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Face ID",
-      "source_text": "Enabled by TrueDepth camera for facial recognition\nUnlock iPad\nSecure personal data within apps\nMake purchases from the iTunes Store, App Store, and Apple Books"
+      "source_text": "Enabled by TrueDepth camera for facial recognition\nUnlock iPad\nSecure personal data within apps\nMake purchases from the iTunes Store, App Store, and Apple Books",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Apple Pay",
-      "source_text": "Pay with your iPad using Face ID within apps and on the web\nSend and receive money in Messages\nLearn more about Apple Pay"
+      "source_text": "Pay with your iPad using Face ID within apps and on the web\nSend and receive money in Messages\nLearn more about Apple Pay",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Siri 7",
-      "source_text": "Use your voice to send messages, set reminders, and more\nGet proactive suggestions\nUse hands-free\nListen and identify songs\nLearn more about Siri"
+      "source_text": "Use your voice to send messages, set reminders, and more\nGet proactive suggestions\nUse hands-free\nListen and identify songs\nLearn more about Siri",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Charging and Expansion",
-      "source_text": "Thunderbolt / USB 4 port with support for:\nCharging\nDisplayPort\nThunderbolt 3 (up to 40Gb/s)\nUSB 4 (up to 40Gb/s)\nUSB 3.1 Gen 2 (up to 10Gb/s)"
+      "source_text": "Thunderbolt / USB 4 port with support for:\nCharging\nDisplayPort\nThunderbolt 3 (up to 40Gb/s)\nUSB 4 (up to 40Gb/s)\nUSB 3.1 Gen 2 (up to 10Gb/s)",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Display Support",
-      "source_text": "Supports full native resolution on the built-in display at millions of colors\nSupports one external display with up to 6K resolution at 60Hz\nThunderbolt 3 digital video output\nNative DisplayPort output over USB-C\nVGA, HDMI, DVI, and Thunderbolt 2 output supported using adapters (sold separately)\n8\nVideo mirroring\nUp to 4K AirPlay for mirroring, photos, and video out to Apple TV (2nd generation or later) or AirPlay 2–enabled smart TV\nVideo mirroring and video out support through USB-C Digital AV Multiport Adapter and USB-C VGA Multiport Adapter (adapters sold separately)\n8"
+      "source_text": "Supports full native resolution on the built-in display at millions of colors\nSupports one external display with up to 6K resolution at 60Hz\nThunderbolt 3 digital video output\nNative DisplayPort output over USB-C\nVGA, HDMI, DVI, and Thunderbolt 2 output supported using adapters (sold separately)\n8\nVideo mirroring\nUp to 4K AirPlay for mirroring, photos, and video out to Apple TV (2nd generation or later) or AirPlay 2–enabled smart TV\nVideo mirroring and video out support through USB-C Digital AV Multiport Adapter and USB-C VGA Multiport Adapter (adapters sold separately)\n8",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Power and Battery 9",
-      "source_text": "Built-in 40.88-watt-hour rechargeable lithium-polymer battery\nUp to 10 hours of surfing the web on Wi-Fi or watching video\nCharging via power adapter or USB-C to computer system\nWi-Fi + Cellular models\nUp to 9 hours of surfing the web using cellular data network"
+      "source_text": "Built-in 40.88-watt-hour rechargeable lithium-polymer battery\nUp to 10 hours of surfing the web on Wi-Fi or watching video\nCharging via power adapter or USB-C to computer system\nWi-Fi + Cellular models\nUp to 9 hours of surfing the web using cellular data network",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Operating System",
-      "source_text": "iPadOS 15\niPadOS comes with powerful features and built-in apps designed to take advantage of the unique capabilities of iPad.\nLearn more about iPadOS"
+      "source_text": "iPadOS 15\niPadOS comes with powerful features and built-in apps designed to take advantage of the unique capabilities of iPad.\nLearn more about iPadOS",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Accessibility",
-      "source_text": "Built-in accessibility features supporting vision, mobility, hearing, and cognitive disabilities help you get the most out of your iPad.\nLearn more about Accessibility\nFeatures include:\nVoiceOver\nVoice Control\nZoom\nMagnifier\nRTT support\nSiri and Dictation\nType to Siri\nSwitch Control\nClosed Captions\nAssistiveTouch\nSpoken Content"
+      "source_text": "Built-in accessibility features supporting vision, mobility, hearing, and cognitive disabilities help you get the most out of your iPad.\nLearn more about Accessibility\nFeatures include:\nVoiceOver\nVoice Control\nZoom\nMagnifier\nRTT support\nSiri and Dictation\nType to Siri\nSwitch Control\nClosed Captions\nAssistiveTouch\nSpoken Content",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Built-in Apps",
-      "source_text": "App Store\nBooks\nCalendar\nCamera\nClock\nContacts\nFaceTime\nFiles\nFind My\nHome\niTunes Store\nMagnifer\nMail\nMaps\nMeasure\nMessages\nMusic\nNews\nNotes\nPhoto Booth\nPhotos\nPodcasts\nReminders\nSafari\nSettings\nShortcuts\nSiri\nStocks\nTips\nTranslate\nTV\nVoice Memos"
+      "source_text": "App Store\nBooks\nCalendar\nCamera\nClock\nContacts\nFaceTime\nFiles\nFind My\nHome\niTunes Store\nMagnifer\nMail\nMaps\nMeasure\nMessages\nMusic\nNews\nNotes\nPhoto Booth\nPhotos\nPodcasts\nReminders\nSafari\nSettings\nShortcuts\nSiri\nStocks\nTips\nTranslate\nTV\nVoice Memos",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Free Apps from Apple",
-      "source_text": "Pages, Numbers, Keynote, iMovie, GarageBand, Clips, and Apple Store app are preinstalled on iPad.\nPages\nNumbers\nKeynote\niMovie\nGarageBand\nApple Store\nTrailers\nClips\nSwift Playgrounds\nSupport"
+      "source_text": "Pages, Numbers, Keynote, iMovie, GarageBand, Clips, and Apple Store app are preinstalled on iPad.\nPages\nNumbers\nKeynote\niMovie\nGarageBand\nApple Store\nTrailers\nClips\nSwift Playgrounds\nSupport",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "System Requirements",
-      "source_text": "Apple ID (required for some features)\nInternet access\n10\nSyncing to a Mac or PC requires:\nmacOS Catalina 10.15 or later using the Finder\nmacOS El Capitan 10.11.6 through macOS Mojave 10.14.6 using iTunes 12.8 or later\nWindows 10 and iTunes 12.12 or later (free download from\nitunes.com/uk/download\n)"
+      "source_text": "Apple ID (required for some features)\nInternet access\n10\nSyncing to a Mac or PC requires:\nmacOS Catalina 10.15 or later using the Finder\nmacOS El Capitan 10.11.6 through macOS Mojave 10.14.6 using iTunes 12.8 or later\nWindows 10 and iTunes 12.12 or later (free download from\nitunes.com/uk/download\n)",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Languages",
-      "source_text": "Language support\nEnglish (Australia, Canada, India, Singapore, UK, U.S.), Chinese (Simplified, Traditional, Traditional Hong Kong), French (Canada, France), German, Italian, Japanese, Korean, Spanish (Latin America, Mexico, Spain), Arabic, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hindi, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nQuickType keyboard support\nEnglish (Australia, Canada, India, Singapore, UK, U.S.), Chinese - Simplified (Handwriting, Pinyin QWERTY, Pinyin 10 Key, Shuangpin, Stroke), Chinese - Traditional (Cangjie, Handwriting, Pinyin QWERTY, Pinyin 10 Key, Shuangpin, Stroke, Sucheng, Zhuyin), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese (Kana, Romaji), Korean (2-Set, 10 Key), Spanish (Latin America, Mexico, Spain), Ainu, Albanian, Amharic, Arabic (Modern Standard, Najdi), Armenian, Assamese, Assyrian, Azerbaijani, Bangla, Belarusian, Bodo, Bulgarian, Burmese, Cantonese - Traditional (Cangjie, Handwriting, Stroke, Sucheng), Catalan, Cherokee, Croatian, Czech, Danish, Dhivehi, Dogri, Dutch, Emoji, Estonian, Faroese, Filipino, Finnish, Flemish, Fula (Adlam), Georgian, Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari, Latin, Transliteration), Hungarian, Icelandic, Igbo, Indonesian, Irish Gaelic, Kannada, Kashmiri (Arabic, Devanagari), Kazakh, Khmer, Konkani (Devanagari), Kurdish (Arabic, Latin), Kyrgyz, Lao, Latvian, Lithuanian, Macedonian, Maithili, Malay (Arabic, Latin), Malayalam, Maltese, Manipuri (Bangla, Meetei Mayek), Maori, Marathi, Mongolian, Navajo, Nepali, Norwegian (Bokmål, Nynorsk), Odia, Pashto, Persian, Persian (Afghanistan), Polish, Portuguese (Brazil, Portugal), Punjabi, Rohingya, Romanian, Russian, Sanskrit, Santali (Devanagari, Ol Chiki), Serbian (Cyrillic, Latin), Sindhi (Arabic, Devanagari), Sinhala, Slovak, Slovenian, Swahili, Swedish, Tajik, Tamil (Anjal, Tamil 99), Telugu, Thai, Tibetan, Tongan, Turkish, Turkmen, Ukrainian, Urdu, Uyghur, Uzbek (Arabic, Cyrillic, Latin), Vietnamese, Welsh\nQuickType keyboard support with autocorrection\nArabic (Modern Standard), Arabic (Najdi), Bangla, Bulgarian, Catalan, Cherokee, Chinese - Simplified (Pinyin QWERTY), Chinese - Traditional (Pinyin QWERTY), Chinese - Traditional (Zhuyin), Croatian, Czech, Danish, Dutch, English (Australia), English (Canada), English (India), English (Japan), English (Singapore), English (UK), English (U.S.), Estonian, Filipino, Finnish, Dutch (Belgium), French (Belgium), French (Canada), French (France), French (Switzerland), German (Austria), German (Germany), German (Switzerland), Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari), Hindi (Transliteration), Hungarian, Icelandic, Indonesian, Irish Gaelic, Italian, Japanese (Kana), Japanese (Romaji), Korean (2–set), Latvian, Lithuanian, Macedonian, Malay, Marathi, Norwegian (Bokmål), Norwegian (Nynorsk), Persian, Persian (Afghanistan), Polish, Portuguese (Brazil), Portuguese (Portugal), Punjabi, Romanian, Russian, Serbian (Cyrillic), Serbian (Latin), Slovak, Slovenian, Spanish (Latin America), Spanish (Mexico), Spanish (Spain), Swedish, Tamil (Anjal), Tamil (Tamil 99), Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese\nQuickType keyboard support with predictive input\nEnglish (Australia, Canada, India, Singapore, UK, U.S.), Chinese (Simplified, Traditional), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese, Korean, Spanish (Latin America, Mexico, Spain), Arabic (Modern Standard, Najdi), Cantonese (Traditional), Dutch, Hindi (Devanagari, Latin), Portuguese (Brazil, Portugal), Russian, Swedish, Thai, Turkish, Vietnamese\nQuickType keyboard support with multilingual input\nEnglish (U.S.), English (Australia), English (Canada), English (India), English (Singapore), English (UK), Chinese - Simplified (Pinyin), Chinese - Traditional (Pinyin), French (France), French (Belgium), French (Canada), French (Switzerland), German (Germany), German (Austria), German (Switzerland), Italian, Japanese (Romaji), Portuguese (Brazil), Portuguese (Portugal), Spanish (Spain), Spanish (Latin America), Spanish (Mexico), Dutch (Belgium), Dutch (Netherlands), Hindi (Latin)\nQuickType keyboard support with contextual suggestions\nEnglish (U.S.), English (Australia), English (Canada), English (India), English (Singapore), English (UK), Chinese (Simplified), French (Belgium), French (Canada), French (France), French (Switzerland), German (Austria), German (Germany), German (Switzerland), Italian, Spanish (Latin America), Spanish (Mexico), Spanish (Spain), Arabic (Modern Standard), Arabic (Najdi), Dutch (Belgium), Dutch (Netherlands), Hindi (Devanagari), Hindi (Latin), Russian, Swedish, Portuguese (Brazil), Turkish, Vietnamese\nQuickPath keyboard support\nEnglish (U.S.), English (Australia), English (Canada), English (India), English (Singapore), English (UK), Chinese (Simplified), French (Canada), French (France), French (Switzerland), German (Austria), German (Germany), German (Switzerland), Italian, Spanish (Latin America), Spanish (Mexico), Spanish (Spain), Portuguese (Brazil), Portuguese (Portugal), Dutch (Belgium), Dutch (Netherlands), Swedish, Vietnamese\nSiri languages\nEnglish (Australia, Canada, India, Ireland, New Zealand, Singapore, South Africa, UK, U.S.), Spanish (Chile, Mexico, Spain, U.S.), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese (Japan), Korean (Republic of Korea), Mandarin Chinese (China mainland, Taiwan), Cantonese (China mainland, Hong Kong), Arabic (Saudi Arabia, United Arab Emirates), Danish (Denmark), Dutch (Belgium, Netherlands), Finnish (Finland), Hebrew (Israel), Malay (Malaysia), Norwegian (Norway), Portuguese (Brazil), Russian (Russia), Swedish (Sweden), Thai (Thailand), Turkish (Türkiye)\nDictation languages\nEnglish (Australia, Canada, India, Indonesia, Ireland, Malaysia, New Zealand, Philippines, Saudi Arabia, Singapore, South Africa, United Arab Emirates, UK, U.S.), Spanish (Argentina, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Panama, Paraguay, Peru, Spain, Uruguay, U.S.), French (Belgium, Canada, France, Luxembourg, Switzerland), German (Austria, Germany, Luxembourg, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (China mainland, Hong Kong, Macao), Arabic (Kuwait, Qatar, Saudi Arabia, United Arab Emirates), Catalan, Croatian, Czech, Danish, Dutch (Belgium, Netherlands), Finnish, Greek, Hebrew, Hindi (India), Hungarian, Indonesian, Malaysian, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Shanghainese (China mainland), Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nDefinition dictionary support\nEnglish (UK, U.S.), Chinese (Simplified, Traditional), Danish, Dutch, French, German, Hebrew, Hindi, Italian, Japanese, Korean, Norwegian, Portuguese, Russian, Spanish, Swedish, Thai, Turkish\nBilingual dictionary support\nArabic – English, Chinese (Simplified) – English, Chinese (Traditional) – English, Dutch – English, French – English, French – German, German – English, Gujarati – English, Hindi – English, Indonesian – English, Italian – English, Japanese – English, Japanese – Chinese (Simplified), Korean – English, Polish – English, Portuguese – English, Russian – English, Spanish – English, Tamil – English, Telugu – English, Thai – English, Urdu – English, Vietnamese – English\nThesaurus\nEnglish (UK, U.S.), Chinese (Simplified)\nSpell check\nEnglish, French, German, Italian, Spanish, Arabic, Arabic Najdi, Danish, Dutch, Finnish, Korean, Norwegian, Polish, Portuguese, Russian, Swedish, Turkish\nApple Pay supported regions\nArmenia, Australia, Austria, Azerbaijan, Bahrain, Belarus, Belgium, Brazil, Bulgaria, Canada, China mainland,\n11\nColombia, Costa Rica, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Faroe Islands, Finland, France, Georgia, Germany, Greece, Greenland, Guernsey, Hong Kong, Hungary, Iceland, Ireland, Isle of Man, Israel, Italy, Japan, Jersey, Kazakhstan, Latvia, Liechtenstein, Lithuania, Luxembourg, Macao, Malta, Mexico, Monaco, Montenegro, Netherlands, New Zealand, Norway, Palestine, Poland, Portugal, Qatar, Romania, San Marino, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, Switzerland, Taiwan, UK, Ukraine, United Arab Emirates, U.S., Vatican City"
+      "source_text": "Language support\nEnglish (Australia, Canada, India, Singapore, UK, U.S.), Chinese (Simplified, Traditional, Traditional Hong Kong), French (Canada, France), German, Italian, Japanese, Korean, Spanish (Latin America, Mexico, Spain), Arabic, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hindi, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nQuickType keyboard support\nEnglish (Australia, Canada, India, Singapore, UK, U.S.), Chinese - Simplified (Handwriting, Pinyin QWERTY, Pinyin 10 Key, Shuangpin, Stroke), Chinese - Traditional (Cangjie, Handwriting, Pinyin QWERTY, Pinyin 10 Key, Shuangpin, Stroke, Sucheng, Zhuyin), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese (Kana, Romaji), Korean (2-Set, 10 Key), Spanish (Latin America, Mexico, Spain), Ainu, Albanian, Amharic, Arabic (Modern Standard, Najdi), Armenian, Assamese, Assyrian, Azerbaijani, Bangla, Belarusian, Bodo, Bulgarian, Burmese, Cantonese - Traditional (Cangjie, Handwriting, Stroke, Sucheng), Catalan, Cherokee, Croatian, Czech, Danish, Dhivehi, Dogri, Dutch, Emoji, Estonian, Faroese, Filipino, Finnish, Flemish, Fula (Adlam), Georgian, Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari, Latin, Transliteration), Hungarian, Icelandic, Igbo, Indonesian, Irish Gaelic, Kannada, Kashmiri (Arabic, Devanagari), Kazakh, Khmer, Konkani (Devanagari), Kurdish (Arabic, Latin), Kyrgyz, Lao, Latvian, Lithuanian, Macedonian, Maithili, Malay (Arabic, Latin), Malayalam, Maltese, Manipuri (Bangla, Meetei Mayek), Maori, Marathi, Mongolian, Navajo, Nepali, Norwegian (Bokmål, Nynorsk), Odia, Pashto, Persian, Persian (Afghanistan), Polish, Portuguese (Brazil, Portugal), Punjabi, Rohingya, Romanian, Russian, Sanskrit, Santali (Devanagari, Ol Chiki), Serbian (Cyrillic, Latin), Sindhi (Arabic, Devanagari), Sinhala, Slovak, Slovenian, Swahili, Swedish, Tajik, Tamil (Anjal, Tamil 99), Telugu, Thai, Tibetan, Tongan, Turkish, Turkmen, Ukrainian, Urdu, Uyghur, Uzbek (Arabic, Cyrillic, Latin), Vietnamese, Welsh\nQuickType keyboard support with autocorrection\nArabic (Modern Standard), Arabic (Najdi), Bangla, Bulgarian, Catalan, Cherokee, Chinese - Simplified (Pinyin QWERTY), Chinese - Traditional (Pinyin QWERTY), Chinese - Traditional (Zhuyin), Croatian, Czech, Danish, Dutch, English (Australia), English (Canada), English (India), English (Japan), English (Singapore), English (UK), English (U.S.), Estonian, Filipino, Finnish, Dutch (Belgium), French (Belgium), French (Canada), French (France), French (Switzerland), German (Austria), German (Germany), German (Switzerland), Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari), Hindi (Transliteration), Hungarian, Icelandic, Indonesian, Irish Gaelic, Italian, Japanese (Kana), Japanese (Romaji), Korean (2–set), Latvian, Lithuanian, Macedonian, Malay, Marathi, Norwegian (Bokmål), Norwegian (Nynorsk), Persian, Persian (Afghanistan), Polish, Portuguese (Brazil), Portuguese (Portugal), Punjabi, Romanian, Russian, Serbian (Cyrillic), Serbian (Latin), Slovak, Slovenian, Spanish (Latin America), Spanish (Mexico), Spanish (Spain), Swedish, Tamil (Anjal), Tamil (Tamil 99), Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese\nQuickType keyboard support with predictive input\nEnglish (Australia, Canada, India, Singapore, UK, U.S.), Chinese (Simplified, Traditional), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese, Korean, Spanish (Latin America, Mexico, Spain), Arabic (Modern Standard, Najdi), Cantonese (Traditional), Dutch, Hindi (Devanagari, Latin), Portuguese (Brazil, Portugal), Russian, Swedish, Thai, Turkish, Vietnamese\nQuickType keyboard support with multilingual input\nEnglish (U.S.), English (Australia), English (Canada), English (India), English (Singapore), English (UK), Chinese - Simplified (Pinyin), Chinese - Traditional (Pinyin), French (France), French (Belgium), French (Canada), French (Switzerland), German (Germany), German (Austria), German (Switzerland), Italian, Japanese (Romaji), Portuguese (Brazil), Portuguese (Portugal), Spanish (Spain), Spanish (Latin America), Spanish (Mexico), Dutch (Belgium), Dutch (Netherlands), Hindi (Latin)\nQuickType keyboard support with contextual suggestions\nEnglish (U.S.), English (Australia), English (Canada), English (India), English (Singapore), English (UK), Chinese (Simplified), French (Belgium), French (Canada), French (France), French (Switzerland), German (Austria), German (Germany), German (Switzerland), Italian, Spanish (Latin America), Spanish (Mexico), Spanish (Spain), Arabic (Modern Standard), Arabic (Najdi), Dutch (Belgium), Dutch (Netherlands), Hindi (Devanagari), Hindi (Latin), Russian, Swedish, Portuguese (Brazil), Turkish, Vietnamese\nQuickPath keyboard support\nEnglish (U.S.), English (Australia), English (Canada), English (India), English (Singapore), English (UK), Chinese (Simplified), French (Canada), French (France), French (Switzerland), German (Austria), German (Germany), German (Switzerland), Italian, Spanish (Latin America), Spanish (Mexico), Spanish (Spain), Portuguese (Brazil), Portuguese (Portugal), Dutch (Belgium), Dutch (Netherlands), Swedish, Vietnamese\nSiri languages\nEnglish (Australia, Canada, India, Ireland, New Zealand, Singapore, South Africa, UK, U.S.), Spanish (Chile, Mexico, Spain, U.S.), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese (Japan), Korean (Republic of Korea), Mandarin Chinese (China mainland, Taiwan), Cantonese (China mainland, Hong Kong), Arabic (Saudi Arabia, United Arab Emirates), Danish (Denmark), Dutch (Belgium, Netherlands), Finnish (Finland), Hebrew (Israel), Malay (Malaysia), Norwegian (Norway), Portuguese (Brazil), Russian (Russia), Swedish (Sweden), Thai (Thailand), Turkish (Türkiye)\nDictation languages\nEnglish (Australia, Canada, India, Indonesia, Ireland, Malaysia, New Zealand, Philippines, Saudi Arabia, Singapore, South Africa, United Arab Emirates, UK, U.S.), Spanish (Argentina, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Panama, Paraguay, Peru, Spain, Uruguay, U.S.), French (Belgium, Canada, France, Luxembourg, Switzerland), German (Austria, Germany, Luxembourg, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (China mainland, Hong Kong, Macao), Arabic (Kuwait, Qatar, Saudi Arabia, United Arab Emirates), Catalan, Croatian, Czech, Danish, Dutch (Belgium, Netherlands), Finnish, Greek, Hebrew, Hindi (India), Hungarian, Indonesian, Malaysian, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Shanghainese (China mainland), Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nDefinition dictionary support\nEnglish (UK, U.S.), Chinese (Simplified, Traditional), Danish, Dutch, French, German, Hebrew, Hindi, Italian, Japanese, Korean, Norwegian, Portuguese, Russian, Spanish, Swedish, Thai, Turkish\nBilingual dictionary support\nArabic – English, Chinese (Simplified) – English, Chinese (Traditional) – English, Dutch – English, French – English, French – German, German – English, Gujarati – English, Hindi – English, Indonesian – English, Italian – English, Japanese – English, Japanese – Chinese (Simplified), Korean – English, Polish – English, Portuguese – English, Russian – English, Spanish – English, Tamil – English, Telugu – English, Thai – English, Urdu – English, Vietnamese – English\nThesaurus\nEnglish (UK, U.S.), Chinese (Simplified)\nSpell check\nEnglish, French, German, Italian, Spanish, Arabic, Arabic Najdi, Danish, Dutch, Finnish, Korean, Norwegian, Polish, Portuguese, Russian, Swedish, Turkish\nApple Pay supported regions\nArmenia, Australia, Austria, Azerbaijan, Bahrain, Belarus, Belgium, Brazil, Bulgaria, Canada, China mainland,\n11\nColombia, Costa Rica, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Faroe Islands, Finland, France, Georgia, Germany, Greece, Greenland, Guernsey, Hong Kong, Hungary, Iceland, Ireland, Isle of Man, Israel, Italy, Japan, Jersey, Kazakhstan, Latvia, Liechtenstein, Lithuania, Luxembourg, Macao, Malta, Mexico, Monaco, Montenegro, Netherlands, New Zealand, Norway, Palestine, Poland, Portugal, Qatar, Romania, San Marino, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, Switzerland, Taiwan, UK, Ukraine, United Arab Emirates, U.S., Vatican City",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Video Playback",
-      "source_text": "Supported formats include HEVC, H.264, and ProRes\nHDR with Dolby Vision, HDR10, and HLG"
+      "source_text": "Supported formats include HEVC, H.264, and ProRes\nHDR with Dolby Vision, HDR10, and HLG",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Audio Playback",
-      "source_text": "Supported formats include AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus, and Dolby Atmos\nSpatial audio playback\nUser-conﬁgurable maximum volume limit"
+      "source_text": "Supported formats include AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus, and Dolby Atmos\nSpatial audio playback\nUser-conﬁgurable maximum volume limit",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Mail Attachment Support",
-      "source_text": "Viewable document types\n.jpg, .tiff, .gif (images); .doc and .docx (Microsoft Word); .htm and .html (web pages); .key (Keynote); .numbers (Numbers); .pages (Pages); .pdf (Preview and Adobe Acrobat); .ppt and .pptx (Microsoft PowerPoint); .txt (text); .rtf (rich text format); .vcf (contact information); .xls and .xlsx (Microsoft Excel); .zip; .ics; .usdz (USDZ Universal)"
+      "source_text": "Viewable document types\n.jpg, .tiff, .gif (images); .doc and .docx (Microsoft Word); .htm and .html (web pages); .key (Keynote); .numbers (Numbers); .pages (Pages); .pdf (Preview and Adobe Acrobat); .ppt and .pptx (Microsoft PowerPoint); .txt (text); .rtf (rich text format); .vcf (contact information); .xls and .xlsx (Microsoft Excel); .zip; .ics; .usdz (USDZ Universal)",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "Environmental Requirements",
-      "source_text": "Operating ambient temperature: 32° to 95° F (0° to 35° C)\nNonoperating temperature: −4° to 113° F (−20° to 45° C)\nRelative humidity: 5% to 95% noncondensing\nOperating altitude: tested up to 10,000 feet (3000 m)"
+      "source_text": "Operating ambient temperature: 32° to 95° F (0° to 35° C)\nNonoperating temperature: −4° to 113° F (−20° to 45° C)\nRelative humidity: 5% to 95% noncondensing\nOperating altitude: tested up to 10,000 feet (3000 m)",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     },
     {
       "heading": "iPad Pro and the Environment",
-      "source_text": "iPad Pro is designed with the following features to reduce its environmental impact:\n12\nLearn more about the iPad Pro Product Environmental Report\nMade with better materials\n100% recycled aluminum in the enclosure\n100% recycled rare earth elements in the magnets of the speakers and enclosure\n100% recycled tin in the solder of the main logic board, True Tone flash, and wireless charger for Apple Pencil\n35% or more recycled plastic in multiple components\nEnergy efficient\nENERGY STAR\n®\ncertified\n13\nSmarter chemistry\n14\nArsenic-free display glass\nMercury-, BFR-, PVC-, and beryllium-free\nGreen manufacturing\nApple’s Zero Waste Program helps suppliers eliminate waste sent to landfill\nAll final assembly supplier sites are transitioning to 100% renewable energy for Apple production\nResponsible packaging\n100% of virgin wood fiber comes from responsibly managed forests\nRecyclable, majority-fiber packaging\nApple and the Environment\nWe’re committed to making our products without taking from the earth, and to become carbon neutral across our entire business, including products, by 2030.\nLearn more about Apple’s commitment to the Environment"
-    },
-    {
-      "heading": "Apple Footer",
-      "source_text": "\nApple\nSupport\niPad Pro, 12.9-inch (5th generation) - Technical Specifications\nIreland\nCopyright © 2026 Apple Inc. All rights reserved.\nPrivacy Policy\nTerms of Use\nSales and Refunds\nSite Map\nUse of Cookies"
+      "source_text": "iPad Pro is designed with the following features to reduce its environmental impact:\n12\nLearn more about the iPad Pro Product Environmental Report\nMade with better materials\n100% recycled aluminum in the enclosure\n100% recycled rare earth elements in the magnets of the speakers and enclosure\n100% recycled tin in the solder of the main logic board, True Tone flash, and wireless charger for Apple Pencil\n35% or more recycled plastic in multiple components\nEnergy efficient\nENERGY STAR\n®\ncertified\n13\nSmarter chemistry\n14\nArsenic-free display glass\nMercury-, BFR-, PVC-, and beryllium-free\nGreen manufacturing\nApple’s Zero Waste Program helps suppliers eliminate waste sent to landfill\nAll final assembly supplier sites are transitioning to 100% renewable energy for Apple production\nResponsible packaging\n100% of virgin wood fiber comes from responsibly managed forests\nRecyclable, majority-fiber packaging\nApple and the Environment\nWe’re committed to making our products without taking from the earth, and to become carbon neutral across our entire business, including products, by 2030.\nLearn more about Apple’s commitment to the Environment",
+      "source_url": "https://support.apple.com/en-ie/111896",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
     }
   ]
 }
