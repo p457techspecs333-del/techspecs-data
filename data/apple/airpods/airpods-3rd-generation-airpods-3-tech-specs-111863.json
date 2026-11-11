@@ -399,15 +399,17 @@
       }
     },
     "battery_life_statements": {
-      "value": [
-        "Up to 6 hours of listening time with a single charge (up to 5 hours with Personalised Spatial Audio enabled)",
-        "Up to 30 hours of listening time",
-        "5 minutes in the case provides around 1 hour of listening time"
-      ],
-      "unit": null,
-      "source_section": "Battery 4",
-      "verification_status": "source_transcribed",
-      "notes": "Duration statements transcribed from the archived official Apple source. The raw source section preserves the explicit label that up-to-30-hour listening time is with either the Lightning Charging Case or MagSafe Charging Case."
+      "value": {
+        "value": [
+          "Up to 6 hours of listening time with a single charge (up to 5 hours with Personalised Spatial Audio enabled)",
+          "Up to 30 hours of listening time",
+          "5 minutes in the case provides around 1 hour of listening time"
+        ],
+        "unit": null,
+        "source_section": "Battery 4",
+        "verification_status": "source_transcribed",
+        "notes": "Duration statements transcribed from the archived official Apple source. The raw source section preserves the explicit label that up-to-30-hour listening time is with either the Lightning Charging Case or MagSafe Charging Case."
+      }
     }
   }
 }
