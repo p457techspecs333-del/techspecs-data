@@ -59,7 +59,8 @@
     "2026-11-10 metadata correction: working_scope model labels now contain product names only; technical-specification page titles remain in the separate title field.",
     "2026-11-11 focused verification pass: dimensions/weight and normalized wireless/electrical/environmental values for all four HomePod records were compared with the archived source-section text; values matched where present. The HomePod mini 2 record was missing the explicit operating-altitude field despite the source stating testing up to 3,000 metres (10,000 feet); that normalized field has now been added.",
     "2026-11-11 source-provenance correction: the archived HomePod mini 2 HTML title and canonical metadata identify the Ireland-locale URL https://support.apple.com/en-ie/149360. The product record and inventory now cite that canonical URL; the previous US-locale URL was a metadata mismatch. Region-dependent source text is preserved from the Irish archive.",
-    "2026-11-11 scope clarification: an Ireland-localized Apple Support technical-specification page establishes regional source provenance, not commercial availability in Ireland; sale availability remains unasserted."
+    "2026-11-11 scope clarification: an Ireland-localized Apple Support technical-specification page establishes regional source provenance, not commercial availability in Ireland; sale availability remains unasserted.",
+    "2026-11-11 audit-status update: repository-wide structural, archive-metadata, catalogue-generation and live endpoint checks passed. Remaining HomePod work is factual field/footnote review and explicit model-identifier coverage, not repository pipeline repair."
   ],
   "record_audit": {
     "checked_at": "2026-11-11",
@@ -74,14 +75,13 @@
       "Transcribed all remaining preserved official specification sections into normalized_specifications.source_text entries for all four HomePod records, retaining exact section headings and footnote markers.",
       "Checked every working_scope source_file path against the current Git repository tree on 2026-11-10; all 4 referenced archive paths exist.",
       "Corrected product.model and inventory model labels to remove the document descriptor 'technical specifications' from product names.",
-      "Checked the archived HTML title and canonical URL for HomePod mini 2 and corrected both product-record and inventory source URLs to the official Ireland-locale canonical URL."
+      "Checked the archived HTML title and canonical URL for HomePod mini 2 and corrected both product-record and inventory source URLs to the official Ireland-locale canonical URL.",
+      "Repository-wide schema validation, inventory alignment, archived-source metadata audit, catalogue regeneration and deployed manifest/catalogue/product-route smoke test passed on main on 2026-11-11."
     ],
     "remaining": [
-      "Verify all four records against their archived official Apple HTML, including exact regional URL and source-file paths.",
-      "Review parsed values and footnote qualifications; ensure dimensions and weight match source labels and units.",
-      "Extract explicit model identifiers and any additional hardware/power details only where official Apple sources provide them.",
-      "Run repository-wide JSON Schema, uniqueness, archive-path, source URL, inventory and catalogue checks.",
-      "Do not infer Ireland commercial availability from the localized technical-specification page; verify availability separately only if the catalogue later requires that attribute."
+      "Review source footnote qualifications against the archived HTML and ensure all typed fields that need them preserve the applicable caveats.",
+      "Extract model identifiers or additional hardware/power details only where official Apple sources explicitly provide them.",
+      "Keep commercial availability distinct from source locale; do not infer Irish sale availability solely from an Ireland-localized support page."
     ]
   }
 }
