@@ -249,6 +249,245 @@
         "verification_status": "source_transcribed",
         "notes": "Description transcribed from the official Apple identification page."
       }
+    },
+    "dimensions": {
+      "height": {
+        "value": 123.4,
+        "unit": "mm",
+        "source_section": "Size and Weight",
+        "verification_status": "content_verified"
+      },
+      "width": {
+        "value": 58.6,
+        "unit": "mm",
+        "source_section": "Size and Weight",
+        "verification_status": "content_verified"
+      },
+      "depth": {
+        "value": 6.1,
+        "unit": "mm",
+        "source_section": "Size and Weight",
+        "verification_status": "content_verified"
+      },
+      "weight": {
+        "value": 88,
+        "unit": "g",
+        "source_section": "Size and Weight",
+        "verification_status": "content_verified"
+      }
+    },
+    "display": {
+      "technology": {
+        "value": "Retina IPS Multi-Touch display",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      },
+      "diagonal": {
+        "value": 4,
+        "unit": "inches",
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      },
+      "resolution": {
+        "value": "1136 × 640",
+        "unit": "pixels",
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      },
+      "pixel_density": {
+        "value": 326,
+        "unit": "ppi",
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      },
+      "contrast_ratio_typical": {
+        "value": "800:1",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      },
+      "brightness_max_typical": {
+        "value": 500,
+        "unit": "cd/m²",
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      }
+    },
+    "processor": {
+      "chipset": {
+        "value": "Apple A8",
+        "unit": null,
+        "source_section": "Chip",
+        "verification_status": "content_verified"
+      },
+      "motion_coprocessor": {
+        "value": "M8",
+        "unit": null,
+        "source_section": "Chip",
+        "verification_status": "content_verified"
+      }
+    },
+    "camera": {
+      "rear_resolution": {
+        "value": 8,
+        "unit": "MP",
+        "source_section": "Camera",
+        "verification_status": "content_verified"
+      },
+      "rear_aperture": {
+        "value": "f/2.4",
+        "unit": null,
+        "source_section": "Camera",
+        "verification_status": "content_verified"
+      },
+      "rear_panorama_max_resolution": {
+        "value": 43,
+        "unit": "MP",
+        "source_section": "Camera",
+        "verification_status": "content_verified"
+      },
+      "rear_video_max_resolution": {
+        "value": "1080p",
+        "unit": null,
+        "source_section": "Camera",
+        "verification_status": "content_verified"
+      },
+      "front_resolution": {
+        "value": 1.2,
+        "unit": "MP",
+        "source_section": "FaceTime HD Camera",
+        "verification_status": "content_verified"
+      },
+      "front_aperture": {
+        "value": "f/2.2",
+        "unit": null,
+        "source_section": "FaceTime HD Camera",
+        "verification_status": "content_verified"
+      },
+      "front_video_resolution": {
+        "value": "720p HD",
+        "unit": null,
+        "source_section": "FaceTime HD Camera",
+        "verification_status": "content_verified"
+      }
+    },
+    "wireless": {
+      "wifi_standards": {
+        "value": [
+          "802.11a",
+          "802.11b",
+          "802.11g",
+          "802.11n",
+          "802.11ac"
+        ],
+        "unit": null,
+        "source_section": "Wireless",
+        "verification_status": "content_verified"
+      },
+      "bluetooth_version": {
+        "value": "4.1",
+        "unit": null,
+        "source_section": "Wireless",
+        "verification_status": "content_verified"
+      }
+    },
+    "battery": {
+      "music_playback_time_max": {
+        "value": 40,
+        "unit": "hours",
+        "source_section": "Power and Battery 5",
+        "verification_status": "content_verified"
+      },
+      "video_playback_time_max": {
+        "value": 8,
+        "unit": "hours",
+        "source_section": "Power and Battery 5",
+        "verification_status": "content_verified"
+      }
+    },
+    "audio": {
+      "formats_supported": {
+        "value": [
+          "AAC",
+          "Protected AAC",
+          "HE-AAC",
+          "MP3",
+          "MP3 VBR",
+          "Dolby Digital (AC-3)",
+          "Dolby Digital Plus (E-AC-3)",
+          "Audible formats 2, 3, 4, AAX, AAX+",
+          "Apple Lossless",
+          "AIFF",
+          "WAV"
+        ],
+        "unit": null,
+        "source_section": "Audio Playback",
+        "verification_status": "content_verified"
+      }
+    },
+    "connectors": {
+      "ports": {
+        "value": [
+          "Lightning connector",
+          "3.5 mm headphone jack"
+        ],
+        "unit": null,
+        "source_section": "External Buttons and Connectors",
+        "verification_status": "content_verified"
+      },
+      "built_in_speaker": {
+        "value": true,
+        "unit": null,
+        "source_section": "External Buttons and Connectors",
+        "verification_status": "content_verified"
+      },
+      "microphone": {
+        "value": true,
+        "unit": null,
+        "source_section": "Input and Output",
+        "verification_status": "content_verified"
+      }
+    },
+    "sensors": {
+      "types": {
+        "value": [
+          "Three-axis gyro",
+          "Accelerometer"
+        ],
+        "unit": null,
+        "source_section": "Sensors",
+        "verification_status": "content_verified"
+      }
+    },
+    "operating_system": {
+      "source_stated_version": {
+        "value": "iOS 11",
+        "unit": null,
+        "source_section": "Operating System",
+        "verification_status": "content_verified",
+        "notes": "This is the version stated on the archived Apple specification page; it is not a claim that iOS 11 is the latest version supported today."
+      }
+    },
+    "system_requirements": {
+      "mac_os_minimum": {
+        "value": "OS X 10.8.5 or later",
+        "unit": null,
+        "source_section": "System Requirements",
+        "verification_status": "content_verified"
+      },
+      "windows_minimum": {
+        "value": "Windows 7 or later",
+        "unit": null,
+        "source_section": "System Requirements",
+        "verification_status": "content_verified"
+      },
+      "itunes_minimum": {
+        "value": "iTunes 12.3 or later",
+        "unit": null,
+        "source_section": "System Requirements",
+        "verification_status": "content_verified"
+      }
     }
   }
 }
