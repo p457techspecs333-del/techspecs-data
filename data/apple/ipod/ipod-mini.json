@@ -272,11 +272,13 @@
       }
     },
     "weight": {
-      "value": 104,
-      "unit": "g",
-      "source_section": "iPod mini (first generation) — Additional technical specification text",
-      "verification_status": "source_transcribed",
-      "notes": "Source explicitly gives 3.6 oz (104 g)."
+      "value": {
+        "value": 104,
+        "unit": "g",
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed",
+        "notes": "Source explicitly gives 3.6 oz (104 g)."
+      }
     },
     "storage": {
       "capacity_options": {
