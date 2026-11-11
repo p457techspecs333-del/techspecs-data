@@ -45,7 +45,8 @@
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Field extraction pass 2026-11-09: version labels and explicit software/hardware requirements parsed from preserved official Apple source sections.",
     "2026-11-10 identity correction: product.model now includes the official version designation from the technical-specification page title, preserving distinct software releases.",
-    "2026-11-10 verification pass: normalized core hardware, memory, display, video RAM, network, optical-drive and QuickTime requirements for iTunes 8.0.2 for Mac; OS requirement remains Mac OS X 10.4.9 or later."
+    "2026-11-10 verification pass: normalized core hardware, memory, display, video RAM, network, optical-drive and QuickTime requirements for iTunes 8.0.2 for Mac; OS requirement remains Mac OS X 10.4.9 or later.",
+    "2026-11-11 source audit: removed a normalized screen-resolution requirement because it is not present in either the archived official Apple HTML or the extracted source text for this iTunes 8.0.2 record. The field was not retained as a source-backed fact."
   ],
   "normalized_specifications": {
     "software_version": {
@@ -110,17 +111,6 @@
         "source_section": "iTunes 8.0.2 for Mac - Technical Specifications",
         "verification_status": "source_transcribed",
         "notes": "General and playback-specific processor requirements are retained separately as published."
-      }
-    },
-    "display_requirements": {
-      "value": {
-        "value": [
-          "Screen resolution of 1024x768 or greater"
-        ],
-        "unit": null,
-        "source_section": "iTunes 8.0.2 for Mac - Technical Specifications",
-        "verification_status": "source_transcribed",
-        "notes": "Exact display requirement statement from the archived Apple source."
       }
     },
     "video_memory_requirements": {
