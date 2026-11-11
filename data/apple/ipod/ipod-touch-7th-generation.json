@@ -20,17 +20,18 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-ie/103823",
-    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-    "source_title": "Identify your iPod model - Apple Support (IE)",
-    "publisher": "Apple",
+    "source_url": "https://support.apple.com/en-ie/111961",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-7th-generation-tech-specs.html",
+    "source_title": "iPod touch (7th generation) - Technical Specifications - Apple Support (IE)",
+    "publisher": "Apple Support (Ireland)",
     "published_at": null,
-    "checked_at": "2026-11-09",
-    "verification_status": "partially_verified",
-    "verification_notes": "This record's retained evidence is extracted from Apple's general 'Identify your iPod model' page, not an individual technical-specifications page. The archived HTML file is the shared source page. Only identification facts explicitly present in that page are supported; detailed technical specifications require separate model-specific sources.",
+    "checked_at": "2026-11-11",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page captured as original HTML on 2026-11-11; 25 non-empty source sections extracted from the archived page. The record's model number and introduction-date identity fields were cross-checked against Apple's separate identification page, archived at apple_remaining_extraction/technical_specs_html/ipod-index.html.",
     "notes": [
-      "Primary evidence is Apple's official iPod identification page; it supports only the model-identification statements retained in the source section.",
-      "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually."
+      "Technical specifications in sections are transcribed from the model-specific Apple technical-specification page.",
+      "Model number and introduction-date evidence is retained from Apple's separate identification page: https://support.apple.com/en-ie/103823 (archived at apple_remaining_extraction/technical_specs_html/ipod-index.html).",
+      "This page covers iPod shuffle (4th generation); variant-specific release dates and identifiers should be read from the separate identification-page evidence, not inferred from this technical-specification page."
     ]
   },
   "extraction": {
@@ -42,8 +43,104 @@
   },
   "sections": [
     {
-      "heading": "iPod touch (7th generation)",
-      "source_text": "Navigation: Multi-Touch display\nCapacity: 32 GB, 128 GB, 256 GB\nModel number and date introduced: A2178: May 2019\niPod touch (7th generation) has an 8 MP camera and FaceTime HD camera."
+      "heading": "Finish",
+      "source_text": "Red - (PRODUCT) RED\nSpace Gray\nGold\nSilver\nPink\nBlue"
+    },
+    {
+      "heading": "Capacity 1",
+      "source_text": "32GB\n128GB\n256GB"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height: 4.86 inches (123.4 mm)\nWidth: 2.31 inches (58.6 mm)\nDepth: 0.24 inch (6.1 mm)\nWeight: 3.10 ounces (88 grams) 2"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Retina display\n4-inch (diagonal) widescreen display with Multi-Touch IPS technology\n1136-by-640-pixel resolution at 326 ppi\n800:1 contrast ratio (typical)\n500 cd/m 2 max brightness (typical)\nFingerprint-resistant oleophobic coating"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "A10 Fusion chip"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "8MP camera\nAutofocus\n&fnof;/2.4 aperture\nFive-element lens\nHybrid IR filter\nBackside illumination\nAuto image stabilization\nHDR for photos\nExposure control\nPanorama (up to 43MP)\nBurst mode\nTap to focus\nPhoto geotagging over Wi-Fi\nTimer mode\nImage formats captured: HEIF and JPEG"
+    },
+    {
+      "heading": "Video Recording",
+      "source_text": "1080p HD video recording at 25 fps, 30 fps, or 60 fps\nTap to focus while recording\nSlo-mo video (120 fps)\nTime-lapse video\nCinematic video stabilization\n3x zoom\nVideo geotagging over Wi-Fi\nVideo formats recorded: HEVC and H.264"
+    },
+    {
+      "heading": "FaceTime HD Camera",
+      "source_text": "1.2MP photos\n&fnof;/2.2 aperture\n720p HD video recording\nBackside illumination sensor\nAuto HDR for videos\nBurst mode\nExposure control\nTimer mode"
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "802.11a/b/g/n/ac Wi‑Fi\nBluetooth 4.1 wireless technology\nMaps: Location-based service 3"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "Audio formats supported: AAC-LC, HE-AAC, HE-AAC v2, Protected AAC, MP3, Linear PCM, Apple Lossless, FLAC, Dolby Digital (AC-3), Dolby Digital Plus (E-AC-3), and Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+)\nUser-configurable maximum volume limit"
+    },
+    {
+      "heading": "TV and Video",
+      "source_text": "Video formats supported: HEVC, H.264, MPEG-4 Part 2, and Motion JPEG\nAirPlay Mirroring, photos, and video out to Apple TV (2nd generation or later) 4\nVideo mirroring and video out support: Up to 1080p through Lightning Digital AV Adapter and Lightning to VGA Adapter (adapters sold separately) 4"
+    },
+    {
+      "heading": "Siri 5",
+      "source_text": "Use your voice to send messages, set reminders, and more\nGet intelligent suggestions on your Lock screen and in Messages, Mail, QuickType, and more\nUse hands-free 6\nUse your voice to run shortcuts from your favorite apps\nLearn more about Siri"
+    },
+    {
+      "heading": "External Buttons and Connectors",
+      "source_text": "Home\nVolume up/down\nOn/Off - Sleep/Wake\nMicrophone (back)\nBuilt-in speaker\nLightning connector\n3.5 mm headphone jack"
+    },
+    {
+      "heading": "Power and Battery 7",
+      "source_text": "Built-in rechargeable lithium-ion battery\nMusic playback time: Up to 40 hours\nVideo playback time: Up to 8 hours"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Three-axis gyro\nAccelerometer"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "iOS 14\niOS is the world’s most personal and secure mobile operating system, packed with powerful features that help you get the most out of every day.\nSee what’s new in iOS 1 4"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "Accessibility features help people with disabilities get the most out of their new iPod touch. With built-in support for vision, hearing, physical and motor skills, and learning and literacy, you can create and do amazing things.\nLearn more\nFeatures include:\nVoiceOver\nZoom\nMagnifier\nSiri and Dictation\nType to Siri\nSwitch Control\nClosed Captions\nAssistiveTouch\nSpeak Screen"
+    },
+    {
+      "heading": "Built-in Apps",
+      "source_text": "Camera\nPhotos\nHealth\nMessages\nFaceTime\nMail\nMusic\nWallet\nSafari\nMaps\nSiri\nCalendar\niTunes Store\nApp Store\nNotes\nNews\nContacts\nBooks\nHome\nWeather\nReminders\nClock\nTV\nStocks\nCalculator\nVoice Memos\nPodcasts\nTips\nFind My\nSettings\nFiles"
+    },
+    {
+      "heading": "Free Apps from Apple",
+      "source_text": "Pages, Numbers, Keynote, iMovie, GarageBand, iTunes U, Clips, and Apple Store app are preinstalled.\niMovie\nPages\nNumbers\nKeynote\niTunes U\nGarageBand\nApple Store\nTrailers\niTunes Remote\nMusic Memos\nClips\nShortcuts"
+    },
+    {
+      "heading": "Headphones 8",
+      "source_text": "Apple EarPods"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "Apple ID (required for some features)\nInternet access\nSyncing with iTunes on a Mac or PC requires:\nMac: OS X 10.11.4 or later\nPC: Windows 7 or later\niTunes 12.8.2 or later on Mac and iTunes 12.9.5 or later on PC 9 (free download from www.itunes.com/uk/download )"
+    },
+    {
+      "heading": "Environmental Requirements",
+      "source_text": "Operating ambient temperature: 32° to 95° F (0° to 35° C)\nNonoperating temperature: -4° to 113° F (-20° to 45° C)\nRelative humidity: 5% to 95% noncondensing\nOperating altitude: tested up to 10,000 feet (3000 m)"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "Language support\nEnglish (Australia, UK, U.S.), Chinese (Simplified, Traditional, Traditional Hong Kong), French (Canada, France), German, Italian, Japanese, Korean, Spanish (Latin America, Mexico, Spain), Arabic, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hindi, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nQuickType keyboard support\nEnglish (Australia, Canada, India, Singapore, UK, U.S.), Chinese - Simplified (Handwriting, Pinyin, Stroke), Chinese - Traditional (Cangjie, Handwriting, Pinyin, Stroke, Sucheng, Zhuyin), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese (Kana, Romaji), Korean, Spanish (Latin America, Mexico, Spain), Arabic (Modern Standard, Najdi), Armenian, Azerbaijani, Belarusian, Bengali, Bulgarian, Catalan, Cherokee, Croatian, Czech, Danish, Dutch, Emoji, Estonian, Filipino, Finnish, Flemish, Georgian, Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari, Transliteration), Hinglish, Hungarian, Icelandic, Indonesian, Irish, Kannada, Latvian, Lithuanian, Macedonian, Malay, Malayalam, Maori, Marathi, Norwegian, Odia, Persian, Polish, Portuguese (Brazil, Portugal), Punjabi, Romanian, Russian, Serbian (Cyrillic, Latin), Slovak, Slovenian, Swahili, Swedish, Tamil (Script, Transliteration), Telugu, Thai, Tibetan, Turkish, Ukrainian, Urdu, Vietnamese, Welsh\nQuickType keyboard support with predictive input\nEnglish (Australia, Canada, India, Singapore, UK, U.S.), Chinese (Simplified, Traditional), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese, Korean, Russian, Spanish (Latin America, Mexico, Spain), Portuguese (Brazil, Portugal), Thai, Turkish\nSiri languages\nEnglish (Australia, Canada, India, Ireland, New Zealand, Singapore, South Africa, UK, U.S.), Spanish (Chile, Mexico, Spain, U.S.), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (China mainland, Hong Kong), Arabic (Saudi Arabia, United Arab Emirates), Danish (Denmark), Dutch (Belgium, Netherlands), Finnish (Finland), Hebrew (Israel), Malay (Malaysia), Norwegian (Norway), Portuguese (Brazil), Russian (Russia), Swedish (Sweden), Thai (Thailand), Turkish (T&uuml;rkiye)\nDictation languages\nEnglish (Australia, Canada, India, Indonesia, Ireland, Malaysia, New Zealand, Philippines, Saudi Arabia, Singapore, South Africa, United Arab Emirates, UK, U.S.), Spanish (Argentina, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Panama, Paraguay, Peru, Spain, Uruguay, U.S.), French (Belgium, Canada, France, Luxembourg, Switzerland), German (Austria, Germany, Luxembourg, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (China mainland, Hong Kong, Macao), Arabic (Kuwait, Qatar, Saudi Arabia, United Arab Emirates), Catalan, Croatian, Czech, Danish, Dutch (Belgium, Netherlands), Finnish, Greek, Hebrew, Hindi (India), Hungarian, Indonesian, Malaysian, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Shanghainese (China mainland), Slovakian, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nDefinition dictionary support\nEnglish, Chinese (Simplified, Traditional), Danish, Dutch, French, German, Hebrew, Hindi, Italian, Japanese, Korean, Norwegian, Portuguese, Russian, Spanish, Swedish, Thai, Turkish\nThesaurus\nEnglish (UK, U.S.)\nBilingual dictionary support with English\nArabic, Chinese (Simplified, Traditional), Dutch, French, German, Hindi, Italian, Japanese, Korean, Portuguese, Russian, Spanish\nSpell check\nEnglish, French, German, Italian, Spanish, Danish, Dutch, Finnish, Korean, Norwegian, Polish, Portuguese, Russian, Swedish, Turkish"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "iPod touch\nApple EarPods\nLightning to USB Cable\nQuick Start guide"
+    },
+    {
+      "heading": "iPod touch and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact. Learn more\niPod touch is designed with the following features to reduce its environmental impact:\nMercury-free LED-backlit display\nArsenic-free display glass\nBrominated flame retardant-free\nPVC-free\nRecyclable aluminum enclosure\nApple and the Environment\nRead our Product Environmental Reports for detailed information on the environmental performance of every Apple product.\nAvailable space is less and varies due to many factors. A standard configuration uses approximately 10GB to 12GB of space (including iOS and preinstalled apps) depending on the model and settings. Preinstalled apps use about 4GB, and you can delete these apps and restore them.\nWeight varies by configuration and manufacturing process.\nFor iPod touch with Maps, the Maps application provides your approximate location using information based on your proximity to known Wi-Fi networks (when on and available). The more accurate the available information, the smaller the circle identifying your position on the map. The feature is not available in all areas. Known Wi-Fi networks are predominantly in urban areas. In order to provide your location, data is collected in a form that does not personally identify you. If you do not want such data collected, do not enable the feature. Not enabling the feature will not impact the functionality of your iPod touch.\nStandard Dynamic Range video content only.\nSiri may not be available in all languages or in all areas, and features may vary by area. Internet access required.\nRequires connection to power.\nTesting conducted by Apple in April 2019 using preproduction iPod touch (7th generation) hardware and software. The playlist consisted of 358 unique audio tracks purchased from the iTunes Store (256-Kbps AAC encoding); video content was a repeated 2-hour 23-minute movie purchased from the iTunes Store. All settings were default except: Audio was routed to wired headphones; Wi-Fi was associated with a network; the Wi-Fi feature Ask to Join Networks and Auto-Brightness were turned off. Battery tests are conducted with specific iPod units; actual results may vary. Battery life and number of charge cycles vary by use and settings. See www.apple.com/uk/batteries for more information.\nRemote and mic not included.\niPod and iTunes are for legal or rightholder-authorized copying only. Don’t steal music.\nSome features may not be available for all countries or all areas. View complete list.\nHelpful?\nYes\nNo\nCharacter limit:\n250\nMaximum character limit is 250.\nPlease don’t include any personal information in your comment.\nSubmit\nThanks for your feedback."
     }
   ],
   "record_notes": [
