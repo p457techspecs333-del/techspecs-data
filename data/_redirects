@@ -1,2 +1,3 @@
+/api/v1/products/iphone-* /apple/iphone/iphone-:splat 200
 /api/v1/products/ipad-* /apple/ipad/ipad-:splat 200
-/api/v1/products/* /apple/iphone/:splat 200
+/api/v1/products/* /:splat 200
