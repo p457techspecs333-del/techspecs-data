@@ -116,6 +116,12 @@
       "source_text": "Power and battery: (5) Built-in rechargeable lithium ion battery Music playback time: Up to 24 hours when fully charged (3) Photo slideshow with music viewing time: Up to 5 hours when fully charged (3) Charging via USB or FireWire to computer system or power adapter (sold separately) Fast-charge time: about 1.5 hours (charges up to 80% of battery capacity) Full-charge time: about 3 hours 1GB = 1 billion bytes; actual formatted capacity less. Song capacity is based on 4 minutes per song and 128-Kbps AAC encoding; actual capacity varies by content. Photo capacity is based on iPod-viewable photos transferred from iTunes. iPod and iTunes are for legal or rightholder-authorized copying only. Don&rsquo;t steal music. Rechargeable batteries have a limited number of charge cycles and may eventually need to be replaced. Battery life and number of charge cycles vary by use and settings. See www.apple.com/batteries for more information. Helpful? Yes No Character limit: 250 Maximum character limit is 250. Please don’t include any personal information in your comment. Submit Thanks for your feedback.",
       "source_url": "https://support.apple.com/en-ie/112309",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-2nd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "Input and output: Dock connector 3.5-mm stereo headphone jack",
+      "source_url": "https://support.apple.com/en-ie/112309",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-2nd-generation-tech-specs.html"
     }
   ],
   "record_notes": [
@@ -394,6 +400,37 @@
         "unit": null,
         "source_section": "In the box",
         "verification_status": "source_transcribed"
+      }
+    },
+    "system_requirements": {
+      "mac": {
+        "value": ": Macintosh computer with USB 2.0 port Mac OS X v10.3.9 or later iTunes 7 or later (4)",
+        "unit": null,
+        "source_section": "Mac system requirements",
+        "verification_status": "source_transcribed"
+      },
+      "windows": {
+        "value": ": PC with USB 2.0 Windows 2000 with Service Pack 4 or later, or Windows XP Home or Professional with Service Pack 2 or later iTunes 7 or later (4)",
+        "unit": null,
+        "source_section": "Windows system requirements",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "connectivity": {
+      "interfaces": {
+        "value": "Input and output: Dock connector 3.5-mm stereo headphone jack",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "language_support": {
+      "statements": {
+        "value": ": Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Simplified Chinese, Spanish, Swedish, Traditional Chinese, and Turkish Additional language support for display of song, album, and artist information: Bulgarian, Croatian, Romanian, Serbian, Slovak, Slovenian, and Ukrainian",
+        "unit": null,
+        "source_section": "Languages",
+        "verification_status": "source_transcribed",
+        "notes": "Language names and locale groups are retained as source text rather than regrouped."
       }
     }
   }
