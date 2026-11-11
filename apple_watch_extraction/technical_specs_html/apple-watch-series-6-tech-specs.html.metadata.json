@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://support.apple.com/en-ie/111918",
+  "final_url": "https://support.apple.com/en-ie/111918",
+  "canonical_url": "https://support.apple.com/en-ie/111918",
+  "page_title": "Apple Watch Series 6 - Technical Specifications - Apple Support (IE)",
+  "publisher": "Apple",
+  "captured_at_utc": "2026-11-11T12:29:01.750758+00:00",
+  "content_type": "text/html;charset=utf-8",
+  "sha256": "2b10945c13ce63227db2101f61ed899a196df5c80e2e6855d5256eedebe9e94b",
+  "archive_path": "apple_watch_extraction/technical_specs_html/apple-watch-series-6-tech-specs.html",
+  "request_file": "source-archive-requests/apple-watch-legacy-technical-specifications.json"
+}

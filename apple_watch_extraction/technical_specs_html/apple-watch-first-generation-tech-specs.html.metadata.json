@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://support.apple.com/en-ae/112009",
+  "final_url": "https://support.apple.com/en-ae/112009",
+  "canonical_url": "https://support.apple.com/en-ae/112009",
+  "page_title": "Apple Watch (1st generation) - Technical Specifications - Apple Support (AE)",
+  "publisher": "Apple",
+  "captured_at_utc": "2026-11-11T12:29:03.887001+00:00",
+  "content_type": "text/html;charset=utf-8",
+  "sha256": "a5f6682172787986029cabb316ed7ec7a93284b1f1e29fed40a61474b82fbe90",
+  "archive_path": "apple_watch_extraction/technical_specs_html/apple-watch-first-generation-tech-specs.html",
+  "request_file": "source-archive-requests/apple-watch-legacy-technical-specifications.json"
+}

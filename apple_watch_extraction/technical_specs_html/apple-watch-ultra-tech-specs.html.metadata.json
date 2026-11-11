@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://support.apple.com/en-ie/111852",
+  "final_url": "https://support.apple.com/en-ie/111852",
+  "canonical_url": "https://support.apple.com/en-ie/111852",
+  "page_title": "Apple Watch Ultra - Technical Specifications - Apple Support (IE)",
+  "publisher": "Apple",
+  "captured_at_utc": "2026-11-11T12:29:03.785042+00:00",
+  "content_type": "text/html;charset=utf-8",
+  "sha256": "53e2883dccc27a4177e1b499aa8ce5704f88ccb115d6e5507d55c5d5c28398ec",
+  "archive_path": "apple_watch_extraction/technical_specs_html/apple-watch-ultra-tech-specs.html",
+  "request_file": "source-archive-requests/apple-watch-legacy-technical-specifications.json"
+}

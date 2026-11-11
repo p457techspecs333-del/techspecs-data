@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://support.apple.com/en-sg/111984",
+  "final_url": "https://support.apple.com/en-sg/111984",
+  "canonical_url": "https://support.apple.com/en-sg/111984",
+  "page_title": "Apple Watch Series 4 - Technical Specifications - Apple Support (SG)",
+  "publisher": "Apple",
+  "captured_at_utc": "2026-11-11T12:29:00.483642+00:00",
+  "content_type": "text/html;charset=utf-8",
+  "sha256": "4b9d4e1d35bcf1e7a31da5ca0caf28b25e73dcb8544941dbdae1d30baec2086e",
+  "archive_path": "apple_watch_extraction/technical_specs_html/apple-watch-series-4-tech-specs.html",
+  "request_file": "source-archive-requests/apple-watch-legacy-technical-specifications.json"
+}

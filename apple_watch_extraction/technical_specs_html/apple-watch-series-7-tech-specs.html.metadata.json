@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://support.apple.com/en-my/111909",
+  "final_url": "https://support.apple.com/en-my/111909",
+  "canonical_url": "https://support.apple.com/en-my/111909",
+  "page_title": "Apple Watch Series 7 - Technical Specifications – Apple Support (MY)",
+  "publisher": "Apple",
+  "captured_at_utc": "2026-11-11T12:29:02.323721+00:00",
+  "content_type": "text/html;charset=utf-8",
+  "sha256": "d132f625dd486d2086fbc22e7e07b6b5441a051a0c00f4f216dc7d2d9b979702",
+  "archive_path": "apple_watch_extraction/technical_specs_html/apple-watch-series-7-tech-specs.html",
+  "request_file": "source-archive-requests/apple-watch-legacy-technical-specifications.json"
+}

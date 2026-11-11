@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://support.apple.com/en-kg/118453",
+  "final_url": "https://support.apple.com/en-kg/118453",
+  "canonical_url": "https://support.apple.com/en-kg/118453",
+  "page_title": "Apple Watch Series 5 - Technical Specifications - Apple Support (KG)",
+  "publisher": "Apple",
+  "captured_at_utc": "2026-11-11T12:29:01.162745+00:00",
+  "content_type": "text/html;charset=utf-8",
+  "sha256": "6048dfe6645d96e6ca9d6cc1edd47977b3bb128c16b9b276be0ad22c7289183d",
+  "archive_path": "apple_watch_extraction/technical_specs_html/apple-watch-series-5-tech-specs.html",
+  "request_file": "source-archive-requests/apple-watch-legacy-technical-specifications.json"
+}

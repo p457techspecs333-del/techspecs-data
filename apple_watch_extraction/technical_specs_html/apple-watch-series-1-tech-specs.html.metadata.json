@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://support.apple.com/en-ie/111985",
+  "final_url": "https://support.apple.com/en-ie/111985",
+  "canonical_url": "https://support.apple.com/en-ie/111985",
+  "page_title": "Apple Watch Series 1 - Technical Specifications - Apple Support (IE)",
+  "publisher": "Apple",
+  "captured_at_utc": "2026-11-11T12:28:59.187884+00:00",
+  "content_type": "text/html;charset=utf-8",
+  "sha256": "bdef033ffdd298bf1123fc8213b25e5d254d8514d66d9000139949c32e8821f6",
+  "archive_path": "apple_watch_extraction/technical_specs_html/apple-watch-series-1-tech-specs.html",
+  "request_file": "source-archive-requests/apple-watch-legacy-technical-specifications.json"
+}

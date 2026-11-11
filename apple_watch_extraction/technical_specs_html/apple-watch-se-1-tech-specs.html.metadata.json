@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://support.apple.com/en-gb/111862",
+  "final_url": "https://support.apple.com/en-gb/111862",
+  "canonical_url": "https://support.apple.com/en-gb/111862",
+  "page_title": "Apple Watch SE (1st generation) - Technical Specifications – Apple Support (UK)",
+  "publisher": "Apple",
+  "captured_at_utc": "2026-11-11T12:29:02.914881+00:00",
+  "content_type": "text/html;charset=utf-8",
+  "sha256": "72b547ad0c465b25842c15deea3deddd9ab938a57fe18b93a4b67d7328164f13",
+  "archive_path": "apple_watch_extraction/technical_specs_html/apple-watch-se-1-tech-specs.html",
+  "request_file": "source-archive-requests/apple-watch-legacy-technical-specifications.json"
+}

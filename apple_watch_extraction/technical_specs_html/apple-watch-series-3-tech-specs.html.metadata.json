@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://support.apple.com/en-in/111891",
+  "final_url": "https://support.apple.com/en-in/111891",
+  "canonical_url": "https://support.apple.com/en-in/111891",
+  "page_title": "Apple Watch Series 3 - Technical Specifications - Apple Support (IN)",
+  "publisher": "Apple",
+  "captured_at_utc": "2026-11-11T12:29:00.386428+00:00",
+  "content_type": "text/html;charset=utf-8",
+  "sha256": "3a621038b5d4da00af7fde33051b811a611b39a172ecfbd79f7981dfbbda2e58",
+  "archive_path": "apple_watch_extraction/technical_specs_html/apple-watch-series-3-tech-specs.html",
+  "request_file": "source-archive-requests/apple-watch-legacy-technical-specifications.json"
+}
