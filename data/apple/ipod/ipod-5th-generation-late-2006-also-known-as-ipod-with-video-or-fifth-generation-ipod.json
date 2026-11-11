@@ -18,18 +18,17 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-ie/103823",
-    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-    "source_title": "Identify your iPod model - Apple Support (IE)",
-    "publisher": "Apple",
+    "source_url": "https://support.apple.com/en-ie/112454",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-5th-generation-late-2006-tech-specs.html",
+    "source_title": "Fifth Generation iPod (Late 2006) - Technical Specifications - Apple Support (IE)",
+    "publisher": "Apple Support (Ireland)",
     "published_at": null,
-    "checked_at": "2026-11-09",
-    "verification_status": "partially_verified",
-    "verification_notes": "This record's retained evidence is extracted from Apple's general 'Identify your iPod model' page, not an individual technical-specifications page. The archived HTML file is the shared source page. Only identification facts explicitly present in that page are supported; detailed technical specifications require separate model-specific sources.",
+    "checked_at": "2026-11-11",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page archived and mapped to the exact model/capacity represented by this record. The original iPod identification section is retained as supporting evidence.",
     "notes": [
-      "Primary evidence is Apple's official iPod identification page; it supports only the model-identification statements retained in the source section.",
-      "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually.",
-      "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112454 (apple_remaining_extraction/technical_specs_html/ipod-5th-generation-late-2006-tech-specs.html); Late-2006 fifth-generation technical specifications; do not merge with the 2005 or U2 variants. Typed normalized values were not inferred by this archival pass."
+      "Technical values are transcribed from the archived model-specific specification sections.",
+      "Model-identification evidence remains preserved in the first section from https://support.apple.com/en-ie/103823, archived at apple_remaining_extraction/technical_specs_html/ipod-index.html."
     ]
   },
   "extraction": {
@@ -171,12 +170,19 @@
       "source_text": "Built-in rechargeable lithium ion battery\nPlayback time (30GB model)\nMusic playback time: Up to 14 hours when fully charged\nPhoto slideshow with music viewing time: Up to 4 hours when fully charged\nVideo playback time: Up to 3.5 hours when fully charged\nPlayback time (80GB model)\nMusic playback time: Up to 20 hours when fully charged\nPhoto slideshow with music viewing time: Up to 6 hours when fully charged\nVideo playback time: Up to 6.5 hours when fully charged\nCharging via USB or FireWire to computer system or power adapter (sold separately)\nFast-charge time: about 2 hours (charges up to 80% of battery capacity)\nFull-charge time: about 4 hours",
       "source_url": "https://support.apple.com/en-ie/112454",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-5th-generation-late-2006-tech-specs.html"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "USB through Dock connector; composite video output through Universal Dock or AV cable (sold separately); audio through headphone jack or line out on Universal Dock (sold separately)",
+      "source_url": "https://support.apple.com/en-ie/112454",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-5th-generation-late-2006-tech-specs.html"
     }
   ],
   "record_notes": [
     "Archival-first-pass record; normalized specifications not inferred.",
     "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text.",
-    "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112454 (apple_remaining_extraction/technical_specs_html/ipod-5th-generation-late-2006-tech-specs.html); Late-2006 fifth-generation technical specifications; do not merge with the 2005 or U2 variants. Typed normalized values were not inferred by this archival pass."
+    "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112454 (apple_remaining_extraction/technical_specs_html/ipod-5th-generation-late-2006-tech-specs.html); Late-2006 fifth-generation technical specifications; do not merge with the 2005 or U2 variants. Typed normalized values were not inferred by this archival pass.",
+    "2026-11-11 normalization pass: typed technical fields were added from the dedicated official Apple technical-specification page; capacity-specific values remain distinct and the original identification evidence is preserved."
   ],
   "normalized_specifications": {
     "navigation_interface": {
@@ -220,6 +226,302 @@
         "source_section": "iPod (5th generation Late 2006) – also known as iPod with video or Fifth Generation iPod",
         "verification_status": "source_transcribed",
         "notes": "Description transcribed from the official Apple identification page."
+      }
+    },
+    "size_weight_statements": {
+      "value": {
+        "value": [
+          "Height: 4.1 inches",
+          "Width: 2.4 inches",
+          "Depth: 0.55 inch",
+          "Weight: 5.5 ounces"
+        ],
+        "unit": null,
+        "source_section": "Size and weight (80GB model)",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "dimensions": {
+      "height": {
+        "value": 4.1,
+        "unit": "in",
+        "source_section": "Size and weight (80GB model)",
+        "verification_status": "source_transcribed"
+      },
+      "width": {
+        "value": 2.4,
+        "unit": "in",
+        "source_section": "Size and weight (80GB model)",
+        "verification_status": "source_transcribed"
+      },
+      "depth": {
+        "value": 0.55,
+        "unit": "in",
+        "source_section": "Size and weight (80GB model)",
+        "verification_status": "source_transcribed"
+      },
+      "weight": {
+        "value": 5.5,
+        "unit": "oz",
+        "source_section": "Size and weight (80GB model)",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "storage": {
+      "capacity": {
+        "value": [
+          80
+        ],
+        "unit": "GB",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed",
+        "notes": "This record represents the 80GB configuration; the source page also documents the 30GB variant."
+      },
+      "medium": {
+        "value": "hard disk drive",
+        "unit": null,
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed"
+      },
+      "songs_at_128_kbps_aac": {
+        "value": 20000,
+        "unit": "songs",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed"
+      },
+      "photos": {
+        "value": 25000,
+        "unit": "photos",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed"
+      },
+      "video": {
+        "value": 100,
+        "unit": "hours",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "display": {
+      "technology": {
+        "value": "2.5-inch QVGA transflective color LCD with white LED backlight",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "diagonal": {
+        "value": 2.5,
+        "unit": "inches",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "resolution": {
+        "value": "320 × 240",
+        "unit": "pixels",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "dot_pitch": {
+        "value": 0.156,
+        "unit": "mm",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "audio": {
+      "frequency_response": {
+        "value": "20Hz to 20,000Hz",
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      },
+      "formats_supported": {
+        "value": [
+          "AAC (16 to 320 Kbps)",
+          "Protected AAC (from iTunes Store)",
+          "MP3 (16 to 320 Kbps)",
+          "MP3 VBR",
+          "Audible (formats 2, 3 and 4)",
+          "Apple Lossless",
+          "AIFF",
+          "WAV"
+        ],
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      },
+      "user_configurable_maximum_volume_limit": {
+        "value": true,
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "video": {
+      "formats_supported": {
+        "value": "Video formats supported: H.264 video, up to 1.5 Mbps, 640 by 480 pixels, 30 frames per sec., Baseline Low-Complexity Profile with AAC-LC audio up to 160 Kbps, 48 kHz, stereo audio in .m4v, .mp4, and .mov file formats; H.264 video, up to 768 Kbps, 320 by 240 pixels, 30 frames per sec., Baseline Profile up to Level 1.3 with AAC-LC audio up to 160 Kbps, 48 kHz, stereo audio in .m4v, .mp4, and .mov file formats; MPEG-4 video, up to 2.5 Mbps, 640 by 480 pixels, 30 frames per sec., Simple Profile with AAC-LC audio up to 160 Kbps, 48 kHz, stereo audio in .m4v, .mp4, and .mov file formats",
+        "unit": null,
+        "source_section": "Video",
+        "verification_status": "source_transcribed",
+        "notes": "Full supported video profiles, bitrates, frame rates, audio limits and container formats are transcribed from the archived source."
+      }
+    },
+    "headphones": {
+      "type": {
+        "value": "Earphones",
+        "unit": null,
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      },
+      "frequency_response": {
+        "value": "20Hz to 20,000Hz",
+        "unit": null,
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      },
+      "impedance": {
+        "value": 32,
+        "unit": "ohms",
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "system_requirements": {
+      "mac": {
+        "value": "Macintosh computer with USB 2.0 port\nMac OS X v10.3.9 or later\niTunes 7 or later",
+        "unit": null,
+        "source_section": "Mac system requirements",
+        "verification_status": "source_transcribed"
+      },
+      "windows": {
+        "value": "PC with USB 2.0\nWindows 2000 with Service Pack 4 or later, or Windows XP Home or Professional with Service Pack 2 or later\niTunes 7 or later",
+        "unit": null,
+        "source_section": "Windows system requirements",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "environment": {
+      "operating_temperature": {
+        "value": "32° to 95° F (0° to 35° C)",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "non_operating_temperature": {
+        "value": "-4° to 113° F (-20° to 45° C)",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "relative_humidity": {
+        "value": "5% to 95% noncondensing",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "maximum_operating_altitude": {
+        "value": "10,000 feet (3000 m)",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "connectors": {
+      "ports": {
+        "value": [
+          "iPod",
+          "Dock connector",
+          "3.5-mm stereo headphone minijack",
+          "iPod Universal Dock",
+          "Dock connector",
+          "Audio and composite video output",
+          "S-video output"
+        ],
+        "unit": null,
+        "source_section": "Input and output",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "connectivity": {
+      "interfaces": {
+        "value": "USB through Dock connector; composite video output through Universal Dock or AV cable (sold separately); audio through headphone jack or line out on Universal Dock (sold separately)",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "battery": {
+      "type": {
+        "value": "Built-in rechargeable lithium ion battery",
+        "unit": null,
+        "source_section": "Power and battery 6",
+        "verification_status": "source_transcribed"
+      },
+      "music_playback_time_max": {
+        "value": 20,
+        "unit": "hours",
+        "source_section": "Power and battery 6",
+        "verification_status": "source_transcribed"
+      },
+      "slideshow_playback_time_max": {
+        "value": 6,
+        "unit": "hours",
+        "source_section": "Power and battery 6",
+        "verification_status": "source_transcribed"
+      },
+      "video_playback_time_max": {
+        "value": 6.5,
+        "unit": "hours",
+        "source_section": "Power and battery 6",
+        "verification_status": "source_transcribed"
+      },
+      "charging_method": {
+        "value": "USB or FireWire to computer system or power adapter (sold separately)",
+        "unit": null,
+        "source_section": "Power and battery 6",
+        "verification_status": "source_transcribed"
+      },
+      "fast_charge_time": {
+        "value": 2,
+        "unit": "hours",
+        "source_section": "Power and battery 6",
+        "verification_status": "source_transcribed",
+        "notes": "Fast charge reaches up to 80% of battery capacity."
+      },
+      "full_charge_time": {
+        "value": 4,
+        "unit": "hours",
+        "source_section": "Power and battery 6",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "in_the_box": {
+      "items": {
+        "value": [
+          "iPod",
+          "Earphones",
+          "USB 2.0 cable",
+          "Dock adapter for use with Universal Dock",
+          "Case",
+          "Quick Start guide"
+        ],
+        "unit": null,
+        "source_section": "In the box",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "language_support": {
+      "menu_languages": {
+        "value": "Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Simplified Chinese, Spanish, Swedish, Traditional Chinese, and Turkish",
+        "unit": null,
+        "source_section": "Languages",
+        "verification_status": "source_transcribed"
+      },
+      "additional_language_support": {
+        "value": "for display of song, album and artist information: Bulgarian, Croatian, Romanian, Serbian, Slovak, Slovenian, and Ukrainian",
+        "unit": null,
+        "source_section": "Languages",
+        "verification_status": "source_transcribed"
       }
     }
   }

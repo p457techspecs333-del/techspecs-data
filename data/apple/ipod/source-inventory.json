@@ -384,37 +384,47 @@
     },
     {
       "model": "iPod (5th generation Late 2006) – also known as iPod with video or Fifth Generation iPod",
-      "url": "https://support.apple.com/en-ie/103823",
+      "url": "https://support.apple.com/en-ie/112454",
       "slug": "ipod-5th-generation-late-2006-also-known-as-ipod-with-video-or-fifth-generation-ipod",
-      "final_url": "https://support.apple.com/en-ie/103823",
-      "title": "Identify your iPod model - Apple Support (IE)",
-      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 22,
-      "verification_status": "partially_verified",
+      "final_url": "https://support.apple.com/en-ie/112454",
+      "title": "Fifth Generation iPod (Late 2006) - Technical Specifications - Apple Support (IE)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-5th-generation-late-2006-tech-specs.html",
+      "section_count": 23,
+      "verification_status": "content_verified",
       "technical_spec_source_url": "https://support.apple.com/en-ie/112454",
       "technical_spec_source_file": "apple_remaining_extraction/technical_specs_html/ipod-5th-generation-late-2006-tech-specs.html",
       "technical_spec_source_title": "Fifth Generation iPod (Late 2006) - Technical Specifications - Apple Support (IE)",
-      "technical_spec_section_count": 21,
-      "technical_spec_status": "archived_section_mapped_pending_field_verification",
-      "technical_spec_coverage_note": "Late-2006 fifth-generation technical specifications; do not merge with the 2005 or U2 variants.",
-      "technical_spec_checked_at": "2026-11-11"
+      "technical_spec_section_count": 22,
+      "technical_spec_status": "normalized_and_content_verified",
+      "technical_spec_coverage_note": "The normalized values in this record describe the 80GB configuration; the official page also documents a 30GB configuration.",
+      "technical_spec_checked_at": "2026-11-11",
+      "supporting_source_url": "https://support.apple.com/en-ie/103823",
+      "supporting_source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
+      "notes": [
+        "Dedicated official Apple technical specifications are now mapped and normalized; the original model-identification evidence is retained as a supporting source."
+      ]
     },
     {
       "model": "iPod (5th generation) – also known as iPod with video or Fifth Generation iPod",
-      "url": "https://support.apple.com/en-ie/103823",
+      "url": "https://support.apple.com/en-ie/111923",
       "slug": "ipod-5th-generation-also-known-as-ipod-with-video-or-fifth-generation-ipod",
-      "final_url": "https://support.apple.com/en-ie/103823",
-      "title": "Identify your iPod model - Apple Support (IE)",
-      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 3,
-      "verification_status": "partially_verified",
+      "final_url": "https://support.apple.com/en-ie/111923",
+      "title": "Fifth Generation iPod (iPod with video) 30 GB, 60 GB - Technical Specifications - Apple Support (IE)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-5th-generation-2005-tech-specs.html",
+      "section_count": 17,
+      "verification_status": "content_verified",
       "technical_spec_source_url": "https://support.apple.com/en-ie/111923",
       "technical_spec_source_file": "apple_remaining_extraction/technical_specs_html/ipod-5th-generation-2005-tech-specs.html",
       "technical_spec_source_title": "Fifth Generation iPod (iPod with video) 30 GB, 60 GB - Technical Specifications - Apple Support (IE)",
-      "technical_spec_section_count": 2,
-      "technical_spec_status": "archived_section_mapped_pending_field_verification",
-      "technical_spec_coverage_note": "The official page covers the 2005 fifth-generation family, including capacity variants; existing typed capacity fields are not changed automatically.",
-      "technical_spec_checked_at": "2026-11-11"
+      "technical_spec_section_count": 16,
+      "technical_spec_status": "normalized_and_content_verified",
+      "technical_spec_coverage_note": "The normalized values in this record describe the 60GB configuration; the official page also documents a 30GB configuration.",
+      "technical_spec_checked_at": "2026-11-11",
+      "supporting_source_url": "https://support.apple.com/en-ie/103823",
+      "supporting_source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
+      "notes": [
+        "Dedicated official Apple technical specifications are now mapped and normalized; the original model-identification evidence is retained as a supporting source."
+      ]
     },
     {
       "model": "iPod Special Edition U2",
@@ -462,20 +472,25 @@
     },
     {
       "model": "iPod (Click Wheel)",
-      "url": "https://support.apple.com/en-ie/103823",
+      "url": "https://support.apple.com/en-ie/112541",
       "slug": "ipod-click-wheel",
-      "final_url": "https://support.apple.com/en-ie/103823",
-      "title": "Identify your iPod model - Apple Support (IE)",
-      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 3,
-      "verification_status": "partially_verified",
+      "final_url": "https://support.apple.com/en-ie/112541",
+      "title": "iPod with Click Wheel (20 GB, 40 GB including U2 Special Edition) - Technical Specifications - Apple Support (IE)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-click-wheel-20-40gb-tech-specs.html",
+      "section_count": 18,
+      "verification_status": "content_verified",
       "technical_spec_source_url": "https://support.apple.com/en-ie/112541",
       "technical_spec_source_file": "apple_remaining_extraction/technical_specs_html/ipod-click-wheel-20-40gb-tech-specs.html",
       "technical_spec_source_title": "iPod with Click Wheel (20 GB, 40 GB including U2 Special Edition) - Technical Specifications - Apple Support (IE)",
-      "technical_spec_section_count": 2,
-      "technical_spec_status": "archived_section_mapped_pending_field_verification",
-      "technical_spec_coverage_note": "Official page covers 20 GB and 40 GB Click Wheel models; retain its explicit capacity scope.",
-      "technical_spec_checked_at": "2026-11-11"
+      "technical_spec_section_count": 17,
+      "technical_spec_status": "normalized_and_content_verified",
+      "technical_spec_coverage_note": "The page explicitly covers the 20GB and 40GB Click Wheel configurations; capacity-specific dimensions and included items remain separate.",
+      "technical_spec_checked_at": "2026-11-11",
+      "supporting_source_url": "https://support.apple.com/en-ie/103823",
+      "supporting_source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
+      "notes": [
+        "Dedicated official Apple technical specifications are now mapped and normalized; the original model-identification evidence is retained as a supporting source."
+      ]
     },
     {
       "model": "iPod (Dock Connector)",
@@ -535,7 +550,8 @@
     "2026-11-11 source coverage status: 27 of 37 iPod inventory entries now have a model-specific Apple technical-specification archive mapped; the ten identity-page-only models are listed explicitly in remaining work.",
     "2026-11-11 archival mapping pass: ten additional official Apple iPod technical-specification archives are now attached to existing records with section-level provenance. Existing identification-page facts and distinct capacity/year variants were retained; typed specification normalization remains pending field-by-field review.",
     "2026-11-11 normalization pass: iPod nano generations 1, 2, 3 and 5 now have typed technical fields and inventory section counts aligned with their archived model-specific Apple specifications.",
-    "2026-11-11 normalization pass: second-generation shuffle technical fields are normalized for the 1GB configuration only; the 2GB variant remains a documented source-coverage gap. The late-2009 third-generation A1271 2GB/4GB model is fully mapped to its official specification page and normalized."
+    "2026-11-11 normalization pass: second-generation shuffle technical fields are normalized for the 1GB configuration only; the 2GB variant remains a documented source-coverage gap. The late-2009 third-generation A1271 2GB/4GB model is fully mapped to its official specification page and normalized.",
+    "2026-11-11 normalization pass: 2005 fifth-generation iPod (60GB record), late-2006 fifth-generation iPod (80GB record), and 20/40GB Click Wheel iPod now have typed normalized specifications sourced from their dedicated archived Apple pages. Capacity-specific source scope is retained in the record notes."
   ],
   "record_audit": {
     "checked_at": "2026-11-11",
@@ -625,6 +641,30 @@
       "source_type": "official_apple_technical_specifications",
       "discovery_status": "archived_and_mapped",
       "notes": "Mapped to the late-2009 A1271 record; covers 2GB/4GB and finish-specific weights."
+    },
+    {
+      "model": "iPod (5th generation) 2005",
+      "title": "Fifth Generation iPod (iPod with video) 30 GB, 60 GB - Technical Specifications",
+      "url": "https://support.apple.com/en-ie/111923",
+      "source_type": "official_apple_technical_specifications",
+      "discovery_status": "archived_and_mapped",
+      "notes": "The normalized values in this record describe the 60GB configuration; the official page also documents a 30GB configuration."
+    },
+    {
+      "model": "iPod (5th generation Late 2006)",
+      "title": "Fifth Generation iPod (Late 2006) - Technical Specifications",
+      "url": "https://support.apple.com/en-ie/112454",
+      "source_type": "official_apple_technical_specifications",
+      "discovery_status": "archived_and_mapped",
+      "notes": "The normalized values in this record describe the 80GB configuration; the official page also documents a 30GB configuration."
+    },
+    {
+      "model": "iPod (Click Wheel)",
+      "title": "iPod with Click Wheel (20 GB, 40 GB including U2 Special Edition) - Technical Specifications",
+      "url": "https://support.apple.com/en-ie/112541",
+      "source_type": "official_apple_technical_specifications",
+      "discovery_status": "archived_and_mapped",
+      "notes": "The page explicitly covers the 20GB and 40GB Click Wheel configurations; capacity-specific dimensions and included items remain separate."
     }
   ]
 }
