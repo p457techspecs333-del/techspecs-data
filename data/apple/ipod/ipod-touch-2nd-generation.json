@@ -212,6 +212,103 @@
         "verification_status": "source_transcribed",
         "notes": "Description transcribed from the official Apple identification page."
       }
+    },
+    "dimensions": {
+      "height": {
+        "value": 110,
+        "unit": "mm",
+        "source_section": "Size and weight",
+        "verification_status": "content_verified"
+      },
+      "width": {
+        "value": 61.8,
+        "unit": "mm",
+        "source_section": "Size and weight",
+        "verification_status": "content_verified"
+      },
+      "depth": {
+        "value": 8.5,
+        "unit": "mm",
+        "source_section": "Size and weight",
+        "verification_status": "content_verified"
+      },
+      "weight": {
+        "value": 115,
+        "unit": "g",
+        "source_section": "Size and weight",
+        "verification_status": "content_verified"
+      }
+    },
+    "display": {
+      "technology": {
+        "value": "Widescreen Multi-Touch display",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      },
+      "diagonal": {
+        "value": 3.5,
+        "unit": "inches",
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      },
+      "resolution": {
+        "value": "480 × 320",
+        "unit": "pixels",
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      },
+      "pixel_density": {
+        "value": 163,
+        "unit": "ppi",
+        "source_section": "Display",
+        "verification_status": "content_verified"
+      }
+    },
+    "wireless": {
+      "wifi_standards": {
+        "value": [
+          "802.11b",
+          "802.11g"
+        ],
+        "unit": null,
+        "source_section": "Wireless 6",
+        "verification_status": "content_verified"
+      }
+    },
+    "audio": {
+      "frequency_response": {
+        "value": "20 Hz–20,000 Hz",
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "content_verified"
+      },
+      "formats_supported": {
+        "value": [
+          "AAC",
+          "Protected AAC",
+          "MP3",
+          "MP3 VBR",
+          "Audible formats 2, 3, 4",
+          "Apple Lossless",
+          "AIFF",
+          "WAV"
+        ],
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "content_verified"
+      }
+    },
+    "connectors": {
+      "ports": {
+        "value": [
+          "Dock connector",
+          "3.5 mm stereo headphone jack"
+        ],
+        "unit": null,
+        "source_section": "Input and output",
+        "verification_status": "content_verified"
+      }
     }
   }
 }
