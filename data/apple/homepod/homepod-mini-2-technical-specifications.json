@@ -353,6 +353,14 @@
         "verification_status": "source_transcribed",
         "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
       }
+    },
+    "operating_altitude": {
+      "value": {
+        "value": "tested up to 3,000 metres (10,000 feet)",
+        "unit": null,
+        "verification_status": "source_transcribed",
+        "notes": "Transcribed from the archived official Apple environmental-requirements section; source text includes soft hyphens in the heading."
+      }
     }
   }
 }
