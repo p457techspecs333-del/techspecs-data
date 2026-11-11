@@ -70,6 +70,8 @@ jobs:
         run: python -m py_compile tools/extract_archived_legacy_watch_specs.py
       - name: Compile legacy iPod extraction helper
         run: python -m py_compile tools/extract_archived_legacy_ipod_specs.py
+      - name: Compile AirPods identification helper
+        run: python -m py_compile tools/extract_airpods_identification_sections.py
       - name: Compile live smoke-test helper
         run: python -m py_compile scripts/smoke_test_live_data.py
       - name: Audit product records
