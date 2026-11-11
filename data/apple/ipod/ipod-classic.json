@@ -26,9 +26,9 @@
     "published_at": null,
     "checked_at": "2026-11-09",
     "verification_status": "partially_verified",
-    "verification_notes": "This record's retained evidence is extracted from Apple's general 'Identify your iPod model' page, not an individual technical-specifications page. The archived HTML file is the shared source page. Only the identification facts explicitly present in that page are supported by this source; detailed technical specifications require separate model-specific sources.",
+    "verification_notes": "This record's retained evidence is extracted from Apple's general 'Identify your iPod model' page, not an individual technical-specifications page. The archived HTML file is the shared source page. Only identification facts explicitly present in that page are supported; detailed technical specifications require separate model-specific sources.",
     "notes": [
-      "Primary evidence for this record is Apple's official iPod identification page; it supports only the model-identification statements retained in the source section.",
+      "Primary evidence is Apple's official iPod identification page; it supports only the model-identification statements retained in the source section.",
       "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually."
     ]
   },
