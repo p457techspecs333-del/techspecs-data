@@ -461,10 +461,11 @@
     "2026-11-10 progress: previously unrepresented source sections have been transcribed into normalized_specifications.source_text for every record in this category. This is source transcription, not final field-level verification.",
     "2026-11-10 verification pass: Verified and recorded AirTag model identifiers A2187 and A2937 from Apple's official identification article. Added explicit structured diameter, height, weight and system-requirement values for both AirTag generations. Added case-only measurements for the standalone AirPods Wireless Charging Case and narrowed the standalone AirPods Pro 2 USB-C case record to case-specific normalized specifications.",
     "2026-11-10 taxonomy pass: all 19 accessory records now use product-type categories rather than the generic 'accessory' category; family remains Apple Accessories.",
-    "2026-11-11 normalization pass: AirPort Extreme 802.11n (4th Generation) and AirPort Time Capsule 802.11n (4th Generation) previously stored their complete specification pages as one consolidated source-text block and had no individual normalized technical fields. Dimensions/weight, wireless protocols/bands/channels/radio power, interfaces, security, compatibility, electrical/environmental limits, approvals, system requirements and included items are now normalized with provenance. Time Capsule storage options (2TB/3TB) are also structured; source wording and footnotes remain preserved."
+    "2026-11-11 normalization pass: AirPort Extreme 802.11n (4th Generation) and AirPort Time Capsule 802.11n (4th Generation) previously stored their complete specification pages as one consolidated source-text block and had no individual normalized technical fields. Dimensions/weight, wireless protocols/bands/channels/radio power, interfaces, security, compatibility, electrical/environmental limits, approvals, system requirements and included items are now normalized with provenance. Time Capsule storage options (2TB/3TB) are also structured; source wording and footnotes remain preserved.",
+    "2026-11-11 repository pipeline status: 364 product records pass schema validation with zero errors; archived-source audit reports zero missing archives, source-title mismatches or canonical-URL mismatches; live manifest, catalogue and sampled product routes pass."
   ],
   "record_audit": {
-    "checked_at": "2026-11-10",
+    "checked_at": "2026-11-11",
     "product_record_count": 19,
     "source_policy": "Official Apple accessory technical-specification pages and documentation index; no absent values inferred.",
     "normalization_status": "partially_normalized",
@@ -480,13 +481,13 @@
       "Verified and recorded AirTag model identifiers A2187 and A2937 from Apple's official identification article.",
       "Added explicit structured diameter, height, weight and system-requirement values for both AirTag generations.",
       "Added case-only measurements for the standalone AirPods Wireless Charging Case and narrowed the standalone AirPods Pro 2 USB-C case record to case-specific normalized specifications.",
-      "Replaced the generic accessory category with product-type categories across all 19 records: wireless-router, network-storage-router, item-tracker, keyboard, mouse and trackpad."
+      "Replaced the generic accessory category with product-type categories across all 19 records: wireless-router, network-storage-router, item-tracker, keyboard, mouse and trackpad.",
+      "Repository-wide schema and inventory validation, archived-source metadata audit, catalogue regeneration, and live manifest/catalogue/product-route smoke test passed on 2026-11-11."
     ],
     "remaining": [
       "Verify all 19 records against archived official Apple HTML, particularly the short AirPort records and model/variant relationships.",
       "Review field-level precision and source-section alignment for all accessories; add missing typed values only where explicitly supported.",
-      "Check historical AirPort network standards, security, interfaces and compatibility against their exact generation-specific pages.",
-      "Run full repository schema, catalogue and archive/source consistency checks."
+      "Check historical AirPort network standards, security, interfaces and compatibility against their exact generation-specific pages."
     ]
   }
 }

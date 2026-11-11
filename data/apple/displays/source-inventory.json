@@ -57,10 +57,11 @@
     "2026-11-10 repository audit: all 4 inventory source_file references resolve to existing archived files in the current Git tree. This confirms archive-path presence only, not the accuracy or reachability of every source URL.",
     "2026-11-10 progress: previously unrepresented source sections have been transcribed into normalized_specifications.source_text for every record in this category. This is source transcription, not final field-level verification.",
     "2026-11-10 verification pass: Corrected normalized brightness qualifiers for Studio Display XDR (SDR up to 1,000 nits; HDR peak 2,000 nits) and Pro Display XDR (1,000 nits sustained full-screen HDR, 1,600 nits peak HDR, 500 nits SDR).",
-    "2026-11-10 verification pass: configuration-specific dimensions and weights are now represented as structured data in addition to the original verbatim section text."
+    "2026-11-10 verification pass: configuration-specific dimensions and weights are now represented as structured data in addition to the original verbatim section text.",
+    "2026-11-11 repository pipeline status: 364 product records pass schema validation with zero errors; archived-source audit reports zero missing archives, source-title mismatches or canonical-URL mismatches; live manifest, catalogue and sampled product routes pass."
   ],
   "record_audit": {
-    "checked_at": "2026-11-10",
+    "checked_at": "2026-11-11",
     "product_record_count": 4,
     "source_policy": "Official Apple technical-specification and display-identification pages; no absent values inferred.",
     "normalization_status": "partially_normalized",
@@ -72,13 +73,13 @@
       "Checked every working_scope source_file path against the current Git repository tree on 2026-11-10; all 4 referenced archive paths exist.",
       "Added normalized_specifications.source_text entries for source sections that were previously absent from the normalized map across all 4 records; original sections and existing typed values were retained.",
       "Corrected normalized brightness qualifiers for Studio Display XDR (SDR up to 1,000 nits; HDR peak 2,000 nits) and Pro Display XDR (1,000 nits sustained full-screen HDR, 1,600 nits peak HDR, 500 nits SDR).",
-      "Added typed configuration-specific size/weight data for Pro Display XDR and both Studio Display generations, separating stand and VESA-mount configurations and preserving bottom/top height labels."
+      "Added typed configuration-specific size/weight data for Pro Display XDR and both Studio Display generations, separating stand and VESA-mount configurations and preserving bottom/top height labels.",
+      "Repository-wide schema and inventory validation, archived-source metadata audit, catalogue regeneration, and live manifest/catalogue/product-route smoke test passed on 2026-11-11."
     ],
     "remaining": [
       "Verify all four records against archived official Apple HTML and reconcile exact regional source URLs.",
       "Review display resolution, brightness, refresh-rate options, ports, camera/audio and compatibility qualifiers against source sections.",
-      "Check source footnotes and ensure dimensions/weights remain tied to each configuration.",
-      "Run full repository schema, catalogue and archive/source consistency checks."
+      "Check source footnotes and ensure dimensions/weights remain tied to each configuration."
     ]
   }
 }

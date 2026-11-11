@@ -495,7 +495,9 @@
     "2026-11-11 normalization pass: the iPod touch (2nd generation) record now includes source-grounded storage capacities and capacity estimates, battery runtime and charging, headphone specifications, complete video-format constraints, controls, Mac/Windows requirements, environmental limits, in-box contents and language-support counts. The existing raw source sections and footnote references remain preserved.",
     "2026-11-11 normalization pass: iPod touch 4th–7th generation records now expose the archived headphone statements, full video recording/playback constraints, environmental limits, in-box contents and language-support source text as normalized fields. All additions cite the exact archived section; absent headphone measurements were not inferred.",
     "2026-11-11 provenance inventory repair: five related_source_discoveries entries were stale and incorrectly marked url_discovered_not_archived even though their official Ireland-locale HTML archives already existed and were mapped in working_scope. Updated their URLs to the archived pages' canonical Ireland URLs and status to archived_and_mapped.",
-    "2026-11-11 archival mapping pass: ten additional official Apple iPod technical-specification archives are now attached to existing records with section-level provenance. Existing identification-page facts and distinct capacity/year variants were retained; typed specification normalization remains pending field-by-field review."
+    "2026-11-11 archival mapping pass: ten additional official Apple iPod technical-specification archives are now attached to existing records with section-level provenance. Existing identification-page facts and distinct capacity/year variants were retained; typed specification normalization remains pending field-by-field review.",
+    "2026-11-11 repository pipeline status: 364 product records pass schema validation with zero errors; archived-source audit reports zero missing archives, source-title mismatches or canonical-URL mismatches; live manifest, catalogue and sampled product routes pass.",
+    "2026-11-11 source coverage status: 27 of 37 iPod inventory entries now have a model-specific Apple technical-specification archive mapped; the ten identity-page-only models are listed explicitly in remaining work."
   ],
   "record_audit": {
     "checked_at": "2026-11-11",
@@ -519,14 +521,14 @@
       "Archived and mapped the official iPod nano (4th generation) technical-specification page; extracted source sections carry section-level provenance.",
       "Archived and mapped the official iPod touch (2nd generation) technical-specification page; source sections carry section-level provenance.",
       "Cross-checked five previously stale related_source_discoveries entries against actual archived HTML title/canonical metadata and working_scope mappings; corrected URLs and archive status without merging distinct model variants.",
-      "Archived and mapped ten official Apple technical-specification pages to 11 existing iPod records with section-level URL and archive-path provenance; no typed specification values were inferred."
+      "Archived and mapped ten official Apple technical-specification pages to 11 existing iPod records with section-level URL and archive-path provenance; no typed specification values were inferred.",
+      "Repository-wide schema and inventory validation, archived-source metadata audit, catalogue regeneration, and live manifest/catalogue/product-route smoke test passed on 2026-11-11."
     ],
     "remaining": [
-      "Find and archive model-specific Apple technical-specification pages for remaining iPod models where available.",
+      "Archive and map model-specific technical-specification pages for the 10 remaining identity-page-only records: iPod touch (5th generation 16 GB, Mid 2013), iPod touch (3rd generation), iPod touch, iPod shuffle (3rd generation Late 2009), iPod shuffle, iPod classic, iPod with colour display, iPod (Dock Connector), iPod (Touch Wheel), and iPod (Scroll Wheel).",
       "Keep the 5th-generation 16GB Mid-2013 iPod touch distinct because the 5th-generation general specification page lists 32GB/64GB and does not establish the special 16GB variant's complete specification set.",
       "Use the identification page as secondary evidence for model numbers and introduction dates where technical-specification pages omit them.",
-      "Verify all 37 model/date/capacity variants individually, keeping distinct iPod classic capacity/year variants separate.",
-      "Run full repository schema, catalogue, inventory and archive/source consistency checks."
+      "Verify all 37 model/date/capacity variants individually, keeping distinct iPod classic capacity/year variants separate."
     ]
   },
   "related_source_discoveries": [
