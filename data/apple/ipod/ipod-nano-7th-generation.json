@@ -239,14 +239,8 @@
     },
     "storage": {
       "capacity": {
-        "value": "16 GB",
+        "value": 16,
         "unit": "GB",
-        "source_section": "Capacity 1",
-        "verification_status": "source_transcribed"
-      },
-      "medium": {
-        "value": "flash storage",
-        "unit": "type",
         "source_section": "Capacity 1",
         "verification_status": "source_transcribed"
       }
