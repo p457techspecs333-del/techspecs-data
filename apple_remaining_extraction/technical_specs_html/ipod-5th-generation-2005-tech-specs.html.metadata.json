@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://support.apple.com/en-ie/111923",
+  "final_url": "https://support.apple.com/en-ie/111923",
+  "canonical_url": "https://support.apple.com/en-ie/111923",
+  "page_title": "Fifth Generation iPod (iPod with video) 30 GB, 60 GB - Technical Specifications - Apple Support (IE)",
+  "publisher": "Apple",
+  "captured_at_utc": "2026-11-11T13:11:14.709437+00:00",
+  "content_type": "text/html;charset=utf-8",
+  "sha256": "3acaeb9c0bec95fa1bec08f302faedc4bfb34b5c85f22015586c6720e5a80954",
+  "archive_path": "apple_remaining_extraction/technical_specs_html/ipod-5th-generation-2005-tech-specs.html",
+  "request_file": "source-archive-requests/ipod-technical-specifications.json"
+}

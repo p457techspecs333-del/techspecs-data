@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://support.apple.com/en-ie/112495",
+  "final_url": "https://support.apple.com/en-ie/112495",
+  "canonical_url": "https://support.apple.com/en-ie/112495",
+  "page_title": "iPod nano (5th generation) - Technical Specifications - Apple Support (IE)",
+  "publisher": "Apple",
+  "captured_at_utc": "2026-11-11T13:11:12.645880+00:00",
+  "content_type": "text/html;charset=utf-8",
+  "sha256": "14c1b2ff96bf210afbbf458ac6601bb26476cbd505171c6e3697521d59d904d6",
+  "archive_path": "apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html",
+  "request_file": "source-archive-requests/ipod-technical-specifications.json"
+}

@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://support.apple.com/en-ie/112449",
+  "final_url": "https://support.apple.com/en-ie/112449",
+  "canonical_url": "https://support.apple.com/en-ie/112449",
+  "page_title": "iPod photo (40 GB, 60 GB) - Technical Specifications - Apple Support (IE)",
+  "publisher": "Apple",
+  "captured_at_utc": "2026-11-11T13:11:16.489504+00:00",
+  "content_type": "text/html;charset=utf-8",
+  "sha256": "09daf4c829bdaba50e40753fdf9051d285e64ee18a216b2e5795e5001120577f",
+  "archive_path": "apple_remaining_extraction/technical_specs_html/ipod-photo-40-60gb-tech-specs.html",
+  "request_file": "source-archive-requests/ipod-technical-specifications.json"
+}
