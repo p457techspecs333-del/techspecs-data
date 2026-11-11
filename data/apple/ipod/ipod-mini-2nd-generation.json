@@ -206,7 +206,8 @@
   ],
   "record_notes": [
     "Archival-first-pass record; normalized specifications not inferred.",
-    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text."
+    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text.",
+    "Source anomaly identified 2026-11-11: Apple's archived technical-specification page states the second-generation iPod mini weighs 3.6 oz (158 g), which is internally inconsistent. The normalized weight retains the explicit 3.6 oz statement only; no metric equivalent is inferred. The inconsistency is documented for future source review."
   ],
   "normalized_specifications": {
     "navigation_interface": {
@@ -251,6 +252,244 @@
         "source_section": "iPod mini (2nd generation)",
         "verification_status": "source_transcribed",
         "notes": "Description transcribed from the official Apple identification page."
+      }
+    },
+    "dimensions": {
+      "height": {
+        "value": 3.6,
+        "unit": "in",
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "width": {
+        "value": 2,
+        "unit": "in",
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "depth": {
+        "value": 0.54,
+        "unit": "in",
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "weight": {
+      "value": {
+        "value": 3.6,
+        "unit": "oz",
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed",
+        "notes": "Apple's archived page states 3.6 oz (158 g), which is internally inconsistent. Only the explicitly stated 3.6 oz is normalized here; the metric equivalent is withheld rather than repeating the conflicting 158 g value."
+      }
+    },
+    "storage": {
+      "capacity_options": {
+        "value": [
+          4,
+          6
+        ],
+        "unit": "GB",
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "medium": {
+        "value": "hard disk drive",
+        "unit": "type",
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "songs_at_128_kbps_aac": {
+        "value": [
+          1000,
+          1500
+        ],
+        "unit": "songs",
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed",
+        "notes": "Source maps 4 GB to up to 1000 songs and 6 GB to up to 1500 songs."
+      }
+    },
+    "display": {
+      "technology": {
+        "value": "liquid crystal display",
+        "unit": "type",
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "diagonal": {
+        "value": 1.67,
+        "unit": "in",
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "resolution": {
+        "value": "138 × 110",
+        "unit": "pixels",
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "dot_pitch": {
+        "value": 0.22,
+        "unit": "mm",
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "backlight": {
+        "value": "blue-white LED",
+        "unit": "type",
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "audio": {
+      "skip_protection_max": {
+        "value": 25,
+        "unit": "minutes",
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "frequency_response": {
+        "value": "20 Hz to 20,000 Hz",
+        "unit": null,
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "formats_supported": {
+        "value": [
+          "AAC (16 to 320 Kbps)",
+          "MP3 (32 to 320 Kbps)",
+          "MP3 VBR",
+          "Audible",
+          "AIFF",
+          "Apple Lossless",
+          "WAV"
+        ],
+        "unit": null,
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "headphones": {
+      "driver_diameter": {
+        "value": 18,
+        "unit": "mm",
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "driver_magnet": {
+        "value": "Neodymium transducer magnets",
+        "unit": null,
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "frequency_response": {
+        "value": "20 Hz to 20,000 Hz",
+        "unit": null,
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "impedance": {
+        "value": 32,
+        "unit": "ohms",
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "connectors": {
+      "ports": {
+        "value": [
+          "Dock connector",
+          "3.5-mm stereo headphone jack",
+          "Wired remote connector"
+        ],
+        "unit": null,
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "connectivity": {
+      "interfaces": {
+        "value": [
+          "USB 2.0 through dock connector",
+          "FireWire 400 using optional cable"
+        ],
+        "unit": null,
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "battery": {
+      "type": {
+        "value": "Built-in rechargeable lithium ion battery",
+        "unit": null,
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "music_playback_time_max": {
+        "value": 18,
+        "unit": "hours",
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "standby_time": {
+        "value": 1,
+        "unit": "month",
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "fast_charge_time": {
+        "value": 2,
+        "unit": "hours",
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed",
+        "notes": "Fast charge reaches 80% capacity."
+      },
+      "full_charge_time": {
+        "value": 4,
+        "unit": "hours",
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "environment": {
+      "operating_temperature": {
+        "value": "0° to 35° C",
+        "unit": null,
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "non_operating_temperature": {
+        "value": "-20° to 45° C",
+        "unit": null,
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "relative_humidity": {
+        "value": "5% to 95% noncondensing",
+        "unit": null,
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "maximum_operating_altitude": {
+        "value": 3000,
+        "unit": "m",
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "system_requirements": {
+      "mac": {
+        "value": "Mac OS X 10.2.8 or Mac OS X 10.3.4 or later; USB 2.0 requires Mac OS X 10.3.4 or later; Macintosh with built-in FireWire or USB 2.0 port.",
+        "unit": null,
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "windows": {
+        "value": "Windows 2000 (Service Pack 4 or later) or Windows XP Home or Professional (Service Pack 2 or later).",
+        "unit": null,
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
       }
     }
   }
