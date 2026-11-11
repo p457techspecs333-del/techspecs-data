@@ -130,7 +130,7 @@
     },
     {
       "heading": "Connectivity",
-      "source_text": "Dock connector 3.5-mm stereo headphone jack",
+      "source_text": "USB through dock connector",
       "source_url": "https://support.apple.com/en-ie/112495",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html"
     }
@@ -479,7 +479,7 @@
     },
     "connectivity": {
       "interfaces": {
-        "value": "Dock connector 3.5-mm stereo headphone jack",
+        "value": "USB through dock connector",
         "unit": null,
         "source_section": "Connectivity",
         "verification_status": "source_transcribed"
