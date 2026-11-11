@@ -152,7 +152,8 @@
   ],
   "record_notes": [
     "Archival-first-pass record; normalized specifications not inferred.",
-    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text."
+    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text.",
+    "Core technical fields transcribed from the archived model-specific Apple technical-specification page. Values remain source_transcribed pending record-level verification; no absent fields inferred."
   ],
   "normalized_specifications": {
     "navigation_interface": {
@@ -196,6 +197,236 @@
         "source_section": "iPod classic (120 GB)",
         "verification_status": "source_transcribed",
         "notes": "Description transcribed from the official Apple identification page."
+      }
+    },
+    "dimensions": {
+      "height": {
+        "value": 103.5,
+        "unit": "mm",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      },
+      "width": {
+        "value": 61.8,
+        "unit": "mm",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      },
+      "depth": {
+        "value": 10.5,
+        "unit": "mm",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      },
+      "weight": {
+        "value": 140,
+        "unit": "g",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "storage": {
+      "capacity": {
+        "value": 120,
+        "unit": "GB",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed"
+      },
+      "medium": {
+        "value": "hard drive",
+        "unit": "type",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed"
+      },
+      "songs_at_128_kbps_aac": {
+        "value": 30000,
+        "unit": "songs",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed"
+      },
+      "photos": {
+        "value": 25000,
+        "unit": "photos",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed"
+      },
+      "video": {
+        "value": 150,
+        "unit": "hours",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "display": {
+      "technology": {
+        "value": "Color LCD with LED backlight",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "diagonal": {
+        "value": 2.5,
+        "unit": "inches",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "resolution": {
+        "value": "320 × 240",
+        "unit": "pixels",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "pixel_density": {
+        "value": 163,
+        "unit": "ppi",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "audio": {
+      "frequency_response": {
+        "value": "20 Hz to 20,000 Hz",
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      },
+      "formats_supported": {
+        "value": [
+          "AAC (16 to 320 Kbps)",
+          "Protected AAC (from iTunes Store)",
+          "MP3 (16 to 320 Kbps)",
+          "MP3 VBR",
+          "Audible formats 2, 3 and 4",
+          "Apple Lossless",
+          "AIFF",
+          "WAV"
+        ],
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      },
+      "user_configurable_maximum_volume_limit": {
+        "value": true,
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "headphones": {
+      "frequency_response": {
+        "value": "20 Hz to 20,000 Hz",
+        "unit": null,
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      },
+      "impedance": {
+        "value": 32,
+        "unit": "ohms",
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "connectors": {
+      "ports": {
+        "value": [
+          "Dock connector",
+          "3.5-mm stereo headphone jack"
+        ],
+        "unit": null,
+        "source_section": "Input and output",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "controls": {
+      "types": {
+        "value": [
+          "Hold switch",
+          "Click Wheel"
+        ],
+        "unit": null,
+        "source_section": "External buttons and controls",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "battery": {
+      "music_playback_time_max": {
+        "value": 36,
+        "unit": "hours",
+        "source_section": "Battery and power 6",
+        "verification_status": "source_transcribed"
+      },
+      "video_playback_time_max": {
+        "value": 6,
+        "unit": "hours",
+        "source_section": "Battery and power 6",
+        "verification_status": "source_transcribed"
+      },
+      "fast_charge_time": {
+        "value": 2,
+        "unit": "hours",
+        "source_section": "Battery and power 6",
+        "verification_status": "source_transcribed",
+        "notes": "Source says fast charge to 80% of battery capacity."
+      },
+      "full_charge_time": {
+        "value": 4,
+        "unit": "hours",
+        "source_section": "Battery and power 6",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "system_requirements": {
+      "mac_os_minimum": {
+        "value": "Mac OS X v10.4.11 or later",
+        "unit": null,
+        "source_section": "Mac system requirements",
+        "verification_status": "source_transcribed"
+      },
+      "itunes_mac_minimum": {
+        "value": "iTunes 8 or later",
+        "unit": null,
+        "source_section": "Mac system requirements",
+        "verification_status": "source_transcribed"
+      },
+      "windows_minimum": {
+        "value": "Windows Vista or Windows XP Home/Professional with Service Pack 3 or later",
+        "unit": null,
+        "source_section": "Windows system requirements",
+        "verification_status": "source_transcribed"
+      },
+      "itunes_windows_minimum": {
+        "value": "iTunes 8 or later",
+        "unit": null,
+        "source_section": "Windows system requirements",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "environment": {
+      "operating_temperature": {
+        "value": "0° to 35° C",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "relative_humidity": {
+        "value": "5% to 95% noncondensing",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "maximum_operating_altitude": {
+        "value": 3000,
+        "unit": "m",
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "video": {
+      "formats_supported": {
+        "value": "H.264 and MPEG-4; up to 640 × 480 at 30 fps; source lists profile, bitrate, audio and container constraints.",
+        "unit": null,
+        "source_section": "Video",
+        "verification_status": "source_transcribed"
       }
     }
   }
