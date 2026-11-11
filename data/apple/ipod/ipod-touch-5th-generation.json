@@ -159,7 +159,8 @@
   ],
   "record_notes": [
     "Archival-first-pass record; normalized specifications not inferred.",
-    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text."
+    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text.",
+    "2026-11-11 normalization pass: missing headphone, video recording/playback, environmental, in-box and language-support fields were added from existing archived Apple technical-specification sections. Raw source text remains unchanged; unspecified headphone measurements and other absent values are not inferred."
   ],
   "normalized_specifications": {
     "navigation_interface": {
@@ -458,6 +459,80 @@
         "unit": null,
         "source_section": "System Requirements",
         "verification_status": "content_verified"
+      }
+    },
+    "headphones": {
+      "statements": {
+        "value": "Apple EarPods",
+        "unit": null,
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim technical statements transcribed from the archived Apple source; absent headphone measurements are not inferred."
+      }
+    },
+    "video_capabilities": {
+      "recording": {
+        "value": "5-megapixel iSight camera\nAutofocus\nTap to focus video or still images\nBackside illumination\nHybrid IR filter\nFive-element lens\nLED flash\n&fnof;/2.4 aperture\nFace detection\nPanorama\nHDR\nHD video recording (1080p) up to 30 frames per second with audio\nFaceTime HD camera with 1.2MP photos and HD video (720p) up to 30 frames per second\nVideo stabilization\nTap to control exposure for video or stills\nPhoto and video geotagging over Wi-Fi",
+        "unit": null,
+        "source_section": "Camera, Photos, and Video",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim recording/camera capabilities retained from the archived source."
+      },
+      "playback": {
+        "value": "H.264 video up to 720p, 30 frames per second, Main Profile level 3.1 with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats\nMPEG-4 video up to 2.5 Mbps, 640 by 480 pixels, 30 frames per second, Simple Profile with AAC-LC audio up to 160 Kbps per channel, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats\nMotion JPEG (M-JPEG) up to 35 Mbps, 1280 by 720 pixels, 30 frames per second, audio in ulaw, PCM stereo audio in .avi file format\nAirPlay Mirroring to Apple TV support at 720p\nAirPlay video streaming to Apple TV (3rd generation) at up to 1080p and Apple TV (2nd generation) at up to 720p",
+        "unit": null,
+        "source_section": "TV and Video",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim supported playback/output formats retained from the archived source."
+      }
+    },
+    "environment": {
+      "operating_temperature": {
+        "value": "32° to 95° F (0° to 35° C)",
+        "unit": null,
+        "source_section": "Environmental Requirements",
+        "verification_status": "source_transcribed"
+      },
+      "non_operating_temperature": {
+        "value": "-4° to 113° F (-20° to 45° C)",
+        "unit": null,
+        "source_section": "Environmental Requirements",
+        "verification_status": "source_transcribed"
+      },
+      "relative_humidity": {
+        "value": "5% to 95% noncondensing",
+        "unit": null,
+        "source_section": "Environmental Requirements",
+        "verification_status": "source_transcribed"
+      },
+      "operating_altitude": {
+        "value": "10,000 feet (3000 m)",
+        "unit": null,
+        "source_section": "Environmental Requirements",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "in_the_box": {
+      "items": {
+        "value": [
+          "iPod touch",
+          "iPod touch loop",
+          "Apple EarPods",
+          "Lightning to USB Cable",
+          "Quick Start guide"
+        ],
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "language_support": {
+      "source_text": {
+        "value": "Language Support\nEnglish (U.S.), English (UK), Chinese (Simplified), Chinese (Traditional), French, German, Italian, Japanese, Korean, Spanish, Arabic, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nKeyboard Support\nEnglish (U.S.), English (Australian), English (Canadian), English (UK), Chinese - Simplified (Handwriting, Pinyin, Stroke), Chinese - Traditional (Handwriting, Pinyin, Zhuyin, Cangjie, Stroke), French, French (Canadian), French (Switzerland), German (Germany), German (Switzerland), Italian, Japanese (Romaji, Kana), Korean, Spanish, Arabic, Bulgarian, Catalan, Cherokee, Croatian, Czech, Danish, Dutch, Emoji, Estonian, Finnish, Flemish, Greek, Hawaiian, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Latvian, Lithuanian, Macedonian, Malay, Norwegian, Polish, Portuguese (Portugal), Portuguese (Brazil), Romanian, Russian, Serbian (Cyrillic/Latin), Slovak, Swedish, Thai, Tibetan, Turkish, Ukrainian, Vietnamese\nDictionary Support\nEnglish (U.S.), English (Australian), English (Canadian), English (UK), Chinese - Simplified (Handwriting, Pinyin, Stroke), Chinese - Traditional (Handwriting, Pinyin, Zhuyin, Cangjie, Stroke), French, French (Canadian), French (Switzerland), German (Germany), German (Switzerland), Italian, Japanese (Romaji, Kana), Korean, Spanish, Arabic, Bulgarian, Catalan, Cherokee, Croatian, Czech, Danish, Dutch, Estonian, Finnish, Flemish, Greek, Hawaiian, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Latvian, Lithuanian, Macedonian, Malay, Norwegian, Polish, Portuguese (Portugal), Portuguese (Brazil), Romanian, Russian, Serbian (Cyrillic/Latin), Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nSiri Languages\nEnglish (U.S., UK, Canada, Australia), Spanish (U.S., Mexico, Spain), French (France, Canada, Switzerland), German (Germany, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (Hong Kong)",
+        "unit": null,
+        "source_section": "Languages",
+        "verification_status": "source_transcribed",
+        "notes": "Original language-support statements retained without attempting to reinterpret Apple's locale grouping."
       }
     }
   }
