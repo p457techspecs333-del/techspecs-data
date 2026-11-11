@@ -193,6 +193,7 @@ def main() -> int:
             inv_item["technical_spec_section_count"] = len(page_sections)
             inv_item["technical_spec_status"] = "archived_section_mapped_pending_field_verification"
             inv_item["technical_spec_coverage_note"] = model["coverage_note"]
+            inv_item["section_count"] = len(existing_sections)
             inv_item["technical_spec_checked_at"] = TODAY
 
     inventory["record_audit"] = inventory.get("record_audit", {})
