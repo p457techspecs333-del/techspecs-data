@@ -221,7 +221,7 @@
     },
     "storage": {
       "capacity": {
-        "value": "160 GB",
+        "value": 160,
         "unit": "GB",
         "source_section": "Capacity",
         "verification_status": "source_transcribed"
