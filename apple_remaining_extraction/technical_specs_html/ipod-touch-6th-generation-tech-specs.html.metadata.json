@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://support.apple.com/en-ie/112023",
+  "final_url": "https://support.apple.com/en-ie/112023",
+  "canonical_url": "https://support.apple.com/en-ie/112023",
+  "page_title": "iPod touch (6th generation) - Technical Specifications - Apple Support (IE)",
+  "publisher": "Apple",
+  "captured_at_utc": "2026-11-11T11:10:20.691447+00:00",
+  "content_type": "text/html;charset=utf-8",
+  "sha256": "28e0bc8b04542035c0dc38288f39560d581515e4ff39f00222d1e174f980dc9d",
+  "archive_path": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html",
+  "request_file": "source-archive-requests/ipod-technical-specifications.json"
+}
