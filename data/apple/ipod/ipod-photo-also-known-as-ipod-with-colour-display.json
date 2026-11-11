@@ -27,11 +27,12 @@
     "published_at": null,
     "checked_at": "2026-11-09",
     "verification_status": "partially_verified",
-    "verification_notes": "This record's retained evidence is extracted from Apple's general 'Identify your iPod model' page, not an individual technical-specifications page. The archived HTML file is the shared source page. Only identification facts explicitly present in that page are supported; detailed technical specifications require separate model-specific sources.",
+    "verification_notes": "The record retains Apple's general identification page as primary evidence because it aggregates 30GB, 40GB and 60GB iPod photo variants. The dedicated technical-specification page is archived and normalized for the 40GB and 60GB configurations only; the 30GB configuration remains unverified by that page.",
     "notes": [
       "Primary evidence is Apple's official iPod identification page; it supports only the model-identification statements retained in the source section.",
-      "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually.",
-      "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112449 (apple_remaining_extraction/technical_specs_html/ipod-photo-40-60gb-tech-specs.html); This technical-specification page covers the 40 GB and 60 GB iPod photo models; the record's 30 GB option requires separate evidence. Typed normalized values were not inferred by this archival pass."
+      "The archived model-specific technical-specification page covers 40GB and 60GB only. The record's 30GB option remains supported only by the general identification page and is not independently verified by this technical page.",
+      "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112449 (apple_remaining_extraction/technical_specs_html/ipod-photo-40-60gb-tech-specs.html); This technical-specification page covers the 40 GB and 60 GB iPod photo models; the record's 30 GB option requires separate evidence. Typed normalized values were not inferred by this archival pass.",
+      "The 40GB/60GB technical specification is preserved in separate source sections and normalized fields; do not apply those capacity-specific fields to the 30GB option."
     ]
   },
   "extraction": {
@@ -49,14 +50,92 @@
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html"
     },
     {
-      "heading": "iPod photo (40 GB, 60 GB) - Technical Specifications",
-      "source_text": "Configurations (Mac + PC)\n40GB iPod\n60GB iPod\nModel\nM9585LL/A\nM9586LL/A\nStorage\n40GB (1)\n60GB (1)\nBattery life\nUp to 15 hours audio playback time (3) Up to 5 hours slideshow playback time (without video out) (3)\nSkip protection\nUp to 25 minutes\nDisplay\n2-inch (diagonal) color LCD with LED backlight\nPorts\nDock connector, remote connector, stereo minijack\nConnectivity\nFireWire 400 and USB 2.0 through dock connector\nCharge time\nUp to 5 hours (up to 3-hour fast charge to 80% capacity)\nAudio support\nAAC (16 to 320 Kbps), MP3 (32 to 320 Kbps), MP3 VBR, Audible, AIFF, Apple Lossless and WAV\nSize\n4.1 by 2.4 by 0.75 inches\nWeight\n6.4 ounces\nIncluded software\niTunes for Mac, iTunes for Windows (4)\nIncluded accessories\nEarbud headphones, iPod Power Adapter, Dock Connector to FireWire cable, Dock Connector to USB 2.0 cable, iPod photo AV cable, carrying case, Dock\nOptional accessories\nDock; in-ear headphones; earbud headphones and remote; carrying case; AC adapter; Dock Connector to USB 2.0 cable; Dock Connector to FireWire cable; world travel adapter kit\nMac requirements\nMacintosh computer with FireWire port or built-in USB 2.0 port; Mac OS X v10.2.8 or later (for FireWire); USB 2.0 requires Mac OS X v10.3.4 or later\nWindows requirements\nPC with FireWire or USB 2.0 port, or FireWire or USB 2.0 card; Windows 2000 (Service Pack 4 or later) or Windows XP Home or Professional (Service Pack 2 or later)\nDocumentation and support\nElectronic documentation and getting started guide.\nLimited warranty and service\nYour iPod comes with single incident telephone support for the first 90 days and a one-year limited warranty. Purchase the AppleCare Protection Plan for iPod to extend your service and support to two full years. Only the AppleCare Protection Plan provides you with direct telephone support from Apple technical experts and the assurance that repairs will be handled by Apple-certified technicians using genuine Apple parts. For more information, visit Apple support or call 800-823-2775.\nOptions & Accessories\nAvailable from the online Apple Store or an authorized Apple reseller.\nCables and adapters\nDock Connector to FireWire Cable M9127G/A\niPod Dock Connector to USB 2.0 Cable M9569G/A\nApple iPod AV Cable (M9765G/A)\nDocks & Kits\niPod photo Dock Kit (M9868G/A)\nApple iPod Universal Dock (MA045G/A)\niPod AV Connection Kit (MA242LL/A)\nHeadphones\nRemote & Earbud Headphones M9128G/A\nIn-Ear Headphones M9394G/A\nCases\nCarrying Case w/ Belt Clip\nServices\nAppleCare Protection Plan M9404LL/A\nTechnical Specifications\nCapacity\n40 GB or 60 GB hard disk drive (1) Holds 10,000 or 15,000 songs in 128-Kbps AAC format (2) Stores data via FireWire or USB 2.0 (3) hard drive\n40 GB or 60 GB hard disk drive (1)\nHolds 10,000 or 15,000 songs in 128-Kbps AAC format (2)\nStores data via FireWire or USB 2.0 (3) hard drive\nSize and weight (40 GB and 60 GB models)\nHeight: 4.1 in\nWidth: 2.4 in\nDepth: 0.75 in\nWeight: 6.4 oz (181 g)\nDisplay (40 GB and 60 GB models)\n2-inch (diagonal) color liquid crystal display with blue-white LED backlight\n220-by-176-pixel resolution, 0.18-mm dot pitch\n16-bit, 65,536 colors\nSupport for display of multiple languages and characters simultaneously\nSyncs iPod-viewable photos in JPEG, BMP, GIF, TIFF, PSD (Mac only) and PNG formats.\nAudio\nUp to 25 minutes of skip protection\nFrequency response: 20Hz to 20,000Hz\nAudio formats supported: AAC (16 to 320 Kbps), MP3 (32 to 320 Kbps), MP3 VBR, Audible, AIFF, Apple Lossless and WAV\nUpgradable firmware enables support for future audio formats\nCustomizable settings (iPod)\nCustomize main menu\nCreate multiple On-The-Go playlists\nAdjust audiobook playback speed\nClicker playback through headphones\nRate songs\nShuffle songs or albums\nRepeat one or all\nSound Check on or off\n20 Equalizer settings\nBacklight timer\nDisplay contrast\nAlarms on, off or silent\nSleep timer\nDate and time\nDisplay time in menu bar\nContacts sort and display by first or last names\nClicker on or off\nMenu Languages: English, French, German, Japanese, Spanish, Italian, Dutch, Danish, Norwegian, Finnish, Swedish, Korean, Simplified Chinese, Traditional Chinese.\nDisplay Song, Artist and Album Info in: Bulgarian, Croatian, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovenian, Simplified Chinese, Spanish, Swedish, Traditional Chinese, Turkish and Ukrainian.\nHeadphones\nEarbud-style headphones with 18-mm drivers using Neodymium transducer magnets\nFrequency response: 20Hz to 20,000Hz\nImpedance: 32 ohms\nInput and output\nDock connector\n3.5-mm stereo headphone jack\nWired remote connector\nEnvironmental requirements\nOperating temperature: 32° to 95° F (0° to 35° C)\nNon operating temperature: -4° to 113° F (-20° to 45° C)\nRelative humidity: 5% to 95% noncondensing\nMaximum operating altitude: 10,000 feet (3000 m)\nPower and battery (3)\nBuilt-in rechargeable lithium ion battery\niPod audio playback time: Up to 15 hours when fully charged\niPod slideshow playback time: Up to 5 hours when fully charged (without TV out)\nStandby time: 1 month when fully charged\nCharging via FireWire to computer system or power adapter Fast-charge time: Up to 3 hours for iPod (charges up to 80% of battery capacity) Full-charge time: Up to 5 hours\nCharging via FireWire to computer system or power adapter\nFast-charge time: Up to 3 hours for iPod (charges up to 80% of battery capacity)\nFull-charge time: Up to 5 hours\nCharging via USB 2.0 to computer system or optional power adapter Full-charge time: Up to 5 hours\nCharging via USB 2.0 to computer system or optional power adapter\nFull-charge time: Up to 5 hours\nPower adapter\niPod Power Adapter\nAC input: 100V to 240V at 0.4 amp maximum\nFrequency: 50Hz to 60Hz\nDC output: 5V at 1 amp maximum\n1GB = 1 billion bytes; actual formatted capacity less.\nCapacity based on 4 minutes per song and 128-Kbps AAC encoding.\nRechargeable batteries have a limited number of charge cycles and may eventually need to be replaced. Battery life and number of charge cycles vary by use and settings. See www.apple.com/batteries for more information.\niPod and iTunes are for legal or rightholder-authorized copying only. Don’t steal music.",
+      "heading": "Capacity",
+      "source_text": "40 GB or 60 GB hard disk drive (1) Holds 10,000 or 15,000 songs in 128-Kbps AAC format (2) Stores data via FireWire or USB 2.0 (3) hard drive\n40 GB or 60 GB hard disk drive (1)\nHolds 10,000 or 15,000 songs in 128-Kbps AAC format (2)\nStores data via FireWire or USB 2.0 (3) hard drive",
       "source_url": "https://support.apple.com/en-ie/112449",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-photo-40-60gb-tech-specs.html"
     },
     {
-      "heading": "Apple Footer",
-      "source_text": "Support\niPod photo (40 GB, 60 GB) - Technical Specifications",
+      "heading": "Size and weight (40 GB and 60 GB models)",
+      "source_text": "Height: 4.1 in\nWidth: 2.4 in\nDepth: 0.75 in\nWeight: 6.4 oz (181 g)",
+      "source_url": "https://support.apple.com/en-ie/112449",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-photo-40-60gb-tech-specs.html"
+    },
+    {
+      "heading": "Display (40 GB and 60 GB models)",
+      "source_text": "2-inch (diagonal) color liquid crystal display with blue-white LED backlight\n220-by-176-pixel resolution, 0.18-mm dot pitch\n16-bit, 65,536 colors\nSupport for display of multiple languages and characters simultaneously\nSyncs iPod-viewable photos in JPEG, BMP, GIF, TIFF, PSD (Mac only) and PNG formats.",
+      "source_url": "https://support.apple.com/en-ie/112449",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-photo-40-60gb-tech-specs.html"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Up to 25 minutes of skip protection\nFrequency response: 20Hz to 20,000Hz\nAudio formats supported: AAC (16 to 320 Kbps), MP3 (32 to 320 Kbps), MP3 VBR, Audible, AIFF, Apple Lossless and WAV\nUpgradable firmware enables support for future audio formats\nCustomizable settings (iPod)\nCustomize main menu\nCreate multiple On-The-Go playlists\nAdjust audiobook playback speed\nClicker playback through headphones\nRate songs\nShuffle songs or albums\nRepeat one or all\nSound Check on or off\n20 Equalizer settings\nBacklight timer\nDisplay contrast\nAlarms on, off or silent\nSleep timer\nDate and time\nDisplay time in menu bar\nContacts sort and display by first or last names\nClicker on or off\nMenu Languages: English, French, German, Japanese, Spanish, Italian, Dutch, Danish, Norwegian, Finnish, Swedish, Korean, Simplified Chinese, Traditional Chinese.\nDisplay Song, Artist and Album Info in: Bulgarian, Croatian, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovenian, Simplified Chinese, Spanish, Swedish, Traditional Chinese, Turkish and Ukrainian.",
+      "source_url": "https://support.apple.com/en-ie/112449",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-photo-40-60gb-tech-specs.html"
+    },
+    {
+      "heading": "Headphones",
+      "source_text": "Earbud-style headphones with 18-mm drivers using Neodymium transducer magnets\nFrequency response: 20Hz to 20,000Hz\nImpedance: 32 ohms",
+      "source_url": "https://support.apple.com/en-ie/112449",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-photo-40-60gb-tech-specs.html"
+    },
+    {
+      "heading": "Input and output",
+      "source_text": "Dock connector\n3.5-mm stereo headphone jack\nWired remote connector",
+      "source_url": "https://support.apple.com/en-ie/112449",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-photo-40-60gb-tech-specs.html"
+    },
+    {
+      "heading": "Environmental requirements",
+      "source_text": "Operating temperature: 32° to 95° F (0° to 35° C)\nNon operating temperature: -4° to 113° F (-20° to 45° C)\nRelative humidity: 5% to 95% noncondensing\nMaximum operating altitude: 10,000 feet (3000 m)",
+      "source_url": "https://support.apple.com/en-ie/112449",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-photo-40-60gb-tech-specs.html"
+    },
+    {
+      "heading": "Power and battery (3)",
+      "source_text": "Built-in rechargeable lithium ion battery\niPod audio playback time: Up to 15 hours when fully charged\niPod slideshow playback time: Up to 5 hours when fully charged (without TV out)\nStandby time: 1 month when fully charged\nCharging via FireWire to computer system or power adapter Fast-charge time: Up to 3 hours for iPod (charges up to 80% of battery capacity) Full-charge time: Up to 5 hours\nCharging via FireWire to computer system or power adapter\nFast-charge time: Up to 3 hours for iPod (charges up to 80% of battery capacity)\nFull-charge time: Up to 5 hours\nCharging via USB 2.0 to computer system or optional power adapter Full-charge time: Up to 5 hours\nCharging via USB 2.0 to computer system or optional power adapter\nFull-charge time: Up to 5 hours",
+      "source_url": "https://support.apple.com/en-ie/112449",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-photo-40-60gb-tech-specs.html"
+    },
+    {
+      "heading": "Power adapter",
+      "source_text": "iPod Power Adapter\nAC input: 100V to 240V at 0.4 amp maximum\nFrequency: 50Hz to 60Hz\nDC output: 5V at 1 amp maximum\n1GB = 1 billion bytes; actual formatted capacity less.\nCapacity based on 4 minutes per song and 128-Kbps AAC encoding.\nRechargeable batteries have a limited number of charge cycles and may eventually need to be replaced. Battery life and number of charge cycles vary by use and settings. See www.apple.com/batteries for more information.\niPod and iTunes are for legal or rightholder-authorized copying only. Don’t steal music.",
+      "source_url": "https://support.apple.com/en-ie/112449",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-photo-40-60gb-tech-specs.html"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "FireWire 400 and USB 2.0 through dock connector",
+      "source_url": "https://support.apple.com/en-ie/112449",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-photo-40-60gb-tech-specs.html"
+    },
+    {
+      "heading": "Mac requirements",
+      "source_text": "Macintosh computer with FireWire port or built-in USB 2.0 port; Mac OS X v10.2.8 or later for FireWire; USB 2.0 requires Mac OS X v10.3.4 or later",
+      "source_url": "https://support.apple.com/en-ie/112449",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-photo-40-60gb-tech-specs.html"
+    },
+    {
+      "heading": "Windows requirements",
+      "source_text": "PC with FireWire or USB 2.0 port or card; Windows 2000 with Service Pack 4 or Windows XP Home or Professional",
+      "source_url": "https://support.apple.com/en-ie/112449",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-photo-40-60gb-tech-specs.html"
+    },
+    {
+      "heading": "Included software",
+      "source_text": "iTunes for Mac, iTunes for Windows",
+      "source_url": "https://support.apple.com/en-ie/112449",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-photo-40-60gb-tech-specs.html"
+    },
+    {
+      "heading": "Included accessories",
+      "source_text": "Earbud headphones, iPod Power Adapter, Dock Connector to FireWire cable, Dock Connector to USB 2.0 cable, iPod photo AV cable, carrying case, Dock",
+      "source_url": "https://support.apple.com/en-ie/112449",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-photo-40-60gb-tech-specs.html"
+    },
+    {
+      "heading": "Photo support",
+      "source_text": "Syncs iPod-viewable photos in JPEG, BMP, GIF, TIFF, PSD (Mac only) and PNG formats",
       "source_url": "https://support.apple.com/en-ie/112449",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-photo-40-60gb-tech-specs.html"
     }
@@ -64,7 +143,8 @@
   "record_notes": [
     "Archival-first-pass record; normalized specifications not inferred.",
     "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text.",
-    "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112449 (apple_remaining_extraction/technical_specs_html/ipod-photo-40-60gb-tech-specs.html); This technical-specification page covers the 40 GB and 60 GB iPod photo models; the record's 30 GB option requires separate evidence. Typed normalized values were not inferred by this archival pass."
+    "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112449 (apple_remaining_extraction/technical_specs_html/ipod-photo-40-60gb-tech-specs.html); This technical-specification page covers the 40 GB and 60 GB iPod photo models; the record's 30 GB option requires separate evidence. Typed normalized values were not inferred by this archival pass.",
+    "2026-11-11 normalization pass: technical specifications were normalized for the 40GB and 60GB iPod photo models only. The 30GB option remains a documented variant-coverage gap; no 40/60GB values were applied to it."
   ],
   "normalized_specifications": {
     "navigation_interface": {
@@ -114,6 +194,312 @@
         "source_section": "iPod photo (also known as iPod with colour display)",
         "verification_status": "source_transcribed",
         "notes": "Descriptive text transcribed from the official Apple identification page, excluding repeated model/date metadata lines."
+      }
+    },
+    "size_weight_statements": {
+      "value": {
+        "value": [
+          "Height: 4.1 in",
+          "Width: 2.4 in",
+          "Depth: 0.75 in",
+          "Weight: 6.4 oz (181 g)"
+        ],
+        "unit": null,
+        "source_section": "Size and weight (40 GB and 60 GB models)",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "dimensions": {
+      "height": {
+        "value": 4.1,
+        "unit": "in",
+        "source_section": "Size and weight (40 GB and 60 GB models)",
+        "verification_status": "source_transcribed"
+      },
+      "width": {
+        "value": 2.4,
+        "unit": "in",
+        "source_section": "Size and weight (40 GB and 60 GB models)",
+        "verification_status": "source_transcribed"
+      },
+      "depth": {
+        "value": 0.75,
+        "unit": "in",
+        "source_section": "Size and weight (40 GB and 60 GB models)",
+        "verification_status": "source_transcribed"
+      },
+      "weight": {
+        "value": 6.4,
+        "unit": "oz",
+        "source_section": "Size and weight (40 GB and 60 GB models)",
+        "verification_status": "source_transcribed",
+        "notes": "Source also states 181 grams; the page gives the same dimensions for the 40GB and 60GB models."
+      }
+    },
+    "storage": {
+      "capacity": {
+        "value": [
+          40,
+          60
+        ],
+        "unit": "GB",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed",
+        "notes": "This technical-specification page covers the 40GB and 60GB models only. The product record also lists a 30GB option from the identification page; that variant remains unverified by this technical page."
+      },
+      "medium": {
+        "value": "hard disk drive",
+        "unit": null,
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed"
+      },
+      "songs_at_128_kbps_aac": {
+        "value": [
+          10000,
+          15000
+        ],
+        "unit": "songs",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "display": {
+      "technology": {
+        "value": "2-inch color liquid crystal display with blue-white LED backlight",
+        "unit": null,
+        "source_section": "Display (40 GB and 60 GB models)",
+        "verification_status": "source_transcribed"
+      },
+      "diagonal": {
+        "value": 2,
+        "unit": "inches",
+        "source_section": "Display (40 GB and 60 GB models)",
+        "verification_status": "source_transcribed"
+      },
+      "resolution": {
+        "value": "220 × 176",
+        "unit": "pixels",
+        "source_section": "Display (40 GB and 60 GB models)",
+        "verification_status": "source_transcribed"
+      },
+      "dot_pitch": {
+        "value": 0.18,
+        "unit": "mm",
+        "source_section": "Display (40 GB and 60 GB models)",
+        "verification_status": "source_transcribed"
+      },
+      "color_depth": {
+        "value": 16,
+        "unit": "bit",
+        "source_section": "Display (40 GB and 60 GB models)",
+        "verification_status": "source_transcribed"
+      },
+      "color_count": {
+        "value": 65536,
+        "unit": "colors",
+        "source_section": "Display (40 GB and 60 GB models)",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "audio": {
+      "skip_protection_time": {
+        "value": 25,
+        "unit": "minutes",
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      },
+      "frequency_response": {
+        "value": "20Hz to 20,000Hz",
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      },
+      "formats_supported": {
+        "value": [
+          "AAC (16 to 320 Kbps)",
+          "MP3 (32 to 320 Kbps)",
+          "MP3 VBR",
+          "Audible",
+          "AIFF",
+          "Apple Lossless",
+          "WAV"
+        ],
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "photo_support": {
+      "formats_supported": {
+        "value": "Syncs iPod-viewable photos in JPEG, BMP, GIF, TIFF, PSD (Mac only) and PNG formats",
+        "unit": null,
+        "source_section": "Photo support",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "headphones": {
+      "type": {
+        "value": "Earbud-style headphones",
+        "unit": null,
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      },
+      "driver_diameter": {
+        "value": 18,
+        "unit": "mm",
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      },
+      "driver_magnet": {
+        "value": "Neodymium transducer magnets",
+        "unit": null,
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      },
+      "frequency_response": {
+        "value": "20Hz to 20,000Hz",
+        "unit": null,
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      },
+      "impedance": {
+        "value": 32,
+        "unit": "ohms",
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "connectors": {
+      "ports": {
+        "value": [
+          "Dock connector",
+          "3.5-mm stereo headphone jack",
+          "Wired remote connector"
+        ],
+        "unit": null,
+        "source_section": "Input and output",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "connectivity": {
+      "interfaces": {
+        "value": "FireWire 400 and USB 2.0 through dock connector",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "system_requirements": {
+      "mac": {
+        "value": "Macintosh computer with FireWire port or built-in USB 2.0 port; Mac OS X v10.2.8 or later for FireWire; USB 2.0 requires Mac OS X v10.3.4 or later",
+        "unit": null,
+        "source_section": "Mac requirements",
+        "verification_status": "source_transcribed"
+      },
+      "windows": {
+        "value": "PC with FireWire or USB 2.0 port or card; Windows 2000 with Service Pack 4 or Windows XP Home or Professional",
+        "unit": null,
+        "source_section": "Windows requirements",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "environment": {
+      "operating_temperature": {
+        "value": "32° to 95° F (0° to 35° C)",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "non_operating_temperature": {
+        "value": "-4° to 113° F (-20° to 45° C)",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "relative_humidity": {
+        "value": "5% to 95% noncondensing",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "maximum_operating_altitude": {
+        "value": "10,000 feet (3000 m)",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "battery": {
+      "type": {
+        "value": "Built-in rechargeable lithium ion battery",
+        "unit": null,
+        "source_section": "Power and battery (3)",
+        "verification_status": "source_transcribed"
+      },
+      "music_playback_time_max": {
+        "value": 15,
+        "unit": "hours",
+        "source_section": "Power and battery (3)",
+        "verification_status": "source_transcribed"
+      },
+      "slideshow_playback_time_max": {
+        "value": 5,
+        "unit": "hours",
+        "source_section": "Power and battery (3)",
+        "verification_status": "source_transcribed",
+        "notes": "Without TV out."
+      },
+      "standby_time": {
+        "value": 1,
+        "unit": "month",
+        "source_section": "Power and battery (3)",
+        "verification_status": "source_transcribed"
+      },
+      "charging_method": {
+        "value": "FireWire or USB 2.0 to computer system or power adapter",
+        "unit": null,
+        "source_section": "Power and battery (3)",
+        "verification_status": "source_transcribed"
+      },
+      "fast_charge_time": {
+        "value": 3,
+        "unit": "hours",
+        "source_section": "Power and battery (3)",
+        "verification_status": "source_transcribed",
+        "notes": "Fast charge reaches up to 80% of battery capacity."
+      },
+      "full_charge_time": {
+        "value": 5,
+        "unit": "hours",
+        "source_section": "Power and battery (3)",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "in_the_box": {
+      "items": {
+        "value": [
+          "Earbud headphones",
+          "iPod Power Adapter",
+          "Dock Connector to FireWire cable",
+          "Dock Connector to USB 2.0 cable",
+          "iPod photo AV cable",
+          "Carrying case",
+          "Dock"
+        ],
+        "unit": null,
+        "source_section": "Included accessories",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "included_software": {
+      "items": {
+        "value": [
+          "iTunes for Mac",
+          "iTunes for Windows"
+        ],
+        "unit": null,
+        "source_section": "Included software",
+        "verification_status": "source_transcribed"
       }
     }
   }

@@ -460,15 +460,18 @@
       "final_url": "https://support.apple.com/en-ie/103823",
       "title": "Identify your iPod model - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 3,
+      "section_count": 16,
       "verification_status": "partially_verified",
       "technical_spec_source_url": "https://support.apple.com/en-ie/112449",
       "technical_spec_source_file": "apple_remaining_extraction/technical_specs_html/ipod-photo-40-60gb-tech-specs.html",
       "technical_spec_source_title": "iPod photo (40 GB, 60 GB) - Technical Specifications - Apple Support (IE)",
-      "technical_spec_section_count": 2,
-      "technical_spec_status": "archived_section_mapped_pending_field_verification",
-      "technical_spec_coverage_note": "This technical-specification page covers the 40 GB and 60 GB iPod photo models; the record's 30 GB option requires separate evidence.",
-      "technical_spec_checked_at": "2026-11-11"
+      "technical_spec_section_count": 15,
+      "technical_spec_status": "normalized_40_60GB_only",
+      "technical_spec_coverage_note": "The archived official page covers the 40GB and 60GB iPod photo models. Normalized fields are limited to those capacities; the record's 30GB option remains supported only by the identification page and is not independently verified.",
+      "technical_spec_checked_at": "2026-11-11",
+      "notes": [
+        "Typed technical fields are now normalized for 40GB and 60GB only; the 30GB option remains a documented source-coverage gap."
+      ]
     },
     {
       "model": "iPod (Click Wheel)",
@@ -551,7 +554,8 @@
     "2026-11-11 archival mapping pass: ten additional official Apple iPod technical-specification archives are now attached to existing records with section-level provenance. Existing identification-page facts and distinct capacity/year variants were retained; typed specification normalization remains pending field-by-field review.",
     "2026-11-11 normalization pass: iPod nano generations 1, 2, 3 and 5 now have typed technical fields and inventory section counts aligned with their archived model-specific Apple specifications.",
     "2026-11-11 normalization pass: second-generation shuffle technical fields are normalized for the 1GB configuration only; the 2GB variant remains a documented source-coverage gap. The late-2009 third-generation A1271 2GB/4GB model is fully mapped to its official specification page and normalized.",
-    "2026-11-11 normalization pass: 2005 fifth-generation iPod (60GB record), late-2006 fifth-generation iPod (80GB record), and 20/40GB Click Wheel iPod now have typed normalized specifications sourced from their dedicated archived Apple pages. Capacity-specific source scope is retained in the record notes."
+    "2026-11-11 normalization pass: 2005 fifth-generation iPod (60GB record), late-2006 fifth-generation iPod (80GB record), and 20/40GB Click Wheel iPod now have typed normalized specifications sourced from their dedicated archived Apple pages. Capacity-specific source scope is retained in the record notes.",
+    "2026-11-11 normalization pass: the iPod photo 40GB/60GB technical-specification page is now section-mapped and normalized; the 30GB variant remains explicitly unverified by that page."
   ],
   "record_audit": {
     "checked_at": "2026-11-11",
@@ -665,6 +669,14 @@
       "source_type": "official_apple_technical_specifications",
       "discovery_status": "archived_and_mapped",
       "notes": "The page explicitly covers the 20GB and 40GB Click Wheel configurations; capacity-specific dimensions and included items remain separate."
+    },
+    {
+      "model": "iPod photo (40GB and 60GB configurations)",
+      "title": "iPod photo (40 GB, 60 GB) - Technical Specifications",
+      "url": "https://support.apple.com/en-ie/112449",
+      "source_type": "official_apple_technical_specifications",
+      "discovery_status": "archived_and_mapped",
+      "notes": "The archived official page covers the 40GB and 60GB iPod photo models. Normalized fields are limited to those capacities; the record's 30GB option remains supported only by the identification page and is not independently verified."
     }
   ]
 }
