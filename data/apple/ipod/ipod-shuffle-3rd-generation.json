@@ -19,15 +19,16 @@
   "source": {
     "source_type": "manufacturer",
     "source_url": "https://support.apple.com/en-ie/103823",
-    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-ipod-shuffle-3rd-generation.html",
-    "source_title": "iPod shuffle (3rd generation)",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
+    "source_title": "Identify your iPod model - Apple Support (IE)",
     "publisher": "Apple",
     "published_at": null,
     "checked_at": "2026-11-09",
-    "verification_status": "content_verified",
-    "verification_notes": "Official Apple source captured 2026-11-09; source headings and 1 sections archived.",
+    "verification_status": "partially_verified",
+    "verification_notes": "This record's retained evidence is extracted from Apple's general 'Identify your iPod model' page, not an individual technical-specifications page. The archived HTML file is the shared source page. Only identification facts explicitly present in that page are supported; detailed technical specifications require separate model-specific sources.",
     "notes": [
-      "Extracted from official Apple technical specification link discovered on model index."
+      "Primary evidence is Apple's official iPod identification page; it supports only the model-identification statements retained in the source section.",
+      "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually."
     ]
   },
   "extraction": {
