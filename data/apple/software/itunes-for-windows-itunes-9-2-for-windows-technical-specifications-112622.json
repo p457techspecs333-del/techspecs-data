@@ -49,7 +49,8 @@
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Field extraction pass 2026-11-09: version labels and explicit software/hardware requirements parsed from preserved official Apple source sections.",
     "2026-11-10 identity correction: product.model now includes the official version and platform from the technical-specification page title, preserving distinct software releases.",
-    "2026-11-10 verification correction: removed iOS 4 from the Windows operating-system requirement field and restored the full Windows XP/Vista/Windows 7 and 64-bit installer requirements. Added explicit processor, RAM, graphics, display, sound, network, optical-drive, QuickTime and device compatibility fields."
+    "2026-11-10 verification correction: removed iOS 4 from the Windows operating-system requirement field and restored the full Windows XP/Vista/Windows 7 and 64-bit installer requirements. Added explicit processor, RAM, graphics, display, sound, network, optical-drive, QuickTime and device compatibility fields.",
+    "2026-11-11 source audit: removed the statement about organizing iOS 4 home-screen apps because it is absent from the archived official HTML; the other three device-compatibility statements are present in the archive."
   ],
   "normalized_specifications": {
     "windows_requirements_statements": {
@@ -255,8 +256,7 @@
         "value": [
           "Sync with iPhone 4",
           "Sync and read books with iPhone or iPod touch with iOS 4 and iBooks 1.1",
-          "Read PDFs with iBooks 1.1 on iPad and any iPhone or iPod touch with iOS 4",
-          "Organize apps on iOS 4 home screens into folders using iTunes"
+          "Read PDFs with iBooks 1.1 on iPad and any iPhone or iPod touch with iOS 4"
         ],
         "unit": null,
         "source_section": "What's new in iTunes 9.2",
