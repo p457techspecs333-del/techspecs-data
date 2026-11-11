@@ -261,13 +261,25 @@
     },
     {
       "model": "iPod shuffle (3rd generation Late 2009)",
-      "url": "https://support.apple.com/en-ie/103823",
+      "url": "https://support.apple.com/en-ie/112497",
       "slug": "ipod-shuffle-3rd-generation-late-2009",
-      "final_url": "https://support.apple.com/en-ie/103823",
-      "title": "Identify your iPod model - Apple Support (IE)",
-      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 1,
-      "verification_status": "partially_verified"
+      "final_url": "https://support.apple.com/en-ie/112497",
+      "title": "iPod shuffle (3rd generation) - Technical Specifications - Apple Support (IE)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html",
+      "section_count": 14,
+      "verification_status": "content_verified",
+      "supporting_source_url": "https://support.apple.com/en-ie/103823",
+      "supporting_source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
+      "technical_spec_source_url": "https://support.apple.com/en-ie/112497",
+      "technical_spec_source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html",
+      "technical_spec_source_title": "iPod shuffle (3rd generation) - Technical Specifications - Apple Support (IE)",
+      "technical_spec_section_count": 13,
+      "technical_spec_status": "normalized_and_content_verified",
+      "technical_spec_coverage_note": "The archived page covers the late-2009 A1271 2GB/4GB configurations and both anodized-aluminum and polished-stainless-steel weights.",
+      "technical_spec_checked_at": "2026-11-11",
+      "notes": [
+        "Dedicated technical-specification page is now the primary source; identification evidence remains preserved as a supporting source."
+      ]
     },
     {
       "model": "iPod shuffle (3rd generation)",
@@ -299,9 +311,12 @@
       "technical_spec_source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-2nd-generation-tech-specs.html",
       "technical_spec_source_title": "iPod shuffle (2nd generation) - Technical Specifications - Apple Support (IE)",
       "technical_spec_section_count": 16,
-      "technical_spec_status": "archived_section_mapped_pending_field_verification",
-      "technical_spec_coverage_note": "Second-generation iPod shuffle technical specifications.",
-      "technical_spec_checked_at": "2026-11-11"
+      "technical_spec_status": "normalized_1GB_configuration_only",
+      "technical_spec_coverage_note": "The archived 112455 technical-specification page explicitly describes a 1GB USB flash drive and 240 songs. The product record's 2GB option remains supported by the general identification page only and is not independently verified by this technical page.",
+      "technical_spec_checked_at": "2026-11-11",
+      "notes": [
+        "Typed technical fields were added only for the 1GB configuration; 2GB variant remains partially verified."
+      ]
     },
     {
       "model": "iPod shuffle",
@@ -519,7 +534,8 @@
     "2026-11-11 repository pipeline status: 364 product records pass schema validation with zero errors; archived-source audit reports zero missing archives, source-title mismatches or canonical-URL mismatches; live manifest, catalogue and sampled product routes pass.",
     "2026-11-11 source coverage status: 27 of 37 iPod inventory entries now have a model-specific Apple technical-specification archive mapped; the ten identity-page-only models are listed explicitly in remaining work.",
     "2026-11-11 archival mapping pass: ten additional official Apple iPod technical-specification archives are now attached to existing records with section-level provenance. Existing identification-page facts and distinct capacity/year variants were retained; typed specification normalization remains pending field-by-field review.",
-    "2026-11-11 normalization pass: iPod nano generations 1, 2, 3 and 5 now have typed technical fields and inventory section counts aligned with their archived model-specific Apple specifications."
+    "2026-11-11 normalization pass: iPod nano generations 1, 2, 3 and 5 now have typed technical fields and inventory section counts aligned with their archived model-specific Apple specifications.",
+    "2026-11-11 normalization pass: second-generation shuffle technical fields are normalized for the 1GB configuration only; the 2GB variant remains a documented source-coverage gap. The late-2009 third-generation A1271 2GB/4GB model is fully mapped to its official specification page and normalized."
   ],
   "record_audit": {
     "checked_at": "2026-11-11",
@@ -593,6 +609,22 @@
       "source_type": "official_apple_technical_specifications",
       "discovery_status": "archived_and_mapped",
       "notes": "Official Apple Ireland technical-specification HTML is archived at apple_remaining_extraction/technical_specs_html/ipod-classic-160-gb-late-2009-tech-specs.html and is mapped to the corresponding inventory record. Canonical URL verified from archived HTML metadata: https://support.apple.com/en-ie/112601. Keep capacity/year variants distinct; this source alone does not collapse other variants into this model."
+    },
+    {
+      "model": "iPod shuffle (2nd generation)",
+      "title": "iPod shuffle (2nd generation) - Technical Specifications",
+      "url": "https://support.apple.com/en-ie/112455",
+      "source_type": "official_apple_technical_specifications",
+      "discovery_status": "archived_and_mapped",
+      "notes": "Mapped to the second-generation shuffle record for the 1GB configuration only; the 2GB variant remains unverified by this page."
+    },
+    {
+      "model": "iPod shuffle (3rd generation Late 2009)",
+      "title": "iPod shuffle (3rd generation) - Technical Specifications",
+      "url": "https://support.apple.com/en-ie/112497",
+      "source_type": "official_apple_technical_specifications",
+      "discovery_status": "archived_and_mapped",
+      "notes": "Mapped to the late-2009 A1271 record; covers 2GB/4GB and finish-specific weights."
     }
   ]
 }

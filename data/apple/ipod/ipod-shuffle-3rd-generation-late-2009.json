@@ -19,17 +19,17 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-ie/103823",
-    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-    "source_title": "Identify your iPod model - Apple Support (IE)",
-    "publisher": "Apple",
+    "source_url": "https://support.apple.com/en-ie/112497",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html",
+    "source_title": "iPod shuffle (3rd generation) - Technical Specifications - Apple Support (IE)",
+    "publisher": "Apple Support (Ireland)",
     "published_at": null,
-    "checked_at": "2026-11-09",
-    "verification_status": "partially_verified",
-    "verification_notes": "This record's retained evidence is extracted from Apple's general 'Identify your iPod model' page, not an individual technical-specifications page. The archived HTML file is the shared source page. Only identification facts explicitly present in that page are supported; detailed technical specifications require separate model-specific sources.",
+    "checked_at": "2026-11-11",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page archived and matched to the 3rd-generation Late 2009 model: model A1271, 2GB/4GB configurations and finish-specific weights. Identification evidence remains in the original source section.",
     "notes": [
-      "Primary evidence is Apple's official iPod identification page; it supports only the model-identification statements retained in the source section.",
-      "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually."
+      "Technical values are transcribed from the archived model-specific specification sections.",
+      "The original iPod identification section is retained as supporting evidence."
     ]
   },
   "extraction": {
@@ -43,11 +43,90 @@
     {
       "heading": "iPod shuffle (3rd generation Late 2009)",
       "source_text": "Navigation: Apple Earphones with Remote\nCapacity: 2 and 4 GB\nModel number and dates introduced: A1271: September 2009\niPod shuffle (3rd generation Late 2009) includes a three-position switch that toggles between off, play in order and shuffle, similar to the original iPod shuffle. This model has a headphone port that also connects to a computer's USB port. It has a clip similar to the iPod shuffle (2nd generation). iPod shuffle (3rd generation Late 2009) is smaller than the previous generations and has one status light. Previous iPod shuffle generations had two.\niPod shuffle (3rd generation Late 2009) is available in five colours.\nThe iPod shuffle (3rd generation Late 2009) also comes in a Special Limited Edition 4 GB model only available from the Apple Store. It comes in polished stainless steel."
+    },
+    {
+      "heading": "Size and weight",
+      "source_text": "Height: 1.8 inches (45.2 mm) Width: 0.7 inch (17.5 mm) Depth: 0.3 inch (7.8 mm) including clip True volume: 0.26 cu inch (4326 cu mm) Weight: 0.38 ounce (10.7 grams) 1 for iPod shuffle in anodized aluminum 0.61 ounce (17.2 grams) 1 for iPod shuffle in polished stainless steel",
+      "source_url": "https://support.apple.com/en-ie/112497",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "External controls",
+      "source_text": "Shuffle Play in order Turn off",
+      "source_url": "https://support.apple.com/en-ie/112497",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Input and output",
+      "source_text": "3.5-mm stereo headphone jack",
+      "source_url": "https://support.apple.com/en-ie/112497",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Environmental requirements",
+      "source_text": "Operating temperature: 32° to 95° F (0° to 35° C) Nonoperating temperature: -4° to 113° F (-20° to 45° C) Relative humidity: 5% to 95% noncondensing Maximum operating altitude: 10,000 feet (3000 m)",
+      "source_url": "https://support.apple.com/en-ie/112497",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Capacity",
+      "source_text": "2GB or 4GB flash drive 2 Holds up to 500 or 1,000 songs in 128-Kbps AAC format 3 Stores data via USB flash drive",
+      "source_url": "https://support.apple.com/en-ie/112497",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Battery and power 4",
+      "source_text": "Built-in rechargeable lithium-polymer battery Playback time: Up to 10 hours when fully charged Charging via USB to computer system or power adapter (sold separately) 80% charged in 2 hours; fully charged in 3 hours",
+      "source_url": "https://support.apple.com/en-ie/112497",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Skip-free playback Frequency response: 20Hz to 20,000Hz Audio formats supported: AAC (8 to 320 Kbps), Protected AAC (from iTunes Store), HE-AAC, MP3 (8 to 320 Kbps), MP3 VBR, Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+), Apple Lossless, AIFF, and WAV",
+      "source_url": "https://support.apple.com/en-ie/112497",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Environmental Status Report",
+      "source_text": "iPod shuffle embodies Apple&rsquo;s continuing environmental progress. It is designed with the following features to reduce environmental impact: BFR-free PVC-free Highly recyclable",
+      "source_url": "https://support.apple.com/en-ie/112497",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "VoiceOver Kit",
+      "source_text": "Chinese (Cantonese) Chinese (Mandarin) Czech Danish Dutch English Finnish French German Greek Italian Japanese Korean Norwegian Polish Portuguese Russian Spanish Swedish Turkish",
+      "source_url": "https://support.apple.com/en-ie/112497",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Headphones",
+      "source_text": "Earphones with Remote Frequency response: 20Hz to 20,000Hz Impedance: 32 ohms",
+      "source_url": "https://support.apple.com/en-ie/112497",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Mac system requirements",
+      "source_text": "Mac computer with USB 2.0 port Mac OS X v10.4.11 or later iTunes 9 or later 5",
+      "source_url": "https://support.apple.com/en-ie/112497",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Windows system requirements",
+      "source_text": "PC with USB 2.0 port Windows Vista or Windows XP Home or Professional with Service Pack 3 or later iTunes 9 or later 5",
+      "source_url": "https://support.apple.com/en-ie/112497",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "In the box",
+      "source_text": "iPod shuffle Earphones with Remote iPod shuffle USB Cable (1.8 inches/45 mm) Quick Start guide",
+      "source_url": "https://support.apple.com/en-ie/112497",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
     }
   ],
   "record_notes": [
     "Archival-first-pass record; normalized specifications not inferred.",
-    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text."
+    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text.",
+    "2026-11-11 normalization pass: model-specific specs for the late-2009 2GB/4GB iPod shuffle were mapped and normalized, including both anodized-aluminum and polished-stainless-steel weights. The original 2009 4GB-only shuffle record is not merged with this late-2009 variant."
   ],
   "normalized_specifications": {
     "navigation_interface": {
@@ -92,6 +171,283 @@
         "source_section": "iPod shuffle (3rd generation Late 2009)",
         "verification_status": "source_transcribed",
         "notes": "Description transcribed from the official Apple identification page."
+      }
+    },
+    "size_weight_statements": {
+      "value": {
+        "value": [
+          "Height: 1.8 inches (45.2 mm)",
+          "Width: 0.7 inch (17.5 mm)",
+          "Depth: 0.3 inch (7.8 mm) including clip",
+          "True volume: 0.26 cu inch (4326 cu mm)",
+          "Weight: 0.38 ounce (10.7 grams) 1 for iPod shuffle in anodized aluminum 0.61 ounce (17.2 grams) 1 for iPod shuffle in polished stainless steel"
+        ],
+        "unit": null,
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "dimensions": {
+      "height": {
+        "value": 45.2,
+        "unit": "mm",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      },
+      "width": {
+        "value": 17.5,
+        "unit": "mm",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      },
+      "depth": {
+        "value": 7.8,
+        "unit": "mm",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      },
+      "true_volume": {
+        "value": 4326,
+        "unit": "mm³",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      },
+      "weight": {
+        "value": [
+          10.7,
+          17.2
+        ],
+        "unit": "g",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed",
+        "notes": "Values correspond in order to anodized aluminum (10.7 g) and polished stainless steel (17.2 g)."
+      }
+    },
+    "storage": {
+      "capacity": {
+        "value": [
+          2,
+          4
+        ],
+        "unit": "GB",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed"
+      },
+      "medium": {
+        "value": "flash drive",
+        "unit": null,
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed"
+      },
+      "songs_at_128_kbps_aac": {
+        "value": [
+          500,
+          1000
+        ],
+        "unit": "songs",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "audio": {
+      "skip_free_playback": {
+        "value": true,
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      },
+      "frequency_response": {
+        "value": "20Hz to 20,000Hz",
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      },
+      "formats_supported": {
+        "value": [
+          "AAC (8 to 320 Kbps)",
+          "Protected AAC (from iTunes Store)",
+          "HE-AAC",
+          "MP3 (8 to 320 Kbps)",
+          "MP3 VBR",
+          "Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+)",
+          "Apple Lossless",
+          "AIFF",
+          "WAV"
+        ],
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "headphones": {
+      "type": {
+        "value": "Earphones with Remote",
+        "unit": null,
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      },
+      "frequency_response": {
+        "value": "20Hz to 20,000Hz",
+        "unit": null,
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      },
+      "impedance": {
+        "value": 32,
+        "unit": "ohms",
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "system_requirements": {
+      "mac": {
+        "value": "Mac computer with USB 2.0 port Mac OS X v10.4.11 or later iTunes 9 or later",
+        "unit": null,
+        "source_section": "Mac system requirements",
+        "verification_status": "source_transcribed"
+      },
+      "windows": {
+        "value": "PC with USB 2.0 port Windows Vista or Windows XP Home or Professional with Service Pack 3 or later iTunes 9 or later",
+        "unit": null,
+        "source_section": "Windows system requirements",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "environment": {
+      "operating_temperature": {
+        "value": "32° to 95° F (0° to 35° C)",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "non_operating_temperature": {
+        "value": "-4° to 113° F (-20° to 45° C)",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "relative_humidity": {
+        "value": "5% to 95% noncondensing",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "maximum_operating_altitude": {
+        "value": "10,000 feet (3000 m)",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "connectors": {
+      "ports": {
+        "value": [
+          "3.5-mm stereo headphone jack"
+        ],
+        "unit": null,
+        "source_section": "Input and output",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "battery": {
+      "type": {
+        "value": "Built-in rechargeable lithium-polymer battery",
+        "unit": null,
+        "source_section": "Battery and power 4",
+        "verification_status": "source_transcribed"
+      },
+      "music_playback_time_max": {
+        "value": 10,
+        "unit": "hours",
+        "source_section": "Battery and power 4",
+        "verification_status": "source_transcribed"
+      },
+      "charging_method": {
+        "value": "Charging via USB to computer system or power adapter (sold separately)",
+        "unit": null,
+        "source_section": "Battery and power 4",
+        "verification_status": "source_transcribed"
+      },
+      "fast_charge_time": {
+        "value": 2,
+        "unit": "hours",
+        "source_section": "Battery and power 4",
+        "verification_status": "source_transcribed",
+        "notes": "80% charged in 2 hours."
+      },
+      "full_charge_time": {
+        "value": 3,
+        "unit": "hours",
+        "source_section": "Battery and power 4",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "in_the_box": {
+      "items": {
+        "value": [
+          "iPod shuffle",
+          "Earphones with Remote",
+          "iPod shuffle USB Cable (1.8 inches/45 mm)",
+          "Quick Start guide"
+        ],
+        "unit": null,
+        "source_section": "In the box",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "controls": {
+      "options": {
+        "value": [
+          "Shuffle",
+          "Play in order",
+          "Turn off"
+        ],
+        "unit": null,
+        "source_section": "External controls",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "voiceover_language_support": {
+      "languages": {
+        "value": [
+          "Chinese (Cantonese)",
+          "Chinese (Mandarin)",
+          "Czech",
+          "Danish",
+          "Dutch",
+          "English",
+          "Finnish",
+          "French",
+          "German",
+          "Greek",
+          "Italian",
+          "Japanese",
+          "Korean",
+          "Norwegian",
+          "Polish",
+          "Portuguese",
+          "Russian",
+          "Spanish",
+          "Swedish",
+          "Turkish"
+        ],
+        "unit": null,
+        "source_section": "VoiceOver Kit",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "weight_by_finish": {
+      "anodized_aluminum": {
+        "value": 10.7,
+        "unit": "g",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      },
+      "polished_stainless_steel": {
+        "value": 17.2,
+        "unit": "g",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
       }
     }
   }

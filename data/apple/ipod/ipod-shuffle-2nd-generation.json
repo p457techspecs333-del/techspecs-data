@@ -29,8 +29,9 @@
     "verification_notes": "This record's retained evidence is extracted from Apple's general 'Identify your iPod model' page, not an individual technical-specifications page. The archived HTML file is the shared source page. Only identification facts explicitly present in that page are supported; detailed technical specifications require separate model-specific sources.",
     "notes": [
       "Primary evidence is Apple's official iPod identification page; it supports only the model-identification statements retained in the source section.",
-      "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually.",
-      "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112455 (apple_remaining_extraction/technical_specs_html/ipod-shuffle-2nd-generation-tech-specs.html); Second-generation iPod shuffle technical specifications. Typed normalized values were not inferred by this archival pass."
+      "Do not treat this source as a complete technical specification sheet. The archived model-specific page at https://support.apple.com/en-ie/112455 covers the 1GB configuration only; the 2GB configuration is not independently verified by that page.",
+      "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112455 (apple_remaining_extraction/technical_specs_html/ipod-shuffle-2nd-generation-tech-specs.html); Second-generation iPod shuffle technical specifications. Typed normalized values were not inferred by this archival pass.",
+      "Archived model-specific technical specifications cover the 1GB second-generation shuffle configuration. The 2GB option is listed by Apple's identification page but is not covered by this archived technical-specification page; do not treat the 2GB configuration as independently verified."
     ]
   },
   "extraction": {
@@ -147,7 +148,8 @@
   "record_notes": [
     "Archival-first-pass record; normalized specifications not inferred.",
     "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text.",
-    "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112455 (apple_remaining_extraction/technical_specs_html/ipod-shuffle-2nd-generation-tech-specs.html); Second-generation iPod shuffle technical specifications. Typed normalized values were not inferred by this archival pass."
+    "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112455 (apple_remaining_extraction/technical_specs_html/ipod-shuffle-2nd-generation-tech-specs.html); Second-generation iPod shuffle technical specifications. Typed normalized values were not inferred by this archival pass.",
+    "2026-11-11 normalization pass: source-backed technical fields were normalized for the 1GB configuration only. The product record still lists a 2GB option from Apple's identification page; this remains a variant-coverage limitation rather than an inferred specification."
   ],
   "normalized_specifications": {
     "navigation_interface": {
@@ -204,6 +206,216 @@
         "source_section": "iPod shuffle (2nd generation)",
         "verification_status": "source_transcribed",
         "notes": "Description transcribed from the official Apple identification page."
+      }
+    },
+    "size_weight_statements": {
+      "value": {
+        "value": [
+          "Height: 1.07 inches (27.3 mm)",
+          "Width: 1.62 inches (41.2 mm)",
+          "Depth: 0.41 inch (10.5 mm) (including clip)",
+          "Weight: 0.55 ounce (15.6 grams)"
+        ],
+        "unit": null,
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "dimensions": {
+      "height": {
+        "value": 1.07,
+        "unit": "in",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      },
+      "width": {
+        "value": 1.62,
+        "unit": "in",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      },
+      "depth": {
+        "value": 0.41,
+        "unit": "in",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed",
+        "notes": "Includes the clip."
+      },
+      "weight": {
+        "value": 0.55,
+        "unit": "oz",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed",
+        "notes": "Source also gives 15.6 grams."
+      }
+    },
+    "storage": {
+      "capacity": {
+        "value": [
+          1
+        ],
+        "unit": "GB",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed",
+        "notes": "This archived technical-specification page explicitly covers the 1GB configuration only. The product record's 2GB option is supported only by the identification page and is not independently verified by this page."
+      },
+      "medium": {
+        "value": "USB flash drive",
+        "unit": null,
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed"
+      },
+      "songs_at_128_kbps_aac": {
+        "value": 240,
+        "unit": "songs",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "audio": {
+      "skip_free_playback": {
+        "value": true,
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      },
+      "frequency_response": {
+        "value": "20Hz to 20,000Hz",
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      },
+      "formats_supported": {
+        "value": [
+          "AAC (8 to 320 Kbps)",
+          "Protected AAC (from iTunes Store)",
+          "MP3 (8 to 320 Kbps)",
+          "MP3 VBR",
+          "Audible (formats 2, 3, and 4)",
+          "WAV",
+          "AIFF"
+        ],
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "headphones": {
+      "type": {
+        "value": "Earphones",
+        "unit": null,
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      },
+      "frequency_response": {
+        "value": "20Hz to 20,000Hz",
+        "unit": null,
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      },
+      "impedance": {
+        "value": 32,
+        "unit": "ohms",
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "system_requirements": {
+      "mac": {
+        "value": "Mac computer with USB 2.0 port\nMac OS X v10.4.8 or later\niTunes 7.4 or later",
+        "unit": null,
+        "source_section": "Mac system requirements",
+        "verification_status": "source_transcribed"
+      },
+      "windows": {
+        "value": "PC with USB 2.0 port\nWindows Vista or Windows XP Home or Professional with Service Pack 2 or later\niTunes 7.4 or later",
+        "unit": null,
+        "source_section": "Windows system requirements",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "environment": {
+      "operating_temperature": {
+        "value": "32° to 95° F (0° to 35° C)",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "non_operating_temperature": {
+        "value": "-4° to 113° F (-20° to 45° C)",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "relative_humidity": {
+        "value": "5% to 95% noncondensing",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "maximum_operating_altitude": {
+        "value": "10,000 feet (3000 m)",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "connectors": {
+      "ports": {
+        "value": [
+          "3.5-mm stereo headphone minijack"
+        ],
+        "unit": null,
+        "source_section": "Input and output",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "battery": {
+      "type": {
+        "value": "Built-in rechargeable lithium polymer battery",
+        "unit": null,
+        "source_section": "Power and battery 4",
+        "verification_status": "source_transcribed"
+      },
+      "music_playback_time_max": {
+        "value": 12,
+        "unit": "hours",
+        "source_section": "Power and battery 4",
+        "verification_status": "source_transcribed"
+      },
+      "charging_method": {
+        "value": "Charging via included USB dock",
+        "unit": null,
+        "source_section": "Power and battery 4",
+        "verification_status": "source_transcribed"
+      },
+      "full_charge_time": {
+        "value": 4,
+        "unit": "hours",
+        "source_section": "Power and battery 4",
+        "verification_status": "source_transcribed",
+        "notes": "Source says about 4 hours."
+      }
+    },
+    "in_the_box": {
+      "items": {
+        "value": [
+          "iPod shuffle",
+          "Earphones",
+          "Dock",
+          "Quick Start guide"
+        ],
+        "unit": null,
+        "source_section": "In the box",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "connectivity": {
+      "charging_interface": {
+        "value": "USB through the included USB dock",
+        "unit": null,
+        "source_section": "Power and battery 4",
+        "verification_status": "source_transcribed"
       }
     }
   }
