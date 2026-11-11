@@ -68,6 +68,7 @@ def main() -> int:
     source_files = {p.name for p in (ROOT / "sources").rglob("*.md")} if (ROOT / "sources").exists() else set()
     errors: list[str] = []
     warnings: list[str] = []
+    source_archives_not_retained = 0
     versions: Counter[str] = Counter()
     validated_v2 = 0
 
@@ -115,7 +116,13 @@ def main() -> int:
         else:
             expected = f"{path.stem}-source.md"
             if expected not in source_files:
-                warnings.append(f"{rel}: no matching {expected} found under sources/")
+                if "source_file" in source and source.get("source_file") is None:
+                    # Explicit null is a deliberate statement that no archived
+                    # source file is retained; report it separately from broken
+                    # paths or missing implicit Markdown files.
+                    source_archives_not_retained += 1
+                else:
+                    warnings.append(f"{rel}: no matching {expected} found under sources/")
 
         source_url = str(source.get("source_url") or "").strip()
         if not source_url:
@@ -266,6 +273,7 @@ def main() -> int:
     print(f"Inventories checked: {inventories_checked} | Inventory entries checked: {inventory_records_checked}")
 
     print(f"Product records scanned: {len(files)}")
+    print(f"Records with no archived source file explicitly recorded: {source_archives_not_retained}")
     print("Schema versions: " + ", ".join(f"{key}={value}" for key, value in sorted(versions.items())))
     print(f"Records checked against v2 schema: {validated_v2}")
     print(f"Errors: {len(errors)} | Warnings: {len(warnings)}")
