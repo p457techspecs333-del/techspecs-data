@@ -60,6 +60,31 @@
       "url": "https://support.apple.com/en-ie/112319",
       "expected_title_contains": "iPod touch (2nd generation) - Technical Specifications",
       "output_path": "apple_remaining_extraction/technical_specs_html/ipod-touch-2nd-generation-tech-specs.html"
+    },
+    {
+      "url": "https://support.apple.com/en-ie/111896",
+      "expected_title_contains": "iPad Pro, 12.9-inch (5th generation)",
+      "output_path": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-5th-generation-tech-specs.html"
+    },
+    {
+      "url": "https://support.apple.com/en-ie/111841",
+      "expected_title_contains": "iPad Pro 12.9-inch (6th generation)",
+      "output_path": "apple_remaining_extraction/technical_specs_html/ipad-pro-12-9-inch-6th-generation-tech-specs.html"
+    },
+    {
+      "url": "https://support.apple.com/en-ie/119891",
+      "expected_title_contains": "iPad Pro 13",
+      "output_path": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m4-tech-specs.html"
+    },
+    {
+      "url": "https://support.apple.com/en-ie/125407",
+      "expected_title_contains": "iPad Pro 13",
+      "output_path": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
+    },
+    {
+      "url": "https://support.apple.com/en-ie/111965",
+      "expected_title_contains": "iPad Pro (9.7-inch)",
+      "output_path": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     }
   ]
 }
