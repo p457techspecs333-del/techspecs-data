@@ -44,7 +44,8 @@
   "record_notes": [
     "Archival-first-pass technical specification record; normalized values not inferred.",
     "Field extraction pass 2026-11-09: version labels and explicit software/hardware requirements parsed from preserved official Apple source sections.",
-    "2026-11-10 identity correction: product.model includes the official version designation from the technical-specification page title."
+    "2026-11-10 identity correction: product.model includes the official version designation from the technical-specification page title.",
+    "2026-11-11 normalization pass: missing Logic Pro 9 minimum OS, RAM, display, storage and selected audio/MIDI/mixer/surround capabilities were structured from the archived official specification page. Full feature lists remain preserved in the raw source section."
   ],
   "normalized_specifications": {
     "software_version": {
@@ -85,6 +86,168 @@
         "source_section": "Logic Pro 9 - Technical Specifications",
         "verification_status": "source_transcribed",
         "notes": "Verbatim transcription of the preserved official Apple specification section; footnote markers and qualifiers retained."
+      }
+    },
+    "operating_system_requirements": {
+      "minimum": {
+        "value": "OS X v10.6.8 or later",
+        "unit": null,
+        "source_section": "Minimum System Requirements",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "memory_requirement_details": {
+      "minimum": {
+        "value": 2,
+        "unit": "GB RAM",
+        "source_section": "Minimum System Requirements",
+        "verification_status": "source_transcribed"
+      },
+      "recommended": {
+        "value": 4,
+        "unit": "GB RAM",
+        "source_section": "Minimum System Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Source states 4GB recommended."
+      }
+    },
+    "display_requirements": {
+      "minimum_resolution": {
+        "value": [
+          1280,
+          768
+        ],
+        "unit": "pixels",
+        "source_section": "Minimum System Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Source states 1280-by-768 resolution or higher."
+      }
+    },
+    "storage_requirement_details": {
+      "minimum_available_disk_space": {
+        "value": 6,
+        "unit": "GB",
+        "source_section": "Minimum System Requirements",
+        "verification_status": "source_transcribed"
+      },
+      "optional_content": {
+        "value": 19,
+        "unit": "GB",
+        "source_section": "Minimum System Requirements",
+        "verification_status": "source_transcribed",
+        "notes": "Optional content available via in-app download."
+      }
+    },
+    "audio_capabilities": {
+      "maximum_file_and_io_resolution": {
+        "value": "24-bit/192kHz",
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      },
+      "maximum_project_length": {
+        "value": "Greater than 6 hours at 96kHz; 13 hours at 44.1kHz",
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      },
+      "effect_plugin_count": {
+        "value": 87,
+        "unit": "plugins",
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      },
+      "software_instrument_plugin_count": {
+        "value": 40,
+        "unit": "plugins",
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      },
+      "software_instrument_tuning_table_count": {
+        "value": 102,
+        "unit": "tables",
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "midi_capabilities": {
+      "note_resolution": {
+        "value": "1/3840 note",
+        "unit": null,
+        "source_section": "MIDI",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "mixer_capabilities": {
+      "maximum_audio_channel_strips": {
+        "value": 255,
+        "unit": "channel strips",
+        "source_section": "Mixer",
+        "verification_status": "source_transcribed"
+      },
+      "maximum_software_instrument_channel_strips": {
+        "value": 255,
+        "unit": "channel strips",
+        "source_section": "Mixer",
+        "verification_status": "source_transcribed"
+      },
+      "maximum_auxiliary_channel_strips": {
+        "value": 255,
+        "unit": "channel strips",
+        "source_section": "Mixer",
+        "verification_status": "source_transcribed"
+      },
+      "busses": {
+        "value": 64,
+        "unit": "busses",
+        "source_section": "Mixer",
+        "verification_status": "source_transcribed"
+      },
+      "inserts_per_channel_strip": {
+        "value": 15,
+        "unit": "inserts",
+        "source_section": "Mixer",
+        "verification_status": "source_transcribed"
+      },
+      "sends_per_channel_strip": {
+        "value": 8,
+        "unit": "sends per channel strip",
+        "source_section": "Mixer",
+        "verification_status": "source_transcribed"
+      },
+      "groups": {
+        "value": 32,
+        "unit": "groups",
+        "source_section": "Grouping",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "surround_capabilities": {
+      "supported_configurations": {
+        "value": [
+          "Quadraphonic",
+          "LCRS",
+          "5.1 (ITU)",
+          "6.1 (ES/EX)",
+          "7.1 (SDDS or 3/4.1)"
+        ],
+        "unit": null,
+        "source_section": "Surround",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "compatibility_features": {
+      "statements": {
+        "value": [
+          "Open GarageBand songs directly in Logic Pro",
+          "Support for Core Audio",
+          "Support for Audio Units plug-ins",
+          "ReWire support for integration with Reason, Ableton Live, and other ReWire-compatible applications",
+          "Import/export of AAF, OMF, Open TL, and XML (Final Cut Pro) projects"
+        ],
+        "unit": null,
+        "source_section": "Compatibility",
+        "verification_status": "source_transcribed"
       }
     }
   }
