@@ -16,7 +16,7 @@
       "final_url": "https://support.apple.com/en-ie/111961",
       "title": "iPod touch (7th generation) - Technical Specifications - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-7th-generation-tech-specs.html",
-      "section_count": 25,
+      "section_count": 26,
       "verification_status": "content_verified",
       "supporting_source_url": "https://support.apple.com/en-ie/103823"
     },
@@ -97,7 +97,7 @@
       "final_url": "https://support.apple.com/en-ie/112039",
       "title": "iPod nano (7th generation) - Technical Specifications - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-7th-generation-tech-specs.html",
-      "section_count": 18,
+      "section_count": 19,
       "verification_status": "content_verified",
       "supporting_source_url": "https://support.apple.com/en-ie/103823"
     },
@@ -108,7 +108,7 @@
       "final_url": "https://support.apple.com/en-ie/112039",
       "title": "iPod nano (7th generation) - Technical Specifications - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-7th-generation-tech-specs.html",
-      "section_count": 18,
+      "section_count": 19,
       "verification_status": "content_verified",
       "supporting_source_url": "https://support.apple.com/en-ie/103823"
     },
@@ -179,7 +179,7 @@
       "final_url": "https://support.apple.com/en-ie/112422",
       "title": "iPod shuffle (4th generation) - Technical Specifications - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-4th-generation-tech-specs.html",
-      "section_count": 11,
+      "section_count": 12,
       "verification_status": "content_verified",
       "supporting_source_url": "https://support.apple.com/en-ie/103823"
     },
@@ -190,7 +190,7 @@
       "final_url": "https://support.apple.com/en-ie/112422",
       "title": "iPod shuffle (4th generation) - Technical Specifications - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-4th-generation-tech-specs.html",
-      "section_count": 11,
+      "section_count": 12,
       "verification_status": "content_verified",
       "supporting_source_url": "https://support.apple.com/en-ie/103823"
     },
@@ -201,7 +201,7 @@
       "final_url": "https://support.apple.com/en-ie/112422",
       "title": "iPod shuffle (4th generation) - Technical Specifications - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-4th-generation-tech-specs.html",
-      "section_count": 11,
+      "section_count": 12,
       "verification_status": "content_verified",
       "supporting_source_url": "https://support.apple.com/en-ie/103823"
     },
@@ -272,7 +272,7 @@
       "final_url": "https://support.apple.com/en-ie/112601",
       "title": "iPod classic 160GB (Late 2009) - Technical Specifications - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-classic-160-gb-late-2009-tech-specs.html",
-      "section_count": 16,
+      "section_count": 17,
       "verification_status": "content_verified",
       "supporting_source_url": "https://support.apple.com/en-ie/103823"
     },
@@ -283,7 +283,7 @@
       "final_url": "https://support.apple.com/en-ie/112321",
       "title": "iPod classic (120GB) - Technical Specifications - Apple Support (IE)",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-classic-120-gb-tech-specs.html",
-      "section_count": 17,
+      "section_count": 18,
       "verification_status": "content_verified",
       "supporting_source_url": "https://support.apple.com/en-ie/103823"
     },
@@ -400,7 +400,8 @@
     "2026-11-10 field audit: all 37 records' product model-number lists were compared with their normalized model-number/date evidence. One discrepancy was corrected in iPod touch (2nd generation): the second identifier is A1319 (China mainland only), not a duplicate A1288.",
     "2026-11-10 web discovery: stored five exact official Apple technical-specification URLs as related-source leads. None has yet replaced the primary source mapping because matching raw HTML archives are not yet present in the repository.",
     "2026-11-11 provenance correction: all 37 product records now cite the single shared archived file apple_remaining_extraction/technical_specs_html/ipod-index.html and the actual page title, 'Identify your iPod model - Apple Support (IE)'. Each is marked partially_verified because this page provides model identification evidence, not a full technical specification sheet. Earlier per-model HTML filenames were copies of the same general page and are no longer cited as separate sources.",
-    "2026-11-11 source migration: five archived model-specific technical-specification pages are now mapped as primary sources for eight iPod records (including the matching 4th-generation shuffle and 7th-generation nano refresh variants). Each record's detailed source sections are extracted from its model-specific technical page. Model number/introduction-date identity evidence remains cross-checked against the shared identification page at https://support.apple.com/en-ie/103823."
+    "2026-11-11 source migration: five archived model-specific technical-specification pages are now mapped as primary sources for eight iPod records (including the matching 4th-generation shuffle and 7th-generation nano refresh variants). Each record's detailed source sections are extracted from its model-specific technical page. Model number/introduction-date identity evidence remains cross-checked against the shared identification page at https://support.apple.com/en-ie/103823.",
+    "Section-level provenance is now explicit: the first section in each migrated record cites the shared iPod identification page; each subsequent technical specification section cites its own model-specific Apple technical-specification URL and archived HTML path."
   ],
   "record_audit": {
     "checked_at": "2026-11-11",
