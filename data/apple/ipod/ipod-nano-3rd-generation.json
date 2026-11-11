@@ -220,7 +220,12 @@
     },
     "size_weight_statements": {
       "value": {
-        "value": "Height: 2.75 inches (69.8 mm)\nWidth: 2.06 inches (52.3 mm)\nDepth: 0.26 inch (6.5 mm)\nWeight: 1.74 ounces (49.2 grams)",
+        "value": [
+          "Height: 2.75 inches (69.8 mm)",
+          "Width: 2.06 inches (52.3 mm)",
+          "Depth: 0.26 inch (6.5 mm)",
+          "Weight: 1.74 ounces (49.2 grams)"
+        ],
         "unit": null,
         "source_section": "Size and weight",
         "verification_status": "source_transcribed"
@@ -405,7 +410,7 @@
         "verification_status": "source_transcribed"
       },
       "charging_method": {
-        "value": "Built-in rechargeable lithium ion battery\nPlayback time\nMusic playback time: Up to 24 hours when fully charged\nVideo playback time: Up to 5 hours when fully charged\nCharging via USB to computer system or power adapter (sold separately)\nFast-charge time: about 1.5 hours (charges up to 80% of battery capacity)\nFull-charge time: about 3 hours",
+        "value": "Charging via USB to computer system or power adapter (sold separately)",
         "unit": null,
         "source_section": "Power and battery 6",
         "verification_status": "source_transcribed"
