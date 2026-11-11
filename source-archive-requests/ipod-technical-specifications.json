@@ -25,6 +25,31 @@
       "url": "https://support.apple.com/en-ie/112601",
       "expected_title_contains": "iPod classic 160GB (Late 2009) - Technical Specifications",
       "output_path": "apple_remaining_extraction/technical_specs_html/ipod-classic-160-gb-late-2009-tech-specs.html"
+    },
+    {
+      "url": "https://support.apple.com/en-ie/112431",
+      "expected_title_contains": "iPod touch (4th generation) - Technical Specifications",
+      "output_path": "apple_remaining_extraction/technical_specs_html/ipod-touch-4th-generation-tech-specs.html"
+    },
+    {
+      "url": "https://support.apple.com/en-ie/112021",
+      "expected_title_contains": "iPod touch (5th generation) - Technical Specifications",
+      "output_path": "apple_remaining_extraction/technical_specs_html/ipod-touch-5th-generation-tech-specs.html"
+    },
+    {
+      "url": "https://support.apple.com/en-ie/112023",
+      "expected_title_contains": "iPod touch (6th generation) - Technical Specifications",
+      "output_path": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html"
+    },
+    {
+      "url": "https://support.apple.com/en-ie/112432",
+      "expected_title_contains": "iPod nano (6th generation) - Technical Specifications",
+      "output_path": "apple_remaining_extraction/technical_specs_html/ipod-nano-6th-generation-tech-specs.html"
+    },
+    {
+      "url": "https://support.apple.com/en-by/112317",
+      "expected_title_contains": "iPod mini and iPod mini (Second Generation) - Technical Specifications",
+      "output_path": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html"
     }
   ]
 }
