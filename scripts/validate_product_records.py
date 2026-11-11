@@ -124,6 +124,33 @@ def main() -> int:
                 else:
                     warnings.append(f"{rel}: no matching {expected} found under sources/")
 
+        # Validate optional section-level provenance introduced in schema v2.
+        sections = record.get("sections")
+        if isinstance(sections, list):
+            for section_index, section in enumerate(sections):
+                if not isinstance(section, dict):
+                    continue
+                section_file = section.get("source_file")
+                section_url = str(section.get("source_url") or "").strip()
+                section_label = f"{rel}: sections[{section_index}]"
+                if bool(section_file) != bool(section_url):
+                    warnings.append(
+                        f"{section_label}: source_url and source_file should be supplied together"
+                    )
+                if section_file:
+                    section_path = (ROOT / str(section_file)).resolve()
+                    try:
+                        section_path.relative_to(ROOT.resolve())
+                    except ValueError:
+                        warnings.append(
+                            f"{section_label}: source_file {section_file!r} resolves outside the repository"
+                        )
+                    else:
+                        if not section_path.is_file():
+                            warnings.append(
+                                f"{section_label}: source_file {section_file!r} does not exist in the repository"
+                            )
+
         source_url = str(source.get("source_url") or "").strip()
         if not source_url:
             warnings.append(f"{rel}: source URL is blank/null; provenance needs review")
