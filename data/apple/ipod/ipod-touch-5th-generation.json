@@ -487,6 +487,12 @@
       }
     },
     "environment": {
+      "operating_temperature": {
+        "value": "32° to 95° F (0° to 35° C)",
+        "unit": null,
+        "source_section": "Environmental Requirements",
+        "verification_status": "source_transcribed"
+      },
       "non_operating_temperature": {
         "value": "-4° to 113° F (-20° to 45° C)",
         "unit": null,
@@ -495,6 +501,12 @@
       },
       "relative_humidity": {
         "value": "5% to 95% noncondensing",
+        "unit": null,
+        "source_section": "Environmental Requirements",
+        "verification_status": "source_transcribed"
+      },
+      "operating_altitude": {
+        "value": "10,000 feet (3000 m)",
         "unit": null,
         "source_section": "Environmental Requirements",
         "verification_status": "source_transcribed"
