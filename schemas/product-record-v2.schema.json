@@ -245,6 +245,15 @@
           },
           "source_text": {
             "type": "string"
+          },
+          "source_url": {
+            "type": "string",
+            "format": "uri",
+            "description": "Optional per-section source URL when a record preserves evidence from more than one source."
+          },
+          "source_file": {
+            "type": "string",
+            "description": "Optional repository-relative archived source path for this section."
           }
         }
       }
