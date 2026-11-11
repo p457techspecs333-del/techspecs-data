@@ -68,6 +68,7 @@ def main() -> int:
     samples = {
         "apple/iphone/iphone-17": "iphone-17",
         "apple/ipod/ipod-touch-7th-generation": "ipod-touch-7th-generation",
+        "apple/watch/apple-watch-series-1": "apple-watch-series-1",
     }
     for record_id, expected_slug in samples.items():
         entry = by_id.get(record_id)
