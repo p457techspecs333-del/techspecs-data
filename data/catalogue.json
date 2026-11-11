@@ -3212,10 +3212,10 @@
       "variant": null,
       "source": {
         "source_type": "manufacturer",
-        "publisher": "Apple",
-        "source_url": "https://support.apple.com/en-ie/103823",
-        "verification_status": "partially_verified",
-        "checked_at": "2026-11-09"
+        "publisher": "Apple Support (Ireland)",
+        "source_url": "https://support.apple.com/en-ie/112309",
+        "verification_status": "content_verified",
+        "checked_at": "2026-11-11"
       }
     },
     {
@@ -3234,10 +3234,10 @@
       "variant": null,
       "source": {
         "source_type": "manufacturer",
-        "publisher": "Apple",
-        "source_url": "https://support.apple.com/en-ie/103823",
-        "verification_status": "partially_verified",
-        "checked_at": "2026-11-09"
+        "publisher": "Apple Support (Ireland)",
+        "source_url": "https://support.apple.com/en-ie/112552",
+        "verification_status": "content_verified",
+        "checked_at": "2026-11-11"
       }
     },
     {
@@ -3278,10 +3278,10 @@
       "variant": null,
       "source": {
         "source_type": "manufacturer",
-        "publisher": "Apple",
-        "source_url": "https://support.apple.com/en-ie/103823",
-        "verification_status": "partially_verified",
-        "checked_at": "2026-11-09"
+        "publisher": "Apple Support (Ireland)",
+        "source_url": "https://support.apple.com/en-ie/112495",
+        "verification_status": "content_verified",
+        "checked_at": "2026-11-11"
       }
     },
     {
@@ -3366,10 +3366,10 @@
       "variant": null,
       "source": {
         "source_type": "manufacturer",
-        "publisher": "Apple",
-        "source_url": "https://support.apple.com/en-ie/103823",
-        "verification_status": "partially_verified",
-        "checked_at": "2026-11-09"
+        "publisher": "Apple Support (Ireland)",
+        "source_url": "https://support.apple.com/en-ie/112507",
+        "verification_status": "content_verified",
+        "checked_at": "2026-11-11"
       }
     },
     {
