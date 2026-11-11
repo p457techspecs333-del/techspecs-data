@@ -129,13 +129,18 @@
     },
     {
       "model": "iPod nano (5th generation)",
-      "url": "https://support.apple.com/en-ie/103823",
+      "url": "https://support.apple.com/en-ie/112495",
       "slug": "ipod-nano-5th-generation",
-      "final_url": "https://support.apple.com/en-ie/103823",
-      "title": "Identify your iPod model - Apple Support (IE)",
-      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 1,
-      "verification_status": "partially_verified"
+      "final_url": "https://support.apple.com/en-ie/112495",
+      "title": "iPod nano (5th generation) - Technical Specifications - Apple Support (IE)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html",
+      "section_count": 16,
+      "verification_status": "content_verified",
+      "supporting_source_url": "https://support.apple.com/en-ie/103823",
+      "supporting_source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
+      "notes": [
+        "Dedicated official Apple technical-specification source archived and mapped; model-identification evidence remains in the record's first section."
+      ]
     },
     {
       "model": "iPod nano (4th generation)",
@@ -150,33 +155,48 @@
     },
     {
       "model": "iPod nano (3rd generation)",
-      "url": "https://support.apple.com/en-ie/103823",
+      "url": "https://support.apple.com/en-ie/112552",
       "slug": "ipod-nano-3rd-generation",
-      "final_url": "https://support.apple.com/en-ie/103823",
-      "title": "Identify your iPod model - Apple Support (IE)",
-      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 1,
-      "verification_status": "partially_verified"
+      "final_url": "https://support.apple.com/en-ie/112552",
+      "title": "iPod nano (3rd generation) - Technical Specifications - Apple Support (IE)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html",
+      "section_count": 15,
+      "verification_status": "content_verified",
+      "supporting_source_url": "https://support.apple.com/en-ie/103823",
+      "supporting_source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
+      "notes": [
+        "Dedicated official Apple technical-specification source archived and mapped; model-identification evidence remains in the record's first section."
+      ]
     },
     {
       "model": "iPod nano (2nd generation)",
-      "url": "https://support.apple.com/en-ie/103823",
+      "url": "https://support.apple.com/en-ie/112309",
       "slug": "ipod-nano-2nd-generation",
-      "final_url": "https://support.apple.com/en-ie/103823",
-      "title": "Identify your iPod model - Apple Support (IE)",
-      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 1,
-      "verification_status": "partially_verified"
+      "final_url": "https://support.apple.com/en-ie/112309",
+      "title": "iPod nano (Second Generation) - Technical Specifications - Apple Support (IE)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-2nd-generation-tech-specs.html",
+      "section_count": 14,
+      "verification_status": "content_verified",
+      "supporting_source_url": "https://support.apple.com/en-ie/103823",
+      "supporting_source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
+      "notes": [
+        "Dedicated official Apple technical-specification source archived and mapped; model-identification evidence remains in the record's first section."
+      ]
     },
     {
       "model": "iPod nano",
-      "url": "https://support.apple.com/en-ie/103823",
+      "url": "https://support.apple.com/en-ie/112507",
       "slug": "ipod-nano",
-      "final_url": "https://support.apple.com/en-ie/103823",
-      "title": "Identify your iPod model - Apple Support (IE)",
-      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-      "section_count": 1,
-      "verification_status": "partially_verified"
+      "final_url": "https://support.apple.com/en-ie/112507",
+      "title": "iPod nano - Technical Specifications - Apple Support (IE)",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-1st-generation-tech-specs.html",
+      "section_count": 14,
+      "verification_status": "content_verified",
+      "supporting_source_url": "https://support.apple.com/en-ie/103823",
+      "supporting_source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
+      "notes": [
+        "Dedicated official Apple technical-specification source archived and mapped; model-identification evidence remains in the record's first section."
+      ]
     },
     {
       "model": "iPod shuffle (4th generation Mid 2015)",
@@ -417,7 +437,8 @@
     "2026-11-11 normalization pass: the iPod nano (7th generation, Mid 2015) and iPod shuffle (4th generation, Late 2012 and Mid 2015) records now include the technical fields already transcribed from the same archived model-specific Apple specification pages used by their canonical generation records. Model/year identity fields remain record-specific; copied technical fields reference the same source sections and archived source files.",
     "2026-11-11 normalization pass: the iPod touch (2nd generation) record now includes source-grounded storage capacities and capacity estimates, battery runtime and charging, headphone specifications, complete video-format constraints, controls, Mac/Windows requirements, environmental limits, in-box contents and language-support counts. The existing raw source sections and footnote references remain preserved.",
     "2026-11-11 normalization pass: iPod touch 4th–7th generation records now expose the archived headphone statements, full video recording/playback constraints, environmental limits, in-box contents and language-support source text as normalized fields. All additions cite the exact archived section; absent headphone measurements were not inferred.",
-    "2026-11-11 provenance inventory repair: five related_source_discoveries entries were stale and incorrectly marked url_discovered_not_archived even though their official Ireland-locale HTML archives already existed and were mapped in working_scope. Updated their URLs to the archived pages' canonical Ireland URLs and status to archived_and_mapped."
+    "2026-11-11 provenance inventory repair: five related_source_discoveries entries were stale and incorrectly marked url_discovered_not_archived even though their official Ireland-locale HTML archives already existed and were mapped in working_scope. Updated their URLs to the archived pages' canonical Ireland URLs and status to archived_and_mapped.",
+    "2026-11-11 source mapping pass: dedicated Apple technical-specification pages for iPod nano generations 1, 2, 3 and 5 are now archived, mapped to their matching product records, and normalized for dimensions/weight, capacity, display, audio, battery, headphones, connectivity, environmental limits and system requirements. Identification-page evidence is retained as a supporting source."
   ],
   "record_audit": {
     "checked_at": "2026-11-11",
@@ -490,6 +511,38 @@
       "source_type": "official_apple_technical_specifications",
       "discovery_status": "archived_and_mapped",
       "notes": "Official Apple Ireland technical-specification HTML is archived at apple_remaining_extraction/technical_specs_html/ipod-classic-160-gb-late-2009-tech-specs.html and is mapped to the corresponding inventory record. Canonical URL verified from archived HTML metadata: https://support.apple.com/en-ie/112601. Keep capacity/year variants distinct; this source alone does not collapse other variants into this model."
+    },
+    {
+      "model": "iPod nano",
+      "title": "iPod nano - Technical Specifications",
+      "url": "https://support.apple.com/en-ie/112507",
+      "source_type": "official_apple_technical_specifications",
+      "discovery_status": "archived_and_mapped",
+      "notes": "Official Apple Ireland technical-specification HTML archived at apple_remaining_extraction/technical_specs_html/ipod-nano-1st-generation-tech-specs.html and mapped to data/apple/ipod/ipod-nano.json. The separate model-identification source is preserved in the product record; capacity variants remain distinct."
+    },
+    {
+      "model": "iPod nano (2nd generation)",
+      "title": "iPod nano (Second Generation) - Technical Specifications",
+      "url": "https://support.apple.com/en-ie/112309",
+      "source_type": "official_apple_technical_specifications",
+      "discovery_status": "archived_and_mapped",
+      "notes": "Official Apple Ireland technical-specification HTML archived at apple_remaining_extraction/technical_specs_html/ipod-nano-2nd-generation-tech-specs.html and mapped to data/apple/ipod/ipod-nano-2nd-generation.json. The separate model-identification source is preserved in the product record; capacity variants remain distinct."
+    },
+    {
+      "model": "iPod nano (3rd generation)",
+      "title": "iPod nano (3rd generation) - Technical Specifications",
+      "url": "https://support.apple.com/en-ie/112552",
+      "source_type": "official_apple_technical_specifications",
+      "discovery_status": "archived_and_mapped",
+      "notes": "Official Apple Ireland technical-specification HTML archived at apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html and mapped to data/apple/ipod/ipod-nano-3rd-generation.json. The separate model-identification source is preserved in the product record; capacity variants remain distinct."
+    },
+    {
+      "model": "iPod nano (5th generation)",
+      "title": "iPod nano (5th generation) - Technical Specifications",
+      "url": "https://support.apple.com/en-ie/112495",
+      "source_type": "official_apple_technical_specifications",
+      "discovery_status": "archived_and_mapped",
+      "notes": "Official Apple Ireland technical-specification HTML archived at apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html and mapped to data/apple/ipod/ipod-nano-5th-generation.json. The separate model-identification source is preserved in the product record; capacity variants remain distinct."
     }
   ]
 }
