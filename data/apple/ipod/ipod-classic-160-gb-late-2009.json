@@ -18,17 +18,19 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-ie/103823",
-    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-    "source_title": "Identify your iPod model - Apple Support (IE)",
-    "publisher": "Apple",
+    "source_url": "https://support.apple.com/en-ie/112601",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-classic-160-gb-late-2009-tech-specs.html",
+    "source_title": "iPod classic 160GB (Late 2009) - Technical Specifications - Apple Support (IE)",
+    "publisher": "Apple Support (Ireland)",
     "published_at": null,
-    "checked_at": "2026-11-09",
-    "verification_status": "partially_verified",
-    "verification_notes": "This record's retained evidence is extracted from Apple's general 'Identify your iPod model' page, not an individual technical-specifications page. The archived HTML file is the shared source page. Only identification facts explicitly present in that page are supported; detailed technical specifications require separate model-specific sources.",
+    "checked_at": "2026-11-11",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page captured as original HTML on 2026-11-11; 16 non-empty source sections extracted from the archived page. Model number and introduction-date identity fields were cross-checked against Apple's separate identification page, archived at apple_remaining_extraction/technical_specs_html/ipod-index.html.",
     "notes": [
-      "Primary evidence is Apple's official iPod identification page; it supports only the model-identification statements retained in the source section.",
-      "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually."
+      "Technical specifications in sections are transcribed from the model-specific Apple technical-specification page.",
+      "Model number and introduction-date evidence is retained from Apple's separate identification page: https://support.apple.com/en-ie/103823 (archived at apple_remaining_extraction/technical_specs_html/ipod-index.html).",
+      "This Late 2009 160GB model remains distinct from the September 2007 iPod classic with 80GB/160GB options.",
+      "The first section preserves model-identification evidence from Apple's separate identification page; its source_url and source_file are attached directly to that section. Remaining sections are extracted from the model-specific technical-specification page and carry that page's source_url and source_file individually."
     ]
   },
   "extraction": {
@@ -41,7 +43,105 @@
   "sections": [
     {
       "heading": "iPod classic 160 GB (Late 2009)",
-      "source_text": "Navigation: Click Wheel\nCapacity: 160 GB\nModel number and date introduced: A1238: September 2009\nThe iPod classic 160 GB (Late 2009) is a hard drive-based iPod featuring a large, widescreen colour display, a Click Wheel, and the capability of displaying photos and videos. It uses USB for syncing.\nThe iPod classic is available in silver and black, and has an anodised aluminium and polished stainless steel enclosure."
+      "source_text": "Navigation: Click Wheel\nCapacity: 160 GB\nModel number and date introduced: A1238: September 2009\nThe iPod classic 160 GB (Late 2009) is a hard drive-based iPod featuring a large, widescreen colour display, a Click Wheel, and the capability of displaying photos and videos. It uses USB for syncing.\nThe iPod classic is available in silver and black, and has an anodised aluminium and polished stainless steel enclosure.",
+      "source_url": "https://support.apple.com/en-ie/103823",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html"
+    },
+    {
+      "heading": "Size and weight",
+      "source_text": "Height : 4.1 inches (103.5 mm)\nWidth : 2.4 inches (61.8 mm)\nDepth : 0.41 inch (10.5 mm)\nWeight : 4.9 ounces (140 grams) 1",
+      "source_url": "https://support.apple.com/en-ie/112601",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-classic-160-gb-late-2009-tech-specs.html"
+    },
+    {
+      "heading": "Capacity",
+      "source_text": "160GB hard drive 2\nHolds up to 40,000 songs in 128-Kbps AAC format 3\nHolds up to 25,000 iPod-viewable photos 4\nHolds up to 200 hours of video 5\nStores data via USB hard drive",
+      "source_url": "https://support.apple.com/en-ie/112601",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-classic-160-gb-late-2009-tech-specs.html"
+    },
+    {
+      "heading": "In the box",
+      "source_text": "iPod classic\nEarphones\nUSB 2.0 cable\nDock adapter\nQuick Start guide",
+      "source_url": "https://support.apple.com/en-ie/112601",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-classic-160-gb-late-2009-tech-specs.html"
+    },
+    {
+      "heading": "Environmental Status Report",
+      "source_text": "iPod classic embodies Apple’s continuing environmental progress. It is designed with the following features to reduce environmental impact:\nArsenic-free display glass\nBFR-free\nMercury-free LED-backlit display\nPVC-free\nHighly recyclable aluminum and stainless steel enclosure",
+      "source_url": "https://support.apple.com/en-ie/112601",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-classic-160-gb-late-2009-tech-specs.html"
+    },
+    {
+      "heading": "Display",
+      "source_text": "2.5-inch (diagonal) color LCD with LED backlight\n320-by-240-pixel resolution at 163 pixels per inch",
+      "source_url": "https://support.apple.com/en-ie/112601",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-classic-160-gb-late-2009-tech-specs.html"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Frequency response: 20Hz to 20,000Hz\nAudio formats supported: AAC (8 to 320 Kbps), Protected AAC (from iTunes Store), MP3 (8 to 320 Kbps), MP3 VBR, Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+), Apple Lossless, AIFF, and WAV\nUser-configurable maximum volume limit",
+      "source_url": "https://support.apple.com/en-ie/112601",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-classic-160-gb-late-2009-tech-specs.html"
+    },
+    {
+      "heading": "Headphones",
+      "source_text": "Earphones\nFrequency response: 20Hz to 20,000Hz\nImpedance: 32 ohms",
+      "source_url": "https://support.apple.com/en-ie/112601",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-classic-160-gb-late-2009-tech-specs.html"
+    },
+    {
+      "heading": "Video",
+      "source_text": "H.264 video, up to 1.5 Mbps, 640 by 480 pixels, 30 frames per second, Low-Complexity version of the H.264 Baseline Profile with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats; H.264 video, up to 2.5 Mbps, 640 by 480 pixels, 30 frames per second, Baseline Profile up to Level 3.0 with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats; MPEG-4 video, up to 2.5 Mbps, 640 by 480 pixels, 30 frames per second, Simple Profile with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats",
+      "source_url": "https://support.apple.com/en-ie/112601",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-classic-160-gb-late-2009-tech-specs.html"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Simplified Chinese, Spanish, Swedish, Traditional Chinese, and Turkish\nAdditional language support for display of song, album, and artist information: Bulgarian, Croatian, Romanian, Serbian, Slovak, Slovenian, Ukrainian, and Vietnamese",
+      "source_url": "https://support.apple.com/en-ie/112601",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-classic-160-gb-late-2009-tech-specs.html"
+    },
+    {
+      "heading": "Input and output",
+      "source_text": "Dock connector\n3.5-mm stereo headphone jack",
+      "source_url": "https://support.apple.com/en-ie/112601",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-classic-160-gb-late-2009-tech-specs.html"
+    },
+    {
+      "heading": "External buttons and controls",
+      "source_text": "Hold switch\nClick Wheel",
+      "source_url": "https://support.apple.com/en-ie/112601",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-classic-160-gb-late-2009-tech-specs.html"
+    },
+    {
+      "heading": "Battery and power 6",
+      "source_text": "Built-in rechargeable lithium-ion battery\nPlayback time\nMusic playback time: Up to 36 hours when fully charged\nVideo playback time: Up to 6 hours when fully charged\nCharging via USB to computer system or power adapter (sold separately)\nFast-charge time: about 2 hours (charges up to 80% of battery capacity)\nFull-charge time: about 4 hours",
+      "source_url": "https://support.apple.com/en-ie/112601",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-classic-160-gb-late-2009-tech-specs.html"
+    },
+    {
+      "heading": "Mac system requirements",
+      "source_text": "Mac computer with USB 2.0 port\nMac OS X v10.4.11 or later\niTunes 9 or later 7",
+      "source_url": "https://support.apple.com/en-ie/112601",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-classic-160-gb-late-2009-tech-specs.html"
+    },
+    {
+      "heading": "Windows system requirements",
+      "source_text": "PC with USB 2.0 port\nWindows Vista or Windows XP Home or Professional with Service Pack 3 or later\niTunes 9 or later 7",
+      "source_url": "https://support.apple.com/en-ie/112601",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-classic-160-gb-late-2009-tech-specs.html"
+    },
+    {
+      "heading": "Environmental requirements",
+      "source_text": "Operating temperature: 32° to 95° F\n(0° to 35° C)\nNonoperating temperature: -4° to 113° F\n(-20° to 45° C)\nRelative humidity: 5% to 95% noncondensing\nMaximum operating altitude: 10,000 feet\n(3000 m)",
+      "source_url": "https://support.apple.com/en-ie/112601",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-classic-160-gb-late-2009-tech-specs.html"
+    },
+    {
+      "heading": "Accessories",
+      "source_text": "In-Ear Headphones with Remote and Mic\nEngineered for extreme clarity and audio accuracy, these headphones let you hear musical details you’ve been missing.\nUSB Power Adapter\nUse this ultracompact USB-based adapter to charge your iPhone or iPod whenever it’s not connected to a computer.\nEarphones with Remote and Mic\nThese earbud headphones have convenient buttons that let you adjust volume and control music and video playback.\nUniversal Dock with Remote\nGet easy access to a USB port for charging and syncing your iPod or for connecting to a TV or speakers.\nApple Composite AV Cable\nApple Component AV Cable\nApple Dock Connector to USB Cable\niPod Universal Dock Adapter 3-Pack\nWeight varies by configuration and manufacturing process.\n1GB = 1 billion bytes; actual formatted capacity less.\nSong capacity is based on 4 minutes per song and 128-Kbps AAC encoding; in 256-Kbps AAC format, song capacity is up to 20,000 songs; actual capacity varies by encoding method and bit rate.\nPhoto capacity is based on iPod-viewable photos transferred from iTunes.\nVideo capacity is based on H.264 1.5-Mbps video at 640-by-480 resolution combined with 128-Kbps audio; actual capacity varies by content.\nTesting conducted by Apple in August 2009 using preproduction hardware and software. The playlist contained 358 unique audio tracks consisting of content imported from CDs using iTunes (128-Kbps AAC) and content purchased from the iTunes Store (128-Kbps AAC). Video content was purchased from the iTunes Store. Battery tests are conducted with specific iPod units; actual results may vary. Rechargeable batteries have a limited number of charge cycles and may eventually need to be replaced (see www.apple.com/support/ipod/service/battery). Battery life and number of charge cycles vary by use and settings. See www.apple.com/batteries for more information.\niPod and iTunes are for legal or rightholder-authorized copying only. Don’t steal music.\nHelpful?\nYes\nNo\nCharacter limit:\n250\nMaximum character limit is 250.\nPlease don’t include any personal information in your comment.\nSubmit\nThanks for your feedback.",
+      "source_url": "https://support.apple.com/en-ie/112601",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-classic-160-gb-late-2009-tech-specs.html"
     }
   ],
   "record_notes": [
@@ -78,9 +178,9 @@
           "160 GB"
         ],
         "unit": null,
-        "source_section": "iPod classic 160 GB (Late 2009)",
+        "source_section": "Capacity",
         "verification_status": "source_transcribed",
-        "notes": "Capacities parsed from the explicit Capacity line; original wording remains in source_text."
+        "notes": "Capacity statements parsed from the model-specific Apple technical-specification page and preserved in the matching Capacity section."
       }
     },
     "official_description": {

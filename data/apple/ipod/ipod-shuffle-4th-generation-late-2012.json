@@ -18,17 +18,19 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-ie/103823",
-    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-    "source_title": "Identify your iPod model - Apple Support (IE)",
-    "publisher": "Apple",
+    "source_url": "https://support.apple.com/en-ie/112422",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-4th-generation-tech-specs.html",
+    "source_title": "iPod shuffle (4th generation) - Technical Specifications - Apple Support (IE)",
+    "publisher": "Apple Support (Ireland)",
     "published_at": null,
-    "checked_at": "2026-11-09",
-    "verification_status": "partially_verified",
-    "verification_notes": "This record's retained evidence is extracted from Apple's general 'Identify your iPod model' page, not an individual technical-specifications page. The archived HTML file is the shared source page. Only identification facts explicitly present in that page are supported; detailed technical specifications require separate model-specific sources.",
+    "checked_at": "2026-11-11",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page captured as original HTML on 2026-11-11; 11 non-empty source sections extracted from the archived page. The record's model number and introduction-date identity fields were cross-checked against Apple's separate identification page, archived at apple_remaining_extraction/technical_specs_html/ipod-index.html.",
     "notes": [
-      "Primary evidence is Apple's official iPod identification page; it supports only the model-identification statements retained in the source section.",
-      "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually."
+      "Technical specifications in sections are transcribed from the model-specific Apple technical-specification page.",
+      "Model number and introduction-date evidence is retained from Apple's separate identification page: https://support.apple.com/en-ie/103823 (archived at apple_remaining_extraction/technical_specs_html/ipod-index.html).",
+      "This page covers iPod shuffle (4th generation); variant-specific release dates and identifiers should be read from the separate identification-page evidence, not inferred from this technical-specification page.",
+      "The first section preserves model-identification evidence from Apple's separate identification page; its source_url and source_file are attached directly to that section. Remaining sections are extracted from the model-specific technical-specification page and carry that page's source_url and source_file individually."
     ]
   },
   "extraction": {
@@ -41,7 +43,75 @@
   "sections": [
     {
       "heading": "iPod shuffle (4th generation, Late 2012)",
-      "source_text": "Navigation: Control Pad\nCapacity: 2 GB\nModel number and date introduced: A1373: September 2012\niPod shuffle (4th generation, Late 2012) is available in seven colours."
+      "source_text": "Navigation: Control Pad\nCapacity: 2 GB\nModel number and date introduced: A1373: September 2012\niPod shuffle (4th generation, Late 2012) is available in seven colours.",
+      "source_url": "https://support.apple.com/en-ie/103823",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html"
+    },
+    {
+      "heading": "Colors",
+      "source_text": "Space Gray\nGold\nSilver\nPink\nBlue\nRed - (PRODUCT) RED",
+      "source_url": "https://support.apple.com/en-ie/112422",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-4th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Capacity 1",
+      "source_text": "2GB",
+      "source_url": "https://support.apple.com/en-ie/112422",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-4th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height: 1.14 inches (29.0 mm)\nWidth: 1.24 inches (31.6 mm)\nDepth: 0.34 inch (8.7 mm) including clip\nWeight: 0.44 ounce (12.5 grams) 2\nTrue volume: 0.35 cu. inch (5668 cu. mm) including clip",
+      "source_url": "https://support.apple.com/en-ie/112422",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-4th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "Frequency response: 20Hz to 20,000Hz\nAudio formats supported: AAC (8 to 320 Kbps), Protected AAC (from iTunes Store), MP3 (8 to 320 Kbps), MP3 VBR, Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+), Apple Lossless, AIFF, and WAV",
+      "source_url": "https://support.apple.com/en-ie/112422",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-4th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Power and Battery 3",
+      "source_text": "Built-in rechargeable lithium-ion battery\nUp to 15 hours of audio playback\nCharging via USB to computer system or power adapter (sold separately)",
+      "source_url": "https://support.apple.com/en-ie/112422",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-4th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "29 VoiceOver languages:\nChinese (Cantonese, Mandarin), Czech, Danish, Dutch, English (Australia, UK, and U.S.), Finnish, French (Canada, France), German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovak, Spanish (Mexico, Spain), Swedish, Thai, Turkish",
+      "source_url": "https://support.apple.com/en-ie/112422",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-4th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Headphones",
+      "source_text": "Apple Earphones",
+      "source_url": "https://support.apple.com/en-ie/112422",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-4th-generation-tech-specs.html"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "Mac: USB 2 port, OS X v10.7.5 or later, and iTunes 12.2 or later 4\nPC: USB 2 port, Windows 7 or later, and iTunes 12.2 or later 4\nInternet access required; broadband recommended; fees may apply",
+      "source_url": "https://support.apple.com/en-ie/112422",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-4th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Environmental Requirements",
+      "source_text": "Operating temperature: 32° to 95° F (0° to 35° C)\nNonoperating temperature: -4° to 113° F (-20° to 45° C)\nRelative humidity: 5% to 95% noncondensing\nOperating altitude: tested up to 10,000 feet (3000 m)",
+      "source_url": "https://support.apple.com/en-ie/112422",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-4th-generation-tech-specs.html"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "iPod shuffle\nApple Earphones\niPod shuffle USB Cable\nQuick Start guide",
+      "source_url": "https://support.apple.com/en-ie/112422",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-4th-generation-tech-specs.html"
+    },
+    {
+      "heading": "iPod shuffle and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact. Learn more\niPod shuffle is designed with the following features to reduce its environmental impact:\nBFR‑free\nPVC‑free\nRecyclable aluminum enclosure\nApple and the Environment\nLearn more about Apple’s dedication to reducing the environmental impact of our products and process. Or read our Product Environmental Reports for detailed information on the environmental performance of every Apple product.\nRecycling\nApple takes a holistic view of materials management and waste minimization. Learn more about how to recycle your iPod shuffle.\n1GB = 1 billion bytes; actual formatted capacity less.\nWeight varies by configuration and manufacturing process.\nTesting conducted by Apple in August 2012 using preproduction hardware and software. The playlist contained 358 unique audio tracks consisting of content imported from CDs using iTunes (128-Kbps AAC) and content purchased from the iTunes Store (256-Kbps AAC). Video content was purchased from the iTunes Store. Battery tests are conducted with specific iPod units; actual results may vary. Rechargeable batteries have a limited number of charge cycles and may eventually need to be replaced (see www.apple.com/support/ipod/service/battery ). Battery life and number of charge cycles vary by use and settings. See www.apple.com/uk/batteries for more information.\niPod and iTunes are for legal or rightholder-authorized copying only. Don’t steal music.\nHelpful?\nYes\nNo\nCharacter limit:\n250\nMaximum character limit is 250.\nPlease don’t include any personal information in your comment.\nSubmit\nThanks for your feedback.",
+      "source_url": "https://support.apple.com/en-ie/112422",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-4th-generation-tech-specs.html"
     }
   ],
   "record_notes": [
@@ -78,9 +148,9 @@
           "2 GB"
         ],
         "unit": null,
-        "source_section": "iPod shuffle (4th generation, Late 2012)",
+        "source_section": "Capacity 1",
         "verification_status": "source_transcribed",
-        "notes": "Capacities parsed from the explicit Capacity line; original wording remains in source_text."
+        "notes": "Capacity statements parsed from the model-specific Apple technical-specification page and preserved in the matching Capacity section."
       }
     },
     "official_description": {
