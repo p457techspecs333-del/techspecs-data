@@ -353,10 +353,11 @@
     },
     "audio": {
       "skip_free_playback": {
-        "value": false,
+        "value": true,
         "unit": null,
         "source_section": "Audio",
-        "verification_status": "source_transcribed"
+        "verification_status": "source_transcribed",
+        "notes": "The source explicitly states up to 25 minutes of skip protection."
       },
       "skip_protection_time": {
         "value": 25,
@@ -532,13 +533,24 @@
     },
     "in_the_box_by_capacity": {
       "20GB": {
-        "value": "Earbud headphones, AC adapter, FireWire cable, USB 2.0 cable",
+        "value": [
+          "Earbud headphones",
+          "AC adapter",
+          "FireWire cable",
+          "USB 2.0 cable"
+        ],
         "unit": null,
         "source_section": "In the box (20GB model)",
         "verification_status": "source_transcribed"
       },
       "40GB": {
-        "value": "Earbud headphones, dock, AC adapter, FireWire cable, USB 2.0 cable",
+        "value": [
+          "Earbud headphones",
+          "Dock",
+          "AC adapter",
+          "FireWire cable",
+          "USB 2.0 cable"
+        ],
         "unit": null,
         "source_section": "In the box (40GB model)",
         "verification_status": "source_transcribed"
