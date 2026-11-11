@@ -5,6 +5,9 @@ on:
     branches: [main]
     paths:
       - "source-archive-requests/**/*.json"
+      - ".github/workflows/archive-official-apple-sources.yml"
+      - "scripts/archive_official_sources.py"
+      - "tools/extract_archived_legacy_watch_specs.py"
 
 permissions:
   contents: write
