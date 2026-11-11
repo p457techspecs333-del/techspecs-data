@@ -19,17 +19,18 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-us/149360",
+    "source_url": "https://support.apple.com/en-ie/149360",
     "source_file": "apple_remaining_extraction/technical_specs_html/homepod-homepod-mini-2-technical-specifications.html",
     "source_title": "HomePod mini 2 - Tech Specs",
     "publisher": "Apple",
     "published_at": null,
-    "checked_at": "2026-11-09",
+    "checked_at": "2026-11-11",
     "verification_status": "content_verified",
-    "verification_notes": "Official Apple HomePod mini 2 technical-specifications page verified on Apple's US support domain on 2026-11-09; Ireland-localized URL was not independently accessible during this check.",
+    "verification_notes": "The retained official Apple HTML has title “HomePod mini 2 - Tech Specs - Apple Support (IE)” and canonical URL https://support.apple.com/en-ie/149360. The prior source_url incorrectly pointed to the US-locale URL despite the archived HTML being the Ireland-locale page. Locale-specific source text, including UK radio-station names, is preserved from the archived Irish page. Normalized specification fields remain source_transcribed unless separately verified at field level.",
     "notes": [
-      "Extracted from official Apple technical specification link discovered on model index.",
-      "Official page checked: https://support.apple.com/en-us/149360. Locale-specific availability for Ireland not confirmed."
+      "Extracted from the official Apple technical-specification page discovered from Apple's support documentation.",
+      "On 2026-11-11, archived HTML metadata was checked and source_url aligned to its official Ireland-locale canonical URL: https://support.apple.com/en-ie/149360.",
+      "The US-locale page is not used as evidence for Ireland-specific text; region-dependent audio-service wording and footnotes are retained from the Irish archive."
     ]
   },
   "extraction": {
