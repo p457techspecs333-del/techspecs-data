@@ -18,17 +18,18 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-ie/103823",
-    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-    "source_title": "Identify your iPod model - Apple Support (IE)",
-    "publisher": "Apple",
+    "source_url": "https://support.apple.com/en-by/112317",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html",
+    "source_title": "iPod mini and iPod mini (Second Generation) - Technical Specifications - Apple Support (BY)",
+    "publisher": "Apple Support (BY)",
     "published_at": null,
-    "checked_at": "2026-11-09",
-    "verification_status": "partially_verified",
-    "verification_notes": "This record's retained evidence is extracted from Apple's general 'Identify your iPod model' page, not an individual technical-specifications page. The archived HTML file is the shared source page. Only identification facts explicitly present in that page are supported; detailed technical specifications require separate model-specific sources.",
+    "checked_at": "2026-11-11",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page captured as original HTML on 2026-11-11; 26 table sections extracted. The combined source covers first-generation and second-generation iPod mini configurations; the record's original identification section remains separately sourced.",
     "notes": [
-      "Primary evidence is Apple's official iPod identification page; it supports only the model-identification statements retained in the source section.",
-      "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually."
+      "Technical specification table rows are transcribed from Apple's combined iPod mini / iPod mini (Second Generation) technical-specification page; each row carries its own source URL and archive path.",
+      "The first section preserves model-identification evidence from Apple's separate Ireland-facing identification page: https://support.apple.com/en-ie/103823, archived at apple_remaining_extraction/technical_specs_html/ipod-index.html.",
+      "The combined source page is hosted under Apple's English (Belarus) locale because an Ireland-locale URL was not available during discovery; the source is still Apple-authored and its canonical URL is preserved."
     ]
   },
   "extraction": {
@@ -41,7 +42,165 @@
   "sections": [
     {
       "heading": "iPod mini",
-      "source_text": "Navigation: Click Wheel\nCapacity: 4 GB\nModel number and date introduced: A1051: January 2004\niPod mini is distinguished from other models by:\nIts smaller size\nIts colours\nThe Hold switch, which is on the top left-hand side\nThe Click Wheel's button labels, which are on the wheel itself"
+      "source_text": "Navigation: Click Wheel\nCapacity: 4 GB\nModel number and date introduced: A1051: January 2004\niPod mini is distinguished from other models by:\nIts smaller size\nIts colours\nThe Hold switch, which is on the top left-hand side\nThe Click Wheel's button labels, which are on the wheel itself",
+      "source_url": "https://support.apple.com/en-ie/103823",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html"
+    },
+    {
+      "heading": "iPod mini Configurations",
+      "source_text": "4GB (First Generation) | 4GB (Second Generation) | 6GB (Second Generation)",
+      "source_url": "https://support.apple.com/en-by/112317",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html"
+    },
+    {
+      "heading": "Order no.",
+      "source_text": "M9160LL/A (silver)  M9437LL/A (gold)  M9436LL/A (blue)  M9435LL/A (pink)  M9434LL/A (green) | M9800 (silver)  M9802 (blue)  M9804 (pink)  M9806 (green) | M9801 (silver)  M9803 (blue)  M9805 (pink)  M9807 (green)",
+      "source_url": "https://support.apple.com/en-by/112317",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html"
+    },
+    {
+      "heading": "Storage",
+      "source_text": "4GB(1) | 6GB(1)",
+      "source_url": "https://support.apple.com/en-by/112317",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html"
+    },
+    {
+      "heading": "Battery life",
+      "source_text": "Up to 8 hours(4) | Up to 18 hours(4)",
+      "source_url": "https://support.apple.com/en-by/112317",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html"
+    },
+    {
+      "heading": "Skip protection",
+      "source_text": "Up to 25 minutes",
+      "source_url": "https://support.apple.com/en-by/112317",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html"
+    },
+    {
+      "heading": "Display",
+      "source_text": "1.67-inch (diagonal) grayscale LCD with LED backlight",
+      "source_url": "https://support.apple.com/en-by/112317",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html"
+    },
+    {
+      "heading": "Ports",
+      "source_text": "Dock connector, remote connector, stereo minijack",
+      "source_url": "https://support.apple.com/en-by/112317",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "FireWire 400 and USB 2.0(3)through dock connector | USB 2.0 and FireWire 400 (optional cable) through dock connector",
+      "source_url": "https://support.apple.com/en-by/112317",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html"
+    },
+    {
+      "heading": "Charge time",
+      "source_text": "3 hours (1-hour fast charge to 80% capacity) | About 4 hours (2-hour fast charge to 80% capacity)",
+      "source_url": "https://support.apple.com/en-by/112317",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html"
+    },
+    {
+      "heading": "Audio support",
+      "source_text": "AAC (16 to 320 Kbps), MP3 (32 to 320 Kbps), MP3 VBR, Audible, AIFF and WAV | AAC (16 to 320 Kbps), MP3 (32 to 320 Kbps), MP3 VBR, Audible, AIFF, Apple Lossless and WAV",
+      "source_url": "https://support.apple.com/en-by/112317",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html"
+    },
+    {
+      "heading": "Size",
+      "source_text": "3.6 x 2.0 x .54 inches (9.1 x 5.1 x 1.3 cm)",
+      "source_url": "https://support.apple.com/en-by/112317",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html"
+    },
+    {
+      "heading": "Weight",
+      "source_text": "3.6 ounces",
+      "source_url": "https://support.apple.com/en-by/112317",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html"
+    },
+    {
+      "heading": "Included software",
+      "source_text": "iTunes for Mac, iTunes for Windows(5)",
+      "source_url": "https://support.apple.com/en-by/112317",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html"
+    },
+    {
+      "heading": "Included accessories",
+      "source_text": "Earbud headphones, belt clip, AC adapter, FireWire cable, USB 2.0 cable | Earbud headphones, Dock Connector to USB 2.0 cable, iPod mini Belt Clip",
+      "source_url": "https://support.apple.com/en-by/112317",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html"
+    },
+    {
+      "heading": "Optional accessories",
+      "source_text": "Remote model: M9128G/A  Dock: iPod mini Dock (M9467G/A)  iPod Stereo Connection Kit with Monster Cable: compatible Dock with M9339 and M9339  iPod Power Adapter (FireWire) (M8636G/C)  iPod USB Power Adapter (M9837LL/A)  FireWire Cable Kit (4-pin to 6-pin) (M8706G/A)  iPod Dock Connector to FireWire Cable (M9127G/A)  iPod Dock Connector to USB 2.0 Cable (M9569G/A): included  Apple World Traveler Adapter Kit (requires iPod Power Adapter or iPod USB Power Adapter)  iPod Lanyard (M9568G/A)  iPod mini Armbands (multiple colors)",
+      "source_url": "https://support.apple.com/en-by/112317",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html"
+    },
+    {
+      "heading": "Mac requirements",
+      "source_text": "Macintosh computer with FireWire port; Mac OS X v10.1.5 or later (Mac OS X 10.3 or later recommended) | Mac OS X 10.2.8 or Mac OS X 10.3.4 or later (Mac OS X 10.3.4 or later recommended); USB 2.0 requires Mac OS X v10.3.4 or later; Macintosh with built-in FireWire port or built-in USB 2.0 port.",
+      "source_url": "https://support.apple.com/en-by/112317",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html"
+    },
+    {
+      "heading": "Windows requirements",
+      "source_text": "PC with FireWire or USB 2.0 port, or FireWire or USB 2.0 card; Windows 2000 with Service Pack 4 or Windows XP Home or Professional | PC with FireWire or USB 2.0 port, or FireWire or USB 2.0 card; Windows 2000 (Service Pack 4 or later) or Windows XP Home or Professional (Service Pack 2 or later)",
+      "source_url": "https://support.apple.com/en-by/112317",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html"
+    },
+    {
+      "heading": "Documentation and support",
+      "source_text": "Electronic documentation, getting started guide and one-year limited warranty",
+      "source_url": "https://support.apple.com/en-by/112317",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html"
+    },
+    {
+      "heading": "Limited warranty and service",
+      "source_text": "Your iPod comes with single incident telephone support for the first 90 days and a one-year limited warranty. Purchase the  AppleCare Protection Plan  for iPod to extend your service and support to two full years. Only the AppleCare Protection Plan provides you with direct telephone support from Apple technical experts and the assurance that repairs will be handled by Apple-certified technicians using genuine Apple parts. For more information, visit  Apple support  or call 800-823-2775.",
+      "source_url": "https://support.apple.com/en-by/112317",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html"
+    },
+    {
+      "heading": "iPod mini Dock",
+      "source_text": "M9467G/A | FireWire Cable | M9127G/A",
+      "source_url": "https://support.apple.com/en-by/112317",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html"
+    },
+    {
+      "heading": "Remote & Earbud Headphones",
+      "source_text": "M9128G/A | In-Ear Headphones | M9394G/A",
+      "source_url": "https://support.apple.com/en-by/112317",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html"
+    },
+    {
+      "heading": "Carrying Case with Belt Clip",
+      "source_text": "M9129G/A | iPod mini Armband | M9445G/A",
+      "source_url": "https://support.apple.com/en-by/112317",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html"
+    },
+    {
+      "heading": "iPod Stereo Connection Kit",
+      "source_text": "M9339LL/A | World Travel Adapter Kit | M8794LG/A",
+      "source_url": "https://support.apple.com/en-by/112317",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html"
+    },
+    {
+      "heading": "AppleCare Protection Plan",
+      "source_text": "M9404LL/A",
+      "source_url": "https://support.apple.com/en-by/112317",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html"
+    },
+    {
+      "heading": "iPod mini (first generation) — Additional technical specification text",
+      "source_text": "Capacity     4GB hard disk drive(1)    Holds 1,000 songs in 128-Kbps AAC format(2)    Stores data via FireWire or USB 2.0(3) hard drive       Customizable settings     Customize main menu    Create On-The-Go playlists    Rate songs    Shuffle songs or albums    Repeat one or all    Sound Check on or off    20 Equalizer settings    Backlight timer    Display contrast    Alarms on, off or silent    Sleep timer    Date and time    Display time in menu bar    Contacts sort and display by first or last names    Clicker on or off    Languages: English, French, German, Japanese, Spanish, Italian, Dutch, Danish, Norwegian, Finnish, Swedish, Korean, Simplified Chinese, Traditional Chinese     Display (4GB model)     1.67 inch (diagonal) liquid crystal display with blue-white LED backlight    138-by-110-pixel resolution, 0.22-mm dot pitch    Support for display of multiple languages and characters simultaneously\nSize and weight (4GB model)     Height: 3.6 in    Width: 2.0 in    Depth: 0.5 in    Weight: 3.6 oz (104 g)     Audio     Up to 25 minutes of skip protection    Frequency response: 20 Hz to 20,000 Hz    Audio formats supported: AAC (16 to 320 Kbps), MP3 (32 to 320 Kbps), MP3 VBR, Audible, AIFF (Mac only) and WAV    Upgradable firmware enables support for future audio formats     Headphones     Earbud-style headphones with 18-mm drivers using Neodymium transducer magnets    Frequency response: 20Hz to 20,000Hz    Impedance: 32 ohms     Input and output     Dock connector    3.5-mm stereo headphone jack    Wired remote connector | Environmental requirements     Operating temperature: 32° to 95° F (0° to 35° C)    Non operating temperature: -4° to 113° F (-20° to 45° C)    Relative humidity: 5% to 95% noncondensing    Maximum operating altitude: 10,000 feet (3000 m)     Power and battery     Built-in rechargeable lithium ion battery    Playtime: 8 hours when fully charged    Standby time: 1 month when fully charged    Charging via FireWire to computer system or power adapter    Fast-charge time: 1 hour (charges up to 80% of battery capacity)    Full-charge time: 3 hours      Charging via USB 2.0 to computer system or power adapter (iPod mini only)    Fast-charge time: 1 hour (charges up to 80% of battery capacity)    Full-charge time: 3 hours       Power adapter     6-pin FireWire connector    AC input: 100V to 240V at 0.4 amp maximum    Frequency: 50Hz to 60Hz    DC output: 12V at 1 amp maximum",
+      "source_url": "https://support.apple.com/en-by/112317",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html"
+    },
+    {
+      "heading": "iPod mini (second generation) — Additional technical specification text",
+      "source_text": "Capacity    4 GB or 6 GB hard disk drive (1)     Holds up to 1000 (4 GB) or up to 1500 (6 GB) songs in 128-Kbps AAC format (2)     Stores data via FireWire or USB 2.0 (3) hard drive      Size and weight    Height: 3.6 in    Width: 2.0 in    Depth: 0.54 in    Weight: 3.6 oz (158 g)    Display    1.67-inch (diagonal) liquid crystal display with blue-white LED backlight    138-by-110-pixel resolution, 0.22-mm dot pitch    Support for display of multiple languages and characters simultaneously    Audio    Up to 25 minutes of skip protection    Frequency response: 20Hz to 20,000Hz    Audio formats supported: AAC (16 to 320 Kbps), MP3 (32 to 320 Kbps), MP3 VBR, Audible, AIFF, Apple Lossless and WAV    Upgradable firmware enables support for future audio formats\nCustomizable settings (iPod)    Customize main menu    Create multiple On-The-Go playlists    Adjust audiobook playback speed    Clicker playback through headphones    Rate songs    Shuffle songs or albums    Repeat one or all    Sound Check on or off    20 Equalizer settings    Backlight timer    Display contrast    Alarms on, off or silent    Sleep timer    Date and time    Display time in menu bar    Contacts sort and display by first or last names    Clicker on or off    Menu Languages: English, French, German, Japanese, Spanish, Italian, Dutch, Danish, Norwegian, Finnish, Swedish, Korean, Simplified Chinese, Traditional Chinese.    Display Song, Artist and Album Info in: Bulgarian, Croatian, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovenian, Simplified Chinese, Spanish, Swedish, Traditional Chinese, Turkish and Ukrainian.    Customizable settings (iPod mini)    Customize main menu    Create On-The-Go playlists    Rate songs    Shuffle songs or albums    Repeat one or all    Sound Check on or off    20 Equalizer settings    Backlight timer    Display contrast    Alarms on, off or silent    Sleep timer    Date and time    Display time in menu bar    Contacts sort and display by first or last names    Clicker on or off    Menu Languages: English, French, German, Japanese, Spanish, Italian, Dutch, Danish, Norwegian, Finnish, Swedish, Korean, Simplified Chinese, Traditional Chinese. | Headphones    Earbud-style headphones with 18-mm drivers using Neodymium transducer magnets    Frequency response: 20Hz to 20,000Hz    Impedance: 32 ohms    Input and output    Dock connector    3.5-mm stereo headphone jack    Wired remote connector    Environmental requirements    Operating temperature: 32° to 95° F (0° to 35° C)    Non operating temperature: -4° to 113° F (-20° to 45° C)    Relative humidity: 5% to 95% noncondensing    Maximum operating altitude: 10,000 feet (3000 m)    Power and battery  (3)     Built-in rechargeable lithium ion battery    iPod playtime: Up to 18 hours when fully charged    Standby time: 1 month when fully charged    Charging via FireWire to computer system or power adapter (optional)    Fast-charge time: about 2 hours for iPod (charges up to 80% of battery capacity)    Full-charge time: about 4 hours      Charging via USB 2.0 to computer system or power adapter (optional)    Full-charge time: about 4 hours",
+      "source_url": "https://support.apple.com/en-by/112317",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-mini-and-second-generation-tech-specs.html"
     }
   ],
   "record_notes": [
@@ -78,9 +237,9 @@
           "4 GB"
         ],
         "unit": null,
-        "source_section": "iPod mini",
+        "source_section": "Storage",
         "verification_status": "source_transcribed",
-        "notes": "Capacities parsed from the explicit Capacity line; original wording remains in source_text."
+        "notes": "Capacity/storage statements parsed from Apple's combined iPod mini and second-generation technical-specification table; the configuration headings are retained in the adjacent source section."
       }
     },
     "official_description": {

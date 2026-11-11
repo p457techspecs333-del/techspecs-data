@@ -21,17 +21,17 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-ie/103823",
-    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-    "source_title": "Identify your iPod model - Apple Support (IE)",
-    "publisher": "Apple",
+    "source_url": "https://support.apple.com/en-ie/112023",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html",
+    "source_title": "iPod touch (6th generation) - Technical Specifications - Apple Support (IE)",
+    "publisher": "Apple Support (Ireland)",
     "published_at": null,
-    "checked_at": "2026-11-09",
-    "verification_status": "partially_verified",
-    "verification_notes": "This record's retained evidence is extracted from Apple's general 'Identify your iPod model' page, not an individual technical-specifications page. The archived HTML file is the shared source page. Only identification facts explicitly present in that page are supported; detailed technical specifications require separate model-specific sources.",
+    "checked_at": "2026-11-11",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page captured as original HTML on 2026-11-11; 25 source sections extracted. The first record section preserves model-identification evidence from Apple's separate identification page.",
     "notes": [
-      "Primary evidence is Apple's official iPod identification page; it supports only the model-identification statements retained in the source section.",
-      "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually."
+      "Technical specifications in the following sections are transcribed from the model-specific Apple technical-specification page; each section carries its own source URL and archive path.",
+      "The first section preserves model number/introduction-date evidence from Apple's separate identification page: https://support.apple.com/en-ie/103823, archived at apple_remaining_extraction/technical_specs_html/ipod-index.html."
     ]
   },
   "extraction": {
@@ -44,7 +44,159 @@
   "sections": [
     {
       "heading": "iPod touch (6th generation)",
-      "source_text": "Navigation: Multi-Touch display\nCapacity: 16 GB, 32 GB, 64 GB, 128 GB\nModel number and date introduced: A1574: July 2015\niPod touch (6th generation) has an iSight camera and FaceTime HD camera.\niPod touch (6th generation) is available in five colours, as well as a (PRODUCT) RED version."
+      "source_text": "Navigation: Multi-Touch display\nCapacity: 16 GB, 32 GB, 64 GB, 128 GB\nModel number and date introduced: A1574: July 2015\niPod touch (6th generation) has an iSight camera and FaceTime HD camera.\niPod touch (6th generation) is available in five colours, as well as a (PRODUCT) RED version.",
+      "source_url": "https://support.apple.com/en-ie/103823",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html"
+    },
+    {
+      "heading": "Colors",
+      "source_text": "Space Gray\nGold\nSilver\nPink\nBlue\nRed - (PRODUCT) RED",
+      "source_url": "https://support.apple.com/en-ie/112023",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Capacity 1",
+      "source_text": "16GB\n32GB\n64GB\n128GB",
+      "source_url": "https://support.apple.com/en-ie/112023",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height: 4.86 inches (123.4 mm)\nWidth: 2.31 inches (58.6 mm)\nDepth: 0.24 inch (6.1 mm)\nWeight: 3.10 ounces (88 grams) 2",
+      "source_url": "https://support.apple.com/en-ie/112023",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Retina display\n4-inch (diagonal) widescreen display with Multi-Touch IPS technology\n1136-by-640-pixel resolution at 326 ppi\n800:1 contrast ratio (typical)\n500 cd/m 2 max brightness (typical)\nFingerprint-resistant oleophobic coating",
+      "source_url": "https://support.apple.com/en-ie/112023",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "A8 chip with 64-bit architecture\nM8 motion coprocessor",
+      "source_url": "https://support.apple.com/en-ie/112023",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "8MP camera\nAutofocus\n&fnof;/2.4 aperture\nFive-element lens\nHybrid IR filter\nBackside illumination\nAuto image stabilization\nAuto HDR for Photos\nImproved face detection\nExposure control\nPanorama (up to 43MP)\nBurst mode\nTap to focus\nPhoto geotagging over Wi-Fi\nTimer mode",
+      "source_url": "https://support.apple.com/en-ie/112023",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Video Recording",
+      "source_text": "1080p HD video recording (30 fps)\nTap to focus while recording\nSlo-mo video (120 fps)\nTime-lapse video\nCinematic video stabilization\nImproved face detection\n3x zoom\nVideo geotagging over Wi-Fi",
+      "source_url": "https://support.apple.com/en-ie/112023",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "FaceTime HD Camera",
+      "source_text": "1.2MP photos\n&fnof;/2.2 aperture\n720p HD video recording\nBackside illumination sensor\nAuto HDR for photos and videos\nImproved face detection\nBurst mode\nExposure control\nTimer mode",
+      "source_url": "https://support.apple.com/en-ie/112023",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Wireless",
+      "source_text": "802.11a/b/g/n/ac Wi‑Fi\nBluetooth 4.1 wireless technology\nMaps: Location-based service 3",
+      "source_url": "https://support.apple.com/en-ie/112023",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "Audio formats supported: AAC (8 to 320 Kbps), Protected AAC (from iTunes Store), HE-AAC, MP3 (8 to 320 Kbps), MP3 VBR, Dolby Digital (AC-3), Dolby Digital Plus (E-AC-3), Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+), Apple Lossless, AIFF, and WAV",
+      "source_url": "https://support.apple.com/en-ie/112023",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "TV and Video",
+      "source_text": "AirPlay Mirroring and video out to Apple TV (2nd and 3rd generation)\nVideo mirroring and video out support: Up to 1080p through Lightning Digital AV Adapter and Lightning to VGA Adapter (adapters sold separately)\nH.264 video up to 1080p, 30 frames per second, Main Profile level 4.1 with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats\nMPEG-4 video up to 2.5 Mbps, 640 by 480 pixels, 30 frames per second, Simple Profile with AAC-LC audio up to 160 Kbps per channel, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats\nMotion JPEG (M-JPEG) up to 35 Mbps, 1280 by 720 pixels, 30 frames per second, audio in ulaw, PCM stereo audio in .avi file format",
+      "source_url": "https://support.apple.com/en-ie/112023",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Intelligent Assistant 4",
+      "source_text": "Siri — Use your voice to send messages, set reminders, and more\nUse hands-free\nListen and identify songs\nLearn more about Siri",
+      "source_url": "https://support.apple.com/en-ie/112023",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "External Buttons and Connectors",
+      "source_text": "Home\nVolume up/down\nOn/Off - Sleep/Wake\n3.5 mm headphone jack\nBuilt-in speaker\nLightning connector",
+      "source_url": "https://support.apple.com/en-ie/112023",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Input and Output",
+      "source_text": "Lightning connector\n3.5 mm headphone jack\nBuilt-in speaker\nMicrophone",
+      "source_url": "https://support.apple.com/en-ie/112023",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Power and Battery 5",
+      "source_text": "Built-in rechargeable lithium-ion battery\nMusic playback time: Up to 40 hours\nVideo playback time: Up to 8 hours",
+      "source_url": "https://support.apple.com/en-ie/112023",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Three-axis gyro\nAccelerometer",
+      "source_url": "https://support.apple.com/en-ie/112023",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Operating System",
+      "source_text": "iOS 11\niOS 11 sets a new standard for the world’s most advanced mobile operating system, making iPod touch more intelligent, personal, and expressive than ever.\nSee what’s new in iOS 11",
+      "source_url": "https://support.apple.com/en-ie/112023",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Built-in Apps",
+      "source_text": "Camera\nPhotos\nHealth\nMessages\nFaceTime\nMail\nMusic\nWallet\nSafari\nMaps\nSiri\nCalendar\niTunes Store\nApp Store\nNotes\nNews\nContacts\niBooks\nHome\nWeather\nReminders\nClock\nTV\nStocks\nCalculator\nVoice Memos\nPodcasts\nTips\nFind My iPhone\nFind My Friends\nSettings\nFiles",
+      "source_url": "https://support.apple.com/en-ie/112023",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Free Apps from Apple 6",
+      "source_text": "Pages, Numbers, Keynote, iMovie, GarageBand, iTunes U, Clips, and Apple Store app are preinstalled.\niMovie\nPages\nNumbers\nKeynote\niTunes U\nGarageBand\nApple Store\nTrailers\nApple TV Remote\niTunes Remote\nMusic Memos\nClips",
+      "source_url": "https://support.apple.com/en-ie/112023",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Headphones 7",
+      "source_text": "Apple EarPods",
+      "source_url": "https://support.apple.com/en-ie/112023",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "Apple ID (required for some features)\nInternet access\nSyncing with iTunes on a Mac or PC requires:\nMac: OS X v10.8.5 or later\nPC: Windows 7 or later\niTunes 12.3 or later 8 (free download from www.itunes.com/uk/download )",
+      "source_url": "https://support.apple.com/en-ie/112023",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Environmental Requirements",
+      "source_text": "Operating ambient temperature: 32° to 95° F (0° to 35° C)\nNonoperating temperature: -4° to 113° F (-20° to 45° C)\nRelative humidity: 5% to 95% noncondensing\nOperating altitude: tested up to 10,000 feet (3000 m)",
+      "source_url": "https://support.apple.com/en-ie/112023",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "Language support\nEnglish (Australia, UK, U.S.), Chinese (Simplified, Traditional, Traditional Hong Kong), French (Canada, France), German, Italian, Japanese, Korean, Spanish (Latin America, Mexico, Spain), Arabic, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hindi, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nQuickType keyboard support\nEnglish (Australia, Canada, India, Singapore, UK, U.S.), Chinese - Simplified (Handwriting, Pinyin, Stroke), Chinese - Traditional (Cangjie, Handwriting, Pinyin, Stroke, Sucheng, Zhuyin), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese (Kana, Romaji), Korean, Spanish (Latin America, Mexico, Spain), Arabic (Modern Standard, Najdi), Armenian, Azerbaijani, Belarusian, Bengali, Bulgarian, Catalan, Cherokee, Croatian, Czech, Danish, Dutch, Emoji, Estonian, Filipino, Finnish, Flemish, Georgian, Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari, Transliteration), Hinglish, Hungarian, Icelandic, Indonesian, Irish, Kannada, Latvian, Lithuanian, Macedonian, Malay, Malayalam, Maori, Marathi, Norwegian, Odia, Persian, Polish, Portuguese (Brazil, Portugal), Punjabi, Romanian, Russian, Serbian (Cyrillic, Latin), Slovak, Slovenian, Swahili, Swedish, Tamil (Script, Transliteration), Telugu, Thai, Tibetan, Turkish, Ukrainian, Urdu, Vietnamese, Welsh\nQuickType keyboard support with predictive input 9\nEnglish (Australia, Canada, India, Singapore, UK, U.S.), Chinese (Simplified, Traditional), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese, Korean, Russian, Spanish (Latin America, Mexico, Spain), Portuguese (Brazil, Portugal), Thai, Turkish\nSiri languages\nEnglish (Australia, Canada, India, Ireland, New Zealand, Singapore, South Africa, UK, U.S.), Spanish (Chile, Mexico, Spain, U.S.), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (China mainland, Hong Kong), Arabic (Saudi Arabia, United Arab Emirates), Danish (Denmark), Dutch (Belgium, Netherlands), Finnish (Finland), Hebrew (Israel), Malay (Malaysia), Norwegian (Norway), Portuguese (Brazil), Russian (Russia), Swedish (Sweden), Thai (Thailand), Turkish (T&uuml;rkiye)\nDictation languages\nEnglish (Australia, Canada, India, Indonesia, Ireland, Malaysia, New Zealand, Philippines, Saudi Arabia, Singapore, South Africa, United Arab Emirates, UK, U.S.), Spanish (Argentina, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Panama, Paraguay, Peru, Spain, Uruguay, U.S.), French (Belgium, Canada, France, Luxembourg, Switzerland), German (Austria, Germany, Luxembourg, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (China mainland, Hong Kong, Macao), Arabic (Kuwait, Qatar, Saudi Arabia, United Arab Emirates), Catalan, Croatian, Czech, Danish, Dutch (Belgium, Netherlands), Finnish, Greek, Hebrew, Hindi (India), Hungarian, Indonesian, Malaysian, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Shanghainese (China mainland), Slovakian, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nDefinition dictionary support\nEnglish, Chinese (Simplified, Traditional), Danish, Dutch, French, German, Hindi, Italian, Japanese, Korean, Norwegian, Portuguese, Russian, Spanish, Swedish, Thai, Turkish\nBilingual dictionary support\nChinese (Simplified), Dutch, French, German, Italian, Japanese, Korean, Portuguese, Russian, Spanish\nSpell check\nEnglish, French, German, Italian, Spanish, Danish, Dutch, Finnish, Korean, Norwegian, Polish, Portuguese, Russian, Swedish, Turkish",
+      "source_url": "https://support.apple.com/en-ie/112023",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "iPod touch\nApple EarPods\nLightning to USB Cable\nQuick Start guide",
+      "source_url": "https://support.apple.com/en-ie/112023",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "iPod touch and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact. Learn more\niPod touch is designed with the following features to reduce its environmental impact:\nMercury-free LED-backlit display\nArsenic-free display glass\nBrominated flame retardant-free\nPVC-free\nRecyclable aluminum enclosure\nApple and the Environment\nLearn more about Apple’s dedication to reducing the environmental impact of our products and process. Or read our Product Environmental Reports for detailed information on the environmental performance of every Apple product.\nApple GiveBack\nReady let go of your old iPod? Just give it to us, and we’ll help you recycle it responsibly for free. Good for you. Good for the planet. Learn more about Apple GiveBack.\nAvailable space is less and varies due to many factors. A standard configuration uses approximately 8GB to 11GB of space (including iOS and preinstalled apps) depending on the model and settings. Preinstalled apps use about 4GB, and you can delete these apps and restore them.\nWeight varies by configuration and manufacturing process.\nFor iPod touch with Maps, the Maps application provides your approximate location using information based on your proximity to known Wi-Fi networks (when on and available). The more accurate the available information, the smaller the circle identifying your position on the map. The feature is not available in all areas. Known Wi-Fi networks are predominantly in urban areas. In order to provide your location, data is collected in a form that does not personally identify you. If you do not want such data collected, do not enable the feature. Not enabling the feature will not impact the functionality of your iPod touch.\nSiri may not be available in all languages or in all areas, and features may vary by area. Internet access required.\nTesting conducted by Apple in June 2015 using preproduction iPod touch hardware and software. The playlist consisted of 358 unique audio tracks purchased from the iTunes Store (256-Kbps AAC encoding); video content was purchased from the iTunes Store app on iPod touch. All settings were default except: Wi-Fi was associated with a network; the Wi-Fi feature Ask to Join Networks and Auto-Brightness were turned off. Battery tests are conducted with specific iPod units; actual results may vary. Battery life and number of charge cycles vary by use and settings. See www.apple.com/uk/batteries for more information.\niMovie, GarageBand, Pages, Numbers, and Keynote are available on the App Store. Downloading apps requires an Apple ID and a device that is compatible with the iOS version required for each app.\nRemote and mic not included.\niPod and iTunes are for legal or rightholder-authorized copying only. Don’t steal music.\nCustomized suggestions based on recipient and app are not available for Chinese (Simplified, Traditional), Japanese, Korean, and Thai.\nSome features may not be available for all countries or all areas. Click here to see complete list .\nHelpful?\nYes\nNo\nCharacter limit:\n250\nMaximum character limit is 250.\nPlease don’t include any personal information in your comment.\nSubmit\nThanks for your feedback.",
+      "source_url": "https://support.apple.com/en-ie/112023",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-6th-generation-tech-specs.html"
     }
   ],
   "record_notes": [
@@ -84,9 +236,9 @@
           "128 GB"
         ],
         "unit": null,
-        "source_section": "iPod touch (6th generation)",
+        "source_section": "Capacity 1",
         "verification_status": "source_transcribed",
-        "notes": "Capacities parsed from the explicit Capacity line; original wording remains in source_text."
+        "notes": "Capacity statements parsed from the model-specific Apple technical-specification page and preserved in the matching Capacity section."
       }
     },
     "official_description": {
