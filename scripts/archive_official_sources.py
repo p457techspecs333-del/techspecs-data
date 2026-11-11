@@ -103,8 +103,16 @@ def main() -> int:
             if not expected:
                 print(f"ERROR: expected_title_contains is required for {url}")
                 return 2
-            if relative.is_absolute() or ".." in relative.parts or not str(relative).startswith("apple_remaining_extraction/technical_specs_html/") or relative.suffix.lower() not in {".html", ".htm"}:
-                print(f"ERROR: output_path must be an HTML file under apple_remaining_extraction/technical_specs_html/: {relative}")
+            allowed_prefixes = (
+                "apple_remaining_extraction/technical_specs_html/",
+                "apple_watch_extraction/technical_specs_html/",
+            )
+            if relative.is_absolute() or ".." in relative.parts or not str(relative).startswith(allowed_prefixes) or relative.suffix.lower() not in {".html", ".htm"}:
+                print(
+                    "ERROR: output_path must be an HTML file under "
+                    "apple_remaining_extraction/technical_specs_html/ or "
+                    f"apple_watch_extraction/technical_specs_html/: {relative}"
+                )
                 return 2
             output = (ROOT / relative).resolve()
             try:
