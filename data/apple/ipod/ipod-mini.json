@@ -250,6 +250,274 @@
         "verification_status": "source_transcribed",
         "notes": "Description transcribed from the official Apple identification page."
       }
+    },
+    "dimensions": {
+      "height": {
+        "value": 3.6,
+        "unit": "in",
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "width": {
+        "value": 2,
+        "unit": "in",
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "depth": {
+        "value": 0.5,
+        "unit": "in",
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "weight": {
+      "value": 104,
+      "unit": "g",
+      "source_section": "iPod mini (first generation) — Additional technical specification text",
+      "verification_status": "source_transcribed",
+      "notes": "Source explicitly gives 3.6 oz (104 g)."
+    },
+    "storage": {
+      "capacity_options": {
+        "value": [
+          4
+        ],
+        "unit": "GB",
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "medium": {
+        "value": "hard disk drive",
+        "unit": "type",
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "songs_at_128_kbps_aac": {
+        "value": 1000,
+        "unit": "songs",
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed",
+        "notes": "Source states up to 1000 songs in 128-Kbps AAC format."
+      }
+    },
+    "display": {
+      "technology": {
+        "value": "liquid crystal display",
+        "unit": "type",
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "diagonal": {
+        "value": 1.67,
+        "unit": "in",
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "resolution": {
+        "value": "138 × 110",
+        "unit": "pixels",
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "dot_pitch": {
+        "value": 0.22,
+        "unit": "mm",
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "backlight": {
+        "value": "blue-white LED",
+        "unit": "type",
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "audio": {
+      "skip_protection_max": {
+        "value": 25,
+        "unit": "minutes",
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "frequency_response": {
+        "value": "20 Hz to 20,000 Hz",
+        "unit": null,
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "formats_supported": {
+        "value": [
+          "AAC (16 to 320 Kbps)",
+          "MP3 (32 to 320 Kbps)",
+          "MP3 VBR",
+          "Audible",
+          "AIFF (Mac only)",
+          "WAV"
+        ],
+        "unit": null,
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "headphones": {
+      "driver_diameter": {
+        "value": 18,
+        "unit": "mm",
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "driver_magnet": {
+        "value": "Neodymium transducer magnets",
+        "unit": null,
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "frequency_response": {
+        "value": "20 Hz to 20,000 Hz",
+        "unit": null,
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "impedance": {
+        "value": 32,
+        "unit": "ohms",
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "connectors": {
+      "ports": {
+        "value": [
+          "Dock connector",
+          "3.5-mm stereo headphone jack",
+          "Wired remote connector"
+        ],
+        "unit": null,
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "connectivity": {
+      "interfaces": {
+        "value": [
+          "FireWire 400 and USB 2.0 through dock connector"
+        ],
+        "unit": null,
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "battery": {
+      "type": {
+        "value": "Built-in rechargeable lithium ion battery",
+        "unit": null,
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "music_playback_time_max": {
+        "value": 8,
+        "unit": "hours",
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "standby_time": {
+        "value": 1,
+        "unit": "month",
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "fast_charge_time": {
+        "value": 1,
+        "unit": "hours",
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed",
+        "notes": "Fast charge reaches 80% capacity."
+      },
+      "full_charge_time": {
+        "value": 3,
+        "unit": "hours",
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "environment": {
+      "operating_temperature": {
+        "value": "0° to 35° C",
+        "unit": null,
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "non_operating_temperature": {
+        "value": "-20° to 45° C",
+        "unit": null,
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "relative_humidity": {
+        "value": "5% to 95% noncondensing",
+        "unit": null,
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "maximum_operating_altitude": {
+        "value": 3000,
+        "unit": "m",
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "system_requirements": {
+      "mac": {
+        "value": "Macintosh computer with FireWire port; Mac OS X v10.1.5 or later (Mac OS X 10.3 or later recommended).",
+        "unit": null,
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "windows": {
+        "value": "PC with FireWire or USB 2.0 port, or FireWire or USB 2.0 card; Windows 2000 with Service Pack 4 or Windows XP Home or Professional.",
+        "unit": null,
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "power_adapter": {
+      "connector": {
+        "value": "6-pin FireWire connector",
+        "unit": null,
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "ac_input_voltage": {
+        "value": "100V to 240V",
+        "unit": null,
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "ac_input_current_max": {
+        "value": 0.4,
+        "unit": "A",
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "frequency": {
+        "value": "50Hz to 60Hz",
+        "unit": null,
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "dc_output_voltage": {
+        "value": 12,
+        "unit": "V",
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      },
+      "dc_output_current_max": {
+        "value": 1,
+        "unit": "A",
+        "source_section": "iPod mini (first generation) — Additional technical specification text",
+        "verification_status": "source_transcribed"
+      }
     }
   }
 }
