@@ -48,6 +48,14 @@ def same_article(a, b):
     if pa.hostname and pa.hostname.lower().endswith("apple.com"):
         aa = [p for p in pa.path.split("/") if p]
         bb = [p for p in pb.path.split("/") if p]
+        # The same Apple article ID can be served in different locales. Since
+        # archived HTML may contain region-specific details, a locale mismatch
+        # is a provenance mismatch even when the final article ID is identical.
+        locale_pattern = re.compile(r"^[a-z]{2}-[a-z0-9]{2,5}$", re.IGNORECASE)
+        locale_a = aa[0].casefold() if aa and locale_pattern.fullmatch(aa[0]) else None
+        locale_b = bb[0].casefold() if bb and locale_pattern.fullmatch(bb[0]) else None
+        if locale_a and locale_b and locale_a != locale_b:
+            return False
         return bool(aa and bb and aa[-1] == bb[-1])
     return pa.path.rstrip("/") == pb.path.rstrip("/")
 
