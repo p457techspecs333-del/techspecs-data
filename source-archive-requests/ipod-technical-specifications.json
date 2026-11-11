@@ -1,5 +1,5 @@
 {
-  "purpose": "Archive verified official Apple iPod technical-specification pages for subsequent record-by-record mapping. Do not update product records from these pages until the archive content has been checked against the model and variant.",
+  "purpose": "Archive official Apple iPod technical-specification pages for current and newly discovered legacy model variants before record remapping. The ten additional legacy sources queued on 2026-11-11 cover older nano, shuffle, and classic/Click Wheel/photo models. Do not update product records from these pages until each archive has been checked against its exact model and variant.",
   "sources": [
     {
       "url": "https://support.apple.com/en-ie/111961",
