@@ -212,7 +212,7 @@ def main() -> int:
             "source_url": result["technical_source_url"],
             "source_verification_status": "content_verified",
             "extraction_status": "extracted",
-            "section_count": result["sections_extracted"],
+            "section_count": result["sections_extracted"] + 1,
             "source_file": result["technical_source_file"],
             "identity_source_file": result["identity_source_file"],
         }

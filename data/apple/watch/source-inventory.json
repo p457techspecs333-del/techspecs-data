@@ -350,7 +350,7 @@
       "source_url": "https://support.apple.com/en-ae/112009",
       "source_verification_status": "content_verified",
       "extraction_status": "extracted",
-      "section_count": 5,
+      "section_count": 6,
       "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-first-generation-tech-specs.html",
       "identity_source_file": "apple_watch_extraction/technical_specs_html/apple-watch-model-identification.html",
       "slug": "apple-watch-first-generation"
@@ -361,7 +361,7 @@
       "source_url": "https://support.apple.com/en-ie/111985",
       "source_verification_status": "content_verified",
       "extraction_status": "extracted",
-      "section_count": 8,
+      "section_count": 9,
       "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-1-tech-specs.html",
       "identity_source_file": "apple_watch_extraction/technical_specs_html/apple-watch-model-identification.html",
       "slug": "apple-watch-series-1"
@@ -372,7 +372,7 @@
       "source_url": "https://support.apple.com/en-za/112022",
       "source_verification_status": "content_verified",
       "extraction_status": "extracted",
-      "section_count": 7,
+      "section_count": 8,
       "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-2-tech-specs.html",
       "identity_source_file": "apple_watch_extraction/technical_specs_html/apple-watch-model-identification.html",
       "slug": "apple-watch-series-2"
@@ -383,7 +383,7 @@
       "source_url": "https://support.apple.com/en-in/111891",
       "source_verification_status": "content_verified",
       "extraction_status": "extracted",
-      "section_count": 9,
+      "section_count": 10,
       "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-3-tech-specs.html",
       "identity_source_file": "apple_watch_extraction/technical_specs_html/apple-watch-model-identification.html",
       "slug": "apple-watch-series-3"
@@ -394,7 +394,7 @@
       "source_url": "https://support.apple.com/en-sg/111984",
       "source_verification_status": "content_verified",
       "extraction_status": "extracted",
-      "section_count": 7,
+      "section_count": 8,
       "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-4-tech-specs.html",
       "identity_source_file": "apple_watch_extraction/technical_specs_html/apple-watch-model-identification.html",
       "slug": "apple-watch-series-4"
@@ -405,7 +405,7 @@
       "source_url": "https://support.apple.com/en-kg/118453",
       "source_verification_status": "content_verified",
       "extraction_status": "extracted",
-      "section_count": 8,
+      "section_count": 9,
       "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-5-tech-specs.html",
       "identity_source_file": "apple_watch_extraction/technical_specs_html/apple-watch-model-identification.html",
       "slug": "apple-watch-series-5"
@@ -416,7 +416,7 @@
       "source_url": "https://support.apple.com/en-ie/111918",
       "source_verification_status": "content_verified",
       "extraction_status": "extracted",
-      "section_count": 9,
+      "section_count": 10,
       "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-6-tech-specs.html",
       "identity_source_file": "apple_watch_extraction/technical_specs_html/apple-watch-model-identification.html",
       "slug": "apple-watch-series-6"
@@ -427,7 +427,7 @@
       "source_url": "https://support.apple.com/en-my/111909",
       "source_verification_status": "content_verified",
       "extraction_status": "extracted",
-      "section_count": 10,
+      "section_count": 11,
       "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-7-tech-specs.html",
       "identity_source_file": "apple_watch_extraction/technical_specs_html/apple-watch-model-identification.html",
       "slug": "apple-watch-series-7"
@@ -438,7 +438,7 @@
       "source_url": "https://support.apple.com/en-gb/111862",
       "source_verification_status": "content_verified",
       "extraction_status": "extracted",
-      "section_count": 10,
+      "section_count": 11,
       "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-se-1-tech-specs.html",
       "identity_source_file": "apple_watch_extraction/technical_specs_html/apple-watch-model-identification.html",
       "slug": "apple-watch-se-1"
@@ -449,7 +449,7 @@
       "source_url": "https://support.apple.com/en-ie/111852",
       "source_verification_status": "content_verified",
       "extraction_status": "extracted",
-      "section_count": 10,
+      "section_count": 11,
       "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-ultra-tech-specs.html",
       "identity_source_file": "apple_watch_extraction/technical_specs_html/apple-watch-model-identification.html",
       "slug": "apple-watch-ultra"

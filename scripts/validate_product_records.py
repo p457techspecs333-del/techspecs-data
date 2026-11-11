@@ -178,7 +178,7 @@ def main() -> int:
 
 
     # Cross-check category inventories against product records and archived sources.
-    inventory_paths = sorted(p for p in (DATA_ROOT / "apple").glob("*/source-inventory.json") if p.parent.name in {"airpods", "homepod", "ipod", "displays", "accessories", "software"})
+    inventory_paths = sorted(p for p in (DATA_ROOT / "apple").glob("*/source-inventory.json") if p.parent.name in {"airpods", "homepod", "ipod", "displays", "accessories", "software", "watch"})
     global_slugs: dict[str, list[str]] = {}
     for product_path in files:
         try:
@@ -234,7 +234,7 @@ def main() -> int:
                 warnings.append(f"{inventory_rel}: working_scope contains a non-object entry")
                 continue
             inventory_records_checked += 1
-            item_slug = str(item.get("slug") or item.get("model_slug") or "").strip()
+            item_slug = str(item.get("slug") or item.get("model_slug") or Path(str(item.get("record_path") or "")).stem or "").strip()
             if not item_slug:
                 warnings.append(f"{inventory_rel}: working_scope entry has no slug")
                 continue
