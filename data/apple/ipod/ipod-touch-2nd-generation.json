@@ -160,7 +160,8 @@
   "record_notes": [
     "Archival-first-pass record; normalized specifications not inferred.",
     "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text.",
-    "2026-11-10 verification correction: corrected the second model-number/date pair from a duplicate A1288 to A1319, preserving Apple's 'China mainland only' qualifier."
+    "2026-11-10 verification correction: corrected the second model-number/date pair from a duplicate A1288 to A1319, preserving Apple's 'China mainland only' qualifier.",
+    "2026-11-11 normalization pass: storage capacities and published capacity estimates, battery runtime/charging, headphones, video formats, controls, system requirements, environmental limits, in-box contents and language support were transcribed from the archived official Apple technical-specification sections. Capacity figures remain in Apple's stated order; no cross-capacity relationship was inferred."
   ],
   "normalized_specifications": {
     "navigation_interface": {
@@ -308,6 +309,224 @@
         "unit": null,
         "source_section": "Input and output",
         "verification_status": "content_verified"
+      }
+    },
+    "storage": {
+      "capacity_options": {
+        "value": [
+          8,
+          16,
+          32
+        ],
+        "unit": "GB",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed",
+        "notes": "Capacity values retain Apple's published order: 8 GB, 16 GB, 32 GB."
+      },
+      "songs_at_128_kbps_aac": {
+        "value": [
+          1750,
+          3500,
+          7000
+        ],
+        "unit": "songs",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed",
+        "notes": "Song counts correspond in order to 8 GB, 16 GB and 32 GB; source footnote remains in the raw section."
+      },
+      "photos": {
+        "value": [
+          10000,
+          20000,
+          25000
+        ],
+        "unit": "photos",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed",
+        "notes": "Photo counts retain Apple's published order for 8 GB, 16 GB and 32 GB."
+      },
+      "video_capacity": {
+        "value": [
+          10,
+          20,
+          40
+        ],
+        "unit": "hours",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed",
+        "notes": "Video capacities retain Apple's published order for 8 GB, 16 GB and 32 GB."
+      }
+    },
+    "battery": {
+      "type": {
+        "value": "Built-in rechargeable lithium ion battery",
+        "unit": null,
+        "source_section": "Battery and power 8",
+        "verification_status": "source_transcribed"
+      },
+      "music_playback_time_max": {
+        "value": 36,
+        "unit": "hours",
+        "source_section": "Battery and power 8",
+        "verification_status": "source_transcribed"
+      },
+      "video_playback_time_max": {
+        "value": 6,
+        "unit": "hours",
+        "source_section": "Battery and power 8",
+        "verification_status": "source_transcribed"
+      },
+      "fast_charge_time": {
+        "value": 2,
+        "unit": "hours",
+        "source_section": "Battery and power 8",
+        "verification_status": "source_transcribed",
+        "notes": "About 2 hours to charge up to 80% of battery capacity."
+      },
+      "full_charge_time": {
+        "value": 4,
+        "unit": "hours",
+        "source_section": "Battery and power 8",
+        "verification_status": "source_transcribed"
+      },
+      "charging_method": {
+        "value": "USB to computer system or power adapter (sold separately)",
+        "unit": null,
+        "source_section": "Battery and power 8",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "headphones": {
+      "type": {
+        "value": "Earphones",
+        "unit": null,
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      },
+      "frequency_response": {
+        "value": "20 Hz to 20,000 Hz",
+        "unit": null,
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      },
+      "impedance": {
+        "value": 32,
+        "unit": "ohms",
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "video": {
+      "component_tv_output": {
+        "value": [
+          "480p",
+          "576p"
+        ],
+        "unit": null,
+        "source_section": "TV and video",
+        "verification_status": "source_transcribed"
+      },
+      "formats_supported": {
+        "value": "H.264 and MPEG-4 video profiles, bitrates, resolutions, frame rates, audio limits and .m4v/.mp4/.mov containers as specified in the archived source section.",
+        "unit": null,
+        "source_section": "TV and video",
+        "verification_status": "source_transcribed",
+        "notes": "The full technical constraints are preserved verbatim in sections[9].source_text; this field summarizes the supported codecs without replacing the source text."
+      }
+    },
+    "controls": {
+      "buttons": {
+        "value": [
+          "Sleep/wake",
+          "Volume up/down",
+          "Home"
+        ],
+        "unit": null,
+        "source_section": "External buttons and controls",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "system_requirements": {
+      "mac": {
+        "value": [
+          "Mac computer with USB 2.0 port",
+          "Mac OS X v10.4.10 or later",
+          "iTunes 8 or later"
+        ],
+        "unit": null,
+        "source_section": "Mac system requirements",
+        "verification_status": "source_transcribed"
+      },
+      "windows": {
+        "value": [
+          "PC with USB 2.0 port",
+          "Windows Vista or Windows XP Home or Professional with Service Pack 2 or later",
+          "iTunes 8 or later"
+        ],
+        "unit": null,
+        "source_section": "Windows system requirements",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "environment": {
+      "operating_temperature": {
+        "value": "0° to 35° C",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "non_operating_temperature": {
+        "value": "-20° to 45° C",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "relative_humidity": {
+        "value": "5% to 95% noncondensing",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "maximum_operating_altitude": {
+        "value": 3000,
+        "unit": "m",
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "in_the_box": {
+      "items": {
+        "value": [
+          "iPod touch",
+          "Earphones",
+          "USB 2.0 cable",
+          "Dock adapter",
+          "Polishing cloth",
+          "Quick Start guide"
+        ],
+        "unit": null,
+        "source_section": "In the box",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "language_support": {
+      "supported_language_count": {
+        "value": 17,
+        "unit": "languages",
+        "source_section": "Languages",
+        "verification_status": "source_transcribed"
+      },
+      "international_keyboard_count": {
+        "value": 30,
+        "unit": "keyboards",
+        "source_section": "Languages",
+        "verification_status": "source_transcribed"
+      },
+      "dictionary_count": {
+        "value": 19,
+        "unit": "dictionaries",
+        "source_section": "Languages",
+        "verification_status": "source_transcribed"
       }
     }
   }
