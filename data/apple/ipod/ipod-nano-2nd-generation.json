@@ -381,19 +381,37 @@
     },
     "system_requirements": {
       "mac": {
-        "value": "Macintosh computer with USB 2.0 port\nMac OS X v10.3.9 or later\niTunes 7 or later\n(4)",
+        "value": "Macintosh computer with USB 2.0 port\nMac OS X v10.3.9 or later\niTunes 7 or later",
         "unit": null,
         "source_section": "Mac system requirements",
         "verification_status": "source_transcribed"
       },
       "windows": {
-        "value": "PC with USB 2.0\nWindows 2000 with Service Pack 4 or later, or Windows XP Home or Professional with Service Pack 2 or later\niTunes 7 or later\n(4)",
+        "value": "PC with USB 2.0\nWindows 2000 with Service Pack 4 or later, or Windows XP Home or Professional with Service Pack 2 or later\niTunes 7 or later",
         "unit": null,
         "source_section": "Windows system requirements",
         "verification_status": "source_transcribed"
       }
     },
     "environment": {
+      "operating_temperature": {
+        "value": "32° to 95° F (0° to 35° C)",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "non_operating_temperature": {
+        "value": "-4° to 113° F (-20° to 45° C)",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "relative_humidity": {
+        "value": "5% to 95% noncondensing",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
       "maximum_operating_altitude": {
         "value": "10,000 feet (3000 m)",
         "unit": null,
