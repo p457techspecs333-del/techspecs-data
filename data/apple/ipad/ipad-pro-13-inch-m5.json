@@ -12,15 +12,17 @@
   "source": {
     "source_type": "manufacturer",
     "source_url": "https://support.apple.com/en-ie/125407",
-    "source_file": null,
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html",
     "source_title": "iPad Pro 13‑inch (M5) - Tech Specs - Apple Support (IE)",
     "publisher": "Apple Support (Ireland)",
     "published_at": null,
-    "checked_at": "2026-11-07",
-    "verification_status": "url_checked",
-    "verification_notes": "Official Apple Support URL checked. Original section text is retained in this record, but the previously referenced local HTML archive was not present in the repository. Normalized specifications have not been independently extracted.",
+    "checked_at": "2026-11-11",
+    "verification_status": "partially_verified",
+    "verification_notes": "Original Apple Support HTML was archived on 2026-11-11 and the canonical URL and page title were checked against the archive. Retained section headings align with the archived page; normalized specification values have not yet been independently rechecked against every section.",
     "notes": [
-      "No archived HTML file was found under the previous source_file path during the 2026-11-11 repository audit; the record retains extracted section text, but no local copy of the original HTML is claimed."
+      "Original HTML is retained at the source_file path; the companion .metadata.json file records capture time and SHA-256.",
+      "The retained extracted sections now carry their own source_url and source_file. The generic Apple Footer section has been excluded from the product evidence.",
+      "Normalized fields still require independent field-by-field verification against the archived source before being treated as fully verified."
     ]
   },
   "extraction": {
@@ -33,143 +35,207 @@
   "sections": [
     {
       "heading": "Finish",
-      "source_text": "Silver\nSpace Black"
+      "source_text": "Silver\nSpace Black",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Capacity 1",
-      "source_text": "256GB\n512GB\n1TB\n2TB"
+      "source_text": "256GB\n512GB\n1TB\n2TB",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Size and Weight 2",
-      "source_text": "Wi‑Fi models\n:\nheight:\n281.6 mm (11.09 inches)\nwidth:\n215.5 mm (8.48 inches)\ndepth:\n5.1 mm (0.20 inches)\nWeight:\n579 grams (1.28 pounds)\nWi‑Fi + Cellular models\n:\nheight:\n281.6 mm (11.09 inches)\nwidth:\n215.5 mm (8.48 inches)\ndepth:\n5.1 mm (0.20 inches)\nWeight:\n582 grams (1.28 pounds)"
+      "source_text": "Wi‑Fi models\n:\nheight:\n281.6 mm (11.09 inches)\nwidth:\n215.5 mm (8.48 inches)\ndepth:\n5.1 mm (0.20 inches)\nWeight:\n579 grams (1.28 pounds)\nWi‑Fi + Cellular models\n:\nheight:\n281.6 mm (11.09 inches)\nwidth:\n215.5 mm (8.48 inches)\ndepth:\n5.1 mm (0.20 inches)\nWeight:\n582 grams (1.28 pounds)",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Buttons and Connectors",
-      "source_text": "Four-speaker audio\nMicrophones\nTop button\nCamera\nVolume buttons\nMagnetic connector\nSmart Connector\nThunderbolt / USB 4"
+      "source_text": "Four-speaker audio\nMicrophones\nTop button\nCamera\nVolume buttons\nMagnetic connector\nSmart Connector\nThunderbolt / USB 4",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "In the Box",
-      "source_text": "iPad Pro\nPolishing cloth in nano-texture display glass option"
+      "source_text": "iPad Pro\nPolishing cloth in nano-texture display glass option",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Display",
-      "source_text": "Ultra Retina XDR display\nTandem OLED\n3\n2752x2064-pixel resolution at 264 ppi\nProMotion technology with adaptive refresh rates from 10Hz to 120Hz\nWide colour (P3)\nTrue Tone\nFingerprint-resistant oleophobic coating\nFully laminated\nAnti-reflective coating\nNano-texture display glass option on 1TB and 2TB models\nSDR brightness: 1,000 nits max\nXDR brightness: 1,000 nits max full screen, 1,600 nits peak (HDR content only)\n1 nit minimum brightness\n2,000,000:1 contrast ratio\nSupports\nApple Pencil Pro, Apple Pencil (USB‑C)\nApple Pencil hover"
+      "source_text": "Ultra Retina XDR display\nTandem OLED\n3\n2752x2064-pixel resolution at 264 ppi\nProMotion technology with adaptive refresh rates from 10Hz to 120Hz\nWide colour (P3)\nTrue Tone\nFingerprint-resistant oleophobic coating\nFully laminated\nAnti-reflective coating\nNano-texture display glass option on 1TB and 2TB models\nSDR brightness: 1,000 nits max\nXDR brightness: 1,000 nits max full screen, 1,600 nits peak (HDR content only)\n1 nit minimum brightness\n2,000,000:1 contrast ratio\nSupports\nApple Pencil Pro, Apple Pencil (USB‑C)\nApple Pencil hover",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Chip",
-      "source_text": "Apple M5 chip\nModels with 256GB or 512GB storage:\n9-core CPU with 3 performance cores and 6 efficiency cores\n10-core GPU\nNeural Accelerators\nHardware-accelerated ray tracing\n16-core Neural Engine\n153GB/s memory bandwidth\n12GB RAM\nModels with 1TB or 2TB storage:\n10-core CPU with 4 performance cores and 6 efficiency cores\n10-core GPU\nNeural Accelerators\nHardware-accelerated ray tracing\n16-core Neural Engine\n153GB/s memory bandwidth\n16GB RAM\nMedia Engine\nHardware-accelerated H.264, HEVC, ProRes and ProRes RAW\nVideo decode engine\nVideo encode engine\nProRes encode and decode engine\nAV1 decode"
+      "source_text": "Apple M5 chip\nModels with 256GB or 512GB storage:\n9-core CPU with 3 performance cores and 6 efficiency cores\n10-core GPU\nNeural Accelerators\nHardware-accelerated ray tracing\n16-core Neural Engine\n153GB/s memory bandwidth\n12GB RAM\nModels with 1TB or 2TB storage:\n10-core CPU with 4 performance cores and 6 efficiency cores\n10-core GPU\nNeural Accelerators\nHardware-accelerated ray tracing\n16-core Neural Engine\n153GB/s memory bandwidth\n16GB RAM\nMedia Engine\nHardware-accelerated H.264, HEVC, ProRes and ProRes RAW\nVideo decode engine\nVideo encode engine\nProRes encode and decode engine\nAV1 decode",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Apple Intelligence 4",
-      "source_text": "Built into your iPad, Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.\nLearn more about Apple Intelligence"
+      "source_text": "Built into your iPad, Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.\nLearn more about Apple Intelligence",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Camera",
-      "source_text": "12MP Wide camera, ƒ/1.8 aperture\nDigital zoom up to 5x\nFive-element lens\nAdaptive True Tone flash\nPanorama (up to 63MP)\nSapphire crystal lens cover\nAutofocus with Focus Pixels\nSmart HDR 4\nWide colour capture for photos and Live Photos\nAdvanced red-eye correction\nPhoto geotagging\nAuto image stabilisation\nBurst mode\nImage formats captured: HEIF and JPEG"
+      "source_text": "12MP Wide camera, ƒ/1.8 aperture\nDigital zoom up to 5x\nFive-element lens\nAdaptive True Tone flash\nPanorama (up to 63MP)\nSapphire crystal lens cover\nAutofocus with Focus Pixels\nSmart HDR 4\nWide colour capture for photos and Live Photos\nAdvanced red-eye correction\nPhoto geotagging\nAuto image stabilisation\nBurst mode\nImage formats captured: HEIF and JPEG",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Video Recording",
-      "source_text": "4K video recording at 24 fps, 25 fps, 30 fps or 60 fps\n1080p HD video recording at 25 fps, 30 fps or 60 fps\n720p HD video recording at 30 fps\nProRes video recording up to 4K at 30 fps (1080p at 30 fps for 256GB storage)\nAudio zoom\nAdaptive True Tone flash\nSlo‑mo video support for 1080p at 120 fps or 240 fps\nTime-lapse video with stabilisation\nExtended dynamic range for video up to 30 fps\nCinematic video stabilisation (4K, 1080p and 720p)\nContinuous autofocus video\nPlayback zoom\nVideo formats recorded: HEVC and H.264\nStereo recording"
+      "source_text": "4K video recording at 24 fps, 25 fps, 30 fps or 60 fps\n1080p HD video recording at 25 fps, 30 fps or 60 fps\n720p HD video recording at 30 fps\nProRes video recording up to 4K at 30 fps (1080p at 30 fps for 256GB storage)\nAudio zoom\nAdaptive True Tone flash\nSlo‑mo video support for 1080p at 120 fps or 240 fps\nTime-lapse video with stabilisation\nExtended dynamic range for video up to 30 fps\nCinematic video stabilisation (4K, 1080p and 720p)\nContinuous autofocus video\nPlayback zoom\nVideo formats recorded: HEVC and H.264\nStereo recording",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "TrueDepth Camera",
-      "source_text": "Landscape 12MP Center Stage camera\nƒ/2.0 aperture\nPortrait mode with advanced bokeh and Depth Control\nPortrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High‑Key Mono)\nAnimoji and Memoji\nSmart HDR 4\n1080p HD video recording at 25 fps, 30 fps or 60 fps\nTime-lapse video with stabilisation\nExtended dynamic range for video up to 30 fps\nCinematic video stabilisation (1080p and 720p)\nWide colour capture for photos and Live Photos\nLens correction\nRetina Flash with True Tone\nAuto image stabilisation\nBurst mode"
+      "source_text": "Landscape 12MP Center Stage camera\nƒ/2.0 aperture\nPortrait mode with advanced bokeh and Depth Control\nPortrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High‑Key Mono)\nAnimoji and Memoji\nSmart HDR 4\n1080p HD video recording at 25 fps, 30 fps or 60 fps\nTime-lapse video with stabilisation\nExtended dynamic range for video up to 30 fps\nCinematic video stabilisation (1080p and 720p)\nWide colour capture for photos and Live Photos\nLens correction\nRetina Flash with True Tone\nAuto image stabilisation\nBurst mode",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Video Calling 5",
-      "source_text": "FaceTime video\nCentre Stage\niPad to any FaceTime-enabled device over Wi‑Fi or a mobile network\nShare experiences like movies, TV, music and other apps in a FaceTime call with SharePlay\nScreen sharing\nPortrait mode in FaceTime video\nSpatial Audio\nVoice Isolation and Wide Spectrum microphone modes\nLocal capture"
+      "source_text": "FaceTime video\nCentre Stage\niPad to any FaceTime-enabled device over Wi‑Fi or a mobile network\nShare experiences like movies, TV, music and other apps in a FaceTime call with SharePlay\nScreen sharing\nPortrait mode in FaceTime video\nSpatial Audio\nVoice Isolation and Wide Spectrum microphone modes\nLocal capture",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Audio Calling 5",
-      "source_text": "FaceTime audio\nRelay calls from your nearby iPhone with the Phone app"
+      "source_text": "FaceTime audio\nRelay calls from your nearby iPhone with the Phone app",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Speakers",
-      "source_text": "Four-speaker audio"
+      "source_text": "Four-speaker audio",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Microphones",
-      "source_text": "Studio-quality four-mic array for calls, video recording and audio recording"
+      "source_text": "Studio-quality four-mic array for calls, video recording and audio recording",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Mobile and Wireless",
-      "source_text": "All models\nApple N1 wireless networking chip\nWi‑Fi 7 (802.11be) with 2x2 MIMO\n6\nSimultaneous dual band\nBluetooth 6\nThread networking technology\nWi‑Fi + Cellular models\nApple C1X cellular modem\n5G (sub‑6 GHz) with 4x4 MIMO\nGigabit LTE with 4x4 MIMO\nModels A3358 and A3361:\n5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n38, n40, n41, n48, n66, n70, n71, n75, n77, n78, n79)\n7\nFDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 66, 71)\nTD-LTE (Bands 34, 38, 39, 40, 41, 42, 48)\nUMTS/HSPA/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nData only\n8\nWi‑Fi calling\n7\neSIM\n9\nLearn more about mobile data\nFor details on 5G and LTE support, contact your provider and see\napple.com/uk/ipad/cellular\n."
+      "source_text": "All models\nApple N1 wireless networking chip\nWi‑Fi 7 (802.11be) with 2x2 MIMO\n6\nSimultaneous dual band\nBluetooth 6\nThread networking technology\nWi‑Fi + Cellular models\nApple C1X cellular modem\n5G (sub‑6 GHz) with 4x4 MIMO\nGigabit LTE with 4x4 MIMO\nModels A3358 and A3361:\n5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n38, n40, n41, n48, n66, n70, n71, n75, n77, n78, n79)\n7\nFDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 66, 71)\nTD-LTE (Bands 34, 38, 39, 40, 41, 42, 48)\nUMTS/HSPA/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nData only\n8\nWi‑Fi calling\n7\neSIM\n9\nLearn more about mobile data\nFor details on 5G and LTE support, contact your provider and see\napple.com/uk/ipad/cellular\n.",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "SIM Card",
-      "source_text": "eSIM\n9\niPad Pro uses advanced eSIM technology for more convenience and security (not compatible with physical SIM cards)\nLearn more about eSIM\nLearn more about travelling with eSIM"
+      "source_text": "eSIM\n9\niPad Pro uses advanced eSIM technology for more convenience and security (not compatible with physical SIM cards)\nLearn more about eSIM\nLearn more about travelling with eSIM",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Location",
-      "source_text": "All models\nDigital compass\nWi‑Fi\niBeacon micro-location\nWi‑Fi + Cellular models\nGPS/GNSS\nMobile data"
+      "source_text": "All models\nDigital compass\nWi‑Fi\niBeacon micro-location\nWi‑Fi + Cellular models\nGPS/GNSS\nMobile data",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Sensors",
-      "source_text": "Face ID\nLiDAR scanner\nThree-axis gyro\nAccelerometer\nBarometer\nAmbient light sensors"
+      "source_text": "Face ID\nLiDAR scanner\nThree-axis gyro\nAccelerometer\nBarometer\nAmbient light sensors",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Face ID",
-      "source_text": "Enabled by TrueDepth camera for facial recognition\nUnlock iPad\nSecure personal data within apps\nMake purchases from the iTunes Store, App Store and Apple Books"
+      "source_text": "Enabled by TrueDepth camera for facial recognition\nUnlock iPad\nSecure personal data within apps\nMake purchases from the iTunes Store, App Store and Apple Books",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Apple Pay",
-      "source_text": "Pay with your iPad using Face ID within apps and on the web\nLearn more about Apple Pay"
+      "source_text": "Pay with your iPad using Face ID within apps and on the web\nLearn more about Apple Pay",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Siri 10",
-      "source_text": "Get help with everyday tasks like sending messages, setting reminders and more\nActivate hands-free with only your voice using “Siri” or “Hey Siri”, or use Type to Siri\nProtected by the strongest privacy of any intelligent assistant\nPowered by Apple Intelligence, Siri is more natural and helpful\nLearn more about Siri"
+      "source_text": "Get help with everyday tasks like sending messages, setting reminders and more\nActivate hands-free with only your voice using “Siri” or “Hey Siri”, or use Type to Siri\nProtected by the strongest privacy of any intelligent assistant\nPowered by Apple Intelligence, Siri is more natural and helpful\nLearn more about Siri",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Charging and Expansion",
-      "source_text": "Thunderbolt / USB 4 port with support for:\nCharging\nDisplayPort\nThunderbolt 3 (up to 40Gb/s)\nUSB 4 (up to 40Gb/s)\nUSB 3 (up to 10Gb/s)"
+      "source_text": "Thunderbolt / USB 4 port with support for:\nCharging\nDisplayPort\nThunderbolt 3 (up to 40Gb/s)\nUSB 4 (up to 40Gb/s)\nUSB 3 (up to 10Gb/s)",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Display Support",
-      "source_text": "Supports full native resolution on the built-in display at millions of colours\nSupports one external display with up to 6K resolution at 60Hz or up to 4k resolution at 120Hz\nThunderbolt 3 digital video output\nNative DisplayPort output over USB-C\nVGA, HDMI, DVI and Thunderbolt 2 output supported using adapters (sold separately)\n11\nVideo mirroring\nUp to 4K AirPlay for mirroring, photos and video out to Apple TV (2nd generation or later) or AirPlay‑enabled smart TV\nVideo mirroring and video out support through USB-C Digital AV Multiport Adapter and USB-C VGA Multiport Adapter (adapters sold separately)\n11"
+      "source_text": "Supports full native resolution on the built-in display at millions of colours\nSupports one external display with up to 6K resolution at 60Hz or up to 4k resolution at 120Hz\nThunderbolt 3 digital video output\nNative DisplayPort output over USB-C\nVGA, HDMI, DVI and Thunderbolt 2 output supported using adapters (sold separately)\n11\nVideo mirroring\nUp to 4K AirPlay for mirroring, photos and video out to Apple TV (2nd generation or later) or AirPlay‑enabled smart TV\nVideo mirroring and video out support through USB-C Digital AV Multiport Adapter and USB-C VGA Multiport Adapter (adapters sold separately)\n11",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Power and Battery 12",
-      "source_text": "Built-in 38.99-watt-hour rechargeable lithium‑polymer battery\nUp to 10 hours of surfing the web on Wi‑Fi or watching video\nCharging via power adapter or USB-C to computer system\nFast-charge capable: Up to 50% charge in around 30 minutes with\n60W adapter\nor higher (available separately)\n13\nWi‑Fi + Cellular models\nUp to 9 hours of surfing the web using a mobile data network"
+      "source_text": "Built-in 38.99-watt-hour rechargeable lithium‑polymer battery\nUp to 10 hours of surfing the web on Wi‑Fi or watching video\nCharging via power adapter or USB-C to computer system\nFast-charge capable: Up to 50% charge in around 30 minutes with\n60W adapter\nor higher (available separately)\n13\nWi‑Fi + Cellular models\nUp to 9 hours of surfing the web using a mobile data network",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Operating System",
-      "source_text": "iPadOS\niPadOS comes with powerful features and built-in apps designed to take advantage of the unique capabilities of iPad."
+      "source_text": "iPadOS\niPadOS comes with powerful features and built-in apps designed to take advantage of the unique capabilities of iPad.",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Accessi­bility",
-      "source_text": "Built-in accessibility features supporting vision, mobility, hearing and cognitive disabilities help you get the most out of your iPad.\nLearn more about Accessi­bility\nFeatures include:\nVoiceOver\nZoom\nMagnifier\nSpoken Content\nVoice Control\nSwitch Control\nAssistiveTouch\nSiri and Dictation\nType to Siri\nReal-Time Text\nAudio Descriptions\nSubtitles and Closed Captioning"
+      "source_text": "Built-in accessibility features supporting vision, mobility, hearing and cognitive disabilities help you get the most out of your iPad.\nLearn more about Accessi­bility\nFeatures include:\nVoiceOver\nZoom\nMagnifier\nSpoken Content\nVoice Control\nSwitch Control\nAssistiveTouch\nSiri and Dictation\nType to Siri\nReal-Time Text\nAudio Descriptions\nSubtitles and Closed Captioning",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Built-in Apps 14",
-      "source_text": "Apple Store\nApp Store\nBooks\nCalculator\nCalendar\nCamera\nClock\nContacts\nFaceTime\nFiles\nFind My\nFreeform\nGames\nGarageBand\nHealth\nHome\niMovie\nInvites\niTunes Store\nJournal\nKeynote\nMagnifier\nMail\nMaps\nMeasure\nMessages\nMusic\nNews\nNotes\nNumbers\nPages\nPasswords\nPhone\nPhoto Booth\nPhotos\nPodcasts\nPreview\nReminders\nSafari\nSettings\nShortcuts\nStocks\nSupport\nSwift Playgrounds\nTips\nTranslate\nTV\nVoice Memos\nWeather\nFor a complete list of Apple apps available on iPad, see\napple.com/uk/apps\n."
+      "source_text": "Apple Store\nApp Store\nBooks\nCalculator\nCalendar\nCamera\nClock\nContacts\nFaceTime\nFiles\nFind My\nFreeform\nGames\nGarageBand\nHealth\nHome\niMovie\nInvites\niTunes Store\nJournal\nKeynote\nMagnifier\nMail\nMaps\nMeasure\nMessages\nMusic\nNews\nNotes\nNumbers\nPages\nPasswords\nPhone\nPhoto Booth\nPhotos\nPodcasts\nPreview\nReminders\nSafari\nSettings\nShortcuts\nStocks\nSupport\nSwift Playgrounds\nTips\nTranslate\nTV\nVoice Memos\nWeather\nFor a complete list of Apple apps available on iPad, see\napple.com/uk/apps\n.",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "System Require­ments",
-      "source_text": "Apple Account (required for some features)\nInternet access\n15\nSyncing to a Mac or PC requires:\nmacOS Catalina 10.15 or later using the Finder\nmacOS High Sierra 10.13 to macOS Mojave 10.14.6 using iTunes 12.9 or later\nWindows 10 or later using iTunes 12.12.10 or later (free download from\napple.com/uk/itunes/download\n)"
+      "source_text": "Apple Account (required for some features)\nInternet access\n15\nSyncing to a Mac or PC requires:\nmacOS Catalina 10.15 or later using the Finder\nmacOS High Sierra 10.13 to macOS Mojave 10.14.6 using iTunes 12.9 or later\nWindows 10 or later using iTunes 12.12.10 or later (free download from\napple.com/uk/itunes/download\n)",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Languages",
-      "source_text": "Language support\nArabic, Bangla, Bulgarian, Catalan, Chinese (Simplified), Chinese (Traditional – Hong Kong), Chinese (Traditional – Taiwan), Croatian, Czech, Danish, Dutch, English (Australia), English (India), English (UK), English (US), Finnish, French (Canada), French (France), German, Greek, Gujarati, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kannada, Kazakh, Korean, Lithuanian, Malayalam, Malay, Marathi, Norwegian, Odia, Polish, Portuguese (Brazil), Portuguese (Portugal), Punjabi, Romanian, Russian, Slovak, Slovenian, Spanish (Latin America), Spanish (Spain), Spanish (US), Swedish, Tamil, Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese\nLearn more about feature availability"
+      "source_text": "Language support\nArabic, Bangla, Bulgarian, Catalan, Chinese (Simplified), Chinese (Traditional – Hong Kong), Chinese (Traditional – Taiwan), Croatian, Czech, Danish, Dutch, English (Australia), English (India), English (UK), English (US), Finnish, French (Canada), French (France), German, Greek, Gujarati, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kannada, Kazakh, Korean, Lithuanian, Malayalam, Malay, Marathi, Norwegian, Odia, Polish, Portuguese (Brazil), Portuguese (Portugal), Punjabi, Romanian, Russian, Slovak, Slovenian, Spanish (Latin America), Spanish (Spain), Spanish (US), Swedish, Tamil, Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese\nLearn more about feature availability",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Video Playback",
-      "source_text": "Supported formats include HEVC, H.264, AV1 and ProRes\nHDR with Dolby Vision, HDR10+/HDR10 and HLG"
+      "source_text": "Supported formats include HEVC, H.264, AV1 and ProRes\nHDR with Dolby Vision, HDR10+/HDR10 and HLG",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Audio Playback",
-      "source_text": "Supported formats include AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus and Dolby Atmos\nSpatial Audio playback\nUser-conﬁgurable maximum volume limit"
+      "source_text": "Supported formats include AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus and Dolby Atmos\nSpatial Audio playback\nUser-conﬁgurable maximum volume limit",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "Environ­mental Require­ments",
-      "source_text": "Ambient operating temperature:\n0° to 35° C (32° to 95° F)\nNon-operating temperature:\n−20° to 45° C (−4° to 113° F)\nRelative humidity:\n5% to 95% non-condensing\nOperating altitude:\ntested up to 3,000 metres (10,000 feet)"
+      "source_text": "Ambient operating temperature:\n0° to 35° C (32° to 95° F)\nNon-operating temperature:\n−20° to 45° C (−4° to 113° F)\nRelative humidity:\n5% to 95% non-condensing\nOperating altitude:\ntested up to 3,000 metres (10,000 feet)",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     },
     {
       "heading": "iPad Pro and the Environment",
-      "source_text": "iPad Pro is designed to reduce environmental impact:\n16\nSee the iPad Pro Product Environmental Report (PDF)\nProgress towards Apple 2030\nApple 2030 is our commitment to be carbon neutral for our entire carbon footprint. Our plan to decarbonise products is rigorous and focuses on transitioning to low‑carbon electricity, designing with recycled and low‑carbon materials and prioritising lower‑carbon ways of shipping products, like sea freight.\nSee Apple’s commitment\nMaterials\niPad Pro is made with 30% recycled content,\n17\nincluding:\n100% recycled aluminium in the enclosure\n100% recycled cobalt and 95% recycled lithium in the battery\n100% recycled gold plating and tin solder in all Apple-designed printed circuit boards\n100% recycled gold wire in all cameras and gold plating in all connectors\n100% recycled rare earth elements in all magnets\n80% recycled steel in the LiDAR housing\nEnergy\n55% of manufacturing electricity for iPad Pro is sourced from renewable electricity\n18\nENERGY STAR® certified\n19\nPackaging\n100% fibre-based packaging\n20\nWaste\nNo established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme\n21\nSmarter chemistry\n22\nAll of the materials used in Apple products, accessories and packaging are covered by the requirements of our\nRegulated Substances Specification\n, which was one of the first in industry to restrict the use of key substances of concern. See the latest\nEn­viron­men­tal Progress Report\nto understand Apple’s recent efforts in phasing out these chemistries."
-    },
-    {
-      "heading": "Apple Footer",
-      "source_text": "\nApple\nSupport\niPad Pro 13‑inch (M5) - Tech Specs\nIreland\nCopyright © 2026 Apple Inc. All rights reserved.\nPrivacy Policy\nTerms of Use\nSales and Refunds\nSite Map\nUse of Cookies"
+      "source_text": "iPad Pro is designed to reduce environmental impact:\n16\nSee the iPad Pro Product Environmental Report (PDF)\nProgress towards Apple 2030\nApple 2030 is our commitment to be carbon neutral for our entire carbon footprint. Our plan to decarbonise products is rigorous and focuses on transitioning to low‑carbon electricity, designing with recycled and low‑carbon materials and prioritising lower‑carbon ways of shipping products, like sea freight.\nSee Apple’s commitment\nMaterials\niPad Pro is made with 30% recycled content,\n17\nincluding:\n100% recycled aluminium in the enclosure\n100% recycled cobalt and 95% recycled lithium in the battery\n100% recycled gold plating and tin solder in all Apple-designed printed circuit boards\n100% recycled gold wire in all cameras and gold plating in all connectors\n100% recycled rare earth elements in all magnets\n80% recycled steel in the LiDAR housing\nEnergy\n55% of manufacturing electricity for iPad Pro is sourced from renewable electricity\n18\nENERGY STAR® certified\n19\nPackaging\n100% fibre-based packaging\n20\nWaste\nNo established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Programme\n21\nSmarter chemistry\n22\nAll of the materials used in Apple products, accessories and packaging are covered by the requirements of our\nRegulated Substances Specification\n, which was one of the first in industry to restrict the use of key substances of concern. See the latest\nEn­viron­men­tal Progress Report\nto understand Apple’s recent efforts in phasing out these chemistries.",
+      "source_url": "https://support.apple.com/en-ie/125407",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-13-inch-m5-tech-specs.html"
     }
   ]
 }

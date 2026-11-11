@@ -12,15 +12,17 @@
   "source": {
     "source_type": "manufacturer",
     "source_url": "https://support.apple.com/en-ie/111965",
-    "source_file": null,
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html",
     "source_title": "iPad Pro (9.7-inch) - Technical Specifications - Apple Support (IE)",
     "publisher": "Apple Support (Ireland)",
     "published_at": null,
-    "checked_at": "2026-11-07",
-    "verification_status": "url_checked",
-    "verification_notes": "Official Apple Support URL checked. Original section text is retained in this record, but the previously referenced local HTML archive was not present in the repository. Normalized specifications have not been independently extracted.",
+    "checked_at": "2026-11-11",
+    "verification_status": "partially_verified",
+    "verification_notes": "Original Apple Support HTML was archived on 2026-11-11 and the canonical URL and page title were checked against the archive. Retained section headings align with the archived page; normalized specification values have not yet been independently rechecked against every section.",
     "notes": [
-      "No archived HTML file was found under the previous source_file path during the 2026-11-11 repository audit; the record retains extracted section text, but no local copy of the original HTML is claimed."
+      "Original HTML is retained at the source_file path; the companion .metadata.json file records capture time and SHA-256.",
+      "The retained extracted sections now carry their own source_url and source_file. The generic Apple Footer section has been excluded from the product evidence.",
+      "Normalized fields still require independent field-by-field verification against the archived source before being treated as fully verified."
     ]
   },
   "extraction": {
@@ -33,131 +35,189 @@
   "sections": [
     {
       "heading": "Finish",
-      "source_text": "Silver\nGold\nSpace Gray\nRose Gold"
+      "source_text": "Silver\nGold\nSpace Gray\nRose Gold",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "Capacity 1",
-      "source_text": "Wi‑Fi models\n32GB\n128GB\n256GB\nWi‑Fi + Cellular models\n32GB\n128GB\n256GB"
+      "source_text": "Wi‑Fi models\n32GB\n128GB\n256GB\nWi‑Fi + Cellular models\n32GB\n128GB\n256GB",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "Size and Weight 2",
-      "source_text": "Wi‑Fi models\nHeight: 9.4 inches (240 mm)\nWidth: 6.6 inches (169.5 mm)\nDepth: 0.24 inch (6.1 mm)\nWeight: 0.96 pound (437 grams)\nWi-Fi + Cellular models\nHeight: 9.4 inches (240 mm)\nWidth: 6.6 inches (169.5 mm)\nDepth: 0.24 inch (6.1 mm)\nWeight: 0.98 pound (444 grams)"
+      "source_text": "Wi‑Fi models\nHeight: 9.4 inches (240 mm)\nWidth: 6.6 inches (169.5 mm)\nDepth: 0.24 inch (6.1 mm)\nWeight: 0.96 pound (437 grams)\nWi-Fi + Cellular models\nHeight: 9.4 inches (240 mm)\nWidth: 6.6 inches (169.5 mm)\nDepth: 0.24 inch (6.1 mm)\nWeight: 0.98 pound (444 grams)",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "Buttons and Connectors",
-      "source_text": "Built‑in stereo speakers\nLightning connector\nHome/Touch ID sensor\nSmart Connector\n3.5 mm headphone jack\nBuilt-in stereo speakers\nOn/Off - Sleep/Wake\nDual microphones\nVolume up/down\nNano-SIM tray"
+      "source_text": "Built‑in stereo speakers\nLightning connector\nHome/Touch ID sensor\nSmart Connector\n3.5 mm headphone jack\nBuilt-in stereo speakers\nOn/Off - Sleep/Wake\nDual microphones\nVolume up/down\nNano-SIM tray",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "In the Box",
-      "source_text": "iPad Pro\nLightning to USB Cable\nUSB Power Adapter"
+      "source_text": "iPad Pro\nLightning to USB Cable\nUSB Power Adapter",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "Display",
-      "source_text": "Retina display\n9.7-inch (diagonal) LED-backlit Multi-Touch display\n2048-by-1536 resolution at 264 pixels per inch (ppi)\nWide color display (P3)\nTrue Tone display\nFingerprint-resistant oleophobic coating\nFully laminated display\nAntireflective coating\nSupports\nApple Pencil\n(1st generation)"
+      "source_text": "Retina display\n9.7-inch (diagonal) LED-backlit Multi-Touch display\n2048-by-1536 resolution at 264 pixels per inch (ppi)\nWide color display (P3)\nTrue Tone display\nFingerprint-resistant oleophobic coating\nFully laminated display\nAntireflective coating\nSupports\nApple Pencil\n(1st generation)",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "Chip",
-      "source_text": "A9X chip with 64‑bit architecture\nEmbedded M9 coprocessor"
+      "source_text": "A9X chip with 64‑bit architecture\nEmbedded M9 coprocessor",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "Camera",
-      "source_text": "12-megapixel camera\nLive Photos\nAutofocus with Focus Pixels\nTrue Tone flash\nWide color photo capture\nPanorama (up to 63 megapixels)\nAuto HDR for photos\nExposure control\nBurst mode\nTimer mode\nƒ/2.2 aperture\nFive-element lens\nHybrid IR filter\nBackside illumination\nSapphire crystal lens cover\nAuto image stabilization\nImproved local tone mapping\nImproved noise reduction\nFace detection\nPhoto geotagging"
+      "source_text": "12-megapixel camera\nLive Photos\nAutofocus with Focus Pixels\nTrue Tone flash\nWide color photo capture\nPanorama (up to 63 megapixels)\nAuto HDR for photos\nExposure control\nBurst mode\nTimer mode\nƒ/2.2 aperture\nFive-element lens\nHybrid IR filter\nBackside illumination\nSapphire crystal lens cover\nAuto image stabilization\nImproved local tone mapping\nImproved noise reduction\nFace detection\nPhoto geotagging",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "Video Recording",
-      "source_text": "4K video recording (3840 by 2160) at 30 fps\n1080p HD video recording at 30 fps or 60 fps\n720p HD video recording at 30 fps\nSlo-mo video support for 1080p at 120 fps and 720p at 240 fps\nTime-lapse video with stabilization\nCinematic video stabilization\n3x video zoom\nFace detection\nVideo geotagging"
+      "source_text": "4K video recording (3840 by 2160) at 30 fps\n1080p HD video recording at 30 fps or 60 fps\n720p HD video recording at 30 fps\nSlo-mo video support for 1080p at 120 fps and 720p at 240 fps\nTime-lapse video with stabilization\nCinematic video stabilization\n3x video zoom\nFace detection\nVideo geotagging",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "FaceTime HD Camera",
-      "source_text": "5-megapixel photos\nLive Photos\n720p HD video recording\nRetina Flash\nƒ/2.2 aperture\nAuto HDR for photos and videos\nBackside illumination\nExposure control\nBurst mode\nTimer mode\nFace detection"
+      "source_text": "5-megapixel photos\nLive Photos\n720p HD video recording\nRetina Flash\nƒ/2.2 aperture\nAuto HDR for photos and videos\nBackside illumination\nExposure control\nBurst mode\nTimer mode\nFace detection",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "FaceTime Calling 3",
-      "source_text": "FaceTime audio to any FaceTime-enabled device over Wi‑Fi or cellular\nFaceTime video to any FaceTime-enabled device over Wi-Fi or cellular"
+      "source_text": "FaceTime audio to any FaceTime-enabled device over Wi‑Fi or cellular\nFaceTime video to any FaceTime-enabled device over Wi-Fi or cellular",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "Speakers",
-      "source_text": "Four speaker audio"
+      "source_text": "Four speaker audio",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "Microphones",
-      "source_text": "Dual microphones for calls, video recording, and audio recording"
+      "source_text": "Dual microphones for calls, video recording, and audio recording",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "Cellular and Wireless",
-      "source_text": "All models\nWi-Fi (802.11a/b/g/n/ac); dual band (2.4GHz and 5GHz); HT80 with MIMO\nBluetooth 4.2 technology\n9.7‐inch iPad Pro Wi‐Fi + Cellular models\nUMTS/HSPA/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz)\nCDMA EV-DO Rev. A and Rev. B (800, 1900 MHz)\nLTE Advanced (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30, 38, 39, 40, 41)\n4\nData only\n5\nWi-Fi calling\n4\nEmbedded Apple SIM\n6\nLearn more about Apple SIM"
+      "source_text": "All models\nWi-Fi (802.11a/b/g/n/ac); dual band (2.4GHz and 5GHz); HT80 with MIMO\nBluetooth 4.2 technology\n9.7‐inch iPad Pro Wi‐Fi + Cellular models\nUMTS/HSPA/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz)\nCDMA EV-DO Rev. A and Rev. B (800, 1900 MHz)\nLTE Advanced (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30, 38, 39, 40, 41)\n4\nData only\n5\nWi-Fi calling\n4\nEmbedded Apple SIM\n6\nLearn more about Apple SIM",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "SIM Card",
-      "source_text": "Nano‑SIM (supports Apple SIM)"
+      "source_text": "Nano‑SIM (supports Apple SIM)",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "Location",
-      "source_text": "All models\nDigital compass\nWi‑Fi\niBeacon microlocation\nWi-Fi + Cellular models\nAssisted GPS and GLONASS\nCellular"
+      "source_text": "All models\nDigital compass\nWi‑Fi\niBeacon microlocation\nWi-Fi + Cellular models\nAssisted GPS and GLONASS\nCellular",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "Sensors",
-      "source_text": "Touch ID\nThree‐axis gyro\nAccelerometer\nBarometer\nAmbient light sensor"
+      "source_text": "Touch ID\nThree‐axis gyro\nAccelerometer\nBarometer\nAmbient light sensor",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "Touch ID",
-      "source_text": "Unlock iPad\nSecure personal data within apps\nMake purchases from the iTunes Store, App Store, and iBooks Store"
+      "source_text": "Unlock iPad\nSecure personal data within apps\nMake purchases from the iTunes Store, App Store, and iBooks Store",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "Apple Pay",
-      "source_text": "Pay with your iPad using Touch ID within apps and on the web\nLearn more about Apple Pay"
+      "source_text": "Pay with your iPad using Touch ID within apps and on the web\nLearn more about Apple Pay",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "Siri 7",
-      "source_text": "Use your voice to send messages, set reminders, and more\nGet proactive suggestions\nUse your iPad hands-free\nListen and identify songs\nLearn more about Siri"
+      "source_text": "Use your voice to send messages, set reminders, and more\nGet proactive suggestions\nUse your iPad hands-free\nListen and identify songs\nLearn more about Siri",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "Power and Battery 8",
-      "source_text": "9.7-inch iPad Pro\nBuilt‐in 27.5‐watt‐hour rechargeable lithium‐polymer battery\nAll models\nUp to 10 hours of surfing the web on Wi‐Fi, watching video, or listening to music\nCharging via power adapter or USB to computer system\nWi‐Fi + Cellular models\nUp to 9 hours of surfing the web using cellular data network"
+      "source_text": "9.7-inch iPad Pro\nBuilt‐in 27.5‐watt‐hour rechargeable lithium‐polymer battery\nAll models\nUp to 10 hours of surfing the web on Wi‐Fi, watching video, or listening to music\nCharging via power adapter or USB to computer system\nWi‐Fi + Cellular models\nUp to 9 hours of surfing the web using cellular data network",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "Operating System",
-      "source_text": "iOS 10\nWith an all-new design and all-new features, iOS 10 is the world’s most advanced mobile OS. It brings your iPad to life in more intelligent and expressive ways than ever.\nSee what’s new in iOS\niOS 10 includes:\nAirDrop\nAirPlay\nAirPrint\nControl Center\nNotification Center\nSiri\nSpotlight Search\nApple Music\nFamily Sharing\niCloud Drive\nMultitasking\nQuickType Keyboard\nNight Shift"
+      "source_text": "iOS 10\nWith an all-new design and all-new features, iOS 10 is the world’s most advanced mobile OS. It brings your iPad to life in more intelligent and expressive ways than ever.\nSee what’s new in iOS\niOS 10 includes:\nAirDrop\nAirPlay\nAirPrint\nControl Center\nNotification Center\nSiri\nSpotlight Search\nApple Music\nFamily Sharing\niCloud Drive\nMultitasking\nQuickType Keyboard\nNight Shift",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "Accessibility",
-      "source_text": "Accessibility features help people with disabilities get the most out of their new iPad Pro. With built-in support for vision, hearing, physical and motor skills, and learning and literacy, you can create and do amazing things.\nLearn more about Accessibility\nFeatures include:\nVoiceOver\nZoom\nMagnifier\nSiri and Dictation\nSwitch Control\nClosed Captions\nAssistiveTouch\nSpeak Screen"
+      "source_text": "Accessibility features help people with disabilities get the most out of their new iPad Pro. With built-in support for vision, hearing, physical and motor skills, and learning and literacy, you can create and do amazing things.\nLearn more about Accessibility\nFeatures include:\nVoiceOver\nZoom\nMagnifier\nSiri and Dictation\nSwitch Control\nClosed Captions\nAssistiveTouch\nSpeak Screen",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "Built-in Apps",
-      "source_text": "Built-in apps are an essential part of your iPad experience and are efficiently designed to use less than 200MB of storage.\nCamera\nPhotos\nMessages\nFaceTime\nMail\nMusic\nSafari\nMaps\nSiri\nCalendar\niTunes Store\nApp Store\nNotes\nContacts\niBooks\nHome\nReminders\nClock\nTV\nPhoto Booth\nPodcasts\nNews\nFind My iPhone\nFind My Friends\niCloud Drive"
+      "source_text": "Built-in apps are an essential part of your iPad experience and are efficiently designed to use less than 200MB of storage.\nCamera\nPhotos\nMessages\nFaceTime\nMail\nMusic\nSafari\nMaps\nSiri\nCalendar\niTunes Store\nApp Store\nNotes\nContacts\niBooks\nHome\nReminders\nClock\nTV\nPhoto Booth\nPodcasts\nNews\nFind My iPhone\nFind My Friends\niCloud Drive",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "Free Apps from Apple 9",
-      "source_text": "Pages, Numbers, Keynote, iMovie, GarageBand, and iTunes U are preinstalled on iPad.\nPages\nNumbers\nKeynote\niMovie\nGarageBand\niTunes U\nApple Store\nTrailers\niTunes Remote\nMusic Memos\nClips"
+      "source_text": "Pages, Numbers, Keynote, iMovie, GarageBand, and iTunes U are preinstalled on iPad.\nPages\nNumbers\nKeynote\niMovie\nGarageBand\niTunes U\nApple Store\nTrailers\niTunes Remote\nMusic Memos\nClips",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "System Requirements",
-      "source_text": "Apple ID (required for some features)\nInternet access\n10\nSyncing with iTunes on a Mac or PC requires:\nMac: OS X 10.9.5 or later\nPC: Windows 7 or later\niTunes 12.5 or later (free download from\nwww.itunes.com/uk/download\n)"
+      "source_text": "Apple ID (required for some features)\nInternet access\n10\nSyncing with iTunes on a Mac or PC requires:\nMac: OS X 10.9.5 or later\nPC: Windows 7 or later\niTunes 12.5 or later (free download from\nwww.itunes.com/uk/download\n)",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "Languages",
-      "source_text": "Language support\nEnglish (Australia, Canada, UK, U.S.), Chinese (Simplified, Traditional, Traditional Hong Kong), French (Canada, France), German, Italian, Japanese, Korean, Spanish (Latin America, Mexico, Spain), Arabic, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hindi, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nQuickType keyboard support\nEnglish (Australia, Canada, India, Singapore, UK, U.S.), Chinese - Simplified (Handwriting, Pinyin, Stroke), Chinese - Traditional (Cangjie, Handwriting, Pinyin, Stroke, Sucheng, Zhuyin), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese (Kana, Romaji), Korean, Spanish (Latin America, Mexico, Spain), Arabic, Bengali, Bulgarian, Catalan, Cherokee, Croatian, Czech, Danish, Dutch, Emoji, Estonian, Filipino, Finnish, Flemish, Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari, Transliteration), Hinglish, Hungarian, Icelandic, Indonesian, Latvian, Lithuanian, Macedonian, Malay, Marathi, Norwegian, Polish, Portuguese (Brazil, Portugal), Punjabi, Romanian, Russian, Serbian (Cyrillic, Latin), Slovak, Slovenian, Swedish, Tamil (Script, Transliteration), Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese\nQuickType keyboard support with predictive input\n11\nEnglish (Australia, Canada, India, Singapore, UK, U.S.), Chinese (Simplified, Traditional), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese, Korean, Russian, Spanish (Latin America, Mexico, Spain), Portuguese (Brazil, Portugal), Thai, Turkish\nSiri languages\nEnglish (Australia, Canada, India, Ireland, New Zealand, Singapore, South Africa, UK, U.S.), Spanish (Chile, Mexico, Spain, U.S.), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (China mainland, Hong Kong), Arabic (Saudi Arabia, United Arab Emirates), Danish (Denmark), Dutch (Belgium, Netherlands), Finnish (Finland), Hebrew (Israel), Malay (Malaysia), Norwegian (Norway), Russian (Russia), Swedish (Sweden), Turkish (Türkiye), Thai (Thailand), Portuguese (Brazil)\nDictation languages\nEnglish (Australia, Canada, India, Ireland, Malaysia, New Zealand, Philippines, Saudi Arabia, Singapore, South Africa, UAE, UK, U.S.), Spanish (Chile, Colombia, Mexico, Spain, U.S.), French (Belgium, Canada, France, Luxembourg, Switzerland), German (Austria, Germany, Luxembourg, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (Hong Kong), Arabic (Kuwait, Saudi Arabia, Qatar, UAE), Catalan, Croatian, Czech, Danish, Dutch (Belgium, Netherlands), Finnish, Greek, Hebrew, Hungarian, Indonesian, Malaysian, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovakian, Swedish, Turkish, Thai, Ukrainian, Vietnamese\nDeﬁnition dictionary support\nEnglish, Chinese (Simplified, Traditional), Danish, Dutch, French, German, Hindi, Italian, Japanese, Korean, Norwegian, Portuguese (Brazil), Russian, Spanish, Swedish, Thai, Turkish\nBilingual dictionary support\nChinese (Simplified), Dutch, French, German, Italian, Japanese, Korean, Spanish\nSpell check\nEnglish (Australia, Canada, UK, U.S.), French, German, Italian, Spanish, Danish, Dutch, Finnish, Korean, Norwegian, Polish, Portuguese (Brazil, Portugal), Russian, Swedish, Turkish"
+      "source_text": "Language support\nEnglish (Australia, Canada, UK, U.S.), Chinese (Simplified, Traditional, Traditional Hong Kong), French (Canada, France), German, Italian, Japanese, Korean, Spanish (Latin America, Mexico, Spain), Arabic, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hindi, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nQuickType keyboard support\nEnglish (Australia, Canada, India, Singapore, UK, U.S.), Chinese - Simplified (Handwriting, Pinyin, Stroke), Chinese - Traditional (Cangjie, Handwriting, Pinyin, Stroke, Sucheng, Zhuyin), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese (Kana, Romaji), Korean, Spanish (Latin America, Mexico, Spain), Arabic, Bengali, Bulgarian, Catalan, Cherokee, Croatian, Czech, Danish, Dutch, Emoji, Estonian, Filipino, Finnish, Flemish, Greek, Gujarati, Hawaiian, Hebrew, Hindi (Devanagari, Transliteration), Hinglish, Hungarian, Icelandic, Indonesian, Latvian, Lithuanian, Macedonian, Malay, Marathi, Norwegian, Polish, Portuguese (Brazil, Portugal), Punjabi, Romanian, Russian, Serbian (Cyrillic, Latin), Slovak, Slovenian, Swedish, Tamil (Script, Transliteration), Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese\nQuickType keyboard support with predictive input\n11\nEnglish (Australia, Canada, India, Singapore, UK, U.S.), Chinese (Simplified, Traditional), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian, Japanese, Korean, Russian, Spanish (Latin America, Mexico, Spain), Portuguese (Brazil, Portugal), Thai, Turkish\nSiri languages\nEnglish (Australia, Canada, India, Ireland, New Zealand, Singapore, South Africa, UK, U.S.), Spanish (Chile, Mexico, Spain, U.S.), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (China mainland, Hong Kong), Arabic (Saudi Arabia, United Arab Emirates), Danish (Denmark), Dutch (Belgium, Netherlands), Finnish (Finland), Hebrew (Israel), Malay (Malaysia), Norwegian (Norway), Russian (Russia), Swedish (Sweden), Turkish (Türkiye), Thai (Thailand), Portuguese (Brazil)\nDictation languages\nEnglish (Australia, Canada, India, Ireland, Malaysia, New Zealand, Philippines, Saudi Arabia, Singapore, South Africa, UAE, UK, U.S.), Spanish (Chile, Colombia, Mexico, Spain, U.S.), French (Belgium, Canada, France, Luxembourg, Switzerland), German (Austria, Germany, Luxembourg, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (Hong Kong), Arabic (Kuwait, Saudi Arabia, Qatar, UAE), Catalan, Croatian, Czech, Danish, Dutch (Belgium, Netherlands), Finnish, Greek, Hebrew, Hungarian, Indonesian, Malaysian, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovakian, Swedish, Turkish, Thai, Ukrainian, Vietnamese\nDeﬁnition dictionary support\nEnglish, Chinese (Simplified, Traditional), Danish, Dutch, French, German, Hindi, Italian, Japanese, Korean, Norwegian, Portuguese (Brazil), Russian, Spanish, Swedish, Thai, Turkish\nBilingual dictionary support\nChinese (Simplified), Dutch, French, German, Italian, Japanese, Korean, Spanish\nSpell check\nEnglish (Australia, Canada, UK, U.S.), French, German, Italian, Spanish, Danish, Dutch, Finnish, Korean, Norwegian, Polish, Portuguese (Brazil, Portugal), Russian, Swedish, Turkish",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "Audio Playback",
-      "source_text": "Frequency response: 20Hz to 20,000Hz\nAudio formats supported: AAC (8 to 320 Kbps), Protected AAC (from iTunes Store), HE-AAC, MP3 (8 to 320 Kbps), MP3 VBR, Dolby Digital (AC-3), Dolby Digital Plus (E-AC-3), Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+), Apple Lossless, AIFF, and WAV\nUser-conﬁgurable maximum volume limit"
+      "source_text": "Frequency response: 20Hz to 20,000Hz\nAudio formats supported: AAC (8 to 320 Kbps), Protected AAC (from iTunes Store), HE-AAC, MP3 (8 to 320 Kbps), MP3 VBR, Dolby Digital (AC-3), Dolby Digital Plus (E-AC-3), Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+), Apple Lossless, AIFF, and WAV\nUser-conﬁgurable maximum volume limit",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "TV and Video",
-      "source_text": "AirPlay Mirroring, photos, audio, and video out to Apple TV (2nd generation or later)\nVideo mirroring and video out support: Up to 1080p through Lightning Digital AV Adapter and Lightning to VGA Adapter (adapters sold separately)\nVideo formats supported: H.264 video up to 4K, 30 frames per second, High Profile level 4.2 with AAC‑LC audio up to 160 Kbps, 48kHz, stereo audio or Dolby Audio up to 1008 Kbps, 48kHz, stereo or multichannel audio, in .m4v, .mp4, and .mov file formats; MPEG‑4 video up to 2.5 Mbps, 640 by 480 pixels, 30 frames per second, Simple Profile with AAC‑LC audio up to 160 Kbps per channel, 48kHz, stereo audio or Dolby Audio up to 1008 Kbps, 48kHz, stereo or multichannel audio, in .m4v, .mp4, and .mov file formats; Motion JPEG (M‑JPEG) up to 35 Mbps, 1280 by 720 pixels, 30 frames per second, audio in ulaw, PCM stereo audio in .avi file format"
+      "source_text": "AirPlay Mirroring, photos, audio, and video out to Apple TV (2nd generation or later)\nVideo mirroring and video out support: Up to 1080p through Lightning Digital AV Adapter and Lightning to VGA Adapter (adapters sold separately)\nVideo formats supported: H.264 video up to 4K, 30 frames per second, High Profile level 4.2 with AAC‑LC audio up to 160 Kbps, 48kHz, stereo audio or Dolby Audio up to 1008 Kbps, 48kHz, stereo or multichannel audio, in .m4v, .mp4, and .mov file formats; MPEG‑4 video up to 2.5 Mbps, 640 by 480 pixels, 30 frames per second, Simple Profile with AAC‑LC audio up to 160 Kbps per channel, 48kHz, stereo audio or Dolby Audio up to 1008 Kbps, 48kHz, stereo or multichannel audio, in .m4v, .mp4, and .mov file formats; Motion JPEG (M‑JPEG) up to 35 Mbps, 1280 by 720 pixels, 30 frames per second, audio in ulaw, PCM stereo audio in .avi file format",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "Mail Attachment Support",
-      "source_text": "Viewable document types\n.jpg, .tiff, .gif (images); .doc and .docx (Microsoft Word); .htm and .html (web pages); .key (Keynote); .numbers (Numbers); .pages (Pages); .pdf (Preview and Adobe Acrobat); .ppt and .pptx (Microsoft PowerPoint); .txt (text); .rtf (rich text format); .vcf (contact information); .xls and .xlsx (Microsoft Excel); .zip; .ics"
+      "source_text": "Viewable document types\n.jpg, .tiff, .gif (images); .doc and .docx (Microsoft Word); .htm and .html (web pages); .key (Keynote); .numbers (Numbers); .pages (Pages); .pdf (Preview and Adobe Acrobat); .ppt and .pptx (Microsoft PowerPoint); .txt (text); .rtf (rich text format); .vcf (contact information); .xls and .xlsx (Microsoft Excel); .zip; .ics",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     },
     {
       "heading": "Environmental Requirements",
-      "source_text": "Operating ambient temperature: 32° to 95° F (0° to 35° C)\nNonoperating temperature: -4° to 113° F (-20° to 45° C)\nRelative humidity: 5% to 95% noncondensing\nOperating altitude: tested up to 10,000 feet (3000 m)"
-    },
-    {
-      "heading": "Apple Footer",
-      "source_text": "\nApple\nSupport\niPad Pro (9.7-inch) - Technical Specifications\nIreland\nCopyright © 2026 Apple Inc. All rights reserved.\nPrivacy Policy\nTerms of Use\nSales and Refunds\nSite Map\nUse of Cookies"
+      "source_text": "Operating ambient temperature: 32° to 95° F (0° to 35° C)\nNonoperating temperature: -4° to 113° F (-20° to 45° C)\nRelative humidity: 5% to 95% noncondensing\nOperating altitude: tested up to 10,000 feet (3000 m)",
+      "source_url": "https://support.apple.com/en-ie/111965",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
     }
   ]
 }
