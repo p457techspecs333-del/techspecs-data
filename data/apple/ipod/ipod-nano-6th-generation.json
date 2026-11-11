@@ -19,17 +19,17 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-ie/103823",
-    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-    "source_title": "Identify your iPod model - Apple Support (IE)",
-    "publisher": "Apple",
+    "source_url": "https://support.apple.com/en-ie/112432",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-6th-generation-tech-specs.html",
+    "source_title": "iPod nano (6th generation) - Technical Specifications - Apple Support (IE)",
+    "publisher": "Apple Support (Ireland)",
     "published_at": null,
-    "checked_at": "2026-11-09",
-    "verification_status": "partially_verified",
-    "verification_notes": "This record's retained evidence is extracted from Apple's general 'Identify your iPod model' page, not an individual technical-specifications page. The archived HTML file is the shared source page. Only identification facts explicitly present in that page are supported; detailed technical specifications require separate model-specific sources.",
+    "checked_at": "2026-11-11",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page captured as original HTML on 2026-11-11; 13 source sections extracted. The first record section preserves model-identification evidence from Apple's separate identification page.",
     "notes": [
-      "Primary evidence is Apple's official iPod identification page; it supports only the model-identification statements retained in the source section.",
-      "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually."
+      "Technical specifications in the following sections are transcribed from the model-specific Apple technical-specification page; each section carries its own source URL and archive path.",
+      "The first section preserves model number/introduction-date evidence from Apple's separate identification page: https://support.apple.com/en-ie/103823, archived at apple_remaining_extraction/technical_specs_html/ipod-index.html."
     ]
   },
   "extraction": {
@@ -42,7 +42,87 @@
   "sections": [
     {
       "heading": "iPod nano (6th generation)",
-      "source_text": "Navigation: Multi-Touch display\nCapacity: 8 and 16 GB\nModel number and date introduced: A1366: September 2010\niPod nano (6th generation) is available in six colours.\niPod nano (PRODUCT) RED Special Edition is available only from the Apple Store, with an 8 GB or 16 GB capacity. Apple contributes a portion of each iPod nano (PRODUCT) RED Special Edition purchase to the Global Fund to fight HIV/AIDS in Africa."
+      "source_text": "Navigation: Multi-Touch display\nCapacity: 8 and 16 GB\nModel number and date introduced: A1366: September 2010\niPod nano (6th generation) is available in six colours.\niPod nano (PRODUCT) RED Special Edition is available only from the Apple Store, with an 8 GB or 16 GB capacity. Apple contributes a portion of each iPod nano (PRODUCT) RED Special Edition purchase to the Global Fund to fight HIV/AIDS in Africa.",
+      "source_url": "https://support.apple.com/en-ie/103823",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height: 1.48 inches (37.5 mm)    Width: 1.61 inches (40.9 mm)    Depth: 0.35 inch (8.78 mm) including clip    Weight: 0.74 ounce (21.1 grams) 1     Volume: 0.614 cu. inch (10,056 cu. mm)",
+      "source_url": "https://support.apple.com/en-ie/112432",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Capacity   2",
+      "source_text": "8GB    16GB",
+      "source_url": "https://support.apple.com/en-ie/112432",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Display",
+      "source_text": "1.54-inch (diagonal) color TFT display    240-by-240-pixel resolution    220 pixels per inch",
+      "source_url": "https://support.apple.com/en-ie/112432",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "Frequency response: 20Hz to 20,000Hz    Audio formats supported: AAC (8 to 320 Kbps), Protected AAC (from iTunes Store), HE-AAC, MP3 (8 to 320 Kbps), MP3 VBR, Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+), Apple Lossless, AIFF, and WAV    User-configurable maximum volume limit",
+      "source_url": "https://support.apple.com/en-ie/112432",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "FM Radio",
+      "source_text": "Regional settings for Americas, Asia, Australia, Europe, and Japan    Live Pause feature for pausing a radio broadcast and rewinding (within a 15-minute buffer)",
+      "source_url": "https://support.apple.com/en-ie/112432",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Sensor",
+      "source_text": "Accelerometer",
+      "source_url": "https://support.apple.com/en-ie/112432",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Battery and Power   3",
+      "source_text": "Built-in rechargeable lithium-ion battery    Up to 24 hours of music playback when fully charged    Charging via USB to computer system or power adapter (sold separately)    Fast-charge time: about 1.5 hours (charges up to 80% of battery capacity)    Full-charge time: about 3 hours",
+      "source_url": "https://support.apple.com/en-ie/112432",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "29 UI languages: Arabic, Brazilian Portuguese, Cantonese (Traditional Chinese), Croatian, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hebrew, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romanian, Russian, Simplified Chinese, Slovak, Spanish, Swedish, Thai, Traditional Chinese, Turkish    Song, album, and artist information can also be displayed in Bulgarian, Serbian, Slovenian, Ukrainian, and Vietnamese. For Arabic and Hebrew language support, some UI elements are not right to left.    Fitness spoken feedback is available in seven languages: Chinese (Mandarin), English (U.S.), French (France), German, Italian, Japanese, Spanish (Spain).    29 VoiceOver languages: Chinese (Cantonese, Mandarin), Czech, Danish, Dutch, English (Australia, UK, and U.S.), Finnish, French (Canada, France), German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovak, Spanish (Mexico, Spain), Swedish, Thai, Turkish",
+      "source_url": "https://support.apple.com/en-ie/112432",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "iPod nano    Apple Earphones    Dock Connector to USB Cable    Quick Start guide and Important Product Information",
+      "source_url": "https://support.apple.com/en-ie/112432",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Headphones",
+      "source_text": "Earphones    Frequency response: 20Hz to 20,000Hz    Impedance: 32 ohms",
+      "source_url": "https://support.apple.com/en-ie/112432",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Accessibility",
+      "source_text": "VoiceOver gesture-based screen reader    High-resolution LCD display with adjustable backlight settings for easier reading in low light    White on black display    Mono Audio",
+      "source_url": "https://support.apple.com/en-ie/112432",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "Mac computer with USB 2.0 port, OS X v10.5.8 or later, and iTunes 10 or later 4     PC with USB 2.0 port; Windows 7, Vista, or XP Home or Professional (SP3) or later; and iTunes 10 or later    Internet access required; broadband recommended; fees may apply",
+      "source_url": "https://support.apple.com/en-ie/112432",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-6th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Environmental Requirements",
+      "source_text": "Operating temperature: 32° to 95° F (0° to 35° C)    Nonoperating temperature: -4° to 113° F (-20° to 45° C)    Relative humidity: 5% to 95% noncondensing    Maximum operating altitude: 10,000 feet (3000 m)",
+      "source_url": "https://support.apple.com/en-ie/112432",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-6th-generation-tech-specs.html"
     }
   ],
   "record_notes": [
@@ -80,9 +160,9 @@
           "16 GB"
         ],
         "unit": null,
-        "source_section": "iPod nano (6th generation)",
+        "source_section": "Capacity   2",
         "verification_status": "source_transcribed",
-        "notes": "Capacities parsed from the explicit Capacity line; original wording remains in source_text."
+        "notes": "Capacity statements parsed from the model-specific Apple technical-specification page and preserved in the matching Capacity section."
       }
     },
     "official_description": {
