@@ -195,7 +195,7 @@
       "slug": "magsafe-charging-case-usb-c-airpods-pro-2nd-generation-airpods-pro-2-with-magsafe-case-usb-c-tech-specs-111834",
       "final_url": "https://support.apple.com/en-ie/111834",
       "title": "AirPods Pro 2 with MagSafe Case (USB‑C) - Tech Specs",
-      "source_file": "apple_remaining_extraction/technical_specs_html/airpods-specs-magsafe-charging-case-usb-c-airpods-pro-2nd-generation-airpods-pro-2-with-magsafe-case-usb-c-tech-specs.html",
+      "source_file": "apple_remaining_extraction/technical_specs_html/airpods-specs-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c-airpods-pro-2-with-magsafe-case-usb-c-tech-specs.html",
       "section_count": 14,
       "verification_status": "content_verified"
     }
@@ -380,7 +380,8 @@
     "2026-11-09: official Apple AirPods identification page added as evidence for model numbers and introduction years across all 19 records.",
     "2026-11-10 repository audit: all 19 inventory source_file references resolve to existing archived files in the current Git tree. This confirms archive-path presence only, not the accuracy or reachability of every source URL.",
     "2026-11-10 verification pass: Added component-aware measurements for legacy and recent AirPods records, distinguishing earbuds/headphones from charging cases and Smart Cases. Corrected AirPods 5 with Wireless Charging Case model number from A3529 to A5329 based on Apple's official AirPods identification page. Repaired AirPods Max 2 dimensions that had been omitted from the structured measurements. Scoped the standalone AirPods Pro 2 USB-C charging-case record to case-specific normalized values, retaining its U1 case chip and removing headphone-only normalized fields.",
-    "2026-11-10 identity alignment: inventory model label for AirPods 5 with Wireless Charging Case now matches the corrected product record; case model A5329 is used rather than the earlier A3529 typo."
+    "2026-11-10 identity alignment: inventory model label for AirPods 5 with Wireless Charging Case now matches the corrected product record; case model A5329 is used rather than the earlier A3529 typo.",
+    "2026-11-11 archive audit: three pairs of AirPods records shared the same official Apple technical-specification URL and their archived HTML files were byte-identical. Records now reuse one canonical archive per shared page rather than presenting duplicate files as separate source captures."
   ],
   "record_audit": {
     "checked_at": "2026-11-10",
