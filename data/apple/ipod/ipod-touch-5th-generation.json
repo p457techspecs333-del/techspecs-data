@@ -21,17 +21,17 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-ie/103823",
-    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-    "source_title": "Identify your iPod model - Apple Support (IE)",
-    "publisher": "Apple",
+    "source_url": "https://support.apple.com/en-ie/112021",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-5th-generation-tech-specs.html",
+    "source_title": "iPod touch (5th generation) - Technical Specifications - Apple Support (IE)",
+    "publisher": "Apple Support (Ireland)",
     "published_at": null,
-    "checked_at": "2026-11-09",
-    "verification_status": "partially_verified",
-    "verification_notes": "This record's retained evidence is extracted from Apple's general 'Identify your iPod model' page, not an individual technical-specifications page. The archived HTML file is the shared source page. Only identification facts explicitly present in that page are supported; detailed technical specifications require separate model-specific sources.",
+    "checked_at": "2026-11-11",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page captured as original HTML on 2026-11-11; 18 technical sections extracted. The first record section preserves model-identification evidence from Apple's separate identification page.",
     "notes": [
-      "Primary evidence is Apple's official iPod identification page; it supports only the model-identification statements retained in the source section.",
-      "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually."
+      "Technical specifications in the following sections are transcribed from the model-specific Apple technical-specification page; each section carries its own source URL and archive path.",
+      "The first section preserves model number/introduction-date evidence from Apple's separate identification page: https://support.apple.com/en-ie/103823, archived at apple_remaining_extraction/technical_specs_html/ipod-index.html."
     ]
   },
   "extraction": {
@@ -44,7 +44,117 @@
   "sections": [
     {
       "heading": "iPod touch (5th generation)",
-      "source_text": "Navigation: Multi-Touch display\nCapacity: 16, 32 and 64 GB\nModel numbers and dates introduced: A1509: June 2014 A1421: May 2013 A1421: October 2012\nModel numbers and dates introduced:\nA1509: June 2014\nA1421: May 2013\nA1421: October 2012\niPod touch (5th generation) has an iSight camera and FaceTime HD camera. The iPod touch loop is included with the 32 GB and 64 GB models.\niPod touch (5th generation) is available in five colours."
+      "source_text": "Navigation: Multi-Touch display\nCapacity: 16, 32 and 64 GB\nModel numbers and dates introduced: A1509: June 2014 A1421: May 2013 A1421: October 2012\nModel numbers and dates introduced:\nA1509: June 2014\nA1421: May 2013\nA1421: October 2012\niPod touch (5th generation) has an iSight camera and FaceTime HD camera. The iPod touch loop is included with the 32 GB and 64 GB models.\niPod touch (5th generation) is available in five colours.",
+      "source_url": "https://support.apple.com/en-ie/103823",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html"
+    },
+    {
+      "heading": "Size and Weight",
+      "source_text": "Height: 4.86 inches (123.4 mm)\nWidth: 2.31 inches (58.6 mm)\nDepth: 0.24 inch (6.1 mm)\nWeight: 3.10 ounces (88 grams) 1",
+      "source_url": "https://support.apple.com/en-ie/112021",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Capacity 2",
+      "source_text": "32GB\n64GB",
+      "source_url": "https://support.apple.com/en-ie/112021",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Wireless 3",
+      "source_text": "802.11a/b/g/n Wi-Fi (802.11n 2.4GHz and 5GHz)\nBluetooth 4.0\nMaps: Location-based service 4",
+      "source_url": "https://support.apple.com/en-ie/112021",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Display",
+      "source_text": "4-inch (diagonal) widescreen display with Multi-Touch IPS technology\nRetina display\n1136-by-640-pixel resolution at 326 pixels per inch\n800:1 contrast ratio (typical)\n500 cd/m2 max brightness (typical)\nFingerprint-resistant oleophobic coating",
+      "source_url": "https://support.apple.com/en-ie/112021",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Camera, Photos, and Video",
+      "source_text": "5-megapixel iSight camera\nAutofocus\nTap to focus video or still images\nBackside illumination\nHybrid IR filter\nFive-element lens\nLED flash\n&fnof;/2.4 aperture\nFace detection\nPanorama\nHDR\nHD video recording (1080p) up to 30 frames per second with audio\nFaceTime HD camera with 1.2MP photos and HD video (720p) up to 30 frames per second\nVideo stabilization\nTap to control exposure for video or stills\nPhoto and video geotagging over Wi-Fi",
+      "source_url": "https://support.apple.com/en-ie/112021",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Input and Output",
+      "source_text": "Lightning connector\n3.5-mm stereo headphone jack\nBuilt-in speaker\nMicrophone",
+      "source_url": "https://support.apple.com/en-ie/112021",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "External Buttons and Connectors",
+      "source_text": "External Buttons and Controls\nConnectors and Input/Output",
+      "source_url": "https://support.apple.com/en-ie/112021",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Power and Battery 5",
+      "source_text": "Built-in rechargeable lithium-ion battery\nMusic playback time: Up to 40 hours when fully charged\nVideo playback time: Up to 8 hours when fully charged\nCharging times: Fast charge in about 2 hours (80% capacity), full charge in about 4 hours",
+      "source_url": "https://support.apple.com/en-ie/112021",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Audio Playback",
+      "source_text": "Frequency response: 20Hz to 20,000Hz\nAudio formats supported: AAC (8 to 320 Kbps), Protected AAC (from iTunes Store), HE-AAC, MP3 (8 to 320 Kbps), MP3 VBR, Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+), Apple Lossless, AIFF, and WAV\nUser-configurable maximum volume limit",
+      "source_url": "https://support.apple.com/en-ie/112021",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "TV and Video",
+      "source_text": "H.264 video up to 720p, 30 frames per second, Main Profile level 3.1 with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats\nMPEG-4 video up to 2.5 Mbps, 640 by 480 pixels, 30 frames per second, Simple Profile with AAC-LC audio up to 160 Kbps per channel, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats\nMotion JPEG (M-JPEG) up to 35 Mbps, 1280 by 720 pixels, 30 frames per second, audio in ulaw, PCM stereo audio in .avi file format\nAirPlay Mirroring to Apple TV support at 720p\nAirPlay video streaming to Apple TV (3rd generation) at up to 1080p and Apple TV (2nd generation) at up to 720p",
+      "source_url": "https://support.apple.com/en-ie/112021",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Headphones",
+      "source_text": "Apple EarPods",
+      "source_url": "https://support.apple.com/en-ie/112021",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Three-axis gyro\nAccelerometer",
+      "source_url": "https://support.apple.com/en-ie/112021",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "Apple ID (required for some features)\nInternet access\nSyncing with iTunes on a Mac or PC requires:\nMac: OS X v10.6.8 or later\nPC: Windows 7; Windows Vista; or Windows XP Home or Professional with Service Pack 3 or later\niTunes 10.7 or later 6 (free download from www.itunes.com/uk/download )",
+      "source_url": "https://support.apple.com/en-ie/112021",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Environmental Requirements",
+      "source_text": "Operating ambient temperature: 32° to 95° F (0° to 35° C)\nNonoperating temperature: -4° to 113° F (-20° to 45° C)\nRelative humidity: 5% to 95% noncondensing\nMaximum operating altitude: 10,000 feet (3000 m)",
+      "source_url": "https://support.apple.com/en-ie/112021",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "Language Support\nEnglish (U.S.), English (UK), Chinese (Simplified), Chinese (Traditional), French, German, Italian, Japanese, Korean, Spanish, Arabic, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nKeyboard Support\nEnglish (U.S.), English (Australian), English (Canadian), English (UK), Chinese - Simplified (Handwriting, Pinyin, Stroke), Chinese - Traditional (Handwriting, Pinyin, Zhuyin, Cangjie, Stroke), French, French (Canadian), French (Switzerland), German (Germany), German (Switzerland), Italian, Japanese (Romaji, Kana), Korean, Spanish, Arabic, Bulgarian, Catalan, Cherokee, Croatian, Czech, Danish, Dutch, Emoji, Estonian, Finnish, Flemish, Greek, Hawaiian, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Latvian, Lithuanian, Macedonian, Malay, Norwegian, Polish, Portuguese (Portugal), Portuguese (Brazil), Romanian, Russian, Serbian (Cyrillic/Latin), Slovak, Swedish, Thai, Tibetan, Turkish, Ukrainian, Vietnamese\nDictionary Support\nEnglish (U.S.), English (Australian), English (Canadian), English (UK), Chinese - Simplified (Handwriting, Pinyin, Stroke), Chinese - Traditional (Handwriting, Pinyin, Zhuyin, Cangjie, Stroke), French, French (Canadian), French (Switzerland), German (Germany), German (Switzerland), Italian, Japanese (Romaji, Kana), Korean, Spanish, Arabic, Bulgarian, Catalan, Cherokee, Croatian, Czech, Danish, Dutch, Estonian, Finnish, Flemish, Greek, Hawaiian, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Latvian, Lithuanian, Macedonian, Malay, Norwegian, Polish, Portuguese (Portugal), Portuguese (Brazil), Romanian, Russian, Serbian (Cyrillic/Latin), Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nSiri Languages\nEnglish (U.S., UK, Canada, Australia), Spanish (U.S., Mexico, Spain), French (France, Canada, Switzerland), German (Germany, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (Hong Kong)",
+      "source_url": "https://support.apple.com/en-ie/112021",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "iPod touch\niPod touch loop\nApple EarPods\nLightning to USB Cable\nQuick Start guide",
+      "source_url": "https://support.apple.com/en-ie/112021",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Accessories",
+      "source_text": "Lightning to 30-pin Adapter\nConnect your current accessories to iPod touch using this adapter.\nApple World Travel Adapter Kit\nPlug your Apple power adapter into most electrical outlets around the world.\nOther Accessories\nLightning to 30-pin Adapter (0.2 m)\nLightning to USB Cable\nAppleCare Protection Plan\nApple USB Power Adapter\nApple EarPods\nSee more accessories in theApple Online Store",
+      "source_url": "https://support.apple.com/en-ie/112021",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "iPod touch and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact. Learn more\niPod touch embodies Apple’s continuing environmental progress. It is designed with the following features to reduce environmental impact:\nMercury-free LED-backlit display\nArsenic-free display glass\nBrominated flame retardant-free\nPVC-free\nRecyclable aluminum enclosure\nApple and the Environment\nLearn more about Apple’s dedication to reducing the environmental impact of our products and process. Apple Product Environmental Reports detail the environmental attributes of our products.\nRecycling\nApple takes a holistic view of materials management and waste minimization. Learn more about how to recycle your iPod touch.\nWeight varies by configuration and manufacturing process.\n1GB = 1 billion bytes; actual formatted capacity less.\nInternet access required; broadband recommended; fees may apply.\nFor iPod touch with Maps, the Maps application provides your approximate location using information based on your proximity to known Wi-Fi networks (when on and available). The more accurate the available information, the smaller the circle identifying your position on the map. The feature is not available in all areas. Known Wi-Fi networks are predominantly in urban areas. In order to provide your location, data is collected in a form that does not personally identify you. If you do not want such data collected, do not enable the feature. Not enabling the feature will not impact the functionality of your iPod touch.\nTesting conducted by Apple in August 2012 using preproduction iPod touch hardware and software. The playlist contained 358 unique audio tracks consisting of content imported from CDs using iTunes (128-Kbps AAC) and content purchased from the iTunes Store (256-Kbps AAC); video content was purchased from the iTunes Store. iPod units were associated to a Wi-Fi network; all other settings were default. Battery tests are conducted with specific iPod units; actual results may vary. Rechargeable batteries have a limited number of charge cycles and may eventually need to be replaced ( www.apple.com/uk/support/ipod/service/battery ). Battery life and number of charge cycles vary by use and settings. See www.apple.com/uk/batteries for more information.\niPod and iTunes are for legal or rightholder-authorized copying only. Don’t steal music.\nSome features may not be available for all countries or all areas. Click here to see complete list.\nHelpful?\nYes\nNo\nCharacter limit:\n250\nMaximum character limit is 250.\nPlease don’t include any personal information in your comment.\nSubmit\nThanks for your feedback.",
+      "source_url": "https://support.apple.com/en-ie/112021",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-5th-generation-tech-specs.html"
     }
   ],
   "record_notes": [
@@ -103,9 +213,9 @@
           "64 GB"
         ],
         "unit": null,
-        "source_section": "iPod touch (5th generation)",
+        "source_section": "Capacity 2",
         "verification_status": "source_transcribed",
-        "notes": "Capacities parsed from the explicit Capacity line; original wording remains in source_text."
+        "notes": "Capacity statements parsed from the model-specific Apple technical-specification page and preserved in the matching Capacity section."
       }
     },
     "official_description": {
