@@ -37,17 +37,17 @@
       "description": "Published machine-readable resource URLs."
     },
     "versioned_product_endpoint": {
-      "url": "https://data.techspecs.dev/api/v1/products/{product-id}.json",
+      "url": "https://data.techspecs.dev/api/v1/products/{record-id}.json",
       "method": "GET",
       "format": "application/json",
-      "description": "Versioned static product record route. Replace {product-id} with the exact record filename stem supplied by the catalogue."
+      "description": "Replace {record-id} with the exact catalogue record_id, including its manufacturer and category path (for example apple/iphone/iphone-17)."
     }
   },
   "record_retrieval": {
     "method": "GET",
     "discovery_source": "catalogue.records[].url",
-    "url_pattern": "https://data.techspecs.dev/api/v1/products/{product-id}.json",
-    "rule": "Use the exact URL supplied by the catalogue. The versioned route is a static rewrite to the published source record. Do not infer record URLs or assume an unlisted product exists.",
+    "url_pattern": "https://data.techspecs.dev/api/v1/products/{record-id}.json",
+    "rule": "Use the exact URL supplied by the catalogue. The record-id is the complete catalogue record_id (manufacturer/category/model-slug); the static route rewrites it to the matching repository-relative JSON record. Do not infer record URLs or assume an unlisted product exists.",
     "response_format": "application/json",
     "record_schema": "https://data.techspecs.dev/schemas/product-record-v2.schema.json",
     "legacy_url_field": "catalogue.records[].legacy_url"
