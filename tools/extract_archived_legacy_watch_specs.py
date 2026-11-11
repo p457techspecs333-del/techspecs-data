@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 HTML_DIR = ROOT / "apple_watch_extraction" / "technical_specs_html"
 DATA_DIR = ROOT / "data" / "apple" / "watch"
 INVENTORY_PATH = DATA_DIR / "source-inventory.json"
-IDENTITY_FILE = "apple_watch-model-identification.html"
+IDENTITY_FILE = "apple-watch-model-identification.html"
 IDENTITY_URL = "https://support.apple.com/en-ie/108056"
 TODAY = datetime.now(timezone.utc).date().isoformat()
 
