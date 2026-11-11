@@ -19,17 +19,17 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-ie/103823",
-    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-    "source_title": "Identify your iPod model - Apple Support (IE)",
-    "publisher": "Apple",
+    "source_url": "https://support.apple.com/en-ie/112552",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html",
+    "source_title": "iPod nano (3rd generation) - Technical Specifications - Apple Support (IE)",
+    "publisher": "Apple Support (Ireland)",
     "published_at": null,
-    "checked_at": "2026-11-09",
-    "verification_status": "partially_verified",
-    "verification_notes": "This record's retained evidence is extracted from Apple's general 'Identify your iPod model' page, not an individual technical-specifications page. The archived HTML file is the shared source page. Only identification facts explicitly present in that page are supported; detailed technical specifications require separate model-specific sources.",
+    "checked_at": "2026-11-11",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page archived as original HTML on 2026-11-11; 13 source sections extracted. The first record section preserves model-identification evidence from Apple's separate identification page.",
     "notes": [
-      "Primary evidence is Apple's official iPod identification page; it supports only the model-identification statements retained in the source section.",
-      "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually."
+      "Technical specifications are transcribed from the model-specific Apple technical-specification page; each added section carries its own source URL and archive path.",
+      "Model-identification evidence remains available from https://support.apple.com/en-ie/103823, archived at apple_remaining_extraction/technical_specs_html/ipod-index.html."
     ]
   },
   "extraction": {
@@ -43,11 +43,90 @@
     {
       "heading": "iPod nano (3rd generation)",
       "source_text": "Navigation: Click Wheel\nCapacity: 4 and 8 GB\nModel number and date introduced: A1236: September 2007\nYou can distinguish the iPod nano (3rd generation) from previous iPod nano models by:\nIts wider screen\nHold switch is on the bottom\nIts ability to play video\nThe last three characters of the serial number will be one of these: YOP, YOR, YXR, YXT, YXV or YXX.\nThe iPod nano (3rd generation) comes in five colours."
+    },
+    {
+      "heading": "Size and weight",
+      "source_text": "Height: 2.75 inches (69.8 mm) Width: 2.06 inches (52.3 mm) Depth: 0.26 inch (6.5 mm) Weight: 1.74 ounces (49.2 grams)",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "In the box",
+      "source_text": "iPod nano Earphones USB 2.0 cable Dock adapter Quick Start guide",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Capacity",
+      "source_text": "4GB or 8GB flash drive 1 Holds up to 1,000 or 2,000 songs in 128-Kbps AAC format 2 Holds up to 3,500 or 7,000 iPod-viewable photos 3 Holds up to 4 hours (4GB) or up to 8 hours (8GB) of video 4 Stores data via USB flash drive",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Display",
+      "source_text": "2-inch (diagonal) liquid crystal display with blue-white LED backlight 320-by-240-pixel resolution at 204 pixels per inch",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Skip-free playback Frequency response: 20Hz to 20,000Hz Audio formats supported: AAC (16 to 320 Kbps), Protected AAC (from iTunes Store), MP3 (16 to 320 Kbps), MP3 VBR, Audible (formats 2, 3, and 4), Apple Lossless, AIFF, and WAV User-configurable maximum volume limit",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Video",
+      "source_text": "H.264 video, up to 1.5 Mbps, 640 by 480 pixels, 30 frames per second, Low-Complexity version of the H.264 Baseline Profile with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats; H.264 video, up to 2.5 Mbps, 640 by 480 pixels, 30 frames per second, Baseline Profile up to Level 3.0 with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats; MPEG-4 video, up to 2.5 Mbps, 640 by 480 pixels, 30 frames per second, Simple Profile with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Headphones",
+      "source_text": "Earphones Frequency response: 20Hz to 20,000Hz Impedance: 32 ohms",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Mac system requirements",
+      "source_text": "Mac computer with USB 2.0 port Mac OS X v10.4.8 or later iTunes 7.4 or later 5",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Windows system requirements",
+      "source_text": "PC with USB 2.0 port Windows Vista or Windows XP Home or Professional with Service Pack 2 or later iTunes 7.4 or later 5",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Simplified Chinese, Spanish, Swedish, Traditional Chinese, and Turkish Additional language support for display of song, album, and artist information: Bulgarian, Croatian, Romanian, Serbian, Slovak, Slovenian, and Ukrainian",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Environmental requirements",
+      "source_text": "Operating temperature: 32° to 95° F (0° to 35° C) Nonoperating temperature: -4° to 113° F (-20° to 45° C) Relative humidity: 5% to 95% noncondensing Maximum operating altitude: 10,000 feet (3000 m)",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Input and output",
+      "source_text": "Dock connector 3.5-mm stereo headphone jack",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Power and battery 6",
+      "source_text": "Built-in rechargeable lithium ion battery Playback time Music playback time: Up to 24 hours when fully charged Video playback time: Up to 5 hours when fully charged Charging via USB to computer system or power adapter (sold separately) Fast-charge time: about 1.5 hours (charges up to 80% of battery capacity) Full-charge time: about 3 hours",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
     }
   ],
   "record_notes": [
     "Archival-first-pass record; normalized specifications not inferred.",
-    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text."
+    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text.",
+    "2026-11-11 source-mapping pass: replaced the identification-only primary source with the dedicated Apple technical-specification page while retaining the original identification section and source path. Core technical values are now normalized from the archived model-specific page."
   ],
   "normalized_specifications": {
     "navigation_interface": {
@@ -92,6 +171,278 @@
         "source_section": "iPod nano (3rd generation)",
         "verification_status": "source_transcribed",
         "notes": "Description transcribed from the official Apple identification page."
+      }
+    },
+    "size_weight_statements": {
+      "value": {
+        "value": [
+          "Height: 2.75 inches (69.8 mm)",
+          "Width: 2.06 inches (52.3 mm)",
+          "Depth: 0.26 inch (6.5 mm)",
+          "Weight: 1.74 ounces (49.2 grams)"
+        ],
+        "unit": null,
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "dimensions": {
+      "height": {
+        "value": 69.8,
+        "unit": "mm",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      },
+      "width": {
+        "value": 52.3,
+        "unit": "mm",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      },
+      "depth": {
+        "value": 6.5,
+        "unit": "mm",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      },
+      "weight": {
+        "value": 49.2,
+        "unit": "g",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "storage": {
+      "capacity": {
+        "value": [
+          4,
+          8
+        ],
+        "unit": "GB",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed"
+      },
+      "medium": {
+        "value": "flash drive",
+        "unit": "type",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed"
+      },
+      "songs_at_128_kbps_aac": {
+        "value": [
+          1000,
+          2000
+        ],
+        "unit": "songs",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed"
+      },
+      "photos": {
+        "value": [
+          3500,
+          7000
+        ],
+        "unit": "photos",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed",
+        "notes": "Photo capacity is published by configuration; see the source section for the exact mapping."
+      },
+      "video": {
+        "value": [
+          4,
+          8
+        ],
+        "unit": "hours",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "display": {
+      "technology": {
+        "value": "2-inch liquid crystal display with blue-white LED backlight",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "diagonal": {
+        "value": 2,
+        "unit": "inches",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "resolution": {
+        "value": "320 × 240",
+        "unit": "pixels",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "pixel_density": {
+        "value": 204,
+        "unit": "ppi",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "audio": {
+      "frequency_response": {
+        "value": "20Hz to 20,000Hz",
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      },
+      "formats_supported": {
+        "value": [
+          "AAC (16 to 320 Kbps)",
+          "Protected AAC (from iTunes Store)",
+          "MP3 (16 to 320 Kbps)",
+          "MP3 VBR",
+          "Audible (formats 2, 3 and 4)",
+          "Apple Lossless",
+          "AIFF",
+          "WAV"
+        ],
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      },
+      "user_configurable_maximum_volume_limit": {
+        "value": true,
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "headphones": {
+      "type": {
+        "value": "Earphones",
+        "unit": null,
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      },
+      "frequency_response": {
+        "value": "20Hz to 20,000Hz",
+        "unit": null,
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      },
+      "impedance": {
+        "value": 32,
+        "unit": "ohms",
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "battery": {
+      "type": {
+        "value": "Built-in rechargeable lithium ion battery",
+        "unit": null,
+        "source_section": "Power and battery 6",
+        "verification_status": "source_transcribed"
+      },
+      "music_playback_time_max": {
+        "value": 24,
+        "unit": "hours",
+        "source_section": "Power and battery 6",
+        "verification_status": "source_transcribed"
+      },
+      "video_playback_time_max": {
+        "value": 5,
+        "unit": "hours",
+        "source_section": "Power and battery 6",
+        "verification_status": "source_transcribed"
+      },
+      "fast_charge_time": {
+        "value": 1.5,
+        "unit": "hours",
+        "source_section": "Power and battery 6",
+        "verification_status": "source_transcribed",
+        "notes": "Source states fast charge reaches 80% of battery capacity."
+      },
+      "full_charge_time": {
+        "value": 3,
+        "unit": "hours",
+        "source_section": "Power and battery 6",
+        "verification_status": "source_transcribed"
+      },
+      "charging_method": {
+        "value": "USB to computer system or power adapter (sold separately)",
+        "unit": null,
+        "source_section": "Power and battery 6",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "connectors": {
+      "ports": {
+        "value": [
+          "Dock connector",
+          "3.5-mm stereo headphone jack"
+        ],
+        "unit": null,
+        "source_section": "Input and output",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "system_requirements": {
+      "mac": {
+        "value": "Mac computer with USB 2.0 port; Mac OS X v10.4.8 or later; iTunes 7.4 or later",
+        "unit": null,
+        "source_section": "Mac system requirements",
+        "verification_status": "source_transcribed"
+      },
+      "windows": {
+        "value": "PC with USB 2.0 port; Windows Vista or Windows XP Home or Professional with Service Pack 2 or later; iTunes 7.4 or later",
+        "unit": null,
+        "source_section": "Windows system requirements",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "environment": {
+      "operating_temperature": {
+        "value": "32° to 95° F (0° to 35° C)",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "non_operating_temperature": {
+        "value": "-4° to 113° F (-20° to 45° C)",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "relative_humidity": {
+        "value": "5% to 95% noncondensing",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "maximum_operating_altitude": {
+        "value": 3000,
+        "unit": "m",
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "in_the_box": {
+      "items": {
+        "value": [
+          "iPod nano",
+          "Earphones",
+          "USB 2.0 cable",
+          "Dock adapter",
+          "Quick Start guide"
+        ],
+        "unit": null,
+        "source_section": "In the box",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "video": {
+      "formats_supported": {
+        "value": "H.264 video, up to 1.5 Mbps, 640 by 480 pixels, 30 frames per second, Low-Complexity version of the H.264 Baseline Profile with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats; H.264 video, up to 2.5 Mbps, 640 by 480 pixels, 30 frames per second, Baseline Profile up to Level 3.0 with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats; MPEG-4 video, up to 2.5 Mbps, 640 by 480 pixels, 30 frames per second, Simple Profile with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats",
+        "unit": null,
+        "source_section": "Video",
+        "verification_status": "source_transcribed",
+        "notes": "Full supported video profiles, bitrates, frame rates, audio limits and container formats are transcribed from the archived source."
       }
     }
   }
