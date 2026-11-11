@@ -16,8 +16,16 @@
       "final_url": "https://support.apple.com/en-ie/111855",
       "title": "AirPods 1 - Tech Specs",
       "source_file": "apple_remaining_extraction/technical_specs_html/airpods-specs-airpods-1st-generation-airpods-1-tech-specs.html",
-      "section_count": 10,
-      "verification_status": "content_verified"
+      "section_count": 11,
+      "verification_status": "content_verified",
+      "model_identification_source_url": "https://support.apple.com/en-ie/109525",
+      "model_identification_source_file": "apple_remaining_extraction/technical_specs_html/airpods-identify-model.html",
+      "model_identification_source_title": "Identify your AirPods - Apple Support (IE)",
+      "model_identification_sections": [
+        "AirPods 1"
+      ],
+      "model_identification_status": "archived_and_model_numbers_matched",
+      "model_identification_checked_at": "2026-11-11"
     },
     {
       "model": "AirPods (2nd generation)",
@@ -26,8 +34,16 @@
       "final_url": "https://support.apple.com/en-ie/111856",
       "title": "AirPods 2 - Tech Specs",
       "source_file": "apple_remaining_extraction/technical_specs_html/airpods-specs-airpods-2nd-generation-airpods-2-tech-specs.html",
-      "section_count": 11,
-      "verification_status": "content_verified"
+      "section_count": 12,
+      "verification_status": "content_verified",
+      "model_identification_source_url": "https://support.apple.com/en-ie/109525",
+      "model_identification_source_file": "apple_remaining_extraction/technical_specs_html/airpods-identify-model.html",
+      "model_identification_source_title": "Identify your AirPods - Apple Support (IE)",
+      "model_identification_sections": [
+        "AirPods 2"
+      ],
+      "model_identification_status": "archived_and_model_numbers_matched",
+      "model_identification_checked_at": "2026-11-11"
     },
     {
       "model": "AirPods (2nd generation) with Wireless Charging Case",
@@ -36,8 +52,17 @@
       "final_url": "https://support.apple.com/en-ie/111856",
       "title": "AirPods 2 - Tech Specs",
       "source_file": "apple_remaining_extraction/technical_specs_html/airpods-specs-airpods-2nd-generation-airpods-2-tech-specs.html",
-      "section_count": 11,
-      "verification_status": "content_verified"
+      "section_count": 13,
+      "verification_status": "content_verified",
+      "model_identification_source_url": "https://support.apple.com/en-ie/109525",
+      "model_identification_source_file": "apple_remaining_extraction/technical_specs_html/airpods-identify-model.html",
+      "model_identification_source_title": "Identify your AirPods - Apple Support (IE)",
+      "model_identification_sections": [
+        "AirPods 2",
+        "Wireless Charging Case"
+      ],
+      "model_identification_status": "archived_and_model_numbers_matched",
+      "model_identification_checked_at": "2026-11-11"
     },
     {
       "model": "AirPods (3rd generation)",
@@ -46,8 +71,17 @@
       "final_url": "https://support.apple.com/en-ie/111863",
       "title": "AirPods 3 - Tech Specs",
       "source_file": "apple_remaining_extraction/technical_specs_html/airpods-specs-airpods-3rd-generation-airpods-3-tech-specs.html",
-      "section_count": 13,
-      "verification_status": "content_verified"
+      "section_count": 15,
+      "verification_status": "content_verified",
+      "model_identification_source_url": "https://support.apple.com/en-ie/109525",
+      "model_identification_source_file": "apple_remaining_extraction/technical_specs_html/airpods-identify-model.html",
+      "model_identification_source_title": "Identify your AirPods - Apple Support (IE)",
+      "model_identification_sections": [
+        "AirPods 3",
+        "MagSafe Charging Case for AirPods 3"
+      ],
+      "model_identification_status": "archived_and_model_numbers_matched",
+      "model_identification_checked_at": "2026-11-11"
     },
     {
       "model": "AirPods (3rd generation) with Lightning Charging",
@@ -56,8 +90,17 @@
       "final_url": "https://support.apple.com/en-ie/111863",
       "title": "AirPods 3 - Tech Specs",
       "source_file": "apple_remaining_extraction/technical_specs_html/airpods-specs-airpods-3rd-generation-airpods-3-tech-specs.html",
-      "section_count": 13,
-      "verification_status": "content_verified"
+      "section_count": 15,
+      "verification_status": "content_verified",
+      "model_identification_source_url": "https://support.apple.com/en-ie/109525",
+      "model_identification_source_file": "apple_remaining_extraction/technical_specs_html/airpods-identify-model.html",
+      "model_identification_source_title": "Identify your AirPods - Apple Support (IE)",
+      "model_identification_sections": [
+        "AirPods 3",
+        "Lightning Charging Case for AirPods 3"
+      ],
+      "model_identification_status": "archived_and_model_numbers_matched",
+      "model_identification_checked_at": "2026-11-11"
     },
     {
       "model": "AirPods 4",
@@ -66,8 +109,17 @@
       "final_url": "https://support.apple.com/en-ie/121203",
       "title": "AirPods 4 - Tech Specs",
       "source_file": "apple_remaining_extraction/technical_specs_html/airpods-specs-airpods-4-airpods-4-tech-specs.html",
-      "section_count": 13,
-      "verification_status": "content_verified"
+      "section_count": 15,
+      "verification_status": "content_verified",
+      "model_identification_source_url": "https://support.apple.com/en-ie/109525",
+      "model_identification_source_file": "apple_remaining_extraction/technical_specs_html/airpods-identify-model.html",
+      "model_identification_source_title": "Identify your AirPods - Apple Support (IE)",
+      "model_identification_sections": [
+        "AirPods 4",
+        "Charging Case for AirPods 4"
+      ],
+      "model_identification_status": "archived_and_model_numbers_matched",
+      "model_identification_checked_at": "2026-11-11"
     },
     {
       "model": "AirPods 4 with Active Noise Cancellation",
@@ -76,8 +128,17 @@
       "final_url": "https://support.apple.com/en-ie/121204",
       "title": "AirPods 4 with Active Noise Cancellation - Tech Specs",
       "source_file": "apple_remaining_extraction/technical_specs_html/airpods-specs-airpods-4-with-active-noise-cancellation-airpods-4-with-active-noise-cancellation-tech-specs.html",
-      "section_count": 13,
-      "verification_status": "content_verified"
+      "section_count": 15,
+      "verification_status": "content_verified",
+      "model_identification_source_url": "https://support.apple.com/en-ie/109525",
+      "model_identification_source_file": "apple_remaining_extraction/technical_specs_html/airpods-identify-model.html",
+      "model_identification_source_title": "Identify your AirPods - Apple Support (IE)",
+      "model_identification_sections": [
+        "AirPods 4 (ANC)",
+        "Wireless Charging Case for AirPods 4 (ANC)"
+      ],
+      "model_identification_status": "archived_and_model_numbers_matched",
+      "model_identification_checked_at": "2026-11-11"
     },
     {
       "model": "AirPods 5",
@@ -86,8 +147,17 @@
       "final_url": "https://support.apple.com/en-ie/148759",
       "title": "AirPods 5 - Tech Specs",
       "source_file": "apple_remaining_extraction/technical_specs_html/airpods-specs-airpods-5-airpods-5-tech-specs.html",
-      "section_count": 15,
-      "verification_status": "content_verified"
+      "section_count": 17,
+      "verification_status": "content_verified",
+      "model_identification_source_url": "https://support.apple.com/en-ie/109525",
+      "model_identification_source_file": "apple_remaining_extraction/technical_specs_html/airpods-identify-model.html",
+      "model_identification_source_title": "Identify your AirPods - Apple Support (IE)",
+      "model_identification_sections": [
+        "AirPods 5",
+        "Charging Case for AirPods 5"
+      ],
+      "model_identification_status": "archived_and_model_numbers_matched",
+      "model_identification_checked_at": "2026-11-11"
     },
     {
       "model": "AirPods 5 with Wireless Charging Case",
@@ -96,8 +166,17 @@
       "final_url": "https://support.apple.com/en-ie/148760",
       "title": "AirPods 5 with Wireless Charging Case - Tech Specs",
       "source_file": "apple_remaining_extraction/technical_specs_html/airpods-specs-airpods-5-wireless-airpods-5-with-wireless-charging-case-tech-specs.html",
-      "section_count": 15,
-      "verification_status": "content_verified"
+      "section_count": 17,
+      "verification_status": "content_verified",
+      "model_identification_source_url": "https://support.apple.com/en-ie/109525",
+      "model_identification_source_file": "apple_remaining_extraction/technical_specs_html/airpods-identify-model.html",
+      "model_identification_source_title": "Identify your AirPods - Apple Support (IE)",
+      "model_identification_sections": [
+        "AirPods 5 with Wireless Charging Case",
+        "Wireless Charging Case for AirPods 5"
+      ],
+      "model_identification_status": "archived_and_model_numbers_matched",
+      "model_identification_checked_at": "2026-11-11"
     },
     {
       "model": "AirPods Max 1",
@@ -106,8 +185,16 @@
       "final_url": "https://support.apple.com/en-ie/111858",
       "title": "AirPods Max 1 - Tech Specs",
       "source_file": "apple_remaining_extraction/technical_specs_html/airpods-specs-airpods-max-1-airpods-max-1-tech-specs.html",
-      "section_count": 13,
-      "verification_status": "content_verified"
+      "section_count": 14,
+      "verification_status": "content_verified",
+      "model_identification_source_url": "https://support.apple.com/en-ie/109525",
+      "model_identification_source_file": "apple_remaining_extraction/technical_specs_html/airpods-identify-model.html",
+      "model_identification_source_title": "Identify your AirPods - Apple Support (IE)",
+      "model_identification_sections": [
+        "AirPods Max 1 (Lightning)"
+      ],
+      "model_identification_status": "archived_and_model_numbers_matched",
+      "model_identification_checked_at": "2026-11-11"
     },
     {
       "model": "AirPods Max 1 (USB-C)",
@@ -116,8 +203,16 @@
       "final_url": "https://support.apple.com/en-ie/121205",
       "title": "AirPods Max 1 (USB-C) - Tech Specs",
       "source_file": "apple_remaining_extraction/technical_specs_html/airpods-specs-airpods-max-1-usb-c-airpods-max-1-usb-c-tech-specs.html",
-      "section_count": 13,
-      "verification_status": "content_verified"
+      "section_count": 14,
+      "verification_status": "content_verified",
+      "model_identification_source_url": "https://support.apple.com/en-ie/109525",
+      "model_identification_source_file": "apple_remaining_extraction/technical_specs_html/airpods-identify-model.html",
+      "model_identification_source_title": "Identify your AirPods - Apple Support (IE)",
+      "model_identification_sections": [
+        "AirPods Max 1 (USB-C)"
+      ],
+      "model_identification_status": "archived_and_model_numbers_matched",
+      "model_identification_checked_at": "2026-11-11"
     },
     {
       "model": "AirPods Max 2",
@@ -126,8 +221,16 @@
       "final_url": "https://support.apple.com/en-ie/126620",
       "title": "AirPods Max 2 - Tech Specs",
       "source_file": "apple_remaining_extraction/technical_specs_html/airpods-specs-airpods-max-2-airpods-max-2-tech-specs.html",
-      "section_count": 14,
-      "verification_status": "content_verified"
+      "section_count": 15,
+      "verification_status": "content_verified",
+      "model_identification_source_url": "https://support.apple.com/en-ie/109525",
+      "model_identification_source_file": "apple_remaining_extraction/technical_specs_html/airpods-identify-model.html",
+      "model_identification_source_title": "Identify your AirPods - Apple Support (IE)",
+      "model_identification_sections": [
+        "AirPods Max 2"
+      ],
+      "model_identification_status": "archived_and_model_numbers_matched",
+      "model_identification_checked_at": "2026-11-11"
     },
     {
       "model": "AirPods Pro (1st generation) with Wireless Charging Case",
@@ -136,8 +239,17 @@
       "final_url": "https://support.apple.com/en-ie/111861",
       "title": "AirPods Pro 1 with Wireless Charging Case - Tech Specs",
       "source_file": "apple_remaining_extraction/technical_specs_html/airpods-specs-airpods-pro-1st-generation-with-wireless-charging-case-airpods-pro-1-with-wireless-charging-case-tech-specs.html",
-      "section_count": 13,
-      "verification_status": "content_verified"
+      "section_count": 15,
+      "verification_status": "content_verified",
+      "model_identification_source_url": "https://support.apple.com/en-ie/109525",
+      "model_identification_source_file": "apple_remaining_extraction/technical_specs_html/airpods-identify-model.html",
+      "model_identification_source_title": "Identify your AirPods - Apple Support (IE)",
+      "model_identification_sections": [
+        "AirPods Pro 1",
+        "AirPods Pro 1 Charging Case"
+      ],
+      "model_identification_status": "archived_and_model_numbers_matched",
+      "model_identification_checked_at": "2026-11-11"
     },
     {
       "model": "AirPods Pro (2nd generation) with MagSafe Charging Case (Lightning)",
@@ -146,8 +258,17 @@
       "final_url": "https://support.apple.com/en-ie/111851",
       "title": "AirPods Pro 2 - Tech Specs",
       "source_file": "apple_remaining_extraction/technical_specs_html/airpods-specs-airpods-pro-2nd-generation-with-magsafe-charging-case-lightning-airpods-pro-2-tech-specs.html",
-      "section_count": 14,
-      "verification_status": "content_verified"
+      "section_count": 16,
+      "verification_status": "content_verified",
+      "model_identification_source_url": "https://support.apple.com/en-ie/109525",
+      "model_identification_source_file": "apple_remaining_extraction/technical_specs_html/airpods-identify-model.html",
+      "model_identification_source_title": "Identify your AirPods - Apple Support (IE)",
+      "model_identification_sections": [
+        "AirPods Pro 2 with MagSafe Charging Case (Lightning)",
+        "MagSafe Charging Case (Lightning) for AirPods Pro 2"
+      ],
+      "model_identification_status": "archived_and_model_numbers_matched",
+      "model_identification_checked_at": "2026-11-11"
     },
     {
       "model": "AirPods Pro (2nd generation) with MagSafe Charging Case (USB-C)",
@@ -156,8 +277,17 @@
       "final_url": "https://support.apple.com/en-ie/111834",
       "title": "AirPods Pro 2 with MagSafe Case (USB‑C) - Tech Specs",
       "source_file": "apple_remaining_extraction/technical_specs_html/airpods-specs-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c-airpods-pro-2-with-magsafe-case-usb-c-tech-specs.html",
-      "section_count": 14,
-      "verification_status": "content_verified"
+      "section_count": 16,
+      "verification_status": "content_verified",
+      "model_identification_source_url": "https://support.apple.com/en-ie/109525",
+      "model_identification_source_file": "apple_remaining_extraction/technical_specs_html/airpods-identify-model.html",
+      "model_identification_source_title": "Identify your AirPods - Apple Support (IE)",
+      "model_identification_sections": [
+        "AirPods Pro 2 with MagSafe Charging Case (USB-C)",
+        "MagSafe Charging Case (USB-C) for AirPods Pro 2"
+      ],
+      "model_identification_status": "archived_and_model_numbers_matched",
+      "model_identification_checked_at": "2026-11-11"
     },
     {
       "model": "AirPods Pro 3",
@@ -166,8 +296,17 @@
       "final_url": "https://support.apple.com/en-ie/125135",
       "title": "AirPods Pro 3 - Tech Specs",
       "source_file": "apple_remaining_extraction/technical_specs_html/airpods-specs-airpods-pro-3-airpods-pro-3-tech-specs.html",
-      "section_count": 15,
-      "verification_status": "content_verified"
+      "section_count": 17,
+      "verification_status": "content_verified",
+      "model_identification_source_url": "https://support.apple.com/en-ie/109525",
+      "model_identification_source_file": "apple_remaining_extraction/technical_specs_html/airpods-identify-model.html",
+      "model_identification_source_title": "Identify your AirPods - Apple Support (IE)",
+      "model_identification_sections": [
+        "AirPods Pro 3",
+        "MagSafe Charging Case for AirPods Pro 3"
+      ],
+      "model_identification_status": "archived_and_model_numbers_matched",
+      "model_identification_checked_at": "2026-11-11"
     },
     {
       "model": "AirPods Pro with MagSafe Charging Case",
@@ -176,8 +315,17 @@
       "final_url": "https://support.apple.com/en-ie/111859",
       "title": "AirPods Pro 1 with MagSafe Charging Case - Tech Specs",
       "source_file": "apple_remaining_extraction/technical_specs_html/airpods-specs-airpods-pro-with-magsafe-charging-case-airpods-pro-1-with-magsafe-charging-case-tech-specs.html",
-      "section_count": 13,
-      "verification_status": "content_verified"
+      "section_count": 15,
+      "verification_status": "content_verified",
+      "model_identification_source_url": "https://support.apple.com/en-ie/109525",
+      "model_identification_source_file": "apple_remaining_extraction/technical_specs_html/airpods-identify-model.html",
+      "model_identification_source_title": "Identify your AirPods - Apple Support (IE)",
+      "model_identification_sections": [
+        "AirPods Pro 1",
+        "MagSafe Charging Case for AirPods Pro 1"
+      ],
+      "model_identification_status": "archived_and_model_numbers_matched",
+      "model_identification_checked_at": "2026-11-11"
     },
     {
       "model": "AirPods Wireless Charging Case",
@@ -186,8 +334,16 @@
       "final_url": "https://support.apple.com/en-ie/111860",
       "title": "AirPods (2 and earlier) Wireless Charging Case - Tech Specs",
       "source_file": "apple_remaining_extraction/technical_specs_html/airpods-specs-airpods-wireless-charging-case-airpods-2-and-earlier-wireless-charging-case-tech-specs.html",
-      "section_count": 7,
-      "verification_status": "content_verified"
+      "section_count": 8,
+      "verification_status": "content_verified",
+      "model_identification_source_url": "https://support.apple.com/en-ie/109525",
+      "model_identification_source_file": "apple_remaining_extraction/technical_specs_html/airpods-identify-model.html",
+      "model_identification_source_title": "Identify your AirPods - Apple Support (IE)",
+      "model_identification_sections": [
+        "Wireless Charging Case"
+      ],
+      "model_identification_status": "archived_and_model_numbers_matched",
+      "model_identification_checked_at": "2026-11-11"
     },
     {
       "model": "MagSafe Charging Case USB-C (AirPods Pro 2nd generation)",
@@ -196,8 +352,16 @@
       "final_url": "https://support.apple.com/en-ie/111834",
       "title": "AirPods Pro 2 with MagSafe Case (USB‑C) - Tech Specs",
       "source_file": "apple_remaining_extraction/technical_specs_html/airpods-specs-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c-airpods-pro-2-with-magsafe-case-usb-c-tech-specs.html",
-      "section_count": 14,
-      "verification_status": "content_verified"
+      "section_count": 15,
+      "verification_status": "content_verified",
+      "model_identification_source_url": "https://support.apple.com/en-ie/109525",
+      "model_identification_source_file": "apple_remaining_extraction/technical_specs_html/airpods-identify-model.html",
+      "model_identification_source_title": "Identify your AirPods - Apple Support (IE)",
+      "model_identification_sections": [
+        "MagSafe Charging Case (USB-C) for AirPods Pro 2"
+      ],
+      "model_identification_status": "archived_and_model_numbers_matched",
+      "model_identification_checked_at": "2026-11-11"
     }
   ],
   "catalogue_links": [
@@ -383,7 +547,8 @@
     "2026-11-10 identity alignment: inventory model label for AirPods 5 with Wireless Charging Case now matches the corrected product record; case model A5329 is used rather than the earlier A3529 typo.",
     "2026-11-11 archive audit: three pairs of AirPods records shared the same official Apple technical-specification URL and their archived HTML files were byte-identical. Records now reuse one canonical archive per shared page rather than presenting duplicate files as separate source captures.",
     "2026-11-11 focused verification pass: all 19 AirPods-family records were checked for source-file presence and normalized size/weight values were compared with archived source text; normalized battery-duration statements were checked against archived Battery/Power and Battery sections. Three earbud records that lacked the common battery_life_statements field were aligned in merged PR #30. All 17 earbud/headphone records now expose that field; the two standalone charging-case records intentionally do not. Raw source sections retain original footnote markers and case-configuration labels; normalized values remain source_transcribed rather than being upgraded to independently verified.",
-    "2026-11-11 repository pipeline status: 364 product records pass schema validation with zero errors; archived-source audit reports zero missing archives, source-title mismatches or canonical-URL mismatches; live manifest, catalogue and sampled product routes pass."
+    "2026-11-11 repository pipeline status: 364 product records pass schema validation with zero errors; archived-source audit reports zero missing archives, source-title mismatches or canonical-URL mismatches; live manifest, catalogue and sampled product routes pass.",
+    "2026-11-11 provenance repair: model numbers had previously been cross-checked against Apple's AirPods identification page but that page was not archived on-repository. It is now retained and relevant model/case sections are attached to all 19 records."
   ],
   "record_audit": {
     "checked_at": "2026-11-11",
@@ -403,10 +568,11 @@
       "Corrected AirPods 5 with Wireless Charging Case model number from A3529 to A5329 based on Apple's official AirPods identification page.",
       "Repaired AirPods Max 2 dimensions that had been omitted from the structured measurements.",
       "Scoped the standalone AirPods Pro 2 USB-C charging-case record to case-specific normalized values, retaining its U1 case chip and removing headphone-only normalized fields.",
-      "Repository-wide schema and inventory validation, archived-source metadata audit, catalogue regeneration, and live manifest/catalogue/product-route smoke test passed on 2026-11-11."
+      "Repository-wide schema and inventory validation, archived-source metadata audit, catalogue regeneration, and live manifest/catalogue/product-route smoke test passed on 2026-11-11.",
+      "Archived Apple's official AirPods identification page and attached relevant model/case sections to all 19 AirPods records; every product.model_numbers value matched the selected identification source text."
     ],
     "remaining": [
-      "Finish record-by-record verification of all remaining AirPods model/case identifiers, footnotes, and source-field alignment.",
+      "Finish field-by-field review of model/case identifier sets and footnote qualifications; official identification sections are now archived and attached, but typed values remain source_transcribed until independently reconciled.",
       "Review legacy AirPods 1 and standalone charging-case fields for complete structured extraction."
     ]
   }

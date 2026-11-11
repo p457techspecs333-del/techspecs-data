@@ -26,13 +26,14 @@
     "verification_notes": "Official Apple technical-specification page discovered from its documentation index; 11 sections archived. Model identifiers and introduction year cross-checked against Apple's official AirPods identification page on 2026-11-09.",
     "notes": [
       "Documentation index: https://support.apple.com/en-ie/docs/airpods/300121",
-      "Model numbers and introduction year verified against official Apple AirPods identification page: https://support.apple.com/en-ie/109525."
+      "Model numbers and introduction year verified against official Apple AirPods identification page: https://support.apple.com/en-ie/109525.",
+      "Model-number and introduction-year evidence cross-checked against the archived official Apple AirPods identification page: https://support.apple.com/en-ie/109525 (apple_remaining_extraction/technical_specs_html/airpods-identify-model.html). Relevant earbud/case identification sections are retained with section-level provenance; no typed values were changed by this pass."
     ]
   },
   "extraction": {
     "method": "section_preserving",
     "normalization_status": "partially_normalized",
-    "note": "Official Apple source sections are preserved and transcribed. Explicit chip, Bluetooth version, resistance rating, battery-duration statements and labelled size/weight measurements have been parsed where present; values retain source-section provenance. Model/case-specific context, footnotes and remaining fields still require record-level verification. No missing values inferred.",
+    "note": "Official Apple source sections are preserved and transcribed. Explicit chip, Bluetooth version, resistance rating, battery-duration statements and labelled size/weight measurements have been parsed where present; values retain source-section provenance. Model/case-specific context, footnotes and remaining fields still require record-level verification. No missing values inferred. Relevant model/case identification sections from Apple's official identification page are retained with section-level provenance; model-number strings were checked against these sections without changing typed values.",
     "extracted_at": "2026-11-09",
     "reviewed_at": "2026-11-09"
   },
@@ -80,6 +81,12 @@
     {
       "heading": "AirPods and the Environment",
       "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact.\nLearn more about AirPods and the Environment\nAirPods are designed with the following features to reduce environmental impact:\nBrominated flame retardant–free\nPVC-free\nBeryllium-free\nMercury-free"
+    },
+    {
+      "heading": "AirPods 2",
+      "source_text": "Model number: A2032, A2031\nYear introduced: 2019",
+      "source_url": "https://support.apple.com/en-ie/109525",
+      "source_file": "apple_remaining_extraction/technical_specs_html/airpods-identify-model.html"
     }
   ],
   "record_notes": [
@@ -87,7 +94,8 @@
     "Taxonomy audit 2026-11-09: classified as Apple audio hardware, not software.",
     "Field-level normalization remains incomplete; source_text is the evidence of record.",
     "Field extraction pass 2026-11-09: added typed fields only where explicit values were present in preserved official source sections; qualifiers retained and source-section provenance attached.",
-    "Follow-up extraction 2026-11-09: audio features, sensors, controls, charging-case details, system requirements and in-box contents separated where explicit."
+    "Follow-up extraction 2026-11-09: audio features, sensors, controls, charging-case details, system requirements and in-box contents separated where explicit.",
+    "Model-number and introduction-year evidence cross-checked against the archived official Apple AirPods identification page: https://support.apple.com/en-ie/109525 (apple_remaining_extraction/technical_specs_html/airpods-identify-model.html). Relevant earbud/case identification sections are retained with section-level provenance; no typed values were changed by this pass."
   ],
   "normalized_specifications": {
     "sensors": {

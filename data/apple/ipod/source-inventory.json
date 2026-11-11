@@ -497,7 +497,8 @@
     "2026-11-11 provenance inventory repair: five related_source_discoveries entries were stale and incorrectly marked url_discovered_not_archived even though their official Ireland-locale HTML archives already existed and were mapped in working_scope. Updated their URLs to the archived pages' canonical Ireland URLs and status to archived_and_mapped.",
     "2026-11-11 archival mapping pass: ten additional official Apple iPod technical-specification archives are now attached to existing records with section-level provenance. Existing identification-page facts and distinct capacity/year variants were retained; typed specification normalization remains pending field-by-field review.",
     "2026-11-11 repository pipeline status: 364 product records pass schema validation with zero errors; archived-source audit reports zero missing archives, source-title mismatches or canonical-URL mismatches; live manifest, catalogue and sampled product routes pass.",
-    "2026-11-11 source coverage status: 27 of 37 iPod inventory entries now have a model-specific Apple technical-specification archive mapped; the ten identity-page-only models are listed explicitly in remaining work."
+    "2026-11-11 source coverage status: 27 of 37 iPod inventory entries now have a model-specific Apple technical-specification archive mapped; the ten identity-page-only models are listed explicitly in remaining work.",
+    "2026-11-11 archival mapping pass: ten additional official Apple iPod technical-specification archives are now attached to existing records with section-level provenance. Existing identification-page facts and distinct capacity/year variants were retained; typed specification normalization remains pending field-by-field review."
   ],
   "record_audit": {
     "checked_at": "2026-11-11",

@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://support.apple.com/en-ie/109525",
+  "final_url": "https://support.apple.com/en-ie/109525",
+  "canonical_url": "https://support.apple.com/en-ie/109525",
+  "page_title": "Identify your AirPods - Apple Support (IE)",
+  "publisher": "Apple",
+  "captured_at_utc": "2026-11-11T13:19:56.239706+00:00",
+  "content_type": "text/html;charset=utf-8",
+  "sha256": "c367159057895227406e17af7712fd7186454356981c28b99d7dd9fdc2556be9",
+  "archive_path": "apple_remaining_extraction/technical_specs_html/airpods-identify-model.html",
+  "request_file": "source-archive-requests/airpods-identification.json"
+}
