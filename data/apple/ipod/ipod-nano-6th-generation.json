@@ -211,16 +211,10 @@
     "storage": {
       "capacity": {
         "value": [
-          "8 GB",
-          "16 GB"
+          8,
+          16
         ],
-        "unit": null,
-        "source_section": "Capacity   2",
-        "verification_status": "source_transcribed"
-      },
-      "medium": {
-        "value": "flash storage",
-        "unit": "type",
+        "unit": "GB",
         "source_section": "Capacity   2",
         "verification_status": "source_transcribed"
       }
@@ -368,7 +362,7 @@
     },
     "environment": {
       "operating_temperature": {
-        "value": "0° to 35° F",
+        "value": "0° to 35° C",
         "unit": null,
         "source_section": "Environmental Requirements",
         "verification_status": "source_transcribed"
