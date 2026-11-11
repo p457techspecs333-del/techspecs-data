@@ -127,6 +127,12 @@
       "source_text": "iPod nano Earphones USB 2.0 cable Dock adapter Quick Start guide",
       "source_url": "https://support.apple.com/en-ie/112495",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "Dock connector 3.5-mm stereo headphone jack",
+      "source_url": "https://support.apple.com/en-ie/112495",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html"
     }
   ],
   "record_notes": [
@@ -391,13 +397,13 @@
     },
     "system_requirements": {
       "mac": {
-        "value": "Mac computer with USB 2.0 port; Mac OS X v10.4.11 or later; iTunes 9 or later; iPhoto 6.0.6 or later recommended for Mac OS X Tiger; iPhoto '09 recommended for Mac OS X Leopard or Snow Leopard",
+        "value": "Mac computer with USB 2.0 port Mac OS X v10.4.11 or later iTunes 9 or later 7 iPhoto 6.0.6 or later recommended for use with Mac OS X Tiger 8 iPhoto &rsquo;09 recommended for use with Mac OS X Leopard or Snow Leopard 8",
         "unit": null,
         "source_section": "Mac system requirements",
         "verification_status": "source_transcribed"
       },
       "windows": {
-        "value": "PC with USB 2.0 port; Windows Vista or Windows XP Home or Professional with Service Pack 3 or later; iTunes 9 or later",
+        "value": "PC with USB 2.0 port Windows Vista or Windows XP Home or Professional with Service Pack 3 or later iTunes 9 or later 7",
         "unit": null,
         "source_section": "Windows system requirements",
         "verification_status": "source_transcribed"
@@ -445,10 +451,11 @@
     },
     "video_capture": {
       "capabilities": {
-        "value": "H.264 VGA video, 640 by 480 pixels, up to 30 frames per second with AAC audio; 15 real-time special effects.",
+        "value": "H.264 VGA video, 640 by 480 pixels, up to 30 frames per second with AAC audio 15 real-time special effects: Sepia, Black and White, X-Ray, Film Grain, Thermal, Security Cam, Cyborg, Bulge, Kaleido, Motion Blur, Mirror, Light Tunnel, Dent, Stretch, and Twirl",
         "unit": null,
         "source_section": "Video Capture",
-        "verification_status": "source_transcribed"
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim video-capture specification from the archived source."
       }
     },
     "controls": {
@@ -468,6 +475,23 @@
         "unit": null,
         "source_section": "Accessibility",
         "verification_status": "source_transcribed"
+      }
+    },
+    "connectivity": {
+      "interfaces": {
+        "value": "Dock connector 3.5-mm stereo headphone jack",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "language_support": {
+      "statements": {
+        "value": "Arabic, Brazilian Portuguese, Cantonese (Traditional Chinese), Croatian, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hebrew, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romanian, Russian, Simplified Chinese, Slovak, Spanish, Swedish, Thai, Traditional Chinese, Turkish, and UK English Additional language support for display of song, album, and artist information: Bulgarian, Serbian, Slovenian, Ukrainian, and Vietnamese iPod nano supports 20 VoiceOver languages: Chinese (Cantonese), Chinese (Mandarin), Czech, Danish, Dutch, English (U.S.), Finnish, French, German, Greek, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Spanish, Swedish, and Turkish; other languages are available with the purchase of a supported third-party text-to-speech engine iPod nano supports 20 spoken menu languages: Chinese (Cantonese), Chinese (Mandarin), Czech, Danish, Dutch, English (U.S.), Finnish, French, German, Greek, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Spanish, Swedish, and Turkish; other languages are available with the purchase of a supported third-party text-to-speech engine",
+        "unit": null,
+        "source_section": "Languages",
+        "verification_status": "source_transcribed",
+        "notes": "Language names and locale groups are retained as source text rather than regrouped."
       }
     }
   }
