@@ -412,7 +412,8 @@
     "Section-level provenance is now explicit: the first section in each migrated record cites the shared iPod identification page; each subsequent technical specification section cites its own model-specific Apple technical-specification URL and archived HTML path.",
     "2026-11-11 source migration: five additional model-specific Apple technical-specification pages were archived and mapped to six iPod records (touch 4th/5th/6th generations, nano 6th generation, and first-/second-generation iPod mini). The mini page is a combined technical-specification source hosted under Apple's English (Belarus) locale because an Ireland-locale URL was not available; its canonical URL is retained.",
     "2026-11-11 source migration: the official Ireland technical-specification page for iPod nano (4th generation), article 112320, has been archived and mapped to its product record. Model identity remains supported by the separate identification page.",
-    "2026-11-11 source migration: the official Ireland technical-specification page for iPod touch (2nd generation), article 112319, has been archived and mapped to its product record."
+    "2026-11-11 source migration: the official Ireland technical-specification page for iPod touch (2nd generation), article 112319, has been archived and mapped to its product record.",
+    "2026-11-11 normalization pass: core dimensions, weight, storage, display, audio, headphone, connector, connectivity, battery, environmental and system-requirement fields were added to the first- and second-generation iPod mini records from their dedicated sections in the archived combined Apple technical-specification page. A source-internal anomaly is explicitly documented for the second-generation record: Apple pairs 3.6 oz with 158 g; the normalized record retains the source's 3.6 oz statement and withholds a metric equivalent rather than silently correcting Apple's text."
   ],
   "record_audit": {
     "checked_at": "2026-11-11",
