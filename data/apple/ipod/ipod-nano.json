@@ -186,7 +186,12 @@
     },
     "size_weight_statements": {
       "value": {
-        "value": "Height: 3.5 in\nWidth: 1.6 in\nDepth: 0.27 in\nWeight: 1.5 oz",
+        "value": [
+          "Height: 3.5 in",
+          "Width: 1.6 in",
+          "Depth: 0.27 in",
+          "Weight: 1.5 oz"
+        ],
         "unit": null,
         "source_section": "Size and weight",
         "verification_status": "source_transcribed"
@@ -370,7 +375,7 @@
         "verification_status": "source_transcribed"
       },
       "charging_method": {
-        "value": "Built-in rechargeable lithium ion battery\nPlaytime: Up to 14 hours when fully charged\n3\nPhoto slideshow with music viewing time: Up to 4 hours when fully charged\n3\nCharging via USB or FireWire to computer system or power adapter (sold separately)\nFast-charge time: about 1.5 hours (charges up to 80% of battery capacity)\nFull-charge time: about 3 hours",
+        "value": "Charging via USB or FireWire to computer system or power adapter (sold separately)",
         "unit": null,
         "source_section": "Power and battery 3",
         "verification_status": "source_transcribed"
@@ -415,6 +420,15 @@
         "unit": null,
         "source_section": "Environmental requirements",
         "verification_status": "source_transcribed"
+      }
+    },
+    "language_support": {
+      "statements": {
+        "value": "Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Simplified Chinese, Spanish, Swedish, Traditional Chinese and Turkish Additional language support for display of song, album and artist information: Bulgarian, Croatian, Romanian, Serbian, Slovak, Slovenian and Ukrainian",
+        "unit": null,
+        "source_section": "Customizable settings",
+        "verification_status": "source_transcribed",
+        "notes": "Language list extracted from the source's Customizable settings section."
       }
     }
   }
