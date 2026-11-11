@@ -28,7 +28,7 @@
     "published_at": null,
     "checked_at": "2026-11-11",
     "verification_status": "content_verified",
-    "verification_notes": "Official Apple technical-specification page captured as original HTML on 2026-11-11; 1 technical sections extracted. The first record section preserves model-identification evidence from Apple's separate identification page.",
+    "verification_notes": "Official Apple technical-specification page captured as original HTML on 2026-11-11; 16 table sections extracted. The first record section preserves model-identification evidence from Apple's separate identification page.",
     "notes": [
       "Technical specifications in the following sections are transcribed from the model-specific Apple technical-specification page; each section carries its own source URL and archive path.",
       "The first section preserves model number/introduction-date evidence from Apple's separate identification page: https://support.apple.com/en-ie/103823, archived at apple_remaining_extraction/technical_specs_html/ipod-index.html."
@@ -49,8 +49,98 @@
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html"
     },
     {
-      "heading": "iPod touch and the Environment",
-      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact. Learn more\niPod touch is designed with the following features to reduce its environmental impact:\nArsenic-free display glass\nBrominated flame retardant-free\nMercury-free LCD display\nPVC-free\nRecyclable stainless steel enclosure\nApple and the Environment\nLearn more about Apple’s dedication to reducing the environmental impact of our products and process. Apple Product Environmental Reports detail the environmental attributes of our products.\nRecycling\nApple takes a holistic view of materials management and waste minimization. Learn more about how to recycle your iPod.\nAccessories\nIn-Ear Headphones with Remote and Mic\nEngineered for extreme clarity and audio accuracy, these headphones let you hear musical details you’ve been missing.\nEarphones with Remote and Mic\nThese earbud headphones have convenient buttons that let you adjust volume and control music and video playback.\nUSB Power Adapter\nUse this ultracompact USB-based adapter to charge your iPhone or iPod whenever it’s not connected to a computer.\nApple Universal Dock\nGet easy access to a USB port for charging and syncing your iPod or for connecting to a TV or speakers.\nOther Accessories\nApple Composite AV Cable\nApple Component AV Cable\nApple Dock Connector to USB Cable\niPod Universal Dock Adapter 3-Pack\nAppleCare Protection Plan\n1GB = 1 billion bytes; actual formatted capacity less.\nWeight varies by configuration and manufacturing process.\nInternet access required; broadband recommended; fees may apply.\nFor iPod touch with Maps, the Maps application provides your approximate location using information based on your proximity to known Wi-Fi networks (when on and available). The more accurate the available information, the smaller the circle identifying your position on the map. The feature is not available in all areas. Known Wi-Fi networks are predominantly in urban areas. In order to provide your location, data is collected in a form that does not personally identify you. If you do not want such data collected, do not enable the feature. Not enabling the feature will not impact the functionality of your iPod touch.\nRequires Nike + iPod Sensor, sold separately.\nTesting conducted by Apple in September 2011 using preproduction iPod touch hardware and software. The playlist contained 358 unique audio tracks consisting of content imported from CDs using iTunes (128-Kbps AAC) and content purchased from the iTunes Store (256-Kbps AAC); video content was purchased from the iTunes Store. iPod units were associated to a Wi-Fi network and Auto-Brightness was turned off; all other settings were default. Battery tests are conducted with specific iPod units; actual results may vary. Rechargeable batteries have a limited number of charge cycles and may eventually need to be replaced ( www.apple.com/uk/support/ipod/service/battery ). Battery life and number of charge cycles vary by use and settings. See www.apple.com/uk/batteries for more information.\niPod and iTunes are for legal or rightholder-authorized copying only. Don’t steal music.\nHelpful?\nYes\nNo\nCharacter limit:\n250\nMaximum character limit is 250.\nPlease don’t include any personal information in your comment.\nSubmit\nThanks for your feedback.",
+      "heading": "Color",
+      "source_text": "White Black",
+      "source_url": "https://support.apple.com/en-ie/112431",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-4th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Capacity 1",
+      "source_text": "8GB | 32GB | 64GB",
+      "source_url": "https://support.apple.com/en-ie/112431",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-4th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Size and Weight 2",
+      "source_text": "Height: 4.4 inches (111.0 mm) Width: 2.32 inches (58.9 mm) Depth: 0.28 inch (7.2 mm) Weight: 3.56 ounces (101 grams)",
+      "source_url": "https://support.apple.com/en-ie/112431",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-4th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Wireless 3",
+      "source_text": "802.11b/g/n Wi-Fi (802.11n 2.4GHz only) Bluetooth 2.1 + EDR Maps-location based service 4 Nike+ support built in 5",
+      "source_url": "https://support.apple.com/en-ie/112431",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-4th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Display",
+      "source_text": "3.5-inch (diagonal) widescreen Multi-Touch display 960-by-640-pixel resolution at 326 pixels per inch",
+      "source_url": "https://support.apple.com/en-ie/112431",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-4th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Camera, Photos, and Video",
+      "source_text": "Video recording, HD (720p) up to 30 frames per second with audio; still photos (960 by 720) with back camera VGA-quality photos and video up to 30 frames per second with front camera Tap to control exposure for video or stills Photo and video geotagging over Wi-Fi",
+      "source_url": "https://support.apple.com/en-ie/112431",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-4th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Input and Output",
+      "source_text": "30-pin dock connector 3.5-mm stereo headphone minijack Built-in speaker Microphone",
+      "source_url": "https://support.apple.com/en-ie/112431",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-4th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Power and Battery 6",
+      "source_text": "Built-in rechargeable lithium-ion battery Music playback time: Up to 40 hours when fully charged Video playback time: Up to 7 hours when fully charged Charging times: Fast charge in about 2 hours (80% capacity), full charge in about 4 hours",
+      "source_url": "https://support.apple.com/en-ie/112431",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-4th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Audio",
+      "source_text": "Frequency response: 20Hz to 20,000Hz Audio formats supported: AAC (8 to 320 Kbps), Protected AAC (from iTunes Store), HE-AAC, MP3 (8 to 320 Kbps), MP3 VBR, Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+), Apple Lossless, AIFF, and WAV User-configurable maximum volume limit",
+      "source_url": "https://support.apple.com/en-ie/112431",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-4th-generation-tech-specs.html"
+    },
+    {
+      "heading": "TV and Video",
+      "source_text": "H.264 video up to 720p, 30 frames per second, Main Profile level 3.1 with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats MPEG-4 video up to 2.5 Mbps, 640 by 480 pixels, 30 frames per second, Simple Profile with AAC-LC audio up to 160 Kbps per channel, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats Motion JPEG (M-JPEG) up to 35 Mbps, 1280 by 720 pixels, 30 frames per second, audio in ulaw, PCM stereo audio in .avi file format Support for 1024 by 768 pixels with Apple VGA Adapter; 576p and 480p with Apple Component AV Cable; 576i and 480i with Apple Composite AV Cable (cables sold separately)",
+      "source_url": "https://support.apple.com/en-ie/112431",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-4th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Headphones",
+      "source_text": "Earphones Frequency response: 20Hz to 20,000Hz Impedance: 32 ohms",
+      "source_url": "https://support.apple.com/en-ie/112431",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-4th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Three-axis gyro Accelerometer Ambient light sensor",
+      "source_url": "https://support.apple.com/en-ie/112431",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-4th-generation-tech-specs.html"
+    },
+    {
+      "heading": "System Requirements",
+      "source_text": "Apple ID (required for some features) Internet access 3 Syncing with iTunes on a Mac or PC requires: Mac: OS X v10.5.8 or later PC: Windows 7; Windows Vista; or Windows XP Home or Professional with Service Pack 3 or later iTunes 10.5 or later (free download from www.itunes.com/uk/download ) 7",
+      "source_url": "https://support.apple.com/en-ie/112431",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-4th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Environmental Requirements",
+      "source_text": "Operating temperature: 32° to 95° F (0° to 35° C) Nonoperating temperature: -4° to 113° F (-20° to 45° C) Relative humidity: 5% to 95% noncondensing Maximum operating altitude: 10,000 feet (3000 m)",
+      "source_url": "https://support.apple.com/en-ie/112431",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-4th-generation-tech-specs.html"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "Language Support English (U.S.), English (UK), Chinese (Simplified), Chinese (Traditional), French, German, Italian, Japanese, Korean, Spanish, Arabic, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese Keyboard Support English (U.S.), English (UK), Chinese - Simplified (Handwriting, Pinyin, Stroke), Chinese - Traditional (Handwriting, Pinyin, Zhuyin, Cangjie, Stroke), French, French (Canadian), French (Switzerland), German (Germany), German (Switzerland), Italian, Japanese (Romaji, Kana), Korean, Spanish, Arabic, Bulgarian, Catalan, Cherokee, Croatian, Czech, Danish, Dutch, Emoji, Estonian, Finnish, Flemish, Greek, Hawaiian, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Latvian, Lithuanian, Macedonian, Malay, Norwegian, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian (Cyrillic/Latin), Slovak, Swedish, Thai, Tibetan, Turkish, Ukrainian, Vietnamese Dictionary Support English (U.S.), English (UK), Chinese (Simplified), Chinese (Traditional), French, French (Canadian), French (Switzerland), German, Italian, Japanese (Romaji, Kana), Korean, Spanish, Arabic, Catalan, Cherokee, Croatian, Czech, Danish, Dutch, Estonian, Finnish, Flemish, Greek, Hawaiian, Hebrew, Hindi, Hungarian, Indonesian, Latvian, Lithuanian, Malay, Norwegian, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese",
+      "source_url": "https://support.apple.com/en-ie/112431",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-4th-generation-tech-specs.html"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "iPod touch Earphones Dock Connector to USB Cable Quick Start guide",
       "source_url": "https://support.apple.com/en-ie/112431",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-4th-generation-tech-specs.html"
     }
@@ -112,9 +202,9 @@
           "64 GB"
         ],
         "unit": null,
-        "source_section": "iPod touch (4th generation)",
+        "source_section": "Capacity 1",
         "verification_status": "source_transcribed",
-        "notes": "Capacities parsed from the explicit Capacity line; original wording remains in source_text."
+        "notes": "Capacity statements parsed from the model-specific Apple technical-specification table and preserved in the matching Capacity section."
       }
     },
     "official_description": {
