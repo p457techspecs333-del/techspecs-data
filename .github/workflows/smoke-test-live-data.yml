@@ -1,0 +1,33 @@
+name: Smoke-test deployed TechSpecs data API
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/catalogue.json"
+      - "data/api-manifest.json"
+      - "data/_redirects"
+      - "data/llms.txt"
+      - "data/index.html"
+      - "scripts/smoke_test_live_data.py"
+      - ".github/workflows/smoke-test-live-data.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+        with:
+          ref: main
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Check deployed manifest, catalogue and versioned product routes
+        run: python scripts/smoke_test_live_data.py
