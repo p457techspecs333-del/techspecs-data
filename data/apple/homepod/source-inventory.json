@@ -57,7 +57,8 @@
     "HomePod mini 2 technical-specification page verified on the official Apple US support domain (https://support.apple.com/en-us/149360); the Ireland-localized URL was not independently accessible during this check, so the record now cites the verified official source.",
     "2026-11-10 progress: added source_text entries for every previously unrepresented official Apple section across all four HomePod records. Existing typed values and provenance were retained; newly transcribed sections remain source_transcribed, not independently field-verified.",
     "2026-11-10 repository audit: all 4 inventory source_file references resolve to existing archived files in the current Git tree. This confirms archive-path presence only, not the accuracy or reachability of every source URL.",
-    "2026-11-10 metadata correction: working_scope model labels now contain product names only; technical-specification page titles remain in the separate title field."
+    "2026-11-10 metadata correction: working_scope model labels now contain product names only; technical-specification page titles remain in the separate title field.",
+    "2026-11-11 focused verification pass: dimensions/weight and normalized wireless/electrical/environmental values for all four HomePod records were compared with the archived source-section text; values matched where present. The HomePod mini 2 record was missing the explicit operating-altitude field despite the source stating testing up to 3,000 metres (10,000 feet); that normalized field has now been added."
   ],
   "record_audit": {
     "checked_at": "2026-11-10",
