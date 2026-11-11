@@ -33,6 +33,8 @@ jobs:
         run: python -m pip install --disable-pip-version-check -r requirements.txt beautifulsoup4
       - name: Download and preserve official Apple source HTML
         run: python scripts/archive_official_sources.py source-archive-requests
+      - name: Attach archived legacy iPod technical-specification sections
+        run: python tools/extract_archived_legacy_ipod_specs.py
       - name: Extract archived legacy Apple Watch technical specifications
         run: python tools/extract_archived_legacy_watch_specs.py
       - name: Validate records after source extraction
