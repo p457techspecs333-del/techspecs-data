@@ -147,7 +147,8 @@
   ],
   "record_notes": [
     "Archival-first-pass record; normalized specifications not inferred.",
-    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text."
+    "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text.",
+    "2026-11-11 normalization pass: missing headphone, video recording/playback, environmental, in-box and language-support fields were added from existing archived Apple technical-specification sections. Raw source text remains unchanged; unspecified headphone measurements and other absent values are not inferred."
   ],
   "normalized_specifications": {
     "navigation_interface": {
@@ -422,6 +423,51 @@
         "unit": null,
         "source_section": "System Requirements",
         "verification_status": "content_verified"
+      }
+    },
+    "headphones": {
+      "statements": {
+        "value": "Earphones Frequency response: 20Hz to 20,000Hz Impedance: 32 ohms",
+        "unit": null,
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim technical statements transcribed from the archived Apple source; absent headphone measurements are not inferred."
+      }
+    },
+    "video_capabilities": {
+      "recording": {
+        "value": "Video recording, HD (720p) up to 30 frames per second with audio; still photos (960 by 720) with back camera VGA-quality photos and video up to 30 frames per second with front camera Tap to control exposure for video or stills Photo and video geotagging over Wi-Fi",
+        "unit": null,
+        "source_section": "Camera, Photos, and Video",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim recording/camera capabilities retained from the archived source."
+      },
+      "playback": {
+        "value": "H.264 video up to 720p, 30 frames per second, Main Profile level 3.1 with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats MPEG-4 video up to 2.5 Mbps, 640 by 480 pixels, 30 frames per second, Simple Profile with AAC-LC audio up to 160 Kbps per channel, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats Motion JPEG (M-JPEG) up to 35 Mbps, 1280 by 720 pixels, 30 frames per second, audio in ulaw, PCM stereo audio in .avi file format Support for 1024 by 768 pixels with Apple VGA Adapter; 576p and 480p with Apple Component AV Cable; 576i and 480i with Apple Composite AV Cable (cables sold separately)",
+        "unit": null,
+        "source_section": "TV and Video",
+        "verification_status": "source_transcribed",
+        "notes": "Verbatim supported playback/output formats retained from the archived source."
+      }
+    },
+    "environment": {},
+    "in_the_box": {
+      "items": {
+        "value": [
+          "iPod touch Earphones Dock Connector to USB Cable Quick Start guide"
+        ],
+        "unit": null,
+        "source_section": "In the Box",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "language_support": {
+      "source_text": {
+        "value": "Language Support English (U.S.), English (UK), Chinese (Simplified), Chinese (Traditional), French, German, Italian, Japanese, Korean, Spanish, Arabic, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese Keyboard Support English (U.S.), English (UK), Chinese - Simplified (Handwriting, Pinyin, Stroke), Chinese - Traditional (Handwriting, Pinyin, Zhuyin, Cangjie, Stroke), French, French (Canadian), French (Switzerland), German (Germany), German (Switzerland), Italian, Japanese (Romaji, Kana), Korean, Spanish, Arabic, Bulgarian, Catalan, Cherokee, Croatian, Czech, Danish, Dutch, Emoji, Estonian, Finnish, Flemish, Greek, Hawaiian, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Latvian, Lithuanian, Macedonian, Malay, Norwegian, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian (Cyrillic/Latin), Slovak, Swedish, Thai, Tibetan, Turkish, Ukrainian, Vietnamese Dictionary Support English (U.S.), English (UK), Chinese (Simplified), Chinese (Traditional), French, French (Canadian), French (Switzerland), German, Italian, Japanese (Romaji, Kana), Korean, Spanish, Arabic, Catalan, Cherokee, Croatian, Czech, Danish, Dutch, Estonian, Finnish, Flemish, Greek, Hawaiian, Hebrew, Hindi, Hungarian, Indonesian, Latvian, Lithuanian, Malay, Norwegian, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese",
+        "unit": null,
+        "source_section": "Languages",
+        "verification_status": "source_transcribed",
+        "notes": "Original language-support statements retained without attempting to reinterpret Apple's locale grouping."
       }
     }
   }
