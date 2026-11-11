@@ -214,21 +214,13 @@
       },
       "weight": {
         "value": [
-          {
-            "value": 10.7,
-            "unit": "g",
-            "finish": "anodized aluminum"
-          },
-          {
-            "value": 17.2,
-            "unit": "g",
-            "finish": "polished stainless steel"
-          }
+          10.7,
+          17.2
         ],
-        "unit": null,
+        "unit": "g",
         "source_section": "Size and weight",
         "verification_status": "source_transcribed",
-        "notes": "Both finish-specific weights are stated in the archived source."
+        "notes": "Values correspond in order to anodized aluminum (10.7 g) and polished stainless steel (17.2 g)."
       }
     },
     "storage": {
@@ -414,6 +406,20 @@
         ],
         "unit": null,
         "source_section": "VoiceOver Kit",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "weight_by_finish": {
+      "anodized_aluminum": {
+        "value": 10.7,
+        "unit": "g",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      },
+      "polished_stainless_steel": {
+        "value": 17.2,
+        "unit": "g",
+        "source_section": "Size and weight",
         "verification_status": "source_transcribed"
       }
     }
