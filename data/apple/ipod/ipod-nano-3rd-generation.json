@@ -19,18 +19,17 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-ie/103823",
-    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-    "source_title": "Identify your iPod model - Apple Support (IE)",
-    "publisher": "Apple",
+    "source_url": "https://support.apple.com/en-ie/112552",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html",
+    "source_title": "iPod nano (3rd generation) - Technical Specifications - Apple Support (IE)",
+    "publisher": "Apple Support (Ireland)",
     "published_at": null,
-    "checked_at": "2026-11-09",
-    "verification_status": "partially_verified",
-    "verification_notes": "This record's retained evidence is extracted from Apple's general 'Identify your iPod model' page, not an individual technical-specifications page. The archived HTML file is the shared source page. Only identification facts explicitly present in that page are supported; detailed technical specifications require separate model-specific sources.",
+    "checked_at": "2026-11-11",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification HTML archived on 2026-11-11. 19 model-specific sections are retained. The first section preserves model-identification evidence from Apple's separate identification page.",
     "notes": [
-      "Primary evidence is Apple's official iPod identification page; it supports only the model-identification statements retained in the source section.",
-      "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually.",
-      "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112552 (apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html); Third-generation iPod nano technical specifications. Typed normalized values were not inferred by this archival pass."
+      "Technical values are transcribed from the model-specific technical-specification sections; each field names its source section.",
+      "Model-identification evidence remains preserved in the first section from https://support.apple.com/en-ie/103823, archived at apple_remaining_extraction/technical_specs_html/ipod-index.html."
     ]
   },
   "extraction": {
@@ -160,12 +159,19 @@
       "source_text": "Apple Component AV Cable MB128LL/A\nApple Composite AV Cable MB129LL/A\nApple USB Power Adapter MB051LL/A\nApple iPod Dock Connector to USB 2.0 Cable MA591LL/A\nWorld Travel Adapter Kit M8794G/B",
       "source_url": "https://support.apple.com/en-ie/112552",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "USB through dock connector; component and composite video through dock connector (with AV cables or kit, sold separately); audio through headphone jack",
+      "source_url": "https://support.apple.com/en-ie/112552",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
     }
   ],
   "record_notes": [
     "Archival-first-pass record; normalized specifications not inferred.",
     "Field extraction pass 2026-11-09: extracted explicit model-number/date, capacity and navigation data from the preserved official Apple identification text.",
-    "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112552 (apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html); Third-generation iPod nano technical specifications. Typed normalized values were not inferred by this archival pass."
+    "Model-specific Apple technical-specification source preserved section-by-section from https://support.apple.com/en-ie/112552 (apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html); Third-generation iPod nano technical specifications. Typed normalized values were not inferred by this archival pass.",
+    "2026-11-11 normalization pass: typed dimensions/weight, storage, display, audio, battery, headphones, connectivity, system requirements and environmental fields were added from the already archived model-specific Apple technical-specification sections. Original identification-page evidence remains preserved."
   ],
   "normalized_specifications": {
     "navigation_interface": {
@@ -210,6 +216,295 @@
         "source_section": "iPod nano (3rd generation)",
         "verification_status": "source_transcribed",
         "notes": "Description transcribed from the official Apple identification page."
+      }
+    },
+    "size_weight_statements": {
+      "value": {
+        "value": [
+          "Height: 2.75 inches (69.8 mm)",
+          "Width: 2.06 inches (52.3 mm)",
+          "Depth: 0.26 inch (6.5 mm)",
+          "Weight: 1.74 ounces (49.2 grams)"
+        ],
+        "unit": null,
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "dimensions": {
+      "height": {
+        "value": 69.8,
+        "unit": "mm",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      },
+      "width": {
+        "value": 52.3,
+        "unit": "mm",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      },
+      "depth": {
+        "value": 6.5,
+        "unit": "mm",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      },
+      "weight": {
+        "value": 49.2,
+        "unit": "g",
+        "source_section": "Size and weight",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "storage": {
+      "capacity": {
+        "value": [
+          4,
+          8
+        ],
+        "unit": "GB",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed"
+      },
+      "medium": {
+        "value": "flash drive",
+        "unit": "type",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed"
+      },
+      "songs_at_128_kbps_aac": {
+        "value": [
+          1000,
+          2000
+        ],
+        "unit": "songs",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed"
+      },
+      "photos": {
+        "value": [
+          3500,
+          7000
+        ],
+        "unit": "photos",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed",
+        "notes": "Capacity-to-photo mapping is preserved in the source section; do not assume a linear ratio."
+      },
+      "video": {
+        "value": [
+          4,
+          8
+        ],
+        "unit": "hours",
+        "source_section": "Capacity",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "display": {
+      "technology": {
+        "value": "2-inch liquid crystal display with blue-white LED backlight",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "diagonal": {
+        "value": 2,
+        "unit": "inches",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "resolution": {
+        "value": "320 × 240",
+        "unit": "pixels",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "pixel_density": {
+        "value": 204,
+        "unit": "ppi",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "audio": {
+      "frequency_response": {
+        "value": "20Hz to 20,000Hz",
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      },
+      "formats_supported": {
+        "value": [
+          "AAC (16 to 320 Kbps)",
+          "Protected AAC (from iTunes Store)",
+          "MP3 (16 to 320 Kbps)",
+          "MP3 VBR",
+          "Audible (formats 2, 3 and 4)",
+          "Apple Lossless",
+          "AIFF",
+          "WAV"
+        ],
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      },
+      "user_configurable_maximum_volume_limit": {
+        "value": true,
+        "unit": null,
+        "source_section": "Audio",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "headphones": {
+      "type": {
+        "value": "Earphones",
+        "unit": null,
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      },
+      "frequency_response": {
+        "value": "20Hz to 20,000Hz",
+        "unit": null,
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      },
+      "impedance": {
+        "value": 32,
+        "unit": "ohms",
+        "source_section": "Headphones",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "battery": {
+      "type": {
+        "value": "Built-in rechargeable lithium ion battery",
+        "unit": null,
+        "source_section": "Power and battery 6",
+        "verification_status": "source_transcribed"
+      },
+      "music_playback_time_max": {
+        "value": 24,
+        "unit": "hours",
+        "source_section": "Power and battery 6",
+        "verification_status": "source_transcribed"
+      },
+      "video_playback_time_max": {
+        "value": 5,
+        "unit": "hours",
+        "source_section": "Power and battery 6",
+        "verification_status": "source_transcribed"
+      },
+      "fast_charge_time": {
+        "value": 1.5,
+        "unit": "hours",
+        "source_section": "Power and battery 6",
+        "verification_status": "source_transcribed",
+        "notes": "Source states fast charge reaches 80% of battery capacity."
+      },
+      "full_charge_time": {
+        "value": 3,
+        "unit": "hours",
+        "source_section": "Power and battery 6",
+        "verification_status": "source_transcribed"
+      },
+      "charging_method": {
+        "value": "Charging via USB to computer system or power adapter (sold separately)",
+        "unit": null,
+        "source_section": "Power and battery 6",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "connectors": {
+      "ports": {
+        "value": [
+          "Dock connector",
+          "3.5-mm stereo headphone jack"
+        ],
+        "unit": null,
+        "source_section": "Input and output",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "connectivity": {
+      "interfaces": {
+        "value": "USB through dock connector; component and composite video through dock connector (with AV cables or kit, sold separately); audio through headphone jack",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "system_requirements": {
+      "mac": {
+        "value": "Mac computer with USB 2.0 port\nMac OS X v10.4.8 or later\niTunes 7.4 or later",
+        "unit": null,
+        "source_section": "Mac system requirements",
+        "verification_status": "source_transcribed"
+      },
+      "windows": {
+        "value": "PC with USB 2.0 port\nWindows Vista or Windows XP Home or Professional with Service Pack 2 or later\niTunes 7.4 or later",
+        "unit": null,
+        "source_section": "Windows system requirements",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "environment": {
+      "operating_temperature": {
+        "value": "32° to 95° F (0° to 35° C)",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "non_operating_temperature": {
+        "value": "-4° to 113° F (-20° to 45° C)",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "relative_humidity": {
+        "value": "5% to 95% noncondensing",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "maximum_operating_altitude": {
+        "value": "10,000 feet (3000 m)",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "in_the_box": {
+      "items": {
+        "value": [
+          "iPod nano",
+          "Earphones",
+          "USB 2.0 cable",
+          "Dock adapter",
+          "Quick Start guide"
+        ],
+        "unit": null,
+        "source_section": "In the box",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "video": {
+      "formats_supported": {
+        "value": "H.264 video, up to 1.5 Mbps, 640 by 480 pixels, 30 frames per second, Low-Complexity version of the H.264 Baseline Profile with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats; H.264 video, up to 2.5 Mbps, 640 by 480 pixels, 30 frames per second, Baseline Profile up to Level 3.0 with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats; MPEG-4 video, up to 2.5 Mbps, 640 by 480 pixels, 30 frames per second, Simple Profile with AAC-LC audio up to 160 Kbps, 48kHz, stereo audio in .m4v, .mp4, and .mov file formats",
+        "unit": null,
+        "source_section": "Video",
+        "verification_status": "source_transcribed",
+        "notes": "Full supported video profiles, bitrates, frame rates, audio limits and containers are transcribed from the source section."
+      }
+    },
+    "language_support": {
+      "statements": {
+        "value": "Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Simplified Chinese, Spanish, Swedish, Traditional Chinese, and Turkish\nAdditional language support for display of song, album, and artist information: Bulgarian, Croatian, Romanian, Serbian, Slovak, Slovenian, and Ukrainian",
+        "unit": null,
+        "source_section": "Languages",
+        "verification_status": "source_transcribed",
+        "notes": "Language lists and locale groups remain in the source's published order."
       }
     }
   }
