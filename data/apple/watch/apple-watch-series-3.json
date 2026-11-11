@@ -11,35 +11,92 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-ie/docs/watch/pl138",
-    "source_file": null,
-    "source_title": "Apple Watch Series 3 - Manuals and Downloads",
-    "publisher": "Apple Support (Ireland)",
+    "source_url": "https://support.apple.com/en-in/111891",
+    "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-3-tech-specs.html",
+    "source_title": "Apple Watch Series 3 - Technical Specifications - Apple Support (IN)",
+    "publisher": "Apple Support",
     "published_at": null,
-    "checked_at": "2026-11-08",
-    "verification_status": "url_checked",
-    "verification_notes": "Apple Support Ireland search result confirms the official Series 3 support page, Tech Specs reference, and year introduced 2017.",
-    "notes": []
+    "checked_at": "2026-11-11",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification HTML archived with a SHA-256 sidecar; page identity matched 'Apple Watch Series 3'; 9 specification sections extracted. Model identity and year-introduced evidence is retained separately from Apple's identification page at https://support.apple.com/en-ie/108056.",
+    "notes": [
+      "Technical specification sections are transcribed from the archived model-specific Apple Support page; every section retains its own source URL and archive path.",
+      "Model identity/year evidence is separately sourced from https://support.apple.com/en-ie/108056, archived at apple_watch_extraction/technical_specs_html/apple-watch-model-identification.html.",
+      "This is an archival-first extraction; normalized values have not been inferred from the section text."
+    ]
   },
   "extraction": {
-    "method": "manual",
+    "method": "section_preserving",
     "normalization_status": "archival_first_pass",
-    "note": "Initial archival record prioritising correct model identity and official Apple source linkage. The linked Apple Support page identifies the model and provides a Tech Specs reference; consult it for the complete specification.",
-    "extracted_at": "2026-11-08",
+    "note": "Official Apple technical-specification source text is retained by section. Existing product identity fields are preserved; no normalized specifications have been inferred.",
+    "extracted_at": "2026-11-11",
     "reviewed_at": null
   },
   "sections": [
     {
       "heading": "Model identification",
-      "source_text": "Apple Watch Series 3. Year introduced: 2017."
+      "source_text": "Apple Watch Series 3. Year introduced: 2017.",
+      "source_url": "https://support.apple.com/en-ie/108056",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-model-identification.html"
     },
     {
-      "heading": "Source coverage",
-      "source_text": "Refer to the official Apple Support source and its Tech Specs reference for complete technical details."
+      "heading": "Model",
+      "source_text": "Series 3 GPS + Cellular\nApple Watch\nAluminum case with Sport Band or Sport Loop\nStainless steel case with Sport Band or Milanese Loop\nApple Watch Nike+\nAluminum case with Nike Sport Band or Nike Sport Loop\nApple Watch Hermès\nStainless steel case with Hermès leather band\nAdditional Sport Band included with purchase\nApple Watch Edition\nCeramic case with Sport Band\nSeries 3 GPS\nApple Watch\nAluminum case with Sport Band\nApple Watch Nike+\nAluminum case with Nike Sport Band",
+      "source_url": "https://support.apple.com/en-in/111891",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-3-tech-specs.html"
+    },
+    {
+      "heading": "Features",
+      "source_text": "GPS, GLONASS, Galileo, and QZSS\nAltimeter\nWater resistant\n50 meters\n1\nOptical heart sensor\nEmergency SOS\nAccelerometer\nup to 16 g-forces\nGyroscope\nAmbient light sensor\nSpeaker\nMicrophone\nApple Pay\nGymKit\nCapacity 16GB\nGPS + Cellular\nCapacity 8GB\nGPS\nCeramic and sapphire crystal back (center)\nGPS + Cellular\nComposite back\nGPS",
+      "source_url": "https://support.apple.com/en-in/111891",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-3-tech-specs.html"
+    },
+    {
+      "heading": "Display",
+      "source_text": "42mm\n312 by 390 pixels\n740 sq mm display area\n38mm\n272 by 340 pixels\n563 sq mm display area\nRetina OLED display\n1000 nits brightness",
+      "source_url": "https://support.apple.com/en-in/111891",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-3-tech-specs.html"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "S3 SiP with dual-core processor\nW2\nApple wireless chip",
+      "source_url": "https://support.apple.com/en-in/111891",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-3-tech-specs.html"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "LTE and UMTS\n2\nGPS + Cellular models\nLearn more about available carriers\nWi-Fi\n802.11b/g/n 2.4GHz\nBluetooth 4.2",
+      "source_url": "https://support.apple.com/en-in/111891",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-3-tech-specs.html"
+    },
+    {
+      "heading": "Power",
+      "source_text": "Built-in rechargeable lithium-ion battery\nUp to 18 hours\n3\nUSB-A magnetic charging cable\nUSB power adapter\nGPS + Cellular model only",
+      "source_url": "https://support.apple.com/en-in/111891",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-3-tech-specs.html"
+    },
+    {
+      "heading": "Environmental Features 4",
+      "source_text": "Energy efficient\n5\nResponsible packaging\n6\nArsenic-free display glass\n7\nMercury-, BFR-, PVC-, and beryllium-free\n7",
+      "source_url": "https://support.apple.com/en-in/111891",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-3-tech-specs.html"
+    },
+    {
+      "heading": "Dimensions",
+      "source_text": "Aluminum case - 38mm\nHeight: 38.6mm\nWidth: 33.3mm\nDepth: 11.4mm\nCase Weight (GPS): 26.7g\nCase Weight (GPS + Cellular): 28.7g\nAluminum case - 42mm\nHeight: 42.5mm\nWidth: 36.4mm\nDepth: 11.4mm\nCase Weight (GPS): 32.3g\nCase Weight (GPS + Cellular): 34.9g\nStainless Steel case - 38mm\nHeight: 38.6mm\nWidth: 33.3mm\nDepth: 11.4mm\nCase Weight: 42.4g\nStainless Steel case - 42mm\nHeight: 42.5mm\nWidth: 36.4mm\nDepth: 11.4mm\nCase Weight: 52.8g\nWhite Ceramic case - 38mm\nHeight: 39.2mm\nWidth: 34.0mm\nDepth: 11.8mm\nCase Weight: 40.1g\nWhite Ceramic case - 42mm\nHeight: 42.6mm\nWidth: 36.5mm\nDepth: 11.4mm\nCase Weight: 46.4g",
+      "source_url": "https://support.apple.com/en-in/111891",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-3-tech-specs.html"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "Language support\nEnglish (Australia, UK, U.S.), Chinese (Simplified, Traditional, Traditional Hong Kong), French (Canada, France), German, Italian, Japanese, Korean, Spanish (Latin America, Mexico, Spain), Arabic, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hindi, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nDictation languages\nEnglish (Australia, Canada, India, Indonesia, Ireland, Malaysia, New Zealand, Philippines, Saudi Arabia, Singapore, South Africa, United Arab Emirates, UK, U.S.), Spanish (Argentina, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Panama, Paraguay, Peru, Spain, Uruguay, U.S.), French (Belgium, Canada, France, Luxembourg, Switzerland), German (Austria, Germany, Luxembourg, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (China mainland, Hong Kong, Macao), Arabic (Kuwait, Qatar, Saudi Arabia, United Arab Emirates), Catalan, Croatian, Czech, Danish, Dutch (Belgium, Netherlands), Finnish, Greek, Hebrew, Hindi (India), Hungarian, Indonesian, Malaysian, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Shanghainese (China mainland), Slovakian, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nSiri languages\nEnglish (Australia, Canada, India, Ireland, New Zealand, Singapore, South Africa, UK, U.S.), Spanish (Chile, Mexico, Spain, U.S.), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (China mainland, Hong Kong), Arabic (Saudi Arabia, United Arab Emirates), Danish (Denmark), Dutch (Belgium, Netherlands), Finnish (Finland), Hebrew (Israel), Malay (Malaysia), Norwegian (Norway), Portuguese (Brazil), Russian (Russia), Swedish (Sweden), Thai (Thailand), Turkish (Türkiye)",
+      "source_url": "https://support.apple.com/en-in/111891",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-3-tech-specs.html"
     }
   ],
   "record_notes": [
     "First-pass Apple Watch record based on an official Apple Support product-specific page.",
-    "The source URL is official; direct article/locale validation may remain a follow-up item."
+    "The source URL is official; direct article/locale validation may remain a follow-up item.",
+    "Technical specification sections now come from the archived model-specific Apple Support page; model/year identity is separately sourced from Apple's identification page."
   ]
 }

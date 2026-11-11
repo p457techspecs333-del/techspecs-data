@@ -11,35 +11,92 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-ie/docs/watch/pl291",
-    "source_file": null,
-    "source_title": "Apple Watch Series 6 - Manuals and Downloads",
-    "publisher": "Apple Support (Ireland)",
+    "source_url": "https://support.apple.com/en-ie/111918",
+    "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-6-tech-specs.html",
+    "source_title": "Apple Watch Series 6 - Technical Specifications - Apple Support (IE)",
+    "publisher": "Apple Support",
     "published_at": null,
-    "checked_at": "2026-11-08",
-    "verification_status": "url_checked",
-    "verification_notes": "Apple Support search results confirm the official Series 6 support page, its Tech Specs reference, and year introduced 2020 under other regional locales. Ireland-localized URL is pending direct confirmation.",
-    "notes": []
+    "checked_at": "2026-11-11",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification HTML archived with a SHA-256 sidecar; page identity matched 'Apple Watch Series 6'; 9 specification sections extracted. Model identity and year-introduced evidence is retained separately from Apple's identification page at https://support.apple.com/en-ie/108056.",
+    "notes": [
+      "Technical specification sections are transcribed from the archived model-specific Apple Support page; every section retains its own source URL and archive path.",
+      "Model identity/year evidence is separately sourced from https://support.apple.com/en-ie/108056, archived at apple_watch_extraction/technical_specs_html/apple-watch-model-identification.html.",
+      "This is an archival-first extraction; normalized values have not been inferred from the section text."
+    ]
   },
   "extraction": {
-    "method": "manual",
+    "method": "section_preserving",
     "normalization_status": "archival_first_pass",
-    "note": "Initial archival record prioritising correct model identity and official Apple source linkage. The linked Apple Support page identifies the model and exposes its Tech Specs reference; use that reference for full technical details.",
-    "extracted_at": "2026-11-08",
+    "note": "Official Apple technical-specification source text is retained by section. Existing product identity fields are preserved; no normalized specifications have been inferred.",
+    "extracted_at": "2026-11-11",
     "reviewed_at": null
   },
   "sections": [
     {
       "heading": "Model identification",
-      "source_text": "Apple Watch Series 6. Year introduced: 2020."
+      "source_text": "Apple Watch Series 6. Year introduced: 2020.",
+      "source_url": "https://support.apple.com/en-ie/108056",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-model-identification.html"
     },
     {
-      "heading": "Source coverage",
-      "source_text": "Refer to the official Apple Support source and its Tech Specs reference for the complete technical specification."
+      "heading": "Finishes",
+      "source_text": "GPS + Cellular\nAluminum\nSilver\nSpace Gray\nGold\nBlue\n(PRODUCT)\nRED\nStainless Steel\nSilver\nGraphite\nGold\nTitanium\nTitanium\nSpace black (DLC)\nGPS\nAluminum\nSilver\nSpace Gray\nGold\nBlue\n(PRODUCT)\nRED\nApple Watch Nike available in silver and space gray aluminum.\nApple Watch Hermès available in stainless steel and space black stainless steel.",
+      "source_url": "https://support.apple.com/en-ie/111918",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-6-tech-specs.html"
+    },
+    {
+      "heading": "Features",
+      "source_text": "GPS/GNSS\nCompass\nAlways-on altimeter\nWater resistant\n50 meters\n1\nBlood oxygen sensor\n(Blood Oxygen app)\n2\nElectrical heart sensor\n(ECG app)\n3\nThird-generation optical heart sensor\nInternational emergency calling\n5\nEmergency SOS\n4\nAccelerometer\nup to 32 g-forces with fall detection\nGyroscope\nAmbient light sensor\nSpeaker\nMicrophone\nApple Pay\nGymKit\nCapacity 32GB\nCeramic and sapphire crystal back",
+      "source_url": "https://support.apple.com/en-ie/111918",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-6-tech-specs.html"
+    },
+    {
+      "heading": "Display",
+      "source_text": "44mm\n368 by 448 pixels\n977 sq mm display area\n40mm\n324 by 394 pixels\n759 sq mm display area\nAlways-On Retina LTPO OLED display\n1000 nits brightness",
+      "source_url": "https://support.apple.com/en-ie/111918",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-6-tech-specs.html"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "S6 SiP with 64-bit dual-core processor\nW3\nApple wireless chip\nU1 chip\n(Ultra Wideband)\n8",
+      "source_url": "https://support.apple.com/en-ie/111918",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-6-tech-specs.html"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "LTE and UMTS\n7\nGPS + Cellular models\nLearn more about available carriers\nWi-Fi\n802.11b/g/n 2.4GHz and 5GHz\nBluetooth 5.0",
+      "source_url": "https://support.apple.com/en-ie/111918",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-6-tech-specs.html"
+    },
+    {
+      "heading": "Power",
+      "source_text": "Built-in rechargeable lithium-ion battery\nUp to 18 hours\n9\nMagnetic charging cable",
+      "source_url": "https://support.apple.com/en-ie/111918",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-6-tech-specs.html"
+    },
+    {
+      "heading": "Dimensions",
+      "source_text": "40mm\nHeight: 40mm\nWidth: 34mm\nDepth: 10.7mm\n44mm\nHeight: 44mm\nWidth: 38mm\nDepth: 10.7mm",
+      "source_url": "https://support.apple.com/en-ie/111918",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-6-tech-specs.html"
+    },
+    {
+      "heading": "Weight",
+      "source_text": "40mm\nAluminum: 30.5g\nStainless Steel: 39.7g\nTitanium: 34.6g\n44mm\nAluminum: 36.5g\nStainless Steel: 47.1g\nTitanium: 41.3g",
+      "source_url": "https://support.apple.com/en-ie/111918",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-6-tech-specs.html"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "Apple Watch Series 6\nBand/Loop\n1m Magnetic Charging Cable\nThe case materials and the band types would be based on your selection",
+      "source_url": "https://support.apple.com/en-ie/111918",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-6-tech-specs.html"
     }
   ],
   "record_notes": [
     "First-pass historical Apple Watch record based on an official Apple Support product-specific page.",
-    "Direct Tech Specs article URL is not yet independently established for this historical model."
+    "Direct Tech Specs article URL is not yet independently established for this historical model.",
+    "Technical specification sections now come from the archived model-specific Apple Support page; model/year identity is separately sourced from Apple's identification page."
   ]
 }

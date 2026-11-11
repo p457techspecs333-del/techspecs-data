@@ -11,35 +11,68 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-ie/108056",
-    "source_file": null,
-    "source_title": "Identify your Apple Watch",
-    "publisher": "Apple Support (Ireland)",
+    "source_url": "https://support.apple.com/en-ae/112009",
+    "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-first-generation-tech-specs.html",
+    "source_title": "Apple Watch (1st generation) - Technical Specifications - Apple Support (AE)",
+    "publisher": "Apple Support",
     "published_at": null,
-    "checked_at": "2026-11-08",
-    "verification_status": "url_checked",
-    "verification_notes": "Official Apple Support model-identification page is the confirmed source for distinguishing the original 2015 Apple Watch from Series 1. A separate direct Tech Specs page for the original generation was not established in this pass.",
-    "notes": []
+    "checked_at": "2026-11-11",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification HTML archived with a SHA-256 sidecar; page identity matched 'Apple Watch (1st generation)'; 5 specification sections extracted. Model identity and year-introduced evidence is retained separately from Apple's identification page at https://support.apple.com/en-ie/108056.",
+    "notes": [
+      "Technical specification sections are transcribed from the archived model-specific Apple Support page; every section retains its own source URL and archive path.",
+      "Model identity/year evidence is separately sourced from https://support.apple.com/en-ie/108056, archived at apple_watch_extraction/technical_specs_html/apple-watch-model-identification.html.",
+      "This is an archival-first extraction; normalized values have not been inferred from the section text."
+    ]
   },
   "extraction": {
-    "method": "manual",
+    "method": "section_preserving",
     "normalization_status": "archival_first_pass",
-    "note": "Identity-first archival record. The source is Apple's official model-identification page rather than a direct historical Tech Specs article; this limitation is explicit and should not be upgraded without locating a more specific official source.",
-    "extracted_at": "2026-11-08",
+    "note": "Official Apple technical-specification source text is retained by section. Existing product identity fields are preserved; no normalized specifications have been inferred.",
+    "extracted_at": "2026-11-11",
     "reviewed_at": null
   },
   "sections": [
     {
       "heading": "Model identification",
-      "source_text": "Apple Watch (1st generation). Year introduced: 2015."
+      "source_text": "Apple Watch (1st generation). Year introduced: 2015.",
+      "source_url": "https://support.apple.com/en-ie/108056",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-model-identification.html"
     },
     {
-      "heading": "Source coverage",
-      "source_text": "Apple's official model-identification page is the available authoritative reference for distinguishing the original Apple Watch from later Series models. A direct Tech Specs source remains to be located."
+      "heading": "Finishes",
+      "source_text": "38mm (A1553)\nStainless Steel\nSpace Black Stainless Steel\n42mm (A1554)\nStainless Steel\nSpace Black Stainless Steel",
+      "source_url": "https://support.apple.com/en-ae/112009",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-first-generation-tech-specs.html"
+    },
+    {
+      "heading": "Dimensions",
+      "source_text": "38mm (A1553)\nHeight\n: 38.6mm\nWidth\n: 33.3mm\nDepth\n: 10.5mm\nCase\n: 40g\n42mm (A1554)\nHeight\n: 42.0mm\nWidth\n: 35.9mm\nDepth\n: 10.5mm\nCase\n: 50g",
+      "source_url": "https://support.apple.com/en-ae/112009",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-first-generation-tech-specs.html"
+    },
+    {
+      "heading": "Apple Watch features",
+      "source_text": "Stainless steel or space black stainless steel case\nSapphire crystal\nRetina display with Force Touch\nCeramic back\nDigital Crown\nHeart rate sensor, accelerometer, and gyroscope\nAmbient light sensor\nSpeaker and microphone\nWi-Fi (802.11b/g/n 2.4GHz)\nBluetooth 4.0\nUp to 18 hours of battery life\n1\nWater resistant\n2\nwatchOS 2",
+      "source_url": "https://support.apple.com/en-ae/112009",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-first-generation-tech-specs.html"
+    },
+    {
+      "heading": "What’s in the box",
+      "source_text": "Apple Watch\nMagnetic charging cable (2 m)\nUSB power adapter (5W)\nBand (Sport Band includes band that can be configured for either S/M or M/L length)\nQuick start guide",
+      "source_url": "https://support.apple.com/en-ae/112009",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-first-generation-tech-specs.html"
+    },
+    {
+      "heading": "Language",
+      "source_text": "Language Support\nEnglish (Australia, UK, U.S.), Chinese (Simplified, Traditional, Traditional Hong Kong), French (Canada, France), German, Italian, Japanese, Korean, Spanish (Latin America, Mexico, Spain), Arabic, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nDictation languages\nEnglish (Australia, Canada, India, Ireland, New Zealand, Philippines, Singapore, South Africa, UK, U.S.), Spanish (Chile, Colombia, Mexico, Spain, U.S.), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (Hong Kong), Arabic (Saudi Arabia, United Arab Emirates), Catalan, Croatian, Czech, Danish (Denmark), Dutch (Belgium, Netherlands), Finnish, Greek, Hebrew (Israel), Hungarian, Indonesian, Malaysian, Norwegian (Norway), Polish, Portuguese (Brazil, Portugal), Romanian, Russian (Russia), Slovakian, Swedish (Sweden), Turkish (Türkiye), Thai (Thailand), Ukrainian, Vietnamese\nSiri languages\nEnglish (Australia, Canada, India, New Zealand, Singapore, UK, U.S.), Spanish (Mexico, Spain, U.S.), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (Hong Kong), Arabic (Saudi Arabia, United Arab Emirates), Danish (Denmark), Dutch (Belgium, Netherlands), Finnish (Finland), Hebrew (Israel), Malay (Malaysia), Norwegian (Norway), Russian (Russia), Swedish (Sweden), Turkish (Türkiye), Thai (Thailand), Portuguese (Brazil)",
+      "source_url": "https://support.apple.com/en-ae/112009",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-first-generation-tech-specs.html"
     }
   ],
   "record_notes": [
     "This is a distinct 2015 first-generation model, not Apple Watch Series 1 (introduced 2016).",
-    "The source is an official identification index; a dedicated Tech Specs URL was not confirmed."
+    "The source is an official identification index; a dedicated Tech Specs URL was not confirmed.",
+    "Technical specification sections now come from the archived model-specific Apple Support page; model/year identity is separately sourced from Apple's identification page."
   ]
 }

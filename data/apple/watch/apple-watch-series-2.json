@@ -11,34 +11,79 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-ie/docs/watch/pl286",
-    "source_file": null,
-    "source_title": "Apple Watch Series 2 - Manuals and Downloads",
-    "publisher": "Apple Support (Ireland)",
+    "source_url": "https://support.apple.com/en-za/112022",
+    "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-2-tech-specs.html",
+    "source_title": "Apple Watch Series 2 - Technical Specifications - Apple Support (ZA)",
+    "publisher": "Apple Support",
     "published_at": null,
-    "checked_at": "2026-11-08",
-    "verification_status": "url_checked",
-    "verification_notes": "Apple Support search results confirm the official Series 2 support page, Tech Specs reference and year introduced 2016 under other regional locales; Ireland URL is pending direct confirmation.",
-    "notes": []
+    "checked_at": "2026-11-11",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification HTML archived with a SHA-256 sidecar; page identity matched 'Apple Watch Series 2'; 7 specification sections extracted. Model identity and year-introduced evidence is retained separately from Apple's identification page at https://support.apple.com/en-ie/108056.",
+    "notes": [
+      "Technical specification sections are transcribed from the archived model-specific Apple Support page; every section retains its own source URL and archive path.",
+      "Model identity/year evidence is separately sourced from https://support.apple.com/en-ie/108056, archived at apple_watch_extraction/technical_specs_html/apple-watch-model-identification.html.",
+      "This is an archival-first extraction; normalized values have not been inferred from the section text."
+    ]
   },
   "extraction": {
-    "method": "manual",
+    "method": "section_preserving",
     "normalization_status": "archival_first_pass",
-    "note": "Initial archival record prioritising correct model identity and official Apple source linkage. The official Apple Support page identifies the model and links to Tech Specs; consult that source for full technical detail.",
-    "extracted_at": "2026-11-08",
+    "note": "Official Apple technical-specification source text is retained by section. Existing product identity fields are preserved; no normalized specifications have been inferred.",
+    "extracted_at": "2026-11-11",
     "reviewed_at": null
   },
   "sections": [
     {
       "heading": "Model identification",
-      "source_text": "Apple Watch Series 2. Year introduced: 2016."
+      "source_text": "Apple Watch Series 2. Year introduced: 2016.",
+      "source_url": "https://support.apple.com/en-ie/108056",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-model-identification.html"
     },
     {
-      "heading": "Source coverage",
-      "source_text": "Refer to the official Apple Support source and its Tech Specs reference for the full technical specification."
+      "heading": "Series 2",
+      "source_text": "With built-in GPS and GLONASS, water resistance to 50 meters,\n1\na dual‑core processor, a 2x brighter display, and watchOS 3.\nApple Watch\nAluminum case with Sport Band or Woven Nylon band\nStainless steel case with Sport Band, stainless steel band, or leather band\nApple Watch Nike+\nAluminum case with Nike Sport Band\nApple Watch Hermès\nStainless steel case with Hermès leather band\nAdditional Sport Band included with purchase\nApple Watch Edition\nCeramic case with Sport Band\nMagnetic Charging Dock included with purchase",
+      "source_url": "https://support.apple.com/en-za/112022",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-2-tech-specs.html"
+    },
+    {
+      "heading": "Dimensions",
+      "source_text": "Aluminum case - 38mm\nHeight: 38.6mm\nWidth: 33.3mm\nDepth: 11.4mm\nCase Weight: 28.2g\nAluminum case - 42mm\nHeight: 42.5mm\nWidth: 36.4mm\nDepth: 11.4mm\nCase Weight: 34.2g\nStainless Steel case - 38mm\nHeight: 38.6mm\nWidth: 33.3mm\nDepth: 11.4mm\nCase Weight: 41.9g\nStainless Steel case - 42mm\nHeight: 42.5mm\nWidth: 36.4mm\nDepth: 11.4mm\nCase Weight: 52.4g\nWhite Ceramic case - 38mm\nHeight: 39.2mm\nWidth: 34.0mm\nDepth: 11.8mm\nCase Weight: 39.6g\nWhite Ceramic case - 42mm\nHeight: 42.6mm\nWidth: 36.5mm\nDepth: 11.4mm\nCase Weight: 45.6g",
+      "source_url": "https://support.apple.com/en-za/112022",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-2-tech-specs.html"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "Dual‑core processor\nBuilt‑in GPS and GLONASS",
+      "source_url": "https://support.apple.com/en-za/112022",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-2-tech-specs.html"
+    },
+    {
+      "heading": "Features",
+      "source_text": "Built-in GPS and GLONASS\nWater resistant 50 meters\n1\nWi-Fi (802.11b/g/n 2.4GHz)\nBluetooth 4.0\nHeart rate sensor\nAccelerometer\nGyroscope\nAmbient light sensor",
+      "source_url": "https://support.apple.com/en-za/112022",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-2-tech-specs.html"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Second-generation OLED Retina display with Force Touch 2x brighter (1000 nits)\nSapphire crystal (stainless steel and ceramic cases)\nIon-X glass (aluminum cases)\n272 by 340 pixels (38mm)\n312 by 390 pixels (42mm)",
+      "source_url": "https://support.apple.com/en-za/112022",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-2-tech-specs.html"
+    },
+    {
+      "heading": "Power and Battery",
+      "source_text": "Built-in rechargeable lithium-ion battery\nUp to 18 hours\n2\nMagnetic charging cable\nUSB power adapter",
+      "source_url": "https://support.apple.com/en-za/112022",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-2-tech-specs.html"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "Language support\nEnglish (Australia, Canada, UK, U.S.), Chinese (Simplified, Traditional, Traditional Hong Kong), French (Canada, France), German, Italian, Japanese, Korean, Spanish (Latin America, Mexico, Spain), Arabic, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hindi, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nSiri languages\nEnglish (Australia, Canada, India, Ireland, New Zealand, Singapore, South Africa, UK, U.S.), Spanish (Chile, Mexico, Spain, U.S.), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (China mainland, Hong Kong), Arabic (Saudi Arabia, United Arab Emirates), Danish (Denmark), Dutch (Belgium, Netherlands), Finnish (Finland), Hebrew (Israel), Malay (Malaysia), Norwegian (Norway), Russian (Russia), Swedish (Sweden), Turkish (Türkiye), Thai (Thailand), Portuguese (Brazil)\nDictation languages\nEnglish (Australia, Canada, India, Ireland, Malaysia, New Zealand, Philippines, Saudi Arabia, Singapore, South Africa, UAE, UK, U.S.), Spanish (Chile, Colombia, Mexico, Spain, U.S.), French (Belgium, Canada, France, Luxembourg, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (Hong Kong), Arabic (Kuwait, Saudi Arabia, Qatar, UAE), Catalan, Croatian, Czech, Danish, Dutch (Belgium, Luxembourg, Netherlands), Finnish, Greek, Hebrew, Hungarian, Indonesian, Malaysian, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovakian, Swedish, Turkish, Thai, Ukrainian, Vietnamese",
+      "source_url": "https://support.apple.com/en-za/112022",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-2-tech-specs.html"
     }
   ],
   "record_notes": [
-    "First-pass historical Apple Watch record based on an official Apple Support product-specific page."
+    "First-pass historical Apple Watch record based on an official Apple Support product-specific page.",
+    "Technical specification sections now come from the archived model-specific Apple Support page; model/year identity is separately sourced from Apple's identification page."
   ]
 }

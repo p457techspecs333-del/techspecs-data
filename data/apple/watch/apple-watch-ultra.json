@@ -11,35 +11,98 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-ie/docs/watch/300895",
-    "source_file": null,
-    "source_title": "Apple Watch Ultra - Manuals and Downloads",
-    "publisher": "Apple Support (Ireland)",
+    "source_url": "https://support.apple.com/en-ie/111852",
+    "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-ultra-tech-specs.html",
+    "source_title": "Apple Watch Ultra - Technical Specifications - Apple Support (IE)",
+    "publisher": "Apple Support",
     "published_at": null,
-    "checked_at": "2026-11-08",
-    "verification_status": "url_checked",
-    "verification_notes": "Apple Support Ireland search result confirms the official Apple Watch Ultra support page, Tech Specs reference, and year introduced 2022.",
-    "notes": []
+    "checked_at": "2026-11-11",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification HTML archived with a SHA-256 sidecar; page identity matched 'Apple Watch Ultra'; 10 specification sections extracted. Model identity and year-introduced evidence is retained separately from Apple's identification page at https://support.apple.com/en-ie/108056.",
+    "notes": [
+      "Technical specification sections are transcribed from the archived model-specific Apple Support page; every section retains its own source URL and archive path.",
+      "Model identity/year evidence is separately sourced from https://support.apple.com/en-ie/108056, archived at apple_watch_extraction/technical_specs_html/apple-watch-model-identification.html.",
+      "This is an archival-first extraction; normalized values have not been inferred from the section text."
+    ]
   },
   "extraction": {
-    "method": "manual",
+    "method": "section_preserving",
     "normalization_status": "archival_first_pass",
-    "note": "Initial archival record prioritising correct model identity and official Apple source linkage. The linked Apple Support page identifies the model and provides a Tech Specs reference; consult it for the complete specification.",
-    "extracted_at": "2026-11-08",
+    "note": "Official Apple technical-specification source text is retained by section. Existing product identity fields are preserved; no normalized specifications have been inferred.",
+    "extracted_at": "2026-11-11",
     "reviewed_at": null
   },
   "sections": [
     {
       "heading": "Model identification",
-      "source_text": "Apple Watch Ultra. Year introduced: 2022."
+      "source_text": "Apple Watch Ultra. Year introduced: 2022.",
+      "source_url": "https://support.apple.com/en-ie/108056",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-model-identification.html"
     },
     {
-      "heading": "Source coverage",
-      "source_text": "Refer to the official Apple Support source and its Tech Specs reference for complete technical details."
+      "heading": "Finishes",
+      "source_text": "Titanium\nNatural\nMade with aerospace-grade titanium for the perfect balance between weight, ruggedness and corrosion resistance. Case designed with raised edges to protect the flat sapphire front crystal from edge impacts. Super-rugged to withstand the elements.",
+      "source_url": "https://support.apple.com/en-ie/111852",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-ultra-tech-specs.html"
+    },
+    {
+      "heading": "Features",
+      "source_text": "L1 and L5 GPS, GLONASS, Galileo, QZSS and BeiDou\nCompass\nAlways-on altimeter\nWater resistant\n100 metres\n4\nCertified IP6X dust resistant\n2\nTested to MIL-STD 810H\n15\nBlood oxygen sensor\n(Blood Oxygen app)\n3\nElectrical heart sensor\n(ECG app)\n5\nThird-generation optical heart sensor\nInternational emergency calling\n6\nEmergency SOS\n1\nHigh-g accelerometer\nUp to 256 g-forces with Fall Detection and Crash Detection\nHigh dynamic range gyroscope\nAmbient light sensor\nWater temperature sensor\nDepth gauge\nDive ready to 40m\nDual speakers\n40% louder than Series 8\nThree-microphone array with beamforming and wind noise mitigation\nApple Pay\nGymKit\nCapacity 32GB\nCeramic and sapphire crystal back",
+      "source_url": "https://support.apple.com/en-ie/111852",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-ultra-tech-specs.html"
+    },
+    {
+      "heading": "Display",
+      "source_text": "49mm\n410x502 pixels\n1,185 sq mm display area\nLTPO2 OLED Always-On Retina display\nUp to 2,000 nits",
+      "source_url": "https://support.apple.com/en-ie/111852",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-ultra-tech-specs.html"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "S8 SiP with 64-bit dual-core processor\nW3\nApple wireless chip\nU1 chip\n(Ultra Wideband)\n9",
+      "source_url": "https://support.apple.com/en-ie/111852",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-ultra-tech-specs.html"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "4G LTE and UMTS\n7\nGPS + Cellular model\nLearn more about available network providers\nWi‑Fi\n802.11b/g/n 2.4GHz and 5GHz\nBluetooth 5.3",
+      "source_url": "https://support.apple.com/en-ie/111852",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-ultra-tech-specs.html"
+    },
+    {
+      "heading": "Power",
+      "source_text": "Built-in rechargeable lithium-ion battery\nUp to 36 hours\n8\nUp to 18 hours LTE\nUSB-C magnetic fast-charging cable",
+      "source_url": "https://support.apple.com/en-ie/111852",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-ultra-tech-specs.html"
+    },
+    {
+      "heading": "Environmental Features 10",
+      "source_text": "100% recycled tungsten in the Taptic Engine\n100% recycled rare earth elements in all magnets\n100% recycled tin in the SiP\nEnergy efficient\n11\nResponsible packaging\n12\nArsenic-free display glass\n13\nMercury-, BFR-, PVC- and beryllium-free\n13",
+      "source_url": "https://support.apple.com/en-ie/111852",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-ultra-tech-specs.html"
+    },
+    {
+      "heading": "Dimensions",
+      "source_text": "49mm\nHeight: 49mm\nWidth: 44mm\nDepth: 12mm",
+      "source_url": "https://support.apple.com/en-ie/111852",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-ultra-tech-specs.html"
+    },
+    {
+      "heading": "Weight",
+      "source_text": "49mm\nTitanium: 61.3g",
+      "source_url": "https://support.apple.com/en-ie/111852",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-ultra-tech-specs.html"
+    },
+    {
+      "heading": "In the Box",
+      "source_text": "Apple Watch Ultra\nBand/Loop\nApple Watch Magnetic Fast Charger to USB-C Cable (1m)\nThe case materials and the band types would be based on your selection",
+      "source_url": "https://support.apple.com/en-ie/111852",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-ultra-tech-specs.html"
     }
   ],
   "record_notes": [
     "First-pass Apple Watch record based on an official Apple Support product-specific page.",
-    "The source URL is official; direct article/locale validation may remain a follow-up item."
+    "The source URL is official; direct article/locale validation may remain a follow-up item.",
+    "Technical specification sections now come from the archived model-specific Apple Support page; model/year identity is separately sourced from Apple's identification page."
   ]
 }

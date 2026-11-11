@@ -7590,10 +7590,10 @@
       "variant": null,
       "source": {
         "source_type": "manufacturer",
-        "publisher": "Apple Support (Ireland)",
-        "source_url": "https://support.apple.com/en-ie/108056",
-        "verification_status": "url_checked",
-        "checked_at": "2026-11-08"
+        "publisher": "Apple Support",
+        "source_url": "https://support.apple.com/en-ae/112009",
+        "verification_status": "content_verified",
+        "checked_at": "2026-11-11"
       }
     },
     {
@@ -7612,10 +7612,10 @@
       "variant": null,
       "source": {
         "source_type": "manufacturer",
-        "publisher": "Apple Support (Ireland)",
-        "source_url": "https://support.apple.com/en-ie/docs/watch/pl290",
-        "verification_status": "url_checked",
-        "checked_at": "2026-11-08"
+        "publisher": "Apple Support",
+        "source_url": "https://support.apple.com/en-gb/111862",
+        "verification_status": "content_verified",
+        "checked_at": "2026-11-11"
       }
     },
     {
@@ -7678,10 +7678,10 @@
       "variant": null,
       "source": {
         "source_type": "manufacturer",
-        "publisher": "Apple Support (Ireland)",
-        "source_url": "https://support.apple.com/en-ie/docs/watch/pl285",
-        "verification_status": "url_checked",
-        "checked_at": "2026-11-08"
+        "publisher": "Apple Support",
+        "source_url": "https://support.apple.com/en-ie/111985",
+        "verification_status": "content_verified",
+        "checked_at": "2026-11-11"
       }
     },
     {
@@ -7766,10 +7766,10 @@
       "variant": null,
       "source": {
         "source_type": "manufacturer",
-        "publisher": "Apple Support (Ireland)",
-        "source_url": "https://support.apple.com/en-ie/docs/watch/pl286",
-        "verification_status": "url_checked",
-        "checked_at": "2026-11-08"
+        "publisher": "Apple Support",
+        "source_url": "https://support.apple.com/en-za/112022",
+        "verification_status": "content_verified",
+        "checked_at": "2026-11-11"
       }
     },
     {
@@ -7788,10 +7788,10 @@
       "variant": null,
       "source": {
         "source_type": "manufacturer",
-        "publisher": "Apple Support (Ireland)",
-        "source_url": "https://support.apple.com/en-ie/docs/watch/pl138",
-        "verification_status": "url_checked",
-        "checked_at": "2026-11-08"
+        "publisher": "Apple Support",
+        "source_url": "https://support.apple.com/en-in/111891",
+        "verification_status": "content_verified",
+        "checked_at": "2026-11-11"
       }
     },
     {
@@ -7810,10 +7810,10 @@
       "variant": null,
       "source": {
         "source_type": "manufacturer",
-        "publisher": "Apple Support (Ireland)",
-        "source_url": "https://support.apple.com/en-ie/docs/watch/pl176",
-        "verification_status": "url_checked",
-        "checked_at": "2026-11-08"
+        "publisher": "Apple Support",
+        "source_url": "https://support.apple.com/en-sg/111984",
+        "verification_status": "content_verified",
+        "checked_at": "2026-11-11"
       }
     },
     {
@@ -7832,10 +7832,10 @@
       "variant": null,
       "source": {
         "source_type": "manufacturer",
-        "publisher": "Apple Support (Ireland)",
-        "source_url": "https://support.apple.com/en-ie/docs/watch/pl206",
-        "verification_status": "url_checked",
-        "checked_at": "2026-11-08"
+        "publisher": "Apple Support",
+        "source_url": "https://support.apple.com/en-kg/118453",
+        "verification_status": "content_verified",
+        "checked_at": "2026-11-11"
       }
     },
     {
@@ -7854,10 +7854,10 @@
       "variant": null,
       "source": {
         "source_type": "manufacturer",
-        "publisher": "Apple Support (Ireland)",
-        "source_url": "https://support.apple.com/en-ie/docs/watch/pl291",
-        "verification_status": "url_checked",
-        "checked_at": "2026-11-08"
+        "publisher": "Apple Support",
+        "source_url": "https://support.apple.com/en-ie/111918",
+        "verification_status": "content_verified",
+        "checked_at": "2026-11-11"
       }
     },
     {
@@ -7876,10 +7876,10 @@
       "variant": null,
       "source": {
         "source_type": "manufacturer",
-        "publisher": "Apple Support (Ireland)",
-        "source_url": "https://support.apple.com/en-ie/docs/watch/pl194",
-        "verification_status": "url_checked",
-        "checked_at": "2026-11-08"
+        "publisher": "Apple Support",
+        "source_url": "https://support.apple.com/en-my/111909",
+        "verification_status": "content_verified",
+        "checked_at": "2026-11-11"
       }
     },
     {
@@ -8008,10 +8008,10 @@
       "variant": null,
       "source": {
         "source_type": "manufacturer",
-        "publisher": "Apple Support (Ireland)",
-        "source_url": "https://support.apple.com/en-ie/docs/watch/300895",
-        "verification_status": "url_checked",
-        "checked_at": "2026-11-08"
+        "publisher": "Apple Support",
+        "source_url": "https://support.apple.com/en-ie/111852",
+        "verification_status": "content_verified",
+        "checked_at": "2026-11-11"
       }
     }
   ]

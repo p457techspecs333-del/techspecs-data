@@ -1,0 +1,12 @@
+{
+  "requested_url": "https://support.apple.com/en-ie/108056",
+  "final_url": "https://support.apple.com/en-ie/108056",
+  "canonical_url": "https://support.apple.com/en-ie/108056",
+  "page_title": "Identify your Apple Watch - Apple Support (IE)",
+  "publisher": "Apple",
+  "captured_at_utc": "2026-11-11T12:33:55.236660+00:00",
+  "content_type": "text/html;charset=utf-8",
+  "sha256": "88f6a555bac85a967de391d30b455e904594fbd3a08c15e20f93e1cd5a9f2ca6",
+  "archive_path": "apple_watch_extraction/technical_specs_html/apple-watch-model-identification.html",
+  "request_file": "source-archive-requests/apple-watch-legacy-technical-specifications.json"
+}

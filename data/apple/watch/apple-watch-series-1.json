@@ -11,34 +11,85 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-ie/docs/watch/pl285",
-    "source_file": null,
-    "source_title": "Apple Watch Series 1 - Manuals and Downloads",
-    "publisher": "Apple Support (Ireland)",
+    "source_url": "https://support.apple.com/en-ie/111985",
+    "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-1-tech-specs.html",
+    "source_title": "Apple Watch Series 1 - Technical Specifications - Apple Support (IE)",
+    "publisher": "Apple Support",
     "published_at": null,
-    "checked_at": "2026-11-08",
-    "verification_status": "url_checked",
-    "verification_notes": "Apple Support Ireland search result confirms the official Series 1 support page, its Tech Specs reference and year introduced 2016.",
-    "notes": []
+    "checked_at": "2026-11-11",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification HTML archived with a SHA-256 sidecar; page identity matched 'Apple Watch Series 1'; 8 specification sections extracted. Model identity and year-introduced evidence is retained separately from Apple's identification page at https://support.apple.com/en-ie/108056.",
+    "notes": [
+      "Technical specification sections are transcribed from the archived model-specific Apple Support page; every section retains its own source URL and archive path.",
+      "Model identity/year evidence is separately sourced from https://support.apple.com/en-ie/108056, archived at apple_watch_extraction/technical_specs_html/apple-watch-model-identification.html.",
+      "This is an archival-first extraction; normalized values have not been inferred from the section text."
+    ]
   },
   "extraction": {
-    "method": "manual",
+    "method": "section_preserving",
     "normalization_status": "archival_first_pass",
-    "note": "Initial archival record prioritising correct model identity and official Apple source linkage. The official Apple Support page identifies the model and links to Tech Specs; consult it for full technical details.",
-    "extracted_at": "2026-11-08",
+    "note": "Official Apple technical-specification source text is retained by section. Existing product identity fields are preserved; no normalized specifications have been inferred.",
+    "extracted_at": "2026-11-11",
     "reviewed_at": null
   },
   "sections": [
     {
       "heading": "Model identification",
-      "source_text": "Apple Watch Series 1. Year introduced: 2016."
+      "source_text": "Apple Watch Series 1. Year introduced: 2016.",
+      "source_url": "https://support.apple.com/en-ie/108056",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-model-identification.html"
     },
     {
-      "heading": "Source coverage",
-      "source_text": "Refer to the official Apple Support source and its Tech Specs reference for the full technical specification."
+      "heading": "Series 1",
+      "source_text": "Apple Watch\nAluminum case with Sport Band",
+      "source_url": "https://support.apple.com/en-ie/111985",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-1-tech-specs.html"
+    },
+    {
+      "heading": "Dimensions",
+      "source_text": "38mm\nHeight: 38.6mm\nWidth: 33.3mm\nDepth: 10.5mm\nCase Weight: 25g\n42mm\nHeight: 42.5mm\nWidth: 36.4mm\nDepth: 10.5mm\nCase Weight: 30g",
+      "source_url": "https://support.apple.com/en-ie/111985",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-1-tech-specs.html"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "Dual‑core processor",
+      "source_url": "https://support.apple.com/en-ie/111985",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-1-tech-specs.html"
+    },
+    {
+      "heading": "Features",
+      "source_text": "Splash resistant\n1\nHeart rate sensor\nAccelerometer\nGyroscope\nAmbient light sensor\nCapacity 8GB\nComposite back",
+      "source_url": "https://support.apple.com/en-ie/111985",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-1-tech-specs.html"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "Wi-Fi (802.11b/g/n 2.4GHz)\nBluetooth 4.2",
+      "source_url": "https://support.apple.com/en-ie/111985",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-1-tech-specs.html"
+    },
+    {
+      "heading": "Display",
+      "source_text": "OLED Retina display with Force Touch (450 nits)\nIon-X glass (strengthened glass)\n272 by 340 pixels (38mm)\n312 by 390 pixels (42mm)",
+      "source_url": "https://support.apple.com/en-ie/111985",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-1-tech-specs.html"
+    },
+    {
+      "heading": "Power and Battery",
+      "source_text": "Built-in rechargeable lithium-ion battery\nUp to 18 hours\n2\nMagnetic charging cable",
+      "source_url": "https://support.apple.com/en-ie/111985",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-1-tech-specs.html"
+    },
+    {
+      "heading": "Languages",
+      "source_text": "Language support\nEnglish (Australia, Canada, UK, U.S.), Chinese (Simplified, Traditional, Traditional Hong Kong), French (Canada, France), German, Italian, Japanese, Korean, Spanish (Latin America, Mexico, Spain), Arabic, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hindi, Hungarian, Indonesian, Malay, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese\nSiri languages\nEnglish (Australia, Canada, India, Ireland, New Zealand, Singapore, South Africa, UK, U.S.), Spanish (Chile, Mexico, Spain, U.S.), French (Belgium, Canada, France, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (China mainland, Hong Kong), Arabic (Saudi Arabia, United Arab Emirates), Danish (Denmark), Dutch (Belgium, Netherlands), Finnish (Finland), Hebrew (Israel), Malay (Malaysia), Norwegian (Norway), Russian (Russia), Swedish (Sweden), Turkish (Türkiye), Thai (Thailand), Portuguese (Brazil)\nDictation languages\nEnglish (Australia, Canada, India, Ireland, Malaysia, New Zealand, Philippines, Saudi Arabia, Singapore, South Africa, UAE, UK, U.S.), Spanish (Chile, Colombia, Mexico, Spain, U.S.), French (Belgium, Canada, France, Luxembourg, Switzerland), German (Austria, Germany, Switzerland), Italian (Italy, Switzerland), Japanese, Korean, Mandarin (China mainland, Taiwan), Cantonese (Hong Kong), Arabic (Kuwait, Saudi Arabia, Qatar, UAE), Catalan, Croatian, Czech, Danish, Dutch (Belgium, Luxembourg, Netherlands), Finnish, Greek, Hebrew, Hungarian, Indonesian, Malaysian, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovakian, Swedish, Turkish, Thai, Ukrainian, Vietnamese",
+      "source_url": "https://support.apple.com/en-ie/111985",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-1-tech-specs.html"
     }
   ],
   "record_notes": [
-    "First-pass historical Apple Watch record based on the official Apple Support Ireland product-specific page."
+    "First-pass historical Apple Watch record based on the official Apple Support Ireland product-specific page.",
+    "Technical specification sections now come from the archived model-specific Apple Support page; model/year identity is separately sourced from Apple's identification page."
   ]
 }

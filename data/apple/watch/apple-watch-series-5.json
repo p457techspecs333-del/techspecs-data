@@ -11,35 +11,86 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-ie/docs/watch/pl206",
-    "source_file": null,
-    "source_title": "Apple Watch Series 5 - Manuals and Downloads",
-    "publisher": "Apple Support (Ireland)",
+    "source_url": "https://support.apple.com/en-kg/118453",
+    "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-5-tech-specs.html",
+    "source_title": "Apple Watch Series 5 - Technical Specifications - Apple Support (KG)",
+    "publisher": "Apple Support",
     "published_at": null,
-    "checked_at": "2026-11-08",
-    "verification_status": "url_checked",
-    "verification_notes": "Apple Support Ireland search result confirms the official Series 5 support page, Tech Specs reference, and year introduced 2019.",
-    "notes": []
+    "checked_at": "2026-11-11",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification HTML archived with a SHA-256 sidecar; page identity matched 'Apple Watch Series 5'; 8 specification sections extracted. Model identity and year-introduced evidence is retained separately from Apple's identification page at https://support.apple.com/en-ie/108056.",
+    "notes": [
+      "Technical specification sections are transcribed from the archived model-specific Apple Support page; every section retains its own source URL and archive path.",
+      "Model identity/year evidence is separately sourced from https://support.apple.com/en-ie/108056, archived at apple_watch_extraction/technical_specs_html/apple-watch-model-identification.html.",
+      "This is an archival-first extraction; normalized values have not been inferred from the section text."
+    ]
   },
   "extraction": {
-    "method": "manual",
+    "method": "section_preserving",
     "normalization_status": "archival_first_pass",
-    "note": "Initial archival record prioritising correct model identity and official Apple source linkage. The linked Apple Support page identifies the model and provides a Tech Specs reference; consult it for the complete specification.",
-    "extracted_at": "2026-11-08",
+    "note": "Official Apple technical-specification source text is retained by section. Existing product identity fields are preserved; no normalized specifications have been inferred.",
+    "extracted_at": "2026-11-11",
     "reviewed_at": null
   },
   "sections": [
     {
       "heading": "Model identification",
-      "source_text": "Apple Watch Series 5. Year introduced: 2019."
+      "source_text": "Apple Watch Series 5. Year introduced: 2019.",
+      "source_url": "https://support.apple.com/en-ie/108056",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-model-identification.html"
     },
     {
-      "heading": "Source coverage",
-      "source_text": "Refer to the official Apple Support source and its Tech Specs reference for complete technical details."
+      "heading": "Finishes",
+      "source_text": "GPS + Cellular\nAluminum\nSilver\nSpace Gray\nGold\nStainless Steel\nStainless Steel\nSpace Black (DLC)\nGold (PVD)\nTitanium\nTitanium\nSpace black\nCeramic\nWhite\nGPS\nAluminum\nSilver\nSpace Gray\nGold\nApple Watch Nike available in silver and space gray aluminum.\nApple Watch Hermès available in stainless steel and space black stainless steel.",
+      "source_url": "https://support.apple.com/en-kg/118453",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-5-tech-specs.html"
+    },
+    {
+      "heading": "Features",
+      "source_text": "GPS/GNSS\nCompass\nBarometric altimeter\nWater resistant\n50 meters\n1\nElectrical heart sensor\nSecond-generation optical heart sensor\nInternational emergency calling\n3\nEmergency SOS\n2\nAccelerometer\nup to 32 g-forces with fall detection\nGyroscope\nAmbient light sensor\nSpeaker\nMicrophone\nApple Pay\nGymKit\nCapacity 32GB\nCeramic and sapphire crystal back",
+      "source_url": "https://support.apple.com/en-kg/118453",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-5-tech-specs.html"
+    },
+    {
+      "heading": "Display",
+      "source_text": "44mm\n368 by 448 pixels\n977 sq mm display area\nOver 30% larger display than Series 3\n40mm\n324 by 394 pixels\n759 sq mm display area\nOver 30% larger display than Series 3\nAlways-On Retina LTPO OLED display with Force Touch\n1000 nits brightness",
+      "source_url": "https://support.apple.com/en-kg/118453",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-5-tech-specs.html"
+    },
+    {
+      "heading": "Chip",
+      "source_text": "S5 SiP with 64-bit dual-core processor\nW3\nApple wireless chip",
+      "source_url": "https://support.apple.com/en-kg/118453",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-5-tech-specs.html"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "LTE and UMTS\n4\nGPS + Cellular models\nLearn more about available carriers\nWi-Fi\n802.11b/g/n 2.4GHz\nBluetooth 5.0",
+      "source_url": "https://support.apple.com/en-kg/118453",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-5-tech-specs.html"
+    },
+    {
+      "heading": "Power",
+      "source_text": "Built-in rechargeable lithium-ion battery\nUp to 18 hours\n5\nMagnetic charging cable\nUSB power adapter",
+      "source_url": "https://support.apple.com/en-kg/118453",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-5-tech-specs.html"
+    },
+    {
+      "heading": "Dimensions",
+      "source_text": "40mm\nHeight: 40mm\nWidth: 34mm\nDepth: 10.74mm\n44mm\nHeight: 44mm\nWidth: 38mm\nDepth: 10.74mm",
+      "source_url": "https://support.apple.com/en-kg/118453",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-5-tech-specs.html"
+    },
+    {
+      "heading": "Weight",
+      "source_text": "40mm\nAluminum: 30.8g\nStainless Steel: 40.6g\nTitanium: 35.1g\nCeramic: 39.7g\n44mm\nAluminum: 36.5g\nStainless Steel: 47.8g\nTitanium: 41.7g\nCeramic: 46.7g",
+      "source_url": "https://support.apple.com/en-kg/118453",
+      "source_file": "apple_watch_extraction/technical_specs_html/apple-watch-series-5-tech-specs.html"
     }
   ],
   "record_notes": [
     "First-pass Apple Watch record based on an official Apple Support product-specific page.",
-    "The source URL is official; direct article/locale validation may remain a follow-up item."
+    "The source URL is official; direct article/locale validation may remain a follow-up item.",
+    "Technical specification sections now come from the archived model-specific Apple Support page; model/year identity is separately sourced from Apple's identification page."
   ]
 }
