@@ -21,17 +21,17 @@
   },
   "source": {
     "source_type": "manufacturer",
-    "source_url": "https://support.apple.com/en-ie/103823",
-    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html",
-    "source_title": "Identify your iPod model - Apple Support (IE)",
-    "publisher": "Apple",
+    "source_url": "https://support.apple.com/en-ie/112431",
+    "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-4th-generation-tech-specs.html",
+    "source_title": "iPod touch (4th generation) - Technical Specifications - Apple Support (IE)",
+    "publisher": "Apple Support (Ireland)",
     "published_at": null,
-    "checked_at": "2026-11-09",
-    "verification_status": "partially_verified",
-    "verification_notes": "This record's retained evidence is extracted from Apple's general 'Identify your iPod model' page, not an individual technical-specifications page. The archived HTML file is the shared source page. Only identification facts explicitly present in that page are supported; detailed technical specifications require separate model-specific sources.",
+    "checked_at": "2026-11-11",
+    "verification_status": "content_verified",
+    "verification_notes": "Official Apple technical-specification page captured as original HTML on 2026-11-11; 1 technical sections extracted. The first record section preserves model-identification evidence from Apple's separate identification page.",
     "notes": [
-      "Primary evidence is Apple's official iPod identification page; it supports only the model-identification statements retained in the source section.",
-      "Do not treat this source as a complete technical specification sheet. Model-specific Apple technical-specification pages have been discovered for some models and remain to be archived and mapped individually."
+      "Technical specifications in the following sections are transcribed from the model-specific Apple technical-specification page; each section carries its own source URL and archive path.",
+      "The first section preserves model number/introduction-date evidence from Apple's separate identification page: https://support.apple.com/en-ie/103823, archived at apple_remaining_extraction/technical_specs_html/ipod-index.html."
     ]
   },
   "extraction": {
@@ -44,7 +44,15 @@
   "sections": [
     {
       "heading": "iPod touch (4th generation)",
-      "source_text": "Navigation: Multi-Touch display\nCapacity: 8, 16, 32 and 64 GB\nModel numbers and dates introduced: A1367: October 2012 A1367: October 2011 A1367: September 2010\nModel numbers and dates introduced:\nA1367: October 2012\nA1367: October 2011\nA1367: September 2010\niPod touch (4th generation) has an iSight camera and FaceTime HD camera.\niPod touch (4th generation) is available in white and black."
+      "source_text": "Navigation: Multi-Touch display\nCapacity: 8, 16, 32 and 64 GB\nModel numbers and dates introduced: A1367: October 2012 A1367: October 2011 A1367: September 2010\nModel numbers and dates introduced:\nA1367: October 2012\nA1367: October 2011\nA1367: September 2010\niPod touch (4th generation) has an iSight camera and FaceTime HD camera.\niPod touch (4th generation) is available in white and black.",
+      "source_url": "https://support.apple.com/en-ie/103823",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-index.html"
+    },
+    {
+      "heading": "iPod touch and the Environment",
+      "source_text": "Apple takes a complete product life cycle approach to determining our environmental impact. Learn more\niPod touch is designed with the following features to reduce its environmental impact:\nArsenic-free display glass\nBrominated flame retardant-free\nMercury-free LCD display\nPVC-free\nRecyclable stainless steel enclosure\nApple and the Environment\nLearn more about Apple’s dedication to reducing the environmental impact of our products and process. Apple Product Environmental Reports detail the environmental attributes of our products.\nRecycling\nApple takes a holistic view of materials management and waste minimization. Learn more about how to recycle your iPod.\nAccessories\nIn-Ear Headphones with Remote and Mic\nEngineered for extreme clarity and audio accuracy, these headphones let you hear musical details you’ve been missing.\nEarphones with Remote and Mic\nThese earbud headphones have convenient buttons that let you adjust volume and control music and video playback.\nUSB Power Adapter\nUse this ultracompact USB-based adapter to charge your iPhone or iPod whenever it’s not connected to a computer.\nApple Universal Dock\nGet easy access to a USB port for charging and syncing your iPod or for connecting to a TV or speakers.\nOther Accessories\nApple Composite AV Cable\nApple Component AV Cable\nApple Dock Connector to USB Cable\niPod Universal Dock Adapter 3-Pack\nAppleCare Protection Plan\n1GB = 1 billion bytes; actual formatted capacity less.\nWeight varies by configuration and manufacturing process.\nInternet access required; broadband recommended; fees may apply.\nFor iPod touch with Maps, the Maps application provides your approximate location using information based on your proximity to known Wi-Fi networks (when on and available). The more accurate the available information, the smaller the circle identifying your position on the map. The feature is not available in all areas. Known Wi-Fi networks are predominantly in urban areas. In order to provide your location, data is collected in a form that does not personally identify you. If you do not want such data collected, do not enable the feature. Not enabling the feature will not impact the functionality of your iPod touch.\nRequires Nike + iPod Sensor, sold separately.\nTesting conducted by Apple in September 2011 using preproduction iPod touch hardware and software. The playlist contained 358 unique audio tracks consisting of content imported from CDs using iTunes (128-Kbps AAC) and content purchased from the iTunes Store (256-Kbps AAC); video content was purchased from the iTunes Store. iPod units were associated to a Wi-Fi network and Auto-Brightness was turned off; all other settings were default. Battery tests are conducted with specific iPod units; actual results may vary. Rechargeable batteries have a limited number of charge cycles and may eventually need to be replaced ( www.apple.com/uk/support/ipod/service/battery ). Battery life and number of charge cycles vary by use and settings. See www.apple.com/uk/batteries for more information.\niPod and iTunes are for legal or rightholder-authorized copying only. Don’t steal music.\nHelpful?\nYes\nNo\nCharacter limit:\n250\nMaximum character limit is 250.\nPlease don’t include any personal information in your comment.\nSubmit\nThanks for your feedback.",
+      "source_url": "https://support.apple.com/en-ie/112431",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-touch-4th-generation-tech-specs.html"
     }
   ],
   "record_notes": [
