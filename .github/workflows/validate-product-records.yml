@@ -23,6 +23,7 @@ on:
   pull_request:
     paths:
       - "data/**/*.json"
+      - "tools/extract_archived_legacy_watch_specs.py"
       - "data/_redirects"
       - "data/llms.txt"
       - "data/index.html"
