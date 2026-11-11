@@ -232,7 +232,7 @@ def main() -> int:
     INVENTORY_PATH.write_text(json.dumps(inventory, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     report = {
-        "started_or_completed_utc": datetime.now(timezone.utc).isoformat(),
+        "completed_date_utc": TODAY,
         "purpose": "Section-preserving extraction from archived official Apple Watch technical-specification pages.",
         "identity_source": {"url": identity_meta.get("canonical_url") or identity_meta.get("final_url") or IDENTITY_URL, "file": identity_path.relative_to(ROOT).as_posix()},
         "summary": {"records_updated": len(results), "records_with_identity_source": len(results), "records_with_specification_sections": sum(r["sections_extracted"] > 0 for r in results), "specification_sections_extracted": sum(r["sections_extracted"] for r in results)},
