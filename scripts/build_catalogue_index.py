@@ -17,6 +17,15 @@ OUTPUT = DATA_ROOT / "catalogue.json"
 SITEMAP_OUTPUT = DATA_ROOT / "sitemap.xml"
 BASE_URL = "https://data.techspecs.dev"
 
+# These files describe the collection or its generation process; they are not
+# product records and must never appear as entries in the public catalogue.
+NON_PRODUCT_FILENAMES = {
+    "catalogue.json",
+    "api-manifest.json",
+    "generation-report.json",
+    "source-inventory.json",
+}
+
 
 def text_value(value: Any) -> str | None:
     return value if isinstance(value, str) and value.strip() else None
@@ -31,14 +40,15 @@ def build_entry(path: Path) -> dict[str, Any]:
     source = record.get("source") if isinstance(record.get("source"), dict) else {}
     relative_path = path.relative_to(DATA_ROOT).as_posix()
     record_path = relative_path
-    legacy_url = f"{BASE_URL}/{record_path}"
-    api_url = f"{BASE_URL}/api/v1/products/{path.name}"
+    record_id = record_path.removesuffix(".json")
 
     entry: dict[str, Any] = {
-        "record_id": record_path.removesuffix(".json"),
+        "record_id": record_id,
         "path": record_path,
-        "url": api_url,
-        "legacy_url": legacy_url,
+        # Keep the complete repository-relative path in the API URL. Flattening
+        # to path.name makes different categories collide and breaks routing.
+        "url": f"{BASE_URL}/api/v1/products/{record_id}.json",
+        "legacy_url": f"{BASE_URL}/{record_path}",
         "schema_version": text_value(record.get("schema_version")),
         "brand": text_value(product.get("brand")),
         "category": text_value(product.get("category")),
@@ -67,7 +77,7 @@ def main() -> int:
     files = sorted(
         path for path in DATA_ROOT.rglob("*.json")
         if path != OUTPUT
-        and path.name not in {"catalogue.json", "api-manifest.json"}
+        and path.name not in NON_PRODUCT_FILENAMES
         and "schemas" not in path.relative_to(DATA_ROOT).parts
     )
     entries: list[dict[str, Any]] = []
@@ -81,6 +91,15 @@ def main() -> int:
 
     if not entries:
         print("ERROR: no product records found under data/", file=sys.stderr)
+        return 1
+
+    record_ids = [entry["record_id"] for entry in entries]
+    urls = [entry["url"] for entry in entries]
+    if len(record_ids) != len(set(record_ids)):
+        print("ERROR: duplicate record_id values found while building catalogue", file=sys.stderr)
+        return 1
+    if len(urls) != len(set(urls)):
+        print("ERROR: duplicate product URLs found while building catalogue", file=sys.stderr)
         return 1
 
     entries.sort(key=lambda item: item["path"])
