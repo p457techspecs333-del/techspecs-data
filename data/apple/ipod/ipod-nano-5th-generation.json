@@ -433,19 +433,37 @@
     },
     "system_requirements": {
       "mac": {
-        "value": "Mac computer with USB 2.0 port\nMac OS X v10.4.11 or later\niTunes 9 or later\n7\niPhoto 6.0.6 or later recommended for use with Mac OS X Tiger\n8\niPhoto ’09 recommended for use with Mac OS X Leopard or Snow Leopard\n8",
+        "value": "Mac computer with USB 2.0 port\nMac OS X v10.4.11 or later\niTunes 9 or later\niPhoto 6.0.6 or later recommended for use with Mac OS X Tiger\niPhoto ’09 recommended for use with Mac OS X Leopard or Snow Leopard",
         "unit": null,
         "source_section": "Mac system requirements",
         "verification_status": "source_transcribed"
       },
       "windows": {
-        "value": "PC with USB 2.0 port\nWindows Vista or Windows XP Home or Professional with Service Pack 3 or later\niTunes 9 or later\n7",
+        "value": "PC with USB 2.0 port\nWindows Vista or Windows XP Home or Professional with Service Pack 3 or later\niTunes 9 or later",
         "unit": null,
         "source_section": "Windows system requirements",
         "verification_status": "source_transcribed"
       }
     },
     "environment": {
+      "operating_temperature": {
+        "value": "32° to 95° F (0° to 35° C)",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "non_operating_temperature": {
+        "value": "-4° to 113° F (-20° to 45° C)",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
+      "relative_humidity": {
+        "value": "5% to 95% noncondensing",
+        "unit": null,
+        "source_section": "Environmental requirements",
+        "verification_status": "source_transcribed"
+      },
       "maximum_operating_altitude": {
         "value": "10,000 feet (3000 m)",
         "unit": null,
