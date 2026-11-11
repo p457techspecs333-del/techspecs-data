@@ -275,11 +275,13 @@
       }
     },
     "weight": {
-      "value": 3.6,
-      "unit": "oz",
-      "source_section": "iPod mini (second generation) — Additional technical specification text",
-      "verification_status": "source_transcribed",
-      "notes": "Apple's archived page states 3.6 oz (158 g), which is internally inconsistent. Only the explicitly stated 3.6 oz is normalized here; the metric equivalent is withheld rather than repeating the conflicting 158 g value."
+      "value": {
+        "value": 3.6,
+        "unit": "oz",
+        "source_section": "iPod mini (second generation) — Additional technical specification text",
+        "verification_status": "source_transcribed",
+        "notes": "Apple's archived page states 3.6 oz (158 g), which is internally inconsistent. Only the explicitly stated 3.6 oz is normalized here; the metric equivalent is withheld rather than repeating the conflicting 158 g value."
+      }
     },
     "storage": {
       "capacity_options": {
