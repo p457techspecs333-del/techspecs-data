@@ -361,6 +361,17 @@
         "verification_status": "source_transcribed",
         "notes": "Connection statements retained from the legacy Apple specification page; no Bluetooth version is specified."
       }
+    },
+    "battery_life_statements": {
+      "value": [
+        "More than 24 hours listening time",
+        "Up to 5 hours listening time",
+        "15 minutes in the case equals 3 hours listening time"
+      ],
+      "unit": null,
+      "source_section": "Power and Battery",
+      "verification_status": "source_transcribed",
+      "notes": "Exact duration statements transcribed from the archived official Apple source. The source section retains the case-versus-single-charge labels and original footnote markers."
     }
   }
 }
