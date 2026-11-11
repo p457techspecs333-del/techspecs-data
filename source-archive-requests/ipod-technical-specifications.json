@@ -1,0 +1,30 @@
+{
+  "purpose": "Archive verified official Apple iPod technical-specification pages for subsequent record-by-record mapping. Do not update product records from these pages until the archive content has been checked against the model and variant.",
+  "sources": [
+    {
+      "url": "https://support.apple.com/en-ie/111961",
+      "expected_title_contains": "iPod touch (7th generation) - Technical Specifications",
+      "output_path": "apple_remaining_extraction/technical_specs_html/ipod-touch-7th-generation-tech-specs.html"
+    },
+    {
+      "url": "https://support.apple.com/en-ie/112422",
+      "expected_title_contains": "iPod shuffle (4th generation) - Technical Specifications",
+      "output_path": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-4th-generation-tech-specs.html"
+    },
+    {
+      "url": "https://support.apple.com/en-ie/112039",
+      "expected_title_contains": "iPod nano (7th generation) - Technical Specifications",
+      "output_path": "apple_remaining_extraction/technical_specs_html/ipod-nano-7th-generation-tech-specs.html"
+    },
+    {
+      "url": "https://support.apple.com/en-ie/112321",
+      "expected_title_contains": "iPod classic (120GB) - Technical Specifications",
+      "output_path": "apple_remaining_extraction/technical_specs_html/ipod-classic-120-gb-tech-specs.html"
+    },
+    {
+      "url": "https://support.apple.com/en-ie/112601",
+      "expected_title_contains": "iPod classic 160GB (Late 2009) - Technical Specifications",
+      "output_path": "apple_remaining_extraction/technical_specs_html/ipod-classic-160-gb-late-2009-tech-specs.html"
+    }
+  ]
+}
