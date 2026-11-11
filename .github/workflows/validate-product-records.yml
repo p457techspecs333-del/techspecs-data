@@ -102,3 +102,6 @@ jobs:
           done
           echo "Unable to publish catalogue after three attempts."
           exit 1
+      - name: Smoke-test deployed catalogue and product routes
+        if: github.event_name != 'pull_request'
+        run: python scripts/smoke_test_live_data.py
