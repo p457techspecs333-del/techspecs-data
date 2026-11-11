@@ -11,13 +11,13 @@
   "working_scope": [
     {
       "model": "HomePod mini 2",
-      "url": "https://support.apple.com/en-us/149360",
+      "url": "https://support.apple.com/en-ie/149360",
       "slug": "homepod-mini-2-technical-specifications",
-      "final_url": "https://support.apple.com/en-us/149360",
+      "final_url": "https://support.apple.com/en-ie/149360",
       "title": "HomePod mini 2 - Tech Specs",
       "source_file": "apple_remaining_extraction/technical_specs_html/homepod-homepod-mini-2-technical-specifications.html",
       "section_count": 13,
-      "verification_status": "content_verified_official_us_locale"
+      "verification_status": "content_verified_official_ie_locale"
     },
     {
       "model": "HomePod (2nd generation)",
@@ -54,14 +54,16 @@
   "notes": [
     "Discovery checked 2026-11-09. This is an initial source-discovery inventory; coverage is not claimed complete.",
     "2026-11-09 progress: all four HomePod records have introduction years and selected explicit specification fields normalized with source-section provenance. This is not final record-level verification; normalized fields remain source_transcribed.",
-    "HomePod mini 2 technical-specification page verified on the official Apple US support domain (https://support.apple.com/en-us/149360); the Ireland-localized URL was not independently accessible during this check, so the record now cites the verified official source.",
     "2026-11-10 progress: added source_text entries for every previously unrepresented official Apple section across all four HomePod records. Existing typed values and provenance were retained; newly transcribed sections remain source_transcribed, not independently field-verified.",
     "2026-11-10 repository audit: all 4 inventory source_file references resolve to existing archived files in the current Git tree. This confirms archive-path presence only, not the accuracy or reachability of every source URL.",
     "2026-11-10 metadata correction: working_scope model labels now contain product names only; technical-specification page titles remain in the separate title field.",
-    "2026-11-11 focused verification pass: dimensions/weight and normalized wireless/electrical/environmental values for all four HomePod records were compared with the archived source-section text; values matched where present. The HomePod mini 2 record was missing the explicit operating-altitude field despite the source stating testing up to 3,000 metres (10,000 feet); that normalized field has now been added."
+    "2026-11-11 focused verification pass: dimensions/weight and normalized wireless/electrical/environmental values for all four HomePod records were compared with the archived source-section text; values matched where present. The HomePod mini 2 record was missing the explicit operating-altitude field despite the source stating testing up to 3,000 metres (10,000 feet); that normalized field has now been added.",
+    "2026-11-11 source-provenance correction: the archived HomePod mini 2 HTML title and canonical metadata identify the Ireland-locale URL https://support.apple.com/en-ie/149360. The product record and inventory now cite that canonical URL; the previous US-locale URL was a metadata mismatch. Region-dependent source text is preserved from the Irish archive.",
+    "2026-11-11 scope clarification: an Ireland-localized Apple Support technical-specification page establishes regional source provenance, not commercial availability in Ireland; sale availability remains unasserted.",
+    "2026-11-11 audit-status update: repository-wide structural, archive-metadata, catalogue-generation and live endpoint checks passed. Remaining HomePod work is factual field/footnote review and explicit model-identifier coverage, not repository pipeline repair."
   ],
   "record_audit": {
-    "checked_at": "2026-11-10",
+    "checked_at": "2026-11-11",
     "product_record_count": 4,
     "source_policy": "Official Apple specification pages and official Apple model-identification documentation; no missing values inferred.",
     "normalization_status": "partially_normalized",
@@ -72,14 +74,14 @@
       "Added source-section provenance to extracted values and retained original section text.",
       "Transcribed all remaining preserved official specification sections into normalized_specifications.source_text entries for all four HomePod records, retaining exact section headings and footnote markers.",
       "Checked every working_scope source_file path against the current Git repository tree on 2026-11-10; all 4 referenced archive paths exist.",
-      "Corrected product.model and inventory model labels to remove the document descriptor 'technical specifications' from product names."
+      "Corrected product.model and inventory model labels to remove the document descriptor 'technical specifications' from product names.",
+      "Checked the archived HTML title and canonical URL for HomePod mini 2 and corrected both product-record and inventory source URLs to the official Ireland-locale canonical URL.",
+      "Repository-wide schema validation, inventory alignment, archived-source metadata audit, catalogue regeneration and deployed manifest/catalogue/product-route smoke test passed on main on 2026-11-11."
     ],
     "remaining": [
-      "Verify all four records against their archived official Apple HTML, including exact regional URL and source-file paths.",
-      "Review parsed values and footnote qualifications; ensure dimensions and weight match source labels and units.",
-      "Extract explicit model identifiers and any additional hardware/power details only where official Apple sources provide them.",
-      "Confirm HomePod mini 2 source and regional availability against the Ireland-facing catalogue policy.",
-      "Run repository-wide JSON Schema, uniqueness, archive-path, source URL, inventory and catalogue checks."
+      "Review source footnote qualifications against the archived HTML and ensure all typed fields that need them preserve the applicable caveats.",
+      "Extract model identifiers or additional hardware/power details only where official Apple sources explicitly provide them.",
+      "Keep commercial availability distinct from source locale; do not infer Irish sale availability solely from an Ireland-localized support page."
     ]
   }
 }
