@@ -116,6 +116,12 @@
       "source_text": "Height: 3.5 in Width: 1.6 in Depth: 0.27 in Weight: 1.5 oz 1GB = 1 billion bytes; actual formatted capacity less. Song capacity is based on 4 minutes per song and 128-Kbps AAC encoding; photo capacity is based on iPod-viewable photos transferred from iTunes. 25,000 photos refers to 2GB and 4GB iPod nano. 1GB iPod nano holds up to 15,000 photos. Rechargeable batteries have a limited number of charge cycles and may eventually need to be replaced. Battery life and number of charge cycles vary by use and settings. See www.apple.com/batteries for more information. iPod and iTunes are for legal or rightholder-authorized copying only. Don&rsquo;t steal music. Helpful? Yes No Character limit: 250 Maximum character limit is 250. Please don’t include any personal information in your comment. Submit Thanks for your feedback.",
       "source_url": "https://support.apple.com/en-ie/112507",
       "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-1st-generation-tech-specs.html"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "Dock connector 3.5-mm stereo headphone jack",
+      "source_url": "https://support.apple.com/en-ie/112507",
+      "source_file": "apple_remaining_extraction/technical_specs_html/ipod-nano-1st-generation-tech-specs.html"
     }
   ],
   "record_notes": [
@@ -391,13 +397,13 @@
     },
     "system_requirements": {
       "mac": {
-        "value": "Macintosh computer with USB port (USB 2.0 recommended); Mac OS X v10.3.4 or later",
+        "value": "Macintosh computer with USB port (USB 2.0 recommended) Mac OS X v10.3.4 or later",
         "unit": null,
         "source_section": "Mac system requirements",
         "verification_status": "source_transcribed"
       },
       "windows": {
-        "value": "PC with USB port or card (USB 2.0 recommended); Windows 2000 with Service Pack 4 or later, or Windows XP Home or Professional with Service Pack 2 or later",
+        "value": "PC with USB port or card (USB 2.0 recommended) Windows 2000 with Service Pack 4 or later, or Windows XP Home or Professional with Service Pack 2 or later",
         "unit": null,
         "source_section": "Windows system requirements",
         "verification_status": "source_transcribed"
@@ -427,6 +433,23 @@
         "unit": "m",
         "source_section": "Environmental requirements",
         "verification_status": "source_transcribed"
+      }
+    },
+    "connectivity": {
+      "interfaces": {
+        "value": "Dock connector 3.5-mm stereo headphone jack",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "language_support": {
+      "statements": {
+        "value": "Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Simplified Chinese, Spanish, Swedish, Traditional Chinese and Turkish Additional language support for display of song, album and artist information: Bulgarian, Croatian, Romanian, Serbian, Slovak, Slovenian and Ukrainian",
+        "unit": null,
+        "source_section": "Customizable settings",
+        "verification_status": "source_transcribed",
+        "notes": "Language list extracted from the source's Customizable settings section."
       }
     }
   }
