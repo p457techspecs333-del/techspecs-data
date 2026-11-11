@@ -85,6 +85,56 @@
       "url": "https://support.apple.com/en-ie/111965",
       "expected_title_contains": "iPad Pro (9.7-inch)",
       "output_path": "apple_remaining_extraction/technical_specs_html/ipad-pro-9-7-inch-tech-specs.html"
+    },
+    {
+      "url": "https://support.apple.com/en-ie/112507",
+      "expected_title_contains": "iPod nano (1st generation)",
+      "output_path": "apple_remaining_extraction/technical_specs_html/ipod-nano-1st-generation-tech-specs.html"
+    },
+    {
+      "url": "https://support.apple.com/en-ie/112309",
+      "expected_title_contains": "iPod nano (Second Generation)",
+      "output_path": "apple_remaining_extraction/technical_specs_html/ipod-nano-2nd-generation-tech-specs.html"
+    },
+    {
+      "url": "https://support.apple.com/en-ie/112552",
+      "expected_title_contains": "iPod nano (3rd generation)",
+      "output_path": "apple_remaining_extraction/technical_specs_html/ipod-nano-3rd-generation-tech-specs.html"
+    },
+    {
+      "url": "https://support.apple.com/en-ie/112495",
+      "expected_title_contains": "iPod nano (5th generation)",
+      "output_path": "apple_remaining_extraction/technical_specs_html/ipod-nano-5th-generation-tech-specs.html"
+    },
+    {
+      "url": "https://support.apple.com/en-ie/112455",
+      "expected_title_contains": "iPod shuffle (2nd generation)",
+      "output_path": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-2nd-generation-tech-specs.html"
+    },
+    {
+      "url": "https://support.apple.com/en-ie/112497",
+      "expected_title_contains": "iPod shuffle (3rd generation)",
+      "output_path": "apple_remaining_extraction/technical_specs_html/ipod-shuffle-3rd-generation-tech-specs.html"
+    },
+    {
+      "url": "https://support.apple.com/en-ie/111923",
+      "expected_title_contains": "Fifth Generation iPod",
+      "output_path": "apple_remaining_extraction/technical_specs_html/ipod-5th-generation-2005-tech-specs.html"
+    },
+    {
+      "url": "https://support.apple.com/en-ie/112454",
+      "expected_title_contains": "Fifth Generation iPod (Late 2006)",
+      "output_path": "apple_remaining_extraction/technical_specs_html/ipod-5th-generation-late-2006-tech-specs.html"
+    },
+    {
+      "url": "https://support.apple.com/en-ie/112541",
+      "expected_title_contains": "iPod with Click Wheel (20 GB, 40 GB including U2 Special Edition)",
+      "output_path": "apple_remaining_extraction/technical_specs_html/ipod-click-wheel-20-40gb-tech-specs.html"
+    },
+    {
+      "url": "https://support.apple.com/en-ie/112449",
+      "expected_title_contains": "iPod photo (40 GB, 60 GB)",
+      "output_path": "apple_remaining_extraction/technical_specs_html/ipod-photo-40-60gb-tech-specs.html"
     }
   ]
 }
