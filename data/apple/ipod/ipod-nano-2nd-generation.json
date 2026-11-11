@@ -186,7 +186,12 @@
     },
     "size_weight_statements": {
       "value": {
-        "value": "Height: 3.5 inches\nWidth: 1.6 inches\nDepth: 0.26 inch\nWeight: 1.41 ounces",
+        "value": [
+          "Height: 3.5 inches",
+          "Width: 1.6 inches",
+          "Depth: 0.26 inch",
+          "Weight: 1.41 ounces"
+        ],
         "unit": null,
         "source_section": "Size and weight",
         "verification_status": "source_transcribed"
@@ -349,7 +354,7 @@
         "verification_status": "source_transcribed"
       },
       "charging_method": {
-        "value": "(5)\nBuilt-in rechargeable lithium ion battery\nMusic playback time: Up to 24 hours when fully charged\n(3)\nPhoto slideshow with music viewing time: Up to 5 hours when fully charged\n(3)\nCharging via USB or FireWire to computer system or power adapter (sold separately)\nFast-charge time: about 1.5 hours (charges up to 80% of battery capacity)\nFull-charge time: about 3 hours",
+        "value": "Charging via USB or FireWire to computer system or power adapter (sold separately)",
         "unit": null,
         "source_section": "Power and battery",
         "verification_status": "source_transcribed"
