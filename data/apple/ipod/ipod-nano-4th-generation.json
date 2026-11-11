@@ -234,10 +234,10 @@
     "storage": {
       "capacity": {
         "value": [
-          "8 GB",
-          "16 GB"
+          8,
+          16
         ],
-        "unit": null,
+        "unit": "GB",
         "source_section": "Capacity",
         "verification_status": "source_transcribed"
       },
