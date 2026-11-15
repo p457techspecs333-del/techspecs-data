@@ -101,7 +101,7 @@ jobs:
             git pull --rebase origin ${{ github.head_ref }}
             git push origin HEAD:${{ github.head_ref }}
           fi
-      - name: Archive selected Samsung products
+      - name: Archive discovered Samsung product candidates
         if: github.event_name == 'pull_request'
         run: python scripts/samsung_slim_ingest.py --archive
       - name: Compile legacy Watch extraction helper
