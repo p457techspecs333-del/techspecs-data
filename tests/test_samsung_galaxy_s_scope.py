@@ -33,5 +33,36 @@ class GalaxySScopeTests(unittest.TestCase):
         self.assertIsNone(MODULE.canonical_model_url("https://example.com/ie/smartphones/galaxy-s26/", "https://www.samsung.com/ie/"))
 
 
+class SamsungHtmlSpecificationExtractionTests(unittest.TestCase):
+    def test_extracts_specification_sections_without_browser(self):
+        html = """
+        <section class="pdd32-product-spec">
+          <div class="pdd32-product-spec__item">
+            <h3 class="pdd32-product-spec__title">Processor</h3>
+            <li class="pdd32-product-spec__content-item">
+              <p class="pdd32-product-spec__content-item-title">CPU Name</p>
+              <p class="pdd32-product-spec__content-item-desc">Samsung Exynos 2500</p>
+            </li>
+            <li class="pdd32-product-spec__content-item">
+              <p class="pdd32-product-spec__content-item-title">CPU Speed</p>
+              <p class="pdd32-product-spec__content-item-desc">3.3GHz</p>
+            </li>
+          </div>
+        </section>
+        """
+        sections, normalized = MODULE.extract_spec_sections(html)
+        self.assertEqual(len(sections), 1)
+        self.assertEqual(sections[0]["heading"], "Processor")
+        self.assertIn("CPU Name: Samsung Exynos 2500", sections[0]["source_text"])
+        self.assertEqual(normalized["processor"]["cpu_name"]["value"], "Samsung Exynos 2500")
+        self.assertEqual(normalized["processor"]["cpu_speed"]["value"], "3.3GHz")
+        self.assertEqual(normalized["processor"]["cpu_speed"]["verification_status"], "source_transcribed")
+
+    def test_returns_empty_when_page_has_no_specification_component(self):
+        sections, normalized = MODULE.extract_spec_sections("<html><body>no spec panel</body></html>")
+        self.assertEqual(sections, [])
+        self.assertEqual(normalized, {})
+
+
 if __name__ == "__main__":
     unittest.main()
