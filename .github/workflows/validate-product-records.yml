@@ -26,6 +26,8 @@ on:
       - "docs/SAMSUNG-GALAXY-S-INGESTION.md"
       - "requirements.txt"
       - ".github/workflows/validate-product-records.yml"
+      - ".github/workflows/discover-samsung-slim.yml"
+      - ".github/workflows/archive-samsung-slim.yml"
   pull_request:
     paths:
       - "data/**/*.json"
