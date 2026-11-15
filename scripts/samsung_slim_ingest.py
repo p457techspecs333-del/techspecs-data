@@ -1,16 +1,15 @@
 #!/usr/bin/env python3
 """Slim Samsung comparison ingestion from official Samsung Ireland HTML.
 
-Automated discovery is deliberately separate from the approval/selection step.
+Discovery and archival are separate stages. Every discovered Samsung product page with usable V2 evidence is eligible for archival; no Apple-equivalence decision is required.
 
 This crawler never launches a browser. It downloads official category/product
 HTML, reads Samsung's server-rendered pdd32 product-spec panel, archives the
 original page and creates archival-first TechSpecs V2 records.
 
-Use --discover first. Review the generated inventory's product candidates and
-set selected=true only for the products in the slim comparison scope. Then run
---archive. The script deliberately does not guess which product is the newest
-or force an Apple/Samsung equivalent.
+Use --discover to refresh the official Samsung product inventory, then --archive
+to create V2 records for every discovered product with usable source evidence.
+The ingestion pipeline makes no Apple/Samsung equivalence judgements.
 """
 from __future__ import annotations
 
@@ -319,13 +318,13 @@ def main() -> int:
             print("Run --discover first.", file=sys.stderr)
             return 2
         inventory = json.loads(INVENTORY.read_text(encoding="utf-8"))
-        selected = [x for x in inventory.get("candidates", []) if x.get("selected") is True and x.get("archive_status") != "archived_with_specs"]
-        if not selected:
-            print("No candidates selected. Mark only the intended slim-scope products selected=true in the inventory.", file=sys.stderr)
+        pending = [x for x in inventory.get("candidates", []) if x.get("archive_status") != "archived_with_specs"]
+        if not pending:
+            print("All discovered Samsung candidates already have archived V2 records.")
             return 0
         failures = []
         success = 0
-        for item in selected:
+        for item in pending:
             try:
                 result = archive_one(s, item)
                 item["archive_result"] = result
