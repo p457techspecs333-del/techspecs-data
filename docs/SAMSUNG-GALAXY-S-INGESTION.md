@@ -1,22 +1,37 @@
-# Samsung Galaxy S ingestion
+# Samsung ingestion — slim comparison scope
 
-This is a deliberately limited Samsung source stream for Apple-versus-Samsung phone comparisons. It is **not** a full Samsung catalogue.
+This workstream builds a **small Samsung comparison catalogue**, not a complete Samsung catalogue.
 
-## Included product scope
+## Agreed scope
 
-- One standard/base Galaxy S handset per generation (Galaxy S, S2–S10, S20–S26 where an official Samsung Ireland source page can be found).
-- A generation is one product record, not one record per model number, finish, storage capacity, retailer SKU or carrier SKU.
-- The discovery rule excludes Galaxy S+, S Plus, Ultra, FE, Edge and Active models.
-- No Galaxy A, Z, tablets, watches, TVs or appliances are in scope.
+1. **Phones:** identify Samsung equivalents for the complete legacy/current iPhone catalogue. Samsung model families and variants must be selected by genuine product equivalence, not by release year alone. A Galaxy S base model is not automatically an equivalent for every iPhone Pro, Pro Max, mini or Plus model. Keep one record per actual product model; colour and storage SKUs are attributes, not separate products.
+2. **Other categories:** include only the latest current Samsung products with a genuine counterpart in the current Apple catalogue. Do not create historical Samsung back-catalogues for tablets, laptops, watches, earbuds, displays or other categories.
+3. **No forced matches:** where Samsung has no credible equivalent, record the gap in the comparison mapping rather than inventing a product.
 
-The current standard model is Galaxy S26. Samsung's official Irish product page is:
+The current Apple catalogue contains 50 iPhone records. That is the phone-matching workload; it is not a promise that there will be exactly 50 Samsung records because some Apple models may share a closest Samsung equivalent and some may have no direct counterpart.
 
-- Product overview: https://www.samsung.com/ie/smartphones/galaxy-s26/
-- Specifications: https://www.samsung.com/ie/smartphones/galaxy-s26/specs/
+## Source collection and extraction
 
-The page also describes the S26+ and Ultra family members. The ingestion workflow selects only the canonical base-model URL and does not create records for those variants.
+Samsung's live pages can freeze a normal browser. The scraper therefore downloads the source HTML directly with a low request rate and parses the server-rendered product specification component without launching a browser.
 
-## Workflow
+The Samsung product detail template currently exposes specification data in:
+
+- `.pdd32-product-spec`
+- `.pdd32-product-spec__item`
+- `.pdd32-product-spec__content-item-title`
+- `.pdd32-product-spec__content-item-desc`
+
+The scraper preserves each specification heading and label/value pair as a V2 `sections` entry, and writes corresponding `normalized_specifications` values with `verification_status: source_transcribed`. This means the value was transcribed from Samsung's HTML; it is not yet independently field-verified. The original HTML is retained as source evidence.
+
+A page returning HTTP 200 is not sufficient to create a record. The scraper must also check the requested product identity and confirm that the specification component exists before treating the page as a successful specification extraction.
+
+## Current implementation boundary
+
+The existing `samsung_galaxy_s_ingest.py` is the first phone-family adapter. It currently discovers canonical standard Galaxy S generations only; it does **not yet** complete the full cross-family iPhone equivalence mapping or the current-only non-phone categories. Do not treat its current output as the finished slim Samsung catalogue.
+
+The next implementation step is to expand discovery to the Samsung phone families needed for real iPhone equivalents, then add a current-model-only pass for the other Apple-matched categories. The original Apple records remain unchanged.
+
+## Commands
 
 From the repository root:
 
@@ -28,13 +43,4 @@ python scripts/validate_product_records.py
 python scripts/build_catalogue_index.py
 ```
 
-- `--discover` creates `data/samsung/smartphones/source-inventory.json`.
-- `--archive` fetches candidate official Samsung Ireland pages, saves original HTML under `sources/samsung/galaxy-s/`, and creates V2 records under `data/samsung/smartphones/`.
-- Historical URL candidates are not assumed to exist. A missing, blocked or unreadable page is reported in the inventory and is not represented as a verified product record.
-- Generated records start at `url_checked` and `archival_first_pass`. The script does not claim field-level specification verification.
-
-## Comparison with Apple
-
-Samsung and Apple records share the canonical TechSpecs V2 schema. The Apple product records remain unchanged. The catalogue generator indexes both manufacturer folders using their full repository-relative paths, so the resulting product URLs remain unique.
-
-Do not infer a one-to-one generation match from release year alone. The human-facing comparison layer should compare products using the same normalized field vocabulary and display missing or non-comparable fields explicitly.
+New records must validate against `schemas/product-record-v2.schema.json`. Do not mark fields `content_verified` merely because they were extracted from the source HTML.
