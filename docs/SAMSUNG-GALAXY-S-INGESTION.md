@@ -30,12 +30,12 @@ A page returning HTTP 200 is not sufficient to create a record. The scraper must
 A category-agnostic scraper has also been added for the reduced scope:
 
 - `scripts/samsung_slim_ingest.py`
-- `data/samsung/slim-source-seeds.json`
+- `config/samsung-slim-source-seeds.json`
 - `tests/test_samsung_slim_ingest.py`
 
 It discovers Samsung Ireland product detail pages from the official category pages for smartphones, tablets, watches, audio, monitors and Galaxy Book. It reads product identity from Product JSON-LD, then extracts the server-rendered `pdd32-product-spec` table without browser rendering.
 
-The discovery command creates `data/samsung/slim-source-inventory.json`. Every candidate starts with `selected: false`; the scraper does not automatically treat every colour/storage SKU or every linked product as part of the slim catalogue. Duplicate SKU pages with the same Samsung product name are collapsed into one model candidate, with additional URLs retained in the inventory.
+The discovery command creates `data/samsung/source-inventory.json`. Every candidate starts with `selected: false`; the scraper does not automatically treat every colour/storage SKU or every linked product as part of the slim catalogue. Duplicate SKU pages with the same Samsung product name are collapsed into one model candidate, with additional URLs retained in the inventory.
 
 Only after selecting the agreed current products and genuine comparison candidates should `--archive` be run. The script saves original HTML and creates V2 records with source-transcribed fields. It does not decide Apple/Samsung equivalence or mark extracted values as independently verified.
 
@@ -54,7 +54,7 @@ From the repository root:
 ```bash
 python -m pip install -r requirements.txt
 python scripts/samsung_slim_ingest.py --discover
-# Edit data/samsung/slim-source-inventory.json: set selected=true only for approved models
+# Edit data/samsung/source-inventory.json: set selected=true only for approved models
 python scripts/samsung_slim_ingest.py --archive
 python scripts/samsung_galaxy_s_ingest.py --discover
 python scripts/samsung_galaxy_s_ingest.py --archive
