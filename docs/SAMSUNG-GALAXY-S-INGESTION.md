@@ -25,6 +25,22 @@ The scraper preserves each specification heading and label/value pair as a V2 `s
 
 A page returning HTTP 200 is not sufficient to create a record. The scraper must also check the requested product identity and confirm that the specification component exists before treating the page as a successful specification extraction.
 
+## Generic slim Samsung scraper
+
+A category-agnostic scraper has also been added for the reduced scope:
+
+- `scripts/samsung_slim_ingest.py`
+- `data/samsung/slim-source-seeds.json`
+- `tests/test_samsung_slim_ingest.py`
+
+It discovers Samsung Ireland product detail pages from the official category pages for smartphones, tablets, watches, audio, monitors and Galaxy Book. It reads product identity from Product JSON-LD, then extracts the server-rendered `pdd32-product-spec` table without browser rendering.
+
+The discovery command creates `data/samsung/slim-source-inventory.json`. Every candidate starts with `selected: false`; the scraper does not automatically treat every colour/storage SKU or every linked product as part of the slim catalogue. Duplicate SKU pages with the same Samsung product name are collapsed into one model candidate, with additional URLs retained in the inventory.
+
+Only after selecting the agreed current products and genuine comparison candidates should `--archive` be run. The script saves original HTML and creates V2 records with source-transcribed fields. It does not decide Apple/Samsung equivalence or mark extracted values as independently verified.
+
+The supplied Galaxy S26 FE HTML was used to test the parser: 17 specification sections and 70 labelled values were present in the source. That FE page is parser test evidence only; it is not automatically selected as a standard Galaxy S match.
+
 ## Current implementation boundary
 
 The existing `samsung_galaxy_s_ingest.py` is the first phone-family adapter. It currently discovers canonical standard Galaxy S generations only; it does **not yet** complete the full cross-family iPhone equivalence mapping or the current-only non-phone categories. Do not treat its current output as the finished slim Samsung catalogue.
@@ -37,6 +53,9 @@ From the repository root:
 
 ```bash
 python -m pip install -r requirements.txt
+python scripts/samsung_slim_ingest.py --discover
+# Edit data/samsung/slim-source-inventory.json: set selected=true only for approved models
+python scripts/samsung_slim_ingest.py --archive
 python scripts/samsung_galaxy_s_ingest.py --discover
 python scripts/samsung_galaxy_s_ingest.py --archive
 python scripts/validate_product_records.py
