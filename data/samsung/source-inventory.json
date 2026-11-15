@@ -169,6 +169,22 @@
       "product_jsonld_found": true,
       "variant_source_urls": [],
       "seed_errors": []
+    },
+    {
+      "category": "display",
+      "family": "Samsung monitors",
+      "listing_source": "https://www.samsung.com/ie/monitors/",
+      "source_url": "https://www.samsung.com/ie/monitors/high-resolution/viewfinity-s5-s55gh-34-inch-ultra-wqhd-120hz-ls34h550gauxxu/",
+      "canonical_url": "https://www.samsung.com/ie/monitors/high-resolution/viewfinity-s5-s55gh-34-inch-ultra-wqhd-120hz-ls34h550gauxxu/",
+      "selected": false,
+      "title": "34-inch ViewFinity S5 S55GH Ultra WQHD 120Hz Monitor | Samsung Ireland",
+      "name": "ViewFinity S5 S55GH (34-inch)",
+      "sku": "LS34H550GAUXXU",
+      "product_jsonld_found": null,
+      "variant_source_urls": [],
+      "selection_note": "Official Samsung Ireland model-specific monitor page discovered through manufacturer search. Candidate only; determine whether its role is a genuine counterpart to an Apple display before selection.",
+      "discovery_method": "official_manufacturer_search",
+      "evidence_url": "https://www.samsung.com/ie/monitors/high-resolution/viewfinity-s5-s55gh-34-inch-ultra-wqhd-120hz-ls34h550gauxxu/"
     }
   ]
 }
