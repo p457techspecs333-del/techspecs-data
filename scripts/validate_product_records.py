@@ -157,21 +157,19 @@ def main() -> int:
         else:
             parsed_source_url = urlparse(source_url)
             host = (parsed_source_url.hostname or "").lower()
-            path_part = parsed_source_url.path.lower()
-            # Ireland is the target market, but an official Apple technical
-            # specification may only be published or indexed under another
-            # regional locale. Accept any Apple-owned support/specification
-            # URL; records should explain non-Ireland locales in verification_notes.
-            is_official_apple_source = (
-                host == "support.apple.com"
-                or host in {"apple.com", "www.apple.com"}
-                or host == "images.apple.com"
-            )
-            if not is_official_apple_source:
+            brand = str(product.get("brand") or "").strip().lower()
+            # Enforce manufacturer-owned evidence domains by brand. This keeps
+            # Apple's existing rule while allowing the Samsung Ireland source
+            # stream to share the same canonical V2 record model.
+            official_domains = {
+                "apple": {"support.apple.com", "apple.com", "www.apple.com", "images.apple.com"},
+                "samsung": {"samsung.com", "www.samsung.com"},
+            }
+            allowed_hosts = official_domains.get(brand, set())
+            if host not in allowed_hosts:
                 errors.append(
-                    f"{rel}: source URL must be hosted on an official Apple domain "
-                    f"(support.apple.com, apple.com, or images.apple.com); "
-                    f"found {source_url!r}"
+                    f"{rel}: source URL for brand {brand!r} must use an approved "
+                    f"manufacturer domain {sorted(allowed_hosts)!r}; found {source_url!r}"
                 )
         if source.get("verification_status") in (None, "", "not_checked"):
             warnings.append(f"{rel}: source verification status is absent or not_checked")
