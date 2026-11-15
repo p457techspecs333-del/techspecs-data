@@ -298,10 +298,10 @@ def main() -> int:
             print("Run --discover first.", file=sys.stderr)
             return 2
         inventory = json.loads(INVENTORY.read_text(encoding="utf-8"))
-        selected = [x for x in inventory.get("candidates", []) if x.get("selected") is True]
+        selected = [x for x in inventory.get("candidates", []) if x.get("selected") is True and x.get("archive_status") != "archived_with_specs"]
         if not selected:
             print("No candidates selected. Mark only the intended slim-scope products selected=true in the inventory.", file=sys.stderr)
-            return 2
+            return 0
         failures = []
         success = 0
         for item in selected:
