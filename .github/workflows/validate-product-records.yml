@@ -99,7 +99,6 @@ jobs:
             git add data/samsung/source-inventory.json
             git commit -m "Discover Samsung slim comparison source pages"
             git pull --rebase origin ${{ github.head_ref }}
-            git pull --rebase origin ${{ github.head_ref }}
             git push origin HEAD:${{ github.head_ref }}
           fi
       - name: Archive selected Samsung products
@@ -130,6 +129,7 @@ jobs:
             echo "No selected Samsung records or catalogue changes."
           else
             git commit -m "Archive selected Samsung comparison products"
+            git pull --rebase origin ${{ github.head_ref }}
             git push origin HEAD:${{ github.head_ref }}
           fi
       - name: Require catalogue to be current in pull requests
