@@ -1,0 +1,339 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Samsung",
+    "category": "wireless-earbuds",
+    "family": "Galaxy Buds",
+    "model": "Galaxy Buds4",
+    "model_slug": "galaxy-buds4",
+    "model_numbers": [
+      "SM-R540NZKAEUB"
+    ]
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://www.samsung.com/ie/audio-sound/galaxy-buds/galaxy-buds4-white-sm-r540nzwaeub/",
+    "source_file": "sources/samsung/wireless-earbuds/galaxy-buds4.html",
+    "source_title": "Buy New Samsung Galaxy Buds 4 Earbuds | Samsung IE",
+    "publisher": "Samsung Electronics",
+    "published_at": null,
+    "checked_at": "2026-11-15",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Samsung Ireland product page archived. Extracted fields are source-transcribed, not independently field-verified.",
+    "notes": [
+      "Original HTML retained as source evidence.",
+      "Model variants and retailer configurations are not separate records unless they are distinct products."
+    ]
+  },
+  "extraction": {
+    "method": "structured_extraction",
+    "normalization_status": "partially_normalized",
+    "note": "Server-rendered Samsung product specification rows transcribed from pdd32-product-spec markup. Field-level verification remains outstanding.",
+    "extracted_at": "2026-11-15",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Overview",
+      "source_text": "Bluetooth Version: Bluetooth v6.1\nSensors: Accelerometer, Gyro Sensor, Hall Sensor, Pressure Sensor, Proximity Sensor, Touch Sensor, VPU(Voice Pickup Unit)\nEarbud Weight (g): 4.6",
+      "source_url": "https://www.samsung.com/ie/audio-sound/galaxy-buds/galaxy-buds4-white-sm-r540nzwaeub/",
+      "source_file": "sources/samsung/wireless-earbuds/galaxy-buds4.html"
+    },
+    {
+      "heading": "Audio and Video",
+      "source_text": "Number of MIC: 6\nSpeaker: 1-way\nAmbient Sound: Yes\nAdaptive Noise Control: Yes\nActive Noise Cancellation: Yes\n360 Audio: Yes\nAudio Codec: AAC, SBC, SSC(Samsung Seamless Codec), SSC-UHQ, LC3\nAdaptive EQ: Yes\nAdaptive ANC: Yes\nSuper Wide Band: Yes",
+      "source_url": "https://www.samsung.com/ie/audio-sound/galaxy-buds/galaxy-buds4-white-sm-r540nzwaeub/",
+      "source_file": "sources/samsung/wireless-earbuds/galaxy-buds4.html"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "Bluetooth Version: Bluetooth v6.1\nBluetooth Profiles: A2DP, AVRCP, HFP, PBP, TMAP\nLE Audio: Yes\nAuto Switch: Yes",
+      "source_url": "https://www.samsung.com/ie/audio-sound/galaxy-buds/galaxy-buds4-white-sm-r540nzwaeub/",
+      "source_file": "sources/samsung/wireless-earbuds/galaxy-buds4.html"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Accelerometer, Gyro Sensor, Hall Sensor, Pressure Sensor, Proximity Sensor, Touch Sensor, VPU(Voice Pickup Unit)",
+      "source_url": "https://www.samsung.com/ie/audio-sound/galaxy-buds/galaxy-buds4-white-sm-r540nzwaeub/",
+      "source_file": "sources/samsung/wireless-earbuds/galaxy-buds4.html"
+    },
+    {
+      "heading": "Physical specification",
+      "source_text": "Earbud Dimension (HxWxD, mm): 30.5 x 18.3 x 19.3\nEarbud Weight (g): 4.6\nCase Dimension (HxWxD, mm): 51 x 28.3 x 51\nCase Weight (g): 45.1\nDurability: IP54",
+      "source_url": "https://www.samsung.com/ie/audio-sound/galaxy-buds/galaxy-buds4-white-sm-r540nzwaeub/",
+      "source_file": "sources/samsung/wireless-earbuds/galaxy-buds4.html"
+    },
+    {
+      "heading": "Usage Time (ANC On)",
+      "source_text": "Talk Time (Hours, ANC On): Up to 3.5\nTotal Talk Time (Hours, ANC On): Up to 18\nMusic Play Time (Hours, ANC On): Up to 5\nTotal Music Play Time (Hours, ANC On): Up to 24",
+      "source_url": "https://www.samsung.com/ie/audio-sound/galaxy-buds/galaxy-buds4-white-sm-r540nzwaeub/",
+      "source_file": "sources/samsung/wireless-earbuds/galaxy-buds4.html"
+    },
+    {
+      "heading": "Usage Time (ANC Off)",
+      "source_text": "Talk Time (Hours, ANC Off): Up to 4\nTotal Talk Time (Hours, ANC Off): Up to 20\nMusic Play Time (Hours, ANC Off): Up to 6\nTotal Music Play Time (Hours, ANC Off): Up to 30",
+      "source_url": "https://www.samsung.com/ie/audio-sound/galaxy-buds/galaxy-buds4-white-sm-r540nzwaeub/",
+      "source_file": "sources/samsung/wireless-earbuds/galaxy-buds4.html"
+    },
+    {
+      "heading": "Power",
+      "source_text": "Power Required for Charging (Min / Max, W): 2.5 ~ 4.5",
+      "source_url": "https://www.samsung.com/ie/audio-sound/galaxy-buds/galaxy-buds4-white-sm-r540nzwaeub/",
+      "source_file": "sources/samsung/wireless-earbuds/galaxy-buds4.html"
+    },
+    {
+      "heading": "Battery",
+      "source_text": "Earbud Battery Capacity (mAh, Typical): 45\nCase Battery Capacity (mAh, Typical): 515",
+      "source_url": "https://www.samsung.com/ie/audio-sound/galaxy-buds/galaxy-buds4-white-sm-r540nzwaeub/",
+      "source_file": "sources/samsung/wireless-earbuds/galaxy-buds4.html"
+    },
+    {
+      "heading": "Services and Applications",
+      "source_text": "Samsung Find: Yes\nBixby Voice Wake-up: Yes\nNeck Stretch Reminder: Yes",
+      "source_url": "https://www.samsung.com/ie/audio-sound/galaxy-buds/galaxy-buds4-white-sm-r540nzwaeub/",
+      "source_file": "sources/samsung/wireless-earbuds/galaxy-buds4.html"
+    }
+  ],
+  "normalized_specifications": {
+    "overview": {
+      "bluetooth_version": {
+        "value": "Bluetooth v6.1",
+        "unit": null,
+        "source_section": "Overview",
+        "verification_status": "source_transcribed"
+      },
+      "sensors": {
+        "value": "Accelerometer, Gyro Sensor, Hall Sensor, Pressure Sensor, Proximity Sensor, Touch Sensor, VPU(Voice Pickup Unit)",
+        "unit": null,
+        "source_section": "Overview",
+        "verification_status": "source_transcribed"
+      },
+      "earbud_weight_g": {
+        "value": "4.6",
+        "unit": "g",
+        "source_section": "Overview",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "audio_and_video": {
+      "number_of_mic": {
+        "value": "6",
+        "unit": null,
+        "source_section": "Audio and Video",
+        "verification_status": "source_transcribed"
+      },
+      "speaker": {
+        "value": "1-way",
+        "unit": null,
+        "source_section": "Audio and Video",
+        "verification_status": "source_transcribed"
+      },
+      "ambient_sound": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Audio and Video",
+        "verification_status": "source_transcribed"
+      },
+      "adaptive_noise_control": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Audio and Video",
+        "verification_status": "source_transcribed"
+      },
+      "active_noise_cancellation": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Audio and Video",
+        "verification_status": "source_transcribed"
+      },
+      "360_audio": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Audio and Video",
+        "verification_status": "source_transcribed"
+      },
+      "audio_codec": {
+        "value": "AAC, SBC, SSC(Samsung Seamless Codec), SSC-UHQ, LC3",
+        "unit": null,
+        "source_section": "Audio and Video",
+        "verification_status": "source_transcribed"
+      },
+      "adaptive_eq": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Audio and Video",
+        "verification_status": "source_transcribed"
+      },
+      "adaptive_anc": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Audio and Video",
+        "verification_status": "source_transcribed"
+      },
+      "super_wide_band": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Audio and Video",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "connectivity": {
+      "bluetooth_version": {
+        "value": "Bluetooth v6.1",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "bluetooth_profiles": {
+        "value": "A2DP, AVRCP, HFP, PBP, TMAP",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "le_audio": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "auto_switch": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "sensors": {},
+    "physical_specification": {
+      "earbud_dimension_hxwxd_mm": {
+        "value": "30.5 x 18.3 x 19.3",
+        "unit": "HxWxD, mm",
+        "source_section": "Physical specification",
+        "verification_status": "source_transcribed"
+      },
+      "earbud_weight_g": {
+        "value": "4.6",
+        "unit": "g",
+        "source_section": "Physical specification",
+        "verification_status": "source_transcribed"
+      },
+      "case_dimension_hxwxd_mm": {
+        "value": "51 x 28.3 x 51",
+        "unit": "HxWxD, mm",
+        "source_section": "Physical specification",
+        "verification_status": "source_transcribed"
+      },
+      "case_weight_g": {
+        "value": "45.1",
+        "unit": "g",
+        "source_section": "Physical specification",
+        "verification_status": "source_transcribed"
+      },
+      "durability": {
+        "value": "IP54",
+        "unit": null,
+        "source_section": "Physical specification",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "usage_time_anc_on": {
+      "talk_time_hours_anc_on": {
+        "value": "Up to 3.5",
+        "unit": "Hours, ANC On",
+        "source_section": "Usage Time (ANC On)",
+        "verification_status": "source_transcribed"
+      },
+      "total_talk_time_hours_anc_on": {
+        "value": "Up to 18",
+        "unit": "Hours, ANC On",
+        "source_section": "Usage Time (ANC On)",
+        "verification_status": "source_transcribed"
+      },
+      "music_play_time_hours_anc_on": {
+        "value": "Up to 5",
+        "unit": "Hours, ANC On",
+        "source_section": "Usage Time (ANC On)",
+        "verification_status": "source_transcribed"
+      },
+      "total_music_play_time_hours_anc_on": {
+        "value": "Up to 24",
+        "unit": "Hours, ANC On",
+        "source_section": "Usage Time (ANC On)",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "usage_time_anc_off": {
+      "talk_time_hours_anc_off": {
+        "value": "Up to 4",
+        "unit": "Hours, ANC Off",
+        "source_section": "Usage Time (ANC Off)",
+        "verification_status": "source_transcribed"
+      },
+      "total_talk_time_hours_anc_off": {
+        "value": "Up to 20",
+        "unit": "Hours, ANC Off",
+        "source_section": "Usage Time (ANC Off)",
+        "verification_status": "source_transcribed"
+      },
+      "music_play_time_hours_anc_off": {
+        "value": "Up to 6",
+        "unit": "Hours, ANC Off",
+        "source_section": "Usage Time (ANC Off)",
+        "verification_status": "source_transcribed"
+      },
+      "total_music_play_time_hours_anc_off": {
+        "value": "Up to 30",
+        "unit": "Hours, ANC Off",
+        "source_section": "Usage Time (ANC Off)",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "power": {
+      "power_required_for_charging_min_max_w": {
+        "value": "2.5 ~ 4.5",
+        "unit": "Min / Max, W",
+        "source_section": "Power",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "battery": {
+      "earbud_battery_capacity_mah_typical": {
+        "value": "45",
+        "unit": "mAh, Typical",
+        "source_section": "Battery",
+        "verification_status": "source_transcribed"
+      },
+      "case_battery_capacity_mah_typical": {
+        "value": "515",
+        "unit": "mAh, Typical",
+        "source_section": "Battery",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "services_and_applications": {
+      "samsung_find": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Services and Applications",
+        "verification_status": "source_transcribed"
+      },
+      "bixby_voice_wake_up": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Services and Applications",
+        "verification_status": "source_transcribed"
+      },
+      "neck_stretch_reminder": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Services and Applications",
+        "verification_status": "source_transcribed"
+      }
+    }
+  },
+  "record_notes": [
+    "Generated by scripts/samsung_slim_ingest.py.",
+    "Specification labels are preserved as Samsung presents them; field names are normalized mechanically from labels.",
+    "No Apple/Samsung equivalence is asserted by this product record."
+  ]
+}

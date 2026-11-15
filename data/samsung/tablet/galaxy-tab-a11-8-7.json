@@ -1,0 +1,418 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Samsung",
+    "category": "tablet",
+    "family": "Galaxy Tab",
+    "model": "Galaxy Tab A11 (8.7\")",
+    "model_slug": "galaxy-tab-a11-8-7",
+    "model_numbers": [
+      "SM-X130NZAAEUB"
+    ]
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-a/galaxy-tab-a11-grey-64gb-wi-fi-sm-x130nzaaeub/",
+    "source_file": "sources/samsung/tablet/galaxy-tab-a11-8-7.html",
+    "source_title": "Galaxy Tab A11 WiFi 8.7 inch Tablet | Specs | Samsung IE",
+    "publisher": "Samsung Electronics",
+    "published_at": null,
+    "checked_at": "2026-11-15",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Samsung Ireland product page archived. Extracted fields are source-transcribed, not independently field-verified.",
+    "notes": [
+      "Original HTML retained as source evidence.",
+      "Model variants and retailer configurations are not separate records unless they are distinct products."
+    ]
+  },
+  "extraction": {
+    "method": "structured_extraction",
+    "normalization_status": "partially_normalized",
+    "note": "Server-rendered Samsung product specification rows transcribed from pdd32-product-spec markup. Field-level verification remains outstanding.",
+    "extracted_at": "2026-11-15",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Processor",
+      "source_text": "CPU Speed: 2.2GHz, 2GHz\nCPU Type: Octa-Core",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-a/galaxy-tab-a11-grey-64gb-wi-fi-sm-x130nzaaeub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-a11-8-7.html"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Size (Main_Display): 220.5mm (8.7\" full rectangle) / 219.6mm (8.6\" rounded corners)\nResolution (Main Display): 1340 x 800 (WXGA+)\nTechnology (Main Display): TFT\nColour Depth (Main Display): 16M",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-a/galaxy-tab-a11-grey-64gb-wi-fi-sm-x130nzaaeub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-a11-8-7.html"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "Rear Camera - Resolution: 8.0 MP\nRear Camera - Auto Focus: Yes\nFront Camera - Resolution: 5.0 MP\nRear Camera - Flash: No",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-a/galaxy-tab-a11-grey-64gb-wi-fi-sm-x130nzaaeub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-a11-8-7.html"
+    },
+    {
+      "heading": "Storage/Memory",
+      "source_text": "Memory_(GB): 4\nStorage (GB): 64\nAvailable Storage (GB): 44.9\nExternal Storage Support: MicroSD (Up to 2TB)",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-a/galaxy-tab-a11-grey-64gb-wi-fi-sm-x130nzaaeub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-a11-8-7.html"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "USB Version: USB 2.0\nLocation Technology: GPS, Glonass, Beidou, Galileo, QZSS\nEarjack: 3.5mm Stereo\nMHL: No\nWi-Fi: 802.11a/b/g/n/ac 2.4GHz+5GHz, VHT80\nWi-Fi Direct: Yes\nBluetooth Version: Bluetooth v5.3\nNFC: No\nBluetooth Profiles: A2DP, AVRCP, DI, HFP, HID, HOGP, HSP, MAP, OPP, PAN, PBAP\nPC Sync.: Smart Switch (PC version)",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-a/galaxy-tab-a11-grey-64gb-wi-fi-sm-x130nzaaeub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-a11-8-7.html"
+    },
+    {
+      "heading": "OS",
+      "source_text": "Android",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-a/galaxy-tab-a11-grey-64gb-wi-fi-sm-x130nzaaeub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-a11-8-7.html"
+    },
+    {
+      "heading": "General Information",
+      "source_text": "Form Factor: Tablet",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-a/galaxy-tab-a11-grey-64gb-wi-fi-sm-x130nzaaeub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-a11-8-7.html"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Accelerometer, Geomagnetic Sensor, Light Sensor",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-a/galaxy-tab-a11-grey-64gb-wi-fi-sm-x130nzaaeub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-a11-8-7.html"
+    },
+    {
+      "heading": "Physical specification",
+      "source_text": "Dimension (HxWxD, mm): 211.0 x 124.7 x 8.0\nWeight (g): 335",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-a/galaxy-tab-a11-grey-64gb-wi-fi-sm-x130nzaaeub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-a11-8-7.html"
+    },
+    {
+      "heading": "Battery",
+      "source_text": "Battery Capacity (mAh, Typical): 5100\nRemovable: No\nEnergy Efficiency Class: C\nMinimum Battery Endurance in Cycles: 1200",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-a/galaxy-tab-a11-grey-64gb-wi-fi-sm-x130nzaaeub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-a11-8-7.html"
+    },
+    {
+      "heading": "Audio and Video",
+      "source_text": "Video Playing Format: MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM\nVideo Playing Resolution: FHD (1920 x 1080)@60fps\nAudio Playing Format: MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-a/galaxy-tab-a11-grey-64gb-wi-fi-sm-x130nzaaeub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-a11-8-7.html"
+    },
+    {
+      "heading": "ECO Design",
+      "source_text": "Recycled Content (%): 0\nWeight of Critical Raw Material - Cobalt (g): 10 ≤   < 20\nWeight of Critical Raw Material - Tantalum (g): < 0.01\nWeight of Critical Raw Material - Neodymium (g): < 0.2\nWeight of Critical Raw Material - Gold (g): < 0.02\nRecyclability (%): 8.1",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-a/galaxy-tab-a11-grey-64gb-wi-fi-sm-x130nzaaeub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-a11-8-7.html"
+    },
+    {
+      "heading": "Services and Applications",
+      "source_text": "Gear Support: Galaxy Buds Core, Galaxy Buds3 Pro, Galaxy Buds2 Pro, Galaxy Buds Pro, Galaxy Buds Live, Galaxy Buds+, Galaxy Buds3, Galaxy Buds2, Galaxy Buds, Galaxy Buds FE\nMobile TV: No\nSmartThings Support: Yes",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-a/galaxy-tab-a11-grey-64gb-wi-fi-sm-x130nzaaeub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-a11-8-7.html"
+    },
+    {
+      "heading": "Software Support",
+      "source_text": "Security Update Period (Valid until): 30 September 2032",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-a/galaxy-tab-a11-grey-64gb-wi-fi-sm-x130nzaaeub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-a11-8-7.html"
+    }
+  ],
+  "normalized_specifications": {
+    "processor": {
+      "cpu_speed": {
+        "value": "2.2GHz, 2GHz",
+        "unit": null,
+        "source_section": "Processor",
+        "verification_status": "source_transcribed"
+      },
+      "cpu_type": {
+        "value": "Octa-Core",
+        "unit": null,
+        "source_section": "Processor",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "display": {
+      "size_main_display": {
+        "value": "220.5mm (8.7\" full rectangle) / 219.6mm (8.6\" rounded corners)",
+        "unit": "Main_Display",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "resolution_main_display": {
+        "value": "1340 x 800 (WXGA+)",
+        "unit": "Main Display",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "technology_main_display": {
+        "value": "TFT",
+        "unit": "Main Display",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "colour_depth_main_display": {
+        "value": "16M",
+        "unit": "Main Display",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "camera": {
+      "rear_camera_resolution": {
+        "value": "8.0 MP",
+        "unit": null,
+        "source_section": "Camera",
+        "verification_status": "source_transcribed"
+      },
+      "rear_camera_auto_focus": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Camera",
+        "verification_status": "source_transcribed"
+      },
+      "front_camera_resolution": {
+        "value": "5.0 MP",
+        "unit": null,
+        "source_section": "Camera",
+        "verification_status": "source_transcribed"
+      },
+      "rear_camera_flash": {
+        "value": "No",
+        "unit": null,
+        "source_section": "Camera",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "storage_memory": {
+      "memory_gb": {
+        "value": "4",
+        "unit": "GB",
+        "source_section": "Storage/Memory",
+        "verification_status": "source_transcribed"
+      },
+      "storage_gb": {
+        "value": "64",
+        "unit": "GB",
+        "source_section": "Storage/Memory",
+        "verification_status": "source_transcribed"
+      },
+      "available_storage_gb": {
+        "value": "44.9",
+        "unit": "GB",
+        "source_section": "Storage/Memory",
+        "verification_status": "source_transcribed"
+      },
+      "external_storage_support": {
+        "value": "MicroSD (Up to 2TB)",
+        "unit": null,
+        "source_section": "Storage/Memory",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "connectivity": {
+      "usb_version": {
+        "value": "USB 2.0",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "location_technology": {
+        "value": "GPS, Glonass, Beidou, Galileo, QZSS",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "earjack": {
+        "value": "3.5mm Stereo",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "mhl": {
+        "value": "No",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "wi_fi": {
+        "value": "802.11a/b/g/n/ac 2.4GHz+5GHz, VHT80",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "wi_fi_direct": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "bluetooth_version": {
+        "value": "Bluetooth v5.3",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "nfc": {
+        "value": "No",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "bluetooth_profiles": {
+        "value": "A2DP, AVRCP, DI, HFP, HID, HOGP, HSP, MAP, OPP, PAN, PBAP",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "pc_sync": {
+        "value": "Smart Switch (PC version)",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "os": {},
+    "general_information": {
+      "form_factor": {
+        "value": "Tablet",
+        "unit": null,
+        "source_section": "General Information",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "sensors": {},
+    "physical_specification": {
+      "dimension_hxwxd_mm": {
+        "value": "211.0 x 124.7 x 8.0",
+        "unit": "HxWxD, mm",
+        "source_section": "Physical specification",
+        "verification_status": "source_transcribed"
+      },
+      "weight_g": {
+        "value": "335",
+        "unit": "g",
+        "source_section": "Physical specification",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "battery": {
+      "battery_capacity_mah_typical": {
+        "value": "5100",
+        "unit": "mAh, Typical",
+        "source_section": "Battery",
+        "verification_status": "source_transcribed"
+      },
+      "removable": {
+        "value": "No",
+        "unit": null,
+        "source_section": "Battery",
+        "verification_status": "source_transcribed"
+      },
+      "energy_efficiency_class": {
+        "value": "C",
+        "unit": null,
+        "source_section": "Battery",
+        "verification_status": "source_transcribed"
+      },
+      "minimum_battery_endurance_in_cycles": {
+        "value": "1200",
+        "unit": null,
+        "source_section": "Battery",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "audio_and_video": {
+      "video_playing_format": {
+        "value": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
+        "unit": null,
+        "source_section": "Audio and Video",
+        "verification_status": "source_transcribed"
+      },
+      "video_playing_resolution": {
+        "value": "FHD (1920 x 1080)@60fps",
+        "unit": null,
+        "source_section": "Audio and Video",
+        "verification_status": "source_transcribed"
+      },
+      "audio_playing_format": {
+        "value": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA",
+        "unit": null,
+        "source_section": "Audio and Video",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "eco_design": {
+      "recycled_content": {
+        "value": "0",
+        "unit": "%",
+        "source_section": "ECO Design",
+        "verification_status": "source_transcribed"
+      },
+      "weight_of_critical_raw_material_cobalt_g": {
+        "value": "10 ≤   < 20",
+        "unit": "g",
+        "source_section": "ECO Design",
+        "verification_status": "source_transcribed"
+      },
+      "weight_of_critical_raw_material_tantalum_g": {
+        "value": "< 0.01",
+        "unit": "g",
+        "source_section": "ECO Design",
+        "verification_status": "source_transcribed"
+      },
+      "weight_of_critical_raw_material_neodymium_g": {
+        "value": "< 0.2",
+        "unit": "g",
+        "source_section": "ECO Design",
+        "verification_status": "source_transcribed"
+      },
+      "weight_of_critical_raw_material_gold_g": {
+        "value": "< 0.02",
+        "unit": "g",
+        "source_section": "ECO Design",
+        "verification_status": "source_transcribed"
+      },
+      "recyclability": {
+        "value": "8.1",
+        "unit": "%",
+        "source_section": "ECO Design",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "services_and_applications": {
+      "gear_support": {
+        "value": "Galaxy Buds Core, Galaxy Buds3 Pro, Galaxy Buds2 Pro, Galaxy Buds Pro, Galaxy Buds Live, Galaxy Buds+, Galaxy Buds3, Galaxy Buds2, Galaxy Buds, Galaxy Buds FE",
+        "unit": null,
+        "source_section": "Services and Applications",
+        "verification_status": "source_transcribed"
+      },
+      "mobile_tv": {
+        "value": "No",
+        "unit": null,
+        "source_section": "Services and Applications",
+        "verification_status": "source_transcribed"
+      },
+      "smartthings_support": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Services and Applications",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "software_support": {
+      "security_update_period_valid_until": {
+        "value": "30 September 2032",
+        "unit": "Valid until",
+        "source_section": "Software Support",
+        "verification_status": "source_transcribed"
+      }
+    }
+  },
+  "record_notes": [
+    "Generated by scripts/samsung_slim_ingest.py.",
+    "Specification labels are preserved as Samsung presents them; field names are normalized mechanically from labels.",
+    "No Apple/Samsung equivalence is asserted by this product record."
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Samsung",
+    "category": "smartwatch",
+    "family": "Galaxy Watch",
+    "model": "Galaxy Watch Ultra2",
+    "model_slug": "galaxy-watch-ultra2",
+    "model_numbers": [
+      "SM-L715FZSAEUB"
+    ]
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://www.samsung.com/ie/watches/galaxy-watch/galaxy-watch-ultra2-titanium-silver-lte-sm-l715fzsaeub/",
+    "source_file": "sources/samsung/smartwatch/galaxy-watch-ultra2.html",
+    "source_title": "Samsung Galaxy Watch Ultra 2 | Outdoor & Sport Smartwatch | Samsung Ireland",
+    "publisher": "Samsung Electronics",
+    "published_at": null,
+    "checked_at": "2026-11-15",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Samsung Ireland product page archived. Extracted fields are source-transcribed, not independently field-verified.",
+    "notes": [
+      "Original HTML retained as source evidence.",
+      "Model variants and retailer configurations are not separate records unless they are distinct products."
+    ]
+  },
+  "extraction": {
+    "method": "structured_extraction",
+    "normalization_status": "partially_normalized",
+    "note": "Server-rendered Samsung product specification rows transcribed from pdd32-product-spec markup. Field-level verification remains outstanding.",
+    "extracted_at": "2026-11-15",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Overview",
+      "source_text": "Size (Main Display): 1.5\" (38.5mm)\nBody Weight (g): 61.5\nBluetooth Version: Bluetooth v6.0\nSensors: Accelerometer, Barometer, Bioelectrical Impedance Analysis Sensor, Electrical Heart Sensor, Gyro Sensor, Geomagnetic Sensor, Light Sensor, Optical Heart Rate Sensor, Temperature Sensor\nStorage (GB): 64\nCPU Speed: 2.1GHz, 1.95GHz\nNFC: NFC\nBody Dimension (HxWxD, mm): 47.4 x 47.1 x 10.7",
+      "source_url": "https://www.samsung.com/ie/watches/galaxy-watch/galaxy-watch-ultra2-titanium-silver-lte-sm-l715fzsaeub/",
+      "source_file": "sources/samsung/smartwatch/galaxy-watch-ultra2.html"
+    },
+    {
+      "heading": "Network/Bearer",
+      "source_text": "SIM size: Embedded-SIM\nInfra: 3G WCDMA, 4G LTE FDD, 4G LTE TDD\n3G UMTS: B1(2100), B2(1900), B4(AWS), B5(850), B8(900)\n4G FDD LTE: B1(2100), B2(1900), B3(1800), B4(AWS), B5(850), B7(2600), B8(900), B12(700), B13(700), B14(700), B18(800), B19(800), B20(800), B25(1900), B26(850), B28(700), B66(AWS-3), B71(600)\n4G TDD LTE: B34(2010), B38(2600), B39(1900), B40(2300), B41(2500)",
+      "source_url": "https://www.samsung.com/ie/watches/galaxy-watch/galaxy-watch-ultra2-titanium-silver-lte-sm-l715fzsaeub/",
+      "source_file": "sources/samsung/smartwatch/galaxy-watch-ultra2.html"
+    },
+    {
+      "heading": "Audio and Video",
+      "source_text": "Audio Playing Format: MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB",
+      "source_url": "https://www.samsung.com/ie/watches/galaxy-watch/galaxy-watch-ultra2-titanium-silver-lte-sm-l715fzsaeub/",
+      "source_file": "sources/samsung/smartwatch/galaxy-watch-ultra2.html"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "Location Technology: GPS, Glonass, Beidou, Galileo, QZSS\nWi-Fi: 802.11a/b/g/n 2.4GHz+5GHz\nNFC: Yes\nBluetooth Version: Bluetooth v6.0\nBluetooth Profiles: A2DP, AVRCP, HFP, HSP",
+      "source_url": "https://www.samsung.com/ie/watches/galaxy-watch/galaxy-watch-ultra2-titanium-silver-lte-sm-l715fzsaeub/",
+      "source_file": "sources/samsung/smartwatch/galaxy-watch-ultra2.html"
+    },
+    {
+      "heading": "OS",
+      "source_text": "Wear OS Powered by Samsung",
+      "source_url": "https://www.samsung.com/ie/watches/galaxy-watch/galaxy-watch-ultra2-titanium-silver-lte-sm-l715fzsaeub/",
+      "source_file": "sources/samsung/smartwatch/galaxy-watch-ultra2.html"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Technology (Main Display): Super AMOLED\nSize (Main Display): 1.5\" (38.5mm)\nResolution (Main Display): 498 x 498\nColour Depth (Main Display): 16M",
+      "source_url": "https://www.samsung.com/ie/watches/galaxy-watch/galaxy-watch-ultra2-titanium-silver-lte-sm-l715fzsaeub/",
+      "source_file": "sources/samsung/smartwatch/galaxy-watch-ultra2.html"
+    },
+    {
+      "heading": "Processor",
+      "source_text": "CPU Speed: 2.1GHz, 1.95GHz\nCPU Type: Penta-Core",
+      "source_url": "https://www.samsung.com/ie/watches/galaxy-watch/galaxy-watch-ultra2-titanium-silver-lte-sm-l715fzsaeub/",
+      "source_file": "sources/samsung/smartwatch/galaxy-watch-ultra2.html"
+    },
+    {
+      "heading": "Storage/Memory",
+      "source_text": "Memory (GB): 2\nStorage (GB): 64\nAvailable Storage (GB): 49.3",
+      "source_url": "https://www.samsung.com/ie/watches/galaxy-watch/galaxy-watch-ultra2-titanium-silver-lte-sm-l715fzsaeub/",
+      "source_file": "sources/samsung/smartwatch/galaxy-watch-ultra2.html"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Accelerometer, Barometer, Bioelectrical Impedance Analysis Sensor, Electrical Heart Sensor, Gyro Sensor, Geomagnetic Sensor, Light Sensor, Optical Heart Rate Sensor, Temperature Sensor",
+      "source_url": "https://www.samsung.com/ie/watches/galaxy-watch/galaxy-watch-ultra2-titanium-silver-lte-sm-l715fzsaeub/",
+      "source_file": "sources/samsung/smartwatch/galaxy-watch-ultra2.html"
+    },
+    {
+      "heading": "Physical specification",
+      "source_text": "Body Dimension (HxWxD, mm): 47.4 x 47.1 x 10.7\nBody Weight (g): 61.5\nDurability: 10 ATM, IP69K",
+      "source_url": "https://www.samsung.com/ie/watches/galaxy-watch/galaxy-watch-ultra2-titanium-silver-lte-sm-l715fzsaeub/",
+      "source_file": "sources/samsung/smartwatch/galaxy-watch-ultra2.html"
+    },
+    {
+      "heading": "Battery",
+      "source_text": "Battery Capacity (mAh, Typical): 800\nRemovable: No\nUsage Time (Hours, AOD Off): Up to 80\nUsage Time (Hours, AOD On): Up to 60",
+      "source_url": "https://www.samsung.com/ie/watches/galaxy-watch/galaxy-watch-ultra2-titanium-silver-lte-sm-l715fzsaeub/",
+      "source_file": "sources/samsung/smartwatch/galaxy-watch-ultra2.html"
+    },
+    {
+      "heading": "Software Support",
+      "source_text": "Security Update Period (Valid until): 31 July 2031",
+      "source_url": "https://www.samsung.com/ie/watches/galaxy-watch/galaxy-watch-ultra2-titanium-silver-lte-sm-l715fzsaeub/",
+      "source_file": "sources/samsung/smartwatch/galaxy-watch-ultra2.html"
+    }
+  ],
+  "normalized_specifications": {
+    "overview": {
+      "size_main_display": {
+        "value": "1.5\" (38.5mm)",
+        "unit": "Main Display",
+        "source_section": "Overview",
+        "verification_status": "source_transcribed"
+      },
+      "body_weight_g": {
+        "value": "61.5",
+        "unit": "g",
+        "source_section": "Overview",
+        "verification_status": "source_transcribed"
+      },
+      "bluetooth_version": {
+        "value": "Bluetooth v6.0",
+        "unit": null,
+        "source_section": "Overview",
+        "verification_status": "source_transcribed"
+      },
+      "sensors": {
+        "value": "Accelerometer, Barometer, Bioelectrical Impedance Analysis Sensor, Electrical Heart Sensor, Gyro Sensor, Geomagnetic Sensor, Light Sensor, Optical Heart Rate Sensor, Temperature Sensor",
+        "unit": null,
+        "source_section": "Overview",
+        "verification_status": "source_transcribed"
+      },
+      "storage_gb": {
+        "value": "64",
+        "unit": "GB",
+        "source_section": "Overview",
+        "verification_status": "source_transcribed"
+      },
+      "cpu_speed": {
+        "value": "2.1GHz, 1.95GHz",
+        "unit": null,
+        "source_section": "Overview",
+        "verification_status": "source_transcribed"
+      },
+      "nfc": {
+        "value": "NFC",
+        "unit": null,
+        "source_section": "Overview",
+        "verification_status": "source_transcribed"
+      },
+      "body_dimension_hxwxd_mm": {
+        "value": "47.4 x 47.1 x 10.7",
+        "unit": "HxWxD, mm",
+        "source_section": "Overview",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "network_bearer": {
+      "sim_size": {
+        "value": "Embedded-SIM",
+        "unit": null,
+        "source_section": "Network/Bearer",
+        "verification_status": "source_transcribed"
+      },
+      "infra": {
+        "value": "3G WCDMA, 4G LTE FDD, 4G LTE TDD",
+        "unit": null,
+        "source_section": "Network/Bearer",
+        "verification_status": "source_transcribed"
+      },
+      "3g_umts": {
+        "value": "B1(2100), B2(1900), B4(AWS), B5(850), B8(900)",
+        "unit": null,
+        "source_section": "Network/Bearer",
+        "verification_status": "source_transcribed"
+      },
+      "4g_fdd_lte": {
+        "value": "B1(2100), B2(1900), B3(1800), B4(AWS), B5(850), B7(2600), B8(900), B12(700), B13(700), B14(700), B18(800), B19(800), B20(800), B25(1900), B26(850), B28(700), B66(AWS-3), B71(600)",
+        "unit": null,
+        "source_section": "Network/Bearer",
+        "verification_status": "source_transcribed"
+      },
+      "4g_tdd_lte": {
+        "value": "B34(2010), B38(2600), B39(1900), B40(2300), B41(2500)",
+        "unit": null,
+        "source_section": "Network/Bearer",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "audio_and_video": {
+      "audio_playing_format": {
+        "value": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB",
+        "unit": null,
+        "source_section": "Audio and Video",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "connectivity": {
+      "location_technology": {
+        "value": "GPS, Glonass, Beidou, Galileo, QZSS",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "wi_fi": {
+        "value": "802.11a/b/g/n 2.4GHz+5GHz",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "nfc": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "bluetooth_version": {
+        "value": "Bluetooth v6.0",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "bluetooth_profiles": {
+        "value": "A2DP, AVRCP, HFP, HSP",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "os": {},
+    "display": {
+      "technology_main_display": {
+        "value": "Super AMOLED",
+        "unit": "Main Display",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "size_main_display": {
+        "value": "1.5\" (38.5mm)",
+        "unit": "Main Display",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "resolution_main_display": {
+        "value": "498 x 498",
+        "unit": "Main Display",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "colour_depth_main_display": {
+        "value": "16M",
+        "unit": "Main Display",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "processor": {
+      "cpu_speed": {
+        "value": "2.1GHz, 1.95GHz",
+        "unit": null,
+        "source_section": "Processor",
+        "verification_status": "source_transcribed"
+      },
+      "cpu_type": {
+        "value": "Penta-Core",
+        "unit": null,
+        "source_section": "Processor",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "storage_memory": {
+      "memory_gb": {
+        "value": "2",
+        "unit": "GB",
+        "source_section": "Storage/Memory",
+        "verification_status": "source_transcribed"
+      },
+      "storage_gb": {
+        "value": "64",
+        "unit": "GB",
+        "source_section": "Storage/Memory",
+        "verification_status": "source_transcribed"
+      },
+      "available_storage_gb": {
+        "value": "49.3",
+        "unit": "GB",
+        "source_section": "Storage/Memory",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "sensors": {},
+    "physical_specification": {
+      "body_dimension_hxwxd_mm": {
+        "value": "47.4 x 47.1 x 10.7",
+        "unit": "HxWxD, mm",
+        "source_section": "Physical specification",
+        "verification_status": "source_transcribed"
+      },
+      "body_weight_g": {
+        "value": "61.5",
+        "unit": "g",
+        "source_section": "Physical specification",
+        "verification_status": "source_transcribed"
+      },
+      "durability": {
+        "value": "10 ATM, IP69K",
+        "unit": null,
+        "source_section": "Physical specification",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "battery": {
+      "battery_capacity_mah_typical": {
+        "value": "800",
+        "unit": "mAh, Typical",
+        "source_section": "Battery",
+        "verification_status": "source_transcribed"
+      },
+      "removable": {
+        "value": "No",
+        "unit": null,
+        "source_section": "Battery",
+        "verification_status": "source_transcribed"
+      },
+      "usage_time_hours_aod_off": {
+        "value": "Up to 80",
+        "unit": "Hours, AOD Off",
+        "source_section": "Battery",
+        "verification_status": "source_transcribed"
+      },
+      "usage_time_hours_aod_on": {
+        "value": "Up to 60",
+        "unit": "Hours, AOD On",
+        "source_section": "Battery",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "software_support": {
+      "security_update_period_valid_until": {
+        "value": "31 July 2031",
+        "unit": "Valid until",
+        "source_section": "Software Support",
+        "verification_status": "source_transcribed"
+      }
+    }
+  },
+  "record_notes": [
+    "Generated by scripts/samsung_slim_ingest.py.",
+    "Specification labels are preserved as Samsung presents them; field names are normalized mechanically from labels.",
+    "No Apple/Samsung equivalence is asserted by this product record."
+  ]
+}

@@ -18,7 +18,14 @@
       "canonical_url": "https://www.samsung.com/ie/computers/galaxy-book/galaxy-book5-pro-16-inch-ultra-7-16gb-512gb-np960xha-kg1uk/",
       "product_jsonld_found": true,
       "variant_source_urls": [],
-      "seed_errors": []
+      "seed_errors": [],
+      "archive_result": {
+        "source_file": "sources/samsung/laptop/galaxy-book5-pro-16-core-ultra-7-16gb-a-copilot-pc.html",
+        "record_path": "data/samsung/laptop/galaxy-book5-pro-16-core-ultra-7-16gb-a-copilot-pc.json",
+        "section_count": 15,
+        "field_count": 38
+      },
+      "archive_status": "archived_with_specs"
     },
     {
       "category": "laptop",
@@ -33,7 +40,14 @@
       "canonical_url": "https://www.samsung.com/ie/computers/galaxy-book/galaxy-book6-pro-ultra-7-16gb-512gb-np960xjg-kg4uk/",
       "product_jsonld_found": true,
       "variant_source_urls": [],
-      "seed_errors": []
+      "seed_errors": [],
+      "archive_result": {
+        "source_file": "sources/samsung/laptop/galaxy-book6-pro-16-core-ultra-7-16gb-a-copilot-pc.html",
+        "record_path": "data/samsung/laptop/galaxy-book6-pro-16-core-ultra-7-16gb-a-copilot-pc.json",
+        "section_count": 15,
+        "field_count": 37
+      },
+      "archive_status": "archived_with_specs"
     },
     {
       "category": "wireless-earbuds",
@@ -48,7 +62,14 @@
       "canonical_url": "https://www.samsung.com/ie/audio-sound/galaxy-buds/galaxy-buds4-white-sm-r540nzwaeub/",
       "product_jsonld_found": true,
       "variant_source_urls": [],
-      "seed_errors": []
+      "seed_errors": [],
+      "archive_result": {
+        "source_file": "sources/samsung/wireless-earbuds/galaxy-buds4.html",
+        "record_path": "data/samsung/wireless-earbuds/galaxy-buds4.json",
+        "section_count": 10,
+        "field_count": 36
+      },
+      "archive_status": "archived_with_specs"
     },
     {
       "category": "wireless-earbuds",
@@ -63,7 +84,14 @@
       "canonical_url": "https://www.samsung.com/ie/audio-sound/galaxy-buds/galaxy-buds4-pro-white-sm-r640nzwaeub/",
       "product_jsonld_found": true,
       "variant_source_urls": [],
-      "seed_errors": []
+      "seed_errors": [],
+      "archive_result": {
+        "source_file": "sources/samsung/wireless-earbuds/galaxy-buds4-pro.html",
+        "record_path": "data/samsung/wireless-earbuds/galaxy-buds4-pro.json",
+        "section_count": 10,
+        "field_count": 39
+      },
+      "archive_status": "archived_with_specs"
     },
     {
       "category": "smartphone",
@@ -78,7 +106,14 @@
       "canonical_url": "https://www.samsung.com/ie/smartphones/galaxy-s/galaxy-s26-fe-pistachio-128gb-sm-s741blgdeub/",
       "product_jsonld_found": true,
       "variant_source_urls": [],
-      "seed_errors": []
+      "seed_errors": [],
+      "archive_result": {
+        "source_file": "sources/samsung/smartphone/galaxy-s26-fe.html",
+        "record_path": "data/samsung/smartphone/galaxy-s26-fe.json",
+        "section_count": 17,
+        "field_count": 70
+      },
+      "archive_status": "archived_with_specs"
     },
     {
       "category": "tablet",
@@ -93,7 +128,14 @@
       "canonical_url": "https://www.samsung.com/ie/tablets/galaxy-tab-s/galaxy-tab-s12-ultra-grey-256gb-sm-x940nzareub/",
       "product_jsonld_found": true,
       "variant_source_urls": [],
-      "seed_errors": []
+      "seed_errors": [],
+      "archive_result": {
+        "source_file": "sources/samsung/tablet/galaxy-tab-s12-ultra-14-6.html",
+        "record_path": "data/samsung/tablet/galaxy-tab-s12-ultra-14-6.json",
+        "section_count": 17,
+        "field_count": 52
+      },
+      "archive_status": "archived_with_specs"
     },
     {
       "category": "smartwatch",
@@ -108,7 +150,14 @@
       "canonical_url": "https://www.samsung.com/ie/watches/galaxy-watch/galaxy-watch-ultra2-titanium-silver-lte-sm-l715fzsaeub/",
       "product_jsonld_found": true,
       "variant_source_urls": [],
-      "seed_errors": []
+      "seed_errors": [],
+      "archive_result": {
+        "source_file": "sources/samsung/smartwatch/galaxy-watch-ultra2.html",
+        "record_path": "data/samsung/smartwatch/galaxy-watch-ultra2.json",
+        "section_count": 12,
+        "field_count": 36
+      },
+      "archive_status": "archived_with_specs"
     },
     {
       "category": "smartwatch",
@@ -123,7 +172,14 @@
       "canonical_url": "https://www.samsung.com/ie/watches/galaxy-watch/galaxy-watch8-classic-46mm-black-bluetooth-sm-l500nzkaeua/",
       "product_jsonld_found": true,
       "variant_source_urls": [],
-      "seed_errors": []
+      "seed_errors": [],
+      "archive_result": {
+        "source_file": "sources/samsung/smartwatch/galaxy-watch8-classic-bluetooth-46-mm.html",
+        "record_path": "data/samsung/smartwatch/galaxy-watch8-classic-bluetooth-46-mm.json",
+        "section_count": 11,
+        "field_count": 31
+      },
+      "archive_status": "archived_with_specs"
     },
     {
       "category": "smartwatch",
@@ -138,7 +194,14 @@
       "canonical_url": "https://www.samsung.com/ie/watches/galaxy-watch/galaxy-watch9-40mm-graphite-bluetooth-sm-l340nzkaeub/",
       "product_jsonld_found": true,
       "variant_source_urls": [],
-      "seed_errors": []
+      "seed_errors": [],
+      "archive_result": {
+        "source_file": "sources/samsung/smartwatch/galaxy-watch9-bluetooth-40-mm.html",
+        "record_path": "data/samsung/smartwatch/galaxy-watch9-bluetooth-40-mm.json",
+        "section_count": 12,
+        "field_count": 32
+      },
+      "archive_status": "archived_with_specs"
     },
     {
       "category": "tablet",
@@ -153,7 +216,14 @@
       "canonical_url": "https://www.samsung.com/ie/tablets/galaxy-tab-a/galaxy-tab-a11-grey-64gb-wi-fi-sm-x130nzaaeub/",
       "product_jsonld_found": true,
       "variant_source_urls": [],
-      "seed_errors": []
+      "seed_errors": [],
+      "archive_result": {
+        "source_file": "sources/samsung/tablet/galaxy-tab-a11-8-7.html",
+        "record_path": "data/samsung/tablet/galaxy-tab-a11-8-7.json",
+        "section_count": 14,
+        "field_count": 44
+      },
+      "archive_status": "archived_with_specs"
     },
     {
       "category": "wireless-earbuds",
@@ -168,7 +238,14 @@
       "canonical_url": "https://www.samsung.com/ie/audio-sound/galaxy-buds/galaxy-buds3-fe-grey-sm-r420nzaaeua/",
       "product_jsonld_found": true,
       "variant_source_urls": [],
-      "seed_errors": []
+      "seed_errors": [],
+      "archive_result": {
+        "source_file": "sources/samsung/wireless-earbuds/galaxy-buds3-fe.html",
+        "record_path": "data/samsung/wireless-earbuds/galaxy-buds3-fe.json",
+        "section_count": 9,
+        "field_count": 29
+      },
+      "archive_status": "archived_with_specs"
     },
     {
       "category": "display",
@@ -184,7 +261,9 @@
       "variant_source_urls": [],
       "selection_note": "Official Samsung Ireland model-specific monitor page discovered through manufacturer search. Candidate only; determine whether its role is a genuine counterpart to an Apple display before selection.",
       "discovery_method": "official_manufacturer_search",
-      "evidence_url": "https://www.samsung.com/ie/monitors/high-resolution/viewfinity-s5-s55gh-34-inch-ultra-wqhd-120hz-ls34h550gauxxu/"
+      "evidence_url": "https://www.samsung.com/ie/monitors/high-resolution/viewfinity-s5-s55gh-34-inch-ultra-wqhd-120hz-ls34h550gauxxu/",
+      "archive_status": "failed",
+      "archive_error": "Product JSON-LD not present; refusing to create a product record"
     }
   ]
 }

@@ -368,4 +368,15 @@
   <url><loc>https://data.techspecs.dev/api/v1/products/apple/watch/apple-watch-ultra-3.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/apple/watch/apple-watch-ultra-4.json</loc></url>
   <url><loc>https://data.techspecs.dev/api/v1/products/apple/watch/apple-watch-ultra.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/samsung/laptop/galaxy-book5-pro-16-core-ultra-7-16gb-a-copilot-pc.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/samsung/laptop/galaxy-book6-pro-16-core-ultra-7-16gb-a-copilot-pc.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/samsung/smartphone/galaxy-s26-fe.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/samsung/smartwatch/galaxy-watch-ultra2.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/samsung/smartwatch/galaxy-watch8-classic-bluetooth-46-mm.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/samsung/smartwatch/galaxy-watch9-bluetooth-40-mm.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/samsung/tablet/galaxy-tab-a11-8-7.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/samsung/tablet/galaxy-tab-s12-ultra-14-6.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/samsung/wireless-earbuds/galaxy-buds3-fe.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/samsung/wireless-earbuds/galaxy-buds4-pro.json</loc></url>
+  <url><loc>https://data.techspecs.dev/api/v1/products/samsung/wireless-earbuds/galaxy-buds4.json</loc></url>
 </urlset>

@@ -1,0 +1,390 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Samsung",
+    "category": "laptop",
+    "family": "Galaxy Book",
+    "model": "Galaxy Book5 Pro (16\", Core Ultra 7, 16GB) a Copilot+ PC",
+    "model_slug": "galaxy-book5-pro-16-core-ultra-7-16gb-a-copilot-pc",
+    "model_numbers": [
+      "NP960XHA-KG1UK"
+    ]
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://www.samsung.com/ie/computers/galaxy-book/galaxy-book5-pro-16-inch-ultra-7-16gb-512gb-np960xha-kg1uk/",
+    "source_file": "sources/samsung/laptop/galaxy-book5-pro-16-core-ultra-7-16gb-a-copilot-pc.html",
+    "source_title": "Samsung Galaxy Book5 Pro",
+    "publisher": "Samsung Electronics",
+    "published_at": null,
+    "checked_at": "2026-11-15",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Samsung Ireland product page archived. Extracted fields are source-transcribed, not independently field-verified.",
+    "notes": [
+      "Original HTML retained as source evidence.",
+      "Model variants and retailer configurations are not separate records unless they are distinct products."
+    ]
+  },
+  "extraction": {
+    "method": "structured_extraction",
+    "normalization_status": "partially_normalized",
+    "note": "Server-rendered Samsung product specification rows transcribed from pdd32-product-spec markup. Field-level verification remains outstanding.",
+    "extracted_at": "2026-11-15",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Operating System",
+      "source_text": "Windows 11 Home (Samsung recommends Windows 11 Pro for business)",
+      "source_url": "https://www.samsung.com/ie/computers/galaxy-book/galaxy-book5-pro-16-inch-ultra-7-16gb-512gb-np960xha-kg1uk/",
+      "source_file": "sources/samsung/laptop/galaxy-book5-pro-16-core-ultra-7-16gb-a-copilot-pc.html"
+    },
+    {
+      "heading": "Processor / Chipset",
+      "source_text": "CPU: Intel® Core™ Ultra 7 Processor 256V (P-core Up to 4.8 GHz 12 MB LLC Cache)\nGPU: Intel® Arc™ 140V GPU (8GB)\nGPU Type: Shared\nNPU: Intel® AI Boost",
+      "source_url": "https://www.samsung.com/ie/computers/galaxy-book/galaxy-book5-pro-16-inch-ultra-7-16gb-512gb-np960xha-kg1uk/",
+      "source_file": "sources/samsung/laptop/galaxy-book5-pro-16-core-ultra-7-16gb-a-copilot-pc.html"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Size (inch): 16.0\"\nResolution: 2880 x 1800 (WQXGA+)\nType: Dynamic AMOLED 2X, Anti-Reflective\nTouch Screen: Yes",
+      "source_url": "https://www.samsung.com/ie/computers/galaxy-book/galaxy-book5-pro-16-inch-ultra-7-16gb-512gb-np960xha-kg1uk/",
+      "source_file": "sources/samsung/laptop/galaxy-book5-pro-16-core-ultra-7-16gb-a-copilot-pc.html"
+    },
+    {
+      "heading": "Storage/Memory",
+      "source_text": "Memory Capacity: 16 GB\nMemory Type: LPDDR5X (On Package)\nStorage Capacity: 512 GB\nStorage Type: NVMe SSD\nNumber of Storage Slots: 2",
+      "source_url": "https://www.samsung.com/ie/computers/galaxy-book/galaxy-book5-pro-16-inch-ultra-7-16gb-512gb-np960xha-kg1uk/",
+      "source_file": "sources/samsung/laptop/galaxy-book5-pro-16-core-ultra-7-16gb-a-copilot-pc.html"
+    },
+    {
+      "heading": "General Information",
+      "source_text": "Colour: Gray\nForm Factor: Laptop",
+      "source_url": "https://www.samsung.com/ie/computers/galaxy-book/galaxy-book5-pro-16-inch-ultra-7-16gb-512gb-np960xha-kg1uk/",
+      "source_file": "sources/samsung/laptop/galaxy-book5-pro-16-core-ultra-7-16gb-a-copilot-pc.html"
+    },
+    {
+      "heading": "Multimedia",
+      "source_text": "Speaker: Quad Speakers\nSmart Amp: Yes\nSound Effect: Dolby Atmos®\nMic: Dual Array Digital Mic\nCamera: 2.0 MP",
+      "source_url": "https://www.samsung.com/ie/computers/galaxy-book/galaxy-book5-pro-16-inch-ultra-7-16gb-512gb-np960xha-kg1uk/",
+      "source_file": "sources/samsung/laptop/galaxy-book5-pro-16-core-ultra-7-16gb-a-copilot-pc.html"
+    },
+    {
+      "heading": "Network",
+      "source_text": "Wi-Fi: Wi-Fi 7, 802.11 be 2x2\nBluetooth Version: Bluetooth v5.4",
+      "source_url": "https://www.samsung.com/ie/computers/galaxy-book/galaxy-book5-pro-16-inch-ultra-7-16gb-512gb-np960xha-kg1uk/",
+      "source_file": "sources/samsung/laptop/galaxy-book5-pro-16-core-ultra-7-16gb-a-copilot-pc.html"
+    },
+    {
+      "heading": "Ports",
+      "source_text": "HDMI: 1 HDMI 2.1 (Supports 8K@60Hz, 5K@120Hz)\nUSB: 2 Thunderbolt™ 4, 1 USB3.2\nExternal Storage Support: MicroSD\nEarjack: 1 Headphone out/Mic-in Combo",
+      "source_url": "https://www.samsung.com/ie/computers/galaxy-book/galaxy-book5-pro-16-inch-ultra-7-16gb-512gb-np960xha-kg1uk/",
+      "source_file": "sources/samsung/laptop/galaxy-book5-pro-16-core-ultra-7-16gb-a-copilot-pc.html"
+    },
+    {
+      "heading": "Input",
+      "source_text": "Keyboard: Pro keyboard with Numeric key\nKeyboard Backlit: Yes\nTouchpad: Clickpad",
+      "source_url": "https://www.samsung.com/ie/computers/galaxy-book/galaxy-book5-pro-16-inch-ultra-7-16gb-512gb-np960xha-kg1uk/",
+      "source_file": "sources/samsung/laptop/galaxy-book5-pro-16-core-ultra-7-16gb-a-copilot-pc.html"
+    },
+    {
+      "heading": "Security",
+      "source_text": "TPM: Yes\nFingerPrint Reader: Yes",
+      "source_url": "https://www.samsung.com/ie/computers/galaxy-book/galaxy-book5-pro-16-inch-ultra-7-16gb-512gb-np960xha-kg1uk/",
+      "source_file": "sources/samsung/laptop/galaxy-book5-pro-16-core-ultra-7-16gb-a-copilot-pc.html"
+    },
+    {
+      "heading": "Battery",
+      "source_text": "Battery Capacity (Wh, Typical): 76.1",
+      "source_url": "https://www.samsung.com/ie/computers/galaxy-book/galaxy-book5-pro-16-inch-ultra-7-16gb-512gb-np960xha-kg1uk/",
+      "source_file": "sources/samsung/laptop/galaxy-book5-pro-16-core-ultra-7-16gb-a-copilot-pc.html"
+    },
+    {
+      "heading": "Power",
+      "source_text": "AC Adapter: 65W USB Type-C Adapter\nUSB PD Support: Yes\nPower Required for Charging (Min / Max, W): 60 | 65",
+      "source_url": "https://www.samsung.com/ie/computers/galaxy-book/galaxy-book5-pro-16-inch-ultra-7-16gb-512gb-np960xha-kg1uk/",
+      "source_file": "sources/samsung/laptop/galaxy-book5-pro-16-core-ultra-7-16gb-a-copilot-pc.html"
+    },
+    {
+      "heading": "Physical specification",
+      "source_text": "Dimension (WxDxH, mm): 355.4 x 250.4 x 12.5 mm (13.99\" x 9.86\" x 0.49\")\nWeight (kg): 1.56 kg (3.44 lbs)",
+      "source_url": "https://www.samsung.com/ie/computers/galaxy-book/galaxy-book5-pro-16-inch-ultra-7-16gb-512gb-np960xha-kg1uk/",
+      "source_file": "sources/samsung/laptop/galaxy-book5-pro-16-core-ultra-7-16gb-a-copilot-pc.html"
+    },
+    {
+      "heading": "Sensor",
+      "source_text": "Ambient Light Sensor",
+      "source_url": "https://www.samsung.com/ie/computers/galaxy-book/galaxy-book5-pro-16-inch-ultra-7-16gb-512gb-np960xha-kg1uk/",
+      "source_file": "sources/samsung/laptop/galaxy-book5-pro-16-core-ultra-7-16gb-a-copilot-pc.html"
+    },
+    {
+      "heading": "Services and Applications",
+      "source_text": "SmartThings Support: Yes",
+      "source_url": "https://www.samsung.com/ie/computers/galaxy-book/galaxy-book5-pro-16-inch-ultra-7-16gb-512gb-np960xha-kg1uk/",
+      "source_file": "sources/samsung/laptop/galaxy-book5-pro-16-core-ultra-7-16gb-a-copilot-pc.html"
+    }
+  ],
+  "normalized_specifications": {
+    "operating_system": {},
+    "processor_chipset": {
+      "cpu": {
+        "value": "Intel® Core™ Ultra 7 Processor 256V (P-core Up to 4.8 GHz 12 MB LLC Cache)",
+        "unit": null,
+        "source_section": "Processor / Chipset",
+        "verification_status": "source_transcribed"
+      },
+      "gpu": {
+        "value": "Intel® Arc™ 140V GPU (8GB)",
+        "unit": null,
+        "source_section": "Processor / Chipset",
+        "verification_status": "source_transcribed"
+      },
+      "gpu_type": {
+        "value": "Shared",
+        "unit": null,
+        "source_section": "Processor / Chipset",
+        "verification_status": "source_transcribed"
+      },
+      "npu": {
+        "value": "Intel® AI Boost",
+        "unit": null,
+        "source_section": "Processor / Chipset",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "display": {
+      "size_inch": {
+        "value": "16.0\"",
+        "unit": "inch",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "resolution": {
+        "value": "2880 x 1800 (WQXGA+)",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "type": {
+        "value": "Dynamic AMOLED 2X, Anti-Reflective",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "touch_screen": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "storage_memory": {
+      "memory_capacity": {
+        "value": "16 GB",
+        "unit": null,
+        "source_section": "Storage/Memory",
+        "verification_status": "source_transcribed"
+      },
+      "memory_type": {
+        "value": "LPDDR5X (On Package)",
+        "unit": null,
+        "source_section": "Storage/Memory",
+        "verification_status": "source_transcribed"
+      },
+      "storage_capacity": {
+        "value": "512 GB",
+        "unit": null,
+        "source_section": "Storage/Memory",
+        "verification_status": "source_transcribed"
+      },
+      "storage_type": {
+        "value": "NVMe SSD",
+        "unit": null,
+        "source_section": "Storage/Memory",
+        "verification_status": "source_transcribed"
+      },
+      "number_of_storage_slots": {
+        "value": "2",
+        "unit": null,
+        "source_section": "Storage/Memory",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "general_information": {
+      "colour": {
+        "value": "Gray",
+        "unit": null,
+        "source_section": "General Information",
+        "verification_status": "source_transcribed"
+      },
+      "form_factor": {
+        "value": "Laptop",
+        "unit": null,
+        "source_section": "General Information",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "multimedia": {
+      "speaker": {
+        "value": "Quad Speakers",
+        "unit": null,
+        "source_section": "Multimedia",
+        "verification_status": "source_transcribed"
+      },
+      "smart_amp": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Multimedia",
+        "verification_status": "source_transcribed"
+      },
+      "sound_effect": {
+        "value": "Dolby Atmos®",
+        "unit": null,
+        "source_section": "Multimedia",
+        "verification_status": "source_transcribed"
+      },
+      "mic": {
+        "value": "Dual Array Digital Mic",
+        "unit": null,
+        "source_section": "Multimedia",
+        "verification_status": "source_transcribed"
+      },
+      "camera": {
+        "value": "2.0 MP",
+        "unit": null,
+        "source_section": "Multimedia",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "network": {
+      "wi_fi": {
+        "value": "Wi-Fi 7, 802.11 be 2x2",
+        "unit": null,
+        "source_section": "Network",
+        "verification_status": "source_transcribed"
+      },
+      "bluetooth_version": {
+        "value": "Bluetooth v5.4",
+        "unit": null,
+        "source_section": "Network",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "ports": {
+      "hdmi": {
+        "value": "1 HDMI 2.1 (Supports 8K@60Hz, 5K@120Hz)",
+        "unit": null,
+        "source_section": "Ports",
+        "verification_status": "source_transcribed"
+      },
+      "usb": {
+        "value": "2 Thunderbolt™ 4, 1 USB3.2",
+        "unit": null,
+        "source_section": "Ports",
+        "verification_status": "source_transcribed"
+      },
+      "external_storage_support": {
+        "value": "MicroSD",
+        "unit": null,
+        "source_section": "Ports",
+        "verification_status": "source_transcribed"
+      },
+      "earjack": {
+        "value": "1 Headphone out/Mic-in Combo",
+        "unit": null,
+        "source_section": "Ports",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "input": {
+      "keyboard": {
+        "value": "Pro keyboard with Numeric key",
+        "unit": null,
+        "source_section": "Input",
+        "verification_status": "source_transcribed"
+      },
+      "keyboard_backlit": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Input",
+        "verification_status": "source_transcribed"
+      },
+      "touchpad": {
+        "value": "Clickpad",
+        "unit": null,
+        "source_section": "Input",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "security": {
+      "tpm": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Security",
+        "verification_status": "source_transcribed"
+      },
+      "fingerprint_reader": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Security",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "battery": {
+      "battery_capacity_wh_typical": {
+        "value": "76.1",
+        "unit": "Wh, Typical",
+        "source_section": "Battery",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "power": {
+      "ac_adapter": {
+        "value": "65W USB Type-C Adapter",
+        "unit": null,
+        "source_section": "Power",
+        "verification_status": "source_transcribed"
+      },
+      "usb_pd_support": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Power",
+        "verification_status": "source_transcribed"
+      },
+      "power_required_for_charging_min_max_w": {
+        "value": "60 | 65",
+        "unit": "Min / Max, W",
+        "source_section": "Power",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "physical_specification": {
+      "dimension_wxdxh_mm": {
+        "value": "355.4 x 250.4 x 12.5 mm (13.99\" x 9.86\" x 0.49\")",
+        "unit": "WxDxH, mm",
+        "source_section": "Physical specification",
+        "verification_status": "source_transcribed"
+      },
+      "weight_kg": {
+        "value": "1.56 kg (3.44 lbs)",
+        "unit": "kg",
+        "source_section": "Physical specification",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "sensor": {},
+    "services_and_applications": {
+      "smartthings_support": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Services and Applications",
+        "verification_status": "source_transcribed"
+      }
+    }
+  },
+  "record_notes": [
+    "Generated by scripts/samsung_slim_ingest.py.",
+    "Specification labels are preserved as Samsung presents them; field names are normalized mechanically from labels.",
+    "No Apple/Samsung equivalence is asserted by this product record."
+  ]
+}

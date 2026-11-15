@@ -1,0 +1,489 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Samsung",
+    "category": "tablet",
+    "family": "Galaxy Tab",
+    "model": "Galaxy Tab S12 Ultra (14.6\")",
+    "model_slug": "galaxy-tab-s12-ultra-14-6",
+    "model_numbers": [
+      "SM-X940NZAREUB"
+    ]
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-s/galaxy-tab-s12-ultra-grey-256gb-sm-x940nzareub/",
+    "source_file": "sources/samsung/tablet/galaxy-tab-s12-ultra-14-6.html",
+    "source_title": "Galaxy Tab S12 Ultra WiFi 14.6\" Tablet | Specs | Samsung IE",
+    "publisher": "Samsung Electronics",
+    "published_at": null,
+    "checked_at": "2026-11-15",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Samsung Ireland product page archived. Extracted fields are source-transcribed, not independently field-verified.",
+    "notes": [
+      "Original HTML retained as source evidence.",
+      "Model variants and retailer configurations are not separate records unless they are distinct products."
+    ]
+  },
+  "extraction": {
+    "method": "structured_extraction",
+    "normalization_status": "partially_normalized",
+    "note": "Server-rendered Samsung product specification rows transcribed from pdd32-product-spec markup. Field-level verification remains outstanding.",
+    "extracted_at": "2026-11-15",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Overview",
+      "source_text": "Processor: 4.21GHz, 3.5GHz, 2.7GHz\nRear Camera - Resolution: 13.0 MP + 8.0 MP\nWeight (g): 692",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-s/galaxy-tab-s12-ultra-grey-256gb-sm-x940nzareub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-s12-ultra-14-6.html"
+    },
+    {
+      "heading": "Processor",
+      "source_text": "CPU Speed: 4.21GHz, 3.5GHz, 2.7GHz\nCPU Type: Octa-Core",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-s/galaxy-tab-s12-ultra-grey-256gb-sm-x940nzareub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-s12-ultra-14-6.html"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Size (Main_Display): 369.9mm (14.6\" full rectangle) / 367.2mm (14.5\" rounded corners)\nResolution (Main Display): 2960 x 1848 (WQXGA+)\nTechnology (Main Display): Dynamic AMOLED 2X\nColour Depth (Main Display): 16M",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-s/galaxy-tab-s12-ultra-grey-256gb-sm-x940nzareub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-s12-ultra-14-6.html"
+    },
+    {
+      "heading": "S Pen Support",
+      "source_text": "Yes",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-s/galaxy-tab-s12-ultra-grey-256gb-sm-x940nzareub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-s12-ultra-14-6.html"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "Rear Camera - Resolution: 13.0 MP + 8.0 MP\nRear Camera - Auto Focus: Yes\nFront Camera - Resolution: 12.0 MP\nRear Camera - Flash: Yes\nVideo Recording Resolution: UHD 4K (3840 x 2160) @60fps",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-s/galaxy-tab-s12-ultra-grey-256gb-sm-x940nzareub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-s12-ultra-14-6.html"
+    },
+    {
+      "heading": "Storage/Memory",
+      "source_text": "Memory_(GB): 12\nStorage (GB): 256\nAvailable Storage (GB): 226.9\nExternal Storage Support: MicroSD (Up to 2TB)",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-s/galaxy-tab-s12-ultra-grey-256gb-sm-x940nzareub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-s12-ultra-14-6.html"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "USB Version: USB 3.2 Gen 1\nLocation Technology: GPS, Glonass, Beidou, Galileo, QZSS\nEarjack: USB Type-C\nMHL: No\nWi-Fi: 802.11a/b/g/n/ac/ax/be 2.4GHz+5GHz+6GHz, EHT320, MIMO, 4096-QAM\nWi-Fi Direct: Yes\nBluetooth Version: Bluetooth v6.0\nNFC: No\nBluetooth Profiles: A2DP, AVRCP, DI, HAP, HFP, HID, HOGP, HSP, OPP, PAN, PBAP, PBP, TMAP\nPC Sync.: Smart Switch (PC version)",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-s/galaxy-tab-s12-ultra-grey-256gb-sm-x940nzareub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-s12-ultra-14-6.html"
+    },
+    {
+      "heading": "OS",
+      "source_text": "Android",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-s/galaxy-tab-s12-ultra-grey-256gb-sm-x940nzareub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-s12-ultra-14-6.html"
+    },
+    {
+      "heading": "General Information",
+      "source_text": "Colour: Grey\nForm Factor: Tablet",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-s/galaxy-tab-s12-ultra-grey-256gb-sm-x940nzareub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-s12-ultra-14-6.html"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Accelerometer, Fingerprint Sensor, Gyro Sensor, Geomagnetic Sensor, Hall Sensor, Light Sensor",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-s/galaxy-tab-s12-ultra-grey-256gb-sm-x940nzareub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-s12-ultra-14-6.html"
+    },
+    {
+      "heading": "Physical specification",
+      "source_text": "Dimension (HxWxD, mm): 208.5 x 326.3 x 5.1\nWeight (g): 692",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-s/galaxy-tab-s12-ultra-grey-256gb-sm-x940nzareub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-s12-ultra-14-6.html"
+    },
+    {
+      "heading": "Battery",
+      "source_text": "Video Playback Time (Hours, Wireless): Up to 23\nBattery Capacity (mAh, Typical): 11600\nRemovable: No\nEnergy Efficiency Class: G\nMinimum Battery Endurance in Cycles: 1200",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-s/galaxy-tab-s12-ultra-grey-256gb-sm-x940nzareub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-s12-ultra-14-6.html"
+    },
+    {
+      "heading": "Audio and Video",
+      "source_text": "Video Playing Format: MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM\nVideo Playing Resolution: UHD 8K (7680 x 4320)@60fps\nAudio Playing Format: MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-s/galaxy-tab-s12-ultra-grey-256gb-sm-x940nzareub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-s12-ultra-14-6.html"
+    },
+    {
+      "heading": "ECO Design",
+      "source_text": "Recycled Content (%): 12.4\nWeight of Critical Raw Material - Cobalt (g): 20 ≤\nWeight of Critical Raw Material - Tantalum (g): 0.01 ≤   < 0.1\nWeight of Critical Raw Material - Neodymium (g): 1 ≤\nWeight of Critical Raw Material - Gold (g): 0.02 ≤   < 0.1\nRecyclability (%): 8.9",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-s/galaxy-tab-s12-ultra-grey-256gb-sm-x940nzareub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-s12-ultra-14-6.html"
+    },
+    {
+      "heading": "Power",
+      "source_text": "USB PD Support: Yes\nPower Required for Charging (Min / Max, W): 20 | 45",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-s/galaxy-tab-s12-ultra-grey-256gb-sm-x940nzareub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-s12-ultra-14-6.html"
+    },
+    {
+      "heading": "Services and Applications",
+      "source_text": "Gear Support: Galaxy Buds Core, Galaxy Buds4 Pro, Galaxy Buds3 Pro, Galaxy Buds2 Pro, Galaxy Buds Pro, Galaxy Buds Live, Galaxy Buds+, Galaxy Buds4, Galaxy Buds3, Galaxy Buds2, Galaxy Buds, Galaxy Buds3 FE, Galaxy Buds FE\nMobile TV: No\nSmartThings Support: Yes",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-s/galaxy-tab-s12-ultra-grey-256gb-sm-x940nzareub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-s12-ultra-14-6.html"
+    },
+    {
+      "heading": "Software Support",
+      "source_text": "Security Update Period (Valid until): 30 September 2033",
+      "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-s/galaxy-tab-s12-ultra-grey-256gb-sm-x940nzareub/",
+      "source_file": "sources/samsung/tablet/galaxy-tab-s12-ultra-14-6.html"
+    }
+  ],
+  "normalized_specifications": {
+    "overview": {
+      "processor": {
+        "value": "4.21GHz, 3.5GHz, 2.7GHz",
+        "unit": null,
+        "source_section": "Overview",
+        "verification_status": "source_transcribed"
+      },
+      "rear_camera_resolution": {
+        "value": "13.0 MP + 8.0 MP",
+        "unit": null,
+        "source_section": "Overview",
+        "verification_status": "source_transcribed"
+      },
+      "weight_g": {
+        "value": "692",
+        "unit": "g",
+        "source_section": "Overview",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "processor": {
+      "cpu_speed": {
+        "value": "4.21GHz, 3.5GHz, 2.7GHz",
+        "unit": null,
+        "source_section": "Processor",
+        "verification_status": "source_transcribed"
+      },
+      "cpu_type": {
+        "value": "Octa-Core",
+        "unit": null,
+        "source_section": "Processor",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "display": {
+      "size_main_display": {
+        "value": "369.9mm (14.6\" full rectangle) / 367.2mm (14.5\" rounded corners)",
+        "unit": "Main_Display",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "resolution_main_display": {
+        "value": "2960 x 1848 (WQXGA+)",
+        "unit": "Main Display",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "technology_main_display": {
+        "value": "Dynamic AMOLED 2X",
+        "unit": "Main Display",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "colour_depth_main_display": {
+        "value": "16M",
+        "unit": "Main Display",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "s_pen_support": {},
+    "camera": {
+      "rear_camera_resolution": {
+        "value": "13.0 MP + 8.0 MP",
+        "unit": null,
+        "source_section": "Camera",
+        "verification_status": "source_transcribed"
+      },
+      "rear_camera_auto_focus": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Camera",
+        "verification_status": "source_transcribed"
+      },
+      "front_camera_resolution": {
+        "value": "12.0 MP",
+        "unit": null,
+        "source_section": "Camera",
+        "verification_status": "source_transcribed"
+      },
+      "rear_camera_flash": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Camera",
+        "verification_status": "source_transcribed"
+      },
+      "video_recording_resolution": {
+        "value": "UHD 4K (3840 x 2160) @60fps",
+        "unit": null,
+        "source_section": "Camera",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "storage_memory": {
+      "memory_gb": {
+        "value": "12",
+        "unit": "GB",
+        "source_section": "Storage/Memory",
+        "verification_status": "source_transcribed"
+      },
+      "storage_gb": {
+        "value": "256",
+        "unit": "GB",
+        "source_section": "Storage/Memory",
+        "verification_status": "source_transcribed"
+      },
+      "available_storage_gb": {
+        "value": "226.9",
+        "unit": "GB",
+        "source_section": "Storage/Memory",
+        "verification_status": "source_transcribed"
+      },
+      "external_storage_support": {
+        "value": "MicroSD (Up to 2TB)",
+        "unit": null,
+        "source_section": "Storage/Memory",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "connectivity": {
+      "usb_version": {
+        "value": "USB 3.2 Gen 1",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "location_technology": {
+        "value": "GPS, Glonass, Beidou, Galileo, QZSS",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "earjack": {
+        "value": "USB Type-C",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "mhl": {
+        "value": "No",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "wi_fi": {
+        "value": "802.11a/b/g/n/ac/ax/be 2.4GHz+5GHz+6GHz, EHT320, MIMO, 4096-QAM",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "wi_fi_direct": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "bluetooth_version": {
+        "value": "Bluetooth v6.0",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "nfc": {
+        "value": "No",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "bluetooth_profiles": {
+        "value": "A2DP, AVRCP, DI, HAP, HFP, HID, HOGP, HSP, OPP, PAN, PBAP, PBP, TMAP",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "pc_sync": {
+        "value": "Smart Switch (PC version)",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "os": {},
+    "general_information": {
+      "colour": {
+        "value": "Grey",
+        "unit": null,
+        "source_section": "General Information",
+        "verification_status": "source_transcribed"
+      },
+      "form_factor": {
+        "value": "Tablet",
+        "unit": null,
+        "source_section": "General Information",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "sensors": {},
+    "physical_specification": {
+      "dimension_hxwxd_mm": {
+        "value": "208.5 x 326.3 x 5.1",
+        "unit": "HxWxD, mm",
+        "source_section": "Physical specification",
+        "verification_status": "source_transcribed"
+      },
+      "weight_g": {
+        "value": "692",
+        "unit": "g",
+        "source_section": "Physical specification",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "battery": {
+      "video_playback_time_hours_wireless": {
+        "value": "Up to 23",
+        "unit": "Hours, Wireless",
+        "source_section": "Battery",
+        "verification_status": "source_transcribed"
+      },
+      "battery_capacity_mah_typical": {
+        "value": "11600",
+        "unit": "mAh, Typical",
+        "source_section": "Battery",
+        "verification_status": "source_transcribed"
+      },
+      "removable": {
+        "value": "No",
+        "unit": null,
+        "source_section": "Battery",
+        "verification_status": "source_transcribed"
+      },
+      "energy_efficiency_class": {
+        "value": "G",
+        "unit": null,
+        "source_section": "Battery",
+        "verification_status": "source_transcribed"
+      },
+      "minimum_battery_endurance_in_cycles": {
+        "value": "1200",
+        "unit": null,
+        "source_section": "Battery",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "audio_and_video": {
+      "video_playing_format": {
+        "value": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
+        "unit": null,
+        "source_section": "Audio and Video",
+        "verification_status": "source_transcribed"
+      },
+      "video_playing_resolution": {
+        "value": "UHD 8K (7680 x 4320)@60fps",
+        "unit": null,
+        "source_section": "Audio and Video",
+        "verification_status": "source_transcribed"
+      },
+      "audio_playing_format": {
+        "value": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA",
+        "unit": null,
+        "source_section": "Audio and Video",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "eco_design": {
+      "recycled_content": {
+        "value": "12.4",
+        "unit": "%",
+        "source_section": "ECO Design",
+        "verification_status": "source_transcribed"
+      },
+      "weight_of_critical_raw_material_cobalt_g": {
+        "value": "20 ≤",
+        "unit": "g",
+        "source_section": "ECO Design",
+        "verification_status": "source_transcribed"
+      },
+      "weight_of_critical_raw_material_tantalum_g": {
+        "value": "0.01 ≤   < 0.1",
+        "unit": "g",
+        "source_section": "ECO Design",
+        "verification_status": "source_transcribed"
+      },
+      "weight_of_critical_raw_material_neodymium_g": {
+        "value": "1 ≤",
+        "unit": "g",
+        "source_section": "ECO Design",
+        "verification_status": "source_transcribed"
+      },
+      "weight_of_critical_raw_material_gold_g": {
+        "value": "0.02 ≤   < 0.1",
+        "unit": "g",
+        "source_section": "ECO Design",
+        "verification_status": "source_transcribed"
+      },
+      "recyclability": {
+        "value": "8.9",
+        "unit": "%",
+        "source_section": "ECO Design",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "power": {
+      "usb_pd_support": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Power",
+        "verification_status": "source_transcribed"
+      },
+      "power_required_for_charging_min_max_w": {
+        "value": "20 | 45",
+        "unit": "Min / Max, W",
+        "source_section": "Power",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "services_and_applications": {
+      "gear_support": {
+        "value": "Galaxy Buds Core, Galaxy Buds4 Pro, Galaxy Buds3 Pro, Galaxy Buds2 Pro, Galaxy Buds Pro, Galaxy Buds Live, Galaxy Buds+, Galaxy Buds4, Galaxy Buds3, Galaxy Buds2, Galaxy Buds, Galaxy Buds3 FE, Galaxy Buds FE",
+        "unit": null,
+        "source_section": "Services and Applications",
+        "verification_status": "source_transcribed"
+      },
+      "mobile_tv": {
+        "value": "No",
+        "unit": null,
+        "source_section": "Services and Applications",
+        "verification_status": "source_transcribed"
+      },
+      "smartthings_support": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Services and Applications",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "software_support": {
+      "security_update_period_valid_until": {
+        "value": "30 September 2033",
+        "unit": "Valid until",
+        "source_section": "Software Support",
+        "verification_status": "source_transcribed"
+      }
+    }
+  },
+  "record_notes": [
+    "Generated by scripts/samsung_slim_ingest.py.",
+    "Specification labels are preserved as Samsung presents them; field names are normalized mechanically from labels.",
+    "No Apple/Samsung equivalence is asserted by this product record."
+  ]
+}
