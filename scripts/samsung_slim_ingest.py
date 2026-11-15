@@ -130,10 +130,16 @@ def allowed_url(url: str) -> bool:
 
 def discover(session_obj: requests.Session, config: dict) -> list[dict]:
     found = {}
+    seed_errors = []
     for category in config["categories"]:
         seed = category["listing_url"]
-        response = session_obj.get(seed, timeout=TIMEOUT)
-        response.raise_for_status()
+        try:
+            response = session_obj.get(seed, timeout=TIMEOUT)
+            response.raise_for_status()
+        except requests.RequestException as exc:
+            seed_errors.append({"category": category["category"], "listing_url": seed, "error": str(exc)})
+            time.sleep(DELAY)
+            continue
         soup = BeautifulSoup(response.text, "lxml")
         links = {urljoin(seed, a["href"]).split("#", 1)[0] for a in soup.find_all("a", href=True)}
         for url in sorted(links):
@@ -153,7 +159,7 @@ def discover(session_obj: requests.Session, config: dict) -> list[dict]:
                 "selection_note": "Candidate discovered from official Samsung Ireland category page; select only if current and genuinely comparable.",
             }
         time.sleep(DELAY)
-    candidates = []
+    candidates_by_model = {}
     for item in found.values():
         try:
             response = session_obj.get(item["source_url"], timeout=TIMEOUT)
@@ -162,11 +168,22 @@ def discover(session_obj: requests.Session, config: dict) -> list[dict]:
             if not identity["product_jsonld_found"]:
                 continue
             item.update(identity)
-            candidates.append(item)
+            # Collapse colour/storage/carrier SKU pages into one product model.
+            # Keep the first canonical model page and retain the other URLs as
+            # variant evidence in the inventory rather than creating duplicate records.
+            model_key = (item["category"], re.sub(r"\\s+", " ", identity["name"]).strip().casefold())
+            if model_key not in candidates_by_model:
+                item["variant_source_urls"] = []
+                candidates_by_model[model_key] = item
+            else:
+                candidates_by_model[model_key]["variant_source_urls"].append(item["source_url"])
         except requests.RequestException as exc:
             item["discovery_error"] = str(exc)
         time.sleep(DELAY)
-    return sorted(candidates, key=lambda x: (x["category"], x.get("name", ""), x["source_url"]))
+    candidates = sorted(candidates_by_model.values(), key=lambda x: (x["category"], x.get("name", ""), x["source_url"]))
+    for item in candidates:
+        item["seed_errors"] = seed_errors
+    return candidates
 
 
 def archive_one(session_obj: requests.Session, item: dict) -> dict:
@@ -184,7 +201,8 @@ def archive_one(session_obj: requests.Session, item: dict) -> dict:
     sections, normalized = extract_spec_sections(response.text)
     if not sections:
         raise ValueError("Samsung product specification panel not found in server-rendered HTML")
-    slug = re.sub(r"[^a-z0-9]+", "-", (identity.get("sku") or identity["name"]).lower()).strip("-")
+    # Model-level slug: do not create one product record per colour/storage SKU.
+    slug = re.sub(r"[^a-z0-9]+", "-", identity["name"].lower()).strip("-")
     slug = slug[:100] or "samsung-product"
     category = item["category"]
     source_dir = ROOT / "sources" / "samsung" / category
