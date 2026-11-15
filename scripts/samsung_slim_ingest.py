@@ -128,6 +128,12 @@ def allowed_url(url: str) -> bool:
     return parsed.scheme == "https" and parsed.hostname in HOSTS and parsed.path.startswith("/ie/")
 
 
+def is_product_detail_url(url: str) -> bool:
+    """Recognize Samsung model-code suffixes embedded in PDP URL slugs."""
+    path = urlparse(url).path
+    return bool(re.search(r"(?:^|[-/])(?:sm-|np|ls|qe|vg|ww|rf|vs|hw|wa)[a-z0-9-]+/?$", path, re.I))
+
+
 def discover(session_obj: requests.Session, config: dict) -> list[dict]:
     found = {}
     seed_errors = []
@@ -146,7 +152,7 @@ def discover(session_obj: requests.Session, config: dict) -> list[dict]:
             if not allowed_url(url):
                 continue
             # Product detail URLs on Samsung IE normally carry a model/SKU slug.
-            if not re.search(r"/(?:sm-|np-|ls|qe|vg|ww|rf|vs|hw|wa)[a-z0-9-]+/?$", urlparse(url).path, re.I):
+            if not is_product_detail_url(url):
                 continue
             if url.rstrip("/") == urlparse(seed).path.rstrip("/"):
                 continue
