@@ -25,8 +25,8 @@ import requests
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
-CONFIG = ROOT / "data" / "samsung" / "slim-source-seeds.json"
-INVENTORY = ROOT / "data" / "samsung" / "slim-source-inventory.json"
+CONFIG = ROOT / "config" / "samsung-slim-source-seeds.json"
+INVENTORY = ROOT / "data" / "samsung" / "source-inventory.json"
 USER_AGENT = "TechSpecsResearchBot/1.0 (+low-rate product-specification research)"
 DELAY = 2.0
 TIMEOUT = 45
