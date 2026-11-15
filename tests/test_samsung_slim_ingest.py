@@ -66,6 +66,30 @@ class SlimSamsungHtmlTests(unittest.TestCase):
         self.assertFalse(MODULE.is_product_detail_url("https://www.samsung.com/ie/smartphones/"))
         self.assertFalse(MODULE.is_product_detail_url("https://www.samsung.com/ie/tablets/"))
 
+
+    def test_classifies_products_by_own_url_not_listing_page(self):
+        cases = {
+            "https://www.samsung.com/ie/smartphones/galaxy-s/phone-sm-s999/": ("smartphone", "Galaxy smartphones"),
+            "https://www.samsung.com/ie/tablets/galaxy-tab-s/tablet-sm-x999/": ("tablet", "Galaxy Tab"),
+            "https://www.samsung.com/ie/watches/galaxy-watch/watch-sm-l999/": ("smartwatch", "Galaxy Watch"),
+            "https://www.samsung.com/ie/audio-sound/galaxy-buds/buds-sm-r999/": ("wireless-earbuds", "Galaxy Buds"),
+            "https://www.samsung.com/ie/monitors/odyssey-monitor-ls999/": ("display", "Samsung monitors"),
+            "https://www.samsung.com/ie/computers/galaxy-book/book-np999/": ("laptop", "Galaxy Book"),
+        }
+        for url, expected in cases.items():
+            with self.subTest(url=url):
+                self.assertEqual(MODULE.classify_product_url(url), expected)
+
+    def test_excludes_soundbars_speakers_and_rings(self):
+        excluded = (
+            "https://www.samsung.com/ie/audio-devices/soundbar/model-hw-q999/",
+            "https://www.samsung.com/ie/audio-devices/wireless-speaker/model-hw-l999/",
+            "https://www.samsung.com/ie/rings/galaxy-ring/model-sm-q999/",
+        )
+        for url in excluded:
+            with self.subTest(url=url):
+                self.assertIsNone(MODULE.classify_product_url(url))
+
     def test_returns_no_specs_when_panel_is_absent(self):
         sections, normalized = MODULE.extract_spec_sections("<html><body>no specs</body></html>")
         self.assertEqual(sections, [])
