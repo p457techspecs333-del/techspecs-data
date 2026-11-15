@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Slim Samsung comparison ingestion from official Samsung Ireland HTML.
 
+Automated discovery is deliberately separate from the approval/selection step.
+
 This crawler never launches a browser. It downloads official category/product
 HTML, reads Samsung's server-rendered pdd32 product-spec panel, archives the
 original page and creates archival-first TechSpecs V2 records.
