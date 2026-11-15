@@ -19,6 +19,9 @@ on:
       - "source-archive-requests/**/*.json"
       - "scripts/build_catalogue_index.py"
       - "scripts/samsung_galaxy_s_ingest.py"
+      - "scripts/samsung_slim_ingest.py"
+      - "data/samsung/**"
+      - "tests/test_samsung_slim_ingest.py"
       - "tests/test_samsung_galaxy_s_scope.py"
       - "docs/SAMSUNG-GALAXY-S-INGESTION.md"
       - "requirements.txt"
@@ -74,6 +77,10 @@ jobs:
         run: python -m py_compile scripts/archive_official_sources.py
       - name: Compile Samsung Galaxy S ingestion helper
         run: python -m py_compile scripts/samsung_galaxy_s_ingest.py
+      - name: Compile slim Samsung ingestion helper
+        run: python -m py_compile scripts/samsung_slim_ingest.py
+      - name: Test slim Samsung HTML extraction
+        run: python -m unittest discover -s tests -p "test_samsung_slim_ingest.py"
       - name: Test Samsung Galaxy S scope exclusions
         run: python -m unittest discover -s tests -p 'test_samsung_galaxy_s_scope.py'
       - name: Compile legacy Watch extraction helper
