@@ -165,15 +165,26 @@ def visible_text(html: str) -> str:
 
 def archive_and_record(session: requests.Session, item: dict) -> tuple[str, str]:
     url = item["source_url"]
-    response = session.get(url, timeout=TIMEOUT)
+    response = session.get(url, timeout=TIMEOUT, allow_redirects=True)
     response.raise_for_status()
     if "text/html" not in response.headers.get("Content-Type", "").lower():
         raise ValueError(f"unexpected content type: {response.headers.get('Content-Type')}")
+    # Reject soft-404s and redirects to a different model/category. A 200 alone
+    # is not proof that the requested generation page was actually served.
+    requested_path = urlparse(url).path.rstrip("/").lower()
+    final_path = urlparse(response.url).path.rstrip("/").lower()
+    if final_path != requested_path:
+        raise ValueError(f"redirected to a different path: {response.url}")
     text = visible_text(response.text)
     title = BeautifulSoup(response.text, "lxml").title
     title_text = title.get_text(" ", strip=True) if title else item["model"]
     if len(text) < 500:
         raise ValueError("page returned too little readable text; possible shell/consent/interstitial")
+    identity_text = (title_text + "\\n" + text[:12000]).lower()
+    generation = item["slug"].removeprefix("galaxy-s")
+    identity_tokens = ["galaxy s"] if not generation else [f"galaxy s{generation}", f"galaxy s {generation}", f"galaxy s{generation} "]
+    if not any(token in identity_text for token in identity_tokens):
+        raise ValueError("page does not contain expected Galaxy S model identity; refusing to create a misleading record")
 
     slug = item["slug"]
     SOURCE_DIR.mkdir(parents=True, exist_ok=True)
