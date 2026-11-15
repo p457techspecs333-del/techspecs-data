@@ -54,6 +54,18 @@ class SlimSamsungHtmlTests(unittest.TestCase):
         self.assertFalse(MODULE.allowed_url("https://www.samsung.com/uk/tablets/x-sm-x000/"))
         self.assertTrue(MODULE.allowed_url("https://www.samsung.com/ie/tablets/x-sm-x000/"))
 
+    def test_recognizes_model_codes_at_end_of_samsung_product_urls(self):
+        valid = [
+            "https://www.samsung.com/ie/smartphones/galaxy-s/galaxy-s26-fe-pistachio-128gb-sm-s741blgdeub/",
+            "https://www.samsung.com/ie/computers/galaxy-book/galaxy-book6-pro-np960xjg-kg4uk/",
+            "https://www.samsung.com/ie/monitors/odyssey-g9-ls49cg954euxen/",
+        ]
+        for url in valid:
+            with self.subTest(url=url):
+                self.assertTrue(MODULE.is_product_detail_url(url))
+        self.assertFalse(MODULE.is_product_detail_url("https://www.samsung.com/ie/smartphones/"))
+        self.assertFalse(MODULE.is_product_detail_url("https://www.samsung.com/ie/tablets/"))
+
     def test_returns_no_specs_when_panel_is_absent(self):
         sections, normalized = MODULE.extract_spec_sections("<html><body>no specs</body></html>")
         self.assertEqual(sections, [])
