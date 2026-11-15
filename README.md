@@ -50,7 +50,7 @@ python scripts/build_catalogue_index.py
 
 The GitHub Actions workflow validates product records and regenerates `data/catalogue.json` when relevant files change. The catalogue is a discovery index, not a substitute for reading and validating individual records.
 
-## Apple iPhone URL discovery
+## Samsung Galaxy S comparison source\n\nThe narrow, archival-first Samsung Galaxy S ingestion workflow is documented in [docs/SAMSUNG-GALAXY-S-INGESTION.md](docs/SAMSUNG-GALAXY-S-INGESTION.md). It covers one standard/base Galaxy S model per generation and deliberately excludes Plus, Ultra, FE, Edge and SKU variants.\n\n## Apple iPhone URL discovery
 
 The non-destructive URL discovery workflow is documented in [docs/APPLE-IPHONE-URL-DISCOVERY.md](docs/APPLE-IPHONE-URL-DISCOVERY.md). It searches for official Apple Ireland product URLs and writes candidates to a separate review file; it does not modify product records.
 
