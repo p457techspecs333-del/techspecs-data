@@ -195,7 +195,7 @@ def extract_spec_sections(html: str) -> tuple[list[dict], dict]:
             if label and value:
                 key = re.sub(r"[^a-z0-9]+", "_", label.lower()).strip("_")
                 if key:
-                    unit_match = re.search(r"\\(([^()]*)\\)", label)
+                    unit_match = re.search(r"\(([^()]*)\)", label)
                     values[key] = {
                         "value": value,
                         "unit": unit_match.group(1) if unit_match else None,
@@ -205,7 +205,7 @@ def extract_spec_sections(html: str) -> tuple[list[dict], dict]:
         if pairs:
             sections.append({
                 "heading": heading,
-                "source_text": "\\n".join(pairs),
+                "source_text": "\n".join(pairs),
             })
             section_key = re.sub(r"[^a-z0-9]+", "_", heading.lower()).strip("_")
             normalized[section_key] = values
