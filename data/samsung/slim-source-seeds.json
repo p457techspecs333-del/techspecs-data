@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "market": "Ireland",
+  "categories": [
+    {
+      "category": "smartphone",
+      "family": "Galaxy smartphones",
+      "listing_url": "https://www.samsung.com/ie/smartphones/"
+    },
+    {
+      "category": "tablet",
+      "family": "Galaxy Tab",
+      "listing_url": "https://www.samsung.com/ie/tablets/"
+    },
+    {
+      "category": "smartwatch",
+      "family": "Galaxy Watch",
+      "listing_url": "https://www.samsung.com/ie/watches/"
+    },
+    {
+      "category": "wireless-earbuds",
+      "family": "Galaxy Buds",
+      "listing_url": "https://www.samsung.com/ie/audio-sound/"
+    },
+    {
+      "category": "display",
+      "family": "Samsung monitors",
+      "listing_url": "https://www.samsung.com/ie/monitors/"
+    },
+    {
+      "category": "laptop",
+      "family": "Galaxy Book",
+      "listing_url": "https://www.samsung.com/ie/computers/"
+    }
+  ]
+}
