@@ -21,6 +21,7 @@ on:
       - "scripts/samsung_galaxy_s_ingest.py"
       - "scripts/samsung_slim_ingest.py"
       - "data/samsung/**"
+      - "config/samsung-slim-source-seeds.json"
       - "tests/test_samsung_slim_ingest.py"
       - "tests/test_samsung_galaxy_s_scope.py"
       - "docs/SAMSUNG-GALAXY-S-INGESTION.md"
