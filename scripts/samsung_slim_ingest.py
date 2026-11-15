@@ -171,7 +171,7 @@ def discover(session_obj: requests.Session, config: dict) -> list[dict]:
             # Collapse colour/storage/carrier SKU pages into one product model.
             # Keep the first canonical model page and retain the other URLs as
             # variant evidence in the inventory rather than creating duplicate records.
-            model_key = (item["category"], re.sub(r"\\s+", " ", identity["name"]).strip().casefold())
+            model_key = (item["category"], re.sub(r"\s+", " ", identity["name"]).strip().casefold())
             if model_key not in candidates_by_model:
                 item["variant_source_urls"] = []
                 candidates_by_model[model_key] = item
