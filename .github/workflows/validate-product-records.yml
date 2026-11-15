@@ -39,6 +39,9 @@ on:
       - ".github/workflows/archive-official-apple-sources.yml"
       - "source-archive-requests/**/*.json"
       - "scripts/build_catalogue_index.py"
+      - "scripts/samsung_galaxy_s_ingest.py"
+      - "tests/test_samsung_galaxy_s_scope.py"
+      - "docs/SAMSUNG-GALAXY-S-INGESTION.md"
       - "requirements.txt"
       - ".github/workflows/validate-product-records.yml"
   workflow_dispatch:
@@ -72,7 +75,7 @@ jobs:
       - name: Compile Samsung Galaxy S ingestion helper
         run: python -m py_compile scripts/samsung_galaxy_s_ingest.py
       - name: Test Samsung Galaxy S scope exclusions
-        run: python -m unittest tests/test_samsung_galaxy_s_scope.py
+        run: python -m unittest discover -s tests -p 'test_samsung_galaxy_s_scope.py'
       - name: Compile legacy Watch extraction helper
         run: python -m py_compile tools/extract_archived_legacy_watch_specs.py
       - name: Compile legacy iPod extraction helper
