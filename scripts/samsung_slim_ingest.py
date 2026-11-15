@@ -136,6 +136,26 @@ def is_product_detail_url(url: str) -> bool:
     return bool(re.search(r"(?:^|[-/])(?:sm-|np|ls|qe|vg|ww|rf|vs|hw|wa)[a-z0-9-]+/?$", path, re.I))
 
 
+def classify_product_url(url: str) -> tuple[str, str] | None:
+    """Classify by the product's own URL, never by a cross-linking listing page."""
+    path = urlparse(url).path.lower()
+    if "/smartphones/" in path:
+        return ("smartphone", "Galaxy smartphones")
+    if "/tablets/" in path:
+        return ("tablet", "Galaxy Tab")
+    if "/watches/" in path:
+        return ("smartwatch", "Galaxy Watch")
+    if "/audio-sound/galaxy-buds/" in path:
+        return ("wireless-earbuds", "Galaxy Buds")
+    if "/monitors/" in path:
+        return ("display", "Samsung monitors")
+    if "/computers/galaxy-book/" in path:
+        return ("laptop", "Galaxy Book")
+    # Soundbars, speakers, rings, appliances and unrelated Samsung products
+    # are not in this Apple comparison scope.
+    return None
+
+
 def discover(session_obj: requests.Session, config: dict) -> list[dict]:
     found = {}
     seed_errors = []
@@ -151,16 +171,15 @@ def discover(session_obj: requests.Session, config: dict) -> list[dict]:
         soup = BeautifulSoup(response.text, "lxml")
         links = {urljoin(seed, a["href"]).split("#", 1)[0] for a in soup.find_all("a", href=True)}
         for url in sorted(links):
-            if not allowed_url(url):
+            if not allowed_url(url) or not is_product_detail_url(url):
                 continue
-            # Product detail URLs on Samsung IE normally carry a model/SKU slug.
-            if not is_product_detail_url(url):
+            classified = classify_product_url(url)
+            if classified is None:
                 continue
-            if url.rstrip("/") == urlparse(seed).path.rstrip("/"):
-                continue
+            product_category, family = classified
             found[url] = {
-                "category": category["category"],
-                "family": category["family"],
+                "category": product_category,
+                "family": family,
                 "listing_source": seed,
                 "source_url": url,
                 "selected": False,
