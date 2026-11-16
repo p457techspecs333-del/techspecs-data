@@ -1,5 +1,5 @@
 {
-  "started_utc": "2026-11-09T06:28:21.865538+00:00",
+  "started_utc": "2026-11-16T06:56:40.355808+00:00",
   "sources": [
     {
       "requested_url": "https://www.apple.com/ie/mac/compare/",
@@ -79,7 +79,7 @@
       "status": 200,
       "title": "MacBook Air - Tech Specs - Apple (IE)",
       "saved_file": "apple_mac_extraction/technical_specs_html/macbook-air.html",
-      "bytes": 307797
+      "bytes": 307778
     },
     {
       "requested_url": "https://www.apple.com/ie/macbook-pro/liquid-retina-xdr-display/specs/",
@@ -1015,7 +1015,7 @@
       "status": 200,
       "title": "Mac mini (M6 or M5 Pro) - Tech Specs - Apple Support (IE)",
       "saved_file": "apple_mac_extraction/technical_specs_html/128108.html",
-      "bytes": 189591
+      "bytes": 190226
     },
     {
       "requested_url": "https://support.apple.com/en-ie/121555",
@@ -1103,7 +1103,7 @@
       "status": 200,
       "title": "Mac Studio (M5 Max or M5 Ultra) - Tech Specs - Apple Support (IE)",
       "saved_file": "apple_mac_extraction/technical_specs_html/128107.html",
-      "bytes": 184812
+      "bytes": 184888
     },
     {
       "requested_url": "https://support.apple.com/en-ie/122211",
@@ -1852,7 +1852,7 @@
       "final_url": "https://www.apple.com/ie/macbook-air/specs/",
       "title": "MacBook Air - Tech Specs - Apple (IE)",
       "saved_file": "apple_mac_extraction/technical_specs_html/macbook-air.html",
-      "bytes": 307797
+      "bytes": 307778
     },
     {
       "label": "Tech specs",
@@ -2905,7 +2905,7 @@
       "final_url": "https://support.apple.com/en-ie/128108",
       "title": "Mac mini (M6 or M5 Pro) - Tech Specs - Apple Support (IE)",
       "saved_file": "apple_mac_extraction/technical_specs_html/128108.html",
-      "bytes": 189591
+      "bytes": 190226
     },
     {
       "label": "Tech Specs for Mac mini (2024)",
@@ -3004,7 +3004,7 @@
       "final_url": "https://support.apple.com/en-ie/128107",
       "title": "Mac Studio (M5 Max or M5 Ultra) - Tech Specs - Apple Support (IE)",
       "saved_file": "apple_mac_extraction/technical_specs_html/128107.html",
-      "bytes": 184812
+      "bytes": 184888
     },
     {
       "label": "Tech Specs for Mac Studio (2025)",
@@ -3104,7 +3104,7 @@
     "A successful index scrape is not proof that every historic model has been captured.",
     "Only explicitly labelled Tech Specs links are followed; unrelated numeric support links are excluded."
   ],
-  "finished_utc": "2026-11-09T06:31:27.129918+00:00",
+  "finished_utc": "2026-11-16T07:00:51.841608+00:00",
   "summary": {
     "index_pages_requested": 8,
     "index_pages_saved": 8,
