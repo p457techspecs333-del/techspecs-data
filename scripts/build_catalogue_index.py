@@ -24,6 +24,7 @@ NON_PRODUCT_FILENAMES = {
     "api-manifest.json",
     "generation-report.json",
     "source-inventory.json",
+    "iphone-equivalence-map.json",
 }
 
 
@@ -79,6 +80,8 @@ def main() -> int:
         if path != OUTPUT
         and path.name not in NON_PRODUCT_FILENAMES
         and "schemas" not in path.relative_to(DATA_ROOT).parts
+        and isinstance(json.loads(path.read_text(encoding="utf-8")), dict)
+        and isinstance(json.loads(path.read_text(encoding="utf-8")).get("product"), dict)
     )
     entries: list[dict[str, Any]] = []
 

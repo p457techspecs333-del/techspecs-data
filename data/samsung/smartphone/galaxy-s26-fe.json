@@ -1,0 +1,598 @@
+{
+  "schema_version": "2.0",
+  "product": {
+    "brand": "Samsung",
+    "category": "smartphone",
+    "family": "Galaxy smartphones",
+    "model": "Galaxy S26 FE",
+    "model_slug": "galaxy-s26-fe",
+    "model_numbers": [
+      "SM-S741BLGDEUB"
+    ]
+  },
+  "source": {
+    "source_type": "manufacturer",
+    "source_url": "https://www.samsung.com/ie/smartphones/galaxy-s/galaxy-s26-fe-pistachio-128gb-sm-s741blgdeub/",
+    "source_file": "sources/samsung/smartphone/galaxy-s26-fe.html",
+    "source_title": "Samsung Galaxy S26 FE | Features & Specs | Samsung IE",
+    "publisher": "Samsung Electronics",
+    "published_at": null,
+    "checked_at": "2026-11-15",
+    "verification_status": "url_checked",
+    "verification_notes": "Official Samsung Ireland product page archived. Extracted fields are source-transcribed, not independently field-verified.",
+    "notes": [
+      "Original HTML retained as source evidence.",
+      "Model variants and retailer configurations are not separate records unless they are distinct products."
+    ]
+  },
+  "extraction": {
+    "method": "structured_extraction",
+    "normalization_status": "partially_normalized",
+    "note": "Server-rendered Samsung product specification rows transcribed from pdd32-product-spec markup. Field-level verification remains outstanding.",
+    "extracted_at": "2026-11-15",
+    "reviewed_at": null
+  },
+  "sections": [
+    {
+      "heading": "Overview",
+      "source_text": "Weight (g): 193\nCPU Speed: 3.3GHz, 2.74GHz, 2.36GHz, 1.8GHz",
+      "source_url": "https://www.samsung.com/ie/smartphones/galaxy-s/galaxy-s26-fe-pistachio-128gb-sm-s741blgdeub/",
+      "source_file": "sources/samsung/smartphone/galaxy-s26-fe.html"
+    },
+    {
+      "heading": "Processor",
+      "source_text": "CPU Speed: 3.3GHz, 2.74GHz, 2.36GHz, 1.8GHz\nCPU Type: Deca-Core\nCPU Name: Samsung Exynos 2500",
+      "source_url": "https://www.samsung.com/ie/smartphones/galaxy-s/galaxy-s26-fe-pistachio-128gb-sm-s741blgdeub/",
+      "source_file": "sources/samsung/smartphone/galaxy-s26-fe.html"
+    },
+    {
+      "heading": "Display",
+      "source_text": "Size (Main_Display): 171.1mm (6.7\" full rectangle) / 166.4mm (6.6\" rounded corners)\nResolution (Main Display): 1080 x 2340 (FHD+)\nTechnology (Main Display): Dynamic AMOLED 2X\nColour Depth (Main Display): 16M\nMax Refresh Rate (Main Display): 120 Hz",
+      "source_url": "https://www.samsung.com/ie/smartphones/galaxy-s/galaxy-s26-fe-pistachio-128gb-sm-s741blgdeub/",
+      "source_file": "sources/samsung/smartphone/galaxy-s26-fe.html"
+    },
+    {
+      "heading": "Camera",
+      "source_text": "Rear Camera - Resolution (Multiple): 50.0 MP + 12.0 MP + 8.0 MP\nRear Camera - F Number (Multiple): F1.8 , F2.2 , F2.4\nRear Camera - Auto Focus: Yes\nRear Camera - OIS: Yes\nRear Camera - Zoom: Optical Zoom 3x, Optical quality Zoom 2x (Enabled by Adaptive Pixel sensor) , Digital Zoom up to 30x\nFront Camera - Resolution: 12.0 MP\nFront Camera - F Number: F2.2\nFront Camera - Auto Focus: No\nRear Camera - Flash: Yes\nVideo Recording Resolution: UHD 8K (7680 x 4320) @30fps\nSlow Motion: 240fps @FHD, 120fps @FHD, 120fps @UHD",
+      "source_url": "https://www.samsung.com/ie/smartphones/galaxy-s/galaxy-s26-fe-pistachio-128gb-sm-s741blgdeub/",
+      "source_file": "sources/samsung/smartphone/galaxy-s26-fe.html"
+    },
+    {
+      "heading": "Storage/Memory",
+      "source_text": "Memory_(GB): 8\nStorage (GB): 128\nAvailable Storage (GB): 102.0",
+      "source_url": "https://www.samsung.com/ie/smartphones/galaxy-s/galaxy-s26-fe-pistachio-128gb-sm-s741blgdeub/",
+      "source_file": "sources/samsung/smartphone/galaxy-s26-fe.html"
+    },
+    {
+      "heading": "Network/Bearer",
+      "source_text": "Number of SIM: Dual-SIM\nSIM size: Nano-SIM (4FF), Embedded-SIM\nSIM Slot Type: SIM 1 + SIM 2 / SIM 1 + eSIM / Dual eSIM\nInfra: 2G GSM, 3G WCDMA, 4G LTE FDD, 4G LTE TDD, 5G Sub6 FDD, 5G Sub6 TDD\n2G GSM: GSM850, GSM900, DCS1800, PCS1900\n3G UMTS: B1(2100), B2(1900), B4(AWS), B5(850), B8(900)\n4G FDD LTE: B1(2100), B2(1900), B3(1800), B4(AWS), B5(850), B7(2600), B8(900), B12(700), B13(700), B17(700), B18(800), B19(800), B20(800), B25(1900), B26(850), B28(700), B32(1500), B66(AWS-3)\n4G TDD LTE: B38(2600), B40(2300), B41(2500)\n5G FDD Sub6: N1(2100), N2(1900), N3(1800), N5(850), N7(2600), N8(900), N12(700), N20(800), N25(1900), N26(850), N28(700), N66(AWS-3)\n5G TDD Sub6: N38(2600), N40(2300), N41(2500), N77(3700), N78(3500)\n5G SDL Sub6: N75(1500+)",
+      "source_url": "https://www.samsung.com/ie/smartphones/galaxy-s/galaxy-s26-fe-pistachio-128gb-sm-s741blgdeub/",
+      "source_file": "sources/samsung/smartphone/galaxy-s26-fe.html"
+    },
+    {
+      "heading": "Connectivity",
+      "source_text": "USB Interface: USB Type-C\nUSB Version: USB 2.0\nLocation Technology: GPS, Glonass, Beidou, Galileo, QZSS\nEarjack: USB Type-C\nMHL: No\nWi-Fi: 802.11a/b/g/n/ac/ax 2.4GHz+5GHz+6GHz, HE160, MIMO, 1024-QAM\nWi-Fi Direct: Yes\nBluetooth Version: Bluetooth v5.4\nNFC: Yes\nPC Sync.: Smart Switch (PC version)",
+      "source_url": "https://www.samsung.com/ie/smartphones/galaxy-s/galaxy-s26-fe-pistachio-128gb-sm-s741blgdeub/",
+      "source_file": "sources/samsung/smartphone/galaxy-s26-fe.html"
+    },
+    {
+      "heading": "OS",
+      "source_text": "Android",
+      "source_url": "https://www.samsung.com/ie/smartphones/galaxy-s/galaxy-s26-fe-pistachio-128gb-sm-s741blgdeub/",
+      "source_file": "sources/samsung/smartphone/galaxy-s26-fe.html"
+    },
+    {
+      "heading": "General Information",
+      "source_text": "Form Factor: Touchscreen Bar",
+      "source_url": "https://www.samsung.com/ie/smartphones/galaxy-s/galaxy-s26-fe-pistachio-128gb-sm-s741blgdeub/",
+      "source_file": "sources/samsung/smartphone/galaxy-s26-fe.html"
+    },
+    {
+      "heading": "Sensors",
+      "source_text": "Accelerometer, Barometer, Fingerprint Sensor, Gyro Sensor, Geomagnetic Sensor, Hall Sensor, Light Sensor, Proximity Sensor",
+      "source_url": "https://www.samsung.com/ie/smartphones/galaxy-s/galaxy-s26-fe-pistachio-128gb-sm-s741blgdeub/",
+      "source_file": "sources/samsung/smartphone/galaxy-s26-fe.html"
+    },
+    {
+      "heading": "Physical specification",
+      "source_text": "Dimension (HxWxD, mm): 161.6 x 76.9 x 7.4\nWeight (g): 193",
+      "source_url": "https://www.samsung.com/ie/smartphones/galaxy-s/galaxy-s26-fe-pistachio-128gb-sm-s741blgdeub/",
+      "source_file": "sources/samsung/smartphone/galaxy-s26-fe.html"
+    },
+    {
+      "heading": "Battery",
+      "source_text": "Video Playback Time (Hours): Up to 29\nBattery Capacity (mAh, Typical): 4900\nRemovable: No\nEnergy Efficiency Class: A\nMinimum Battery Endurance in Cycles: 1200",
+      "source_url": "https://www.samsung.com/ie/smartphones/galaxy-s/galaxy-s26-fe-pistachio-128gb-sm-s741blgdeub/",
+      "source_file": "sources/samsung/smartphone/galaxy-s26-fe.html"
+    },
+    {
+      "heading": "Audio and Video",
+      "source_text": "Stereo Support: Yes\nVideo Playing Format: MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM\nVideo Playing Resolution: UHD 8K (7680 x 4320)@60fps\nAudio Playing Format: MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
+      "source_url": "https://www.samsung.com/ie/smartphones/galaxy-s/galaxy-s26-fe-pistachio-128gb-sm-s741blgdeub/",
+      "source_file": "sources/samsung/smartphone/galaxy-s26-fe.html"
+    },
+    {
+      "heading": "ECO Design",
+      "source_text": "Recycled Content (%): 18.34\nWeight of Critical Raw Material - Cobalt (g): 10 ≤\nWeight of Critical Raw Material - Tantalum (g): < 0.01\nWeight of Critical Raw Material - Neodymium (g): 0.2 ≤\nWeight of Critical Raw Material - Gold (g): < 0.02\nRecyclability (%): 13.2",
+      "source_url": "https://www.samsung.com/ie/smartphones/galaxy-s/galaxy-s26-fe-pistachio-128gb-sm-s741blgdeub/",
+      "source_file": "sources/samsung/smartphone/galaxy-s26-fe.html"
+    },
+    {
+      "heading": "Power",
+      "source_text": "Power Required for Charging (Min / Max, W): 10 | 45",
+      "source_url": "https://www.samsung.com/ie/smartphones/galaxy-s/galaxy-s26-fe-pistachio-128gb-sm-s741blgdeub/",
+      "source_file": "sources/samsung/smartphone/galaxy-s26-fe.html"
+    },
+    {
+      "heading": "Services and Applications",
+      "source_text": "Gear Support: Galaxy Ring, Galaxy Buds Core, Galaxy Buds4 Pro, Galaxy Buds3 Pro, Galaxy Buds2 Pro, Galaxy Buds Pro, Galaxy Buds Live, Galaxy Buds+, Galaxy Buds4, Galaxy Buds3, Galaxy Buds2, Galaxy Buds, Galaxy Buds3 FE, Galaxy Buds FE, Galaxy Fit3, Galaxy Fit2, Galaxy Watch FE, Galaxy Watch Ultra2, Galaxy Watch Ultra, Galaxy Watch9, Galaxy Watch8, Galaxy Watch7, Galaxy Watch6, Galaxy Watch5, Galaxy Watch4, Galaxy Watch3, Galaxy Watch, Galaxy Watch Active2, Galaxy Watch Active\nSamsung DeX Support: Yes\nBluetooth® Hearing Aid Support: Android Audio Streaming for Hearing Aid(ASHA)\nSmartThings Support: Yes\nMobile TV: No",
+      "source_url": "https://www.samsung.com/ie/smartphones/galaxy-s/galaxy-s26-fe-pistachio-128gb-sm-s741blgdeub/",
+      "source_file": "sources/samsung/smartphone/galaxy-s26-fe.html"
+    },
+    {
+      "heading": "Software Support",
+      "source_text": "Security Update Period (Valid until): 30 September 2033",
+      "source_url": "https://www.samsung.com/ie/smartphones/galaxy-s/galaxy-s26-fe-pistachio-128gb-sm-s741blgdeub/",
+      "source_file": "sources/samsung/smartphone/galaxy-s26-fe.html"
+    }
+  ],
+  "normalized_specifications": {
+    "overview": {
+      "weight_g": {
+        "value": "193",
+        "unit": "g",
+        "source_section": "Overview",
+        "verification_status": "source_transcribed"
+      },
+      "cpu_speed": {
+        "value": "3.3GHz, 2.74GHz, 2.36GHz, 1.8GHz",
+        "unit": null,
+        "source_section": "Overview",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "processor": {
+      "cpu_speed": {
+        "value": "3.3GHz, 2.74GHz, 2.36GHz, 1.8GHz",
+        "unit": null,
+        "source_section": "Processor",
+        "verification_status": "source_transcribed"
+      },
+      "cpu_type": {
+        "value": "Deca-Core",
+        "unit": null,
+        "source_section": "Processor",
+        "verification_status": "source_transcribed"
+      },
+      "cpu_name": {
+        "value": "Samsung Exynos 2500",
+        "unit": null,
+        "source_section": "Processor",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "display": {
+      "size_main_display": {
+        "value": "171.1mm (6.7\" full rectangle) / 166.4mm (6.6\" rounded corners)",
+        "unit": "Main_Display",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "resolution_main_display": {
+        "value": "1080 x 2340 (FHD+)",
+        "unit": "Main Display",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "technology_main_display": {
+        "value": "Dynamic AMOLED 2X",
+        "unit": "Main Display",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "colour_depth_main_display": {
+        "value": "16M",
+        "unit": "Main Display",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      },
+      "max_refresh_rate_main_display": {
+        "value": "120 Hz",
+        "unit": "Main Display",
+        "source_section": "Display",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "camera": {
+      "rear_camera_resolution_multiple": {
+        "value": "50.0 MP + 12.0 MP + 8.0 MP",
+        "unit": "Multiple",
+        "source_section": "Camera",
+        "verification_status": "source_transcribed"
+      },
+      "rear_camera_f_number_multiple": {
+        "value": "F1.8 , F2.2 , F2.4",
+        "unit": "Multiple",
+        "source_section": "Camera",
+        "verification_status": "source_transcribed"
+      },
+      "rear_camera_auto_focus": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Camera",
+        "verification_status": "source_transcribed"
+      },
+      "rear_camera_ois": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Camera",
+        "verification_status": "source_transcribed"
+      },
+      "rear_camera_zoom": {
+        "value": "Optical Zoom 3x, Optical quality Zoom 2x (Enabled by Adaptive Pixel sensor) , Digital Zoom up to 30x",
+        "unit": null,
+        "source_section": "Camera",
+        "verification_status": "source_transcribed"
+      },
+      "front_camera_resolution": {
+        "value": "12.0 MP",
+        "unit": null,
+        "source_section": "Camera",
+        "verification_status": "source_transcribed"
+      },
+      "front_camera_f_number": {
+        "value": "F2.2",
+        "unit": null,
+        "source_section": "Camera",
+        "verification_status": "source_transcribed"
+      },
+      "front_camera_auto_focus": {
+        "value": "No",
+        "unit": null,
+        "source_section": "Camera",
+        "verification_status": "source_transcribed"
+      },
+      "rear_camera_flash": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Camera",
+        "verification_status": "source_transcribed"
+      },
+      "video_recording_resolution": {
+        "value": "UHD 8K (7680 x 4320) @30fps",
+        "unit": null,
+        "source_section": "Camera",
+        "verification_status": "source_transcribed"
+      },
+      "slow_motion": {
+        "value": "240fps @FHD, 120fps @FHD, 120fps @UHD",
+        "unit": null,
+        "source_section": "Camera",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "storage_memory": {
+      "memory_gb": {
+        "value": "8",
+        "unit": "GB",
+        "source_section": "Storage/Memory",
+        "verification_status": "source_transcribed"
+      },
+      "storage_gb": {
+        "value": "128",
+        "unit": "GB",
+        "source_section": "Storage/Memory",
+        "verification_status": "source_transcribed"
+      },
+      "available_storage_gb": {
+        "value": "102.0",
+        "unit": "GB",
+        "source_section": "Storage/Memory",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "network_bearer": {
+      "number_of_sim": {
+        "value": "Dual-SIM",
+        "unit": null,
+        "source_section": "Network/Bearer",
+        "verification_status": "source_transcribed"
+      },
+      "sim_size": {
+        "value": "Nano-SIM (4FF), Embedded-SIM",
+        "unit": null,
+        "source_section": "Network/Bearer",
+        "verification_status": "source_transcribed"
+      },
+      "sim_slot_type": {
+        "value": "SIM 1 + SIM 2 / SIM 1 + eSIM / Dual eSIM",
+        "unit": null,
+        "source_section": "Network/Bearer",
+        "verification_status": "source_transcribed"
+      },
+      "infra": {
+        "value": "2G GSM, 3G WCDMA, 4G LTE FDD, 4G LTE TDD, 5G Sub6 FDD, 5G Sub6 TDD",
+        "unit": null,
+        "source_section": "Network/Bearer",
+        "verification_status": "source_transcribed"
+      },
+      "2g_gsm": {
+        "value": "GSM850, GSM900, DCS1800, PCS1900",
+        "unit": null,
+        "source_section": "Network/Bearer",
+        "verification_status": "source_transcribed"
+      },
+      "3g_umts": {
+        "value": "B1(2100), B2(1900), B4(AWS), B5(850), B8(900)",
+        "unit": null,
+        "source_section": "Network/Bearer",
+        "verification_status": "source_transcribed"
+      },
+      "4g_fdd_lte": {
+        "value": "B1(2100), B2(1900), B3(1800), B4(AWS), B5(850), B7(2600), B8(900), B12(700), B13(700), B17(700), B18(800), B19(800), B20(800), B25(1900), B26(850), B28(700), B32(1500), B66(AWS-3)",
+        "unit": null,
+        "source_section": "Network/Bearer",
+        "verification_status": "source_transcribed"
+      },
+      "4g_tdd_lte": {
+        "value": "B38(2600), B40(2300), B41(2500)",
+        "unit": null,
+        "source_section": "Network/Bearer",
+        "verification_status": "source_transcribed"
+      },
+      "5g_fdd_sub6": {
+        "value": "N1(2100), N2(1900), N3(1800), N5(850), N7(2600), N8(900), N12(700), N20(800), N25(1900), N26(850), N28(700), N66(AWS-3)",
+        "unit": null,
+        "source_section": "Network/Bearer",
+        "verification_status": "source_transcribed"
+      },
+      "5g_tdd_sub6": {
+        "value": "N38(2600), N40(2300), N41(2500), N77(3700), N78(3500)",
+        "unit": null,
+        "source_section": "Network/Bearer",
+        "verification_status": "source_transcribed"
+      },
+      "5g_sdl_sub6": {
+        "value": "N75(1500+)",
+        "unit": null,
+        "source_section": "Network/Bearer",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "connectivity": {
+      "usb_interface": {
+        "value": "USB Type-C",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "usb_version": {
+        "value": "USB 2.0",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "location_technology": {
+        "value": "GPS, Glonass, Beidou, Galileo, QZSS",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "earjack": {
+        "value": "USB Type-C",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "mhl": {
+        "value": "No",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "wi_fi": {
+        "value": "802.11a/b/g/n/ac/ax 2.4GHz+5GHz+6GHz, HE160, MIMO, 1024-QAM",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "wi_fi_direct": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "bluetooth_version": {
+        "value": "Bluetooth v5.4",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "nfc": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      },
+      "pc_sync": {
+        "value": "Smart Switch (PC version)",
+        "unit": null,
+        "source_section": "Connectivity",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "os": {},
+    "general_information": {
+      "form_factor": {
+        "value": "Touchscreen Bar",
+        "unit": null,
+        "source_section": "General Information",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "sensors": {},
+    "physical_specification": {
+      "dimension_hxwxd_mm": {
+        "value": "161.6 x 76.9 x 7.4",
+        "unit": "HxWxD, mm",
+        "source_section": "Physical specification",
+        "verification_status": "source_transcribed"
+      },
+      "weight_g": {
+        "value": "193",
+        "unit": "g",
+        "source_section": "Physical specification",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "battery": {
+      "video_playback_time_hours": {
+        "value": "Up to 29",
+        "unit": "Hours",
+        "source_section": "Battery",
+        "verification_status": "source_transcribed"
+      },
+      "battery_capacity_mah_typical": {
+        "value": "4900",
+        "unit": "mAh, Typical",
+        "source_section": "Battery",
+        "verification_status": "source_transcribed"
+      },
+      "removable": {
+        "value": "No",
+        "unit": null,
+        "source_section": "Battery",
+        "verification_status": "source_transcribed"
+      },
+      "energy_efficiency_class": {
+        "value": "A",
+        "unit": null,
+        "source_section": "Battery",
+        "verification_status": "source_transcribed"
+      },
+      "minimum_battery_endurance_in_cycles": {
+        "value": "1200",
+        "unit": null,
+        "source_section": "Battery",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "audio_and_video": {
+      "stereo_support": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Audio and Video",
+        "verification_status": "source_transcribed"
+      },
+      "video_playing_format": {
+        "value": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
+        "unit": null,
+        "source_section": "Audio and Video",
+        "verification_status": "source_transcribed"
+      },
+      "video_playing_resolution": {
+        "value": "UHD 8K (7680 x 4320)@60fps",
+        "unit": null,
+        "source_section": "Audio and Video",
+        "verification_status": "source_transcribed"
+      },
+      "audio_playing_format": {
+        "value": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
+        "unit": null,
+        "source_section": "Audio and Video",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "eco_design": {
+      "recycled_content": {
+        "value": "18.34",
+        "unit": "%",
+        "source_section": "ECO Design",
+        "verification_status": "source_transcribed"
+      },
+      "weight_of_critical_raw_material_cobalt_g": {
+        "value": "10 ≤",
+        "unit": "g",
+        "source_section": "ECO Design",
+        "verification_status": "source_transcribed"
+      },
+      "weight_of_critical_raw_material_tantalum_g": {
+        "value": "< 0.01",
+        "unit": "g",
+        "source_section": "ECO Design",
+        "verification_status": "source_transcribed"
+      },
+      "weight_of_critical_raw_material_neodymium_g": {
+        "value": "0.2 ≤",
+        "unit": "g",
+        "source_section": "ECO Design",
+        "verification_status": "source_transcribed"
+      },
+      "weight_of_critical_raw_material_gold_g": {
+        "value": "< 0.02",
+        "unit": "g",
+        "source_section": "ECO Design",
+        "verification_status": "source_transcribed"
+      },
+      "recyclability": {
+        "value": "13.2",
+        "unit": "%",
+        "source_section": "ECO Design",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "power": {
+      "power_required_for_charging_min_max_w": {
+        "value": "10 | 45",
+        "unit": "Min / Max, W",
+        "source_section": "Power",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "services_and_applications": {
+      "gear_support": {
+        "value": "Galaxy Ring, Galaxy Buds Core, Galaxy Buds4 Pro, Galaxy Buds3 Pro, Galaxy Buds2 Pro, Galaxy Buds Pro, Galaxy Buds Live, Galaxy Buds+, Galaxy Buds4, Galaxy Buds3, Galaxy Buds2, Galaxy Buds, Galaxy Buds3 FE, Galaxy Buds FE, Galaxy Fit3, Galaxy Fit2, Galaxy Watch FE, Galaxy Watch Ultra2, Galaxy Watch Ultra, Galaxy Watch9, Galaxy Watch8, Galaxy Watch7, Galaxy Watch6, Galaxy Watch5, Galaxy Watch4, Galaxy Watch3, Galaxy Watch, Galaxy Watch Active2, Galaxy Watch Active",
+        "unit": null,
+        "source_section": "Services and Applications",
+        "verification_status": "source_transcribed"
+      },
+      "samsung_dex_support": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Services and Applications",
+        "verification_status": "source_transcribed"
+      },
+      "bluetooth_hearing_aid_support": {
+        "value": "Android Audio Streaming for Hearing Aid(ASHA)",
+        "unit": null,
+        "source_section": "Services and Applications",
+        "verification_status": "source_transcribed"
+      },
+      "smartthings_support": {
+        "value": "Yes",
+        "unit": null,
+        "source_section": "Services and Applications",
+        "verification_status": "source_transcribed"
+      },
+      "mobile_tv": {
+        "value": "No",
+        "unit": null,
+        "source_section": "Services and Applications",
+        "verification_status": "source_transcribed"
+      }
+    },
+    "software_support": {
+      "security_update_period_valid_until": {
+        "value": "30 September 2033",
+        "unit": "Valid until",
+        "source_section": "Software Support",
+        "verification_status": "source_transcribed"
+      }
+    }
+  },
+  "record_notes": [
+    "Generated by scripts/samsung_slim_ingest.py.",
+    "Specification labels are preserved as Samsung presents them; field names are normalized mechanically from labels.",
+    "No Apple/Samsung equivalence is asserted by this product record."
+  ]
+}

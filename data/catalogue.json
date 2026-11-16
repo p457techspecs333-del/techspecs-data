@@ -4,7 +4,7 @@
   "description": "An independently structured index of product records. Manufacturer and other primary sources are cited as evidence; TechSpecs defines the record identifiers, normalized data model and discovery interface.",
   "purpose": "machine_reading",
   "canonical_host": "https://data.techspecs.dev",
-  "record_count": 364,
+  "record_count": 375,
   "records": [
     {
       "record_id": "apple/accessories/airport-express-802-11n-2nd-generation",
@@ -8012,6 +8012,248 @@
         "source_url": "https://support.apple.com/en-ie/111852",
         "verification_status": "content_verified",
         "checked_at": "2026-11-11"
+      }
+    },
+    {
+      "record_id": "samsung/laptop/galaxy-book5-pro-16-core-ultra-7-16gb-a-copilot-pc",
+      "path": "samsung/laptop/galaxy-book5-pro-16-core-ultra-7-16gb-a-copilot-pc.json",
+      "url": "https://data.techspecs.dev/api/v1/products/samsung/laptop/galaxy-book5-pro-16-core-ultra-7-16gb-a-copilot-pc.json",
+      "legacy_url": "https://data.techspecs.dev/samsung/laptop/galaxy-book5-pro-16-core-ultra-7-16gb-a-copilot-pc.json",
+      "schema_version": "2.0",
+      "brand": "Samsung",
+      "category": "laptop",
+      "family": "Galaxy Book",
+      "model": "Galaxy Book5 Pro (16\", Core Ultra 7, 16GB) a Copilot+ PC",
+      "model_slug": "galaxy-book5-pro-16-core-ultra-7-16gb-a-copilot-pc",
+      "model_year": null,
+      "year_introduced": null,
+      "variant": null,
+      "source": {
+        "source_type": "manufacturer",
+        "publisher": "Samsung Electronics",
+        "source_url": "https://www.samsung.com/ie/computers/galaxy-book/galaxy-book5-pro-16-inch-ultra-7-16gb-512gb-np960xha-kg1uk/",
+        "verification_status": "url_checked",
+        "checked_at": "2026-11-15"
+      }
+    },
+    {
+      "record_id": "samsung/laptop/galaxy-book6-pro-16-core-ultra-7-16gb-a-copilot-pc",
+      "path": "samsung/laptop/galaxy-book6-pro-16-core-ultra-7-16gb-a-copilot-pc.json",
+      "url": "https://data.techspecs.dev/api/v1/products/samsung/laptop/galaxy-book6-pro-16-core-ultra-7-16gb-a-copilot-pc.json",
+      "legacy_url": "https://data.techspecs.dev/samsung/laptop/galaxy-book6-pro-16-core-ultra-7-16gb-a-copilot-pc.json",
+      "schema_version": "2.0",
+      "brand": "Samsung",
+      "category": "laptop",
+      "family": "Galaxy Book",
+      "model": "Galaxy Book6 Pro (16\", Core Ultra 7, 16GB), a Copilot+ PC",
+      "model_slug": "galaxy-book6-pro-16-core-ultra-7-16gb-a-copilot-pc",
+      "model_year": null,
+      "year_introduced": null,
+      "variant": null,
+      "source": {
+        "source_type": "manufacturer",
+        "publisher": "Samsung Electronics",
+        "source_url": "https://www.samsung.com/ie/computers/galaxy-book/galaxy-book6-pro-ultra-7-16gb-512gb-np960xjg-kg4uk/",
+        "verification_status": "url_checked",
+        "checked_at": "2026-11-15"
+      }
+    },
+    {
+      "record_id": "samsung/smartphone/galaxy-s26-fe",
+      "path": "samsung/smartphone/galaxy-s26-fe.json",
+      "url": "https://data.techspecs.dev/api/v1/products/samsung/smartphone/galaxy-s26-fe.json",
+      "legacy_url": "https://data.techspecs.dev/samsung/smartphone/galaxy-s26-fe.json",
+      "schema_version": "2.0",
+      "brand": "Samsung",
+      "category": "smartphone",
+      "family": "Galaxy smartphones",
+      "model": "Galaxy S26 FE",
+      "model_slug": "galaxy-s26-fe",
+      "model_year": null,
+      "year_introduced": null,
+      "variant": null,
+      "source": {
+        "source_type": "manufacturer",
+        "publisher": "Samsung Electronics",
+        "source_url": "https://www.samsung.com/ie/smartphones/galaxy-s/galaxy-s26-fe-pistachio-128gb-sm-s741blgdeub/",
+        "verification_status": "url_checked",
+        "checked_at": "2026-11-15"
+      }
+    },
+    {
+      "record_id": "samsung/smartwatch/galaxy-watch-ultra2",
+      "path": "samsung/smartwatch/galaxy-watch-ultra2.json",
+      "url": "https://data.techspecs.dev/api/v1/products/samsung/smartwatch/galaxy-watch-ultra2.json",
+      "legacy_url": "https://data.techspecs.dev/samsung/smartwatch/galaxy-watch-ultra2.json",
+      "schema_version": "2.0",
+      "brand": "Samsung",
+      "category": "smartwatch",
+      "family": "Galaxy Watch",
+      "model": "Galaxy Watch Ultra2",
+      "model_slug": "galaxy-watch-ultra2",
+      "model_year": null,
+      "year_introduced": null,
+      "variant": null,
+      "source": {
+        "source_type": "manufacturer",
+        "publisher": "Samsung Electronics",
+        "source_url": "https://www.samsung.com/ie/watches/galaxy-watch/galaxy-watch-ultra2-titanium-silver-lte-sm-l715fzsaeub/",
+        "verification_status": "url_checked",
+        "checked_at": "2026-11-15"
+      }
+    },
+    {
+      "record_id": "samsung/smartwatch/galaxy-watch8-classic-bluetooth-46-mm",
+      "path": "samsung/smartwatch/galaxy-watch8-classic-bluetooth-46-mm.json",
+      "url": "https://data.techspecs.dev/api/v1/products/samsung/smartwatch/galaxy-watch8-classic-bluetooth-46-mm.json",
+      "legacy_url": "https://data.techspecs.dev/samsung/smartwatch/galaxy-watch8-classic-bluetooth-46-mm.json",
+      "schema_version": "2.0",
+      "brand": "Samsung",
+      "category": "smartwatch",
+      "family": "Galaxy Watch",
+      "model": "Galaxy Watch8 Classic (Bluetooth, 46 mm)",
+      "model_slug": "galaxy-watch8-classic-bluetooth-46-mm",
+      "model_year": null,
+      "year_introduced": null,
+      "variant": null,
+      "source": {
+        "source_type": "manufacturer",
+        "publisher": "Samsung Electronics",
+        "source_url": "https://www.samsung.com/ie/watches/galaxy-watch/galaxy-watch8-classic-46mm-black-bluetooth-sm-l500nzkaeua/",
+        "verification_status": "url_checked",
+        "checked_at": "2026-11-15"
+      }
+    },
+    {
+      "record_id": "samsung/smartwatch/galaxy-watch9-bluetooth-40-mm",
+      "path": "samsung/smartwatch/galaxy-watch9-bluetooth-40-mm.json",
+      "url": "https://data.techspecs.dev/api/v1/products/samsung/smartwatch/galaxy-watch9-bluetooth-40-mm.json",
+      "legacy_url": "https://data.techspecs.dev/samsung/smartwatch/galaxy-watch9-bluetooth-40-mm.json",
+      "schema_version": "2.0",
+      "brand": "Samsung",
+      "category": "smartwatch",
+      "family": "Galaxy Watch",
+      "model": "Galaxy Watch9 (Bluetooth, 40 mm)",
+      "model_slug": "galaxy-watch9-bluetooth-40-mm",
+      "model_year": null,
+      "year_introduced": null,
+      "variant": null,
+      "source": {
+        "source_type": "manufacturer",
+        "publisher": "Samsung Electronics",
+        "source_url": "https://www.samsung.com/ie/watches/galaxy-watch/galaxy-watch9-40mm-graphite-bluetooth-sm-l340nzkaeub/",
+        "verification_status": "url_checked",
+        "checked_at": "2026-11-15"
+      }
+    },
+    {
+      "record_id": "samsung/tablet/galaxy-tab-a11-8-7",
+      "path": "samsung/tablet/galaxy-tab-a11-8-7.json",
+      "url": "https://data.techspecs.dev/api/v1/products/samsung/tablet/galaxy-tab-a11-8-7.json",
+      "legacy_url": "https://data.techspecs.dev/samsung/tablet/galaxy-tab-a11-8-7.json",
+      "schema_version": "2.0",
+      "brand": "Samsung",
+      "category": "tablet",
+      "family": "Galaxy Tab",
+      "model": "Galaxy Tab A11 (8.7\")",
+      "model_slug": "galaxy-tab-a11-8-7",
+      "model_year": null,
+      "year_introduced": null,
+      "variant": null,
+      "source": {
+        "source_type": "manufacturer",
+        "publisher": "Samsung Electronics",
+        "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-a/galaxy-tab-a11-grey-64gb-wi-fi-sm-x130nzaaeub/",
+        "verification_status": "url_checked",
+        "checked_at": "2026-11-15"
+      }
+    },
+    {
+      "record_id": "samsung/tablet/galaxy-tab-s12-ultra-14-6",
+      "path": "samsung/tablet/galaxy-tab-s12-ultra-14-6.json",
+      "url": "https://data.techspecs.dev/api/v1/products/samsung/tablet/galaxy-tab-s12-ultra-14-6.json",
+      "legacy_url": "https://data.techspecs.dev/samsung/tablet/galaxy-tab-s12-ultra-14-6.json",
+      "schema_version": "2.0",
+      "brand": "Samsung",
+      "category": "tablet",
+      "family": "Galaxy Tab",
+      "model": "Galaxy Tab S12 Ultra (14.6\")",
+      "model_slug": "galaxy-tab-s12-ultra-14-6",
+      "model_year": null,
+      "year_introduced": null,
+      "variant": null,
+      "source": {
+        "source_type": "manufacturer",
+        "publisher": "Samsung Electronics",
+        "source_url": "https://www.samsung.com/ie/tablets/galaxy-tab-s/galaxy-tab-s12-ultra-grey-256gb-sm-x940nzareub/",
+        "verification_status": "url_checked",
+        "checked_at": "2026-11-15"
+      }
+    },
+    {
+      "record_id": "samsung/wireless-earbuds/galaxy-buds3-fe",
+      "path": "samsung/wireless-earbuds/galaxy-buds3-fe.json",
+      "url": "https://data.techspecs.dev/api/v1/products/samsung/wireless-earbuds/galaxy-buds3-fe.json",
+      "legacy_url": "https://data.techspecs.dev/samsung/wireless-earbuds/galaxy-buds3-fe.json",
+      "schema_version": "2.0",
+      "brand": "Samsung",
+      "category": "wireless-earbuds",
+      "family": "Galaxy Buds",
+      "model": "Galaxy Buds3 FE",
+      "model_slug": "galaxy-buds3-fe",
+      "model_year": null,
+      "year_introduced": null,
+      "variant": null,
+      "source": {
+        "source_type": "manufacturer",
+        "publisher": "Samsung Electronics",
+        "source_url": "https://www.samsung.com/ie/audio-sound/galaxy-buds/galaxy-buds3-fe-grey-sm-r420nzaaeua/",
+        "verification_status": "url_checked",
+        "checked_at": "2026-11-15"
+      }
+    },
+    {
+      "record_id": "samsung/wireless-earbuds/galaxy-buds4-pro",
+      "path": "samsung/wireless-earbuds/galaxy-buds4-pro.json",
+      "url": "https://data.techspecs.dev/api/v1/products/samsung/wireless-earbuds/galaxy-buds4-pro.json",
+      "legacy_url": "https://data.techspecs.dev/samsung/wireless-earbuds/galaxy-buds4-pro.json",
+      "schema_version": "2.0",
+      "brand": "Samsung",
+      "category": "wireless-earbuds",
+      "family": "Galaxy Buds",
+      "model": "Galaxy Buds4 Pro",
+      "model_slug": "galaxy-buds4-pro",
+      "model_year": null,
+      "year_introduced": null,
+      "variant": null,
+      "source": {
+        "source_type": "manufacturer",
+        "publisher": "Samsung Electronics",
+        "source_url": "https://www.samsung.com/ie/audio-sound/galaxy-buds/galaxy-buds4-pro-white-sm-r640nzwaeub/",
+        "verification_status": "url_checked",
+        "checked_at": "2026-11-15"
+      }
+    },
+    {
+      "record_id": "samsung/wireless-earbuds/galaxy-buds4",
+      "path": "samsung/wireless-earbuds/galaxy-buds4.json",
+      "url": "https://data.techspecs.dev/api/v1/products/samsung/wireless-earbuds/galaxy-buds4.json",
+      "legacy_url": "https://data.techspecs.dev/samsung/wireless-earbuds/galaxy-buds4.json",
+      "schema_version": "2.0",
+      "brand": "Samsung",
+      "category": "wireless-earbuds",
+      "family": "Galaxy Buds",
+      "model": "Galaxy Buds4",
+      "model_slug": "galaxy-buds4",
+      "model_year": null,
+      "year_introduced": null,
+      "variant": null,
+      "source": {
+        "source_type": "manufacturer",
+        "publisher": "Samsung Electronics",
+        "source_url": "https://www.samsung.com/ie/audio-sound/galaxy-buds/galaxy-buds4-white-sm-r540nzwaeub/",
+        "verification_status": "url_checked",
+        "checked_at": "2026-11-15"
       }
     }
   ]
